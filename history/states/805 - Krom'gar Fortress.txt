@@ -1,0 +1,64 @@
+state = {
+	id = 805
+	name = "WINDSHEAR_PEAK"
+	manpower = 5209
+	state_category = town
+
+	resources = {
+		ground_beast = 8
+		flying_beast = 7
+		wood = 8
+		steel = 7
+		food = 14
+	}
+
+	history = {
+		owner = WIT
+		add_core_of = WIT
+
+        612.1.1 = {
+            set_state_name = KROM_GAR_FORTRESS
+        }
+        
+		buildings = {
+			infrastructure = 7
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 9
+			industrial_complex = 2
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			4650 = {
+				bunker = 7
+			}
+			4670 = {
+				bunker = 3
+			}
+			4678 = {
+				bunker = 1
+			}
+			4705 = {
+				bunker = 1
+			}
+			4740 = {
+				bunker = 5
+			}
+			4776 = {
+				bunker = 5
+			}
+		}
+	}
+
+	provinces = {
+        4650 4670 4678 4705 4740 4776 
+    }
+}

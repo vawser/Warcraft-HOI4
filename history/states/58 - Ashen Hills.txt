@@ -1,0 +1,25 @@
+state = {
+	id = 58
+	name = "ASHEN_HILLS"
+	manpower = 21
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = RED
+
+        # The Second War
+        597.1.1 = {
+            owner = TTH
+        }
+        # The Third War
+        612.1.1 = {
+            owner = RRP
+        }
+        
+	}
+
+	provinces = {
+        1833 1887 2642 2703 
+    }
+}

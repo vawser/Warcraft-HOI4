@@ -1,0 +1,57 @@
+state = {
+	id = 372
+	name = "GURTHAN_BATTLEFIELD"
+	manpower = 769
+	state_category = rural
+
+	resources = {
+		oil = 4
+		flying_beast = 1
+		wood = 7
+		steel = 14
+		food = 12
+	}
+
+	history = {
+		owner = MAN
+		add_core_of = MAN
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 2
+			industrial_complex = 2
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			6569 = {
+				bunker = 0
+			}
+			6578 = {
+				bunker = 0
+			}
+			6584 = {
+				bunker = 0
+			}
+			6591 = {
+				bunker = 0
+			}
+			6609 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        6569 6578 6584 6591 6609
+    }
+}

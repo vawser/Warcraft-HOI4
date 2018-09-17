@@ -1,0 +1,58 @@
+state = {
+	id = 828
+	name = "HONORS_STAND"
+	manpower = 1616
+	state_category = village
+
+	resources = {
+		oil = 1
+		ground_beast = 8
+		flying_beast = 2
+		wood = 6
+		steel = 14
+		food = 10
+	}
+
+	history = {
+		owner = WIW
+		add_core_of = WIW
+
+		buildings = {
+			infrastructure = 2
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 5
+			industrial_complex = 2
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			4130 = {
+				bunker = 0
+			}
+			4138 = {
+				bunker = 0
+			}
+			4149 = {
+				bunker = 0
+			}
+			4221 = {
+				bunker = 0
+			}
+			4976 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        4130 4138 4149 4221 4976 
+    }
+}

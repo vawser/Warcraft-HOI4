@@ -1,0 +1,93 @@
+state = {
+	id = 49
+	name = "STORMWIND_HARBOUR"
+	manpower = 12671
+	state_category = city
+
+	resources = {
+		ground_beast = 13
+		flying_beast = 15
+		wood = 1
+		steel = 10
+		food = 13
+	}
+
+	history = {
+        victory_points = {
+            1939 10
+        }
+        
+		owner = SRW
+        add_core_of = SRW
+
+        # The Second War
+        597.1.1 = {
+            owner = TTH
+            add_core_of = TTH
+        }
+        # The Third War
+        612.1.1 = {
+            owner = SRW
+            add_core_of = SRW
+        }
+        
+		buildings = {
+			infrastructure = 8
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 8
+			industrial_complex = 4
+			dockyard = 2
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			1935 = {
+				bunker = 3
+				coastal_bunker = 6
+				naval_base = 5
+			}
+			1939 = {
+				bunker = 4
+				coastal_bunker = 1
+				naval_base = 6
+			}
+			1942 = {
+				bunker = 8
+				coastal_bunker = 2
+				naval_base = 5
+			}
+			1953 = {
+				bunker = 3
+				coastal_bunker = 8
+				naval_base = 7
+			}
+			2999 = {
+				bunker = 9
+			}
+			3051 = {
+				bunker = 5
+			}
+			7334 = {
+				bunker = 3
+			}
+			7335 = {
+				bunker = 6
+			}
+		}
+	}
+
+	provinces = {
+        1935 1939 1942 1953 2999 3051 7334 7335
+    }
+}

@@ -1,0 +1,15 @@
+state = {
+	id = 939
+	name = "ASHENVALE_SLOPE"
+	manpower = 46
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = SEN
+	}
+
+	provinces = {
+        4328 4344 4382 4402 4419 
+    }
+}

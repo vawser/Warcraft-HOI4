@@ -1,0 +1,62 @@
+state = {
+	id = 918
+	name = "ZORAMGAR_OUTPOST"
+	manpower = 4965
+	state_category = village
+
+	resources = {
+		oil = 3
+		ground_beast = 2
+		flying_beast = 3
+		wood = 1
+		steel = 3
+		food = 16
+	}
+
+	history = {
+		owner = WRT
+		add_core_of = WRT
+
+		buildings = {
+			infrastructure = 2
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 3
+			industrial_complex = 4
+			dockyard = 2
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			3335 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 2
+			}
+			3339 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 5
+			}
+			3341 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 7
+			}
+		}
+	}
+
+	provinces = {
+        3335 3339 3341 
+    }
+}

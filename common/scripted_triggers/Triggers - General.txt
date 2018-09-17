@@ -1,0 +1,60 @@
+#-------------------------------------------------------------------------------
+# General
+#-------------------------------------------------------------------------------
+# These are general triggers used in various places.
+
+has_low_manpower = {
+    has_manpower < 1000
+}
+
+has_decent_manpower = {
+    has_manpower > 5000
+}
+
+has_high_manpower = {
+    has_manpower > 10000
+}
+
+has_very_high_manpower = {
+    has_manpower > 20000
+}
+
+has_low_manpower_factory_ratio = {
+    manpower_per_military_factory < 50
+}
+
+has_high_manpower_factory_ratio = {
+    manpower_per_military_factory > 50
+}
+
+can_add_wargoal_on_neighbor = {
+    any_neighbor_country = {
+        NOT = { is_in_faction_with = ROOT }
+        has_opinion = {
+            target = ROOT
+            value < 0
+        }
+        ROOT = { NOT = { has_wargoal_against = PREV } }
+    }
+}
+
+is_first_war_period = {
+    date > 592.1.1
+}
+
+is_second_war_period = {
+    date > 597.1.1
+}
+
+is_third_war_period = {
+    date > 612.1.1
+}
+
+is_swarm_nation = {
+    OR = {
+        original_tag = AQJ
+        original_tag = AZJ
+        original_tag = MAN
+        original_tag = SCO
+    }
+}

@@ -1,0 +1,66 @@
+state = {
+	id = 552
+	name = "VIOLET_COPSE"
+	manpower = 846
+	state_category = rural
+
+	resources = {
+		ground_beast = 8
+		flying_beast = 4
+		wood = 11
+		steel = 8
+		food = 13
+	}
+
+	history = {
+		owner = UNB
+		add_core_of = UNB
+
+        # The Third War
+        612.1.1 = {
+            owner = SCO
+            add_core_of = SCO
+        }
+        
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 3
+			industrial_complex = 1
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			5630 = {
+				bunker = 0
+			}
+			5638 = {
+				bunker = 0
+			}
+			5639 = {
+				bunker = 0
+			}
+			5698 = {
+				bunker = 0
+			}
+			5700 = {
+				bunker = 0
+			}
+			5769 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        5630 5638 5639 5698 5700 5769 
+    }
+}

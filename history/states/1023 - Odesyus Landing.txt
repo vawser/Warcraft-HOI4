@@ -1,0 +1,74 @@
+state = {
+	id = 1023
+	name = "ODESYUS_LANDING"
+	manpower = 903
+	state_category = rural
+
+	resources = {
+		oil = 3
+		ground_beast = 9
+		flying_beast = 3
+		wood = 14
+		steel = 6
+		food = 19
+	}
+
+	history = {
+        owner = BMB
+		add_core_of = BMB
+        
+        612.1.1 = {
+            owner = EXO
+            add_core_of = EXO
+        }
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 1
+			industrial_complex = 2
+			dockyard = 1
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			6946 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 5
+			}
+			6952 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 2
+			}
+			6988 = {
+				bunker = 0
+			}
+			6996 = {
+				bunker = 0
+			}
+			7033 = {
+				bunker = 0
+			}
+			7037 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        6946 6952 6988 6996 7033 7037
+    }
+}

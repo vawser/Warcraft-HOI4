@@ -1,0 +1,73 @@
+state = {
+	id = 44
+	name = "GOLDSHIRE"
+	manpower = 15884
+	state_category = city
+
+	resources = {
+		oil = 2
+		ground_beast = 17
+		flying_beast = 14
+		wood = 6
+		steel = 13
+		food = 25
+	}
+
+	history = {
+        victory_points = {
+            2345 10
+        }
+        
+		owner = SRW
+        add_core_of = SRW
+
+        # The Second War
+        597.1.1 = {
+            owner = TTH
+            add_core_of = TTH
+        }
+        # The Third War
+        612.1.1 = {
+            owner = SRW
+            add_core_of = SRW
+        }
+        
+		buildings = {
+			infrastructure = 9
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 10
+			industrial_complex = 4
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			2345 = {
+				bunker = 6
+			}
+			2395 = {
+				bunker = 5
+			}
+			2971 = {
+				bunker = 1
+			}
+			3000 = {
+				bunker = 9
+			}
+			3025 = {
+				bunker = 5
+			}
+		}
+	}
+
+	provinces = {
+        2345 2395 2971 3000 3025 
+    }
+}

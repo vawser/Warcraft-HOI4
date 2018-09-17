@@ -1,0 +1,63 @@
+state = {
+	id = 172
+	name = "TARREN_MILL"
+	manpower = 6090
+	state_category = town
+
+	resources = {
+		ground_beast = 9
+		flying_beast = 2
+		wood = 4
+		steel = 1
+		food = 29
+	}
+
+	history = {
+		owner = SOU
+        add_core_of = SOU
+
+		buildings = {
+			infrastructure = 7
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 6
+			industrial_complex = 6
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			2822 = {
+				bunker = 4
+			}
+			2851 = {
+				bunker = 6
+			}
+			2876 = {
+				bunker = 4
+			}
+			2877 = {
+				bunker = 5
+			}
+			2951 = {
+				bunker = 6
+			}
+			2978 = {
+				bunker = 8
+			}
+			3005 = {
+				bunker = 6
+			}
+		}
+	}
+
+	provinces = {
+        2822 2851 2876 2877 2951 2978 3005
+    }
+}

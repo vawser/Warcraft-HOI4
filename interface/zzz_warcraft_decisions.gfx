@@ -1,0 +1,177 @@
+spriteTypes = {	
+    spriteType = {
+		name = "GFX_decision_category_bronze_medal"
+		texturefile = "gfx/decisions/bronze_medal.dds"
+	}
+    spriteType = {
+		name = "GFX_decision_category_silver_medal"
+		texturefile = "gfx/decisions/silver_medal.dds"
+	}
+    spriteType = {
+		name = "GFX_decision_category_gold_medal"
+		texturefile = "gfx/decisions/gold_medal.dds"
+	}
+    spriteType = {
+		name = "GFX_decision_category_platinum_medal"
+		texturefile = "gfx/decisions/platinum_medal.dds"
+	}
+    spriteType = {
+		name = "GFX_decision_category_gold_emblem"
+		texturefile = "gfx/decisions/gold_emblem.dds"
+	}
+    spriteType = {
+		name = "GFX_decision_category_lock"
+		texturefile = "gfx/decisions/lock.dds"
+	}
+    spriteType = {
+		name = "GFX_decision_category_yellow_quest_mark"
+		texturefile = "gfx/decisions/yellow_quest_mark.dds"
+	}
+    spriteType = {
+		name = "GFX_decision_category_blue_quest_mark"
+		texturefile = "gfx/decisions/blue_quest_mark.dds"
+	}
+    spriteType = {
+		name = "GFX_decision_category_swords"
+		texturefile = "gfx/decisions/swords.dds"
+	}
+    spriteType = {
+		name = "GFX_decision_category_shovel"
+		texturefile = "gfx/decisions/shovel.dds"
+	}
+    spriteType = {
+		name = "GFX_decision_category_alliance"
+		texturefile = "gfx/decisions/alliance.dds"
+	}
+    spriteType = {
+		name = "GFX_decision_category_horde"
+		texturefile = "gfx/decisions/horde.dds"
+	}
+    spriteType = {
+		name = "GFX_decision_category_heart"
+		texturefile = "gfx/decisions/heart.dds"
+	}
+    spriteType = {
+		name = "GFX_decision_category_mana_orb"
+		texturefile = "gfx/decisions/mana_orb.dds"
+	}
+    spriteType = {
+		name = "GFX_decision_category_human_fist"
+		texturefile = "gfx/decisions/human_fist.dds"
+	}
+    spriteType = {
+		name = "GFX_decision_category_orc_fist"
+		texturefile = "gfx/decisions/orc_fist.dds"
+	}
+    spriteType = {
+		name = "GFX_decision_category_warning"
+		texturefile = "gfx/decisions/warning.dds"
+	}
+    
+    # Religions
+    spriteType = {
+		name = "GFX_decision_category_the_holy_light"
+		texturefile = "gfx/decisions/religion_the_holy_light.dds"
+	}
+    spriteType = {
+		name = "GFX_decision_category_elune"
+		texturefile = "gfx/decisions/religion_elune.dds"
+	}
+    spriteType = {
+		name = "GFX_decision_category_hakkar"
+		texturefile = "gfx/decisions/religion_hakkar.dds"
+	}
+    spriteType = {
+		name = "GFX_decision_category_voodoo"
+		texturefile = "gfx/decisions/religion_voodoo.dds"
+	}
+    spriteType = {
+		name = "GFX_decision_category_shadow"
+		texturefile = "gfx/decisions/religion_shadow.dds"
+	}
+    spriteType = {
+		name = "GFX_decision_category_nature"
+		texturefile = "gfx/decisions/religion_nature.dds"
+	}
+    spriteType = {
+		name = "GFX_decision_category_deep_mother"
+		texturefile = "gfx/decisions/religion_deep_mother.dds"
+	}
+    spriteType = {
+		name = "GFX_decision_category_arcane"
+		texturefile = "gfx/decisions/religion_arcane.dds"
+	}
+    spriteType = {
+		name = "GFX_decision_category_druidism"
+		texturefile = "gfx/decisions/religion_druidism.dds"
+	}
+    spriteType = {
+		name = "GFX_decision_category_old_gods"
+		texturefile = "gfx/decisions/religion_old_gods.dds"
+	}
+    spriteType = {
+		name = "GFX_decision_category_fel"
+		texturefile = "gfx/decisions/religion_fel.dds"
+	}
+    spriteType = {
+		name = "GFX_decision_category_necromancy"
+		texturefile = "gfx/decisions/religion_necromancy.dds"
+	}
+    spriteType = {
+		name = "GFX_decision_category_shamanism"
+		texturefile = "gfx/decisions/religion_shamanism.dds"
+	}
+    spriteType = {
+		name = "GFX_decision_category_celestials"
+		texturefile = "gfx/decisions/religion_celestials.dds"
+	}
+    spriteType = {
+		name = "GFX_decision_category_titan"
+		texturefile = "gfx/decisions/religion_titan.dds"
+	}
+    spriteType = {
+		name = "GFX_decision_category_fire"
+		texturefile = "gfx/decisions/religion_fire.dds"
+	}
+    spriteType = {
+		name = "GFX_decision_category_earth"
+		texturefile = "gfx/decisions/religion_earth.dds"
+	}
+    spriteType = {
+		name = "GFX_decision_category_wind"
+		texturefile = "gfx/decisions/religion_wind.dds"
+	}
+    spriteType = {
+		name = "GFX_decision_category_water"
+		texturefile = "gfx/decisions/religion_water.dds"
+	}
+    spriteType = {
+		name = "GFX_decision_category_geomancy"
+		texturefile = "gfx/decisions/religion_geomancy.dds"
+	}
+    spriteType = {
+		name = "GFX_decision_category_light_of_the_naaru"
+		texturefile = "gfx/decisions/religion_light_of_the_naaru.dds"
+	}
+    spriteType = {
+		name = "GFX_decision_category_dragon_aspects"
+		texturefile = "gfx/decisions/religion_dragon_aspects.dds"
+	}
+    spriteType = {
+		name = "GFX_decision_category_technomancy"
+		texturefile = "gfx/decisions/religion_technomancy.dds"
+	}
+    spriteType = {
+		name = "GFX_decision_category_capitalism"
+		texturefile = "gfx/decisions/religion_capitalism.dds"
+	}
+    spriteType = {
+		name = "GFX_decision_category_soul"
+		texturefile = "gfx/decisions/religion_soul.dds"
+	}
+    spriteType = {
+		name = "GFX_decision_category_runic"
+		texturefile = "gfx/decisions/religion_runic.dds"
+	}
+}
+

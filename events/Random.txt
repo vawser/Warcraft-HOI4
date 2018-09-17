@@ -1,0 +1,79 @@
+﻿add_namespace = random_events
+
+# Upset in the Provinces
+# A group of provincal [Root.GetRacePluralLowercase] have become discontent with the leadership of [Root.GetLeader]. Without adaquate persuasion, it is likely they will revolt and damage our industry.
+# Persuade them to step down
+# Ignore their plight
+country_event = {
+	id = random_events.1
+	title = random_events.1.title
+	desc = random_events.1.desc
+	picture = GFX_event_DEADMINES
+
+	trigger = {
+        has_political_power > 49
+    }
+	
+    immediate = {
+        hidden_effect = {
+            random_owned_state = {
+                save_event_target_as = random_state
+            }
+        }
+    }
+    
+    mean_time_to_happen = {
+        days = 3650
+    }
+    
+    option = {
+		name = random_events.1.option.a
+
+        add_political_power = -50
+	}
+    
+	option = {
+		name = random_events.1.option.b
+
+        event_target:random_state = {
+            damage_building = {
+                type = arms_factory
+                damage = 1.0
+            }
+            damage_building = {
+                type = industrial_complex
+                damage = 1.0
+            }
+        }
+	}
+}
+
+# A Steamy Inn
+# A provincal inn within our lands has become known for it's elicit nature, and rumours are it provides sexual services for those who seek such carnal desires. Reports by our guards have finally confirmed these rumours, and action should be taken before this business gets out of hand.
+# Shut down the inn
+# Accept bribes from the innkeep
+country_event = {
+	id = random_events.2
+	title = random_events.2.title
+	desc = random_events.2.desc
+	picture = GFX_event_SHADOWFANG_KEEP
+
+	trigger = {
+        is_civil = yes
+    }
+    
+    mean_time_to_happen = {
+        days = 3650
+    }
+    
+    option = {
+		name = random_events.2.option.a
+
+        add_stability = 0.1
+	}
+    option = {
+		name = random_events.2.option.b
+
+        add_political_power = 50
+	}
+}

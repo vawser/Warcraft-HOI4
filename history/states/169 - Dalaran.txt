@@ -1,0 +1,52 @@
+state = {
+	id = 169
+	name = "DALARAN"
+	manpower = 7228
+	state_category = town
+
+	resources = {
+		oil = 4
+		ground_beast = 1
+		flying_beast = 7
+		wood = 4
+		steel = 8
+		food = 27
+	}
+
+	history = {
+		owner = DAL
+        add_core_of = DAL
+
+		buildings = {
+			infrastructure = 7
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 8
+			industrial_complex = 3
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			3006 = {
+				bunker = 9
+			}
+			3031 = {
+				bunker = 1
+			}
+			3056 = {
+				bunker = 4
+			}
+		}
+	}
+
+	provinces = {
+        3006 3031 3056 
+    }
+}

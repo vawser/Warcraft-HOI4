@@ -1,0 +1,72 @@
+state = {
+	id = 300
+	name = "MOONWATER_ISLES"
+	manpower = 472
+	state_category = island
+
+	resources = {
+		oil = 3
+		ground_beast = 3
+		flying_beast = 5
+		wood = 6
+		steel = 14
+		food = 10
+	}
+
+	history = {
+		owner = JAS
+		add_core_of = JAS
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 1
+			industrial_complex = 2
+			dockyard = 0
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			6307 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 3
+			}
+			6314 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 4
+			}
+			6320 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 9
+			}
+			6328 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 7
+			}
+			6375 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 7
+			}
+		}
+	}
+
+	provinces = {
+        6307 6314 6320 6328 6375 
+    }
+}

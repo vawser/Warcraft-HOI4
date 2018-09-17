@@ -1,0 +1,287 @@
+defined_text = { 
+	name = GetRacePluralLowercase
+
+    text = {
+		trigger = {
+			is_human = yes
+		}
+		localization_key = HUMANS_L
+	}
+    text = {
+		trigger = {
+			is_aqir = yes
+		}
+		localization_key = QIRAJI_L
+	}
+    text = {
+		trigger = {
+			is_centaur = yes
+		}
+		localization_key = CENTAURS_L
+	}
+    text = {
+		trigger = {
+			is_draenei = yes
+		}
+		localization_key = DRAENEI_L
+	}
+    text = {
+		trigger = {
+			is_dragonflight = yes
+		}
+		localization_key = DRAGONKIN_L
+	}
+    text = {
+		trigger = {
+			is_dwarf = yes
+		}
+		localization_key = DWARVES_L
+	}
+    text = {
+		trigger = {
+			is_earthern = yes
+		}
+		localization_key = EARTHEN_L
+	}
+    text = {
+		trigger = {
+			is_dryad = yes
+		}
+		localization_key = DRYADS_L
+	}
+    text = {
+		trigger = {
+			is_high_elf = yes
+		}
+		localization_key = HIGH_ELVES_L
+	}
+    text = {
+		trigger = {
+			is_blood_elf = yes
+		}
+		localization_key = BLOOD_ELVES_L
+	}
+    text = {
+		trigger = {
+			is_night_elf = yes
+		}
+		localization_key = NIGHT_ELVES_L
+	}
+    text = {
+		trigger = {
+			is_nightborne = yes
+		}
+		localization_key = NIGHTBORNE_L
+	}
+    text = {
+		trigger = {
+			is_furbolg = yes
+		}
+		localization_key = FURBOLGS_L
+	}
+    text = {
+		trigger = {
+			is_gnoll = yes
+		}
+		localization_key = GNOLLS_L
+	}
+    text = {
+		trigger = {
+			is_gnome = yes
+		}
+		localization_key = GNOMES_L
+	}
+    text = {
+		trigger = {
+			is_goblin = yes
+		}
+		localization_key = GOBLINS_L
+	}
+    text = {
+		trigger = {
+			is_gorloc = yes
+		}
+		localization_key = GORLOCS_L
+	}
+    text = {
+		trigger = {
+			is_harpy = yes
+		}
+		localization_key = HARPIES_L
+	}
+    text = {
+		trigger = {
+			is_hozen = yes
+		}
+		localization_key = HOZEN_L
+	}
+    text = {
+		trigger = {
+			is_kobold = yes
+		}
+		localization_key = KOBOLDS_L
+	}
+    text = {
+		trigger = {
+			is_magnataur = yes
+		}
+		localization_key = MAGNATAURS_L
+	}
+    text = {
+		trigger = {
+			is_mantid = yes
+		}
+		localization_key = MANTID_L
+	}
+    text = {
+		trigger = {
+			is_mogu = yes
+		}
+		localization_key = MOGU_L
+	}
+    text = {
+		trigger = {
+			is_murloc = yes
+		}
+		localization_key = MURLOCS_L
+	}
+    text = {
+		trigger = {
+			is_nerubian = yes
+		}
+		localization_key = NERUBIANS_L
+	}
+    text = {
+		trigger = {
+			is_naga = yes
+		}
+		localization_key = NAGA_L
+	}
+    text = {
+		trigger = {
+			is_ogre = yes
+		}
+		localization_key = OGRES_L
+	}
+    text = {
+		trigger = {
+			is_orc = yes
+		}
+		localization_key = ORCS_L
+	}
+    text = {
+		trigger = {
+			is_pandaren = yes
+		}
+		localization_key = PANDAREN_L
+	}
+    text = {
+		trigger = {
+			is_pygmy = yes
+		}
+		localization_key = PYGMIES_L
+	}
+    text = {
+		trigger = {
+			is_quillboar = yes
+		}
+		localization_key = QUILLBOARS_L
+	}
+    text = {
+		trigger = {
+			is_satyr = yes
+		}
+		localization_key = SATYRS_L
+	}
+    text = {
+		trigger = {
+			is_saurok = yes
+		}
+		localization_key = SAUROK_L
+	}
+    text = {
+		trigger = {
+			is_scourge = yes
+		}
+		localization_key = SCOURGE_L
+	}
+    text = {
+		trigger = {
+			is_sprite = yes
+		}
+		localization_key = SPRITES_L
+	}
+    text = {
+		trigger = {
+			is_tauren = yes
+		}
+		localization_key = TAUREN_L
+	}
+    text = {
+		trigger = {
+			is_taunka = yes
+		}
+		localization_key = TAUNKA_L
+	}
+    text = {
+		trigger = {
+			is_tolvir = yes
+		}
+		localization_key = TOLVIR_L
+	}
+    text = {
+		trigger = {
+			is_titan = yes
+		}
+		localization_key = TITANS_L
+	}
+    text = {
+		trigger = {
+			is_trogg = yes
+		}
+		localization_key = TROGGS_L
+	}
+    text = {
+		trigger = {
+			is_troll = yes
+		}
+		localization_key = TROLLS_L
+	}
+    text = {
+		trigger = {
+			is_tuskarr = yes
+		}
+		localization_key = TUSKARR_L
+	}
+    text = {
+		trigger = {
+			is_undead = yes
+		}
+		localization_key = UNDEAD_L
+	}
+    text = {
+		trigger = {
+			is_vrykul = yes
+		}
+		localization_key = VRYKUL_L
+	}
+    text = {
+		trigger = {
+			is_wolvar = yes
+		}
+		localization_key = WOLVARS_L
+	}
+    text = {
+		trigger = {
+			is_yaungol = yes
+		}
+		localization_key = YAUNGOL_L
+	}
+    
+    text = {
+		localization_key = ""
+	}
+}
+
+
+

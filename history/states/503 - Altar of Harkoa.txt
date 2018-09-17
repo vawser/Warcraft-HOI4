@@ -1,0 +1,60 @@
+state = {
+	id = 503
+	name = "ALTAR_OF_HARKOA"
+	manpower = 894
+	state_category = rural
+
+	resources = {
+		ground_beast = 2
+		flying_beast = 6
+		wood = 29
+		steel = 1
+		food = 10
+	}
+
+	history = {
+		owner = DAK
+		add_core_of = DAK
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 1
+			industrial_complex = 0
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			5712 = {
+				bunker = 0
+			}
+			5724 = {
+				bunker = 0
+			}
+			5736 = {
+				bunker = 0
+			}
+			5747 = {
+				bunker = 0
+			}
+			5791 = {
+				bunker = 0
+			}
+			5801 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        5712 5724 5736 5747 5791 5801 
+    }
+}

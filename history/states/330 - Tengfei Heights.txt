@@ -1,0 +1,15 @@
+state = {
+	id = 330
+	name = "TENGFEI_HEIGHTS"
+	manpower = 11
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = JAS
+	}
+
+	provinces = {
+        6496 6786 6798 
+    }
+}

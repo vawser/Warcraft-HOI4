@@ -1,0 +1,77 @@
+state = {
+	id = 218
+	name = "NEW_AVALON"
+	manpower = 13958
+	state_category = city
+
+	resources = {
+		oil = 4
+		ground_beast = 18
+		flying_beast = 14
+		steel = 14
+		food = 21
+	}
+
+	history = {
+		owner = STR
+        add_core_of = STR
+
+        victory_points = {
+            2794 15
+        }
+        
+		buildings = {
+			infrastructure = 8
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 5
+			industrial_complex = 5
+			dockyard = 4
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			1910 = {
+				bunker = 2
+				coastal_bunker = 7
+				naval_base = 7
+			}
+			1911 = {
+				bunker = 6
+				coastal_bunker = 6
+				naval_base = 8
+			}
+			1912 = {
+				bunker = 9
+				coastal_bunker = 2
+				naval_base = 5
+			}
+			2786 = {
+				bunker = 3
+			}
+			2793 = {
+				bunker = 6
+			}
+			2794 = {
+				bunker = 9
+			}
+			2795 = {
+				bunker = 7
+			}
+		}
+	}
+
+	provinces = {
+        1910 1911 1912 2786 2793 2794 2795 
+    }
+}

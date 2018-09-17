@@ -1,0 +1,63 @@
+state = {
+	id = 470
+	name = "EMBER_CLUTH"
+	manpower = 611
+	state_category = rural
+
+	resources = {
+		oil = 3
+		flying_beast = 9
+		wood = 27
+		steel = 4
+		food = 12
+	}
+
+	history = {
+		owner = DGF
+		add_core_of = DGF
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 1
+			industrial_complex = 2
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			5744 = {
+				bunker = 0
+			}
+			5756 = {
+				bunker = 0
+			}
+			5768 = {
+				bunker = 0
+			}
+			5778 = {
+				bunker = 0
+			}
+			5788 = {
+				bunker = 0
+			}
+			6225 = {
+				bunker = 0
+			}
+			6249 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        5744 5756 5768 5778 5788 6225 6249 
+    }
+}

@@ -1,0 +1,114 @@
+MTD = {
+	army = {
+		male = {
+			"gfx/leaders/SAUROK/saurok_1.dds"
+			"gfx/leaders/SAUROK/saurok_2.dds"
+			"gfx/leaders/SAUROK/saurok_3.dds"
+			"gfx/leaders/SAUROK/saurok_4.dds"
+			"gfx/leaders/SAUROK/saurok_5.dds"
+			"gfx/leaders/SAUROK/saurok_6.dds"
+			"gfx/leaders/SAUROK/saurok_7.dds"
+			"gfx/leaders/SAUROK/saurok_8.dds"
+		}
+	}
+
+	navy = {
+		male = {
+			"gfx/leaders/SAUROK/saurok_1.dds"
+			"gfx/leaders/SAUROK/saurok_2.dds"
+			"gfx/leaders/SAUROK/saurok_3.dds"
+			"gfx/leaders/SAUROK/saurok_4.dds"
+			"gfx/leaders/SAUROK/saurok_5.dds"
+			"gfx/leaders/SAUROK/saurok_6.dds"
+			"gfx/leaders/SAUROK/saurok_7.dds"
+			"gfx/leaders/SAUROK/saurok_8.dds"
+		}
+	}
+
+	political = {
+		light = {
+			male = {
+                "gfx/leaders/SAUROK/saurok_1.dds"
+                "gfx/leaders/SAUROK/saurok_2.dds"
+                "gfx/leaders/SAUROK/saurok_3.dds"
+                "gfx/leaders/SAUROK/saurok_4.dds"
+                "gfx/leaders/SAUROK/saurok_5.dds"
+                "gfx/leaders/SAUROK/saurok_6.dds"
+                "gfx/leaders/SAUROK/saurok_7.dds"
+                "gfx/leaders/SAUROK/saurok_8.dds"
+            }
+		}
+		shadow = {
+			male = {
+                "gfx/leaders/SAUROK/saurok_1.dds"
+                "gfx/leaders/SAUROK/saurok_2.dds"
+                "gfx/leaders/SAUROK/saurok_3.dds"
+                "gfx/leaders/SAUROK/saurok_4.dds"
+                "gfx/leaders/SAUROK/saurok_5.dds"
+                "gfx/leaders/SAUROK/saurok_6.dds"
+                "gfx/leaders/SAUROK/saurok_7.dds"
+                "gfx/leaders/SAUROK/saurok_8.dds"
+            }
+		}
+        order = {
+			male = {
+                "gfx/leaders/SAUROK/saurok_1.dds"
+                "gfx/leaders/SAUROK/saurok_2.dds"
+                "gfx/leaders/SAUROK/saurok_3.dds"
+                "gfx/leaders/SAUROK/saurok_4.dds"
+                "gfx/leaders/SAUROK/saurok_5.dds"
+                "gfx/leaders/SAUROK/saurok_6.dds"
+                "gfx/leaders/SAUROK/saurok_7.dds"
+                "gfx/leaders/SAUROK/saurok_8.dds"
+            }
+		}
+        disorder = {
+			male = {
+                "gfx/leaders/SAUROK/saurok_1.dds"
+                "gfx/leaders/SAUROK/saurok_2.dds"
+                "gfx/leaders/SAUROK/saurok_3.dds"
+                "gfx/leaders/SAUROK/saurok_4.dds"
+                "gfx/leaders/SAUROK/saurok_5.dds"
+                "gfx/leaders/SAUROK/saurok_6.dds"
+                "gfx/leaders/SAUROK/saurok_7.dds"
+                "gfx/leaders/SAUROK/saurok_8.dds"
+            }
+		}
+        life = {
+			male = {
+                "gfx/leaders/SAUROK/saurok_1.dds"
+                "gfx/leaders/SAUROK/saurok_2.dds"
+                "gfx/leaders/SAUROK/saurok_3.dds"
+                "gfx/leaders/SAUROK/saurok_4.dds"
+                "gfx/leaders/SAUROK/saurok_5.dds"
+                "gfx/leaders/SAUROK/saurok_6.dds"
+                "gfx/leaders/SAUROK/saurok_7.dds"
+                "gfx/leaders/SAUROK/saurok_8.dds"
+            }
+		}
+        death = {
+			male = {
+                "gfx/leaders/SAUROK/saurok_1.dds"
+                "gfx/leaders/SAUROK/saurok_2.dds"
+                "gfx/leaders/SAUROK/saurok_3.dds"
+                "gfx/leaders/SAUROK/saurok_4.dds"
+                "gfx/leaders/SAUROK/saurok_5.dds"
+                "gfx/leaders/SAUROK/saurok_6.dds"
+                "gfx/leaders/SAUROK/saurok_7.dds"
+                "gfx/leaders/SAUROK/saurok_8.dds"
+            }
+		}
+        unaligned = {
+			male = {
+                "gfx/leaders/SAUROK/saurok_1.dds"
+                "gfx/leaders/SAUROK/saurok_2.dds"
+                "gfx/leaders/SAUROK/saurok_3.dds"
+                "gfx/leaders/SAUROK/saurok_4.dds"
+                "gfx/leaders/SAUROK/saurok_5.dds"
+                "gfx/leaders/SAUROK/saurok_6.dds"
+                "gfx/leaders/SAUROK/saurok_7.dds"
+                "gfx/leaders/SAUROK/saurok_8.dds"
+            }
+		}
+	}
+}

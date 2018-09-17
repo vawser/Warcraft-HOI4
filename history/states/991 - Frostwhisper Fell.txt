@@ -1,0 +1,56 @@
+state = {
+	id = 991
+	name = "FROSTWHISPER_FELL"
+	manpower = 685
+	state_category = rural
+
+	resources = {
+		oil = 2
+		flying_beast = 6
+		steel = 5
+		food = 13
+	}
+
+	history = {
+		owner = WTA
+		add_core_of = WTA
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 1
+			industrial_complex = 2
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			4857 = {
+				bunker = 0
+			}
+			4861 = {
+				bunker = 0
+			}
+			4874 = {
+				bunker = 0
+			}
+			4902 = {
+				bunker = 0
+			}
+			4903 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        4857 4861 4874 4902 4903 
+    }
+}

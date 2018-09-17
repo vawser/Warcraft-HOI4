@@ -1,0 +1,45 @@
+# battleship
+# submarine
+# cruiser
+# destroyer
+sub_units = {
+    cruiser = {
+		sprite = battle_cruiser
+		map_icon_category = ship
+		priority = 8
+		type = { capital_ship }
+		need = { cruiser_equipment = 1 }
+	
+        categories = { category_navy }
+	}
+    
+    submarine = {
+		sprite = submarine
+		map_icon_category = ship
+		priority = 2
+		type = { submarine }
+		need = { submarine_equipment = 1 }
+		
+        categories = { category_navy }
+	}
+    
+    destroyer = {
+		sprite = destroyer
+		map_icon_category = ship
+		priority = 3
+		type = { screen_ship }
+		need = { destroyer_equipment = 1 }
+		
+        categories = { category_navy }
+	}
+    
+    battleship = {
+		sprite = battleship
+		map_icon_category = ship
+		priority = 9
+		type = { capital_ship }
+		need = { battleship_equipment = 1 }
+		
+        categories = { category_navy }
+	}
+}

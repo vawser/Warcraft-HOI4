@@ -1,0 +1,362 @@
+ideas = {
+    military_advisor = {
+        death_knight_advisor = {
+            allowed = {
+                is_scourge = yes
+                is_class_race = yes
+                NOT = {
+                    has_available_idea_with_traits = {
+                        idea = death_knight_trait
+                        limit = 1
+                    }
+                }
+            }
+            traits = { death_knight_trait }
+            ai_will_do = {
+                factor = 1
+            }
+        }
+        demon_hunter_advisor = {
+            allowed = {
+                has_government = disorder
+                is_class_race = yes
+                OR = {
+                    is_night_elf = yes
+                    is_blood_elf = yes
+                    is_high_elf = yes
+                }
+                NOT = {
+                    has_available_idea_with_traits = {
+                        idea = demon_hunter_trait
+                        limit = 1
+                    }
+                }
+            }
+            traits = { demon_hunter_trait }
+            ai_will_do = {
+                factor = 1
+            }
+        }
+        druid_advisor = {
+            allowed = {
+                is_class_race = yes
+                NOT = {
+                    has_available_idea_with_traits = {
+                        idea = druid_trait
+                        limit = 1
+                    }
+                }
+            }
+            traits = { druid_trait }
+            ai_will_do = {
+                factor = 1
+            }
+        }
+        hunter_advisor = {
+            allowed = {
+                is_class_race = yes
+                NOT = {
+                    has_available_idea_with_traits = {
+                        idea = hunter_trait
+                        limit = 1
+                    }
+                }
+            }
+            traits = { hunter_trait }
+            ai_will_do = {
+                factor = 1
+            }
+        }
+        mage_advisor = {
+            allowed = {
+                is_class_race = yes
+                NOT = {
+                    has_available_idea_with_traits = {
+                        idea = mage_trait
+                        limit = 1
+                    }
+                }
+            }
+            traits = { mage_trait }
+            ai_will_do = {
+                factor = 1
+            }
+        }
+        priest_advisor = {
+            allowed = {
+                is_class_race = yes
+                has_government = light
+                NOT = {
+                    has_available_idea_with_traits = {
+                        idea = priest_trait
+                        limit = 1
+                    }
+                }
+            }
+            traits = { priest_trait }
+            ai_will_do = {
+                factor = 1
+            }
+        }
+        monk_advisor = {
+            allowed = {
+                is_class_race = yes
+                NOT = {
+                    has_available_idea_with_traits = {
+                        idea = monk_trait
+                        limit = 1
+                    }
+                }
+            }
+            traits = { monk_trait }
+            ai_will_do = {
+                factor = 1
+            }
+        }
+        paladin_advisor = {
+            allowed = {
+                is_class_race = yes
+                has_government = light
+                NOT = {
+                    has_available_idea_with_traits = {
+                        idea = paladin_trait
+                        limit = 1
+                    }
+                }
+            }
+            traits = { paladin_trait }
+            ai_will_do = {
+                factor = 1
+            }
+        }
+        rogue_advisor = {
+            allowed = {
+                is_class_race = yes
+                NOT = {
+                    has_available_idea_with_traits = {
+                        idea = rogue_trait
+                        limit = 1
+                    }
+                }
+            }
+            traits = { rogue_trait }
+            ai_will_do = {
+                factor = 1
+            }
+        }
+        shaman_advisor = {
+            allowed = {
+                is_class_race = yes
+                NOT = {
+                    has_available_idea_with_traits = {
+                        idea = shaman_trait
+                        limit = 1
+                    }
+                }
+            }
+            traits = { shaman_trait }
+            ai_will_do = {
+                factor = 1
+            }
+        }
+        warlock_advisor = {
+            allowed = {
+                is_class_race = yes
+                has_government = disorder
+                NOT = {
+                    has_available_idea_with_traits = {
+                        idea = warlock_trait
+                        limit = 1
+                    }
+                }
+            }
+            traits = { warlock_trait }
+            ai_will_do = {
+                factor = 1
+            }
+        }
+        warrior_advisor = {
+            allowed = {
+                is_class_race = yes
+                NOT = {
+                    has_available_idea_with_traits = {
+                        idea = warrior_trait
+                        limit = 1
+                    }
+                }
+            }
+            traits = { warrior_trait }
+            ai_will_do = {
+                factor = 1
+            }
+        }
+        berserker_advisor = {
+            allowed = {
+                NOT = {
+                    has_available_idea_with_traits = {
+                        idea = berserker_trait
+                        limit = 1
+                    }
+                }
+            }
+            traits = { berserker_trait }
+            ai_will_do = {
+                factor = 1
+            }
+        }
+        champion_advisor = {
+            allowed = {
+                NOT = {
+                    has_available_idea_with_traits = {
+                        idea = champion_trait
+                        limit = 1
+                    }
+                }
+            }
+            traits = { champion_trait }
+            ai_will_do = {
+                factor = 1
+            }
+        }
+        defender_advisor = {
+            allowed = {
+                NOT = {
+                    has_available_idea_with_traits = {
+                        idea = defender_trait
+                        limit = 1
+                    }
+                }
+            }
+            traits = { defender_trait }
+            ai_will_do = {
+                factor = 1
+            }
+        }
+        hero_advisor = {
+            allowed = {
+                NOT = {
+                    has_available_idea_with_traits = {
+                        idea = hero_trait
+                        limit = 1
+                    }
+                }
+            }
+            traits = { hero_trait }
+            ai_will_do = {
+                factor = 1
+            }
+        }
+        guardian_advisor = {
+            allowed = {
+                NOT = {
+                    has_available_idea_with_traits = {
+                        idea = guardian_trait
+                        limit = 1
+                    }
+                }
+            }
+            traits = { guardian_trait }
+            ai_will_do = {
+                factor = 1
+            }
+        }
+        protector_advisor = {
+            allowed = {
+                NOT = {
+                    has_available_idea_with_traits = {
+                        idea = protector_trait
+                        limit = 1
+                    }
+                }
+            }
+            traits = { protector_trait }
+            ai_will_do = {
+                factor = 1
+            }
+        }
+        vanquisher_advisor = {
+            allowed = {
+                NOT = {
+                    has_available_idea_with_traits = {
+                        idea = vanquisher_trait
+                        limit = 1
+                    }
+                }
+            }
+            traits = { vanquisher_trait }
+            ai_will_do = {
+                factor = 1
+            }
+        }
+        conqueror_advisor = {
+            allowed = {
+                NOT = {
+                    has_available_idea_with_traits = {
+                        idea = conqueror_trait
+                        limit = 1
+                    }
+                }
+            }
+            traits = { conqueror_trait }
+            ai_will_do = {
+                factor = 1
+            }
+        }
+        vindicator_advisor = {
+            allowed = {
+                NOT = {
+                    has_available_idea_with_traits = {
+                        idea = vindicator_trait
+                        limit = 1
+                    }
+                }
+            }
+            traits = { vindicator_trait }
+            ai_will_do = {
+                factor = 1
+            }
+        }
+        sentinel_advisor = {
+            allowed = {
+                NOT = {
+                    has_available_idea_with_traits = {
+                        idea = sentinel_trait
+                        limit = 1
+                    }
+                }
+            }
+            traits = { sentinel_trait }
+            ai_will_do = {
+                factor = 1
+            }
+        }
+        overseer_mil_advisor = {
+            allowed = {
+                NOT = {
+                    has_available_idea_with_traits = {
+                        idea = overseer_mil_trait
+                        limit = 1
+                    }
+                }
+            }
+            traits = { overseer_mil_trait }
+            ai_will_do = {
+                factor = 1
+            }
+        }
+        custodian_advisor = {
+            allowed = {
+                NOT = {
+                    has_available_idea_with_traits = {
+                        idea = custodian_trait
+                        limit = 1
+                    }
+                }
+            }
+            traits = { custodian_trait }
+            ai_will_do = {
+                factor = 1
+            }
+        }
+    }
+}

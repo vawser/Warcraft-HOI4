@@ -1,0 +1,62 @@
+state = {
+	id = 182
+	name = "FARSON_PENISULA"
+	manpower = 8047
+	state_category = town
+
+	resources = {
+		oil = 3
+		ground_beast = 17
+		flying_beast = 16
+		wood = 8
+		steel = 10
+		food = 15
+	}
+
+	history = {
+		owner = TOL
+        add_core_of = TOL
+
+		buildings = {
+			infrastructure = 7
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 3
+			industrial_complex = 3
+			dockyard = 8
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			1728 = {
+				bunker = 5
+				coastal_bunker = 4
+				naval_base = 9
+			}
+			1730 = {
+				bunker = 1
+				coastal_bunker = 7
+				naval_base = 8
+			}
+			1732 = {
+				bunker = 9
+				coastal_bunker = 9
+				naval_base = 8
+			}
+		}
+	}
+
+	provinces = {
+        1728 1730 1732 
+    }
+}

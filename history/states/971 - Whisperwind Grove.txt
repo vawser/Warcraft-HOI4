@@ -1,0 +1,60 @@
+state = {
+	id = 971
+	name = "WHISPERWIND_GROVE"
+	manpower = 824
+	state_category = rural
+
+	resources = {
+		oil = 2
+		ground_beast = 8
+		flying_beast = 6
+		wood = 29
+		food = 12
+	}
+
+	history = {
+		owner = DDW
+		add_core_of = DDW
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 1
+			industrial_complex = 1
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			3873 = {
+				bunker = 0
+			}
+			3899 = {
+				bunker = 0
+			}
+			3925 = {
+				bunker = 0
+			}
+			3953 = {
+				bunker = 0
+			}
+			3980 = {
+				bunker = 0
+			}
+			4008 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        3873 3899 3925 3953 3980 4008
+    }
+}

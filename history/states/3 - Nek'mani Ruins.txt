@@ -1,0 +1,73 @@
+state = {
+	id = 3
+	name = "NEKMANI_RUINS"
+	manpower = 690
+	state_category = rural
+
+	resources = {
+		oil = 3
+		ground_beast = 1
+		flying_beast = 3
+		wood = 13
+		steel = 7
+		food = 3
+	}
+
+	history = {
+		owner = SKS
+		add_core_of = SKS
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 2
+			industrial_complex = 1
+			dockyard = 1
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			1744 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 2
+			}
+			1755 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 2
+			}
+			1758 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 2
+			}
+			1767 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 5
+			}
+			2511 = {
+				bunker = 0
+			}
+			2515 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        1744 1755 1758 1767 2511 2515 
+    }
+}

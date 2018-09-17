@@ -1,0 +1,38 @@
+﻿add_namespace = variables
+
+# Assigns the processor flag to a random AI
+# If the AI is annexed, re-assigns the flag, and ensures it is only ever assigned to one country.
+country_event = {
+	id = variables.1
+	title = variables.1.title
+	desc = variables.1.desc
+	picture = GFX_report_event_variables
+	
+    hidden = yes
+    
+    trigger = {
+        all_country = {
+            NOT = { has_country_flag = processor }
+        }
+        is_ai = yes
+    }
+    
+    mean_time_to_happen = {
+        days = 2
+    }
+    
+	option = {
+		name = variables.1.a
+
+        # Ensure only one processor exists
+        every_country = {
+            limit = { is_ai = yes}
+            clr_country_flag = processor
+        }
+        
+        random_country = {
+            limit = { is_ai = yes }
+            set_country_flag = processor
+        }
+	}
+}

@@ -1,0 +1,62 @@
+state = {
+	id = 581
+	name = "ONSLAUGHT_HARBOUR"
+	manpower = 7881
+	state_category = town
+
+	resources = {
+		oil = 1
+		ground_beast = 7
+		flying_beast = 5
+		wood = 9
+		steel = 11
+		food = 12
+	}
+
+	history = {
+		owner = JOT
+		add_core_of = JOT
+
+		buildings = {
+			infrastructure = 7
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 7
+			industrial_complex = 2
+			dockyard = 3
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			5167 = {
+				bunker = 7
+				coastal_bunker = 7
+				naval_base = 1
+			}
+			5174 = {
+				bunker = 5
+				coastal_bunker = 4
+				naval_base = 2
+			}
+			5183 = {
+				bunker = 1
+				coastal_bunker = 3
+				naval_base = 8
+			}
+		}
+	}
+
+	provinces = {
+        5167 5174 5183 
+    }
+}

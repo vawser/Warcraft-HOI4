@@ -1,0 +1,64 @@
+state = {
+	id = 452
+	name = "NIFLERBREN_POINT"
+	manpower = 603
+	state_category = rural
+
+	resources = {
+		oil = 1
+		ground_beast = 5
+		flying_beast = 1
+		steel = 11
+		food = 16
+	}
+
+	history = {
+		owner = DGF
+		add_core_of = DGF
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 0
+			industrial_complex = 1
+			dockyard = 2
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			5125 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 1
+			}
+			5130 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 8
+			}
+			5195 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 5
+			}
+			6076 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        5125 5130 5195 6076 
+    }
+}

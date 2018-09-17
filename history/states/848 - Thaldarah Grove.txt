@@ -1,0 +1,58 @@
+state = {
+	id = 848
+	name = "THALDARAH_GROVE"
+	manpower = 661
+	state_category = rural
+
+	resources = {
+		oil = 3
+		ground_beast = 5
+		flying_beast = 9
+		wood = 1
+		steel = 7
+		food = 19
+	}
+
+	history = {
+		owner = CFW
+		add_core_of = CFW
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 3
+			industrial_complex = 0
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			4141 = {
+				bunker = 0
+			}
+			4152 = {
+				bunker = 0
+			}
+			4161 = {
+				bunker = 0
+			}
+			4162 = {
+				bunker = 0
+			}
+			4172 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        4141 4152 4161 4162 4172 
+    }
+}

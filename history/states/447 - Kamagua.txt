@@ -1,0 +1,82 @@
+state = {
+	id = 447
+	name = "KAMAGUA"
+	manpower = 4216
+	state_category = village
+
+	resources = {
+		oil = 2
+		ground_beast = 9
+		flying_beast = 2
+		wood = 1
+		steel = 4
+		food = 14
+	}
+
+	history = {
+		owner = KAL
+		add_core_of = KAL
+
+		buildings = {
+			infrastructure = 3
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 0
+			industrial_complex = 4
+			dockyard = 3
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			5259 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 5
+			}
+			5271 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 2
+			}
+			5280 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 7
+			}
+			5287 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 9
+			}
+			5289 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 1
+			}
+			5298 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 8
+			}
+			5309 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 4
+			}
+		}
+	}
+
+	provinces = {
+        5259 5271 5280 5287 5289 5298 5309 
+    }
+}

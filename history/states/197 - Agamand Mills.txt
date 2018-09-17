@@ -1,0 +1,55 @@
+state = {
+	id = 197
+	name = "AGAMAND_MILLS"
+	manpower = 2165
+	state_category = village
+
+	resources = {
+		oil = 2
+		ground_beast = 6
+		flying_beast = 4
+		wood = 25
+		steel = 6
+		food = 19
+	}
+
+	history = {
+		owner = LOR
+        add_core_of = LOR
+
+		buildings = {
+			infrastructure = 3
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 5
+			industrial_complex = 4
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			2071 = {
+				bunker = 0
+			}
+			2090 = {
+				bunker = 0
+			}
+			2113 = {
+				bunker = 0
+			}
+			2282 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        2071 2090 2113 2282  
+    }
+}

@@ -1,0 +1,68 @@
+state = {
+	id = 1007
+	name = "SHATTERSPEAR_VALE"
+	manpower = 3355
+	state_category = village
+
+	resources = {
+		oil = 2
+		ground_beast = 1
+		flying_beast = 4
+		wood = 19
+		steel = 3
+		food = 10
+	}
+
+	history = {
+        owner = STS
+		add_core_of = STS
+
+		buildings = {
+			infrastructure = 2
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 1
+			industrial_complex = 5
+			dockyard = 2
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			3133 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 7
+			}
+			3142 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 8
+			}
+			3181 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 3
+			}
+			3842 = {
+				bunker = 0
+			}
+			4065 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        3133 3142 3181 3842 4065 
+    }
+}

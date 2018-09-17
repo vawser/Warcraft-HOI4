@@ -1,0 +1,16 @@
+
+state = {
+	id = 243
+	name = "SUNGRAZE_PEAK"
+	manpower = 66
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = SWP
+	}
+
+	provinces = {
+        2585 2605 2617 
+    }
+}

@@ -1,0 +1,57 @@
+state = {
+	id = 901
+	name = "SILVERWIND_POOLS"
+	manpower = 594
+	state_category = rural
+
+	resources = {
+		oil = 4
+		ground_beast = 9
+		flying_beast = 1
+		wood = 29
+		food = 17
+	}
+
+	history = {
+		owner = FWD
+		add_core_of = FWD
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 1
+			industrial_complex = 3
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			3825 = {
+				bunker = 0
+			}
+			3853 = {
+				bunker = 0
+			}
+			4045 = {
+				bunker = 0
+			}
+			4076 = {
+				bunker = 0
+			}
+			4106 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        3825 3853 4045 4076 4106 
+    }
+}

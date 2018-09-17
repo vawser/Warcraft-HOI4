@@ -1,0 +1,15 @@
+state = {
+	id = 1053
+	name = "IRONFORGE_MOUNTAINS"
+	manpower = 42
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = IRO
+	}
+
+	provinces = {
+        1831 2564 2582 2626 2636 
+    }
+}

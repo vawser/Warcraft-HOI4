@@ -1,0 +1,87 @@
+SVT = {
+	army = {
+		male = {
+			"gfx/leaders/TROGG/trogg_1.dds"
+			"gfx/leaders/TROGG/trogg_2.dds"
+            "gfx/leaders/TROGG/trogg_3.dds"
+            "gfx/leaders/TROGG/trogg_4.dds"
+            "gfx/leaders/TROGG/trogg_5.dds"
+		}
+	}
+
+	navy = {
+		male = {
+			"gfx/leaders/TROGG/trogg_1.dds"
+			"gfx/leaders/TROGG/trogg_2.dds"
+            "gfx/leaders/TROGG/trogg_3.dds"
+            "gfx/leaders/TROGG/trogg_4.dds"
+            "gfx/leaders/TROGG/trogg_5.dds"
+		}
+	}
+
+	political = {
+		light = {
+			male = {
+                "gfx/leaders/TROGG/trogg_1.dds"
+                "gfx/leaders/TROGG/trogg_2.dds"
+                "gfx/leaders/TROGG/trogg_3.dds"
+                "gfx/leaders/TROGG/trogg_4.dds"
+                "gfx/leaders/TROGG/trogg_5.dds"
+            }
+		}
+		shadow = {
+			male = {
+                "gfx/leaders/TROGG/trogg_1.dds"
+                "gfx/leaders/TROGG/trogg_2.dds"
+                "gfx/leaders/TROGG/trogg_3.dds"
+                "gfx/leaders/TROGG/trogg_4.dds"
+                "gfx/leaders/TROGG/trogg_5.dds"
+            }
+		}
+        order = {
+			male = {
+                "gfx/leaders/TROGG/trogg_1.dds"
+                "gfx/leaders/TROGG/trogg_2.dds"
+                "gfx/leaders/TROGG/trogg_3.dds"
+                "gfx/leaders/TROGG/trogg_4.dds"
+                "gfx/leaders/TROGG/trogg_5.dds"
+            }
+		}
+        disorder = {
+			male = {
+                "gfx/leaders/TROGG/trogg_1.dds"
+                "gfx/leaders/TROGG/trogg_2.dds"
+                "gfx/leaders/TROGG/trogg_3.dds"
+                "gfx/leaders/TROGG/trogg_4.dds"
+                "gfx/leaders/TROGG/trogg_5.dds"
+            }
+		}
+        life = {
+			male = {
+                "gfx/leaders/TROGG/trogg_1.dds"
+                "gfx/leaders/TROGG/trogg_2.dds"
+                "gfx/leaders/TROGG/trogg_3.dds"
+                "gfx/leaders/TROGG/trogg_4.dds"
+                "gfx/leaders/TROGG/trogg_5.dds"
+            }
+		}
+        death = {
+			male = {
+                "gfx/leaders/TROGG/trogg_1.dds"
+                "gfx/leaders/TROGG/trogg_2.dds"
+                "gfx/leaders/TROGG/trogg_3.dds"
+                "gfx/leaders/TROGG/trogg_4.dds"
+                "gfx/leaders/TROGG/trogg_5.dds"
+            }
+		}
+        unaligned = {
+			male = {
+                "gfx/leaders/TROGG/trogg_1.dds"
+                "gfx/leaders/TROGG/trogg_2.dds"
+                "gfx/leaders/TROGG/trogg_3.dds"
+                "gfx/leaders/TROGG/trogg_4.dds"
+                "gfx/leaders/TROGG/trogg_5.dds"
+            }
+		}
+	}
+}

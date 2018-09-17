@@ -1,0 +1,63 @@
+state = {
+	id = 885
+	name = "ELDARATH_SHORE"
+	manpower = 575
+	state_category = rural
+
+	resources = {
+		oil = 3
+		ground_beast = 4
+		flying_beast = 1
+		wood = 13
+		steel = 7
+		food = 18
+	}
+
+	history = {
+		owner = SPL
+		add_core_of = SPL
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 2
+			industrial_complex = 0
+			dockyard = 2
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			3149 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 7
+			}
+			3183 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 7
+			}
+			3849 = {
+				bunker = 0
+			}
+			3902 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        3149 3183 3849 3902 
+    }
+}

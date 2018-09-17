@@ -1,0 +1,170 @@
+ideas = {
+    country = {
+        orc_settlements = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = orc_settlements
+
+			modifier = {
+                production_speed_buildings_factor = 0.25
+            }
+		}
+        spoils_of_stormwind = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = spoils_of_stormwind
+
+			modifier = {
+                mobilization_speed = 0.25
+                consumer_goods_factor = -0.05
+            }
+		}
+        spoils_of_blackrock_mountain = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = spoils_of_blackrock_mountain
+
+			modifier = {
+                mobilization_speed = 0.25
+                consumer_goods_factor = -0.05
+            }
+		}
+        orc_raid = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = orc_raid
+
+			modifier = {
+                conscription_factor = -0.25
+            }
+		}
+        extraordinary_efforts = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = extraordinary_efforts
+
+			modifier = {
+                political_power_gain = -1
+            }
+		}
+        secure_lakeshire = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = secure_lakeshire
+
+			targeted_modifier = {
+				tag = RED
+                
+				attack_bonus_against = 0.1
+				defense_bonus_against = 0.1
+			}
+		}
+        secure_brightwood = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = secure_brightwood
+
+			targeted_modifier = {
+				tag = DAR
+                
+				attack_bonus_against = 0.1
+				defense_bonus_against = 0.1
+			}
+		}
+        secure_westfall = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = secure_westfall
+
+			targeted_modifier = {
+				tag = WES
+                
+				attack_bonus_against = 0.1
+				defense_bonus_against = 0.1
+			}
+		}
+        shadow_council_support = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = shadow_council_support
+
+			modifier = {
+                disorder_drift = 0.1
+            }
+		}
+        
+    }
+}
+

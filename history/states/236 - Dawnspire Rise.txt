@@ -1,0 +1,15 @@
+state = {
+	id = 236
+	name = "DAWNSPIRE_RISE"
+	manpower = 79
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = QUE
+	}
+
+	provinces = {
+        1806 1842 1852
+    }
+}

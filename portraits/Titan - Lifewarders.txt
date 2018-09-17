@@ -1,0 +1,78 @@
+LIF = {
+	army = {
+		male = {
+			"gfx/leaders/TITAN/titan_gold_male.dds"
+		}
+        female = {
+			"gfx/leaders/TITAN/titan_gold_female.dds"
+		}
+	}
+
+	navy = {
+		male = {
+			"gfx/leaders/TITAN/titan_gold_male.dds"
+		}
+        female = {
+			"gfx/leaders/TITAN/titan_gold_female.dds"
+		}
+	}
+
+	political = {
+		light = {
+			male = {
+                "gfx/leaders/TITAN/titan_gold_male.dds"
+            }
+            female = {
+                "gfx/leaders/TITAN/titan_gold_female.dds"
+            }
+		}
+		shadow = {
+			male = {
+                "gfx/leaders/TITAN/titan_gold_male.dds"
+            }
+            female = {
+                "gfx/leaders/TITAN/titan_gold_female.dds"
+            }
+		}
+        order = {
+			male = {
+                "gfx/leaders/TITAN/titan_gold_male.dds"
+            }
+            female = {
+                "gfx/leaders/TITAN/titan_gold_female.dds"
+            }
+		}
+        disorder = {
+			male = {
+                "gfx/leaders/TITAN/titan_gold_male.dds"
+            }
+            female = {
+                "gfx/leaders/TITAN/titan_gold_female.dds"
+            }
+		}
+        life = {
+			male = {
+                "gfx/leaders/TITAN/titan_gold_male.dds"
+            }
+            female = {
+                "gfx/leaders/TITAN/titan_gold_female.dds"
+            }
+		}
+        death = {
+			male = {
+                "gfx/leaders/TITAN/titan_gold_male.dds"
+            }
+            female = {
+                "gfx/leaders/TITAN/titan_gold_female.dds"
+            }
+		}
+        unaligned = {
+			male = {
+                "gfx/leaders/TITAN/titan_gold_male.dds"
+            }
+            female = {
+                "gfx/leaders/TITAN/titan_gold_female.dds"
+            }
+		}
+	}
+}

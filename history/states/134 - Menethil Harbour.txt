@@ -1,0 +1,89 @@
+state = {
+	id = 134
+	name = "SUNRISE_MARSH"
+	manpower = 824
+	state_category = rural
+
+	resources = {
+		oil = 13
+		ground_beast = 4
+		flying_beast = 1
+		wood = 7
+		steel = 9
+		food = 4
+	}
+
+	history = {
+		owner = BLU
+        add_core_of = BLU
+
+        # The Second War
+        597.1.1 = {
+            owner = TTH
+            add_core_of = TTH
+        }
+        # The Third War
+        612.1.1 = {
+            set_state_name = MENETHIL_HARBOUR
+            set_state_category = village
+            owner = KUL
+            add_core_of = KUL
+        }
+        
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 1
+			industrial_complex = 1
+			dockyard = 2
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			1772 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 2
+			}
+			1777 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 1
+			}
+			1779 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 5
+			}
+			1782 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 3
+			}
+			2857 = {
+				bunker = 0
+			}
+			2933 = {
+				bunker = 0
+			}
+			3063 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        1772 1777 1779 1782 2857 2933 3063 
+    }
+}

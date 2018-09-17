@@ -1,0 +1,150 @@
+TDB = {
+	army = {
+		male = {
+			"gfx/leaders/TAUREN/tauren_male_1.dds"
+			"gfx/leaders/TAUREN/tauren_male_2.dds"
+            "gfx/leaders/TAUREN/tauren_male_3.dds"
+            "gfx/leaders/TAUREN/tauren_male_4.dds"
+            "gfx/leaders/TAUREN/tauren_male_5.dds"
+		}
+        female = {
+			"gfx/leaders/TAUREN/tauren_female_1.dds"
+			"gfx/leaders/TAUREN/tauren_female_2.dds"
+            "gfx/leaders/TAUREN/tauren_female_3.dds"
+            "gfx/leaders/TAUREN/tauren_female_4.dds"
+            "gfx/leaders/TAUREN/tauren_female_5.dds"
+		}
+	}
+
+	navy = {
+		male = {
+			"gfx/leaders/TAUREN/tauren_male_1.dds"
+			"gfx/leaders/TAUREN/tauren_male_2.dds"
+            "gfx/leaders/TAUREN/tauren_male_3.dds"
+            "gfx/leaders/TAUREN/tauren_male_4.dds"
+            "gfx/leaders/TAUREN/tauren_male_5.dds"
+		}
+        female = {
+			"gfx/leaders/TAUREN/tauren_female_1.dds"
+			"gfx/leaders/TAUREN/tauren_female_2.dds"
+            "gfx/leaders/TAUREN/tauren_female_3.dds"
+            "gfx/leaders/TAUREN/tauren_female_4.dds"
+            "gfx/leaders/TAUREN/tauren_female_5.dds"
+		}
+	}
+
+	political = {
+		light = {
+			male = {
+                "gfx/leaders/TAUREN/tauren_male_1.dds"
+                "gfx/leaders/TAUREN/tauren_male_2.dds"
+                "gfx/leaders/TAUREN/tauren_male_3.dds"
+                "gfx/leaders/TAUREN/tauren_male_4.dds"
+                "gfx/leaders/TAUREN/tauren_male_5.dds"
+            }
+            female = {
+                "gfx/leaders/TAUREN/tauren_female_1.dds"
+                "gfx/leaders/TAUREN/tauren_female_2.dds"
+                "gfx/leaders/TAUREN/tauren_female_3.dds"
+                "gfx/leaders/TAUREN/tauren_female_4.dds"
+                "gfx/leaders/TAUREN/tauren_female_5.dds"
+            }
+		}
+		shadow = {
+			male = {
+                "gfx/leaders/TAUREN/tauren_male_1.dds"
+                "gfx/leaders/TAUREN/tauren_male_2.dds"
+                "gfx/leaders/TAUREN/tauren_male_3.dds"
+                "gfx/leaders/TAUREN/tauren_male_4.dds"
+                "gfx/leaders/TAUREN/tauren_male_5.dds"
+            }
+            female = {
+                "gfx/leaders/TAUREN/tauren_female_1.dds"
+                "gfx/leaders/TAUREN/tauren_female_2.dds"
+                "gfx/leaders/TAUREN/tauren_female_3.dds"
+                "gfx/leaders/TAUREN/tauren_female_4.dds"
+                "gfx/leaders/TAUREN/tauren_female_5.dds"
+            }
+		}
+        order = {
+			male = {
+                "gfx/leaders/TAUREN/tauren_male_1.dds"
+                "gfx/leaders/TAUREN/tauren_male_2.dds"
+                "gfx/leaders/TAUREN/tauren_male_3.dds"
+                "gfx/leaders/TAUREN/tauren_male_4.dds"
+                "gfx/leaders/TAUREN/tauren_male_5.dds"
+            }
+            female = {
+                "gfx/leaders/TAUREN/tauren_female_1.dds"
+                "gfx/leaders/TAUREN/tauren_female_2.dds"
+                "gfx/leaders/TAUREN/tauren_female_3.dds"
+                "gfx/leaders/TAUREN/tauren_female_4.dds"
+                "gfx/leaders/TAUREN/tauren_female_5.dds"
+            }
+		}
+        disorder = {
+			male = {
+                "gfx/leaders/TAUREN/tauren_male_1.dds"
+                "gfx/leaders/TAUREN/tauren_male_2.dds"
+                "gfx/leaders/TAUREN/tauren_male_3.dds"
+                "gfx/leaders/TAUREN/tauren_male_4.dds"
+                "gfx/leaders/TAUREN/tauren_male_5.dds"
+            }
+            female = {
+                "gfx/leaders/TAUREN/tauren_female_1.dds"
+                "gfx/leaders/TAUREN/tauren_female_2.dds"
+                "gfx/leaders/TAUREN/tauren_female_3.dds"
+                "gfx/leaders/TAUREN/tauren_female_4.dds"
+                "gfx/leaders/TAUREN/tauren_female_5.dds"
+            }
+		}
+        life = {
+			male = {
+                "gfx/leaders/TAUREN/tauren_male_1.dds"
+                "gfx/leaders/TAUREN/tauren_male_2.dds"
+                "gfx/leaders/TAUREN/tauren_male_3.dds"
+                "gfx/leaders/TAUREN/tauren_male_4.dds"
+                "gfx/leaders/TAUREN/tauren_male_5.dds"
+            }
+            female = {
+                "gfx/leaders/TAUREN/tauren_female_1.dds"
+                "gfx/leaders/TAUREN/tauren_female_2.dds"
+                "gfx/leaders/TAUREN/tauren_female_3.dds"
+                "gfx/leaders/TAUREN/tauren_female_4.dds"
+                "gfx/leaders/TAUREN/tauren_female_5.dds"
+            }
+		}
+        death = {
+			male = {
+                "gfx/leaders/TAUREN/tauren_male_1.dds"
+                "gfx/leaders/TAUREN/tauren_male_2.dds"
+                "gfx/leaders/TAUREN/tauren_male_3.dds"
+                "gfx/leaders/TAUREN/tauren_male_4.dds"
+                "gfx/leaders/TAUREN/tauren_male_5.dds"
+            }
+            female = {
+                "gfx/leaders/TAUREN/tauren_female_1.dds"
+                "gfx/leaders/TAUREN/tauren_female_2.dds"
+                "gfx/leaders/TAUREN/tauren_female_3.dds"
+                "gfx/leaders/TAUREN/tauren_female_4.dds"
+                "gfx/leaders/TAUREN/tauren_female_5.dds"
+            }
+		}
+        unaligned = {
+			male = {
+                "gfx/leaders/TAUREN/tauren_male_1.dds"
+                "gfx/leaders/TAUREN/tauren_male_2.dds"
+                "gfx/leaders/TAUREN/tauren_male_3.dds"
+                "gfx/leaders/TAUREN/tauren_male_4.dds"
+                "gfx/leaders/TAUREN/tauren_male_5.dds"
+            }
+            female = {
+                "gfx/leaders/TAUREN/tauren_female_1.dds"
+                "gfx/leaders/TAUREN/tauren_female_2.dds"
+                "gfx/leaders/TAUREN/tauren_female_3.dds"
+                "gfx/leaders/TAUREN/tauren_female_4.dds"
+                "gfx/leaders/TAUREN/tauren_female_5.dds"
+            }
+		}
+	}
+}

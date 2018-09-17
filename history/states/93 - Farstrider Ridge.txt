@@ -1,0 +1,24 @@
+state = {
+	id = 93
+	name = "FARSTRIDER_RIDGE_MT"
+	manpower = 40
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = ULM
+
+        # The Second War
+        597.1.1 = {
+            owner = TTH
+        }
+        # The Third War
+        612.1.1 = {
+            owner = ULM
+        }
+	}
+
+	provinces = {
+        1826 1904 2618 2620 2630 
+    }
+}

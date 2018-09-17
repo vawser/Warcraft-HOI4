@@ -1,0 +1,51 @@
+state = {
+	id = 435
+	name = "SHADOPAN_FRONT"
+	manpower = 757
+	state_category = rural
+
+	resources = {
+		oil = 1
+		flying_beast = 3
+		wood = 6
+		steel = 14
+		food = 16
+	}
+
+	history = {
+		owner = TIG
+		add_core_of = TIG
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 2
+			industrial_complex = 1
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			6551 = {
+				bunker = 0
+			}
+			6559 = {
+				bunker = 0
+			}
+			6803 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        6551 6559 6803 
+    }
+}

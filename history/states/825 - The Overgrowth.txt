@@ -1,0 +1,61 @@
+state = {
+	id = 825
+	name = "THE_OVERGROWTH"
+	manpower = 507
+	state_category = rural
+
+	resources = {
+		oil = 2
+		ground_beast = 9
+		flying_beast = 7
+		wood = 1
+		steel = 3
+		food = 26
+	}
+
+	history = {
+        owner = SOT
+		add_core_of = SOT
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 1
+			industrial_complex = 2
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			4911 = {
+				bunker = 0
+			}
+			4931 = {
+				bunker = 0
+			}
+			4949 = {
+				bunker = 0
+			}
+			4971 = {
+				bunker = 0
+			}
+			4992 = {
+				bunker = 0
+			}
+			5088 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        4911 4931 4949 4971 4992 5088 
+    }
+}

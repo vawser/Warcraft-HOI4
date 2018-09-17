@@ -1,0 +1,467 @@
+spriteTypes = {	
+    # Gradient: 63, 116, 63 -> 161, 188, 161
+    
+    #----------------------------------
+    # Archetypes
+    #----------------------------------
+    SpriteType = {
+		name = "GFX_archetype_air_medium"
+		texturefile = "gfx/interface/unit_icons/archetypes/archetype_air.dds"
+	}
+    
+    SpriteType = {
+		name = "GFX_archetype_artillery_medium"
+		texturefile = "gfx/interface/unit_icons/archetypes/archetype_artillery.dds"
+	}
+    
+    SpriteType = {
+		name = "GFX_archetype_cavalry_medium"
+		texturefile = "gfx/interface/unit_icons/archetypes/archetype_cavalry.dds"
+	}
+    
+    SpriteType = {
+		name = "GFX_archetype_infantry_medium"
+		texturefile = "gfx/interface/unit_icons/archetypes/archetype_infantry.dds"
+	}
+    
+    SpriteType = {
+		name = "GFX_archetype_ship_medium"
+		texturefile = "gfx/interface/unit_icons/archetypes/archetype_ship.dds"
+	}
+    
+    SpriteType = {
+		name = "GFX_archetype_support_medium"
+		texturefile = "gfx/interface/unit_icons/archetypes/archetype_support.dds"
+	}
+    
+    SpriteType = {
+		name = "GFX_archetype_tank_medium"
+		texturefile = "gfx/interface/unit_icons/archetypes/archetype_tank.dds"
+	}
+    
+    #----------------------------------
+    # Categories
+    #----------------------------------
+    spriteType = {
+		name = "GFX_unit_category_infantry"
+		texturefile = "gfx/interface/unit_icons/categories/category_infantry.dds"
+		legacy_lazy_load = no
+	}
+    
+    spriteType = {
+		name = "GFX_unit_category_artillery"
+		texturefile = "gfx/interface/unit_icons/categories/category_artillery.dds"
+		legacy_lazy_load = no
+	}
+    
+    spriteType = {
+		name = "GFX_unit_category_cavalry"
+		texturefile = "gfx/interface/unit_icons/categories/category_cavalry.dds"
+		legacy_lazy_load = no
+	}
+    
+    spriteType = {
+		name = "GFX_unit_category_support"
+		texturefile = "gfx/interface/unit_icons/categories/category_support.dds"
+		legacy_lazy_load = no
+	}
+    
+    spriteType = {
+		name = "GFX_unit_category_tanks"
+		texturefile = "gfx/interface/unit_icons/categories/category_tanks.dds"
+		legacy_lazy_load = no
+	}
+    
+    spriteType = {
+		name = "GFX_unit_category_army"
+		texturefile = "gfx/interface/unit_icons/categories/category_army.dds"
+		legacy_lazy_load = no
+	}
+    
+    spriteType = {
+		name = "GFX_unit_category_front_line"
+		texturefile = "gfx/interface/unit_icons/categories/category_front_line.dds"
+		legacy_lazy_load = no
+	}
+    
+    spriteType = {
+		name = "GFX_unit_category_air"
+		texturefile = "gfx/interface/unit_icons/categories/category_air.dds"
+		legacy_lazy_load = no
+	}
+    
+    spriteType = {
+		name = "GFX_unit_category_navy"
+		texturefile = "gfx/interface/unit_icons/categories/category_navy.dds"
+		legacy_lazy_load = no
+	}
+    
+    #----------------------------------
+    # Units
+    #----------------------------------
+    
+    #------ Groups ------
+    spriteType = { 
+        name = "GFX_group_infantry_icon"								
+        textureFile = "gfx/interface/unit_icons/large/land/grunt.dds"
+        noOfFrames = 2 
+    }
+	spriteType = { 
+        name = "GFX_group_mobile_icon"								
+        textureFile = "gfx/interface/unit_icons/large/land/light_cavalry.dds"
+        noOfFrames = 2 
+    }
+	spriteType = { 
+        name = "GFX_group_armor_icon"								
+        textureFile = "gfx/interface/unit_icons/large/land/light_tank.dds" 
+        noOfFrames = 2 
+    }
+    
+    #------ Land (Large) ------
+    spriteType = { 
+        name = "GFX_unit_grunt_icon_medium" 			
+        textureFile = "gfx/interface/unit_icons/large/land/grunt.dds"
+        noOfFrames = 2 
+    }
+    
+    spriteType = { 
+        name = "GFX_unit_champion_icon_medium" 			
+        textureFile = "gfx/interface/unit_icons/large/land/champion.dds"
+        noOfFrames = 2 
+    }
+    
+    spriteType = { 
+        name = "GFX_unit_archer_icon_medium" 			
+        textureFile = "gfx/interface/unit_icons/large/land/archer.dds"
+        noOfFrames = 2 
+    }
+    
+    spriteType = { 
+        name = "GFX_unit_spellcaster_icon_medium" 			
+        textureFile = "gfx/interface/unit_icons/large/land/spellcaster.dds"
+        noOfFrames = 2 
+    }
+    
+    spriteType = { 
+        name = "GFX_unit_war_engine_icon_medium" 			
+        textureFile = "gfx/interface/unit_icons/large/land/war_engine.dds"
+        noOfFrames = 2 
+    }
+    
+    spriteType = { 
+        name = "GFX_unit_light_cavalry_icon_medium" 			
+        textureFile = "gfx/interface/unit_icons/large/land/light_cavalry.dds"
+        noOfFrames = 2 
+    }
+    
+    spriteType = { 
+        name = "GFX_unit_heavy_cavalry_icon_medium" 			
+        textureFile = "gfx/interface/unit_icons/large/land/heavy_cavalry.dds"
+        noOfFrames = 2 
+    }
+    
+    spriteType = { 
+        name = "GFX_unit_light_tank_icon_medium" 			
+        textureFile = "gfx/interface/unit_icons/large/land/light_tank.dds"
+        noOfFrames = 2 
+    }
+    
+    spriteType = { 
+        name = "GFX_unit_heavy_tank_icon_medium" 			
+        textureFile = "gfx/interface/unit_icons/large/land/heavy_tank.dds"
+        noOfFrames = 2 
+    }
+    
+    spriteType = { 
+        name = "GFX_unit_war_engine_support_icon_medium" 			
+        textureFile = "gfx/interface/unit_icons/large/land/war_engine_support.dds"
+        noOfFrames = 2 
+    }
+    
+    spriteType = { 
+        name = "GFX_unit_archer_support_icon_medium" 			
+        textureFile = "gfx/interface/unit_icons/large/land/archer_support.dds"
+        noOfFrames = 2 
+    }
+    
+    spriteType = { 
+        name = "GFX_unit_spellcaster_support_icon_medium" 			
+        textureFile = "gfx/interface/unit_icons/large/land/spellcaster_support.dds"
+        noOfFrames = 2 
+    }
+    
+    spriteType = { 
+        name = "GFX_unit_logistics_support_icon_medium" 			
+        textureFile = "gfx/interface/unit_icons/large/land/logistics_support.dds"
+        noOfFrames = 2 
+    }
+    
+    spriteType = { 
+        name = "GFX_unit_guard_support_icon_medium" 			
+        textureFile = "gfx/interface/unit_icons/large/land/guard_support.dds"
+        noOfFrames = 2 
+    }
+    
+    spriteType = { 
+        name = "GFX_unit_engineer_support_icon_medium" 			
+        textureFile = "gfx/interface/unit_icons/large/land/engineer_support.dds"
+        noOfFrames = 2 
+    }
+    
+    spriteType = { 
+        name = "GFX_unit_medic_support_icon_medium" 			
+        textureFile = "gfx/interface/unit_icons/large/land/medic_support.dds"
+        noOfFrames = 2 
+    }
+    
+    spriteType = { 
+        name = "GFX_unit_scout_support_icon_medium" 			
+        textureFile = "gfx/interface/unit_icons/large/land/scout_support.dds"
+        noOfFrames = 2 
+    }
+    
+    spriteType = { 
+        name = "GFX_unit_cavalry_support_icon_medium" 			
+        textureFile = "gfx/interface/unit_icons/large/land/cavalry_support.dds"
+        noOfFrames = 2 
+    }
+    
+    #------ Land (On map) ------
+    spriteType = { 
+        name = "GFX_unit_grunt_icon_medium_white"						
+        textureFile = "gfx/interface/unit_icons/small/land/grunt.dds" 
+        noOfFrames = 2
+    }
+    
+    spriteType = { 
+        name = "GFX_unit_champion_icon_medium_white"						
+        textureFile = "gfx/interface/unit_icons/small/land/champion.dds" 
+        noOfFrames = 2
+    }
+    
+    spriteType = { 
+        name = "GFX_unit_archer_icon_medium_white"						
+        textureFile = "gfx/interface/unit_icons/small/land/archer.dds" 
+        noOfFrames = 2
+    }
+    
+    spriteType = { 
+        name = "GFX_unit_spellcaster_icon_medium_white"						
+        textureFile = "gfx/interface/unit_icons/small/land/spellcaster.dds" 
+        noOfFrames = 2
+    }
+    
+    spriteType = { 
+        name = "GFX_unit_war_engine_icon_medium_white"						
+        textureFile = "gfx/interface/unit_icons/small/land/war_engine.dds" 
+        noOfFrames = 2
+    }
+    
+    spriteType = { 
+        name = "GFX_unit_light_cavalry_icon_medium_white"						
+        textureFile = "gfx/interface/unit_icons/small/land/light_cavalry.dds" 
+        noOfFrames = 2
+    }
+    
+    spriteType = { 
+        name = "GFX_unit_heavy_cavalry_icon_medium_white"						
+        textureFile = "gfx/interface/unit_icons/small/land/heavy_cavalry.dds" 
+        noOfFrames = 2
+    }
+    
+    spriteType = { 
+        name = "GFX_unit_light_tank_icon_medium_white"						
+        textureFile = "gfx/interface/unit_icons/small/land/light_tank.dds" 
+        noOfFrames = 2
+    }
+    
+    spriteType = { 
+        name = "GFX_unit_heavy_tank_icon_medium_white"						
+        textureFile = "gfx/interface/unit_icons/small/land/heavy_tank.dds" 
+        noOfFrames = 2
+    }
+    
+    spriteType = { 
+        name = "GFX_unit_war_engine_support_icon_medium_white"						
+        textureFile = "gfx/interface/unit_icons/small/land/war_engine_support.dds" 
+        noOfFrames = 2
+    }
+    
+    spriteType = { 
+        name = "GFX_unit_archer_support_icon_medium_white"						
+        textureFile = "gfx/interface/unit_icons/small/land/archer_support.dds" 
+        noOfFrames = 2
+    }
+    
+    spriteType = { 
+        name = "GFX_unit_spellcaster_support_icon_medium_white"						
+        textureFile = "gfx/interface/unit_icons/small/land/spellcaster_support.dds" 
+        noOfFrames = 2
+    }
+    
+    spriteType = { 
+        name = "GFX_unit_logistics_support_icon_medium_white"						
+        textureFile = "gfx/interface/unit_icons/small/land/logistics_support.dds" 
+        noOfFrames = 2
+    }
+    
+    spriteType = { 
+        name = "GFX_unit_guard_support_icon_medium_white"						
+        textureFile = "gfx/interface/unit_icons/small/land/guard_support.dds" 
+        noOfFrames = 2
+    }
+    
+    spriteType = { 
+        name = "GFX_unit_engineer_support_icon_medium_white"						
+        textureFile = "gfx/interface/unit_icons/small/land/engineer_support.dds" 
+        noOfFrames = 2
+    }
+    
+    spriteType = { 
+        name = "GFX_unit_medic_support_icon_medium_white"						
+        textureFile = "gfx/interface/unit_icons/small/land/medic_support.dds" 
+        noOfFrames = 2
+    }
+    
+    spriteType = { 
+        name = "GFX_unit_scout_support_icon_medium_white"						
+        textureFile = "gfx/interface/unit_icons/small/land/scout_support.dds" 
+        noOfFrames = 2
+    }
+    
+    spriteType = { 
+        name = "GFX_unit_cavalry_support_icon_medium_white"						
+        textureFile = "gfx/interface/unit_icons/small/land/cavalry_support.dds" 
+        noOfFrames = 2
+    }
+    
+    #------ Air (On map) ------
+    spriteType = { 
+        name = "GFX_unit_fighter_icon_medium_white"						
+        textureFile = "gfx/interface/unit_icons/small/air/fighter.dds" 
+        noOfFrames = 2
+    }
+    
+    spriteType = { 
+        name = "GFX_unit_cas_icon_medium_white"						
+        textureFile = "gfx/interface/unit_icons/small/air/cas.dds" 
+        noOfFrames = 2
+    }
+    
+    spriteType = { 
+        name = "GFX_unit_tac_bomber_icon_medium_white"						
+        textureFile = "gfx/interface/unit_icons/small/air/tactical_bomber.dds" 
+        noOfFrames = 2
+    }
+    
+    spriteType = { 
+        name = "GFX_unit_strat_bomber_icon_medium_white"						
+        textureFile = "gfx/interface/unit_icons/small/air/strategic_bomber.dds" 
+        noOfFrames = 2
+    }
+    
+    spriteType = { 
+        name = "GFX_unit_air_convoy_icon_medium_white"						
+        textureFile = "gfx/interface/unit_icons/small/air/air_convoy.dds" 
+        noOfFrames = 2
+    }
+    
+    #------ Air (Tech View) ------
+    spriteType = { 
+        name = "GFX_unit_fighter_icon_medium"		
+        texturefile = "gfx/interface/unit_icons/large/air/fighter.dds"		
+        noOfFrames = 2 
+    }
+    
+    spriteType = { 
+        name = "GFX_unit_cas_icon_medium"		
+        texturefile = "gfx/interface/unit_icons/large/air/cas.dds"		
+        noOfFrames = 2 
+    }
+    
+    spriteType = { 
+        name = "GFX_unit_strat_bomber_icon_medium"		
+        texturefile = "gfx/interface/unit_icons/large/air/strategic_bomber.dds"		
+        noOfFrames = 2 
+    }
+    
+    spriteType = { 
+        name = "GFX_unit_tac_bomber_icon_medium"		
+        texturefile = "gfx/interface/unit_icons/large/air/tactical_bomber.dds"		
+        noOfFrames = 2 
+    }
+    
+    spriteType = { 
+        name = "GFX_unit_air_convoy_icon_medium"		
+        texturefile = "gfx/interface/unit_icons/large/air/air_convoy.dds"		
+        noOfFrames = 2 
+    }
+    
+    
+    #------ Navy (On map) ------
+    spriteType = { 
+        name = "GFX_unit_battleship_icon_medium_white"					
+        texturefile = "gfx/interface/unit_icons/small/navy/battleship.dds" 
+    }
+    
+    spriteType = { 
+        name = "GFX_unit_cruiser_icon_medium_white"					
+        texturefile = "gfx/interface/unit_icons/small/navy/cruiser.dds" 
+    }
+    
+    spriteType = { 
+        name = "GFX_unit_submarine_icon_medium_white"					
+        texturefile = "gfx/interface/unit_icons/small/navy/submarine.dds" 
+    }
+    
+    spriteType = { 
+        name = "GFX_unit_destroyer_icon_medium_white"					
+        texturefile = "gfx/interface/unit_icons/small/navy/destroyer.dds" 
+    }
+    
+    spriteType = { 
+        name = "GFX_unit_battleship_icon_medium_black"					
+        texturefile = "gfx/interface/unit_icons/small/navy/battleship.dds" 
+    }
+    
+    spriteType = { 
+        name = "GFX_unit_cruiser_icon_medium_black"					
+        texturefile = "gfx/interface/unit_icons/small/navy/cruiser.dds" 
+    }
+    
+    spriteType = { 
+        name = "GFX_unit_submarine_icon_medium_black"					
+        texturefile = "gfx/interface/unit_icons/small/navy/submarine.dds" 
+    }
+    
+    spriteType = { 
+        name = "GFX_unit_destroyer_icon_medium_black"					
+        texturefile = "gfx/interface/unit_icons/small/navy/destroyer.dds" 
+    }
+    
+    #------ Navy (Naval View) ------
+    spriteType = { 
+        name = "GFX_unit_battleship_icon_medium"		
+        texturefile = "gfx/interface/unit_icons/large/navy/battleship.dds"		
+        noOfFrames = 2 
+    }
+    
+    spriteType = { 
+        name = "GFX_unit_cruiser_icon_medium"		
+        texturefile = "gfx/interface/unit_icons/large/navy/cruiser.dds"		
+        noOfFrames = 2 
+    }
+
+    spriteType = { 
+        name = "GFX_unit_submarine_icon_medium"		
+        texturefile = "gfx/interface/unit_icons/large/navy/submarine.dds"		
+        noOfFrames = 2 
+    }
+    
+    spriteType = { 
+        name = "GFX_unit_destroyer_icon_medium"		
+        texturefile = "gfx/interface/unit_icons/large/navy/destroyer.dds"		
+        noOfFrames = 2 
+    }
+    
+}

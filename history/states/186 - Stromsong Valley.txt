@@ -1,0 +1,84 @@
+state = {
+	id = 186
+	name = "STORMSONG_VALLEY"
+	manpower = 7546
+	state_category = town
+
+	resources = {
+		oil = 1
+		ground_beast = 6
+		wood = 21
+		steel = 7
+		food = 16
+	}
+
+	history = {
+		owner = KUL
+        add_core_of = KUL
+
+		buildings = {
+			infrastructure = 5
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 3
+			industrial_complex = 3
+			dockyard = 7
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			1722 = {
+				bunker = 1
+				coastal_bunker = 1
+				naval_base = 9
+			}
+			1724 = {
+				bunker = 9
+				coastal_bunker = 7
+				naval_base = 2
+			}
+			7282 = {
+				bunker = 4
+				coastal_bunker = 9
+				naval_base = 7
+			}
+			7283 = {
+				bunker = 2
+			}
+			7284 = {
+				bunker = 3
+				coastal_bunker = 9
+				naval_base = 8
+			}
+			7285 = {
+				bunker = 4
+				coastal_bunker = 8
+				naval_base = 9
+			}
+			7346 = {
+				bunker = 9
+				coastal_bunker = 4
+				naval_base = 5
+			}
+			7347 = {
+				bunker = 1
+				coastal_bunker = 9
+				naval_base = 3
+			}
+		}
+	}
+
+	provinces = {
+        1722 1724 7282 7283 7284 7285 7346 7347
+    }
+}

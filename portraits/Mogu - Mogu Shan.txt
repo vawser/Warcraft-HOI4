@@ -1,0 +1,132 @@
+MOH = {
+	army = {
+		male = {
+			"gfx/leaders/MOGU/mogu_1.dds"
+			"gfx/leaders/MOGU/mogu_2.dds"
+			"gfx/leaders/MOGU/mogu_3.dds"
+			"gfx/leaders/MOGU/mogu_4.dds"
+			"gfx/leaders/MOGU/mogu_5.dds"
+			"gfx/leaders/MOGU/mogu_6.dds"
+			"gfx/leaders/MOGU/mogu_7.dds"
+			"gfx/leaders/MOGU/mogu_8.dds"
+			"gfx/leaders/MOGU/mogu_9.dds"
+			"gfx/leaders/MOGU/mogu_10.dds"
+		}
+	}
+
+	navy = {
+		male = {
+			"gfx/leaders/MOGU/mogu_1.dds"
+			"gfx/leaders/MOGU/mogu_2.dds"
+			"gfx/leaders/MOGU/mogu_3.dds"
+			"gfx/leaders/MOGU/mogu_4.dds"
+			"gfx/leaders/MOGU/mogu_5.dds"
+			"gfx/leaders/MOGU/mogu_6.dds"
+			"gfx/leaders/MOGU/mogu_7.dds"
+			"gfx/leaders/MOGU/mogu_8.dds"
+			"gfx/leaders/MOGU/mogu_9.dds"
+			"gfx/leaders/MOGU/mogu_10.dds"
+		}
+	}
+
+	political = {
+		light = {
+			male = {
+                "gfx/leaders/MOGU/mogu_1.dds"
+                "gfx/leaders/MOGU/mogu_2.dds"
+                "gfx/leaders/MOGU/mogu_3.dds"
+                "gfx/leaders/MOGU/mogu_4.dds"
+                "gfx/leaders/MOGU/mogu_5.dds"
+                "gfx/leaders/MOGU/mogu_6.dds"
+                "gfx/leaders/MOGU/mogu_7.dds"
+                "gfx/leaders/MOGU/mogu_8.dds"
+                "gfx/leaders/MOGU/mogu_9.dds"
+                "gfx/leaders/MOGU/mogu_10.dds"
+            }
+		}
+		shadow = {
+			male = {
+                "gfx/leaders/MOGU/mogu_1.dds"
+                "gfx/leaders/MOGU/mogu_2.dds"
+                "gfx/leaders/MOGU/mogu_3.dds"
+                "gfx/leaders/MOGU/mogu_4.dds"
+                "gfx/leaders/MOGU/mogu_5.dds"
+                "gfx/leaders/MOGU/mogu_6.dds"
+                "gfx/leaders/MOGU/mogu_7.dds"
+                "gfx/leaders/MOGU/mogu_8.dds"
+                "gfx/leaders/MOGU/mogu_9.dds"
+                "gfx/leaders/MOGU/mogu_10.dds"
+            }
+		}
+        order = {
+			male = {
+                "gfx/leaders/MOGU/mogu_1.dds"
+                "gfx/leaders/MOGU/mogu_2.dds"
+                "gfx/leaders/MOGU/mogu_3.dds"
+                "gfx/leaders/MOGU/mogu_4.dds"
+                "gfx/leaders/MOGU/mogu_5.dds"
+                "gfx/leaders/MOGU/mogu_6.dds"
+                "gfx/leaders/MOGU/mogu_7.dds"
+                "gfx/leaders/MOGU/mogu_8.dds"
+                "gfx/leaders/MOGU/mogu_9.dds"
+                "gfx/leaders/MOGU/mogu_10.dds"
+            }
+		}
+        disorder = {
+			male = {
+                "gfx/leaders/MOGU/mogu_1.dds"
+                "gfx/leaders/MOGU/mogu_2.dds"
+                "gfx/leaders/MOGU/mogu_3.dds"
+                "gfx/leaders/MOGU/mogu_4.dds"
+                "gfx/leaders/MOGU/mogu_5.dds"
+                "gfx/leaders/MOGU/mogu_6.dds"
+                "gfx/leaders/MOGU/mogu_7.dds"
+                "gfx/leaders/MOGU/mogu_8.dds"
+                "gfx/leaders/MOGU/mogu_9.dds"
+                "gfx/leaders/MOGU/mogu_10.dds"
+            }
+		}
+        life = {
+			male = {
+                "gfx/leaders/MOGU/mogu_1.dds"
+                "gfx/leaders/MOGU/mogu_2.dds"
+                "gfx/leaders/MOGU/mogu_3.dds"
+                "gfx/leaders/MOGU/mogu_4.dds"
+                "gfx/leaders/MOGU/mogu_5.dds"
+                "gfx/leaders/MOGU/mogu_6.dds"
+                "gfx/leaders/MOGU/mogu_7.dds"
+                "gfx/leaders/MOGU/mogu_8.dds"
+                "gfx/leaders/MOGU/mogu_9.dds"
+                "gfx/leaders/MOGU/mogu_10.dds"
+            }
+		}
+        death = {
+			male = {
+                "gfx/leaders/MOGU/mogu_1.dds"
+                "gfx/leaders/MOGU/mogu_2.dds"
+                "gfx/leaders/MOGU/mogu_3.dds"
+                "gfx/leaders/MOGU/mogu_4.dds"
+                "gfx/leaders/MOGU/mogu_5.dds"
+                "gfx/leaders/MOGU/mogu_6.dds"
+                "gfx/leaders/MOGU/mogu_7.dds"
+                "gfx/leaders/MOGU/mogu_8.dds"
+                "gfx/leaders/MOGU/mogu_9.dds"
+                "gfx/leaders/MOGU/mogu_10.dds"
+            }
+		}
+        unaligned = {
+			male = {
+                "gfx/leaders/MOGU/mogu_1.dds"
+                "gfx/leaders/MOGU/mogu_2.dds"
+                "gfx/leaders/MOGU/mogu_3.dds"
+                "gfx/leaders/MOGU/mogu_4.dds"
+                "gfx/leaders/MOGU/mogu_5.dds"
+                "gfx/leaders/MOGU/mogu_6.dds"
+                "gfx/leaders/MOGU/mogu_7.dds"
+                "gfx/leaders/MOGU/mogu_8.dds"
+                "gfx/leaders/MOGU/mogu_9.dds"
+                "gfx/leaders/MOGU/mogu_10.dds"
+            }
+		}
+	}
+}

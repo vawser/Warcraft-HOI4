@@ -1,0 +1,61 @@
+state = {
+	id = 723
+	name = "SANDSORROW_WATCH"
+	manpower = 7839
+	state_category = town
+
+	resources = {
+		oil = 16
+		ground_beast = 4
+		flying_beast = 7
+		wood = 3
+		steel = 9
+		food = 4
+	}
+
+	history = {
+		owner = SAN
+		add_core_of = SAN
+
+		buildings = {
+			infrastructure = 6
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 3
+			industrial_complex = 7
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			3359 = {
+				bunker = 2
+			}
+			3529 = {
+				bunker = 6
+			}
+			3546 = {
+				bunker = 5
+			}
+			3583 = {
+				bunker = 7
+			}
+			3610 = {
+				bunker = 2
+			}
+			3635 = {
+				bunker = 4
+			}
+		}
+	}
+
+	provinces = {
+        3359 3529 3546 3583 3610 3635 
+    }
+}

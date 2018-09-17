@@ -1,0 +1,57 @@
+state = {
+	id = 744
+	name = "ISILDIEN"
+	manpower = 556
+	state_category = rural
+
+	resources = {
+		oil = 2
+		ground_beast = 8
+		flying_beast = 8
+		wood = 16
+		food = 18
+	}
+
+	history = {
+		owner = WOO
+		add_core_of = WOO
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 2
+			industrial_complex = 0
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			3838 = {
+				bunker = 0
+			}
+			3866 = {
+				bunker = 0
+			}
+			4057 = {
+				bunker = 0
+			}
+			4088 = {
+				bunker = 0
+			}
+			4117 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        3838 3866 4057 4088 4117 
+    }
+}

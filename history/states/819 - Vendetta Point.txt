@@ -1,0 +1,62 @@
+state = {
+	id = 819
+	name = "BOGPOINT"
+	manpower = 722
+	state_category = rural
+
+	resources = {
+		oil = 1
+		ground_beast = 3
+		flying_beast = 1
+		wood = 3
+		steel = 2
+		food = 18
+	}
+
+	history = {
+		owner = WIM
+		add_core_of = WIM
+
+        612.1.1 = {
+            set_state_name = VENDETTA_POINT
+        }
+        
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 0
+			industrial_complex = 2
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			4913 = {
+				bunker = 0
+			}
+			5051 = {
+				bunker = 0
+			}
+			5069 = {
+				bunker = 0
+			}
+			5089 = {
+				bunker = 0
+			}
+			5109 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        4913 5051 5069 5089 5109 
+    }
+}

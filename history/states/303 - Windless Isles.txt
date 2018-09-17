@@ -1,0 +1,81 @@
+state = {
+	id = 303
+	name = "WINDLESS_ISLE"
+	manpower = 787
+	state_category = island
+
+	resources = {
+		oil = 3
+		ground_beast = 7
+		wood = 26
+		steel = 7
+		food = 13
+	}
+
+	history = {
+		owner = JAS
+		add_core_of = JAS
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 1
+			industrial_complex = 0
+			dockyard = 0
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			6358 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 2
+			}
+			6366 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 1
+			}
+			6423 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 2
+			}
+			6424 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 6
+			}
+			6425 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 6
+			}
+			6524 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 6
+			}
+			6526 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 7
+			}
+		}
+	}
+
+	provinces = {
+        6358 6366 6423 6424 6425 6524 6526
+    }
+}

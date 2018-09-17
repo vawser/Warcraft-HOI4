@@ -1,0 +1,66 @@
+state = {
+	id = 1021
+	name = "SILVERMYST_ISLE"
+	manpower = 712
+	state_category = island
+
+	resources = {
+		oil = 3
+		flying_beast = 8
+		wood = 13
+		steel = 7
+		food = 19
+	}
+
+	history = {
+        owner = BMB
+		add_core_of = BMB
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 0
+			industrial_complex = 1
+			dockyard = 2
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			6923 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 8
+			}
+			6928 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 1
+			}
+			6934 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 2
+			}
+			6940 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 2
+			}
+		}
+	}
+
+	provinces = {
+        6923 6928 6934 6940 
+    }
+}

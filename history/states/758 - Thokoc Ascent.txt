@@ -1,0 +1,15 @@
+state = {
+	id = 758
+	name = "THOKOC_ASCENT"
+	manpower = 55
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = DRB
+	}
+
+	provinces = {
+        4503 4513 4548 4591 4653 4706 
+    }
+}

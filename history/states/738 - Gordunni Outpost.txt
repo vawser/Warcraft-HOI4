@@ -1,0 +1,63 @@
+state = {
+	id = 738
+	name = "GORDUNNI_OUTPOST"
+	manpower = 3703
+	state_category = village
+
+	resources = {
+		oil = 3
+		ground_beast = 7
+		flying_beast = 4
+		wood = 28
+		steel = 6
+		food = 15
+	}
+
+	history = {
+        owner = GMT
+		add_core_of = GMT
+        
+        612.1.1 = {
+            owner = GOR
+            add_core_of = GOR
+        }
+
+		buildings = {
+			infrastructure = 4
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 4
+			industrial_complex = 3
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			3868 = {
+				bunker = 0
+			}
+			3895 = {
+				bunker = 0
+			}
+			3921 = {
+				bunker = 0
+			}
+			3948 = {
+				bunker = 0
+			}
+			3975 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        3868 3895 3921 3948 3975 
+    }
+}

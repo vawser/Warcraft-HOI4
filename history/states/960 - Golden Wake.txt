@@ -1,0 +1,54 @@
+state = {
+	id = 960
+	name = "GOLDEN_WAKE"
+	manpower = 733
+	state_category = rural
+
+	resources = {
+		oil = 3
+		ground_beast = 3
+		wood = 14
+		steel = 8
+		food = 17
+	}
+
+	history = {
+		owner = SEN
+		add_core_of = SEN
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 1
+			industrial_complex = 1
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			3682 = {
+				bunker = 0
+			}
+			3697 = {
+				bunker = 0
+			}
+			3728 = {
+				bunker = 0
+			}
+			3785 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        3682 3697 3728 3785
+    }
+}

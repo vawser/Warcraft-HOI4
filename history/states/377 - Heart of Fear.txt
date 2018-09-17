@@ -1,0 +1,57 @@
+state = {
+	id = 377
+	name = "HEART_OF_FEAR"
+	manpower = 9066
+	state_category = city
+
+	resources = {
+		oil = 1
+		ground_beast = 4
+		flying_beast = 9
+		steel = 7
+		food = 19
+	}
+
+	history = {
+		owner = MAN
+		add_core_of = MAN
+
+		buildings = {
+			infrastructure = 9
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 10
+			industrial_complex = 4
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			6596 = {
+				bunker = 4
+			}
+			6605 = {
+				bunker = 2
+			}
+			6611 = {
+				bunker = 9
+			}
+			6612 = {
+				bunker = 9
+			}
+			6619 = {
+				bunker = 9
+			}
+		}
+	}
+
+	provinces = {
+        6596 6605 6611 6612 6619
+    }
+}

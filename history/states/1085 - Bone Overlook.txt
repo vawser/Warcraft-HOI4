@@ -1,0 +1,15 @@
+state = {
+	id = 1085
+	name = "BONE_OVERLOOK"
+	manpower = 49
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = ZDL
+	}
+
+	provinces = {
+        6474
+    }
+}

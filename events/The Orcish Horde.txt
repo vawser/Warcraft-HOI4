@@ -1,0 +1,243 @@
+﻿add_namespace = the_orcish_horde
+
+# Remove End of the Gnoll Wars
+country_event = {
+	id = the_orcish_horde.1
+	title = the_orcish_horde.1.title
+	desc = the_orcish_horde.1.desc
+	picture = GFX_event_HELLFIRE_CITADEL
+	
+	is_triggered_only = yes
+    
+    trigger = {
+        original_tag = SRW
+        has_war_with = TTH
+        has_idea = end_of_the_gnoll_wars
+    }
+    
+    option = {
+		name = the_orcish_horde.1.option.a
+        
+        remove_ideas = end_of_the_gnoll_wars
+	}
+}
+
+# Raid (human)
+country_event = {
+	id = the_orcish_horde.2
+	title = the_orcish_horde.2.title
+	desc = the_orcish_horde.2.desc
+	picture = GFX_event_HELLFIRE_CITADEL
+	
+	is_triggered_only = yes
+    
+    option = {
+		name = the_orcish_horde.2.option.a
+        
+        add_timed_idea = {
+            idea = extraordinary_efforts
+            days = 365
+        }
+        
+        ai_chance = {
+            factor = 0
+        }
+	}
+    option = {
+		name = the_orcish_horde.2.option.b
+        
+        add_timed_idea = {
+            idea = orc_raid
+            days = 180
+        }
+        
+        ai_chance = {
+            factor = 1
+        }
+	}
+}
+
+# Human Ambush!
+country_event = {
+	id = the_orcish_horde.3
+	title = the_orcish_horde.3.title
+	desc = the_orcish_horde.3.desc
+	picture = GFX_event_CULLING_OF_STRATHOLME
+	
+	is_triggered_only = yes
+    
+    option = {
+		name = the_orcish_horde.3.option.a
+        
+        army_experience = 10
+        
+        ai_chance = {
+            factor = 1
+        }
+	}
+    option = {
+		name = the_orcish_horde.3.option.b
+        
+        add_timed_idea = {
+            idea = shadow_council_support
+            days = 365
+        }
+        
+        ai_chance = {
+            factor = 0
+        }
+	}
+}
+
+# Issue Mak'gora
+country_event = {
+	id = the_orcish_horde.4
+	title = the_orcish_horde.4.title
+	desc = the_orcish_horde.4.desc
+	picture = GFX_event_DRAENOR
+	
+	is_triggered_only = yes
+    
+    option = {
+		name = the_orcish_horde.4.option.a
+        
+        army_experience = -100
+        
+        custom_effect_tooltip = MOKGORA_BLACKHAND_DIES
+        
+        hidden_effect = {
+            kill_country_leader = yes
+            remove_unit_leader = 1001
+            
+            create_country_leader = {
+                name = "Warchief Ogrim Doomhammer"
+                desc = ""
+                picture = "gfx/leaders/ORC/characters/ogrim_doomhammer.dds"
+                expire = "2000.1.1"
+                ideology = kingdom_disorder
+                traits = {
+                    headstrong
+                    warmonger
+                    prepared_for_war
+                }
+            }
+        }
+        
+        ai_chance = {
+            factor = 1
+        }
+	}
+    option = {
+		name = the_orcish_horde.4.option.b
+        
+        random_list = {
+            50 = {
+                custom_effect_tooltip = MOKGORA_BLACKHAND_DIES
+        
+                hidden_effect = {
+                    kill_country_leader = yes
+                    remove_unit_leader = 1001
+                    
+                    create_country_leader = {
+                        name = "Warchief Ogrim Doomhammer"
+                        desc = ""
+                        picture = "gfx/leaders/ORC/characters/ogrim_doomhammer.dds"
+                        expire = "2000.1.1"
+                        ideology = kingdom_disorder
+                        traits = {
+                            headstrong
+                            warmonger
+                            prepared_for_war
+                        }
+                    }
+                }
+            }
+            50 = {
+                custom_effect_tooltip = MOKGORA_OGRIM_DIES
+                hidden_effect = { remove_unit_leader = 1003 }
+            }
+        }
+        
+        ai_chance = {
+            factor = 0
+        }
+	}
+}
+ 
+# Enter Stranglethorn
+country_event = {
+	id = the_orcish_horde.5
+	title = the_orcish_horde.5.title
+	desc = the_orcish_horde.5.desc
+	picture = GFX_event_ZUL_GURUB
+	
+	is_triggered_only = yes
+    
+    option = {
+		name = the_orcish_horde.5.option.a
+        
+        add_stability = 0.1
+        
+        ai_chance = {
+            factor = 0
+        }
+	}
+    option = {
+		name = the_orcish_horde.5.option.b
+        
+        GUR = {
+            country_event = { id = the_orcish_horde.6 days = 1 }
+        }
+        
+        ai_chance = {
+            factor = 1
+        }
+	}
+}
+
+# Orc Envoy
+country_event = {
+	id = the_orcish_horde.6
+	title = the_orcish_horde.6.title
+	desc = the_orcish_horde.6.desc
+	picture = GFX_event_ZUL_GURUB
+	
+	is_triggered_only = yes
+    
+    option = {
+		name = the_orcish_horde.6.option.a
+        
+        add_stability = 0.1
+        
+        ai_chance = {
+            factor = 0
+        }
+	}
+    option = {
+		name = the_orcish_horde.6.option.b
+        
+        TTH = {
+            country_event = { id = the_orcish_horde.7 days = 1 }
+        }
+        
+        ai_chance = {
+            factor = 1
+        }
+	}
+}
+
+# Troll Alliance
+country_event = {
+	id = the_orcish_horde.7
+	title = the_orcish_horde.7.title
+	desc = the_orcish_horde.7.desc
+	picture = GFX_event_ZUL_GURUB
+	
+	is_triggered_only = yes
+    
+    option = {
+		name = the_orcish_horde.3.option.a
+        
+        add_to_faction = GUR
+	}
+}

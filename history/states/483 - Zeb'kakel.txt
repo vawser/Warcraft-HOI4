@@ -1,0 +1,57 @@
+state = {
+	id = 483
+	name = "ZEB_KAKEL"
+	manpower = 1354
+	state_category = village
+
+	resources = {
+		oil = 2
+		ground_beast = 9
+		wood = 26
+		steel = 3
+		food = 14
+	}
+
+	history = {
+		owner = FTP
+		add_core_of = FTP
+
+		buildings = {
+			infrastructure = 3
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 6
+			industrial_complex = 1
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			5388 = {
+				bunker = 0
+			}
+			5484 = {
+				bunker = 0
+			}
+			5629 = {
+				bunker = 0
+			}
+			5635 = {
+				bunker = 0
+			}
+			5655 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        5388 5484 5629 5635 5655 
+    }
+}

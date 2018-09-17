@@ -1,0 +1,56 @@
+state = {
+	id = 981
+	name = "DAISTHERIL"
+	manpower = 899
+	state_category = rural
+
+	resources = {
+		flying_beast = 3
+		wood = 21
+		steel = 7
+		food = 14
+	}
+
+	history = {
+		owner = WTA
+		add_core_of = WTA
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 3
+			industrial_complex = 0
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			3661 = {
+				bunker = 0
+			}
+			3673 = {
+				bunker = 0
+			}
+			3691 = {
+				bunker = 0
+			}
+			3793 = {
+				bunker = 0
+			}
+			3808 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        3661 3673 3691 3793 3808
+    }
+}

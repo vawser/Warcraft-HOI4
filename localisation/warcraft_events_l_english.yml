@@ -1,0 +1,68 @@
+﻿l_english: 
+ debug.1.title: "Azeroth Falls!"
+ debug.1.desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin malesuada ligula vitae nisl finibus, sed ornare augue euismod. Curabitur et purus at enim maximus aliquam at cursus elit. Cras a lobortis nibh. Curabitur turpis nibh, aliquet quis commodo eget, ultricies ac tortor. Donec non ornare ante, ac mattis lectus. Vivamus venenatis tellus ultrices ante fringilla, vel euismod odio rutrum. Phasellus finibus ex commodo metus bibendum pretium. Integer ornare est non diam cursus, nec vestibulum odio malesuada. Morbi euismod lorem tristique lobortis facilisis. Pellentesque mattis est ac scelerisque vestibulum. "
+ debug.1.a: "Lorem ipsum dolor sit amet"
+ debug.1.b: "Lorem ipsum dolor sit amet"
+ debug.1.c: "Lorem ipsum dolor sit amet"
+ debug.1.d: "Lorem ipsum dolor sit amet"
+ 
+ debug.3.title: "Azeroth Falls!"
+ debug.3.desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin malesuada ligula vitae nisl finibus, sed ornare augue euismod. Curabitur et purus at enim maximus aliquam at cursus elit. Cras a lobortis nibh. Curabitur turpis nibh, aliquet quis commodo eget, ultricies ac tortor. Donec non ornare ante, ac mattis lectus. Vivamus venenatis tellus ultrices ante fringilla, vel euismod odio rutrum. Phasellus finibus ex commodo metus bibendum pretium. Integer ornare est non diam cursus, nec vestibulum odio malesuada. Morbi euismod lorem tristique lobortis facilisis. Pellentesque mattis est ac scelerisque vestibulum. "
+ debug.3.a: "Lorem ipsum dolor sit amet"
+ debug.3.b: "Lorem ipsum dolor sit amet"
+ debug.3.c: "Lorem ipsum dolor sit amet"
+ debug.3.d: "Lorem ipsum dolor sit amet"
+ 
+ # The First War
+ the_first_war.1.title: "The Orcish Horde Attacks"
+ the_first_war.1.desc: "These so called 'orcs' from the Blasted Lands have begun attacking our towns and villages. We must not falter in our defence of our people. \n\nAlthough our peace was short-lived, let us be glad we had peace at all."
+ the_first_war.1.option.a: "All peace must come to an end."
+ 
+ # Random
+ random_events.1.title: "Upset in the Provinces"
+ random_events.1.desc: "The [Root.GetRacePluralLowercase] have become discontent with the leadership of [Root.GetLeader]. Without adaquate persuasion, it is likely they will revolt and damage our industry."
+ random_events.1.option.a: "Persuade them to step down"
+ random_events.1.option.b: "Ignore their plight"
+ 
+ random_events.2.title: "A Steamy Inn"
+ random_events.2.desc: "A provincal inn within our lands has become known for it's elicit nature, and rumours are it provides sexual services for those who seek such carnal desires. Reports by our guards have finally confirmed these rumours, and action should be taken before this business gets out of hand."
+ random_events.2.option.a: "Shut down the inn"
+ random_events.2.option.b: "Accept bribes from the innkeep"
+ 
+ # Religion Conversion
+ celestial.2.title: "The Celestials"
+ celestial.2.desc: "We have recently converted to the Celestials, and now we must pick one of the said Celestials to align with."
+ celestial.2.option.a: "Let us follow the Jade Serpent"
+ celestial.2.option.b: "Let us follow the Black Ox"
+ celestial.2.option.c: "Let us follow the Red Crane"
+ celestial.2.option.d: "Let us follow the White Tiger"
+ FOLLOW_YULON: "We will worship §HYu'lon§!."
+ FOLLOW_NIUZAO: "We will worship §HNiuzao§!."
+ FOLLOW_CHIJI: "We will worship §HChi'ji§!."
+ FOLLOW_XUEN: "We will worship §HXu'en§!."
+ 
+ old_god.2.title: "The Old Gods"
+ old_god.2.desc: "We have recently converted to the Old Gods, now we must sucuumb to one of them."
+ old_god.2.option.a: "Take me, C'Thun!"
+ old_god.2.option.b: "O' Wise Y'Shaarj, I follow!"
+ old_god.2.option.c: "Yogg-Saron, I await you!"
+ old_god.2.option.d: "N'Zoth the Murky Prince, I am yours!"
+ FOLLOW_CTHUN: "We will worship §HC'Thun§!."
+ FOLLOW_YSHAARJ: "We will worship §HY'Shaarj§!."
+ FOLLOW_YOGG_SARON: "We will worship §HYogg-Saron§!."
+ FOLLOW_NZOTH: "We will worship §HN'Zoth§!."
+ 
+ dragonflight.2.title: "The Dragon Aspects"
+ dragonflight.2.desc: "We have recently converted to the Dragon Aspects, now we must align with one of the aspects."
+ dragonflight.2.option.a: "Let us follow Alexstrasza the Lifebinder"
+ dragonflight.2.option.b: "Let us follow Ysera the Dreamer"
+ dragonflight.2.option.c: "Let us follow Neltharion the Earth-Warder"
+ dragonflight.2.option.d: "Let us follow Malygos the Spell-weaver"
+ FOLLOW_ALEXSTRASZA: "We will worship §HAlexstrasza§!."
+ FOLLOW_YSERA: "We will worship §HYsera§!."
+ FOLLOW_NELTHARION: "We will worship §HNeltharion§!."
+ FOLLOW_MALYGOS: "We will worship §HMalygos§!."
+ 
+ # The Orcish Horde Focus
+ 
+ # Stormwind Focus

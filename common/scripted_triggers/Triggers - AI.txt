@@ -1,0 +1,74 @@
+#-------------------------------------------------------------------------------
+# AI
+#-------------------------------------------------------------------------------
+# These are triggers relating to AI, such as in ai_will_do checks.
+
+ai_ignore_army = {
+    check_variable = { ai_ignore_army = 1 }
+}
+
+ai_prioritise_army = {
+    check_variable = { ai_prioritise_army = 1 }
+}
+
+ai_ignore_land_doctrine = {
+    check_variable = { ai_ignore_land_doctrine = 1 }
+}
+
+ai_ignore_naval_doctrine = {
+    check_variable = { ai_ignore_naval_doctrine = 1 }
+}
+
+ai_ignore_air_doctrine = {
+    check_variable = { ai_ignore_air_doctrine = 1 }
+}
+
+ai_prioritise_naval_invasion = {
+    check_variable = { ai_prioritise_naval_invasion = 1 }
+}
+
+ai_ignore_naval_invasion = {
+    check_variable = { ai_ignore_naval_invasion = 1 }
+}
+
+ai_prioritise_air = {
+    check_variable = { ai_prioritise_air = 1 }
+}
+
+ai_prioritise_navy = {
+    check_variable = { ai_prioritise_navy = 1 }
+}
+
+ai_ignore_air = {
+    check_variable = { ai_ignore_air = 1 }
+}
+
+ai_ignore_navy = {
+    check_variable = { ai_ignore_navy = 1 }
+}
+
+ai_ignore_industry = {
+    check_variable = { ai_ignore_industry = 1 }
+}
+
+ai_ignore_resources = {
+    check_variable = { ai_ignore_resources = 1 }
+}
+
+ai_ignore_support = {
+    check_variable = { ai_ignore_support = 1 }
+}
+
+ai_ignore_statecraft = {
+    check_variable = { ai_ignore_statecraft = 1 }
+}
+
+ai_ignore_espionage = {
+    check_variable = { ai_ignore_espionage = 1 }
+}
+
+ai_ignore_religion = {
+    check_variable = { ai_ignore_religion = 1 }
+}
+
+

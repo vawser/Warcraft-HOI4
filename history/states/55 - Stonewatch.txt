@@ -1,0 +1,69 @@
+state = {
+	id = 55
+	name = "STONEWATCH"
+	manpower = 2301
+	state_category = village
+
+	resources = {
+		oil = 1
+		flying_beast = 3
+		wood = 2
+		steel = 1
+		food = 18
+	}
+
+	history = {
+        victory_points = {
+            2995 5
+        }
+        
+		owner = RED
+        add_core_of = RED
+
+        # The Second War
+        597.1.1 = {
+            owner = TTH
+            add_core_of = TTH
+        }
+        # The Third War
+        612.1.1 = {
+            owner = RED
+            add_core_of = RED
+        }
+        
+		buildings = {
+			infrastructure = 4
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 4
+			industrial_complex = 2
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			2941 = {
+				bunker = 0
+			}
+			2968 = {
+				bunker = 0
+			}
+			2995 = {
+				bunker = 0
+			}
+			3022 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        2941 2968 2995 3022 
+    }
+}

@@ -1,0 +1,58 @@
+state = {
+	id = 508
+	name = "CORRUPTED_STAIRS"
+	manpower = 482
+	state_category = rural
+
+	resources = {
+		oil = 3
+		ground_beast = 1
+		flying_beast = 7
+		wood = 13
+		steel = 4
+		food = 10
+	}
+
+	history = {
+		owner = DAK
+		add_core_of = DAK
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 0
+			industrial_complex = 1
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			5713 = {
+				bunker = 0
+			}
+			5759 = {
+				bunker = 0
+			}
+			5770 = {
+				bunker = 0
+			}
+			5789 = {
+				bunker = 0
+			}
+			6186 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        5713 5759 5770 5789 6186 
+    }
+}

@@ -1,0 +1,220 @@
+#-------------------------------------------------------------------------------
+# Race
+#-------------------------------------------------------------------------------
+# These are triggers relating to race.
+
+is_human = { has_idea = racial_human }
+is_aqir = { has_idea = racial_aqir }
+is_centaur = { has_idea = racial_centaur }
+is_draenei = { has_idea = racial_draenei }
+is_red_dragonflight = { has_idea = racial_red_dragonflight }
+is_blue_dragonflight = { has_idea = racial_blue_dragonflight }
+is_green_dragonflight = { has_idea = racial_green_dragonflight }
+is_black_dragonflight = { has_idea = racial_black_dragonflight }
+is_dwarf = { has_idea = racial_dwarf }
+is_earthern = { has_idea = racial_earthern }
+is_dryad = { has_idea = racial_dryad }
+is_high_elf = { has_idea = racial_high_elf }
+is_blood_elf = { has_idea = racial_blood_elf }
+is_night_elf = { has_idea = racial_night_elf }
+is_nightborne = { has_idea = racial_nightborne }
+is_furbolg = { has_idea = racial_furbolg }
+is_gnoll = { has_idea = racial_gnoll }
+is_gnome = { has_idea = racial_gnome }
+is_goblin = { has_idea = racial_goblin }
+is_gorloc = { has_idea = racial_gorloc }
+is_harpy = { has_idea = racial_harpy }
+is_hozen = { has_idea = racial_hozen }
+is_jinyu = { has_idea = racial_jinyu }
+is_kobold = { has_idea = racial_kobold }
+is_magnataur = { has_idea = racial_magnataur }
+is_mantid = { has_idea = racial_mantid }
+is_mogu = { has_idea = racial_mogu }
+is_murloc = { has_idea = racial_murloc }
+is_nerubian = { has_idea = racial_nerubian }
+is_naga = { has_idea = racial_naga }
+is_ogre = { has_idea = racial_ogre }
+is_orc = { has_idea = racial_orc }
+is_pandaren = { has_idea = racial_pandaren }
+is_pygmy = { has_idea = racial_pygmy }
+is_quillboar = { has_idea = racial_quillboar }
+is_satyr = { has_idea = racial_satyr }
+is_saurok = { has_idea = racial_saurok }
+is_scourge = { has_idea = racial_scourge }
+is_sprite = { has_idea = racial_sprite }
+is_tauren = { has_idea = racial_tauren }
+is_taunka = { has_idea = racial_taunka }
+is_tolvir = { has_idea = racial_tolvir }
+is_titan = { has_idea = racial_titan }
+is_trogg = { has_idea = racial_trogg }
+is_zandalari_troll = { has_idea = racial_zandalari_troll }
+is_forest_troll = { has_idea = racial_forest_troll }
+is_jungle_troll = { has_idea = racial_jungle_troll }
+is_sand_troll = { has_idea = racial_sand_troll }
+is_frost_troll = { has_idea = racial_frost_troll }
+is_tuskarr = { has_idea = racial_tuskarr }
+is_undead = { has_idea = racial_undead }
+is_vrykul = { has_idea = racial_vrykul }
+is_wolvar = { has_idea = racial_wolvar }
+is_yaungol = { has_idea = racial_yaungol }
+is_troll = {
+    OR = {
+        has_idea = racial_forest_troll
+        has_idea = racial_jungle_troll
+        has_idea = racial_sand_troll
+        has_idea = racial_frost_troll
+        has_idea = racial_zandalari_troll
+    }
+}
+is_dragonflight = {
+    OR = {
+        has_idea = racial_red_dragonflight
+        has_idea = racial_blue_dragonflight
+        has_idea = racial_black_dragonflight
+        has_idea = racial_green_dragonflight      
+    }
+}
+
+is_civil = {
+    # Exclude tags that are considered savage, but are civil by default
+    NOT = { original_tag = DKI }
+    NOT = { original_tag = BLO }
+    
+    OR = {
+        is_human = yes
+        is_draenei = yes
+        is_dragonflight = yes
+        is_dwarf = yes
+        is_earthern = yes
+        is_high_elf = yes
+        is_blood_elf = yes
+        is_night_elf = yes
+        is_gnome = yes
+        is_goblin = yes
+        is_hozen = yes
+        is_jinyu = yes
+        is_pandaren = yes
+        is_tauren = yes
+        is_taunka = yes
+        is_tolvir = yes
+        is_titan = yes
+        is_tuskarr = yes
+        is_undead = yes
+
+        # Specific tags to consider civil (that are savage by default)
+        OR = {
+            
+        }
+    }
+}
+
+# For nations that would attend seasonal events
+is_civil_seasonal = {
+    NOT = { original_tag = DKI }
+    NOT = { original_tag = BLO }
+    
+    OR = {
+        is_human = yes
+        is_draenei = yes
+        is_dwarf = yes
+        is_high_elf = yes
+        is_blood_elf = yes
+        is_night_elf = yes
+        is_gnome = yes
+        is_goblin = yes
+        is_pandaren = yes
+        is_tauren = yes
+        is_taunka = yes
+        is_tuskarr = yes
+        is_undead = yes
+        original_tag = ORG
+    }
+}
+
+is_class_race = {
+    OR = {
+        is_human = yes
+        is_draenei = yes
+        is_dwarf = yes
+        is_high_elf = yes
+        is_blood_elf = yes
+        is_night_elf = yes
+        is_gnome = yes
+        is_goblin = yes
+        is_hozen = yes
+        is_jinyu = yes
+        is_pandaren = yes
+        is_tauren = yes
+        is_taunka = yes
+        is_tuskarr = yes
+        is_undead = yes
+        is_orc = yes
+        is_scourge = yes
+        is_troll = yes
+        is_vrykul = yes
+    }
+}
+
+is_allowed_gnomish_engineering = {
+    OR = {
+        is_human = yes
+        is_draenei = yes
+        is_dwarf = yes
+        is_gnome = yes
+        is_pandaren = yes
+        is_tauren = yes
+    }
+}
+
+is_allowed_goblin_engineering = {
+    OR = {
+        is_human = yes
+        is_dwarf = yes
+        is_pandaren = yes
+        is_tauren = yes
+        is_undead = yes
+        is_orc = yes
+        is_troll = yes
+        is_vrykul = yes
+    }
+}
+
+is_savage = { 
+    # Exclude tags that are considered civil, but are savage by default
+    
+    OR = {
+        is_aqir = yes
+        is_centaur = yes
+        is_dryad = yes
+        is_furbolg = yes
+        is_gnoll = yes
+        is_gorloc = yes
+        is_harpy = yes
+        is_kobold = yes
+        is_magnataur = yes
+        is_mantid = yes
+        is_mogu = yes
+        is_murloc = yes
+        is_naga = yes
+        is_ogre = yes
+        is_orc = yes
+        is_pygmy = yes
+        is_quillboar = yes
+        is_satyr = yes
+        is_saurok = yes
+        is_scourge = yes
+        is_sprite = yes
+        is_trogg = yes
+        is_troll = yes
+        is_wolvar = yes
+        is_yaungol = yes
+        is_vrykul = yes
+        
+        # Specific tags to consider savage (that are civil by default)
+        OR = {
+            original_tag = DKI
+            original_tag = BLO
+        }
+    }
+}
+

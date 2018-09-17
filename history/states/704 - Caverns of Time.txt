@@ -1,0 +1,46 @@
+state = {
+	id = 704
+	name = "CAVERNS_OF_TIME"
+	manpower = 2026
+	state_category = village
+
+	resources = {
+		oil = 18
+		ground_beast = 6
+		flying_beast = 5
+		wood = 4
+		steel = 1
+		food = 2
+	}
+
+	history = {
+		owner = SAN
+		add_core_of = SAN
+
+		buildings = {
+			infrastructure = 3
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 6
+			industrial_complex = 2
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			3554 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        3554    
+    }
+}

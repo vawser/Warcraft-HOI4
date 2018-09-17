@@ -1,0 +1,15 @@
+state = {
+	id = 672
+	name = "QIRAJ_UPLAND"
+	manpower = 27
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = AQJ
+	}
+
+	provinces = {
+        3213 3215 3218 3221 4435 4444 4454 4461 4479 4672 
+    }
+}

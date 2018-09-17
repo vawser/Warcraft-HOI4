@@ -1,0 +1,75 @@
+state = {
+	id = 136
+	name = "THE_GREEN_BELT"
+	manpower = 919
+	state_category = rural
+
+	resources = {
+		oil = 1
+		ground_beast = 3
+		flying_beast = 9
+		steel = 5
+		food = 10
+	}
+
+	history = {
+		owner = BLU
+        add_core_of = BLU
+
+        # The Second War
+        597.1.1 = {
+            owner = TTH
+            add_core_of = TTH
+            add_core_of = TBC
+        }
+        # The Third War
+        612.1.1 = {
+            owner = TBC
+            add_core_of = TBC
+        }
+        
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 3
+			industrial_complex = 0
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			2523 = {
+				bunker = 0
+			}
+			2539 = {
+				bunker = 0
+			}
+			2554 = {
+				bunker = 0
+			}
+			2805 = {
+				bunker = 0
+			}
+			2911 = {
+				bunker = 0
+			}
+			2934 = {
+				bunker = 0
+			}
+			2959 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        2523 2539 2554 2805 2911 2934 2959
+    }
+}

@@ -1,0 +1,723 @@
+#-------------------------------------------------------------------------------
+# Effects
+#-------------------------------------------------------------------------------
+# These are effects used in any valid effect scope, i.e. religion, etc
+
+# Effects:
+# add_scaled_war_support
+# add_scaled_stability
+# add_popularity_x_10
+# scaled_add_political_power
+# scaled_add_command_power
+# add_scaled_manpower
+# add_wargoal_on_neighbor
+# add_pp_from_light
+# add_pp_from_shadow
+# add_pp_from_order
+# add_pp_from_disorder
+# add_pp_from_life
+# add_pp_from_death
+# add_pp_from_unaligned
+
+add_scaled_war_support = {
+    if = {
+        limit = {
+            has_war_support > 0.99 
+        }
+        custom_effect_tooltip = WAR_SUPPORT_AT_MAX
+    }
+    else = {
+        set_temp_variable = { base = 0.1 }
+        multiply_temp_variable = { base = faith_action_multiplier }
+        add_war_support = var:base
+    }
+}
+
+add_scaled_stability = {
+    if = {
+        limit = {
+            has_stability > 0.99 
+        }
+        custom_effect_tooltip = STABILITY_AT_MAX
+    }
+    else = {
+        set_temp_variable = { base = 0.1 }
+        multiply_temp_variable = { base = faith_action_multiplier }
+        add_stability = var:base
+    }
+}
+
+add_popularity_x_10 = {
+    set_temp_variable = { base = 0.1 }
+    multiply_temp_variable = { base = faith_action_multiplier }
+    
+    if = {
+        limit = {
+            has_government = light
+        }
+        add_popularity = {
+            ideology = light
+            popularity = var:base
+        }
+    }
+    if = {
+        limit = {
+            has_government = shadow
+        }
+        add_popularity = {
+            ideology = shadow
+            popularity = var:base
+        }
+    }
+    if = {
+        limit = {
+            has_government = order
+        }
+        add_popularity = {
+            ideology = order
+            popularity = var:base
+        }
+    }
+    if = {
+        limit = {
+            has_government = disorder
+        }
+        add_popularity = {
+            ideology = disorder
+            popularity = var:base
+        }
+    }
+    if = {
+        limit = {
+            has_government = life
+        }
+        add_popularity = {
+            ideology = life
+            popularity = var:base
+        }
+    }
+    if = {
+        limit = {
+            has_government = death
+        }
+        add_popularity = {
+            ideology = death
+            popularity = var:base
+        }
+    }
+    if = {
+        limit = {
+            has_government = unaligned
+        }
+        add_popularity = {
+            ideology = unaligned
+            popularity = var:base
+        }
+    }
+}
+
+scaled_add_political_power = {
+    set_temp_variable = { base = 2 }
+    multiply_temp_variable = { base = faith_action_multiplier }
+    
+    set_temp_variable = { count = num_core_states }
+    multiply_temp_variable = { count = base }
+    
+    add_political_power = var:count
+}
+
+scaled_add_command_power = {
+    set_temp_variable = { base = 2 }
+    multiply_temp_variable = { base = faith_action_multiplier }
+    
+    set_temp_variable = { count = num_core_states }
+    multiply_temp_variable = { count = base }
+    
+    add_command_power = var:count
+}
+
+add_scaled_manpower = {
+    set_temp_variable = { base = 25 }
+    multiply_temp_variable = { base = faith_action_multiplier }
+    
+    set_temp_variable = { count = num_divisions }
+
+    # Limit at 1,000,000 manpower. Also to prevent var overflow
+    if = {
+        limit = {
+            num_divisions > 100
+        }
+        set_temp_variable = { count = 100 }
+    }
+    
+    multiply_temp_variable = { count = base }
+
+    add_manpower = count
+}
+
+add_wargoal_on_neighbor = {
+    custom_effect_tooltip = WARGOAL_GENERATION_TOOLTIP
+    
+    if = {
+        limit = {
+            any_neighbor_country = {
+                NOT = { is_in_faction_with = ROOT }
+                has_opinion = {
+                    target = ROOT
+                    value < 10
+                }
+                ROOT = { NOT = { has_wargoal_against = PREV } }
+            }
+        }
+
+        random_neighbor_country = {
+            limit = {
+                NOT = { is_in_faction_with = ROOT }
+                has_opinion = {
+                    target = ROOT
+                    value < 10
+                }
+                ROOT = { NOT = { has_wargoal_against = PREV } }
+            }
+            set_temp_variable = { target_country = THIS.id }
+         }
+         create_wargoal = {
+            type = annex_everything
+            target = var:target_country
+         }
+    }
+    else = {
+        custom_effect_tooltip = NO_VALID_WARGOAL_TARGET
+    }
+}
+
+#---------------------------------
+# Equipment
+#---------------------------------
+add_grunt_equipment = {
+    if = {
+        limit = { check_variable = { faith_action_multiplier < 2 } }
+        add_equipment_to_stockpile = {
+            type = grunt_equipment
+            amount = 100
+        }
+    }
+    else_if = {
+        limit = { 
+            check_variable = { faith_action_multiplier > 1 } 
+            check_variable = { faith_action_multiplier < 3 } 
+        }
+        add_equipment_to_stockpile = {
+            type = grunt_equipment
+            amount = 200
+        }
+    }
+    else_if = {
+        limit = { 
+            check_variable = { faith_action_multiplier > 2 } 
+            check_variable = { faith_action_multiplier < 4 } 
+        }
+        add_equipment_to_stockpile = {
+            type = grunt_equipment
+            amount = 300
+        }
+    }
+    else_if = {
+        limit = { 
+            check_variable = { faith_action_multiplier > 3 } 
+            check_variable = { faith_action_multiplier < 5 } 
+        }
+        add_equipment_to_stockpile = {
+            type = grunt_equipment
+            amount = 400
+        }
+    }
+    else_if = {
+        limit = { 
+            check_variable = { faith_action_multiplier > 4 } 
+        }
+        add_equipment_to_stockpile = {
+            type = grunt_equipment
+            amount = 500
+        }
+    }
+}
+
+add_champion_equipment = {
+    if = {
+        limit = { check_variable = { faith_action_multiplier < 2 } }
+        add_equipment_to_stockpile = {
+            type = champion_equipment
+            amount = 100
+        }
+    }
+    else_if = {
+        limit = { 
+            check_variable = { faith_action_multiplier > 1 } 
+            check_variable = { faith_action_multiplier < 3 } 
+        }
+        add_equipment_to_stockpile = {
+            type = champion_equipment
+            amount = 200
+        }
+    }
+    else_if = {
+        limit = { 
+            check_variable = { faith_action_multiplier > 2 } 
+            check_variable = { faith_action_multiplier < 4 } 
+        }
+        add_equipment_to_stockpile = {
+            type = champion_equipment
+            amount = 300
+        }
+    }
+    else_if = {
+        limit = { 
+            check_variable = { faith_action_multiplier > 3 } 
+            check_variable = { faith_action_multiplier < 5 } 
+        }
+        add_equipment_to_stockpile = {
+            type = champion_equipment
+            amount = 400
+        }
+    }
+    else_if = {
+        limit = { 
+            check_variable = { faith_action_multiplier > 4 } 
+        }
+        add_equipment_to_stockpile = {
+            type = champion_equipment
+            amount = 500
+        }
+    }
+}
+
+add_spellcaster_equipment = {
+    if = {
+        limit = { check_variable = { faith_action_multiplier < 2 } }
+        add_equipment_to_stockpile = {
+            type = spellcaster_equipment
+            amount = 100
+        }
+    }
+    else_if = {
+        limit = { 
+            check_variable = { faith_action_multiplier > 1 } 
+            check_variable = { faith_action_multiplier < 3 } 
+        }
+        add_equipment_to_stockpile = {
+            type = spellcaster_equipment
+            amount = 200
+        }
+    }
+    else_if = {
+        limit = { 
+            check_variable = { faith_action_multiplier > 2 } 
+            check_variable = { faith_action_multiplier < 4 } 
+        }
+        add_equipment_to_stockpile = {
+            type = spellcaster_equipment
+            amount = 300
+        }
+    }
+    else_if = {
+        limit = { 
+            check_variable = { faith_action_multiplier > 3 } 
+            check_variable = { faith_action_multiplier < 5 } 
+        }
+        add_equipment_to_stockpile = {
+            type = spellcaster_equipment
+            amount = 400
+        }
+    }
+    else_if = {
+        limit = { 
+            check_variable = { faith_action_multiplier > 4 } 
+        }
+        add_equipment_to_stockpile = {
+            type = spellcaster_equipment
+            amount = 500
+        }
+    }
+}
+
+add_archer_equipment = {
+    if = {
+        limit = { check_variable = { faith_action_multiplier < 2 } }
+        add_equipment_to_stockpile = {
+            type = archer_equipment
+            amount = 100
+        }
+    }
+    else_if = {
+        limit = { 
+            check_variable = { faith_action_multiplier > 1 } 
+            check_variable = { faith_action_multiplier < 3 } 
+        }
+        add_equipment_to_stockpile = {
+            type = archer_equipment
+            amount = 200
+        }
+    }
+    else_if = {
+        limit = { 
+            check_variable = { faith_action_multiplier > 2 } 
+            check_variable = { faith_action_multiplier < 4 } 
+        }
+        add_equipment_to_stockpile = {
+            type = archer_equipment
+            amount = 300
+        }
+    }
+    else_if = {
+        limit = { 
+            check_variable = { faith_action_multiplier > 3 } 
+            check_variable = { faith_action_multiplier < 5 } 
+        }
+        add_equipment_to_stockpile = {
+            type = archer_equipment
+            amount = 400
+        }
+    }
+    else_if = {
+        limit = { 
+            check_variable = { faith_action_multiplier > 4 } 
+        }
+        add_equipment_to_stockpile = {
+            type = archer_equipment
+            amount = 500
+        }
+    }
+}
+
+add_light_cavalry_equipment = {
+    if = {
+        limit = { check_variable = { faith_action_multiplier < 2 } }
+        add_equipment_to_stockpile = {
+            type = light_cavalry_equipment
+            amount = 100
+        }
+    }
+    else_if = {
+        limit = { 
+            check_variable = { faith_action_multiplier > 1 } 
+            check_variable = { faith_action_multiplier < 3 } 
+        }
+        add_equipment_to_stockpile = {
+            type = light_cavalry_equipment
+            amount = 200
+        }
+    }
+    else_if = {
+        limit = { 
+            check_variable = { faith_action_multiplier > 2 } 
+            check_variable = { faith_action_multiplier < 4 } 
+        }
+        add_equipment_to_stockpile = {
+            type = light_cavalry_equipment
+            amount = 300
+        }
+    }
+    else_if = {
+        limit = { 
+            check_variable = { faith_action_multiplier > 3 } 
+            check_variable = { faith_action_multiplier < 5 } 
+        }
+        add_equipment_to_stockpile = {
+            type = light_cavalry_equipment
+            amount = 400
+        }
+    }
+    else_if = {
+        limit = { 
+            check_variable = { faith_action_multiplier > 4 } 
+        }
+        add_equipment_to_stockpile = {
+            type = light_cavalry_equipment
+            amount = 500
+        }
+    }
+}
+
+add_heavy_cavalry_equipment = {
+    if = {
+        limit = { check_variable = { faith_action_multiplier < 2 } }
+        add_equipment_to_stockpile = {
+            type = heavy_cavalry_equipment
+            amount = 100
+        }
+    }
+    else_if = {
+        limit = { 
+            check_variable = { faith_action_multiplier > 1 } 
+            check_variable = { faith_action_multiplier < 3 } 
+        }
+        add_equipment_to_stockpile = {
+            type = heavy_cavalry_equipment
+            amount = 200
+        }
+    }
+    else_if = {
+        limit = { 
+            check_variable = { faith_action_multiplier > 2 } 
+            check_variable = { faith_action_multiplier < 4 } 
+        }
+        add_equipment_to_stockpile = {
+            type = heavy_cavalry_equipment
+            amount = 300
+        }
+    }
+    else_if = {
+        limit = { 
+            check_variable = { faith_action_multiplier > 3 } 
+            check_variable = { faith_action_multiplier < 5 } 
+        }
+        add_equipment_to_stockpile = {
+            type = heavy_cavalry_equipment
+            amount = 400
+        }
+    }
+    else_if = {
+        limit = { 
+            check_variable = { faith_action_multiplier > 4 } 
+        }
+        add_equipment_to_stockpile = {
+            type = heavy_cavalry_equipment
+            amount = 500
+        }
+    }
+}
+
+add_light_tank_equipment = {
+    if = {
+        limit = { check_variable = { faith_action_multiplier < 2 } }
+        add_equipment_to_stockpile = {
+            type = light_tank_equipment
+            amount = 100
+        }
+    }
+    else_if = {
+        limit = { 
+            check_variable = { faith_action_multiplier > 1 } 
+            check_variable = { faith_action_multiplier < 3 } 
+        }
+        add_equipment_to_stockpile = {
+            type = light_tank_equipment
+            amount = 200
+        }
+    }
+    else_if = {
+        limit = { 
+            check_variable = { faith_action_multiplier > 2 } 
+            check_variable = { faith_action_multiplier < 4 } 
+        }
+        add_equipment_to_stockpile = {
+            type = light_tank_equipment
+            amount = 300
+        }
+    }
+    else_if = {
+        limit = { 
+            check_variable = { faith_action_multiplier > 3 } 
+            check_variable = { faith_action_multiplier < 5 } 
+        }
+        add_equipment_to_stockpile = {
+            type = light_tank_equipment
+            amount = 400
+        }
+    }
+    else_if = {
+        limit = { 
+            check_variable = { faith_action_multiplier > 4 } 
+        }
+        add_equipment_to_stockpile = {
+            type = light_tank_equipment
+            amount = 500
+        }
+    }
+}
+
+add_heavy_tank_equipment = {
+    if = {
+        limit = { check_variable = { faith_action_multiplier < 2 } }
+        add_equipment_to_stockpile = {
+            type = heavy_tank_equipment
+            amount = 100
+        }
+    }
+    else_if = {
+        limit = { 
+            check_variable = { faith_action_multiplier > 1 } 
+            check_variable = { faith_action_multiplier < 3 } 
+        }
+        add_equipment_to_stockpile = {
+            type = heavy_tank_equipment
+            amount = 200
+        }
+    }
+    else_if = {
+        limit = { 
+            check_variable = { faith_action_multiplier > 2 } 
+            check_variable = { faith_action_multiplier < 4 } 
+        }
+        add_equipment_to_stockpile = {
+            type = heavy_tank_equipment
+            amount = 300
+        }
+    }
+    else_if = {
+        limit = { 
+            check_variable = { faith_action_multiplier > 3 } 
+            check_variable = { faith_action_multiplier < 5 } 
+        }
+        add_equipment_to_stockpile = {
+            type = heavy_tank_equipment
+            amount = 400
+        }
+    }
+    else_if = {
+        limit = { 
+            check_variable = { faith_action_multiplier > 4 } 
+        }
+        add_equipment_to_stockpile = {
+            type = heavy_tank_equipment
+            amount = 500
+        }
+    }
+}
+
+add_support_equipment = {
+    if = {
+        limit = { check_variable = { faith_action_multiplier < 2 } }
+        add_equipment_to_stockpile = {
+            type = support_equipment
+            amount = 100
+        }
+    }
+    else_if = {
+        limit = { 
+            check_variable = { faith_action_multiplier > 1 } 
+            check_variable = { faith_action_multiplier < 3 } 
+        }
+        add_equipment_to_stockpile = {
+            type = support_equipment
+            amount = 200
+        }
+    }
+    else_if = {
+        limit = { 
+            check_variable = { faith_action_multiplier > 2 } 
+            check_variable = { faith_action_multiplier < 4 } 
+        }
+        add_equipment_to_stockpile = {
+            type = support_equipment
+            amount = 300
+        }
+    }
+    else_if = {
+        limit = { 
+            check_variable = { faith_action_multiplier > 3 } 
+            check_variable = { faith_action_multiplier < 5 } 
+        }
+        add_equipment_to_stockpile = {
+            type = support_equipment
+            amount = 400
+        }
+    }
+    else_if = {
+        limit = { 
+            check_variable = { faith_action_multiplier > 4 } 
+        }
+        add_equipment_to_stockpile = {
+            type = support_equipment
+            amount = 500
+        }
+    }
+}
+
+#---------------------------------
+# PP from Ideology
+#---------------------------------
+add_pp_from_light = {
+    set_temp_variable = { base = 200 }
+    multiply_temp_variable = { base = faith_action_multiplier }
+    
+    hidden_effect = {
+        set_temp_variable = { pop = party_popularity@light }
+        multiply_temp_variable = { pop = base }
+    }
+    
+    add_political_power = var:pop
+}
+
+add_pp_from_shadow = {
+    set_temp_variable = { base = 200 }
+    multiply_temp_variable = { base = faith_action_multiplier }
+    
+    hidden_effect = {
+        set_temp_variable = { pop = party_popularity@shadow }
+        multiply_temp_variable = { pop = base }
+    }
+    
+    add_political_power = var:pop
+}
+
+add_pp_from_order = {
+    set_temp_variable = { base = 200 }
+    multiply_temp_variable = { base = faith_action_multiplier }
+    
+    hidden_effect = {
+        set_temp_variable = { pop = party_popularity@order }
+        multiply_temp_variable = { pop = base }
+    }
+    
+    add_political_power = var:pop
+}
+
+add_pp_from_disorder = {
+    set_temp_variable = { base = 200 }
+    multiply_temp_variable = { base = faith_action_multiplier }
+    
+    hidden_effect = {
+        set_temp_variable = { pop = party_popularity@disorder }
+        multiply_temp_variable = { pop = base }
+    }
+    
+    add_political_power = var:pop
+}
+
+add_pp_from_life = {
+    set_temp_variable = { base = 200 }
+    multiply_temp_variable = { base = faith_action_multiplier }
+    
+    hidden_effect = {
+        set_temp_variable = { pop = party_popularity@life }
+        multiply_temp_variable = { pop = base }
+    }
+    
+    add_political_power = var:pop
+}
+
+add_pp_from_death = {
+    set_temp_variable = { base = 200 }
+    multiply_temp_variable = { base = faith_action_multiplier }
+    
+    hidden_effect = {
+        set_temp_variable = { pop = party_popularity@death }
+        multiply_temp_variable = { pop = base }
+    }
+    
+    add_political_power = var:pop
+}
+
+add_pp_from_unaligned = {
+    set_temp_variable = { base = 200 }
+    multiply_temp_variable = { base = faith_action_multiplier }
+    
+    hidden_effect = {
+        set_temp_variable = { pop = party_popularity@unaligned }
+        multiply_temp_variable = { pop = base }
+    }
+    
+    add_political_power = var:pop
+}

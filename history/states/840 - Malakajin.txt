@@ -1,0 +1,54 @@
+state = {
+	id = 840
+	name = "MALAKAJIN"
+	manpower = 4198
+	state_category = village
+
+	resources = {
+		ground_beast = 3
+		flying_beast = 5
+		wood = 6
+		steel = 8
+		food = 15
+	}
+
+	history = {
+		owner = WIT
+		add_core_of = WIT
+
+		buildings = {
+			infrastructure = 4
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 6
+			industrial_complex = 4
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			4145 = {
+				bunker = 0
+			}
+			4156 = {
+				bunker = 0
+			}
+			4165 = {
+				bunker = 0
+			}
+			4175 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        4145 4156 4165 4175 
+    }
+}

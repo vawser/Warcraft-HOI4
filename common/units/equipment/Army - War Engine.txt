@@ -1,0 +1,213 @@
+equipments = {
+    # --------- war_engine ---------
+	war_engine_equipment = {
+		is_archetype = yes
+		picture = archetype_artillery
+        
+		type = {
+			artillery
+			infantry
+		}
+		group_by = archetype
+		
+		interface_category = interface_category_land
+        
+        upgrades = {
+			wm_war_engine_max_strength
+            wm_war_engine_max_organisation
+            wm_war_engine_default_morale
+            wm_war_engine_weight
+            wm_war_engine_supply_consumption
+            wm_war_engine_reliability
+            wm_war_engine_maximum_speed
+            wm_war_engine_soft_attack
+            wm_war_engine_hard_attack
+            wm_war_engine_defense
+            wm_war_engine_breakthrough
+            wm_war_engine_ap_attack
+            wm_war_engine_hardness
+            wm_war_engine_armor_value
+            wm_war_engine_build_cost_ic
+		}
+        
+        max_strength = 10
+        max_organisation = 10
+        default_morale = 0.4
+        weight = 1
+        supply_consumption = 0.15
+        
+		reliability = 0.7
+
+        soft_attack = 20
+		hard_attack = 3
+        
+        defense = 2
+		breakthrough = 2
+        
+        ap_attack = 5
+		air_attack = 0
+
+		hardness = 0.5
+		armor_value = 5
+
+		lend_lease_cost = 1
+		build_cost_ic = 5
+        
+		resources = {
+            food = 3
+			steel = 2
+			wood = 2
+		}
+	}
+
+	war_engine_equipment_1 = {
+		archetype = war_engine_equipment
+		priority = 10
+		visual_level = 1
+	}
+    
+    war_engine_equipment_2 = {
+		archetype = war_engine_equipment
+		parent = war_engine_equipment_1
+		priority = 20
+		visual_level = 2
+
+        max_strength = 10
+        max_organisation = 10
+        default_morale = 0.4
+        weight = 1
+        supply_consumption = 0.15
+        
+		reliability = 0.75
+
+        soft_attack = 20
+		hard_attack = 6
+        
+        defense = 4
+		breakthrough = 4
+        
+        ap_attack = 10
+		air_attack = 0
+
+		hardness = 0.5
+		armor_value = 10
+
+		lend_lease_cost = 1
+        build_cost_ic = 6
+        
+        resources = {
+            food = 4
+			steel = 3
+			wood = 3
+		}
+	}
+    
+    war_engine_equipment_3 = {
+		archetype = war_engine_equipment
+		parent = war_engine_equipment_2
+		priority = 25
+		visual_level = 3
+
+        max_strength = 10
+        max_organisation = 10
+        default_morale = 0.4
+        weight = 1
+        supply_consumption = 0.15
+        
+		reliability = 0.8
+
+        soft_attack = 30
+		hard_attack = 9
+        
+        defense = 6
+		breakthrough = 6
+        
+        ap_attack = 15
+		air_attack = 0
+
+		hardness = 0.5
+		armor_value = 15
+
+		lend_lease_cost = 1
+        build_cost_ic = 7
+        
+        resources = {
+            food = 5
+			steel = 4
+			wood = 4
+		}
+	}
+    
+    war_engine_equipment_4 = {
+		archetype = war_engine_equipment
+		parent = war_engine_equipment_3
+		priority = 30
+		visual_level = 4
+
+        max_strength = 10
+        max_organisation = 10
+        default_morale = 0.4
+        weight = 1
+        supply_consumption = 0.15
+        
+		reliability = 0.85
+
+        soft_attack = 40
+		hard_attack = 12
+        
+        defense = 8
+		breakthrough = 8
+        
+        ap_attack = 20
+		air_attack = 0
+
+		hardness = 0.5
+		armor_value = 20
+
+		lend_lease_cost = 1
+        build_cost_ic = 8
+        
+        resources = {
+            food = 6
+			steel = 5
+			wood = 5
+		}
+	}
+    
+    war_engine_equipment_5 = {
+		archetype = war_engine_equipment
+		parent = war_engine_equipment_4
+		priority = 35
+		visual_level = 5
+
+        max_strength = 10
+        max_organisation = 10
+        default_morale = 0.4
+        weight = 1
+        supply_consumption = 0.15
+        
+		reliability = 0.9
+
+        soft_attack = 50
+		hard_attack = 25
+        
+        defense = 10
+		breakthrough = 10
+        
+        ap_attack = 25
+		air_attack = 0
+
+		hardness = 0.5
+		armor_value = 25
+
+		lend_lease_cost = 1
+        build_cost_ic = 9
+        
+        resources = {
+            food = 7
+			steel = 6
+			wood = 6
+		}
+	}
+}
+

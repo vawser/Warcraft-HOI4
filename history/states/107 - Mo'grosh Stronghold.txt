@@ -1,0 +1,80 @@
+state = {
+	id = 107
+	name = "FARSTRIDER_OUTPOST"
+	manpower = 8132
+	state_category = town
+
+	resources = {
+		oil = 2
+		ground_beast = 8
+		flying_beast = 4
+		wood = 4
+		steel = 9
+		food = 14
+	}
+
+	history = {
+		owner = IRO
+        add_core_of = IRO
+
+        # The Second War
+        597.1.1 = {
+            owner = TTH
+            add_core_of = TTH
+            add_core_of = MOG
+        }
+        # The Third War
+        612.1.1 = {
+            owner = MOG
+            add_core_of = MOG
+            set_state_name = MOGROSH_STRONGHOLD
+        }
+        
+		buildings = {
+			infrastructure = 5
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 5
+			industrial_complex = 4
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			2310 = {
+				bunker = 4
+			}
+			2376 = {
+				bunker = 4
+			}
+			2915 = {
+				bunker = 6
+			}
+			2964 = {
+				bunker = 5
+			}
+			2991 = {
+				bunker = 4
+			}
+			3019 = {
+				bunker = 5
+			}
+			3044 = {
+				bunker = 3
+			}
+			3068 = {
+				bunker = 6
+			}
+		}
+	}
+
+	provinces = {
+        2310 2376 2915 2964 2991 3019 3044 3068 
+    }
+}

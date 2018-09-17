@@ -1,0 +1,51 @@
+state = {
+	id = 776
+	name = "WINTERHOOF"
+	manpower = 8843
+	state_category = town
+
+	resources = {
+		oil = 3
+		ground_beast = 9
+		flying_beast = 4
+		wood = 2
+		food = 28
+	}
+
+	history = {
+		owner = DKM
+		add_core_of = DKM
+
+		buildings = {
+			infrastructure = 6
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 8
+			industrial_complex = 3
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			4968 = {
+				bunker = 3
+			}
+			4990 = {
+				bunker = 2
+			}
+			5049 = {
+				bunker = 3
+			}
+		}
+	}
+
+	provinces = {
+        4968 4990 5049 
+    }
+}

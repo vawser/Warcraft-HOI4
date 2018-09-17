@@ -1,0 +1,74 @@
+state = {
+	id = 124
+	name = "DRAGONMAW"
+	manpower = 8321
+	state_category = town
+
+	resources = {
+		oil = 9
+		ground_beast = 4
+		flying_beast = 4
+		wood = 4
+		steel = 4
+		food = 3
+	}
+
+	history = {
+		owner = WIL
+        add_core_of = WIL
+
+        victory_points = {
+            1649 10
+        }
+        
+		buildings = {
+			infrastructure = 6
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 3
+			industrial_complex = 4
+			dockyard = 3
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			1629 = {
+				bunker = 2
+				coastal_bunker = 2
+				naval_base = 2
+			}
+			1630 = {
+				bunker = 6
+				coastal_bunker = 6
+				naval_base = 5
+			}
+			1632 = {
+				bunker = 7
+				coastal_bunker = 5
+				naval_base = 2
+			}
+			1649 = {
+				bunker = 8
+				coastal_bunker = 8
+				naval_base = 2
+			}
+			2803 = {
+				bunker = 7
+			}
+		}
+	}
+
+	provinces = {
+        1629 1630 1632 1649 2803 
+    }
+}

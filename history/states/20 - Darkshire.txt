@@ -1,0 +1,82 @@
+state = {
+	id = 20
+	name = "GRAND_HAMLET"
+	manpower = 11685
+	state_category = city
+
+	resources = {
+		oil = 3
+		ground_beast = 8
+		flying_beast = 1
+		wood = 12
+		food = 10
+	}
+
+	history = {
+        victory_points = {
+            2363 15
+        }
+        
+		owner = DAR
+        add_core_of = DAR
+
+        # The Second War
+        597.1.1 = {
+            set_state_name = "DARKSHIRE"
+            owner = TTH
+            add_core_of = TTH
+        }
+        # The Third War
+        612.1.1 = {
+            owner = DAR
+            add_core_of = DAR
+        }
+        
+		buildings = {
+			infrastructure = 8
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 10
+			industrial_complex = 5
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			2347 = {
+				bunker = 5
+			}
+			2363 = {
+				bunker = 7
+			}
+			2818 = {
+				bunker = 5
+			}
+			2842 = {
+				bunker = 1
+			}
+			2868 = {
+				bunker = 3
+			}
+			2296 = {
+				bunker = 5
+			}
+			2378 = {
+				bunker = 8
+			}
+			2394 = {
+				bunker = 5
+			}
+		}
+	}
+
+	provinces = {
+        2347 2363 2818 2842 2868 2296 2378 2394 
+    }
+}

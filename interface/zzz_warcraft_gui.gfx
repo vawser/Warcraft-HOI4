@@ -1,0 +1,266 @@
+spriteTypes = {	
+    #----------------------------
+    # Backgrounds
+    #----------------------------
+    spriteType = {
+		name = "GFX_598x600_parchment_bg"
+		texturefile = "gfx/interface/backgrounds/598x600_parchment.dds"
+	}
+    
+    spriteType = {
+		name = "GFX_359x360_parchment_bg"
+		texturefile = "gfx/interface/backgrounds/359x360_parchment.dds"
+	}
+
+    spriteType = {
+		name = "GFX_598x280_parchment_bg"
+		texturefile = "gfx/interface/backgrounds/598x280_parchment.dds"
+	}
+    
+    spriteType = {
+		name = "GFX_900x600_parchment_bg"
+		texturefile = "gfx/interface/backgrounds/900x600_parchment.dds"
+	}
+    
+    #----------------------------
+    # Banners
+    #----------------------------
+    spriteType = {
+		name = "GFX_wow_banner"
+		texturefile = "gfx/interface/banners/251x46_banner.dds"
+	}
+    
+    spriteType = {
+		name = "GFX_wow_construction_header"
+		texturefile = "gfx/interface/banners/construction_header.dds"
+	}
+    
+    #----------------------------
+    # Buttons
+    #----------------------------
+    spriteType = {
+		name = "GFX_small_compass"
+		texturefile = "gfx/interface/buttons/small_compass.dds"
+	}
+    spriteType = {
+		name = "GFX_small_chest"
+		texturefile = "gfx/interface/buttons/small_chest.dds"
+	}
+    spriteType = {
+		name = "GFX_small_swords"
+		texturefile = "gfx/interface/buttons/small_swords.dds"
+	}
+    spriteType = {
+		name = "GFX_small_quest"
+		texturefile = "gfx/interface/buttons/small_quest.dds"
+	}
+    spriteType = {
+		name = "GFX_switch_view_button"
+		texturefile = "gfx/interface/buttons/switch_view_button.dds"
+	}
+    spriteType = {
+		name = "GFX_religion_topbar_bg"
+		texturefile = "gfx/interface/buttons/generic_box_200.dds"
+	}
+    
+    # Long
+    spriteType = {
+		name = "GFX_long_red_menu_button"
+		texturefile = "gfx/interface/buttons/354x50_red_button.dds"
+	}
+    spriteType = {
+		name = "GFX_long_blue_menu_button"
+		texturefile = "gfx/interface/buttons/354x50_blue_button.dds"
+	}
+    spriteType = {
+		name = "GFX_long_green_menu_button"
+		texturefile = "gfx/interface/buttons/354x50_green_button.dds"
+	}
+    spriteType = {
+		name = "GFX_long_muted_menu_button"
+		texturefile = "gfx/interface/buttons/354x50_muted_button.dds"
+	}
+    spriteType = {
+		name = "GFX_long_purple_menu_button"
+		texturefile = "gfx/interface/buttons/354x50_purple_button.dds"
+	}
+    spriteType = {
+		name = "GFX_long_yellow_menu_button"
+		texturefile = "gfx/interface/buttons/354x50_yellow_button.dds"
+	}
+    
+    # Normal
+    spriteType = {
+		name = "GFX_red_menu_button"
+		texturefile = "gfx/interface/buttons/240x50_red_button.dds"
+	}
+    spriteType = {
+		name = "GFX_blue_menu_button"
+		texturefile = "gfx/interface/buttons/240x50_blue_button.dds"
+	}
+    spriteType = {
+		name = "GFX_green_menu_button"
+		texturefile = "gfx/interface/buttons/240x50_green_button.dds"
+	}
+    spriteType = {
+		name = "GFX_muted_menu_button"
+		texturefile = "gfx/interface/buttons/240x50_muted_button.dds"
+	}
+    spriteType = {
+		name = "GFX_purple_menu_button"
+		texturefile = "gfx/interface/buttons/240x50_purple_button.dds"
+	}
+    spriteType = {
+		name = "GFX_yellow_menu_button"
+		texturefile = "gfx/interface/buttons/240x50_yellow_button.dds"
+	}
+    
+    # Short
+    spriteType = {
+		name = "GFX_short_red_menu_button"
+		texturefile = "gfx/interface/buttons/180x50_red_button.dds"
+	}
+    spriteType = {
+		name = "GFX_short_blue_menu_button"
+		texturefile = "gfx/interface/buttons/180x50_blue_button.dds"
+	}
+    spriteType = {
+		name = "GFX_short_green_menu_button"
+		texturefile = "gfx/interface/buttons/180x50_green_button.dds"
+	}
+    spriteType = {
+		name = "GFX_short_muted_menu_button"
+		texturefile = "gfx/interface/buttons/180x50_muted_button.dds"
+	}
+    spriteType = {
+		name = "GFX_short_purple_menu_button"
+		texturefile = "gfx/interface/buttons/180x50_purple_button.dds"
+	}
+    spriteType = {
+		name = "GFX_short_yellow_menu_button"
+		texturefile = "gfx/interface/buttons/180x50_yellow_button.dds"
+	}
+    
+    # Small
+    spriteType = {
+		name = "GFX_small_red_menu_button"
+		texturefile = "gfx/interface/buttons/94x50_red_button.dds"
+	}
+    spriteType = {
+		name = "GFX_small_blue_menu_button"
+		texturefile = "gfx/interface/buttons/94x50_blue_button.dds"
+	}
+    spriteType = {
+		name = "GFX_small_green_menu_button"
+		texturefile = "gfx/interface/buttons/94x50_green_button.dds"
+	}
+    spriteType = {
+		name = "GFX_small_muted_menu_button"
+		texturefile = "gfx/interface/buttons/94x50_muted_button.dds"
+	}
+    spriteType = {
+		name = "GFX_small_purple_menu_button"
+		texturefile = "gfx/interface/buttons/94x50_purple_button.dds"
+	}
+    spriteType = {
+		name = "GFX_small_yellow_menu_button"
+		texturefile = "gfx/interface/buttons/94x50_yellow_button.dds"
+	}
+    
+    spriteType = {
+		name = "GFX_focus_unavailable"
+		textureFile = "gfx/interface/focus_inactive.dds"
+	}
+	spriteType = {
+		name = "GFX_focus_can_start"
+		textureFile = "gfx/interface/focus_active.dds"
+	}
+    
+    spriteType = {
+		name = "GFX_long_event_menu_button"
+		texturefile = "gfx/interface/buttons/354x50_blue_button.dds"
+        effectFile = "gfx/FX/buttonstate.lua"
+	}
+    
+    SpriteType = {
+		name = "GFX_focus_background"
+		texturefile = "gfx/interface/focus_active.dds"
+	}
+    
+    #----------------------------
+    # Focus GUI
+    #----------------------------
+    SpriteType = {
+		name = "GFX_focus_current"
+		texturefile = "gfx/interface/focus_active.dds"
+		effectFile = "gfx/FX/buttonstate_onlydisable.lua"	
+		animation = {
+			animationmaskfile = "gfx/interface/focus_ongoing_mask2.dds"
+			animationtexturefile = "gfx/interface/focus_ongoing_texture.dds" 	# <- the animated file
+			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = yes			# yes or no ;)
+			animationtime = 20.0				# in seconds
+			animationdelay = 0.2			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "rotating"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/focus_ongoing_mask4.dds"
+			animationtexturefile = "gfx/interface/focus_ongoing_texture.dds"
+			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = yes			# yes or no ;)
+			animationtime = 15.0				# in seconds
+			animationdelay = 0.2			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "rotating_ccw"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+	
+		legacy_lazy_load = no
+	}	
+
+	SpriteType = {
+		name = "GFX_focus_completed"
+		texturefile = "gfx/interface/focus_done.dds"
+		effectFile = "gfx/FX/buttonstate_onlydisable.lua"		
+		animation = {
+			animationmaskfile = "gfx/interface/focus_completed_mask.dds"
+			animationtexturefile = "gfx/interface/focus_completed_texture.dds" 	# <- the animated file
+			animationrotation = 0.0		# -90 clockwise 90 counterclockwise(by default)
+			animationlooping = yes			# yes or no ;)
+			animationtime = 26.0				# in seconds
+			animationdelay = 0.0			# in seconds
+			animationblendmode = "add"       #add, multiply, overlay
+			animationtype = "scrolling"      #scrolling, rotating, pulsing
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 } 
+		}
+	
+		legacy_lazy_load = no
+	}
+}
+
+#----------------------------
+# Fonts
+#----------------------------
+bitmapfonts = {
+    bitmapfont = {
+		name = "hoi_20bs_dark"
+		fontfiles = { 
+			"gfx/fonts/hoi_20bs_dark"
+		}		
+		color = 0xffffffff
+
+		textcolors = {
+			G = { 86 172 91 }
+			R = { 222 86 70 }
+			Y = { 238 201 35 }
+			H = { 238 201 35 }
+			T = { 255 255 255 }
+		}
+	}
+}
+

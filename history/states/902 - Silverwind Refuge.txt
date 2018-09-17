@@ -1,0 +1,60 @@
+state = {
+	id = 902
+	name = "SILVERWIND_REFUGE"
+	manpower = 2051
+	state_category = village
+
+	resources = {
+		oil = 1
+		ground_beast = 7
+		flying_beast = 5
+		wood = 29
+		food = 19
+	}
+
+	history = {
+		owner = FWD
+		add_core_of = FWD
+
+		buildings = {
+			infrastructure = 3
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 4
+			industrial_complex = 5
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			3826 = {
+				bunker = 0
+			}
+			3854 = {
+				bunker = 0
+			}
+			3882 = {
+				bunker = 0
+			}
+			3908 = {
+				bunker = 0
+			}
+			4075 = {
+				bunker = 0
+			}
+			4105 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        3826 3854 3882 3908 4075 4105 
+    }
+}

@@ -1,0 +1,66 @@
+state = {
+	id = 731
+	name = "THE_FLATS"
+	manpower = 540
+	state_category = rural
+
+	resources = {
+		oil = 13
+		ground_beast = 5
+		flying_beast = 5
+		wood = 4
+		steel = 3
+	}
+
+	history = {
+		owner = GRV
+		add_core_of = GRV
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 1
+			industrial_complex = 2
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			3345 = {
+				bunker = 0
+			}
+			3439 = {
+				bunker = 0
+			}
+			3467 = {
+				bunker = 0
+			}
+			3496 = {
+				bunker = 0
+			}
+			3523 = {
+				bunker = 0
+			}
+			3577 = {
+				bunker = 0
+			}
+			3604 = {
+				bunker = 0
+			}
+			3631 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        3345 3439 3467 3496 3523 3577 3604 3631 
+    }
+}

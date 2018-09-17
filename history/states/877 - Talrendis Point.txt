@@ -1,0 +1,52 @@
+state = {
+	id = 877
+	name = "TALRENDIS_POINT"
+	manpower = 651
+	state_category = rural
+
+	resources = {
+		oil = 2
+		ground_beast = 6
+		flying_beast = 7
+		wood = 29
+		steel = 7
+		food = 11
+	}
+
+	history = {
+		owner = HAL
+		add_core_of = HAL
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 2
+			industrial_complex = 1
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			3914 = {
+				bunker = 0
+			}
+			3968 = {
+				bunker = 0
+			}
+			3995 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        3914 3968 3995 
+    }
+}

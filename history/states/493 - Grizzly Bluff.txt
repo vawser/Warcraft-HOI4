@@ -1,0 +1,63 @@
+state = {
+	id = 493
+	name = "GRIZZLY_BLUFF"
+	manpower = 758
+	state_category = rural
+
+	resources = {
+		oil = 3
+		flying_beast = 7
+		wood = 15
+		steel = 8
+		food = 13
+	}
+
+	history = {
+		owner = FTP
+		add_core_of = FTP
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 1
+			industrial_complex = 0
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			5360 = {
+				bunker = 0
+			}
+			5385 = {
+				bunker = 0
+			}
+			5408 = {
+				bunker = 0
+			}
+			5717 = {
+				bunker = 0
+			}
+			5728 = {
+				bunker = 0
+			}
+			5739 = {
+				bunker = 0
+			}
+			5783 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        5360 5385 5408 5717 5728 5739 5783 
+    }
+}

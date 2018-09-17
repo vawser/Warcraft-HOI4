@@ -1,0 +1,67 @@
+state = {
+	id = 220
+	name = "DEEPWOOD"
+	manpower = 795
+	state_category = rural
+
+	resources = {
+		oil = 4
+		flying_beast = 7
+		wood = 18
+		food = 17
+	}
+
+	history = {
+		owner = STR
+        add_core_of = STR
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 3
+			industrial_complex = 1
+			dockyard = 0
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			1712 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 7
+			}
+			1719 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 9
+			}
+			2064 = {
+				bunker = 0
+			}
+			2185 = {
+				bunker = 0
+			}
+			2209 = {
+				bunker = 0
+			}
+			2233 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        1712 1719 2064 2185 2209 2233 
+    }
+}

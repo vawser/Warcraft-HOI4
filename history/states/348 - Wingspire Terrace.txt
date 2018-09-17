@@ -1,0 +1,66 @@
+state = {
+	id = 348
+	name = "WINGSPIRE_TERRACE"
+	manpower = 584
+	state_category = rural
+
+	resources = {
+		oil = 4
+		ground_beast = 2
+		flying_beast = 1
+		wood = 18
+		steel = 8
+	}
+
+	history = {
+		owner = RCR
+		add_core_of = RCR
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 2
+			industrial_complex = 1
+			dockyard = 1
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			6447 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 6
+			}
+			6450 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 6
+			}
+			6454 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 9
+			}
+			6459 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 3
+			}
+		}
+	}
+
+	provinces = {
+        6447 6450 6454 6459 
+    }
+}

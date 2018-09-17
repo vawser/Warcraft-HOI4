@@ -1,0 +1,15 @@
+state = {
+	id = 559
+	name = "FROSTCRAG"
+	manpower = 13
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = DAK
+	}
+
+	provinces = {
+        5223 5227 5888 5895 5902 5910 
+    }
+}

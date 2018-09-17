@@ -1,0 +1,23 @@
+defined_text = { 
+	name = GetAB4Tooltip
+    
+    text = {
+		trigger = {
+			OR = {
+                check_variable = { faith_power > faith_action_4_cost }
+                check_variable = { faith_power = faith_action_4_cost }
+            }
+		}
+		localization_key = AB4_ENABLED
+	}
+    text = {
+		trigger = {
+			check_variable = { faith_power < faith_action_4_cost }
+		}
+		localization_key = AB4_DISABLED
+	}
+    text = {
+		localization_key = ""
+	}
+}
+

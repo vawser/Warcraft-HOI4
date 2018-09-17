@@ -1,0 +1,70 @@
+state = {
+	id = 397
+	name = "NIUZAO_TEMPLE"
+	manpower = 5968
+	state_category = town
+
+	resources = {
+		oil = 2
+		ground_beast = 7
+		flying_beast = 5
+		wood = 8
+		steel = 5
+		food = 18
+	}
+
+	history = {
+		owner = BOX
+		add_core_of = BOX
+
+		buildings = {
+			infrastructure = 5
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 3
+			industrial_complex = 3
+			dockyard = 5
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			6322 = {
+				bunker = 7
+				coastal_bunker = 4
+				naval_base = 3
+			}
+			6330 = {
+				bunker = 2
+				coastal_bunker = 7
+				naval_base = 4
+			}
+			6337 = {
+				bunker = 7
+				coastal_bunker = 1
+				naval_base = 3
+			}
+			6343 = {
+				bunker = 8
+				coastal_bunker = 5
+				naval_base = 3
+			}
+			6910 = {
+				bunker = 1
+			}
+		}
+	}
+
+	provinces = {
+        6322 6330 6337 6343 6910 
+    }
+}

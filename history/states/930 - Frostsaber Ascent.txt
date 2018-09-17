@@ -1,0 +1,15 @@
+state = {
+	id = 930
+	name = "FROSTSABER_ASCENT"
+	manpower = 54
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = WTA
+	}
+
+	provinces = {
+        3233 3252 3281 4732 4779 4806 
+    }
+}

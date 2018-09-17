@@ -1,0 +1,69 @@
+state = {
+	id = 337
+	name = "ZHU_WATCH"
+	manpower = 2041
+	state_category = village
+
+	resources = {
+		oil = 3
+		ground_beast = 5
+		flying_beast = 8
+		wood = 13
+		steel = 4
+		food = 4
+	}
+
+	history = {
+		owner = DOJ
+		add_core_of = DOJ
+
+		buildings = {
+			infrastructure = 2
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 3
+			industrial_complex = 2
+			dockyard = 4
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			6436 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 8
+			}
+			6438 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 6
+			}
+			6726 = {
+				bunker = 0
+			}
+			6729 = {
+				bunker = 0
+			}
+			6731 = {
+				bunker = 0
+			}
+			6745 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        6436 6438 6726 6729 6731 6745 
+    }
+}

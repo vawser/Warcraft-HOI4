@@ -1,0 +1,170 @@
+defined_text = { 
+	name = GetCurrentReligionDesc
+
+	text = {
+		trigger = {
+			has_holy_light = yes
+		}
+		localization_key = THE_HOLY_LIGHT_DESC
+	}
+    text = {
+		trigger = {
+			has_elune = yes
+		}
+		localization_key = ELUNE_DESC
+	}
+    text = {
+		trigger = {
+			has_hakkar = yes
+		}
+		localization_key = HAKKARI_DESC
+	}
+    text = {
+		trigger = {
+			has_voodoo = yes
+		}
+		localization_key = VOODOO_DESC
+	}
+    text = {
+		trigger = {
+			has_shadow = yes
+		}
+		localization_key = SHADOW_DESC
+	}
+    text = {
+		trigger = {
+            has_nature = yes
+		}
+		localization_key = NATURE_DESC
+	}
+    text = {
+		trigger = {
+			has_deep_mother = yes
+		}
+		localization_key = DEEP_MOTHER_DESC
+	}
+    text = {
+		trigger = {
+			has_arcane = yes
+		}
+		localization_key = ARCANE_DESC
+	}
+    text = {
+		trigger = {
+			has_druidism = yes
+		}
+		localization_key = DRUIDISM_DESC
+	}
+    text = {
+		trigger = {
+			has_old_gods = yes
+		}
+		localization_key = OLD_GODS_DESC
+	}
+    text = {
+		trigger = {
+			has_fel = yes
+		}
+		localization_key = FEL_DESC
+	}
+    text = {
+		trigger = {
+			has_necromancy = yes
+		}
+		localization_key = NECROMANCY_DESC
+	}
+    text = {
+		trigger = {
+			has_shamanism = yes
+		}
+		localization_key = SHAMANISM_DESC
+	}
+    text = {
+		trigger = {
+			has_celestials = yes
+		}
+		localization_key = CELESTIALS_DESC
+	}
+    text = {
+		trigger = {
+			has_titan = yes
+		}
+		localization_key = TITAN_DESC
+	}
+    text = {
+		trigger = {
+			has_fire = yes
+		}
+		localization_key = FIRE_DESC
+	}
+    text = {
+		trigger = {
+			has_earth = yes
+		}
+		localization_key = EARTH_DESC
+	}
+    text = {
+		trigger = {
+			has_wind = yes
+		}
+		localization_key = WIND_DESC
+	}
+    text = {
+		trigger = {
+			has_water = yes
+		}
+		localization_key = WATER_DESC
+	}
+    text = {
+		trigger = {
+			has_geomancy = yes
+		}
+		localization_key = GEOMANCY_DESC
+	}
+    text = {
+		trigger = {
+			has_light_of_the_naaru = yes
+		}
+		localization_key = LIGHT_OF_THE_NAARU_DESC
+	}
+    text = {
+		trigger = {
+			has_dragon_aspects = yes
+		}
+		localization_key = DRAGON_ASPECTS_DESC
+	}
+    text = {
+		trigger = {
+			has_technomancy = yes
+		}
+		localization_key = TECHNOMANCY_DESC
+	}
+    text = {
+		trigger = {
+			has_capitalism = yes
+		}
+		localization_key = CAPITALISM_DESC
+	}
+    text = {
+		trigger = {
+			has_soul = yes
+		}
+		localization_key = SOUL_DESC
+	}
+    text = {
+		trigger = {
+			has_runic = yes
+		}
+		localization_key = RUNIC_DESC
+	}
+    text = {
+		trigger = {
+            has_no_religion = yes
+		}
+		localization_key = NO_RELIGION_DESC
+	}
+	text = {
+		localization_key = ""
+	}
+}
+

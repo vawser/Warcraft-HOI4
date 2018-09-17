@@ -1,0 +1,85 @@
+state = {
+	id = 866
+	name = "BRACKENHOOF_MARSH"
+	manpower = 632
+	state_category = rural
+
+	resources = {
+		oil = 3
+		ground_beast = 3
+		flying_beast = 7
+		wood = 1
+		steel = 7
+		food = 25
+	}
+
+	history = {
+		owner = DST
+		add_core_of = DST
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 1
+			industrial_complex = 2
+			dockyard = 0
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			3188 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 8
+			}
+			3190 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 9
+			}
+			3192 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 8
+			}
+			3289 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 1
+			}
+			3292 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 7
+			}
+			3296 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 7
+			}
+			3298 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 3
+			}
+			4288 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        3188 3190 3192 3289 3292 3296 3298 4288 
+    }
+}

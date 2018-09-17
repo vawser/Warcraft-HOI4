@@ -1,0 +1,15 @@
+state = {
+	id = 1091
+	name = "REDPETAL_OVERLOOK"
+	manpower = 77
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = JAS
+	}
+
+	provinces = {
+        6793
+    }
+}

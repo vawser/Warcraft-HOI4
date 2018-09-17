@@ -1,0 +1,15 @@
+state = {
+	id = 662
+	name = "FIRE_PLUME_RIDGE"
+	manpower = 54
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = AQJ
+	}
+
+	provinces = {
+        4468 4469 4486 4523 4532 4567 
+    }
+}

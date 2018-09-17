@@ -1,0 +1,61 @@
+state = {
+	id = 730
+	name = "SPLITHOOF_HEIGHTS"
+	manpower = 1838
+	state_category = village
+
+	resources = {
+		oil = 15
+		ground_beast = 5
+		flying_beast = 9
+		wood = 1
+		steel = 6
+		food = 1
+	}
+
+	history = {
+		owner = GAL
+		add_core_of = GAL
+
+		buildings = {
+			infrastructure = 2
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 4
+			industrial_complex = 3
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			3354 = {
+				bunker = 0
+			}
+			3382 = {
+				bunker = 0
+			}
+			3412 = {
+				bunker = 0
+			}
+			3578 = {
+				bunker = 0
+			}
+			3605 = {
+				bunker = 0
+			}
+			3632 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        3354 3382 3412 3578 3605 3632 
+    }
+}

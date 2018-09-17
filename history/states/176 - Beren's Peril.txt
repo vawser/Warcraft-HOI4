@@ -1,0 +1,55 @@
+state = {
+	id = 176
+	name = "BERENS_PERIL"
+	manpower = 843
+	state_category = rural
+
+	resources = {
+		oil = 3
+		ground_beast = 8
+		flying_beast = 8
+		wood = 29
+		steel = 5
+		food = 12
+	}
+
+	history = {
+		owner = GIL
+        add_core_of = GIL
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 3
+			industrial_complex = 0
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			2219 = {
+				bunker = 0
+			}
+			2244 = {
+				bunker = 0
+			}
+			2265 = {
+				bunker = 0
+			}
+			2285 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        2219 2244 2265 2285  
+    }
+}

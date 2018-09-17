@@ -1,0 +1,76 @@
+state = {
+	id = 38
+	name = "SENTINEL_HILL"
+	manpower = 16179
+	state_category = city
+
+	resources = {
+		oil = 2
+		ground_beast = 7
+		flying_beast = 1
+		wood = 2
+		steel = 4
+		food = 12
+	}
+
+	history = {
+        victory_points = {
+            2920 10
+        }
+        
+		owner = WES
+        add_core_of = WES
+
+        # The Second War
+        597.1.1 = {
+            owner = TTH
+            add_core_of = TTH
+        }
+        # The Third War
+        612.1.1 = {
+            owner = WES
+            add_core_of = WES
+        }
+        
+		buildings = {
+			infrastructure = 8
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 10
+			industrial_complex = 5
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			2892 = {
+				bunker = 7
+			}
+			2896 = {
+				bunker = 9
+			}
+			2920 = {
+				bunker = 9
+			}
+			2943 = {
+				bunker = 1
+			}
+			2997 = {
+				bunker = 1
+			}
+			3024 = {
+				bunker = 5
+			}
+		}
+	}
+
+	provinces = {
+        2892 2896 2920 2943 2997 3024 
+    }
+}

@@ -1,0 +1,59 @@
+state = {
+	id = 428
+	name = "YAUNGOL_CLIFFS"
+	manpower = 746
+	state_category = rural
+
+	resources = {
+		oil = 1
+		ground_beast = 1
+		wood = 7
+		steel = 11
+		food = 15
+	}
+
+	history = {
+		owner = YON
+		add_core_of = YON
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 3
+			industrial_complex = 1
+			dockyard = 0
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			6291 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 5
+			}
+			6293 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 6
+			}
+			6804 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        6291 6293 6804 
+    }
+}

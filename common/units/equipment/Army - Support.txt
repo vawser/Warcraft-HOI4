@@ -1,0 +1,33 @@
+equipments = {
+    #----------------------------
+    # SUPPORT
+    #----------------------------
+	support_equipment = {
+		is_archetype = yes
+		picture = archetype_support
+		is_buildable = no
+		type = {
+			infantry
+			motorized
+		}
+		group_by = archetype
+		
+		interface_category = interface_category_land
+		
+		reliability = 0.8
+		lend_lease_cost = 1
+        
+		build_cost_ic = 1
+        
+		resources = {
+			food = 2
+            steel = 1
+			wood = 2
+		}
+	}
+
+	support_equipment_0 = {
+		archetype = support_equipment
+		priority = 20	
+	}
+}

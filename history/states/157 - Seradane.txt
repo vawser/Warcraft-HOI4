@@ -1,0 +1,77 @@
+state = {
+	id = 157
+	name = "SERADANE"
+	manpower = 3866
+	state_category = village
+
+	resources = {
+		oil = 3
+		ground_beast = 8
+		flying_beast = 1
+		wood = 2
+		steel = 7
+		food = 13
+	}
+
+	history = {
+		owner = SER
+        add_core_of = SER
+
+        victory_points = {
+            2437 10
+        }
+        
+		buildings = {
+			infrastructure = 3
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 2
+			industrial_complex = 0
+			dockyard = 5
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			1921 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 5
+			}
+			2286 = {
+				bunker = 0
+			}
+			2300 = {
+				bunker = 0
+			}
+			2437 = {
+				bunker = 0
+			}
+			2846 = {
+				bunker = 0
+			}
+			2847 = {
+				bunker = 0
+			}
+			2873 = {
+				bunker = 0
+			}
+			3026 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        1921 2286 2300 2437 2846 2847 2873 3026 
+    }
+}

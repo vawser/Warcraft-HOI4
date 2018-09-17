@@ -1,0 +1,67 @@
+state = {
+	id = 403
+	name = "ABYSSAL_SHORE"
+	manpower = 874
+	state_category = rural
+
+	resources = {
+		oil = 1
+		ground_beast = 4
+		flying_beast = 5
+		wood = 9
+		steel = 7
+		food = 13
+	}
+
+	history = {
+		owner = BOX
+		add_core_of = BOX
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 2
+			industrial_complex = 0
+			dockyard = 1
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			6318 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 4
+			}
+			6324 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 4
+			}
+			6332 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 8
+			}
+			6339 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 5
+			}
+		}
+	}
+
+	provinces = {
+        6318 6324 6332 6339 
+    }
+}

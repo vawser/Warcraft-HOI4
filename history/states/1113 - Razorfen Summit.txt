@@ -1,0 +1,15 @@
+state = {
+	id = 1113
+	name = "RAZORFEN_SUMMIT"
+	manpower = 28
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = RAF
+	}
+
+	provinces = {
+        4746 4711 4788 4618 4581
+    }
+}

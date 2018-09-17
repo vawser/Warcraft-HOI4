@@ -1,0 +1,15 @@
+state = {
+	id = 1064
+	name = "AGAMAND_HILLS"
+	manpower = 18
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = LOR
+	}
+
+	provinces = {
+        1894 1885 2687
+    }
+}

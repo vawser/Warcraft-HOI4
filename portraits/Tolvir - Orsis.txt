@@ -1,0 +1,87 @@
+ORS = {
+	army = {
+		male = {
+			"gfx/leaders/TOLVIR/tolvir_1.dds"
+			"gfx/leaders/TOLVIR/tolvir_2.dds"
+            "gfx/leaders/TOLVIR/tolvir_3.dds"
+            "gfx/leaders/TOLVIR/tolvir_4.dds"
+            "gfx/leaders/TOLVIR/tolvir_5.dds"
+		}
+	}
+
+	navy = {
+		male = {
+			"gfx/leaders/TOLVIR/tolvir_1.dds"
+			"gfx/leaders/TOLVIR/tolvir_2.dds"
+            "gfx/leaders/TOLVIR/tolvir_3.dds"
+            "gfx/leaders/TOLVIR/tolvir_4.dds"
+            "gfx/leaders/TOLVIR/tolvir_5.dds"
+		}
+	}
+
+	political = {
+		light = {
+			male = {
+                "gfx/leaders/TOLVIR/tolvir_1.dds"
+                "gfx/leaders/TOLVIR/tolvir_2.dds"
+                "gfx/leaders/TOLVIR/tolvir_3.dds"
+                "gfx/leaders/TOLVIR/tolvir_4.dds"
+                "gfx/leaders/TOLVIR/tolvir_5.dds"
+            }
+		}
+		shadow = {
+			male = {
+                "gfx/leaders/TOLVIR/tolvir_1.dds"
+                "gfx/leaders/TOLVIR/tolvir_2.dds"
+                "gfx/leaders/TOLVIR/tolvir_3.dds"
+                "gfx/leaders/TOLVIR/tolvir_4.dds"
+                "gfx/leaders/TOLVIR/tolvir_5.dds"
+            }
+		}
+        order = {
+			male = {
+                "gfx/leaders/TOLVIR/tolvir_1.dds"
+                "gfx/leaders/TOLVIR/tolvir_2.dds"
+                "gfx/leaders/TOLVIR/tolvir_3.dds"
+                "gfx/leaders/TOLVIR/tolvir_4.dds"
+                "gfx/leaders/TOLVIR/tolvir_5.dds"
+            }
+		}
+        disorder = {
+			male = {
+                "gfx/leaders/TOLVIR/tolvir_1.dds"
+                "gfx/leaders/TOLVIR/tolvir_2.dds"
+                "gfx/leaders/TOLVIR/tolvir_3.dds"
+                "gfx/leaders/TOLVIR/tolvir_4.dds"
+                "gfx/leaders/TOLVIR/tolvir_5.dds"
+            }
+		}
+        life = {
+			male = {
+                "gfx/leaders/TOLVIR/tolvir_1.dds"
+                "gfx/leaders/TOLVIR/tolvir_2.dds"
+                "gfx/leaders/TOLVIR/tolvir_3.dds"
+                "gfx/leaders/TOLVIR/tolvir_4.dds"
+                "gfx/leaders/TOLVIR/tolvir_5.dds"
+            }
+		}
+        death = {
+			male = {
+                "gfx/leaders/TOLVIR/tolvir_1.dds"
+                "gfx/leaders/TOLVIR/tolvir_2.dds"
+                "gfx/leaders/TOLVIR/tolvir_3.dds"
+                "gfx/leaders/TOLVIR/tolvir_4.dds"
+                "gfx/leaders/TOLVIR/tolvir_5.dds"
+            }
+		}
+        unaligned = {
+			male = {
+                "gfx/leaders/TOLVIR/tolvir_1.dds"
+                "gfx/leaders/TOLVIR/tolvir_2.dds"
+                "gfx/leaders/TOLVIR/tolvir_3.dds"
+                "gfx/leaders/TOLVIR/tolvir_4.dds"
+                "gfx/leaders/TOLVIR/tolvir_5.dds"
+            }
+		}
+	}
+}

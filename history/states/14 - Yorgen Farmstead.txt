@@ -1,0 +1,73 @@
+state = {
+	id = 14
+	name = "YORGEN_FARMSTEAD"
+	manpower = 3921
+	state_category = village
+
+	resources = {
+		oil = 1
+		ground_beast = 9
+		flying_beast = 4
+		wood = 18
+		steel = 1
+		food = 12
+	}
+
+	history = {
+        victory_points = {
+            2422 5
+        }
+        
+		owner = DAR
+        add_core_of = DAR
+        
+        # The Second War
+        597.1.1 = {
+            owner = TTH
+            add_core_of = TTH
+        }
+        # The Third War
+        612.1.1 = {
+            owner = DAR
+            add_core_of = DAR
+        }
+        
+		buildings = {
+			infrastructure = 2
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 4
+			industrial_complex = 4
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			2344 = {
+				bunker = 0
+			}
+			2360 = {
+				bunker = 0
+			}
+			2422 = {
+				bunker = 0
+			}
+			2436 = {
+				bunker = 0
+			}
+			2451 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        2344 2360 2422 2436 2451
+    }
+}

@@ -1,0 +1,70 @@
+state = {
+	id = 395
+	name = "SIKVESS"
+	manpower = 765
+	state_category = rural
+
+	resources = {
+		oil = 2
+		ground_beast = 3
+		flying_beast = 3
+		wood = 6
+		steel = 12
+		food = 14
+	}
+
+	history = {
+		owner = PAW
+		add_core_of = PAW
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 1
+			industrial_complex = 1
+			dockyard = 0
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			6294 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 6
+			}
+			6296 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 8
+			}
+			6299 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 7
+			}
+			6302 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 3
+			}
+			6857 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        6294 6296 6299 6302 6857 
+    }
+}

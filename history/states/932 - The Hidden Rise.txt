@@ -1,0 +1,15 @@
+state = {
+	id = 932
+	name = "THE_HIDDEN_RISE"
+	manpower = 57
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = WTA
+	}
+
+	provinces = {
+        3254 3274 3282 4695 4733 4781 
+    }
+}

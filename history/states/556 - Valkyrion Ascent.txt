@@ -1,0 +1,15 @@
+state = {
+	id = 556
+	name = "VALKYRION_ASCENT"
+	manpower = 45
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = HYL
+	}
+
+	provinces = {
+        5931 5941 5951 5968 5977 
+    }
+}

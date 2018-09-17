@@ -1,0 +1,15 @@
+state = {
+	id = 943
+	name = "AESSINA_RIDGE"
+	manpower = 54
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = SEN
+	}
+
+	provinces = {
+        4324 4325 4340 4357 4379 4399 4416 
+    }
+}

@@ -1,0 +1,54 @@
+state = {
+	id = 310
+	name = "PEARLFIN_VILLAGE"
+	manpower = 2387
+	state_category = village
+
+	resources = {
+		oil = 1
+		ground_beast = 9
+		wood = 10
+		steel = 1
+		food = 19
+	}
+
+	history = {
+		owner = PEA
+		add_core_of = PEA
+
+		buildings = {
+			infrastructure = 4
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 6
+			industrial_complex = 2
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			6655 = {
+				bunker = 0
+			}
+			6678 = {
+				bunker = 0
+			}
+			6711 = {
+				bunker = 0
+			}
+			6720 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        6655 6678 6711 6720 
+    }
+}

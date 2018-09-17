@@ -1,0 +1,15 @@
+state = {
+	id = 420
+	name = "ZOUCHIN_ASCENT"
+	manpower = 13
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = TIG
+	}
+
+	provinces = {
+        6752 6775 6782 
+    }
+}

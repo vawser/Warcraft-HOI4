@@ -1,0 +1,54 @@
+state = {
+	id = 425
+	name = "FIREKEG_CAMP"
+	manpower = 3605
+	state_category = village
+
+	resources = {
+		ground_beast = 8
+		flying_beast = 2
+		wood = 8
+		steel = 12
+		food = 13
+	}
+
+	history = {
+		owner = ORD
+		add_core_of = ORD
+
+		buildings = {
+			infrastructure = 3
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 4
+			industrial_complex = 4
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			6542 = {
+				bunker = 0
+			}
+			6552 = {
+				bunker = 0
+			}
+			6622 = {
+				bunker = 0
+			}
+			6756 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        6542 6552 6622 6756 
+    }
+}

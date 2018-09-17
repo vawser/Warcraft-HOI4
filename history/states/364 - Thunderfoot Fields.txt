@@ -1,0 +1,63 @@
+state = {
+	id = 364
+	name = "THUNDERFOOT_FIELDS"
+	manpower = 786
+	state_category = rural
+
+	resources = {
+		oil = 4
+		ground_beast = 1
+		flying_beast = 8
+		steel = 1
+		food = 10
+	}
+
+	history = {
+		owner = TIL
+		add_core_of = TIL
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 1
+			industrial_complex = 0
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			6809 = {
+				bunker = 0
+			}
+			6818 = {
+				bunker = 0
+			}
+			6829 = {
+				bunker = 0
+			}
+			6867 = {
+				bunker = 0
+			}
+			6888 = {
+				bunker = 0
+			}
+			6897 = {
+				bunker = 0
+			}
+			6907 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        6809 6818 6829 6867 6888 6897 6907 
+    }
+}

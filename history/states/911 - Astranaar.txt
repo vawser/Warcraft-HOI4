@@ -1,0 +1,60 @@
+state = {
+	id = 911
+	name = "ASTRANAAR"
+	manpower = 5935
+	state_category = town
+
+	resources = {
+		ground_beast = 7
+		flying_beast = 2
+		wood = 17
+		steel = 5
+		food = 13
+	}
+
+	history = {
+		owner = SEA
+		add_core_of = SEA
+
+		buildings = {
+			infrastructure = 7
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 7
+			industrial_complex = 3
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			3856 = {
+				bunker = 9
+			}
+			3909 = {
+				bunker = 3
+			}
+			3935 = {
+				bunker = 7
+			}
+			3963 = {
+				bunker = 9
+			}
+			3966 = {
+				bunker = 6
+			}
+			3990 = {
+				bunker = 2
+			}
+		}
+	}
+
+	provinces = {
+        3856 3909 3935 3963 3966 3990 
+    }
+}

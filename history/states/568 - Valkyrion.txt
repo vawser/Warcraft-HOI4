@@ -1,0 +1,58 @@
+state = {
+	id = 568
+	name = "VALKYRION"
+	manpower = 7377
+	state_category = town
+
+	resources = {
+		oil = 3
+		ground_beast = 5
+		flying_beast = 5
+		wood = 8
+		steel = 11
+		food = 16
+	}
+
+	history = {
+		owner = HYL
+		add_core_of = HYL
+
+		buildings = {
+			infrastructure = 5
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 4
+			industrial_complex = 6
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			5472 = {
+				bunker = 1
+			}
+			5495 = {
+				bunker = 6
+			}
+			5515 = {
+				bunker = 4
+			}
+			5538 = {
+				bunker = 5
+			}
+			5561 = {
+				bunker = 6
+			}
+		}
+	}
+
+	provinces = {
+        5472 5495 5515 5538 5561 
+    }
+}

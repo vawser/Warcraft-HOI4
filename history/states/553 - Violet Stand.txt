@@ -1,0 +1,67 @@
+state = {
+	id = 553
+	name = "VIOLET_STAND"
+	manpower = 813
+	state_category = rural
+
+	resources = {
+		oil = 3
+		ground_beast = 6
+		flying_beast = 9
+		wood = 14
+		steel = 6
+		food = 16
+	}
+
+	history = {
+		owner = UNB
+		add_core_of = UNB
+
+        # The Third War
+        612.1.1 = {
+            owner = SCO
+            add_core_of = SCO
+        }
+        
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 1
+			industrial_complex = 1
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			5624 = {
+				bunker = 0
+			}
+			5647 = {
+				bunker = 0
+			}
+			5666 = {
+				bunker = 0
+			}
+			5674 = {
+				bunker = 0
+			}
+			5686 = {
+				bunker = 0
+			}
+			5711 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        5624 5647 5666 5674 5686 5711 
+    }
+}

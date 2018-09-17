@@ -1,0 +1,64 @@
+state = {
+	id = 646
+	name = "OBELISK_OF_THE_STARS"
+	manpower = 3466
+	state_category = village
+
+	resources = {
+		oil = 8
+		ground_beast = 7
+		flying_beast = 9
+		wood = 1
+		steel = 9
+		food = 4
+	}
+
+	history = {
+		owner = RAM
+		add_core_of = RAM
+
+		buildings = {
+			infrastructure = 4
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 6
+			industrial_complex = 1
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			3369 = {
+				bunker = 0
+			}
+			3425 = {
+				bunker = 0
+			}
+			3566 = {
+				bunker = 0
+			}
+			3593 = {
+				bunker = 0
+			}
+			3620 = {
+				bunker = 0
+			}
+			3643 = {
+				bunker = 0
+			}
+			3645 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        3369 3425 3566 3593 3620 3643 3645 
+    }
+}

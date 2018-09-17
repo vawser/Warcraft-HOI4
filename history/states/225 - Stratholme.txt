@@ -1,0 +1,71 @@
+state = {
+	id = 225
+	name = "STRATHOLME"
+	manpower = 17863
+	state_category = city
+
+	resources = {
+		oil = 2
+		ground_beast = 3
+		flying_beast = 7
+		wood = 28
+		steel = 7
+		food = 16
+	}
+
+	history = {
+		owner = STR
+        add_core_of = STR
+
+        victory_points = {
+            2207 15
+        }
+        
+		buildings = {
+			infrastructure = 8
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 7
+			industrial_complex = 6
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			2103 = {
+				bunker = 5
+			}
+			2123 = {
+				bunker = 1
+			}
+			2143 = {
+				bunker = 3
+			}
+			2161 = {
+				bunker = 3
+			}
+			2162 = {
+				bunker = 2
+			}
+			2183 = {
+				bunker = 9
+			}
+			2207 = {
+				bunker = 2
+			}
+			2231 = {
+				bunker = 5
+			}
+		}
+	}
+
+	provinces = {
+        2103 2123 2143 2161 2162 2183 2207 2231 
+    }
+}

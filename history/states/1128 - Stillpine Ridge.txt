@@ -1,0 +1,15 @@
+state = {
+	id = 1128
+	name = "STILLPINE_RIDGE"
+	manpower = 11
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = STP
+	}
+
+	provinces = {
+        7039
+    }
+}

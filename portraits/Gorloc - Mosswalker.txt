@@ -1,0 +1,114 @@
+MWK = {
+	army = {
+		male = {
+			"gfx/leaders/GORLOC/gorloc_1.dds"
+            "gfx/leaders/GORLOC/gorloc_2.dds"
+            "gfx/leaders/GORLOC/gorloc_3.dds"
+            "gfx/leaders/GORLOC/gorloc_4.dds"
+            "gfx/leaders/GORLOC/gorloc_5.dds"
+            "gfx/leaders/GORLOC/gorloc_6.dds"
+            "gfx/leaders/GORLOC/gorloc_7.dds"
+            "gfx/leaders/GORLOC/gorloc_8.dds"      
+		}
+	}
+
+	navy = {
+		male = {
+			"gfx/leaders/GORLOC/gorloc_1.dds"
+            "gfx/leaders/GORLOC/gorloc_2.dds"
+            "gfx/leaders/GORLOC/gorloc_3.dds"
+            "gfx/leaders/GORLOC/gorloc_4.dds"
+            "gfx/leaders/GORLOC/gorloc_5.dds"
+            "gfx/leaders/GORLOC/gorloc_6.dds"
+            "gfx/leaders/GORLOC/gorloc_7.dds"
+            "gfx/leaders/GORLOC/gorloc_8.dds"      
+		}
+	}
+
+	political = {
+		light = {
+			male = {
+                "gfx/leaders/GORLOC/gorloc_1.dds"
+                "gfx/leaders/GORLOC/gorloc_2.dds"
+                "gfx/leaders/GORLOC/gorloc_3.dds"
+                "gfx/leaders/GORLOC/gorloc_4.dds"
+                "gfx/leaders/GORLOC/gorloc_5.dds"
+                "gfx/leaders/GORLOC/gorloc_6.dds"
+                "gfx/leaders/GORLOC/gorloc_7.dds"
+                "gfx/leaders/GORLOC/gorloc_8.dds"      
+            }
+		}
+		shadow = {
+			male = {
+                "gfx/leaders/GORLOC/gorloc_1.dds"
+                "gfx/leaders/GORLOC/gorloc_2.dds"
+                "gfx/leaders/GORLOC/gorloc_3.dds"
+                "gfx/leaders/GORLOC/gorloc_4.dds"
+                "gfx/leaders/GORLOC/gorloc_5.dds"
+                "gfx/leaders/GORLOC/gorloc_6.dds"
+                "gfx/leaders/GORLOC/gorloc_7.dds"
+                "gfx/leaders/GORLOC/gorloc_8.dds"      
+            }
+		}
+        order = {
+			male = {
+                "gfx/leaders/GORLOC/gorloc_1.dds"
+                "gfx/leaders/GORLOC/gorloc_2.dds"
+                "gfx/leaders/GORLOC/gorloc_3.dds"
+                "gfx/leaders/GORLOC/gorloc_4.dds"
+                "gfx/leaders/GORLOC/gorloc_5.dds"
+                "gfx/leaders/GORLOC/gorloc_6.dds"
+                "gfx/leaders/GORLOC/gorloc_7.dds"
+                "gfx/leaders/GORLOC/gorloc_8.dds"      
+            }
+		}
+        disorder = {
+			male = {
+                "gfx/leaders/GORLOC/gorloc_1.dds"
+                "gfx/leaders/GORLOC/gorloc_2.dds"
+                "gfx/leaders/GORLOC/gorloc_3.dds"
+                "gfx/leaders/GORLOC/gorloc_4.dds"
+                "gfx/leaders/GORLOC/gorloc_5.dds"
+                "gfx/leaders/GORLOC/gorloc_6.dds"
+                "gfx/leaders/GORLOC/gorloc_7.dds"
+                "gfx/leaders/GORLOC/gorloc_8.dds"      
+            }
+		}
+        life = {
+			male = {
+                "gfx/leaders/GORLOC/gorloc_1.dds"
+                "gfx/leaders/GORLOC/gorloc_2.dds"
+                "gfx/leaders/GORLOC/gorloc_3.dds"
+                "gfx/leaders/GORLOC/gorloc_4.dds"
+                "gfx/leaders/GORLOC/gorloc_5.dds"
+                "gfx/leaders/GORLOC/gorloc_6.dds"
+                "gfx/leaders/GORLOC/gorloc_7.dds"
+                "gfx/leaders/GORLOC/gorloc_8.dds"      
+            }
+		}
+        death = {
+			male = {
+                "gfx/leaders/GORLOC/gorloc_1.dds"
+                "gfx/leaders/GORLOC/gorloc_2.dds"
+                "gfx/leaders/GORLOC/gorloc_3.dds"
+                "gfx/leaders/GORLOC/gorloc_4.dds"
+                "gfx/leaders/GORLOC/gorloc_5.dds"
+                "gfx/leaders/GORLOC/gorloc_6.dds"
+                "gfx/leaders/GORLOC/gorloc_7.dds"
+                "gfx/leaders/GORLOC/gorloc_8.dds"      
+            }
+		}
+        unaligned = {
+			male = {
+                "gfx/leaders/GORLOC/gorloc_1.dds"
+                "gfx/leaders/GORLOC/gorloc_2.dds"
+                "gfx/leaders/GORLOC/gorloc_3.dds"
+                "gfx/leaders/GORLOC/gorloc_4.dds"
+                "gfx/leaders/GORLOC/gorloc_5.dds"
+                "gfx/leaders/GORLOC/gorloc_6.dds"
+                "gfx/leaders/GORLOC/gorloc_7.dds"
+                "gfx/leaders/GORLOC/gorloc_8.dds"      
+            }
+		}
+	}
+}

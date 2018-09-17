@@ -1,0 +1,73 @@
+state = {
+	id = 624
+	name = "KASKALA"
+	manpower = 4998
+	state_category = town
+
+	resources = {
+		oil = 4
+		ground_beast = 6
+		flying_beast = 2
+		wood = 2
+		steel = 3
+		food = 28
+	}
+
+	history = {
+		owner = KAL
+		add_core_of = KAL
+
+		buildings = {
+			infrastructure = 7
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 6
+			industrial_complex = 3
+			dockyard = 2
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			5297 = {
+				bunker = 8
+				coastal_bunker = 7
+				naval_base = 7
+			}
+			5308 = {
+				bunker = 9
+				coastal_bunker = 4
+				naval_base = 4
+			}
+			5319 = {
+				bunker = 7
+				coastal_bunker = 3
+				naval_base = 1
+			}
+			5323 = {
+				bunker = 7
+				coastal_bunker = 2
+				naval_base = 5
+			}
+			6061 = {
+				bunker = 1
+			}
+			6157 = {
+				bunker = 7
+			}
+		}
+	}
+
+	provinces = {
+        5297 5308 5319 5323 6061 6157
+    }
+}

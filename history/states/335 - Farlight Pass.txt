@@ -1,0 +1,64 @@
+state = {
+	id = 335
+	name = "FARLIGHT"
+	manpower = 777
+	state_category = rural
+
+	resources = {
+		ground_beast = 4
+		flying_beast = 4
+		wood = 21
+		steel = 5
+		food = 13
+	}
+
+	history = {
+		owner = GLI
+		add_core_of = GLI
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 2
+			industrial_complex = 0
+			dockyard = 1
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			6402 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 5
+			}
+			6416 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 2
+			}
+			6529 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 4
+			}
+			6747 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        6402 6416 6529 6747 
+    }
+}

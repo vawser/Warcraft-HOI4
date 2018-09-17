@@ -1,0 +1,65 @@
+state = {
+	id = 400
+	name = "THE_SCREECHING_VALE"
+	manpower = 492
+	state_category = rural
+
+	resources = {
+		oil = 2
+		ground_beast = 6
+		flying_beast = 6
+		wood = 8
+		steel = 5
+		food = 13
+	}
+
+	history = {
+		owner = BOX
+		add_core_of = BOX
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 2
+			industrial_complex = 0
+			dockyard = 0
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			6309 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 9
+			}
+			6338 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 6
+			}
+			6344 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 8
+			}
+			6912 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        6309 6338 6344 6912 
+    }
+}

@@ -1,0 +1,57 @@
+state = {
+	id = 700
+	name = "FUNGAL_PITS"
+	manpower = 512
+	state_category = rural
+
+	resources = {
+		oil = 4
+		ground_beast = 9
+		wood = 13
+		steel = 4
+		food = 1
+	}
+
+	history = {
+		owner = AQJ
+		add_core_of = AQJ
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 1
+			industrial_complex = 2
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			4245 = {
+				bunker = 0
+			}
+			4246 = {
+				bunker = 0
+			}
+			4251 = {
+				bunker = 0
+			}
+			4256 = {
+				bunker = 0
+			}
+			4260 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        4245 4246 4251 4256 4260
+    }
+}

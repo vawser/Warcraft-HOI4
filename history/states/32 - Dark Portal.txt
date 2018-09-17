@@ -1,0 +1,75 @@
+state = {
+	id = 32
+	name = "THE_DARK_PORTAL"
+	manpower = 7283
+	state_category = town
+
+	resources = {
+		oil = 8
+		ground_beast = 9
+		flying_beast = 1
+		wood = 4
+		steel = 7
+	}
+
+	history = {
+        victory_points = {
+            1995 15
+        }
+    
+		owner = TTH
+        add_core_of = TTH
+
+        # The Second War
+        597.1.1 = {
+            owner = TTH
+            add_core_of = TTH
+        }
+        # The Third War
+        612.1.1 = {
+            owner = SAL
+            add_core_of = SAL
+        }
+        
+		buildings = {
+			infrastructure = 7
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 10
+			industrial_complex = 0
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			1970 = {
+				bunker = 4
+			}
+			1979 = {
+				bunker = 3
+			}
+			1987 = {
+				bunker = 2
+			}
+			1995 = {
+				bunker = 6
+			}
+			2012 = {
+				bunker = 3
+			}
+			2051 = {
+				bunker = 4
+			}
+		}
+	}
+
+	provinces = {
+        1970 1979 1987 1995 2012 2051 
+    }
+}

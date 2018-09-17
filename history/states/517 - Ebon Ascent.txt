@@ -1,0 +1,21 @@
+state = {
+	id = 517
+	name = "EBON_ASCENT"
+	manpower = 69
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = UNB
+
+        # The Third War
+        612.1.1 = {
+            owner = SCO
+        }
+
+	}
+
+	provinces = {
+        5939 5949 5959 
+    }
+}

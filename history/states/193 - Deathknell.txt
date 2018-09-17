@@ -1,0 +1,61 @@
+state = {
+	id = 193
+	name = "VERDANT_GLADE"
+	manpower = 674
+	state_category = rural
+
+	resources = {
+		ground_beast = 1
+		flying_beast = 7
+		wood = 13
+		steel = 9
+		food = 10
+	}
+
+	history = {
+		owner = LOR
+        add_core_of = LOR
+
+        612.1.1 = {
+            set_state_name = DEATHKNELL
+        }
+        
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 2
+			industrial_complex = 2
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			2072 = {
+				bunker = 0
+			}
+			2217 = {
+				bunker = 0
+			}
+			2241 = {
+				bunker = 0
+			}
+			2263 = {
+				bunker = 0
+			}
+			2283 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        2072 2217 2241 2263 2283
+    }
+}

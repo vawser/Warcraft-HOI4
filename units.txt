@@ -1,0 +1,421 @@
+﻿#----------------------------------
+# Unit
+#----------------------------------
+Grunt:
+    max_strength = 20
+    max_organisation = 40
+    default_morale = 0.2
+    
+    manpower = 100
+    training_time = 90
+    
+    weight = 1
+    supply_consumption = 0.05
+        
+Champion:
+    max_strength = 40
+    max_organisation = 60
+    default_morale = 0.4
+        
+    manpower = 100
+    training_time = 360
+		
+    weight = 1
+    supply_consumption = 0.15
+    
+Spellcaster:
+    max_strength = 30
+    max_organisation = 50
+    default_morale = 0.3
+        
+    manpower = 100
+    training_time = 180
+		
+    weight = 1
+    supply_consumption = 0.1
+    
+    
+Archer:
+    max_strength = 30
+    max_organisation = 50
+    default_morale = 0.3
+        
+    manpower = 100
+    training_time = 180
+		
+    weight = 1
+    supply_consumption = 0.1
+    
+Light Cavalry:
+    max_strength = 30
+    max_organisation = 50
+    default_morale = 0.3
+        
+    manpower = 100
+    training_time = 180		
+		
+    weight = 1
+    supply_consumption = 0.1
+
+    maximum_speed = 0.6
+        
+Heavy Cavalry:
+    max_strength = 40
+    max_organisation = 60
+    default_morale = 0.4
+        
+    manpower = 100
+    training_time = 360
+		
+    weight = 1
+    supply_consumption = 0.15
+
+    maximum_speed = 0.6
+        
+Light Tank:
+    max_strength = 20
+    max_organisation = 20
+    default_morale = 0.4
+        
+    manpower = 100
+    training_time = 360
+		
+    weight = 1
+    supply_consumption = 0.2
+
+    soft_attack = 0.5
+        
+Heavy Tank:
+    max_strength = 20
+    max_organisation = 20
+    default_morale = 0.4
+        
+    manpower = 100
+    training_time = 360
+		
+    weight = 1
+    supply_consumption = 0.2
+
+    soft_attack = 0.5
+        
+War Engine:
+    max_strength = 10
+    max_organisation = 10
+    default_morale = 0.4
+        
+    manpower = 100
+    training_time = 180
+		
+    weight = 1
+    supply_consumption = 0.15
+        
+    soft_attack = 0.5
+        
+#----------------------------------
+# Equipment
+#----------------------------------
+Grunt: basic unit
+    5 Ranks
+    soft_attack = 2, 4, 6, 8, 10
+    hard_attack = 2, 4, 6, 8, 10
+    
+    defense = 2, 4, 6, 8, 10
+    breakthrough = 2, 4, 6, 8, 10
+    
+    ap_attack = 2, 4, 6, 8, 10
+    air_attack = 0
+    
+    hardness = 0.02, 0.04, 0.06, 0.08, 0.1
+    armor_value = 1, 2, 3, 4, 5
+    
+    build_cost_ic = 1, 1.25, 1.5, 1.75, 2
+    
+    food = 4, 5, 6, 7, 8
+    
+Champion: elite unit, good on the attack + survivable
+    5 Ranks
+    soft_attack = 4, 8, 12, 16, 20
+    hard_attack = 4, 8, 12, 16, 20
+    
+    defense = 4, 8, 12, 16, 20
+    breakthrough = 4, 8, 12, 16, 20
+    
+    ap_attack = 4, 8, 12, 16, 20
+    air_attack = 0
+    
+    hardness = 0.1, 0.15, 0.2, 0.25, 0.3
+    armor_value = 3, 6, 9, 12, 15
+    
+    build_cost_ic = 6, 7, 8, 9, 10
+    
+    food = 8, 9, 10, 11, 12
+    steel = 6, 7, 8, 9, 10
+    
+Archer: basic unit, good on the defence
+    5 Ranks
+    soft_attack = 3, 6, 9, 12, 15
+    hard_attack = 2, 4, 6, 8, 10
+    
+    defense = 4, 8, 12, 16, 20
+    breakthrough = 2, 4, 6, 8, 10
+    
+    ap_attack = 3, 6, 9, 12, 15
+    air_attack = 0
+    
+    hardness = 0.02, 0.04, 0.06, 0.08, 0.1
+    armor_value = 1, 2, 3, 4, 5
+    
+    build_cost_ic = 3, 3.5, 4, 4.5, 5
+    
+    food = 6, 7, 8, 9, 10
+    wood = 4, 5, 6, 7, 8
+    
+Spellcaster: basic unit, good on the attack + air
+    5 Ranks
+    soft_attack = 3, 6, 9, 12, 15
+    hard_attack = 2, 4, 6, 8, 10
+    
+    defense = 2, 4, 6, 8, 10
+    breakthrough = 3, 6, 9, 12, 15
+    
+    ap_attack = 4, 8, 12, 16, 20
+    air_attack = 4, 8, 12, 16, 20
+    
+    hardness = 0
+    armor_value = 0
+    
+    build_cost_ic = 3, 4, 5, 6, 7
+    
+    food = 6, 7, 8, 9, 10
+    wood = 4, 5, 6, 7, 8
+    
+Light Cavalry: basic unit, fast and good on the attack
+    5 Ranks
+    soft_attack = 4, 8, 12, 16, 20
+    hard_attack = 2, 4, 6, 8, 10
+    
+    defense = 2, 4, 6, 8, 10
+    breakthrough = 5, 10, 15, 20, 25
+    
+    ap_attack = 5, 10, 15, 20, 25
+    air_attack = 0
+    
+    hardness = 0.05, 0.1, 0.15, 0.2, 0.25
+    armor_value = 3, 6, 9, 12, 15
+    
+    build_cost_ic = 4, 5, 6, 7, 8
+    
+    food = 8, 9, 10, 11, 12
+    steel = 4, 5, 6, 7, 8
+    ground_beast = 3, 4, 5, 6, 7
+    
+Heavy Cavalry: basic unit, fast and good on the attack + survivable
+    5 Ranks
+    soft_attack = 5, 10, 15, 20, 25
+    hard_attack = 5, 10, 15, 20, 25
+    
+    defense = 3, 6, 9, 12, 15
+    breakthrough = 6, 12, 18, 24, 30
+    
+    ap_attack = 6, 12, 18, 24, 30
+    air_attack = 0
+    
+    hardness = 0.1, 0.2, 0.3, 0.4, 0.5
+    armor_value = 6, 12, 18, 24, 30
+    
+    build_cost_ic = 7, 8, 9, 10, 11
+    
+    food = 9, 10, 11, 12, 13
+    steel = 6, 7, 8, 9, 10
+    ground_beast = 4, 5, 6, 7, 8
+    
+War Engine:
+    10 Ranks
+    soft_attack = 10, 20, 30, 40, 50
+    hard_attack = 3, 6, 9, 12, 15
+    
+    defense = 2, 4, 6, 8, 10
+    breakthrough = 2, 4, 6, 8, 10
+    
+    ap_attack = 5, 10, 15, 20, 25
+    air_attack = 0
+    
+    hardness = 0.1, 0.2, 0.3, 0.4, 0.5
+    armor_value = 5, 10, 15, 20, 25
+    
+    build_cost_ic = 5, 6, 7, 8, 9
+    
+    food = 8, 9, 10, 11, 12
+    wood = 8, 9, 10, 11, 12
+    steel = 5, 6, 7, 8, 9
+    
+Light Tank:
+    5 Ranks
+    soft_attack = 6, 12, 18, 24, 30
+    hard_attack = 6, 12, 18, 24, 30
+    
+    defense = 3, 6, 9, 12, 15
+    breakthrough = 8, 16, 24, 32, 40
+    
+    ap_attack = 8, 16, 24, 32, 40
+    air_attack = 0
+    
+    hardness = 0.5, 0.6, 0.7, 0.8, 0.9
+    armor_value = 8, 16, 24, 32, 40
+    
+    build_cost_ic = 10, 12, 14, 16, 18
+    
+    food = 8, 9, 10, 11, 12
+    steel = 6, 7, 8, 9, 10
+    oil = 2, 3, 4, 5, 6
+  
+Heavy Tank:
+    5 Ranks
+    soft_attack = 8, 16, 24, 32, 40
+    hard_attack = 8, 16, 24, 32, 40
+    
+    defense = 4, 8, 12, 16, 20
+    breakthrough = 12, 24, 36, 48, 60
+    
+    ap_attack = 12, 24, 36, 48, 60
+    air_attack = 0
+    
+    hardness = 1.0
+    armor_value = 10, 20, 30, 40, 50
+    
+    build_cost_ic = 12, 14, 16, 18, 20
+    
+    food = 8, 9, 10, 11, 12
+    steel = 8, 9, 10, 11, 12
+    oil = 4, 5, 6, 7, 8
+    
+Battleship:
+    3 Ranks
+    
+    reliability = 0.7, 0.8, 0.9
+    max_strength = 300
+    
+    attack = 10, 20, 30
+    ap_attack = 20, 30, 40
+    shore_bombardment = 20, 30, 40
+    anti_air_attack = 10, 15, 20
+    torpedo_attack = 0
+    
+    fire_range = 30, 40, 50
+    
+    armor_value = 30, 40, 50
+    evasion = 15, 30, 45
+    
+    sub_detection = 5, 10, 15
+    surface_visibility = 30, 25, 20
+    surface_detection = 10, 15, 20
+    
+    port_capacity_usage = 1
+    
+    manpower = 10000
+    build_cost_ic = 10000, 15000, 20000
+    
+    food = 50, 75, 100
+    steel = 30, 40, 50
+    oil = 30, 40, 50
+    wood = 50, 75, 100
+    
+Cruiser:
+    3 Ranks
+    
+    reliability = 0.7, 0.8, 0.9
+    max_strength = 300
+    
+    attack = 10, 20, 30
+    ap_attack = 20, 30, 40
+    shore_bombardment = 10, 15, 20
+    torpedo_attack = 0
+    
+    fire_range = 30, 40, 50
+    
+    armor_value = 20, 30, 40
+    evasion = 20, 30, 40
+    
+    sub_detection = 10, 15, 20
+    surface_visibility = 20, 15, 10
+    surface_detection = 10, 15, 20
+    
+    naval_range = 1000, 1500, 2000
+    naval_speed = 15, 20, 25
+    
+    port_capacity_usage = 1
+    
+    manpower = 10000
+    build_cost_ic = 10000, 15000, 2000
+    
+    food = 40, 60, 80
+    steel = 20, 30, 40
+    oil = 15, 30, 45
+    wood = 40, 60, 80
+    
+Destroyer:
+    3 Ranks
+    
+    reliability = 0.7, 0.8, 0.9
+    max_strength = 25
+    
+    ap_attack = 2, 4, 6
+    attack = 2, 4, 6
+    anti_air_attack = 2, 4, 6
+    torpedo_attack = 2, 4, 6
+    sub_attack = 5, 10, 15
+    
+    fire_range = 10, 15, 20
+    
+    armor_value = 0
+    evasion = 50, 60, 70
+    
+    sub_detection = 40, 45, 50
+    surface_detection = 20, 25, 30
+    surface_visibility = 10, 8, 6
+    
+    naval_range = 1000, 1500, 2000
+    naval_speed = 15, 20, 25
+    
+    port_capacity_usage = 1
+    
+    manpower = 5000
+    build_cost_ic = 3000, 6000, 9000
+    
+    food = 12, 24, 36
+    steel = 8, 16, 24
+    oil = 6, 12, 18
+    wood = 8, 16, 24
+    
+Submarine:
+    3 Ranks
+    
+    reliability = 0.5, 0.7, 0.9
+    max_strength = 10
+    
+    fire_range = 10, 15, 20
+    torpedo_attack = 10, 15, 20
+    anti_air_attack = 1, 2, 4
+    
+    evasion = 20, 30, 40
+    surface_detection = 20, 30, 40
+    surface_visibility = 1
+    sub_visibility = 20, 30, 40
+    
+    naval_range = 1000, 1500, 2000
+    naval_speed = 10, 15, 20
+    
+    ap_attack = 0
+    attack = 0
+    armor_value = 0
+    sub_detection = 0
+    
+    port_capacity_usage = 0.5
+    
+    manpower = 5000
+    build_cost_ic = 2000, 4000, 6000
+    
+    food = 12, 24, 36
+    steel = 8, 16, 24
+    oil = 6, 12, 18
+    wood = 8, 16, 24

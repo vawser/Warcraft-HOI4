@@ -1,0 +1,65 @@
+state = {
+	id = 332
+	name = "XUEYOU_SHORE"
+	manpower = 532
+	state_category = rural
+
+	resources = {
+		oil = 3
+		ground_beast = 9
+		flying_beast = 2
+		wood = 15
+		steel = 7
+		food = 11
+	}
+
+	history = {
+		owner = JAS
+		add_core_of = JAS
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 1
+			industrial_complex = 0
+			dockyard = 3
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			6383 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 1
+			}
+			6387 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 3
+			}
+			6389 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 6
+			}
+			6644 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        6383 6387 6389 6644 
+    }
+}

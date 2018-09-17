@@ -1,0 +1,58 @@
+state = {
+	id = 465
+	name = "HOWLING_WOODS"
+	manpower = 458
+	state_category = rural
+
+	resources = {
+		oil = 2
+		ground_beast = 6
+		flying_beast = 6
+		wood = 22
+		steel = 7
+		food = 13
+	}
+
+	history = {
+		owner = WTO
+		add_core_of = WTO
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 1
+			industrial_complex = 1
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			5731 = {
+				bunker = 0
+			}
+			5754 = {
+				bunker = 0
+			}
+			5766 = {
+				bunker = 0
+			}
+			5787 = {
+				bunker = 0
+			}
+			5811 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        5731 5754 5766 5787 5811 
+    }
+}

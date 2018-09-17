@@ -1,0 +1,15 @@
+state = {
+	id = 663
+	name = "TANARIS_OVERLOOK"
+	manpower = 4
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = AQJ
+	}
+
+	provinces = {
+        4474 4492 4529 4573 4635 
+    }
+}

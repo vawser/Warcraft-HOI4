@@ -1,0 +1,19 @@
+state = {
+	id = 1019
+	name = "THE_SACRED_GROVE"
+	manpower = 29
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+        owner = STP
+
+        612.1.1 = {
+            owner = EXO
+        }
+	}
+
+	provinces = {
+        6970 6979 6981
+    }
+}

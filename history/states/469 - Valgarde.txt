@@ -1,0 +1,58 @@
+state = {
+	id = 469
+	name = "VALGARDE"
+	manpower = 1978
+	state_category = village
+
+	resources = {
+		oil = 2
+		ground_beast = 6
+		flying_beast = 4
+		wood = 3
+		steel = 5
+		food = 11
+	}
+
+	history = {
+		owner = DGF
+		add_core_of = DGF
+
+		buildings = {
+			infrastructure = 3
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 3
+			industrial_complex = 7
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			6001 = {
+				bunker = 0
+			}
+			6143 = {
+				bunker = 0
+			}
+			6250 = {
+				bunker = 0
+			}
+			6261 = {
+				bunker = 0
+			}
+			6273 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        6001 6143 6250 6261 6273 
+    }
+}

@@ -1,0 +1,15 @@
+state = {
+	id = 755
+	name = "DESOLACE_RIDGE"
+	manpower = 45
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = DRB
+	}
+
+	provinces = {
+        4516 4551 4594 4844 4850 
+    }
+}

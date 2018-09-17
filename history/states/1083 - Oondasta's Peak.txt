@@ -1,0 +1,15 @@
+state = {
+	id = 1083
+	name = "OONDASTAS_PEAK"
+	manpower = 51
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = ZDL
+	}
+
+	provinces = {
+        6481
+    }
+}

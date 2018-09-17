@@ -1,0 +1,15 @@
+state = {
+	id = 1092
+	name = "BLUELEAF_HEIGHTS"
+	manpower = 44
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = JAS
+	}
+
+	provinces = {
+        6795
+    }
+}

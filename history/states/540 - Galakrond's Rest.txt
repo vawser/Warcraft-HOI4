@@ -1,0 +1,63 @@
+state = {
+	id = 540
+	name = "GALAKRONDS_REST"
+	manpower = 776
+	state_category = rural
+
+	resources = {
+		ground_beast = 4
+		flying_beast = 7
+		wood = 4
+		steel = 9
+		food = 23
+	}
+
+	history = {
+		owner = WYT
+		add_core_of = WYT
+
+       # The Third War
+        612.1.1 = {
+            owner = SCO
+            add_core_of = SCO
+        }
+        
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 2
+			industrial_complex = 0
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			6182 = {
+				bunker = 0
+			}
+			6190 = {
+				bunker = 0
+			}
+			6198 = {
+				bunker = 0
+			}
+			6207 = {
+				bunker = 0
+			}
+			6242 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        6182 6190 6198 6207 6242 
+    }
+}

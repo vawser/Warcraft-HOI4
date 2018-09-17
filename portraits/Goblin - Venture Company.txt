@@ -1,0 +1,87 @@
+VTC = {
+	army = {
+		male = {
+			"gfx/leaders/GOBLIN/goblin_male_1.dds"
+			"gfx/leaders/GOBLIN/goblin_male_2.dds"
+            "gfx/leaders/GOBLIN/goblin_male_3.dds"
+            "gfx/leaders/GOBLIN/goblin_male_4.dds"
+            "gfx/leaders/GOBLIN/goblin_male_5.dds"
+		}
+	}
+
+	navy = {
+		male = {
+			"gfx/leaders/GOBLIN/goblin_male_1.dds"
+			"gfx/leaders/GOBLIN/goblin_male_2.dds"
+            "gfx/leaders/GOBLIN/goblin_male_3.dds"
+            "gfx/leaders/GOBLIN/goblin_male_4.dds"
+            "gfx/leaders/GOBLIN/goblin_male_5.dds"
+		}
+	}
+
+	political = {
+		light = {
+			male = {
+                "gfx/leaders/GOBLIN/goblin_male_1.dds"
+                "gfx/leaders/GOBLIN/goblin_male_2.dds"
+                "gfx/leaders/GOBLIN/goblin_male_3.dds"
+                "gfx/leaders/GOBLIN/goblin_male_4.dds"
+                "gfx/leaders/GOBLIN/goblin_male_5.dds"
+            }
+		}
+		shadow = {
+			male = {
+                "gfx/leaders/GOBLIN/goblin_male_1.dds"
+                "gfx/leaders/GOBLIN/goblin_male_2.dds"
+                "gfx/leaders/GOBLIN/goblin_male_3.dds"
+                "gfx/leaders/GOBLIN/goblin_male_4.dds"
+                "gfx/leaders/GOBLIN/goblin_male_5.dds"
+            }
+		}
+        order = {
+			male = {
+                "gfx/leaders/GOBLIN/goblin_male_1.dds"
+                "gfx/leaders/GOBLIN/goblin_male_2.dds"
+                "gfx/leaders/GOBLIN/goblin_male_3.dds"
+                "gfx/leaders/GOBLIN/goblin_male_4.dds"
+                "gfx/leaders/GOBLIN/goblin_male_5.dds"
+            }
+		}
+        disorder = {
+			male = {
+                "gfx/leaders/GOBLIN/goblin_male_1.dds"
+                "gfx/leaders/GOBLIN/goblin_male_2.dds"
+                "gfx/leaders/GOBLIN/goblin_male_3.dds"
+                "gfx/leaders/GOBLIN/goblin_male_4.dds"
+                "gfx/leaders/GOBLIN/goblin_male_5.dds"
+            }
+		}
+        life = {
+			male = {
+                "gfx/leaders/GOBLIN/goblin_male_1.dds"
+                "gfx/leaders/GOBLIN/goblin_male_2.dds"
+                "gfx/leaders/GOBLIN/goblin_male_3.dds"
+                "gfx/leaders/GOBLIN/goblin_male_4.dds"
+                "gfx/leaders/GOBLIN/goblin_male_5.dds"
+            }
+		}
+        death = {
+			male = {
+                "gfx/leaders/GOBLIN/goblin_male_1.dds"
+                "gfx/leaders/GOBLIN/goblin_male_2.dds"
+                "gfx/leaders/GOBLIN/goblin_male_3.dds"
+                "gfx/leaders/GOBLIN/goblin_male_4.dds"
+                "gfx/leaders/GOBLIN/goblin_male_5.dds"
+            }
+		}
+        unaligned = {
+			male = {
+                "gfx/leaders/GOBLIN/goblin_male_1.dds"
+                "gfx/leaders/GOBLIN/goblin_male_2.dds"
+                "gfx/leaders/GOBLIN/goblin_male_3.dds"
+                "gfx/leaders/GOBLIN/goblin_male_4.dds"
+                "gfx/leaders/GOBLIN/goblin_male_5.dds"
+            }
+		}
+	}
+}

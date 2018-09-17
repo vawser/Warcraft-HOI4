@@ -1,0 +1,15 @@
+state = {
+	id = 1066
+	name = "FAIRBREEZE_TOR"
+	manpower = 66
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = QUE
+	}
+
+	provinces = {
+        2604
+    }
+}

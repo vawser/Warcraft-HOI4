@@ -1,0 +1,125 @@
+state = {
+	id = 619
+	name = "COLDARRA"
+	manpower = 6354
+	state_category = town
+
+	resources = {
+		oil = 3
+		ground_beast = 2
+		flying_beast = 5
+		wood = 9
+		steel = 10
+		food = 10
+	}
+
+	history = {
+		owner = NEX
+		add_core_of = NEX
+
+		buildings = {
+			infrastructure = 6
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 2
+			industrial_complex = 5
+			dockyard = 6
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			5229 = {
+				bunker = 8
+				coastal_bunker = 5
+				naval_base = 4
+			}
+			5230 = {
+				bunker = 3
+				coastal_bunker = 4
+				naval_base = 7
+			}
+			5231 = {
+				bunker = 8
+				coastal_bunker = 7
+				naval_base = 7
+			}
+			5232 = {
+				bunker = 7
+				coastal_bunker = 5
+				naval_base = 3
+			}
+			5233 = {
+				bunker = 8
+				coastal_bunker = 2
+				naval_base = 3
+			}
+			5235 = {
+				bunker = 1
+				coastal_bunker = 8
+				naval_base = 8
+			}
+			5236 = {
+				bunker = 6
+				coastal_bunker = 7
+				naval_base = 1
+			}
+			5237 = {
+				bunker = 5
+				coastal_bunker = 4
+				naval_base = 7
+			}
+			5238 = {
+				bunker = 3
+				coastal_bunker = 5
+				naval_base = 7
+			}
+			5382 = {
+				bunker = 8
+			}
+			5406 = {
+				bunker = 6
+			}
+			5428 = {
+				bunker = 7
+			}
+			5477 = {
+				bunker = 7
+			}
+			5502 = {
+				bunker = 2
+			}
+			5519 = {
+				bunker = 3
+			}
+			5542 = {
+				bunker = 8
+			}
+			5565 = {
+				bunker = 1
+			}
+			5584 = {
+				bunker = 5
+			}
+			5603 = {
+				bunker = 7
+			}
+			6048 = {
+				bunker = 6
+			}
+		}
+	}
+
+	provinces = {
+        5229 5230 5231 5232 5233 5235 5236 5237 5238 5382 5406 5428 5477 5502 5519 5542 5565 5584 5603 6048 
+    }
+}

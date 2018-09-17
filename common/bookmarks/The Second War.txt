@@ -1,0 +1,94 @@
+bookmarks = {
+	bookmark = {
+		name = "THE_SECOND_WAR_NAME"
+		desc = "THE_SECOND_WAR_DESC"
+		date = 597.1.1.1
+		picture = "GFX_select_date_the_second_war"
+		default_country = "LOR"
+	
+        "LOR"={
+			history = "LORDAERON_SECOND_WAR_DESC"
+            ideology = light
+		}
+        
+        "TTH"={
+			history = "HORDE_SECOND_WAR_DESC"
+            ideology = disorder
+		}
+        
+        "SMG"={
+			history = "STROMGARDE_SECOND_WAR_DESC"
+            ideology = light
+		}
+        
+        "QUE"={
+			history = "QUETHALAS_SECOND_WAR_DESC"
+            ideology = order
+		}
+        
+        "GUR"={
+			history = "AMANI_DESC"
+            ideology = shadow
+		}
+        
+        "ALT"={
+			history = "ALTERAC_DESC"
+            ideology = light
+		}
+        
+        "AZJ"={
+			history = "AZJOL_NERUB_DESC"
+            ideology = shadow
+		}
+        
+        "---"={
+			history = "BLANK_DESC"
+		}
+        
+		effect = {
+            LOR = {
+                create_faction = ALLIANCE_OF_LORDAERON
+                add_to_faction = LOR
+                add_to_faction = SRW
+                add_to_faction = ALT
+                add_to_faction = ANO
+                add_to_faction = DAL
+                add_to_faction = DAR
+                add_to_faction = GIL
+                add_to_faction = KUL
+                add_to_faction = RED
+                add_to_faction = SMG
+                add_to_faction = SOU
+                add_to_faction = STR
+                add_to_faction = TOL
+                add_to_faction = WES
+                add_to_faction = IRO
+                add_to_faction = QUE
+                add_to_faction = WIL
+                add_to_faction = GNO
+            }
+            TTH = {
+                create_faction = THE_HORDE
+                add_to_faction = TTH
+                add_to_faction = AMA
+                add_to_faction = SWP
+                add_to_faction = VLB
+                add_to_faction = RVT
+                add_to_faction = FRR
+                add_to_faction = WTR
+                add_to_faction = SLD
+                add_to_faction = SWN
+            }
+            DAS = {
+                create_faction = KALDOREI_EMPIRE
+                add_to_faction = DAS
+                add_to_faction = SEA
+                add_to_faction = SDS
+                add_to_faction = SFR
+                add_to_faction = CEN
+                add_to_faction = CEX
+            }
+			randomize_weather = 12345
+		}
+	}
+}

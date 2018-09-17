@@ -1,0 +1,67 @@
+state = {
+	id = 954
+	name = "THE_CIRCLE_OF_GROWTH"
+	manpower = 486
+	state_category = rural
+
+	resources = {
+		oil = 4
+		ground_beast = 5
+		flying_beast = 6
+		wood = 11
+		steel = 3
+		food = 12
+	}
+
+	history = {
+		owner = SEN
+		add_core_of = SEN
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 1
+			industrial_complex = 2
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			3655 = {
+				bunker = 0
+			}
+			3670 = {
+				bunker = 0
+			}
+			3685 = {
+				bunker = 0
+			}
+			3700 = {
+				bunker = 0
+			}
+			3716 = {
+				bunker = 0
+			}
+			3732 = {
+				bunker = 0
+			}
+			3747 = {
+				bunker = 0
+			}
+			3762 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        3655 3670 3685 3700 3716 3732 3747 3762 
+    }
+}

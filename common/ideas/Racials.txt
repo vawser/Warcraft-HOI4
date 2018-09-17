@@ -1,0 +1,1099 @@
+ideas = {
+    country = {
+        racial_human = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = racial_human
+
+			modifier = {
+                political_power_factor = 0.05
+			}
+		}
+        
+        racial_aqir = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = racial_aqir
+
+			modifier = {
+                training_time_army_factor = -0.25
+            }
+		}
+        
+        racial_nerubian = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = racial_nerubian
+
+            modifier = {
+                training_time_army_factor = -0.25
+                research_time_factor = -0.05
+            }
+		}
+        
+        racial_centaur = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = racial_centaur
+
+            equipment_bonus = {
+                light_cavalry_equipment = {
+                    soft_attack = 0.1
+                    instant = yes
+                }
+                heavy_cavalry_equipment = {
+                    soft_attack = 0.1
+                    instant = yes
+                }
+            }
+		}
+        
+        racial_draenei = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = racial_draenei
+
+			modifier = {
+				stability_weekly = 0.005
+			}
+		}
+        
+        racial_broken = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = racial_draenei
+
+			modifier = {
+                war_support_weekly = 0.005
+			}
+		}
+        
+        racial_red_dragonflight = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = racial_red_dragonflight
+
+			equipment_bonus = {
+                champion_equipment = {
+                    soft_attack = 0.1
+                    instant = yes
+                }
+            }
+		}
+        
+        racial_blue_dragonflight = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = racial_blue_dragonflight
+
+			equipment_bonus = {
+                champion_equipment = {
+                    max_organisation = 0.1
+                    instant = yes
+                }
+            }
+		}
+        
+        racial_green_dragonflight = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = racial_green_dragonflight
+
+			equipment_bonus = {
+                champion_equipment = {
+                    max_strength = 0.1
+                    instant = yes
+                }
+            }
+		}
+        
+        racial_black_dragonflight = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = racial_black_dragonflight
+
+			equipment_bonus = {
+                champion_equipment = {
+                    breakthrough = 0.1
+                    instant = yes
+                }
+            }
+		}
+        
+        racial_dwarf = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = racial_dwarf
+
+			modifier = {
+                army_defence_factor = 0.05
+			}
+		}
+        
+        racial_earthern = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = racial_earthern
+
+			modifier = {
+                army_defence_factor = 0.05
+			}
+		}
+        
+        racial_dryad = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = racial_dryad
+
+			equipment_bonus = {
+                light_cavalry_equipment = {
+                    build_cost_ic = -0.1
+                    instant = yes
+                }
+            }
+		}
+        
+        racial_high_elf = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = racial_blood_elf
+
+			equipment_bonus = {
+                spellcaster_equipment = {
+                    soft_attack = 0.15
+                    instant = yes
+                }
+            }
+		}
+        
+        racial_nightborne = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = racial_nightborne
+
+			equipment_bonus = {
+                spellcaster_equipment = {
+                    soft_attack = 0.15
+                    instant = yes
+                }
+            }
+		}
+        
+        racial_blood_elf = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = racial_blood_elf
+
+			equipment_bonus = {
+                spellcaster_equipment = {
+                    soft_attack = 0.15
+                    instant = yes
+                }
+            }
+		}
+        
+        racial_night_elf = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = racial_night_elf
+
+			modifier = {
+				army_core_defence_factor = 0.05
+			}
+		}
+        
+        racial_furbolg = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = racial_furbolg
+
+			equipment_bonus = {
+                grunt_equipment = {
+                    max_strength = 0.15
+                    instant = yes
+                }
+            }
+		}
+        
+        racial_gnoll = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = racial_gnoll
+
+			equipment_bonus = {
+                grunt_equipment = {
+                    build_cost_ic = -0.1
+                    instant = yes
+                }
+            }
+		}
+        
+        racial_gnome = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = racial_gnome
+
+            modifier = {
+                research_time_factor = -0.05
+            }
+		}
+        
+        racial_goblin = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = racial_goblin
+
+            modifier = {
+                trade_opinion_factor = 0.25
+            }
+		}
+        
+        racial_gorloc = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = racial_gorloc
+
+			equipment_bonus = {
+                grunt_equipment = {
+                    default_morale = 0.1
+                    instant = yes
+                }
+            }
+		}
+        
+        racial_harpy = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = racial_harpy
+
+			modifier = {
+                equipment_capture = 0.1
+            }
+		}
+        
+        racial_hozen = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = racial_hozen
+
+			modifier = {
+                mobilization_speed = 0.1
+            }
+		}
+        
+        racial_jinyu = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = racial_jinyu
+
+			equipment_bonus = {
+                spellcaster_equipment = {
+                    build_cost_ic = -0.15
+                    instant = yes
+                }
+            }
+		}
+        
+        racial_kobold = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = racial_kobold
+
+			modifier = {
+                training_time_army_factor = -0.1
+            }
+		}
+        
+        racial_magnataur = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = racial_magnataur
+
+            modifier = {
+                army_attack_factor = 0.05
+            }
+		}
+        
+        racial_mantid = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = racial_mantid
+
+			modifier = {
+                training_time_army_factor = -0.5
+            }
+		}
+        
+        racial_mogu = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = racial_mogu
+
+            modifier = {
+                army_morale_factor = 0.05
+            }
+		}
+        
+        racial_murloc = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = racial_murloc
+
+			modifier = {
+                naval_invasion_capacity = 25
+                amphibious_invasion_defence = 0.25
+                invasion_preparation = -0.25
+            }
+		}
+        
+        racial_naga = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = racial_naga
+
+            modifier = {
+                naval_invasion_capacity = 25
+                amphibious_invasion_defence = 0.25
+                invasion_preparation = -0.25
+            }
+		}
+        
+        racial_ogre = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = racial_ogre
+
+			modifier = {
+                army_morale_factor = 0.05
+            }
+		}
+        
+        racial_orc = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = racial_orc
+
+            modifier = {
+                army_attack_factor = 0.05
+            }
+		}
+        
+        racial_pandaren = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = racial_pandaren
+
+			modifier = {
+				army_defence_factor = 0.05
+			}
+		}
+        
+        racial_pygmy = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = racial_pygmy
+
+			equipment_bonus = {
+                grunt_equipment = {
+                    build_cost_ic = -0.15
+                    instant = yes
+                }
+            }
+		}
+        
+        racial_quillboar = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = racial_quillboar
+
+			modifier = {
+                training_time_army_factor = -0.1
+            }
+		}
+        
+        racial_satyr = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = racial_stayr
+
+			equipment_bonus = {
+                light_cavalry_equipment = {
+                    soft_attack = 0.1
+                    instant = yes
+                }
+                heavy_cavalry_equipment = {
+                    soft_attack = 0.1
+                    instant = yes
+                }
+            }
+		}
+        
+        racial_saurok = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = racial_saurok
+
+			modifier = {
+                experience_gain_army = 0.05
+            }
+		}
+        
+        racial_scourge = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = racial_scourge
+
+			modifier = {
+                training_time_army_factor = -0.5
+            }
+		}
+        
+        racial_sprite = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = racial_sprite
+
+			equipment_bonus = {
+                grunt_equipment = {
+                    build_cost_ic = -0.1
+                    instant = yes
+                }
+            }
+		}
+        
+        racial_tauren = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = racial_tauren
+
+			modifier = {
+				army_defence_factor = 0.05
+			}
+		}
+        
+        racial_taunka = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = racial_tauren
+
+			modifier = {
+				army_defence_factor = 0.05
+			}
+		}
+        
+        racial_tolvir = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = racial_tolvir
+
+			equipment_bonus = {
+                champion_equipment = {
+                    soft_attack = 0.1
+                    instant = yes
+                }
+            }
+		}
+        
+        racial_titan = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = racial_titan
+
+			equipment_bonus = {
+                champion_equipment = {
+                    default_morale = 0.1
+                    instant = yes
+                }
+            }
+		}
+        
+        racial_trogg = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = racial_trogg
+
+			modifier = {
+                equipment_capture_factor = 0.15
+            }
+		}
+        
+        racial_zandalari_troll = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = racial_troll
+
+			modifier = {
+				army_morale_factor = 0.05
+			}
+            equipment_bonus = {
+                champion_equipment = {
+                    max_organisation = 0.1
+                    instant = yes
+                }
+            }
+		}
+        
+        racial_forest_troll = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = racial_troll
+
+			modifier = {
+				army_defence_factor = 0.05
+			}
+            equipment_bonus = {
+                grunt_equipment = {
+                    defense = 0.1
+                    instant = yes
+                }
+            }
+		}
+        
+        racial_jungle_troll = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = racial_troll
+
+			modifier = {
+				army_attack_factor = 0.05
+			}
+            equipment_bonus = {
+                grunt_equipment = {
+                    soft_attack = 0.1
+                    instant = yes
+                }
+            }
+		}
+        
+        racial_sand_troll = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = racial_troll
+
+			modifier = {
+				army_morale_factor = 0.05
+			}
+            equipment_bonus = {
+                spellcaster_equipment = {
+                    max_organisation = 0.1
+                    instant = yes
+                }
+            }
+		}
+        
+        racial_frost_troll = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = racial_troll
+
+			modifier = {
+				army_attack_factor = 0.05
+			}
+            equipment_bonus = {
+                spellcaster_equipment = {
+                    soft_attack = 0.1
+                    instant = yes
+                }
+            }
+		}
+        
+        racial_tuskarr = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = racial_tuskarr
+
+			modifier = {
+				max_dig_in_factor = 0.1
+			}
+		}
+        
+        racial_undead = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = racial_undead
+
+			equipment_bonus = {
+                grunt_equipment = {
+                    build_cost_ic = -0.25
+                    instant = yes
+                }
+            }
+		}
+        
+        racial_vrykul = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = racial_vrykul
+
+			equipment_bonus = {
+                champion_equipment = {
+                    soft_attack = 0.1
+                    instant = yes
+                }
+            }
+		}
+        
+        racial_wolvar = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = racial_wolvar
+
+			equipment_bonus = {
+                grunt_equipment = {
+                    build_cost_ic = -0.1
+                    instant = yes
+                }
+            }
+		}
+        
+        racial_yaungol = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = racial_yaungol
+
+			modifier = {
+                army_attack_factor = 0.05
+            }
+		}
+    }
+}

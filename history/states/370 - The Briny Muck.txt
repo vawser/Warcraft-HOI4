@@ -1,0 +1,91 @@
+state = {
+	id = 370
+	name = "THE_BRINY_MUCK"
+	manpower = 474
+	state_category = rural
+
+	resources = {
+		oil = 14
+		ground_beast = 4
+		wood = 6
+		steel = 9
+		food = 1
+	}
+
+	history = {
+		owner = MAN
+		add_core_of = MAN
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 1
+			industrial_complex = 2
+			dockyard = 0
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			6460 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 6
+			}
+			6461 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 4
+			}
+			6462 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 7
+			}
+			6463 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 1
+			}
+			6464 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 3
+			}
+			6467 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 3
+			}
+			6468 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 9
+			}
+			6469 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 2
+			}
+			6470 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 5
+			}
+		}
+	}
+
+	provinces = {
+        6460 6461 6462 6463 6464 6467 6468 6469 6470 
+    }
+}

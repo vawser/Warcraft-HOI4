@@ -1,0 +1,71 @@
+state = {
+	id = 250
+	name = "AN_DAROTH"
+	manpower = 3413
+	state_category = village
+
+	resources = {
+		oil = 2
+		ground_beast = 3
+		flying_beast = 8
+		wood = 26
+		steel = 2
+		food = 17
+	}
+
+	history = {
+		owner = QUE
+        add_core_of = QUE
+
+		buildings = {
+			infrastructure = 4
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 0
+			industrial_complex = 3
+			dockyard = 3
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			1668 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 6
+			}
+			1675 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 5
+			}
+			1698 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 9
+			}
+			2059 = {
+				bunker = 0
+			}
+			2081 = {
+				bunker = 0
+			}
+			2205 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        1668 1675 1698 2059 2081 2205 
+    }
+}

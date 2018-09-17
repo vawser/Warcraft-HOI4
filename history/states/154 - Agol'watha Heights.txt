@@ -1,0 +1,15 @@
+state = {
+	id = 154
+	name = "AGOL_WATHA_HEIGHTS"
+	manpower = 18
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = AER
+	}
+
+	provinces = {
+        2578 2598 2608 2621 2632 2557 2735 
+    }
+}

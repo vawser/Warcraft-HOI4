@@ -1,0 +1,67 @@
+state = {
+	id = 1036
+	name = "BLOOD_WATCH"
+	manpower = 4250
+	state_category = village
+
+	resources = {
+		oil = 4
+		ground_beast = 4
+		flying_beast = 2
+		wood = 12
+		steel = 3
+		food = 10
+	}
+
+	history = {
+        owner = AXX
+		add_core_of = AXX
+
+		buildings = {
+			infrastructure = 4
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 5
+			industrial_complex = 3
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			6984 = {
+				bunker = 0
+			}
+			7011 = {
+				bunker = 0
+			}
+			7018 = {
+				bunker = 0
+			}
+			7022 = {
+				bunker = 0
+			}
+			7026 = {
+				bunker = 0
+			}
+			7027 = {
+				bunker = 0
+			}
+			7031 = {
+				bunker = 0
+			}
+			7034 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        6984 7011 7018 7022 7026 7027 7031 7034 
+    }
+}

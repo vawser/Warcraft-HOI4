@@ -1,0 +1,58 @@
+state = {
+	id = 899
+	name = "SPLINTERTREE_GROVE"
+	manpower = 667
+	state_category = rural
+
+	resources = {
+		oil = 2
+		ground_beast = 8
+		flying_beast = 2
+		wood = 17
+		steel = 1
+		food = 18
+	}
+
+	history = {
+		owner = BOH
+		add_core_of = BOH
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 1
+			industrial_complex = 1
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			3833 = {
+				bunker = 0
+			}
+			3931 = {
+				bunker = 0
+			}
+			3959 = {
+				bunker = 0
+			}
+			3969 = {
+				bunker = 0
+			}
+			3996 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        3833 3931 3959 3969 3996 
+    }
+}

@@ -1,0 +1,65 @@
+state = {
+	id = 544
+	name = "PLAINS_OF_ICE"
+	manpower = 529
+	state_category = rural
+
+	resources = {
+		oil = 4
+		ground_beast = 7
+		flying_beast = 5
+		food = 12
+	}
+
+	history = {
+		owner = WYT
+		add_core_of = WYT
+
+        # The Third War
+        612.1.1 = {
+            owner = SCO
+            add_core_of = SCO
+        }
+        
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 2
+			industrial_complex = 1
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			6168 = {
+				bunker = 0
+			}
+			6178 = {
+				bunker = 0
+			}
+			6185 = {
+				bunker = 0
+			}
+			6230 = {
+				bunker = 0
+			}
+			6257 = {
+				bunker = 0
+			}
+			6266 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        6168 6178 6185 6230 6257 6266 
+    }
+}

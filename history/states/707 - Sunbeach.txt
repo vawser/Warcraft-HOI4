@@ -1,0 +1,64 @@
+state = {
+	id = 707
+	name = "SUNBEACH"
+	manpower = 701
+	state_category = rural
+
+	resources = {
+		oil = 14
+		ground_beast = 2
+		wood = 1
+		steel = 8
+	}
+
+	history = {
+		owner = SAN
+		add_core_of = SAN
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 1
+			industrial_complex = 1
+			dockyard = 2
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			3108 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 9
+			}
+			3113 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 3
+			}
+			3348 = {
+				bunker = 0
+			}
+			3406 = {
+				bunker = 0
+			}
+			3527 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        3108 3113 3348 3406 3527 
+    }
+}

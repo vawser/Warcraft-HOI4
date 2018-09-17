@@ -1,0 +1,56 @@
+state = {
+	id = 239
+	name = "GATES_OF_ZUL_AMAN"
+	manpower = 641
+	state_category = rural
+
+	resources = {
+		oil = 4
+		wood = 10
+		steel = 5
+		food = 1
+	}
+
+	history = {
+		owner = AMA
+        add_core_of = AMA
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 4
+			industrial_complex = 0
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			2463 = {
+				bunker = 0
+			}
+			2465 = {
+				bunker = 0
+			}
+			2470 = {
+				bunker = 0
+			}
+			2472 = {
+				bunker = 0
+			}
+			2475 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        2463 2465 2470 2472 2475 
+    }
+}

@@ -1,0 +1,15 @@
+state = {
+	id = 1040
+	name = "AMBERWEB_VALE"
+	manpower = 6
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+        owner = AXX
+	}
+
+	provinces = {
+        6971 6974 6976 6978 6980 6982 6983 7040 7041 7043 
+    }
+}

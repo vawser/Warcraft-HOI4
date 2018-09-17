@@ -1,0 +1,166 @@
+#-------------------------------------------------------------------------------
+# Construction AI
+#-------------------------------------------------------------------------------
+# This system makes the AI build the custom buildings, which it will not do otherwise.
+
+# ROOT = Processor
+# Called every 168 hours
+construction_update = {
+    every_country = {
+        limit = { 
+            is_ai = yes 
+        }
+        
+        # 50% of building
+        set_temp_variable = { r = random }
+
+        if = {
+            limit = { check_variable = { r > 0.5 } }
+            
+            if = {
+                limit = {
+                    OR = {
+                        check_variable = { r < 0.65 }
+                        check_variable = { r = 0.65 }
+                    }
+                }
+                random_owned_state = {
+                    limit = {
+                        free_building_slots = {
+                            building = temple
+                            size > 1
+                        }
+                    }
+                    add_building_construction = { type = temple level = 1 instant_build = no } 
+                }
+            }
+            else_if = {
+                limit = { 
+                    check_variable = { r > 0.65 } 
+                    OR = {
+                        check_variable = { r < 0.7 } 
+                        check_variable = { r = 0.7 } 
+                    }
+                }
+                random_owned_state = {
+                    limit = {
+                        free_building_slots = {
+                            building = forum
+                            size > 1
+                        }
+                    }
+                    add_building_construction = { type = forum level = 1 instant_build = no } 
+                }
+            }
+            else_if = {
+                limit = { 
+                    check_variable = { r > 0.7 } 
+                    OR = {
+                        check_variable = { r < 0.75 } 
+                        check_variable = { r = 0.75 } 
+                    }
+                }
+                random_owned_state = {
+                    limit = {
+                        free_building_slots = {
+                            building = arena
+                            size > 1
+                        }
+                    }
+                    add_building_construction = { type = arena level = 1 instant_build = no } 
+                }
+            }
+            else_if = {
+                limit = { 
+                    check_variable = { r > 0.75 } 
+                    OR = {
+                        check_variable = { r < 0.8 } 
+                        check_variable = { r = 0.8 } 
+                    }
+                }
+                random_owned_state = {
+                    limit = {
+                        free_building_slots = {
+                            building = command_post
+                            size > 1
+                        }
+                    }
+                    add_building_construction = { type = command_post level = 1 instant_build = no } 
+                }
+            }
+            else_if = {
+                limit = { 
+                    check_variable = { r > 0.8 } 
+                    OR = {
+                        check_variable = { r < 0.85 } 
+                        check_variable = { r = 0.85 } 
+                    }
+                }
+                random_owned_state = {
+                    limit = {
+                        free_building_slots = {
+                            building = training_ground
+                            size > 1
+                        }
+                    }
+                    add_building_construction = { type = training_ground level = 1 instant_build = no } 
+                }
+            }
+            else_if = {
+                limit = { 
+                    check_variable = { r > 0.85 } 
+                    OR = {
+                        check_variable = { r < 0.9 } 
+                        check_variable = { r = 0.9 } 
+                    }
+                }
+                random_owned_state = {
+                    limit = {
+                        free_building_slots = {
+                            building = airfield
+                            size > 1
+                        }
+                    }
+                    add_building_construction = { type = airfield level = 1 instant_build = no } 
+                }
+            }
+            else_if = {
+                limit = { 
+                    check_variable = { r > 0.9 } 
+                    OR = {
+                        check_variable = { r < 0.95 } 
+                        check_variable = { r = 0.95 } 
+                    }
+                }
+                random_owned_state = {
+                    limit = {
+                        free_building_slots = {
+                            building = harbour
+                            size > 1
+                        }
+                    }
+                    add_building_construction = { type = harbour level = 1 instant_build = no } 
+                }
+            }
+            else_if = {
+                limit = { 
+                    check_variable = { r > 0.95 } 
+                    OR = {
+                        check_variable = { r < 1.0 } 
+                        check_variable = { r = 1.0 } 
+                    }
+                }
+                random_owned_state = {
+                    limit = {
+                        free_building_slots = {
+                            building = manufactory
+                            size > 1
+                        }
+                    }
+                    add_building_construction = { type = manufactory level = 1 instant_build = no } 
+                }
+            }
+        }
+    }
+}
+

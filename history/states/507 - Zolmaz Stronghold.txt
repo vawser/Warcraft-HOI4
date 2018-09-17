@@ -1,0 +1,64 @@
+state = {
+	id = 507
+	name = "ZOLMAZ_STRONGHOLD"
+	manpower = 5375
+	state_category = town
+
+	resources = {
+		oil = 1
+		ground_beast = 2
+		flying_beast = 8
+		wood = 2
+		steel = 5
+		food = 12
+	}
+
+	history = {
+		owner = DAK
+		add_core_of = DAK
+
+		buildings = {
+			infrastructure = 6
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 8
+			industrial_complex = 4
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			5411 = {
+				bunker = 2
+			}
+			5437 = {
+				bunker = 4
+			}
+			5604 = {
+				bunker = 4
+			}
+			5606 = {
+				bunker = 6
+			}
+			5609 = {
+				bunker = 8
+			}
+			5611 = {
+				bunker = 3
+			}
+			5616 = {
+				bunker = 9
+			}
+		}
+	}
+
+	provinces = {
+        5411 5437 5604 5606 5609 5611 5616 
+    }
+}

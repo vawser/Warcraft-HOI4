@@ -1,0 +1,15 @@
+state = {
+	id = 945
+	name = "THE_GOLDEN_RIDGE"
+	manpower = 70
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = SEN
+	}
+
+	provinces = {
+        4323 4338 4339 4414 4801 4819
+    }
+}

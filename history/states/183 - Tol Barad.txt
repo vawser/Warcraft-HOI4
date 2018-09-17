@@ -1,0 +1,62 @@
+state = {
+	id = 183
+	name = "TOL_BARAD"
+	manpower = 3228
+	state_category = village
+
+	resources = {
+		oil = 2
+		ground_beast = 5
+		flying_beast = 1
+		wood = 26
+		steel = 9
+		food = 10
+	}
+
+	history = {
+		owner = TOL
+        add_core_of = TOL
+
+		buildings = {
+			infrastructure = 2
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 4
+			industrial_complex = 1
+			dockyard = 4
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			1725 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 3
+			}
+			1726 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 8
+			}
+			1727 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 1
+			}
+		}
+	}
+
+	provinces = {
+        1725 1726 1727 
+    }
+}

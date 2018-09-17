@@ -1,0 +1,173 @@
+the_holy_light_actions = {
+	seek_stability = {
+		icon = yellow_quest_mark
+        
+		available = {
+            has_holy_light = yes
+		}
+
+        days_remove = 90
+		days_re_enable = 90
+
+		cost = 100
+
+		modifier = {
+            stability_factor = 0.1
+        }
+
+		ai_will_do = {
+			base = 0
+            
+            modifier = {
+                add = 1
+                
+                has_stability < 0.5
+            }
+		}
+	}
+    
+    defend_the_light = {
+		icon = yellow_quest_mark
+
+		available = {
+            has_holy_light = yes
+		}
+
+        days_remove = 90
+		days_re_enable = 90
+        #fire_only_once = yes
+        
+		cost = 100
+
+		modifier = {
+            war_support_factor = 0.1
+        }
+
+		ai_will_do = {
+			base = 0
+            
+            modifier = {
+                add = 1
+                
+                has_war_support < 0.5
+            }
+		}
+	}
+    
+    # Pray for the Light's Wisdom
+    # research_time_factor
+    pray_for_the_lights_wisdom = {
+		icon = yellow_quest_mark
+
+		available = {
+            has_holy_light = yes
+		}
+
+        days_remove = 90
+		days_re_enable = 90
+        #fire_only_once = yes
+        
+		cost = 100
+
+		modifier = {
+            research_time_factor = -0.05
+        }
+
+		ai_will_do = {
+			base = 0
+            
+            modifier = {
+                add = 1
+                
+                has_political_power > 500
+            }
+		}
+	}
+    
+    # United by the Light
+    # opinion_gain_monthly_same_ideology
+    united_by_the_light = {
+		icon = yellow_quest_mark
+
+		available = {
+            has_holy_light = yes
+		}
+
+        days_remove = 90
+		days_re_enable = 90
+        #fire_only_once = yes
+        
+		cost = 100
+
+		modifier = {
+            opinion_gain_monthly_same_ideology = 5
+        }
+
+		ai_will_do = {
+			base = 0
+            
+            modifier = {
+                add = 1
+                
+                has_political_power > 500
+            }
+		}
+	}
+    
+    # Build a Temple of Light
+    build_a_temple_of_light = {
+		icon = yellow_quest_mark
+
+		available = {
+            has_holy_light = yes
+		}
+        
+        visible = {
+            any_owned_state = {
+                free_building_slots = {
+                    building = temple
+                    size > 0
+                    include_locked = yes
+                }
+            }
+        }
+
+        days_remove = 90
+		days_re_enable = 90
+        #fire_only_once = yes
+        
+		cost = 50
+        
+        modifier = {
+            civilian_factory_use = 3
+        }
+
+        complete_effect = {
+            random_owned_state = {
+                limit = {
+                    free_building_slots = {
+                        building = temple
+                        size > 0
+                        include_locked = yes
+                    }
+                }
+                add_extra_state_shared_building_slots = 1
+                add_building_construction = {
+                    type = temple
+                    level = 1
+                    instant_build = yes
+                }
+            }
+        }
+
+		ai_will_do = {
+			base = 0
+            
+            modifier = {
+                add = 1
+                
+                has_political_power > 500
+            }
+		}
+	}
+}

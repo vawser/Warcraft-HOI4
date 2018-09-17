@@ -1,0 +1,60 @@
+state = {
+	id = 392
+	name = "DUSKY_COPSE"
+	manpower = 530
+	state_category = rural
+
+	resources = {
+		oil = 4
+		ground_beast = 1
+		flying_beast = 9
+		wood = 4
+		food = 12
+	}
+
+	history = {
+		owner = DTK
+		add_core_of = DTK
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 2
+			industrial_complex = 1
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			6545 = {
+				bunker = 0
+			}
+			6859 = {
+				bunker = 0
+			}
+			6882 = {
+				bunker = 0
+			}
+			6890 = {
+				bunker = 0
+			}
+			6892 = {
+				bunker = 0
+			}
+			6901 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        6545 6859 6882 6890 6892 6901 
+    }
+}

@@ -1,0 +1,308 @@
+﻿add_namespace = espionage
+
+# Spies caught
+country_event = {
+	id = espionage.1
+	title = espionage.1.title
+	desc = espionage.1.desc
+	picture = GFX_event_SHADOWMOON_BURIAL_GROUNDS
+	
+    is_triggered_only = yes
+
+	option = {
+		name = espionage.1.option.a
+        
+        custom_effect_tooltip = SPY_OFFENCE_LOSS
+        subtract_from_variable = { spy_offence = 1 }
+	}
+}
+
+# Enemy spies caught
+country_event = {
+	id = espionage.17
+	title = espionage.17.title
+	desc = espionage.17.desc
+	picture = GFX_event_SHADOWMOON_BURIAL_GROUNDS
+	
+    is_triggered_only = yes
+
+	option = {
+		name = espionage.17.option.a
+        
+        custom_effect_tooltip = SPY_DEFENCE_GAIN
+        add_to_variable = { spy_defence = 1 }
+	}
+}
+
+# Spy action caught
+country_event = {
+	id = espionage.2
+	title = espionage.2.title
+	desc = espionage.2.desc
+	picture = GFX_event_SHADOWMOON_BURIAL_GROUNDS
+	
+    is_triggered_only = yes
+
+	option = {
+		name = espionage.2.option.a
+        
+        custom_effect_tooltip = SPY_OFFENCE_LOSS
+        subtract_from_variable = { spy_offence = 1 }
+	}
+}
+
+# Enemy mission stopped
+country_event = {
+	id = espionage.18
+	title = espionage.18.title
+	desc = espionage.18.desc
+	picture = GFX_event_SHADOWMOON_BURIAL_GROUNDS
+	
+    is_triggered_only = yes
+
+	option = {
+		name = espionage.18.option.a
+        
+        custom_effect_tooltip = SPY_DEFENCE_GAIN
+        add_to_variable = { spy_defence = 1 }
+	}
+}
+
+# Nation destabilized (aggressor)
+country_event = {
+	id = espionage.3
+	title = espionage.3.title
+	desc = espionage.3.desc
+	picture = GFX_event_SHADOWMOON_BURIAL_GROUNDS
+	
+    is_triggered_only = yes
+
+	option = {
+		name = espionage.3.option.a
+        
+        custom_effect_tooltip = SPY_OFFENCE_GAIN
+        add_to_variable = { spy_offence = 1 }
+	}
+}
+
+# Nation destabilized (victim)
+country_event = {
+	id = espionage.4
+	title = espionage.4.title
+	desc = espionage.4.desc
+	picture = GFX_event_SHADOWMOON_BURIAL_GROUNDS
+	
+    is_triggered_only = yes
+
+	option = {
+		name = espionage.4.option.a
+        
+        custom_effect_tooltip = SPY_DEFENCE_LOSS
+        subtract_from_variable = { spy_defence = 1 }
+	}
+}
+
+# Operations sabotaged (aggressor)
+country_event = {
+	id = espionage.5
+	title = espionage.5.title
+	desc = espionage.5.desc
+	picture = GFX_event_SHADOWMOON_BURIAL_GROUNDS
+	
+    is_triggered_only = yes
+
+	option = {
+		name = espionage.5.option.a
+        
+        custom_effect_tooltip = SPY_OFFENCE_GAIN
+        add_to_variable = { spy_offence = 1 }
+	}
+}
+
+# Operations sabotaged (victim)
+country_event = {
+	id = espionage.6
+	title = espionage.6.title
+	desc = espionage.6.desc
+	picture = GFX_event_SHADOWMOON_BURIAL_GROUNDS
+	
+    is_triggered_only = yes
+
+	option = {
+		name = espionage.6.option.a
+        
+        custom_effect_tooltip = SPY_DEFENCE_LOSS
+        subtract_from_variable = { spy_defence = 1 }
+	}
+}
+
+# Army intel aquired (aggressor)
+country_event = {
+	id = espionage.7
+	title = espionage.7.title
+	desc = espionage.7.desc
+	picture = GFX_event_SHADOWMOON_BURIAL_GROUNDS
+	
+    is_triggered_only = yes
+
+	option = {
+		name = espionage.7.option.a
+        
+        custom_effect_tooltip = SPY_OFFENCE_GAIN
+        add_to_variable = { spy_offence = 1 }
+	}
+}
+
+# Army intel stolen (victim)
+country_event = {
+	id = espionage.8
+	title = espionage.8.title
+	desc = espionage.8.desc
+	picture = GFX_event_SHADOWMOON_BURIAL_GROUNDS
+	
+    is_triggered_only = yes
+
+	option = {
+		name = espionage.8.option.a
+        
+        custom_effect_tooltip = SPY_DEFENCE_LOSS
+        subtract_from_variable = { spy_defence = 1 }
+	}
+}
+
+# Aviation intel aquired (aggressor)
+country_event = {
+	id = espionage.9
+	title = espionage.9.title
+	desc = espionage.9.desc
+	picture = GFX_event_SHADOWMOON_BURIAL_GROUNDS
+	
+    is_triggered_only = yes
+
+	option = {
+		name = espionage.9.option.a
+        
+        custom_effect_tooltip = SPY_OFFENCE_GAIN
+        add_to_variable = { spy_offence = 1 }
+	}
+}
+
+# Aviation intel stolen (victim)
+country_event = {
+	id = espionage.10
+	title = espionage.10.title
+	desc = espionage.10.desc
+	picture = GFX_event_SHADOWMOON_BURIAL_GROUNDS
+	
+    is_triggered_only = yes
+
+	option = {
+		name = espionage.10.option.a
+        
+        custom_effect_tooltip = SPY_DEFENCE_LOSS
+        subtract_from_variable = { spy_defence = 1 }
+	}
+}
+
+# Naval intel aquired (aggressor)
+country_event = {
+	id = espionage.11
+	title = espionage.11.title
+	desc = espionage.11.desc
+	picture = GFX_event_SHADOWMOON_BURIAL_GROUNDS
+	
+    is_triggered_only = yes
+
+	option = {
+		name = espionage.11.option.a
+        
+        custom_effect_tooltip = SPY_OFFENCE_GAIN
+        add_to_variable = { spy_offence = 1 }
+	}
+}
+
+# Naval intel stolen (victim)
+country_event = {
+	id = espionage.12
+	title = espionage.12.title
+	desc = espionage.12.desc
+	picture = GFX_event_SHADOWMOON_BURIAL_GROUNDS
+	
+    is_triggered_only = yes
+
+	option = {
+		name = espionage.12.option.a
+        
+        custom_effect_tooltip = SPY_DEFENCE_LOSS
+        subtract_from_variable = { spy_defence = 1 }
+	}
+}
+
+# Industry sabotaged (aggressor)
+country_event = {
+	id = espionage.13
+	title = espionage.13.title
+	desc = espionage.13.desc
+	picture = GFX_event_SHADOWMOON_BURIAL_GROUNDS
+	
+    is_triggered_only = yes
+
+	option = {
+		name = espionage.13.option.a
+        
+        custom_effect_tooltip = SPY_OFFENCE_GAIN
+        add_to_variable = { spy_offence = 1 }
+	}
+}
+
+# Industry sabotaged (victim)
+country_event = {
+	id = espionage.14
+	title = espionage.14.title
+	desc = espionage.14.desc
+	picture = GFX_event_SHADOWMOON_BURIAL_GROUNDS
+	
+    is_triggered_only = yes
+
+	option = {
+		name = espionage.14.option.a
+        
+        custom_effect_tooltip = SPY_DEFENCE_LOSS
+        subtract_from_variable = { spy_defence = 1 }
+	}
+}
+
+# Leader assassinated (aggressor)
+country_event = {
+	id = espionage.15
+	title = espionage.15.title
+	desc = espionage.15.desc
+	picture = GFX_event_SHADOWMOON_BURIAL_GROUNDS
+	
+    is_triggered_only = yes
+
+	option = {
+		name = espionage.15.option.a
+        
+        custom_effect_tooltip = SPY_OFFENCE_GAIN
+        add_to_variable = { spy_offence = 1 }
+	}
+}
+
+# Leader assassinated (victim)
+country_event = {
+	id = espionage.16
+	title = espionage.16.title
+	desc = espionage.16.desc
+	picture = GFX_event_SHADOWMOON_BURIAL_GROUNDS
+	
+    is_triggered_only = yes
+
+	option = {
+		name = espionage.16.option.a
+        
+        custom_effect_tooltip = SPY_DEFENCE_LOSS
+        subtract_from_variable = { spy_defence = 1 }
+	}
+}
+

@@ -1,0 +1,57 @@
+state = {
+	id = 441
+	name = "THE_GOLDEN_PAGODA"
+	manpower = 991
+	state_category = rural
+
+	resources = {
+		oil = 4
+		ground_beast = 7
+		flying_beast = 7
+		steel = 1
+		food = 22
+	}
+
+	history = {
+		owner = SHO
+		add_core_of = SHO
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 3
+			industrial_complex = 1
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			6671 = {
+				bunker = 0
+			}
+			6806 = {
+				bunker = 0
+			}
+			6815 = {
+				bunker = 0
+			}
+			6826 = {
+				bunker = 0
+			}
+			6844 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        6671 6806 6815 6826 6844 
+    }
+}

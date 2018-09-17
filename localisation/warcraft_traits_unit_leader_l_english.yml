@@ -1,0 +1,35 @@
+﻿l_english:
+ # Stubborn
+ army_chief_trait_stubborn: "Stubborn"
+ air_chief_trait_stubborn: "Stubborn"
+ navy_chief_trait_stubborn: "Stubborn"
+ trait_stubborn: "Stubborn"
+ trait_stubborn_desc: ""
+ trait_stubborn_navy: "Stubborn"
+ trait_stubborn_navy_desc: ""
+ 
+ army_chief_trait_hero: "Hero"
+ air_chief_trait_hero: "Hero"
+ navy_chief_trait_hero: "Hero"
+ trait_hero: "Hero"
+ trait_hero_desc: ""
+ trait_hero_navy: "Hero"
+ trait_hero_navy_desc: ""
+ 
+ army_chief_trait_obedient: "Obedient"
+ air_chief_trait_obedient: "Obedient"
+ navy_chief_trait_obedient: "Obedient"
+ trait_obedient: "Obedient"
+ trait_obedient_desc: ""
+ trait_obedient_navy: "Obedient"
+ trait_obedient_navy_desc: ""
+ 
+ army_chief_trait_war_engineer: "War Engineer"
+ air_chief_trait_war_engineer: "War Engineer"
+ navy_chief_trait_war_engineer: "War Engineer"
+ trait_war_engineer: "War Engineer"
+ trait_war_engineer_desc: ""
+ trait_war_engineer_navy: "War Engineer"
+ trait_war_engineer_navy_desc: ""
+ 
+ 

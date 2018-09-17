@@ -1,0 +1,15 @@
+state = {
+	id = 1099
+	name = "GOLDEN_RISE"
+	manpower = 29
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = GLI
+	}
+
+	provinces = {
+        6493
+    }
+}

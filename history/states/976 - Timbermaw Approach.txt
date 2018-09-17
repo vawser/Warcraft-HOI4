@@ -1,0 +1,57 @@
+state = {
+	id = 976
+	name = "TIMBERMAW_APPROACH"
+	manpower = 724
+	state_category = rural
+
+	resources = {
+		ground_beast = 7
+		flying_beast = 4
+		wood = 22
+		steel = 3
+		food = 17
+	}
+
+	history = {
+		owner = TIM
+		add_core_of = TIM
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 0
+			industrial_complex = 3
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			3657 = {
+				bunker = 0
+			}
+			3763 = {
+				bunker = 0
+			}
+			3777 = {
+				bunker = 0
+			}
+			3791 = {
+				bunker = 0
+			}
+			3806 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        3657 3763 3777 3791 3806 
+    }
+}

@@ -1,0 +1,15 @@
+state = {
+	id = 1070
+	name = "VOLDUN_PEAK"
+	manpower = 16
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = ZDL
+	}
+
+	provinces = {
+        7234
+    }
+}

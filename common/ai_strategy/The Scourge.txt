@@ -1,0 +1,5067 @@
+SCO_strategy_default = {
+    enable = {
+        original_tag = SCO
+    }
+
+    # EVERYBODY!
+    ai_strategy = {
+        type = contain
+        id = "ALT"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "ALT"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "ALT"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "ALT"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "ANO"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "ANO"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "ANO"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "ANO"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "DAL"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "DAL"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "DAL"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "DAL"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "DAR"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "DAR"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "DAR"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "DAR"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "GIL"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "GIL"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "GIL"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "GIL"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "KUL"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "KUL"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "KUL"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "KUL"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "LOR"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "LOR"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "LOR"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "LOR"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "RED"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "RED"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "RED"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "RED"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "SMG"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "SMG"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "SMG"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "SMG"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "SOU"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "SOU"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "SOU"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "SOU"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "SRW"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "SRW"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "SRW"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "SRW"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "STR"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "STR"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "STR"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "STR"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "TOL"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "TOL"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "TOL"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "TOL"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "WES"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "WES"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "WES"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "WES"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "BLO"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "BLO"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "BLO"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "BLO"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "KAZ"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "KAZ"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "KAZ"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "KAZ"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "MAN"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "MAN"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "MAN"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "MAN"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "AZJ"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "AZJ"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "AZJ"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "AZJ"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "GAL"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "GAL"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "GAL"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "GAL"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "GEL"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "GEL"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "GEL"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "GEL"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "MRA"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "MRA"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "MRA"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "MRA"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "MUR"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "MUR"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "MUR"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "MUR"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "KOL"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "KOL"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "KOL"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "KOL"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "EXO"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "EXO"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "EXO"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "EXO"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "LSO"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "LSO"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "LSO"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "LSO"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "POR"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "POR"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "POR"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "POR"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "WYT"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "WYT"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "WYT"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "WYT"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "GMB"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "GMB"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "GMB"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "GMB"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "TWG"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "TWG"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "TWG"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "TWG"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "SER"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "SER"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "SER"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "SER"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "EDS"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "EDS"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "EDS"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "EDS"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "DRB"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "DRB"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "DRB"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "DRB"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "WYB"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "WYB"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "WYB"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "WYB"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "ODS"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "ODS"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "ODS"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "ODS"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "NEX"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "NEX"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "NEX"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "NEX"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "ADS"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "ADS"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "ADS"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "ADS"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "AZW"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "AZW"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "AZW"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "AZW"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "WIL"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "WIL"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "WIL"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "WIL"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "IRO"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "IRO"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "IRO"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "IRO"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "DKI"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "DKI"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "DKI"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "DKI"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "AER"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "AER"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "AER"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "AER"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "UNB"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "UNB"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "UNB"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "UNB"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "SOW"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "SOW"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "SOW"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "SOW"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "TMN"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "TMN"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "TMN"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "TMN"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "FRO"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "FRO"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "FRO"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "FRO"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "ULM"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "ULM"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "ULM"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "ULM"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "QUE"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "QUE"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "QUE"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "QUE"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "NTB"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "NTB"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "NTB"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "NTB"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "DAS"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "DAS"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "DAS"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "DAS"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "SEN"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "SEN"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "SEN"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "SEN"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "SEA"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "SEA"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "SEA"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "SEA"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "CEN"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "CEN"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "CEN"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "CEN"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "CEX"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "CEX"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "CEX"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "CEX"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "VAL"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "VAL"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "VAL"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "VAL"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "TIM"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "TIM"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "TIM"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "TIM"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "STP"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "STP"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "STP"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "STP"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "WTA"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "WTA"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "WTA"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "WTA"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "FTP"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "FTP"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "FTP"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "FTP"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "RDF"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "RDF"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "RDF"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "RDF"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "THS"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "THS"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "THS"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "THS"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "BMW"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "BMW"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "BMW"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "BMW"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "BOH"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "BOH"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "BOH"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "BOH"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "BMB"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "BMB"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "BMB"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "BMB"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "DDW"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "DDW"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "DDW"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "DDW"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "FWD"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "FWD"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "FWD"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "FWD"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "BKF"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "BKF"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "BKF"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "BKF"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "GRZ"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "GRZ"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "GRZ"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "GRZ"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "PAL"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "PAL"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "PAL"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "PAL"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "MOS"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "MOS"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "MOS"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "MOS"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "RVP"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "RVP"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "RVP"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "RVP"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "BKM"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "BKM"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "BKM"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "BKM"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "BPC"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "BPC"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "BPC"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "BPC"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "DSN"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "DSN"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "DSN"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "DSN"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "GRI"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "GRI"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "GRI"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "GRI"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "MUD"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "MUD"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "MUD"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "MUD"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "REP"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "REP"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "REP"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "REP"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "RRP"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "RRP"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "RRP"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "RRP"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "ROT"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "ROT"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "ROT"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "ROT"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "SVH"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "SVH"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "SVH"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "SVH"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "SDW"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "SDW"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "SDW"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "SDW"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "WOO"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "WOO"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "WOO"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "WOO"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "GNO"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "GNO"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "GNO"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "GNO"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "BIL"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "BIL"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "BIL"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "BIL"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "SMW"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "SMW"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "SMW"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "SMW"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "VTC"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "VTC"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "VTC"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "VTC"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "BWA"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "BWA"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "BWA"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "BWA"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "MSW"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "MSW"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "MSW"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "MSW"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "RAI"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "RAI"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "RAI"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "RAI"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "MWK"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "MWK"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "MWK"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "MWK"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "SPK"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "SPK"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "SPK"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "SPK"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "BFY"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "BFY"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "BFY"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "BFY"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "COL"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "COL"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "COL"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "COL"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "DUS"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "DUS"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "DUS"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "DUS"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "WFY"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "WFY"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "WFY"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "WFY"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "WIW"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "WIW"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "WIW"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "WIW"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "GRO"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "GRO"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "GRO"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "GRO"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "OON"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "OON"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "OON"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "OON"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "PEA"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "PEA"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "PEA"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "PEA"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "GRV"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "GRV"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "GRV"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "GRV"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "WIS"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "WIS"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "WIS"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "WIS"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "MAG"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "MAG"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "MAG"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "MAG"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "GAM"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "GAM"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "GAM"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "GAM"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "MOH"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "MOH"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "MOH"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "MOH"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "GOM"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "GOM"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "GOM"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "GOM"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "DOJ"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "DOJ"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "DOJ"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "DOJ"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "SAZ"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "SAZ"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "SAZ"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "SAZ"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "SHO"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "SHO"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "SHO"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "SHO"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "SIF"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "SIF"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "SIF"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "SIF"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "BLU"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "BLU"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "BLU"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "BLU"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "VIL"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "VIL"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "VIL"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "VIL"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "SAL"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "SAL"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "SAL"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "SAL"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "ROC"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "ROC"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "ROC"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "ROC"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "REG"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "REG"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "REG"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "REG"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "WRF"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "WRF"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "WRF"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "WRF"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "CHI"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "CHI"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "CHI"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "CHI"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "RIP"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "RIP"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "RIP"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "RIP"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "FAT"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "FAT"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "FAT"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "FAT"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "EYE"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "EYE"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "EYE"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "EYE"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "BOC"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "BOC"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "BOC"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "BOC"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "DGS"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "DGS"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "DGS"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "DGS"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "HTC"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "HTC"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "HTC"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "HTC"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "SLB"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "SLB"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "SLB"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "SLB"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "SPL"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "SPL"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "SPL"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "SPL"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "SMC"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "SMC"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "SMC"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "SMC"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "SHZ"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "SHZ"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "SHZ"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "SHZ"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "WRS"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "WRS"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "WRS"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "WRS"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "WRT"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "WRT"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "WRT"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "WRT"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "DRD"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "DRD"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "DRD"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "DRD"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "DUM"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "DUM"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "DUM"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "DUM"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "GOR"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "GOR"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "GOR"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "GOR"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "MOG"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "MOG"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "MOG"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "MOG"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "BOU"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "BOU"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "BOU"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "BOU"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "CRS"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "CRS"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "CRS"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "CRS"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "DWO"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "DWO"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "DWO"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "DWO"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "DBR"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "DBR"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "DBR"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "DBR"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "FRG"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "FRG"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "FRG"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "FRG"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "MSO"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "MSO"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "MSO"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "MSO"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "SPF"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "SPF"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "SPF"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "SPF"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "STM"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "STM"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "STM"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "STM"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "SGL"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "SGL"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "SGL"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "SGL"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "TBC"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "TBC"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "TBC"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "TBC"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "TTH"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "TTH"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "TTH"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "TTH"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "ORG"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "ORG"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "ORG"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "ORG"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "BLK"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "BLK"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "BLK"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "BLK"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "BTG"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "BTG"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "BTG"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "BTG"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "BLH"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "BLH"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "BLH"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "BLH"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "TWH"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "TWH"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "TWH"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "TWH"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "SRC"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "SRC"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "SRC"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "SRC"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "DGM"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "DGM"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "DGM"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "DGM"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "BBC"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "BBC"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "BBC"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "BBC"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "SPN"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "SPN"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "SPN"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "SPN"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "JAS"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "JAS"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "JAS"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "JAS"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "BOX"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "BOX"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "BOX"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "BOX"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "RCR"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "RCR"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "RCR"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "RCR"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "TIG"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "TIG"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "TIG"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "TIG"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "TIL"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "TIL"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "TIL"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "TIL"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "OOG"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "OOG"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "OOG"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "OOG"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "BIS"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "BIS"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "BIS"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "BIS"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "RAZ"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "RAZ"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "RAZ"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "RAZ"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "RAF"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "RAF"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "RAF"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "RAF"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "LEG"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "LEG"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "LEG"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "LEG"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "NAZ"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "NAZ"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "NAZ"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "NAZ"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "XAV"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "XAV"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "XAV"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "XAV"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "HAL"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "HAL"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "HAL"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "HAL"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "JAD"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "JAD"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "JAD"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "JAD"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "AXX"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "AXX"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "AXX"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "AXX"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "WDP"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "WDP"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "WDP"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "WDP"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "GLI"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "GLI"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "GLI"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "GLI"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "MTD"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "MTD"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "MTD"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "MTD"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "RVE"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "RVE"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "RVE"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "RVE"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "AQJ"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "AQJ"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "AQJ"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "AQJ"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "RIK"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "RIK"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "RIK"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "RIK"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "CFW"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "CFW"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "CFW"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "CFW"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "GMT"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "GMT"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "GMT"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "GMT"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "RET"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "RET"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "RET"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "RET"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "DST"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "DST"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "DST"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "DST"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "BDH"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "BDH"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "BDH"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "BDH"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "WTH"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "WTH"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "WTH"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "WTH"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "CST"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "CST"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "CST"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "CST"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "DKM"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "DKM"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "DKM"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "DKM"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "EGL"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "EGL"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "EGL"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "EGL"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "MIS"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "MIS"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "MIS"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "MIS"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "SKC"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "SKC"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "SKC"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "SKC"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "SOT"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "SOT"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "SOT"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "SOT"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "SPR"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "SPR"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "SPR"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "SPR"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "SKY"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "SKY"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "SKY"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "SKY"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "WHE"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "WHE"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "WHE"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "WHE"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "WHI"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "WHI"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "WHI"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "WHI"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "WIM"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "WIM"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "WIM"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "WIM"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "WIR"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "WIR"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "WIR"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "WIR"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "WIT"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "WIT"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "WIT"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "WIT"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "YOU"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "YOU"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "YOU"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "YOU"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "HMT"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "HMT"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "HMT"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "HMT"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "BOT"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "BOT"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "BOT"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "BOT"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "IRH"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "IRH"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "IRH"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "IRH"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "PRF"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "PRF"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "PRF"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "PRF"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "RVM"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "RVM"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "RVM"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "RVM"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "SKH"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "SKH"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "SKH"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "SKH"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "ICE"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "ICE"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "ICE"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "ICE"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "ASH"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "ASH"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "ASH"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "ASH"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "WTG"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "WTG"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "WTG"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "WTG"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "NEF"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "NEF"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "NEF"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "NEF"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "ORS"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "ORS"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "ORS"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "ORS"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "RAM"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "RAM"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "RAM"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "RAM"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "ULD"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "ULD"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "ULD"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "ULD"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "LIF"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "LIF"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "LIF"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "LIF"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "SVT"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "SVT"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "SVT"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "SVT"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "ZDL"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "ZDL"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "ZDL"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "ZDL"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "AMA"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "AMA"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "AMA"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "AMA"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "SWP"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "SWP"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "SWP"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "SWP"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "VLB"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "VLB"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "VLB"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "VLB"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "RVT"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "RVT"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "RVT"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "RVT"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "FRR"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "FRR"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "FRR"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "FRR"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "WTR"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "WTR"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "WTR"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "WTR"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "SLD"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "SLD"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "SLD"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "SLD"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "SWN"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "SWN"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "SWN"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "SWN"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "GUR"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "GUR"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "GUR"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "GUR"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "BLS"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "BLS"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "BLS"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "BLS"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "STS"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "STS"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "STS"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "STS"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "SKS"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "SKS"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "SKS"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "SKS"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "ATL"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "ATL"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "ATL"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "ATL"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "JEL"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "JEL"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "JEL"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "JEL"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "SAN"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "SAN"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "SAN"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "SAN"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "DAK"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "DAK"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "DAK"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "DAK"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "FSM"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "FSM"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "FSM"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "FSM"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "WTX"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "WTX"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "WTX"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "WTX"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "WTF"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "WTF"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "WTF"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "WTF"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "KAL"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "KAL"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "KAL"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "KAL"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "MOA"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "MOA"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "MOA"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "MOA"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "FOR"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "FOR"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "FOR"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "FOR"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "DGF"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "DGF"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "DGF"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "DGF"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "WTO"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "WTO"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "WTO"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "WTO"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "SKA"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "SKA"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "SKA"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "SKA"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "YMI"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "YMI"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "YMI"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "YMI"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "HYL"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "HYL"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "HYL"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "HYL"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "JOT"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "JOT"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "JOT"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "JOT"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "STH"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "STH"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "STH"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "STH"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "BLP"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "BLP"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "BLP"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "BLP"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "FZY"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "FZY"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "FZY"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "FZY"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "HWG"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "HWG"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "HWG"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "HWG"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "RGC"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "RGC"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "RGC"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "RGC"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "SNF"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "SNF"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "SNF"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "SNF"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "BAT"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "BAT"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "BAT"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "BAT"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "BUR"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "BUR"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "BUR"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "BUR"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "ORD"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "ORD"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "ORD"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "ORD"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "RUQ"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "RUQ"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "RUQ"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "RUQ"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "YON"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "YON"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "YON"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "YON"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "OSU"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "OSU"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "OSU"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "OSU"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "DTK"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "DTK"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "DTK"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "DTK"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "PAW"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "PAW"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "PAW"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "PAW"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "GAI"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "GAI"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "GAI"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "GAI"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "SDS"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "SDS"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "SDS"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "SDS"
+        value = 250
+    }
+    ai_strategy = {
+        type = contain
+        id = "SFR"
+        value = 250
+    }
+    ai_strategy = {
+        type = conquer
+        id = "SFR"
+        value = 250
+    }
+    ai_strategy = {
+        type = antagonize
+        id = "SFR"
+        value = 250
+    }
+    ai_strategy = {
+        type = invade
+        id = "SFR"
+        value = 250
+    }
+}

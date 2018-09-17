@@ -1,0 +1,66 @@
+state = {
+	id = 326
+	name = "RUINS_OF_GANSHI"
+	manpower = 768
+	state_category = rural
+
+	resources = {
+		oil = 2
+		ground_beast = 8
+		flying_beast = 1
+		wood = 20
+		steel = 4
+		food = 18
+	}
+
+	history = {
+		owner = GOM
+		add_core_of = GOM
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 0
+			industrial_complex = 0
+			dockyard = 2
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			6390 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 9
+			}
+			6394 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 4
+			}
+			6638 = {
+				bunker = 0
+			}
+			6646 = {
+				bunker = 0
+			}
+			6654 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        6390 6394 6638 6646 6654
+    }
+}

@@ -1,0 +1,50 @@
+defined_text = { 
+	name = GetWeekday
+    
+    text = {
+		trigger = {
+			is_monday = yes
+		}
+		localization_key = MONDAY
+	}
+    text = {
+		trigger = {
+			is_tuesday = yes
+		}
+		localization_key = TUESDAY
+	}
+    text = {
+		trigger = {
+			is_wednesday = yes
+		}
+		localization_key = WEDNESDAY
+	}
+    text = {
+		trigger = {
+			is_thursday = yes
+		}
+		localization_key = THURSDAY
+	}
+    text = {
+		trigger = {
+			is_friday = yes
+		}
+		localization_key = FRIDAY
+	}
+    text = {
+		trigger = {
+			is_saturday = yes
+		}
+		localization_key = SATURDAY
+	}
+    text = {
+		trigger = {
+			is_sunday = yes
+		}
+		localization_key = SUNDAY
+	}
+    text = {
+		localization_key = UNKNOWN
+	}
+}
+

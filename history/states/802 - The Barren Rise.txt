@@ -1,0 +1,15 @@
+state = {
+	id = 802
+	name = "THE_BARREN_RISE"
+	manpower = 34
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = WIS
+	}
+
+	provinces = {
+        4457 4643 4680 4694 4764 4823 4824 
+    }
+}

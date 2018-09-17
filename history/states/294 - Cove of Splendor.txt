@@ -1,0 +1,58 @@
+state = {
+	id = 294
+	name = "COVE_OF_SPLENDOR"
+	manpower = 8478
+	state_category = town
+
+	resources = {
+		ground_beast = 1
+		wood = 13
+		steel = 8
+		food = 1
+	}
+
+	history = {
+		owner = BLO
+        add_core_of = BLO
+
+		buildings = {
+			infrastructure = 5
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 3
+			industrial_complex = 6
+			dockyard = 3
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			7139 = {
+				bunker = 3
+				coastal_bunker = 1
+				naval_base = 8
+			}
+			7143 = {
+				bunker = 4
+				coastal_bunker = 8
+				naval_base = 5
+			}
+			7154 = {
+				bunker = 4
+			}
+		}
+	}
+
+	provinces = {
+        7139 7143 7154 
+    }
+}

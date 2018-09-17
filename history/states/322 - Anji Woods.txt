@@ -1,0 +1,57 @@
+state = {
+	id = 322
+	name = "ANJI_WOODS"
+	manpower = 810
+	state_category = rural
+
+	resources = {
+		ground_beast = 6
+		flying_beast = 1
+		wood = 10
+		steel = 3
+		food = 10
+	}
+
+	history = {
+		owner = JAS
+		add_core_of = JAS
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 1
+			industrial_complex = 2
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			6667 = {
+				bunker = 0
+			}
+			6668 = {
+				bunker = 0
+			}
+			6675 = {
+				bunker = 0
+			}
+			6676 = {
+				bunker = 0
+			}
+			6685 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        6667 6668 6675 6676 6685
+    }
+}

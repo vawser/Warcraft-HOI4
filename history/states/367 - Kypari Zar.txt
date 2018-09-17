@@ -1,0 +1,68 @@
+state = {
+	id = 367
+	name = "KYPARI_ZAR"
+	manpower = 3017
+	state_category = village
+
+	resources = {
+		oil = 2
+		ground_beast = 4
+		flying_beast = 2
+		wood = 1
+		steel = 11
+		food = 19
+	}
+
+	history = {
+		owner = MAN
+		add_core_of = MAN
+
+		buildings = {
+			infrastructure = 3
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 4
+			industrial_complex = 1
+			dockyard = 2
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			6277 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 3
+			}
+			6465 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 7
+			}
+			6466 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 8
+			}
+			6574 = {
+				bunker = 0
+			}
+			6583 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        6277 6465 6466 6574 6583 
+    }
+}

@@ -1,0 +1,67 @@
+state = {
+	id = 146
+	name = "HAMMERSTONE"
+	manpower = 1072
+	state_category = village
+
+	resources = {
+		oil = 4
+		flying_beast = 8
+		wood = 4
+		steel = 3
+		food = 15
+	}
+
+	history = {
+		owner = SMG
+        add_core_of = SMG
+
+        597.1.1 = {
+            add_core_of = BOU
+        }
+        
+        612.1.1 = {
+            set_state_name = BOULDERFIST
+            owner = BOU
+            add_core_of = BOU
+        }
+        
+		buildings = {
+			infrastructure = 2
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 7
+			industrial_complex = 3
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			2402 = {
+				bunker = 0
+			}
+			2953 = {
+				bunker = 0
+			}
+			3010 = {
+				bunker = 0
+			}
+			3033 = {
+				bunker = 0
+			}
+			3057 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        2402 2953 3010 3033 3057 
+    }
+}

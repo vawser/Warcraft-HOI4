@@ -1,0 +1,66 @@
+state = {
+	id = 874
+	name = "MOSSBOG"
+	manpower = 554
+	state_category = rural
+
+	resources = {
+		oil = 11
+		ground_beast = 3
+		wood = 2
+		steel = 7
+		food = 2
+	}
+
+	history = {
+		owner = WYB
+		add_core_of = WYB
+
+        # The Third War
+        612.1.1 = {
+            owner = STM
+            add_core_of = STM
+        }
+        
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 2
+			industrial_complex = 1
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			4283 = {
+				bunker = 0
+			}
+			4289 = {
+				bunker = 0
+			}
+			4292 = {
+				bunker = 0
+			}
+			4294 = {
+				bunker = 0
+			}
+			4295 = {
+				bunker = 0
+			}
+			4298 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        4283 4289 4292 4294 4295 4298 
+    }
+}

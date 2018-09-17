@@ -1,0 +1,66 @@
+state = {
+	id = 314
+	name = "NECTARBREEZE_ORCHARD"
+	manpower = 911
+	state_category = rural
+
+	resources = {
+		oil = 2
+		ground_beast = 1
+		flying_beast = 2
+		wood = 25
+		steel = 7
+		food = 15
+	}
+
+	history = {
+		owner = GRO
+		add_core_of = GRO
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 2
+			industrial_complex = 1
+			dockyard = 1
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			6409 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 4
+			}
+			6417 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 7
+			}
+			6690 = {
+				bunker = 0
+			}
+			6697 = {
+				bunker = 0
+			}
+			6714 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        6409 6417 6690 6697 6714 
+    }
+}

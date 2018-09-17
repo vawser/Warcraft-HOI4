@@ -1,0 +1,256 @@
+﻿capital = 32
+
+oob = "TTH_default"
+
+set_research_slots = 4
+set_stability = 0.5
+set_war_support = 1.0
+
+set_technology = {
+    grunt_equipment_1_tech = 1
+	champion_equipment_1_tech = 1
+	spellcaster_equipment_1_tech = 1
+	archer_equipment_1_tech = 1
+	light_cavalry_equipment_1_tech = 1
+	heavy_cavalry_equipment_1_tech = 1
+	war_engine_equipment_1_tech = 1
+	battleship_tech_1 = 1
+	cruiser_tech_1 = 1
+	destroyer_tech_1 = 1
+	submarine_tech_1 = 1
+	war_engine_support_tech_1 = 1
+	archer_support_tech_1 = 1
+	spellcaster_support_tech_1 = 1
+	logistics_support_tech_1 = 1
+	guard_support_tech_1 = 1
+	engineer_support_tech_1 = 1
+	medic_support_tech_1 = 1
+	scout_support_tech_1 = 1
+	cavalry_support_tech_1 = 1
+	history_tech = 1
+}
+
+add_ideas = {
+    orcish_conquerors
+	racial_orc
+    
+    war_economy_1
+    minimal_trade
+    conscription_4
+    
+}
+
+set_convoys = 100
+
+set_politics = {
+	parties = {
+		light = {
+			popularity = 0
+		}
+		shadow = {
+			popularity = 20
+		}
+		order = {
+			popularity = 0
+		}
+        disorder = {
+			popularity = 80
+		}
+        life = {
+			popularity = 0
+		}
+        death = {
+			popularity = 10
+		}
+        unaligned = {
+			popularity = 0
+		}
+	}
+
+	ruling_party = disorder
+}
+
+create_country_leader = {
+	name = "Warchief Blackhand"
+	desc = ""
+	picture = "gfx/leaders/ORC/characters/blackhand_normal.dds"
+	expire = "597.1.1"
+	ideology = kingdom_disorder
+	traits = {
+		headstrong
+        warmonger
+        prepared_for_war
+	}
+}
+
+597.1.1 = {
+    create_country_leader = {
+        name = "Warchief Ogrim Doomhammer"
+        desc = ""
+        picture = "gfx/leaders/ORC/characters/ogrim_doomhammer.dds"
+        expire = "2000.1.1"
+        ideology = kingdom_disorder
+        traits = {
+            headstrong
+            warmonger
+            prepared_for_war
+        }
+    }
+}
+
+612.1.1 = {
+    remove_ideas = orcish_conquerors
+}
+
+create_field_marshal = {
+    name = "Blackhand"
+    id = 1001
+    portrait_path = "gfx/leaders/ORC/characters/blackhand_normal.dds"
+    traits = { }
+    skill = 5
+    attack_skill = 4
+	defense_skill = 3
+	planning_skill = 5
+	logistics_skill = 4
+}
+
+create_field_marshal = {
+    name = "Gul'dan"
+    id = 1002
+    portrait_path = "gfx/leaders/ORC/characters/guldan.dds"
+    traits = { }
+    skill = 5
+    attack_skill = 4
+	defense_skill = 3
+	planning_skill = 5
+	logistics_skill = 4
+}
+
+create_field_marshal = {
+    name = "Ogrim Doomhammer"
+    id = 1003
+    portrait_path = "gfx/leaders/ORC/characters/ogrim_doomhammer.dds"
+    traits = { }
+    skill = 5
+    attack_skill = 5
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
+}
+
+create_field_marshal = {
+    name = "Grommash"
+    id = 1016
+    portrait_path = "gfx/leaders/ORC/characters/grommash.dds"
+    traits = { }
+    skill = 5
+    attack_skill = 5
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+    name = "Durotan"
+    id = 1017
+    portrait_path = "gfx/leaders/ORC/characters/durotan.dds"
+    traits = { }
+    skill = 4
+    attack_skill = 3
+	defense_skill = 4
+	planning_skill = 4
+	logistics_skill = 4
+}
+
+create_corps_commander = {
+    name = "Rexxar"
+    portrait_path = "gfx/leaders/ORC/characters/rexxar.dds"
+    traits = { }
+    skill = 3
+    attack_skill = 3
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+    name = "Rend Blackhand"
+    id = 1004
+    portrait_path = "gfx/leaders/ORC/characters/rend_blackhand.dds"
+    traits = { }
+    skill = 4
+    attack_skill = 5
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+    name = "Maim Blackhand"
+    id = 1005
+    portrait_path = "gfx/leaders/ORC/characters/maim_blackhand.dds"
+    traits = { }
+    skill = 4
+    attack_skill = 5
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+    name = "Kil'rogg Deadeye"
+    id = 1006
+    portrait_path = "gfx/leaders/ORC/characters/kilrogg.dds"
+    traits = { }
+    skill = 3
+    attack_skill = 5
+	defense_skill = 3
+	planning_skill = 4
+	logistics_skill = 5
+}
+
+create_corps_commander = {
+    name = "Zuluhed the Whacked"
+    portrait_path = "gfx/leaders/ORC/characters/zuluhed_the_whacked.dds"
+    traits = { }
+    skill = 2
+    attack_skill = 3
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+    name = "Nekros Skullcrusher"
+    portrait_path = "gfx/leaders/ORC/characters/nekros_skullcrusher.dds"
+    traits = { }
+    skill = 2
+    attack_skill = 3
+	defense_skill = 2
+	planning_skill = 3
+	logistics_skill = 2
+}
+
+create_corps_commander = {
+    name = "Eitrigg"
+    portrait_path = "gfx/leaders/ORC/characters/eitrigg.dds"
+    traits = { }
+    skill = 2
+    attack_skill = 3
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 1
+}
+
+# Added via focus
+# create_corps_commander = {
+    # name = "Teron Gorefiend"
+    # portrait_path = "gfx/leaders/todo.dds"
+    # traits = { }
+    # skill = 4
+    # attack_skill = 4
+	# defense_skill = 3
+	# planning_skill = 4
+	# logistics_skill = 4
+# }
+

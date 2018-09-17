@@ -1,0 +1,75 @@
+state = {
+	id = 295
+	name = "FOOLS_LANDING"
+	manpower = 675
+	state_category = rural
+
+	resources = {
+		oil = 1
+		ground_beast = 9
+		flying_beast = 9
+		wood = 15
+		steel = 2
+		food = 3
+	}
+
+	history = {
+		owner = BLO
+        add_core_of = BLO
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 1
+			industrial_complex = 1
+			dockyard = 1
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			7140 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 3
+			}
+			7141 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 2
+			}
+			7147 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 4
+			}
+			7149 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 6
+			}
+			7152 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 6
+			}
+			7155 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        7140 7141 7147 7149 7152 7155 
+    }
+}

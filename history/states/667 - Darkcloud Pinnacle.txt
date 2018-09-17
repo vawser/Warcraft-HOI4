@@ -1,0 +1,15 @@
+state = {
+	id = 667
+	name = "HIGHPERCH_OVERLOOK"
+	manpower = 42
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = AQJ
+	}
+
+	provinces = {
+        4425 4490 4527 4569 4571 4602 4632 4572 4364 4491 4528 4604 4605 4634 4833 4839 4846
+    }
+}

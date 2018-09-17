@@ -1,0 +1,75 @@
+engineering_actions = {
+	engineering_exchange_gnome = {
+		icon = yellow_quest_mark
+        
+        available = {
+            is_allowed_gnomish_engineering = yes
+            NOT = { has_idea = gnomish_engineering }
+            FROM = {
+                has_opinion = {
+                    target = ROOT
+                    value > 99
+                }
+            }
+        }
+
+		custom_cost_trigger = {
+            has_army_experience > 99 
+        }
+        custom_cost_text = ARMY_EXPERIENCE_100
+
+        target_trigger = {
+            FROM = { 
+                is_gnome = yes 
+                is_neighbor_of = ROOT
+            }
+            
+        }
+        
+        complete_effect = {
+            army_experience = -100
+            add_ideas = gnomish_engineering
+        }
+        
+		ai_will_do = {
+			base = 1
+		}
+	}
+    
+    engineering_exchange_goblin = {
+		icon = yellow_quest_mark
+        
+        available = {
+            NOT = { has_idea = goblin_engineering }
+            is_allowed_goblin_engineering = yes
+            FROM = {
+                has_opinion = {
+                    target = ROOT
+                    value > 99
+                }
+            }
+        }
+
+		custom_cost_trigger = {
+            has_army_experience > 99 
+        }
+        custom_cost_text = ARMY_EXPERIENCE_100
+
+        target_trigger = {
+            FROM = { 
+                is_goblin = yes 
+                is_neighbor_of = ROOT
+            }
+        }
+        
+        complete_effect = {
+            army_experience = -100
+            add_ideas = goblin_engineering
+        }
+        
+		ai_will_do = {
+			base = 1
+		}
+	}
+}
+

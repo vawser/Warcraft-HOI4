@@ -1,0 +1,80 @@
+state = {
+	id = 119
+	name = "HIGHBANK"
+	manpower = 844
+	state_category = rural
+
+	resources = {
+		oil = 2
+		flying_beast = 7
+		wood = 2
+		steel = 2
+		food = 21
+	}
+
+	history = {
+		owner = JEL
+        add_core_of = JEL
+        
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 2
+			industrial_complex = 1
+			dockyard = 1
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			1923 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 3
+			}
+			1928 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 6
+			}
+			1945 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 2
+			}
+			1952 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 5
+			}
+			1958 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 2
+			}
+			1963 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 3
+			}
+			2956 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        1923 1928 1945 1952 1958 1963 2956 
+    }
+}

@@ -1,0 +1,63 @@
+state = {
+	id = 547
+	name = "FROZEN_PASSAGE"
+	manpower = 766
+	state_category = rural
+
+	resources = {
+		oil = 2
+		ground_beast = 9
+		wood = 2
+		steel = 3
+		food = 14
+	}
+
+	history = {
+		owner = WYT
+		add_core_of = WYT
+
+        # The Third War
+        612.1.1 = {
+            owner = SCO
+            add_core_of = SCO
+        }
+        
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 1
+			industrial_complex = 1
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			6167 = {
+				bunker = 0
+			}
+			6177 = {
+				bunker = 0
+			}
+			6183 = {
+				bunker = 0
+			}
+			6192 = {
+				bunker = 0
+			}
+			6200 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        6167 6177 6183 6192 6200 
+    }
+}

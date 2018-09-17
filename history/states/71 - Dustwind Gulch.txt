@@ -1,0 +1,70 @@
+state = {
+	id = 71
+	name = "DUSTWIND_GULCH"
+	manpower = 886
+	state_category = rural
+
+	resources = {
+		oil = 10
+		ground_beast = 1
+		wood = 4
+		steel = 7
+		food = 4
+	}
+
+	history = {
+        victory_points = {
+            1997 5
+        }
+       
+		owner = ULM
+        add_core_of = ULM
+
+        # The Second War
+        597.1.1 = {
+            owner = TTH
+            add_core_of = TTH
+            add_core_of = DBR
+        }
+        # The Third War
+        612.1.1 = {
+            owner = DBR
+            add_core_of = DBR
+        }
+        
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 2
+			industrial_complex = 0
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			1989 = {
+				bunker = 0
+			}
+			1997 = {
+				bunker = 0
+			}
+			2014 = {
+				bunker = 0
+			}
+			2045 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        1989 1997 2014 2045 
+    }
+}

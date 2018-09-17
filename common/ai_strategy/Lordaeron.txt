@@ -1,0 +1,47 @@
+LOR_strategy_default = {
+    enable = {
+        original_tag = LOR
+    }
+    
+    # Make friends
+    ai_strategy = {
+		type = befriend
+		id = "QUE"
+        value = 100
+	}
+    ai_strategy = {
+		type = befriend
+		id = "GIL"
+        value = 100
+	}
+    ai_strategy = {
+		type = befriend
+		id = "ALT"
+        value = 100
+	}
+    ai_strategy = {
+		type = befriend
+		id = "SMG"
+        value = 100
+	}
+    ai_strategy = {
+		type = befriend
+		id = "DAL"
+        value = 100
+	}
+    ai_strategy = {
+		type = befriend
+		id = "ANO"
+        value = 100
+	}
+    ai_strategy = {
+		type = befriend
+		id = "STR"
+        value = 100
+	}
+    ai_strategy = {
+		type = befriend
+		id = "KUL"
+        value = 100
+	}
+}

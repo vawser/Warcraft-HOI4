@@ -1,0 +1,70 @@
+state = {
+	id = 285
+	name = "TOROKS_BLUFF"
+	manpower = 4502
+	state_category = town
+
+	resources = {
+		oil = 4
+		ground_beast = 7
+		flying_beast = 6
+		wood = 9
+		steel = 7
+		food = 16
+	}
+
+	history = {
+        owner = SKH
+		add_core_of = SKH
+        
+		buildings = {
+			infrastructure = 5
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 5
+			industrial_complex = 0
+			dockyard = 7
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			7044 = {
+				bunker = 8
+				coastal_bunker = 3
+				naval_base = 7
+			}
+			7060 = {
+				bunker = 9
+				coastal_bunker = 8
+				naval_base = 2
+			}
+			7068 = {
+				bunker = 8
+				coastal_bunker = 6
+				naval_base = 6
+			}
+			7075 = {
+				bunker = 8
+				coastal_bunker = 9
+				naval_base = 9
+			}
+			7123 = {
+				bunker = 9
+			}
+		}
+	}
+
+	provinces = {
+        7044 7060 7068 7075 7123 
+    }
+}

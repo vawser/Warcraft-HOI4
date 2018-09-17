@@ -1,0 +1,60 @@
+state = {
+	id = 148
+	name = "REFUGE_POINTE"
+	manpower = 969
+	state_category = rural
+
+	resources = {
+		ground_beast = 4
+		flying_beast = 3
+		wood = 1
+		steel = 1
+		food = 17
+	}
+
+	history = {
+		owner = SMG
+        add_core_of = SMG
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 1
+			industrial_complex = 2
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			2306 = {
+				bunker = 0
+			}
+			2320 = {
+				bunker = 0
+			}
+			2800 = {
+				bunker = 0
+			}
+			2825 = {
+				bunker = 0
+			}
+			2905 = {
+				bunker = 0
+			}
+			2928 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        2306 2320 2800 2825 2905 2928 
+    }
+}

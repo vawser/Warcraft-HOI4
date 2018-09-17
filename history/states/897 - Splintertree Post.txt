@@ -1,0 +1,57 @@
+state = {
+	id = 897
+	name = "SPLINTERTREE_POST"
+	manpower = 2641
+	state_category = village
+
+	resources = {
+		ground_beast = 2
+		flying_beast = 4
+		wood = 15
+		steel = 9
+		food = 11
+	}
+
+	history = {
+		owner = BOH
+		add_core_of = BOH
+
+		buildings = {
+			infrastructure = 2
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 6
+			industrial_complex = 2
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			3861 = {
+				bunker = 0
+			}
+			3915 = {
+				bunker = 0
+			}
+			3941 = {
+				bunker = 0
+			}
+			3994 = {
+				bunker = 0
+			}
+			4043 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        3861 3915 3941 3994 4043 
+    }
+}

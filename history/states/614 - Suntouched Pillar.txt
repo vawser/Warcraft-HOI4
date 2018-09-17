@@ -1,0 +1,58 @@
+state = {
+	id = 614
+	name = "SUNTOUCHED_PILLAR"
+	manpower = 1040
+	state_category = village
+
+	resources = {
+		oil = 3
+		ground_beast = 9
+		flying_beast = 9
+		wood = 12
+		steel = 6
+		food = 1
+	}
+
+	history = {
+		owner = MSW
+		add_core_of = MSW
+
+		buildings = {
+			infrastructure = 4
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 5
+			industrial_complex = 4
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			5832 = {
+				bunker = 0
+			}
+			5835 = {
+				bunker = 0
+			}
+			5838 = {
+				bunker = 0
+			}
+			5841 = {
+				bunker = 0
+			}
+			5844 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        5832 5835 5838 5841 5844 
+    }
+}

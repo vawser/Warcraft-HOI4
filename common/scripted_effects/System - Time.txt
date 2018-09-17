@@ -1,0 +1,78 @@
+#-------------------------------------------------------------------------------
+# Time
+#-------------------------------------------------------------------------------
+# This system creates methods of telling the current hour, day or month, akin to EU4's is_month.
+
+# Notes:
+# - The update interval start is semi-random. However once started the offset is constant. 
+# - Since the offset is never more than 24 hours, the timer is always right "some" of the time, which is good enough
+time_update = {
+    if = {
+        limit = { check_variable = { global.current_hour > 24 } }
+        
+        set_variable = { global.current_hour = 1 }
+        add_to_variable = { global.current_day = 1 }
+    }
+    
+    add_to_variable = { global.current_hour = 1 }
+    
+    if = {
+        limit = { check_variable = { global.current_month = 1 } }
+        if = { limit = { check_variable = { global.current_day > 31 } } update_month_variables = yes }
+    }
+    if = {
+        limit = { check_variable = { global.current_month = 2 } }
+        if = { limit = { check_variable = { global.current_day > 28 } } update_month_variables = yes }
+    }
+    if = {
+        limit = { check_variable = { global.current_month = 3 } }
+        if = { limit = { check_variable = { global.current_day > 31 } } update_month_variables = yes }
+    }
+    if = {
+        limit = { check_variable = { global.current_month = 4 } }
+        if = { limit = { check_variable = { global.current_day > 30 } } update_month_variables = yes }
+    }
+    if = {
+        limit = { check_variable = { global.current_month = 5 } }
+        if = { limit = { check_variable = { global.current_day > 31 } } update_month_variables = yes }
+    }
+    if = {
+        limit = { check_variable = { global.current_month = 6 } }
+        if = { limit = { check_variable = { global.current_day > 30 } } update_month_variables = yes }
+    }
+    if = {
+        limit = { check_variable = { global.current_month = 7 } }
+        if = { limit = { check_variable = { global.current_day > 31 } } update_month_variables = yes }
+    }
+    if = {
+        limit = { check_variable = { global.current_month = 8 } }
+        if = { limit = { check_variable = { global.current_day > 31 } } update_month_variables = yes }
+    }
+    if = {
+        limit = { check_variable = { global.current_month = 9 } }
+        if = { limit = { check_variable = { global.current_day > 30 } } update_month_variables = yes }
+    }
+    if = {
+        limit = { check_variable = { global.current_month = 10 } }
+        if = { limit = { check_variable = { global.current_day > 31 } } update_month_variables = yes }
+    }
+    if = {
+        limit = { check_variable = { global.current_month = 11 } }
+        if = { limit = { check_variable = { global.current_day > 30 } } update_month_variables = yes }
+    }
+    if = {
+        limit = { check_variable = { global.current_month = 12 } }
+        if = { limit = { check_variable = { global.current_day > 31 } } update_month_variables = yes }
+    }
+    
+    if = {
+        limit = { check_variable = { global.current_month > 12 } }
+        set_variable = { global.current_month = 1 }
+    }
+}
+
+update_month_variables = {
+    set_variable = { global.current_day = 1 }
+    add_to_variable = { global.current_month = 1 }
+}
+

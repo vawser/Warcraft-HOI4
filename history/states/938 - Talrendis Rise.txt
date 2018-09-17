@@ -1,0 +1,15 @@
+state = {
+	id = 938
+	name = "TALRENDIS_RISE"
+	manpower = 74
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = SEN
+	}
+
+	provinces = {
+        4361 4383 4403 4420 
+    }
+}

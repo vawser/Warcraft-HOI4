@@ -1,0 +1,66 @@
+state = {
+	id = 305
+	name = "SRI_LA_ISLANDS"
+	manpower = 497
+	state_category = island
+
+	resources = {
+		ground_beast = 8
+		flying_beast = 6
+		wood = 5
+		steel = 9
+		food = 14
+	}
+
+	history = {
+		owner = GOM
+		add_core_of = GOM
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 1
+			industrial_complex = 1
+			dockyard = 1
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			6351 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 5
+			}
+			6365 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 7
+			}
+			6523 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 9
+			}
+			6528 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 9
+			}
+		}
+	}
+
+	provinces = {
+        6351 6365 6523 6528 
+    }
+}

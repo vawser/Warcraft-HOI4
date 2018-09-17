@@ -1,0 +1,15 @@
+state = {
+	id = 422
+	name = "KOTA_TOR"
+	manpower = 21
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = RUQ
+	}
+
+	provinces = {
+        6751 6768 6781 
+    }
+}

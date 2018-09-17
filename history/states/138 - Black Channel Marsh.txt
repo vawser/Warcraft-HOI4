@@ -1,0 +1,71 @@
+state = {
+	id = 138
+	name = "BLACK_CHANNEL_MARSH"
+	manpower = 573
+	state_category = rural
+
+	resources = {
+		oil = 10
+		ground_beast = 3
+		flying_beast = 6
+		steel = 3
+		food = 2
+	}
+
+	history = {
+		owner = BLU
+        add_core_of = BLU
+
+        # The Second War
+        597.1.1 = {
+            owner = TTH
+            add_core_of = TTH
+        }
+        # The Third War
+        612.1.1 = {
+            owner = BLU
+            add_core_of = BLU
+        }
+        
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 2
+			industrial_complex = 2
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			2522 = {
+				bunker = 0
+			}
+			2526 = {
+				bunker = 0
+			}
+			2530 = {
+				bunker = 0
+			}
+			2550 = {
+				bunker = 0
+			}
+			2551 = {
+				bunker = 0
+			}
+			2553 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        2522 2526 2530 2550 2551 2553 
+    }
+}

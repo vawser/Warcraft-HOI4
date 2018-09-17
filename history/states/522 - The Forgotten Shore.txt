@@ -1,0 +1,81 @@
+state = {
+	id = 522
+	name = "THE_FORGOTTEN_SHORE"
+	manpower = 737
+	state_category = rural
+
+	resources = {
+		oil = 3
+		ground_beast = 3
+		flying_beast = 2
+		wood = 5
+		steel = 13
+		food = 17
+	}
+
+	history = {
+		owner = WTF
+		add_core_of = WTF
+
+        # The Third War
+        612.1.1 = {
+            owner = SCO
+            add_core_of = SCO
+        }
+        
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 1
+			industrial_complex = 1
+			dockyard = 2
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			5293 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 3
+			}
+			5304 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 1
+			}
+			5430 = {
+				bunker = 0
+			}
+			5456 = {
+				bunker = 0
+			}
+			5479 = {
+				bunker = 0
+			}
+			7246 = {
+				bunker = 0
+			}
+			7250 = {
+				bunker = 0
+			}
+			7269 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        5293 5304 5430 5456 5479 7246 7250 7269 
+    }
+}

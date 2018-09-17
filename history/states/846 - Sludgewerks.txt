@@ -1,0 +1,61 @@
+state = {
+	id = 846
+	name = "SUNROCK_CRAG"
+	manpower = 867
+	state_category = rural
+
+	resources = {
+		oil = 3
+		ground_beast = 1
+		flying_beast = 1
+		wood = 3
+		steel = 7
+		food = 12
+	}
+
+	history = {
+		owner = CFW
+		add_core_of = CFW
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 4
+			industrial_complex = 0
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			4124 = {
+				bunker = 0
+			}
+			4182 = {
+				bunker = 0
+			}
+			4192 = {
+				bunker = 0
+			}
+			4200 = {
+				bunker = 0
+			}
+			4208 = {
+				bunker = 0
+			}
+			4217 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        4124 4182 4192 4200 4208 4217 
+    }
+}

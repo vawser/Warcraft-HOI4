@@ -1,0 +1,15 @@
+state = {
+	id = 1078
+	name = "MOONWATER_RISE"
+	manpower = 73
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = PEA
+	}
+
+	provinces = {
+        6498
+    }
+}

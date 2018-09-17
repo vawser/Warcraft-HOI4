@@ -1,0 +1,58 @@
+state = {
+	id = 165
+	name = "STRAHNBRAD"
+	manpower = 4952
+	state_category = village
+
+	resources = {
+		oil = 1
+		ground_beast = 12
+		flying_beast = 18
+		wood = 3
+		steel = 10
+		food = 26
+	}
+
+	history = {
+		owner = ALT
+        add_core_of = ALT
+
+        # The Third War
+        612.1.1 = {
+            owner = CRS
+            add_core_of = CRS
+        }
+        
+		buildings = {
+			infrastructure = 2
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 3
+			industrial_complex = 2
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			2291 = {
+				bunker = 0
+			}
+			2305 = {
+				bunker = 0
+			}
+			2386 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        2291 2305 2386 
+    }
+}

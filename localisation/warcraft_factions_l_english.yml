@@ -1,0 +1,10 @@
+﻿l_english: 
+ # Factions
+ ALLIANCE_OF_LORDAERON: "Alliance of Lordaeron"
+ KALDOREI_EMPIRE: "Kaldorei Empire"
+ THE_HORDE: "The Horde"
+ THE_SCOURGE: "The Scourge"
+ STORMWIND: "Stormwind"
+ KINGDOM_OF_AZEROTH: "Kingdom of Azeroth"
+ 
+ # Faction join decisions

@@ -1,0 +1,15 @@
+state = {
+	id = 668
+	name = "DARKCLOUD_HEIGHTS"
+	manpower = 35
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = AQJ
+	}
+
+	provinces = {
+        4470 4472 4488 4526 4570 4603 4633 
+    }
+}

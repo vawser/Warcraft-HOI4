@@ -1,0 +1,76 @@
+state = {
+	id = 1033
+	name = "BLACKSLIT_SHORE"
+	manpower = 3123
+	state_category = village
+
+	resources = {
+		oil = 4
+		ground_beast = 7
+		flying_beast = 4
+		wood = 18
+		steel = 5
+		food = 19
+	}
+
+	history = {
+        owner = SIF
+		add_core_of = SIF
+
+		buildings = {
+			infrastructure = 2
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 1
+			industrial_complex = 3
+			dockyard = 2
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			6917 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 6
+			}
+			6924 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 9
+			}
+			6929 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 3
+			}
+			6964 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 7
+			}
+			6989 = {
+				bunker = 0
+			}
+			7025 = {
+				bunker = 0
+			}
+			7030 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        6917 6924 6929 6964 6989 7025 7030 
+    }
+}

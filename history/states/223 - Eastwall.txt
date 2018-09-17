@@ -1,0 +1,64 @@
+state = {
+	id = 223
+	name = "EASTWALL"
+	manpower = 4416
+	state_category = village
+
+	resources = {
+		oil = 3
+		ground_beast = 5
+		flying_beast = 3
+		wood = 22
+		steel = 7
+		food = 13
+	}
+
+	history = {
+		owner = STR
+        add_core_of = STR
+
+		buildings = {
+			infrastructure = 4
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 6
+			industrial_complex = 3
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			2062 = {
+				bunker = 0
+			}
+			2125 = {
+				bunker = 0
+			}
+			2145 = {
+				bunker = 0
+			}
+			2146 = {
+				bunker = 0
+			}
+			2163 = {
+				bunker = 0
+			}
+			2275 = {
+				bunker = 0
+			}
+			2105 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        2062 2125 2145 2146 2163 2275 2105
+    }
+}

@@ -1,0 +1,73 @@
+state = {
+	id = 343
+	name = "TEMPLE_OF_THE_RED_CRANE"
+	manpower = 3849
+	state_category = village
+
+	resources = {
+		oil = 4
+		ground_beast = 4
+		flying_beast = 5
+		wood = 14
+		steel = 5
+		food = 3
+	}
+
+	history = {
+		owner = RCR
+		add_core_of = RCR
+
+		buildings = {
+			infrastructure = 4
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 4
+			industrial_complex = 1
+			dockyard = 3
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			6427 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 9
+			}
+			6428 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 3
+			}
+			6430 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 6
+			}
+			6451 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 3
+			}
+			6735 = {
+				bunker = 0
+			}
+			6742 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        6427 6428 6430 6451 6735 6742
+    }
+}

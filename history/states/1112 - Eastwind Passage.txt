@@ -1,0 +1,46 @@
+state = {
+	id = 1112
+	name = "EASTWIND_PASSAGE"
+	manpower = 774
+	state_category = rural
+
+	resources = {
+		oil = 1
+		ground_beast = 2
+		flying_beast = 7
+		wood = 4
+		steel = 6
+		food = 16
+	}
+
+	history = {
+        owner = GAL
+		add_core_of = GAL
+        
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 1
+			industrial_complex = 3
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			4387 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        4387
+    }
+}

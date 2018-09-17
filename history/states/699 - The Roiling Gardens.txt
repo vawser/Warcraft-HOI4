@@ -1,0 +1,60 @@
+state = {
+	id = 699
+	name = "ROILING_GARDENS"
+	manpower = 1368
+	state_category = village
+
+	resources = {
+		ground_beast = 7
+		flying_beast = 8
+		wood = 10
+		steel = 5
+		food = 3
+	}
+
+	history = {
+		owner = AQJ
+		add_core_of = AQJ
+
+		buildings = {
+			infrastructure = 3
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 4
+			industrial_complex = 0
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			4240 = {
+				bunker = 0
+			}
+			4250 = {
+				bunker = 0
+			}
+			4261 = {
+				bunker = 0
+			}
+			4266 = {
+				bunker = 0
+			}
+			4270 = {
+				bunker = 0
+			}
+			4275 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        4240 4250 4261 4266 4270 4275 
+    }
+}

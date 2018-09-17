@@ -1,0 +1,15 @@
+state = {
+	id = 922
+	name = "ASTRANAAR_RISE"
+	manpower = 25
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = SEA
+	}
+
+	provinces = {
+        4721 4722 4753 4769 4796 4814 
+    }
+}

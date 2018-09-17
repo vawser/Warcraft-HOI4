@@ -1,0 +1,174 @@
+azeroth_area_priority = {
+	enable = {
+        capital_scope = {
+            is_on_continent = azeroth
+        }
+	}
+
+	ai_strategy = {
+		type = area_priority
+		id = azeroth
+		value = 100
+	}
+}
+
+kalimdor_area_priority = {
+	enable = {
+        capital_scope = {
+            is_on_continent = kalimdor
+        }
+	}
+
+	ai_strategy = {
+		type = area_priority
+		id = kalimdor
+		value = 100
+	}
+}
+
+northrend_area_priority = {
+	enable = {
+        capital_scope = {
+            is_on_continent = northrend
+        }
+	}
+
+	ai_strategy = {
+		type = area_priority
+		id = northrend
+		value = 100
+	}
+}
+
+pandaria_area_priority = {
+	enable = {
+        capital_scope = {
+            is_on_continent = pandaria
+        }
+	}
+
+	ai_strategy = {
+		type = area_priority
+		id = pandaria
+		value = 100
+	}
+}
+
+kezan_area_priority = {
+	enable = {
+        capital_scope = {
+            is_on_continent = kezan
+        }
+	}
+
+    ai_strategy = {
+		type = area_priority
+		id = kalimdor
+		value = 100
+	}
+	ai_strategy = {
+		type = area_priority
+		id = kezan
+		value = 100
+	}
+}
+
+zandalar_area_priority = {
+	enable = {
+        capital_scope = {
+            is_on_continent = zandalar
+        }
+	}
+
+    ai_strategy = {
+		type = area_priority
+		id = pandaria
+		value = 100
+	}
+	ai_strategy = {
+		type = area_priority
+		id = zandalar
+		value = 100
+	}
+}
+
+plunder_isle_area_priority = {
+	enable = {
+        capital_scope = {
+            is_on_continent = plunder_isle
+        }
+	}
+
+    ai_strategy = {
+		type = area_priority
+		id = azeroth
+		value = 100
+	}
+	ai_strategy = {
+		type = area_priority
+		id = plunder_isle
+		value = 100
+	}
+}
+
+broken_isles_area_priority = {
+	enable = {
+        capital_scope = {
+            is_on_continent = broken_isles
+        }
+	}
+
+    ai_strategy = {
+		type = area_priority
+		id = azeroth
+		value = 100
+	}
+	ai_strategy = {
+		type = area_priority
+		id = broken_isles
+		value = 100
+	}
+}
+
+teldrassil_area_priority = {
+	enable = {
+        capital_scope = {
+            is_on_continent = teldrassil
+        }
+	}
+
+    ai_strategy = {
+		type = area_priority
+		id = kalimdor
+		value = 100
+	}
+	ai_strategy = {
+		type = area_priority
+		id = teldrassil
+		value = 100
+	}
+}
+
+azuremyst_isles_area_priority = {
+	enable = {
+        capital_scope = {
+            is_on_continent = azuremyst_isles
+        }
+	}
+
+    ai_strategy = {
+		type = area_priority
+		id = kalimdor
+		value = 100
+	}
+	ai_strategy = {
+		type = area_priority
+		id = teldrassil
+		value = 100
+	}
+	ai_strategy = {
+		type = area_priority
+		id = azuremyst_isles
+		value = 100
+	}
+}

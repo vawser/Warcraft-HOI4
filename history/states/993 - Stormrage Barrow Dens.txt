@@ -1,0 +1,57 @@
+state = {
+	id = 993
+	name = "STORMRAGE_BARROW_DENS"
+	manpower = 793
+	state_category = rural
+
+	resources = {
+		oil = 2
+		flying_beast = 1
+		wood = 11
+		steel = 3
+		food = 10
+	}
+
+	history = {
+		owner = CEN
+		add_core_of = CEN
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 2
+			industrial_complex = 0
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			3897 = {
+				bunker = 0
+			}
+			3923 = {
+				bunker = 0
+			}
+			3951 = {
+				bunker = 0
+			}
+			3978 = {
+				bunker = 0
+			}
+			4006 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        3897 3923 3951 3978 4006 
+    }
+}

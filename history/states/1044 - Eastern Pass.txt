@@ -1,0 +1,96 @@
+state = {
+	id = 1044
+	name = "EASTERN_PASS"
+	manpower = 730
+	state_category = rural
+
+	resources = {
+		oil = 3
+		ground_beast = 9
+		flying_beast = 1
+		wood = 4
+		steel = 10
+		food = 13
+	}
+
+	history = {
+
+		owner = RED
+        add_core_of = RED
+
+        # The Second War
+        597.1.1 = {
+            owner = TTH
+            add_core_of = TTH
+        }
+        # The Third War
+        612.1.1 = {
+            owner = RED
+            add_core_of = RED
+        }
+        
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 2
+			industrial_complex = 1
+			dockyard = 0
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			7321 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 7
+			}
+			7322 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 2
+			}
+			7323 = {
+				bunker = 0
+			}
+			7324 = {
+				bunker = 0
+			}
+			7325 = {
+				bunker = 0
+			}
+			7326 = {
+				bunker = 0
+			}
+			7327 = {
+				bunker = 0
+			}
+			7328 = {
+				bunker = 0
+			}
+			7329 = {
+				bunker = 0
+			}
+			7330 = {
+				bunker = 0
+			}
+			7331 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        7321 7322 7323 7324 7325 7326 7327 7328 7329 7330 7331
+    }
+}

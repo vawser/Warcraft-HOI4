@@ -1,0 +1,57 @@
+state = {
+	id = 910
+	name = "STARDUST_GROVE"
+	manpower = 1907
+	state_category = village
+
+	resources = {
+		oil = 1
+		ground_beast = 9
+		flying_beast = 2
+		wood = 12
+		food = 18
+	}
+
+	history = {
+		owner = THS
+		add_core_of = THS
+
+		buildings = {
+			infrastructure = 4
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 3
+			industrial_complex = 5
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			3855 = {
+				bunker = 0
+			}
+			3884 = {
+				bunker = 0
+			}
+			3936 = {
+				bunker = 0
+			}
+			3961 = {
+				bunker = 0
+			}
+			4017 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        3855 3884 3936 3961 4017 
+    }
+}

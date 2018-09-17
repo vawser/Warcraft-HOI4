@@ -1,0 +1,1014 @@
+﻿l_english: 
+ # Nature (dryad) - 6
+ # Technomancy (gnome) - 23
+ # Capitalism (goblin) - 24
+ # Soul (mogu) - 25
+ # Runic (vrykul) - 26
+
+ # Religions
+ THE_HOLY_LIGHT: "The Holy Light"
+ THE_HOLY_LIGHT_DESC: "The Light is an endless, shimmering sea of energy situated outside the barriers of reality and one of the two most fundamental forces in the world of Azeroth along with the Void, which was born from the absence of the former. The two cannot exist without the other. The Light is not necessarily \"good\", it is a primal force with its morality characterized by how it is wielded."
+ 
+ ELUNE: "Elune"
+ ELUNE_DESC: "Elune is one of the primary goddess worshipped by the night elves. Associated with the larger of Azeroth's two moons, the White Lady, Elune is the mother of Cenarius, the forest lord and patron god of all druids. She is associated with healing, tranquility and harmony."
+ 
+ HAKKARI: "Hakkar"
+ HAKKARI_DESC: "Hakkar the Soulflayer, the Blood God is a malevolent and destructive loa notably worshipped by the Gurubashi trolls, at one point even controlling the Gurubashi Empire's fallen capital of Zul'Gurub. He is known in the troll pantheon as the Loa of Blood."
+ 
+ VOODOO: "Voodoo"
+ VOODOO_DESC: "Voodoo is a dark and powerful form of magic practiced by the shadow hunters, hexxers and witch doctors of the troll nations."
+ 
+ SHADOW: "Shadow"
+ SHADOW_DESC: "The Shadow and the Light are the most fundamental forces in existence. Although contradictory by their very nature, they are bound together on a cosmic scale. One cannot exist without the other. Pure Light and Shadow dwell in realms outside the borders of reality. The Void is not necessarily \"evil\", it is a primal force with its morality characterized by how it is wielded."
+
+ NATURE: "Nature"
+ NATURE_DESC: "Nature is the communion of all living things in Azeroth. It is the essence of life that is given to that which is natural."
+ 
+ DEEP_MOTHER: "Deep Mother"
+ DEEP_MOTHER_DESC: "The Deep Mother is the symbol of all things in the ocean, and is worshipped by the murloc tribes that inhabit Azeroth. Little is known of their worship, other than that the Deep Mother will reward murloc shamans that win her favour."
+ 
+ ARCANE: "Arcane"
+ ARCANE_DESC: "Arcane magic is a cold and intellectual magic that warps time, space, and controls the flow of mana, which is just a measure of a fundamental power — if mana were water, then arcane would be steam pressure. Though extremely volatile, arcane is so similar to an element it might as well be one, for all magical intents and purposes. While arcane represents order, fel is the magic of chaos and disorder, and are considered opposite ends of the same spectrum."
+ 
+ DRUIDISM: "Druidism"
+ DRUIDISM_DESC: "Druidism is a primal form of natural magic that involves the transformation of the user through an innate connection with nature. Druids stribe to preserve balance and protect life, through whatever means nature provides."
+ 
+ OLD_GODS: "Old Gods"
+ OLD_GODS_DESC: "[Root.GetOldGodDesc]"
+ CTHUN: "C'Thun"
+ YSHAARJ: "Y'Shaarj"
+ YOGG_SARON: "Yogg-Saron"
+ NZOTH: "N'Zoth"
+ OLD_GOD: "Old God"
+ CTHUN_DESC: "One of the Old gods, eldritch horrors who threatened the world of Azeroth ages past. C'Thun was imprisoned by the titans and placed beneath the sands of Silithus for eternity. Through out the ages, C'Thun created the Qiraj and spurred the creation of Ahn'Qiraj, the nascent rebirth of the Black Empire that C'Thun had once created."
+ YSHAARJ_DESC: "Y'Shaarj is the most powerful of the Old Gods, eldritch horrors who threatened the world of Azeroth ages past. Killed by the titans, its heart was stored in a vault beneath the Vale of Eternal Blossoms. The Mantid of Pandaria are fervent in their worship of Y'Shaarj, and possess undying loyalty should Y'Shaarj ever re-emerge."
+ YOGG_SARON_DESC: "One of the Old gods, eldritch horrors who threatened the world of Azeroth ages past. Yogg-Saron was imprisoned by the titans beneath the titan complex of Ulduar. Throughout the ages, Yogg-Saron has corrupted the titan keepers that reside above, in turn creating the Curse of Flesh through corrupting Loken. Millennia later, it was Yogg-Saron that corrupted the world tree Andrassil and planted the seed of corruption within the Emerald Dream that would later grow into the Emerald Nightmare."
+ NZOTH_DESC: "N'Zoth is said to be the weakest of the four Old Gods of Azeroth, malefic beings that were sequestered by the titans during Azeroth's primordial ages. Elusive, N'Zoth has never being directly sighted by adventurers. Nevertheless, it is said N'Zoth was the force being the transformation of Queen Azshara and her Highborne into the naga."
+ OLD_GOD_DESC: "An eldritch being."
+ 
+ FEL: "Fel"
+ FEL_DESC: "Fel magic is a destructive form of magic often used by demons and the members of the Burning Legion. It is demonic, entropic, chaotic and extremely volatile. Its use by the wielder, or its effects on the victim, frequently results in an alteration of the individual, colloquially called corruption. All of the Burning Legion carry the taint of fel magic within their very blood, allowing them to spread greater evil. While fel is the language of chaos and disorder, arcane represents order, and are considered opposite ends of the same spectrum."
+ 
+ NECROMANCY: "Necromancy"
+ NECROMANCY_DESC: "Necromancy is the study and use of magic that manipulates the dead. Masters of necromancy can conjure festering diseases, harness the shadows into bolts of incendiary energy, and chill the living with the power of death. The Lich King and his followers are notable users of necromancy."
+ 
+ SHAMANISM: "Shamanism"
+ SHAMANISM_DESC: "Shamanism is a deeply spiritual form of elemental magic that involves a connection with both the natural and the spirit worlds. Shaman do not normally enslave elementals, but honor them, asking the elements to heed their call. Shaman are not inherently imbued with magic - they harness the powers of the elements through ceremonial totems."
+ 
+ CELESTIALS: "August Celestials"
+ CELESTIALS_DESC: "The August Celestials are four powerful beings that watch over Pandaria. Wild Gods, they share relation with the Ancients and many loa, but are native to Pandaria."
+ YULON: "Yu'lon"
+ NIUZAO: "Niuzao"
+ CHIJI: "Chi'ji"
+ XUEN: "Xu'en"
+ CELESTIALS: "Celestials"
+ 
+ TITAN: "Titan"
+ TITAN_DESC: "The titans are a race of colossal, planet-sized cosmic beings, composed of arcane magic and the primordial matter from which the universe was born. Revered as gods by many, they have often bestowed certain beings with missions to fufill upon Azeroth, often in opposition to the Old Gods."
+ 
+ FIRE: "Fire"
+ FIRE_DESC: "Ragnaros the Firelord is the Elemental Lord of Fire. His home in the Elemental Plane is the Firelands."
+ 
+ EARTH: "Earth"
+ EARTH_DESC: "Therazane the Stonemother is the Elemental Lord of Earth. His home in the Elemental Plane is Deepholm."
+ 
+ WIND: "Wind"
+ WIND_DESC: "Al'Akir the Windlord is the Elemental Lord of Air. His home in the Elemental Plane is the Skywall."
+ 
+ WATER: "Water"
+ WATER_DESC: "Neptulon the Tidehunter is the Elemental Lord of Water. His home in the Elemental Plane is the Abyssal Maw."
+ 
+ GEOMANCY: "Geomancy"
+ GEOMANCY_DESC: "Geomancy is a crude form of shamanism often practiced by lesser races. It is the practice of divination and elemental combat that is oftne native to the geomancer."
+ 
+ LIGHT_OF_THE_NAARU: "Light of the Naaru"
+ LIGHT_OF_THE_NAARU_DESC: "The Light for the draenei is expressed through the Naaru, a race of living, sentinent energy beings, constructed of shards of light. They are considered the purest expression of the Holy Light across the universe."
+ 
+ DRAGON_ASPECTS: "Dragon Aspects"
+ DRAGON_ASPECTS_DESC: "Dragons are immense, powerful, winged reptilian creatures, created from proto-dragons by the Titans to safeguard the world of Azeroth millennia ago. They are divided into several types called dragonflights."
+ 
+ TECHNOMANCY: "Technomancy"
+ TECHNOMANCY_DESC: "Technomancy is the combination of invention and the arcane."
+ 
+ CAPITALISM: "Capitalism"
+ CAPITALISM_DESC: "Goblins are of the belief that moolah is all that matters, and so for them, it is pure capital that turns the cogs of goblin society."
+ 
+ SOUL: "Soul"
+ SOUL_DESC: "For many ages, the mogu used flesh as a weapon: warped, bent, and twisted to their malevolent will. But after their failures in creating the saurok race, the mogu sought to create another weapon, this time forged with total obedience. Their ancient research delivered to them methods of turning flesh to stone, and back again. Lifeless rock could be animated, providing a willing (or unwilling) soul could be captured within. These dark rituals created the Stoneborn, soldiers of jade and dark magic forged from the living essence of conquered victims. These creations were powerful... terrible to behold, and above all else, one hundred percent loyal to their mogu masters. Death was not final for some mogu, instead being a mere stop over on the path to a new body. Spiritbinders used their foul magic to transfer these spirits from one shell to the next."
+ 
+ RUNIC: "Runic"
+ RUNIC_DESC: "The vrykul utilise a form of runic magic, where the source of the power is embedded within the runic symbols."
+ 
+ NO_RELIGION: "None" 
+ NO_RELIGION_DESC: "Nope."
+ 
+ #------------------------------------
+ # Effects
+ #------------------------------------
+ SET_RELIGION_NONE: "Changes [Root.GetName]'s religion from §H[Root.GetCurrentReligion]§! to §HNone§!."
+ SET_RELIGION_HOLY_LIGHT: "Changes [Root.GetName]'s religion from §H[Root.GetCurrentReligion]§! to §HThe Holy Light§!."
+ SET_RELIGION_ELUNE: "Changes [Root.GetName]'s religion from §H[Root.GetCurrentReligion]§! to §HElune§!."
+ SET_RELIGION_HAKKAR: "Changes [Root.GetName]'s religion from §H[Root.GetCurrentReligion]§! to §HHakkar§!."
+ SET_RELIGION_VOODOO: "Changes [Root.GetName]'s religion from §H[Root.GetCurrentReligion]§! to §HVoodoo§!."
+ SET_RELIGION_SHADOW: "Changes [Root.GetName]'s religion from §H[Root.GetCurrentReligion]§! to §HShadow§!."
+ SET_RELIGION_NATURE: "Changes [Root.GetName]'s religion from §H[Root.GetCurrentReligion]§! to §HNature§!."
+ SET_RELIGION_DEEP_MOTHER: "Changes [Root.GetName]'s religion from §H[Root.GetCurrentReligion]§! to §HDeep Mother§!."
+ SET_RELIGION_ARCANE: "Changes [Root.GetName]'s religion from §H[Root.GetCurrentReligion]§! to §HArcane§!."
+ SET_RELIGION_DRUIDISM: "Changes [Root.GetName]'s religion from §H[Root.GetCurrentReligion]§! to §HDruidism§!."
+ SET_RELIGION_OLD_GODS: "Changes [Root.GetName]'s religion from §H[Root.GetCurrentReligion]§! to §HOld Gods§!."
+ SET_RELIGION_OLD_GODS_CTHUN: "Changes [Root.GetName]'s religion from §H[Root.GetCurrentReligion]§! to §HOld Gods§! following §HC'Thun§!."
+ SET_RELIGION_OLD_GODS_YSHAARJ: "Changes [Root.GetName]'s religion from §H[Root.GetCurrentReligion]§! to §HOld Gods§! following §HY'Shaarj§!."
+ SET_RELIGION_OLD_GODS_YOGG_SARON: "Changes [Root.GetName]'s religion from §H[Root.GetCurrentReligion]§! to §HOld Gods§! following §HYogg-Saron§!."
+ SET_RELIGION_OLD_GODS_NZOTH: "Changes [Root.GetName]'s religion from §H[Root.GetCurrentReligion]§! to §HOld Gods§! following §HN'Zoth§!."
+ SET_RELIGION_FEL: "Changes [Root.GetName]'s religion from §H[Root.GetCurrentReligion]§! to §HFel§!."
+ SET_RELIGION_NECROMANCY: "Changes [Root.GetName]'s religion from §H[Root.GetCurrentReligion]§! to §HNecromancy§!."
+ SET_RELIGION_SHAMANISM: "Changes [Root.GetName]'s religion from §H[Root.GetCurrentReligion]§! to §HShamanism§!."
+ SET_RELIGION_CELESTIALS: "Changes [Root.GetName]'s religion from §H[Root.GetCurrentReligion]§! to §HCelestials§!."
+ SET_RELIGION_CELESTIALS_YULON: "Changes [Root.GetName]'s religion from §H[Root.GetCurrentReligion]§! to §HCelestials§! following §HYu'lon§!."
+ SET_RELIGION_CELESTIALS_NIUZAO: "Changes [Root.GetName]'s religion from §H[Root.GetCurrentReligion]§! to §HCelestials§! following §HNiuzao§!."
+ SET_RELIGION_CELESTIALS_CHIJI: "Changes [Root.GetName]'s religion from §H[Root.GetCurrentReligion]§! to §HCelestials§! following §HChi'ji§!."
+ SET_RELIGION_CELESTIALS_XUEN: "Changes [Root.GetName]'s religion from §H[Root.GetCurrentReligion]§! to §HCelestials§! following §HXu'en§!."
+ SET_RELIGION_TITAN: "Changes [Root.GetName]'s religion from §H[Root.GetCurrentReligion]§! to §HTitan§!."
+ SET_RELIGION_FIRE: "Changes [Root.GetName]'s religion from §H[Root.GetCurrentReligion]§! to §HFire§!."
+ SET_RELIGION_EARTH: "Changes [Root.GetName]'s religion from §H[Root.GetCurrentReligion]§! to §HEarth§!."
+ SET_RELIGION_AIR: "Changes [Root.GetName]'s religion from §H[Root.GetCurrentReligion]§! to §HWind§!."
+ SET_RELIGION_WATER: "Changes [Root.GetName]'s religion from §H[Root.GetCurrentReligion]§! to §HWater§!."
+ SET_RELIGION_GEOMANCY: "Changes [Root.GetName]'s religion from §H[Root.GetCurrentReligion]§! to §HGeomancy§!."
+ SET_RELIGION_LIGHT_OF_THE_NAARU: "Changes [Root.GetName]'s religion from §H[Root.GetCurrentReligion]§! to §HLight of the Naaru§!."
+ SET_RELIGION_DRAGON_ASPECTS: "Changes [Root.GetName]'s religion from §H[Root.GetCurrentReligion]§! to §HDragon Aspects§!."
+ SET_RELIGION_DRAGON_ASPECTS_RED: "Changes [Root.GetName]'s religion from §H[Root.GetCurrentReligion]§! to §HDragon Aspects§! following the §HRed Dragonflight§!."
+ SET_RELIGION_DRAGON_ASPECTS_BLUE: "Changes [Root.GetName]'s religion from §H[Root.GetCurrentReligion]§! to §HDragon Aspects§! following the §HBlue Dragonflight§!."
+ SET_RELIGION_DRAGON_ASPECTS_GREEN: "Changes [Root.GetName]'s religion from §H[Root.GetCurrentReligion]§! to §HDragon Aspects§! following the §HGreen Dragonflight§!."
+ SET_RELIGION_DRAGON_ASPECTS_BLACK: "Changes [Root.GetName]'s religion from §H[Root.GetCurrentReligion]§! to §HDragon Aspects§! following the §HBlack Dragonflight§!."
+ SET_RELIGION_TECHNOMANCY: "Changes [Root.GetName]'s religion from §H[Root.GetCurrentReligion]§! to §HTechnomancy§!."
+ SET_RELIGION_CAPITALISM: "Changes [Root.GetName]'s religion from §H[Root.GetCurrentReligion]§! to §HCapitalism§!."
+ SET_RELIGION_SOUL: "Changes [Root.GetName]'s religion from §H[Root.GetCurrentReligion]§! to §HSoul§!."
+ SET_RELIGION_RUNIC: "Changes [Root.GetName]'s religion from §H[Root.GetCurrentReligion]§! to §HRunic§!."
+ 
+ #------------------------------------
+ # Triggers
+ #------------------------------------
+ HAS_RELIGION_ANY: "Has any religion."
+ HAS_RELIGION_NONE: "Has §HNone§! religion."
+ HAS_RELIGION_HOLY_LIGHT: "Has §HThe Holy Light§! religion."
+ HAS_RELIGION_ELUNE: "Has §HElune§! religion."
+ HAS_RELIGION_HAKKAR: "Has §HHakkar§! religion."
+ HAS_RELIGION_VOODOO: "Has §HVoodoo§! religion."
+ HAS_RELIGION_SHADOW: "Has §HShadow§! religion."
+ HAS_RELIGION_NATURE: "Has §HNature§! religion."
+ HAS_RELIGION_DEEP_MOTHER: "Has §HDeep Mother§! religion."
+ HAS_RELIGION_ARCANE: "Has §HArcane§! religion."
+ HAS_RELIGION_DRUIDISM: "Has §HDruidism§! religion."
+ HAS_RELIGION_OLD_GODS: "Has §HOld Gods§! religion."
+ HAS_RELIGION_OLD_GODS_CTHUN: "Has §HOld Gods§! religion, following §HC'Thun§!."
+ HAS_RELIGION_OLD_GODS_YSHAARJ: "Has §HOld Gods§! religion, following §HY'Shaarj§!."
+ HAS_RELIGION_OLD_GODS_YOGG_SARON: "Has §HOld Gods§! religion, following §HYogg-Saron§!."
+ HAS_RELIGION_OLD_GODS_NZOTH: "Has §HOld Gods§! religion, following §HN'Zoth§!."
+ HAS_RELIGION_FEL: "Has §HFel§! religion."
+ HAS_RELIGION_NECROMANCY: "Has §HNecromancy§! religion."
+ HAS_RELIGION_SHAMANISM: "Has §HShamanism§! religion."
+ HAS_RELIGION_CELESTIALS: "Has §HCelestials§! religion."
+ HAS_RELIGION_CELESTIALS_YULON: "Has §HCelestials§! religion, following §HYu'lon§!."
+ HAS_RELIGION_CELESTIALS_CHIJI: "Has §HCelestials§! religion, following §HChi'ji§!."
+ HAS_RELIGION_CELESTIALS_NIUZAO: "Has §HCelestials§! religion, following §HNiuzao§!."
+ HAS_RELIGION_CELESTIALS_XUEN: "Has §HCelestials§! religion, following §HXu'en§!."
+ HAS_RELIGION_TITAN: "Has §HTitan§! religion."
+ HAS_RELIGION_FIRE: "Has §HFire§! religion."
+ HAS_RELIGION_EARTH: "Has §HEarth§! religion."
+ HAS_RELIGION_AIR: "Has §HWind§! religion."
+ HAS_RELIGION_WATER: "Has §HWater§! religion."
+ HAS_RELIGION_GEOMANCY: "Has §HGeomancy§! religion."
+ HAS_RELIGION_LIGHT_OF_THE_NAARU: "Has §HLight of the Naaru§! religion."
+ HAS_RELIGION_DRAGON_ASPECTS: "Has §HDragon Aspects§! religion."
+ HAS_RELIGION_DRAGON_ASPECTS_RED: "Has §HDragon Aspects§! religion, following the §HRed Dragonflight§!."
+ HAS_RELIGION_DRAGON_ASPECTS_GREEN: "Has §HDragon Aspects§! religion, following the §HGreen Dragonflight§!."
+ HAS_RELIGION_DRAGON_ASPECTS_BLUE: "Has §HDragon Aspects§! religion, following the §HBlue Dragonflight§!."
+ HAS_RELIGION_DRAGON_ASPECTS_BLACK: "Has §HDragon Aspects§! religion, following the §HBlack Dragonflight§!."
+ HAS_RELIGION_TECHNOMANCY: "Has §HTechnomancy§! religion."
+ HAS_RELIGION_CAPITALISM: "Has §HCapitalism§! religion."
+ HAS_RELIGION_SOUL: "Has §HSoul§! religion."
+ HAS_RELIGION_RUNIC: "Has §HRunic§! religion."
+ 
+ #------------------------------------
+ # Religion GUI
+ #------------------------------------
+ RELIGION_BUTTON: "[Root.GetCurrentReligion]"
+ RELIGION_DESCRIPTION: "Click on this button to open the Religion action menu.\n\n[Root.GetCurrentReligionDesc]"
+ RELIGION_MENU_DESCRIPTION: "[Root.GetCurrentReligion]\n\n[Root.GetCurrentReligionDesc]"
+ 
+ FAITH_POWER: "[?root.faith_power]"
+ FAITH_POWER_TOOLTIP: "§H[Root.GetFaithPowerName]§!\n\nCurrent Daily Gain:\nBase: §G[?faith_gain_base]§!\nOther: [Root.GetFaithModifier]\nMultiplier: §G[?ROOT.faith_gain_multiplier]§!\n\n[Root.GetFaithPowerName] is used to purchase Religion actions that affect the world.\n\n[Root.GetFaithPowerName] is capped at §H1000§!." 
+
+ POSITIVE_FAITH_GAIN: "§G[?faith_gain]§!"
+ NEGATIVE_FAITH_GAIN: "§R[?faith_gain]§!"
+ 
+ FAITH_POWER_NAME: "Faith Power"
+ MOON_POWER_NAME: "Moon Power"
+ ARCANE_POWER_NAME: "Arcane Power"
+ SHADOW_POWER_NAME: "Shadow Power"
+ NATURE_POWER_NAME: "Nature Power"
+ INSANITY_POWER_NAME: "Insanity Power"
+ FEL_POWER_NAME: "Fel Power"
+ ELEMENTAL_POWER_NAME: "Elemental Power"
+ DRAGON_POWER_NAME: "Draconic Power"
+ TITAN_POWER_NAME: "Titanic Power"
+ HARMONY_POWER_NAME: "Harmonic Power"
+ NECROMANCY_POWER_NAME: "Necromantic Power"
+ TECHNOMANIC_POWER_NAME: "Technomantic Power"
+ CAPITAL_POWER_NAME: "Moolah"
+ SOUL_POWER_NAME: "Soul Power"
+ RUNIC_POWER_NAME: "Runic Power"
+ OCEAN_POWER_NAME: "Ocean Power"
+ SHAMANISTIC_POWER: "Shamanistic Power"
+ 
+ #------------------------------------
+ # GUI Buttons
+ #------------------------------------
+ AB1_TITLE: "[Root.GetAB1Title]"
+ AB1_TOOLTIP: "[!action_button_1_click]\n[Root.GetAB1Tooltip]\n\n[Root.GetAB1Description]"
+ AB1_ENABLED: "Costs §H[?faith_action_1_cost]§! [Root.GetFaithPowerName] to use."
+ AB1_DISABLED: "You need §H[?faith_action_1_cost]§! [Root.GetFaithPowerName] to use this action."
+ 
+ AB2_TITLE: "[Root.GetAB2Title]"
+ AB2_TOOLTIP: "[!action_button_2_click]\n[Root.GetAB2Tooltip]\n\n[Root.GetAB2Description]"
+ AB2_ENABLED: "Costs §H[?faith_action_2_cost]§! [Root.GetFaithPowerName] to use."
+ AB2_DISABLED: "You need §H[?faith_action_2_cost]§! [Root.GetFaithPowerName] to use this action."
+ 
+ AB3_TITLE: "[Root.GetAB3Title]"
+ AB3_TOOLTIP: "[!action_button_3_click]\n[Root.GetAB3Tooltip]\n\n[Root.GetAB3Description]"
+ AB3_ENABLED: "Costs §H[?faith_action_3_cost]§! [Root.GetFaithPowerName] to use."
+ AB3_DISABLED: "You need §H[?faith_action_3_cost]§! [Root.GetFaithPowerName] to use this action."
+ 
+ AB4_TITLE: "[Root.GetAB4Title]"
+ AB4_TOOLTIP: "[!action_button_4_click]\n[Root.GetAB4Tooltip]\n\n[Root.GetAB4Description]"
+ AB4_ENABLED: "Costs §H[?faith_action_4_cost]§! [Root.GetFaithPowerName] to use."
+ AB4_DISABLED: "You need §H[?faith_action_4_cost]§! [Root.GetFaithPowerName] to use this action."
+ 
+ AB5_TITLE: "[Root.GetAB5Title]"
+ AB5_TOOLTIP: "[!action_button_5_click]\n[Root.GetAB5Tooltip]\n\n[Root.GetAB5Description]"
+ AB5_ENABLED: "Costs §H[?faith_action_5_cost]§! [Root.GetFaithPowerName] to use."
+ AB5_DISABLED: "You need §H[?faith_action_5_cost]§! [Root.GetFaithPowerName] to use this action."
+ 
+ AB6_TITLE: "[Root.GetAB6Title]"
+ AB6_TOOLTIP: "[!action_button_6_click]\n[Root.GetAB6Tooltip]\n\n[Root.GetAB6Description]"
+ AB6_ENABLED: "Costs §H[?faith_action_6_cost]§! [Root.GetFaithPowerName] to use."
+ AB6_DISABLED: "You need §H[?faith_action_6_cost]§! [Root.GetFaithPowerName] to use this action."
+ 
+ #------------------------------------
+ # The Holy Light
+ #------------------------------------
+ AB1_TITLE_HOLY_LIGHT: "Enforce the Three Virtues"
+ AB1_DESC_HOLY_LIGHT: ""
+ AB2_TITLE_HOLY_LIGHT: "Banish Corruption"
+ AB2_DESC_HOLY_LIGHT: ""
+ AB3_TITLE_HOLY_LIGHT: "Infuse with Light"
+ AB3_DESC_HOLY_LIGHT: ""
+ AB4_TITLE_HOLY_LIGHT: "Anoint Paladins"
+ AB4_DESC_HOLY_LIGHT: ""
+ AB5_TITLE_HOLY_LIGHT: "Study the Tomes of Light"
+ AB5_DESC_HOLY_LIGHT: ""
+ AB6_TITLE_HOLY_LIGHT: "Cast Out the Darkness"
+ AB6_DESC_HOLY_LIGHT: ""
+ 
+ INFUSED_WITH_LIGHT: "Infused with Light"
+ TOMES_OF_LIGHT: "Champion Technology"
+ UNITS_INFUSED_WITH_LIGHT_TOOLTIP: "All Field Marshals gain the §HInfused with Light§! combat bonuses for §H7§! days.\n\n"
+ ALREADY_COTD: "[Root.GetName] already has §HCast Out of Darkness§!.\n"
+ STABILITY_AT_MAX: "[Root.GetName]'s stability is currently at maximum.\n"
+ NO_VALID_UNIT_LEADER: "[Root.GetName] has no valid unit leader currently.\n"
+ 
+ cast_out_the_darkness: "Cast Out the Darkness"
+ cast_out_the_darkness_desc: ""
+ 
+ #------------------------------------
+ # Elune
+ #------------------------------------
+ AB1_TITLE_ELUNE: "Spread Tranquility"
+ AB1_DESC_ELUNE: ""
+ AB2_TITLE_ELUNE: "Anoint Priestesses"
+ AB2_DESC_ELUNE: ""
+ AB3_TITLE_ELUNE: "Bolster the Sentinels"
+ AB3_DESC_ELUNE: ""
+ AB4_TITLE_ELUNE: "Soothe Populance"
+ AB4_DESC_ELUNE: ""
+ AB5_TITLE_ELUNE: "Heal the Wounded"
+ AB5_DESC_ELUNE: ""
+ AB6_TITLE_ELUNE: "Grant Moon Blessings"
+ AB6_DESC_ELUNE: ""
+ 
+ ALREADY_SOOTHE_POPULANCE: "[Root.GetName] already has §HSoothe Populance§!.\n"
+ ALREADY_MOON_BLESSINGS: "[Root.GetName] already has §HMoon Blessings§!.\n"
+ soothe_the_people: "Soothe Populance"
+ soothe_the_people_desc: ""
+ moon_blessings: "Moon Blessings"
+ moon_blessings_desc: ""
+
+ #------------------------------------
+ # Hakkar
+ #------------------------------------
+ AB1_TITLE_HAKKARI: "Offer Sacrifice to Hakkar"
+ AB1_DESC_HAKKARI: ""
+ AB2_TITLE_HAKKARI: "Desecrate Human Remains"
+ AB2_DESC_HAKKARI: ""
+ AB3_TITLE_HAKKARI: "Imbue Blood Warriors"
+ AB3_DESC_HAKKARI: ""
+ AB4_TITLE_HAKKARI: "Consume Blood of Hakkar"
+ AB4_DESC_HAKKARI: ""
+ AB5_TITLE_HAKKARI: "Summon Avatar of Hakkar"
+ AB5_DESC_HAKKARI: ""
+ AB6_TITLE_HAKKARI: "Receive Hakkar's Wisdom"
+ AB6_DESC_HAKKARI: ""
+ 
+ WAR_SUPPORT_AT_MAX: "[Root.GetName]'s war support is currently at maximum.\n"
+ ALREADY_HAS_GIFT_OF_HAKKAR: "[Root.GetName] already has §HGift of Hakkar§!.\n"
+ ALREADY_HAS_DESECRATED_REMAINS: "[Root.GetName] already has §HDesecrated Remains§!.\n"
+ ALREADY_HAS_IMBUED_BLOOD_PROPHETS: "[Root.GetName] already has §HImbued Blood Prophets§!.\n"
+ ALREADY_HAS_AVATAR_OF_HAKKAR: "[Root.GetName] already has §HAvatar of Hakkar§!.\n"
+ gift_of_hakkar: "Gift of Hakkar"
+ gift_of_hakkar_desc: ""
+ desecrated_remains: "Desecrated Remains"
+ desecrated_remains_desc: ""
+ imbued_blood_prophets: "Imbued Blood Prophets"
+ imbued_blood_prophets_desc: ""
+ avatar_of_hakkar: "Avatar of Hakkar"
+
+ #------------------------------------
+ # Voodoo
+ #------------------------------------
+ AB1_TITLE_VOODOO: "Cast Big Bad Voodoo"
+ AB1_DESC_VOODOO: ""
+ AB2_TITLE_VOODOO: "Summon Tiki Lord"
+ AB2_DESC_VOODOO: ""
+ AB3_TITLE_VOODOO: "Enslave Fallen Spirits"
+ AB3_DESC_VOODOO: ""
+ AB4_TITLE_VOODOO: "Raise the Fallen"
+ AB4_DESC_VOODOO: ""
+ AB5_TITLE_VOODOO: "Scry Enemies"
+ AB5_DESC_VOODOO: ""
+ AB6_TITLE_VOODOO: "Enhance Equipment"
+ AB6_DESC_VOODOO: ""
+ 
+ BIG_BAD_VOODOO_EFFECT: "All Field Marshals gain the §HBig Bad Voodoo§! combat bonuses for §H7§! days.\n\n"
+ BIG_BAD_VOODOO: "Units are imbued with Big Bad Voodoo."
+ ALREADY_HAS_TIKI_LORD: "[Root.GetName] already has §HTiki Lord§!.\n"
+ ALREADY_HAS_ENHANCED_EQUIPMENT: "[Root.GetName] already has §HEnhanced Equipment§!.\n"
+ tiki_lord: "Tiki Lord"
+ tiki_lord_desc: ""
+ enhanced_equipment: "Enhanced Equipment"
+ enhanced_equipment_desc: ""
+ 
+ SPAWN_UNIT_FALLEN_SPIRITS: "Spawn a §HFallen Spirits Division§! in your capital."
+ 
+ #------------------------------------
+ # Shadow
+ #------------------------------------
+ AB1_TITLE_SHADOW: "Impart Despair"
+ AB1_DESC_SHADOW: ""
+ AB2_TITLE_SHADOW: "Incite Panic"
+ AB2_DESC_SHADOW: ""
+ AB3_TITLE_SHADOW: "Manifest Voidlings"
+ AB3_DESC_SHADOW: ""
+ AB4_TITLE_SHADOW: "Train Shadow Disciples"
+ AB4_DESC_SHADOW: ""
+ AB5_TITLE_SHADOW: "Manifest Void Lord"
+ AB5_DESC_SHADOW: ""
+ AB6_TITLE_SHADOW: "Induce Voidform"
+ AB6_DESC_SHADOW: ""
+ 
+ THE_SHADOW_ENCROACHES_TOOLTIP: "All neighbouring countries will gain §HShadow§! popularity scaling inversely with their stability.\n\n"
+ INCITE_PANIC_TOOLTIP: "Neighbouring countries will lose stability, scaling with the amount of §HShadow§! popularity the nation currently has.\n\n"
+ 
+ shadow.1.title: "The Shadow encroaches..."
+ shadow.1.desc: "The shadow nation of [From.GetName] has infested many of our local shrines with their foul magics. The people are falling into despair, and without intervention will succumb to the foul magics that warp their mind."
+ shadow.1.option.a: "Submit to the shadow..."
+ shadow.1.option.b: "Cleanse these foul beings!"
+
+ shadow.2.title: "Panic!"
+ 
+ shadow.3.title: "Panic!"
+ shadow.3.desc: "Our acceptance of the shadow has been exploited by the foul masters of [From.GetName]."
+ shadow.3.option.a: "Curses!"
+ 
+ ALREADY_VOIDLORD: "[Root.GetName] already has §HVoid Lord§!.\n"
+ ALREADY_VOIDFORM: "[Root.GetName] already has §HVoidform§!.\n"
+ 
+ void_lord: "Void Lord"
+ void_lord_desc: ""
+ voidform: "Voidform"
+ voidform_desc: ""
+ 
+ SPAWN_UNIT_VOIDLINGS: "Spawn a §HVoidling Division§! in your capital."
+ 
+ #------------------------------------
+ # Nature
+ #------------------------------------
+ AB1_TITLE_NATURE: "Bestow Life"
+ AB1_DESC_NATURE: ""
+ AB2_TITLE_NATURE: "Lifebinders"
+ AB2_DESC_NATURE: ""
+ AB3_TITLE_NATURE: "Restore Nature"
+ AB3_DESC_NATURE: ""
+ AB4_TITLE_NATURE: "Quell Discord"
+ AB4_DESC_NATURE: ""
+ AB5_TITLE_NATURE: "Fruits of Azeroth"
+ AB5_DESC_NATURE: ""
+ AB6_TITLE_NATURE: "Enact Nature's Fury"
+ AB6_DESC_NATURE: ""
+
+ BESTOW_LIFE_TOOLTIP: "The amount of Political Power gained is dependant on the level of support §HLife§! has in [Root.GetName].\n\n"
+ 
+ UNITS_NATURES_FURY: "All Field Marshals gain the §HNature's Fury§! combat bonuses for §H7§! days.\n\n"
+ NATURES_FURY: "Nature's Fury"
+ 
+ #------------------------------------
+ # Deep Mother
+ #------------------------------------
+ AB1_TITLE_DEEP_MOTHER: "Muster Weaponry"
+ AB1_DESC_DEEP_MOTHER: ""
+ AB2_TITLE_DEEP_MOTHER: "Blessing of Deep Mother"
+ AB2_DESC_DEEP_MOTHER: ""
+ AB3_TITLE_DEEP_MOTHER: "Aaaaaughibbrguburgle!"
+ AB3_DESC_DEEP_MOTHER: ""
+ AB4_TITLE_DEEP_MOTHER: "Deep Mother's Vengeance"
+ AB4_DESC_DEEP_MOTHER: ""
+ AB5_TITLE_DEEP_MOTHER: "Nurture Baby Murlocs"
+ AB5_DESC_DEEP_MOTHER: ""
+ AB6_TITLE_DEEP_MOTHER: "Initiate Invasion"
+ AB6_DESC_DEEP_MOTHER: ""
+
+ murloc_warcry: "Murloc Warcry"
+ murloc_warcry_desc: ""
+ murloc_invasion: "Murloc Invasion"
+ murloc_invasion_desc: ""
+ 
+ ALREADY_MURLOC_WARCRY: "[Root.GetName] already has §HMurloc Warcry§!.\n"
+ ALREADY_MURLOC_INVASION: "[Root.GetName] already has §HMurloc Invasion§!.\n"
+ NO_VALID_WARGOAL_TARGET: "[Root.GetName] has no valid wargoal target currently.\n"
+ WARGOAL_GENERATION_TOOLTIP: "Gain the §HAnnex§! wargoal against a random neighbouring nation.\n\n"
+ 
+ #------------------------------------
+ # Arcane
+ #------------------------------------
+ AB1_TITLE_ARCANUM: "Cast Arcane Surge"
+ AB1_DESC_ARCANUM: ""
+ AB2_TITLE_ARCANUM: "Conduct Magi Dealings"
+ AB2_DESC_ARCANUM: ""
+ AB3_TITLE_ARCANUM: "Muster Magi Equipment"
+ AB3_DESC_ARCANUM: ""
+ AB4_TITLE_ARCANUM: "Empower the Arcane"
+ AB4_DESC_ARCANUM: ""
+ AB5_TITLE_ARCANUM: "Arcane Knowledge"
+ AB5_DESC_ARCANUM: ""
+ AB6_TITLE_ARCANUM: "Delve into the Arcane"
+ AB6_DESC_ARCANUM: ""
+ 
+ ALREADY_ARCANE_SURGE: "[Root.GetName] already has §HArcane Surge§!.\n"
+ ALREADY_ARCANE_EMPOWERMENT: "[Root.GetName] already has §HArcane Empowerment§!.\n"
+ ARCANE_KNOWLEDGE: "Arcane Knowledge"
+ MAXIMUM_RESEARCH_SLOTS: "[Root.GetName] has the maximum number of additional research slots."
+ MAGI_DEALINGS_TOOLTIP: "The amount of Political Power gained is dependant on the level of support §HArcane§! has in [Root.GetName].\n\n"
+ 
+ arcane_surge: "Arcane Surge"
+ arcane_surge_desc: ""
+ arcane_empowerment: "Arcane Empowerment"
+ arcane_empowerment_desc: ""
+
+ #------------------------------------
+ # Druidism
+ #------------------------------------
+ AB1_TITLE_DRUIDISM: "Restore Natural Order"
+ AB1_DESC_DRUIDISM: ""
+ AB2_TITLE_DRUIDISM: "Support Flegling Druids"
+ AB2_DESC_DRUIDISM: ""
+ AB3_TITLE_DRUIDISM: "Harness Nature's Wrath"
+ AB3_DESC_DRUIDISM: ""
+ AB4_TITLE_DRUIDISM: "Consumate Moon Blessing"
+ AB4_DESC_DRUIDISM: ""
+ AB5_TITLE_DRUIDISM: "Enter Beastly Fury"
+ AB5_DESC_DRUIDISM: ""
+ AB6_TITLE_DRUIDISM: "Strengthen Primal Link"
+ AB6_DESC_DRUIDISM: ""
+ 
+ ALREADY_WRATH_OF_NATURE: "[Root.GetName] already has §HWrath of Nature§!.\n"
+ ALREADY_MOON_BLESSING: "[Root.GetName] already has §HMoon Blessing§!.\n"
+ 
+ wrath_of_nature: "Wrath of Nature"
+ wrath_of_nature_desc: ""
+ druid_moon_blessing: "Moon Blessing"
+ druid_moon_blessing_desc: ""
+ 
+ UNIT_BEASTLY_FURY: "All Field Marshals gain the §HBeastly Fury§! combat bonuses for §H7§! days.\n\n"
+ BEASTLY_FURY: "Beastly Fury"
+
+ #------------------------------------
+ # Old Gods
+ #------------------------------------
+ AB1_TITLE_OLD_GODS: "Inflict Insanity"
+ AB1_DESC_OLD_GODS: ""
+ AB2_TITLE_OLD_GODS: "Expand Dominion"
+ AB2_DESC_OLD_GODS: ""
+ AB3_TITLE_OLD_GODS: "Sway the Weak"
+ AB3_DESC_OLD_GODS: ""
+ AB4_TITLE_OLD_GODS: "Corrupt the Feeble"
+ AB4_DESC_OLD_GODS: ""
+ AB5_TITLE_OLD_GODS: "Gift of [Root.GetOldGod]"
+ AB5_DESC_OLD_GODS: ""
+ AB6_TITLE_OLD_GODS: "Madness of [Root.GetOldGod]"
+ AB6_DESC_OLD_GODS: ""
+ 
+ gift_of_cthun: "Gift of C'Thun"
+ gift_of_cthun_desc: ""
+ gift_of_yshaarj: "Gift of Y'Shaarj"
+ gift_of_yshaarj_desc: ""
+ gift_of_yogg_saron: "Gift of Yogg-Saron"
+ gift_of_yogg_saron_desc: ""
+ gift_of_nzoth: "Gift of N'Zoth"
+ gift_of_nzoth_desc: ""
+ 
+ ALREADY_GIFT_OF_CTHUN: "[Root.GetName] already has §HGift of C'Thun§!.\n"
+ ALREADY_GIFT_OF_YSHAARJ: "[Root.GetName] already has §HGift of Y'Shaarj§!.\n"
+ ALREADY_GIFT_OF_YOGG_SARON: "[Root.GetName] already has §HGift of Yogg-Saron§!.\n"
+ ALREADY_GIFT_OF_NZOTH: "[Root.GetName] already has §HGift of N'Zoth§!.\n"
+
+ ALREADY_GIFT_OF_X: "[Root.GetName] already has §HGift of [Root.GetOldGod]§!.\n"
+ UNIT_MADNESS_OF_X: "All Field Marshals gain the §HMadness of [Root.GetOldGod]§! combat bonuses for §H7§! days.\n\n"
+ MADNESS_OF_X: "Madness of [Root.GetOldGod]"
+
+ #------------------------------------
+ # Fel
+ #------------------------------------
+ AB1_TITLE_FEL: "Build Fel Spreaders"
+ AB1_DESC_FEL: ""
+ AB2_TITLE_FEL: "Erect Fel Conduits"
+ AB2_DESC_FEL: ""
+ AB3_TITLE_FEL: "Summon Demons"
+ AB3_DESC_FEL: ""
+ AB4_TITLE_FEL: "Imbue the Weak"
+ AB4_DESC_FEL: ""
+ AB5_TITLE_FEL: "Fel Corruption"
+ AB5_DESC_FEL: ""
+ AB6_TITLE_FEL: "Expand Dominion"
+ AB6_DESC_FEL: ""
+ 
+ ALREADY_FEL_CONDUITS: "[Root.GetName] already has §HFel Conduits§!.\n"
+
+ fel_conduits: "Fel Conduits"
+ fel_conduits_desc: ""
+ 
+ UNIT_FEL_CORRUPTION: "All Field Marshals gain the §HFel Corruption§! combat bonuses for §H7§! days.\n\n"
+ IMBUED_WITH_FEL: "Fel Corruption"
+ 
+ SPAWN_UNIT_DEMONS: "Spawn a §HDemonic Division§! in your capital."
+ 
+ #------------------------------------
+ # Necromancy
+ #------------------------------------
+ AB1_TITLE_NECROMANCY: "Imbue with Death"
+ AB1_DESC_NECROMANCY: ""
+ AB2_TITLE_NECROMANCY: "Raise Mass Undead"
+ AB2_DESC_NECROMANCY: ""
+ AB3_TITLE_NECROMANCY: "Plague of Undeath"
+ AB3_DESC_NECROMANCY: ""
+ AB4_TITLE_NECROMANCY: "Fuel the Fleshwerks"
+ AB4_DESC_NECROMANCY: ""
+ AB5_TITLE_NECROMANCY: "Enforce Dominance"
+ AB5_DESC_NECROMANCY: ""
+ AB6_TITLE_NECROMANCY: "Forge Death Knights"
+ AB6_DESC_NECROMANCY: ""
+ 
+ UNITS_NECROMANTIC_POWER: "All Field Marshals gain the §HNecromantic Power§! combat bonuses for §H7§! days.\n\n"
+ IMBUED_WITH_NECROMANTIC_POWER: "Necromantic Power"
+ 
+ plague_of_undeath: "Plague of Undeath"
+ plague_of_undeath_desc: ""
+ 
+ NO_VALID_TARGET: "No valid target." 
+
+ SPAWN_UNIT_DEATH_KNIGHT: "Spawn a §HDeath Knight Division§! in your capital."
+ 
+ #------------------------------------
+ # Shamanism
+ #------------------------------------
+ AB1_TITLE_SHAMANISM: "Conduct Animal Worship"
+ AB1_DESC_SHAMANISM: ""
+ AB2_TITLE_SHAMANISM: "Speak to Ancestors"
+ AB2_DESC_SHAMANISM: ""
+ AB3_TITLE_SHAMANISM: "Harness Totemic Power"
+ AB3_DESC_SHAMANISM: ""
+ AB4_TITLE_SHAMANISM: "Summon Elementals"
+ AB4_DESC_SHAMANISM: ""
+ AB5_TITLE_SHAMANISM: "Imbue with Life"
+ AB5_DESC_SHAMANISM: ""
+ AB6_TITLE_SHAMANISM: "Spirit of the Wilds"
+ AB6_DESC_SHAMANISM: ""
+ 
+ UNIT_TOTEMIC_POWER: "All Field Marshals gain the §HTotemic Power§! combat bonuses for §H7§! days.\n\n"
+ TOTEMIC_POWER: "Totemic Power"
+
+ ALREADY_ANIMAL_BLESSING: "[Root.GetName] already has §HAnimal Blessing§!.\n"
+ ALREADY_ANCESTRAL_WISDOM: "[Root.GetName] already has §HAncestral Wisdom§!.\n"
+ ALREADY_SPIRIT_OF_THE_WILDS: "[Root.GetName] already has §HSpirit of the Wilds§!.\n"
+ 
+ animal_blessing: "Animal Blessing"
+ animal_blessing_desc: ""
+ ancestral_wisdom: "Ancestral Wisdom"
+ ancestral_wisdom_desc: ""
+ spirit_of_the_wilds: "Spirit of the Wilds"
+ spirit_of_the_wilds_desc: ""
+ 
+ SPAWN_UNIT_ELEMENTALS: "Spawn a §HElemental Division§! in your capital."
+ 
+ #------------------------------------
+ # Celestials
+ #------------------------------------
+ AB1_TITLE_CELESTIALS: "Tribute to [Root.GetCelestial]"
+ AB1_DESC_CELESTIALS: ""
+ AB2_TITLE_CELESTIALS: "Wisdom of [Root.GetCelestial]"
+ AB2_DESC_CELESTIALS: ""
+ AB3_TITLE_CELESTIALS: "Restore Balance"
+ AB3_DESC_CELESTIALS: ""
+ AB4_TITLE_CELESTIALS: "Seek Harmony"
+ AB4_DESC_CELESTIALS: ""
+ AB5_TITLE_CELESTIALS: "Promote Prosperity"
+ AB5_DESC_CELESTIALS: ""
+ AB6_TITLE_CELESTIALS: "Fury of [Root.GetCelestial]"
+ AB6_DESC_CELESTIALS: ""
+
+ ALREADY_GIFT_OF_CELESTIAL_X: "[Root.GetName] already has §HGift of [Root.GetCelestial]§!.\n"
+ ALREADY_WISDOM_OF_CELESTIAL_X: "[Root.GetName] already has §HWisdom of [Root.GetCelestial]§!.\n"
+ ALREADY_FURY_OF_CELESTIAL_X: "[Root.GetName] already has §HFury of [Root.GetCelestial]§!.\n"
+ 
+ PROSPERITY_TOOTLTIP: "The amount of Political Power gained is dependant on the level of support §HLife§! has in [Root.GetName].\n\n"
+ 
+ gift_of_yulon: "Gift of Yu'lon"
+ gift_of_yulon_desc: ""
+ gift_of_niuzao: "Gift of Niuzao"
+ gift_of_niuzao_desc: ""
+ gift_of_chiji: "Gift of Chi'ji"
+ gift_of_chiji_desc: ""
+ gift_of_xuen: "Gift of Xu'en"
+ gift_of_xuen_desc: ""
+ 
+ wisdom_of_yulon: "Wisdom of Yu'lon"
+ wisdom_of_yulon_desc: ""
+ wisdom_of_niuzao: "Wisdom of Niuzao"
+ wisdom_of_niuzao_desc: ""
+ wisdom_of_chiji: "Wisdom of Chi'ji"
+ wisdom_of_chiji_desc: ""
+ wisdom_of_xuen: "Wisdom of Xu'en"
+ wisdom_of_xuen_desc: ""
+ 
+ fury_of_yulon: "Fury of Yu'lon"
+ fury_of_yulon_desc: ""
+ fury_of_niuzao: "Fury of Niuzao"
+ fury_of_niuzao_desc: ""
+ fury_of_chiji: "Fury of Chi'ji"
+ fury_of_chiji_desc: ""
+ fury_of_xuen: "Fury of Xu'en"
+ fury_of_xuen_desc: ""
+ 
+ #------------------------------------
+ # Titan
+ #------------------------------------
+ AB1_TITLE_TITAN: "Study Artifacts"
+ AB1_DESC_TITAN: ""
+ AB2_TITLE_TITAN: "Imbue Weaponry"
+ AB2_DESC_TITAN: ""
+ AB3_TITLE_TITAN: "Favour the Titans"
+ AB3_DESC_TITAN: ""
+ AB4_TITLE_TITAN: "Summon Titanic Fury"
+ AB4_DESC_TITAN: ""
+ AB5_TITLE_TITAN: "Restore Order"
+ AB5_DESC_TITAN: ""
+ AB6_TITLE_TITAN: "Protect Azeroth"
+ AB6_DESC_TITAN: ""
+ 
+ UNITS_TITANIC_FURY: "All Field Marshals gain the §HTitanic Fury§! combat bonuses for §H7§! days.\n\n"
+ TITANIC_FURY: "Titanic Fury"
+ 
+ ALREADY_TITANIC_KNOWLEDGE: "[Root.GetName] already has §HTitanic Knowledge§!.\n"
+ ALREADY_TITAN_BLESSING: "[Root.GetName] already has §HBlessing of the Titans§!.\n"
+ 
+ titanic_knowledge: "Titanic Knowledge"
+ titanic_knowledge_desc: ""
+ titan_blessing: "Blessing of the Titans"
+ titan_blessing_desc: ""
+ 
+ #------------------------------------
+ # Fire
+ #------------------------------------
+ AB1_TITLE_FIRE: "Summon Fire Elementals"
+ AB1_DESC_FIRE: ""
+ AB2_TITLE_FIRE: "Form Bond of Fire"
+ AB2_DESC_FIRE: ""
+ AB3_TITLE_FIRE: "Beg Ragnaros's Favour"
+ AB3_DESC_FIRE: ""
+ AB4_TITLE_FIRE: "Enflame Weaponry"
+ AB4_DESC_FIRE: ""
+ AB5_TITLE_FIRE: "Train Fire Shamans"
+ AB5_DESC_FIRE: ""
+ AB6_TITLE_FIRE: "Expand Dominion"
+ AB6_DESC_FIRE: ""
+ 
+ SPAWN_UNIT_FIRE_ELEMENTALS: "Spawn a §HFire Elemental Division§! in your capital."
+ 
+ ALREADY_BOND_OF_FIRE: "[Root.GetName] already has §HBond of Fire§!.\n"
+ ALREADY_RAGNAROS_FAVOUR: "[Root.GetName] already has §HFavour of Ragnaros§!.\n"
+ ALREADY_FLAME_WEAPONRY: "[Root.GetName] already has §HFlame Weaponry§!.\n"
+ 
+ bond_of_fire: "Bond of Fire"
+ bond_of_fire_desc: ""
+ ragnaros_favour: "Favour of Ragnaros"
+ ragnaros_favour_desc: ""
+ flame_weaponry: "Flame Weaponry"
+ flame_weaponry_desc: ""
+
+ #------------------------------------
+ # Earth
+ #------------------------------------
+ AB1_TITLE_EARTH: "Summon Earth Elementals"
+ AB1_DESC_EARTH: ""
+ AB2_TITLE_EARTH: "Form Bond of Earth"
+ AB2_DESC_EARTH: ""
+ AB3_TITLE_EARTH: "Beg Therazane's Favour"
+ AB3_DESC_EARTH: ""
+ AB4_TITLE_EARTH: "Encrust Weaponry"
+ AB4_DESC_EARTH: ""
+ AB5_TITLE_EARTH: "Train Earth Shamans"
+ AB5_DESC_EARTH: ""
+ AB6_TITLE_EARTH: "Expand Dominion"
+ AB6_DESC_EARTH: ""
+ 
+ SPAWN_UNIT_EARTH_ELEMENTALS: "Spawn a §HEarth Elemental Division§! in your capital."
+ 
+ ALREADY_BOND_OF_EARTH: "[Root.GetName] already has §HBond of Earth§!.\n"
+ ALREADY_THERAZANE_FAVOUR: "[Root.GetName] already has §HFavour of Therazane§!.\n"
+ ALREADY_ROCK_WEAPONRY: "[Root.GetName] already has §HRocky Weaponry§!.\n"
+ 
+ bond_of_earth: "Bond of Earth"
+ bond_of_earth_desc: ""
+ therazane_favour: "Favour of Therazane"
+ therazane_favour_desc: ""
+ rock_weaponry: "Rocky Weaponry"
+ rock_weaponry_desc: ""
+
+ #------------------------------------
+ # Wind
+ #------------------------------------
+ AB1_TITLE_WIND: "Summon Wind Elementals"
+ AB1_DESC_WIND: ""
+ AB2_TITLE_WIND: "Form Bond of Wind"
+ AB2_DESC_WIND: ""
+ AB3_TITLE_WIND: "Beg Al'Akir's Favour"
+ AB3_DESC_WIND: ""
+ AB4_TITLE_WIND: "Empower Weaponry"
+ AB4_DESC_WIND: ""
+ AB5_TITLE_WIND: "Train Wind Shamans"
+ AB5_DESC_WIND: ""
+ AB6_TITLE_WIND: "Expand Dominion"
+ AB6_DESC_WIND: ""
+ 
+ SPAWN_UNIT_WIND_ELEMENTALS: "Spawn a §HWind Elemental Division§! in your capital."
+ 
+ ALREADY_BOND_OF_WIND: "[Root.GetName] already has §HBond of Wind§!.\n"
+ ALREADY_ALAKIR_FAVOUR: "[Root.GetName] already has §HFavour of Al'Akir§!.\n"
+ ALREADY_WIND_WEAPONRY: "[Root.GetName] already has §HStorm Weaponry§!.\n"
+ 
+ bond_of_wind: "Bond of Wind"
+ bond_of_wind_desc: ""
+ alakir_favour: "Favour of Al'Akir"
+ alakir_favour_desc: ""
+ wind_weaponry: "Storm Weaponry"
+ wind_weaponry_desc: "" 
+
+ #------------------------------------
+ # Water
+ #------------------------------------
+ AB1_TITLE_WATER: "Summon Water Elementals"
+ AB1_DESC_WATER: ""
+ AB2_TITLE_WATER: "Form Bond of Water"
+ AB2_DESC_WATER: ""
+ AB3_TITLE_WATER: "Beg Neptulon's Favour"
+ AB3_DESC_WATER: ""
+ AB4_TITLE_WATER: "Empower Weaponry"
+ AB4_DESC_WATER: ""
+ AB5_TITLE_WATER: "Train Water Shamans"
+ AB5_DESC_WATER: ""
+ AB6_TITLE_WATER: "Expand Dominion"
+ AB6_DESC_WATER: ""
+ 
+ SPAWN_UNIT_WATER_ELEMENTALS: "Spawn a §HWater Elemental Division§! in your capital."
+ 
+ ALREADY_BOND_OF_WATER: "[Root.GetName] already has §HBond of Earth§!.\n"
+ ALREADY_NEPTULON_FAVOUR: "[Root.GetName] already has §HFavour of Neptulon§!.\n"
+ ALREADY_WATER_WEAPONRY: "[Root.GetName] already has §HAbyssal Weaponry§!.\n"
+ 
+ bond_of_water: "Bond of Water"
+ bond_of_water_desc: ""
+ neptulon_favour: "Favour of Neptulon"
+ neptulon_favour_desc: ""
+ water_weaponry: "Abyssal Weaponry"
+ water_weaponry_desc: ""
+
+ #------------------------------------
+ # Geomancy
+ #------------------------------------
+ AB1_TITLE_GEOMANCY: "Train Geomancers"
+ AB1_DESC_GEOMANCY: ""
+ AB2_TITLE_GEOMANCY: "Forge Bond of the Elements"
+ AB2_DESC_GEOMANCY: ""
+ AB3_TITLE_GEOMANCY: "Summon Elementals"
+ AB3_DESC_GEOMANCY: ""
+ AB4_TITLE_GEOMANCY: "Establish Primal Connection"
+ AB4_DESC_GEOMANCY: ""
+ AB5_TITLE_GEOMANCY: "Tribute to the Elements"
+ AB5_DESC_GEOMANCY: ""
+ AB6_TITLE_GEOMANCY: "Enact Elemental Fury"
+ AB6_DESC_GEOMANCY: ""
+ 
+ UNITS_ELEMENTAL_FURY: "All Field Marshals gain the §HElemental Fury§! combat bonuses for §H7§! days.\n\n"
+ ELEMENTAL_FURY: "Elemental Fury"
+ 
+ ALREADY_PRIMAL_CONNECTION: "[Root.GetName] already has §HPrimal Connection§!.\n"
+ ALREADY_BOND_OF_THE_ELEMENTS: "[Root.GetName] already has §HBond of the Elements§!.\n"
+ 
+ bond_of_the_elements: "Bond of the Elements"
+ bond_of_the_elements_desc: ""
+ primal_connection: "Primal Connection"
+ primal_connection_desc: ""
+ 
+ #------------------------------------
+ # Light of the Naaru
+ #------------------------------------
+ AB1_TITLE_LIGHT_OF_THE_NAARU: "Blessing of the Naaru"
+ AB1_DESC_LIGHT_OF_THE_NAARU: ""
+ AB2_TITLE_LIGHT_OF_THE_NAARU: "Banish the Void"
+ AB2_DESC_LIGHT_OF_THE_NAARU: ""
+ AB3_TITLE_LIGHT_OF_THE_NAARU: "Infuse with Light"
+ AB3_DESC_LIGHT_OF_THE_NAARU: ""
+ AB4_TITLE_LIGHT_OF_THE_NAARU: "Appoint Champions"
+ AB4_DESC_LIGHT_OF_THE_NAARU: ""
+ AB5_TITLE_LIGHT_OF_THE_NAARU: "Study the Naaru"
+ AB5_DESC_LIGHT_OF_THE_NAARU: ""
+ AB6_TITLE_LIGHT_OF_THE_NAARU: "Secure the Light's Dominion"
+ AB6_DESC_LIGHT_OF_THE_NAARU: ""
+ 
+ UNITS_UNWAVERING_FAITH: "All Field Marshals gain the §HUnwavering Faith§! combat bonuses for §H7§! days.\n\n"
+ UNWAVERING_FAITH: "Unwavering Faith"
+ 
+ ALREADY_BLESSING_OF_THE_NAARU: "[Root.GetName] already has §HBlessing of the Naaru§!.\n"
+ ALREADY_WISDOM_OF_THE_NAARU: "[Root.GetName] already has §HWisdom of the Naaru§!.\n"
+ 
+ blessing_of_the_naaru: "Blessing of the Naaru"
+ blessing_of_the_naaru_desc: ""
+ wisdom_of_the_naaru: "Wisdom of the Naaru"
+ wisdom_of_the_naaru_desc: ""
+
+ #------------------------------------
+ # Dragon Aspects
+ #------------------------------------
+ AB1_TITLE_DRAGON_ASPECTS: "Tribute to [Root.GetDragonAspect]"
+ AB1_DESC_DRAGON_ASPECTS: ""
+ AB2_TITLE_DRAGON_ASPECTS: "Nurture [Root.GetDragonAspectColor] Whelplings"
+ AB2_DESC_DRAGON_ASPECTS: ""
+ AB3_TITLE_DRAGON_ASPECTS: "Beg [Root.GetDragonAspect]'s Powers"
+ AB3_DESC_DRAGON_ASPECTS: ""
+ AB4_TITLE_DRAGON_ASPECTS: "Draconic Empowerment"
+ AB4_DESC_DRAGON_ASPECTS: ""
+ AB5_TITLE_DRAGON_ASPECTS: "Champions of the Aspect"
+ AB5_DESC_DRAGON_ASPECTS: ""
+ AB6_TITLE_DRAGON_ASPECTS: "Protect Azeroth"
+ AB6_DESC_DRAGON_ASPECTS: ""
+
+ ALREADY_BLESSING_OF_DRAGON_X: "[Root.GetName] already has §HBlessing of [Root.GetDragonAspect]§!.\n"
+ ALREADY_POWER_OF_DRAGON_X: "[Root.GetName] already has §HPower of [Root.GetDragonAspect]§!.\n"
+ 
+ UNITS_DRACONIC_EMPOWERMENT: "All Field Marshals gain the §HDraconic Empowerment§! combat bonuses for §H7§! days.\n\n"
+ DRACONIC_EMPOWERMENT: "Draconic Empowerment"
+ 
+ blessing_of_alexstrasza: "Blessing of Alexstrasza"
+ blessing_of_alexstrasza_desc: ""
+ blessing_of_ysera: "Blessing of Ysera"
+ blessing_of_ysera_desc: ""
+ blessing_of_neltharion: "Blessing of Neltharion"
+ blessing_of_neltharion_desc: ""
+ blessing_of_malygos: "Blessing of Malygos"
+ blessing_of_malygos_desc: ""
+ 
+ power_of_alexstrasza: "Power of Alexstrasza"
+ power_of_alexstrasza_desc: ""
+ power_of_ysera: "Power of Ysera"
+ power_of_ysera_desc: ""
+ power_of_neltharion: "Power of Neltharion"
+ power_of_neltharion_desc: ""
+ power_of_malygos: "Power of Malygos"
+ power_of_malygos_desc: ""
+ 
+ ALEXSTRASZA: "Alexstrasza"
+ MALYGOS: "Malygos"
+ YSERA: "Ysera"
+ NELTHARION: "Neltharion"
+ 
+ COLOR_RED: "Red"
+ COLOR_BLUE: "Blue"
+ COLOR_GREEN: "Green"
+ COLOR_BLACK: "Black"
+ 
+ #------------------------------------
+ # Technomancy
+ #------------------------------------
+ AB1_TITLE_TECHNOMANCY: "Encourage Innovation"
+ AB1_DESC_TECHNOMANCY: ""
+ AB2_TITLE_TECHNOMANCY: "Incite the Inventor's Spark"
+ AB2_DESC_TECHNOMANCY: ""
+ AB3_TITLE_TECHNOMANCY: "Train Techno-magi"
+ AB3_DESC_TECHNOMANCY: ""
+ AB4_TITLE_TECHNOMANCY: "Seek Engineer Insights"
+ AB4_DESC_TECHNOMANCY: ""
+ AB5_TITLE_TECHNOMANCY: "Manufacture Mechanical Constructs"
+ AB5_DESC_TECHNOMANCY: ""
+ AB6_TITLE_TECHNOMANCY: "Delve into Technomancy"
+ AB6_DESC_TECHNOMANCY: ""
+ 
+ innovation_wave: "Innovation Wave"
+ innovation_wave_desc: ""
+ engineer_insights: "Engineer Insights"
+ engineer_insights_desc: ""
+ 
+ ALREADY_INNOVATION_WAVE: "[Root.GetName] already has §HInnovation Wave§!.\n"
+ ALREADY_ENGINEER_INSIGHTS: "[Root.GetName] already has §HEngineer Insights§!.\n"
+ 
+ #------------------------------------
+ # Capitalism
+ #------------------------------------
+ AB1_TITLE_CAPITALISM: "The Power of Money"
+ AB1_DESC_CAPITALISM: ""
+ AB2_TITLE_CAPITALISM: "Invest in Mercenaries"
+ AB2_DESC_CAPITALISM: ""
+ AB3_TITLE_CAPITALISM: "Expedite Training"
+ AB3_DESC_CAPITALISM: ""
+ AB4_TITLE_CAPITALISM: "Spread Propaganda"
+ AB4_DESC_CAPITALISM: ""
+ AB5_TITLE_CAPITALISM: "Bribe Commanders"
+ AB5_DESC_CAPITALISM: ""
+ AB6_TITLE_CAPITALISM: "Seek Keen Financiers"
+ AB6_DESC_CAPITALISM: ""
+ 
+ power_of_money: "Power of Money"
+ power_of_money_desc: ""
+ keen_financiers: "Keen Financiers"
+ keen_financiers_desc: ""
+ 
+ ALREADY_POWER_OF_MONEY: "[Root.GetName] already has §HPower of Money§!.\n"
+ ALREADY_KEEN_FINANCIERS: "[Root.GetName] already has §HKeen Financiers§!.\n"
+ 
+ UNITS_BAGS_OF_GOLD: "All Field Marshals gain the §HBags of Gold§! combat bonuses for §H14§! days.\n\n"
+ BAGS_OF_GOLD: "Bags of Gold"
+ 
+ #------------------------------------
+ # Soul
+ #------------------------------------
+ AB1_TITLE_SOUL: "Enslave Enemies"
+ AB1_DESC_SOUL: ""
+ AB2_TITLE_SOUL: "Dominate Spirits"
+ AB2_DESC_SOUL: ""
+ AB3_TITLE_SOUL: "Perform Flesh-shaping"
+ AB3_DESC_SOUL: ""
+ AB4_TITLE_SOUL: "Utilise Soul Amulets"
+ AB4_DESC_SOUL: ""
+ AB5_TITLE_SOUL: "Trials by Combat"
+ AB5_DESC_SOUL: ""
+ AB6_TITLE_SOUL: "Subjugate the Weak"
+ AB6_DESC_SOUL: ""
+ 
+ UNITS_SOUL_AMULETS: "All Field Marshals gain the §HSoul Amulets§! combat bonuses for §H7§! days.\n\n"
+ SOUL_AMULETS: "Soul Amulets"
+ 
+ SPAWN_FLESHSHAPED_CREATURE: "Spawn a §HFleshshaped Creature Division§! in your capital."
+ 
+ RANDOM_LEADER_ATTRIBUTE: "Will gain one of the following: \n§H1§! Attack\n§H1§! Defense\n§H1§! Planning\n§H1§! Logistics."
+ 
+ #------------------------------------
+ # Runic
+ #------------------------------------
+ AB1_TITLE_RUNIC: "Bestow Ceremonial Horn"
+ AB1_DESC_RUNIC: ""
+ AB2_TITLE_RUNIC: "Visit Runic Shrines"
+ AB2_DESC_RUNIC: ""
+ AB3_TITLE_RUNIC: "Perform Runic Empowerment"
+ AB3_DESC_RUNIC: ""
+ AB4_TITLE_RUNIC: "Raise Fallen Vrykul"
+ AB4_DESC_RUNIC: ""
+ AB5_TITLE_RUNIC: "Tame Proto-dragons"
+ AB5_DESC_RUNIC: ""
+ AB6_TITLE_RUNIC: "Secure Northrend"
+ AB6_DESC_RUNIC: ""
+ 
+ ceremonial_horn: "Ceremonial Horn"
+ ceremonial_horn_desc: ""
+ 
+ ALREADY_CEREMONIAL_HORN: "[Root.GetName] already has §HCeremonial Horn§!.\n"
+ 
+ UNIT_RUNIC_EMPOWERMENT: "All Field Marshals gain the §HRunic Empowerment§! combat bonuses for §H14§! days.\n\n"
+ RUNIC_EMPOWERMENT: "Runic Empowerment"
+ 

@@ -1,0 +1,75 @@
+state = {
+	id = 16
+	name = "RAVEN_HILL"
+	manpower = 5961
+	state_category = town
+
+	resources = {
+		ground_beast = 8
+		flying_beast = 2
+		wood = 1
+		steel = 6
+		food = 28
+	}
+
+	history = {
+        victory_points = {
+            3023 10
+        }
+        
+		owner = DAR
+        add_core_of = DAR
+
+        # The Second War
+        597.1.1 = {
+            owner = TTH
+            add_core_of = TTH
+        }
+        # The Third War
+        612.1.1 = {
+            owner = DAR
+            add_core_of = DAR
+        }
+        
+		buildings = {
+			infrastructure = 6
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 8
+			industrial_complex = 4
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			2377 = {
+				bunker = 2
+			}
+			2393 = {
+				bunker = 2
+			}
+			2942 = {
+				bunker = 8
+			}
+			2969 = {
+				bunker = 4
+			}
+			2996 = {
+				bunker = 7
+			}
+			3023 = {
+				bunker = 5
+			}
+		}
+	}
+
+	provinces = {
+        2377 2393 2942 2969 2996 3023 
+    }
+}

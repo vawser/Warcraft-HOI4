@@ -1,0 +1,72 @@
+state = {
+	id = 620
+	name = "RUINS_OF_NIJEL"
+	manpower = 2816
+	state_category = village
+
+	resources = {
+		oil = 1
+		ground_beast = 2
+		flying_beast = 8
+		steel = 4
+		food = 12
+	}
+
+	history = {
+		owner = WRF
+		add_core_of = WRF
+
+		buildings = {
+			infrastructure = 3
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 2
+			industrial_complex = 2
+			dockyard = 2
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			5241 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 1
+			}
+			5253 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 1
+			}
+			5262 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 1
+			}
+			5265 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 5
+			}
+			6142 = {
+				bunker = 0
+			}
+			6161 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        5241 5253 5262 5265 6142 6161 
+    }
+}

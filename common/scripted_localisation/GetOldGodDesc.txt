@@ -1,0 +1,32 @@
+defined_text = { 
+	name = GetOldGodDesc
+    
+    text = {
+		trigger = {
+			has_cthun = yes
+		}
+		localization_key = CTHUN_DESC
+	}
+    text = {
+		trigger = {
+			has_yshaarj = yes
+		}
+		localization_key = YSHAARJ_DESC
+	}
+    text = {
+		trigger = {
+			has_yogg_saron = yes
+		}
+		localization_key = YOGG_SARON_DESC
+	}
+    text = {
+		trigger = {
+			has_nzoth = yes
+		}
+		localization_key = NZOTH_DESC
+	}
+    
+    text = {
+		localization_key = OLD_GOD_DESC
+	}
+}

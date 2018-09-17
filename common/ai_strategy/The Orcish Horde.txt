@@ -1,0 +1,286 @@
+TTH_strategy_default = {
+    enable = {
+        original_tag = TTH
+    }
+
+    # Stormwind
+    ai_strategy = {
+		type = contain
+		id = "SRW"
+        value = 250
+	}
+    ai_strategy = {
+		type = conquer
+		id = "SRW"
+        value = 250
+	}
+    ai_strategy = {
+		type = antagonize
+		id = "SRW"
+        value = 250
+	}
+    # Darkshire
+    ai_strategy = {
+		type = contain
+		id = "DAR"
+        value = 250
+	}
+    ai_strategy = {
+		type = conquer
+		id = "DAR"
+        value = 250
+	}
+    ai_strategy = {
+		type = antagonize
+		id = "DAR"
+        value = 250
+	}
+    # Redridge
+    ai_strategy = {
+		type = contain
+		id = "RED"
+        value = 250
+	}
+    ai_strategy = {
+		type = conquer
+		id = "RED"
+        value = 250
+	}
+    ai_strategy = {
+		type = antagonize
+		id = "RED"
+        value = 250
+	}
+    # Westfall
+    ai_strategy = {
+		type = contain
+		id = "WES"
+        value = 250
+	}
+    ai_strategy = {
+		type = conquer
+		id = "WES"
+        value = 250
+	}
+    ai_strategy = {
+		type = antagonize
+		id = "WES"
+        value = 250
+	}
+}
+
+TTH_strategy_stormwind_gained = {
+    enable = {
+        original_tag = TTH
+        controls_state = 47
+        controls_state = 48
+        controls_state = 49
+    }
+    abort = {
+        OR = {
+            NOT = { controls_state = 47 }
+            NOT = { controls_state = 48 }
+            NOT = { controls_state = 49 }
+        }
+    }
+    
+    # Dark Iron
+    ai_strategy = {
+		type = contain
+		id = "DKI"
+        value = 250
+	}
+    ai_strategy = {
+		type = conquer
+		id = "DKI"
+        value = 250
+	}
+    ai_strategy = {
+		type = antagonize
+		id = "DKI"
+        value = 250
+	}
+}
+
+TTH_strategy_blackrock_gained = {
+    enable = {
+        original_tag = TTH
+        controls_state = 66
+    }
+    abort = {
+        NOT = { controls_state = 66 }
+    }
+    
+    # Khaz Modan
+    ai_strategy = {
+		type = contain
+		id = "IRO"
+        value = 250
+	}
+    ai_strategy = {
+		type = conquer
+		id = "IRO"
+        value = 250
+	}
+    ai_strategy = {
+		type = antagonize
+		id = "IRO"
+        value = 250
+	}
+    # Stromgarde
+    ai_strategy = {
+		type = contain
+		id = "SMG"
+        value = 250
+	}
+    ai_strategy = {
+		type = conquer
+		id = "SMG"
+        value = 250
+	}
+    ai_strategy = {
+		type = antagonize
+		id = "SMG"
+        value = 250
+	}
+    ai_strategy = {
+		type = invade
+		id = "SMG"
+        value = 1000
+	}
+    # Gilneas
+    ai_strategy = {
+		type = contain
+		id = "GIL"
+        value = 250
+	}
+    ai_strategy = {
+		type = conquer
+		id = "GIL"
+        value = 250
+	}
+    ai_strategy = {
+		type = antagonize
+		id = "GIL"
+        value = 250
+	}
+    # Southshore
+    ai_strategy = {
+		type = contain
+		id = "SOU"
+        value = 250
+	}
+    ai_strategy = {
+		type = conquer
+		id = "SOU"
+        value = 250
+	}
+    ai_strategy = {
+		type = antagonize
+		id = "SOU"
+        value = 250
+	}
+    ai_strategy = {
+		type = invade
+		id = "SOU"
+        value = 1000
+	}
+    # Bluegill
+    ai_strategy = {
+		type = contain
+		id = "BLU"
+        value = 250
+	}
+    ai_strategy = {
+		type = conquer
+		id = "BLU"
+        value = 250
+	}
+    ai_strategy = {
+		type = antagonize
+		id = "BLU"
+        value = 250
+	}
+}
+
+TTH_strategy_southshore_gained = {
+    enable = {
+        original_tag = TTH
+        OR = {
+            controls_state = 145
+            controls_state = 170
+        }
+    }
+    abort = {
+        OR = {
+            NOT = { controls_state = 145 }
+            NOT = {  controls_state = 170 }
+        }
+    }
+    
+    # Dalaran
+    ai_strategy = {
+		type = contain
+		id = "DAL"
+        value = 250
+	}
+    ai_strategy = {
+		type = conquer
+		id = "DAL"
+        value = 250
+	}
+    ai_strategy = {
+		type = antagonize
+		id = "DAL"
+        value = 250
+	}
+    # Alterac
+    ai_strategy = {
+		type = contain
+		id = "ALT"
+        value = 250
+	}
+    ai_strategy = {
+		type = conquer
+		id = "ALT"
+        value = 250
+	}
+    ai_strategy = {
+		type = antagonize
+		id = "ALT"
+        value = 250
+	}
+    # Andorhal
+    ai_strategy = {
+		type = contain
+		id = "ANO"
+        value = 250
+	}
+    ai_strategy = {
+		type = conquer
+		id = "ANO"
+        value = 250
+	}
+    ai_strategy = {
+		type = antagonize
+		id = "ANO"
+        value = 250
+	}
+    # Lordaeron
+    ai_strategy = {
+		type = contain
+		id = "LOR"
+        value = 250
+	}
+    ai_strategy = {
+		type = conquer
+		id = "LOR"
+        value = 250
+	}
+    ai_strategy = {
+		type = antagonize
+		id = "LOR"
+        value = 250
+	}
+    
+}

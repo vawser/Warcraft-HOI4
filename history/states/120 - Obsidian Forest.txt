@@ -1,0 +1,70 @@
+state = {
+	id = 120
+	name = "OBSIDIAN_FOREST"
+	manpower = 928
+	state_category = rural
+
+	resources = {
+		oil = 3
+		ground_beast = 9
+		wood = 3
+		steel = 6
+		food = 24
+	}
+
+	history = {
+		owner = JEL
+        add_core_of = JEL
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 2
+			industrial_complex = 2
+			dockyard = 0
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			1938 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 5
+			}
+			1941 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 8
+			}
+			1947 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 7
+			}
+			2339 = {
+				bunker = 0
+			}
+			2354 = {
+				bunker = 0
+			}
+			2909 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        1938 1941 1947 2339 2354 2909 
+    }
+}

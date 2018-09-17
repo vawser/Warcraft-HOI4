@@ -1,0 +1,1313 @@
+#-------------------------------------------------------------------------------
+# Religion
+#-------------------------------------------------------------------------------
+# These are triggers used in relation to the religion system.
+
+has_any_religion = {
+    custom_trigger_tooltip = {
+        tooltip = HAS_RELIGION_ANY
+        check_variable = { country_religion > 0.0 }
+    }
+}
+
+has_no_religion = {
+    custom_trigger_tooltip = {
+        tooltip = HAS_RELIGION_NONE
+        check_variable = { country_religion = 0 }
+    }
+}
+has_holy_light = {
+    custom_trigger_tooltip = {
+        tooltip = HAS_RELIGION_HOLY_LIGHT
+        check_variable = { country_religion = 1 }
+    }
+}
+has_elune = {
+    custom_trigger_tooltip = {
+        tooltip = HAS_RELIGION_ELUNE
+        check_variable = { country_religion = 2 }
+    }
+}
+has_hakkar = {
+    custom_trigger_tooltip = {
+        tooltip = HAS_RELIGION_HAKKAR
+        check_variable = { country_religion = 3 }
+    }
+}
+has_voodoo = {
+    custom_trigger_tooltip = {
+        tooltip = HAS_RELIGION_VOODOO
+        check_variable = { country_religion = 4 }
+    }
+}
+has_shadow = {
+    custom_trigger_tooltip = {
+        tooltip = HAS_RELIGION_SHADOW
+        check_variable = { country_religion = 5 }
+    }
+}
+has_nature = {
+    custom_trigger_tooltip = {
+        tooltip = HAS_RELIGION_NATURE
+        check_variable = { country_religion = 6 }
+    }
+}
+has_deep_mother = {
+    custom_trigger_tooltip = {
+        tooltip = HAS_RELIGION_DEEP_MOTHER
+        check_variable = { country_religion = 7 }
+    }
+}
+has_arcane = {
+    custom_trigger_tooltip = {
+        tooltip = HAS_RELIGION_ARCANE
+        check_variable = { country_religion = 8 }
+    }
+}
+has_druidism = {
+    custom_trigger_tooltip = {
+        tooltip = HAS_RELIGION_DRUIDISM
+        check_variable = { country_religion = 9 }
+    }
+}
+has_old_gods = {
+    custom_trigger_tooltip = {
+        tooltip = HAS_RELIGION_OLD_GODS
+        check_variable = { country_religion = 10 }
+    }
+}
+has_old_gods_following_cthun = {
+    custom_trigger_tooltip = {
+        tooltip = HAS_RELIGION_OLD_GODS_CTHUN
+        check_variable = { country_religion = 10 }
+        has_cthun = yes
+    }
+}
+has_old_gods_following_yshaarj = {
+    custom_trigger_tooltip = {
+        tooltip = HAS_RELIGION_OLD_GODS_YSHAARJ
+        check_variable = { country_religion = 10 }
+        has_yshaarj = yes
+    }
+}
+has_old_gods_following_yogg_saron = {
+    custom_trigger_tooltip = {
+        tooltip = HAS_RELIGION_OLD_GODS_YOGG_SARON
+        check_variable = { country_religion = 10 }
+        has_yogg_saron = yes
+    }
+}
+has_old_gods_following_nzoth = {
+    custom_trigger_tooltip = {
+        tooltip = HAS_RELIGION_OLD_GODS_NZOTH
+        check_variable = { country_religion = 10 }
+        has_nzoth = yes
+    }
+}
+has_fel = {
+    custom_trigger_tooltip = {
+        tooltip = HAS_RELIGION_FEL
+        check_variable = { country_religion = 11 }
+    }
+}
+has_necromancy = {
+    custom_trigger_tooltip = {
+        tooltip = HAS_RELIGION_NECROMANCY
+        check_variable = { country_religion = 12 }
+    }
+}
+has_shamanism = {
+    custom_trigger_tooltip = {
+        tooltip = HAS_RELIGION_SHAMANISM
+        check_variable = { country_religion = 13 }
+    }
+}
+has_celestials = {
+    custom_trigger_tooltip = {
+        tooltip = HAS_RELIGION_CELESTIALS
+        check_variable = { country_religion = 14 }
+    }
+}
+has_celestials_following_yulon = {
+    custom_trigger_tooltip = {
+        tooltip = HAS_RELIGION_CELESTIALS_YULON
+        check_variable = { country_religion = 14 }
+        has_yulon = yes
+    }
+}
+has_celestials_following_niuzao = {
+    custom_trigger_tooltip = {
+        tooltip = HAS_RELIGION_CELESTIALS_NIUZAO
+        check_variable = { country_religion = 14 }
+        has_niuzao = yes
+    }
+}
+has_celestials_following_chiji = {  
+    custom_trigger_tooltip = {
+        tooltip = HAS_RELIGION_CELESTIALS_CHIJI
+        check_variable = { country_religion = 14 }
+        has_chiji = yes
+    }
+}
+has_celestials_following_xuen = {
+    custom_trigger_tooltip = {
+        tooltip = HAS_RELIGION_CELESTIALS_XUEN
+        check_variable = { country_religion = 14 }
+        has_xuen = yes
+    }
+}
+has_titan = {
+    custom_trigger_tooltip = {
+        tooltip = HAS_RELIGION_TITAN
+        check_variable = { country_religion = 15 }
+    }
+}
+has_fire = {
+    custom_trigger_tooltip = {
+        tooltip = HAS_RELIGION_FIRE
+        check_variable = { country_religion = 16 }
+    }
+}
+has_earth = {
+    custom_trigger_tooltip = {
+        tooltip = HAS_RELIGION_EARTH
+        check_variable = { country_religion = 17 }
+    }
+}
+has_wind = {
+    custom_trigger_tooltip = {
+        tooltip = HAS_RELIGION_AIR
+        check_variable = { country_religion = 18 }
+    }
+}
+has_water = {
+    custom_trigger_tooltip = {
+        tooltip = HAS_RELIGION_WATER
+        check_variable = { country_religion = 19 }
+    }
+}
+has_geomancy = {
+    custom_trigger_tooltip = {
+        tooltip = HAS_RELIGION_GEOMANCY
+        check_variable = { country_religion = 20 }
+    }
+}
+has_light_of_the_naaru = {
+    custom_trigger_tooltip = {
+        tooltip = HAS_RELIGION_LIGHT_OF_THE_NAARU
+        check_variable = { country_religion = 21 }
+    }
+}
+has_dragon_aspects = {
+    custom_trigger_tooltip = {  
+        tooltip = HAS_RELIGION_DRAGON_ASPECTS
+        check_variable = { country_religion = 22 }
+    }
+}
+has_dragon_aspects_following_red = {
+    custom_trigger_tooltip = {
+        tooltip = HAS_RELIGION_DRAGON_ASPECTS_RED
+        check_variable = { country_religion = 22 }
+        has_red_dragonflight = yes
+    }
+}
+has_dragon_aspects_following_green = {
+    custom_trigger_tooltip = {
+        tooltip = HAS_RELIGION_DRAGON_ASPECTS_GREEN
+        check_variable = { country_religion = 22 }
+        has_green_dragonflight = yes
+    }
+}
+has_dragon_aspects_following_blue = {
+    custom_trigger_tooltip = {
+        tooltip = HAS_RELIGION_DRAGON_ASPECTS_BLUE
+        check_variable = { country_religion = 22 }
+        has_blue_dragonflight = yes
+    }
+}
+has_dragon_aspects_following_black = {
+    custom_trigger_tooltip = {
+        tooltip = HAS_RELIGION_DRAGON_ASPECTS_BLACK
+        check_variable = { country_religion = 22 }
+        has_black_dragonflight = yes
+    }
+}
+has_technomancy = {
+    custom_trigger_tooltip = {
+        tooltip = HAS_RELIGION_TECHNOMANCY
+        check_variable = { country_religion = 23 }
+    }
+}
+has_capitalism = {
+    custom_trigger_tooltip = {
+        tooltip = HAS_RELIGION_CAPITALISM
+        check_variable = { country_religion = 24 }
+    }
+}
+has_soul = {
+    custom_trigger_tooltip = {
+        tooltip = HAS_RELIGION_SOUL
+        check_variable = { country_religion = 25 }
+    }
+}
+has_runic = {
+    custom_trigger_tooltip = {
+        tooltip = HAS_RELIGION_RUNIC
+        check_variable = { country_religion = 26 }
+    }
+}
+
+#-------------------------------------------------------------
+# Sub-religion Checks
+#-------------------------------------------------------------
+has_cthun = {
+    OR = {
+        original_tag = AQJ
+        check_variable = { old_god = 1 }
+    }
+}
+
+has_yshaarj = {
+    OR = {
+        original_tag = MAN
+        check_variable = { old_god = 2 }
+    }
+}
+
+has_yogg_saron = {
+    OR = {
+        original_tag = ULD
+        check_variable = { old_god = 3 }
+    }
+}
+
+has_nzoth = {
+    OR = {
+        is_naga = yes
+        check_variable = { old_god = 4 }
+    }
+}
+
+has_yulon = {
+    OR = {
+        original_tag = JAS
+        check_variable = { celestial = 1 }
+    }
+}
+
+has_niuzao = {
+    OR = {
+        original_tag = BOX
+        check_variable = { celestial = 2 }
+    }
+}
+
+has_chiji = {
+    OR = {
+        original_tag = RCR
+        check_variable = { celestial = 3 }
+    }
+}
+
+has_xuen = {
+    OR = {
+        original_tag = TIG
+        check_variable = { celestial = 4 }
+    }
+}
+
+has_red_dragonflight = {
+    OR = {
+        original_tag = WYT
+        original_tag = GMB
+        check_variable = { dragonflight = 1 }
+    }
+}
+
+has_green_dragonflight = {
+    OR = {
+        original_tag = TWG
+        original_tag = SER
+        original_tag = EDS
+        original_tag = DRB
+        check_variable = { dragonflight = 2 }
+    }
+}
+
+has_black_dragonflight = {
+    OR = {
+        original_tag = WYB
+        original_tag = ODS
+        check_variable = { dragonflight = 3 }
+    }
+}
+
+has_blue_dragonflight = {
+    OR = {
+        original_tag = NEX
+        original_tag = ADS
+        original_tag = AZW
+        check_variable = { dragonflight = 4 }
+    }
+}
+
+#-------------------------------------------------------------
+# Scripted GUI
+#-------------------------------------------------------------
+can_afford_faith_action_1 = {
+    OR = {
+        AND = {
+            check_variable = { global.debug_religion = 0 }
+            OR = {
+                check_variable = { faith_power > faith_action_1_cost }
+                check_variable = { faith_power = faith_action_1_cost }
+            }
+        }
+        AND = {
+            check_variable = { global.debug_religion = 1 }
+        }
+    }
+}
+
+can_afford_faith_action_2 = {
+    OR = {
+        AND = {
+            check_variable = { global.debug_religion = 0 }
+            OR = {
+                check_variable = { faith_power > faith_action_2_cost }
+                check_variable = { faith_power = faith_action_2_cost }
+            }
+        }
+        AND = {
+            check_variable = { global.debug_religion = 1 }
+        }
+    }
+}
+
+can_afford_faith_action_3 = {
+    OR = {
+        AND = {
+            check_variable = { global.debug_religion = 0 }
+            OR = {
+                check_variable = { faith_power > faith_action_3_cost }
+                check_variable = { faith_power = faith_action_3_cost }
+            }
+        }
+        AND = {
+            check_variable = { global.debug_religion = 1 }
+        }
+    }
+}
+
+can_afford_faith_action_4 = {
+    OR = {
+        AND = {
+            check_variable = { global.debug_religion = 0 }
+            OR = {
+                check_variable = { faith_power > faith_action_4_cost }
+                check_variable = { faith_power = faith_action_4_cost }
+            }
+        }
+        AND = {
+            check_variable = { global.debug_religion = 1 }
+        }
+    }
+}
+
+can_afford_faith_action_5 = {
+    OR = {
+        AND = {
+            check_variable = { global.debug_religion = 0 }
+            OR = {
+                check_variable = { faith_power > faith_action_5_cost }
+                check_variable = { faith_power = faith_action_5_cost }
+            }
+        }
+        AND = {
+            check_variable = { global.debug_religion = 1 }
+        }
+    }
+}
+
+can_afford_faith_action_6 = {
+    OR = {
+        AND = {
+            check_variable = { global.debug_religion = 0 }
+            OR = {
+                check_variable = { faith_power > faith_action_6_cost }
+                check_variable = { faith_power = faith_action_6_cost }
+            }
+        }
+        AND = {
+            check_variable = { global.debug_religion = 1 }
+        }
+    }
+}
+
+#------------------------------------
+# Arcane
+#------------------------------------
+arcanum_action_trigger_1 = {
+    NOT = { has_idea = arcane_surge }
+}
+
+arcanum_action_trigger_2 = {
+    order > 0.0
+}
+
+arcanum_action_trigger_3 = {
+    has_template_containing_unit = spellcaster
+}
+
+arcanum_action_trigger_4 = {
+    NOT = { has_idea = arcane_empowerment }
+}
+
+arcanum_action_trigger_5 = {
+    
+}
+
+arcanum_action_trigger_6 = {
+    amount_research_slots < 20
+}
+
+#------------------------------------
+# Celestials
+#------------------------------------
+celestials_action_trigger_1 = {
+    OR = {
+        AND = {
+            has_yulon = yes
+            NOT = { has_idea = gift_of_yulon }
+        }
+        AND = {
+            has_niuzao = yes
+            NOT = { has_idea = gift_of_niuzao }
+        }
+        AND = {
+            has_chiji = yes
+            NOT = { has_idea = gift_of_chiji }
+        }
+        AND = {
+            has_xuen = yes
+            NOT = { has_idea = gift_of_xuen }
+        }
+    }
+}
+
+celestials_action_trigger_2 = {
+    OR = {
+        AND = {
+            has_yulon = yes
+            NOT = { has_idea = wisdom_of_yulon }
+        }
+        AND = {
+            has_niuzao = yes
+            NOT = { has_idea = wisdom_of_niuzao }
+        }
+        AND = {
+            has_chiji = yes
+            NOT = { has_idea = wisdom_of_chiji }
+        }
+        AND = {
+            has_xuen = yes
+            NOT = { has_idea = wisdom_of_xuen }
+        }
+    }
+}
+
+celestials_action_trigger_3 = {
+    life < 1.0
+}
+
+celestials_action_trigger_4 = {
+    has_stability < 1.0
+}
+
+celestials_action_trigger_5 = {
+    life > 0.0
+}
+
+celestials_action_trigger_6 = {
+    OR = {
+        AND = {
+            has_yulon = yes
+            NOT = { has_idea = fury_of_yulon }
+        }
+        AND = {
+            has_niuzao = yes
+            NOT = { has_idea = fury_of_niuzao }
+        }
+        AND = {
+            has_chiji = yes
+            NOT = { has_idea = fury_of_chiji }
+        }
+        AND = {
+            has_xuen = yes
+            NOT = { has_idea = fury_of_xuen }
+        }
+    }
+}
+
+#------------------------------------
+# Deep Mother
+#------------------------------------
+deep_mother_action_trigger_1 = {
+    has_template_containing_unit = grunt
+}
+
+deep_mother_action_trigger_2 = {
+    
+}
+
+deep_mother_action_trigger_3 = {
+    NOT = { has_idea = murloc_warcry }
+}
+
+deep_mother_action_trigger_4 = {
+    can_add_wargoal_on_neighbor = yes
+}
+
+deep_mother_action_trigger_5 = {
+    any_owned_state = {
+        state_population < 1000000
+    }
+}
+
+deep_mother_action_trigger_6 = {
+    NOT = { has_idea = murloc_invasion }
+}
+
+#------------------------------------
+# Dragon Aspects
+#------------------------------------
+dragon_aspects_action_trigger_1 = {
+    OR = {
+        AND = {
+            has_red_dragonflight = yes
+            NOT = { has_idea = blessing_of_alexstrasza }
+        }
+        AND = {
+            has_green_dragonflight = yes
+            NOT = { has_idea = blessing_of_ysera }
+        }
+        AND = {
+            has_black_dragonflight = yes
+            NOT = { has_idea = blessing_of_neltharion }
+        }
+        AND = {
+            has_blue_dragonflight = yes
+            NOT = { has_idea = blessing_of_malygos }
+        }
+    }
+}
+
+dragon_aspects_action_trigger_2 = {
+    num_divisions > 0
+}
+
+dragon_aspects_action_trigger_3 = {
+    OR = {
+        AND = {
+            has_red_dragonflight = yes
+            NOT = { has_idea = power_of_alexstrasza }
+        }
+        AND = {
+            has_green_dragonflight = yes
+            NOT = { has_idea = power_of_ysera }
+        }
+        AND = {
+            has_black_dragonflight = yes
+            NOT = { has_idea = power_of_neltharion }
+        }
+        AND = {
+            has_blue_dragonflight = yes
+            NOT = { has_idea = power_of_malygos }
+        }
+    }
+}
+
+dragon_aspects_action_trigger_4 = {
+    any_unit_leader = {
+        is_field_marshal = yes
+    }
+}
+
+dragon_aspects_action_trigger_5 = {
+    has_template_containing_unit = champion
+}
+
+dragon_aspects_action_trigger_6 = {
+    can_add_wargoal_on_neighbor = yes
+}
+
+#------------------------------------
+# Druidism
+#------------------------------------
+druidism_action_trigger_1 = {
+     has_stability < 1.0   
+}
+
+druidism_action_trigger_2 = {
+    has_template_containing_unit = champion
+}
+
+druidism_action_trigger_3 = {
+    NOT = { has_idea = wrath_of_nature }
+}
+
+druidism_action_trigger_4 = {
+    NOT = { has_idea = druid_moon_blessing }
+}
+
+druidism_action_trigger_5 = {
+    any_unit_leader = {
+        is_field_marshal = yes
+    }
+}
+
+druidism_action_trigger_6 = {
+    life < 1.0
+}
+#------------------------------------
+# Earth
+#------------------------------------
+earth_action_trigger_1 = {
+        
+}
+
+earth_action_trigger_2 = {
+    NOT = { has_idea = bond_of_earth }
+}
+
+earth_action_trigger_3 = {
+    NOT = { has_idea = therazane_favour }
+}
+
+earth_action_trigger_4 = {
+    NOT = { has_idea = rock_weaponry }
+}
+
+earth_action_trigger_5 = {
+    has_template_containing_unit = champion
+}
+
+earth_action_trigger_6 = {
+    can_add_wargoal_on_neighbor = yes
+}
+
+#------------------------------------
+# Elune
+#------------------------------------
+elune_action_trigger_1 = {
+    has_stability < 1.0
+}
+
+elune_action_trigger_2 = {
+    has_template_containing_unit = champion
+}
+
+elune_action_trigger_3 = {
+    has_template_containing_unit = archer
+}
+
+elune_action_trigger_4 = {
+    NOT = { has_idea = soothe_the_people }
+}
+
+elune_action_trigger_5 = {
+    num_divisions > 0
+}
+
+elune_action_trigger_6 = {
+    NOT = { has_idea = moon_blessings }
+}
+
+#------------------------------------
+# Fel
+#------------------------------------
+fel_action_trigger_1 = {
+    disorder < 1.0
+}
+
+fel_action_trigger_2 = {
+    NOT = { has_idea = fel_conduits }
+}
+
+fel_action_trigger_3 = {
+
+}
+
+fel_action_trigger_4 = {
+    num_divisions > 0
+}
+
+fel_action_trigger_5 = {
+    any_unit_leader = {
+        is_field_marshal = yes
+    }
+}
+
+fel_action_trigger_6 = {
+    can_add_wargoal_on_neighbor = yes
+}
+
+#------------------------------------
+# Fire
+#------------------------------------
+fire_action_trigger_1 = {
+        
+}
+
+fire_action_trigger_2 = {
+    NOT = { has_idea = bond_of_fire }
+}
+
+fire_action_trigger_3 = {
+    NOT = { has_idea = ragnaros_favour }
+}
+
+fire_action_trigger_4 = {
+    NOT = { has_idea = flame_weaponry }
+}
+
+fire_action_trigger_5 = {
+    has_template_containing_unit = champion
+}
+
+fire_action_trigger_6 = {
+    can_add_wargoal_on_neighbor = yes
+}
+
+#------------------------------------
+# Nature
+#------------------------------------
+nature_action_trigger_1 = {
+    order > 0.0
+}
+
+nature_action_trigger_2 = {
+    
+}
+
+nature_action_trigger_3 = {
+    life < 1.0
+}
+
+nature_action_trigger_4 = {
+    has_stability < 1.0
+}
+
+nature_action_trigger_5 = {
+    
+}
+
+nature_action_trigger_6 = {
+    any_unit_leader = {
+        is_field_marshal = yes
+    }
+}
+
+#------------------------------------
+# Geomancy
+#------------------------------------
+geomancy_action_trigger_1 = {
+    has_template_containing_unit = spellcaster
+}
+
+geomancy_action_trigger_2 = {
+    NOT = { has_idea = bond_of_the_elements }
+}
+
+geomancy_action_trigger_3 = {
+
+}
+
+geomancy_action_trigger_4 = {
+    NOT = { has_idea = primal_connection }
+}
+
+geomancy_action_trigger_5 = {
+    life < 1.0
+}
+
+geomancy_action_trigger_6 = {
+    any_unit_leader = {
+        is_field_marshal = yes
+    }
+}
+
+#------------------------------------
+# Hakkar
+#------------------------------------
+hakkari_action_trigger_1 = {
+    NOT = { has_idea = gift_of_hakkar }    
+}
+
+hakkari_action_trigger_2 = {
+    NOT = { has_idea = desecrated_remains }    
+}
+
+hakkari_action_trigger_3 = {
+    NOT = { has_idea = imbued_blood_prophets } 
+}
+
+hakkari_action_trigger_4 = {
+    any_unit_leader = {
+        is_leading_army = yes
+        attack_skill_level < 10.0
+    }
+}
+
+hakkari_action_trigger_5 = {
+    NOT = { has_idea = avatar_of_hakkar } 
+}
+
+hakkari_action_trigger_6 = {
+    has_war_support < 1.0
+}
+
+#------------------------------------
+# Light of the Naaru
+#------------------------------------
+light_of_the_naaru_action_trigger_1 = {
+    NOT = { has_idea = blessing_of_the_naaru }
+}
+
+light_of_the_naaru_action_trigger_2 = {
+    light < 1.0
+}
+
+light_of_the_naaru_action_trigger_3 = {
+    any_unit_leader = {
+        is_field_marshal = yes
+    }
+}
+
+light_of_the_naaru_action_trigger_4 = {
+    has_template_containing_unit = champion
+}
+
+light_of_the_naaru_action_trigger_5 = {
+    NOT = { has_idea = wisdom_of_the_naaru }
+}
+
+light_of_the_naaru_action_trigger_6 = {
+    can_add_wargoal_on_neighbor = yes
+}
+
+#------------------------------------
+# Necromancy
+#------------------------------------
+necromancy_action_trigger_1 = {
+    any_unit_leader = {
+        is_field_marshal = yes
+    }
+}
+
+necromancy_action_trigger_2 = {
+    num_divisions > 0
+}
+
+necromancy_action_trigger_3 = {
+    any_neighbor_country = {
+        NOT = { is_in_faction_with = ROOT }
+        has_opinion = {
+            target = ROOT
+            value < 0
+        }
+        NOT = { has_government = death }
+        NOT = { has_idea = plague_of_undeath }
+    }
+}
+
+necromancy_action_trigger_4 = {
+
+}
+
+necromancy_action_trigger_5 = {
+    has_war_support < 1
+}
+
+necromancy_action_trigger_6 = {
+
+}
+
+#------------------------------------
+# Old Gods
+#------------------------------------
+old_gods_action_trigger_1 = {
+    any_neighbor_country = {
+        NOT = { has_government = shadow }
+        NOT = { is_in_faction_with = ROOT }
+        NOT = { is_subject_of = ROOT }
+    }
+}
+
+old_gods_action_trigger_2 = {
+    can_add_wargoal_on_neighbor = yes
+}
+
+old_gods_action_trigger_3 = {
+    shadow < 1.0
+}
+
+old_gods_action_trigger_4 = {
+    num_divisions > 0
+}
+
+old_gods_action_trigger_5 = {
+    NOT = { has_idea = gift_of_cthun }
+    NOT = { has_idea = gift_of_yshaarj }
+    NOT = { has_idea = gift_of_yogg_saron }
+    NOT = { has_idea = gift_of_nzoth }
+}
+
+old_gods_action_trigger_6 = {
+    any_unit_leader = {
+        is_field_marshal = yes
+    }
+}
+
+#------------------------------------
+# Shadow
+#------------------------------------
+shadow_action_trigger_1 = {
+    any_neighbor_country = {
+        NOT = { has_government = shadow }
+        NOT = { is_in_faction_with = ROOT }
+        NOT = { is_subject_of = ROOT }
+    }
+}
+
+shadow_action_trigger_2 = {
+    any_neighbor_country = {
+        NOT = { has_government = shadow }
+        NOT = { is_in_faction_with = ROOT }
+        NOT = { is_subject_of = ROOT }
+    }
+}
+
+shadow_action_trigger_3 = {
+
+}
+
+shadow_action_trigger_4 = {
+    has_template_containing_unit = spellcaster
+}
+
+shadow_action_trigger_5 = {
+    NOT = { has_idea = void_lord }
+}
+
+shadow_action_trigger_6 = {
+    NOT = { has_idea = voidform }
+}
+
+
+#------------------------------------
+# Shamanism
+#------------------------------------
+shamanism_action_trigger_1 = {
+    NOT = { has_idea = animal_blessing }
+}
+
+shamanism_action_trigger_2 = {
+    NOT = { has_idea = ancestral_wisdom }
+}
+
+shamanism_action_trigger_3 = {
+    any_unit_leader = {
+        is_field_marshal = yes
+    }
+}
+
+shamanism_action_trigger_4 = {
+
+}
+
+shamanism_action_trigger_5 = {
+    life < 1.0
+}
+
+shamanism_action_trigger_6 = {
+    NOT = { has_idea = spirit_of_the_wilds }
+}
+
+
+
+#------------------------------------
+# The Holy Light
+#------------------------------------
+holy_light_action_trigger_1 = {
+    has_stability < 1.0
+}
+
+holy_light_action_trigger_2 = {
+    light < 1.0
+}
+
+holy_light_action_trigger_3 = {
+    any_unit_leader = {
+        is_field_marshal = yes
+    }
+}
+
+holy_light_action_trigger_4 = {
+    has_template_containing_unit = champion
+}
+
+holy_light_action_trigger_5 = {
+    
+}
+
+holy_light_action_trigger_6 = {
+    NOT = { has_idea = cast_out_the_darkness }
+}
+
+#------------------------------------
+# Titan
+#------------------------------------
+titan_action_trigger_1 = {
+     NOT = { has_idea = titanic_knowledge }   
+}
+
+titan_action_trigger_2 = {
+    NOT = { has_idea = titan_blessing }
+}
+
+titan_action_trigger_3 = {
+    has_stability < 1.0
+}
+
+titan_action_trigger_4 = {
+    any_unit_leader = {
+        is_field_marshal = yes
+    }
+}
+
+titan_action_trigger_5 = {
+    order < 1.0
+}
+
+titan_action_trigger_6 = {
+    can_add_wargoal_on_neighbor = yes
+}
+
+#------------------------------------
+# Voodoo
+#------------------------------------
+voodoo_action_trigger_1 = {
+    any_unit_leader = {
+        is_field_marshal = yes
+    }    
+}
+
+voodoo_action_trigger_2 = {
+    NOT = { has_idea = tiki_lord }
+}
+
+voodoo_action_trigger_3 = {
+    
+}
+
+voodoo_action_trigger_4 = {
+    num_divisions > 0
+}
+
+voodoo_action_trigger_5 = {
+    any_unit_leader = {
+        is_leading_army = yes
+        logistics_skill_level < 10.0
+    }
+}
+
+voodoo_action_trigger_6 = {
+    NOT = { has_idea = enhanced_equipment }
+}
+
+#------------------------------------
+# Water
+#------------------------------------
+water_action_trigger_1 = {
+        
+}
+
+water_action_trigger_2 = {
+    NOT = { has_idea = bond_of_water }
+}
+
+water_action_trigger_3 = {
+    NOT = { has_idea = neptulon_favour }
+}
+
+water_action_trigger_4 = {
+    NOT = { has_idea = water_weaponry }
+}
+
+water_action_trigger_5 = {
+    has_template_containing_unit = champion
+}
+
+water_action_trigger_6 = {
+    can_add_wargoal_on_neighbor = yes
+}
+
+#------------------------------------
+# Wind
+#------------------------------------
+wind_action_trigger_1 = {
+        
+}
+
+wind_action_trigger_2 = {
+    NOT = { has_idea = bond_of_wind }
+}
+
+wind_action_trigger_3 = {
+    NOT = { has_idea = alakir_favour }
+}
+
+wind_action_trigger_4 = {
+    NOT = { has_idea = wind_weaponry }
+}
+
+wind_action_trigger_5 = {
+    has_template_containing_unit = champion
+}
+
+wind_action_trigger_6 = {
+    any_neighbor_country = {
+        NOT = { is_in_faction_with = ROOT }
+        has_opinion = {
+            target = ROOT
+            value < 10
+        }
+    }
+}
+
+#------------------------------------
+# Technomancy
+#------------------------------------
+technomancy_action_trigger_1 = {
+    NOT = { has_idea = innovation_wave }
+}
+
+technomancy_action_trigger_2 = {
+    
+}
+
+technomancy_action_trigger_3 = {
+    has_template_containing_unit = spellcaster
+}
+
+technomancy_action_trigger_4 = {
+    NOT = { has_idea = engineer_insights }
+}
+
+technomancy_action_trigger_5 = {
+    has_template_containing_unit = grunt
+}
+
+technomancy_action_trigger_6 = {
+    amount_research_slots < 20
+}
+
+#------------------------------------
+# Capitalism
+#------------------------------------
+capitalism_action_trigger_1 = {
+    NOT = { has_idea = power_of_money }
+}
+
+capitalism_action_trigger_2 = {
+    has_template_containing_unit = champion
+}
+
+capitalism_action_trigger_3 = {
+
+}
+
+capitalism_action_trigger_4 = {
+    has_war_support < 1.0
+}
+
+capitalism_action_trigger_5 = {
+    any_unit_leader = {
+        is_field_marshal = yes
+    }
+}
+
+capitalism_action_trigger_6 = {
+    NOT = { has_idea = keen_financiers }
+}
+
+#------------------------------------
+# Soul
+#------------------------------------
+soul_action_trigger_1 = {
+    num_divisions > 0
+}
+
+soul_action_trigger_2 = {
+    shadow < 1.0
+}
+
+soul_action_trigger_3 = {
+
+}
+
+soul_action_trigger_4 = {
+    any_unit_leader = {
+        is_field_marshal = yes
+    }
+}
+
+soul_action_trigger_5 = {
+    any_unit_leader = {
+        is_assigned = yes
+    }
+}
+
+soul_action_trigger_6 = {
+    can_add_wargoal_on_neighbor = yes
+}
+
+#------------------------------------
+# Runic
+#------------------------------------
+runic_action_trigger_1 = {
+    NOT = { has_idea = ceremonial_horn }
+}
+
+runic_action_trigger_2 = {
+    order < 1.0
+}
+
+runic_action_trigger_3 = {
+    any_unit_leader = {
+        is_field_marshal = yes
+    }
+}
+
+runic_action_trigger_4 = {
+    num_divisions > 0
+}
+
+runic_action_trigger_5 = {
+    any_unit_leader = {
+        is_field_marshal = yes
+    }
+}
+
+runic_action_trigger_6 = {
+    any_neighbor_country = {
+        NOT = { is_in_faction_with = ROOT }
+        has_opinion = {
+            target = ROOT
+            value < 10
+        }
+        ROOT = { NOT = { has_wargoal_against = PREV } }
+        capital_scope = { is_on_continent = northrend }
+    }
+}

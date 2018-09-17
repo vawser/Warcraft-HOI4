@@ -1,0 +1,15 @@
+state = {
+	id = 560
+	name = "TITAN_ASCENT"
+	manpower = 65
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = HYL
+	}
+
+	provinces = {
+        5887 5900 5909 5919 5926 
+    }
+}

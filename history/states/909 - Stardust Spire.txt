@@ -1,0 +1,57 @@
+state = {
+	id = 909
+	name = "STARDUST_SPIRE"
+	manpower = 2328
+	state_category = village
+
+	resources = {
+		ground_beast = 3
+		flying_beast = 1
+		wood = 24
+		steel = 3
+		food = 14
+	}
+
+	history = {
+		owner = THS
+		add_core_of = THS
+
+		buildings = {
+			infrastructure = 4
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 6
+			industrial_complex = 2
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			3910 = {
+				bunker = 0
+			}
+			3964 = {
+				bunker = 0
+			}
+			3991 = {
+				bunker = 0
+			}
+			4048 = {
+				bunker = 0
+			}
+			4079 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        3910 3964 3991 4048 4079 
+    }
+}

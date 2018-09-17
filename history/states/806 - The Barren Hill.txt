@@ -1,0 +1,15 @@
+state = {
+	id = 806
+	name = "THE_BARREN_HILL"
+	manpower = 42
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = WIW
+	}
+
+	provinces = {
+        4644 4807 4825 
+    }
+}

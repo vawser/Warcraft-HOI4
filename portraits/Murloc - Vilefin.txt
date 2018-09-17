@@ -1,0 +1,51 @@
+VIL = {
+	army = {
+		male = {
+			"gfx/leaders/MURLOC/murloc_corrupt.dds"
+		}
+	}
+
+	navy = {
+		male = {
+			"gfx/leaders/MURLOC/murloc_corrupt.dds"
+		}
+	}
+
+	political = {
+		light = {
+			male = {
+                "gfx/leaders/MURLOC/murloc_corrupt.dds"
+            }
+		}
+		shadow = {
+			male = {
+                "gfx/leaders/MURLOC/murloc_corrupt.dds"
+            }
+		}
+        order = {
+			male = {
+                "gfx/leaders/MURLOC/murloc_corrupt.dds"
+            }
+		}
+        disorder = {
+			male = {
+                "gfx/leaders/MURLOC/murloc_corrupt.dds"
+            }
+		}
+        life = {
+			male = {
+                "gfx/leaders/MURLOC/murloc_corrupt.dds"
+            }
+		}
+        death = {
+			male = {
+                "gfx/leaders/MURLOC/murloc_corrupt.dds"
+            }
+		}
+        unaligned = {
+			male = {
+                "gfx/leaders/MURLOC/murloc_corrupt.dds"
+            }
+		}
+	}
+}

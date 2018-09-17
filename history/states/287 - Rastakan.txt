@@ -1,0 +1,52 @@
+state = {
+	id = 287
+	name = "RASTAKAN"
+	manpower = 17533
+	state_category = city
+
+	resources = {
+		oil = 2
+		ground_beast = 3
+		flying_beast = 2
+		wood = 16
+		steel = 6
+		food = 2
+	}
+
+	history = {
+		owner = ZDL
+        add_core_of = ZDL
+
+		buildings = {
+			infrastructure = 8
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 10
+			industrial_complex = 4
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			7228 = {
+				bunker = 9
+			}
+			7229 = {
+				bunker = 8
+			}
+			7233 = {
+				bunker = 9
+			}
+		}
+	}
+
+	provinces = {
+        7228 7229 7233 
+    }
+}

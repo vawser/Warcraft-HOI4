@@ -1,0 +1,67 @@
+state = {
+	id = 524
+	name = "WYRMREST_TEMPLE"
+	manpower = 7432
+	state_category = town
+
+	resources = {
+		oil = 1
+		ground_beast = 9
+		flying_beast = 5
+		wood = 1
+		steel = 5
+		food = 28
+	}
+
+	history = {
+		owner = WYT
+		add_core_of = WYT
+
+		buildings = {
+			infrastructure = 7
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 5
+			industrial_complex = 6
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			6174 = {
+				bunker = 1
+			}
+			6181 = {
+				bunker = 1
+			}
+			6189 = {
+				bunker = 8
+			}
+			6191 = {
+				bunker = 1
+			}
+			6209 = {
+				bunker = 6
+			}
+			6217 = {
+				bunker = 9
+			}
+			6244 = {
+				bunker = 1
+			}
+			6268 = {
+				bunker = 4
+			}
+		}
+	}
+
+	provinces = {
+        6174 6181 6189 6191 6209 6217 6244 6268 
+    }
+}

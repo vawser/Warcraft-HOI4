@@ -1,0 +1,51 @@
+state = {
+	id = 793
+	name = "RANAZJAR_ISLE"
+	manpower = 645
+	state_category = island
+
+	resources = {
+		oil = 3
+		ground_beast = 6
+		flying_beast = 4
+		steel = 8
+		food = 15
+	}
+
+	history = {
+		owner = SLB
+		add_core_of = SLB
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 0
+			industrial_complex = 2
+			dockyard = 0
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			3210 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 5
+			}
+		}
+	}
+
+	provinces = {
+        3210
+    }
+}

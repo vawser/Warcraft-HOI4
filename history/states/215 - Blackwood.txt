@@ -1,0 +1,64 @@
+state = {
+	id = 215
+	name = "BLACKWOOD"
+	manpower = 595
+	state_category = rural
+
+	resources = {
+		ground_beast = 3
+		flying_beast = 2
+		wood = 29
+		steel = 2
+		food = 18
+	}
+
+	history = {
+		owner = STR
+        add_core_of = STR
+
+        victory_points = {
+            2186 5
+        }
+        
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 2
+			industrial_complex = 1
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			2085 = {
+				bunker = 0
+			}
+			2107 = {
+				bunker = 0
+			}
+			2165 = {
+				bunker = 0
+			}
+			2186 = {
+				bunker = 0
+			}
+			2210 = {
+				bunker = 0
+			}
+			2234 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        2085 2107 2165 2186 2210 2234 
+    }
+}

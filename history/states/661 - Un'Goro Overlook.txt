@@ -1,0 +1,15 @@
+state = {
+	id = 661
+	name = "UNGORO_OVERLOOK"
+	manpower = 62
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = AQJ
+	}
+
+	provinces = {
+        4467 4485 4522 4566 4598 4599 4629 4630 4600
+    }
+}

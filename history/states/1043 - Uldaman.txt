@@ -1,0 +1,65 @@
+state = {
+	id = 1043
+	name = "ULDAMAN"
+	manpower = 1745
+	state_category = village
+
+	resources = {
+		oil = 7
+		ground_beast = 2
+		flying_beast = 8
+		steel = 3
+		food = 4
+	}
+
+	history = {
+        victory_points = {
+            2030 10
+        }
+		owner = ULM
+        add_core_of = ULM
+
+        # The Second War
+        597.1.1 = {
+            owner = TTH
+            add_core_of = TTH
+        }
+        # The Third War
+        612.1.1 = {
+            owner = ULM
+            add_core_of = ULM
+        }
+        
+		buildings = {
+			infrastructure = 2
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 3
+			industrial_complex = 4
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			2005 = {
+				bunker = 0
+			}
+			2022 = {
+				bunker = 0
+			}
+			2030 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        2005 2022 2030 
+    }
+}

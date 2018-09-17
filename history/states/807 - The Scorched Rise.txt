@@ -1,0 +1,15 @@
+state = {
+	id = 807
+	name = "THE_SCORCHED_RISE"
+	manpower = 45
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = RAZ
+	}
+
+	provinces = {
+        4681 4697 4742 4782 4809 4827 
+    }
+}

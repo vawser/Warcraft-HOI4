@@ -1,0 +1,58 @@
+state = {
+	id = 914
+	name = "MAESTRAS_OUTPOST"
+	manpower = 1934
+	state_category = village
+
+	resources = {
+		oil = 4
+		ground_beast = 4
+		flying_beast = 7
+		wood = 28
+		steel = 8
+		food = 12
+	}
+
+	history = {
+		owner = SEA
+		add_core_of = SEA
+
+		buildings = {
+			infrastructure = 3
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 5
+			industrial_complex = 2
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			3911 = {
+				bunker = 0
+			}
+			3934 = {
+				bunker = 0
+			}
+			3962 = {
+				bunker = 0
+			}
+			4018 = {
+				bunker = 0
+			}
+			4046 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        3911 3934 3962 4018 4046
+    }
+}

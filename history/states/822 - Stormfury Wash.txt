@@ -1,0 +1,60 @@
+state = {
+	id = 822
+	name = "STORMFURY_WASH"
+	manpower = 986
+	state_category = rural
+
+	resources = {
+		oil = 4
+		ground_beast = 7
+		flying_beast = 4
+		wood = 4
+		food = 26
+	}
+
+	history = {
+        owner = VTC
+		add_core_of = VTC
+        
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 1
+			industrial_complex = 1
+			dockyard = 1
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			3319 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 8
+			}
+			4937 = {
+				bunker = 0
+			}
+			5017 = {
+				bunker = 0
+			}
+			5116 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        3319 4937 5017 5116 
+    }
+}

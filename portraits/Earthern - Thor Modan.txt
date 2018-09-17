@@ -1,0 +1,51 @@
+TMN = {
+	army = {
+		male = {
+			"gfx/leaders/EARTHERN/earthern_ochre.dds"
+		}
+	}
+
+	navy = {
+		male = {
+			"gfx/leaders/EARTHERN/earthern_ochre.dds"
+		}
+	}
+
+	political = {
+		light = {
+			male = {
+                "gfx/leaders/EARTHERN/earthern_ochre.dds"
+            }
+		}
+		shadow = {
+			male = {
+                "gfx/leaders/EARTHERN/earthern_ochre.dds"
+            }
+		}
+        order = {
+			male = {
+                "gfx/leaders/EARTHERN/earthern_ochre.dds"
+            }
+		}
+        disorder = {
+			male = {
+                "gfx/leaders/EARTHERN/earthern_ochre.dds"
+            }
+		}
+        life = {
+			male = {
+                "gfx/leaders/EARTHERN/earthern_ochre.dds"
+            }
+		}
+        death = {
+			male = {
+                "gfx/leaders/EARTHERN/earthern_ochre.dds"
+            }
+		}
+        unaligned = {
+			male = {
+                "gfx/leaders/EARTHERN/earthern_ochre.dds"
+            }
+		}
+	}
+}

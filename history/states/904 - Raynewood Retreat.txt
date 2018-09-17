@@ -1,0 +1,60 @@
+state = {
+	id = 904
+	name = "RAYNEWOOD_RETREAT"
+	manpower = 762
+	state_category = rural
+
+	resources = {
+		oil = 1
+		flying_beast = 4
+		wood = 20
+		steel = 6
+		food = 19
+	}
+
+	history = {
+		owner = SEA
+		add_core_of = SEA
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 2
+			industrial_complex = 1
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			3819 = {
+				bunker = 0
+			}
+			3847 = {
+				bunker = 0
+			}
+			3859 = {
+				bunker = 0
+			}
+			3880 = {
+				bunker = 0
+			}
+			3887 = {
+				bunker = 0
+			}
+			3913 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        3819 3847 3859 3880 3887 3913 
+    }
+}

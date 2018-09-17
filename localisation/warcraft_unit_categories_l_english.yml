@@ -1,0 +1,12 @@
+﻿l_english: 
+ category_infantry: "Infantry"
+ category_artillery: "Artillery"
+ category_cavalry: "Cavalry"
+ category_support: "Support"
+ category_tanks: "Tank"
+ category_air: "Air"
+ category_navy: "Navy"
+ category_army: "Army"
+ category_front_line: "Frontline"
+ category_racial: "Racial"
+ 

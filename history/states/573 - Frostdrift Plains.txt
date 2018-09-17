@@ -1,0 +1,64 @@
+state = {
+	id = 573
+	name = "FROSTDRIFT_PLAINS"
+	manpower = 673
+	state_category = rural
+
+	resources = {
+		oil = 1
+		ground_beast = 1
+		flying_beast = 6
+		wood = 4
+		steel = 1
+		food = 10
+	}
+
+	history = {
+		owner = HYL
+		add_core_of = HYL
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 3
+			industrial_complex = 0
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			5447 = {
+				bunker = 0
+			}
+			5471 = {
+				bunker = 0
+			}
+			6009 = {
+				bunker = 0
+			}
+			6098 = {
+				bunker = 0
+			}
+			6114 = {
+				bunker = 0
+			}
+			6134 = {
+				bunker = 0
+			}
+			5420 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        5447 5471 6009 6098 6114 6134 5420
+    }
+}

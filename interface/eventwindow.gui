@@ -1,0 +1,373 @@
+guiTypes = {
+    #-------------------------------------
+    # COUNTRY
+    #-------------------------------------
+	containerWindowType = {
+		name = "EventWindow"
+		position = { x=-282 y=-310 }	
+		size = { width = 800 height =800 }
+		moveable = yes
+		Orientation = CENTER		
+		
+		show_sound = event_popup
+		hide_sound = menu_close_window
+		
+		background = {
+			name = "Background"	
+			spriteType ="GFX_tiled_window_transparent"
+		}
+
+		containerWindowType = {
+			name = "top_Window"
+			position = { x=0 y=0 }	
+			size = { width = 800 height = 211 }
+			moveable = yes
+			Orientation = UPPER_LEFT
+
+			background = {
+				name = "Background"	
+				spriteType ="GFX_event_report_top_win"
+			}			
+		
+			instantTextBoxType = {
+				name = "Title"
+				position = { x = 60 y = 60 }
+				font = "hoi_20bs"
+				borderSize = {x = 0 y = 0}
+				text = "Title text here!"	
+				maxWidth = 676
+				maxHeight = 32
+				format = centre
+			}
+
+			buttonType = {
+				name = "btn_minimize"
+				position = {x=80 y=50}
+				spriteType = "GFX_event_button_minimize"
+				clicksound = click_default
+			}
+		}
+
+		containerWindowType = {
+			name = "midsection"
+			position = { x=0 y=211 }	
+			size = { width = 800 height = 104 }
+			moveable = yes
+			clipping = no
+			Orientation = UPPER_LEFT
+
+			background = {
+				name = "Background"	
+				quadTextureSprite ="GFX_event_report_tileable_midsection"
+			}
+		
+			instantTextBoxType = {
+				name = "Description"
+				position = { x = 70 y = -90 }
+				font = "hoi_20bs_dark"
+				borderSize = {x = 0 y = 0}
+				text = "Long text here!"	
+				maxWidth = 650
+				maxHeight = 230
+				format = left
+			}	
+		}			
+
+		containerWindowType = {
+			name = "bottom_Window"
+			position = { x=0 y=305 }	
+			size = { width = 800 height = 262 }
+			moveable = yes
+			clipping = no
+			Orientation = UPPER_LEFT
+
+			background = {
+				name = "Background"	
+				spriteType ="GFX_event_report_bottom_win"
+			}
+
+			iconType = {
+				name ="event_picture"
+				spriteType = "GFX_report_event_001"
+				position = { x = 50 y = -100 }
+				Orientation = "UPPER_LEFT"
+				allwaystransparent = yes				
+			}
+
+			gridBoxType = {
+				name = "options_grid"
+				position = { x = 390 y = -60 }
+				size = { width = 354 height = 60 }
+				slotsize = { width = 354 height = 60 }
+				max_slots_horizontal = 1
+				format = "UPPER_LEFT"
+			}
+		}
+	}
+
+    #-------------------------------------
+    # LEADER
+    #-------------------------------------
+	containerWindowType = {
+		name = "EventWindow_leader"
+		position = { x=-282 y=-310 }	
+		size = { width = 800 height =880 }
+		moveable = yes
+		Orientation = CENTER		
+		
+		show_sound = event_popup
+		hide_sound = menu_close_window
+		
+		background = {
+			name = "Background"	
+			spriteType ="GFX_tiled_window_transparent"
+		}
+
+		containerWindowType = {
+			name = "top_Window"
+			position = { x=0 y=0 }	
+			size = { width = 800 height =211 }
+			moveable = yes
+			Orientation = UPPER_LEFT
+
+			background = {
+				name = "Background"	
+				spriteType ="GFX_event_report_top_win"
+			}			
+		
+			instantTextBoxType = {
+				name = "Title"
+				position = { x = 60 y = 60 }
+				font = "hoi_20bs"
+				borderSize = {x = 0 y = 0}
+				text = "Title text here!"	
+				maxWidth = 676
+				maxHeight = 32
+				format = centre
+			}
+
+			buttonType = {
+				name = "btn_minimize"
+				position = {x=80 y=50}
+				spriteType = "GFX_event_button_minimize"
+				clicksound = click_default
+			}
+		}
+
+		containerWindowType = {
+			name = "midsection"
+			position = { x=0 y=211 }	
+			size = { width = 800 height = 104 }
+			moveable = yes
+			clipping = no
+			Orientation = UPPER_LEFT	
+
+			background = {
+				name = "Background"	
+				quadTextureSprite ="GFX_event_report_tileable_midsection"
+			}
+
+			containerWindowType = {
+				name = "leader_picture_container"
+				position = { x=50 y=-80 }
+				size = { width = 100% height = 100% }
+				
+				buttonType = {
+					name = "leader"
+					position = { x = 33 y = 4 }
+					spriteType = "GFX_leader_unknown"
+					scale = 0.85
+				}
+
+				iconType = {
+					name = "leader_frame"
+					spriteType = "GFX_event_leader_frame"
+					position = { x = 25 y = -5 }		
+					allwaystransparent = yes
+					scale = 0.85
+				}
+			}
+		
+			instantTextBoxType = {
+				name = "Description"
+				position = { x = 240 y = -90 }
+				font = "hoi_20bs"
+				borderSize = {x = 0 y = 0}
+				text = "Long text here!"	
+				maxWidth = 450
+				maxHeight = 230
+				format = left
+			}
+		}			
+
+		containerWindowType = {
+			name = "bottom_Window"
+			position = { x=0 y=221 }
+			size = { width = 800 height = 0 }
+			moveable = yes
+			clipping = no
+			Orientation = UPPER_LEFT
+
+			background = {
+				name = "Background"	
+				spriteType ="GFX_event_report_bottom_win"
+			}
+
+			gridBoxType = {
+				name = "options_grid"
+				position = { x = 240 y = -80 }
+				size = { width = 354 height = 55 }
+				slotsize = { width = 354 height = 55 }
+				max_slots_horizontal = 1
+				format = "UPPER_LEFT"
+			}
+		}
+
+		containerWindowType = {
+			name = "bottom_window_end"
+			position = { x=0 y=-9999 }
+			size = { width = 581 height = 59 }
+			moveable = yes
+			Orientation = UPPER_LEFT
+
+			background = {
+				name = "Background"	
+				spriteType ="GFX_tiled_window_transparent"
+			}
+		}
+	}
+
+    #-------------------------------------
+    # NEWS
+    #-------------------------------------
+    # Not used. Unsupported.
+    # CBA to design graphics specially for this, when country works fine for "notification" anyway
+	containerWindowType = {
+		name = "EventWindow_News"
+		position = { x=-282 y=-310 }	
+		size = { width = 800 height = 800 }
+		moveable = yes
+		Orientation = CENTER
+		show_sound = world_news_effect
+		hide_sound = menu_close_window
+		
+		background = {
+			name = "Background"	
+			spriteType ="GFX_tiled_window_transparent"
+		}
+
+		containerWindowType = {
+			name = "top_Window"
+			position = { x=0 y=0 }	
+			size = { width = 800 height = 211 }
+			Orientation = UPPER_LEFT
+
+            background = {
+				name = "Background"	
+				spriteType ="GFX_event_report_top_win"
+			}
+            
+			iconType =
+			{
+				name ="event_picture"
+				spriteType = "GFX_news_event_001"
+				position = { x = 50 y = -80 }
+				Orientation = "UPPER_LEFT"
+				allwaystransparent = yes
+			}
+			
+			iconType = {
+				name ="event_picture_overlay"
+				spriteType = "GFX_event_news_pic_overlay"
+				position = { x = 59 y = -9999 }
+				Orientation = "UPPER_LEFT"
+				allwaystransparent = yes
+			}			
+			
+			instantTextBoxType = {
+				name = "Title"
+				position = { x = 60 y = 60 }
+				font = "hoi4_typewriter22"
+				borderSize = {x = 0 y = 0}
+				text = "Title text here!"	
+				maxWidth = 800
+				maxHeight = 32
+				format = centre
+			}
+			
+			buttonType = {
+				name = "btn_minimize"
+				position = {x=80 y=50}
+				spriteType = "GFX_event_button_minimize"
+				clicksound = click_default
+			}
+		}
+
+		containerWindowType = {
+			name = "midsection"
+			position = { x=0 y=211 }	
+			size = { width = 800 height = 104 }
+			Orientation = UPPER_LEFT
+		
+			background = {
+				name = "Background"	
+				quadTextureSprite ="GFX_event_report_tileable_midsection"
+			}
+		
+			instantTextBoxType = {
+				name = "Description"
+				position = { x = 70 y = -90 }
+				font = "hoi_20bs"
+				borderSize = {x = 0 y = 0}
+				text = "Long text here!"	
+				maxWidth = 650
+				maxHeight = 230
+				format = left
+			}
+		}			
+
+
+		containerWindowType = {
+			name = "bottom_Window"
+			position = { x=0 y=305 }	
+			size = { width = 800 height = 262 }
+			Orientation = UPPER_LEFT
+
+            background = {
+				name = "Background"	
+				spriteType ="GFX_event_report_bottom_win"
+			}
+            
+			gridBoxType = {
+				name = "options_grid"
+				position = { x = 80 y = -1 }
+				size = { width = 354 height = 20 }
+				slotsize = { width = 354 height = 20 }
+				max_slots_horizontal = 1
+				format = "UPPER_LEFT"
+			}
+		}
+	}
+	
+	containerWindowType = {
+		name = "event_option_entry"
+		size = { width = 354 height = 20 }
+		clipping = no
+		
+		background = {
+			name = "event_option_background"	
+			spriteType ="GFX_long_event_menu_button"
+		}
+		
+		instantTextBoxType = {
+			name = "Name"
+			position = { x = 0 y = 15 }
+			font = "hoi_20bs"
+			maxWidth = 354
+			maxHeight = 20
+			format = center
+			vertical_alignment = center
+			alwaystransparent = yes
+		}
+	}
+}

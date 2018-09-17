@@ -1,0 +1,240 @@
+VAL = {
+	army = {
+		male = {
+			"gfx/leaders/NIGHT_ELF/night_elf_male_1.dds"
+			"gfx/leaders/NIGHT_ELF/night_elf_male_2.dds"
+            "gfx/leaders/NIGHT_ELF/night_elf_male_3.dds"
+            "gfx/leaders/NIGHT_ELF/night_elf_male_4.dds"
+            "gfx/leaders/NIGHT_ELF/night_elf_male_5.dds"
+            "gfx/leaders/NIGHT_ELF/night_elf_male_6.dds"
+            "gfx/leaders/NIGHT_ELF/night_elf_male_7.dds"
+            "gfx/leaders/NIGHT_ELF/night_elf_male_8.dds"
+            "gfx/leaders/NIGHT_ELF/night_elf_male_9.dds"
+            "gfx/leaders/NIGHT_ELF/night_elf_male_10.dds"
+		}
+        female = {
+			"gfx/leaders/NIGHT_ELF/night_elf_female_1.dds"
+			"gfx/leaders/NIGHT_ELF/night_elf_female_2.dds"
+            "gfx/leaders/NIGHT_ELF/night_elf_female_3.dds"
+            "gfx/leaders/NIGHT_ELF/night_elf_female_4.dds"
+            "gfx/leaders/NIGHT_ELF/night_elf_female_5.dds"
+            "gfx/leaders/NIGHT_ELF/night_elf_female_6.dds"
+            "gfx/leaders/NIGHT_ELF/night_elf_female_7.dds"
+            "gfx/leaders/NIGHT_ELF/night_elf_female_8.dds"
+            "gfx/leaders/NIGHT_ELF/night_elf_female_9.dds"
+            "gfx/leaders/NIGHT_ELF/night_elf_female_10.dds"
+		}
+	}
+
+	navy = {
+		male = {
+			"gfx/leaders/NIGHT_ELF/night_elf_male_1.dds"
+			"gfx/leaders/NIGHT_ELF/night_elf_male_2.dds"
+            "gfx/leaders/NIGHT_ELF/night_elf_male_3.dds"
+            "gfx/leaders/NIGHT_ELF/night_elf_male_4.dds"
+            "gfx/leaders/NIGHT_ELF/night_elf_male_5.dds"
+            "gfx/leaders/NIGHT_ELF/night_elf_male_6.dds"
+            "gfx/leaders/NIGHT_ELF/night_elf_male_7.dds"
+            "gfx/leaders/NIGHT_ELF/night_elf_male_8.dds"
+            "gfx/leaders/NIGHT_ELF/night_elf_male_9.dds"
+            "gfx/leaders/NIGHT_ELF/night_elf_male_10.dds"
+		}
+        female = {
+			"gfx/leaders/NIGHT_ELF/night_elf_female_1.dds"
+			"gfx/leaders/NIGHT_ELF/night_elf_female_2.dds"
+            "gfx/leaders/NIGHT_ELF/night_elf_female_3.dds"
+            "gfx/leaders/NIGHT_ELF/night_elf_female_4.dds"
+            "gfx/leaders/NIGHT_ELF/night_elf_female_5.dds"
+            "gfx/leaders/NIGHT_ELF/night_elf_female_6.dds"
+            "gfx/leaders/NIGHT_ELF/night_elf_female_7.dds"
+            "gfx/leaders/NIGHT_ELF/night_elf_female_8.dds"
+            "gfx/leaders/NIGHT_ELF/night_elf_female_9.dds"
+            "gfx/leaders/NIGHT_ELF/night_elf_female_10.dds"
+		}
+	}
+
+	political = {
+		light = {
+			male = {
+                "gfx/leaders/NIGHT_ELF/night_elf_male_1.dds"
+                "gfx/leaders/NIGHT_ELF/night_elf_male_2.dds"
+                "gfx/leaders/NIGHT_ELF/night_elf_male_3.dds"
+                "gfx/leaders/NIGHT_ELF/night_elf_male_4.dds"
+                "gfx/leaders/NIGHT_ELF/night_elf_male_5.dds"
+                "gfx/leaders/NIGHT_ELF/night_elf_male_6.dds"
+                "gfx/leaders/NIGHT_ELF/night_elf_male_7.dds"
+                "gfx/leaders/NIGHT_ELF/night_elf_male_8.dds"
+                "gfx/leaders/NIGHT_ELF/night_elf_male_9.dds"
+                "gfx/leaders/NIGHT_ELF/night_elf_male_10.dds"
+            }
+            female = {
+                "gfx/leaders/NIGHT_ELF/night_elf_female_1.dds"
+                "gfx/leaders/NIGHT_ELF/night_elf_female_2.dds"
+                "gfx/leaders/NIGHT_ELF/night_elf_female_3.dds"
+                "gfx/leaders/NIGHT_ELF/night_elf_female_4.dds"
+                "gfx/leaders/NIGHT_ELF/night_elf_female_5.dds"
+                "gfx/leaders/NIGHT_ELF/night_elf_female_6.dds"
+                "gfx/leaders/NIGHT_ELF/night_elf_female_7.dds"
+                "gfx/leaders/NIGHT_ELF/night_elf_female_8.dds"
+                "gfx/leaders/NIGHT_ELF/night_elf_female_9.dds"
+                "gfx/leaders/NIGHT_ELF/night_elf_female_10.dds"
+            }
+		}
+		shadow = {
+			male = {
+                "gfx/leaders/NIGHT_ELF/night_elf_male_1.dds"
+                "gfx/leaders/NIGHT_ELF/night_elf_male_2.dds"
+                "gfx/leaders/NIGHT_ELF/night_elf_male_3.dds"
+                "gfx/leaders/NIGHT_ELF/night_elf_male_4.dds"
+                "gfx/leaders/NIGHT_ELF/night_elf_male_5.dds"
+                "gfx/leaders/NIGHT_ELF/night_elf_male_6.dds"
+                "gfx/leaders/NIGHT_ELF/night_elf_male_7.dds"
+                "gfx/leaders/NIGHT_ELF/night_elf_male_8.dds"
+                "gfx/leaders/NIGHT_ELF/night_elf_male_9.dds"
+                "gfx/leaders/NIGHT_ELF/night_elf_male_10.dds"
+            }
+            female = {
+                "gfx/leaders/NIGHT_ELF/night_elf_female_1.dds"
+                "gfx/leaders/NIGHT_ELF/night_elf_female_2.dds"
+                "gfx/leaders/NIGHT_ELF/night_elf_female_3.dds"
+                "gfx/leaders/NIGHT_ELF/night_elf_female_4.dds"
+                "gfx/leaders/NIGHT_ELF/night_elf_female_5.dds"
+                "gfx/leaders/NIGHT_ELF/night_elf_female_6.dds"
+                "gfx/leaders/NIGHT_ELF/night_elf_female_7.dds"
+                "gfx/leaders/NIGHT_ELF/night_elf_female_8.dds"
+                "gfx/leaders/NIGHT_ELF/night_elf_female_9.dds"
+                "gfx/leaders/NIGHT_ELF/night_elf_female_10.dds"
+            }
+		}
+        order = {
+			male = {
+                "gfx/leaders/NIGHT_ELF/night_elf_male_1.dds"
+                "gfx/leaders/NIGHT_ELF/night_elf_male_2.dds"
+                "gfx/leaders/NIGHT_ELF/night_elf_male_3.dds"
+                "gfx/leaders/NIGHT_ELF/night_elf_male_4.dds"
+                "gfx/leaders/NIGHT_ELF/night_elf_male_5.dds"
+                "gfx/leaders/NIGHT_ELF/night_elf_male_6.dds"
+                "gfx/leaders/NIGHT_ELF/night_elf_male_7.dds"
+                "gfx/leaders/NIGHT_ELF/night_elf_male_8.dds"
+                "gfx/leaders/NIGHT_ELF/night_elf_male_9.dds"
+                "gfx/leaders/NIGHT_ELF/night_elf_male_10.dds"
+            }
+            female = {
+                "gfx/leaders/NIGHT_ELF/night_elf_female_1.dds"
+                "gfx/leaders/NIGHT_ELF/night_elf_female_2.dds"
+                "gfx/leaders/NIGHT_ELF/night_elf_female_3.dds"
+                "gfx/leaders/NIGHT_ELF/night_elf_female_4.dds"
+                "gfx/leaders/NIGHT_ELF/night_elf_female_5.dds"
+                "gfx/leaders/NIGHT_ELF/night_elf_female_6.dds"
+                "gfx/leaders/NIGHT_ELF/night_elf_female_7.dds"
+                "gfx/leaders/NIGHT_ELF/night_elf_female_8.dds"
+                "gfx/leaders/NIGHT_ELF/night_elf_female_9.dds"
+                "gfx/leaders/NIGHT_ELF/night_elf_female_10.dds"
+            }
+		}
+        disorder = {
+			male = {
+                "gfx/leaders/NIGHT_ELF/night_elf_male_1.dds"
+                "gfx/leaders/NIGHT_ELF/night_elf_male_2.dds"
+                "gfx/leaders/NIGHT_ELF/night_elf_male_3.dds"
+                "gfx/leaders/NIGHT_ELF/night_elf_male_4.dds"
+                "gfx/leaders/NIGHT_ELF/night_elf_male_5.dds"
+                "gfx/leaders/NIGHT_ELF/night_elf_male_6.dds"
+                "gfx/leaders/NIGHT_ELF/night_elf_male_7.dds"
+                "gfx/leaders/NIGHT_ELF/night_elf_male_8.dds"
+                "gfx/leaders/NIGHT_ELF/night_elf_male_9.dds"
+                "gfx/leaders/NIGHT_ELF/night_elf_male_10.dds"
+            }
+            female = {
+                "gfx/leaders/NIGHT_ELF/night_elf_female_1.dds"
+                "gfx/leaders/NIGHT_ELF/night_elf_female_2.dds"
+                "gfx/leaders/NIGHT_ELF/night_elf_female_3.dds"
+                "gfx/leaders/NIGHT_ELF/night_elf_female_4.dds"
+                "gfx/leaders/NIGHT_ELF/night_elf_female_5.dds"
+                "gfx/leaders/NIGHT_ELF/night_elf_female_6.dds"
+                "gfx/leaders/NIGHT_ELF/night_elf_female_7.dds"
+                "gfx/leaders/NIGHT_ELF/night_elf_female_8.dds"
+                "gfx/leaders/NIGHT_ELF/night_elf_female_9.dds"
+                "gfx/leaders/NIGHT_ELF/night_elf_female_10.dds"
+            }
+		}
+        life = {
+			male = {
+                "gfx/leaders/NIGHT_ELF/night_elf_male_1.dds"
+                "gfx/leaders/NIGHT_ELF/night_elf_male_2.dds"
+                "gfx/leaders/NIGHT_ELF/night_elf_male_3.dds"
+                "gfx/leaders/NIGHT_ELF/night_elf_male_4.dds"
+                "gfx/leaders/NIGHT_ELF/night_elf_male_5.dds"
+                "gfx/leaders/NIGHT_ELF/night_elf_male_6.dds"
+                "gfx/leaders/NIGHT_ELF/night_elf_male_7.dds"
+                "gfx/leaders/NIGHT_ELF/night_elf_male_8.dds"
+                "gfx/leaders/NIGHT_ELF/night_elf_male_9.dds"
+                "gfx/leaders/NIGHT_ELF/night_elf_male_10.dds"
+            }
+            female = {
+                "gfx/leaders/NIGHT_ELF/night_elf_female_1.dds"
+                "gfx/leaders/NIGHT_ELF/night_elf_female_2.dds"
+                "gfx/leaders/NIGHT_ELF/night_elf_female_3.dds"
+                "gfx/leaders/NIGHT_ELF/night_elf_female_4.dds"
+                "gfx/leaders/NIGHT_ELF/night_elf_female_5.dds"
+                "gfx/leaders/NIGHT_ELF/night_elf_female_6.dds"
+                "gfx/leaders/NIGHT_ELF/night_elf_female_7.dds"
+                "gfx/leaders/NIGHT_ELF/night_elf_female_8.dds"
+                "gfx/leaders/NIGHT_ELF/night_elf_female_9.dds"
+                "gfx/leaders/NIGHT_ELF/night_elf_female_10.dds"
+            }
+		}
+        death = {
+			male = {
+                "gfx/leaders/NIGHT_ELF/night_elf_male_1.dds"
+                "gfx/leaders/NIGHT_ELF/night_elf_male_2.dds"
+                "gfx/leaders/NIGHT_ELF/night_elf_male_3.dds"
+                "gfx/leaders/NIGHT_ELF/night_elf_male_4.dds"
+                "gfx/leaders/NIGHT_ELF/night_elf_male_5.dds"
+                "gfx/leaders/NIGHT_ELF/night_elf_male_6.dds"
+                "gfx/leaders/NIGHT_ELF/night_elf_male_7.dds"
+                "gfx/leaders/NIGHT_ELF/night_elf_male_8.dds"
+                "gfx/leaders/NIGHT_ELF/night_elf_male_9.dds"
+                "gfx/leaders/NIGHT_ELF/night_elf_male_10.dds"
+            }
+            female = {
+                "gfx/leaders/NIGHT_ELF/night_elf_female_1.dds"
+                "gfx/leaders/NIGHT_ELF/night_elf_female_2.dds"
+                "gfx/leaders/NIGHT_ELF/night_elf_female_3.dds"
+                "gfx/leaders/NIGHT_ELF/night_elf_female_4.dds"
+                "gfx/leaders/NIGHT_ELF/night_elf_female_5.dds"
+                "gfx/leaders/NIGHT_ELF/night_elf_female_6.dds"
+                "gfx/leaders/NIGHT_ELF/night_elf_female_7.dds"
+                "gfx/leaders/NIGHT_ELF/night_elf_female_8.dds"
+                "gfx/leaders/NIGHT_ELF/night_elf_female_9.dds"
+                "gfx/leaders/NIGHT_ELF/night_elf_female_10.dds"
+            }
+		}
+        unaligned = {
+			male = {
+                "gfx/leaders/NIGHT_ELF/night_elf_male_1.dds"
+                "gfx/leaders/NIGHT_ELF/night_elf_male_2.dds"
+                "gfx/leaders/NIGHT_ELF/night_elf_male_3.dds"
+                "gfx/leaders/NIGHT_ELF/night_elf_male_4.dds"
+                "gfx/leaders/NIGHT_ELF/night_elf_male_5.dds"
+                "gfx/leaders/NIGHT_ELF/night_elf_male_6.dds"
+                "gfx/leaders/NIGHT_ELF/night_elf_male_7.dds"
+                "gfx/leaders/NIGHT_ELF/night_elf_male_8.dds"
+                "gfx/leaders/NIGHT_ELF/night_elf_male_9.dds"
+                "gfx/leaders/NIGHT_ELF/night_elf_male_10.dds"
+            }
+            female = {
+                "gfx/leaders/NIGHT_ELF/night_elf_female_1.dds"
+                "gfx/leaders/NIGHT_ELF/night_elf_female_2.dds"
+                "gfx/leaders/NIGHT_ELF/night_elf_female_3.dds"
+                "gfx/leaders/NIGHT_ELF/night_elf_female_4.dds"
+                "gfx/leaders/NIGHT_ELF/night_elf_female_5.dds"
+                "gfx/leaders/NIGHT_ELF/night_elf_female_6.dds"
+                "gfx/leaders/NIGHT_ELF/night_elf_female_7.dds"
+                "gfx/leaders/NIGHT_ELF/night_elf_female_8.dds"
+                "gfx/leaders/NIGHT_ELF/night_elf_female_9.dds"
+                "gfx/leaders/NIGHT_ELF/night_elf_female_10.dds"
+            }
+		}
+	}
+}

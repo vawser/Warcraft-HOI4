@@ -1,0 +1,63 @@
+state = {
+	id = 318
+	name = "THE_ARBORETUM"
+	manpower = 2042
+	state_category = village
+
+	resources = {
+		oil = 2
+		ground_beast = 7
+		flying_beast = 5
+		wood = 27
+		steel = 1
+		food = 15
+	}
+
+	history = {
+		owner = JAS
+		add_core_of = JAS
+
+		buildings = {
+			infrastructure = 4
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 2
+			industrial_complex = 4
+			dockyard = 1
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			6384 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 3
+			}
+			6386 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 3
+			}
+			6686 = {
+				bunker = 0
+			}
+			6693 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        6384 6386 6686 6693
+    }
+}

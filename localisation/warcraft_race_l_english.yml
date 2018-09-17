@@ -1,0 +1,192 @@
+﻿l_english: 
+ HUMAN: "Human"
+ HUMANS: "Humans"
+ HUMAN_L: "human"
+ HUMANS_L: "humans"
+ 
+ QIRAJI: "Qiraji"
+ QIRAJI_L: "qiraji"
+ 
+ CENTAUR: "Centaur"
+ CENTAURS: "Centaurs"
+ CENTAUR_L: "centaur"
+ CENTAURS_L: "centaurs"
+ 
+ DRAENEI: "Draenei"
+ DRAENEI_L: "draenei"
+ 
+ DRAGONKIN: "Dragonkin"
+ DRAGONKIN_L: "dragonkin"
+ 
+ DWARF: "Dwarf"
+ DWARVES: "Dwarves"
+ DWARF_L: "dwarf"
+ DWARVES_L: "dwarves"
+ 
+ EARTHEN: "Earthen"
+ EARTHEN_L: "earthen"
+ 
+ DRYAD: "Dryad"
+ DRYADS: "Drayds"
+ DRYAD_L: "dryad"
+ DRYADS_L: "dryads"
+ 
+ HIGH_ELF: "High Elf"
+ HIGH_ELVES: "High Elves"
+ HIGH_ELF_L: "high elf"
+ HIGH_ELVES_L: "high elves"
+ 
+ BLOOD_ELF: "Blood Elf"
+ BLOOD_ELVES: "Blood Elves"
+ BLOOD_ELF_L: "blood elf"
+ BLOOD_ELVES_L: "blood elves"
+ 
+ NIGHT_ELF: "Night Elf"
+ NIGHT_ELVES: "Night Elves"
+ NIGHT_ELF_L: "night elf"
+ NIGHT_ELVES_L: "night elves"
+ 
+ NIGHTBORNE: "Nightborne"
+ NIGHTBORNE_L: "nightborne"
+ 
+ FURBOLG: "Furbolg"
+ FURBOLGS: "Furbolgs"
+ FURBOLG_L: "furbolg"
+ FURBOLGS_L: "furbolgs"
+ 
+ GNOLL: "Gnoll"
+ GNOLLS: "Gnolls"
+ GNOLL_L: "gnoll"
+ GNOLLS_L: "gnolls"
+ 
+ GNOME: "Gnome"
+ GNOMES: "Gnomes"
+ GNOME_L: "gnome"
+ GNOMES_L: "gnomes"
+ 
+ GOBLIN: "Goblin"
+ GOBLINS: "Goblins"
+ GOBLIN_L: "goblin"
+ GOBLINS_L: "goblins"
+ 
+ GORLOC: "Gorloc"
+ GORLOCS: "Gorlocs"
+ GORLOC_L: "gorloc"
+ GORLOCS_L: "gorlocs"
+ 
+ HARPY: "Harpy"
+ HARPIES: "Harpies"
+ HARPY_L: "harpy"
+ HARPIES_L: "harpies"
+ 
+ HOZEN: "Hozen"
+ HOZEN_L: "hozen"
+ 
+ KOBOLD: "Kobold"
+ KOBOLDS: "Kobolds"
+ KOBOLD_L: "kobold"
+ KOBOLDS_L: "kobolds"
+ 
+ MAGNATAUR: "Magnataur"
+ MAGNATAURS: "Magnataurs"
+ MAGNATAUR_L: "magnataur"
+ MAGNATAURS_L: "magnataurs"
+ 
+ MANTID: "Mantid"
+ MANTID_L: "mantid"
+ 
+ MOGU: "Mogu"
+ MOGU_L: "mogu"
+ 
+ MURLOC: "Murloc"
+ MURLOCS: "Murlocs"
+ MURLOC_L: "murloc"
+ MURLOCS_L: "murlocs"
+ 
+ NERUBIAN: "Nerubian"
+ NERUBIANS: "Nerubians"
+ NERUBIAN_L: "nerubian"
+ NERUBIANS_: "nerubians"
+ 
+ NAGA: "Naga"
+ NAGA_L: "naga"
+ 
+ OGRE: "Ogre"
+ OGRES: "Ogres"
+ OGRE_L: "ogre"
+ OGRES_L: "ogres"
+ 
+ ORC: "Orc"
+ ORCS: "Orcs"
+ ORC_L: "orc"
+ ORCS_L: "orcs"
+ 
+ PANDAREN: "Pandaren"
+ PANDAREN_L: "pandaren"
+ 
+ PYGMY: "Pygmy"
+ PYGMIES: "Pygmies"
+ PYGMY_L: "pygmy"
+ PYGMIES_L: "pygmies"
+ 
+ QUILLBOAR: "Quillboar"
+ QUILLBOARS: "Quillboars"
+ QUILLBOAR_L: "quillboar"
+ QUILLBOARS_L: "quillboars"
+ 
+ SATYR: "Satyr"
+ SATYRS: "satyrs"
+ SATYR_L: "satyr"
+ SATYRS_L: "satyrs"
+ 
+ SAUROK: "Saurok"
+ SAUROK_L: "saurok"
+ 
+ SCOURGE: "Scourge"
+ SCOURGE_L: "scourge"
+ 
+ SPRITE: "Sprite"
+ SPRITES: "Sprites"
+ SPRITE_L: "sprite"
+ SPRITES_L: "sprites"
+ 
+ TAUREN: "Tauren"
+ TAUREN_L: "tauren"
+ 
+ TAUNKA: "Taunka"
+ TAUNKA_L: "taunka"
+ 
+ TOLVIR: "Tol'vir"
+ TOLVIR_L: "tol'vir"
+ 
+ TITAN: "Titan"
+ TITANS: "Titans"
+ TITAN_L: "titan"
+ TITANS_L: "titans"
+ 
+ TROGG: "Trogg"
+ TROGGS: "Troggs"
+ TROGG_L: "trogg"
+ TROGGS_L: "troggs"
+ 
+ TROLL: "Troll"
+ TROLLS: "Trolls"
+ TROLL_L: "troll"
+ TROLLS_L: "trolls"
+ 
+ TUSKARR: "Tuskarr"
+ TUSKARR_L: "tuskarr"
+ 
+ UNDEAD: "Undead"
+ UNDEAD_L: "undead"
+ 
+ VRYKUL: "Vrykul"
+ VRYKUL_L: "vrykul"
+ 
+ WOLVAR: "Wolvar"
+ WOLVARS: "Wolvars"
+ WOLVAR_L: "wolvar"
+ WOLVARS_L: "wolvars"
+ 
+ YAUNGOL: "Yaungol"
+ YAUNGOL_L: "yaungol"

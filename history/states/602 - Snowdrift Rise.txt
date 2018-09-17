@@ -1,0 +1,63 @@
+state = {
+	id = 602
+	name = "SNOWDRIFT_RISE"
+	manpower = 526
+	state_category = rural
+
+	resources = {
+		oil = 4
+		ground_beast = 4
+		flying_beast = 6
+		steel = 5
+		food = 22
+	}
+
+	history = {
+		owner = RGC
+		add_core_of = RGC
+
+        # The Third War
+        612.1.1 = {
+            owner = SCO
+            add_core_of = SCO
+        }
+        
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 3
+			industrial_complex = 1
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			5381 = {
+				bunker = 0
+			}
+			5404 = {
+				bunker = 0
+			}
+			6040 = {
+				bunker = 0
+			}
+			6068 = {
+				bunker = 0
+			}
+			6084 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        5381 5404 6040 6068 6084 
+    }
+}

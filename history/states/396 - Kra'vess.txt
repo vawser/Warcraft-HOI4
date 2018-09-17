@@ -1,0 +1,65 @@
+state = {
+	id = 396
+	name = "KRAVESS"
+	manpower = 778
+	state_category = rural
+
+	resources = {
+		oil = 4
+		wood = 8
+		steel = 6
+		food = 13
+	}
+
+	history = {
+		owner = BOX
+		add_core_of = BOX
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 2
+			industrial_complex = 1
+			dockyard = 0
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			6354 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 7
+			}
+			6360 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 4
+			}
+			6368 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 3
+			}
+			6377 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 7
+			}
+		}
+	}
+
+	provinces = {
+        6354 6360 6368 6377 
+    }
+}

@@ -1,0 +1,55 @@
+state = {
+	id = 426
+	name = "ONE_KEG"
+	manpower = 2343
+	state_category = village
+
+	resources = {
+		oil = 4
+		ground_beast = 3
+		flying_beast = 9
+		wood = 3
+		steel = 8
+		food = 17
+	}
+
+	history = {
+		owner = TIG
+		add_core_of = TIG
+
+		buildings = {
+			infrastructure = 4
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 8
+			industrial_complex = 1
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			6560 = {
+				bunker = 0
+			}
+			6568 = {
+				bunker = 0
+			}
+			6577 = {
+				bunker = 0
+			}
+			6607 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        6560 6568 6577 6607 
+    }
+}

@@ -1,0 +1,150 @@
+GOR = {
+	army = {
+		male = {
+			"gfx/leaders/OGRE/ogre_1.dds"
+            "gfx/leaders/OGRE/ogre_2.dds"
+            "gfx/leaders/OGRE/ogre_3.dds"
+            "gfx/leaders/OGRE/ogre_4.dds"
+            "gfx/leaders/OGRE/ogre_5.dds"
+            "gfx/leaders/OGRE/ogre_6.dds"
+            "gfx/leaders/OGRE/ogre_7.dds"
+            "gfx/leaders/OGRE/ogre_8.dds"
+            "gfx/leaders/OGRE/ogre_9.dds"
+            "gfx/leaders/OGRE/ogre_10.dds"
+            "gfx/leaders/OGRE/ogre_11.dds"
+            "gfx/leaders/OGRE/ogre_12.dds" 
+		}
+	}
+
+	navy = {
+		male = {
+			"gfx/leaders/OGRE/ogre_1.dds"
+            "gfx/leaders/OGRE/ogre_2.dds"
+            "gfx/leaders/OGRE/ogre_3.dds"
+            "gfx/leaders/OGRE/ogre_4.dds"
+            "gfx/leaders/OGRE/ogre_5.dds"
+            "gfx/leaders/OGRE/ogre_6.dds"
+            "gfx/leaders/OGRE/ogre_7.dds"
+            "gfx/leaders/OGRE/ogre_8.dds"
+            "gfx/leaders/OGRE/ogre_9.dds"
+            "gfx/leaders/OGRE/ogre_10.dds"
+            "gfx/leaders/OGRE/ogre_11.dds"
+            "gfx/leaders/OGRE/ogre_12.dds" 
+		}
+	}
+
+	political = {
+		light = {
+			male = {
+                "gfx/leaders/OGRE/ogre_1.dds"
+                "gfx/leaders/OGRE/ogre_2.dds"
+                "gfx/leaders/OGRE/ogre_3.dds"
+                "gfx/leaders/OGRE/ogre_4.dds"
+                "gfx/leaders/OGRE/ogre_5.dds"
+                "gfx/leaders/OGRE/ogre_6.dds"
+                "gfx/leaders/OGRE/ogre_7.dds"
+                "gfx/leaders/OGRE/ogre_8.dds"
+                "gfx/leaders/OGRE/ogre_9.dds"
+                "gfx/leaders/OGRE/ogre_10.dds"
+                "gfx/leaders/OGRE/ogre_11.dds"
+                "gfx/leaders/OGRE/ogre_12.dds" 
+            }
+		}
+		shadow = {
+			male = {
+                "gfx/leaders/OGRE/ogre_1.dds"
+                "gfx/leaders/OGRE/ogre_2.dds"
+                "gfx/leaders/OGRE/ogre_3.dds"
+                "gfx/leaders/OGRE/ogre_4.dds"
+                "gfx/leaders/OGRE/ogre_5.dds"
+                "gfx/leaders/OGRE/ogre_6.dds"
+                "gfx/leaders/OGRE/ogre_7.dds"
+                "gfx/leaders/OGRE/ogre_8.dds"
+                "gfx/leaders/OGRE/ogre_9.dds"
+                "gfx/leaders/OGRE/ogre_10.dds"
+                "gfx/leaders/OGRE/ogre_11.dds"
+                "gfx/leaders/OGRE/ogre_12.dds" 
+            }
+		}
+        order = {
+			male = {
+                "gfx/leaders/OGRE/ogre_1.dds"
+                "gfx/leaders/OGRE/ogre_2.dds"
+                "gfx/leaders/OGRE/ogre_3.dds"
+                "gfx/leaders/OGRE/ogre_4.dds"
+                "gfx/leaders/OGRE/ogre_5.dds"
+                "gfx/leaders/OGRE/ogre_6.dds"
+                "gfx/leaders/OGRE/ogre_7.dds"
+                "gfx/leaders/OGRE/ogre_8.dds"
+                "gfx/leaders/OGRE/ogre_9.dds"
+                "gfx/leaders/OGRE/ogre_10.dds"
+                "gfx/leaders/OGRE/ogre_11.dds"
+                "gfx/leaders/OGRE/ogre_12.dds" 
+            }
+		}
+        disorder = {
+			male = {
+                "gfx/leaders/OGRE/ogre_1.dds"
+                "gfx/leaders/OGRE/ogre_2.dds"
+                "gfx/leaders/OGRE/ogre_3.dds"
+                "gfx/leaders/OGRE/ogre_4.dds"
+                "gfx/leaders/OGRE/ogre_5.dds"
+                "gfx/leaders/OGRE/ogre_6.dds"
+                "gfx/leaders/OGRE/ogre_7.dds"
+                "gfx/leaders/OGRE/ogre_8.dds"
+                "gfx/leaders/OGRE/ogre_9.dds"
+                "gfx/leaders/OGRE/ogre_10.dds"
+                "gfx/leaders/OGRE/ogre_11.dds"
+                "gfx/leaders/OGRE/ogre_12.dds" 
+            }
+		}
+        life = {
+			male = {
+                "gfx/leaders/OGRE/ogre_1.dds"
+                "gfx/leaders/OGRE/ogre_2.dds"
+                "gfx/leaders/OGRE/ogre_3.dds"
+                "gfx/leaders/OGRE/ogre_4.dds"
+                "gfx/leaders/OGRE/ogre_5.dds"
+                "gfx/leaders/OGRE/ogre_6.dds"
+                "gfx/leaders/OGRE/ogre_7.dds"
+                "gfx/leaders/OGRE/ogre_8.dds"
+                "gfx/leaders/OGRE/ogre_9.dds"
+                "gfx/leaders/OGRE/ogre_10.dds"
+                "gfx/leaders/OGRE/ogre_11.dds"
+                "gfx/leaders/OGRE/ogre_12.dds" 
+            }
+		}
+        death = {
+			male = {
+                "gfx/leaders/OGRE/ogre_1.dds"
+                "gfx/leaders/OGRE/ogre_2.dds"
+                "gfx/leaders/OGRE/ogre_3.dds"
+                "gfx/leaders/OGRE/ogre_4.dds"
+                "gfx/leaders/OGRE/ogre_5.dds"
+                "gfx/leaders/OGRE/ogre_6.dds"
+                "gfx/leaders/OGRE/ogre_7.dds"
+                "gfx/leaders/OGRE/ogre_8.dds"
+                "gfx/leaders/OGRE/ogre_9.dds"
+                "gfx/leaders/OGRE/ogre_10.dds"
+                "gfx/leaders/OGRE/ogre_11.dds"
+                "gfx/leaders/OGRE/ogre_12.dds" 
+            }
+		}
+        unaligned = {
+			male = {
+                "gfx/leaders/OGRE/ogre_1.dds"
+                "gfx/leaders/OGRE/ogre_2.dds"
+                "gfx/leaders/OGRE/ogre_3.dds"
+                "gfx/leaders/OGRE/ogre_4.dds"
+                "gfx/leaders/OGRE/ogre_5.dds"
+                "gfx/leaders/OGRE/ogre_6.dds"
+                "gfx/leaders/OGRE/ogre_7.dds"
+                "gfx/leaders/OGRE/ogre_8.dds"
+                "gfx/leaders/OGRE/ogre_9.dds"
+                "gfx/leaders/OGRE/ogre_10.dds"
+                "gfx/leaders/OGRE/ogre_11.dds"
+                "gfx/leaders/OGRE/ogre_12.dds" 
+            }
+		}
+	}
+}

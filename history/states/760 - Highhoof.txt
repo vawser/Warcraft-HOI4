@@ -1,0 +1,15 @@
+state = {
+	id = 760
+	name = "HIGHHOOF_RIDGE"
+	manpower = 19
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = EGL
+	}
+
+	provinces = {
+        4493 4583 4607 4619 4620 4661 4714 4718 
+    }
+}

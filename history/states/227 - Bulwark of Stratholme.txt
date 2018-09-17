@@ -1,0 +1,15 @@
+state = {
+	id = 227
+	name = "BULWARK_OF_STRATHOLME"
+	manpower = 8
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = STR
+	}
+
+	provinces = {
+        1869 1875 2651 2666 2682 
+    }
+}

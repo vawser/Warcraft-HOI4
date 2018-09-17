@@ -1,0 +1,24 @@
+state = {
+	id = 84
+	name = "DRACODAR_MT"
+	manpower = 63
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = SRW
+
+        # The Second War
+        597.1.1 = {
+            owner = TTH
+        }
+        # The Third War
+        612.1.1 = {
+            owner = SRW
+        }
+	}
+
+	provinces = {
+        2589 2591 2697 2699 2764 2779 2782 
+    }
+}

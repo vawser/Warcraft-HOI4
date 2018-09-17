@@ -1,0 +1,49 @@
+state = {
+	id = 1132
+	name = "WRITHING_DEEP"
+	manpower = 765
+	state_category = rural
+
+	resources = {
+		oil = 2
+		ground_beast = 9
+		flying_beast = 4
+		wood = 8
+		steel = 12
+		food = 14
+	}
+
+	history = {
+		owner = AQJ
+		add_core_of = AQJ
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 3
+			industrial_complex = 0
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			4465 = {
+				bunker = 0
+			}
+			4596 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        4465 4596
+    }
+}

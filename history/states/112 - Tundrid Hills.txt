@@ -1,0 +1,58 @@
+state = {
+	id = 112
+	name = "TUNDRID_HILLS"
+	manpower = 618
+	state_category = rural
+
+	resources = {
+		oil = 3
+		ground_beast = 3
+		flying_beast = 2
+		wood = 4
+		steel = 9
+		food = 19
+	}
+
+	history = {
+		owner = IRO
+        add_core_of = IRO
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 2
+			industrial_complex = 2
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			2404 = {
+				bunker = 0
+			}
+			2417 = {
+				bunker = 0
+			}
+			2937 = {
+				bunker = 0
+			}
+			2963 = {
+				bunker = 0
+			}
+			3042 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        2404 2417 2937 2963 3042
+    }
+}

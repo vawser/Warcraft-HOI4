@@ -1,0 +1,59 @@
+state = {
+	id = 375
+	name = "CLIFFS_OF_FEAR"
+	manpower = 758
+	state_category = rural
+
+	resources = {
+		ground_beast = 1
+		flying_beast = 3
+		wood = 6
+		steel = 5
+		food = 13
+	}
+
+	history = {
+		owner = MAN
+		add_core_of = MAN
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 0
+			industrial_complex = 1
+			dockyard = 3
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			6290 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 2
+			}
+			6292 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 3
+			}
+			6538 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        6290 6292 6538 
+    }
+}

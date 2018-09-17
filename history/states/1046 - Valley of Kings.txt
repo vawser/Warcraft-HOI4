@@ -1,0 +1,72 @@
+state = {
+	id = 1046
+	name = "VALLEY_OF_KINGS"
+	manpower = 786
+	state_category = rural
+
+	resources = {
+		oil = 3
+		flying_beast = 9
+		wood = 9
+		steel = 14
+		food = 18
+	}
+
+	history = {
+        owner = SVT
+        add_core_of = SVT
+
+        victory_points = {
+            2993 5
+        }
+        
+        # The Second War
+        597.1.1 = {
+            owner = TTH
+            add_core_of = TTH
+        }
+        # The Third War
+        612.1.1 = {
+            owner = SVT
+            add_core_of = SVT
+        }
+        
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 2
+			industrial_complex = 1
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			7337 = {
+				bunker = 0
+			}
+			7338 = {
+				bunker = 0
+			}
+			7339 = {
+				bunker = 0
+			}
+			2993 = {
+				bunker = 0
+			}
+			2966 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        7337 7338 7339 2993 2966
+    }
+}

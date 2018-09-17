@@ -1,0 +1,142 @@
+the_orcish_horde_actions = {
+	attack_neighbors = {
+		icon = yellow_quest_mark
+        
+		available = {
+            tag = TTH
+            NOT = { owns_state = 48 }
+            NOT = { has_wargoal_against = FROM }
+		}
+        visible = {
+            tag = TTH
+        }
+
+        days_remove = 30
+		days_re_enable = 30
+
+		cost = 50
+
+        target_trigger = {
+            is_neighbor_of = FROM
+            NOT = { is_in_faction_with = FROM }
+            has_opinion = {
+                target = ROOT
+                value < 0
+            }
+            is_civil = yes
+        }
+        
+		complete_effect = {
+            create_wargoal = {
+                type = annex_everything
+                target = FROM
+            }
+        }
+
+		ai_will_do = {
+			base = 10
+		}
+	}
+    
+    bolster_weapons_production_in_draenor = {
+		icon = yellow_quest_mark
+        
+		available = {
+            is_orc = yes
+            has_full_control_of_state = 32
+		}
+
+        days_remove = 365
+		days_re_enable = 365
+
+		cost = 100
+
+		complete_effect = {
+            add_offsite_building = {
+                type = arms_factory
+                level = 1
+            }
+        }
+
+		ai_will_do = {
+			base = 0
+            
+            modifier = {
+                add = 1
+                
+                num_of_military_factories < 30
+            }
+		}
+	}
+    
+    bolster_goods_production_in_draenor = {
+		icon = yellow_quest_mark
+        
+		available = {
+            is_orc = yes
+            has_full_control_of_state = 32
+		}
+
+        days_remove = 365
+		days_re_enable = 365
+
+		cost = 100
+
+		complete_effect = {
+            add_offsite_building = {
+                type = industrial_complex
+                level = 1
+            }
+        }
+
+		ai_will_do = {
+			base = 0
+            
+            modifier = {
+                add = 1
+                
+                num_of_military_factories < 30
+            }
+		}
+	}
+    
+    form_burning_blade_coven = {
+		icon = yellow_quest_mark
+        
+		available = {
+            is_orc = yes
+            any_owned_state = {
+                free_building_slots = {
+                    building = temple
+                    size > 1
+                    include_locked = yes
+                }
+            }
+		}
+
+        days_remove = 30
+		days_re_enable = 30
+
+		cost = 25
+        
+		complete_effect = {
+            random_owned_state = {
+                add_building_construction = {
+                    type = temple
+                    level = 1  
+                }
+            }
+        }
+
+		ai_will_do = {
+			base = 0
+            
+            modifier = {
+                add = 1
+                
+                has_political_power > 200
+            }
+		}
+	}
+}
+

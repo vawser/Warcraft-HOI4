@@ -1,0 +1,240 @@
+AZJ = {
+	army = {
+		male = {
+			"gfx/leaders/NERUBIAN/nerubian_1.dds"
+			"gfx/leaders/NERUBIAN/nerubian_2.dds"
+			"gfx/leaders/NERUBIAN/nerubian_3.dds"
+			"gfx/leaders/NERUBIAN/nerubian_4.dds"
+			"gfx/leaders/NERUBIAN/nerubian_5.dds"
+			"gfx/leaders/NERUBIAN/nerubian_6.dds"
+			"gfx/leaders/NERUBIAN/nerubian_7.dds"
+			"gfx/leaders/NERUBIAN/nerubian_8.dds"
+			"gfx/leaders/NERUBIAN/nerubian_9.dds"
+			"gfx/leaders/NERUBIAN/nerubian_10.dds"
+		}
+        female = {
+			"gfx/leaders/NERUBIAN/nerubian_1.dds"
+			"gfx/leaders/NERUBIAN/nerubian_2.dds"
+			"gfx/leaders/NERUBIAN/nerubian_3.dds"
+			"gfx/leaders/NERUBIAN/nerubian_4.dds"
+			"gfx/leaders/NERUBIAN/nerubian_5.dds"
+			"gfx/leaders/NERUBIAN/nerubian_6.dds"
+			"gfx/leaders/NERUBIAN/nerubian_7.dds"
+			"gfx/leaders/NERUBIAN/nerubian_8.dds"
+			"gfx/leaders/NERUBIAN/nerubian_9.dds"
+			"gfx/leaders/NERUBIAN/nerubian_10.dds"
+		}
+	}
+
+	navy = {
+		male = {
+			"gfx/leaders/NERUBIAN/nerubian_1.dds"
+			"gfx/leaders/NERUBIAN/nerubian_2.dds"
+			"gfx/leaders/NERUBIAN/nerubian_3.dds"
+			"gfx/leaders/NERUBIAN/nerubian_4.dds"
+			"gfx/leaders/NERUBIAN/nerubian_5.dds"
+			"gfx/leaders/NERUBIAN/nerubian_6.dds"
+			"gfx/leaders/NERUBIAN/nerubian_7.dds"
+			"gfx/leaders/NERUBIAN/nerubian_8.dds"
+			"gfx/leaders/NERUBIAN/nerubian_9.dds"
+			"gfx/leaders/NERUBIAN/nerubian_10.dds"
+		}
+        female = {
+			"gfx/leaders/NERUBIAN/nerubian_1.dds"
+			"gfx/leaders/NERUBIAN/nerubian_2.dds"
+			"gfx/leaders/NERUBIAN/nerubian_3.dds"
+			"gfx/leaders/NERUBIAN/nerubian_4.dds"
+			"gfx/leaders/NERUBIAN/nerubian_5.dds"
+			"gfx/leaders/NERUBIAN/nerubian_6.dds"
+			"gfx/leaders/NERUBIAN/nerubian_7.dds"
+			"gfx/leaders/NERUBIAN/nerubian_8.dds"
+			"gfx/leaders/NERUBIAN/nerubian_9.dds"
+			"gfx/leaders/NERUBIAN/nerubian_10.dds"
+		}
+	}
+
+	political = {
+		light = {
+			male = {
+                "gfx/leaders/NERUBIAN/nerubian_1.dds"
+                "gfx/leaders/NERUBIAN/nerubian_2.dds"
+                "gfx/leaders/NERUBIAN/nerubian_3.dds"
+                "gfx/leaders/NERUBIAN/nerubian_4.dds"
+                "gfx/leaders/NERUBIAN/nerubian_5.dds"
+                "gfx/leaders/NERUBIAN/nerubian_6.dds"
+                "gfx/leaders/NERUBIAN/nerubian_7.dds"
+                "gfx/leaders/NERUBIAN/nerubian_8.dds"
+                "gfx/leaders/NERUBIAN/nerubian_9.dds"
+                "gfx/leaders/NERUBIAN/nerubian_10.dds"
+            }
+            female = {
+                "gfx/leaders/NERUBIAN/nerubian_1.dds"
+                "gfx/leaders/NERUBIAN/nerubian_2.dds"
+                "gfx/leaders/NERUBIAN/nerubian_3.dds"
+                "gfx/leaders/NERUBIAN/nerubian_4.dds"
+                "gfx/leaders/NERUBIAN/nerubian_5.dds"
+                "gfx/leaders/NERUBIAN/nerubian_6.dds"
+                "gfx/leaders/NERUBIAN/nerubian_7.dds"
+                "gfx/leaders/NERUBIAN/nerubian_8.dds"
+                "gfx/leaders/NERUBIAN/nerubian_9.dds"
+                "gfx/leaders/NERUBIAN/nerubian_10.dds"
+            }
+		}
+		shadow = {
+			male = {
+                "gfx/leaders/NERUBIAN/nerubian_1.dds"
+                "gfx/leaders/NERUBIAN/nerubian_2.dds"
+                "gfx/leaders/NERUBIAN/nerubian_3.dds"
+                "gfx/leaders/NERUBIAN/nerubian_4.dds"
+                "gfx/leaders/NERUBIAN/nerubian_5.dds"
+                "gfx/leaders/NERUBIAN/nerubian_6.dds"
+                "gfx/leaders/NERUBIAN/nerubian_7.dds"
+                "gfx/leaders/NERUBIAN/nerubian_8.dds"
+                "gfx/leaders/NERUBIAN/nerubian_9.dds"
+                "gfx/leaders/NERUBIAN/nerubian_10.dds"
+            }
+            female = {
+                "gfx/leaders/NERUBIAN/nerubian_1.dds"
+                "gfx/leaders/NERUBIAN/nerubian_2.dds"
+                "gfx/leaders/NERUBIAN/nerubian_3.dds"
+                "gfx/leaders/NERUBIAN/nerubian_4.dds"
+                "gfx/leaders/NERUBIAN/nerubian_5.dds"
+                "gfx/leaders/NERUBIAN/nerubian_6.dds"
+                "gfx/leaders/NERUBIAN/nerubian_7.dds"
+                "gfx/leaders/NERUBIAN/nerubian_8.dds"
+                "gfx/leaders/NERUBIAN/nerubian_9.dds"
+                "gfx/leaders/NERUBIAN/nerubian_10.dds"
+            }
+		}
+        order = {
+			male = {
+                "gfx/leaders/NERUBIAN/nerubian_1.dds"
+                "gfx/leaders/NERUBIAN/nerubian_2.dds"
+                "gfx/leaders/NERUBIAN/nerubian_3.dds"
+                "gfx/leaders/NERUBIAN/nerubian_4.dds"
+                "gfx/leaders/NERUBIAN/nerubian_5.dds"
+                "gfx/leaders/NERUBIAN/nerubian_6.dds"
+                "gfx/leaders/NERUBIAN/nerubian_7.dds"
+                "gfx/leaders/NERUBIAN/nerubian_8.dds"
+                "gfx/leaders/NERUBIAN/nerubian_9.dds"
+                "gfx/leaders/NERUBIAN/nerubian_10.dds"
+            }
+            female = {
+                "gfx/leaders/NERUBIAN/nerubian_1.dds"
+                "gfx/leaders/NERUBIAN/nerubian_2.dds"
+                "gfx/leaders/NERUBIAN/nerubian_3.dds"
+                "gfx/leaders/NERUBIAN/nerubian_4.dds"
+                "gfx/leaders/NERUBIAN/nerubian_5.dds"
+                "gfx/leaders/NERUBIAN/nerubian_6.dds"
+                "gfx/leaders/NERUBIAN/nerubian_7.dds"
+                "gfx/leaders/NERUBIAN/nerubian_8.dds"
+                "gfx/leaders/NERUBIAN/nerubian_9.dds"
+                "gfx/leaders/NERUBIAN/nerubian_10.dds"
+            }
+		}
+        disorder = {
+			male = {
+                "gfx/leaders/NERUBIAN/nerubian_1.dds"
+                "gfx/leaders/NERUBIAN/nerubian_2.dds"
+                "gfx/leaders/NERUBIAN/nerubian_3.dds"
+                "gfx/leaders/NERUBIAN/nerubian_4.dds"
+                "gfx/leaders/NERUBIAN/nerubian_5.dds"
+                "gfx/leaders/NERUBIAN/nerubian_6.dds"
+                "gfx/leaders/NERUBIAN/nerubian_7.dds"
+                "gfx/leaders/NERUBIAN/nerubian_8.dds"
+                "gfx/leaders/NERUBIAN/nerubian_9.dds"
+                "gfx/leaders/NERUBIAN/nerubian_10.dds"
+            }
+            female = {
+                "gfx/leaders/NERUBIAN/nerubian_1.dds"
+                "gfx/leaders/NERUBIAN/nerubian_2.dds"
+                "gfx/leaders/NERUBIAN/nerubian_3.dds"
+                "gfx/leaders/NERUBIAN/nerubian_4.dds"
+                "gfx/leaders/NERUBIAN/nerubian_5.dds"
+                "gfx/leaders/NERUBIAN/nerubian_6.dds"
+                "gfx/leaders/NERUBIAN/nerubian_7.dds"
+                "gfx/leaders/NERUBIAN/nerubian_8.dds"
+                "gfx/leaders/NERUBIAN/nerubian_9.dds"
+                "gfx/leaders/NERUBIAN/nerubian_10.dds"
+            }
+		}
+        life = {
+			male = {
+                "gfx/leaders/NERUBIAN/nerubian_1.dds"
+                "gfx/leaders/NERUBIAN/nerubian_2.dds"
+                "gfx/leaders/NERUBIAN/nerubian_3.dds"
+                "gfx/leaders/NERUBIAN/nerubian_4.dds"
+                "gfx/leaders/NERUBIAN/nerubian_5.dds"
+                "gfx/leaders/NERUBIAN/nerubian_6.dds"
+                "gfx/leaders/NERUBIAN/nerubian_7.dds"
+                "gfx/leaders/NERUBIAN/nerubian_8.dds"
+                "gfx/leaders/NERUBIAN/nerubian_9.dds"
+                "gfx/leaders/NERUBIAN/nerubian_10.dds"
+            }
+            female = {
+                "gfx/leaders/NERUBIAN/nerubian_1.dds"
+                "gfx/leaders/NERUBIAN/nerubian_2.dds"
+                "gfx/leaders/NERUBIAN/nerubian_3.dds"
+                "gfx/leaders/NERUBIAN/nerubian_4.dds"
+                "gfx/leaders/NERUBIAN/nerubian_5.dds"
+                "gfx/leaders/NERUBIAN/nerubian_6.dds"
+                "gfx/leaders/NERUBIAN/nerubian_7.dds"
+                "gfx/leaders/NERUBIAN/nerubian_8.dds"
+                "gfx/leaders/NERUBIAN/nerubian_9.dds"
+                "gfx/leaders/NERUBIAN/nerubian_10.dds"
+            }
+		}
+        death = {
+			male = {
+                "gfx/leaders/NERUBIAN/nerubian_1.dds"
+                "gfx/leaders/NERUBIAN/nerubian_2.dds"
+                "gfx/leaders/NERUBIAN/nerubian_3.dds"
+                "gfx/leaders/NERUBIAN/nerubian_4.dds"
+                "gfx/leaders/NERUBIAN/nerubian_5.dds"
+                "gfx/leaders/NERUBIAN/nerubian_6.dds"
+                "gfx/leaders/NERUBIAN/nerubian_7.dds"
+                "gfx/leaders/NERUBIAN/nerubian_8.dds"
+                "gfx/leaders/NERUBIAN/nerubian_9.dds"
+                "gfx/leaders/NERUBIAN/nerubian_10.dds"
+            }
+            female = {
+                "gfx/leaders/NERUBIAN/nerubian_1.dds"
+                "gfx/leaders/NERUBIAN/nerubian_2.dds"
+                "gfx/leaders/NERUBIAN/nerubian_3.dds"
+                "gfx/leaders/NERUBIAN/nerubian_4.dds"
+                "gfx/leaders/NERUBIAN/nerubian_5.dds"
+                "gfx/leaders/NERUBIAN/nerubian_6.dds"
+                "gfx/leaders/NERUBIAN/nerubian_7.dds"
+                "gfx/leaders/NERUBIAN/nerubian_8.dds"
+                "gfx/leaders/NERUBIAN/nerubian_9.dds"
+                "gfx/leaders/NERUBIAN/nerubian_10.dds"
+            }
+		}
+        unaligned = {
+			male = {
+                "gfx/leaders/NERUBIAN/nerubian_1.dds"
+                "gfx/leaders/NERUBIAN/nerubian_2.dds"
+                "gfx/leaders/NERUBIAN/nerubian_3.dds"
+                "gfx/leaders/NERUBIAN/nerubian_4.dds"
+                "gfx/leaders/NERUBIAN/nerubian_5.dds"
+                "gfx/leaders/NERUBIAN/nerubian_6.dds"
+                "gfx/leaders/NERUBIAN/nerubian_7.dds"
+                "gfx/leaders/NERUBIAN/nerubian_8.dds"
+                "gfx/leaders/NERUBIAN/nerubian_9.dds"
+                "gfx/leaders/NERUBIAN/nerubian_10.dds"
+            }
+            female = {
+                "gfx/leaders/NERUBIAN/nerubian_1.dds"
+                "gfx/leaders/NERUBIAN/nerubian_2.dds"
+                "gfx/leaders/NERUBIAN/nerubian_3.dds"
+                "gfx/leaders/NERUBIAN/nerubian_4.dds"
+                "gfx/leaders/NERUBIAN/nerubian_5.dds"
+                "gfx/leaders/NERUBIAN/nerubian_6.dds"
+                "gfx/leaders/NERUBIAN/nerubian_7.dds"
+                "gfx/leaders/NERUBIAN/nerubian_8.dds"
+                "gfx/leaders/NERUBIAN/nerubian_9.dds"
+                "gfx/leaders/NERUBIAN/nerubian_10.dds"
+            }
+		}
+	}
+}

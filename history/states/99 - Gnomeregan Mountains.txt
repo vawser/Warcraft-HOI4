@@ -1,0 +1,15 @@
+state = {
+	id = 99
+	name = "GNOMEREGAN_MOUNTAINS"
+	manpower = 26
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = GNO
+	}
+
+	provinces = {
+        1805 1824 1850 2614 2625 
+    }
+}

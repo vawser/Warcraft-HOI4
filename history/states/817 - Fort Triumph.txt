@@ -1,0 +1,54 @@
+state = {
+	id = 817
+	name = "THE_CHARRED_VALLEY"
+	manpower = 4187
+	state_category = village
+
+	resources = {
+		oil = 1
+		flying_beast = 9
+		steel = 8
+		food = 29
+	}
+
+	history = {
+		owner = BIS
+		add_core_of = BIS
+        
+        612.1.1 = {
+            set_state_name = FORT_TRIUMPH
+        }
+
+		buildings = {
+			infrastructure = 2
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 6
+			industrial_complex = 2
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			5013 = {
+				bunker = 0
+			}
+			5033 = {
+				bunker = 0
+			}
+			5090 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        5013 5033 5090 
+    }
+}

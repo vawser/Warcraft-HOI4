@@ -1,0 +1,72 @@
+state = {
+	id = 307
+	name = "GANSHI_SHORES"
+	manpower = 946
+	state_category = island
+
+	resources = {
+		oil = 4
+		ground_beast = 4
+		flying_beast = 3
+		wood = 2
+		steel = 4
+		food = 22
+	}
+
+	history = {
+		owner = OON
+		add_core_of = OON
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 1
+			industrial_complex = 0
+			dockyard = 1
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			6374 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 9
+			}
+			6508 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 5
+			}
+			6510 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 4
+			}
+			6527 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 2
+			}
+			6530 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 3
+			}
+		}
+	}
+
+	provinces = {
+        6374 6508 6510 6527 6530
+    }
+}

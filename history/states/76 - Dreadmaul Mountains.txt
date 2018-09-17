@@ -1,0 +1,21 @@
+state = {
+	id = 76
+	name = "DEADMANS_PEAK"
+	manpower = 26
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = TTH
+
+        # The Third War
+        612.1.1 = {
+            owner = DWO
+            set_state_name = DREADMAUL_MT
+        }
+	}
+
+	provinces = {
+        2569 2574 2740 2742 2767 
+    }
+}

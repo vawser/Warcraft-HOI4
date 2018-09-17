@@ -1,0 +1,61 @@
+state = {
+	id = 649
+	name = "DUNES_OF_SAARI"
+	manpower = 766
+	state_category = rural
+
+	resources = {
+		oil = 11
+		ground_beast = 5
+		flying_beast = 9
+		wood = 3
+		steel = 2
+		food = 2
+	}
+
+	history = {
+		owner = RAM
+		add_core_of = RAM
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 2
+			industrial_complex = 1
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			3424 = {
+				bunker = 0
+			}
+			3486 = {
+				bunker = 0
+			}
+			3509 = {
+				bunker = 0
+			}
+			3515 = {
+				bunker = 0
+			}
+			3543 = {
+				bunker = 0
+			}
+			3618 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        3424 3486 3509 3515 3543 3618 
+    }
+}

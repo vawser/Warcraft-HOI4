@@ -1,0 +1,74 @@
+state = {
+	id = 525
+	name = "GREEN_DRAGONSHIRE"
+	manpower = 8107
+	state_category = town
+
+	resources = {
+		oil = 3
+		ground_beast = 4
+		flying_beast = 8
+		wood = 2
+		food = 28
+	}
+
+	history = {
+		owner = EDS
+		add_core_of = EDS
+
+        # The Third War
+        612.1.1 = {
+            owner = SCO
+            add_core_of = SCO
+        }
+        
+		buildings = {
+			infrastructure = 5
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 4
+			industrial_complex = 1
+			dockyard = 6
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			5325 = {
+				bunker = 4
+				coastal_bunker = 6
+				naval_base = 8
+			}
+			5336 = {
+				bunker = 3
+				coastal_bunker = 5
+				naval_base = 2
+			}
+			6184 = {
+				bunker = 7
+			}
+			6231 = {
+				bunker = 3
+			}
+			6256 = {
+				bunker = 6
+			}
+			6267 = {
+				bunker = 8
+			}
+		}
+	}
+
+	provinces = {
+        5325 5336 6184 6231 6256 6267 
+    }
+}

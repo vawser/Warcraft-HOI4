@@ -1,0 +1,15 @@
+state = {
+	id = 1049
+	name = "TUNDRID_PEAK"
+	manpower = 7
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = IRO
+	}
+
+	provinces = {
+        2602
+    }
+}

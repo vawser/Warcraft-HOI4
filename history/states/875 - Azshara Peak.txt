@@ -1,0 +1,15 @@
+state = {
+	id = 875
+	name = "AZSHARA_PEAK"
+	manpower = 47
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = HAL
+	}
+
+	provinces = {
+        4317 4334 4350 4372 4408 
+    }
+}

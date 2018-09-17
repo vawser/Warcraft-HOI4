@@ -1,0 +1,52 @@
+state = {
+	id = 189
+	name = "THE_SEPULCHER"
+	manpower = 1872
+	state_category = village
+
+	resources = {
+		oil = 1
+		ground_beast = 7
+		flying_beast = 3
+		wood = 19
+		steel = 2
+		food = 15
+	}
+
+	history = {
+		owner = SWN
+        add_core_of = SWN
+
+		buildings = {
+			infrastructure = 3
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 5
+			industrial_complex = 1
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			2115 = {
+				bunker = 0
+			}
+			2172 = {
+				bunker = 0
+			}
+			2194 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        2115 2172 2194
+    }
+}

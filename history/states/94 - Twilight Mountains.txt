@@ -1,0 +1,15 @@
+state = {
+	id = 94
+	name = "TWILIGHT_MOUNTAINS_MT"
+	manpower = 2
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = JEL
+	}
+
+	provinces = {
+        1835 1903 2629 2750
+    }
+}

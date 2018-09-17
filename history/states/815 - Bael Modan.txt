@@ -1,0 +1,57 @@
+state = {
+	id = 815
+	name = "BAEL_MODAN"
+	manpower = 2911
+	state_category = village
+
+	resources = {
+		oil = 14
+		ground_beast = 8
+		flying_beast = 8
+		steel = 2
+		food = 4
+	}
+
+	history = {
+		owner = SPR
+		add_core_of = SPR
+
+		buildings = {
+			infrastructure = 3
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 8
+			industrial_complex = 1
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			4273 = {
+				bunker = 0
+			}
+			4278 = {
+				bunker = 0
+			}
+			4281 = {
+				bunker = 0
+			}
+			4285 = {
+				bunker = 0
+			}
+			5091 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        4273 4278 4281 4285 5091 
+    }
+}

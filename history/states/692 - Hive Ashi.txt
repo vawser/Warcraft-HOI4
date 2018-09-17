@@ -1,0 +1,58 @@
+state = {
+	id = 692
+	name = "HIVE_ASHI"
+	manpower = 1315
+	state_category = village
+
+	resources = {
+		oil = 11
+		ground_beast = 5
+		flying_beast = 1
+		wood = 4
+		steel = 3
+		food = 2
+	}
+
+	history = {
+		owner = AQJ
+		add_core_of = AQJ
+
+		buildings = {
+			infrastructure = 3
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 4
+			industrial_complex = 1
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			3445 = {
+				bunker = 0
+			}
+			3473 = {
+				bunker = 0
+			}
+			3502 = {
+				bunker = 0
+			}
+			3559 = {
+				bunker = 0
+			}
+			3586 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        3445 3473 3502 3559 3586 
+    }
+}

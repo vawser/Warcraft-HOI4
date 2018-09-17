@@ -1,0 +1,54 @@
+state = {
+	id = 718
+	name = "GADGETZAN"
+	manpower = 15692
+	state_category = city
+
+	resources = {
+		oil = 16
+		ground_beast = 5
+		wood = 4
+		steel = 5
+		food = 3
+	}
+
+	history = {
+		owner = SMW
+		add_core_of = SMW
+
+		buildings = {
+			infrastructure = 8
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 8
+			industrial_complex = 10
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			3415 = {
+				bunker = 2
+			}
+			3435 = {
+				bunker = 3
+			}
+			3443 = {
+				bunker = 4
+			}
+			3492 = {
+				bunker = 9
+			}
+		}
+	}
+
+	provinces = {
+        3415 3435 3443 3492
+    }
+}

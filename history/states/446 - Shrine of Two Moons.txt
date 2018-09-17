@@ -1,0 +1,49 @@
+state = {
+	id = 446
+	name = "SHRINE_OF_TWO_MOONS"
+	manpower = 17807
+	state_category = city
+
+	resources = {
+		oil = 2
+		ground_beast = 1
+		flying_beast = 7
+		wood = 26
+		steel = 3
+		food = 16
+	}
+
+	history = {
+		owner = MOH
+		add_core_of = MOH
+
+		buildings = {
+			infrastructure = 8
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 10
+			industrial_complex = 7
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			6641 = {
+				bunker = 3
+			}
+			6649 = {
+				bunker = 2
+			}
+		}
+	}
+
+	provinces = {
+        6641 6649 
+    }
+}

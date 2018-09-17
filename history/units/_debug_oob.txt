@@ -1,0 +1,311 @@
+﻿division_template = {
+	name = "Grunt Debug"
+
+	regiments = {
+		grunt = { x = 0 y = 0 }
+		grunt = { x = 0 y = 1 }
+		grunt = { x = 0 y = 2 }
+        grunt = { x = 0 y = 3 }
+        grunt = { x = 0 y = 4 }
+
+        grunt = { x = 1 y = 0 }
+		grunt = { x = 1 y = 1 }
+		grunt = { x = 1 y = 2 }
+        grunt = { x = 1 y = 3 }
+        grunt = { x = 1 y = 4 }
+        
+        grunt = { x = 2 y = 0 }
+		grunt = { x = 2 y = 1 }
+		grunt = { x = 2 y = 2 }
+        grunt = { x = 2 y = 3 }
+        grunt = { x = 2 y = 4 }
+        
+        grunt = { x = 3 y = 0 }
+		grunt = { x = 3 y = 1 }
+		grunt = { x = 3 y = 2 }
+        grunt = { x = 3 y = 3 }
+        grunt = { x = 3 y = 4 }
+        
+        grunt = { x = 4 y = 0 }
+		grunt = { x = 4 y = 1 }
+		grunt = { x = 4 y = 2 }
+        grunt = { x = 4 y = 3 }
+        grunt = { x = 4 y = 4 }
+	}
+	support = {
+        
+	}
+}
+
+division_template = {
+	name = "Champion Debug"
+
+	regiments = {
+		champion = { x = 0 y = 0 }
+		champion = { x = 0 y = 1 }
+		champion = { x = 0 y = 2 }
+        champion = { x = 0 y = 3 }
+        champion = { x = 0 y = 4 }
+
+        champion = { x = 1 y = 0 }
+		champion = { x = 1 y = 1 }
+		champion = { x = 1 y = 2 }
+        champion = { x = 1 y = 3 }
+        champion = { x = 1 y = 4 }
+        
+        champion = { x = 2 y = 0 }
+		champion = { x = 2 y = 1 }
+		champion = { x = 2 y = 2 }
+        champion = { x = 2 y = 3 }
+        champion = { x = 2 y = 4 }
+        
+        champion = { x = 3 y = 0 }
+		champion = { x = 3 y = 1 }
+		champion = { x = 3 y = 2 }
+        champion = { x = 3 y = 3 }
+        champion = { x = 3 y = 4 }
+        
+        champion = { x = 4 y = 0 }
+		champion = { x = 4 y = 1 }
+		champion = { x = 4 y = 2 }
+        champion = { x = 4 y = 3 }
+        champion = { x = 4 y = 4 }
+	}
+	support = {
+        
+	}
+}
+
+division_template = {
+	name = "Spellcaster Debug"
+
+	regiments = {
+		spellcaster = { x = 0 y = 0 }
+		spellcaster = { x = 0 y = 1 }
+		spellcaster = { x = 0 y = 2 }
+        spellcaster = { x = 0 y = 3 }
+        spellcaster = { x = 0 y = 4 }
+
+        spellcaster = { x = 1 y = 0 }
+		spellcaster = { x = 1 y = 1 }
+		spellcaster = { x = 1 y = 2 }
+        spellcaster = { x = 1 y = 3 }
+        spellcaster = { x = 1 y = 4 }
+        
+        spellcaster = { x = 2 y = 0 }
+		spellcaster = { x = 2 y = 1 }
+		spellcaster = { x = 2 y = 2 }
+        spellcaster = { x = 2 y = 3 }
+        spellcaster = { x = 2 y = 4 }
+        
+        spellcaster = { x = 3 y = 0 }
+		spellcaster = { x = 3 y = 1 }
+		spellcaster = { x = 3 y = 2 }
+        spellcaster = { x = 3 y = 3 }
+        spellcaster = { x = 3 y = 4 }
+        
+        spellcaster = { x = 4 y = 0 }
+		spellcaster = { x = 4 y = 1 }
+		spellcaster = { x = 4 y = 2 }
+        spellcaster = { x = 4 y = 3 }
+        spellcaster = { x = 4 y = 4 }
+	}
+	support = {
+        
+	}
+}
+
+division_template = {
+	name = "Archer Debug"
+
+	regiments = {
+		archer = { x = 0 y = 0 }
+		archer = { x = 0 y = 1 }
+		archer = { x = 0 y = 2 }
+        archer = { x = 0 y = 3 }
+        archer = { x = 0 y = 4 }
+
+        archer = { x = 1 y = 0 }
+		archer = { x = 1 y = 1 }
+		archer = { x = 1 y = 2 }
+        archer = { x = 1 y = 3 }
+        archer = { x = 1 y = 4 }
+        
+        archer = { x = 2 y = 0 }
+		archer = { x = 2 y = 1 }
+		archer = { x = 2 y = 2 }
+        archer = { x = 2 y = 3 }
+        archer = { x = 2 y = 4 }
+        
+        archer = { x = 3 y = 0 }
+		archer = { x = 3 y = 1 }
+		archer = { x = 3 y = 2 }
+        archer = { x = 3 y = 3 }
+        archer = { x = 3 y = 4 }
+        
+        archer = { x = 4 y = 0 }
+		archer = { x = 4 y = 1 }
+		archer = { x = 4 y = 2 }
+        archer = { x = 4 y = 3 }
+        archer = { x = 4 y = 4 }
+	}
+	support = {
+        
+	}
+}
+
+division_template = {
+	name = "Light Cav. Debug"
+
+	regiments = {
+		light_cavalry = { x = 0 y = 0 }
+		light_cavalry = { x = 0 y = 1 }
+		light_cavalry = { x = 0 y = 2 }
+        light_cavalry = { x = 0 y = 3 }
+        light_cavalry = { x = 0 y = 4 }
+
+        light_cavalry = { x = 1 y = 0 }
+		light_cavalry = { x = 1 y = 1 }
+		light_cavalry = { x = 1 y = 2 }
+        light_cavalry = { x = 1 y = 3 }
+        light_cavalry = { x = 1 y = 4 }
+        
+        light_cavalry = { x = 2 y = 0 }
+		light_cavalry = { x = 2 y = 1 }
+		light_cavalry = { x = 2 y = 2 }
+        light_cavalry = { x = 2 y = 3 }
+        light_cavalry = { x = 2 y = 4 }
+        
+        light_cavalry = { x = 3 y = 0 }
+		light_cavalry = { x = 3 y = 1 }
+		light_cavalry = { x = 3 y = 2 }
+        light_cavalry = { x = 3 y = 3 }
+        light_cavalry = { x = 3 y = 4 }
+        
+        light_cavalry = { x = 4 y = 0 }
+		light_cavalry = { x = 4 y = 1 }
+		light_cavalry = { x = 4 y = 2 }
+        light_cavalry = { x = 4 y = 3 }
+        light_cavalry = { x = 4 y = 4 }
+	}
+	support = {
+        
+	}
+}
+
+division_template = {
+	name = "Heavy Cav. Debug"
+
+	regiments = {
+		heavy_cavalry = { x = 0 y = 0 }
+		heavy_cavalry = { x = 0 y = 1 }
+		heavy_cavalry = { x = 0 y = 2 }
+        heavy_cavalry = { x = 0 y = 3 }
+        heavy_cavalry = { x = 0 y = 4 }
+
+        heavy_cavalry = { x = 1 y = 0 }
+		heavy_cavalry = { x = 1 y = 1 }
+		heavy_cavalry = { x = 1 y = 2 }
+        heavy_cavalry = { x = 1 y = 3 }
+        heavy_cavalry = { x = 1 y = 4 }
+        
+        heavy_cavalry = { x = 2 y = 0 }
+		heavy_cavalry = { x = 2 y = 1 }
+		heavy_cavalry = { x = 2 y = 2 }
+        heavy_cavalry = { x = 2 y = 3 }
+        heavy_cavalry = { x = 2 y = 4 }
+        
+        heavy_cavalry = { x = 3 y = 0 }
+		heavy_cavalry = { x = 3 y = 1 }
+		heavy_cavalry = { x = 3 y = 2 }
+        heavy_cavalry = { x = 3 y = 3 }
+        heavy_cavalry = { x = 3 y = 4 }
+        
+        heavy_cavalry = { x = 4 y = 0 }
+		heavy_cavalry = { x = 4 y = 1 }
+		heavy_cavalry = { x = 4 y = 2 }
+        heavy_cavalry = { x = 4 y = 3 }
+        heavy_cavalry = { x = 4 y = 4 }
+	}
+	support = {
+        
+	}
+}
+
+division_template = {
+	name = "Light Tank Debug"
+
+	regiments = {
+		light_tank = { x = 0 y = 0 }
+		light_tank = { x = 0 y = 1 }
+		light_tank = { x = 0 y = 2 }
+        light_tank = { x = 0 y = 3 }
+        light_tank = { x = 0 y = 4 }
+
+        light_tank = { x = 1 y = 0 }
+		light_tank = { x = 1 y = 1 }
+		light_tank = { x = 1 y = 2 }
+        light_tank = { x = 1 y = 3 }
+        light_tank = { x = 1 y = 4 }
+        
+        light_tank = { x = 2 y = 0 }
+		light_tank = { x = 2 y = 1 }
+		light_tank = { x = 2 y = 2 }
+        light_tank = { x = 2 y = 3 }
+        light_tank = { x = 2 y = 4 }
+        
+        light_tank = { x = 3 y = 0 }
+		light_tank = { x = 3 y = 1 }
+		light_tank = { x = 3 y = 2 }
+        light_tank = { x = 3 y = 3 }
+        light_tank = { x = 3 y = 4 }
+        
+        light_tank = { x = 4 y = 0 }
+		light_tank = { x = 4 y = 1 }
+		light_tank = { x = 4 y = 2 }
+        light_tank = { x = 4 y = 3 }
+        light_tank = { x = 4 y = 4 }
+	}
+	support = {
+        
+	}
+}
+
+division_template = {
+	name = "Heavy Tank Debug"
+
+	regiments = {
+		heavy_tank = { x = 0 y = 0 }
+		heavy_tank = { x = 0 y = 1 }
+		heavy_tank = { x = 0 y = 2 }
+        heavy_tank = { x = 0 y = 3 }
+        heavy_tank = { x = 0 y = 4 }
+
+        heavy_tank = { x = 1 y = 0 }
+		heavy_tank = { x = 1 y = 1 }
+		heavy_tank = { x = 1 y = 2 }
+        heavy_tank = { x = 1 y = 3 }
+        heavy_tank = { x = 1 y = 4 }
+        
+        heavy_tank = { x = 2 y = 0 }
+		heavy_tank = { x = 2 y = 1 }
+		heavy_tank = { x = 2 y = 2 }
+        heavy_tank = { x = 2 y = 3 }
+        heavy_tank = { x = 2 y = 4 }
+        
+        heavy_tank = { x = 3 y = 0 }
+		heavy_tank = { x = 3 y = 1 }
+		heavy_tank = { x = 3 y = 2 }
+        heavy_tank = { x = 3 y = 3 }
+        heavy_tank = { x = 3 y = 4 }
+        
+        heavy_tank = { x = 4 y = 0 }
+		heavy_tank = { x = 4 y = 1 }
+		heavy_tank = { x = 4 y = 2 }
+        heavy_tank = { x = 4 y = 3 }
+        heavy_tank = { x = 4 y = 4 }
+	}
+	support = {
+        
+	}
+}

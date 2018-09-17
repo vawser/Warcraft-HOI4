@@ -1,0 +1,15 @@
+state = {
+	id = 1106
+	name = "TEMPLE_OF_STORMS"
+	manpower = 40
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = HYL
+	}
+
+	provinces = {
+        5903
+    }
+}

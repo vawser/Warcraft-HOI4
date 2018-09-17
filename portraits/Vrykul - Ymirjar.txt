@@ -1,0 +1,132 @@
+YMI = {
+	army = {
+		male = {
+			"gfx/leaders/VRYKUL/vrykul_male_1.dds"
+			"gfx/leaders/VRYKUL/vrykul_male_2.dds"
+            "gfx/leaders/VRYKUL/vrykul_male_3.dds"
+            "gfx/leaders/VRYKUL/vrykul_male_4.dds"
+            "gfx/leaders/VRYKUL/vrykul_male_5.dds"
+            "gfx/leaders/VRYKUL/vrykul_male_6.dds"
+            "gfx/leaders/VRYKUL/vrykul_male_7.dds"
+            "gfx/leaders/VRYKUL/vrykul_male_8.dds"
+            "gfx/leaders/VRYKUL/vrykul_male_9.dds"
+            "gfx/leaders/VRYKUL/vrykul_male_10.dds"    
+		}
+	}
+
+	navy = {
+		male = {
+			"gfx/leaders/VRYKUL/vrykul_male_1.dds"
+			"gfx/leaders/VRYKUL/vrykul_male_2.dds"
+            "gfx/leaders/VRYKUL/vrykul_male_3.dds"
+            "gfx/leaders/VRYKUL/vrykul_male_4.dds"
+            "gfx/leaders/VRYKUL/vrykul_male_5.dds"
+            "gfx/leaders/VRYKUL/vrykul_male_6.dds"
+            "gfx/leaders/VRYKUL/vrykul_male_7.dds"
+            "gfx/leaders/VRYKUL/vrykul_male_8.dds"
+            "gfx/leaders/VRYKUL/vrykul_male_9.dds"
+            "gfx/leaders/VRYKUL/vrykul_male_10.dds"    
+		}
+	}
+
+	political = {
+		light = {
+			male = {
+                "gfx/leaders/VRYKUL/vrykul_male_1.dds"
+                "gfx/leaders/VRYKUL/vrykul_male_2.dds"
+                "gfx/leaders/VRYKUL/vrykul_male_3.dds"
+                "gfx/leaders/VRYKUL/vrykul_male_4.dds"
+                "gfx/leaders/VRYKUL/vrykul_male_5.dds"
+                "gfx/leaders/VRYKUL/vrykul_male_6.dds"
+                "gfx/leaders/VRYKUL/vrykul_male_7.dds"
+                "gfx/leaders/VRYKUL/vrykul_male_8.dds"
+                "gfx/leaders/VRYKUL/vrykul_male_9.dds"
+                "gfx/leaders/VRYKUL/vrykul_male_10.dds"    
+            }
+		}
+		shadow = {
+			male = {
+                "gfx/leaders/VRYKUL/vrykul_male_1.dds"
+                "gfx/leaders/VRYKUL/vrykul_male_2.dds"
+                "gfx/leaders/VRYKUL/vrykul_male_3.dds"
+                "gfx/leaders/VRYKUL/vrykul_male_4.dds"
+                "gfx/leaders/VRYKUL/vrykul_male_5.dds"
+                "gfx/leaders/VRYKUL/vrykul_male_6.dds"
+                "gfx/leaders/VRYKUL/vrykul_male_7.dds"
+                "gfx/leaders/VRYKUL/vrykul_male_8.dds"
+                "gfx/leaders/VRYKUL/vrykul_male_9.dds"
+                "gfx/leaders/VRYKUL/vrykul_male_10.dds"    
+            }
+		}
+        order = {
+			male = {
+                "gfx/leaders/VRYKUL/vrykul_male_1.dds"
+                "gfx/leaders/VRYKUL/vrykul_male_2.dds"
+                "gfx/leaders/VRYKUL/vrykul_male_3.dds"
+                "gfx/leaders/VRYKUL/vrykul_male_4.dds"
+                "gfx/leaders/VRYKUL/vrykul_male_5.dds"
+                "gfx/leaders/VRYKUL/vrykul_male_6.dds"
+                "gfx/leaders/VRYKUL/vrykul_male_7.dds"
+                "gfx/leaders/VRYKUL/vrykul_male_8.dds"
+                "gfx/leaders/VRYKUL/vrykul_male_9.dds"
+                "gfx/leaders/VRYKUL/vrykul_male_10.dds"    
+            }
+		}
+        disorder = {
+			male = {
+                "gfx/leaders/VRYKUL/vrykul_male_1.dds"
+                "gfx/leaders/VRYKUL/vrykul_male_2.dds"
+                "gfx/leaders/VRYKUL/vrykul_male_3.dds"
+                "gfx/leaders/VRYKUL/vrykul_male_4.dds"
+                "gfx/leaders/VRYKUL/vrykul_male_5.dds"
+                "gfx/leaders/VRYKUL/vrykul_male_6.dds"
+                "gfx/leaders/VRYKUL/vrykul_male_7.dds"
+                "gfx/leaders/VRYKUL/vrykul_male_8.dds"
+                "gfx/leaders/VRYKUL/vrykul_male_9.dds"
+                "gfx/leaders/VRYKUL/vrykul_male_10.dds"    
+            }
+		}
+        life = {
+			male = {
+                "gfx/leaders/VRYKUL/vrykul_male_1.dds"
+                "gfx/leaders/VRYKUL/vrykul_male_2.dds"
+                "gfx/leaders/VRYKUL/vrykul_male_3.dds"
+                "gfx/leaders/VRYKUL/vrykul_male_4.dds"
+                "gfx/leaders/VRYKUL/vrykul_male_5.dds"
+                "gfx/leaders/VRYKUL/vrykul_male_6.dds"
+                "gfx/leaders/VRYKUL/vrykul_male_7.dds"
+                "gfx/leaders/VRYKUL/vrykul_male_8.dds"
+                "gfx/leaders/VRYKUL/vrykul_male_9.dds"
+                "gfx/leaders/VRYKUL/vrykul_male_10.dds"    
+            }
+		}
+        death = {
+			male = {
+                "gfx/leaders/VRYKUL/vrykul_male_1.dds"
+                "gfx/leaders/VRYKUL/vrykul_male_2.dds"
+                "gfx/leaders/VRYKUL/vrykul_male_3.dds"
+                "gfx/leaders/VRYKUL/vrykul_male_4.dds"
+                "gfx/leaders/VRYKUL/vrykul_male_5.dds"
+                "gfx/leaders/VRYKUL/vrykul_male_6.dds"
+                "gfx/leaders/VRYKUL/vrykul_male_7.dds"
+                "gfx/leaders/VRYKUL/vrykul_male_8.dds"
+                "gfx/leaders/VRYKUL/vrykul_male_9.dds"
+                "gfx/leaders/VRYKUL/vrykul_male_10.dds"    
+            }
+		}
+        unaligned = {
+			male = {
+                "gfx/leaders/VRYKUL/vrykul_male_1.dds"
+                "gfx/leaders/VRYKUL/vrykul_male_2.dds"
+                "gfx/leaders/VRYKUL/vrykul_male_3.dds"
+                "gfx/leaders/VRYKUL/vrykul_male_4.dds"
+                "gfx/leaders/VRYKUL/vrykul_male_5.dds"
+                "gfx/leaders/VRYKUL/vrykul_male_6.dds"
+                "gfx/leaders/VRYKUL/vrykul_male_7.dds"
+                "gfx/leaders/VRYKUL/vrykul_male_8.dds"
+                "gfx/leaders/VRYKUL/vrykul_male_9.dds"
+                "gfx/leaders/VRYKUL/vrykul_male_10.dds"    
+            }
+		}
+	}
+}

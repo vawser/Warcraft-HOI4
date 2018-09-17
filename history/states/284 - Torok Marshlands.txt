@@ -1,0 +1,62 @@
+state = {
+	id = 284
+	name = "TOROK_MARSHLANDS"
+	manpower = 13098
+	state_category = city
+
+	resources = {
+		ground_beast = 3
+		flying_beast = 6
+		wood = 8
+		steel = 7
+		food = 18
+	}
+
+	history = {
+        owner = BOT
+		add_core_of = BOT
+
+		buildings = {
+			infrastructure = 8
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 4
+			industrial_complex = 3
+			dockyard = 6
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			7045 = {
+				bunker = 8
+				coastal_bunker = 3
+				naval_base = 5
+			}
+			7074 = {
+				bunker = 2
+				coastal_bunker = 4
+				naval_base = 5
+			}
+			7113 = {
+				bunker = 7
+			}
+			7118 = {
+				bunker = 8
+			}
+		}
+	}
+
+	provinces = {
+        7045 7074 7113 7118 
+    }
+}

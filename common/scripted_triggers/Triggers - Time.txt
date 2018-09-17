@@ -1,0 +1,996 @@
+#-------------------------------------------------------------------------------
+# Time
+#-------------------------------------------------------------------------------
+# These are the time triggers generated with the time system.
+
+# Triggers:
+# is_spring
+# is_summer
+# is_autumn
+# is_winter
+
+# is_january
+# is_february
+# is_march
+# is_april
+# is_may
+# is_june
+# is_july
+# iS_august
+# is_september
+# is_october
+# is_november
+# is_december
+
+# is_monday
+# is_tuesday
+# is_wednesday
+# is_thursday
+# is_friday
+# is_saturday
+# is_sunday
+
+# Days
+is_monday = {
+    custom_trigger_tooltip = {
+        tooltip = IS_MONDAY
+        
+        OR = {
+            AND = {
+                is_january = yes
+                OR = {
+                    check_variable = { global.current_day = 1 }
+                    check_variable = { global.current_day = 8 }
+                    check_variable = { global.current_day = 15 }
+                    check_variable = { global.current_day = 22 }
+                    check_variable = { global.current_day = 29 }
+                }
+            }
+            AND = {
+                is_february = yes
+                OR = {
+                    check_variable = { global.current_day = 5 }
+                    check_variable = { global.current_day = 12 }
+                    check_variable = { global.current_day = 19 }
+                    check_variable = { global.current_day = 26 }
+                }
+            }
+            AND = {
+                is_march = yes
+                OR = {
+                    check_variable = { global.current_day = 5 }
+                    check_variable = { global.current_day = 12 }
+                    check_variable = { global.current_day = 19 }
+                    check_variable = { global.current_day = 26 }
+                }
+            }
+            AND = {
+                is_april = yes
+                OR = {
+                    check_variable = { global.current_day = 2 }
+                    check_variable = { global.current_day = 9 }
+                    check_variable = { global.current_day = 16 }
+                    check_variable = { global.current_day = 23 }
+                    check_variable = { global.current_day = 30 }
+                }
+            }
+            AND = {
+                is_may = yes
+                OR = {
+                    check_variable = { global.current_day = 7 }
+                    check_variable = { global.current_day = 14 }
+                    check_variable = { global.current_day = 21 }
+                    check_variable = { global.current_day = 28 }
+                }
+            }
+            AND = {
+                is_june = yes
+                OR = {
+                    check_variable = { global.current_day = 4 }
+                    check_variable = { global.current_day = 11 }
+                    check_variable = { global.current_day = 18 }
+                    check_variable = { global.current_day = 25 }
+                }
+            }
+            AND = {
+                is_july = yes
+                OR = {
+                    check_variable = { global.current_day = 2 }
+                    check_variable = { global.current_day = 9 }
+                    check_variable = { global.current_day = 16 }
+                    check_variable = { global.current_day = 23 }
+                    check_variable = { global.current_day = 30 }
+                }
+            }
+            AND = {
+                is_august = yes
+                OR = {
+                    check_variable = { global.current_day = 6 }
+                    check_variable = { global.current_day = 13 }
+                    check_variable = { global.current_day = 20 }
+                    check_variable = { global.current_day = 27 }
+                }
+            }
+            AND = {
+                is_september = yes
+                OR = {
+                    check_variable = { global.current_day = 3 }
+                    check_variable = { global.current_day = 10 }
+                    check_variable = { global.current_day = 17 }
+                    check_variable = { global.current_day = 24 }
+                }
+            }
+            AND = {
+                is_october = yes
+                OR = {
+                    check_variable = { global.current_day = 1 }
+                    check_variable = { global.current_day = 8 }
+                    check_variable = { global.current_day = 15 }
+                    check_variable = { global.current_day = 22 }
+                    check_variable = { global.current_day = 29 }
+                }
+            }
+            AND = {
+                is_november = yes
+                OR = {
+                    check_variable = { global.current_day = 5 }
+                    check_variable = { global.current_day = 12 }
+                    check_variable = { global.current_day = 19 }
+                    check_variable = { global.current_day = 26 }
+                }
+            }
+            AND = {
+                is_december = yes
+                OR = {
+                    check_variable = { global.current_day = 3 }
+                    check_variable = { global.current_day = 10 }
+                    check_variable = { global.current_day = 17 }
+                    check_variable = { global.current_day = 24 }
+                    check_variable = { global.current_day = 31 }
+                }
+            }
+        }
+    }
+}
+
+is_tuesday = {
+    custom_trigger_tooltip = {
+        tooltip = IS_TUESDAY
+        
+        OR = {
+            AND = {
+                is_january = yes
+                OR = {
+                    check_variable = { global.current_day = 2 }
+                    check_variable = { global.current_day = 9 }
+                    check_variable = { global.current_day = 16 }
+                    check_variable = { global.current_day = 23 }
+                    check_variable = { global.current_day = 30 }
+                }
+            }
+            AND = {
+                is_february = yes
+                OR = {
+                    check_variable = { global.current_day = 6 }
+                    check_variable = { global.current_day = 13 }
+                    check_variable = { global.current_day = 20 }
+                    check_variable = { global.current_day = 27 }
+                }
+            }
+            AND = {
+                is_march = yes
+                OR = {
+                    check_variable = { global.current_day = 6 }
+                    check_variable = { global.current_day = 13 }
+                    check_variable = { global.current_day = 20 }
+                    check_variable = { global.current_day = 27 }
+                }
+            }
+            AND = {
+                is_april = yes
+                OR = {
+                    check_variable = { global.current_day = 3 }
+                    check_variable = { global.current_day = 10 }
+                    check_variable = { global.current_day = 17 }
+                    check_variable = { global.current_day = 24 }
+                }
+            }
+            AND = {
+                is_may = yes
+                OR = {
+                    check_variable = { global.current_day = 1 }
+                    check_variable = { global.current_day = 8 }
+                    check_variable = { global.current_day = 15 }
+                    check_variable = { global.current_day = 22 }
+                    check_variable = { global.current_day = 29 }
+                }
+            }
+            AND = {
+                is_june = yes
+                OR = {
+                    check_variable = { global.current_day = 5 }
+                    check_variable = { global.current_day = 12 }
+                    check_variable = { global.current_day = 19 }
+                    check_variable = { global.current_day = 26 }
+                }
+            }
+            AND = {
+                is_july = yes
+                OR = {
+                    check_variable = { global.current_day = 3 }
+                    check_variable = { global.current_day = 10 }
+                    check_variable = { global.current_day = 17 }
+                    check_variable = { global.current_day = 24 }
+                    check_variable = { global.current_day = 31 }
+                }
+            }
+            AND = {
+                is_august = yes
+                OR = {
+                    check_variable = { global.current_day = 7 }
+                    check_variable = { global.current_day = 14 }
+                    check_variable = { global.current_day = 21 }
+                    check_variable = { global.current_day = 28 }
+                }
+            }
+            AND = {
+                is_september = yes
+                OR = {
+                    check_variable = { global.current_day = 4 }
+                    check_variable = { global.current_day = 11 }
+                    check_variable = { global.current_day = 18 }
+                    check_variable = { global.current_day = 25 }
+                }
+            }
+            AND = {
+                is_october = yes
+                OR = {
+                    check_variable = { global.current_day = 2 }
+                    check_variable = { global.current_day = 9 }
+                    check_variable = { global.current_day = 16 }
+                    check_variable = { global.current_day = 23 }
+                    check_variable = { global.current_day = 30 }
+                }
+            }
+            AND = {
+                is_november = yes
+                OR = {
+                    check_variable = { global.current_day = 6 }
+                    check_variable = { global.current_day = 13 }
+                    check_variable = { global.current_day = 20 }
+                    check_variable = { global.current_day = 27 }
+                }
+            }
+            AND = {
+                is_december = yes
+                OR = {
+                    check_variable = { global.current_day = 4 }
+                    check_variable = { global.current_day = 11 }
+                    check_variable = { global.current_day = 18 }
+                    check_variable = { global.current_day = 25 }
+                }
+            }
+        }
+    }
+}
+
+is_wednesday = {
+    custom_trigger_tooltip = {
+        tooltip = IS_WEDNESDAY
+        
+        OR = {
+            AND = {
+                is_january = yes
+                OR = {
+                    check_variable = { global.current_day = 3 }
+                    check_variable = { global.current_day = 10 }
+                    check_variable = { global.current_day = 17 }
+                    check_variable = { global.current_day = 24 }
+                    check_variable = { global.current_day = 31 }
+                }
+            }
+            AND = {
+                is_february = yes
+                OR = {
+                    check_variable = { global.current_day = 7 }
+                    check_variable = { global.current_day = 14 }
+                    check_variable = { global.current_day = 21 }
+                    check_variable = { global.current_day = 28 }
+                }
+            }
+            AND = {
+                is_march = yes
+                OR = {
+                    check_variable = { global.current_day = 7 }
+                    check_variable = { global.current_day = 14 }
+                    check_variable = { global.current_day = 21 }
+                    check_variable = { global.current_day = 28 }
+                }
+            }
+            AND = {
+                is_april = yes
+                OR = {
+                    check_variable = { global.current_day = 4 }
+                    check_variable = { global.current_day = 11 }
+                    check_variable = { global.current_day = 18 }
+                    check_variable = { global.current_day = 25 }
+                }
+            }
+            AND = {
+                is_may = yes
+                OR = {
+                    check_variable = { global.current_day = 2 }
+                    check_variable = { global.current_day = 9 }
+                    check_variable = { global.current_day = 16 }
+                    check_variable = { global.current_day = 23 }
+                    check_variable = { global.current_day = 30 }
+                }
+            }
+            AND = {
+                is_june = yes
+                OR = {
+                    check_variable = { global.current_day = 6 }
+                    check_variable = { global.current_day = 13 }
+                    check_variable = { global.current_day = 20 }
+                    check_variable = { global.current_day = 27 }
+                }
+            }
+            AND = {
+                is_july = yes
+                OR = {
+                    check_variable = { global.current_day = 4 }
+                    check_variable = { global.current_day = 11 }
+                    check_variable = { global.current_day = 18 }
+                    check_variable = { global.current_day = 25 }
+                }
+            }
+            AND = {
+                is_august = yes
+                OR = {
+                    check_variable = { global.current_day = 1 }
+                    check_variable = { global.current_day = 8 }
+                    check_variable = { global.current_day = 15 }
+                    check_variable = { global.current_day = 22 }
+                    check_variable = { global.current_day = 29 }
+                }
+            }
+            AND = {
+                is_september = yes
+                OR = {
+                    check_variable = { global.current_day = 5 }
+                    check_variable = { global.current_day = 12 }
+                    check_variable = { global.current_day = 19 }
+                    check_variable = { global.current_day = 26 }
+                }
+            }
+            AND = {
+                is_october = yes
+                OR = {
+                    check_variable = { global.current_day = 3 }
+                    check_variable = { global.current_day = 10 }
+                    check_variable = { global.current_day = 17 }
+                    check_variable = { global.current_day = 24 }
+                    check_variable = { global.current_day = 31 }
+                }
+            }
+            AND = {
+                is_november = yes
+                OR = {
+                    check_variable = { global.current_day = 7 }
+                    check_variable = { global.current_day = 14 }
+                    check_variable = { global.current_day = 21 }
+                    check_variable = { global.current_day = 28 }
+                }
+            }
+            AND = {
+                is_december = yes
+                OR = {
+                    check_variable = { global.current_day = 5 }
+                    check_variable = { global.current_day = 12 }
+                    check_variable = { global.current_day = 19 }
+                    check_variable = { global.current_day = 26 }
+                }
+            }
+        }
+    }
+}
+
+is_thursday = {
+    custom_trigger_tooltip = {
+        tooltip = IS_THURSDAY
+        
+        OR = {
+            AND = {
+                is_january = yes
+                OR = {
+                    check_variable = { global.current_day = 4 }
+                    check_variable = { global.current_day = 11 }
+                    check_variable = { global.current_day = 18 }
+                    check_variable = { global.current_day = 25 }
+                }
+            }
+            AND = {
+                is_february = yes
+                OR = {
+                    check_variable = { global.current_day = 1 }
+                    check_variable = { global.current_day = 8 }
+                    check_variable = { global.current_day = 15 }
+                    check_variable = { global.current_day = 22 }
+                }
+            }
+            AND = {
+                is_march = yes
+                OR = {
+                    check_variable = { global.current_day = 1 }
+                    check_variable = { global.current_day = 8 }
+                    check_variable = { global.current_day = 15 }
+                    check_variable = { global.current_day = 22 }
+                    check_variable = { global.current_day = 29 }
+                }
+            }
+            AND = {
+                is_april = yes
+                OR = {
+                    check_variable = { global.current_day = 5 }
+                    check_variable = { global.current_day = 12 }
+                    check_variable = { global.current_day = 19 }
+                    check_variable = { global.current_day = 26 }
+                }
+            }
+            AND = {
+                is_may = yes
+                OR = {
+                    check_variable = { global.current_day = 3 }
+                    check_variable = { global.current_day = 10 }
+                    check_variable = { global.current_day = 17 }
+                    check_variable = { global.current_day = 24 }
+                    check_variable = { global.current_day = 31 }
+                }
+            }
+            AND = {
+                is_june = yes
+                OR = {
+                    check_variable = { global.current_day = 7 }
+                    check_variable = { global.current_day = 14 }
+                    check_variable = { global.current_day = 21 }
+                    check_variable = { global.current_day = 28 }
+                }
+            }
+            AND = {
+                is_july = yes
+                OR = {
+                    check_variable = { global.current_day = 5 }
+                    check_variable = { global.current_day = 12 }
+                    check_variable = { global.current_day = 19 }
+                    check_variable = { global.current_day = 26 }
+                }
+            }
+            AND = {
+                is_august = yes
+                OR = {
+                    check_variable = { global.current_day = 2 }
+                    check_variable = { global.current_day = 9 }
+                    check_variable = { global.current_day = 16 }
+                    check_variable = { global.current_day = 23 }
+                    check_variable = { global.current_day = 30 }
+                }
+            }
+            AND = {
+                is_september = yes
+                OR = {
+                    check_variable = { global.current_day = 6 }
+                    check_variable = { global.current_day = 13 }
+                    check_variable = { global.current_day = 20 }
+                    check_variable = { global.current_day = 27 }
+                }
+            }
+            AND = {
+                is_october = yes
+                OR = {
+                    check_variable = { global.current_day = 4 }
+                    check_variable = { global.current_day = 11 }
+                    check_variable = { global.current_day = 18 }
+                    check_variable = { global.current_day = 25 }
+                }
+            }
+            AND = {
+                is_november = yes
+                OR = {
+                    check_variable = { global.current_day = 1 }
+                    check_variable = { global.current_day = 8 }
+                    check_variable = { global.current_day = 15 }
+                    check_variable = { global.current_day = 22 }
+                    check_variable = { global.current_day = 29 }
+                }
+            }
+            AND = {
+                is_december = yes
+                OR = {
+                    check_variable = { global.current_day = 6 }
+                    check_variable = { global.current_day = 13 }
+                    check_variable = { global.current_day = 20 }
+                    check_variable = { global.current_day = 27 }
+                }
+            }
+        }
+    }
+}
+
+is_friday = {
+    custom_trigger_tooltip = {
+        tooltip = IS_FRIDAY
+        
+        OR = {
+            AND = {
+                is_january = yes
+                OR = {
+                    check_variable = { global.current_day = 5 }
+                    check_variable = { global.current_day = 12 }
+                    check_variable = { global.current_day = 19 }
+                    check_variable = { global.current_day = 26 }
+                }
+            }
+            AND = {
+                is_february = yes
+                OR = {
+                    check_variable = { global.current_day = 2 }
+                    check_variable = { global.current_day = 9 }
+                    check_variable = { global.current_day = 16 }
+                    check_variable = { global.current_day = 23 }
+                }
+            }
+            AND = {
+                is_march = yes
+                OR = {
+                    check_variable = { global.current_day = 2 }
+                    check_variable = { global.current_day = 9 }
+                    check_variable = { global.current_day = 16 }
+                    check_variable = { global.current_day = 23 }
+                    check_variable = { global.current_day = 30 }
+                }
+            }
+            AND = {
+                is_april = yes
+                OR = {
+                    check_variable = { global.current_day = 6 }
+                    check_variable = { global.current_day = 13 }
+                    check_variable = { global.current_day = 20 }
+                    check_variable = { global.current_day = 27 }
+                }
+            }
+            AND = {
+                is_may = yes
+                OR = {
+                    check_variable = { global.current_day = 4 }
+                    check_variable = { global.current_day = 11 }
+                    check_variable = { global.current_day = 18 }
+                    check_variable = { global.current_day = 25 }
+                }
+            }
+            AND = {
+                is_june = yes
+                OR = {
+                    check_variable = { global.current_day = 1 }
+                    check_variable = { global.current_day = 8 }
+                    check_variable = { global.current_day = 15 }
+                    check_variable = { global.current_day = 22 }
+                    check_variable = { global.current_day = 29 }
+                }
+            }
+            AND = {
+                is_july = yes
+                OR = {
+                    check_variable = { global.current_day = 6 }
+                    check_variable = { global.current_day = 13 }
+                    check_variable = { global.current_day = 20 }
+                    check_variable = { global.current_day = 27 }
+                }
+            }
+            AND = {
+                is_august = yes
+                OR = {
+                    check_variable = { global.current_day = 3 }
+                    check_variable = { global.current_day = 10 }
+                    check_variable = { global.current_day = 17 }
+                    check_variable = { global.current_day = 24 }
+                    check_variable = { global.current_day = 31 }
+                }
+            }
+            AND = {
+                is_september = yes
+                OR = {
+                    check_variable = { global.current_day = 7 }
+                    check_variable = { global.current_day = 14 }
+                    check_variable = { global.current_day = 21 }
+                    check_variable = { global.current_day = 28 }
+                }
+            }
+            AND = {
+                is_october = yes
+                OR = {
+                    check_variable = { global.current_day = 5 }
+                    check_variable = { global.current_day = 12 }
+                    check_variable = { global.current_day = 19 }
+                    check_variable = { global.current_day = 26 }
+                }
+            }
+            AND = {
+                is_november = yes
+                OR = {
+                    check_variable = { global.current_day = 2 }
+                    check_variable = { global.current_day = 9 }
+                    check_variable = { global.current_day = 16 }
+                    check_variable = { global.current_day = 23 }
+                    check_variable = { global.current_day = 30 }
+                }
+            }
+            AND = {
+                is_december = yes
+                OR = {
+                    check_variable = { global.current_day = 7 }
+                    check_variable = { global.current_day = 14 }
+                    check_variable = { global.current_day = 21 }
+                    check_variable = { global.current_day = 28 }
+                }
+            }
+        }
+    }
+}
+
+is_saturday = {
+    custom_trigger_tooltip = {
+        tooltip = IS_SATURDAY
+        
+        OR = {
+            AND = {
+                is_january = yes
+                OR = {
+                    check_variable = { global.current_day = 6 }
+                    check_variable = { global.current_day = 13 }
+                    check_variable = { global.current_day = 20 }
+                    check_variable = { global.current_day = 27 }
+                }
+            }
+            AND = {
+                is_february = yes
+                OR = {
+                    check_variable = { global.current_day = 3 }
+                    check_variable = { global.current_day = 10 }
+                    check_variable = { global.current_day = 17 }
+                    check_variable = { global.current_day = 24 }
+                }
+            }
+            AND = {
+                is_march = yes
+                OR = {
+                    check_variable = { global.current_day = 3 }
+                    check_variable = { global.current_day = 10 }
+                    check_variable = { global.current_day = 17 }
+                    check_variable = { global.current_day = 24 }
+                    check_variable = { global.current_day = 31 }
+                }
+            }
+            AND = {
+                is_april = yes
+                OR = {
+                    check_variable = { global.current_day = 7 }
+                    check_variable = { global.current_day = 14 }
+                    check_variable = { global.current_day = 21 }
+                    check_variable = { global.current_day = 28 }
+                }
+            }
+            AND = {
+                is_may = yes
+                OR = {
+                    check_variable = { global.current_day = 5 }
+                    check_variable = { global.current_day = 12 }
+                    check_variable = { global.current_day = 19 }
+                    check_variable = { global.current_day = 26 }
+                }
+            }
+            AND = {
+                is_june = yes
+                OR = {
+                    check_variable = { global.current_day = 2 }
+                    check_variable = { global.current_day = 9 }
+                    check_variable = { global.current_day = 16 }
+                    check_variable = { global.current_day = 23 }
+                    check_variable = { global.current_day = 30 }
+                }
+            }
+            AND = {
+                is_july = yes
+                OR = {
+                    check_variable = { global.current_day = 7 }
+                    check_variable = { global.current_day = 14 }
+                    check_variable = { global.current_day = 21 }
+                    check_variable = { global.current_day = 28 }
+                }
+            }
+            AND = {
+                is_august = yes
+                OR = {
+                    check_variable = { global.current_day = 4 }
+                    check_variable = { global.current_day = 11 }
+                    check_variable = { global.current_day = 18 }
+                    check_variable = { global.current_day = 25 }
+                }
+            }
+            AND = {
+                is_september = yes
+                OR = {
+                    check_variable = { global.current_day = 1 }
+                    check_variable = { global.current_day = 8 }
+                    check_variable = { global.current_day = 15 }
+                    check_variable = { global.current_day = 22 }
+                    check_variable = { global.current_day = 29 }
+                }
+            }
+            AND = {
+                is_october = yes
+                OR = {
+                    check_variable = { global.current_day = 6 }
+                    check_variable = { global.current_day = 13 }
+                    check_variable = { global.current_day = 20 }
+                    check_variable = { global.current_day = 27 }
+                }
+            }
+            AND = {
+                is_november = yes
+                OR = {
+                    check_variable = { global.current_day = 3 }
+                    check_variable = { global.current_day = 10 }
+                    check_variable = { global.current_day = 17 }
+                    check_variable = { global.current_day = 24 }
+                }
+            }
+            AND = {
+                is_december = yes
+                OR = {
+                    check_variable = { global.current_day = 1 }
+                    check_variable = { global.current_day = 8 }
+                    check_variable = { global.current_day = 15 }
+                    check_variable = { global.current_day = 22 }
+                    check_variable = { global.current_day = 29 }
+                }
+            }
+        }
+    }
+}
+
+is_sunday = {
+    custom_trigger_tooltip = {
+        tooltip = IS_SUNDAY
+        
+        OR = {
+            AND = {
+                is_january = yes
+                OR = {
+                    check_variable = { global.current_day = 7 }
+                    check_variable = { global.current_day = 14 }
+                    check_variable = { global.current_day = 21 }
+                    check_variable = { global.current_day = 28 }
+                }
+            }
+            AND = {
+                is_february = yes
+                OR = {
+                    check_variable = { global.current_day = 4 }
+                    check_variable = { global.current_day = 11 }
+                    check_variable = { global.current_day = 18 }
+                    check_variable = { global.current_day = 25 }
+                }
+            }
+            AND = {
+                is_march = yes
+                OR = {
+                    check_variable = { global.current_day = 4 }
+                    check_variable = { global.current_day = 11 }
+                    check_variable = { global.current_day = 18 }
+                    check_variable = { global.current_day = 25 }
+                }
+            }
+            AND = {
+                is_april = yes
+                OR = {
+                    check_variable = { global.current_day = 1 }
+                    check_variable = { global.current_day = 8 }
+                    check_variable = { global.current_day = 15 }
+                    check_variable = { global.current_day = 22 }
+                    check_variable = { global.current_day = 29 }
+                }
+            }
+            AND = {
+                is_may = yes
+                OR = {
+                    check_variable = { global.current_day = 6 }
+                    check_variable = { global.current_day = 13 }
+                    check_variable = { global.current_day = 20 }
+                    check_variable = { global.current_day = 27 }
+                }
+            }
+            AND = {
+                is_june = yes
+                OR = {
+                    check_variable = { global.current_day = 3 }
+                    check_variable = { global.current_day = 10 }
+                    check_variable = { global.current_day = 17 }
+                    check_variable = { global.current_day = 24 }
+                }
+            }
+            AND = {
+                is_july = yes
+                OR = {
+                    check_variable = { global.current_day = 1 }
+                    check_variable = { global.current_day = 8 }
+                    check_variable = { global.current_day = 15 }
+                    check_variable = { global.current_day = 22 }
+                    check_variable = { global.current_day = 29 }
+                }
+            }
+            AND = {
+                is_august = yes
+                OR = {
+                    check_variable = { global.current_day = 5 }
+                    check_variable = { global.current_day = 12 }
+                    check_variable = { global.current_day = 19 }
+                    check_variable = { global.current_day = 26 }
+                }
+            }
+            AND = {
+                is_september = yes
+                OR = {
+                    check_variable = { global.current_day = 2 }
+                    check_variable = { global.current_day = 9 }
+                    check_variable = { global.current_day = 16 }
+                    check_variable = { global.current_day = 23 }
+                    check_variable = { global.current_day = 30 }
+                }
+            }
+            AND = {
+                is_october = yes
+                OR = {
+                    check_variable = { global.current_day = 7 }
+                    check_variable = { global.current_day = 14 }
+                    check_variable = { global.current_day = 21 }
+                    check_variable = { global.current_day = 28 }
+                }
+            }
+            AND = {
+                is_november = yes
+                OR = {
+                    check_variable = { global.current_day = 4 }
+                    check_variable = { global.current_day = 11 }
+                    check_variable = { global.current_day = 18 }
+                    check_variable = { global.current_day = 25 }
+                }
+            }
+            AND = {
+                is_december = yes
+                OR = {
+                    check_variable = { global.current_day = 2 }
+                    check_variable = { global.current_day = 9 }
+                    check_variable = { global.current_day = 16 }
+                    check_variable = { global.current_day = 23 }
+                    check_variable = { global.current_day = 30 }
+                }
+            }
+        }
+    }
+}
+
+# Months
+is_january = {
+    custom_trigger_tooltip = {
+        tooltip = IS_JANUARY
+        check_variable = { global.current_month = 1 }
+    }
+}
+is_february = {
+    custom_trigger_tooltip = {
+        tooltip = IS_FEBRUARY
+        check_variable = { global.current_month = 2 }
+    }
+}
+is_march = {
+    custom_trigger_tooltip = {
+        tooltip = IS_MARCH
+        check_variable = { global.current_month = 3 }
+    }
+}
+is_april = {
+    custom_trigger_tooltip = {
+        tooltip = IS_APRIL
+        check_variable = { global.current_month = 4 }
+    }
+}
+is_may = {
+    custom_trigger_tooltip = {
+        tooltip = IS_MAY
+        check_variable = { global.current_month = 5 }
+    }
+}
+is_june = {
+    custom_trigger_tooltip = {
+        tooltip = IS_JUNE
+        check_variable = { global.current_month = 6 }
+    }
+}
+is_july = {
+    custom_trigger_tooltip = {
+        tooltip = IS_JULY
+        check_variable = { global.current_month = 7 }
+    }
+}
+is_august = {
+    custom_trigger_tooltip = {
+        tooltip = IS_AUGUST
+        check_variable = { global.current_month = 8 }
+    }
+}
+is_september = {
+    custom_trigger_tooltip = {
+        tooltip = IS_SEPTEMBER
+        check_variable = { global.current_month = 9 }
+    }
+}
+is_october = {
+    custom_trigger_tooltip = {
+        tooltip = IS_OCTOBER
+        check_variable = { global.current_month = 10 }
+    }
+}
+is_november = {
+    custom_trigger_tooltip = {
+        tooltip = IS_NOVEMBER
+        check_variable = { global.current_month = 11 }
+    }
+}
+is_december = {
+    custom_trigger_tooltip = {
+        tooltip = IS_DECEMBER
+        check_variable = { global.current_month = 12 }
+    }
+}
+
+# Special
+is_spring = {
+    custom_trigger_tooltip = {
+        tooltip = IS_SPRING
+        OR = {
+            is_march = yes
+            is_april = yes
+            is_may = yes
+        }
+    }
+}
+is_summer = {
+    custom_trigger_tooltip = {
+        tooltip = IS_SUMMER
+        OR = {
+            is_june = yes
+            is_july = yes
+            is_august = yes
+        }
+    }
+}
+is_autumn = {
+    custom_trigger_tooltip = {
+        tooltip = IS_AUTUMN
+        OR = {
+            is_september = yes
+            is_october = yes
+            is_november = yes
+        }
+    }
+}
+is_winter = {
+    custom_trigger_tooltip = {
+        tooltip = IS_WINTER
+        OR = {
+            is_december = yes
+            is_january = yes
+            is_february = yes
+        }
+    }
+}

@@ -1,0 +1,213 @@
+equipments = {
+    # --------- champion ---------
+	champion_equipment = {
+		is_archetype = yes
+		picture = archetype_infantry		
+		is_buildable = no
+		type = infantry
+		group_by = archetype
+		
+		interface_category = interface_category_land
+		
+		active = yes
+		
+        upgrades = {
+			wm_champion_max_strength
+            wm_champion_max_organisation
+            wm_champion_default_morale
+            wm_champion_weight
+            wm_champion_supply_consumption
+            wm_champion_reliability
+            wm_champion_maximum_speed
+            wm_champion_soft_attack
+            wm_champion_hard_attack
+            wm_champion_defense
+            wm_champion_breakthrough
+            wm_champion_ap_attack
+            wm_champion_hardness
+            wm_champion_armor_value
+            wm_champion_build_cost_ic
+		}
+        
+        max_strength = 40
+        max_organisation = 60
+        default_morale = 0.4
+        weight = 1
+        supply_consumption = 0.15
+        
+		reliability = 0.7
+		maximum_speed = 4
+
+        soft_attack = 4
+		hard_attack = 4
+        
+        defense = 4
+		breakthrough = 4
+        
+        ap_attack = 4
+		air_attack = 0
+
+		hardness = 0.4
+		armor_value = 3
+
+		lend_lease_cost = 1
+		build_cost_ic = 6
+        
+		resources = {
+            food = 3
+            steel = 2
+		}
+	}
+
+	champion_equipment_1 = {
+		archetype = champion_equipment
+		active = yes
+		priority = 05
+		visual_level = 1
+	}
+
+	champion_equipment_2 = {
+		archetype = champion_equipment
+		parent = champion_equipment_1
+		priority = 15
+		visual_level = 2
+		
+        max_strength = 40
+        max_organisation = 60
+        default_morale = 0.4
+        weight = 1
+        supply_consumption = 0.15
+        
+		reliability = 0.75
+		maximum_speed = 4
+
+        soft_attack = 8
+		hard_attack = 8
+        
+        defense = 8
+		breakthrough = 8
+        
+        ap_attack = 8
+		air_attack = 0
+
+		hardness = 0.4
+		armor_value = 6
+
+		lend_lease_cost = 1
+		build_cost_ic = 7
+        
+		resources = {
+            food = 4
+            steel = 3
+		}
+	}
+	
+	champion_equipment_3 = {
+		archetype = champion_equipment
+		parent = champion_equipment_2
+		priority = 20
+		visual_level = 3
+		
+        max_strength = 40
+        max_organisation = 60
+        default_morale = 0.4
+        weight = 1
+        supply_consumption = 0.15
+        
+		reliability = 0.8
+		maximum_speed = 4
+
+        soft_attack = 12
+		hard_attack = 12
+        
+        defense = 12
+		breakthrough = 12
+        
+        ap_attack = 12
+		air_attack = 0
+
+		hardness = 0.4
+		armor_value = 9
+
+		lend_lease_cost = 1
+        build_cost_ic = 8
+        
+        resources = {
+            food = 5
+            steel = 4
+		}
+	}
+    
+    champion_equipment_4 = {
+		archetype = champion_equipment
+		parent = champion_equipment_3
+		priority = 25
+		visual_level = 4
+		
+        max_strength = 40
+        max_organisation = 60
+        default_morale = 0.4
+        weight = 1
+        supply_consumption = 0.15
+        
+		reliability = 0.85
+		maximum_speed = 4
+
+        soft_attack = 16
+		hard_attack = 16
+        
+        defense = 16
+		breakthrough = 16
+        
+        ap_attack = 16
+		air_attack = 0
+
+		hardness = 0.4
+		armor_value = 12
+
+		lend_lease_cost = 1
+        build_cost_ic = 9
+        
+        resources = {
+            food = 6
+            steel = 5
+		}
+	}
+    
+    champion_equipment_5 = {
+		archetype = champion_equipment
+		parent = champion_equipment_4
+		priority = 30
+		visual_level = 5
+		
+        max_strength = 40
+        max_organisation = 60
+        default_morale = 0.4
+        weight = 1
+        supply_consumption = 0.15
+        
+		reliability = 0.9
+		maximum_speed = 4
+
+        soft_attack = 20
+		hard_attack = 20
+        
+        defense = 20
+		breakthrough = 20
+        
+        ap_attack = 20
+		air_attack = 0
+
+		hardness = 0.4
+		armor_value = 15
+
+		lend_lease_cost = 1
+        build_cost_ic = 10
+        
+        resources = {
+            food = 7
+            steel = 6
+		}
+	}
+}
+

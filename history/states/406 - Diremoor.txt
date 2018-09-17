@@ -1,0 +1,65 @@
+state = {
+	id = 406
+	name = "DIREMOOR"
+	manpower = 862
+	state_category = rural
+
+	resources = {
+		oil = 2
+		ground_beast = 6
+		flying_beast = 9
+		wood = 1
+		steel = 9
+		food = 10
+	}
+
+	history = {
+		owner = SAZ
+		add_core_of = SAZ
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 2
+			industrial_complex = 1
+			dockyard = 0
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			6350 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 1
+			}
+			6357 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 1
+			}
+			6372 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 4
+			}
+			6632 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        6350 6357 6372 6632 
+    }
+}

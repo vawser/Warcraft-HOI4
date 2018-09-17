@@ -1,0 +1,15 @@
+state = {
+	id = 1120
+	name = "WAILING_HILLS"
+	manpower = 53
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = PAL
+	}
+
+	provinces = {
+        4808
+    }
+}

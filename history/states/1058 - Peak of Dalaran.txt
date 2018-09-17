@@ -1,0 +1,15 @@
+state = {
+	id = 1058
+	name = "DALARAN_OVERLOOK"
+	manpower = 52
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = DAL
+	}
+
+	provinces = {
+        2690
+    }
+}

@@ -1,0 +1,72 @@
+state = {
+	id = 891
+	name = "TOWER_OF_ELDARA"
+	manpower = 903
+	state_category = rural
+
+	resources = {
+		oil = 3
+		ground_beast = 1
+		flying_beast = 6
+		wood = 25
+		food = 14
+	}
+
+	history = {
+		owner = LEG
+		add_core_of = LEG
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 1
+			industrial_complex = 1
+			dockyard = 1
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			3148 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 4
+			}
+			3175 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 1
+			}
+			3178 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 8
+			}
+			3182 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 1
+			}
+			3820 = {
+				bunker = 0
+			}
+			3848 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        3148 3175 3178 3182 3820 3848 
+    }
+}

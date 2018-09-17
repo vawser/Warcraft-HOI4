@@ -1,0 +1,76 @@
+state = {
+	id = 454
+	name = "VALDER"
+	manpower = 1920
+	state_category = village
+
+	resources = {
+		oil = 1
+		ground_beast = 2
+		flying_beast = 8
+		wood = 6
+		steel = 9
+		food = 14
+	}
+
+	history = {
+		owner = ASH
+		add_core_of = ASH
+
+		buildings = {
+			infrastructure = 4
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 3
+			industrial_complex = 2
+			dockyard = 2
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			5140 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 7
+			}
+			5144 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 9
+			}
+			5151 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 9
+			}
+			5159 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 8
+			}
+			5626 = {
+				bunker = 0
+			}
+			6251 = {
+				bunker = 0
+			}
+			6262 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        5140 5144 5151 5159 5626 6251 6262 
+    }
+}

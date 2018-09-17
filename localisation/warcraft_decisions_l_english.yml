@@ -1,0 +1,282 @@
+﻿l_english: 
+ #-----------------------------------
+ # Categories
+ #-----------------------------------
+ # Generic
+ government_actions: "Government"
+ discovery_actions: "Discovery"
+ religion_actions: "Religious"
+ friendship_actions: "Friendship"
+ combat_actions: "Combat"
+ alliance_actions: "Alliance"
+ horde_actions: "Horde"
+ war_actions: "War"
+ character_actions: "Character"
+ espionage_actions: "Espionage"
+ 
+ # Religion
+ the_holy_light_actions: "The Holy Light"
+ elune_actions: "Elune"
+ hakkar_actions: "Hakkar"
+ voodoo_actions: "Voodoo"
+ shadow_actions: "Shadow"
+ nature_actions: "Nature"
+ deep_mother_actions: "Deep Mother"
+ arcane_actions: "Arcane"
+ druidism_actions: "Druidism"
+ old_gods_actions: "Old Gods"
+ fel_actions: "Fel"
+ necromancy_actions: "Necromancy"
+ shamanism_actions: "Shamanism"
+ celestials_actions: "Celestials"
+ titan_actions: "Titan"
+ fire_actions: "Fire"
+ earth_actions: "Earth"
+ wind_actions: "Wind"
+ water_actions: "Water"
+ geomancy_actions: "Geomancy"
+ light_of_the_naaru_actions: "Light of the Naaru"
+ dragon_aspects_actions: "Dragon Aspects"
+ technomancy_actions: "Technomancy"
+ capitalism_actions: "Capitalism"
+ soul_actions: "Soul"
+ runic_actions: "Runic"
+ 
+ seasonal_actions: "Seasonal"
+ the_orcish_horde_actions: "The Orcish Horde"
+ the_first_war_actions: "The First War"
+ engineering_actions: "Engineering"
+ religion_conversion_actions: "Religious Conversion"
+ 
+ #-----------------------------------
+ # Decisions
+ #-----------------------------------
+ # General - Nation
+ support_peasantry: "Support the Peasantry"
+ support_peasantry_desc: "Our peasantry are suffering, let us divert our resources towards securing their happiness and reducing their plight."
+ promise_peace: "Promise Peace"
+ promise_peace_desc: "Our people wish only for peace, let us promise them such."
+ promise_war: "Promise War"
+ promise_war_desc: "Our people wish only for war, let us promise them such."
+
+ embrace_the_light: "Embrace the Light"
+ embrace_the_light_desc: "The [Root.GetRacePluralLowercase] of [From.GetName] scream out in adoration of the Light. Let us adopt this belief in the Light within our ruling classes."
+ embrace_the_shadow: "Embrace the Shadow"
+ embrace_the_shadow_desc: "The [Root.GetRacePluralLowercase] of [From.GetName] scream out in adoration of the Shadow. Let us adopt this belief in the shadow within our ruling classes."
+ embrace_the_order: "Embrace Order"
+ embrace_the_order_desc: "The [Root.GetRacePluralLowercase] of [From.GetName] scream out in adoration of the arcane. Let us adopt this belief in Order within our ruling classes."
+ embrace_the_disorder: "Embrace Fel"
+ embrace_the_disorder_desc: "The [Root.GetRacePluralLowercase] of [From.GetName] scream out in adoration of fel. Let us adopt this belief in Fel within our ruling classes."
+ embrace_the_life: "Embrace Life"
+ embrace_the_life_desc: "The [Root.GetRacePluralLowercase] of [From.GetName] scream out in adoration of life. Let us adopt this belief in Life within our ruling classes."
+ embrace_the_death: "Embrace Death"
+ embrace_the_death_desc: "The [Root.GetRacePluralLowercase] of [From.GetName] scream out in adoration of death. Let us adopt this belief in Death within our ruling classes."
+ 
+ # General - Discovery
+ claim_wasteland: "Claim Wasteland"
+ claim_wasteland_desc: "There are neighbouring wastelands owned by a conquered people. Let us claim these lands as our own."
+ 
+ # General - War
+ mount_last_stand: "Mount Last Stand"
+ mount_last_stand_desc: "We must fight until the last man, lest we fall to these beasts!"
+ 
+ # General - Seasonal
+ attend_the_lunar_festival: "Attend the Lunar Festival"
+ attend_the_lunar_festival_desc: "Every year, the druids of Moonglade hold a celebration of their city's great triumph over an ancient evil. During the Lunar Festival, citizens of Azeroth have the opportunity to honor their elders by celebrating their sage wisdom, sharing in magnificent feasts, and (of course) shooting fireworks!"
+ 
+ love_is_in_the_air: "Love is in the Air"
+ love_is_in_the_air_desc: "Love may be in the air, but be cautious, as the season’s spreading joy seems to have nefarious undertones. Recently, a strange "love sickness" has clouded the hearts of many of Azeroth’s people—is this widespread incident simply an outbreak of amore, or will you and your fellow brave adventurers uncover a dark secret behind this plague of passion?"
+ 
+ the_grand_feast_of_noblegarden: "The Grand Feast of Noblegarden"
+ the_grand_feast_of_noblegarden_desc: "The great feast of Noblegarden has long been celebrated by the races of the Alliance and recently adopted by those of the Horde. During this joyous event, it is customary for the nobles and lords from each race to hide coins, candy, and the occasional treasures within special eggs painted to look like wildflowers. These eggs are then scattered around major cities for the citizenry to find."
+ 
+ celebrate_childrens_week: "Celebrate Children's Week"
+ celebrate_childrens_week_desc: "Take an orphan under your wing, perform the tasks you are presented with and you’ll show one of Azeroth’s children that you care!"
+ 
+ visit_the_midsummer_fire_festival: "Visit the Midsummer Fire Festival"
+ visit_the_midsummer_fire_festival_desc: "Across Azeroth, brilliant bonfires have been lit to rekindle peoples’ spirits and ward off ancient evils. Each year, new guardians are chosen to watch over the sacred flames and ensure that they are never extinguished.\n\nCalled \"flamekeepers\", these chosen few request the aid of brave adventurers to traverse the land and journey into the dark recesses of Azeroth's dungeons. It is rumoured that any heroes who are willing to brave the terrors placed before them will be rewarded for their efforts through the power of the flames. "
+ 
+ celebrate_pirates_day: "Celebrate Pirate's Day"
+ celebrate_pirates_day_desc: "Commoners outfitted as scurvy pirates have appeared in all the world’s cities bringing rum news: the Dread Captain DeMeza and her crew have landed in Booty Bay and declared this day to be Pirates’ Day! If you’re brave enough to share her grog, you may have what it takes to become an honorary crew member for the day."
+ 
+ host_a_harvest_festival: "Visit the Harvest Festival"
+ host_a_harvest_festival_desc: "The Harvest Festival is a time to commemorate those who have sacrificed their lives to help their allies. Throughout history, many have given their lives to that end. Every year, members of the Horde and the Alliance set aside time to honor the memories of the fallen and to pay tribute to those whose memories are held most dear."
+ 
+ visit_brewfest: "Visit Brewfest"
+ visit_brewfest_desc: "Celebrated by both the Horde and the Alliance, the Brewfest is a time to enjoy the fermented fruits of the harvest: pretzels, cheese, and booze! The competing breweries Thunderbrew, Barleybrew, and the Ogres, all come together outside of all the major cities in a bid to outdo each other with their special ales, meads, and beers. Brave adventurers are invited to sit back, take a pull, and sample the finest wares these brewers have to offer!"
+ 
+ celebrate_hallows_end: "Celebrate Hallow's End"
+ celebrate_hallows_end_desc: "Observed by both the Horde and the Alliance, Hallow's End is a celebration of the break between the Forsaken and the Scourge. Many tricks and treats await adventurers seeking holiday fun, including defeating the Headless Horseman, visiting inns and cities for fun items such as masks and costumes, and eating way too much candy in one sitting."
+ 
+ celebrate_the_day_of_the_dead: "Celebrate the Day of the Dead"
+ celebrate_the_day_of_the_dead_desc: "During the Day of the Dead, the people of Azeroth gather in graveyards to celebrate the spirits of those they have lost."
+ 
+ celebrate_pilgrims_bounty: "Celebrate Pilgrim's Bounty"
+ celebrate_pilgrims_bounty_desc: "We invite you to celebrate Pilgrim's Bounty with us. It's a time for reflecting on your journeys and good fortune and sharing plentiful food and stories with friends. You can partake in wonderful Pilgrim's Bounty feasts near major towns by sitting at a Bountiful Table and enjoying the food!"
+ 
+ celebrate_winters_veil: "Celebrate the Feast of Winter's Veil"
+ celebrate_winters_veil_desc: "The Feast of Winter Veil is one of the most anticipated events of the year! While enjoying a freshly nutmegged cup of nog, and crunching on a crumbly cookie or two, be sure to visit Greatfather Winter in Ironforge if you’re Alliance, or Great-father Winter in Orgrimmar if you’re Horde. While there, you’ll find a few treats, and surely a few tasks to take on as well."
+ 
+ attend_the_darkmoon_faire: "Attend the Darkmoon Faire"
+ attend_the_darkmoon_faire_desc: "It’s incredible! It’s unbelievable! You’ll be dazzled. You’ll be amazed! You aren’t prepared for the Darkmoon Faire, because it’s like nothing you’ve seen before! Don’t be shy now, don’t be bashful, step right up for a tantalizing glimpse of what is in store for you!"
+ 
+ SHOW_THE_DARKMOON_FAIRE: "Opens the §HDarkmoon Faire§!."
+ FIRST_WEEK_OF_THE_MONTH: "Is the first week of [Root.GetMonth]."
+ BEFORE_15TH: "Before the §H15th§! of [Root.GetMonth]."
+ AFTER_15TH: "After the §H15th§! of [Root.GetMonth]."
+ AFTER_28TH: "After the §H28th§! of [Root.GetMonth]."
+ AFTER_2ND: "After the §H2nd§! of [Root.GetMonth]."
+ AFTER_21ST: "After the §H21st§! of [Root.GetMonth]."
+ AFTER_19TH: "After the §H19th§! of [Root.GetMonth]."
+ AFTER_17TH: "After the §H17th§! of [Root.GetMonth]."
+ BEFORE_3RD: "Before the §H3rd§! of [Root.GetMonth]."
+ IS_SEP_19TH: "Is §H19th§! of §HSeptember§!."
+ BETWEEN_9_16_SEP: "Is between the §H9th§! and §H16th§! of §HSeptember§!."
+ BETWEEN_21_28_NOV: "Is between the §H21st§! and §H28th§! of §HNovember§!."
+ 
+ # The Holy Light
+ seek_stability: "Seek Stability through Worship"
+ seek_stability_desc: "Let us pray for the Light to grant us a stable and prosperous future."
+ defend_the_light: "Defend the Light"
+ defend_the_light_desc: "Let us prepare for war in an effort to defend the Light from its ancient opponents, the Void, Fel and Death."
+ pray_for_the_lights_wisdom: "Pray for the Light's Wisdom"
+ pray_for_the_lights_wisdom_desc: "The Light is wise beyond our ken, let us pray for its wisdom and revel in its generosity." 
+ united_by_the_light: "United by the Light"
+ united_by_the_light_desc: "Our fellows that worship the Light deserve our friendship, let the Light expedite this process."
+ build_a_temple_of_light: "Build a Temple of Light"
+ build_a_temple_of_light_desc: "Our people desire a place of worship. Let us build them one and in turn benefit from their devotion."
+ 
+ # Arcane
+ bask_in_the_presence_of_the_sunwell: "Bask in the Presence of the Sunwell"
+ bask_in_the_presence_of_the_sunwell_desc: "All elves are touched by the power of the Sunwell, and its mere presence unifies our people."
+ embrace_the_power_of_the_sunwell: "Embrace the Power of the Sunwell"
+ embrace_the_power_of_the_sunwell_desc: "The [Root.GetRacePluralLowercase] of [Root.GetNameDef] are suffering. Let us embrace the power of the Sunwell within our arcane magic and crush our enemies, lest they crush our people."
+ 
+ # Elune
+ convert_to_druidism: "Convert to Druidism"
+ convert_to_druidism_desc: "Our religious institutions entwine elements of many fundamental forces, such as the Moon, Nature and the Elements themselves."
+ 
+ # Druidism
+ convert_to_elune: "Convert to Elune"
+ convert_to_elune_desc: "Our religious institutions entwine elements of many fundamental forces, such as the Moon, Nature and the Elements themselves."
+ convert_to_shamanism: "Convert to Shamanism"
+ convert_to_shamanism_desc: "Our religious institutions entwine elements of many fundamental forces, such as the Moon, Nature and the Elements themselves."
+ 
+ # Shamanism
+ convert_to_druidism_shamanism: "Convert to Druidism"
+ convert_to_druidism_shamanism_desc: "Our religious institutions entwine elements of many fundamental forces, such as the Moon, Nature and the Elements themselves."
+ convert_to_elune_shamanism: "Convert to Elune"
+ convert_to_elune_shamanism_desc: "Our religious institutions entwine elements of many fundamental forces, such as the Moon, Nature and the Elements themselves."
+
+ # Fel
+
+ # Orcish Horde
+ attack_neighbors: "Attack [From.GetName]"
+ attack_neighbors_desc: "We must push into the southern lands of Azeroth and claim them from the humans and other creatures!"
+ 
+ befriend_ogre: "Subjugate [From.GetName] [From.GetRacePlural]"
+ befriend_ogre_desc: "These creatures are of the same breed as the ogres we know on Draenor. Let us subjugate them and hopefully incite them to attack the humans."
+ 
+ subjugated_ogres: "Subjugated Ogres"
+
+ puppet_ogre: "Puppet [From.GetName] [From.GetRacePlural]"
+ puppet_ogre_desc: "Let us integrate theses ogres into our ranks and use them against the humans."
+ 
+ bolster_weapons_production_in_draenor: "Bolster Arms Production on Draenor"
+ bolster_weapons_production_in_draenor_desc: "Let us bolster our arms production back on Draenor, and have the resulting arms sent through the Dark Portal."
+ bolster_goods_production_in_draenor: "Bolster Goods Production on Draenor"
+ bolster_goods_production_in_draenor_desc: "Let us bolster our goods production back on Draenor, and have the resulting arms sent through the Dark Portal."
+ 
+ form_burning_blade_coven: "Form Burning Blade Coven"
+ form_burning_blade_coven_desc: "The Burning Blade clan are infamous for their demonic practices, and they revel in demonic lairs, so let us construct them one."
+ 
+ # Engineering
+ engineering_exchange_gnome: "Send Engineers to [From.GetName]"
+ engineering_exchange_gnome_desc: "Let us send our engineers to [From.GetName], our gnomish friends. Hopefully this will reveal to us the intricacies of their gnomish constructs."
+ 
+ engineering_exchange_goblin: "Send Engineers to [From.GetName]"
+ engineering_exchange_goblin_desc: "Let us send our engineers to [From.GetName], our goblin friends. Hopefully this will reveal to us the intricacies of their goblin constructs."
+ 
+ ARMY_EXPERIENCE_100: "§H100§! £army_experience"
+ ARMY_EXPERIENCE_100_blocked: "§R100§! £army_experience"
+ ARMY_EXPERIENCE_100_tooltip: "It costs 100 £army_experience to select this."
+ 
+ # Religion
+ switch_to_the_holy_light: "Embrace the Light"
+ switch_to_the_holy_light_desc: "Our people are fervent followers of the Light and many of our military command have followed suit. It would be best to officially embrace the Light and reap the rewards of our divinity."
+ 
+ switch_to_elune: "Embrace the Elune"
+ switch_to_elune_desc: "Our people are fervent followers of the Elune and many of our military command have followed suit. It would be best to officially embrace the Elune and reap the rewards of our divinity."
+ 
+ switch_to_hakkar: "Embrace Hakkar"
+ switch_to_hakkar_desc: "Our people are fervent followers of Hakkar and many of our military command have followed suit. It would be best to officially embrace Hakkar and reap the rewards of our corruption."
+ 
+ switch_to_voodoo: "Embrace Voodoo"
+ switch_to_voodoo_desc: "Our people are fervent followers of Voodoo and many of our military command have followed suit. It would be best to officially embrace Voodoo and reap the rewards of our corruption."
+ 
+ switch_to_shadow: "Embrace the Shadow"
+ switch_to_shadow_desc: "Our people are fervent followers of the Shadow and many of our military command have followed suit. It would be best to officially embrace the Shadow and reap the rewards of our corruption."
+ 
+ switch_to_nature: "Embrace Nature"
+ switch_to_nature_desc: "Our people are fervent followers of Nature and many of our military command have followed suit. It would be best to officially embrace Nature and reap the rewards of our divinity."
+ 
+ switch_to_deep_mother: "Embrace the Deep Mother"
+ switch_to_deep_mother_desc: "Our people are fervent followers of the Deep Mother and many of our military command have followed suit. It would be best to officially embrace the Deep Mother and reap the rewards of our divinity."
+ 
+ switch_to_arcane: "Embrace the Arcane"
+ switch_to_arcane_desc: "Our people are fervent followers of the Arcane and many of our military command have followed suit. It would be best to officially embrace the Arcane and reap the rewards of our divinity."
+
+ switch_to_druidism: "Embrace Druidism"
+ switch_to_druidism_desc: "Our people are fervent followers of Druidism and many of our military command have followed suit. It would be best to officially embrace Druidism and reap the rewards of our divinity."
+
+ switch_to_old_gods: "Embrace the Old Gods"
+ switch_to_old_gods_desc: "Our people are fervent followers of the Old Gods and many of our military command have followed suit. It would be best to officially embrace the Old Gods and reap the rewards of our corruption."
+
+ switch_to_fel: "Embrace Fel"
+ switch_to_fel_desc: "Our people are fervent followers of Fel and many of our military command have followed suit. It would be best to officially embrace Fel and reap the rewards of our corruption."
+
+ switch_to_necromancy: "Embrace Necromancy"
+ switch_to_necromancy_desc: "Our people are fervent followers of Necromancy and many of our military command have followed suit. It would be best to officially embrace Necromancy and reap the rewards of our corruption."
+
+ switch_to_shamanism: "Embrace Shamanism"
+ switch_to_shamanism_desc: "Our people are fervent followers of Shamanism and many of our military command have followed suit. It would be best to officially embrace Shamanism and reap the rewards of our spirituality."
+
+ switch_to_celestials: "Embrace the Celestials"
+ switch_to_celestials_desc: "Our people are fervent followers of the Celestials and many of our military command have followed suit. It would be best to officially embrace the Celestials and reap the rewards of our divinity."
+
+ switch_to_titan: "Embrace the Titans"
+ switch_to_titan_desc: "Our people are fervent followers of the Titans and many of our military command have followed suit. It would be best to officially embrace the Titans and reap the rewards of our divinity."
+
+ switch_to_fire: "Embrace the Fire"
+ switch_to_fire_desc: "Our people are fervent followers of the Fire and many of our military command have followed suit. It would be best to officially embrace the Fire and reap the rewards of our spirituality."
+
+ switch_to_earth: "Embrace the Earth"
+ switch_to_earth_desc: "Our people are fervent followers of the Earth and many of our military command have followed suit. It would be best to officially embrace the Earth and reap the rewards of our spirituality."
+
+ switch_to_wind: "Embrace the Wind"
+ switch_to_wind_desc: "Our people are fervent followers of the Wind and many of our military command have followed suit. It would be best to officially embrace the Wind and reap the rewards of our spirituality."
+
+ switch_to_water: "Embrace the Ocean"
+ switch_to_water_desc: "Our people are fervent followers of the Ocean and many of our military command have followed suit. It would be best to officially embrace the Ocean and reap the rewards of our spirituality."
+
+ switch_to_geomancy: "Embrace Geomancy"
+ switch_to_geomancy_desc: "Our people are fervent followers of Geomancy and many of our military command have followed suit. It would be best to officially embrace Geomancy and reap the rewards of our spirituality."
+
+ switch_to_light_of_the_naaru: "Embrace the Light of the Naaru"
+ switch_to_light_of_the_naaru_desc: "Our people are fervent followers of the Naaru and many of our military command have followed suit. It would be best to officially embrace the Naaru and reap the rewards of our divinity."
+
+ switch_to_dragon_aspects: "Embrace the Dragon Aspects"
+ switch_to_dragon_aspects_desc: "Our people are fervent followers of the Dragon Aspects and many of our military command have followed suit. It would be best to officially embrace the Dragon Aspects and reap the rewards of our divinity."
+
+ switch_to_technomancy: "Embrace Technomancy"
+ switch_to_technomancy_desc: "Our people are fervent followers of Technomancy and many of our military command have followed suit. It would be best to officially embrace Technomancy and reap the rewards of our divinity."
+
+ switch_to_capitalism: "Embrace Capitalism"
+ switch_to_capitalism_desc: "Our people are fervent followers of Capitalism and many of our military command have followed suit. It would be best to officially embrace Capitalism and reap the rewards of our greed."
+
+ switch_to_soul: "Embrace Soul"
+ switch_to_soul_desc: "Our people are fervent followers of Soul and many of our military command have followed suit. It would be best to officially embrace Soul and reap the rewards of our corruption."
+
+ switch_to_runic: "Embrace Runic"
+ switch_to_runic_desc: "Our people are fervent followers of Runic and many of our military command have followed suit. It would be best to officially embrace Runic and reap the rewards of our divinity."
+

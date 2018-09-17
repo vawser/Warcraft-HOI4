@@ -1,0 +1,60 @@
+state = {
+	id = 956
+	name = "SHRINE_OF_AVIANA"
+	manpower = 2603
+	state_category = village
+
+	resources = {
+		oil = 2
+		flying_beast = 7
+		wood = 26
+		steel = 2
+		food = 16
+	}
+
+	history = {
+		owner = SEN
+		add_core_of = SEN
+
+		buildings = {
+			infrastructure = 4
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 3
+			industrial_complex = 4
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			3668 = {
+				bunker = 0
+			}
+			3698 = {
+				bunker = 0
+			}
+			3714 = {
+				bunker = 0
+			}
+			3730 = {
+				bunker = 0
+			}
+			3745 = {
+				bunker = 0
+			}
+			3760 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        3668 3698 3714 3730 3745 3760 
+    }
+}

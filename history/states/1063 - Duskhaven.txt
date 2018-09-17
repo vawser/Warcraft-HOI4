@@ -1,0 +1,64 @@
+state = {
+	id = 1063
+	name = "DUSKHAVEN"
+	manpower = 4106
+	state_category = village
+
+	resources = {
+		oil = 2
+		ground_beast = 2
+		flying_beast = 6
+		wood = 4
+		steel = 10
+		food = 18
+	}
+
+	history = {
+		owner = GIL
+        add_core_of = GIL
+
+        victory_points = { 
+            1896 5
+        }
+        
+		buildings = {
+			infrastructure = 4
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 5
+			industrial_complex = 2
+			dockyard = 1
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			1896 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 5
+			}
+			1879 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 9
+			}
+			2719 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        1896 1879 2719
+    }
+}

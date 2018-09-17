@@ -1,0 +1,24 @@
+state = {
+	id = 82
+	name = "LAKESHIRE_HILLS_MT"
+	manpower = 13
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = RED
+
+        # The Second War
+        597.1.1 = {
+            owner = TTH
+        }
+        # The Third War
+        612.1.1 = {
+            owner = SDW
+        }
+	}
+
+	provinces = {
+        2592 2730 2765 2783 
+    }
+}

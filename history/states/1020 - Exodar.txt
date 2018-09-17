@@ -1,0 +1,77 @@
+state = {
+	id = 1020
+	name = "MYSTERIOUS_PROTRUSION"
+	manpower = 5890
+	state_category = town
+
+	resources = {
+		oil = 3
+		flying_beast = 9
+		wood = 16
+		steel = 5
+		food = 15
+	}
+
+	history = {
+        owner = BMB
+		add_core_of = BMB
+        
+        612.1.1 = {
+            set_state_name = EXODAR
+            owner = EXO
+            add_core_of = EXO
+        }
+    
+		buildings = {
+			infrastructure = 7
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 4
+			industrial_complex = 3
+			dockyard = 4
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			6944 = {
+				bunker = 7
+				coastal_bunker = 8
+				naval_base = 2
+			}
+			6951 = {
+				bunker = 3
+				coastal_bunker = 7
+				naval_base = 4
+			}
+			6956 = {
+				bunker = 6
+				coastal_bunker = 9
+				naval_base = 4
+			}
+			6962 = {
+				bunker = 2
+				coastal_bunker = 1
+				naval_base = 8
+			}
+			6968 = {
+				bunker = 4
+				coastal_bunker = 3
+				naval_base = 1
+			}
+		}
+	}
+
+	provinces = {
+        6944 6951 6956 6962 6968
+    }
+}

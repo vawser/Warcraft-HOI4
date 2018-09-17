@@ -1,0 +1,15 @@
+state = {
+	id = 941
+	name = "RAYNEWOOD_RISE"
+	manpower = 10
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = SEN
+	}
+
+	provinces = {
+        4327 4343 4360 4417 4418 
+    }
+}

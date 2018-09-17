@@ -1,0 +1,70 @@
+state = {
+	id = 621
+	name = "BORGOROK_OUTPOST"
+	manpower = 1023
+	state_category = village
+
+	resources = {
+		oil = 1
+		ground_beast = 9
+		flying_beast = 6
+		wood = 1
+		steel = 1
+		food = 14
+	}
+
+	history = {
+		owner = WRF
+		add_core_of = WRF
+
+		buildings = {
+			infrastructure = 2
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 6
+			industrial_complex = 3
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			6000 = {
+				bunker = 0
+			}
+			6017 = {
+				bunker = 0
+			}
+			6034 = {
+				bunker = 0
+			}
+			6047 = {
+				bunker = 0
+			}
+			6062 = {
+				bunker = 0
+			}
+			6075 = {
+				bunker = 0
+			}
+			6107 = {
+				bunker = 0
+			}
+			6123 = {
+				bunker = 0
+			}
+			6160 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        6000 6017 6034 6047 6062 6075 6107 6123 6160 
+    }
+}

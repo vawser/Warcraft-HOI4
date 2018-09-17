@@ -1,0 +1,15 @@
+state = {
+	id = 759
+	name = "GORDUNNI_RISE"
+	manpower = 60
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = DRB
+	}
+
+	provinces = {
+        4367 4422 4504 4514 4549 4559 4592 4835 4851 
+    }
+}

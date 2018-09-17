@@ -1,0 +1,91 @@
+arcane_actions = {    
+    #----------------------------
+    # High Elf / Blood Elf
+    #----------------------------
+	bask_in_the_presence_of_the_sunwell = {
+		icon = yellow_quest_mark
+        
+        allowed = {
+            OR = {
+                is_high_elf = yes
+                is_blood_elf = yes
+            }
+        }
+        
+		available = {
+            has_arcane = yes
+            has_full_control_of_state = 266
+            has_full_control_of_state = 265
+            has_full_control_of_state = 267
+		}
+
+        days_remove = 365
+		days_re_enable = 365
+
+		cost = 25
+
+		modifier = {
+            stability_factor = 0.1
+        }
+
+		ai_will_do = {
+			base = 0
+            
+            modifier = {
+                add = 1
+                
+                has_stability < 0.5
+            }
+		}
+	}
+    
+    embrace_the_power_of_the_sunwell = {
+		icon = yellow_quest_mark
+        
+        allowed = {
+            OR = {
+                is_high_elf = yes
+                is_blood_elf = yes
+            }
+        }
+        
+		available = {
+            has_arcane = yes
+            has_full_control_of_state = 266
+            has_full_control_of_state = 265
+            has_full_control_of_state = 267
+            has_war = yes
+		}
+
+        days_remove = 365
+		days_re_enable = 365
+
+		cost = 100
+
+		modifier = {
+            army_attack_factor = 0.1
+        }
+        
+        remove_trigger = {
+            OR = {
+                NOT = { has_full_control_of_state = 266 }
+                NOT = { has_full_control_of_state = 265 }
+                NOT = { has_full_control_of_state = 267 }
+                has_war = no
+            }
+        }
+
+		ai_will_do = {
+			base = 0
+            
+            modifier = {
+                add = 1
+                
+                surrender_progress > 0.25
+            }
+		}
+	}
+    
+    
+}
+

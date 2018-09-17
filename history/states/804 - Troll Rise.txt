@@ -1,0 +1,15 @@
+state = {
+	id = 804
+	name = "TROLL_RISE"
+	manpower = 22
+    state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = WIS
+	}
+
+	provinces = {
+        4456 4611 4642 4761 
+    }
+}

@@ -1,0 +1,65 @@
+state = {
+	id = 735
+	name = "DARKCLOUD_PINNACLE"
+	manpower = 632
+	state_category = rural
+
+	resources = {
+		oil = 17
+		ground_beast = 3
+		flying_beast = 3
+		steel = 4
+	}
+
+	history = {
+		owner = GRV
+		add_core_of = GRV
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 3
+			industrial_complex = 0
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			3344 = {
+				bunker = 0
+			}
+			3351 = {
+				bunker = 0
+			}
+			3379 = {
+				bunker = 0
+			}
+			3493 = {
+				bunker = 0
+			}
+			3548 = {
+				bunker = 0
+			}
+			3575 = {
+				bunker = 0
+			}
+			3587 = {
+				bunker = 0
+			}
+			3629 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        3344 3351 3379 3493 3548 3575 3587 3629 
+    }
+}

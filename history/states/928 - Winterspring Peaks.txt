@@ -1,0 +1,15 @@
+state = {
+	id = 928
+	name = "WINTERSPRING_PEAKS"
+	manpower = 78
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = CEN
+	}
+
+	provinces = {
+        4692 4693 4730 4762 4778 4804 4822 
+    }
+}

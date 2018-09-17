@@ -1,0 +1,75 @@
+state = {
+	id = 853
+	name = "SENJIN"
+	manpower = 3845
+	state_category = village
+
+	resources = {
+		oil = 4
+		ground_beast = 5
+		flying_beast = 9
+		wood = 2
+		steel = 5
+		food = 12
+	}
+
+	history = {
+		owner = RAZ
+		add_core_of = RAZ
+
+        612.1.1 = {
+            owner = ORG
+            add_core_of = ORG
+        }
+        
+		buildings = {
+			infrastructure = 3
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 2
+			industrial_complex = 4
+			dockyard = 3
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			3315 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 9
+			}
+			3322 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 7
+			}
+			3336 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 6
+			}
+			3342 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 9
+			}
+			4923 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        3315 3322 3336 3342 4923 
+    }
+}

@@ -1,0 +1,74 @@
+state = {
+	id = 43
+	name = "WESTBROOK_GARRISON"
+	manpower = 1813
+	state_category = village
+
+	resources = {
+		oil = 1
+		ground_beast = 1
+		flying_beast = 9
+		wood = 23
+		steel = 9
+		food = 14
+	}
+
+	history = {
+        victory_points = {
+            2840 5
+        }
+        
+		owner = SRW
+        add_core_of = SRW
+        add_core_of = RVP
+
+        # The Second War
+        597.1.1 = {
+            owner = TTH
+            add_core_of = TTH
+        }
+        # The Third War
+        612.1.1 = {
+            owner = RVP
+            add_core_of = RVP
+        }
+        
+		buildings = {
+			infrastructure = 2
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 6
+			industrial_complex = 2
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			2328 = {
+				bunker = 0
+			}
+			2815 = {
+				bunker = 0
+			}
+			2840 = {
+				bunker = 0
+			}
+			7332 = {
+				bunker = 0
+			}
+			7333 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        2328 2815 2840 7332 7333
+    }
+}

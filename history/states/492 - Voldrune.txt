@@ -1,0 +1,59 @@
+state = {
+	id = 492
+	name = "VOLDRUNE"
+	manpower = 2587
+	state_category = village
+
+	resources = {
+		oil = 14
+		ground_beast = 3
+		wood = 6
+		food = 2
+	}
+
+	history = {
+		owner = FTP
+		add_core_of = FTP
+
+		buildings = {
+			infrastructure = 3
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 3
+			industrial_complex = 1
+			dockyard = 3
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			5123 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 6
+			}
+			5704 = {
+				bunker = 0
+			}
+			7258 = {
+				bunker = 0
+			}
+			7261 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        5123 5704 7258 7261 
+    }
+}

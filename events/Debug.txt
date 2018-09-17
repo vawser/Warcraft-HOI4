@@ -1,0 +1,104 @@
+﻿add_namespace = debug
+
+country_event = {
+	id = debug.1
+	title = debug.1.title
+	desc = debug.1.desc
+	picture = GFX_event_SHADOWMOON_BURIAL_GROUNDS
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = debug.1.a
+        
+        every_country = {
+            limit = {
+                has_country_flag = processor
+            }
+        }
+	}
+    
+    option = {
+		name = debug.1.b
+        
+        
+	}
+    
+    option = {
+		name = debug.1.c
+        
+        
+	}
+    
+    option = {
+		name = debug.1.d
+        
+        
+	}
+}
+
+news_event = {
+	id = debug.2
+	title = debug.2.title
+	desc = debug.2.desc
+	picture = GFX_event_AHN_KAHET
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = debug.2.a
+        
+        
+	}
+    
+    option = {
+		name = debug.2.b
+        
+        
+	}
+    
+    option = {
+		name = debug.2.c
+        
+        
+	}
+    
+    option = {
+		name = debug.2.d
+        
+        
+	}
+}
+
+unit_leader_event = {
+	id = debug.3
+	title = debug.3.title
+	desc = debug.3.desc
+	picture = GFX_event_AHN_KAHET
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = debug.3.a
+        
+        
+	}
+    
+    option = {
+		name = debug.3.b
+        
+        
+	}
+    
+    option = {
+		name = debug.3.c
+        
+        
+	}
+    
+    option = {
+		name = debug.3.d
+        
+        
+	}
+}

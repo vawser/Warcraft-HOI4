@@ -1,0 +1,156 @@
+﻿# Names are based on equipment types (picking equipment with highest amount from the pool)
+# Generic are used for countries that are not scripted in.
+generic = {
+	# Ships
+	submarine = {
+		prefix = ""
+		generic = { "Submarine" }
+		unique = {}
+	}
+	destroyer = {
+		prefix = ""
+		generic = { "Destroyer" }
+		unique = {}
+	}
+	light_cruiser = {
+		prefix = ""
+		generic = { "Light Cruiser" }
+		unique = {}
+	}
+	heavy_cruiser = {
+		prefix = ""
+		generic = { "Heavy Cruiser" }
+		unique = {}
+	}
+	battle_cruiser = {
+		prefix = ""
+		generic = { "Battlecruiser" }
+		unique = {}
+	}
+	battleship = {
+		prefix = ""
+		generic = { "Battleship" }
+		unique = {}
+	}
+	carrier = {
+		prefix = ""
+		generic = { "Carrier" }
+		unique = {}
+	}
+	
+	# Land units
+	warrior = {
+		prefix = ""
+		generic = { "Warrior Division" }
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+		unique = {}
+	}
+	mage = {
+		prefix = ""
+		generic = { "Battlemage Division" }
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+		unique = {}
+	}
+	archer = {
+		prefix = ""
+		generic = { "Archer Division" }
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+		unique = {}
+	}
+	hill_warrior = {
+		prefix = ""
+		generic = { "Hill Warrior Division" }
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+		unique = {}
+	}
+    plains_warrior = {
+		prefix = ""
+		generic = { "Plains Warrior Division" }
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+		unique = {}
+	}
+    forest_warrior = {
+		prefix = ""
+		generic = { "Forest Warrior Division" }
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+		unique = {}
+	}
+    mountain_warrior = {
+		prefix = ""
+		generic = { "Mountain Warrior Division" }
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+		unique = {}
+	}
+    jungle_warrior = {
+		prefix = ""
+		generic = { "Jungle Warrior Division" }
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+		unique = {}
+	}
+    marsh_warrior = {
+		prefix = ""
+		generic = { "Marsh Warrior Division" }
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+		unique = {}
+	}
+    desert_warrior = {
+		prefix = ""
+		generic = { "Desert Warrior Division" }
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+		unique = {}
+	}
+    saboteur = {
+		prefix = ""
+		generic = { "Saboteur Division" }
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+		unique = {}
+	}
+	cavalry_support = {
+		prefix = ""
+		generic = { "Cavalry Company" }
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+		unique = {}
+	}
+	scout_support = {
+		prefix = ""
+		generic = { "Scout Company" }
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+		unique = {}
+	}
+	medic_support = {
+		prefix = ""
+		generic = { "Medic Company" }
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+		unique = {}
+	}
+	logistics_support = {
+		prefix = ""
+		generic = { "Logistics Company" }
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+		unique = {}
+	}
+	guard_support = {
+		prefix = ""
+		generic = { "Guard Company" }
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+		unique = {}
+	}		
+	light_cavalry = {
+		prefix = ""
+		generic = { "Light Cavalry Division" }
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+		unique = {}
+	}
+    medium_cavalry = {
+		prefix = ""
+		generic = { "Medium Cavalry Division" }
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+		unique = {}
+	}
+    heavy_cavalry = {
+		prefix = ""
+		generic = { "Heavy Cavalry Division" }
+		generic_pattern = "UNIT_GENERIC_NAME_GENERIC_INFANTRY"
+		unique = {}
+	}
+}

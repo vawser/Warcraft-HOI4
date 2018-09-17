@@ -1,0 +1,15 @@
+state = {
+	id = 144
+	name = "ARATHI_MOUNTAINS"
+	manpower = 58
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = VLB
+	}
+
+	provinces = {
+        2559 2580 2600 2610 2623 2633 
+    }
+}

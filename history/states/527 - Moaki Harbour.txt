@@ -1,0 +1,83 @@
+state = {
+	id = 527
+	name = "MOAKI_HARBOUR"
+	manpower = 7876
+	state_category = town
+
+	resources = {
+		ground_beast = 1
+		flying_beast = 4
+		wood = 2
+		steel = 2
+		food = 11
+	}
+
+	history = {
+		owner = MOA
+		add_core_of = MOA
+
+        # The Third War
+        612.1.1 = {
+            owner = SCO
+            add_core_of = SCO
+        }
+        
+		buildings = {
+			infrastructure = 6
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 3
+			industrial_complex = 4
+			dockyard = 6
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			5242 = {
+				bunker = 2
+				coastal_bunker = 3
+				naval_base = 3
+			}
+			5283 = {
+				bunker = 4
+				coastal_bunker = 5
+				naval_base = 1
+			}
+			5292 = {
+				bunker = 6
+				coastal_bunker = 3
+				naval_base = 4
+			}
+			5333 = {
+				bunker = 4
+				coastal_bunker = 1
+				naval_base = 6
+			}
+			5345 = {
+				bunker = 4
+				coastal_bunker = 7
+				naval_base = 2
+			}
+			5643 = {
+				bunker = 6
+			}
+			6020 = {
+				bunker = 7
+			}
+		}
+	}
+
+	provinces = {
+        5242 5283 5292 5333 5345 5643 6020 
+    }
+}

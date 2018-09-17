@@ -1,0 +1,23 @@
+﻿add_namespace = stormwind
+
+# Remove End of the Gnoll Wars
+# country_event = {
+	# id = stormwind.1
+	# title = stormwind.1.title
+	# desc = stormwind.1.desc
+	# picture = GFX_event_HELLFIRE_CITADEL
+	
+	# is_triggered_only = yes
+    
+    # trigger = {
+        # original_tag = SRW
+        # has_war_with = TTH
+        # has_idea = end_of_the_gnoll_wars
+    # }
+    
+    # option = {
+		# name = stormwind.1.option.a
+        
+        # remove_ideas = end_of_the_gnoll_wars
+	# }
+# }

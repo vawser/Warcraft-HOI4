@@ -1,0 +1,55 @@
+state = {
+	id = 686
+	name = "SOUTHWIND_VILLAGE"
+	manpower = 3322
+	state_category = village
+
+	resources = {
+		oil = 11
+		ground_beast = 5
+		flying_beast = 9
+		wood = 2
+		steel = 3
+		food = 1
+	}
+
+	history = {
+		owner = CEX
+		add_core_of = CEX
+
+		buildings = {
+			infrastructure = 3
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 3
+			industrial_complex = 4
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			3420 = {
+				bunker = 0
+			}
+			3448 = {
+				bunker = 0
+			}
+			3503 = {
+				bunker = 0
+			}
+			3531 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        3420 3448 3503 3531 
+    }
+}

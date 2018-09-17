@@ -1,0 +1,15 @@
+state = {
+	id = 207
+	name = "NORTHRIDGE"
+	manpower = 15
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = ANO
+	}
+
+	provinces = {
+        1862 1884 1893 2655 2670 2686 2700 2716 2656
+    }
+}

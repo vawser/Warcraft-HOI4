@@ -1,0 +1,15 @@
+state = {
+	id = 763
+	name = "THE_UNYIELDING_BLUFF"
+	manpower = 67
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = BDH
+	}
+
+	provinces = {
+        4430 4449 4495 4609 4625 4749 4791 
+    }
+}

@@ -1,0 +1,59 @@
+state = {
+	id = 733
+	name = "FREEWIND_HEIGHTS"
+	manpower = 881
+	state_category = rural
+
+	resources = {
+		oil = 9
+		ground_beast = 6
+		flying_beast = 9
+		wood = 4
+	}
+
+	history = {
+		owner = GRV
+		add_core_of = GRV
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 4
+			industrial_complex = 0
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			3352 = {
+				bunker = 0
+			}
+			3380 = {
+				bunker = 0
+			}
+			3549 = {
+				bunker = 0
+			}
+			3576 = {
+				bunker = 0
+			}
+			3603 = {
+				bunker = 0
+			}
+			3630 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        3352 3380 3549 3576 3603 3630 
+    }
+}

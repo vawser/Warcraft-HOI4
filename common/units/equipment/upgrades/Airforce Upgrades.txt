@@ -1,0 +1,310 @@
+upgrades = {
+    #----------------------------------------
+    # Fighter
+    #----------------------------------------
+	wm_fighter_air_range = {
+		max_level = 10
+		cost = air
+        
+        air_range = 0.05
+	}
+    wm_fighter_air_attack = {
+		max_level = 10
+		cost = air
+        
+        air_attack = 0.05
+	}
+    wm_fighter_air_defence = {
+		max_level = 10
+		cost = air
+        
+        air_defence = 0.05
+	}
+    wm_fighter_air_agility = {
+		max_level = 10
+		cost = air
+        
+        air_agility = 0.025
+	}
+    wm_fighter_air_bombing = {
+		max_level = 10
+		cost = air
+        
+        air_bombing = 0.05
+	}
+    wm_fighter_air_superiority = {
+		max_level = 10
+		cost = air
+        
+        air_superiority = 0.1
+	}
+    wm_fighter_naval_strike_attack = {
+		max_level = 10
+		cost = air
+        
+        naval_strike_attack = 0.025
+	}
+    wm_fighter_naval_strike_targetting = {
+		max_level = 10
+		cost = air
+        
+        naval_strike_targetting = 0.05
+	}
+    wm_fighter_maximum_speed = {
+		max_level = 10
+		cost = air
+        
+        maximum_speed = 0.01
+	}
+    wm_fighter_reliability = {
+		max_level = 10
+		cost = air
+        
+        reliability = 0.025
+	}
+    wm_fighter_build_cost_ic = {
+		max_level = 10
+		cost = air
+        
+        build_cost_ic = -0.02
+	}
+    
+    #----------------------------------------
+    # CAS
+    #----------------------------------------
+    wm_cas_air_range = {
+		max_level = 10
+		cost = air
+        
+        air_range = 0.05
+	}
+    wm_cas_air_attack = {
+		max_level = 10
+		cost = air
+        
+        air_attack = 0.05
+	}
+    wm_cas_air_defence = {
+		max_level = 10
+		cost = air
+        
+        air_defence = 0.05
+	}
+    wm_cas_air_agility = {
+		max_level = 10
+		cost = air
+        
+        air_agility = 0.025
+	}
+    wm_cas_air_ground_attack = {
+		max_level = 10
+		cost = air
+        
+        air_ground_attack = 0.05
+	}
+    wm_cas_air_superiority = {
+		max_level = 10
+		cost = air
+        
+        air_superiority = 0.1
+	}
+    wm_cas_naval_strike_attack = {
+		max_level = 10
+		cost = air
+        
+        naval_strike_attack = 0.025
+	}
+    wm_cas_naval_strike_targetting = {
+		max_level = 10
+		cost = air
+        
+        naval_strike_targetting = 0.05
+	}
+    wm_cas_maximum_speed = {
+		max_level = 10
+		cost = air
+        
+        maximum_speed = 0.01
+	}
+    wm_cas_reliability = {
+		max_level = 10
+		cost = air
+        
+        reliability = 0.025
+	}
+    wm_cas_build_cost_ic = {
+		max_level = 10
+		cost = air
+        
+        build_cost_ic = -0.02
+	}
+    
+    #----------------------------------------
+    # Tactical Bomber
+    #----------------------------------------
+    wm_tactical_bomber_air_range = {
+		max_level = 10
+		cost = air
+        
+        air_range = 0.05
+	}
+    wm_tactical_bomber_air_attack = {
+		max_level = 10
+		cost = air
+        
+        air_attack = 0.05
+	}
+    wm_tactical_bomber_air_defence = {
+		max_level = 10
+		cost = air
+        
+        air_defence = 0.05
+	}
+    wm_tactical_bomber_air_agility = {
+		max_level = 10
+		cost = air
+        
+        air_agility = 0.025
+	}
+    wm_tactical_bomber_air_bombing = {
+		max_level = 10
+		cost = air
+        
+        air_bombing = 0.05
+	}
+    wm_tactical_bomber_air_ground_attack = {
+		max_level = 10
+		cost = air
+        
+        air_ground_attack = 0.05
+	}
+    wm_tactical_bomber_air_superiority = {
+		max_level = 10
+		cost = air
+        
+        air_superiority = 0.1
+	}
+    wm_tactical_bomber_naval_strike_attack = {
+		max_level = 10
+		cost = air
+        
+        naval_strike_attack = 0.025
+	}
+    wm_tactical_bomber_naval_strike_targetting = {
+		max_level = 10
+		cost = air
+        
+        naval_strike_targetting = 0.05
+	}
+    wm_tactical_bomber_maximum_speed = {
+		max_level = 10
+		cost = air
+        
+        maximum_speed = 0.01
+	}
+    wm_tactical_bomber_reliability = {
+		max_level = 10
+		cost = air
+        
+        reliability = 0.025
+	}
+    wm_tactical_bomber_build_cost_ic = {
+		max_level = 10
+		cost = air
+        
+        build_cost_ic = -0.02
+	}
+    
+    #----------------------------------------
+    # Strategic Bomber
+    #----------------------------------------
+    wm_strategic_bomber_air_range = {
+		max_level = 10
+		cost = air
+        
+        air_range = 0.05
+	}
+    wm_strategic_bomber_air_attack = {
+		max_level = 10
+		cost = air
+        
+        air_attack = 0.05
+	}
+    wm_strategic_bomber_air_defence = {
+		max_level = 10
+		cost = air
+        
+        air_defence = 0.05
+	}
+    wm_strategic_bomber_air_agility = {
+		max_level = 10
+		cost = air
+        
+        air_agility = 0.025
+	}
+    wm_strategic_bomber_air_bombing = {
+		max_level = 10
+		cost = air
+        
+        air_bombing = 0.05
+	}
+    wm_strategic_bomber_air_superiority = {
+		max_level = 10
+		cost = air
+        
+        air_superiority = 0.1
+	}
+    wm_strategic_bomber_naval_strike_attack = {
+		max_level = 10
+		cost = air
+        
+        naval_strike_attack = 0.025
+	}
+    wm_strategic_bomber_naval_strike_targetting = {
+		max_level = 10
+		cost = air
+        
+        naval_strike_targetting = 0.05
+	}
+    wm_strategic_bomber_maximum_speed = {
+		max_level = 10
+		cost = air
+        
+        maximum_speed = 0.01
+	}
+    wm_strategic_bomber_reliability = {
+		max_level = 10
+		cost = air
+        
+        reliability = 0.025
+	}
+    wm_strategic_bomber_build_cost_ic = {
+		max_level = 10
+		cost = air
+        
+        build_cost_ic = -0.02
+	}
+    
+    #----------------------------------------
+    # Air Convoy
+    #----------------------------------------
+    wm_air_convoy_air_range = {
+		max_level = 10
+		cost = air
+        
+        air_range = 0.05
+	}
+    wm_air_convoy_reliability = {
+		max_level = 10
+		cost = air
+        
+        reliability = 0.025
+	}
+    wm_air_convoy_build_cost_ic = {
+		max_level = 10
+		cost = air
+        
+        build_cost_ic = -0.02
+	}
+    
+}

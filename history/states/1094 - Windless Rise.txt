@@ -1,0 +1,15 @@
+state = {
+	id = 1094
+	name = "WINDLESS_RISE"
+	manpower = 34
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = JAS
+	}
+
+	provinces = {
+        6491
+    }
+}

@@ -1,0 +1,15 @@
+state = {
+	id = 813
+	name = "EASTWIND_RIDGE"
+	manpower = 55
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = RAF
+	}
+
+	provinces = {
+        3223 3240 3261 3309 4500 4501 4511 4534 4535 4546 4555 4556 4587 4588 4589 
+    }
+}

@@ -1,0 +1,52 @@
+state = {
+	id = 442
+	name = "MOGUSHAN_PALACE"
+	manpower = 17163
+	state_category = city
+
+	resources = {
+		oil = 3
+		ground_beast = 6
+		flying_beast = 4
+		wood = 28
+		steel = 3
+		food = 10
+	}
+
+	history = {
+		owner = MOH
+		add_core_of = MOH
+
+		buildings = {
+			infrastructure = 8
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 10
+			industrial_complex = 5
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			6633 = {
+				bunker = 3
+			}
+			6657 = {
+				bunker = 3
+			}
+			6681 = {
+				bunker = 2
+			}
+		}
+	}
+
+	provinces = {
+        6633 6657 6681 
+    }
+}

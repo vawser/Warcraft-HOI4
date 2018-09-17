@@ -1,0 +1,81 @@
+state = {
+	id = 28
+	name = "STAGALBOG"
+	manpower = 568
+	state_category = rural
+
+	resources = {
+		oil = 17
+		ground_beast = 5
+		flying_beast = 1
+		wood = 8
+		steel = 7
+		food = 4
+	}
+
+	history = {
+		owner = TTH
+        add_core_of = TTH
+        add_core_of = ATL
+
+        # The Third War
+        612.1.1 = {
+            owner = ATL
+            add_core_of = ATL
+        }
+        
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 1
+			industrial_complex = 2
+			dockyard = 0
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			1780 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 7
+			}
+			1786 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 4
+			}
+			1793 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 2
+			}
+			2544 = {
+				bunker = 0
+			}
+			2545 = {
+				bunker = 0
+			}
+			2546 = {
+				bunker = 0
+			}
+			2555 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        1780 1786 1793 2544 2545 2546 2555 
+    }
+}

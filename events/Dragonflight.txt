@@ -1,0 +1,76 @@
+﻿add_namespace = dragonflight
+
+# Assign Old God if none is assigned
+country_event = {
+	id = dragonflight.1
+	title = dragonflight.1.title
+	desc = dragonflight.1.desc
+	picture = GFX_event_SHADOWMOON_BURIAL_GROUNDS
+	
+    hidden = yes
+    
+	trigger = {
+        check_variable = { country_religion = 22 }
+        check_variable = { dragonflight < 1.0 }
+    }
+	
+    mean_time_to_happen = {
+        days = 2
+    }
+    
+	option = {
+		name = dragonflight.1.option.a
+
+        random_list = {
+            25 = { set_variable = { dragonflight = 1 } }
+            25 = { set_variable = { dragonflight = 2 } }
+            25 = { set_variable = { dragonflight = 3 } }
+            25 = { set_variable = { dragonflight = 4 } }
+        }
+	}
+}
+
+# The Dragon Aspects
+country_event = {
+	id = dragonflight.2
+	title = dragonflight.2.title
+	desc = dragonflight.2.desc
+	picture = GFX_event_GRIM_BATOL_1
+	
+    is_triggered_only = yes
+    
+    immediate = {
+        hidden_effect = {
+            set_variable = { dragonflight = 1 }
+        }
+    }
+    
+	option = {
+		name = dragonflight.2.option.a
+
+        custom_effect_tooltip = FOLLOW_ALEXSTRASZA
+        set_variable = { dragonflight = 1 }
+	}
+    
+    option = {
+		name = dragonflight.2.option.b
+
+        custom_effect_tooltip = FOLLOW_YSERA
+        set_variable = { dragonflight = 2 }
+	}
+    
+    option = {
+		name = dragonflight.2.option.c
+
+        custom_effect_tooltip = FOLLOW_NELTHARION
+        set_variable = { dragonflight = 3 }
+	}
+    
+    option = {
+		name = dragonflight.2.option.d
+
+        custom_effect_tooltip = FOLLOW_MALYGOS
+        set_variable = { dragonflight = 4 }
+	}
+}
+

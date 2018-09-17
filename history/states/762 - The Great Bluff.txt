@@ -1,0 +1,15 @@
+state = {
+	id = 762
+	name = "THE_GREAT_BLUFF"
+	manpower = 52
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = WFY
+	}
+
+	provinces = {
+        4428 4447 4582 4659 4660 4712 4713 4747 4748 4789 4790 
+    }
+}

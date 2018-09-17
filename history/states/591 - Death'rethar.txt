@@ -1,0 +1,68 @@
+state = {
+	id = 591
+	name = "SANLIKAH"
+	manpower = 516
+	state_category = rural
+
+	resources = {
+		oil = 4
+		ground_beast = 2
+		flying_beast = 3
+		wood = 7
+		steel = 14
+		food = 10
+	}
+
+	history = {
+		owner = AZJ
+		add_core_of = AZJ
+
+        # The Third War
+        612.1.1 = {
+            owner = SCO
+            add_core_of = SCO
+            set_state_name = DEATHRETHAR
+        }
+        
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 1
+			industrial_complex = 3
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			5379 = {
+				bunker = 0
+			}
+			5486 = {
+				bunker = 0
+			}
+			5509 = {
+				bunker = 0
+			}
+			5529 = {
+				bunker = 0
+			}
+			6066 = {
+				bunker = 0
+			}
+			6146 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        5379 5486 5509 5529 6066 6146 
+    }
+}

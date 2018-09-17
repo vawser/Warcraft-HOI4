@@ -1,0 +1,23 @@
+defined_text = { 
+	name = GetAB5Tooltip
+    
+    text = {
+		trigger = {
+			OR = {
+                check_variable = { faith_power > faith_action_5_cost }
+                check_variable = { faith_power = faith_action_5_cost }
+            }
+		}
+		localization_key = AB5_ENABLED
+	}
+    text = {
+		trigger = {
+			check_variable = { faith_power < faith_action_5_cost }
+		}
+		localization_key = AB5_DISABLED
+	}
+    text = {
+		localization_key = ""
+	}
+}
+

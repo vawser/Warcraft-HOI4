@@ -1,0 +1,61 @@
+state = {
+	id = 548
+	name = "WYRMSPIRE"
+	manpower = 795
+	state_category = rural
+
+	resources = {
+		oil = 4
+		ground_beast = 3
+		flying_beast = 3
+		wood = 2
+		steel = 7
+		food = 18
+	}
+
+	history = {
+		owner = WYT
+		add_core_of = WYT
+
+        # The Third War
+        612.1.1 = {
+            owner = SCO
+            add_core_of = SCO
+        }
+        
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 2
+			industrial_complex = 1
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			6166 = {
+				bunker = 0
+			}
+			6176 = {
+				bunker = 0
+			}
+			6208 = {
+				bunker = 0
+			}
+			6243 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        6166 6176 6208 6243 
+    }
+}

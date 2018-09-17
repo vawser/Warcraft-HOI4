@@ -1,0 +1,70 @@
+state = {
+	id = 732
+	name = "FREEWIND_OUTPOST"
+	manpower = 896
+	state_category = rural
+
+	resources = {
+		oil = 15
+		ground_beast = 4
+		flying_beast = 2
+		wood = 2
+		steel = 5
+		food = 3
+	}
+
+	history = {
+		owner = GRV
+		add_core_of = GRV
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 2
+			industrial_complex = 1
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			3353 = {
+				bunker = 0
+			}
+			3381 = {
+				bunker = 0
+			}
+			3403 = {
+				bunker = 0
+			}
+			3410 = {
+				bunker = 0
+			}
+			3411 = {
+				bunker = 0
+			}
+			3438 = {
+				bunker = 0
+			}
+			3466 = {
+				bunker = 0
+			}
+			3495 = {
+				bunker = 0
+			}
+			3550 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        3353 3381 3403 3410 3411 3438 3466 3495 3550 
+    }
+}

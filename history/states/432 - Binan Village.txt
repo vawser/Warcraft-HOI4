@@ -1,0 +1,72 @@
+state = {
+	id = 432
+	name = "BINAN_VILLAGE"
+	manpower = 3941
+	state_category = village
+
+	resources = {
+		oil = 4
+		ground_beast = 4
+		flying_beast = 7
+		wood = 2
+		steel = 5
+		food = 19
+	}
+
+	history = {
+		owner = TIG
+		add_core_of = TIG
+
+		buildings = {
+			infrastructure = 4
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 3
+			industrial_complex = 3
+			dockyard = 2
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			6478 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 7
+			}
+			6502 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 1
+			}
+			6503 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 5
+			}
+			6504 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 5
+			}
+			6509 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 8
+			}
+		}
+	}
+
+	provinces = {
+        6478 6502 6503 6504 6509 
+    }
+}

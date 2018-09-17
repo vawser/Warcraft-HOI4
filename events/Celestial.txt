@@ -1,0 +1,76 @@
+﻿add_namespace = celestial
+
+# Assign Celestial if none is assigned
+country_event = {
+	id = celestial.1
+	title = celestial.1.title
+	desc = celestial.1.desc
+	picture = GFX_event_SHADOWMOON_BURIAL_GROUNDS
+	
+    hidden = yes
+    
+	trigger = {
+        check_variable = { country_religion = 14 }
+        check_variable = { celestial < 1.0 }
+    }
+	
+    mean_time_to_happen = {
+        days = 2
+    }
+    
+	option = {
+		name = celestial.1.option.a
+
+        random_list = {
+            25 = { set_variable = { celestial = 1 } }
+            25 = { set_variable = { celestial = 2 } }
+            25 = { set_variable = { celestial = 3 } }
+            25 = { set_variable = { celestial = 4 } }
+        }
+	}
+}
+
+# The Celestials
+country_event = {
+	id = celestial.2
+	title = celestial.2.title
+	desc = celestial.2.desc
+	picture = GFX_event_GATE_OF_THE_SETTING_SUN
+	
+    is_triggered_only = yes
+    
+    immediate = {
+        hidden_effect = {
+            set_variable = { celestial = 1 }
+        }
+    }
+    
+	option = {
+		name = celestial.2.option.a
+
+        custom_effect_tooltip = FOLLOW_YULON
+        set_variable = { celestial = 1 }
+	}
+    
+    option = {
+		name = celestial.2.option.b
+
+        custom_effect_tooltip = FOLLOW_NIUZAO
+        set_variable = { celestial = 2 }
+	}
+    
+    option = {
+		name = celestial.2.option.c
+
+        custom_effect_tooltip = FOLLOW_CHIJI
+        set_variable = { celestial = 3 }
+	}
+    
+    option = {
+		name = celestial.2.option.d
+
+        custom_effect_tooltip = FOLLOW_XUEN
+        set_variable = { celestial = 4 }
+	}
+}
+

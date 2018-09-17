@@ -1,0 +1,53 @@
+state = {
+	id = 712
+	name = "DUNESANDS"
+	manpower = 515
+	state_category = rural
+
+	resources = {
+		oil = 13
+		ground_beast = 5
+		flying_beast = 7
+		steel = 2
+	}
+
+	history = {
+		owner = SAN
+		add_core_of = SAN
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 2
+			industrial_complex = 1
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			3347 = {
+				bunker = 0
+			}
+			3358 = {
+				bunker = 0
+			}
+			3387 = {
+				bunker = 0
+			}
+			3625 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        3347 3358 3387 3625 
+    }
+}

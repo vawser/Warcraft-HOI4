@@ -1,0 +1,15 @@
+state = {
+	id = 948
+	name = "FURIONS_OVERLOOK"
+	manpower = 69
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = SEN
+	}
+
+	provinces = {
+        4336 4752 4768 
+    }
+}

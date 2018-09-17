@@ -1,0 +1,15 @@
+state = {
+	id = 80
+	name = "DAGGER_HILLS_MT"
+	manpower = 50
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = BLS
+	}
+
+	provinces = {
+        1905 2639 2645 2683 2762 2780 
+    }
+}

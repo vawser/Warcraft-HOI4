@@ -1,0 +1,75 @@
+state = {
+	id = 861
+	name = "RAZORMANE_WATERING_HOLE"
+	manpower = 4200
+	state_category = village
+
+	resources = {
+		oil = 2
+		ground_beast = 3
+		flying_beast = 2
+		steel = 8
+		food = 16
+	}
+
+	history = {
+		owner = RAZ
+		add_core_of = RAZ
+
+        # The Third War
+        612.1.1 = {
+            owner = ORG
+            add_core_of = ORG
+            set_state_name = ORGRIMMAR_HARBOUR
+        }
+
+		buildings = {
+			infrastructure = 4
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 3
+			industrial_complex = 3
+			dockyard = 1
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			3318 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 4
+			}
+			3338 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 9
+			}
+			4921 = {
+				bunker = 0
+			}
+			5039 = {
+				bunker = 0
+			}
+			5098 = {
+				bunker = 0
+			}
+			5119 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        3318 3338 4921 5039 5098 5119 
+    }
+}

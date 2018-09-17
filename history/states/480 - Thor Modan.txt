@@ -1,0 +1,54 @@
+state = {
+	id = 480
+	name = "THOR_MODAN"
+	manpower = 4762
+	state_category = town
+
+	resources = {
+		ground_beast = 4
+		flying_beast = 8
+		wood = 24
+		steel = 6
+		food = 16
+	}
+
+	history = {
+		owner = TMN
+		add_core_of = TMN
+
+		buildings = {
+			infrastructure = 5
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 8
+			industrial_complex = 4
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			5526 = {
+				bunker = 5
+			}
+			5654 = {
+				bunker = 5
+			}
+			5664 = {
+				bunker = 9
+			}
+			5774 = {
+				bunker = 5
+			}
+		}
+	}
+
+	provinces = {
+        5526 5654 5664 5774
+    }
+}

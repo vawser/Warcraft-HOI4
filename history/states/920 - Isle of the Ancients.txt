@@ -1,0 +1,52 @@
+state = {
+	id = 920
+	name = "ISLE_OF_THE_ANCIENTS"
+	manpower = 867
+	state_category = island
+
+	resources = {
+		oil = 1
+		ground_beast = 3
+		flying_beast = 1
+		wood = 21
+		steel = 2
+		food = 14
+	}
+
+	history = {
+		owner = SMC
+		add_core_of = SMC
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 1
+			industrial_complex = 2
+			dockyard = 0
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			3125 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 4
+			}
+		}
+	}
+
+	provinces = {
+        3125
+    }
+}

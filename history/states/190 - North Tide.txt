@@ -1,0 +1,70 @@
+state = {
+	id = 190
+	name = "NORTH_TIDE"
+	manpower = 533
+	state_category = rural
+
+	resources = {
+		oil = 4
+		ground_beast = 3
+		wood = 10
+		steel = 6
+		food = 12
+	}
+
+	history = {
+		owner = VIL
+        add_core_of = VIL
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 0
+			industrial_complex = 2
+			dockyard = 1
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			1676 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 3
+			}
+			1713 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 8
+			}
+			1721 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 8
+			}
+			2092 = {
+				bunker = 0
+			}
+			2218 = {
+				bunker = 0
+			}
+			2242 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        1676 1713 1721 2092 2218 2242 
+    }
+}

@@ -1,0 +1,57 @@
+state = {
+	id = 257
+	name = "DUSKWITHER_SPIRE"
+	manpower = 517
+	state_category = rural
+
+	resources = {
+		oil = 2
+		ground_beast = 8
+		wood = 27
+		steel = 3
+		food = 11
+	}
+
+	history = {
+		owner = QUE
+        add_core_of = QUE
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 3
+			industrial_complex = 1
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			2076 = {
+				bunker = 0
+			}
+			2094 = {
+				bunker = 0
+			}
+			2175 = {
+				bunker = 0
+			}
+			2198 = {
+				bunker = 0
+			}
+			2221 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        2076 2094 2175 2198 2221 
+    }
+}

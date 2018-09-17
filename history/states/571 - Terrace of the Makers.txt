@@ -1,0 +1,61 @@
+state = {
+	id = 571
+	name = "TERRACE_OF_THE_MAKERS"
+	manpower = 787
+	state_category = rural
+
+	resources = {
+		oil = 4
+		ground_beast = 6
+		flying_beast = 4
+		wood = 4
+		steel = 6
+		food = 12
+	}
+
+	history = {
+		owner = HYL
+		add_core_of = HYL
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 2
+			industrial_complex = 1
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			5375 = {
+				bunker = 0
+			}
+			5399 = {
+				bunker = 0
+			}
+			5494 = {
+				bunker = 0
+			}
+			5514 = {
+				bunker = 0
+			}
+			5537 = {
+				bunker = 0
+			}
+			5597 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        5375 5399 5494 5514 5537 5597
+    }
+}

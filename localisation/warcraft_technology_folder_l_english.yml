@@ -1,0 +1,27 @@
+﻿l_english: 
+ # Folders
+ 
+ army_folder: "Army"
+ army_folder_desc: "The mainstay units of any army."
+ support_folder: "Support"
+ support_folder_desc: "Non-frontline troops that support the frontline indirectly."
+ air_folder: "Aviation"
+ air_folder_desc: "Often mounted on griffons, flying units unlesh death from above."
+ navy_folder: "Navy"
+ navy_folder_desc: "He who rules the waves rules the shores."
+ 
+ land_doctrine_folder: "Army Doctrine"
+ land_doctrine_folder_desc: ""
+ air_doctrine_folder: "Aviation Doctrine"
+ air_doctrine_folder_desc: ""
+ naval_doctrine_folder: "Naval Doctrine"
+ naval_doctrine_folder_desc: ""
+ 
+ industry_folder: "Industry"
+ industry_folder_desc: "Industry is the foundation of a effective military."
+ resources_folder: "Resources"
+ resources_folder_desc: "Resources are critical to the running of a nation."
+ 
+ statecraft_folder: "Statecraft"
+ statecraft_folder_desc: "A statesman is the grease of a nation."
+ 

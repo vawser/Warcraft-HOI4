@@ -1,0 +1,59 @@
+#-------------------------------------------------------------------------------
+# Core
+#-------------------------------------------------------------------------------
+# This is the core store for all update loops
+# Processor is an AI country designated with a special flag that runs the loop. 
+# This is so the loop is only ever iterated once per tick.
+# Processor can be switched if the original dies.
+# The loop only ends once the player kills all AI.
+
+# ROOT = Country
+setup_variables = {
+    set_variable = { global.debug = 0 }
+    set_variable = { global.debug_decisions = 0 }   # Show debugging decisions
+    set_variable = { global.debug_religion = 0 }    # Make religion actions free and always available
+    set_variable = { global.debug_espionage = 0 }   # Make espionage actions free and instant
+    set_variable = { global.debug_coring = 0 }      # Make coring instant
+    set_variable = { global.debug_buildings = 0 }   # Set var. buildings to 100 count
+    set_variable = { global.debug_manufactory = 0 } # Make resource add 100%
+    
+    # Clock
+    set_variable = { global.current_hour = 12 }     # Current Hour (1-24)
+    set_variable = { global.current_day = 1 }       # Current Day (1-7)
+    set_variable = { global.current_month = 1 }     # Current Month (1-12)
+    
+    setup_religion_variables = yes
+    setup_espionage_variables = yes
+    setup_research_slots = yes
+}
+
+# ROOT = Processor
+update_hourly_variables = {
+    # Global
+    time_update = yes           # Update the time
+}
+
+update_daily_variables = {
+    # Country
+    religion_update = yes       # Update the state of religion
+    espionage_update = yes      # Update the state of espionage
+    ai_update = yes             # Update custom functions for AI
+    
+    # State
+    coring_update = yes         # Update coring state
+}
+
+update_weekly_variables = {
+    # Country
+    building_update = yes       # Create the effects of the custom buildings (i..e temple gives faith power)
+    construction_update = yes   # Help the AI build the custom buildings
+}
+
+update_monthly_variables = {
+    
+    
+}
+
+update_yearly_variables = {
+    
+}

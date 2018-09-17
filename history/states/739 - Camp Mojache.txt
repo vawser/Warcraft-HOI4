@@ -1,0 +1,60 @@
+state = {
+	id = 739
+	name = "CAMP_MOJACHE"
+	manpower = 5035
+	state_category = town
+
+	resources = {
+		ground_beast = 4
+		flying_beast = 3
+		wood = 23
+		steel = 9
+		food = 10
+	}
+
+	history = {
+		owner = GMT
+		add_core_of = GMT
+
+		buildings = {
+			infrastructure = 6
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 8
+			industrial_complex = 1
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			3840 = {
+				bunker = 8
+			}
+			4029 = {
+				bunker = 2
+			}
+			4058 = {
+				bunker = 3
+			}
+			4089 = {
+				bunker = 9
+			}
+			4090 = {
+				bunker = 4
+			}
+			4119 = {
+				bunker = 7
+			}
+		}
+	}
+
+	provinces = {
+        3840 4029 4058 4089 4090 4119 
+    }
+}

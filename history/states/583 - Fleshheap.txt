@@ -1,0 +1,21 @@
+state = {
+	id = 583
+	name = "AHNZIGUR_RISE"
+	manpower = 55
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = AZJ
+
+        # The Third War
+        612.1.1 = {
+            owner = SCO
+            set_state_name = FLESH_HEAP
+        }
+	}
+
+	provinces = {
+        5933 5943 5962 5979 
+    }
+}

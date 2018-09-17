@@ -1,0 +1,101 @@
+state = {
+	id = 27
+	name = "SORROWMURK"
+	manpower = 6495
+	state_category = town
+
+	resources = {
+		oil = 19
+		flying_beast = 8
+		wood = 6
+		steel = 8
+		food = 4
+	}
+
+	history = {
+        victory_points = {
+            1788 10
+        }
+		owner = ATL
+        add_core_of = ATL
+
+        # The Second War
+        597.1.1 = {
+            owner = TTH
+            add_core_of = TTH
+        }
+        
+        # The Third War
+        612.1.1 = {
+            owner = ATL
+            add_core_of = ATL
+        }
+
+		buildings = {
+			infrastructure = 6
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 5
+			industrial_complex = 3
+			dockyard = 1
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			1778 = {
+				bunker = 3
+				coastal_bunker = 9
+				naval_base = 7
+			}
+			1783 = {
+				bunker = 5
+				coastal_bunker = 7
+				naval_base = 6
+			}
+			1787 = {
+				bunker = 6
+				coastal_bunker = 4
+				naval_base = 9
+			}
+			1788 = {
+				bunker = 9
+				coastal_bunker = 2
+				naval_base = 5
+			}
+			1794 = {
+				bunker = 8
+				coastal_bunker = 6
+				naval_base = 9
+			}
+			1798 = {
+				bunker = 9
+				coastal_bunker = 4
+				naval_base = 8
+			}
+			1799 = {
+				bunker = 5
+				coastal_bunker = 6
+				naval_base = 3
+			}
+			1801 = {
+				bunker = 7
+				coastal_bunker = 1
+				naval_base = 8
+			}
+		}
+	}
+
+	provinces = {
+        1778 1783 1787 1788 1794 1798 1799 1801 
+    }
+}

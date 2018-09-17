@@ -1,0 +1,15 @@
+state = {
+	id = 946
+	name = "NORDRASSIL_ROOTS"
+	manpower = 51
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = SEN
+	}
+
+	provinces = {
+        4322 4355 4376 4377 4396 4397 4413
+    }
+}

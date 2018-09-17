@@ -1,0 +1,70 @@
+state = {
+	id = 536
+	name = "OBSIDIAN_DRAGONSHRINE"
+	manpower = 7482
+	state_category = town
+
+	resources = {
+		oil = 1
+		ground_beast = 4
+		flying_beast = 7
+		wood = 3
+		steel = 1
+		food = 11
+	}
+
+	history = {
+		owner = ODS
+		add_core_of = ODS
+
+        # The Third War
+        612.1.1 = {
+            owner = SCO
+            add_core_of = SCO
+        }
+        
+		buildings = {
+			infrastructure = 6
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 5
+			industrial_complex = 5
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			5474 = {
+				bunker = 8
+			}
+			5498 = {
+				bunker = 3
+			}
+			6215 = {
+				bunker = 5
+			}
+			6228 = {
+				bunker = 4
+			}
+			6240 = {
+				bunker = 2
+			}
+			6252 = {
+				bunker = 2
+			}
+			6263 = {
+				bunker = 6
+			}
+		}
+	}
+
+	provinces = {
+        5474 5498 6215 6228 6240 6252 6263 
+    }
+}

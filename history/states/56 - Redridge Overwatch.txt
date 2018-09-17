@@ -1,0 +1,24 @@
+state = {
+	id = 56
+	name = "REDRIDGE_OVERWATCH"
+	manpower = 41
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = RED
+
+        # The Second War
+        597.1.1 = {
+            owner = TTH
+        }
+        # The Third War
+        612.1.1 = {
+            owner = RRP
+        }
+	}
+
+	provinces = {
+        1809 1865 1871 1906 
+    }
+}

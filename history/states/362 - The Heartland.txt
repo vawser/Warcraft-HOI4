@@ -1,0 +1,54 @@
+state = {
+	id = 362
+	name = "THE_HEARTLAND"
+	manpower = 600
+	state_category = rural
+
+	resources = {
+		oil = 3
+		ground_beast = 8
+		flying_beast = 3
+		steel = 1
+		food = 23
+	}
+
+	history = {
+		owner = TIL
+		add_core_of = TIL
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 3
+			industrial_complex = 1
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			6808 = {
+				bunker = 0
+			}
+			6845 = {
+				bunker = 0
+			}
+			6896 = {
+				bunker = 0
+			}
+			6906 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        6808 6845 6896 6906 
+    }
+}

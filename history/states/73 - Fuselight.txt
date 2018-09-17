@@ -1,0 +1,76 @@
+state = {
+	id = 73
+	name = "FUSELIGHT"
+	manpower = 3289
+	state_category = village
+
+	resources = {
+		oil = 9
+		ground_beast = 9
+		flying_beast = 6
+		wood = 4
+		steel = 2
+		food = 2
+	}
+ 
+	history = {
+        victory_points = {
+            1646 5
+        }
+		owner = DSN
+        add_core_of = DSN
+
+        # The Second War
+        597.1.1 = {
+            owner = TTH
+            add_core_of = TTH
+        }
+        # The Third War
+        612.1.1 = {
+            owner = DSN
+            add_core_of = DSN
+        }
+        
+		buildings = {
+			infrastructure = 3
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 2
+			industrial_complex = 3
+			dockyard = 2
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			1644 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 3
+			}
+			1646 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 4
+			}
+			1650 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 4
+			}
+		}
+	}
+
+	provinces = {
+        1644 1646 1650 
+    }
+}

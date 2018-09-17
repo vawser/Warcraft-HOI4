@@ -1,0 +1,15 @@
+state = {
+	id = 1097
+	name = "FARLIGHT_RISE"
+	manpower = 69
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = GLI
+	}
+
+	provinces = {
+        6787
+    }
+}

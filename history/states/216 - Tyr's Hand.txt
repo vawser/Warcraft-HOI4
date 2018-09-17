@@ -1,0 +1,68 @@
+state = {
+	id = 216
+	name = "TYRS_HAND"
+	manpower = 9435
+	state_category = town
+
+	resources = {
+		oil = 4
+		ground_beast = 8
+		flying_beast = 7
+		wood = 12
+		steel = 9
+		food = 15
+	}
+
+	history = {
+		owner = STR
+        add_core_of = STR
+
+        victory_points = {
+            2106 10
+        }
+        
+		buildings = {
+			infrastructure = 5
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 5
+			industrial_complex = 6
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			2106 = {
+				bunker = 3
+			}
+			2127 = {
+				bunker = 7
+			}
+			2187 = {
+				bunker = 6
+			}
+			2211 = {
+				bunker = 1
+			}
+			2235 = {
+				bunker = 6
+			}
+			2258 = {
+				bunker = 8
+			}
+			2788 = {
+				bunker = 9
+			}
+		}
+	}
+
+	provinces = {
+        2106 2127 2187 2211 2235 2258 2788 
+    }
+}

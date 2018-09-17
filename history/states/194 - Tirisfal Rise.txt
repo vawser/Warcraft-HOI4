@@ -1,0 +1,15 @@
+state = {
+	id = 194
+	name = "TIRISFAL_RISE"
+	manpower = 56
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = LOR
+	}
+
+	provinces = {
+        1878 1895 2658 2673 2689 
+    }
+}

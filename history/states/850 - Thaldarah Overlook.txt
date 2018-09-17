@@ -1,0 +1,58 @@
+state = {
+	id = 850
+	name = "THALDARAH_OVERLOOK"
+	manpower = 526
+	state_category = rural
+
+	resources = {
+		oil = 1
+		ground_beast = 6
+		flying_beast = 6
+		wood = 2
+		steel = 5
+		food = 19
+	}
+
+	history = {
+		owner = CFW
+		add_core_of = CFW
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 0
+			industrial_complex = 2
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			4123 = {
+				bunker = 0
+			}
+			4191 = {
+				bunker = 0
+			}
+			4199 = {
+				bunker = 0
+			}
+			4207 = {
+				bunker = 0
+			}
+			4216 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        4123 4191 4199 4207 4216 
+    }
+}

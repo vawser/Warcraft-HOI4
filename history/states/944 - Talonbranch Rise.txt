@@ -1,0 +1,15 @@
+state = {
+	id = 944
+	name = "TALONBRANCH_RISE"
+	manpower = 44
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = SEN
+	}
+
+	provinces = {
+        4356 4378 4398 4415 4683
+    }
+}

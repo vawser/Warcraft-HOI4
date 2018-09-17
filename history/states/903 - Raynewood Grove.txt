@@ -1,0 +1,55 @@
+state = {
+	id = 903
+	name = "RAYNEWOOD_GROVE"
+	manpower = 633
+	state_category = rural
+
+	resources = {
+		oil = 1
+		ground_beast = 9
+		flying_beast = 8
+		wood = 18
+		steel = 2
+		food = 14
+	}
+
+	history = {
+		owner = SEA
+		add_core_of = SEA
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 2
+			industrial_complex = 0
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			3852 = {
+				bunker = 0
+			}
+			3939 = {
+				bunker = 0
+			}
+			3967 = {
+				bunker = 0
+			}
+			4074 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        3852 3939 3967 4074 
+    }
+}

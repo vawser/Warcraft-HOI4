@@ -1,0 +1,34 @@
+combat_actions = {
+	mount_last_stand = {
+		icon = yellow_quest_mark
+        
+        days_remove = 30
+		days_re_enable = 365
+        
+		cost = 100
+
+        available = {
+			surrender_progress > 0.5
+		}
+
+		visible = {
+			surrender_progress > 0
+		}
+
+        modifier = {
+			defence = 0.2
+			dig_in_speed_factor = 0.5
+		}
+
+		ai_will_do = {
+			base = 0
+            
+            modifier = {
+                add = 1
+                
+                surrender_progress > 0.6
+            }
+		}
+	}
+}
+

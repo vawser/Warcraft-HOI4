@@ -1,0 +1,67 @@
+state = {
+	id = 531
+	name = "AZJOL_NERUB"
+	manpower = 16028
+	state_category = city
+
+	resources = {
+		oil = 4
+		ground_beast = 4
+		flying_beast = 8
+		wood = 23
+		steel = 1
+		food = 11
+	}
+
+	history = {
+		owner = AZJ
+		add_core_of = AZJ
+
+        # The Third War
+        612.1.1 = {
+            owner = SCO
+            add_core_of = SCO
+        }
+        
+		buildings = {
+			infrastructure = 9
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 7
+			industrial_complex = 7
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			5649 = {
+				bunker = 1
+			}
+			5659 = {
+				bunker = 8
+			}
+			5682 = {
+				bunker = 5
+			}
+			5946 = {
+				bunker = 4
+			}
+			6069 = {
+				bunker = 1
+			}
+			5677 = {
+				bunker = 4
+			}
+		}
+	}
+
+	provinces = {
+        5649 5659 5682 5946 6069 5677
+    }
+}

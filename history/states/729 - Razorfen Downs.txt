@@ -1,0 +1,57 @@
+state = {
+	id = 729
+	name = "RAZORFEN_DOWNS"
+	manpower = 2484
+	state_category = village
+
+	resources = {
+		oil = 7
+		ground_beast = 5
+		flying_beast = 2
+		wood = 4
+		steel = 9
+	}
+
+	history = {
+		owner = RAF
+		add_core_of = RAF
+
+		buildings = {
+			infrastructure = 4
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 4
+			industrial_complex = 3
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			3440 = {
+				bunker = 0
+			}
+			3468 = {
+				bunker = 0
+			}
+			3497 = {
+				bunker = 0
+			}
+			3524 = {
+				bunker = 0
+			}
+			3551 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        3440 3468 3497 3524 3551 
+    }
+}

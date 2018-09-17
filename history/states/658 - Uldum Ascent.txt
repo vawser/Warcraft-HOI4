@@ -1,0 +1,15 @@
+state = {
+	id = 658
+	name = "ULDUM_ASCENT"
+	manpower = 26
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = OOG
+	}
+
+	provinces = {
+        3246 3257 4388 4427 4542
+    }
+}

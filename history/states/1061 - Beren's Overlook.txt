@@ -1,0 +1,15 @@
+state = {
+	id = 1061
+	name = "BEREN_OVERLOOK"
+	manpower = 63
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = GIL
+	}
+
+	provinces = {
+        1897 2720
+    }
+}

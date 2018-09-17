@@ -1,0 +1,175 @@
+leader_traits = {
+    light_trait = {
+        random = no
+        
+        light_drift = 0.05
+        
+        ai_will_do = {
+            factor = 0
+        }
+    }
+    shadow_trait = {
+        random = no
+        
+        shadow_drift = 0.05
+        
+        ai_will_do = {
+            factor = 0
+        }
+    }
+    order_trait = {
+        random = no
+        
+        order_drift = 0.05
+        
+        ai_will_do = {
+            factor = 0
+        }
+    }
+    disorder_trait = {
+        random = no
+        
+        disorder_drift = 0.05
+        
+        ai_will_do = {
+            factor = 0
+        }
+    }
+    life_trait = {
+        random = no
+        
+        life_drift = 0.05
+        
+        ai_will_do = {
+            factor = 0
+        }
+    }
+    death_trait = {
+        random = no
+        
+        death_drift = 0.05
+        
+        ai_will_do = {
+            factor = 0
+        }
+    }
+    unaligned_trait = {
+        random = no
+        
+        unaligned_drift = 0.05
+        
+        ai_will_do = {
+            factor = 0
+        }
+    }
+    patron_trait = {
+        random = no
+        
+        political_power_gain = 0.5
+        
+        ai_will_do = {
+            factor = 1
+        }
+    }
+    scout_trait = {
+        random = no
+        
+        mobilization_speed = 0.1
+        
+        ai_will_do = {
+            factor = 1
+        }
+    }
+    recruiter_trait = {
+        random = no
+        
+        conscription_factor = 0.05
+        
+        ai_will_do = {
+            factor = 1
+        }
+    }
+    merchant_trait = {
+        random = no
+        
+        trade_opinion_factor = 0.25
+        
+        ai_will_do = {
+            factor = 1
+        }
+    }
+    spymaster_trait = {
+        random = no
+        
+        foreign_subversive_activites = -0.5
+        enemy_partisan_effect = -0.5
+        
+        ai_will_do = {
+            factor = 1
+        }
+    }
+    saboteur_trait = {
+        random = no
+        
+        partisan_effect = 0.5
+        subversive_activites_upkeep = -0.5
+        
+        ai_will_do = {
+            factor = 1
+        }
+    }
+    inventor_trait = {
+        random = no
+        
+        research_time_factor = -0.05
+        
+        ai_will_do = {
+            factor = 1
+        }
+    }
+    architect_trait = {
+        random = no
+        
+        global_building_slots_factor = 0.1
+        
+        ai_will_do = {
+            factor = 1
+        }
+    }
+    builder_trait = {
+        random = no
+        
+        production_speed_buildings_factor = 0.1
+        
+        ai_will_do = {
+            factor = 1
+        }
+    }
+    overseer_trait = {
+        random = no
+        
+        local_resources_factor = 0.1
+        
+        ai_will_do = {
+            factor = 1
+        }
+    }
+    diplomat_trait = {
+        random = no
+        
+        opinion_gain_monthly = 0.15
+        
+        ai_will_do = {
+            factor = 1
+        }
+    }
+    strongman_trait = {
+        random = no
+        
+        take_states_cost_factor = -0.1
+        
+        ai_will_do = {
+            factor = 1
+        }
+    }
+}

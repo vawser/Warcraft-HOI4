@@ -1,0 +1,67 @@
+state = {
+	id = 344
+	name = "CRANE_WATCH"
+	manpower = 814
+	state_category = rural
+
+	resources = {
+		oil = 2
+		ground_beast = 3
+		flying_beast = 1
+		wood = 12
+		steel = 1
+		food = 1
+	}
+
+	history = {
+		owner = RCR
+		add_core_of = RCR
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 0
+			industrial_complex = 3
+			dockyard = 0
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			6429 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 4
+			}
+			6431 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 4
+			}
+			6434 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 3
+			}
+			6437 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 6
+			}
+		}
+	}
+
+	provinces = {
+        6429 6431 6434 6437 
+    }
+}

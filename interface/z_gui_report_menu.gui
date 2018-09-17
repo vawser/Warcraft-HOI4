@@ -1,0 +1,287 @@
+guiTypes = {
+    containerWindowType = {
+		name = "report_menu"
+		position = { x = -300 y = -300 }	
+		
+		size = { width = 600 height= 600 }
+		
+		fade_time = 300
+		fade_type = linear
+		moveable = yes
+		show_sound = menu_open_window
+		click_to_front = yes
+        
+		orientation = center
+        
+		background = {
+			name = "Background"		
+			quadTextureSprite ="GFX_598x600_parchment_bg"
+		}
+        
+        iconType = {
+			name = "report_title_banner"
+			spriteType = "GFX_wow_banner"
+			position = { x = 50 y = 20 }
+			allwaystransparent = yes
+            scale = 2.0
+		}
+        
+        instantTextBoxType = {
+			name = "report_title"
+			position = { x = 200 y = 48 }
+			font = "hoi_18mbs"
+			borderSize = {x = 0 y = 0}
+			text = "BUILDING_REPORT"
+			maxWidth = 200
+			maxHeight = 20
+            format = center
+		}
+        
+        buttonType = {
+			name = "close_button"
+			position = { x = 180 y = 500 }
+			quadTextureSprite ="GFX_blue_menu_button"
+		}
+        instantTextBoxType = {
+			name = "close_button_text"
+			position = { x = 180 y = 515 }
+			font = "hoi_18mbs"
+			borderSize = {x = 0 y = 0}
+			text = "Close"
+			maxWidth = 240
+			maxHeight = 20
+            format = center
+		}
+        
+        instantTextBoxType = {
+			name = "report_desc"
+			position = { x = 100 y = 110 }
+			font = "hoi_20bs"
+			borderSize = {x = 0 y = 0}
+			text = "REPORT_DESC"
+			maxWidth = 400
+			maxHeight = 20
+            format = center
+		}
+        
+        @name_x = 140
+        @value_x = 330
+        
+        instantTextBoxType = {
+			name = "temple_name"
+			position = { x = @name_x y = 170 }
+			font = "hoi_20bs"
+			borderSize = {x = 0 y = 0}
+			text = "TEMPLE"
+			maxWidth = 300
+			maxHeight = 20
+		}
+        instantTextBoxType = {
+			name = "temple_value"
+			position = { x = @value_x y = 170 }
+			font = "hoi_20bs"
+			borderSize = {x = 0 y = 0}
+			text = "TEMPLE_VALUE"
+			maxWidth = 300
+			maxHeight = 20
+		}
+        
+        instantTextBoxType = {
+			name = "forum_name"
+			position = { x = @name_x y = 195 }
+			font = "hoi_20bs"
+			borderSize = {x = 0 y = 0}
+			text = "FORUM"
+			maxWidth = 300
+			maxHeight = 20
+		}
+        instantTextBoxType = {
+			name = "forum_value"
+			position = { x = @value_x y = 195 }
+			font = "hoi_20bs"
+			borderSize = {x = 0 y = 0}
+			text = "FORUM_VALUE"
+			maxWidth = 300
+			maxHeight = 20
+		}
+        
+        instantTextBoxType = {
+			name = "tavern_name"
+			position = { x = @name_x y = 220 }
+			font = "hoi_20bs"
+			borderSize = {x = 0 y = 0}
+			text = "TAVERN"
+			maxWidth = 300
+			maxHeight = 20
+		}
+        instantTextBoxType = {
+			name = "tavern_value"
+			position = { x = @value_x y = 220 }
+			font = "hoi_20bs"
+			borderSize = {x = 0 y = 0}
+			text = "TAVERN_VALUE"
+			maxWidth = 300
+			maxHeight = 20
+		}
+        
+        instantTextBoxType = {
+			name = "arena_name"
+			position = { x = @name_x y = 245 }
+			font = "hoi_20bs"
+			borderSize = {x = 0 y = 0}
+			text = "ARENA"
+			maxWidth = 300
+			maxHeight = 20
+		}
+        instantTextBoxType = {
+			name = "arena_value"
+			position = { x = @value_x y = 245 }
+			font = "hoi_20bs"
+			borderSize = {x = 0 y = 0}
+			text = "ARENA_VALUE"
+			maxWidth = 300
+			maxHeight = 20
+		}
+        
+        instantTextBoxType = {
+			name = "command_post_name"
+			position = { x = @name_x y = 270 }
+			font = "hoi_20bs"
+			borderSize = {x = 0 y = 0}
+			text = "COMMAND_POST"
+			maxWidth = 300
+			maxHeight = 20
+		}
+        instantTextBoxType = {
+			name = "command_post_value"
+			position = { x = @value_x y = 270 }
+			font = "hoi_20bs"
+			borderSize = {x = 0 y = 0}
+			text = "COMMAND_POST_VALUE"
+			maxWidth = 300
+			maxHeight = 20
+		}
+        
+        instantTextBoxType = {
+			name = "training_ground_name"
+			position = { x = @name_x y = 295 }
+			font = "hoi_20bs"
+			borderSize = {x = 0 y = 0}
+			text = "TRAINING_GROUND"
+			maxWidth = 300
+			maxHeight = 20
+		}
+        instantTextBoxType = {
+			name = "training_ground_value"
+			position = { x = @value_x y = 295 }
+			font = "hoi_20bs"
+			borderSize = {x = 0 y = 0}
+			text = "TRAINING_GROUND_VALUE"
+			maxWidth = 300
+			maxHeight = 20
+		}
+        
+        instantTextBoxType = {
+			name = "airfield_name"
+			position = { x = @name_x y = 320 }
+			font = "hoi_20bs"
+			borderSize = {x = 0 y = 0}
+			text = "AIRFIELD"
+			maxWidth = 300
+			maxHeight = 20
+		}
+        instantTextBoxType = {
+			name = "airfield_value"
+			position = { x = @value_x y = 320 }
+			font = "hoi_20bs"
+			borderSize = {x = 0 y = 0}
+			text = "AIRFIELD_VALUE"
+			maxWidth = 300
+			maxHeight = 20
+		}
+        
+        instantTextBoxType = {
+			name = "harbour_name"
+			position = { x = @name_x y = 345 }
+			font = "hoi_20bs"
+			borderSize = {x = 0 y = 0}
+			text = "HARBOUR"
+			maxWidth = 300
+			maxHeight = 20
+		}
+        instantTextBoxType = {
+			name = "harbour_value"
+			position = { x = @value_x y = 345 }
+			font = "hoi_20bs"
+			borderSize = {x = 0 y = 0}
+			text = "HARBOUR_VALUE"
+			maxWidth = 300
+			maxHeight = 20
+		}
+        
+        instantTextBoxType = {
+			name = "manufactory_name"
+			position = { x = @name_x y = 370 }
+			font = "hoi_20bs"
+			borderSize = {x = 0 y = 0}
+			text = "MANUFACTORY"
+			maxWidth = 300
+			maxHeight = 20
+		}
+        instantTextBoxType = {
+			name = "oil_value"
+			position = { x = @name_x y = 395 }
+			font = "hoi_20bs"
+			borderSize = {x = 0 y = 0}
+			text = "OIL_VALUE"
+			maxWidth = 300
+			maxHeight = 20
+		}
+        instantTextBoxType = {
+			name = "fb_value"
+			position = { x = @value_x y = 445 }
+			font = "hoi_20bs"
+			borderSize = {x = 0 y = 0}
+			text = "FB_VALUE"
+			maxWidth = 300
+			maxHeight = 20
+		}
+        instantTextBoxType = {
+			name = "gb_value"
+			position = { x = @name_x y = 445 }
+			font = "hoi_20bs"
+			borderSize = {x = 0 y = 0}
+			text = "GB_VALUE"
+			maxWidth = 300
+			maxHeight = 20
+		}
+        instantTextBoxType = {
+			name = "wood_value"
+			position = { x = @value_x y = 395 }
+			font = "hoi_20bs"
+			borderSize = {x = 0 y = 0}
+			text = "WOOD_VALUE"
+			maxWidth = 300
+			maxHeight = 20
+		}
+        instantTextBoxType = {
+			name = "steel_value"
+			position = { x = @value_x y = 420 }
+			font = "hoi_20bs"
+			borderSize = {x = 0 y = 0}
+			text = "STEEL_VALUE"
+			maxWidth = 300
+			maxHeight = 20
+		}
+        instantTextBoxType = {
+			name = "food_value"
+			position = { x = @name_x y = 420 }
+			font = "hoi_20bs"
+			borderSize = {x = 0 y = 0}
+			text = "FOOD_VALUE"
+			maxWidth = 300
+			maxHeight = 20
+		}
+    }
+}
+    

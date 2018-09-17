@@ -1,0 +1,15 @@
+state = {
+	id = 606
+	name = "SHOLAZAR_RANGE"
+	manpower = 51
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = LIF
+	}
+
+	provinces = {
+        5234 5947 5953 5957 5970 5971  
+    }
+}

@@ -1,0 +1,17 @@
+scripted_gui = {
+    darkmoon_faire_menu = {
+		context_type = player_context
+		window_name = "darkmoon_faire_menu"
+        
+        visible = {
+            check_variable = { show_darkmoon_faire > 0.0 }
+        }   
+           
+		effects = {
+            
+		}       
+        triggers = {
+            
+        } 
+	}
+}     

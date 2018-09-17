@@ -1,0 +1,55 @@
+state = {
+	id = 384
+	name = "LAKE_OF_STARS"
+	manpower = 866
+	state_category = rural
+
+	resources = {
+		oil = 4
+		ground_beast = 4
+		flying_beast = 2
+		wood = 19
+		steel = 3
+		food = 10
+	}
+
+	history = {
+		owner = MTD
+		add_core_of = MTD
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 2
+			industrial_complex = 1
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			6680 = {
+				bunker = 0
+			}
+			6712 = {
+				bunker = 0
+			}
+			6801 = {
+				bunker = 0
+			}
+			6832 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        6680 6712 6801 6832
+    }
+}

@@ -1,0 +1,15 @@
+state = {
+	id = 419
+	name = "NEVEREST_RIDGE"
+	manpower = 54
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = TIG
+	}
+
+	provinces = {
+        6757 6764 6766 6772
+    }
+}

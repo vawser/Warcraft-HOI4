@@ -1,0 +1,15 @@
+state = {
+	id = 1095
+	name = "MISTFALL_RIDGE"
+	manpower = 8
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = SHO
+	}
+
+	provinces = {
+        6794 6792 6789
+    }
+}

@@ -1,0 +1,66 @@
+state = {
+	id = 613
+	name = "LIFEBLOOD_PILLAR"
+	manpower = 4199
+	state_category = village
+
+	resources = {
+		ground_beast = 7
+		flying_beast = 9
+		wood = 13
+		steel = 3
+		food = 2
+	}
+
+	history = {
+		owner = MWK
+		add_core_of = MWK
+
+		buildings = {
+			infrastructure = 3
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 3
+			industrial_complex = 1
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			5451 = {
+				bunker = 0
+			}
+			5473 = {
+				bunker = 0
+			}
+			5826 = {
+				bunker = 0
+			}
+			5833 = {
+				bunker = 0
+			}
+			5850 = {
+				bunker = 0
+			}
+			5860 = {
+				bunker = 0
+			}
+			5866 = {
+				bunker = 0
+			}
+			5878 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        5451 5473 5826 5833 5850 5860 5866 5878 
+    }
+}

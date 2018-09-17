@@ -1,0 +1,78 @@
+HWG = {
+	army = {
+		male = {
+			"gfx/leaders/WOLVAR/wolvar_1.dds"
+			"gfx/leaders/WOLVAR/wolvar_2.dds"
+            "gfx/leaders/WOLVAR/wolvar_3.dds"
+            "gfx/leaders/WOLVAR/wolvar_4.dds"
+		}
+	}
+
+	navy = {
+		male = {
+			"gfx/leaders/WOLVAR/wolvar_1.dds"
+			"gfx/leaders/WOLVAR/wolvar_2.dds"
+            "gfx/leaders/WOLVAR/wolvar_3.dds"
+            "gfx/leaders/WOLVAR/wolvar_4.dds"
+		}
+	}
+
+	political = {
+		light = {
+			male = {
+                "gfx/leaders/WOLVAR/wolvar_1.dds"
+                "gfx/leaders/WOLVAR/wolvar_2.dds"
+                "gfx/leaders/WOLVAR/wolvar_3.dds"
+                "gfx/leaders/WOLVAR/wolvar_4.dds"
+            }
+		}
+		shadow = {
+			male = {
+                "gfx/leaders/WOLVAR/wolvar_1.dds"
+                "gfx/leaders/WOLVAR/wolvar_2.dds"
+                "gfx/leaders/WOLVAR/wolvar_3.dds"
+                "gfx/leaders/WOLVAR/wolvar_4.dds"
+            }
+		}
+        order = {
+			male = {
+                "gfx/leaders/WOLVAR/wolvar_1.dds"
+                "gfx/leaders/WOLVAR/wolvar_2.dds"
+                "gfx/leaders/WOLVAR/wolvar_3.dds"
+                "gfx/leaders/WOLVAR/wolvar_4.dds"
+            }
+		}
+        disorder = {
+			male = {
+                "gfx/leaders/WOLVAR/wolvar_1.dds"
+                "gfx/leaders/WOLVAR/wolvar_2.dds"
+                "gfx/leaders/WOLVAR/wolvar_3.dds"
+                "gfx/leaders/WOLVAR/wolvar_4.dds"
+            }
+		}
+        life = {
+			male = {
+                "gfx/leaders/WOLVAR/wolvar_1.dds"
+                "gfx/leaders/WOLVAR/wolvar_2.dds"
+                "gfx/leaders/WOLVAR/wolvar_3.dds"
+                "gfx/leaders/WOLVAR/wolvar_4.dds"
+            }
+		}
+        death = {
+			male = {
+                "gfx/leaders/WOLVAR/wolvar_1.dds"
+                "gfx/leaders/WOLVAR/wolvar_2.dds"
+                "gfx/leaders/WOLVAR/wolvar_3.dds"
+                "gfx/leaders/WOLVAR/wolvar_4.dds"
+            }
+		}
+        unaligned = {
+			male = {
+                "gfx/leaders/WOLVAR/wolvar_1.dds"
+                "gfx/leaders/WOLVAR/wolvar_2.dds"
+                "gfx/leaders/WOLVAR/wolvar_3.dds"
+                "gfx/leaders/WOLVAR/wolvar_4.dds"
+            }
+		}
+	}
+}

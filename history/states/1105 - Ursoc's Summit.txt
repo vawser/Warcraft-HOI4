@@ -1,0 +1,15 @@
+state = {
+	id = 1105
+	name = "URSOCS_SUMMIT"
+	manpower = 22
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = FTP
+	}
+
+	provinces = {
+        5915
+    }
+}

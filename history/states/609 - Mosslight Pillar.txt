@@ -1,0 +1,63 @@
+state = {
+	id = 609
+	name = "MOSSLIGHT_PILLAR"
+	manpower = 949
+	state_category = village
+
+	resources = {
+		oil = 4
+		ground_beast = 8
+		flying_beast = 3
+		wood = 12
+		steel = 9
+	}
+
+	history = {
+		owner = SPK
+		add_core_of = SPK
+
+		buildings = {
+			infrastructure = 4
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 3
+			industrial_complex = 4
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			5836 = {
+				bunker = 0
+			}
+			5851 = {
+				bunker = 0
+			}
+			5857 = {
+				bunker = 0
+			}
+			5865 = {
+				bunker = 0
+			}
+			5873 = {
+				bunker = 0
+			}
+			5876 = {
+				bunker = 0
+			}
+			5882 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        5836 5851 5857 5865 5873 5876 5882 
+    }
+}

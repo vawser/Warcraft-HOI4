@@ -1,0 +1,15 @@
+state = {
+	id = 1119
+	name = "WAILING_RISE"
+	manpower = 73
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = PAL
+	}
+
+	provinces = {
+        4652 4480
+    }
+}

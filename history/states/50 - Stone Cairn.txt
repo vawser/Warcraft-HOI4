@@ -1,0 +1,75 @@
+state = {
+	id = 50
+	name = "STONE_CAIRN"
+	manpower = 535
+	state_category = rural
+
+	resources = {
+		oil = 1
+		ground_beast = 8
+		flying_beast = 2
+		wood = 13
+		steel = 2
+		food = 10
+	}
+
+	history = {
+		owner = SRW
+        add_core_of = SRW
+
+        # The Second War
+        597.1.1 = {
+            owner = TTH
+            add_core_of = TTH
+        }
+        # The Third War
+        612.1.1 = {
+            owner = SRW
+            add_core_of = SRW
+        }
+        
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 2
+			industrial_complex = 0
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			2314 = {
+				bunker = 0
+			}
+			2362 = {
+				bunker = 0
+			}
+			2380 = {
+				bunker = 0
+			}
+			2396 = {
+				bunker = 0
+			}
+			2408 = {
+				bunker = 0
+			}
+			2421 = {
+				bunker = 0
+			}
+			2895 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        2314 2362 2380 2396 2408 2421 2895 
+    }
+}

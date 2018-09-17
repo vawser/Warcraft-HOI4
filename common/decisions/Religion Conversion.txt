@@ -1,0 +1,811 @@
+religion_conversion_actions = {
+    switch_to_the_holy_light = {
+		icon = yellow_quest_mark
+        
+        allowed = {
+            light > 0.5
+            NOT = { has_holy_light = yes }
+        }
+        
+		available = {
+            NOT = { has_holy_light = yes }
+            light > 0.75
+            any_country = {
+                has_holy_light = yes
+                has_opinion = {
+                    target = ROOT
+                    value > 49
+                }
+            }
+		}
+
+		cost = 500
+
+		complete_effect = {
+            set_religion_the_holy_light = yes
+        }
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+    
+    switch_to_elune = {
+		icon = yellow_quest_mark
+        
+        allowed = {
+            life > 0.5
+            NOT = { has_elune = yes }
+        }
+        
+		available = {
+            life > 0.75
+            NOT = { has_elune = yes }
+            any_country = {
+                has_elune = yes
+                has_opinion = {
+                    target = ROOT
+                    value > 49
+                }
+            }
+		}
+
+		cost = 500
+
+		complete_effect = {
+            set_religion_elune = yes
+        }
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+    switch_to_hakkar = {
+		icon = yellow_quest_mark
+        
+        allowed = {
+            shadow > 0.5
+            NOT = { has_hakkar = yes }
+        }
+        
+		available = {
+            shadow > 0.75
+            NOT = { has_hakkar = yes }
+            any_country = {
+                has_hakkar = yes
+                has_opinion = {
+                    target = ROOT
+                    value > 49
+                }
+            }
+		}
+
+		cost = 500
+
+		complete_effect = {
+            set_religion_hakkar = yes
+        }
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+    
+    switch_to_voodoo = {
+		icon = yellow_quest_mark
+        
+        allowed = {
+            shadow > 0.5
+            NOT = { has_voodoo = yes }
+        }
+        
+		available = {
+            shadow > 0.75
+            NOT = { has_voodoo = yes }
+            any_country = {
+                has_voodoo = yes
+                has_opinion = {
+                    target = ROOT
+                    value > 49
+                }
+            }
+		}
+
+		cost = 500
+
+		complete_effect = {
+            set_religion_voodoo = yes
+        }
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+    
+    switch_to_shadow = {
+		icon = yellow_quest_mark
+        
+        allowed = {
+            shadow > 0.5
+            NOT = { has_shadow = yes }
+        }
+        
+		available = {
+            shadow > 0.75
+            NOT = { has_shadow = yes }
+            any_country = {
+                has_shadow = yes
+                has_opinion = {
+                    target = ROOT
+                    value > 49
+                }
+            }
+		}
+
+		cost = 500
+
+		complete_effect = {
+            set_religion_shadow = yes
+        }
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+    
+    switch_to_nature = {
+		icon = yellow_quest_mark
+        
+        allowed = {
+            life > 0.5
+            NOT = { has_nature = yes }
+        }
+        
+		available = {
+            life > 0.75
+            NOT = {has_nature = yes }
+            any_country = {
+                has_nature = yes
+                has_opinion = {
+                    target = ROOT
+                    value > 49
+                }
+            }
+		}
+
+		cost = 500
+
+		complete_effect = {
+            set_religion_nature = yes
+        }
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+    
+    switch_to_deep_mother = {
+		icon = yellow_quest_mark
+        
+        allowed = {
+            life > 0.5
+            NOT = { has_deep_mother = yes }
+        }
+        
+		available = {
+            life > 0.75
+            NOT = { has_deep_mother = yes }
+            any_country = {
+                has_deep_mother = yes
+                has_opinion = {
+                    target = ROOT
+                    value > 49
+                }
+            }
+		}
+
+		cost = 500
+
+		complete_effect = {
+            set_religion_deep_mother = yes
+        }
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+    
+    switch_to_arcane = {
+		icon = yellow_quest_mark
+        
+        allowed = {
+            order > 0.5
+            NOT = { has_arcane = yes }
+        }
+        
+		available = {
+            order > 0.75
+            NOT = { has_arcane = yes }
+            any_country = {
+                has_arcane = yes
+                has_opinion = {
+                    target = ROOT
+                    value > 49
+                }
+            }
+		}
+
+		cost = 500
+
+		complete_effect = {
+            set_religion_arcane = yes
+        }
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+    
+    switch_to_druidism = {
+		icon = yellow_quest_mark
+        
+        allowed = {
+            life > 0.5
+            NOT = { has_druidism = yes }
+        }
+        
+		available = {
+            life > 0.75
+            NOT = { has_druidism = yes }
+            any_country = {
+                has_druidism = yes
+                has_opinion = {
+                    target = ROOT
+                    value > 49
+                }
+            }
+		}
+
+		cost = 500
+
+		complete_effect = {
+            set_religion_druidism = yes
+        }
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+    
+    switch_to_old_gods = {
+		icon = yellow_quest_mark
+        
+        allowed = {
+            shadow > 0.5
+            NOT = { has_old_gods = yes }
+        }
+        
+		available = {
+            shadow > 0.75
+            NOT = { has_old_gods = yes }
+            any_country = {
+                has_old_gods = yes
+                has_opinion = {
+                    target = ROOT
+                    value > 49
+                }
+            }
+		}
+
+		cost = 500
+
+		complete_effect = {
+            set_religion_old_gods = yes
+            country_event = { id = old_gods.2 }
+        }
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+    
+    switch_to_fel = {
+		icon = yellow_quest_mark
+        
+        allowed = {
+            disorder > 0.5
+            NOT = { has_fel = yes }
+        }
+        
+		available = {
+            disorder > 0.75
+            NOT = { has_fel = yes }
+            any_country = {
+                has_fel = yes
+                has_opinion = {
+                    target = ROOT
+                    value > 49
+                }
+            }
+		}
+
+		cost = 500
+
+		complete_effect = {
+            set_religion_fel = yes
+        }
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+    
+    switch_to_necromancy = {
+		icon = yellow_quest_mark
+        
+        allowed = {
+            death > 0.5
+            NOT = { has_necromancy = yes }
+        }
+        
+		available = {
+            death > 0.75
+            NOT = { has_necromancy = yes }
+            any_country = {
+                has_necromancy = yes
+                has_opinion = {
+                    target = ROOT
+                    value > 49
+                }
+            }
+		}
+
+		cost = 500
+
+		complete_effect = {
+            set_religion_necromancy = yes
+        }
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+    
+    switch_to_shamanism = {
+		icon = yellow_quest_mark
+        
+        allowed = {
+            life > 0.5
+            NOT = { has_shamanism = yes }
+        }
+        
+		available = {
+            life > 0.75
+            NOT = { has_shamanism = yes }
+            any_country = {
+                has_shamanism = yes
+                has_opinion = {
+                    target = ROOT
+                    value > 49
+                }
+            }
+		}
+
+		cost = 500
+
+		complete_effect = {
+            set_religion_shamanism = yes
+        }
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+    
+    switch_to_celestials = {
+		icon = yellow_quest_mark
+        
+        allowed = {
+            life > 0.5
+            NOT = { has_celestials = yes }
+        }
+        
+		available = {
+            life > 0.75
+            NOT = { has_celestials = yes }
+            any_country = {
+                has_celestials = yes
+                has_opinion = {
+                    target = ROOT
+                    value > 49
+                }
+            }
+		}
+
+		cost = 500
+
+		complete_effect = {
+            set_religion_celestials = yes
+            country_event = { id = celestials.2 }
+        }
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+    
+    switch_to_titan = {
+		icon = yellow_quest_mark
+        
+        allowed = {
+            order > 0.5
+            NOT = { has_titan = yes }
+        }
+        
+		available = {
+            order > 0.75
+            NOT = { has_titan = yes }
+            any_country = {
+                has_titan = yes
+                has_opinion = {
+                    target = ROOT
+                    value > 49
+                }
+            }
+		}
+
+		cost = 500
+
+		complete_effect = {
+            set_religion_titan = yes
+        }
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+    
+    switch_to_fire = {
+		icon = yellow_quest_mark
+        
+        allowed = {
+            disorder > 0.5
+            NOT = { has_fire = yes }
+        }
+        
+		available = {
+            disorder > 0.75
+            NOT = { has_fire = yes }
+            any_country = {
+                has_fire = yes
+                has_opinion = {
+                    target = ROOT
+                    value > 49
+                }
+            }
+		}
+
+		cost = 500
+
+		complete_effect = {
+            set_religion_fire = yes
+        }
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+    
+    switch_to_earth = {
+		icon = yellow_quest_mark
+        
+        allowed = {
+            life > 0.5
+            NOT = { has_earth = yes }
+        }
+        
+		available = {
+            life > 0.75
+            NOT = { has_earth = yes }
+            any_country = {
+                has_earth = yes
+                has_opinion = {
+                    target = ROOT
+                    value > 49
+                }
+            }
+		}
+
+		cost = 500
+
+		complete_effect = {
+            set_religion_earth = yes
+        }
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+    
+    switch_to_wind = {
+		icon = yellow_quest_mark
+        
+        allowed = {
+            life > 0.5
+            NOT = { has_wind = yes }
+        }
+        
+		available = {
+            life > 0.75
+            NOT = { has_wind = yes }
+            any_country = {
+                has_wind = yes
+                has_opinion = {
+                    target = ROOT
+                    value > 49
+                }
+            }
+		}
+
+		cost = 500
+
+		complete_effect = {
+            set_religion_wind = yes
+        }
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+    
+    switch_to_water = {
+		icon = yellow_quest_mark
+        
+        allowed = {
+            life > 0.5
+            NOT = { has_water = yes }
+        }
+        
+		available = {
+            life > 0.75
+            NOT = { has_water = yes }
+            any_country = {
+                has_water = yes
+                has_opinion = {
+                    target = ROOT
+                    value > 49
+                }
+            }
+		}
+
+		cost = 500
+
+		complete_effect = {
+            set_religion_water = yes
+        }
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+    
+    switch_to_geomancy = {
+		icon = yellow_quest_mark
+        
+        allowed = {
+            life > 0.5
+            NOT = { has_geomancy = yes }
+        }
+        
+		available = {
+            life > 0.75
+            NOT = { has_geomancy = yes }
+            any_country = {
+                has_geomancy = yes
+                has_opinion = {
+                    target = ROOT
+                    value > 49
+                }
+            }
+		}
+
+		cost = 500
+
+		complete_effect = {
+            set_religion_geomancy = yes
+        }
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+    
+    switch_to_light_of_the_naaru = {
+		icon = yellow_quest_mark
+        
+        allowed = {
+            light > 0.5
+            NOT = { has_light_of_the_naaru = yes }
+        }
+        
+		available = {
+            light > 0.75
+            NOT = { has_light_of_the_naaru = yes }
+            any_country = {
+                has_light_of_the_naaru = yes
+                has_opinion = {
+                    target = ROOT
+                    value > 49
+                }
+            }
+		}
+
+		cost = 500
+
+		complete_effect = {
+            set_religion_light_of_the_naaru = yes
+        }
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+    
+    switch_to_dragon_aspects = {
+		icon = yellow_quest_mark
+        
+        allowed = {
+            order > 0.5
+            NOT = { has_dragon_aspects = yes }
+        }
+        
+		available = {
+            order > 0.75
+            NOT = { has_dragon_aspects = yes }
+            any_country = {
+                has_dragon_aspects = yes
+                has_opinion = {
+                    target = ROOT
+                    value > 49
+                }
+            }
+		}
+
+		cost = 500
+
+		complete_effect = {
+            set_religion_dragon_aspects = yes
+            country_event = { id = dragonflight.2 }
+        }
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+    
+    switch_to_technomancy = {
+		icon = yellow_quest_mark
+        
+        allowed = {
+            order > 0.5
+            NOT = { has_technomancy = yes }
+        }
+        
+		available = {
+            order > 0.75
+            NOT = { has_technomancy = yes }
+            any_country = {
+                has_technomancy = yes
+                has_opinion = {
+                    target = ROOT
+                    value > 49
+                }
+            }
+		}
+
+		cost = 500
+
+		complete_effect = {
+            set_religion_technomancy = yes
+        }
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+    
+    switch_to_capitalism = {
+		icon = yellow_quest_mark
+        
+        allowed = {
+            unaligned > 0.5
+            NOT = { has_capitalism = yes }
+        }
+        
+		available = {
+            unaligned > 0.75
+            NOT = { has_capitalism = yes }
+            any_country = {
+                has_capitalism = yes
+                has_opinion = {
+                    target = ROOT
+                    value > 49
+                }
+            }
+		}
+
+		cost = 500
+
+		complete_effect = {
+            set_religion_capitalism = yes
+        }
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+    
+    switch_to_soul = {
+		icon = yellow_quest_mark
+        
+        allowed = {
+            shadow > 0.5
+            NOT = { has_soul = yes }
+        }
+        
+		available = {
+            shadow > 0.75
+            NOT = { has_soul = yes }
+            any_country = {
+                has_soul = yes
+                has_opinion = {
+                    target = ROOT
+                    value > 49
+                }
+            }
+		}
+
+		cost = 500
+
+		complete_effect = {
+            set_religion_soul = yes
+        }
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+    
+    switch_to_runic = {
+		icon = yellow_quest_mark
+        
+        allowed = {
+            NOT = { has_runic = yes }
+            order > 0.5
+        }
+        
+		available = {
+            order > 0.75
+            NOT = { has_runic = yes }
+            any_country = {
+                has_runic = yes
+                has_opinion = {
+                    target = ROOT
+                    value > 49
+                }
+            }
+		}
+
+		cost = 500
+
+		complete_effect = {
+            set_religion_runic = yes
+        }
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+    
+}
+

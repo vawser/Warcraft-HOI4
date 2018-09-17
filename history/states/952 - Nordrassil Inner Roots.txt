@@ -1,0 +1,59 @@
+state = {
+	id = 952
+	name = "NORDRASSIL_INNER_ROOTS"
+	manpower = 669
+	state_category = rural
+
+	resources = {
+		ground_beast = 4
+		flying_beast = 4
+		wood = 15
+		food = 11
+	}
+
+	history = {
+		owner = SEN
+		add_core_of = SEN
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 1
+			industrial_complex = 2
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			3656 = {
+				bunker = 0
+			}
+			3671 = {
+				bunker = 0
+			}
+			3701 = {
+				bunker = 0
+			}
+			3715 = {
+				bunker = 0
+			}
+			3775 = {
+				bunker = 0
+			}
+			3805 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        3656 3671 3701 3715 3775 3805 
+    }
+}

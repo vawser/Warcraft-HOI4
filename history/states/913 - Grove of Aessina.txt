@@ -1,0 +1,55 @@
+state = {
+	id = 913
+	name = "GROVE_OF_AESSINA"
+	manpower = 4417
+	state_category = village
+
+	resources = {
+		oil = 2
+		ground_beast = 8
+		flying_beast = 3
+		wood = 27
+		steel = 6
+		food = 12
+	}
+
+	history = {
+		owner = SEA
+		add_core_of = SEA
+
+		buildings = {
+			infrastructure = 4
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 4
+			industrial_complex = 0
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			3828 = {
+				bunker = 0
+			}
+			4047 = {
+				bunker = 0
+			}
+			4078 = {
+				bunker = 0
+			}
+			4108 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        3828 4047 4078 4108 
+    }
+}

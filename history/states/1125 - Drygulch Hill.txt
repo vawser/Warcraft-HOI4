@@ -1,0 +1,19 @@
+state = {
+	id = 1125
+	name = "DRYGULCH_HILL"
+	manpower = 52
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = RAZ
+        
+        612.1.1 = {
+            owner = ORG
+        }
+	}
+
+	provinces = {
+        4371
+    }
+}

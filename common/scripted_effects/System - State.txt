@@ -1,0 +1,69 @@
+#-------------------------------------------------------------------------------
+# State
+#-------------------------------------------------------------------------------
+# This is the state view system, which allows coring and implements custom state actions and values.
+
+# Called every 24 hours
+# ROOT = Processor
+coring_update = {
+    every_state = {
+        limit = {
+            check_variable = { core_status = 1 }
+        }
+        
+        set_temp_variable = { progress_add = 0 }
+        
+        # Slower progress depending on population
+        # Variable method hasn't been used since state_population can exceed the storage value of a variable.
+        # 1 progress = 100 days to complete
+        if = {
+            limit = {
+                state_population < 1000
+            }
+            add_to_temp_variable = { progress_add = 2 }
+        }
+        else_if = {
+            limit = {
+                state_population < 2500
+            }
+            add_to_temp_variable = { progress_add = 1.6 }
+        }
+        else_if = {
+            limit = {
+                state_population < 5000
+            }
+            add_to_temp_variable = { progress_add = 1.2 }
+        }
+        else_if = {
+            limit = {
+                state_population < 10000
+            }
+            add_to_temp_variable = { progress_add = 1 }
+        }
+        else = {
+            add_to_temp_variable = { progress_add = 0.8 }
+        }
+        
+        if = {
+            limit = {
+                check_variable = { global.debug_coring = 1 }
+            }
+            add_to_temp_variable = { progress_add = 60 }
+        }
+        
+        add_to_variable = { core_progress = progress_add }
+        
+        # Add core after 100 progress
+        if = {
+            limit = { 
+                check_variable = { core_status = 1 }
+                check_variable = { core_progress > 100 }
+            }
+            add_core_of = var:core_controller
+            clear_variable = core_progress
+            clear_variable = core_status
+            clear_variable = core_controller
+        }
+    }
+}
+

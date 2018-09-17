@@ -1,0 +1,64 @@
+state = {
+	id = 349
+	name = "DAWNCHASER_RETREAT"
+	manpower = 4181
+	state_category = village
+
+	resources = {
+		oil = 3
+		ground_beast = 1
+		flying_beast = 1
+		wood = 14
+		food = 1
+	}
+
+	history = {
+		owner = RVE
+		add_core_of = RVE
+
+		buildings = {
+			infrastructure = 3
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 2
+			industrial_complex = 1
+			dockyard = 3
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			6441 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 8
+			}
+			6445 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 1
+			}
+			6448 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 6
+			}
+			6734 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        6441 6445 6448 6734
+    }
+}

@@ -1,0 +1,52 @@
+state = {
+	id = 687
+	name = "VALORS_REST"
+	manpower = 604
+	state_category = rural
+
+	resources = {
+		oil = 11
+		ground_beast = 9
+		flying_beast = 4
+		wood = 4
+		steel = 6
+		food = 2
+	}
+
+	history = {
+		owner = CEX
+		add_core_of = CEX
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 3
+			industrial_complex = 0
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			3362 = {
+				bunker = 0
+			}
+			3391 = {
+				bunker = 0
+			}
+			3638 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        3362 3391 3638 
+    }
+}

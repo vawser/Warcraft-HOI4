@@ -1,0 +1,15 @@
+state = {
+	id = 934
+	name = "FROSTWHISPER_RIDGE"
+	manpower = 75
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = WTA
+	}
+
+	provinces = {
+        3236 3267 3275 3284 4735 
+    }
+}

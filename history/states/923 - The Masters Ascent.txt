@@ -1,0 +1,15 @@
+state = {
+	id = 923
+	name = "THE_MASTERS_ASCENT"
+	manpower = 33
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = BKF
+	}
+
+	provinces = {
+        4684 4686 4723 4771 4798 4816 
+    }
+}

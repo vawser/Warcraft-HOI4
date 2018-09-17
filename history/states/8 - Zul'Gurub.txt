@@ -1,0 +1,68 @@
+state = {
+	id = 8
+	name = "ZUL_GURUB"
+	manpower = 12452
+	state_category = city
+
+	resources = {
+		oil = 4
+		flying_beast = 4
+		wood = 13
+		steel = 9
+	}
+
+	history = {
+        victory_points = {
+            2499 15
+        }
+		owner = GUR
+		add_core_of = GUR
+
+		buildings = {
+			infrastructure = 8
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 7
+			industrial_complex = 10
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			2478 = {
+				bunker = 8
+			}
+			2482 = {
+				bunker = 2
+			}
+			2499 = {
+				bunker = 8
+			}
+			2502 = {
+				bunker = 1
+			}
+			2505 = {
+				bunker = 6
+			}
+			2509 = {
+				bunker = 4
+			}
+			2514 = {
+				bunker = 2
+			}
+			2518 = {
+				bunker = 8
+			}
+		}
+	}
+
+	provinces = {
+        2478 2482 2499 2502 2505 2509 2514 2518
+    }
+}

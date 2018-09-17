@@ -1,0 +1,15 @@
+state = {
+	id = 670
+	name = "GREENWIND_TOR"
+	manpower = 37
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = AQJ
+	}
+
+	provinces = {
+        4464 4482 4519 4563 4595 4626 
+    }
+}

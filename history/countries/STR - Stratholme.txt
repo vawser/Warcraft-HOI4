@@ -1,0 +1,82 @@
+﻿capital = 225
+
+oob = "STR_default"
+
+set_research_slots = 4
+set_stability = 0.5
+set_war_support = 0.2
+
+set_technology = {
+    grunt_equipment_1_tech = 1
+	champion_equipment_1_tech = 1
+	spellcaster_equipment_1_tech = 1
+	archer_equipment_1_tech = 1
+	light_cavalry_equipment_1_tech = 1
+	heavy_cavalry_equipment_1_tech = 1
+	war_engine_equipment_1_tech = 1
+	battleship_tech_1 = 1
+	cruiser_tech_1 = 1
+	destroyer_tech_1 = 1
+	submarine_tech_1 = 1
+	war_engine_support_tech_1 = 1
+	archer_support_tech_1 = 1
+	spellcaster_support_tech_1 = 1
+	logistics_support_tech_1 = 1
+	guard_support_tech_1 = 1
+	engineer_support_tech_1 = 1
+	medic_support_tech_1 = 1
+	scout_support_tech_1 = 1
+	cavalry_support_tech_1 = 1
+	history_tech = 1
+}
+
+add_ideas = {
+    
+	racial_human
+    
+    civil_economy_2
+    free_trade
+    conscription_3
+    
+}
+
+set_convoys = 100
+
+set_politics = {
+	parties = {
+		light = {
+			popularity = 80
+		}
+		shadow = {
+			popularity = 5
+		}
+		order = {
+			popularity = 5
+		}
+        disorder = {
+			popularity = 5
+		}
+        life = {
+			popularity = 5
+		}
+        death = {
+			popularity = 5
+		}
+        unaligned = {
+			popularity = 0
+		}
+	}
+
+	ruling_party = light
+}
+
+create_country_leader = {
+	name = "Flynn Longfield"
+	desc = ""
+	picture = "gfx/leaders/HUMAN/human_male_2_10.dds"
+	expire = "2000.1.1"
+	ideology = kingdom_light
+	traits = {
+		virtuous_defender
+	}
+}

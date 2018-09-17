@@ -1,0 +1,21 @@
+state = {
+	id = 519
+	name = "THE_FROZEN_FRONT"
+	manpower = 7
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = AZJ
+
+        # The Third War
+        612.1.1 = {
+            owner = SCO
+            set_state_name = DECREPIT_FRONT
+        }
+	}
+
+	provinces = {
+        5935 5936 5945 5964 5973 5955 5965 5981 5982 
+    }
+}

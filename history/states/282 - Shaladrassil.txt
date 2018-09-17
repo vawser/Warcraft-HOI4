@@ -1,0 +1,65 @@
+state = {
+	id = 282
+	name = "SHALADRASSIL"
+	manpower = 15216
+	state_category = city
+
+	resources = {
+		oil = 3
+		flying_beast = 3
+		wood = 6
+		steel = 13
+		food = 15
+	}
+
+	history = {
+		owner = VAL
+		add_core_of = VAL
+
+		buildings = {
+			infrastructure = 8
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 4
+			industrial_complex = 2
+			dockyard = 5
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			7067 = {
+				bunker = 3
+				coastal_bunker = 8
+				naval_base = 1
+			}
+			7071 = {
+				bunker = 4
+				coastal_bunker = 2
+				naval_base = 9
+			}
+			7101 = {
+				bunker = 5
+			}
+			7111 = {
+				bunker = 8
+			}
+			7119 = {
+				bunker = 6
+			}
+		}
+	}
+
+	provinces = {
+        7067 7071 7101 7111 7119 
+    }
+}

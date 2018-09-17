@@ -1,0 +1,102 @@
+state = {
+	id = 577
+	name = "SHADOWHAVEN"
+	manpower = 3071
+	state_category = village
+
+	resources = {
+		oil = 2
+		ground_beast = 2
+		flying_beast = 5
+		steel = 10
+		food = 19
+	}
+
+	history = {
+		owner = AZJ
+		add_core_of = AZJ
+
+        # The Third War
+        612.1.1 = {
+            owner = SCO
+            add_core_of = SCO
+        }
+        
+		buildings = {
+			infrastructure = 4
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 2
+			industrial_complex = 3
+			dockyard = 3
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			5128 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 4
+			}
+			5147 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 8
+			}
+			5156 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 9
+			}
+			5164 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 4
+			}
+			5173 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 4
+			}
+			5181 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 5
+			}
+			5190 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 8
+			}
+			5192 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 9
+			}
+			5199 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 2
+			}
+			5201 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 5
+			}
+		}
+	}
+
+	provinces = {
+        5128 5147 5156 5164 5173 5181 5190 5192 5199 5201 
+    }
+}

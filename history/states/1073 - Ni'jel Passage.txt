@@ -1,0 +1,46 @@
+state = {
+	id = 1073
+	name = "NIJEL_PASSAGE"
+	manpower = 785
+	state_category = rural
+
+	resources = {
+		oil = 1
+		ground_beast = 4
+		flying_beast = 7
+		wood = 2
+		steel = 7
+		food = 16
+	}
+
+	history = {
+		owner = WRF
+        add_core_of = WRF
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 2
+			industrial_complex = 2
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			7353 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        7353
+    }
+}

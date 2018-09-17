@@ -1,0 +1,56 @@
+state = {
+	id = 66
+	name = "BLACKROCK_MOUNTAIN"
+	manpower = 9167
+	state_category = city
+
+	resources = {
+		oil = 4
+		ground_beast = 5
+		flying_beast = 7
+		wood = 9
+		steel = 5
+		food = 11
+	}
+
+	history = {
+        victory_points = {
+            2725 15
+        }
+        
+		owner = DKI
+        add_core_of = DKI
+
+        # The Second War
+        597.1.1 = {
+            owner = TTH
+            add_core_of = TTH
+        }
+        
+		buildings = {
+			infrastructure = 8
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 8
+			industrial_complex = 6
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			2725 = {
+				bunker = 9
+			}
+		}
+	}
+
+	provinces = {
+        2725
+    }
+}

@@ -1,0 +1,88 @@
+state = {
+	id = 35
+	name = "THE_RED_COAST"
+	manpower = 12204
+	state_category = city
+
+	resources = {
+		oil = 16
+		ground_beast = 5
+		flying_beast = 1
+		wood = 4
+		food = 3
+	}
+
+	history = {
+		owner = REG
+        add_core_of = REG
+
+        # The First War
+        592.1.1 = {
+            owner = TTH
+            add_core_of = TTH
+        }
+        # The Second War
+        597.1.1 = {
+            owner = TTH
+            add_core_of = TTH
+        }
+        # The Third War
+        612.1.1 = {
+            owner = REG
+            add_core_of = REG
+        }
+        
+		buildings = {
+			infrastructure = 9
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 3
+			industrial_complex = 7
+			dockyard = 7
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			1631 = {
+				bunker = 7
+				coastal_bunker = 2
+				naval_base = 3
+			}
+			1633 = {
+				bunker = 2
+				coastal_bunker = 1
+				naval_base = 5
+			}
+			1641 = {
+				bunker = 7
+				coastal_bunker = 4
+				naval_base = 1
+			}
+			1647 = {
+				bunker = 2
+				coastal_bunker = 2
+				naval_base = 5
+			}
+			2035 = {
+				bunker = 3
+			}
+			2050 = {
+				bunker = 6
+			}
+		}
+	}
+
+	provinces = {
+        1631 1633 1641 1647 2035 2050 
+    }
+}

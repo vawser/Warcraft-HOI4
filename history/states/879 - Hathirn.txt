@@ -1,0 +1,55 @@
+state = {
+	id = 879
+	name = "HATHIRN"
+	manpower = 613
+	state_category = rural
+
+	resources = {
+		oil = 3
+		ground_beast = 6
+		flying_beast = 5
+		wood = 21
+		steel = 8
+		food = 14
+	}
+
+	history = {
+		owner = HAL
+		add_core_of = HAL
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 1
+			industrial_complex = 1
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			4011 = {
+				bunker = 0
+			}
+			4013 = {
+				bunker = 0
+			}
+			4040 = {
+				bunker = 0
+			}
+			4042 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        4011 4013 4040 4042 
+    }
+}

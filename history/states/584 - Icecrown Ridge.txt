@@ -1,0 +1,20 @@
+state = {
+	id = 584
+	name = "ICECROWN_RIDGE"
+	manpower = 26
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = AZJ
+
+        # The Third War
+        612.1.1 = {
+            owner = SCO
+        }
+	}
+
+	provinces = {
+        5937 5974 5983 
+    }
+}

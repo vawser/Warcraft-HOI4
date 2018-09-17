@@ -1,0 +1,15 @@
+state = {
+	id = 1069
+	name = "ZULDAZAR_PEAK"
+	manpower = 77
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = ZDL
+	}
+
+	provinces = {
+        7222
+    }
+}

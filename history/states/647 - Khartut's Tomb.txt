@@ -1,0 +1,62 @@
+state = {
+	id = 647
+	name = "KHARTUT_TOMB"
+	manpower = 490
+	state_category = rural
+
+	resources = {
+		flying_beast = 9
+		wood = 3
+		steel = 5
+		food = 2
+	}
+
+	history = {
+		owner = RAM
+		add_core_of = RAM
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 1
+			industrial_complex = 1
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			3367 = {
+				bunker = 0
+			}
+			3373 = {
+				bunker = 0
+			}
+			3396 = {
+				bunker = 0
+			}
+			3570 = {
+				bunker = 0
+			}
+			3597 = {
+				bunker = 0
+			}
+			3624 = {
+				bunker = 0
+			}
+			3649 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        3367 3373 3396 3570 3597 3624 3649
+    }
+}

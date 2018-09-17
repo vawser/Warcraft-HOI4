@@ -1,0 +1,81 @@
+state = {
+	id = 253
+	name = "GOLDEN_STRAND"
+	manpower = 661
+	state_category = rural
+
+	resources = {
+		oil = 1
+		ground_beast = 1
+		flying_beast = 3
+		wood = 19
+		steel = 1
+		food = 18
+	}
+
+	history = {
+		owner = QUE
+        add_core_of = QUE
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 0
+			industrial_complex = 2
+			dockyard = 1
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			1662 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 5
+			}
+			1673 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 5
+			}
+			1680 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 1
+			}
+			1690 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 2
+			}
+			1703 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 3
+			}
+			2098 = {
+				bunker = 0
+			}
+			2179 = {
+				bunker = 0
+			}
+			2584 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        1662 1673 1680 1690 1703 2098 2179 2584
+    }
+}

@@ -1,0 +1,94 @@
+﻿add_namespace = shadow
+
+# Shadows Encroach...
+country_event = {
+	id = shadow.1
+	title = shadow.1.title
+	desc = shadow.1.desc
+	picture = GFX_event_SHADOWMOON_BURIAL_GROUNDS
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = shadow.1.option.a
+
+        hidden_effect = {
+            set_variable = { current_stability = has_stability }   
+            subtract_from_variable = { current_stability = 1 }     
+            
+            if = {
+                limit = { check_variable = { current_stability = 0 } }
+                set_variable = { current_stability = 0.01 }
+            }
+            
+            multiply_variable = { current_stability = -1 }          
+            divide_variable = { current_stability = 4 }            
+        }
+        
+        add_popularity = {
+            ideology = shadow
+            popularity = var:current_stability
+        }
+        
+        hidden_effect = { clear_variable = current_stability }
+
+        ai_chance = {
+            factor = 0.5
+        }
+	}
+    
+    option = {
+		name = shadow.1.option.b
+        
+        add_political_power = -100
+        
+        ai_chance = {
+            factor = 0.5
+        }
+	}
+}
+
+country_event = {
+	id = shadow.2
+	title = shadow.2.title
+	desc = shadow.2.desc
+	picture = GFX_event_SHADOWMOON_BURIAL_GROUNDS
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = shadow.2.option.a
+
+        hidden_effect = {
+            set_variable = { shadow_pop = party_popularity@shadow }
+            
+            if = {
+                limit = { check_variable = { shadow_pop = 0 } }
+                set_variable = { shadow_pop = 0.01 }
+            }
+            
+            multiply_variable = { shadow_pop = -1 }
+        }
+        
+        # Used so the tooltip of add_stability shows the variable properly.
+        country_event = { id = shadow.3 hours = 1 }
+	}
+}
+
+country_event = {
+	id = shadow.3
+	title = shadow.3.title
+	desc = shadow.3.desc
+	picture = GFX_event_SHADOWMOON_BURIAL_GROUNDS
+	
+	is_triggered_only = yes
+    
+    option = {
+        name = shadow.3.option.a
+        
+        add_stability = var:shadow_pop
+        
+        hidden_effect = { clear_variable = shadow_pop }
+    }   
+}
+

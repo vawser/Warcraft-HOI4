@@ -1,0 +1,151 @@
+scripted_gui = {       
+	state_menu = {
+		context_type = selected_state_context
+		window_name = "state_menu"
+        
+        visible = {
+            ROOT = {
+                can_show_state_menu = yes
+            }
+            is_controlled_by = ROOT
+            NOT = { has_state_category = wasteland }
+		}
+        
+		effects = {
+            coring_button_click = {     
+                if = {
+                    limit = {
+                        check_variable = { core_status = 0 }
+                        NOT = { is_core_of = ROOT }
+                        ROOT = { has_political_power > 99 }
+                    }
+                    custom_effect_tooltip = START_CORING_TOOLTIP
+                    
+                    ROOT = { add_political_power = -100 }
+                    
+                    set_variable = { core_status = 1 }
+                    set_variable = { core_controller = ROOT.id }
+                    set_variable = { core_progress = 0 }
+                }
+                else_if = {
+                    limit = {
+                        check_variable = { core_status = 1 }
+                    }
+                    custom_effect_tooltip = IS_CORING_TOOLTIP
+                }
+                else_if = {
+                    limit = {
+                        is_core_of = ROOT
+                    }
+                    custom_effect_tooltip = IS_CORED_TOOLTIP
+                }
+                else_if = {
+                    limit = {
+                        check_variable = { core_status = 0 }
+                        NOT = { is_core_of = ROOT }
+                        ROOT = { has_political_power < 100 }
+                    }
+                    custom_effect_tooltip = IS_POOR
+                }
+            }
+            boost_button_click = {
+                if = {
+                    limit = {
+                        check_variable = { core_status = 1 }
+                        ROOT = { has_political_power > 99 }
+                        check_variable = { core_progress < 99 }
+                    }
+                    custom_effect_tooltip = BOOST_ADD_PROGRESS
+                    
+                    ROOT = { add_political_power = -100 }
+                    add_to_variable = { core_progress = 10 }
+                    if = {
+                        limit = {
+                            check_variable = { core_progress > 99 }
+                        }
+                        set_variable = { core_progress = 99 }
+                    }
+                }
+                else_if = {
+                    limit = {
+                        check_variable = { core_status = 1 }
+                        ROOT = { has_political_power < 100 }
+                        check_variable = { core_progress < 99 }
+                    }
+                    custom_effect_tooltip = BOOST_ADD_PROGRESS_POOR
+                }
+                else_if = {
+                    limit = {
+                        check_variable = { core_status = 1 }
+                        check_variable = { core_progress > 98 }
+                    }
+                    custom_effect_tooltip = BOOST_ADD_PROGRESS_MAX
+                } 
+            }  
+		}
+        triggers = {
+            coring_button_click_enabled = {
+                NOT = { is_core_of = ROOT }
+                check_variable = { core_status < 1 }
+                ROOT = { has_political_power > 99 }
+            }
+            coring_progress_bg_visible = {
+                check_variable = { core_status = 1 }
+            }
+            coring_progress_text_visible = {
+                check_variable = { core_status = 1 }
+            }
+            boost_button_visible = {
+                check_variable = { core_status = 1 }
+            }
+            boost_button_text_visible = {
+                check_variable = { core_status = 1 }
+            }
+            boost_button_click_enabled = {
+                ROOT = { has_political_power > 99 }
+            }
+        }
+        
+        ai_enabled = { check_variable = { ai_enable_menus = 1 } }
+        
+        ai_test_interval = 24
+        ai_test_variance = 0
+        
+        ai_check = {
+            ROOT = {
+                any_owned_state = {
+                    NOT = { is_core_of = ROOT }
+                }
+                has_political_power > 100
+            }
+        }
+
+        ai_test_scopes = test_self_controlled_states
+        
+        ai_weights = {
+            boost_button_click = {
+                ai_will_do = {
+					factor = 0
+				}
+            }
+            coring_button_click = {
+                ai_will_do = {
+					factor = 10
+                    
+                    modifier = {
+                        factor = 0
+                        ROOT = { has_war = yes }
+                    }
+                    
+                    modifier = {
+                        factor = 0
+                        ROOT = { has_political_power < 200 }
+                    }
+                }
+            }
+        }
+	}
+}
+  
+
+

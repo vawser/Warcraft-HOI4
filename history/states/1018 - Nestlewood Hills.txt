@@ -1,0 +1,19 @@
+state = {
+	id = 1018
+	name = "NESTLEWOOD_HILLS"
+	manpower = 39
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+        owner = STP
+
+        612.1.1 = {
+            owner = EXO
+        }
+	}
+
+	provinces = {
+        6972 6975 6977 
+    }
+}

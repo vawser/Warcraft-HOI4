@@ -1,0 +1,66 @@
+state = {
+	id = 881
+	name = "RAVENWOOD"
+	manpower = 559
+	state_category = rural
+
+	resources = {
+		oil = 2
+		ground_beast = 1
+		flying_beast = 3
+		wood = 22
+		steel = 3
+		food = 14
+	}
+
+	history = {
+		owner = HAL
+		add_core_of = HAL
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 0
+			industrial_complex = 1
+			dockyard = 3
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			3168 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 9
+			}
+			3180 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 1
+			}
+			3877 = {
+				bunker = 0
+			}
+			4032 = {
+				bunker = 0
+			}
+			4103 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        3168 3180 3877 4032 4103 
+    }
+}

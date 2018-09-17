@@ -1,0 +1,63 @@
+state = {
+	id = 226
+	name = "NORTHPASS"
+	manpower = 1511
+	state_category = village
+
+	resources = {
+		oil = 3
+		wood = 14
+		steel = 9
+		food = 18
+	}
+
+	history = {
+		owner = STR
+        add_core_of = STR
+
+        victory_points = {
+            2063 5
+        }
+        
+		buildings = {
+			infrastructure = 3
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 5
+			industrial_complex = 1
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			2063 = {
+				bunker = 0
+			}
+			2084 = {
+				bunker = 0
+			}
+			2144 = {
+				bunker = 0
+			}
+			2208 = {
+				bunker = 0
+			}
+			2256 = {
+				bunker = 0
+			}
+			2276 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        2063 2084 2144 2208 2256 2276 
+    }
+}

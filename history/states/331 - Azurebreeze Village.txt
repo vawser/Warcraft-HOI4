@@ -1,0 +1,71 @@
+state = {
+	id = 331
+	name = "AZUREBREEZE_VILLAGE"
+	manpower = 2109
+	state_category = village
+
+	resources = {
+		oil = 2
+		ground_beast = 1
+		flying_beast = 7
+		wood = 25
+		steel = 6
+		food = 19
+	}
+
+	history = {
+		owner = JAS
+		add_core_of = JAS
+
+		buildings = {
+			infrastructure = 3
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 2
+			industrial_complex = 2
+			dockyard = 4
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			6397 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 5
+			}
+			6400 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 6
+			}
+			6412 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 5
+			}
+			6692 = {
+				bunker = 0
+			}
+			6700 = {
+				bunker = 0
+			}
+			6717 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        6397 6400 6412 6692 6700 6717
+    }
+}

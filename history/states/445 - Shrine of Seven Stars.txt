@@ -1,0 +1,55 @@
+state = {
+	id = 445
+	name = "SHRINE_OF_SEVEN_STARS"
+	manpower = 11429
+	state_category = city
+
+	resources = {
+		oil = 3
+		ground_beast = 1
+		flying_beast = 9
+		wood = 10
+		steel = 5
+		food = 15
+	}
+
+	history = {
+		owner = MOH
+		add_core_of = MOH
+
+		buildings = {
+			infrastructure = 9
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 7
+			industrial_complex = 8
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			6688 = {
+				bunker = 8
+			}
+			6696 = {
+				bunker = 5
+			}
+			6703 = {
+				bunker = 6
+			}
+			6713 = {
+				bunker = 5
+			}
+		}
+	}
+
+	provinces = {
+        6688 6696 6703 6713 
+    }
+}

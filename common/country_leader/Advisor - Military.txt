@@ -1,0 +1,278 @@
+leader_traits = {
+    death_knight_trait = {
+        random = no
+        
+        equipment_bonus = {
+            champion_equipment = {
+                soft_attack = 0.1
+                instant = yes
+            }
+        }
+        
+        ai_will_do = {
+            factor = 1
+        }
+    }
+    demon_hunter_trait = {
+        random = no
+        
+        equipment_bonus = {
+            champion_equipment = {
+                breakthrough = 0.1
+                instant = yes
+            }
+        }
+        
+        ai_will_do = {
+            factor = 1
+        }
+    }
+    druid_trait = {
+        random = no
+        
+        equipment_bonus = {
+            champion_equipment = {
+                maximum_speed = 0.1
+                instant = yes
+            }
+        }
+        
+        ai_will_do = {
+            factor = 1
+        }
+    }
+    hunter_trait = {
+        random = no
+        
+        equipment_bonus = {
+            archer_equipment = {
+                max_organisation = 0.1
+                instant = yes
+            }
+        }
+        
+        ai_will_do = {
+            factor = 1
+        }
+    }
+    mage_trait = {
+        random = no
+        
+        equipment_bonus = {
+            spellcaster_equipment = {
+                max_organisation = 0.1
+                instant = yes
+            }
+        }
+        
+        ai_will_do = {
+            factor = 1
+        }
+    }
+    priest_trait = {
+        random = no
+        
+        equipment_bonus = {
+            spellcaster_equipment = {
+                default_morale = 0.1
+                instant = yes
+            }
+        }
+        
+        ai_will_do = {
+            factor = 1
+        }
+    }
+    monk_trait = {
+        random = no
+        
+        equipment_bonus = {
+            champion_equipment = {
+                max_strength = 0.1
+                instant = yes
+            }
+        }
+        
+        ai_will_do = {
+            factor = 1
+        }
+    }
+    paladin_trait = {
+        random = no
+        
+        equipment_bonus = {
+            champion_equipment = {
+                default_morale = 0.1
+                instant = yes
+            }
+        }
+        
+        ai_will_do = {
+            factor = 1
+        }
+    }
+    rogue_trait = {
+        random = no
+        
+        equipment_bonus = {
+            grunt_equipment = {
+                maximum_speed = 0.1
+                instant = yes
+            }
+        }
+        
+        ai_will_do = {
+            factor = 1
+        }
+    }
+    shaman_trait = {
+        random = no
+        
+        equipment_bonus = {
+            spellcaster_equipment = {
+                air_attack = 0.1
+                instant = yes
+            }
+        }
+        
+        ai_will_do = {
+            factor = 1
+        }
+    }
+    warlock_trait = {
+        random = no
+        
+        equipment_bonus = {
+            spellcaster_equipment = {
+                soft_attack = 0.1
+                instant = yes
+            }
+        }
+        
+        ai_will_do = {
+            factor = 1
+        }
+    }
+    warrior_trait = {
+        random = no
+        
+        equipment_bonus = {
+            grunt_equipment = {
+                breakthrough = 0.1
+                instant = yes
+            }
+        }
+        
+        ai_will_do = {
+            factor = 1
+        }
+    }
+    berserker_trait = {
+        random = no
+        
+        army_speed_factor = 0.05
+        
+        ai_will_do = {
+            factor = 1
+        }
+    }
+    champion_trait = {
+        random = no
+        
+        army_attack_factor = 0.05
+        
+        ai_will_do = {
+            factor = 1
+        }
+    }
+    defender_trait = {
+        random = no
+        
+        army_defence_factor = 0.05
+        
+        ai_will_do = {
+            factor = 1
+        }
+    }
+    hero_trait = {
+        random = no
+        
+        army_org_factor = 0.05
+        
+        ai_will_do = {
+            factor = 1
+        }
+    }
+    guardian_trait = {
+        random = no
+        
+        army_morale_factor = 0.05
+        
+        ai_will_do = {
+            factor = 1
+        }
+    }
+    protector_trait = {
+        random = no
+        
+        planning_speed = 0.1
+        
+        ai_will_do = {
+            factor = 1
+        }
+    }
+    vanquisher_trait = {
+        random = no
+        
+        org_loss_when_moving = -0.1
+        
+        ai_will_do = {
+            factor = 1
+        }
+    }
+    conqueror_trait = {
+        random = no
+        
+        army_org_regain = 0.1
+        
+        ai_will_do = {
+            factor = 1
+        }
+    }
+    vindicator_trait = {
+        random = no
+        
+        pocket_penalty = -0.1
+        
+        ai_will_do = {
+            factor = 1
+        }
+    }
+    sentinel_trait = {
+        random = no
+        
+        dig_in_speed_factor = 0.1
+        
+        ai_will_do = {
+            factor = 1
+        }
+    }
+    overseer_mil_trait = {
+        random = no
+        
+        military_leader_cost_factor = -0.25
+        
+        ai_will_do = {
+            factor = 1
+        }
+    }
+    custodian_trait = {
+        random = no
+        
+        supply_consumption_factor = -0.1
+        
+        ai_will_do = {
+            factor = 1
+        }
+    }
+}

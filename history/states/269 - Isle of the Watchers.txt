@@ -1,0 +1,61 @@
+state = {
+	id = 269
+	name = "ISLE_OF_THE_WATCHERS"
+	manpower = 14257
+	state_category = city
+
+	resources = {
+		ground_beast = 6
+		flying_beast = 7
+		wood = 2
+		steel = 3
+		food = 29
+	}
+
+	history = {
+		owner = EYE
+		add_core_of = EYE
+
+		buildings = {
+			infrastructure = 8
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 3
+			industrial_complex = 6
+			dockyard = 7
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			7073 = {
+				bunker = 4
+				coastal_bunker = 4
+				naval_base = 4
+			}
+			7079 = {
+				bunker = 9
+				coastal_bunker = 1
+				naval_base = 8
+			}
+			7082 = {
+				bunker = 5
+				coastal_bunker = 4
+				naval_base = 8
+			}
+		}
+	}
+
+	provinces = {
+        7073 7079 7082
+    }
+}

@@ -1,0 +1,240 @@
+AQJ = {
+	army = {
+		male = {
+			"gfx/leaders/AQIR/aqir_beige.dds"
+            "gfx/leaders/AQIR/aqir_bronze.dds"
+            "gfx/leaders/AQIR/aqir_cyan.dds"
+            "gfx/leaders/AQIR/aqir_cyan_striped.dds"
+            "gfx/leaders/AQIR/aqir_gray_striped.dds"
+            "gfx/leaders/AQIR/aqir_green_striped.dds"
+            "gfx/leaders/AQIR/aqir_orange_striped.dds"
+            "gfx/leaders/AQIR/aqir_red.dds"
+            "gfx/leaders/AQIR/aqir_yellow.dds"
+            "gfx/leaders/AQIR/aqir_yellow_striped.dds"
+		}
+        female = {
+			"gfx/leaders/AQIR/aqir_beige.dds"
+            "gfx/leaders/AQIR/aqir_bronze.dds"
+            "gfx/leaders/AQIR/aqir_cyan.dds"
+            "gfx/leaders/AQIR/aqir_cyan_striped.dds"
+            "gfx/leaders/AQIR/aqir_gray_striped.dds"
+            "gfx/leaders/AQIR/aqir_green_striped.dds"
+            "gfx/leaders/AQIR/aqir_orange_striped.dds"
+            "gfx/leaders/AQIR/aqir_red.dds"
+            "gfx/leaders/AQIR/aqir_yellow.dds"
+            "gfx/leaders/AQIR/aqir_yellow_striped.dds"
+		}
+	}
+
+	navy = {
+		male = {
+			"gfx/leaders/AQIR/aqir_beige.dds"
+            "gfx/leaders/AQIR/aqir_bronze.dds"
+            "gfx/leaders/AQIR/aqir_cyan.dds"
+            "gfx/leaders/AQIR/aqir_cyan_striped.dds"
+            "gfx/leaders/AQIR/aqir_gray_striped.dds"
+            "gfx/leaders/AQIR/aqir_green_striped.dds"
+            "gfx/leaders/AQIR/aqir_orange_striped.dds"
+            "gfx/leaders/AQIR/aqir_red.dds"
+            "gfx/leaders/AQIR/aqir_yellow.dds"
+            "gfx/leaders/AQIR/aqir_yellow_striped.dds"
+		}
+        female = {
+			"gfx/leaders/AQIR/aqir_beige.dds"
+            "gfx/leaders/AQIR/aqir_bronze.dds"
+            "gfx/leaders/AQIR/aqir_cyan.dds"
+            "gfx/leaders/AQIR/aqir_cyan_striped.dds"
+            "gfx/leaders/AQIR/aqir_gray_striped.dds"
+            "gfx/leaders/AQIR/aqir_green_striped.dds"
+            "gfx/leaders/AQIR/aqir_orange_striped.dds"
+            "gfx/leaders/AQIR/aqir_red.dds"
+            "gfx/leaders/AQIR/aqir_yellow.dds"
+            "gfx/leaders/AQIR/aqir_yellow_striped.dds"
+		}
+	}
+
+	political = {
+		light = {
+			male = {
+                "gfx/leaders/AQIR/aqir_beige.dds"
+                "gfx/leaders/AQIR/aqir_bronze.dds"
+                "gfx/leaders/AQIR/aqir_cyan.dds"
+                "gfx/leaders/AQIR/aqir_cyan_striped.dds"
+                "gfx/leaders/AQIR/aqir_gray_striped.dds"
+                "gfx/leaders/AQIR/aqir_green_striped.dds"
+                "gfx/leaders/AQIR/aqir_orange_striped.dds"
+                "gfx/leaders/AQIR/aqir_red.dds"
+                "gfx/leaders/AQIR/aqir_yellow.dds"
+                "gfx/leaders/AQIR/aqir_yellow_striped.dds"
+            }
+            female = {
+                "gfx/leaders/AQIR/aqir_beige.dds"
+                "gfx/leaders/AQIR/aqir_bronze.dds"
+                "gfx/leaders/AQIR/aqir_cyan.dds"
+                "gfx/leaders/AQIR/aqir_cyan_striped.dds"
+                "gfx/leaders/AQIR/aqir_gray_striped.dds"
+                "gfx/leaders/AQIR/aqir_green_striped.dds"
+                "gfx/leaders/AQIR/aqir_orange_striped.dds"
+                "gfx/leaders/AQIR/aqir_red.dds"
+                "gfx/leaders/AQIR/aqir_yellow.dds"
+                "gfx/leaders/AQIR/aqir_yellow_striped.dds"
+            }
+		}
+		shadow = {
+			male = {
+                "gfx/leaders/AQIR/aqir_beige.dds"
+                "gfx/leaders/AQIR/aqir_bronze.dds"
+                "gfx/leaders/AQIR/aqir_cyan.dds"
+                "gfx/leaders/AQIR/aqir_cyan_striped.dds"
+                "gfx/leaders/AQIR/aqir_gray_striped.dds"
+                "gfx/leaders/AQIR/aqir_green_striped.dds"
+                "gfx/leaders/AQIR/aqir_orange_striped.dds"
+                "gfx/leaders/AQIR/aqir_red.dds"
+                "gfx/leaders/AQIR/aqir_yellow.dds"
+                "gfx/leaders/AQIR/aqir_yellow_striped.dds"
+            }
+            female = {
+                "gfx/leaders/AQIR/aqir_beige.dds"
+                "gfx/leaders/AQIR/aqir_bronze.dds"
+                "gfx/leaders/AQIR/aqir_cyan.dds"
+                "gfx/leaders/AQIR/aqir_cyan_striped.dds"
+                "gfx/leaders/AQIR/aqir_gray_striped.dds"
+                "gfx/leaders/AQIR/aqir_green_striped.dds"
+                "gfx/leaders/AQIR/aqir_orange_striped.dds"
+                "gfx/leaders/AQIR/aqir_red.dds"
+                "gfx/leaders/AQIR/aqir_yellow.dds"
+                "gfx/leaders/AQIR/aqir_yellow_striped.dds"
+            }
+		}
+        order = {
+			male = {
+                "gfx/leaders/AQIR/aqir_beige.dds"
+                "gfx/leaders/AQIR/aqir_bronze.dds"
+                "gfx/leaders/AQIR/aqir_cyan.dds"
+                "gfx/leaders/AQIR/aqir_cyan_striped.dds"
+                "gfx/leaders/AQIR/aqir_gray_striped.dds"
+                "gfx/leaders/AQIR/aqir_green_striped.dds"
+                "gfx/leaders/AQIR/aqir_orange_striped.dds"
+                "gfx/leaders/AQIR/aqir_red.dds"
+                "gfx/leaders/AQIR/aqir_yellow.dds"
+                "gfx/leaders/AQIR/aqir_yellow_striped.dds"
+            }
+            female = {
+                "gfx/leaders/AQIR/aqir_beige.dds"
+                "gfx/leaders/AQIR/aqir_bronze.dds"
+                "gfx/leaders/AQIR/aqir_cyan.dds"
+                "gfx/leaders/AQIR/aqir_cyan_striped.dds"
+                "gfx/leaders/AQIR/aqir_gray_striped.dds"
+                "gfx/leaders/AQIR/aqir_green_striped.dds"
+                "gfx/leaders/AQIR/aqir_orange_striped.dds"
+                "gfx/leaders/AQIR/aqir_red.dds"
+                "gfx/leaders/AQIR/aqir_yellow.dds"
+                "gfx/leaders/AQIR/aqir_yellow_striped.dds"
+            }
+		}
+        disorder = {
+			male = {
+                "gfx/leaders/AQIR/aqir_beige.dds"
+                "gfx/leaders/AQIR/aqir_bronze.dds"
+                "gfx/leaders/AQIR/aqir_cyan.dds"
+                "gfx/leaders/AQIR/aqir_cyan_striped.dds"
+                "gfx/leaders/AQIR/aqir_gray_striped.dds"
+                "gfx/leaders/AQIR/aqir_green_striped.dds"
+                "gfx/leaders/AQIR/aqir_orange_striped.dds"
+                "gfx/leaders/AQIR/aqir_red.dds"
+                "gfx/leaders/AQIR/aqir_yellow.dds"
+                "gfx/leaders/AQIR/aqir_yellow_striped.dds"
+            }
+            female = {
+                "gfx/leaders/AQIR/aqir_beige.dds"
+                "gfx/leaders/AQIR/aqir_bronze.dds"
+                "gfx/leaders/AQIR/aqir_cyan.dds"
+                "gfx/leaders/AQIR/aqir_cyan_striped.dds"
+                "gfx/leaders/AQIR/aqir_gray_striped.dds"
+                "gfx/leaders/AQIR/aqir_green_striped.dds"
+                "gfx/leaders/AQIR/aqir_orange_striped.dds"
+                "gfx/leaders/AQIR/aqir_red.dds"
+                "gfx/leaders/AQIR/aqir_yellow.dds"
+                "gfx/leaders/AQIR/aqir_yellow_striped.dds"
+            }
+		}
+        life = {
+			male = {
+                "gfx/leaders/AQIR/aqir_beige.dds"
+                "gfx/leaders/AQIR/aqir_bronze.dds"
+                "gfx/leaders/AQIR/aqir_cyan.dds"
+                "gfx/leaders/AQIR/aqir_cyan_striped.dds"
+                "gfx/leaders/AQIR/aqir_gray_striped.dds"
+                "gfx/leaders/AQIR/aqir_green_striped.dds"
+                "gfx/leaders/AQIR/aqir_orange_striped.dds"
+                "gfx/leaders/AQIR/aqir_red.dds"
+                "gfx/leaders/AQIR/aqir_yellow.dds"
+                "gfx/leaders/AQIR/aqir_yellow_striped.dds"
+            }
+            female = {
+                "gfx/leaders/AQIR/aqir_beige.dds"
+                "gfx/leaders/AQIR/aqir_bronze.dds"
+                "gfx/leaders/AQIR/aqir_cyan.dds"
+                "gfx/leaders/AQIR/aqir_cyan_striped.dds"
+                "gfx/leaders/AQIR/aqir_gray_striped.dds"
+                "gfx/leaders/AQIR/aqir_green_striped.dds"
+                "gfx/leaders/AQIR/aqir_orange_striped.dds"
+                "gfx/leaders/AQIR/aqir_red.dds"
+                "gfx/leaders/AQIR/aqir_yellow.dds"
+                "gfx/leaders/AQIR/aqir_yellow_striped.dds"
+            }
+		}
+        death = {
+			male = {
+                "gfx/leaders/AQIR/aqir_beige.dds"
+                "gfx/leaders/AQIR/aqir_bronze.dds"
+                "gfx/leaders/AQIR/aqir_cyan.dds"
+                "gfx/leaders/AQIR/aqir_cyan_striped.dds"
+                "gfx/leaders/AQIR/aqir_gray_striped.dds"
+                "gfx/leaders/AQIR/aqir_green_striped.dds"
+                "gfx/leaders/AQIR/aqir_orange_striped.dds"
+                "gfx/leaders/AQIR/aqir_red.dds"
+                "gfx/leaders/AQIR/aqir_yellow.dds"
+                "gfx/leaders/AQIR/aqir_yellow_striped.dds"
+            }
+            female = {
+                "gfx/leaders/AQIR/aqir_beige.dds"
+                "gfx/leaders/AQIR/aqir_bronze.dds"
+                "gfx/leaders/AQIR/aqir_cyan.dds"
+                "gfx/leaders/AQIR/aqir_cyan_striped.dds"
+                "gfx/leaders/AQIR/aqir_gray_striped.dds"
+                "gfx/leaders/AQIR/aqir_green_striped.dds"
+                "gfx/leaders/AQIR/aqir_orange_striped.dds"
+                "gfx/leaders/AQIR/aqir_red.dds"
+                "gfx/leaders/AQIR/aqir_yellow.dds"
+                "gfx/leaders/AQIR/aqir_yellow_striped.dds"
+            }
+		}
+        unaligned = {
+			male = {
+                "gfx/leaders/AQIR/aqir_beige.dds"
+                "gfx/leaders/AQIR/aqir_bronze.dds"
+                "gfx/leaders/AQIR/aqir_cyan.dds"
+                "gfx/leaders/AQIR/aqir_cyan_striped.dds"
+                "gfx/leaders/AQIR/aqir_gray_striped.dds"
+                "gfx/leaders/AQIR/aqir_green_striped.dds"
+                "gfx/leaders/AQIR/aqir_orange_striped.dds"
+                "gfx/leaders/AQIR/aqir_red.dds"
+                "gfx/leaders/AQIR/aqir_yellow.dds"
+                "gfx/leaders/AQIR/aqir_yellow_striped.dds"
+            }
+            female = {
+                "gfx/leaders/AQIR/aqir_beige.dds"
+                "gfx/leaders/AQIR/aqir_bronze.dds"
+                "gfx/leaders/AQIR/aqir_cyan.dds"
+                "gfx/leaders/AQIR/aqir_cyan_striped.dds"
+                "gfx/leaders/AQIR/aqir_gray_striped.dds"
+                "gfx/leaders/AQIR/aqir_green_striped.dds"
+                "gfx/leaders/AQIR/aqir_orange_striped.dds"
+                "gfx/leaders/AQIR/aqir_red.dds"
+                "gfx/leaders/AQIR/aqir_yellow.dds"
+                "gfx/leaders/AQIR/aqir_yellow_striped.dds"
+            }
+		}
+	}
+}

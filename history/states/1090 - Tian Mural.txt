@@ -1,0 +1,15 @@
+state = {
+	id = 1090
+	name = "TIAN_MURAL"
+	manpower = 62
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = JAS
+	}
+
+	provinces = {
+        6788
+    }
+}

@@ -1,0 +1,67 @@
+state = {
+	id = 254
+	name = "TRANQUIL_SHORE"
+	manpower = 2657
+	state_category = village
+
+	resources = {
+		oil = 2
+		ground_beast = 3
+		flying_beast = 1
+		wood = 23
+		steel = 2
+		food = 13
+	}
+
+	history = {
+		owner = QUE
+        add_core_of = QUE
+
+		buildings = {
+			infrastructure = 3
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 3
+			industrial_complex = 2
+			dockyard = 2
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			1666 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 1
+			}
+			1671 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 7
+			}
+			1679 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 7
+			}
+			1687 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 7
+			}
+		}
+	}
+
+	provinces = {
+        1666 1671 1679 1687 
+    }
+}

@@ -1,0 +1,408 @@
+focus_tree = {
+    id = stormwind_focus
+    country = {
+        factor = 0
+        
+        modifier = {
+            add = 100
+         
+            always = no
+            #tag = TTH
+        }
+    }
+    
+    reset_on_civilwar = no
+
+     # 32 - Dark Portal
+     # 81 - Deadwind Mountains
+     # 24 - Stonard
+     # 23 - Splinterspear Junction
+     # 20 - Darkshire
+     # 52 - Azora
+     # 48 - Stormwind Keep
+     # 38 - Sentinel Hill
+     #-------------------------------
+     # Home
+     #-------------------------------
+     # Stonard Mines
+     #  Excavation bonus
+     
+     # Reinforce the Dark Portal
+     #  Infrastructure construction speed bonus
+     
+     # Raid the Grand Hamlet
+     #  Add population debuff for Darkshire
+     
+     # Raid Lakeshire
+     #  Add population debuff for Redridge
+     
+     # Raid Eastvale
+     #  Add population debuff for Stormwind
+     
+     # Raid Moonbrook
+     #  Add population debuff for Westfall
+
+     # Fortify Deadwind Pass
+     #  Add forts
+     
+     # Fortify the Stranglethorn Border
+     # Add forts
+     
+     # Defend the Blasted Shore
+     #  Add coastal forts
+     
+     # Consult the Shadow Council
+     #  1 research slot
+     
+     #-------------------------------
+     # Military
+     #-------------------------------
+     # Copy generic land, air, naval, give new names
+     
+     #-------------------------------
+     # The First War
+     #-------------------------------
+     # Plan Assault on Stormwind
+     #  Add targeted modifier against SRW
+     
+     # Plan Assault on the Grand Hamelt
+     #  Add targeted modifier against DAR
+     
+     # Plan Assault on Lakeshire
+     #  Add targeted modifier against RED
+     
+     # Attack Stormwind
+     #  Declare war on stormwind with conquer CB on 48
+     
+     # Visit Stranglethorn
+     #  Add border war between GUR and TTH
+     
+     # Recruit the Trolls
+     #  Add Gurubashi to faction if border war is won
+     
+     # Expell the Trolls
+     #  Add wargoal on Zul'gurub if border war is lost
+     
+     # Ignore the Trolls
+     #  Add political power
+     
+     #-------------------------------
+     # The Second War
+     #-------------------------------
+     
+    # focus = {
+		# id = TTH_orc_settlements
+		# icon = GFX_goal_offensive_edict
+		# x = 1
+		# y = 0
+		# cost = 10
+        
+		# available_if_capitulated = yes
+
+		# completion_reward = {
+            # add_tech_bonus = {
+				# name = industry_tech_bonus
+				# bonus = 0.5
+				# uses = 1
+				# category = industry_tech
+			# }
+		# }
+        
+        # ai_will_do = {
+            # factor = 1
+        # }
+	# }
+    
+    # focus = { 
+		# id = TTH_outpost_in_swamp_of_sorrows
+		# icon = GFX_goal_industry_effort
+        # relative_position_id = TTH_orc_settlements
+		# x = -1
+		# y = 1
+		# cost = 10
+
+        # prerequisite = { focus = TTH_orc_settlements }
+        # mutually_exclusive = { focus = TTH_outpost_in_deadwind_pass }
+        
+		# available_if_capitulated = yes
+
+        # bypass = {
+            # NOT = {
+                # owns_state = 23
+                # owns_state = 24
+                # owns_state = 28
+            # }
+        # }
+        
+		# completion_reward = {
+            # 23 = {
+                # add_extra_state_shared_building_slots = 3
+                # add_building_construction = {
+                    # type = industrial_complex
+                    # level = 1
+                    # instant_build = yes
+                # }
+            # }
+            # 24 = {
+                # add_extra_state_shared_building_slots = 3
+                # add_building_construction = {
+                    # type = industrial_complex
+                    # level = 1
+                    # instant_build = yes
+                # }
+            # }
+            # 28 = {
+                # add_extra_state_shared_building_slots = 3
+                # add_building_construction = {
+                    # type = industrial_complex
+                    # level = 1
+                    # instant_build = yes
+                # }
+            # }
+		# }
+        
+        # ai_will_do = {
+            # factor = 1
+        # }
+	# }
+    
+    # focus = {
+		# id = TTH_outpost_in_deadwind_pass
+		# icon = GFX_goal_industry_effort
+        # relative_position_id = TTH_orc_settlements
+		# x = 1
+		# y = 1
+		# cost = 10
+
+        # prerequisite = { focus = TTH_orc_settlements }
+        # mutually_exclusive = { focus = TTH_outpost_in_swamp_of_sorrows }
+        
+		# available_if_capitulated = yes
+
+        # bypass = {
+            # NOT = {
+                # owns_state = 81
+                # owns_state = 21
+                # owns_state = 76
+            # }
+        # }
+        
+		# completion_reward = {
+            # 81 = {
+                # add_building_construction = {
+                    # type = infrastructure
+                    # level = 2
+                    # instant_build = yes
+                # }
+            # }
+            # 21 = {
+                # add_building_construction = {
+                    # type = infrastructure
+                    # level = 2
+                    # instant_build = yes
+                # }
+            # }
+            # 76 = {
+                # add_building_construction = {
+                    # type = infrastructure
+                    # level = 2
+                    # instant_build = yes
+                # }
+            # }
+		# }
+        
+        # ai_will_do = {
+            # factor = 1
+        # }
+	# }
+    
+    # focus = {
+		# id = TTH_open_the_swamp_mines
+		# icon = GFX_goal_offensive_edict
+        # relative_position_id = TTH_outpost_in_swamp_of_sorrows
+		# x = 0
+		# y = 1
+		# cost = 10
+        
+		# available_if_capitulated = yes
+
+        # prerequisite = { focus = TTH_outpost_in_swamp_of_sorrows }
+        
+		# completion_reward = {
+            # add_tech_bonus = {
+				# name = extraction_tech_bonus
+				# bonus = 0.5
+				# uses = 1
+				# category = extraction_tech
+			# }
+		# }
+        
+        # ai_will_do = {
+            # factor = 1
+        # }
+	# }
+    
+    # focus = {
+		# id = TTH_blast_the_mountains
+		# icon = GFX_goal_offensive_edict
+        # relative_position_id = TTH_outpost_in_deadwind_pass
+		# x = 0
+		# y = 1
+		# cost = 10
+        
+		# available_if_capitulated = yes
+
+        # prerequisite = { focus = TTH_outpost_in_deadwind_pass }
+        
+		# completion_reward = {
+            # add_tech_bonus = {
+				# name = extraction_tech_bonus
+				# bonus = 0.5
+				# uses = 1
+				# category = extraction_tech
+			# }
+		# }
+        
+        # ai_will_do = {
+            # factor = 1
+        # }
+	# }
+    
+    # focus = {
+		# id = TTH_mass_internment
+		# icon = GFX_goal_offensive_edict
+        # relative_position_id = TTH_orc_settlements
+		# x = 0
+		# y = 2
+		# cost = 10
+        
+		# available_if_capitulated = yes
+
+        # prerequisite = { 
+            # focus = TTH_open_the_swamp_mines
+            # focus = TTH_blast_the_mountains
+        # }
+        
+		# completion_reward = {
+            # add_tech_bonus = {
+				# name = construction_tech_bonus
+				# bonus = 0.5
+				# uses = 1
+				# category = construction_tech
+			# }
+		# }
+        
+        # ai_will_do = {
+            # factor = 1
+        # }
+	# }
+    
+    # focus = {
+		# id = TTH_develop_the_blasted_shore
+		# icon = GFX_goal_offensive_edict
+        # relative_position_id = TTH_mass_internment
+		# x = 0
+		# y = 1
+		# cost = 10
+        
+		# available_if_capitulated = yes
+
+        # prerequisite = { focus = TTH_mass_internment }
+        
+        # bypass = {
+            # NOT = { owns_state = 34 }
+        # }
+        
+		# completion_reward = {
+            # 34 = {
+                # add_extra_state_shared_building_slots = 3
+                # add_building_construction = {
+                    # type = dockyard
+                    # level = 1
+                    # instant_build = yes
+                # }
+                # add_building_construction = {
+                    # type = arms_factory
+                    # level = 1
+                    # instant_build = yes
+                # }
+                # add_building_construction = {
+                    # type = industrial_complex
+                    # level = 1
+                    # instant_build = yes
+                # }
+            # }
+		# }
+        
+        # ai_will_do = {
+            # factor = 1
+        # }
+	# }
+    
+    # focus = {
+		# id = TTH_construct_fighting_pits
+		# icon = GFX_goal_offensive_edict
+        # relative_position_id = TTH_develop_the_blasted_shore
+		# x = 1
+		# y = 0
+		# cost = 10
+        
+		# available_if_capitulated = yes
+
+        # prerequisite = { focus = TTH_develop_the_blasted_shore }
+        
+        # bypass = {
+            # NOT = { owns_state = 31 }
+        # }
+        
+		# completion_reward = {
+            # 31 = {
+                # add_extra_state_shared_building_slots = 1
+                # add_building_construction = {
+                    # type = arena
+                    # level = 1
+                    # instant_build = yes
+                # }
+            # }
+		# }
+        
+        # ai_will_do = {
+            # factor = 1
+        # }
+	# }
+    
+    # focus = {
+		# id = TTH_construct_fortress
+		# icon = GFX_goal_offensive_edict
+        # relative_position_id = TTH_develop_the_blasted_shore
+		# x = -1
+		# y = 0
+		# cost = 10
+        
+		# available_if_capitulated = yes
+
+        # prerequisite = { focus = TTH_develop_the_blasted_shore }
+        
+        # bypass = {
+            # NOT = { owns_state = 30 }
+        # }
+        
+		# completion_reward = {
+            # 30 = {
+                # add_building_construction = {
+                    # type = bunker
+                    # level = 10
+                    # instant_build = yes
+                    # province = {
+                        # id = 2029
+                    # }
+                # }
+            # }
+		# }
+        
+        # ai_will_do = {
+            # factor = 1
+        # }
+	# }
+# }
+

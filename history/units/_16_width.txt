@@ -1,0 +1,222 @@
+﻿division_template = {
+	name = "Grunt Division"
+
+	regiments = {
+		grunt = { x = 0 y = 0 }
+        grunt = { x = 1 y = 0 }
+        grunt = { x = 2 y = 0 }
+        grunt = { x = 3 y = 0 }
+        grunt = { x = 0 y = 1 }
+        grunt = { x = 1 y = 1 }
+        grunt = { x = 2 y = 1 }
+        grunt = { x = 3 y = 1 }
+	}
+	support = {
+        war_engine_support = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "Aegis Division"
+
+	regiments = {
+		grunt = { x = 0 y = 0 }
+        grunt = { x = 1 y = 0 }
+        grunt = { x = 2 y = 0 }
+        champion = { x = 3 y = 0 }
+        grunt = { x = 0 y = 1 }
+        grunt = { x = 1 y = 1 }
+        grunt = { x = 2 y = 1 }
+        champion = { x = 3 y = 1 }
+	}
+	support = {
+        war_engine_support = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "Bastion Division"
+
+	regiments = {
+		grunt = { x = 0 y = 0 }
+        grunt = { x = 1 y = 0 }
+        grunt = { x = 2 y = 0 }
+        archer = { x = 3 y = 0 }
+        grunt = { x = 0 y = 1 }
+        grunt = { x = 1 y = 1 }
+        grunt = { x = 2 y = 1 }
+        archer = { x = 3 y = 1 }
+	}
+	support = {
+        archer_support = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "Attack Division"
+
+	regiments = {
+		grunt = { x = 0 y = 0 }
+        grunt = { x = 1 y = 0 }
+        grunt = { x = 2 y = 0 }
+        spellcaster = { x = 3 y = 0 }
+        grunt = { x = 0 y = 1 }
+        grunt = { x = 1 y = 1 }
+        grunt = { x = 2 y = 1 }
+        spellcaster = { x = 3 y = 1 }
+	}
+	support = {
+        spellcaster_support = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "Barrage Division"
+
+	regiments = {
+		grunt = { x = 0 y = 0 }
+        grunt = { x = 1 y = 0 }
+        grunt = { x = 2 y = 0 }
+        war_engine = { x = 3 y = 0 }
+        grunt = { x = 0 y = 1 }
+        grunt = { x = 1 y = 1 }
+        grunt = { x = 2 y = 1 }
+        war_engine = { x = 3 y = 1 }
+	}
+	support = {
+        war_engine_support = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "Champion Division"
+
+	regiments = {
+		champion = { x = 0 y = 0 }
+        champion = { x = 1 y = 0 }
+        champion = { x = 2 y = 0 }
+        champion = { x = 3 y = 0 }
+        champion = { x = 0 y = 1 }
+        champion = { x = 1 y = 1 }
+        champion = { x = 2 y = 1 }
+        champion = { x = 3 y = 1 }
+	}
+	support = {
+        war_engine_support = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "Onslaught Division"
+
+	regiments = {
+		champion = { x = 0 y = 0 }
+        champion = { x = 1 y = 0 }
+        champion = { x = 2 y = 0 }
+        war_engine = { x = 3 y = 0 }
+        champion = { x = 0 y = 1 }
+        champion = { x = 1 y = 1 }
+        champion = { x = 2 y = 1 }
+        war_engine = { x = 3 y = 1 }
+	}
+	support = {
+        war_engine_support = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "Citadel Division"
+
+	regiments = {
+		archer = { x = 0 y = 0 }
+        archer = { x = 1 y = 0 }
+        archer = { x = 2 y = 0 }
+        archer = { x = 3 y = 0 }
+        archer = { x = 0 y = 1 }
+        archer = { x = 1 y = 1 }
+        archer = { x = 2 y = 1 }
+        archer = { x = 3 y = 1 }
+	}
+	support = {
+        archer_support = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "Bulwark Division"
+
+	regiments = {
+		archer = { x = 0 y = 0 }
+        archer = { x = 1 y = 0 }
+        archer = { x = 2 y = 0 }
+        war_engine = { x = 3 y = 0 }
+        archer = { x = 0 y = 1 }
+        archer = { x = 1 y = 1 }
+        archer = { x = 2 y = 1 }
+        war_engine = { x = 3 y = 1 }
+	}
+	support = {
+        war_engine_support = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "Skirmish Division"
+
+	regiments = {
+		spellcaster = { x = 0 y = 0 }
+        spellcaster = { x = 1 y = 0 }
+        spellcaster = { x = 2 y = 0 }
+        spellcaster = { x = 3 y = 0 }
+        spellcaster = { x = 0 y = 1 }
+        spellcaster = { x = 1 y = 1 }
+        spellcaster = { x = 2 y = 1 }
+        spellcaster = { x = 3 y = 1 }
+	}
+	support = {
+        spellcaster_support = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "Strike Division"
+
+	regiments = {
+		spellcaster = { x = 0 y = 0 }
+        spellcaster = { x = 1 y = 0 }
+        spellcaster = { x = 2 y = 0 }
+        war_engine = { x = 3 y = 0 }
+        spellcaster = { x = 0 y = 1 }
+        spellcaster = { x = 1 y = 1 }
+        spellcaster = { x = 2 y = 1 }
+        war_engine = { x = 3 y = 1 }
+	}
+	support = {
+        war_engine_support = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "Scout Division"
+
+	regiments = {
+		light_cavalry = { x = 0 y = 0 }
+        light_cavalry = { x = 1 y = 0 }
+        light_cavalry = { x = 2 y = 0 }
+        light_cavalry = { x = 3 y = 0 }
+        light_cavalry = { x = 0 y = 1 }
+        light_cavalry = { x = 1 y = 1 }
+        light_cavalry = { x = 2 y = 1 }
+        light_cavalry = { x = 3 y = 1 }
+	}
+	support = {
+        cavalry_support = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "Shock Division"
+
+	regiments = {
+		heavy_cavalry = { x = 0 y = 0 }
+        heavy_cavalry = { x = 1 y = 0 }
+        heavy_cavalry = { x = 2 y = 0 }
+        heavy_cavalry = { x = 3 y = 0 }
+        heavy_cavalry = { x = 0 y = 1 }
+        heavy_cavalry = { x = 1 y = 1 }
+        heavy_cavalry = { x = 2 y = 1 }
+        heavy_cavalry = { x = 3 y = 1 }
+	}
+	support = {
+        cavalry_support = { x = 0 y = 0 }
+	}
+}
+

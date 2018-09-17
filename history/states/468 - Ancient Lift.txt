@@ -1,0 +1,64 @@
+state = {
+	id = 468
+	name = "ANCIENT_LIFT"
+	manpower = 555
+	state_category = rural
+
+	resources = {
+		ground_beast = 3
+		flying_beast = 4
+		wood = 2
+		steel = 13
+		food = 19
+	}
+
+	history = {
+		owner = DGF
+		add_core_of = DGF
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 1
+			industrial_complex = 1
+			dockyard = 2
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			5139 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 5
+			}
+			5143 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 5
+			}
+			5150 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 3
+			}
+			6237 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        5139 5143 5150 6237 
+    }
+}

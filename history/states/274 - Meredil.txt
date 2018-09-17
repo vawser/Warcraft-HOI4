@@ -1,0 +1,60 @@
+state = {
+	id = 274
+	name = "MEREDIL"
+	manpower = 18946
+	state_category = city
+
+	resources = {
+		oil = 4
+		ground_beast = 7
+		wood = 24
+		steel = 6
+		food = 19
+	}
+
+	history = {
+		owner = NTB
+		add_core_of = NTB
+
+		buildings = {
+			infrastructure = 8
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 7
+			industrial_complex = 4
+			dockyard = 7
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			7093 = {
+				bunker = 1
+				coastal_bunker = 3
+				naval_base = 4
+			}
+			7102 = {
+				bunker = 4
+			}
+			7106 = {
+				bunker = 4
+			}
+			7107 = {
+				bunker = 8
+			}
+		}
+	}
+
+	provinces = {
+        7093 7102 7106 7107 
+    }
+}

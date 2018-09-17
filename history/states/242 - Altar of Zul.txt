@@ -1,0 +1,55 @@
+state = {
+	id = 242
+	name = "ALTAR_OF_ZUL"
+	manpower = 1003
+	state_category = village
+
+	resources = {
+		oil = 3
+		ground_beast = 5
+		flying_beast = 6
+		wood = 15
+		steel = 7
+		food = 2
+	}
+
+	history = {
+		owner = AMA
+        add_core_of = AMA
+
+		buildings = {
+			infrastructure = 4
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 6
+			industrial_complex = 3
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			2456 = {
+				bunker = 0
+			}
+			2462 = {
+				bunker = 0
+			}
+			2466 = {
+				bunker = 0
+			}
+			2468 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        2456 2462 2466 2468 
+    }
+}

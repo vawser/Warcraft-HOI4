@@ -1,0 +1,68 @@
+state = {
+	id = 630
+	name = "MAGMOTH_PLAINS"
+	manpower = 884
+	state_category = rural
+
+	resources = {
+		oil = 3
+		ground_beast = 8
+		flying_beast = 7
+		wood = 2
+		steel = 4
+		food = 26
+	}
+
+	history = {
+		owner = MAG
+		add_core_of = MAG
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 1
+			industrial_complex = 1
+			dockyard = 0
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			5328 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 9
+			}
+			5339 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 5
+			}
+			5350 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 2
+			}
+			6014 = {
+				bunker = 0
+			}
+			6087 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        5328 5339 5350 6014 6087
+    }
+}

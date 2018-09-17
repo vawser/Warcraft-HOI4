@@ -1,0 +1,57 @@
+state = {
+	id = 151
+	name = "DURNHOLDE"
+	manpower = 3536
+	state_category = village
+
+	resources = {
+		oil = 1
+		flying_beast = 1
+		wood = 3
+		steel = 6
+		food = 12
+	}
+
+	history = {
+		owner = SMG
+        add_core_of = SMG
+
+		buildings = {
+			infrastructure = 2
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 6
+			industrial_complex = 3
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			2926 = {
+				bunker = 0
+			}
+			2952 = {
+				bunker = 0
+			}
+			2980 = {
+				bunker = 0
+			}
+			3009 = {
+				bunker = 0
+			}
+			3034 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        2926 2952 2980 3009 3034 
+    }
+}

@@ -1,0 +1,15 @@
+state = {
+	id = 1079
+	name = "DAWN_OVERLOOK"
+	manpower = 50
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = JAS
+	}
+
+	provinces = {
+        6796
+    }
+}

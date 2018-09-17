@@ -1,0 +1,60 @@
+state = {
+	id = 1006
+	name = "SHATTERSPEAR_WARCAMP"
+	manpower = 4231
+	state_category = village
+
+	resources = {
+		ground_beast = 4
+		flying_beast = 1
+		wood = 22
+		steel = 4
+		food = 10
+	}
+
+	history = {
+        owner = STS
+		add_core_of = STS
+
+		buildings = {
+			infrastructure = 2
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 2
+			industrial_complex = 5
+			dockyard = 2
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			3174 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 4
+			}
+			3814 = {
+				bunker = 0
+			}
+			3841 = {
+				bunker = 0
+			}
+			4093 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        3174 3814 3841 4093 
+    }
+}

@@ -1,0 +1,15 @@
+state = {
+	id = 935
+	name = "FROSTWHISPER_HEIGHTS"
+	manpower = 50
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = WTA
+	}
+
+	provinces = {
+        3256 3276 3285 4783 
+    }
+}

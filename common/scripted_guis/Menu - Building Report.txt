@@ -1,0 +1,24 @@
+scripted_gui = {       
+	report_menu = {
+		context_type = player_context
+		window_name = "report_menu"
+        
+        visible = {
+            check_variable = { show_building_report = 1 }
+		}
+        
+		effects = {
+            close_button_click = {
+                set_temp_variable = { show = 1 }
+                subtract_from_temp_variable = { show = show_building_report }
+                set_variable = { show_building_report = show }
+            }
+		}
+        triggers = {
+            
+        }
+	}
+}
+  
+
+

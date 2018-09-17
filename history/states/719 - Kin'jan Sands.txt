@@ -1,0 +1,58 @@
+state = {
+	id = 719
+	name = "KINJAN"
+	manpower = 680
+	state_category = rural
+
+	resources = {
+		oil = 5
+		ground_beast = 2
+		flying_beast = 3
+		wood = 3
+		steel = 6
+		food = 3
+	}
+
+	history = {
+		owner = SMW
+		add_core_of = SMW
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 2
+			industrial_complex = 0
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			3349 = {
+				bunker = 0
+			}
+			3377 = {
+				bunker = 0
+			}
+			3407 = {
+				bunker = 0
+			}
+			3463 = {
+				bunker = 0
+			}
+			3601 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        3349 3377 3407 3463 3601 
+    }
+}

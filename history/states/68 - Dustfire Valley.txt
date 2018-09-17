@@ -1,0 +1,77 @@
+state = {
+	id = 68
+	name = "DUSTFIRE_VALLEY"
+	manpower = 896
+	state_category = rural
+
+	resources = {
+		oil = 2
+		ground_beast = 3
+		flying_beast = 2
+		wood = 1
+		steel = 6
+		food = 3
+	}
+
+	history = {
+        victory_points = {
+            2023 5
+        }
+        
+		owner = DKI
+        add_core_of = DKI
+
+        # The Second War
+        597.1.1 = {
+            owner = TTH
+            add_core_of = TTH
+            add_core_of = FRG
+        }
+        # The Third War
+        612.1.1 = {
+            owner = FRG
+            add_core_of = FRG
+        }
+        
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 2
+			industrial_complex = 1
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			1966 = {
+				bunker = 0
+			}
+			2015 = {
+				bunker = 0
+			}
+			2023 = {
+				bunker = 0
+			}
+			2031 = {
+				bunker = 0
+			}
+			2040 = {
+				bunker = 0
+			}
+			2046 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        1966 2015 2023 2031 2040 2046
+    }
+}

@@ -1,0 +1,60 @@
+state = {
+	id = 10
+	name = "HILLS_OF_NAZFERITI"
+	manpower = 838
+	state_category = rural
+
+	resources = {
+		ground_beast = 9
+		flying_beast = 3
+		wood = 13
+		steel = 5
+		food = 2
+	}
+
+	history = {
+        victory_points = {
+            2491 5
+        }
+		owner = GUR
+		add_core_of = GUR
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 3
+			industrial_complex = 1
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			2477 = {
+				bunker = 0
+			}
+			2481 = {
+				bunker = 0
+			}
+			2486 = {
+				bunker = 0
+			}
+			2491 = {
+				bunker = 0
+			}
+			2496 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        2477 2481 2486 2491 2496 
+    }
+}

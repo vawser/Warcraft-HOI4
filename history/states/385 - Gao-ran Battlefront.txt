@@ -1,0 +1,55 @@
+state = {
+	id = 385
+	name = "GAORAN_BATTLEFRONT"
+	manpower = 812
+	state_category = rural
+
+	resources = {
+		oil = 2
+		ground_beast = 2
+		flying_beast = 1
+		wood = 5
+		steel = 13
+		food = 12
+	}
+
+	history = {
+		owner = GAI
+		add_core_of = GAI
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 3
+			industrial_complex = 1
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			6550 = {
+				bunker = 0
+			}
+			6587 = {
+				bunker = 0
+			}
+			6594 = {
+				bunker = 0
+			}
+			6599 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        6550 6587 6594 6599 
+    }
+}

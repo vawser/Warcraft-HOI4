@@ -1,0 +1,15 @@
+state = {
+	id = 764
+	name = "STONETALON_PASS"
+	manpower = 66
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = WIT
+	}
+
+	provinces = {
+        4579 4580 4616 4617 4621 4657 4658 4662 4710 4744 4745 4787 
+    }
+}

@@ -1,0 +1,116 @@
+state = {
+	id = 594
+	name = "HAZNAK"
+	manpower = 828
+	state_category = rural
+
+	resources = {
+		oil = 4
+		ground_beast = 3
+		flying_beast = 7
+		wood = 4
+		steel = 7
+		food = 11
+	}
+
+	history = {
+		owner = AZJ
+		add_core_of = AZJ
+
+        # The Third War
+        612.1.1 = {
+            owner = SCO
+            add_core_of = SCO
+            set_state_name = ALDURTHAR
+            buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 2
+			industrial_complex = 2
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			5368 = {
+				bunker = 0
+			}
+			5393 = {
+				bunker = 0
+			}
+			5440 = {
+				bunker = 0
+			}
+			5489 = {
+				bunker = 0
+			}
+			6024 = {
+				bunker = 0
+			}
+			6052 = {
+				bunker = 0
+			}
+			6128 = {
+				bunker = 0
+			}
+			6147 = {
+				bunker = 0
+			}
+		}
+        }
+        
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 2
+			industrial_complex = 2
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			5368 = {
+				bunker = 0
+			}
+			5393 = {
+				bunker = 0
+			}
+			5440 = {
+				bunker = 0
+			}
+			5489 = {
+				bunker = 0
+			}
+			6024 = {
+				bunker = 0
+			}
+			6052 = {
+				bunker = 0
+			}
+			6128 = {
+				bunker = 0
+			}
+			6147 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        5368 5393 5440 5489 6024 6052 6128 6147 
+    }
+}

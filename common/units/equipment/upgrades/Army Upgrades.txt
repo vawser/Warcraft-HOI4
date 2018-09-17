@@ -1,0 +1,846 @@
+upgrades = {
+    # Algorithm for the max increase:
+    # ( Modifier * Level ) * Stat
+    # This result is then divided by the level for the increase per step
+    #----------------------------------------
+    # Grunt
+    #----------------------------------------
+    wm_grunt_max_strength = {
+		max_level = 10
+		cost = land
+
+        max_strength = 0.025
+	}
+    wm_grunt_max_organisation = {
+		max_level = 10
+		cost = land
+
+        max_organisation = 0.01
+	}
+    wm_grunt_default_morale = {
+		max_level = 10
+		cost = land
+
+        default_morale = 0.025
+	}
+    wm_grunt_weight = {
+		max_level = 10
+		cost = land
+
+        weight = -0.025
+	}
+    wm_grunt_supply_consumption = {
+		max_level = 10
+		cost = land
+
+        supply_consumption = -0.04
+	}
+    wm_grunt_reliability = {
+		max_level = 10
+		cost = land
+
+        reliability = 0.025
+	}
+    wm_grunt_maximum_speed = {
+		max_level = 10
+		cost = land
+
+        maximum_speed = 0.025
+	}
+    wm_grunt_soft_attack = {
+		max_level = 10
+		cost = land
+
+        soft_attack = 0.05
+	}
+    wm_grunt_hard_attack = {
+		max_level = 10
+		cost = land
+
+        hard_attack = 0.05
+	}
+    wm_grunt_defense = {
+		max_level = 10
+		cost = land
+
+        defense = 0.05
+	}
+    wm_grunt_breakthrough = {
+		max_level = 10
+		cost = land
+
+        breakthrough = 0.05
+	}
+    wm_grunt_ap_attack = {
+		max_level = 10
+		cost = land
+
+        ap_attack = 0.05
+	}
+    wm_grunt_hardness = {
+		max_level = 10
+		cost = land
+
+        hardness = 0.05
+	}
+    wm_grunt_armor_value = {
+		max_level = 10
+		cost = land
+
+        armor_value = 0.05
+	}
+    wm_grunt_build_cost_ic = {
+		max_level = 10
+		cost = land
+
+        build_cost_ic = -0.025
+	}
+    
+    #----------------------------------------
+    # Champion
+    #----------------------------------------
+    wm_champion_max_strength = {
+		max_level = 10
+		cost = land
+
+        max_strength = 0.0125
+	}
+    wm_champion_max_organisation = {
+		max_level = 10
+		cost = land
+
+        max_organisation = 0.01
+	}
+    wm_champion_default_morale = {
+		max_level = 10
+		cost = land
+
+        default_morale = 0.025
+	}
+    wm_champion_weight = {
+		max_level = 10
+		cost = land
+
+        weight = -0.025
+	}
+    wm_champion_supply_consumption = {
+		max_level = 10
+		cost = land
+
+        supply_consumption = -0.04
+	}
+    wm_champion_reliability = {
+		max_level = 10
+		cost = land
+
+        reliability = 0.025
+	}
+    wm_champion_maximum_speed = {
+		max_level = 10
+		cost = land
+
+        maximum_speed = 0.025
+	}
+    wm_champion_soft_attack = {
+		max_level = 10
+		cost = land
+
+        soft_attack = 0.05
+	}
+    wm_champion_hard_attack = {
+		max_level = 10
+		cost = land
+
+        hard_attack = 0.05
+	}
+    wm_champion_defense = {
+		max_level = 10
+		cost = land
+
+        defense = 0.05
+	}
+    wm_champion_breakthrough = {
+		max_level = 10
+		cost = land
+
+        breakthrough = 0.05
+	}
+    wm_champion_ap_attack = {
+		max_level = 10
+		cost = land
+
+        ap_attack = 0.05
+	}
+    wm_champion_hardness = {
+		max_level = 10
+		cost = land
+
+        hardness = 0.05
+	}
+    wm_champion_armor_value = {
+		max_level = 10
+		cost = land
+
+        armor_value = 0.05
+	}
+    wm_champion_build_cost_ic = {
+		max_level = 10
+		cost = land
+
+        build_cost_ic = -0.025
+	}
+    
+    #----------------------------------------
+    # Archer
+    #----------------------------------------
+    wm_archer_max_strength = {
+		max_level = 10
+		cost = land
+
+        max_strength = 0.025
+	}
+    wm_archer_max_organisation = {
+		max_level = 10
+		cost = land
+
+        max_organisation = 0.01
+	}
+    wm_archer_default_morale = {
+		max_level = 10
+		cost = land
+
+        default_morale = 0.025
+	}
+    wm_archer_weight = {
+		max_level = 10
+		cost = land
+
+        weight = -0.025
+	}
+    wm_archer_supply_consumption = {
+		max_level = 10
+		cost = land
+
+        supply_consumption = -0.04
+	}
+    wm_archer_reliability = {
+		max_level = 10
+		cost = land
+
+        reliability = 0.025
+	}
+    wm_archer_maximum_speed = {
+		max_level = 10
+		cost = land
+
+        maximum_speed = 0.025
+	}
+    wm_archer_soft_attack = {
+		max_level = 10
+		cost = land
+
+        soft_attack = 0.05
+	}
+    wm_archer_hard_attack = {
+		max_level = 10
+		cost = land
+
+        hard_attack = 0.05
+	}
+    wm_archer_defense = {
+		max_level = 10
+		cost = land
+
+        defense = 0.05
+	}
+    wm_archer_breakthrough = {
+		max_level = 10
+		cost = land
+
+        breakthrough = 0.05
+	}
+    wm_archer_ap_attack = {
+		max_level = 10
+		cost = land
+
+        ap_attack = 0.05
+	}
+    wm_archer_hardness = {
+		max_level = 10
+		cost = land
+
+        hardness = 0.05
+	}
+    wm_archer_armor_value = {
+		max_level = 10
+		cost = land
+
+        armor_value = 0.05
+	}
+    wm_archer_build_cost_ic = {
+		max_level = 10
+		cost = land
+
+        build_cost_ic = -0.02
+	}
+    
+    #----------------------------------------
+    # Spellcaster
+    #----------------------------------------
+    wm_spellcaster_max_strength = {
+		max_level = 10
+		cost = land
+
+        max_strength = 0.025
+	}
+    wm_spellcaster_max_organisation = {
+		max_level = 10
+		cost = land
+
+        max_organisation = 0.01
+	}
+    wm_spellcaster_default_morale = {
+		max_level = 10
+		cost = land
+
+        default_morale = 0.025
+	}
+    wm_spellcaster_weight = {
+		max_level = 10
+		cost = land
+
+        weight = -0.025
+	}
+    wm_spellcaster_supply_consumption = {
+		max_level = 10
+		cost = land
+
+        supply_consumption = -0.04
+	}
+    wm_spellcaster_reliability = {
+		max_level = 10
+		cost = land
+
+        reliability = 0.025
+	}
+    wm_spellcaster_maximum_speed = {
+		max_level = 10
+		cost = land
+
+        maximum_speed = 0.025
+	}
+    wm_spellcaster_soft_attack = {
+		max_level = 10
+		cost = land
+
+        soft_attack = 0.05
+	}
+    wm_spellcaster_hard_attack = {
+		max_level = 10
+		cost = land
+
+        hard_attack = 0.05
+	}
+    wm_spellcaster_defense = {
+		max_level = 10
+		cost = land
+
+        defense = 0.05
+	}
+    wm_spellcaster_breakthrough = {
+		max_level = 10
+		cost = land
+
+        breakthrough = 0.05
+	}
+    wm_spellcaster_ap_attack = {
+		max_level = 10
+		cost = land
+
+        ap_attack = 0.05
+	}
+    wm_spellcaster_build_cost_ic = {
+		max_level = 10
+		cost = land
+
+        build_cost_ic = -0.02
+	}
+    wm_spellcaster_air_attack = {
+		max_level = 10
+		cost = land
+
+        air_attack = 0.05
+	}
+    
+    #----------------------------------------
+    # Light Cavalry
+    #----------------------------------------
+    wm_light_cavalry_max_strength = {
+		max_level = 10
+		cost = land
+
+        max_strength = 0.025
+	}
+    wm_light_cavalry_max_organisation = {
+		max_level = 10
+		cost = land
+
+        max_organisation = 0.01
+	}
+    wm_light_cavalry_default_morale = {
+		max_level = 10
+		cost = land
+
+        default_morale = 0.025
+	}
+    wm_light_cavalry_weight = {
+		max_level = 10
+		cost = land
+
+        weight = -0.025
+	}
+    wm_light_cavalry_supply_consumption = {
+		max_level = 10
+		cost = land
+
+        supply_consumption = -0.04
+	}
+    wm_light_cavalry_reliability = {
+		max_level = 10
+		cost = land
+
+        reliability = 0.025
+	}
+    wm_light_cavalry_maximum_speed = {
+		max_level = 10
+		cost = land
+
+        maximum_speed = 0.025
+	}
+    wm_light_cavalry_soft_attack = {
+		max_level = 10
+		cost = land
+
+        soft_attack = 0.05
+	}
+    wm_light_cavalry_hard_attack = {
+		max_level = 10
+		cost = land
+
+        hard_attack = 0.05
+	}
+    wm_light_cavalry_defense = {
+		max_level = 10
+		cost = land
+
+        defense = 0.05
+	}
+    wm_light_cavalry_breakthrough = {
+		max_level = 10
+		cost = land
+
+        breakthrough = 0.05
+	}
+    wm_light_cavalry_ap_attack = {
+		max_level = 10
+		cost = land
+
+        ap_attack = 0.05
+	}
+    wm_light_cavalry_hardness = {
+		max_level = 10
+		cost = land
+
+        hardness = 0.05
+	}
+    wm_light_cavalry_armor_value = {
+		max_level = 10
+		cost = land
+
+        armor_value = 0.05
+	}
+    wm_light_cavalry_build_cost_ic = {
+		max_level = 10
+		cost = land
+
+        build_cost_ic = -0.025
+	}
+    
+    #----------------------------------------
+    # Heavy Cavalry
+    #----------------------------------------
+    wm_heavy_cavalry_max_strength = {
+		max_level = 10
+		cost = land
+
+        max_strength = 0.025
+	}
+    wm_heavy_cavalry_max_organisation = {
+		max_level = 10
+		cost = land
+
+        max_organisation = 0.01
+	}
+    wm_heavy_cavalry_default_morale = {
+		max_level = 10
+		cost = land
+
+        default_morale = 0.025
+	}
+    wm_heavy_cavalry_weight = {
+		max_level = 10
+		cost = land
+
+        weight = -0.025
+	}
+    wm_heavy_cavalry_supply_consumption = {
+		max_level = 10
+		cost = land
+
+        supply_consumption = -0.04
+	}
+    wm_heavy_cavalry_reliability = {
+		max_level = 10
+		cost = land
+
+        reliability = 0.025
+	}
+    wm_heavy_cavalry_maximum_speed = {
+		max_level = 10
+		cost = land
+
+        maximum_speed = 0.025
+	}
+    wm_heavy_cavalry_soft_attack = {
+		max_level = 10
+		cost = land
+
+        soft_attack = 0.05
+	}
+    wm_heavy_cavalry_hard_attack = {
+		max_level = 10
+		cost = land
+
+        hard_attack = 0.05
+	}
+    wm_heavy_cavalry_defense = {
+		max_level = 10
+		cost = land
+
+        defense = 0.05
+	}
+    wm_heavy_cavalry_breakthrough = {
+		max_level = 10
+		cost = land
+
+        breakthrough = 0.05
+	}
+    wm_heavy_cavalry_ap_attack = {
+		max_level = 10
+		cost = land
+
+        ap_attack = 0.05
+	}
+    wm_heavy_cavalry_hardness = {
+		max_level = 10
+		cost = land
+
+        hardness = 0.05
+	}
+    wm_heavy_cavalry_armor_value = {
+		max_level = 10
+		cost = land
+
+        armor_value = 0.05
+	}
+    wm_heavy_cavalry_build_cost_ic = {
+		max_level = 10
+		cost = land
+
+        build_cost_ic = -0.025
+	}
+    
+    #----------------------------------------
+    # War Engine
+    #----------------------------------------
+    wm_war_engine_max_strength = {
+		max_level = 10
+		cost = land
+
+        max_strength = 0.025
+	}
+    wm_war_engine_max_organisation = {
+		max_level = 10
+		cost = land
+
+        max_organisation = 0.01
+	}
+    wm_war_engine_default_morale = {
+		max_level = 10
+		cost = land
+
+        default_morale = 0.025
+	}
+    wm_war_engine_weight = {
+		max_level = 10
+		cost = land
+
+        weight = -0.025
+	}
+    wm_war_engine_supply_consumption = {
+		max_level = 10
+		cost = land
+
+        supply_consumption = -0.04
+	}
+    wm_war_engine_reliability = {
+		max_level = 10
+		cost = land
+
+        reliability = 0.025
+	}
+    wm_war_engine_maximum_speed = {
+		max_level = 10
+		cost = land
+
+        maximum_speed = 0.025
+	}
+    wm_war_engine_soft_attack = {
+		max_level = 10
+		cost = land
+
+        soft_attack = 0.05
+	}
+    wm_war_engine_hard_attack = {
+		max_level = 10
+		cost = land
+
+        hard_attack = 0.05
+	}
+    wm_war_engine_defense = {
+		max_level = 10
+		cost = land
+
+        defense = 0.05
+	}
+    wm_war_engine_breakthrough = {
+		max_level = 10
+		cost = land
+
+        breakthrough = 0.05
+	}
+    wm_war_engine_ap_attack = {
+		max_level = 10
+		cost = land
+
+        ap_attack = 0.05
+	}
+    wm_war_engine_hardness = {
+		max_level = 10
+		cost = land
+
+        hardness = 0.05
+	}
+    wm_war_engine_armor_value = {
+		max_level = 10
+		cost = land
+
+        armor_value = 0.05
+	}
+    wm_war_engine_build_cost_ic = {
+		max_level = 10
+		cost = land
+
+        build_cost_ic = -0.025
+	}
+    
+    #----------------------------------------
+    # Light Tank
+    #----------------------------------------
+    wm_light_tank_max_strength = {
+		max_level = 10
+		cost = land
+
+        max_strength = 0.025
+	}
+    wm_light_tank_max_organisation = {
+		max_level = 10
+		cost = land
+
+        max_organisation = 0.01
+	}
+    wm_light_tank_default_morale = {
+		max_level = 10
+		cost = land
+
+        default_morale = 0.025
+	}
+    wm_light_tank_weight = {
+		max_level = 10
+		cost = land
+
+        weight = -0.025
+	}
+    wm_light_tank_supply_consumption = {
+		max_level = 10
+		cost = land
+
+        supply_consumption = -0.04
+	}
+    wm_light_tank_reliability = {
+		max_level = 10
+		cost = land
+
+        reliability = 0.025
+	}
+    wm_light_tank_maximum_speed = {
+		max_level = 10
+		cost = land
+
+        maximum_speed = 0.025
+	}
+    wm_light_tank_soft_attack = {
+		max_level = 10
+		cost = land
+
+        soft_attack = 0.05
+	}
+    wm_light_tank_hard_attack = {
+		max_level = 10
+		cost = land
+
+        hard_attack = 0.05
+	}
+    wm_light_tank_defense = {
+		max_level = 10
+		cost = land
+
+        defense = 0.05
+	}
+    wm_light_tank_breakthrough = {
+		max_level = 10
+		cost = land
+
+        breakthrough = 0.05
+	}
+    wm_light_tank_ap_attack = {
+		max_level = 10
+		cost = land
+
+        ap_attack = 0.05
+	}
+    wm_light_tank_hardness = {
+		max_level = 10
+		cost = land
+
+        hardness = 0.05
+	}
+    wm_light_tank_armor_value = {
+		max_level = 10
+		cost = land
+
+        armor_value = 0.05
+	}
+    wm_light_tank_build_cost_ic = {
+		max_level = 10
+		cost = land
+
+        build_cost_ic = -0.025
+	}
+    
+    #----------------------------------------
+    # Heavy Tank
+    #----------------------------------------
+    wm_heavy_tank_max_strength = {
+		max_level = 10
+		cost = land
+
+        max_strength = 0.025
+	}
+    wm_heavy_tank_max_organisation = {
+		max_level = 10
+		cost = land
+
+        max_organisation = 0.01
+	}
+    wm_heavy_tank_default_morale = {
+		max_level = 10
+		cost = land
+
+        default_morale = 0.025
+	}
+    wm_heavy_tank_weight = {
+		max_level = 10
+		cost = land
+
+        weight = -0.025
+	}
+    wm_heavy_tank_supply_consumption = {
+		max_level = 10
+		cost = land
+
+        supply_consumption = -0.04
+	}
+    wm_heavy_tank_reliability = {
+		max_level = 10
+		cost = land
+
+        reliability = 0.025
+	}
+    wm_heavy_tank_maximum_speed = {
+		max_level = 10
+		cost = land
+
+        maximum_speed = 0.025
+	}
+    wm_heavy_tank_soft_attack = {
+		max_level = 10
+		cost = land
+
+        soft_attack = 0.05
+	}
+    wm_heavy_tank_hard_attack = {
+		max_level = 10
+		cost = land
+
+        hard_attack = 0.05
+	}
+    wm_heavy_tank_defense = {
+		max_level = 10
+		cost = land
+
+        defense = 0.05
+	}
+    wm_heavy_tank_breakthrough = {
+		max_level = 10
+		cost = land
+
+        breakthrough = 0.05
+	}
+    wm_heavy_tank_ap_attack = {
+		max_level = 10
+		cost = land
+
+        ap_attack = 0.05
+	}
+    wm_heavy_tank_hardness = {
+		max_level = 10
+		cost = land
+
+        hardness = 0.05
+	}
+    wm_heavy_tank_armor_value = {
+		max_level = 10
+		cost = land
+
+        armor_value = 0.05
+	}
+    wm_heavy_tank_build_cost_ic = {
+		max_level = 10
+		cost = land
+
+        build_cost_ic = -0.025
+	}
+}
+
+

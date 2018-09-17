@@ -1,0 +1,60 @@
+state = {
+	id = 224
+	name = "MERELDAR"
+	manpower = 671
+	state_category = rural
+
+	resources = {
+		ground_beast = 7
+		flying_beast = 6
+		wood = 28
+		steel = 9
+		food = 16
+	}
+
+	history = {
+		owner = STR
+        add_core_of = STR
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 2
+			industrial_complex = 1
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			2083 = {
+				bunker = 0
+			}
+			2104 = {
+				bunker = 0
+			}
+			2124 = {
+				bunker = 0
+			}
+			2164 = {
+				bunker = 0
+			}
+			2184 = {
+				bunker = 0
+			}
+			2255 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        2083 2104 2124 2164 2184 2255 
+    }
+}

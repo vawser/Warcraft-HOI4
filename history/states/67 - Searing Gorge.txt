@@ -1,0 +1,83 @@
+state = {
+	id = 67
+	name = "SEARING_GORGE"
+	manpower = 16270
+	state_category = city
+
+	resources = {
+		oil = 8
+		ground_beast = 5
+		flying_beast = 2
+		wood = 1
+		steel = 5
+		food = 1
+	}
+
+	history = {
+        victory_points = {
+            1983 5
+        }
+        victory_points = {
+            1991 5
+        }
+        
+		owner = DKI
+        add_core_of = DKI
+
+        # The Second War
+        597.1.1 = {
+            owner = TTH
+            add_core_of = TTH
+            add_core_of = FRG
+        }
+        # The Third War
+        612.1.1 = {
+            owner = FRG
+            add_core_of = FRG
+        }
+        
+		buildings = {
+			infrastructure = 9
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 10
+			industrial_complex = 3
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			1975 = {
+				bunker = 3
+			}
+			1983 = {
+				bunker = 2
+			}
+			1991 = {
+				bunker = 5
+			}
+			1999 = {
+				bunker = 3
+			}
+			2007 = {
+				bunker = 5
+			}
+			2016 = {
+				bunker = 7
+			}
+			2024 = {
+				bunker = 3
+			}
+		}
+	}
+
+	provinces = {
+        1975 1983 1991 1999 2007 2016 2024
+    }
+}

@@ -1,0 +1,71 @@
+state = {
+	id = 345
+	name = "NAYELI_LAGOON"
+	manpower = 524
+	state_category = rural
+
+	resources = {
+		oil = 2
+		flying_beast = 8
+		wood = 2
+		steel = 2
+		food = 11
+	}
+
+	history = {
+		owner = BKM
+		add_core_of = BKM
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 2
+			industrial_complex = 0
+			dockyard = 2
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			6499 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 9
+			}
+			6501 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 7
+			}
+			6516 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 5
+			}
+			7277 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 5
+			}
+			7278 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 9
+			}
+		}
+	}
+
+	provinces = {
+        6499 6501 6516 7277 7278 
+    }
+}

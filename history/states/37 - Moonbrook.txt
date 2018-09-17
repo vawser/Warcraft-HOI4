@@ -1,0 +1,78 @@
+state = {
+	id = 37
+	name = "MOONBROOK"
+	manpower = 8206
+	state_category = town
+
+	resources = {
+		oil = 1
+		ground_beast = 2
+		flying_beast = 8
+		steel = 8
+		food = 17
+	}
+
+	history = {
+        victory_points = {
+            2945 5
+        }
+        
+		owner = WES
+        add_core_of = WES
+
+        # The Second War
+        597.1.1 = {
+            owner = TTH
+            add_core_of = TTH
+        }
+        # The Third War
+        612.1.1 = {
+            owner = WES
+            add_core_of = WES
+        }
+        
+		buildings = {
+			infrastructure = 7
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 2
+			industrial_complex = 2
+			dockyard = 4
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			1643 = {
+				bunker = 6
+				coastal_bunker = 1
+				naval_base = 4
+			}
+			2869 = {
+				bunker = 2
+			}
+			2922 = {
+				bunker = 4
+			}
+			2945 = {
+				bunker = 3
+			}
+			2972 = {
+				bunker = 7
+			}
+		}
+	}
+
+	provinces = {
+        1643 2869 2922 2945 2972 
+    }
+}

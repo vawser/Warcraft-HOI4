@@ -1,0 +1,15 @@
+state = {
+	id = 811
+	name = "THE_STAGNANT_RIDGE"
+	manpower = 12
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = SPR
+	}
+
+	provinces = {
+        4332 4333 4391 4576 4577 4654 4655 4707 4785 
+    }
+}

@@ -1,0 +1,58 @@
+state = {
+	id = 429
+	name = "THE_YAUNGOL_ADVANCE"
+	manpower = 535
+	state_category = rural
+
+	resources = {
+		oil = 1
+		ground_beast = 1
+		flying_beast = 4
+		wood = 3
+		steel = 8
+		food = 19
+	}
+
+	history = {
+		owner = YON
+		add_core_of = YON
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 1
+			industrial_complex = 0
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			6825 = {
+				bunker = 0
+			}
+			6834 = {
+				bunker = 0
+			}
+			6843 = {
+				bunker = 0
+			}
+			6864 = {
+				bunker = 0
+			}
+			6874 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        6825 6834 6843 6864 6874 
+    }
+}

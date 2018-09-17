@@ -1,0 +1,52 @@
+state = {
+	id = 460
+	name = "GJALERBRON"
+	manpower = 1455
+	state_category = village
+
+	resources = {
+		oil = 1
+		ground_beast = 9
+		flying_beast = 6
+		wood = 8
+		steel = 6
+		food = 15
+	}
+
+	history = {
+		owner = WTO
+		add_core_of = WTO
+
+		buildings = {
+			infrastructure = 4
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 3
+			industrial_complex = 3
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			5361 = {
+				bunker = 0
+			}
+			5459 = {
+				bunker = 0
+			}
+			5482 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        5361 5459 5482 
+    }
+}

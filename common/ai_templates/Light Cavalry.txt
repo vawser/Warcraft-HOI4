@@ -1,0 +1,121 @@
+light_cavalry_generic = {
+	roles = {
+		light_cavalry
+	}
+	upgrade_prio = {
+		factor = 2
+		modifier = {
+			factor = 5
+		}
+	}
+	match_to_count = 0.10
+	
+	light_cavalry_default = {
+		upgrade_prio = {
+			factor = 2
+			modifier = {
+				factor = 1
+			}
+		}
+		
+		target_width = 20.0
+		width_weight = 1.0
+		column_swap_factor = 0.5
+
+		target_template = {
+			weight = 0.9
+			match_value = 3000.0
+			
+			support = {
+				engineer_support = 1
+				war_engine_support = 1
+                medic_support = 1
+                scout_support = 1
+                engineer_support = 1
+			}
+			
+			regiments = {
+				light_cavalry = 10
+			}
+		}
+		
+		allowed_types = {
+			grunt
+            champion
+			spellcaster
+            archer
+            light_cavalry
+            heavy_cavalry
+            light_tank
+            heavy_tank
+            war_engine
+			war_engine_support
+            cavalry_support
+            logistics_support
+            engineer_support
+            medic_support
+            scout_support
+		}
+	}
+}
+
+light_cavalry_big_generic = {
+	roles = {
+		light_cavalry
+	}
+	upgrade_prio = {
+		factor = 2
+		modifier = {
+			factor = 5
+		}
+	}
+	match_to_count = 0.10
+	
+	light_cavalry_big_default = {
+		upgrade_prio = {
+			factor = 2
+			modifier = {
+				factor = 1
+			}
+		}
+		
+		target_width = 40.0
+		width_weight = 1.0
+		column_swap_factor = 0.5
+
+		target_template = {
+			weight = 0.9
+			match_value = 3000.0
+			
+			support = {
+				engineer_support = 1
+				war_engine_support = 1
+                medic_support = 1
+                scout_support = 1
+                engineer_support = 1
+			}
+			
+			regiments = {
+				light_cavalry = 20
+			}
+		}
+		
+		allowed_types = {
+			grunt
+            champion
+			spellcaster
+            archer
+            light_cavalry
+            heavy_cavalry
+            light_tank
+            heavy_tank
+            war_engine
+			war_engine_support
+            cavalry_support
+            logistics_support
+            engineer_support
+            medic_support
+            scout_support
+		}
+	}
+}

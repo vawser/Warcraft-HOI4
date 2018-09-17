@@ -1,0 +1,58 @@
+state = {
+	id = 737
+	name = "NEW_THALANAAR"
+	manpower = 946
+	state_category = rural
+
+	resources = {
+		oil = 2
+		ground_beast = 7
+		flying_beast = 3
+		wood = 18
+		steel = 3
+		food = 11
+	}
+
+	history = {
+		owner = GMT
+		add_core_of = GMT
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 1
+			industrial_complex = 2
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			4002 = {
+				bunker = 0
+			}
+			4031 = {
+				bunker = 0
+			}
+			4060 = {
+				bunker = 0
+			}
+			4091 = {
+				bunker = 0
+			}
+			4120 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        4002 4031 4060 4091 4120 
+    }
+}

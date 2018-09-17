@@ -1,0 +1,30 @@
+# TEST_historical_plan = {
+	# name = "TEST Plan"
+	# desc = "TEST Description"
+
+	# enable = {
+		# original_tag = SRW
+	# }
+	# abort = {
+        
+	# }
+
+	# ai_national_focuses = {
+
+	# }
+ 
+	# research = {
+        
+	# }
+
+	# ideas = {
+
+	# }
+
+	# weight = {
+		# factor = 1.0
+		# modifier = {
+			# factor = 1.0
+		# }
+	# }
+# }

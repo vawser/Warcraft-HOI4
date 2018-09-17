@@ -1,0 +1,62 @@
+state = {
+	id = 1111
+	name = "PIRATE_COVE"
+	manpower = 4115
+	state_category = village
+
+	resources = {
+		oil = 12
+		ground_beast = 3
+		flying_beast = 1
+		wood = 2
+		steel = 8
+		food = 3
+	}
+
+	history = {
+		owner = SAN
+		add_core_of = SAN
+
+		buildings = {
+			infrastructure = 2
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 2
+			industrial_complex = 4
+			dockyard = 2
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			3089 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 8
+			}
+			3085 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 6
+			}
+			3093 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 9
+			}
+		}
+	}
+
+	provinces = {
+        3089 3085 3093
+    }
+}

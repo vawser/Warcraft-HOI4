@@ -1,0 +1,91 @@
+state = {
+	id = 449
+	name = "FROZEN_JUT"
+	manpower = 754
+	state_category = rural
+
+	resources = {
+		oil = 3
+		ground_beast = 8
+		wood = 1
+		steel = 7
+		food = 22
+	}
+
+	history = {
+		owner = CHI
+		add_core_of = CHI
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 1
+			industrial_complex = 0
+			dockyard = 1
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			5246 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 1
+			}
+			5258 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 3
+			}
+			5270 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 6
+			}
+			5279 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 7
+			}
+			5288 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 6
+			}
+			5331 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 2
+			}
+			5343 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 6
+			}
+			5354 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 4
+			}
+			5299 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 2
+			}
+		}
+	}
+
+	provinces = {
+        5246 5258 5270 5279 5288 5331 5343 5354 5299
+    }
+}

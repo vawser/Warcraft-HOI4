@@ -1,0 +1,62 @@
+state = {
+	id = 205
+	name = "DALSONS_FARMSTEAD"
+	manpower = 628
+	state_category = rural
+
+	resources = {
+		oil = 3
+		ground_beast = 5
+		flying_beast = 8
+		wood = 20
+		steel = 3
+		food = 15
+	}
+
+	history = {
+		owner = ANO
+        add_core_of = ANO
+
+        612.1.1 = {
+            set_state_name = DALSONS_TEARS
+        }
+        
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 0
+			industrial_complex = 2
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			2302 = {
+				bunker = 0
+			}
+			2333 = {
+				bunker = 0
+			}
+			2350 = {
+				bunker = 0
+			}
+			2424 = {
+				bunker = 0
+			}
+			2439 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        2302 2333 2350 2424 2439 
+    }
+}

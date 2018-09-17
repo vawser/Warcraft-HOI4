@@ -1,0 +1,52 @@
+state = {
+	id = 826
+	name = "WAILING_POOLS"
+	manpower = 531
+	state_category = rural
+
+	resources = {
+		oil = 4
+		ground_beast = 8
+		flying_beast = 7
+		wood = 2
+		steel = 1
+		food = 18
+	}
+
+	history = {
+		owner = PAL
+		add_core_of = PAL
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 3
+			industrial_complex = 1
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			4919 = {
+				bunker = 0
+			}
+			5096 = {
+				bunker = 0
+			}
+			5117 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        4919 5096 5117 
+    }
+}

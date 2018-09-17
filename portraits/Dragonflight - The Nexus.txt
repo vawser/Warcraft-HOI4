@@ -1,0 +1,78 @@
+NEX = {
+	army = {
+		male = {
+			"gfx/leaders/DRAGONFLIGHT/blue_dragon.dds"
+		}
+        female = {
+			"gfx/leaders/DRAGONFLIGHT/blue_dragon.dds"
+		}
+	}
+
+	navy = {
+		male = {
+			"gfx/leaders/DRAGONFLIGHT/blue_dragon.dds"
+		}
+        female = {
+			"gfx/leaders/DRAGONFLIGHT/blue_dragon.dds"
+		}
+	}
+
+	political = {
+		light = {
+			male = {
+                "gfx/leaders/DRAGONFLIGHT/blue_dragon.dds"
+            }
+            female = {
+                "gfx/leaders/DRAGONFLIGHT/blue_dragon.dds"
+            }
+		}
+		shadow = {
+			male = {
+                "gfx/leaders/DRAGONFLIGHT/blue_dragon.dds"
+            }
+            female = {
+                "gfx/leaders/DRAGONFLIGHT/blue_dragon.dds"
+            }
+		}
+        order = {
+			male = {
+                "gfx/leaders/DRAGONFLIGHT/blue_dragon.dds"
+            }
+            female = {
+                "gfx/leaders/DRAGONFLIGHT/blue_dragon.dds"
+            }
+		}
+        disorder = {
+			male = {
+                "gfx/leaders/DRAGONFLIGHT/blue_dragon.dds"
+            }
+            female = {
+                "gfx/leaders/DRAGONFLIGHT/blue_dragon.dds"
+            }
+		}
+        life = {
+			male = {
+                "gfx/leaders/DRAGONFLIGHT/blue_dragon.dds"
+            }
+            female = {
+                "gfx/leaders/DRAGONFLIGHT/blue_dragon.dds"
+            }
+		}
+        death = {
+			male = {
+                "gfx/leaders/DRAGONFLIGHT/blue_dragon.dds"
+            }
+            female = {
+                "gfx/leaders/DRAGONFLIGHT/blue_dragon.dds"
+            }
+		}
+        unaligned = {
+			male = {
+                "gfx/leaders/DRAGONFLIGHT/blue_dragon.dds"
+            }
+            female = {
+                "gfx/leaders/DRAGONFLIGHT/blue_dragon.dds"
+            }
+		}
+	}
+}

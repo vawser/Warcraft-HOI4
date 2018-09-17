@@ -1,0 +1,73 @@
+state = {
+	id = 682
+	name = "AHNQIRAJ_HIVE"
+	manpower = 11427
+	state_category = city
+
+	resources = {
+		oil = 2
+		ground_beast = 1
+		flying_beast = 2
+		wood = 3
+		steel = 1
+		food = 2
+	}
+
+	history = {
+		owner = AQJ
+		add_core_of = AQJ
+
+		buildings = {
+			infrastructure = 9
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 10
+			industrial_complex = 6
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			3363 = {
+				bunker = 9
+			}
+			3392 = {
+				bunker = 2
+			}
+			3421 = {
+				bunker = 4
+			}
+			3449 = {
+				bunker = 6
+			}
+			3477 = {
+				bunker = 2
+			}
+			3506 = {
+				bunker = 2
+			}
+			3561 = {
+				bunker = 8
+			}
+			3588 = {
+				bunker = 9
+			}
+			3615 = {
+				bunker = 3
+			}
+			3639 = {
+				bunker = 3
+			}
+		}
+	}
+
+	provinces = {
+        3363 3392 3421 3449 3477 3506 3561 3588 3615 3639
+    }
+}

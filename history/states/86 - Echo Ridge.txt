@@ -1,0 +1,24 @@
+state = {
+	id = 86
+	name = "ECHO_RIDGE_MT"
+	manpower = 44
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = SRW
+
+        # The Second War
+        597.1.1 = {
+            owner = TTH
+        }
+        # The Third War
+        612.1.1 = {
+            owner = SRW
+        }
+	}
+
+	provinces = {
+        2571 2590 2763 2781 
+    }
+}

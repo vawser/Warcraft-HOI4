@@ -1,0 +1,24 @@
+state = {
+	id = 95
+	name = "STONEWROUGHT_DAM_MT"
+	manpower = 24
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = IRO
+
+        # The Second War
+        597.1.1 = {
+            owner = TTH
+        }
+        # The Third War
+        612.1.1 = {
+            owner = IRO
+        }
+	}
+
+	provinces = {
+        2566 2638 2752 2768 
+    }
+}

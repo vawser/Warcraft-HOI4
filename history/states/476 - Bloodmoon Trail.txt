@@ -1,0 +1,70 @@
+state = {
+	id = 476
+	name = "BLOODMOON_TRAIL"
+	manpower = 727
+	state_category = rural
+
+	resources = {
+		oil = 2
+		ground_beast = 4
+		flying_beast = 2
+		wood = 28
+		food = 13
+	}
+
+	history = {
+		owner = RDF
+		add_core_of = RDF
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 0
+			industrial_complex = 0
+			dockyard = 2
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			5316 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 6
+			}
+			5327 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 5
+			}
+			5338 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 3
+			}
+			5786 = {
+				bunker = 0
+			}
+			5798 = {
+				bunker = 0
+			}
+			5809 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        5316 5327 5338 5786 5798 5809 
+    }
+}

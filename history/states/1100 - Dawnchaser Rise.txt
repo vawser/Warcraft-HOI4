@@ -1,0 +1,15 @@
+state = {
+	id = 1100
+	name = "DAWNCHASER_RISE"
+	manpower = 8
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = RVE
+	}
+
+	provinces = {
+        6490
+    }
+}

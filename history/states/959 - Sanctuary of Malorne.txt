@@ -1,0 +1,64 @@
+state = {
+	id = 959
+	name = "SANCTUARY_OF_MALORNE"
+	manpower = 1033
+	state_category = village
+
+	resources = {
+		oil = 4
+		ground_beast = 7
+		flying_beast = 7
+		wood = 15
+		steel = 5
+		food = 19
+	}
+
+	history = {
+		owner = SEN
+		add_core_of = SEN
+
+		buildings = {
+			infrastructure = 2
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 3
+			industrial_complex = 4
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			3652 = {
+				bunker = 0
+			}
+			3696 = {
+				bunker = 0
+			}
+			3712 = {
+				bunker = 0
+			}
+			3743 = {
+				bunker = 0
+			}
+			3758 = {
+				bunker = 0
+			}
+			3786 = {
+				bunker = 0
+			}
+			3801 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        3652 3696 3712 3743 3758 3786 3801 
+    }
+}

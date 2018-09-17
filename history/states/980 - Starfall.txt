@@ -1,0 +1,58 @@
+state = {
+	id = 980
+	name = "STARFALL"
+	manpower = 1156
+	state_category = village
+
+	resources = {
+		oil = 2
+		ground_beast = 4
+		flying_beast = 5
+		wood = 17
+		steel = 3
+		food = 17
+	}
+
+	history = {
+		owner = WTA
+		add_core_of = WTA
+
+		buildings = {
+			infrastructure = 2
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 4
+			industrial_complex = 2
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			3674 = {
+				bunker = 0
+			}
+			3689 = {
+				bunker = 0
+			}
+			3719 = {
+				bunker = 0
+			}
+			3720 = {
+				bunker = 0
+			}
+			3766 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        3674 3689 3719 3720 3766 
+    }
+}

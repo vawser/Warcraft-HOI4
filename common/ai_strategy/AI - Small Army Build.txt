@@ -1,0 +1,279 @@
+#------------------------------------------
+# Small AI
+#------------------------------------------
+ai_small_minimum_army_size = {
+    enable = {
+        has_army_size = { size < 10 }
+        has_war = no
+        NOT =  { has_country_flag = ai_land_large }
+    }
+    abort = {
+        OR = {
+            has_army_size = { size > 9 }
+            has_war = yes
+            has_country_flag = ai_land_large
+        }
+    }
+    ai_strategy = { 
+		type = build_army 
+		id = grunt
+		value = 10		
+	}
+}
+
+ai_small_army_build_20 = {
+    enable = {
+        ai_wants_divisions < 20
+        has_army_size = { size < 20 }
+        has_war = no
+        num_of_military_factories > 9
+        num_of_military_factories < 19
+        NOT =  { has_country_flag = ai_land_large }
+    }
+    abort = {
+        OR = {
+            NOT = { ai_wants_divisions < 20 }
+            NOT = { has_army_size = { size < 20 } }
+            has_war = yes
+            NOT = { num_of_military_factories > 9 } 
+            NOT = { num_of_military_factories < 19 }
+            has_country_flag = ai_land_large
+        }
+    }
+    ai_strategy = { 
+		type = build_army 
+		id = grunt
+		value = 20
+	}
+}
+
+ai_small_army_build_30 = {
+    enable = {
+        ai_wants_divisions < 30
+        has_army_size = { size < 30 }
+        has_war = no
+        num_of_military_factories > 19
+        num_of_military_factories < 29
+        NOT =  { has_country_flag = ai_land_large }
+    }
+    abort = {
+        OR = {
+            NOT = { ai_wants_divisions < 30 }
+            NOT = { has_army_size = { size < 30 } }
+            has_war = yes
+            NOT = { num_of_military_factories > 19 } 
+            NOT = { num_of_military_factories < 29 }
+            has_country_flag = ai_land_large
+        }
+    }
+    ai_strategy = { 
+		type = build_army 
+		id = grunt
+		value = 30
+	}
+}
+
+ai_small_army_build_40 = {
+    enable = {
+        ai_wants_divisions < 40
+        has_army_size = { size < 40 }
+        has_war = no
+        num_of_military_factories > 29
+        num_of_military_factories < 39
+        NOT =  { has_country_flag = ai_land_large }
+    }
+    abort = {
+        OR = {
+            NOT = { ai_wants_divisions < 40 }
+            NOT = { has_army_size = { size < 40 } }
+            has_war = yes
+            NOT = { num_of_military_factories > 29 } 
+            NOT = { num_of_military_factories < 39 }
+            has_country_flag = ai_land_large
+        }
+    }
+    ai_strategy = { 
+		type = build_army 
+		id = grunt
+		value = 40
+	}
+}
+
+ai_small_army_build_50 = {
+    enable = {
+        ai_wants_divisions < 50
+        has_army_size = { size < 50 }
+        has_war = no
+        num_of_military_factories > 39
+        num_of_military_factories < 49
+        NOT =  { has_country_flag = ai_land_large }
+    }
+    abort = {
+        OR = {
+            NOT = { ai_wants_divisions < 50 }
+            NOT = { has_army_size = { size < 50 } }
+            has_war = yes
+            NOT = { num_of_military_factories > 39 } 
+            NOT = { num_of_military_factories < 49 }
+            has_country_flag = ai_land_large
+        }
+    }
+    ai_strategy = { 
+		type = build_army 
+		id = grunt
+		value = 50
+	}
+}
+
+ai_small_army_build_60 = {
+    enable = {
+        ai_wants_divisions < 60
+        has_army_size = { size < 60 }
+        has_war = no
+        num_of_military_factories > 49
+        num_of_military_factories < 59
+        NOT =  { has_country_flag = ai_land_large }
+    }
+    abort = {
+        OR = {
+            NOT = { ai_wants_divisions < 60 }
+            NOT = { has_army_size = { size < 60 } }
+            has_war = yes
+            NOT = { num_of_military_factories > 49 } 
+            NOT = { num_of_military_factories < 59 }
+            has_country_flag = ai_land_large
+        }
+    }
+    ai_strategy = { 
+		type = build_army 
+		id = grunt
+		value = 60
+	}
+}
+
+ai_small_army_build_70 = {
+    enable = {
+        ai_wants_divisions < 70
+        has_army_size = { size < 70 }
+        has_war = no
+        num_of_military_factories > 59
+        num_of_military_factories < 69
+        NOT =  { has_country_flag = ai_land_large }
+    }
+    abort = {
+        OR = {
+            NOT = { ai_wants_divisions < 70 }
+            NOT = { has_army_size = { size < 70 } }
+            has_war = yes
+            NOT = { num_of_military_factories > 59 } 
+            NOT = { num_of_military_factories < 69 }
+            has_country_flag = ai_land_large
+        }
+    }
+    ai_strategy = { 
+		type = build_army 
+		id = grunt
+		value = 70
+	}
+}
+
+ai_small_army_build_80 = {
+    enable = {
+        ai_wants_divisions < 80
+        has_army_size = { size < 80 }
+        has_war = no
+        num_of_military_factories > 69
+        num_of_military_factories < 79
+        NOT =  { has_country_flag = ai_land_large }
+    }
+    abort = {
+        OR = {
+            NOT = { ai_wants_divisions < 80 }
+            NOT = { has_army_size = { size < 80 } }
+            has_war = yes
+            NOT = { num_of_military_factories > 69 } 
+            NOT = { num_of_military_factories < 79 }
+            has_country_flag = ai_land_large
+        }
+    }
+    ai_strategy = { 
+		type = build_army 
+		id = grunt
+		value = 80
+	}
+}
+
+ai_small_army_build_90 = {
+    enable = {
+        ai_wants_divisions < 90
+        has_army_size = { size < 90 }
+        has_war = no
+        num_of_military_factories > 79
+        num_of_military_factories < 80
+        NOT =  { has_country_flag = ai_land_large }
+    }
+    abort = {
+        OR = {
+            NOT = { ai_wants_divisions < 90 }
+            NOT = { has_army_size = { size < 90 } }
+            has_war = yes
+            NOT = { num_of_military_factories > 79 } 
+            NOT = { num_of_military_factories < 89 }
+            has_country_flag = ai_land_large
+        }
+    }
+    ai_strategy = { 
+		type = build_army 
+		id = grunt
+		value = 90
+	}
+}
+
+ai_small_army_build_100 = {
+    enable = {
+        ai_wants_divisions < 100
+        has_army_size = { size < 100 }
+        has_war = no
+        num_of_military_factories > 89
+        num_of_military_factories < 90
+        NOT =  { has_country_flag = ai_land_large }
+    }
+    abort = {
+        OR = {
+            NOT = { ai_wants_divisions < 100 }
+            NOT = { has_army_size = { size < 100 } }
+            has_war = yes
+            NOT = { num_of_military_factories > 89 } 
+            NOT = { num_of_military_factories < 90 }
+            has_country_flag = ai_land_large
+        }
+    }
+    ai_strategy = { 
+		type = build_army 
+		id = grunt
+		value = 100
+	}
+}
+
+ai_small_stop_building = {
+    enable = {
+        ai_wants_divisions > 99
+        has_army_size = { size > 99 }
+        has_war = no
+        num_of_military_factories > 89
+        NOT =  { has_country_flag = ai_land_large }
+    }
+    abort = {
+        OR = {
+            has_army_size = { size < 100 }
+            num_of_military_factories < 90
+            has_country_flag = ai_land_large
+        }
+    }
+    ai_strategy = { 
+		type = build_army 
+		id = grunt
+		value = 0
+	}
+}
+

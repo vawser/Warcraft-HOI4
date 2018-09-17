@@ -1,0 +1,78 @@
+SOW = {
+	army = {
+		male = {
+			"gfx/leaders/DRYAD/dryad_frost.dds"
+		}
+        female = {
+			"gfx/leaders/DRYAD/dryad_frost.dds"
+		}
+	}
+
+	navy = {
+		male = {
+			"gfx/leaders/DRYAD/dryad_frost.dds"
+		}
+        female = {
+			"gfx/leaders/DRYAD/dryad_frost.dds"
+		}
+	}
+
+	political = {
+		light = {
+			male = {
+                "gfx/leaders/DRYAD/dryad_frost.dds"
+            }
+            female = {
+                "gfx/leaders/DRYAD/dryad_frost.dds"
+            }
+		}
+		shadow = {
+			male = {
+                "gfx/leaders/DRYAD/dryad_frost.dds"
+            }
+            female = {
+                "gfx/leaders/DRYAD/dryad_frost.dds"
+            }
+		}
+        order = {
+			male = {
+                "gfx/leaders/DRYAD/dryad_frost.dds"
+            }
+            female = {
+                "gfx/leaders/DRYAD/dryad_frost.dds"
+            }
+		}
+        disorder = {
+			male = {
+                "gfx/leaders/DRYAD/dryad_frost.dds"
+            }
+            female = {
+                "gfx/leaders/DRYAD/dryad_frost.dds"
+            }
+		}
+        life = {
+			male = {
+                "gfx/leaders/DRYAD/dryad_frost.dds"
+            }
+            female = {
+                "gfx/leaders/DRYAD/dryad_frost.dds"
+            }
+		}
+        death = {
+			male = {
+                "gfx/leaders/DRYAD/dryad_frost.dds"
+            }
+            female = {
+                "gfx/leaders/DRYAD/dryad_frost.dds"
+            }
+		}
+        unaligned = {
+			male = {
+                "gfx/leaders/DRYAD/dryad_frost.dds"
+            }
+            female = {
+                "gfx/leaders/DRYAD/dryad_frost.dds"
+            }
+		}
+	}
+}

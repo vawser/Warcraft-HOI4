@@ -1,0 +1,116 @@
+state = {
+	id = 588
+	name = "NERUBIAN_HIVES"
+	manpower = 8364
+	state_category = town
+
+	resources = {
+		oil = 2
+		ground_beast = 5
+		flying_beast = 8
+		wood = 2
+		steel = 2
+		food = 20
+	}
+
+	history = {
+		owner = AZJ
+		add_core_of = AZJ
+
+        # The Third War
+        612.1.1 = {
+            owner = SCO
+            add_core_of = SCO
+            set_state_name = WEST_CORPRETHAR
+            buildings = {
+			infrastructure = 7
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 8
+			industrial_complex = 4
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			5366 = {
+				bunker = 7
+			}
+			5391 = {
+				bunker = 6
+			}
+			5412 = {
+				bunker = 9
+			}
+			5987 = {
+				bunker = 5
+			}
+			6003 = {
+				bunker = 4
+			}
+			6021 = {
+				bunker = 5
+			}
+			6036 = {
+				bunker = 5
+			}
+			6050 = {
+				bunker = 3
+			}
+		}
+        }
+        
+		buildings = {
+			infrastructure = 7
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 8
+			industrial_complex = 4
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			5366 = {
+				bunker = 7
+			}
+			5391 = {
+				bunker = 6
+			}
+			5412 = {
+				bunker = 9
+			}
+			5987 = {
+				bunker = 5
+			}
+			6003 = {
+				bunker = 4
+			}
+			6021 = {
+				bunker = 5
+			}
+			6036 = {
+				bunker = 5
+			}
+			6050 = {
+				bunker = 3
+			}
+		}
+	}
+
+	provinces = {
+        5366 5391 5412 5987 6003 6021 6036 6050 
+    }
+}

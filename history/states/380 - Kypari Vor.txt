@@ -1,0 +1,55 @@
+state = {
+	id = 380
+	name = "KYPARI_VOR"
+	manpower = 5360
+	state_category = town
+
+	resources = {
+		oil = 3
+		ground_beast = 5
+		flying_beast = 3
+		wood = 2
+		steel = 12
+		food = 19
+	}
+
+	history = {
+		owner = MAN
+		add_core_of = MAN
+
+		buildings = {
+			infrastructure = 5
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 7
+			industrial_complex = 3
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			6558 = {
+				bunker = 9
+			}
+			6563 = {
+				bunker = 9
+			}
+			6572 = {
+				bunker = 4
+			}
+			6575 = {
+				bunker = 7
+			}
+		}
+	}
+
+	provinces = {
+        6558 6563 6572 6575 
+    }
+}

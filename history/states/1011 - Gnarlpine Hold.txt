@@ -1,0 +1,60 @@
+state = {
+	id = 1011
+	name = "GNARLPINE_HOLD"
+	manpower = 1229
+	state_category = village
+
+	resources = {
+		oil = 3
+		ground_beast = 3
+		flying_beast = 9
+		wood = 24
+		food = 12
+	}
+
+	history = {
+        owner = DAS
+		add_core_of = DAS
+
+		buildings = {
+			infrastructure = 3
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 5
+			industrial_complex = 4
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			7171 = {
+				bunker = 0
+			}
+			7184 = {
+				bunker = 0
+			}
+			7195 = {
+				bunker = 0
+			}
+			7200 = {
+				bunker = 0
+			}
+			7203 = {
+				bunker = 0
+			}
+			7206 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        7171 7184 7195 7200 7203 7206 
+    }
+}

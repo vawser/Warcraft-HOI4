@@ -1,0 +1,72 @@
+state = {
+	id = 53
+	name = "LAKESHIRE"
+	manpower = 7495
+	state_category = town
+
+	resources = {
+		oil = 1
+		ground_beast = 6
+		flying_beast = 2
+		steel = 6
+		food = 17
+	}
+
+	history = {
+        victory_points = {
+            2837 10
+        }
+        
+		owner = RED
+        add_core_of = RED
+        
+        # The Second War
+        597.1.1 = {
+            owner = TTH
+            add_core_of = TTH
+        }
+        # The Third War
+        612.1.1 = {
+            owner = RED
+            add_core_of = RED
+        }
+        
+		buildings = {
+			infrastructure = 6
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 9
+			industrial_complex = 2
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			1972 = {
+				bunker = 8
+			}
+			2837 = {
+				bunker = 4
+			}
+			2864 = {
+				bunker = 9
+			}
+			3047 = {
+				bunker = 7
+			}
+			3071 = {
+				bunker = 2
+			}
+		}
+	}
+
+	provinces = {
+        1972 2837 2864 3047 3071 
+    }
+}

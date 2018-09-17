@@ -1,0 +1,73 @@
+state = {
+	id = 766
+	name = "THUNDER_BLUFF"
+	manpower = 18283
+	state_category = city
+
+	resources = {
+		oil = 4
+		ground_beast = 5
+		flying_beast = 6
+		wood = 4
+		steel = 3
+		food = 20
+	}
+
+	history = {
+		owner = BDH
+		add_core_of = BDH
+
+		buildings = {
+			infrastructure = 8
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 10
+			industrial_complex = 4
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			4510 = {
+				bunker = 3
+			}
+			4533 = {
+				bunker = 2
+			}
+			4545 = {
+				bunker = 7
+			}
+			4554 = {
+				bunker = 5
+			}
+			4927 = {
+				bunker = 1
+			}
+			4944 = {
+				bunker = 7
+			}
+			4966 = {
+				bunker = 1
+			}
+			4967 = {
+				bunker = 5
+			}
+			4988 = {
+				bunker = 3
+			}
+			4989 = {
+				bunker = 7
+			}
+		}
+	}
+
+	provinces = {
+        4510 4533 4545 4554 4927 4944 4966 4967 4988 4989
+    }
+}

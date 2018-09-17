@@ -1,0 +1,33 @@
+defined_text = { 
+	name = GetCelestial
+    
+    text = {
+		trigger = {
+			has_yulon = yes
+		}
+		localization_key = YULON
+	}
+    text = {
+		trigger = {
+			has_niuzao = yes
+		}
+		localization_key = NIUZAO
+	}
+    text = {
+		trigger = {
+			has_chiji = yes
+		}
+		localization_key = CHIJI
+	}
+    text = {
+		trigger = {
+			has_xuen = yes
+		}
+		localization_key = XUEN
+	}
+    
+    text = {
+		localization_key = CELESTIALS
+	}
+}
+

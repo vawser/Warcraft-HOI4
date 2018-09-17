@@ -1,0 +1,72 @@
+state = {
+	id = 404
+	name = "SHANZE_DAO"
+	manpower = 456
+	state_category = rural
+
+	resources = {
+		ground_beast = 9
+		flying_beast = 5
+		wood = 8
+		steel = 12
+		food = 17
+	}
+
+	history = {
+		owner = BOX
+		add_core_of = BOX
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 0
+			industrial_complex = 3
+			dockyard = 1
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			6311 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 4
+			}
+			6363 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 5
+			}
+			6371 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 1
+			}
+			6380 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 8
+			}
+			6913 = {
+				bunker = 0
+			}
+			6914 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        6311 6363 6371 6380 6913 6914 
+    }
+}

@@ -1,0 +1,20 @@
+state = {
+	id = 809
+	name = "RAZOR_HEIGHTS"
+	manpower = 66
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = RAZ
+
+        # The Third War
+        612.1.1 = {
+            owner = ORG
+        }
+	}
+
+	provinces = {
+        4331 4348 4370 4390 4407
+    }
+}

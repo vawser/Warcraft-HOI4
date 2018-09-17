@@ -1,0 +1,56 @@
+SAZ_strategy_default = {
+    enable = {
+        original_tag = SAZ
+    }
+
+    # Zandalar
+    ai_strategy = {
+		type = befriend
+		id = "ZDL"
+        value = 100
+	}
+    
+    # Niuzao
+    ai_strategy = {
+		type = contain
+		id = "BOX"
+        value = 250
+	}
+    ai_strategy = {
+		type = conquer
+		id = "BOX"
+        value = 250
+	}
+    ai_strategy = {
+		type = antagonize
+		id = "BOX"
+        value = 250
+	}
+    ai_strategy = {
+		type = invade
+		id = "BOX"
+        value = 250
+	}
+    
+    # Shado-pan
+    ai_strategy = {
+		type = contain
+		id = "SPN"
+        value = 250
+	}
+    ai_strategy = {
+		type = conquer
+		id = "SPN"
+        value = 250
+	}
+    ai_strategy = {
+		type = antagonize
+		id = "SPN"
+        value = 250
+	}
+    ai_strategy = {
+		type = invade
+		id = "SPN"
+        value = 250
+	}
+}

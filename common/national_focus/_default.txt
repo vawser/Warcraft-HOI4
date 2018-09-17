@@ -1,0 +1,1544 @@
+focus_tree = {
+    id = default_focus
+    country = {
+        factor = 1
+    }
+    
+    reset_on_civilwar = no
+    
+    @army_position_x = 2
+    @air_position_x = 6
+    @naval_position_x = 11
+    @industry_position_x = 16
+    
+    #------------------------------------------
+    # Offensive Infantry
+    #------------------------------------------
+    focus = {
+		id = offensive_army_effort
+		icon = GFX_goal_offensive_edict
+		x = 0
+		y = 0
+		cost = 10
+        
+		available_if_capitulated = yes
+
+		completion_reward = {
+			army_experience = 10
+            
+            add_ideas = offensive_edict
+		}
+        
+        ai_will_do = {
+            factor = 1
+            
+            modifier = {
+                add = 5
+                
+                is_savage = yes
+            }
+        }
+	}
+    
+    # Grunt Effort
+    focus = {
+		id = grunt_effort
+		icon = GFX_goal_grunt_effort
+        relative_position_id = offensive_army_effort
+		x = 0
+		y = 1
+		cost = 10
+
+        mutually_exclusive = { focus = champion_effort }
+        prerequisite = { focus = offensive_army_effort }
+        
+		available_if_capitulated = yes
+
+		completion_reward = {
+            add_tech_bonus = {
+				name = grunt_tech_bonus
+				bonus = 0.25
+				uses = 1
+				category = grunt_tech
+			}
+		}
+        
+        ai_will_do = {
+            factor = 1
+            
+            modifier = {
+                add = 5
+                
+                is_savage = yes
+            }
+        }
+	}
+    
+    focus = {
+		id = grunt_upgrade_effort
+		icon = GFX_goal_grunt_effort
+        relative_position_id = grunt_effort
+		x = 0
+		y = 1
+		cost = 10
+
+        prerequisite = { focus = grunt_effort }
+        
+		available_if_capitulated = yes
+
+		completion_reward = {
+            add_tech_bonus = {
+				name = grunt_tech_bonus
+				bonus = 0.25
+				uses = 1
+				category = grunt_tech
+			}
+		}
+        
+        ai_will_do = {
+            factor = 1
+            
+            modifier = {
+                add = 5
+                
+                is_savage = yes
+            }
+        }
+	}
+
+    focus = {
+		id = champion_effort
+		icon = GFX_goal_champion_effort
+        relative_position_id = offensive_army_effort
+		x = 1
+		y = 1
+		cost = 10
+
+        mutually_exclusive = { focus = grunt_effort }
+        prerequisite = { focus = offensive_army_effort }
+        
+		available_if_capitulated = yes
+
+		completion_reward = {
+            add_tech_bonus = {
+				name = champion_tech_bonus
+				bonus = 0.25
+				uses = 1
+				category = champion_tech
+			}
+		}
+        
+        ai_will_do = {
+            factor = 1
+            
+            modifier = {
+                add = 5
+                
+                is_savage = yes
+            }
+        }
+	}
+    
+    focus = {
+		id = champion_upgrade_effort
+		icon = GFX_goal_champion_effort
+        relative_position_id = champion_effort
+		x = 0
+		y = 1
+		cost = 10
+
+        prerequisite = { focus = champion_effort }
+        
+		available_if_capitulated = yes
+
+		completion_reward = {
+            add_tech_bonus = {
+				name = champion_tech_bonus
+				bonus = 0.25
+				uses = 1
+				category = champion_tech
+			}
+		}
+        
+        ai_will_do = {
+            factor = 1
+            
+            modifier = {
+                add = 5
+                
+                is_savage = yes
+            }
+        }
+	}
+    
+    #-------------------------------------------
+    # Defensive Infantry
+    #-------------------------------------------
+    focus = {
+		id = defensive_army_effort
+		icon = GFX_goal_defensive_edict
+		x = 2
+		y = 0
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			army_experience = 10
+            
+            add_ideas = defensive_edict
+		}
+        
+        ai_will_do = {
+            factor = 5
+        }
+	}
+  
+    focus = {
+		id = spellcaster_effort
+		icon = GFX_goal_spellcaster_effort
+        relative_position_id = defensive_army_effort
+		x = 0
+		y = 1
+		cost = 10
+
+        mutually_exclusive = { focus = archer_effort }
+        prerequisite = { focus = defensive_army_effort }
+        
+		available_if_capitulated = yes
+
+		completion_reward = {
+            add_tech_bonus = {
+				name = spellcaster_tech_bonus
+				bonus = 0.25
+				uses = 1
+				category = spellcaster_tech
+			}
+		}
+        
+        ai_will_do = {
+            factor = 1
+        }
+	}
+    
+    focus = {
+		id = spellcaster_upgrade_effort
+		icon = GFX_goal_spellcaster_effort
+        relative_position_id = spellcaster_effort
+		x = 0
+		y = 1
+		cost = 10
+
+        prerequisite = { focus = spellcaster_effort }
+        
+		available_if_capitulated = yes
+
+		completion_reward = {
+            add_tech_bonus = {
+				name = spellcaster_tech_bonus
+				bonus = 0.25
+				uses = 1
+				category = spellcaster_tech
+			}
+		}
+        
+        ai_will_do = {
+            factor = 1
+        }
+	}
+    
+    # Archer Effort
+    focus = {
+		id = archer_effort
+		icon = GFX_goal_archer_effort
+        relative_position_id = defensive_army_effort
+		x = 1
+		y = 1
+		cost = 10
+
+        mutually_exclusive = { focus = spellcaster_effort }
+        prerequisite = { focus = defensive_army_effort }
+        
+		available_if_capitulated = yes
+
+		completion_reward = {
+            add_tech_bonus = {
+				name = archer_tech_bonus
+				bonus = 0.25
+				uses = 1
+				category = archer_tech
+			}
+		}
+        
+        ai_will_do = {
+            factor = 1
+        }
+	}
+    
+    focus = {
+		id = archer_upgrade_effort
+		icon = GFX_goal_archer_effort
+        relative_position_id = archer_effort
+		x = 0
+		y = 1
+		cost = 10
+
+        prerequisite = { focus = archer_effort }
+        
+		available_if_capitulated = yes
+
+		completion_reward = {
+            add_tech_bonus = {
+				name = archer_tech_bonus
+				bonus = 0.25
+				uses = 1
+				category = archer_tech
+			}
+		}
+        
+        ai_will_do = {
+            factor = 1
+        }
+	}
+    
+    #-------------------------------------------
+    # Cavalry
+    #-------------------------------------------
+    focus = {
+		id = cavalry_effort
+		icon = GFX_goal_cavalry_edict
+		x = 0
+		y = 3
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			army_experience = 10
+            
+            add_ideas = cavalry_edict
+		}
+        
+        ai_will_do = {
+            factor = 4
+        }
+	}
+  
+  
+    focus = {
+		id = light_cavalry_effort
+		icon = GFX_goal_light_cavalry_effort
+        relative_position_id = cavalry_effort
+		x = 0
+		y = 1
+		cost = 10
+
+        mutually_exclusive = { focus = heavy_cavalry_effort }
+        prerequisite = { focus = cavalry_effort }
+        
+		available_if_capitulated = yes
+
+		completion_reward = {
+            add_tech_bonus = {
+				name = light_cavalry_tech_bonus
+				bonus = 0.25
+				uses = 1
+				category = light_cavalry_tech
+			}
+		}
+        
+        ai_will_do = {
+            factor = 2
+        }
+	}
+    
+    focus = {
+		id = light_cavalry_upgrade_effort
+		icon = GFX_goal_light_cavalry_effort
+        relative_position_id = light_cavalry_effort
+		x = 0
+		y = 1
+		cost = 10
+
+        prerequisite = { focus = light_cavalry_effort }
+        
+		available_if_capitulated = yes
+
+		completion_reward = {
+            add_tech_bonus = {
+				name = light_cavalry_tech_bonus 
+				bonus = 0.25
+				uses = 1
+				category = light_cavalry_tech
+			}
+		}
+        
+        ai_will_do = {
+            factor = 2
+        }
+	}
+    
+    focus = {
+		id = heavy_cavalry_effort
+		icon = GFX_goal_heavy_cavalry_effort
+        relative_position_id = cavalry_effort
+		x = 1
+		y = 1
+		cost = 10
+
+        mutually_exclusive = { focus = light_cavalry_effort }
+        prerequisite = { focus = cavalry_effort }
+        
+		available_if_capitulated = yes
+
+		completion_reward = {
+            add_tech_bonus = {
+				name = heavy_cavalry_tech_bonus
+				bonus = 0.25
+				uses = 1
+				category = heavy_cavalry_tech
+			}
+		}
+        
+        ai_will_do = {
+            factor = 2
+        }
+	}
+    
+    focus = {
+		id = heavy_cavalry_upgrade_effort
+		icon = GFX_goal_heavy_cavalry_effort
+        relative_position_id = heavy_cavalry_effort
+		x = 0
+		y = 1
+		cost = 10
+
+        prerequisite = { focus = heavy_cavalry_effort }
+        
+		available_if_capitulated = yes
+
+		completion_reward = {
+            add_tech_bonus = {
+				name = heavy_cavalry_tech_bonus
+				bonus = 0.25
+				uses = 1
+				category = heavy_cavalry_tech
+			}
+		}
+        
+        ai_will_do = {
+            factor = 2
+        }
+	}
+    
+    #-------------------------------------------
+    # Support
+    #-------------------------------------------
+    focus = {
+		id = support_effort
+		icon = GFX_goal_support_edict
+		x = 2
+		y = 3
+		cost = 10
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+			army_experience = 10
+            
+            add_ideas = support_edict
+		}
+        
+        ai_will_do = {
+            factor = 5
+        }
+	}
+  
+  
+    focus = {
+		id = war_engine_effort
+		icon = GFX_goal_war_engine_effort
+        relative_position_id = support_effort
+		x = 0
+		y = 1
+		cost = 10
+
+        mutually_exclusive = { focus = support_eq_effort }
+        prerequisite = { focus = support_effort }
+        
+		available_if_capitulated = yes
+
+		completion_reward = {
+            add_tech_bonus = {
+				name = war_engine_tech_bonus
+				bonus = 0.25
+				uses = 1
+				category = war_engine_tech
+			}
+		}
+        
+        ai_will_do = {
+            factor = 4
+        }
+	}
+    
+    focus = {
+		id = war_engine_upgrade_effort
+		icon = GFX_goal_war_engine_effort
+        relative_position_id = war_engine_effort
+		x = 0
+		y = 1
+		cost = 10
+
+        prerequisite = { focus = war_engine_effort }
+        
+		available_if_capitulated = yes
+
+		completion_reward = {
+            add_tech_bonus = {
+				name = war_engine_tech_bonus 
+				bonus = 0.25
+				uses = 1
+				category = war_engine_tech
+			}
+		}
+        
+        ai_will_do = {
+            factor = 3
+        }
+	}
+    
+    focus = {
+		id = support_eq_effort
+		icon = GFX_goal_support_eq_effort
+        relative_position_id = support_effort
+		x = 1
+		y = 1
+		cost = 10
+
+        mutually_exclusive = { focus = war_engine_effort }
+        prerequisite = { focus = support_effort }
+        
+		available_if_capitulated = yes
+
+		completion_reward = {
+            add_tech_bonus = {
+				name = support_tech_bonus
+				bonus = 0.25
+				uses = 1
+				category = support_tech
+			}
+		}
+        
+        ai_will_do = {
+            factor = 3
+        }
+	}
+    
+    focus = {
+		id = support_eq_effort_2
+		icon = GFX_goal_support_eq_effort
+        relative_position_id = support_eq_effort
+		x = 0
+		y = 1
+		cost = 10
+
+        prerequisite = { focus = support_eq_effort }
+        
+		available_if_capitulated = yes
+
+		completion_reward = {
+            add_tech_bonus = {
+				name = support_tech_bonus
+				bonus = 0.25
+				uses = 1
+				category = support_tech
+			}
+		}
+        
+        ai_will_do = {
+            factor = 3
+        }
+	} 
+    
+    #------------------------------------------
+    # Aviation
+    #------------------------------------------
+    focus = {
+		id = dogfighting_effort
+		icon = GFX_goal_dogfighting_edict
+		x = 4
+		y = 0
+		cost = 10
+        
+		available_if_capitulated = yes
+
+        completion_reward = {
+			air_experience = 10
+
+            add_ideas = dogfighting_edict
+		}
+        
+        ai_will_do = {
+            factor = 1
+            
+            modifier = {
+                factor = 0.01
+                
+                num_divisions < 50
+            }
+        }
+	}
+     
+    focus = {
+		id = fighter_effort
+		icon = GFX_goal_fighter_effort
+        relative_position_id = dogfighting_effort
+		x = 0
+		y = 1
+		cost = 10
+      
+        prerequisite = { focus = dogfighting_effort }
+        mutually_exclusive = { focus = cas_effort }
+        
+		available_if_capitulated = yes
+
+		completion_reward = {
+            add_tech_bonus = {
+				name = fighter_tech_bonus
+				bonus = 0.25
+				uses = 1
+				category = fighter_tech
+			}
+		}
+        
+        ai_will_do = {
+            factor = 1
+            
+            modifier = {
+                factor = 0.01
+                
+                num_divisions < 50
+            }
+        }
+	}
+    
+    focus = {
+		id = fighter_effort_2
+		icon = GFX_goal_fighter_effort
+        relative_position_id = fighter_effort
+		x = 0
+		y = 1
+		cost = 10
+      
+        prerequisite = { focus = fighter_effort }
+        
+		available_if_capitulated = yes
+
+		completion_reward = {
+            add_tech_bonus = {
+				name = fighter_tech_bonus
+				bonus = 0.25
+				uses = 1
+				category = fighter_tech
+			}
+		}
+        
+        ai_will_do = {
+            factor = 1
+            
+            modifier = {
+                factor = 0.01
+                
+                num_divisions < 50
+            }
+        }
+	}
+    
+    focus = {
+		id = cas_effort
+		icon = GFX_goal_cas_effort
+        relative_position_id = dogfighting_effort
+		x = 1
+		y = 1
+		cost = 10
+        
+        prerequisite = { focus = dogfighting_effort }
+        mutually_exclusive = { focus = fighter_effort }
+        
+		available_if_capitulated = yes
+
+		completion_reward = {
+            add_tech_bonus = {
+				name = cas_tech_bonus
+				bonus = 0.25
+				uses = 1
+				category = cas_tech
+			}
+		}
+        
+        ai_will_do = {
+            factor = 1
+            
+            modifier = {
+                factor = 0.01
+                
+                num_divisions < 50
+            }
+        }
+	}
+    
+    focus = {
+		id = cas_effort_2
+		icon = GFX_goal_cas_effort
+        relative_position_id = cas_effort
+		x = 0
+		y = 1
+		cost = 10
+        
+        prerequisite = { focus = cas_effort }
+        
+		available_if_capitulated = yes
+
+		completion_reward = {
+            add_tech_bonus = {
+				name = cas_tech_bonus
+				bonus = 0.25
+				uses = 1
+				category = cas_tech
+			}
+		}
+        
+        ai_will_do = {
+            factor = 1
+            
+            modifier = {
+                factor = 0.01
+                
+                num_divisions < 50
+            }
+        }
+	}
+    
+    focus = {
+		id = bombing_effort
+		icon = GFX_goal_bombing_effort
+		x = 6
+		y = 0
+		cost = 10
+        
+		available_if_capitulated = yes
+
+        completion_reward = {
+			air_experience = 10
+
+            add_ideas = bombing_edict
+		}
+        
+        ai_will_do = {
+            factor = 1
+            
+            modifier = {
+                factor = 0.01
+                
+                num_divisions < 50
+            }
+        }
+	}
+    
+    focus = {
+		id = tactical_bomber_effort
+		icon = GFX_goal_tactical_bomber_effort
+        relative_position_id = bombing_effort
+		x = 0
+		y = 1
+		cost = 10
+
+        prerequisite = { focus = bombing_effort }
+        mutually_exclusive = { focus = strategic_bomber_effort }
+        
+		available_if_capitulated = yes
+
+		completion_reward = {
+            add_tech_bonus = {
+				name = tactical_bomber_tech_bonus
+				bonus = 0.25
+				uses = 1
+				category = tactical_bomber_tech
+			}
+		}
+        
+        ai_will_do = {
+            factor = 1
+            
+            modifier = {
+                factor = 0.01
+                
+                num_divisions < 50
+            }
+        }
+	}
+    
+    focus = {
+		id = tactical_bomber_effort_2
+		icon = GFX_goal_tactical_bomber_effort
+        relative_position_id = tactical_bomber_effort
+		x = 0
+		y = 1
+		cost = 10
+
+        prerequisite = { focus = tactical_bomber_effort  }
+        
+		available_if_capitulated = yes
+
+		completion_reward = {
+            add_tech_bonus = {
+				name = tactical_bomber_tech_bonus
+				bonus = 0.25
+				uses = 1
+				category = tactical_bomber_tech
+			}
+		}
+        
+        ai_will_do = {
+            factor = 1
+            
+            modifier = {
+                factor = 0.01
+                
+                num_divisions < 50
+            }
+        }
+	}
+    
+    focus = {
+		id = strategic_bomber_effort
+		icon = GFX_goal_strategic_bomber_effort
+        relative_position_id = bombing_effort
+		x = 1
+		y = 1
+		cost = 10
+        
+        prerequisite = { focus = bombing_effort }
+        mutually_exclusive = { focus = tactical_bomber_effort }
+        
+		available_if_capitulated = yes
+
+		completion_reward = {
+            add_tech_bonus = {
+				name = strategic_bomber_tech_bonus
+				bonus = 0.25
+				uses = 1
+				category = strategic_bomber_tech
+			}
+		}
+        
+        ai_will_do = {
+            factor = 1
+            
+            modifier = {
+                factor = 0.01
+                
+                num_divisions < 50
+            }
+        }
+	}
+    
+    focus = {
+		id = strategic_bomber_effort_2
+		icon = GFX_goal_strategic_bomber_effort
+        relative_position_id = strategic_bomber_effort
+		x = 0
+		y = 1
+		cost = 10
+        
+        prerequisite = { focus = strategic_bomber_effort }
+        
+		available_if_capitulated = yes
+
+		completion_reward = {
+            add_tech_bonus = {
+				name = strategic_bomber_tech_bonus
+				bonus = 0.25
+				uses = 1
+				category = strategic_bomber_tech
+			}
+		}
+        
+        ai_will_do = {
+            factor = 1
+            
+            modifier = {
+                factor = 0.01
+                
+                num_divisions < 50
+            }
+        }
+	}
+    
+    #------------------------------------------
+    # Naval
+    #------------------------------------------
+    focus = {
+		id = harassment_effort
+		icon = GFX_goal_harassment_effort
+		x = 4
+		y = 3
+		cost = 10
+        
+        available = {
+            any_state = {
+				is_coastal = yes
+				is_controlled_by = ROOT
+			}
+        }
+        
+		available_if_capitulated = yes
+        
+		completion_reward = {
+			navy_experience = 10
+			
+            add_ideas = harassment_edict
+        }
+        
+        ai_will_do = {
+            factor = 1
+            
+            modifier = {
+                factor = 0
+                
+                has_navy_size = {
+                    size < 10
+                }
+            }
+        }
+	}
+    
+    focus = {
+		id = wm_submarine_effort
+		icon = GFX_goal_submarine_effort
+        relative_position_id = harassment_effort
+		x = 0
+		y = 1
+		cost = 10
+
+        prerequisite = { focus = harassment_effort }
+        mutually_exclusive = { focus = wm_destroyer_effort }
+        
+		available_if_capitulated = yes
+
+		completion_reward = {
+            add_tech_bonus = {
+				name = submarine_tech_bonus
+				bonus = 0.25
+				uses = 1
+				category = submarine_tech
+			}
+		}
+        
+        ai_will_do = {
+            factor = 1
+            
+            modifier = {
+                factor = 0
+                
+                has_navy_size = {
+                    size < 10
+                }
+            }
+        }
+	}
+    
+    focus = {
+		id = submarine_effort_2
+		icon = GFX_goal_submarine_effort
+        relative_position_id = wm_submarine_effort
+		x = 0
+		y = 1
+		cost = 10
+
+        prerequisite = { focus = wm_submarine_effort  }
+        
+		available_if_capitulated = yes
+
+		completion_reward = {
+            add_tech_bonus = {
+				name = submarine_tech_bonus
+				bonus = 0.25
+				uses = 1
+				category = submarine_tech
+			}
+		}
+        
+        ai_will_do = {
+            factor = 1
+            
+            modifier = {
+                factor = 0
+                
+                has_navy_size = {
+                    size < 10
+                }
+            }
+        }
+	}
+    
+    focus = {
+		id = wm_destroyer_effort
+		icon = GFX_goal_destroyer_effort
+        relative_position_id = harassment_effort
+		x = 1
+		y = 1
+		cost = 10
+        
+        prerequisite = { focus = harassment_effort }
+        mutually_exclusive = { focus = wm_submarine_effort }
+        
+		available_if_capitulated = yes
+
+		completion_reward = {
+            add_tech_bonus = {
+				name = destroyer_tech_bonus
+				bonus = 0.25
+				uses = 1
+				category = destroyer_tech
+			}
+		}
+        
+        ai_will_do = {
+            factor = 1
+            
+            modifier = {
+                factor = 0
+                
+                has_navy_size = {
+                    size < 10
+                }
+            }
+        }
+	}
+    
+    focus = {
+		id = destroyer_effort_2
+		icon = GFX_goal_destroyer_effort
+        relative_position_id = wm_destroyer_effort
+		x = 0
+		y = 1
+		cost = 10
+        
+        prerequisite = { focus = wm_destroyer_effort }
+        
+		available_if_capitulated = yes
+
+		completion_reward = {
+            add_tech_bonus = {
+				name = destroyer_tech_bonus
+				bonus = 0.25
+				uses = 1
+				category = destroyer_tech
+			}
+		}
+        
+        ai_will_do = {
+            factor = 1
+            
+            modifier = {
+                factor = 0
+                
+                has_navy_size = {
+                    size < 10
+                }
+            }
+        }
+	}
+    
+    focus = {
+		id = bombardment_effort
+		icon = GFX_goal_bombardment_effort
+		x = 6
+		y = 3
+		cost = 10
+        
+        available = {
+            any_state = {
+				is_coastal = yes
+				is_controlled_by = ROOT
+			}
+        }
+        
+		available_if_capitulated = yes
+        
+		completion_reward = {
+			navy_experience = 10
+			
+            add_ideas = bombardment_edict
+        }
+        
+        ai_will_do = {
+            factor = 1
+            
+            modifier = {
+                factor = 0
+                
+                has_navy_size = {
+                    size < 10
+                }
+            }
+        }
+	}
+    
+    focus = {
+		id = wm_cruiser_effort
+		icon = GFX_goal_cruiser_effort
+        relative_position_id = bombardment_effort
+		x = 0
+		y = 1
+		cost = 10
+
+        prerequisite = { focus = bombardment_effort }
+        mutually_exclusive = { focus = battleship_effort }
+        
+		available_if_capitulated = yes
+
+		completion_reward = {
+            add_tech_bonus = {
+				name = cruiser_tech_bonus
+				bonus = 0.25
+				uses = 1
+				category = cruiser_tech
+			}
+		}
+        
+        ai_will_do = {
+            factor = 1
+            
+            modifier = {
+                factor = 0
+                
+                has_navy_size = {
+                    size < 10
+                }
+            }
+        }
+	}
+    
+    focus = {
+		id = cruiser_effort_2
+		icon = GFX_goal_cruiser_effort
+        relative_position_id = wm_cruiser_effort
+		x = 0
+		y = 1
+		cost = 10
+
+        prerequisite = { focus = wm_cruiser_effort  }
+        
+		available_if_capitulated = yes
+
+		completion_reward = {
+            add_tech_bonus = {
+				name = cruiser_tech_bonus
+				bonus = 0.25
+				uses = 1
+				category = cruiser_tech
+			}
+		}
+        
+        ai_will_do = {
+            factor = 1
+            
+            modifier = {
+                factor = 0
+                
+                has_navy_size = {
+                    size < 10
+                }
+            }
+        }
+	}
+    
+    focus = {
+		id = battleship_effort
+		icon = GFX_goal_battleship_effort
+        relative_position_id = bombardment_effort
+		x = 1
+		y = 1
+		cost = 10
+        
+        prerequisite = { focus = bombardment_effort }
+        mutually_exclusive = { focus = wm_cruiser_effort }
+        
+		available_if_capitulated = yes
+
+		completion_reward = {
+            add_tech_bonus = {
+				name = battleship_tech_bonus
+				bonus = 0.25
+				uses = 1
+				category = battleship_tech
+			}
+		}
+        
+        ai_will_do = {
+            factor = 1
+            
+            modifier = {
+                factor = 0
+                
+                has_navy_size = {
+                    size < 10
+                }
+            }
+        }
+	}
+    
+    focus = {
+		id = battleship_effort_2
+		icon = GFX_goal_battleship_effort
+        relative_position_id = battleship_effort
+		x = 0
+		y = 1
+		cost = 10
+        
+        prerequisite = { focus = battleship_effort }
+        
+		available_if_capitulated = yes
+
+		completion_reward = {
+            add_tech_bonus = {
+				name = battleship_tech_bonus
+				bonus = 0.25
+				uses = 1
+				category = battleship_tech
+			}
+		}
+        
+        ai_will_do = {
+            factor = 1
+            
+            modifier = {
+                factor = 0
+                
+                has_navy_size = {
+                    size < 10
+                }
+            }
+        }
+	}
+    
+    #------------------------------------------
+    # Industry
+    #------------------------------------------
+    focus = { 
+		id = industrial_effort
+		icon = GFX_goal_industry_effort
+		x = 8
+		y = 0
+		cost = 10
+
+		available_if_capitulated = yes
+
+        mutually_exclusive = { focus = resource_effort }
+        
+		completion_reward = {
+            add_tech_bonus = {
+				name = industry_tech_bonus
+				bonus = 0.25
+				uses = 1
+				category = industry_tech
+			}
+		}
+        
+        ai_will_do = {
+            factor = 4
+        }
+	}
+    
+    focus = { 
+		id = industrial_effort_2
+		icon = GFX_goal_industry_effort
+        relative_position_id = industrial_effort
+		x = 0
+		y = 1
+		cost = 10
+
+        prerequisite = { focus = industrial_effort }
+        
+		available_if_capitulated = yes
+
+		completion_reward = {
+            add_tech_bonus = {
+				name = industry_tech_bonus
+				bonus = 0.25
+				uses = 1
+				category = industry_tech
+			}
+		}
+        
+        ai_will_do = {
+            factor = 4
+        }
+	}
+    
+    focus = { 
+		id = industrial_effort_3
+		icon = GFX_goal_industry_effort
+        relative_position_id = industrial_effort_2
+		x = 0
+		y = 1
+		cost = 10
+
+        prerequisite = { focus = industrial_effort_2 }
+        
+		available_if_capitulated = yes
+
+		completion_reward = {
+            add_tech_bonus = {
+				name = industry_tech_bonus
+				bonus = 0.25
+				uses = 1
+				category = industry_tech
+			}
+		}
+        
+        ai_will_do = {
+            factor = 2
+        }
+    }
+    
+    #------------------------------------------
+    # Resources
+    #------------------------------------------
+    focus = { 
+		id = resource_effort
+		icon = GFX_goal_resource_effort
+		x = 9
+		y = 0
+		cost = 10
+
+		available_if_capitulated = yes
+
+        mutually_exclusive = { focus = industrial_effort }
+        
+		completion_reward = {
+            add_tech_bonus = {
+				name = resource_tech_bonus
+				bonus = 0.25
+				uses = 1
+				category = resource_tech
+			}
+		}
+        
+        ai_will_do = {
+            factor = 4
+        }
+	}
+    
+    focus = { 
+		id = resource_effort_2
+		icon = GFX_goal_resource_effort
+        relative_position_id = resource_effort
+		x = 0
+		y = 1
+		cost = 10
+
+        prerequisite = { focus = resource_effort }
+        
+		available_if_capitulated = yes
+
+		completion_reward = {
+            add_tech_bonus = {
+				name = resource_tech_bonus
+				bonus = 0.25
+				uses = 1
+				category = resource_tech
+			}
+		}
+        
+        ai_will_do = {
+            factor = 4
+        }
+	}
+    
+    focus = { 
+		id = resource_effort_3
+		icon = GFX_goal_resource_effort
+        relative_position_id = resource_effort_2
+		x = 0
+		y = 1
+		cost = 10
+
+        prerequisite = { focus = resource_effort_2 }
+        
+		available_if_capitulated = yes
+
+		completion_reward = {
+            add_tech_bonus = {
+				name = resource_tech_bonus
+				bonus = 0.25
+				uses = 1
+				category = resource_tech
+			}
+		}
+        
+        ai_will_do = {
+            factor = 2
+        }
+    }
+    
+    #------------------------------------------
+    # Espionage
+    #------------------------------------------
+    focus = { 
+		id = wm_espionage_effort
+		icon = GFX_goal_espionage_effort
+		x = 8
+		y = 3
+		cost = 10
+
+		available_if_capitulated = yes
+
+        mutually_exclusive = { focus = wm_religious_effort }
+        
+		completion_reward = {
+            add_tech_bonus = {
+				name = espionage_tech_bonus
+				bonus = 0.25
+				uses = 1
+				category = espionage_tech
+			}
+		}
+        
+        ai_will_do = {
+            factor = 1
+        }
+	}
+    
+    focus = { 
+		id = wm_espionage_effort_2
+		icon = GFX_goal_espionage_effort
+        relative_position_id = wm_espionage_effort
+		x = 0
+		y = 1
+		cost = 10
+
+        prerequisite = { focus = wm_espionage_effort }
+        
+		available_if_capitulated = yes
+
+		completion_reward = {
+            add_tech_bonus = {
+				name = espionage_tech_bonus
+				bonus = 0.25
+				uses = 1
+				category = espionage_tech
+			}
+		}
+	}
+    
+    focus = { 
+		id = wm_espionage_effort_3
+		icon = GFX_goal_espionage_effort
+        relative_position_id = wm_espionage_effort_2
+		x = 0
+		y = 1
+		cost = 10
+
+        prerequisite = { focus = wm_espionage_effort_2 }
+        
+		available_if_capitulated = yes
+
+		completion_reward = {
+            add_tech_bonus = {
+				name = espionage_tech_bonus
+				bonus = 0.25
+				uses = 1
+				category = espionage_tech
+			}
+		}
+        
+        ai_will_do = {
+            factor = 1
+        }
+    }
+    
+    #------------------------------------------
+    # Religious
+    #------------------------------------------
+    focus = { 
+		id = wm_religious_effort
+		icon = GFX_goal_religious_effort
+		x = 9
+		y = 3
+		cost = 10
+
+		available_if_capitulated = yes
+
+        mutually_exclusive = { focus = wm_espionage_effort }
+        
+		completion_reward = {
+            add_tech_bonus = {
+				name = religion_tech_bonus
+				bonus = 0.25
+				uses = 1
+				category = religion_tech
+			} 
+		}
+        
+        ai_will_do = {
+            factor = 2
+        }
+	}
+    
+    focus = { 
+		id = religious_effort_2
+		icon = GFX_goal_religious_effort
+        relative_position_id = wm_religious_effort
+		x = 0
+		y = 1
+		cost = 10
+
+        prerequisite = { focus = wm_religious_effort }
+        
+		available_if_capitulated = yes
+
+		completion_reward = {
+            add_tech_bonus = {
+				name = religion_tech_bonus
+				bonus = 0.25
+				uses = 1
+				category = religion_tech
+			}
+		}
+        
+        ai_will_do = {
+            factor = 1
+        }
+	}
+    
+    focus = { 
+		id = religious_effort_3
+		icon = GFX_goal_religious_effort
+        relative_position_id = religious_effort_2
+		x = 0
+		y = 1
+		cost = 10
+
+        prerequisite = { focus = religious_effort_2 }
+        
+		available_if_capitulated = yes
+
+		completion_reward = {
+            add_tech_bonus = {
+				name = religion_tech_bonus
+				bonus = 0.25
+				uses = 1
+				category = religion_tech
+			}
+        }
+        
+        ai_will_do = {
+            factor = 1
+        }
+    }
+}
+

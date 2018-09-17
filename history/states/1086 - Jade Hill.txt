@@ -1,0 +1,15 @@
+state = {
+	id = 1086
+	name = "JADE_HILL"
+	manpower = 17
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = JAS
+	}
+
+	provinces = {
+        6494
+    }
+}

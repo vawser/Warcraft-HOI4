@@ -1,0 +1,58 @@
+state = {
+	id = 714
+	name = "THE_BOILING_CHASM"
+	manpower = 673
+	state_category = rural
+
+	resources = {
+		oil = 1
+		ground_beast = 5
+		flying_beast = 3
+		wood = 2
+		steel = 2
+		food = 4
+	}
+
+	history = {
+		owner = SAN
+		add_core_of = SAN
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 2
+			industrial_complex = 1
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			3374 = {
+				bunker = 0
+			}
+			3376 = {
+				bunker = 0
+			}
+			3460 = {
+				bunker = 0
+			}
+			3518 = {
+				bunker = 0
+			}
+			3545 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        3374 3376 3460 3518 3545
+    }
+}

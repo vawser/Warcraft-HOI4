@@ -1,0 +1,19 @@
+state = {
+	id = 1052
+	name = "DUN_GAROK"
+	manpower = 44
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+        owner = SMG
+
+        612.1.1 = {
+            owner = DGS
+        }
+	}
+
+	provinces = {
+        1810
+    }
+}

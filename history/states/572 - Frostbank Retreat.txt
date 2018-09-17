@@ -1,0 +1,70 @@
+state = {
+	id = 572
+	name = "FROSTBANK_RETREAT"
+	manpower = 590
+	state_category = rural
+
+	resources = {
+		oil = 1
+		flying_beast = 9
+		wood = 6
+		steel = 13
+		food = 14
+	}
+
+	history = {
+		owner = HYL
+		add_core_of = HYL
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 1
+			industrial_complex = 0
+			dockyard = 3
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			5145 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 9
+			}
+			5154 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 2
+			}
+			5162 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 1
+			}
+			5374 = {
+				bunker = 0
+			}
+			5419 = {
+				bunker = 0
+			}
+			5446 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        5145 5154 5162 5374 5419 5446
+    }
+}

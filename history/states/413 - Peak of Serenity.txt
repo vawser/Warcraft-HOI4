@@ -1,0 +1,53 @@
+state = {
+	id = 413
+	name = "PEAK_OF_SERENITY"
+	manpower = 1196
+	state_category = village
+
+	resources = {
+		wood = 8
+		steel = 11
+		food = 13
+	}
+
+	history = {
+		owner = SPN
+		add_core_of = SPN
+
+		buildings = {
+			infrastructure = 4
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 6
+			industrial_complex = 0
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			6753 = {
+				bunker = 0
+			}
+			6777 = {
+				bunker = 0
+			}
+			7343 = {
+				bunker = 0
+			}
+			7344 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        6753 6777 7343 7344
+        
+    }
+}

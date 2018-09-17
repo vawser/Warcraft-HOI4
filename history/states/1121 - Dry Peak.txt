@@ -1,0 +1,15 @@
+state = {
+	id = 1121
+	name = "DRY_PEAK"
+	manpower = 79
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = SKC
+	}
+
+	provinces = {
+        4696
+    }
+}

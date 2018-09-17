@@ -1,0 +1,15 @@
+state = {
+	id = 1062
+	name = "VILE_OVERLOOK"
+	manpower = 16
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = SWN
+	}
+
+	provinces = {
+        1861 1898
+    }
+}

@@ -1,0 +1,15 @@
+state = {
+	id = 1122
+	name = "MORSHAN_HEIGHTS"
+	manpower = 76
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = SKC
+	}
+
+	provinces = {
+        4826
+    }
+}

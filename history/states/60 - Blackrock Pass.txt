@@ -1,0 +1,61 @@
+state = {
+	id = 60
+	name = "BLACKROCK_PASS"
+	manpower = 569
+	state_category = rural
+
+	resources = {
+		oil = 4
+		ground_beast = 5
+		flying_beast = 8
+		wood = 2
+		steel = 1
+		food = 1
+	}
+
+	history = {
+		owner = DKI
+        add_core_of = DKI
+
+        # The Second War
+        597.1.1 = {
+            owner = TTH
+            add_core_of = TTH
+        }
+        
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 2
+			industrial_complex = 2
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			1969 = {
+				bunker = 0
+			}
+			2001 = {
+				bunker = 0
+			}
+			2043 = {
+				bunker = 0
+			}
+			2049 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        1969 2001 2043 2049 
+    }
+}

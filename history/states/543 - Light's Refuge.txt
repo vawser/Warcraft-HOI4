@@ -1,0 +1,66 @@
+state = {
+	id = 543
+	name = "LIGHTS_REFUGE"
+	manpower = 1137
+	state_category = village
+
+	resources = {
+		ground_beast = 5
+		flying_beast = 8
+		wood = 4
+		steel = 14
+		food = 18
+	}
+
+	history = {
+		owner = WYT
+		add_core_of = WYT
+
+        # The Third War
+        612.1.1 = {
+            owner = SCO
+            add_core_of = SCO
+        }
+        
+		buildings = {
+			infrastructure = 4
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 5
+			industrial_complex = 4
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			5359 = {
+				bunker = 0
+			}
+			5370 = {
+				bunker = 0
+			}
+			5383 = {
+				bunker = 0
+			}
+			5395 = {
+				bunker = 0
+			}
+			6211 = {
+				bunker = 0
+			}
+			6221 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        5359 5370 5383 5395 6211 6221 
+    }
+}

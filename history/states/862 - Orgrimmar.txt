@@ -1,0 +1,72 @@
+state = {
+	id = 862
+	name = "THE_GLISTENING_FALLS"
+	manpower = 1570
+	state_category = village
+
+	resources = {
+		oil = 3
+		ground_beast = 8
+		flying_beast = 1
+		wood = 8
+		steel = 5
+		food = 15
+	}
+
+	history = {
+		owner = RAZ
+		add_core_of = RAZ
+
+        # The Third War
+        612.1.1 = {
+            owner = ORG
+            add_core_of = ORG
+            set_state_name = ORGRIMMAR
+            set_state_category = city
+        }
+        
+		buildings = {
+			infrastructure = 3
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 5
+			industrial_complex = 1
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			4139 = {
+				bunker = 0
+			}
+			4170 = {
+				bunker = 0
+			}
+			4190 = {
+				bunker = 0
+			}
+			4214 = {
+				bunker = 0
+			}
+			4983 = {
+				bunker = 0
+			}
+			5058 = {
+				bunker = 0
+			}
+			5120 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        4139 4170 4190 4214 4983 5058 5120 
+    }
+}

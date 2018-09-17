@@ -1,0 +1,15 @@
+state = {
+	id = 940
+	name = "MALORNE_RIDGE"
+	manpower = 76
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = SEN
+	}
+
+	provinces = {
+        4342 4359 4381 4401 
+    }
+}

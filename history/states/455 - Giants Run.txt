@@ -1,0 +1,63 @@
+state = {
+	id = 455
+	name = "GIANTS_RUN"
+	manpower = 736
+	state_category = rural
+
+	resources = {
+		ground_beast = 2
+		flying_beast = 1
+		wood = 25
+		steel = 3
+		food = 12
+	}
+
+	history = {
+		owner = DGF
+		add_core_of = DGF
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 3
+			industrial_complex = 1
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			5618 = {
+				bunker = 0
+			}
+			5632 = {
+				bunker = 0
+			}
+			5669 = {
+				bunker = 0
+			}
+			5678 = {
+				bunker = 0
+			}
+			5683 = {
+				bunker = 0
+			}
+			6124 = {
+				bunker = 0
+			}
+			6274 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        5618 5632 5669 5678 5683 6124 6274 
+    }
+}

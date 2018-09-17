@@ -1,0 +1,15 @@
+state = {
+	id = 130
+	name = "VERMILLION_HEIGHTS"
+	manpower = 37
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = GMB
+	}
+
+	provinces = {
+        1811 1821 1834 1838 2561 2612 
+    }
+}

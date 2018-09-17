@@ -1,0 +1,69 @@
+state = {
+	id = 336
+	name = "GOLDEN_ASCENT"
+	manpower = 687
+	state_category = rural
+
+	resources = {
+		ground_beast = 8
+		flying_beast = 8
+		wood = 1
+		steel = 5
+		food = 15
+	}
+
+	history = {
+		owner = GLI
+		add_core_of = GLI
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 0
+			industrial_complex = 1
+			dockyard = 1
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			6442 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 9
+			}
+			6505 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 7
+			}
+			6532 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 2
+			}
+			6535 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 9
+			}
+			6741 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        6442 6505 6532 6535 6741 
+    }
+}

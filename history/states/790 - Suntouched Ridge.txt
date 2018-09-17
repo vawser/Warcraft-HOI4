@@ -1,0 +1,15 @@
+state = {
+	id = 790
+	name = "SUNTOUCHED_RIDGE"
+	manpower = 20
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = BFY
+	}
+
+	provinces = {
+        3207 3239 3249 3260 
+    }
+}

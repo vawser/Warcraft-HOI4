@@ -1,0 +1,45 @@
+state = {
+	id = 666
+	name = "ZULFARRAK"
+	manpower = 10661
+	state_category = city
+
+	resources = {
+		oil = 3
+		flying_beast = 8
+		wood = 4
+		steel = 9
+		food = 3
+	}
+
+	history = {
+		owner = SAN
+		add_core_of = SAN
+
+		buildings = {
+			infrastructure = 8
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 10
+			industrial_complex = 7
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			3388 = {
+				bunker = 3
+			}
+		}
+	}
+
+	provinces = {
+        3388 
+    }
+}

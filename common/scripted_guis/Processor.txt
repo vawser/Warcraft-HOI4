@@ -1,0 +1,174 @@
+scripted_gui = {  
+    # Hourly
+	processor_gui_1 = {
+		context_type = player_context
+		window_name = "processor_container"
+        
+        visible = {
+            is_ai = yes
+		}
+        
+		effects = {
+            processor_button_click = {
+                update_hourly_variables = yes
+            }
+		}
+        
+        ai_enabled = {
+            always = yes
+        }
+        ai_check = {
+            has_country_flag = processor
+        }
+        
+        ai_test_interval = 1
+        ai_test_variance = 0
+
+        ai_weights = {
+            processor_button_click = {
+                ai_will_do = {
+					factor = 1000
+				}
+            }
+        }
+	}
+    
+    # Daily
+    processor_gui_2 = {
+		context_type = player_context
+		window_name = "processor_container"
+        
+        visible = {
+            is_ai = yes
+		}
+        
+		effects = {
+            processor_button_click = {
+                update_daily_variables = yes
+            }
+		}
+        
+        ai_enabled = {
+            always = yes
+        }
+        ai_check = {
+            has_country_flag = processor
+        }
+        
+        ai_test_interval = 24
+        ai_test_variance = 0
+
+        ai_weights = {
+            processor_button_click = {
+                ai_will_do = {
+					factor = 1000
+				}
+            }
+        }
+	}
+    
+    # Weekly
+    processor_gui_3 = {
+		context_type = player_context
+		window_name = "processor_container"
+        
+        visible = {
+            is_ai = yes
+		}
+        
+		effects = {
+            processor_button_click = {
+                update_weekly_variables = yes
+            }
+		}
+        
+        ai_enabled = {
+            always = yes
+        }
+        ai_check = {
+            has_country_flag = processor
+        }
+        
+        ai_test_interval = 168
+        ai_test_variance = 0
+
+        ai_weights = {
+            processor_button_click = {
+                ai_will_do = {
+					factor = 1000
+				}
+            }
+        }
+	}
+    
+    # Monthly
+    processor_gui_4 = {
+		context_type = player_context
+		window_name = "processor_container"
+        
+        visible = {
+            is_ai = yes
+		}
+        
+		effects = {
+            processor_button_click = {
+                update_monthly_variables = yes
+            }
+		}
+        
+        ai_enabled = {
+            always = yes
+        }
+        ai_check = {
+            has_country_flag = processor
+        }
+        
+        ai_test_interval = 720
+        ai_test_variance = 0
+
+        ai_weights = {
+            processor_button_click = {
+                ai_will_do = {
+					factor = 1000
+				}
+            }
+        }
+	}
+    
+    # Yearly
+    processor_gui_5 = {
+		context_type = player_context
+		window_name = "processor_container"
+        
+        visible = {
+            is_ai = yes
+		}
+        
+		effects = {
+            processor_button_click = {
+                update_yearly_variables = yes
+            }
+		}
+        
+        ai_enabled = {
+            always = yes
+        }
+        ai_check = {
+            has_country_flag = processor
+        }
+        
+        ai_test_interval = 8640
+        ai_test_variance = 0
+
+        ai_weights = {
+            processor_button_click = {
+                ai_will_do = {
+					factor = 1000
+				}
+            }
+        }
+	}
+}
+  
+
+

@@ -1,0 +1,69 @@
+state = {
+	id = 563
+	name = "BRUNNIHILDAR"
+	manpower = 1252
+	state_category = village
+
+	resources = {
+		oil = 2
+		ground_beast = 9
+		flying_beast = 3
+		steel = 7
+		food = 19
+	}
+
+	history = {
+		owner = HYL
+		add_core_of = HYL
+
+		buildings = {
+			infrastructure = 3
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 4
+			industrial_complex = 3
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			5396 = {
+				bunker = 0
+			}
+			5492 = {
+				bunker = 0
+			}
+			5512 = {
+				bunker = 0
+			}
+			5534 = {
+				bunker = 0
+			}
+			5558 = {
+				bunker = 0
+			}
+			5576 = {
+				bunker = 0
+			}
+			7348 = {
+				bunker = 0
+			}
+			7349 = {
+				bunker = 0
+			}
+			7350 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        5396 5492 5512 5534 5558 5576 7348 7349 7350
+    }
+}

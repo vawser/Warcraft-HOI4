@@ -1,0 +1,32 @@
+defined_text = { 
+	name = GetDragonAspectColor
+    
+    text = {
+		trigger = {
+			has_red_dragonflight = yes
+		}
+		localization_key = COLOR_RED
+	}
+    text = {
+		trigger = {
+			has_blue_dragonflight = yes
+		}
+		localization_key = COLOR_BLUE
+	}
+    text = {
+		trigger = {
+			has_green_dragonflight = yes
+		}
+		localization_key = COLOR_GREEN
+	}
+    text = {
+		trigger = {
+            has_black_dragonflight = yes
+		}
+		localization_key = COLOR_BLACK
+	}
+    
+    text = {
+		localization_key = ""
+	}
+}

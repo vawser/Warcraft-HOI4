@@ -1,0 +1,52 @@
+state = {
+	id = 101
+	name = "FROSTMANE_CAVES"
+	manpower = 3272
+	state_category = village
+
+	resources = {
+		oil = 4
+		ground_beast = 8
+		flying_beast = 2
+		wood = 4
+		steel = 7
+		food = 18
+	}
+
+	history = {
+		owner = FSM
+        add_core_of = FSM
+
+		buildings = {
+			infrastructure = 2
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 2
+			industrial_complex = 4
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			2562 = {
+				bunker = 0
+			}
+			2601 = {
+				bunker = 0
+			}
+			2635 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        2562 2601 2635
+    }
+}

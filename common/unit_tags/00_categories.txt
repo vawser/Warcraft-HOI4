@@ -1,0 +1,13 @@
+sub_unit_categories = {
+    # Land
+	category_infantry           # Infantry  (INF)
+    category_artillery          # Artillery (INF)
+    category_cavalry            # Cavalry   (INF)
+	category_support            # Support   (INF)
+    category_tanks              # Tanks     (ARM)
+    category_army               # INF + ARM
+    category_front_line         # INF - Artillery and Support
+    category_air
+    category_navy
+}
+

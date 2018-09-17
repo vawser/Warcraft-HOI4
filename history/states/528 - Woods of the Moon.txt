@@ -1,0 +1,75 @@
+state = {
+	id = 528
+	name = "WOODS_OF_THE_MOON"
+	manpower = 727
+	state_category = rural
+
+	resources = {
+		oil = 2
+		ground_beast = 5
+		flying_beast = 5
+		wood = 11
+		steel = 9
+		food = 10
+	}
+
+	history = {
+		owner = SNF
+		add_core_of = SNF
+
+        # The Third War
+        612.1.1 = {
+            owner = SCO
+            add_core_of = SCO
+        }
+        
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 1
+			industrial_complex = 1
+			dockyard = 1
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			5254 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 4
+			}
+			5266 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 8
+			}
+			5621 = {
+				bunker = 0
+			}
+			5650 = {
+				bunker = 0
+			}
+			5689 = {
+				bunker = 0
+			}
+			5694 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        5254 5266 5621 5650 5689 5694 
+    }
+}

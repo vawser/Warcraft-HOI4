@@ -1,0 +1,170 @@
+ideas = {
+    country = {
+        primitive_nation = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = primitive_nation
+            
+            modifier = {
+                forced_surrender_limit = -0.25
+            }
+		}
+        
+        gnomish_engineering = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = gnomish_engineering
+            
+            modifier = {
+                research_time_factor = -0.05
+            }
+		}
+        
+        goblin_engineering = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = goblin_engineering
+            
+            modifier = {
+                research_time_factor = -0.05
+            }
+		}
+        
+        crumbling_equipment = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = crumbling_equipment
+            
+            equipment_bonus = {
+                grunt_equipment = {
+                    reliability = -0.5
+                    instant = yes
+                }
+                champion_equipment = {
+                    reliability = -0.5
+                    instant = yes
+                }
+                spellcaster_equipment = {
+                    reliability = -0.5
+                    instant = yes
+                }
+                archer_equipment = {
+                    reliability = -0.5
+                    instant = yes
+                }
+                light_cavalry_equipment = {
+                    reliability = -0.5
+                    instant = yes
+                }
+                heavy_cavalry_equipment = {
+                    reliability = -0.5
+                    instant = yes
+                }
+            }
+		}
+        
+        ineffectual_construction = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = ineffectual_construction
+            
+            modifier = {
+                production_speed_buildings_factor = -0.5
+            }
+		}
+        
+        the_sunwell = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = the_sunwell
+            
+            modifier = {
+                political_power_gain = 1
+            }
+		}
+        
+        end_of_the_gnoll_wars = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = end_of_the_gnoll_wars
+            
+            modifier = {
+                production_speed_buildings_factor = 0.25
+            }
+		}
+        
+        orcish_conquerors = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = orcish_conquerors
+            
+            modifier = {
+                war_support_weekly = 0.005
+            }
+		}
+    }
+}

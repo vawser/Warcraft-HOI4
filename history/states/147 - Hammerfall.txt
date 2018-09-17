@@ -1,0 +1,65 @@
+state = {
+	id = 147
+	name = "HAMMERFALL"
+	manpower = 10538
+	state_category = town
+
+	resources = {
+		oil = 2
+		ground_beast = 10
+		flying_beast = 16
+		wood = 3
+		steel = 16
+		food = 19
+	}
+
+	history = {
+		owner = SMG
+        add_core_of = SMG
+
+        victory_points = {
+            2930 10
+        }
+        
+		buildings = {
+			infrastructure = 5
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 6
+			industrial_complex = 4
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			2388 = {
+				bunker = 5
+			}
+			2879 = {
+				bunker = 1
+			}
+			2907 = {
+				bunker = 1
+			}
+			2930 = {
+				bunker = 1
+			}
+			2981 = {
+				bunker = 7
+			}
+			3008 = {
+				bunker = 5
+			}
+		}
+	}
+
+	provinces = {
+        2388 2879 2907 2930 2981 3008 
+    }
+}

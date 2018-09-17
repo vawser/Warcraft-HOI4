@@ -1,0 +1,114 @@
+state = {
+	id = 589
+	name = "AZJ_NAM"
+	manpower = 5983
+	state_category = town
+
+	resources = {
+		oil = 3
+		ground_beast = 6
+		steel = 1
+		food = 21
+	}
+
+	history = {
+		owner = AZJ
+		add_core_of = AZJ
+
+        # The Third War
+        612.1.1 = {
+            owner = SCO
+            add_core_of = SCO
+            set_state_name = EAST_CORPRETHAR
+            buildings = {
+			infrastructure = 6
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 5
+			industrial_complex = 7
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			5392 = {
+				bunker = 4
+			}
+			5413 = {
+				bunker = 5
+			}
+			5439 = {
+				bunker = 1
+			}
+			5988 = {
+				bunker = 9
+			}
+			6079 = {
+				bunker = 6
+			}
+			6095 = {
+				bunker = 6
+			}
+			6126 = {
+				bunker = 5
+			}
+			6145 = {
+				bunker = 9
+			}
+		}
+        }
+        
+		buildings = {
+			infrastructure = 6
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 5
+			industrial_complex = 7
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			5392 = {
+				bunker = 4
+			}
+			5413 = {
+				bunker = 5
+			}
+			5439 = {
+				bunker = 1
+			}
+			5988 = {
+				bunker = 9
+			}
+			6079 = {
+				bunker = 6
+			}
+			6095 = {
+				bunker = 6
+			}
+			6126 = {
+				bunker = 5
+			}
+			6145 = {
+				bunker = 9
+			}
+		}
+	}
+
+	provinces = {
+        5392 5413 5439 5988 6079 6095 6126 6145 
+    }
+}

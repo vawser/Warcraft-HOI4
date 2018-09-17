@@ -1,0 +1,111 @@
+government_actions = {
+	icon = yellow_quest_mark
+
+	visible = {
+        always = yes
+	}
+}
+
+seasonal_actions = {
+	icon = human_fist
+
+	visible = {
+		always = yes
+	}
+}
+
+discovery_actions = {
+	icon = shovel
+
+	visible = {
+        always = yes
+	}
+}
+
+friendship_actions = {
+	icon = human_fist
+
+	visible = {
+		always = yes
+	}
+}
+
+espionage_actions = {
+	icon = human_fist
+
+	visible = {
+		always = yes
+	}
+}
+
+combat_actions = {
+	icon = swords
+
+	visible = {
+		always = yes
+	}
+}
+
+war_actions = {
+	icon = swords
+
+	visible = {
+		has_war = yes
+	}
+}
+
+alliance_actions = {
+	icon = alliance
+
+	visible = {
+		always = yes
+	}
+}
+
+horde_actions = {
+	icon = horde
+
+	visible = {
+		always = yes
+	}
+}
+
+character_actions = {
+	icon = blue_quest_mark
+
+	visible = {
+		always = yes
+	}
+}
+
+the_orcish_horde_actions = {
+    icon = swords
+
+	visible = {
+		tag = TTH
+	}
+}
+
+the_first_war_actions = {
+    icon = swords
+
+	visible = {
+		always = yes
+	}
+}
+
+engineering_actions = {
+    icon = swords
+
+	visible = {
+		always = yes
+	}
+}
+
+religion_conversion_actions = {
+	icon = blue_quest_mark
+
+	visible = {
+		always = yes
+	}
+}

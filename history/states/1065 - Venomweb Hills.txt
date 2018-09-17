@@ -1,0 +1,15 @@
+state = {
+	id = 1065
+	name = "KIRTHAVEN_OVERLOOK"
+	manpower = 37
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = WIL
+	}
+
+	provinces = {
+        1822 1812 1803 1847
+    }
+}

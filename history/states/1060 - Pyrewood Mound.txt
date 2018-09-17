@@ -1,0 +1,15 @@
+state = {
+	id = 1060
+	name = "PYREWOOD_MOUND"
+	manpower = 49
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = GIL
+	}
+
+	provinces = {
+        2704
+    }
+}

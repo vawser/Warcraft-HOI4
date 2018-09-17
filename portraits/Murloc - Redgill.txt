@@ -1,0 +1,51 @@
+REG = {
+	army = {
+		male = {
+			"gfx/leaders/MURLOC/murloc_orange.dds"
+		}
+	}
+
+	navy = {
+		male = {
+			"gfx/leaders/MURLOC/murloc_orange.dds"
+		}
+	}
+
+	political = {
+		light = {
+			male = {
+                "gfx/leaders/MURLOC/murloc_orange.dds"
+            }
+		}
+		shadow = {
+			male = {
+                "gfx/leaders/MURLOC/murloc_orange.dds"
+            }
+		}
+        order = {
+			male = {
+                "gfx/leaders/MURLOC/murloc_orange.dds"
+            }
+		}
+        disorder = {
+			male = {
+                "gfx/leaders/MURLOC/murloc_orange.dds"
+            }
+		}
+        life = {
+			male = {
+                "gfx/leaders/MURLOC/murloc_orange.dds"
+            }
+		}
+        death = {
+			male = {
+                "gfx/leaders/MURLOC/murloc_orange.dds"
+            }
+		}
+        unaligned = {
+			male = {
+                "gfx/leaders/MURLOC/murloc_orange.dds"
+            }
+		}
+	}
+}

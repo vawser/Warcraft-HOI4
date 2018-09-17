@@ -1,0 +1,15 @@
+state = {
+	id = 558
+	name = "FROSTFELL"
+	manpower = 62
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = DAK
+	}
+
+	provinces = {
+        5889 5894 5896 5901 5911 5920 5927 
+    }
+}

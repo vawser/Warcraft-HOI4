@@ -1,0 +1,59 @@
+state = {
+	id = 427
+	name = "TEMPLE_OF_THE_WHITE_TIGER"
+	manpower = 7534
+	state_category = town
+
+	resources = {
+		ground_beast = 8
+		flying_beast = 9
+		wood = 9
+		steel = 12
+		food = 18
+	}
+
+	history = {
+		owner = TIG
+		add_core_of = TIG
+
+		buildings = {
+			infrastructure = 7
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 4
+			industrial_complex = 4
+			dockyard = 4
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			6285 = {
+				bunker = 4
+				coastal_bunker = 4
+				naval_base = 4
+			}
+			6289 = {
+				bunker = 7
+				coastal_bunker = 7
+				naval_base = 3
+			}
+			6586 = {
+				bunker = 8
+			}
+		}
+	}
+
+	provinces = {
+        6285 6289 6586 
+    }
+}

@@ -1,0 +1,20 @@
+state = {
+	id = 78
+	name = "NETHERGARDE_HILLS_MT"
+	manpower = 38
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = TTH
+
+        # The Third War
+        612.1.1 = {
+            owner = ROC
+        }
+	}
+
+	provinces = {
+        1892 2771 
+    }
+}

@@ -1,0 +1,15 @@
+state = {
+	id = 235
+	name = "ZUL_AMAN_CLIFFS"
+	manpower = 50
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = AMA
+	}
+
+	provinces = {
+        1807 1817 1843 1844 1853
+    }
+}

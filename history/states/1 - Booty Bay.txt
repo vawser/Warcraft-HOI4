@@ -1,0 +1,79 @@
+state = {
+	id = 1
+	name = "BOOTY_BAY"
+	manpower = 11021
+	state_category = city
+	
+	resources = {
+		oil = 2
+		ground_beast = 2
+		flying_beast = 1
+		wood = 11
+		steel = 9
+	}
+    
+	history = {
+        victory_points = {
+            1753 10
+        }
+		owner = BWA
+		add_core_of = BWA
+		
+		buildings = {
+			infrastructure = 8
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 3
+			industrial_complex = 3
+			dockyard = 8
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			1746 = {
+				bunker = 9
+				coastal_bunker = 7
+				naval_base = 2
+			}
+			1747 = {
+				bunker = 9
+				coastal_bunker = 5
+				naval_base = 5
+			}
+			1748 = {
+				bunker = 5
+				coastal_bunker = 9
+				naval_base = 7
+			}
+			1750 = {
+				bunker = 8
+				coastal_bunker = 4
+				naval_base = 2
+			}
+			1753 = {
+				bunker = 9
+				coastal_bunker = 5
+				naval_base = 6
+			}
+			1756 = {
+				bunker = 7
+				coastal_bunker = 7
+				naval_base = 6
+			}
+		}
+	}
+	
+	provinces = {
+		1746 1747 1748 1750 1753 1756 
+	}
+}

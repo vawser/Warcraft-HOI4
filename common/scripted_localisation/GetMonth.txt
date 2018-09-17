@@ -1,0 +1,81 @@
+defined_text = { 
+	name = GetMonth
+    
+    text = {
+		trigger = {
+			is_january = yes
+		}
+		localization_key = JANUARY
+	}
+    text = {
+		trigger = {
+			is_february = yes
+		}
+		localization_key = FEBRUARY
+	}
+    text = {
+		trigger = {
+			is_march = yes
+		}
+		localization_key = MARCH
+	}
+    text = {
+		trigger = {
+			is_april = yes
+		}
+		localization_key = APRIL
+	}
+    text = {
+		trigger = {
+			is_may = yes
+		}
+		localization_key = MAY
+	}
+    text = {
+		trigger = {
+			is_june = yes
+		}
+		localization_key = JUNE
+	}
+    text = {
+		trigger = {
+			is_july = yes
+		}
+		localization_key = JULY
+	}
+    text = {
+		trigger = {
+			is_august = yes
+		}
+		localization_key = AUGUST
+	}
+    text = {
+		trigger = {
+			is_september = yes
+		}
+		localization_key = SEPTEMBER
+	}
+    text = {
+		trigger = {
+			is_october = yes
+		}
+		localization_key = OCTOBER
+	}
+    text = {
+		trigger = {
+			is_november = yes
+		}
+		localization_key = NOVEMBER
+	}
+    text = {
+		trigger = {
+			is_december = yes
+		}
+		localization_key = DECEMBER
+	}
+    
+    text = {
+		localization_key = UNKNOWN
+	}
+}
+

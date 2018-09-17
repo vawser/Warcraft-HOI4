@@ -1,0 +1,23 @@
+defined_text = { 
+	name = GetAB6Tooltip
+    
+    text = {
+		trigger = {
+			OR = {
+                check_variable = { faith_power > faith_action_6_cost }
+                check_variable = { faith_power = faith_action_6_cost }
+            }
+		}
+		localization_key = AB6_ENABLED
+	}
+    text = {
+		trigger = {
+			check_variable = { faith_power < faith_action_6_cost }
+		}
+		localization_key = AB6_DISABLED
+	}
+    text = {
+		localization_key = ""
+	}
+}
+

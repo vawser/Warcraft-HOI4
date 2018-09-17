@@ -1,0 +1,64 @@
+state = {
+	id = 645
+	name = "HALLS_OF_ORIGINATION"
+	manpower = 8113
+	state_category = town
+
+	resources = {
+		oil = 12
+		ground_beast = 1
+		flying_beast = 3
+		wood = 4
+		steel = 4
+		food = 3
+	}
+
+	history = {
+		owner = RAM
+		add_core_of = RAM
+
+		buildings = {
+			infrastructure = 7
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 10
+			industrial_complex = 4
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			3453 = {
+				bunker = 7
+			}
+			3510 = {
+				bunker = 7
+			}
+			3538 = {
+				bunker = 9
+			}
+			3565 = {
+				bunker = 8
+			}
+			3592 = {
+				bunker = 7
+			}
+			3619 = {
+				bunker = 4
+			}
+			3644 = {
+				bunker = 6
+			}
+		}
+	}
+
+	provinces = {
+        3453 3510 3538 3565 3592 3619 3644 
+    }
+}

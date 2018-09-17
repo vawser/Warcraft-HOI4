@@ -1,0 +1,15 @@
+state = {
+	id = 155
+	name = "PEAKS_OF_LIGHT"
+	manpower = 41
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = SER
+	}
+
+	provinces = {
+        1888 1899 2661 2677 2693 2707 2737 
+    }
+}

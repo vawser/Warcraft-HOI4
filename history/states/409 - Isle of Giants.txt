@@ -1,0 +1,72 @@
+state = {
+	id = 409
+	name = "ISLE_OF_GIANTS"
+	manpower = 574
+	state_category = rural
+
+	resources = {
+		oil = 3
+		ground_beast = 3
+		flying_beast = 9
+		steel = 11
+		food = 19
+	}
+
+	history = {
+		owner = ZDL
+		add_core_of = ZDL
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 0
+			industrial_complex = 0
+			dockyard = 1
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			6312 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 1
+			}
+			6326 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 2
+			}
+			6340 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 2
+			}
+			6382 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 4
+			}
+			6626 = {
+				bunker = 0
+			}
+			6627 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        6312 6326 6340 6382 6626 6627  
+    }
+}

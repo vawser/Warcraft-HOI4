@@ -1,0 +1,52 @@
+state = {
+	id = 327
+	name = "TIAN_MONASTERY"
+	manpower = 529
+	state_category = rural
+
+	resources = {
+		oil = 4
+		wood = 22
+		food = 11
+	}
+
+	history = {
+		owner = JAS
+		add_core_of = JAS
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 4
+			industrial_complex = 0
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			6637 = {
+				bunker = 0
+			}
+			6645 = {
+				bunker = 0
+			}
+			6677 = {
+				bunker = 0
+			}
+			6719 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        6637 6645 6677 6719  
+    }
+}

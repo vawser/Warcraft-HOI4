@@ -1,0 +1,65 @@
+state = {
+	id = 152
+	name = "AERIE_PEAK"
+	manpower = 6414
+	state_category = town
+
+	resources = {
+		oil = 4
+		ground_beast = 7
+		flying_beast = 9
+		wood = 4
+		steel = 6
+		food = 15
+	}
+
+	history = {
+		owner = AER
+        add_core_of = AER
+
+        victory_points = {
+            2821 10
+        }
+        
+		buildings = {
+			infrastructure = 7
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 10
+			industrial_complex = 3
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			2796 = {
+				bunker = 1
+			}
+			2821 = {
+				bunker = 6
+			}
+			2848 = {
+				bunker = 7
+			}
+			2875 = {
+				bunker = 3
+			}
+			3028 = {
+				bunker = 8
+			}
+			3053 = {
+				bunker = 6
+			}
+		}
+	}
+
+	provinces = {
+        2796 2821 2848 2875 3028 3053
+    }
+}

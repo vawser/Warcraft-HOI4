@@ -1,0 +1,81 @@
+state = {
+	id = 181
+	name = "THE_HEADLANDS"
+	manpower = 14900
+	state_category = city
+
+	resources = {
+		oil = 3
+		ground_beast = 5
+		flying_beast = 6
+		wood = 26
+		steel = 9
+		food = 13
+	}
+
+	history = {
+		owner = GIL
+        add_core_of = GIL
+
+        victory_points = {
+            1919 10
+        }
+        
+		buildings = {
+			infrastructure = 9
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 6
+			industrial_complex = 5
+			dockyard = 4
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			1723 = {
+				bunker = 8
+				coastal_bunker = 3
+				naval_base = 7
+			}
+			1734 = {
+				bunker = 9
+				coastal_bunker = 4
+				naval_base = 5
+			}
+			1735 = {
+				bunker = 6
+				coastal_bunker = 4
+				naval_base = 1
+			}
+			1737 = {
+				bunker = 5
+				coastal_bunker = 6
+				naval_base = 9
+			}
+			1738 = {
+				bunker = 5
+				coastal_bunker = 7
+				naval_base = 6
+			}
+			1919 = {
+				bunker = 7
+				coastal_bunker = 7
+				naval_base = 9
+			}
+		}
+	}
+
+	provinces = {
+        1723 1734 1735 1737 1738 1919  
+    }
+}

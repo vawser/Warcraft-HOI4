@@ -1,0 +1,32 @@
+defined_text = { 
+	name = GetSeason
+    
+    text = {
+		trigger = {
+			is_spring = yes
+		}
+		localization_key = SPRING
+	}
+    text = {
+		trigger = {
+			is_summer = yes
+		}
+		localization_key = SUMMER
+	}
+    text = {
+		trigger = {
+			is_autumn = yes
+		}
+		localization_key = AUTUMN
+	}
+    text = {
+		trigger = {
+			is_winter = yes
+		}
+		localization_key = WINTER
+	}    
+    text = {
+		localization_key = UNKNOWN
+	}
+}
+

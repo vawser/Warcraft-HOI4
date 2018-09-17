@@ -1,0 +1,15 @@
+state = {
+	id = 933
+	name = "EVERLOOK_PEAK"
+	manpower = 26
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = WTA
+	}
+
+	provinces = {
+        3235 3283 4734 4766 
+    }
+}

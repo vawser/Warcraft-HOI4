@@ -1,0 +1,15 @@
+state = {
+	id = 1104
+	name = "CORRUPTED_RISE"
+	manpower = 71
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = TMN
+	}
+
+	provinces = {
+        5224
+    }
+}

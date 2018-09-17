@@ -1,0 +1,15 @@
+state = {
+	id = 673
+	name = "CRYSTAL_RISE"
+	manpower = 22
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = AQJ
+	}
+
+	provinces = {
+        3211 3212 3217 3286 4439 4443 4445 4455 4812 
+    }
+}

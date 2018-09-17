@@ -1,0 +1,66 @@
+state = {
+	id = 640
+	name = "LOST_CITY_OF_TOLVIR"
+	manpower = 14371
+	state_category = city
+
+	resources = {
+		oil = 9
+		ground_beast = 2
+		wood = 3
+		steel = 1
+		food = 1
+	}
+
+	history = {
+		owner = NEF
+		add_core_of = NEF
+
+		buildings = {
+			infrastructure = 8
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 3
+			industrial_complex = 5
+			dockyard = 7
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			3106 = {
+				bunker = 5
+				coastal_bunker = 5
+				naval_base = 9
+			}
+			3111 = {
+				bunker = 2
+				coastal_bunker = 6
+				naval_base = 3
+			}
+			3116 = {
+				bunker = 9
+				coastal_bunker = 3
+				naval_base = 7
+			}
+			3122 = {
+				bunker = 5
+				coastal_bunker = 5
+				naval_base = 7
+			}
+		}
+	}
+
+	provinces = {
+        3106 3111 3116 3122 
+    }
+}

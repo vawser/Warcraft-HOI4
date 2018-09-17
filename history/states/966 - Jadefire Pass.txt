@@ -1,0 +1,52 @@
+state = {
+	id = 966
+	name = "JADEFIRE_PASS"
+	manpower = 481
+	state_category = rural
+
+	resources = {
+		oil = 1
+		ground_beast = 4
+		flying_beast = 3
+		wood = 26
+		steel = 8
+		food = 13
+	}
+
+	history = {
+		owner = JAD
+		add_core_of = JAD
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 4
+			industrial_complex = 0
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			4039 = {
+				bunker = 0
+			}
+			4070 = {
+				bunker = 0
+			}
+			4099 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        4039 4070 4099 
+    }
+}

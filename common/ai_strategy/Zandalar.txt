@@ -1,0 +1,47 @@
+ZDL_strategy_default = {
+    enable = {
+        original_tag = ZDL
+    }
+
+    # Shan'ze
+    ai_strategy = {
+		type = befriend
+		id = "SAZ"
+        value = 100
+	}
+    
+    # Stormwind
+    ai_strategy = {
+		type = contain
+		id = "SRW"
+        value = 250
+	}
+    ai_strategy = {
+		type = conquer
+		id = "SRW"
+        value = 250
+	}
+    ai_strategy = {
+		type = antagonize
+		id = "SRW"
+        value = 250
+	}
+    
+    # Xu'en
+    ai_strategy = {
+		type = contain
+		id = "TIG"
+        value = 250
+	}
+    ai_strategy = {
+		type = conquer
+		id = "TIG"
+        value = 250
+	}
+    ai_strategy = {
+		type = antagonize
+		id = "TIG"
+        value = 250
+	}
+    
+}

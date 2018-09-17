@@ -1,0 +1,15 @@
+state = {
+	id = 754
+	name = "DREAMERS_RISE"
+	manpower = 76
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = RET
+	}
+
+	provinces = {
+        3224 3225 3226 3244 3255 4505 4837 4853 
+    }
+}

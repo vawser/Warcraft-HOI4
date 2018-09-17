@@ -1,0 +1,56 @@
+DKI_strategy_default = {
+    enable = {
+        original_tag = DKI
+    }
+    
+    # Stormwind
+    ai_strategy = {
+		type = contain
+		id = "SRW"
+        value = 250
+	}
+    ai_strategy = {
+		type = conquer
+		id = "SRW"
+        value = 250
+	}
+    ai_strategy = {
+		type = antagonize
+		id = "SRW"
+        value = 250
+	}
+    
+    # Westfall
+    ai_strategy = {
+		type = contain
+		id = "WES"
+        value = 250
+	}
+    ai_strategy = {
+		type = conquer
+		id = "WES"
+        value = 250
+	}
+    ai_strategy = {
+		type = antagonize
+		id = "WES"
+        value = 250
+	}
+    
+    # Darkshire
+    ai_strategy = {
+		type = contain
+		id = "DAR"
+        value = 250
+	}
+    ai_strategy = {
+		type = conquer
+		id = "DAR"
+        value = 250
+	}
+    ai_strategy = {
+		type = antagonize
+		id = "DAR"
+        value = 250
+	}
+}

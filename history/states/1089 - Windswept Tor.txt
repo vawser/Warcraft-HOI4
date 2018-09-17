@@ -1,0 +1,15 @@
+state = {
+	id = 1089
+	name = "WINDSWEPT_TOR"
+	manpower = 46
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = JAS
+	}
+
+	provinces = {
+        6790
+    }
+}

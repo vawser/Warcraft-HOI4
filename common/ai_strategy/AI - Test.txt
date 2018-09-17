@@ -1,0 +1,11 @@
+research_test = {
+    enable = {
+        always = no
+    }
+
+    # ai_strategy = {
+		# type = research_tech
+		# id = political_power_1
+		# value = 10000
+	# }
+}

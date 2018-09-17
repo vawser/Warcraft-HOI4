@@ -1,0 +1,68 @@
+state = {
+	id = 65
+	name = "DRACODAR"
+	manpower = 1030
+	state_category = village
+
+	resources = {
+		oil = 19
+		ground_beast = 6
+		flying_beast = 5
+		wood = 4
+		steel = 1
+		food = 1
+	}
+
+	history = {
+        victory_points = {
+            2047 5
+        }
+        
+		owner = DKI
+        add_core_of = DKI
+
+        # The Second War
+        597.1.1 = {
+            owner = TTH
+            add_core_of = TTH
+        }
+        
+		buildings = {
+			infrastructure = 2
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 5
+			industrial_complex = 2
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			1967 = {
+				bunker = 0
+			}
+			1976 = {
+				bunker = 0
+			}
+			2032 = {
+				bunker = 0
+			}
+			2041 = {
+				bunker = 0
+			}
+			2047 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        1967 1976 2032 2041 2047 
+    }
+}

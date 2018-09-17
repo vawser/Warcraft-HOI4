@@ -1,0 +1,64 @@
+state = {
+	id = 650
+	name = "OBELISK_OF_THE_MOON"
+	manpower = 1676
+	state_category = village
+
+	resources = {
+		oil = 15
+		ground_beast = 8
+		flying_beast = 5
+		wood = 1
+		steel = 1
+		food = 3
+	}
+
+	history = {
+		owner = RAM
+		add_core_of = RAM
+
+		buildings = {
+			infrastructure = 4
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 3
+			industrial_complex = 6
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			3366 = {
+				bunker = 0
+			}
+			3372 = {
+				bunker = 0
+			}
+			3395 = {
+				bunker = 0
+			}
+			3401 = {
+				bunker = 0
+			}
+			3480 = {
+				bunker = 0
+			}
+			3617 = {
+				bunker = 0
+			}
+			3648 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        3366 3372 3395 3401 3480 3617 3648 
+    }
+}

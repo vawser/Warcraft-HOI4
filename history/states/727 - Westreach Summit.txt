@@ -1,0 +1,55 @@
+state = {
+	id = 727
+	name = "WESTREACH_SUMMIT"
+	manpower = 615
+	state_category = rural
+
+	resources = {
+		oil = 14
+		ground_beast = 1
+		flying_beast = 2
+		wood = 2
+		steel = 1
+		food = 3
+	}
+
+	history = {
+		owner = GMT
+		add_core_of = GMT
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 2
+			industrial_complex = 1
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			3413 = {
+				bunker = 0
+			}
+			3441 = {
+				bunker = 0
+			}
+			3469 = {
+				bunker = 0
+			}
+			4122 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        3413 3441 3469 4122 
+    }
+}

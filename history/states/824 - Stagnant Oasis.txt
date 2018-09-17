@@ -1,0 +1,66 @@
+state = {
+	id = 824
+	name = "STAGNANT_OASIS"
+	manpower = 603
+	state_category = rural
+
+	resources = {
+		oil = 4
+		ground_beast = 4
+		wood = 3
+		steel = 1
+		food = 20
+	}
+
+	history = {
+        owner = WIM
+		add_core_of = WIM
+        
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 0
+			industrial_complex = 4
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			4912 = {
+				bunker = 0
+			}
+			4918 = {
+				bunker = 0
+			}
+			4932 = {
+				bunker = 0
+			}
+			4950 = {
+				bunker = 0
+			}
+			4958 = {
+				bunker = 0
+			}
+			4972 = {
+				bunker = 0
+			}
+			5036 = {
+				bunker = 0
+			}
+			5095 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        4912 4918 4932 4950 4958 4972 5036 5095 
+    }
+}

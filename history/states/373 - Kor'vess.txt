@@ -1,0 +1,57 @@
+state = {
+	id = 373
+	name = "KOR_VESS"
+	manpower = 3808
+	state_category = village
+
+	resources = {
+		oil = 2
+		ground_beast = 8
+		flying_beast = 8
+		steel = 7
+		food = 18
+	}
+
+	history = {
+		owner = MAN
+		add_core_of = MAN
+
+		buildings = {
+			infrastructure = 3
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 5
+			industrial_complex = 0
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			6571 = {
+				bunker = 0
+			}
+			6580 = {
+				bunker = 0
+			}
+			6613 = {
+				bunker = 0
+			}
+			6618 = {
+				bunker = 0
+			}
+			6620 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        6571 6580 6613 6618 6620 
+    }
+}

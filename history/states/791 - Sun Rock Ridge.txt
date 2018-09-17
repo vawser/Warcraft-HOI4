@@ -1,0 +1,15 @@
+state = {
+	id = 791
+	name = "SUN_ROCK_RIDGE"
+	manpower = 6
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = BFY
+	}
+
+	provinces = {
+        4431 4450 4496 4584 4622 4663 4715 4719 4750 4792 4610
+    }
+}

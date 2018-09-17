@@ -1,0 +1,58 @@
+state = {
+	id = 562
+	name = "FROZEN_FLATS"
+	manpower = 516
+	state_category = rural
+
+	resources = {
+		oil = 3
+		ground_beast = 1
+		flying_beast = 5
+		wood = 9
+		steel = 6
+		food = 19
+	}
+
+	history = {
+		owner = GAM
+		add_core_of = GAM
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 3
+			industrial_complex = 1
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			5371 = {
+				bunker = 0
+			}
+			5533 = {
+				bunker = 0
+			}
+			5557 = {
+				bunker = 0
+			}
+			6133 = {
+				bunker = 0
+			}
+			6152 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        5371 5533 5557 6133 6152 
+    }
+}

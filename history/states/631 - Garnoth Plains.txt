@@ -1,0 +1,72 @@
+state = {
+	id = 631
+	name = "GARNOTH_FLATS"
+	manpower = 658
+	state_category = rural
+
+	resources = {
+		oil = 1
+		ground_beast = 9
+		flying_beast = 8
+		wood = 1
+		steel = 8
+		food = 14
+	}
+
+	history = {
+		owner = MAG
+		add_core_of = MAG
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 2
+			industrial_complex = 1
+			dockyard = 1
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			5306 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 2
+			}
+			5317 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 7
+			}
+			5997 = {
+				bunker = 0
+			}
+			6031 = {
+				bunker = 0
+			}
+			6044 = {
+				bunker = 0
+			}
+			6059 = {
+				bunker = 0
+			}
+			6072 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        5306 5317 5997 6031 6044 6059 6072 
+    }
+}

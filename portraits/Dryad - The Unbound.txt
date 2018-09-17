@@ -1,0 +1,114 @@
+UNB = {
+	army = {
+		male = {
+			"gfx/leaders/DRYAD/crystal_dryad_green.dds"
+            "gfx/leaders/DRYAD/crystal_dryad_purple.dds"
+            "gfx/leaders/DRYAD/crystal_dryad_white.dds"
+		}
+        female = {
+			"gfx/leaders/DRYAD/crystal_dryad_green.dds"
+            "gfx/leaders/DRYAD/crystal_dryad_purple.dds"
+            "gfx/leaders/DRYAD/crystal_dryad_white.dds"
+		}
+	}
+
+	navy = {
+		male = {
+			"gfx/leaders/DRYAD/crystal_dryad_green.dds"
+            "gfx/leaders/DRYAD/crystal_dryad_purple.dds"
+            "gfx/leaders/DRYAD/crystal_dryad_white.dds"
+		}
+        female = {
+			"gfx/leaders/DRYAD/crystal_dryad_green.dds"
+            "gfx/leaders/DRYAD/crystal_dryad_purple.dds"
+            "gfx/leaders/DRYAD/crystal_dryad_white.dds"
+		}
+	}
+
+	political = {
+		light = {
+			male = {
+                "gfx/leaders/DRYAD/crystal_dryad_green.dds"
+                "gfx/leaders/DRYAD/crystal_dryad_purple.dds"
+                "gfx/leaders/DRYAD/crystal_dryad_white.dds"
+            }
+            female = {
+                "gfx/leaders/DRYAD/crystal_dryad_green.dds"
+                "gfx/leaders/DRYAD/crystal_dryad_purple.dds"
+                "gfx/leaders/DRYAD/crystal_dryad_white.dds"
+            }
+		}
+		shadow = {
+			male = {
+                "gfx/leaders/DRYAD/crystal_dryad_green.dds"
+                "gfx/leaders/DRYAD/crystal_dryad_purple.dds"
+                "gfx/leaders/DRYAD/crystal_dryad_white.dds"
+            }
+            female = {
+                "gfx/leaders/DRYAD/crystal_dryad_green.dds"
+                "gfx/leaders/DRYAD/crystal_dryad_purple.dds"
+                "gfx/leaders/DRYAD/crystal_dryad_white.dds"
+            }
+		}
+        order = {
+			male = {
+                "gfx/leaders/DRYAD/crystal_dryad_green.dds"
+                "gfx/leaders/DRYAD/crystal_dryad_purple.dds"
+                "gfx/leaders/DRYAD/crystal_dryad_white.dds"
+            }
+            female = {
+                "gfx/leaders/DRYAD/crystal_dryad_green.dds"
+                "gfx/leaders/DRYAD/crystal_dryad_purple.dds"
+                "gfx/leaders/DRYAD/crystal_dryad_white.dds"
+            }
+		}
+        disorder = {
+			male = {
+                "gfx/leaders/DRYAD/crystal_dryad_green.dds"
+                "gfx/leaders/DRYAD/crystal_dryad_purple.dds"
+                "gfx/leaders/DRYAD/crystal_dryad_white.dds"
+            }
+            female = {
+                "gfx/leaders/DRYAD/crystal_dryad_green.dds"
+                "gfx/leaders/DRYAD/crystal_dryad_purple.dds"
+                "gfx/leaders/DRYAD/crystal_dryad_white.dds"
+            }
+		}
+        life = {
+			male = {
+                "gfx/leaders/DRYAD/crystal_dryad_green.dds"
+                "gfx/leaders/DRYAD/crystal_dryad_purple.dds"
+                "gfx/leaders/DRYAD/crystal_dryad_white.dds"
+            }
+            female = {
+                "gfx/leaders/DRYAD/crystal_dryad_green.dds"
+                "gfx/leaders/DRYAD/crystal_dryad_purple.dds"
+                "gfx/leaders/DRYAD/crystal_dryad_white.dds"
+            }
+		}
+        death = {
+			male = {
+                "gfx/leaders/DRYAD/crystal_dryad_green.dds"
+                "gfx/leaders/DRYAD/crystal_dryad_purple.dds"
+                "gfx/leaders/DRYAD/crystal_dryad_white.dds"
+            }
+            female = {
+                "gfx/leaders/DRYAD/crystal_dryad_green.dds"
+                "gfx/leaders/DRYAD/crystal_dryad_purple.dds"
+                "gfx/leaders/DRYAD/crystal_dryad_white.dds"
+            }
+		}
+        unaligned = {
+			male = {
+                "gfx/leaders/DRYAD/crystal_dryad_green.dds"
+                "gfx/leaders/DRYAD/crystal_dryad_purple.dds"
+                "gfx/leaders/DRYAD/crystal_dryad_white.dds"
+            }
+            female = {
+                "gfx/leaders/DRYAD/crystal_dryad_green.dds"
+                "gfx/leaders/DRYAD/crystal_dryad_purple.dds"
+                "gfx/leaders/DRYAD/crystal_dryad_white.dds"
+            }
+		}
+	}
+}

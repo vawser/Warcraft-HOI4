@@ -1,0 +1,84 @@
+state = {
+	id = 13
+	name = "SAVAGE_COAST"
+	manpower = 9956
+	state_category = city
+
+	resources = {
+		ground_beast = 1
+		flying_beast = 8
+		wood = 19
+		steel = 1
+		food = 4
+	}
+
+	history = {
+        victory_points = {
+            2494 5
+        }
+    
+		owner = BLS
+		add_core_of = BLS
+
+		buildings = {
+			infrastructure = 8
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 5
+			industrial_complex = 6
+			dockyard = 8
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			1751 = {
+				bunker = 7
+				coastal_bunker = 7
+				naval_base = 1
+			}
+			1754 = {
+				bunker = 9
+				coastal_bunker = 9
+				naval_base = 9
+			}
+			1757 = {
+				bunker = 5
+				coastal_bunker = 6
+				naval_base = 2
+			}
+			1760 = {
+				bunker = 3
+				coastal_bunker = 3
+				naval_base = 1
+			}
+			1762 = {
+				bunker = 7
+				coastal_bunker = 7
+				naval_base = 3
+			}
+			2480 = {
+				bunker = 6
+			}
+			2494 = {
+				bunker = 7
+			}
+			2512 = {
+				bunker = 2
+			}
+		}
+	}
+
+	provinces = {
+        1751 1754 1757 1760 1762 2480 2494 2512 
+    }
+}

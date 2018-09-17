@@ -1,0 +1,50 @@
+state = {
+	id = 98
+	name = "IRONFORGE"
+	manpower = 14233
+	state_category = city
+
+	resources = {
+		oil = 3
+		ground_beast = 12
+		flying_beast = 15
+		wood = 5
+		steel = 11
+		food = 21
+	}
+
+	history = {
+		owner = IRO
+        add_core_of = IRO
+
+        victory_points = {
+            2583 15
+        }
+        
+		buildings = {
+			infrastructure = 8
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 10
+			industrial_complex = 3
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			2583 = {
+				bunker = 5
+			}
+		}
+	}
+
+	provinces = {
+        2583 
+    }
+}

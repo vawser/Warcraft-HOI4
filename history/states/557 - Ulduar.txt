@@ -1,0 +1,116 @@
+state = {
+	id = 557
+	name = "ULDUAR"
+	manpower = 13295
+	state_category = city
+
+	resources = {
+		oil = 4
+		ground_beast = 8
+		flying_beast = 5
+		wood = 4
+		steel = 6
+		food = 16
+	}
+
+	history = {
+		owner = ULD
+		add_core_of = ULD
+
+		buildings = {
+			infrastructure = 8
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 3
+			industrial_complex = 2
+			dockyard = 4
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			5209 = {
+				bunker = 2
+				coastal_bunker = 5
+				naval_base = 5
+			}
+			5210 = {
+				bunker = 5
+				coastal_bunker = 5
+				naval_base = 1
+			}
+			5213 = {
+				bunker = 1
+				coastal_bunker = 2
+				naval_base = 8
+			}
+			5214 = {
+				bunker = 3
+				coastal_bunker = 8
+				naval_base = 3
+			}
+			5217 = {
+				bunker = 7
+				coastal_bunker = 2
+				naval_base = 6
+			}
+			5218 = {
+				bunker = 7
+				coastal_bunker = 3
+				naval_base = 9
+			}
+			5220 = {
+				bunker = 5
+				coastal_bunker = 8
+				naval_base = 5
+			}
+			5222 = {
+				bunker = 3
+				coastal_bunker = 1
+				naval_base = 6
+			}
+			5225 = {
+				bunker = 4
+				coastal_bunker = 2
+				naval_base = 5
+			}
+			5885 = {
+				bunker = 1
+			}
+			5892 = {
+				bunker = 3
+			}
+			5899 = {
+				bunker = 5
+			}
+			5907 = {
+				bunker = 9
+			}
+			5908 = {
+				bunker = 2
+			}
+			5916 = {
+				bunker = 9
+			}
+			5917 = {
+				bunker = 9
+			}
+			5924 = {
+				bunker = 5
+			}
+		}
+	}
+
+	provinces = {
+        5209 5210 5213 5214 5217 5218 5220 5222 5225 5885 5892 5899 5907 5908 5916 5917 5924 
+    }
+}

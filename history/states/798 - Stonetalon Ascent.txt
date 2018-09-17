@@ -1,0 +1,15 @@
+state = {
+	id = 798
+	name = "STONETALON_ASCENT"
+	manpower = 16
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = BFY
+	}
+
+	provinces = {
+        3227 3230 3237 3247 3258 3270 4637 4664 4666 4673 4699 4701 4736 
+    }
+}

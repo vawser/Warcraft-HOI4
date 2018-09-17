@@ -1,0 +1,96 @@
+PEA = {
+	army = {
+		male = {
+			"gfx/leaders/JINYU/jinyu_1.dds"
+			"gfx/leaders/JINYU/jinyu_2.dds"
+            "gfx/leaders/JINYU/jinyu_3.dds"
+            "gfx/leaders/JINYU/jinyu_4.dds"
+            "gfx/leaders/JINYU/jinyu_5.dds"
+            "gfx/leaders/JINYU/jinyu_6.dds"
+		}
+	}
+
+	navy = {
+		male = {
+			"gfx/leaders/JINYU/jinyu_1.dds"
+			"gfx/leaders/JINYU/jinyu_2.dds"
+            "gfx/leaders/JINYU/jinyu_3.dds"
+            "gfx/leaders/JINYU/jinyu_4.dds"
+            "gfx/leaders/JINYU/jinyu_5.dds"
+            "gfx/leaders/JINYU/jinyu_6.dds"
+		}
+	}
+
+	political = {
+		light = {
+			male = {
+                "gfx/leaders/JINYU/jinyu_1.dds"
+                "gfx/leaders/JINYU/jinyu_2.dds"
+                "gfx/leaders/JINYU/jinyu_3.dds"
+                "gfx/leaders/JINYU/jinyu_4.dds"
+                "gfx/leaders/JINYU/jinyu_5.dds"
+                "gfx/leaders/JINYU/jinyu_6.dds"
+            }
+		}
+		shadow = {
+			male = {
+                "gfx/leaders/JINYU/jinyu_1.dds"
+                "gfx/leaders/JINYU/jinyu_2.dds"
+                "gfx/leaders/JINYU/jinyu_3.dds"
+                "gfx/leaders/JINYU/jinyu_4.dds"
+                "gfx/leaders/JINYU/jinyu_5.dds"
+                "gfx/leaders/JINYU/jinyu_6.dds"
+            }
+		}
+        order = {
+			male = {
+                "gfx/leaders/JINYU/jinyu_1.dds"
+                "gfx/leaders/JINYU/jinyu_2.dds"
+                "gfx/leaders/JINYU/jinyu_3.dds"
+                "gfx/leaders/JINYU/jinyu_4.dds"
+                "gfx/leaders/JINYU/jinyu_5.dds"
+                "gfx/leaders/JINYU/jinyu_6.dds"
+            }
+		}
+        disorder = {
+			male = {
+                "gfx/leaders/JINYU/jinyu_1.dds"
+                "gfx/leaders/JINYU/jinyu_2.dds"
+                "gfx/leaders/JINYU/jinyu_3.dds"
+                "gfx/leaders/JINYU/jinyu_4.dds"
+                "gfx/leaders/JINYU/jinyu_5.dds"
+                "gfx/leaders/JINYU/jinyu_6.dds"
+            }
+		}
+        life = {
+			male = {
+                "gfx/leaders/JINYU/jinyu_1.dds"
+                "gfx/leaders/JINYU/jinyu_2.dds"
+                "gfx/leaders/JINYU/jinyu_3.dds"
+                "gfx/leaders/JINYU/jinyu_4.dds"
+                "gfx/leaders/JINYU/jinyu_5.dds"
+                "gfx/leaders/JINYU/jinyu_6.dds"
+            }
+		}
+        death = {
+			male = {
+                "gfx/leaders/JINYU/jinyu_1.dds"
+                "gfx/leaders/JINYU/jinyu_2.dds"
+                "gfx/leaders/JINYU/jinyu_3.dds"
+                "gfx/leaders/JINYU/jinyu_4.dds"
+                "gfx/leaders/JINYU/jinyu_5.dds"
+                "gfx/leaders/JINYU/jinyu_6.dds"
+            }
+		}
+        unaligned = {
+			male = {
+                "gfx/leaders/JINYU/jinyu_1.dds"
+                "gfx/leaders/JINYU/jinyu_2.dds"
+                "gfx/leaders/JINYU/jinyu_3.dds"
+                "gfx/leaders/JINYU/jinyu_4.dds"
+                "gfx/leaders/JINYU/jinyu_5.dds"
+                "gfx/leaders/JINYU/jinyu_6.dds"
+            }
+		}
+	}
+}

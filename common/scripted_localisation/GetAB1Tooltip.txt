@@ -1,0 +1,23 @@
+defined_text = { 
+	name = GetAB1Tooltip
+    
+    text = {
+		trigger = {
+			OR = {
+                check_variable = { faith_power > faith_action_1_cost }
+                check_variable = { faith_power = faith_action_1_cost }
+            }
+		}
+		localization_key = AB1_ENABLED
+	}
+    text = {
+		trigger = {
+			check_variable = { faith_power < faith_action_1_cost }
+		}
+		localization_key = AB1_DISABLED
+	}
+    text = {
+		localization_key = ""
+	}
+}
+

@@ -1,0 +1,14 @@
+defined_text = { 
+	name = GetCoringDisplayState
+
+    text = {
+		trigger = {
+			check_variable = { core_status = 1 }
+		}
+		localization_key = CORING_PROGRESS_INFO
+	}
+    text = {
+		localization_key = ""
+	}
+}
+

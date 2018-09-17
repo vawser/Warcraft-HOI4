@@ -1,0 +1,72 @@
+state = {
+	id = 268
+	name = "EYE_OF_AZSHARA"
+	manpower = 8366
+	state_category = city
+
+	resources = {
+		oil = 4
+		ground_beast = 2
+		flying_beast = 8
+		wood = 5
+		steel = 5
+		food = 18
+	}
+
+	history = {
+		owner = EYE
+		add_core_of = EYE
+
+		buildings = {
+			infrastructure = 9
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 7
+			industrial_complex = 4
+			dockyard = 5
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			7069 = {
+				bunker = 5
+				coastal_bunker = 7
+				naval_base = 9
+			}
+			7072 = {
+				bunker = 8
+				coastal_bunker = 8
+				naval_base = 6
+			}
+			7076 = {
+				bunker = 8
+				coastal_bunker = 2
+				naval_base = 5
+			}
+			7085 = {
+				bunker = 4
+				coastal_bunker = 6
+				naval_base = 6
+			}
+			7088 = {
+				bunker = 8
+				coastal_bunker = 9
+				naval_base = 4
+			}
+		}
+	}
+
+	provinces = {
+        7069 7072 7076 7085 7088 
+    }
+}

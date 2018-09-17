@@ -1,0 +1,53 @@
+state = {
+	id = 781
+	name = "SHOK_THOKAR"
+	manpower = 4355
+	state_category = village
+
+	resources = {
+		oil = 1
+		wood = 6
+		steel = 9
+		food = 11
+	}
+
+	history = {
+		owner = MRA
+		add_core_of = MRA
+
+		buildings = {
+			infrastructure = 2
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 4
+			industrial_complex = 5
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			4129 = {
+				bunker = 0
+			}
+			4137 = {
+				bunker = 0
+			}
+			4147 = {
+				bunker = 0
+			}
+			5114 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        4129 4137 4147 5114 
+    }
+}

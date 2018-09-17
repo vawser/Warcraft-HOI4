@@ -1,0 +1,76 @@
+state = {
+	id = 626
+	name = "RIPLASH_BEACHHEAD"
+	manpower = 1015
+	state_category = village
+
+	resources = {
+		ground_beast = 3
+		flying_beast = 4
+		wood = 1
+		steel = 9
+		food = 29
+	}
+
+	history = {
+		owner = RIP
+		add_core_of = RIP
+
+		buildings = {
+			infrastructure = 4
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 4
+			industrial_complex = 4
+			dockyard = 1
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			5268 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 6
+			}
+			5277 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 3
+			}
+			5330 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 6
+			}
+			5334 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 2
+			}
+			5341 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 6
+			}
+			5352 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 5
+			}
+		}
+	}
+
+	provinces = {
+        5268 5277 5330 5334 5341 5352
+    }
+}

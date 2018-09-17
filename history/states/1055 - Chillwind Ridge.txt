@@ -1,0 +1,15 @@
+state = {
+	id = 1055
+	name = "CHILLWIND_RIDGE"
+	manpower = 25
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = MUD
+	}
+
+	provinces = {
+        2706 2722 
+    }
+}

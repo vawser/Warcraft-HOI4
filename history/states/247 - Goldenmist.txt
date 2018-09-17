@@ -1,0 +1,77 @@
+state = {
+	id = 247
+	name = "GOLDENMIST"
+	manpower = 7687
+	state_category = town
+
+	resources = {
+		oil = 2
+		ground_beast = 5
+		flying_beast = 5
+		wood = 29
+		steel = 7
+		food = 10
+	}
+
+	history = {
+		owner = QUE
+        add_core_of = QUE
+
+		buildings = {
+			infrastructure = 7
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 3
+			industrial_complex = 4
+			dockyard = 5
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			1656 = {
+				bunker = 1
+				coastal_bunker = 4
+				naval_base = 3
+			}
+			1663 = {
+				bunker = 3
+				coastal_bunker = 1
+				naval_base = 3
+			}
+			1667 = {
+				bunker = 4
+				coastal_bunker = 5
+				naval_base = 6
+			}
+			1674 = {
+				bunker = 5
+				coastal_bunker = 9
+				naval_base = 4
+			}
+			1681 = {
+				bunker = 8
+				coastal_bunker = 6
+				naval_base = 6
+			}
+			1691 = {
+				bunker = 4
+				coastal_bunker = 8
+				naval_base = 6
+			}
+		}
+	}
+
+	provinces = {
+        1656 1663 1667 1674 1681 1691 
+    }
+}

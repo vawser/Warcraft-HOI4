@@ -1,0 +1,58 @@
+state = {
+	id = 22
+	name = "KARAZHAN"
+	manpower = 2665
+	state_category = village
+
+	resources = {
+		oil = 1
+		ground_beast = 9
+		flying_beast = 7
+		wood = 4
+		steel = 6
+		food = 13
+	}
+
+	history = {
+        victory_points = {
+            2918 15
+        }
+		owner = KAZ
+        add_core_of = KAZ
+
+		buildings = {
+			infrastructure = 3
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 6
+			industrial_complex = 1
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			2918 = {
+				bunker = 0
+			}
+			2940 = {
+				bunker = 0
+			}
+			2967 = {
+				bunker = 0
+			}
+			2994 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        2918 2940 2967 2994 
+    }
+}

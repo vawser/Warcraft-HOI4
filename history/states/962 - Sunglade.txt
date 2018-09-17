@@ -1,0 +1,61 @@
+state = {
+	id = 962
+	name = "SUNGLADE"
+	manpower = 876
+	state_category = rural
+
+	resources = {
+		oil = 3
+		ground_beast = 6
+		flying_beast = 3
+		wood = 28
+		steel = 9
+		food = 18
+	}
+
+	history = {
+		owner = SEN
+		add_core_of = SEN
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 2
+			industrial_complex = 1
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			3650 = {
+				bunker = 0
+			}
+			3665 = {
+				bunker = 0
+			}
+			3799 = {
+				bunker = 0
+			}
+			4887 = {
+				bunker = 0
+			}
+			4892 = {
+				bunker = 0
+			}
+			4897 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        3650 3665 3799 4887 4892 4897 
+    }
+}

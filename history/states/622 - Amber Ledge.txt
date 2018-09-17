@@ -1,0 +1,76 @@
+state = {
+	id = 622
+	name = "AMBER_LEDGE"
+	manpower = 797
+	state_category = rural
+
+	resources = {
+		oil = 3
+		flying_beast = 7
+		wood = 4
+		steel = 2
+		food = 13
+	}
+
+	history = {
+		owner = MAG
+		add_core_of = MAG
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 1
+			industrial_complex = 1
+			dockyard = 1
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			5275 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 8
+			}
+			5285 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 1
+			}
+			5295 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 1
+			}
+			5999 = {
+				bunker = 0
+			}
+			6016 = {
+				bunker = 0
+			}
+			6089 = {
+				bunker = 0
+			}
+			6140 = {
+				bunker = 0
+			}
+			6159 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        5275 5285 5295 5999 6016 6089 6140 6159 
+    }
+}

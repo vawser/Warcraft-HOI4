@@ -1,0 +1,62 @@
+state = {
+	id = 288
+	name = "DRAKJA"
+	manpower = 3245
+	state_category = village
+
+	resources = {
+		oil = 3
+		flying_beast = 9
+		wood = 14
+		food = 2
+	}
+
+	history = {
+		owner = ZDL
+        add_core_of = ZDL
+
+		buildings = {
+			infrastructure = 3
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 2
+			industrial_complex = 4
+			dockyard = 1
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			7218 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 1
+			}
+			7224 = {
+				bunker = 0
+			}
+			7225 = {
+				bunker = 0
+			}
+			7226 = {
+				bunker = 0
+			}
+			7232 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        7218 7224 7225 7226 7232 
+    }
+}

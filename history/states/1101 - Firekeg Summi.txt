@@ -1,0 +1,15 @@
+state = {
+	id = 1101
+	name = "FIREKEG_SUMMIT"
+	manpower = 62
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = ORD
+	}
+
+	provinces = {
+        6771
+    }
+}

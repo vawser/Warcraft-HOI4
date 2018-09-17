@@ -1,0 +1,52 @@
+state = {
+	id = 690
+	name = "HIVE_ZORA"
+	manpower = 1637
+	state_category = village
+
+	resources = {
+		oil = 19
+		ground_beast = 9
+		flying_beast = 3
+		wood = 4
+		steel = 7
+		food = 3
+	}
+
+	history = {
+		owner = AQJ
+		add_core_of = AQJ
+
+		buildings = {
+			infrastructure = 3
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 7
+			industrial_complex = 1
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			3447 = {
+				bunker = 0
+			}
+			3475 = {
+				bunker = 0
+			}
+			3636 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        3447 3475 3636 
+    }
+}

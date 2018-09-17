@@ -1,0 +1,76 @@
+﻿add_namespace = old_god
+
+# Assign Old God if none is assigned
+country_event = {
+	id = old_god.1
+	title = old_god.1.title
+	desc = old_god.1.desc
+	picture = GFX_event_SHADOWMOON_BURIAL_GROUNDS
+	
+    hidden = yes
+    
+	trigger = {
+        check_variable = { country_religion = 10 }
+        check_variable = { old_god < 1.0 }
+    }
+	
+    mean_time_to_happen = {
+        days = 2
+    }
+    
+	option = {
+		name = old_god.1.option.a
+
+        random_list = {
+            25 = { set_variable = { old_god = 1 } }
+            25 = { set_variable = { old_god = 2 } }
+            25 = { set_variable = { old_god = 3 } }
+            25 = { set_variable = { old_god = 4 } }
+        }
+	}
+}
+
+# The Old Gods
+country_event = {
+	id = old_god.2
+	title = old_god.2.title
+	desc = old_god.2.desc
+	picture = GFX_event_HEART_OF_FEAR
+	
+    is_triggered_only = yes
+    
+    immediate = {
+        hidden_effect = {
+            set_variable = { old_god = 1 }
+        }
+    }
+    
+	option = {
+		name = old_god.2.option.a
+
+        custom_effect_tooltip = FOLLOW_CTHUN
+        set_variable = { old_god = 1 }
+	}
+    
+    option = {
+		name = old_god.2.option.b
+
+        custom_effect_tooltip = FOLLOW_YSHAARJ
+        set_variable = { old_god = 2 }
+	}
+    
+    option = {
+		name = old_god.2.option.c
+
+        custom_effect_tooltip = FOLLOW_YOGG_SARON
+        set_variable = { old_god = 3 }
+	}
+    
+    option = {
+		name = old_god.2.option.d
+
+        custom_effect_tooltip = FOLLOW_NZOTH
+        set_variable = { old_god = 4 }
+	}
+}
+

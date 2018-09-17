@@ -1,0 +1,15 @@
+state = {
+	id = 222
+	name = "NORTHDALE"
+	manpower = 71
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = AMA
+	}
+
+	provinces = {
+        2648 2663 2694 
+    }
+}

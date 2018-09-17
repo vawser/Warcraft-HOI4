@@ -1,0 +1,15 @@
+state = {
+	id = 1057
+	name = "RIDGE_OF_ALTERAC"
+	manpower = 34
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = ALT
+	}
+
+	provinces = {
+        2660
+    }
+}

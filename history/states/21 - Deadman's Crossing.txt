@@ -1,0 +1,62 @@
+state = {
+	id = 21
+	name = "DEADMANS_CROSSING"
+	manpower = 792
+	state_category = rural
+
+	resources = {
+		oil = 2
+		ground_beast = 1
+		flying_beast = 5
+		wood = 6
+		steel = 13
+		food = 16
+	}
+
+	history = {
+		owner = TTH
+        add_core_of = TTH
+
+        # The Second War
+        597.1.1 = {
+            add_core_of = DWO
+        }
+        # The Third War
+        612.1.1 = {
+            owner = DWO
+            add_core_of = DWO
+        }
+        
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 2
+			industrial_complex = 1
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			2889 = {
+				bunker = 0
+			}
+			3021 = {
+				bunker = 0
+			}
+			3046 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        2889 3021 3046 
+    }
+}

@@ -1,0 +1,66 @@
+state = {
+	id = 185
+	name = "DRUSTVAR"
+	manpower = 5846
+	state_category = town
+
+	resources = {
+		ground_beast = 8
+		flying_beast = 5
+		wood = 28
+		steel = 1
+		food = 15
+	}
+
+	history = {
+		owner = KUL
+        add_core_of = KUL
+
+		buildings = {
+			infrastructure = 5
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 4
+			industrial_complex = 2
+			dockyard = 6
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			1736 = {
+				bunker = 4
+				coastal_bunker = 6
+				naval_base = 6
+			}
+			1781 = {
+				bunker = 7
+				coastal_bunker = 6
+				naval_base = 1
+			}
+			7279 = {
+				bunker = 1
+				coastal_bunker = 4
+				naval_base = 2
+			}
+			7280 = {
+				bunker = 5
+				coastal_bunker = 6
+				naval_base = 5
+			}
+		}
+	}
+
+	provinces = {
+        1736 1781 7279 7280 
+    }
+}

@@ -1,0 +1,94 @@
+guiTypes = {      
+    containerWindowType = {
+		name = "state_menu"
+		position = { x = -250 y = -300 }
+		size = { width = 900 height = 600 }
+		
+		fade_time = 300
+		fade_type = linear
+		moveable = yes
+		show_sound = menu_open_window
+		click_to_front = yes
+        
+		orientation = center
+        
+		background = {
+			name = "Background"		
+			quadTextureSprite ="GFX_598x280_parchment_bg"
+		}
+        
+        iconType = {
+			name = "title_bg"
+			spriteType = "GFX_wow_banner"
+			position = { x = 50 y = 20 }
+			allwaystransparent = yes
+            scale = 2.0
+		}
+        
+        instantTextBoxType = {
+			name = "menu_title"
+			position = { x = 200 y = 48 }
+			font = "hoi_18mbs"
+			borderSize = {x = 0 y = 0}
+			text = "STATE_MENU_TITLE"
+			maxWidth = 200
+			maxHeight = 20
+            format = center
+		}
+        
+        #----------------------------
+        # Coring
+        #----------------------------
+        buttonType = {
+			name = "coring_button"
+			position = { x = 180 y = 120 }
+			quadTextureSprite ="GFX_red_menu_button"
+		}
+        instantTextBoxType = {
+			name = "coring_button_text"
+			position = { x = 180 y = 135 }
+			font = "hoi_18mbs"
+			borderSize = {x = 0 y = 0}
+			text = "CORING_BUTTON"
+            pdx_tooltip = "CORING_BUTTON_TOOLTIP"
+			maxWidth = 240
+			maxHeight = 20
+            format = center
+		}
+        
+        iconType = {
+			name = "coring_progress_bg"
+			spriteType = "GFX_small_muted_menu_button"
+			position = { x = 70 y = 120 }
+			allwaystransparent = yes
+		}
+        instantTextBoxType = {
+			name = "coring_progress_text"
+			position = { x = 77 y = 135 }
+			font = "hoi_18mbs"
+			borderSize = {x = 0 y = 0}
+			text = "CORING_PROGRESS"
+            pdx_tooltip = "CORING_PROGRESS_TOOLTIP"
+			maxWidth = 80
+			maxHeight = 20
+            format = center
+		}
+        
+        buttonType = {
+			name = "boost_button"
+			spriteType = "GFX_small_muted_menu_button"
+			position = { x = 435 y = 120 }
+		}
+        instantTextBoxType = {
+			name = "boost_button_text"
+			position = { x = 442 y = 135 }
+			font = "hoi_18mbs"
+			borderSize = {x = 0 y = 0}
+			text = "BOOST_BUTTON"
+            pdx_tooltip = "BOOST_BUTTON_TOOLTIP"
+			maxWidth = 80
+			maxHeight = 20
+            format = center
+		}
+    }
+}   

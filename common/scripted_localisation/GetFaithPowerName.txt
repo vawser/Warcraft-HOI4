@@ -1,0 +1,132 @@
+defined_text = {
+	name = GetFaithPowerName
+    
+    text = {
+		trigger = {
+            OR = {
+                has_holy_light = yes
+                has_light_of_the_naaru = yes
+            }
+		} 
+		localization_key = FAITH_POWER_NAME
+	}
+    text = {
+		trigger = {
+			has_elune = yes
+		}
+		localization_key = MOON_POWER_NAME
+	}
+    text = {
+		trigger = {
+            OR = {
+                has_hakkar = yes
+                has_voodoo = yes
+                has_shadow = yes
+            }
+		}
+		localization_key = SHADOW_POWER_NAME
+	}
+    text = {
+		trigger = {
+            OR = {
+                has_nature = yes
+                has_druidism = yes
+            }
+		}
+		localization_key = NATURE_POWER_NAME
+	}
+    text = {
+		trigger = {
+			has_deep_mother = yes
+		}
+		localization_key = OCEAN_POWER_NAME
+	}
+    text = {
+		trigger = {
+			has_arcane = yes
+		}
+		localization_key = ARCANE_POWER_NAME
+	}
+    text = {
+		trigger = {
+            has_old_gods = yes
+		}
+		localization_key = INSANITY_POWER_NAME
+	}
+    text = {
+		trigger = {
+			has_fel = yes
+		}
+		localization_key = FEL_POWER_NAME
+	}
+    text = {
+		trigger = {
+			has_necromancy = yes
+		}
+		localization_key = NECROMANCY_POWER_NAME
+	}
+    text = {
+		trigger = {
+			has_shamanism = yes
+		}
+		localization_key = SHAMANISTIC_POWER
+	}
+    text = {
+		trigger = {
+			has_celestials = yes
+		}
+		localization_key = HARMONY_POWER_NAME
+	}
+    text = {
+		trigger = {
+			has_titan = yes
+		}
+		localization_key = TITAN_POWER_NAME
+	}
+    text = {
+		trigger = {
+			OR = {
+                has_fire = yes
+                has_earth = yes
+                has_wind = yes
+                has_water = yes
+                has_geomancy = yes
+            }
+		}
+		localization_key = ELEMENTAL_POWER_NAME
+	}
+    text = {
+		trigger = {
+			has_dragon_aspects = yes
+		}
+		localization_key = DRAGON_POWER_NAME
+	}
+    text = {
+		trigger = {
+			has_technomancy = yes
+		}
+		localization_key = TECHNOMANIC_POWER_NAME
+	}
+    text = {
+		trigger = {
+			has_capitalism = yes
+		}
+		localization_key = CAPITAL_POWER_NAME
+	}
+    text = {
+		trigger = {
+			has_soul = yes
+		}
+		localization_key = SOUL_POWER_NAME
+	}
+    text = {
+		trigger = {
+			has_runic = yes
+		}
+		localization_key = RUNIC_POWER_NAME
+	}
+	text = {
+		localization_key = FAITH_POWER_NAME
+	}
+}
+

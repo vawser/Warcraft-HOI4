@@ -1,0 +1,73 @@
+state = {
+	id = 30
+	name = "DEADMANS_VALLEY"
+	manpower = 3626
+	state_category = village
+
+	resources = {
+		oil = 6
+		ground_beast = 9
+		wood = 2
+		food = 4
+	}
+
+	history = {
+		owner = ROC
+        add_core_of = ROC
+
+        # The First War
+        592.1.1 = {
+            owner = TTH
+            add_core_of = TTH
+        }
+        # The Second War
+        597.1.1 = {
+            owner = TTH
+            add_core_of = TTH
+        }
+        # The Third War
+        612.1.1 = {
+            set_state_name = DREADMAUL_HOLD
+            owner = DRD
+            add_core_of = DRD
+        }
+        
+		buildings = {
+			infrastructure = 4
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 3
+			industrial_complex = 4
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			1971 = {
+				bunker = 0
+			}
+			1980 = {
+				bunker = 0
+			}
+			1988 = {
+				bunker = 0
+			}
+			2003 = {
+				bunker = 0
+			}
+			2029 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        1971 1980 1988 2003 2029 
+    }
+}

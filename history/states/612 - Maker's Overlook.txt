@@ -1,0 +1,63 @@
+state = {
+	id = 612
+	name = "THE_MAKERS_OVERLOOK"
+	manpower = 2951
+	state_category = village
+
+	resources = {
+		oil = 2
+		flying_beast = 7
+		wood = 14
+		steel = 2
+		food = 3
+	}
+
+	history = {
+		owner = LIF
+		add_core_of = LIF
+
+		buildings = {
+			infrastructure = 3
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 6
+			industrial_complex = 1
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			5516 = {
+				bunker = 0
+			}
+			5563 = {
+				bunker = 0
+			}
+			5853 = {
+				bunker = 0
+			}
+			5856 = {
+				bunker = 0
+			}
+			5861 = {
+				bunker = 0
+			}
+			5864 = {
+				bunker = 0
+			}
+			5875 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        5516 5563 5853 5856 5861 5864 5875
+    }
+}

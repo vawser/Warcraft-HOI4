@@ -1,0 +1,831 @@
+spriteTypes = {
+    SpriteType = {
+        name = "GFX_goal_TTH_orc_warcry"
+        texturefile = "gfx/interface/goals/orc_warcry.tga"
+	}
+    SpriteType = {
+		name = "GFX_goal_TTH_orc_warcry_shine"
+		texturefile = "gfx/interface/goals/orc_warcry.tga"
+
+		animation = {
+            animationmaskfile = "gfx/interface/goals/orc_warcry.tga"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/orc_warcry.tga"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+
+		effectFile = "gfx/FX/buttonstate.lua"
+		legacy_lazy_load = no
+	}
+    SpriteType = {
+        name = "GFX_goal_TTH_mok_gora"
+        texturefile = "gfx/interface/goals/mokgora.tga"
+	}
+    SpriteType = {
+		name = "GFX_goal_TTH_mok_gora_shine"
+		texturefile = "gfx/interface/goals/mokgora.tga"
+
+		animation = {
+            animationmaskfile = "gfx/interface/goals/mokgora.tga"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/mokgora.tga"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+
+		effectFile = "gfx/FX/buttonstate.lua"
+		legacy_lazy_load = no
+	}
+    SpriteType = {
+        name = "GFX_goal_TTH_raid"
+        texturefile = "gfx/interface/goals/orc_raid.tga"
+	}
+    SpriteType = {
+		name = "GFX_goal_TTH_raid_shine"
+		texturefile = "gfx/interface/goals/orc_raid.tga"
+
+		animation = {
+            animationmaskfile = "gfx/interface/goals/orc_raid.tga"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/orc_raid.tga"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+
+		effectFile = "gfx/FX/buttonstate.lua"
+		legacy_lazy_load = no
+	}
+    SpriteType = {
+        name = "GFX_goal_TTH_war"
+        texturefile = "gfx/interface/goals/orc_war.tga"
+	}
+    SpriteType = {
+		name = "GFX_goal_TTH_war_shine"
+		texturefile = "gfx/interface/goals/orc_war.tga"
+
+		animation = {
+            animationmaskfile = "gfx/interface/goals/orc_war.tga"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/orc_war.tga"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+
+		effectFile = "gfx/FX/buttonstate.lua"
+		legacy_lazy_load = no
+	}
+    SpriteType = {
+        name = "GFX_goal_TTH_secure"
+        texturefile = "gfx/interface/goals/orc_secure.tga"
+	}
+    SpriteType = {
+		name = "GFX_goal_TTH_secure_shine"
+		texturefile = "gfx/interface/goals/orc_secure.tga"
+
+		animation = {
+            animationmaskfile = "gfx/interface/goals/orc_secure.tga"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/orc_secure.tga"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+
+		effectFile = "gfx/FX/buttonstate.lua"
+		legacy_lazy_load = no
+	}
+    SpriteType = {
+        name = "GFX_goal_TTH_secure_sunnyglade"
+        texturefile = "gfx/interface/goals/arcane_tower.tga"
+	}
+    SpriteType = {
+		name = "GFX_goal_TTH_secure_sunnyglade_shine"
+		texturefile = "gfx/interface/goals/arcane_tower.tga"
+
+		animation = {
+            animationmaskfile = "gfx/interface/goals/arcane_tower.tga"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/arcane_tower.tga"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+
+		effectFile = "gfx/FX/buttonstate.lua"
+		legacy_lazy_load = no
+	}
+    SpriteType = {
+        name = "GFX_goal_TTH_oust_stormwind"
+        texturefile = "gfx/interface/goals/doomhammer.tga"
+	}
+    SpriteType = {
+		name = "GFX_goal_TTH_oust_stormwind_shine"
+		texturefile = "gfx/interface/goals/doomhammer.tga"
+
+		animation = {
+            animationmaskfile = "gfx/interface/goals/doomhammer.tga"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/doomhammer.tga"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+
+		effectFile = "gfx/FX/buttonstate.lua"
+		legacy_lazy_load = no
+	}
+    SpriteType = {
+        name = "GFX_goal_TTH_consolidate_lands"
+        texturefile = "gfx/interface/goals/war_support.tga"
+	}
+    SpriteType = {
+		name = "GFX_goal_TTH_consolidate_lands_shine"
+		texturefile = "gfx/interface/goals/war_support.tga"
+
+		animation = {
+            animationmaskfile = "gfx/interface/goals/war_support.tga"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/war_support.tga"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+
+		effectFile = "gfx/FX/buttonstate.lua"
+		legacy_lazy_load = no
+	}
+    SpriteType = {
+        name = "GFX_goal_TTH_enter_stranglethorn"
+        texturefile = "gfx/interface/goals/stranglethorn.tga"
+	}
+    SpriteType = {
+		name = "GFX_goal_TTH_enter_stranglethorn_shine"
+		texturefile = "gfx/interface/goals/stranglethorn.tga"
+
+		animation = {
+            animationmaskfile = "gfx/interface/goals/stranglethorn.tga"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/stranglethorn.tga"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+
+		effectFile = "gfx/FX/buttonstate.lua"
+		legacy_lazy_load = no
+	}
+    SpriteType = {
+        name = "GFX_goal_TTH_invite_troll"
+        texturefile = "gfx/interface/goals/troll_invite.tga"
+	}
+    SpriteType = {
+		name = "GFX_goal_TTH_invite_troll_shine"
+		texturefile = "gfx/interface/goals/troll_invite.tga"
+
+		animation = {
+            animationmaskfile = "gfx/interface/goals/troll_invite.tga"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/troll_invite.tga"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+
+		effectFile = "gfx/FX/buttonstate.lua"
+		legacy_lazy_load = no
+	}
+    SpriteType = {
+        name = "GFX_goal_TTH_shadow_council"
+        texturefile = "gfx/interface/goals/shadow_council.tga"
+	}
+    SpriteType = {
+		name = "GFX_goal__shine"
+		texturefile = "gfx/interface/goals/shadow_council.tga"
+
+		animation = {
+            animationmaskfile = "gfx/interface/goals/shadow_council.tga"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/shadow_council.tga"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+
+		effectFile = "gfx/FX/buttonstate.lua"
+		legacy_lazy_load = no
+	}
+    SpriteType = {
+        name = "GFX_goal_TTH_orc_settlements"
+        texturefile = "gfx/interface/goals/orc_settlements.tga"
+	}
+    SpriteType = {
+		name = "GFX_goal_TTH_orc_settlements_shine"
+		texturefile = "gfx/interface/goals/orc_settlements.tga"
+
+		animation = {
+            animationmaskfile = "gfx/interface/goals/orc_settlements.tga"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/orc_settlements.tga"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+
+		effectFile = "gfx/FX/buttonstate.lua"
+		legacy_lazy_load = no
+	}
+    SpriteType = {
+        name = "GFX_goal_TTH_orc_engineering"
+        texturefile = "gfx/interface/goals/orc_engineering.tga"
+	}
+    SpriteType = {
+		name = "GFX_goal_TTH_orc_engineering_shine"
+		texturefile = "gfx/interface/goals/orc_engineering.tga"
+
+		animation = {
+            animationmaskfile = "gfx/interface/goals/orc_engineering.tga"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/orc_engineering.tga"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+
+		effectFile = "gfx/FX/buttonstate.lua"
+		legacy_lazy_load = no
+	}
+    SpriteType = {
+        name = "GFX_goal_TTH_azeroth_supply_lines"
+        texturefile = "gfx/interface/goals/supply.tga"
+	}
+    SpriteType = {
+		name = "GFX_goal_TTH_azeroth_supply_lines_shine"
+		texturefile = "gfx/interface/goals/supply.tga"
+
+		animation = {
+            animationmaskfile = "gfx/interface/goals/supply.tga"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/supply.tga"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+
+		effectFile = "gfx/FX/buttonstate.lua"
+		legacy_lazy_load = no
+	}
+    SpriteType = {
+        name = "GFX_goal_TTH_capital_blackrock_mountain"
+        texturefile = "gfx/interface/goals/blackrock.tga"
+	}
+    SpriteType = {
+		name = "GFX_goal_TTH_capital_blackrock_mountain_shine"
+		texturefile = "gfx/interface/goals/blackrock.tga"
+
+		animation = {
+            animationmaskfile = "gfx/interface/goals/blackrock.tga"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/blackrock.tga"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+
+		effectFile = "gfx/FX/buttonstate.lua"
+		legacy_lazy_load = no
+	}
+    SpriteType = {
+        name = "GFX_goal_TTH_duskwood"
+        texturefile = "gfx/interface/goals/duskwood.tga"
+	}
+    SpriteType = {
+		name = "GFX_goal_TTH_duskwood_shine"
+		texturefile = "gfx/interface/goals/duskwood.tga"
+
+		animation = {
+            animationmaskfile = "gfx/interface/goals/duskwood.tga"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/duskwood.tga"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+
+		effectFile = "gfx/FX/buttonstate.lua"
+		legacy_lazy_load = no
+	}
+    SpriteType = {
+        name = "GFX_goal_TTH_westfall"
+        texturefile = "gfx/interface/goals/westfall.tga"
+	}
+    SpriteType = {
+		name = "GFX_goal_TTH_westfall_shine"
+		texturefile = "gfx/interface/goals/westfall.tga"
+
+		animation = {
+            animationmaskfile = "gfx/interface/goals/westfall.tga"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/westfall.tga"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+
+		effectFile = "gfx/FX/buttonstate.lua"
+		legacy_lazy_load = no
+	}
+    SpriteType = {
+        name = "GFX_goal_TTH_redridge"
+        texturefile = "gfx/interface/goals/redridge.tga"
+	}
+    SpriteType = {
+		name = "GFX_goal_TTH_redridge_shine"
+		texturefile = "gfx/interface/goals/redridge.tga"
+
+		animation = {
+            animationmaskfile = "gfx/interface/goals/redridge.tga"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/redridge.tga"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+
+		effectFile = "gfx/FX/buttonstate.lua"
+		legacy_lazy_load = no
+	}
+    SpriteType = {
+        name = "GFX_goal_TTH_capital_stormwind"
+        texturefile = "gfx/interface/goals/stormwind.tga"
+	}
+    SpriteType = {
+		name = "GFX_goal_TTH_capital_stormwind_shine"
+		texturefile = "gfx/interface/goals/stormwind.tga"
+
+		animation = {
+            animationmaskfile = "gfx/interface/goals/stormwind.tga"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/stormwind.tga"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+
+		effectFile = "gfx/FX/buttonstate.lua"
+		legacy_lazy_load = no
+	}
+    SpriteType = {
+        name = "GFX_goal_TTH_dark_portal"
+        texturefile = "gfx/interface/goals/dark_portal.tga"
+	}
+    SpriteType = {
+		name = "GFX_goal_TTH_dark_portal_shine"
+		texturefile = "gfx/interface/goals/dark_portal.tga"
+
+		animation = {
+            animationmaskfile = "gfx/interface/goals/dark_portal.tga"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/dark_portal.tga"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+
+		effectFile = "gfx/FX/buttonstate.lua"
+		legacy_lazy_load = no
+	}
+    SpriteType = {
+        name = "GFX_goal_TTH_blasted_lands"
+        texturefile = "gfx/interface/goals/blasted_lands.tga"
+	}
+    SpriteType = {
+		name = "GFX_goal_TTH_blasted_lands_shine"
+		texturefile = "gfx/interface/goals/blasted_lands.tga"
+
+		animation = {
+            animationmaskfile = "gfx/interface/goals/blasted_lands.tga"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/blasted_lands.tga"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+
+		effectFile = "gfx/FX/buttonstate.lua"
+		legacy_lazy_load = no
+	}
+    SpriteType = {
+        name = "GFX_goal_TTH_swamp_of_sorrows"
+        texturefile = "gfx/interface/goals/swamp_of_sorrows.tga"
+	}
+    SpriteType = {
+		name = "GFX_goal_TTH_swamp_of_sorrows_shine"
+		texturefile = "gfx/interface/goals/swamp_of_sorrows.tga"
+
+		animation = {
+            animationmaskfile = "gfx/interface/goals/swamp_of_sorrows.tga"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/swamp_of_sorrows.tga"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+
+		effectFile = "gfx/FX/buttonstate.lua"
+		legacy_lazy_load = no
+	}
+    SpriteType = {
+        name = "GFX_goal_TTH_fortify"
+        texturefile = "gfx/interface/goals/garrison_building.tga"
+	}
+    SpriteType = {
+		name = "GFX_goal_TTH_fortify_shine"
+		texturefile = "gfx/interface/goals/garrison_building.tga"
+
+		animation = {
+            animationmaskfile = "gfx/interface/goals/garrison_building.tga"
+            animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+            animationrotation = -90.0
+            animationlooping = no
+            animationtime = 0.75
+            animationdelay = 0
+            animationblendmode = "add"
+            animationtype = "scrolling"
+            animationrotationoffset = { x = 0.0 y = 0.0 }
+            animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+		animation = {
+			animationmaskfile = "gfx/interface/goals/garrison_building.tga"
+			animationtexturefile = "gfx/interface/goals/shine_overlay.dds"
+			animationrotation = 90.0
+			animationlooping = no
+			animationtime = 0.75
+			animationdelay = 0
+			animationblendmode = "add"
+			animationtype = "scrolling"
+			animationrotationoffset = { x = 0.0 y = 0.0 }
+			animationtexturescale = { x = 1.0 y = 1.0 }
+		}
+
+		effectFile = "gfx/FX/buttonstate.lua"
+		legacy_lazy_load = no
+	}
+}
+

@@ -1,0 +1,15 @@
+state = {
+	id = 234
+	name = "TI_JI_CLIFFS"
+	manpower = 13
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = AMA
+	}
+
+	provinces = {
+        2568 2587 2607 2640 
+    }
+}

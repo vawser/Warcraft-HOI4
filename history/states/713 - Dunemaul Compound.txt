@@ -1,0 +1,62 @@
+state = {
+	id = 713
+	name = "DUNEMAUL"
+	manpower = 771
+	state_category = rural
+
+	resources = {
+		ground_beast = 1
+		flying_beast = 2
+		wood = 4
+		steel = 8
+		food = 1
+	}
+
+	history = {
+        owner = SAN
+		add_core_of = SAN
+        
+        612.1.1 = {
+            owner = DUM
+            add_core_of = DUM
+        }
+        
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 2
+			industrial_complex = 0
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			3375 = {
+				bunker = 0
+			}
+			3404 = {
+				bunker = 0
+			}
+			3432 = {
+				bunker = 0
+			}
+			3489 = {
+				bunker = 0
+			}
+			3517 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        3375 3404 3432 3489 3517 
+    }
+}

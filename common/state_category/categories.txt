@@ -1,0 +1,26 @@
+state_categories={
+    city = {
+		local_building_slots = 20
+        color = { 0 240 240 }
+	}
+    town = {
+		local_building_slots = 15
+		color = { 0 240 0 }
+	}
+    village = {
+		local_building_slots = 10
+		color = { 200 200 0 }
+	}
+    rural = {
+		local_building_slots = 5
+		color = { 240 160 0 }
+	}
+    island = {
+		local_building_slots = 4
+		color = { 200 160 0 }
+	}
+    wasteland = {
+		local_building_slots = 0
+		color = { 40 40 40 }
+	}
+}

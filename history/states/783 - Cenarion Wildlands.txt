@@ -1,0 +1,60 @@
+state = {
+	id = 783
+	name = "CENARION_WILDLANDS"
+	manpower = 558
+	state_category = rural
+
+	resources = {
+		oil = 3
+		ground_beast = 2
+		flying_beast = 2
+		steel = 2
+		food = 24
+	}
+
+	history = {
+		owner = GRI
+		add_core_of = GRI
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 2
+			industrial_complex = 1
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			4935 = {
+				bunker = 0
+			}
+			4954 = {
+				bunker = 0
+			}
+			4975 = {
+				bunker = 0
+			}
+			4996 = {
+				bunker = 0
+			}
+			5053 = {
+				bunker = 0
+			}
+			5072 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        4935 4954 4975 4996 5053 5072 
+    }
+}

@@ -1,0 +1,54 @@
+state = {
+	id = 684
+	name = "HIVE_REGAL"
+	manpower = 3067
+	state_category = village
+
+	resources = {
+		oil = 15
+		ground_beast = 7
+		flying_beast = 5
+		steel = 1
+		food = 3
+	}
+
+	history = {
+		owner = AQJ
+		add_core_of = AQJ
+
+		buildings = {
+			infrastructure = 4
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 6
+			industrial_complex = 2
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			3476 = {
+				bunker = 0
+			}
+			3505 = {
+				bunker = 0
+			}
+			3533 = {
+				bunker = 0
+			}
+			3558 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        3476 3505 3533 3558 
+    }
+}

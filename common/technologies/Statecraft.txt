@@ -1,0 +1,2557 @@
+technologies = {
+	# Column and row is based of gridbox start position
+    @COL_0 = 0
+    @COL_1 = 3
+    @COL_2 = 6
+    @COL_3 = 9
+    @COL_4 = 12
+    @COL_5 = 15
+    @COL_6 = 18
+    @COL_7 = 21
+    @COL_8 = 24
+    @COL_9 = 27
+    @COL_10 = 30
+    @COL_11 = 33
+    @COL_12 = 36
+    @COL_13 = 39
+    @COL_14 = 42
+    
+    @ROW_0 = 0
+    @ROW_1 = 3
+    @ROW_2 = 6
+    @ROW_3 = 9
+    @ROW_4 = 12
+    @ROW_5 = 15
+    @ROW_6 = 18
+    @ROW_7 = 21
+    @ROW_8 = 24
+    @ROW_9 = 27
+    @ROW_10 = 30
+    
+    #-----------------------------------------------------------------
+    # Political Power
+    #-----------------------------------------------------------------
+    political_power_1 = {
+        political_power_factor = 0.05
+ 
+        research_cost = 12
+
+        path = {
+			leads_to_tech = political_power_2
+			research_cost_coeff = 1
+		}
+        path = {
+			leads_to_tech = stability_1
+			research_cost_coeff = 1
+		}
+        path = {
+			leads_to_tech = war_support_1
+			research_cost_coeff = 1
+		}
+        
+        folder = {
+			name = statecraft_folder
+			position = { x = @ROW_0 y = @COL_1 }
+		}
+        
+        
+        categories = {
+            statecraft_tech
+            political_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+            
+            modifier = {
+                factor = 0
+                
+                ai_ignore_statecraft = yes
+            }
+		}
+        
+    }
+    political_power_2 = {
+        political_power_factor = 0.05
+        
+        research_cost = 12
+
+        path = {
+			leads_to_tech = political_power_3
+			research_cost_coeff = 1
+		}
+        
+        folder = {
+			name = statecraft_folder
+			position = { x = @ROW_1 y = @COL_1 }
+		}
+        
+        
+        categories = {
+            statecraft_tech
+            political_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+
+            modifier = {
+                factor = 0
+                
+                ai_ignore_statecraft = yes
+            }
+		}
+    }
+    political_power_3 = {
+        political_power_factor = 0.05
+        
+        research_cost = 12
+
+        folder = {
+			name = statecraft_folder
+			position = { x = @ROW_2 y = @COL_1 }
+		}
+        
+        path = {
+			leads_to_tech = political_power_4
+			research_cost_coeff = 1
+		}
+        
+        categories = {
+            statecraft_tech
+            political_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+            
+            modifier = {
+                factor = 0
+                
+                ai_ignore_statecraft = yes
+            }
+		}
+    }
+    
+    political_power_4 = {
+        political_power_factor = 0.05
+        
+        research_cost = 12
+
+        folder = {
+			name = statecraft_folder
+			position = { x = @ROW_3 y = @COL_1 }
+		}
+        
+        path = {
+			leads_to_tech = political_power_5
+			research_cost_coeff = 1
+		}
+        
+        categories = {
+            statecraft_tech
+            political_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+            
+            modifier = {
+                factor = 0
+                
+                ai_ignore_statecraft = yes
+            }
+		}
+    }
+    
+    political_power_5 = {
+        political_power_factor = 0.05
+        
+        research_cost = 12
+
+        folder = {
+			name = statecraft_folder
+			position = { x = @ROW_4 y = @COL_1 }
+		}
+        
+        categories = {
+            statecraft_tech
+            political_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+            
+            modifier = {
+                factor = 0
+                
+                ai_ignore_statecraft = yes
+            }
+		}
+    }
+    
+    #-----------------------------------------------------------------
+    # Stability
+    #-----------------------------------------------------------------
+    stability_1 = {
+        stability_weekly = 0.001
+ 
+        research_cost = 12
+
+        path = {
+			leads_to_tech = stability_2
+			research_cost_coeff = 1
+		}
+        
+        folder = {
+			name = statecraft_folder
+			position = { x = @ROW_0 y = @COL_0 }
+		}
+        
+        
+        categories = {
+            statecraft_tech
+            political_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+            
+            modifier = {
+                factor = 0
+                
+                ai_ignore_statecraft = yes
+            }
+		}
+        
+    }
+    stability_2 = {
+        stability_weekly = 0.001
+        
+        research_cost = 12
+
+        path = {
+			leads_to_tech = stability_3
+			research_cost_coeff = 1
+		}
+        
+        folder = {
+			name = statecraft_folder
+			position = { x = @ROW_1 y = @COL_0 }
+		}
+        
+        
+        categories = {
+            statecraft_tech
+            political_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+
+            modifier = {
+                factor = 0
+                
+                ai_ignore_statecraft = yes
+            }
+		}
+    }
+    stability_3 = {
+        stability_weekly = 0.001
+        
+        research_cost = 12
+
+        folder = {
+			name = statecraft_folder
+			position = { x = @ROW_2 y = @COL_0 }
+		}
+        
+        path = {
+			leads_to_tech = stability_4
+			research_cost_coeff = 1
+		}
+        
+        categories = {
+            statecraft_tech
+            political_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+            
+            modifier = {
+                factor = 0
+                
+                ai_ignore_statecraft = yes
+            }
+		}
+    }
+    
+    stability_4 = {
+        stability_weekly = 0.001
+        
+        research_cost = 12
+
+        folder = {
+			name = statecraft_folder
+			position = { x = @ROW_3 y = @COL_0 }
+		}
+        
+        path = {
+			leads_to_tech = stability_5
+			research_cost_coeff = 1
+		}
+        
+        categories = {
+            statecraft_tech
+            political_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+            
+            modifier = {
+                factor = 0
+                
+                ai_ignore_statecraft = yes
+            }
+		}
+    }
+    
+    stability_5 = {
+        stability_weekly = 0.001
+        
+        research_cost = 12
+
+        folder = {
+			name = statecraft_folder
+			position = { x = @ROW_4 y = @COL_0 }
+		}
+        
+        categories = {
+            statecraft_tech
+            political_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+            
+            modifier = {
+                factor = 0
+                
+                ai_ignore_statecraft = yes
+            }
+		}
+    }
+    
+    #-----------------------------------------------------------------
+    # War Support
+    #-----------------------------------------------------------------
+    war_support_1 = {
+        war_support_weekly = 0.001
+ 
+        research_cost = 12
+
+        path = {
+			leads_to_tech = war_support_2
+			research_cost_coeff = 1
+		}
+        
+        folder = {
+			name = statecraft_folder
+			position = { x = @ROW_0 y = @COL_2 }
+		}
+        
+        
+        categories = {
+            statecraft_tech
+            political_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+            
+            modifier = {
+                factor = 0
+                
+                ai_ignore_statecraft = yes
+            }
+		}
+        
+    }
+    war_support_2 = {
+        war_support_weekly = 0.001
+        
+        research_cost = 12
+
+        path = {
+			leads_to_tech = war_support_3
+			research_cost_coeff = 1
+		}
+        
+        folder = {
+			name = statecraft_folder
+			position = { x = @ROW_1 y = @COL_2 }
+		}
+        
+        
+        categories = {
+            statecraft_tech
+            political_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+
+            modifier = {
+                factor = 0
+                
+                ai_ignore_statecraft = yes
+            }
+		}
+    }
+    war_support_3 = {
+        war_support_weekly = 0.001
+        
+        research_cost = 12
+
+        folder = {
+			name = statecraft_folder
+			position = { x = @ROW_2 y = @COL_2 }
+		}
+        
+        path = {
+			leads_to_tech = war_support_4
+			research_cost_coeff = 1
+		}
+        
+        categories = {
+            statecraft_tech
+            political_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+            
+            modifier = {
+                factor = 0
+                
+                ai_ignore_statecraft = yes
+            }
+		}
+    }
+    
+    war_support_4 = {
+        war_support_weekly = 0.001
+        
+        research_cost = 12
+
+        folder = {
+			name = statecraft_folder
+			position = { x = @ROW_3 y = @COL_2 }
+		}
+        
+        path = {
+			leads_to_tech = war_support_5
+			research_cost_coeff = 1
+		}
+        
+        categories = {
+            statecraft_tech
+            political_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+            
+            modifier = {
+                factor = 0
+                
+                ai_ignore_statecraft = yes
+            }
+		}
+    }
+    
+    war_support_5 = {
+        war_support_weekly = 0.001
+        
+        research_cost = 12
+
+        folder = {
+			name = statecraft_folder
+			position = { x = @ROW_4 y = @COL_2 }
+		}
+        
+        categories = {
+            statecraft_tech
+            political_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+            
+            modifier = {
+                factor = 0
+                
+                ai_ignore_statecraft = yes
+            }
+		}
+    }
+    
+    #-----------------------------------------------------------------
+    # Research
+    #-----------------------------------------------------------------
+    research_time_1 = {
+        research_time_factor = -0.02
+ 
+        research_cost = 12
+
+        path = {
+			leads_to_tech = research_time_2
+			research_cost_coeff = 1
+		}
+        path = {
+			leads_to_tech = encryption_1
+			research_cost_coeff = 1
+		}
+        path = {
+			leads_to_tech = decryption_1
+			research_cost_coeff = 1
+		}
+        
+        folder = {
+			name = statecraft_folder
+			position = { x = @ROW_0 y = @COL_5 }
+		}
+        
+        
+        categories = {
+            statecraft_tech
+            invention_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+            
+            modifier = {
+                factor = 0
+                
+                ai_ignore_statecraft = yes
+            }
+		}
+        
+    }
+    research_time_2 = {
+        research_time_factor = -0.02
+        
+        research_cost = 12
+
+        path = {
+			leads_to_tech = research_time_3
+			research_cost_coeff = 1
+		}
+        
+        folder = {
+			name = statecraft_folder
+			position = { x = @ROW_1 y = @COL_5 }
+		}
+        
+        
+        categories = {
+            statecraft_tech
+            invention_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+
+            modifier = {
+                factor = 0
+                
+                ai_ignore_statecraft = yes
+            }
+		}
+    }
+    research_time_3 = {
+        research_time_factor = -0.02
+        
+        research_cost = 12
+
+        folder = {
+			name = statecraft_folder
+			position = { x = @ROW_2 y = @COL_5 }
+		}
+        
+        path = {
+			leads_to_tech = research_time_4
+			research_cost_coeff = 1
+		}
+        
+        categories = {
+            statecraft_tech
+            invention_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+            
+            modifier = {
+                factor = 0
+                
+                ai_ignore_statecraft = yes
+            }
+		}
+    }
+    
+    research_time_4 = {
+        research_time_factor = -0.02
+        
+        research_cost = 12
+
+        folder = {
+			name = statecraft_folder
+			position = { x = @ROW_3 y = @COL_5 }
+		}
+        
+        path = {
+			leads_to_tech = research_time_5
+			research_cost_coeff = 1
+		}
+        
+        categories = {
+            statecraft_tech
+            invention_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+            
+            modifier = {
+                factor = 0
+                
+                ai_ignore_statecraft = yes
+            }
+		}
+    }
+    
+    research_time_5 = {
+        research_time_factor = -0.02
+        
+        research_cost = 12
+
+        folder = {
+			name = statecraft_folder
+			position = { x = @ROW_4 y = @COL_5 }
+		}
+        
+        categories = {
+            statecraft_tech
+            invention_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+            
+            modifier = {
+                factor = 0
+                
+                ai_ignore_statecraft = yes
+            }
+		}
+    }
+    
+    #-----------------------------------------------------------------
+    # Encryption
+    #-----------------------------------------------------------------
+    encryption_1 = {
+        encryption = 1
+ 
+        research_cost = 12
+
+        path = {
+			leads_to_tech = encryption_2
+			research_cost_coeff = 1
+		}
+        
+        folder = {
+			name = statecraft_folder
+			position = { x = @ROW_0 y = @COL_4 }
+		}
+        
+        
+        categories = {
+            statecraft_tech
+            espionage_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+            
+            modifier = {
+                factor = 0
+                
+                ai_ignore_statecraft = yes
+            }
+		}
+        
+    }
+    encryption_2 = {
+        encryption = 1
+        
+        research_cost = 12
+
+        path = {
+			leads_to_tech = encryption_3
+			research_cost_coeff = 1
+		}
+        
+        folder = {
+			name = statecraft_folder
+			position = { x = @ROW_1 y = @COL_4 }
+		}
+        
+        
+        categories = {
+            statecraft_tech
+            espionage_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+
+            modifier = {
+                factor = 0
+                
+                ai_ignore_statecraft = yes
+            }
+		}
+    }
+    encryption_3 = {
+        encryption = 1
+        
+        research_cost = 12
+
+        folder = {
+			name = statecraft_folder
+			position = { x = @ROW_2 y = @COL_4 }
+		}
+        
+        path = {
+			leads_to_tech = encryption_4
+			research_cost_coeff = 1
+		}
+        
+        categories = {
+            statecraft_tech
+            espionage_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+            
+            modifier = {
+                factor = 0
+                
+                ai_ignore_statecraft = yes
+            }
+		}
+    }
+    
+    encryption_4 = {
+        encryption = 1
+        
+        research_cost = 12
+
+        folder = {
+			name = statecraft_folder
+			position = { x = @ROW_3 y = @COL_4 }
+		}
+        
+        path = {
+			leads_to_tech = encryption_5
+			research_cost_coeff = 1
+		}
+        
+        categories = {
+            statecraft_tech
+            espionage_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+            
+            modifier = {
+                factor = 0
+                
+                ai_ignore_statecraft = yes
+            }
+		}
+    }
+    
+    encryption_5 = {
+        encryption = 1
+        
+        research_cost = 12
+
+        folder = {
+			name = statecraft_folder
+			position = { x = @ROW_4 y = @COL_4 }
+		}
+        
+        categories = {
+            statecraft_tech
+            espionage_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+            
+            modifier = {
+                factor = 0
+                
+                ai_ignore_statecraft = yes
+            }
+		}
+    }
+    
+    #-----------------------------------------------------------------
+    # Decryption
+    #-----------------------------------------------------------------
+    decryption_1 = {
+        decryption = 1
+ 
+        research_cost = 12
+
+        path = {
+			leads_to_tech = decryption_2
+			research_cost_coeff = 1
+		}
+        
+        folder = {
+			name = statecraft_folder
+			position = { x = @ROW_0 y = @COL_6 }
+		}
+        
+        
+        categories = {
+            statecraft_tech
+            espionage_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+            
+            modifier = {
+                factor = 0
+                
+                ai_ignore_statecraft = yes
+            }
+		}
+        
+    }
+    decryption_2 = {
+        decryption = 1
+        
+        research_cost = 12
+
+        path = {
+			leads_to_tech = decryption_3
+			research_cost_coeff = 1
+		}
+        
+        folder = {
+			name = statecraft_folder
+			position = { x = @ROW_1 y = @COL_6 }
+		}
+        
+        
+        categories = {
+            statecraft_tech
+            espionage_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+
+            modifier = {
+                factor = 0
+                
+                ai_ignore_statecraft = yes
+            }
+		}
+    }
+    decryption_3 = {
+        decryption = 1
+        
+        research_cost = 12
+
+        folder = {
+			name = statecraft_folder
+			position = { x = @ROW_2 y = @COL_6 }
+		}
+        
+        path = {
+			leads_to_tech = decryption_4
+			research_cost_coeff = 1
+		}
+        
+        categories = {
+            statecraft_tech
+            espionage_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+            
+            modifier = {
+                factor = 0
+                
+                ai_ignore_statecraft = yes
+            }
+		}
+    }
+    
+    decryption_4 = {
+        decryption = 1
+        
+        research_cost = 12
+
+        folder = {
+			name = statecraft_folder
+			position = { x = @ROW_3 y = @COL_6 }
+		}
+        
+        path = {
+			leads_to_tech = decryption_5
+			research_cost_coeff = 1
+		}
+        
+        categories = {
+            statecraft_tech
+            espionage_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+            
+            modifier = {
+                factor = 0
+                
+                ai_ignore_statecraft = yes
+            }
+		}
+    }
+    
+    decryption_5 = {
+        decryption = 1
+        
+        research_cost = 12
+
+        folder = {
+			name = statecraft_folder
+			position = { x = @ROW_4 y = @COL_6 }
+		}
+        
+        categories = {
+            statecraft_tech
+            espionage_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+            
+            modifier = {
+                factor = 0
+                
+                ai_ignore_statecraft = yes
+            }
+		}
+    }
+    
+    #-----------------------------------------------------------------
+    # Command Power
+    #-----------------------------------------------------------------
+    command_power_1 = {
+        command_power_gain = 1
+ 
+        research_cost = 12
+
+        path = {
+			leads_to_tech = command_power_2
+			research_cost_coeff = 1
+		}
+        path = {
+			leads_to_tech = drift_defence_1
+			research_cost_coeff = 1
+		}
+        path = {
+			leads_to_tech = opinion_gain_1
+			research_cost_coeff = 1
+		}
+        
+        folder = {
+			name = statecraft_folder
+			position = { x = @ROW_0 y = @COL_9 }
+		}
+        
+        
+        categories = {
+            statecraft_tech
+            diplomacy_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+            
+            modifier = {
+                factor = 0
+                
+                ai_ignore_statecraft = yes
+            }
+		}
+        
+    }
+    command_power_2 = {
+        command_power_gain = 1
+        
+        research_cost = 12
+
+        path = {
+			leads_to_tech = command_power_3
+			research_cost_coeff = 1
+		}
+        
+        folder = {
+			name = statecraft_folder
+			position = { x = @ROW_1 y = @COL_9 }
+		}
+        
+        
+        categories = {
+            statecraft_tech
+            diplomacy_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+
+            modifier = {
+                factor = 0
+                
+                ai_ignore_statecraft = yes
+            }
+		}
+    }
+    command_power_3 = {
+        command_power_gain = 1
+        
+        research_cost = 12
+
+        folder = {
+			name = statecraft_folder
+			position = { x = @ROW_2 y = @COL_9 }
+		}
+        
+        path = {
+			leads_to_tech = command_power_4
+			research_cost_coeff = 1
+		}
+        
+        categories = {
+            statecraft_tech
+            diplomacy_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+            
+            modifier = {
+                factor = 0
+                
+                ai_ignore_statecraft = yes
+            }
+		}
+    }
+    
+    command_power_4 = {
+        command_power_gain = 1
+        
+        research_cost = 12
+
+        folder = {
+			name = statecraft_folder
+			position = { x = @ROW_3 y = @COL_9 }
+		}
+        
+        path = {
+			leads_to_tech = command_power_5
+			research_cost_coeff = 1
+		}
+        
+        categories = {
+            statecraft_tech
+            diplomacy_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+            
+            modifier = {
+                factor = 0
+                
+                ai_ignore_statecraft = yes
+            }
+		}
+    }
+    
+    command_power_5 = {
+        command_power_gain = 1
+        
+        research_cost = 12
+
+        folder = {
+			name = statecraft_folder
+			position = { x = @ROW_4 y = @COL_9 }
+		}
+        
+        categories = {
+            statecraft_tech
+            diplomacy_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+            
+            modifier = {
+                factor = 0
+                
+                ai_ignore_statecraft = yes
+            }
+		}
+    }
+    
+    #-----------------------------------------------------------------
+    # Drift Defence
+    #-----------------------------------------------------------------
+    drift_defence_1 = {
+        drift_defence_factor = 0.05
+ 
+        research_cost = 12
+
+        path = {
+			leads_to_tech = drift_defence_2
+			research_cost_coeff = 1
+		}
+        
+        folder = {
+			name = statecraft_folder
+			position = { x = @ROW_0 y = @COL_8 }
+		}
+        
+        
+        categories = {
+            statecraft_tech
+            diplomacy_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+            
+            modifier = {
+                factor = 0
+                
+                ai_ignore_statecraft = yes
+            }
+		}
+        
+    }
+    drift_defence_2 = {
+        drift_defence_factor = 0.05
+        
+        research_cost = 12
+
+        path = {
+			leads_to_tech = drift_defence_3
+			research_cost_coeff = 1
+		}
+        
+        folder = {
+			name = statecraft_folder
+			position = { x = @ROW_1 y = @COL_8 }
+		}
+        
+        
+        categories = {
+            statecraft_tech
+            diplomacy_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+
+            modifier = {
+                factor = 0
+                
+                ai_ignore_statecraft = yes
+            }
+		}
+    }
+    drift_defence_3 = {
+        drift_defence_factor = 0.05
+        
+        research_cost = 12
+
+        folder = {
+			name = statecraft_folder
+			position = { x = @ROW_2 y = @COL_8 }
+		}
+        
+        path = {
+			leads_to_tech = drift_defence_4
+			research_cost_coeff = 1
+		}
+        
+        categories = {
+            statecraft_tech
+            diplomacy_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+            
+            modifier = {
+                factor = 0
+                
+                ai_ignore_statecraft = yes
+            }
+		}
+    }
+    
+    drift_defence_4 = {
+        drift_defence_factor = 0.05
+        
+        research_cost = 12
+
+        folder = {
+			name = statecraft_folder
+			position = { x = @ROW_3 y = @COL_8 }
+		}
+        
+        path = {
+			leads_to_tech = drift_defence_5
+			research_cost_coeff = 1
+		}
+        
+        categories = {
+            statecraft_tech
+            diplomacy_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+            
+            modifier = {
+                factor = 0
+                
+                ai_ignore_statecraft = yes
+            }
+		}
+    }
+    
+    drift_defence_5 = {
+        drift_defence_factor = 0.05
+        
+        research_cost = 12
+
+        folder = {
+			name = statecraft_folder
+			position = { x = @ROW_4 y = @COL_8 }
+		}
+        
+        categories = {
+            statecraft_tech
+            diplomacy_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+            
+            modifier = {
+                factor = 0
+                
+                ai_ignore_statecraft = yes
+            }
+		}
+    }
+    
+    #-----------------------------------------------------------------
+    # Opinion Gain
+    #-----------------------------------------------------------------
+    opinion_gain_1 = {
+        opinion_gain_monthly_factor = 0.05
+ 
+        research_cost = 12
+
+        path = {
+			leads_to_tech = opinion_gain_2
+			research_cost_coeff = 1
+		}
+        
+        folder = {
+			name = statecraft_folder
+			position = { x = @ROW_0 y = @COL_10 }
+		}
+        
+        
+        categories = {
+            statecraft_tech
+            diplomacy_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+            
+            modifier = {
+                factor = 0
+                
+                ai_ignore_statecraft = yes
+            }
+		}
+        
+    }
+    opinion_gain_2 = {
+        opinion_gain_monthly_factor = 0.05
+        
+        research_cost = 12
+
+        path = {
+			leads_to_tech = opinion_gain_3
+			research_cost_coeff = 1
+		}
+        
+        folder = {
+			name = statecraft_folder
+			position = { x = @ROW_1 y = @COL_10 }
+		}
+        
+        
+        categories = {
+            statecraft_tech
+            diplomacy_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+
+            modifier = {
+                factor = 0
+                
+                ai_ignore_statecraft = yes
+            }
+		}
+    }
+    opinion_gain_3 = {
+        opinion_gain_monthly_factor = 0.05
+        
+        research_cost = 12
+
+        folder = {
+			name = statecraft_folder
+			position = { x = @ROW_2 y = @COL_10 }
+		}
+        
+        path = {
+			leads_to_tech = opinion_gain_4
+			research_cost_coeff = 1
+		}
+        
+        categories = {
+            statecraft_tech
+            diplomacy_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+            
+            modifier = {
+                factor = 0
+                
+                ai_ignore_statecraft = yes
+            }
+		}
+    }
+    
+    opinion_gain_4 = {
+        opinion_gain_monthly_factor = 0.05
+        
+        research_cost = 12
+
+        folder = {
+			name = statecraft_folder
+			position = { x = @ROW_3 y = @COL_10 }
+		}
+        
+        path = {
+			leads_to_tech = opinion_gain_5
+			research_cost_coeff = 1
+		}
+        
+        categories = {
+            statecraft_tech
+            diplomacy_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+            
+            modifier = {
+                factor = 0
+                
+                ai_ignore_statecraft = yes
+            }
+		}
+    }
+    
+    opinion_gain_5 = {
+        opinion_gain_monthly_factor = 0.05
+        
+        research_cost = 12
+
+        folder = {
+			name = statecraft_folder
+			position = { x = @ROW_4 y = @COL_10 }
+		}
+        
+        categories = {
+            statecraft_tech
+            diplomacy_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+            
+            modifier = {
+                factor = 0
+                
+                ai_ignore_statecraft = yes
+            }
+		}
+    }
+    
+    #-----------------------------------------------------------------
+    # Espionage
+    #-----------------------------------------------------------------
+    espionage_1 = {
+        on_research_complete = {
+            custom_effect_tooltip = espionage_1_desc
+            set_variable = { destabilize_nation_allow = 1 }
+        }
+ 
+        research_cost = 12
+
+        path = {
+			leads_to_tech = espionage_2
+			research_cost_coeff = 1
+		}
+        path = {
+			leads_to_tech = network_growth_1
+			research_cost_coeff = 1
+		}
+        path = {
+			leads_to_tech = action_growth_1
+			research_cost_coeff = 1
+		}
+        
+        folder = {
+			name = statecraft_folder
+			position = { x = @ROW_5 y = @COL_3 }
+		}
+        
+        
+        categories = {
+            statecraft_tech
+            espionage_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+            
+            modifier = {
+                factor = 0
+                
+                ai_ignore_statecraft = yes
+            }
+		}
+        
+    }
+    espionage_2 = {
+        on_research_complete = {
+            custom_effect_tooltip = espionage_2_desc
+            set_variable = { sabotage_operations_allow = 1 }
+        }
+        
+        research_cost = 12
+
+        path = {
+			leads_to_tech = espionage_3
+			research_cost_coeff = 1
+		}
+        
+        folder = {
+			name = statecraft_folder
+			position = { x = @ROW_6 y = @COL_3 }
+		}
+        
+        
+        categories = {
+            statecraft_tech
+            espionage_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+
+            modifier = {
+                factor = 0
+                
+                ai_ignore_statecraft = yes
+            }
+		}
+    }
+    espionage_3 = {
+        on_research_complete = {
+            custom_effect_tooltip = espionage_3_desc
+            set_variable = { aquire_army_intel_allow = 1 }
+            set_variable = { aquire_aviation_intel_allow = 1 }
+            set_variable = { aquire_naval_intel_allow = 1 }
+        }
+        
+        research_cost = 12
+
+        folder = {
+			name = statecraft_folder
+			position = { x = @ROW_7 y = @COL_3 }
+		}
+        
+        path = {
+			leads_to_tech = espionage_4
+			research_cost_coeff = 1
+		}
+        
+        categories = {
+            statecraft_tech
+            espionage_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+            
+            modifier = {
+                factor = 0
+                
+                ai_ignore_statecraft = yes
+            }
+		}
+    }
+    
+    espionage_4 = {
+        on_research_complete = {
+            custom_effect_tooltip = espionage_4_desc
+            set_variable = { sabotage_industry_allow = 1 }
+        }
+        
+        research_cost = 12
+
+        folder = {
+			name = statecraft_folder
+			position = { x = @ROW_8 y = @COL_3 }
+		}
+        
+        path = {
+			leads_to_tech = espionage_5
+			research_cost_coeff = 1
+		}
+        
+        categories = {
+            statecraft_tech
+            espionage_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+            
+            modifier = {
+                factor = 0
+                
+                ai_ignore_statecraft = yes
+            }
+		}
+    }
+    
+    espionage_5 = {
+        on_research_complete = {
+            custom_effect_tooltip = espionage_5_desc
+            set_variable = { assassinate_mil_leader_allow = 1 }
+        }
+        
+        research_cost = 12
+
+        folder = {
+			name = statecraft_folder
+			position = { x = @ROW_9 y = @COL_3 }
+		}
+        
+        categories = {
+            statecraft_tech
+            espionage_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+            
+            modifier = {
+                factor = 0
+                
+                ai_ignore_statecraft = yes
+            }
+		}
+    }
+    
+    #-----------------------------------------------------------------
+    # Network Growth
+    #-----------------------------------------------------------------
+    network_growth_1 = {
+        on_research_complete = {
+            custom_effect_tooltip = network_growth_1_desc
+            add_to_variable = { spy_network_growth_multiplier = 0.2 }
+        }
+ 
+        research_cost = 12
+
+        path = {
+			leads_to_tech = network_growth_2
+			research_cost_coeff = 1
+		}
+        
+        folder = {
+			name = statecraft_folder
+			position = { x = @ROW_5 y = @COL_2 }
+		}
+        
+        
+        categories = {
+            statecraft_tech
+            espionage_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+            
+            modifier = {
+                factor = 0
+                
+                ai_ignore_statecraft = yes
+            }
+		}
+        
+    }
+    network_growth_2 = {
+        on_research_complete = {
+            custom_effect_tooltip = network_growth_2_desc
+            add_to_variable = { spy_network_growth_multiplier = 0.2 }
+        }
+        
+        research_cost = 12
+
+        path = {
+			leads_to_tech = network_growth_3
+			research_cost_coeff = 1
+		}
+        
+        folder = {
+			name = statecraft_folder
+			position = { x = @ROW_6 y = @COL_2 }
+		}
+        
+        
+        categories = {
+            statecraft_tech
+            espionage_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+
+            modifier = {
+                factor = 0
+                
+                ai_ignore_statecraft = yes
+            }
+		}
+    }
+    network_growth_3 = {
+        on_research_complete = {
+            custom_effect_tooltip = network_growth_3_desc
+            add_to_variable = { spy_network_growth_multiplier = 0.2 }
+        }
+        
+        research_cost = 12
+
+        folder = {
+			name = statecraft_folder
+			position = { x = @ROW_7 y = @COL_2 }
+		}
+        
+        path = {
+			leads_to_tech = network_growth_4
+			research_cost_coeff = 1
+		}
+        
+        categories = {
+            statecraft_tech
+            espionage_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+            
+            modifier = {
+                factor = 0
+                
+                ai_ignore_statecraft = yes
+            }
+		}
+    }
+    
+    network_growth_4 = {
+        on_research_complete = {
+            custom_effect_tooltip = network_growth_4_desc
+            add_to_variable = { spy_network_growth_multiplier = 0.2 }
+        }
+        
+        research_cost = 12
+
+        folder = {
+			name = statecraft_folder
+			position = { x = @ROW_8 y = @COL_2 }
+		}
+        
+        path = {
+			leads_to_tech = network_growth_5
+			research_cost_coeff = 1
+		}
+        
+        categories = {
+            statecraft_tech
+            espionage_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+            
+            modifier = {
+                factor = 0
+                
+                ai_ignore_statecraft = yes
+            }
+		}
+    }
+    
+    network_growth_5 = {
+        on_research_complete = {
+            custom_effect_tooltip = network_growth_5_desc
+            add_to_variable = { spy_network_growth_multiplier = 0.2 }
+        }
+        
+        research_cost = 12
+
+        folder = {
+			name = statecraft_folder
+			position = { x = @ROW_9 y = @COL_2 }
+		}
+        
+        categories = {
+            statecraft_tech
+            espionage_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+            
+            modifier = {
+                factor = 0
+                
+                ai_ignore_statecraft = yes
+            }
+		}
+    }
+    
+    #-----------------------------------------------------------------
+    # Action Growth
+    #-----------------------------------------------------------------
+    action_growth_1 = {
+        on_research_complete = {
+            custom_effect_tooltip = action_growth_1_desc
+            add_to_variable = { action_growth_multiplier = 0.2 }
+        }
+ 
+        research_cost = 12
+
+        path = {
+			leads_to_tech = action_growth_2
+			research_cost_coeff = 1
+		}
+        
+        folder = {
+			name = statecraft_folder
+			position = { x = @ROW_5 y = @COL_4 }
+		}
+        
+        
+        categories = {
+            statecraft_tech
+            espionage_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+            
+            modifier = {
+                factor = 0
+                
+                ai_ignore_statecraft = yes
+            }
+		}
+        
+    }
+    action_growth_2 = {
+        on_research_complete = {
+            custom_effect_tooltip = action_growth_2_desc
+            add_to_variable = { action_growth_multiplier = 0.2 }
+        }
+        
+        research_cost = 12
+
+        path = {
+			leads_to_tech = action_growth_3
+			research_cost_coeff = 1
+		}
+        
+        folder = {
+			name = statecraft_folder
+			position = { x = @ROW_6 y = @COL_4 }
+		}
+        
+        
+        categories = {
+            statecraft_tech
+            espionage_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+
+            modifier = {
+                factor = 0
+                
+                ai_ignore_statecraft = yes
+            }
+		}
+    }
+    action_growth_3 = {
+        on_research_complete = {
+            custom_effect_tooltip = action_growth_3_desc
+            add_to_variable = { action_growth_multiplier = 0.2 }
+        }
+        
+        research_cost = 12
+
+        folder = {
+			name = statecraft_folder
+			position = { x = @ROW_7 y = @COL_4 }
+		}
+        
+        path = {
+			leads_to_tech = action_growth_4
+			research_cost_coeff = 1
+		}
+        
+        categories = {
+            statecraft_tech
+            espionage_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+            
+            modifier = {
+                factor = 0
+                
+                ai_ignore_statecraft = yes
+            }
+		}
+    }
+    
+    action_growth_4 = {
+        on_research_complete = {
+            custom_effect_tooltip = action_growth_4_desc
+            add_to_variable = { action_growth_multiplier = 0.2 }
+        }
+        
+        research_cost = 12
+
+        folder = {
+			name = statecraft_folder
+			position = { x = @ROW_8 y = @COL_4 }
+		}
+        
+        path = {
+			leads_to_tech = action_growth_5
+			research_cost_coeff = 1
+		}
+        
+        categories = {
+            statecraft_tech
+            espionage_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+            
+            modifier = {
+                factor = 0
+                
+                ai_ignore_statecraft = yes
+            }
+		}
+    }
+    
+    action_growth_5 = {
+        on_research_complete = {
+            custom_effect_tooltip = action_growth_5_desc
+            add_to_variable = { action_growth_multiplier = 0.2 }
+        }
+        
+        research_cost = 12
+
+        folder = {
+			name = statecraft_folder
+			position = { x = @ROW_9 y = @COL_4 }
+		}
+        
+        categories = {
+            statecraft_tech
+            espionage_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+            
+            modifier = {
+                factor = 0
+                
+                ai_ignore_statecraft = yes
+            }
+		}
+    }
+    
+    #-----------------------------------------------------------------
+    # Faith Growth
+    #-----------------------------------------------------------------
+    faith_growth_1 = {
+        on_research_complete = {
+            custom_effect_tooltip = faith_growth_1_desc
+            add_to_variable = { faith_gain_multiplier = 0.2 }
+        }
+ 
+        research_cost = 12
+
+        path = {
+			leads_to_tech = faith_growth_2
+			research_cost_coeff = 1
+		}
+        path = {
+			leads_to_tech = faith_potency_1
+			research_cost_coeff = 1
+		}
+        path = {
+			leads_to_tech = faith_cost_1
+			research_cost_coeff = 1
+		}
+        
+        folder = {
+			name = statecraft_folder
+			position = { x = @ROW_5 y = @COL_7 }
+		}
+        
+        
+        categories = {
+            statecraft_tech
+            religion_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+            
+            modifier = {
+                factor = 0
+                
+                ai_ignore_statecraft = yes
+            }
+		}
+        
+    }
+    faith_growth_2 = {
+        on_research_complete = {
+            custom_effect_tooltip = faith_growth_2_desc
+            add_to_variable = { faith_gain_multiplier = 0.2 }
+        }
+        
+        research_cost = 12
+
+        path = {
+			leads_to_tech = faith_growth_3
+			research_cost_coeff = 1
+		}
+        
+        folder = {
+			name = statecraft_folder
+			position = { x = @ROW_6 y = @COL_7 }
+		}
+        
+        
+        categories = {
+            statecraft_tech
+            religion_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+
+            modifier = {
+                factor = 0
+                
+                ai_ignore_statecraft = yes
+            }
+		}
+    }
+    faith_growth_3 = {
+        on_research_complete = {
+            custom_effect_tooltip = faith_growth_3_desc
+            add_to_variable = { faith_gain_multiplier = 0.2 }
+        }
+        
+        research_cost = 12
+
+        folder = {
+			name = statecraft_folder
+			position = { x = @ROW_7 y = @COL_7 }
+		}
+        
+        path = {
+			leads_to_tech = faith_growth_4
+			research_cost_coeff = 1
+		}
+        
+        categories = {
+            statecraft_tech
+            religion_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+            
+            modifier = {
+                factor = 0
+                
+                ai_ignore_statecraft = yes
+            }
+		}
+    }
+    
+    faith_growth_4 = {
+        on_research_complete = {
+            custom_effect_tooltip = faith_growth_4_desc
+            add_to_variable = { faith_gain_multiplier = 0.2 }
+        }
+        
+        research_cost = 12
+
+        folder = {
+			name = statecraft_folder
+			position = { x = @ROW_8 y = @COL_7 }
+		}
+        
+        path = {
+			leads_to_tech = faith_growth_5
+			research_cost_coeff = 1
+		}
+        
+        categories = {
+            statecraft_tech
+            religion_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+            
+            modifier = {
+                factor = 0
+                
+                ai_ignore_statecraft = yes
+            }
+		}
+    }
+    
+    faith_growth_5 = {
+        on_research_complete = {
+            custom_effect_tooltip = faith_growth_5_desc
+            add_to_variable = { faith_gain_multiplier = 0.2 }
+        }
+        
+        research_cost = 12
+
+        folder = {
+			name = statecraft_folder
+			position = { x = @ROW_9 y = @COL_7 }
+		}
+        
+        categories = {
+            statecraft_tech
+            religion_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+            
+            modifier = {
+                factor = 0
+                
+                ai_ignore_statecraft = yes
+            }
+		}
+    }
+    
+    #-----------------------------------------------------------------
+    # Faith Potency
+    #-----------------------------------------------------------------
+    faith_potency_1 = {
+        on_research_complete = {
+            custom_effect_tooltip = faith_potency_1_desc
+            add_to_variable = { faith_action_multiplier = 2 }
+        }
+ 
+        research_cost = 12
+
+        path = {
+			leads_to_tech = faith_potency_2
+			research_cost_coeff = 1
+		}
+        
+        folder = {
+			name = statecraft_folder
+			position = { x = @ROW_5 y = @COL_6 }
+		}
+        
+        
+        categories = {
+            statecraft_tech
+            religion_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+            
+            modifier = {
+                factor = 0
+                
+                ai_ignore_statecraft = yes
+            }
+		}
+        
+    }
+    faith_potency_2 = {
+        on_research_complete = {
+            custom_effect_tooltip = faith_potency_2_desc
+            add_to_variable = { faith_action_multiplier = 3 }
+        }
+        
+        research_cost = 12
+
+        path = {
+			leads_to_tech = faith_potency_3
+			research_cost_coeff = 1
+		}
+        
+        folder = {
+			name = statecraft_folder
+			position = { x = @ROW_6 y = @COL_6 }
+		}
+        
+        
+        categories = {
+            statecraft_tech
+            religion_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+
+            modifier = {
+                factor = 0
+                
+                ai_ignore_statecraft = yes
+            }
+		}
+    }
+    faith_potency_3 = {
+        on_research_complete = {
+            custom_effect_tooltip = faith_potency_3_desc
+            add_to_variable = { faith_action_multiplier = 4 }
+        }
+        
+        research_cost = 12
+
+        folder = {
+			name = statecraft_folder
+			position = { x = @ROW_7 y = @COL_6 }
+		}
+        
+        path = {
+			leads_to_tech = faith_potency_4
+			research_cost_coeff = 1
+		}
+        
+        categories = {
+            statecraft_tech
+            religion_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+            
+            modifier = {
+                factor = 0
+                
+                ai_ignore_statecraft = yes
+            }
+		}
+    }
+    
+    faith_potency_4 = {
+        on_research_complete = {
+            custom_effect_tooltip = faith_potency_4_desc
+            add_to_variable = { faith_action_multiplier = 5 }
+        }
+        
+        research_cost = 12
+
+        folder = {
+			name = statecraft_folder
+			position = { x = @ROW_8 y = @COL_6 }
+		}
+        
+        path = {
+			leads_to_tech = faith_potency_5
+			research_cost_coeff = 1
+		}
+        
+        categories = {
+            statecraft_tech
+            religion_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+            
+            modifier = {
+                factor = 0
+                
+                ai_ignore_statecraft = yes
+            }
+		}
+    }
+    
+    faith_potency_5 = {
+        on_research_complete = {
+            custom_effect_tooltip = faith_potency_5_desc
+            add_to_variable = { faith_action_multiplier = 6 }
+        }
+        
+        research_cost = 12
+
+        folder = {
+			name = statecraft_folder
+			position = { x = @ROW_9 y = @COL_6 }
+		}
+        
+        categories = {
+            statecraft_tech
+            religion_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+            
+            modifier = {
+                factor = 0
+                
+                ai_ignore_statecraft = yes
+            }
+		}
+    }
+    
+    #-----------------------------------------------------------------
+    # Faith Cost
+    #-----------------------------------------------------------------
+    faith_cost_1 = {
+        on_research_complete = {
+            custom_effect_tooltip = faith_cost_1_desc
+            subtract_from_variable = { faith_action_1_cost = 10 }
+            subtract_from_variable = { faith_action_2_cost = 10 }
+            subtract_from_variable = { faith_action_3_cost = 10 }
+            subtract_from_variable = { faith_action_4_cost = 10 }
+            subtract_from_variable = { faith_action_5_cost = 10 }
+            
+            if = {
+                limit = {
+                    OR = {
+                        has_arcane = yes
+                        has_technomancy = yes
+                    }
+                }
+                subtract_from_variable = { faith_action_6_cost = 100 }
+            }
+            else = {
+                subtract_from_variable = { faith_action_6_cost = 10 }
+            }
+        }
+ 
+        research_cost = 12
+
+        path = {
+			leads_to_tech = faith_cost_2
+			research_cost_coeff = 1
+		}
+        
+        folder = {
+			name = statecraft_folder
+			position = { x = @ROW_5 y = @COL_8 }
+		}
+        
+        
+        categories = {
+            statecraft_tech
+            religion_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+            
+            modifier = {
+                factor = 0
+                
+                ai_ignore_statecraft = yes
+            }
+		}
+        
+    }
+    faith_cost_2 = {
+        on_research_complete = {
+            custom_effect_tooltip = faith_cost_2_desc
+            subtract_from_variable = { faith_action_1_cost = 10 }
+            subtract_from_variable = { faith_action_2_cost = 10 }
+            subtract_from_variable = { faith_action_3_cost = 10 }
+            subtract_from_variable = { faith_action_4_cost = 10 }
+            subtract_from_variable = { faith_action_5_cost = 10 }
+            
+            if = {
+                limit = {
+                    OR = {
+                        has_arcane = yes
+                        has_technomancy = yes
+                    }
+                }
+                subtract_from_variable = { faith_action_6_cost = 100 }
+            }
+            else = {
+                subtract_from_variable = { faith_action_6_cost = 10 }
+            }
+        }
+        
+        research_cost = 12
+
+        path = {
+			leads_to_tech = faith_cost_3
+			research_cost_coeff = 1
+		}
+        
+        folder = {
+			name = statecraft_folder
+			position = { x = @ROW_6 y = @COL_8 }
+		}
+        
+        
+        categories = {
+            statecraft_tech
+            religion_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+
+            modifier = {
+                factor = 0
+                
+                ai_ignore_statecraft = yes
+            }
+		}
+    }
+    faith_cost_3 = {
+        on_research_complete = {
+            custom_effect_tooltip = faith_cost_3_desc
+            subtract_from_variable = { faith_action_1_cost = 10 }
+            subtract_from_variable = { faith_action_2_cost = 10 }
+            subtract_from_variable = { faith_action_3_cost = 10 }
+            subtract_from_variable = { faith_action_4_cost = 10 }
+            subtract_from_variable = { faith_action_5_cost = 10 }
+            
+            if = {
+                limit = {
+                    OR = {
+                        has_arcane = yes
+                        has_technomancy = yes
+                    }
+                }
+                subtract_from_variable = { faith_action_6_cost = 100 }
+            }
+            else = {
+                subtract_from_variable = { faith_action_6_cost = 10 }
+            }
+        }
+        
+        research_cost = 12
+
+        folder = {
+			name = statecraft_folder
+			position = { x = @ROW_7 y = @COL_8 }
+		}
+        
+        path = {
+			leads_to_tech = faith_cost_4
+			research_cost_coeff = 1
+		}
+        
+        categories = {
+            statecraft_tech
+            religion_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+            
+            modifier = {
+                factor = 0
+                
+                ai_ignore_statecraft = yes
+            }
+		}
+    }
+    
+    faith_cost_4 = {
+        on_research_complete = {
+            custom_effect_tooltip = faith_cost_4_desc
+            subtract_from_variable = { faith_action_1_cost = 10 }
+            subtract_from_variable = { faith_action_2_cost = 10 }
+            subtract_from_variable = { faith_action_3_cost = 10 }
+            subtract_from_variable = { faith_action_4_cost = 10 }
+            subtract_from_variable = { faith_action_5_cost = 10 }
+            
+            if = {
+                limit = {
+                    OR = {
+                        has_arcane = yes
+                        has_technomancy = yes
+                    }
+                }
+                subtract_from_variable = { faith_action_6_cost = 100 }
+            }
+            else = {
+                subtract_from_variable = { faith_action_6_cost = 10 }
+            }
+        }
+        
+        research_cost = 12
+
+        folder = {
+			name = statecraft_folder
+			position = { x = @ROW_8 y = @COL_8 }
+		}
+        
+        path = {
+			leads_to_tech = faith_cost_5
+			research_cost_coeff = 1
+		}
+        
+        categories = {
+            statecraft_tech
+            religion_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+            
+            modifier = {
+                factor = 0
+                
+                ai_ignore_statecraft = yes
+            }
+		}
+    }
+    
+    faith_cost_5 = {
+        on_research_complete = {
+            custom_effect_tooltip = faith_cost_5_desc
+            subtract_from_variable = { faith_action_1_cost = 10 }
+            subtract_from_variable = { faith_action_2_cost = 10 }
+            subtract_from_variable = { faith_action_3_cost = 10 }
+            subtract_from_variable = { faith_action_4_cost = 10 }
+            subtract_from_variable = { faith_action_5_cost = 10 }
+            
+            if = {
+                limit = {
+                    OR = {
+                        has_arcane = yes
+                        has_technomancy = yes
+                    }
+                }
+                subtract_from_variable = { faith_action_6_cost = 100 }
+            }
+            else = {
+                subtract_from_variable = { faith_action_6_cost = 10 }
+            }
+        }
+        
+        research_cost = 12
+
+        folder = {
+			name = statecraft_folder
+			position = { x = @ROW_9 y = @COL_8 }
+		}
+        
+        categories = {
+            statecraft_tech
+            religion_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+            
+            modifier = {
+                factor = 0
+                
+                ai_ignore_statecraft = yes
+            }
+		}
+    }
+}

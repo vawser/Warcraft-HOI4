@@ -1,0 +1,66 @@
+state = {
+	id = 627
+	name = "RIPLASH_RUINS"
+	manpower = 865
+	state_category = island
+
+	resources = {
+		oil = 3
+		ground_beast = 6
+		flying_beast = 7
+		wood = 3
+		food = 25
+	}
+
+	history = {
+		owner = RIP
+		add_core_of = RIP
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 0
+			industrial_complex = 0
+			dockyard = 2
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			5249 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 3
+			}
+			5261 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 2
+			}
+			5346 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 7
+			}
+			5357 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 3
+			}
+		}
+	}
+
+	provinces = {
+        5249 5261 5346 5357 
+    }
+}

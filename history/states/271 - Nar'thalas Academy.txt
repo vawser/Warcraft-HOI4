@@ -1,0 +1,76 @@
+state = {
+	id = 271
+	name = "NARTHALAS_ACADEMY"
+	manpower = 8316
+	state_category = town
+
+	resources = {
+		oil = 1
+		flying_beast = 9
+		wood = 29
+		steel = 9
+		food = 19
+	}
+
+	history = {
+		owner = EYE
+		add_core_of = EYE
+
+		buildings = {
+			infrastructure = 7
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 2
+			industrial_complex = 5
+			dockyard = 4
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			7056 = {
+				bunker = 4
+				coastal_bunker = 9
+				naval_base = 8
+			}
+			7059 = {
+				bunker = 8
+				coastal_bunker = 8
+				naval_base = 3
+			}
+			7061 = {
+				bunker = 9
+				coastal_bunker = 2
+				naval_base = 4
+			}
+			7066 = {
+				bunker = 5
+				coastal_bunker = 1
+				naval_base = 3
+			}
+			7070 = {
+				bunker = 5
+				coastal_bunker = 3
+				naval_base = 9
+			}
+			7077 = {
+				bunker = 8
+				coastal_bunker = 1
+				naval_base = 4
+			}
+		}
+	}
+
+	provinces = {
+        7056 7059 7061 7066 7070 7077
+    }
+}

@@ -1,0 +1,67 @@
+state = {
+	id = 292
+	name = "BLACKBEARD_FOIL"
+	manpower = 456
+	state_category = rural
+
+	resources = {
+		oil = 1
+		ground_beast = 8
+		flying_beast = 3
+		wood = 17
+		steel = 9
+		food = 3
+	}
+
+	history = {
+		owner = BLO
+        add_core_of = BLO
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 2
+			industrial_complex = 0
+			dockyard = 1
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			7142 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 7
+			}
+			7144 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 8
+			}
+			7145 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 9
+			}
+			7146 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 5
+			}
+		}
+	}
+
+	provinces = {
+        7142 7144 7145 7146 
+    }
+}

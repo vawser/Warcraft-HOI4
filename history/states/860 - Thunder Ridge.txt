@@ -1,0 +1,60 @@
+state = {
+	id = 860
+	name = "THUNDER_RIDGE"
+	manpower = 574
+	state_category = rural
+
+	resources = {
+		oil = 2
+		ground_beast = 7
+		flying_beast = 9
+		wood = 1
+		steel = 7
+		food = 28
+	}
+
+	history = {
+		owner = RAZ
+		add_core_of = RAZ
+        
+        612.1.1 = {
+            owner = ORG
+            add_core_of = ORG
+        }
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 1
+			industrial_complex = 0
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			4940 = {
+				bunker = 0
+			}
+			5001 = {
+				bunker = 0
+			}
+			5021 = {
+				bunker = 0
+			}
+			5057 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        4940 5001 5021 5057 
+    }
+}

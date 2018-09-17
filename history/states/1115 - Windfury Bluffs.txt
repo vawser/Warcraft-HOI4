@@ -1,0 +1,54 @@
+state = {
+	id = 1115
+	name = "WINDFURY_BLUFFS"
+	manpower = 2100
+	state_category = village
+
+	resources = {
+		oil = 2
+		flying_beast = 5
+		wood = 1
+		steel = 8
+		food = 20
+	}
+
+	history = {
+		owner = WFY
+		add_core_of = WFY
+
+		buildings = {
+			infrastructure = 3
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 5
+			industrial_complex = 2
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			4973 = {
+				bunker = 0
+			}
+			5052 = {
+				bunker = 0
+			}
+			5071 = {
+				bunker = 0
+			}
+			4934 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        4973 5052 5071 4934
+    }
+}

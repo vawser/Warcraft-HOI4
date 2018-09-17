@@ -1,0 +1,58 @@
+state = {
+	id = 955
+	name = "SHRINE_OF_GOLDRINN"
+	manpower = 2553
+	state_category = village
+
+	resources = {
+		oil = 3
+		ground_beast = 7
+		flying_beast = 4
+		wood = 11
+		steel = 3
+		food = 13
+	}
+
+	history = {
+		owner = SEN
+		add_core_of = SEN
+
+		buildings = {
+			infrastructure = 4
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 6
+			industrial_complex = 2
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			3654 = {
+				bunker = 0
+			}
+			3669 = {
+				bunker = 0
+			}
+			3684 = {
+				bunker = 0
+			}
+			3788 = {
+				bunker = 0
+			}
+			3803 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        3654 3669 3684 3788 3803 
+    }
+}

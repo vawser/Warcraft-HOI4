@@ -1,0 +1,14 @@
+defined_text = { 
+	name = GetCoreState
+
+    text = {
+		trigger = {
+			is_core_of = ROOT
+		}
+		localization_key = ALREADY_CORE
+	}
+    text = {
+		localization_key = CAN_CORE
+	}
+}
+

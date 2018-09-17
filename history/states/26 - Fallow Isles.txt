@@ -1,0 +1,84 @@
+state = {
+	id = 26
+	name = "FALLOW_ISLES"
+	manpower = 873
+	state_category = island
+
+	resources = {
+		oil = 10
+		ground_beast = 7
+		flying_beast = 5
+		wood = 9
+		steel = 3
+		food = 4
+	}
+
+	history = {
+		owner = ATL
+        add_core_of = ATL
+
+        # The Second War
+        597.1.1 = {
+            owner = TTH
+            add_core_of = TTH
+        }
+        
+        # The Third War
+        612.1.1 = {
+            owner = LSO
+            add_core_of = LSO
+        }
+        
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 1
+			industrial_complex = 0
+			dockyard = 1
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			1770 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 3
+			}
+			1773 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 8
+			}
+			1775 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 8
+			}
+			1797 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 5
+			}
+			1800 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 6
+			}
+		}
+	}
+
+	provinces = {
+        1770 1773 1775 1797 1800 
+    }
+}

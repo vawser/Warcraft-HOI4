@@ -1,0 +1,285 @@
+defined_text = { 
+	name = GetRace
+
+    text = {
+		trigger = {
+			is_human = yes
+		}
+		localization_key = HUMAN
+	}
+    text = {
+		trigger = {
+			is_aqir = yes
+		}
+		localization_key = QIRAJI
+	}
+    text = {
+		trigger = {
+			is_centaur = yes
+		}
+		localization_key = CENTAUR
+	}
+    text = {
+		trigger = {
+			is_draenei = yes
+		}
+		localization_key = DRAENEI
+	}
+    text = {
+		trigger = {
+			is_dragonflight = yes
+		}
+		localization_key = DRAGONKIN
+	}
+    text = {
+		trigger = {
+			is_dwarf = yes
+		}
+		localization_key = DWARF
+	}
+    text = {
+		trigger = {
+			is_earthern = yes
+		}
+		localization_key = EARTHEN
+	}
+    text = {
+		trigger = {
+			is_dryad = yes
+		}
+		localization_key = DRYAD
+	}
+    text = {
+		trigger = {
+			is_high_elf = yes
+		}
+		localization_key = HIGH_ELF
+	}
+    text = {
+		trigger = {
+			is_blood_elf = yes
+		}
+		localization_key = BLOOD_ELF
+	}
+    text = {
+		trigger = {
+			is_night_elf = yes
+		}
+		localization_key = NIGHT_ELF
+	}
+    text = {
+		trigger = {
+			is_nightborne = yes
+		}
+		localization_key = NIGHTBORNE
+	}
+    text = {
+		trigger = {
+			is_furbolg = yes
+		}
+		localization_key = FURBOLG
+	}
+    text = {
+		trigger = {
+			is_gnoll = yes
+		}
+		localization_key = GNOLL
+	}
+    text = {
+		trigger = {
+			is_gnome = yes
+		}
+		localization_key = GNOME
+	}
+    text = {
+		trigger = {
+			is_goblin = yes
+		}
+		localization_key = GOBLIN
+	}
+    text = {
+		trigger = {
+			is_gorloc = yes
+		}
+		localization_key = GORLOC
+	}
+    text = {
+		trigger = {
+			is_harpy = yes
+		}
+		localization_key = HARPY
+	}
+    text = {
+		trigger = {
+			is_hozen = yes
+		}
+		localization_key = HOZEN
+	}
+    text = {
+		trigger = {
+			is_kobold = yes
+		}
+		localization_key = KOBOLD
+	}
+    text = {
+		trigger = {
+			is_magnataur = yes
+		}
+		localization_key = MAGNATAUR
+	}
+    text = {
+		trigger = {
+			is_mantid = yes
+		}
+		localization_key = MANTID
+	}
+    text = {
+		trigger = {
+			is_mogu = yes
+		}
+		localization_key = MOGU
+	}
+    text = {
+		trigger = {
+			is_murloc = yes
+		}
+		localization_key = MURLOC
+	}
+    text = {
+		trigger = {
+			is_nerubian = yes
+		}
+		localization_key = NERUBIAN
+	}
+    text = {
+		trigger = {
+			is_naga = yes
+		}
+		localization_key = NAGA
+	}
+    text = {
+		trigger = {
+			is_ogre = yes
+		}
+		localization_key = OGRE
+	}
+    text = {
+		trigger = {
+			is_orc = yes
+		}
+		localization_key = ORC
+	}
+    text = {
+		trigger = {
+			is_pandaren = yes
+		}
+		localization_key = PANDAREN
+	}
+    text = {
+		trigger = {
+			is_pygmy = yes
+		}
+		localization_key = PYGMY
+	}
+    text = {
+		trigger = {
+			is_quillboar = yes
+		}
+		localization_key = QUILLBOAR
+	}
+    text = {
+		trigger = {
+			is_satyr = yes
+		}
+		localization_key = SATYR
+	}
+    text = {
+		trigger = {
+			is_saurok = yes
+		}
+		localization_key = SAUROK
+	}
+    text = {
+		trigger = {
+			is_scourge = yes
+		}
+		localization_key = SCOURGE
+	}
+    text = {
+		trigger = {
+			is_sprite = yes
+		}
+		localization_key = SPRITE
+	}
+    text = {
+		trigger = {
+			is_tauren = yes
+		}
+		localization_key = TAUREN
+	}
+    text = {
+		trigger = {
+			is_taunka = yes
+		}
+		localization_key = TAUNKA
+	}
+    text = {
+		trigger = {
+			is_tolvir = yes
+		}
+		localization_key = TOLVIR
+	}
+    text = {
+		trigger = {
+			is_titan = yes
+		}
+		localization_key = TITAN
+	}
+    text = {
+		trigger = {
+			is_trogg = yes
+		}
+		localization_key = TROGG
+	}
+    text = {
+		trigger = {
+			is_troll = yes
+		}
+		localization_key = TROLL
+	}
+    text = {
+		trigger = {
+			is_tuskarr = yes
+		}
+		localization_key = TUSKARR
+	}
+    text = {
+		trigger = {
+			is_undead = yes
+		}
+		localization_key = UNDEAD
+	}
+    text = {
+		trigger = {
+			is_vrykul = yes
+		}
+		localization_key = VRYKUL
+	}
+    text = {
+		trigger = {
+			is_wolvar = yes
+		}
+		localization_key = WOLVAR
+	}
+    text = {
+		trigger = {
+			is_yaungol = yes
+		}
+		localization_key = YAUNGOL
+	}
+    
+    text = {
+		localization_key = ""
+	}
+}
+

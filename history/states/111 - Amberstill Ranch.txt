@@ -1,0 +1,62 @@
+state = {
+	id = 111
+	name = "AMBERSTILL_RANCH"
+	manpower = 3662
+	state_category = village
+
+	resources = {
+		oil = 2
+		ground_beast = 6
+		flying_beast = 5
+		wood = 18
+		steel = 3
+		food = 11
+	}
+
+	history = {
+		owner = IRO
+        add_core_of = IRO
+        
+        victory_points = {
+            2445 5
+        }
+
+		buildings = {
+			infrastructure = 3
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 4
+			industrial_complex = 5
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			2357 = {
+				bunker = 0
+			}
+			2375 = {
+				bunker = 0
+			}
+			2430 = {
+				bunker = 0
+			}
+			2445 = {
+				bunker = 0
+			}
+			3067 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        2357 2375 2430 2445 3067 
+    }
+}

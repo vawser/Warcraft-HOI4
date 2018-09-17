@@ -1,0 +1,65 @@
+state = {
+	id = 121
+	name = "CRUSHBLOW"
+	manpower = 7346
+	state_category = town
+
+	resources = {
+		oil = 3
+		ground_beast = 1
+		flying_beast = 1
+		wood = 27
+		steel = 6
+		food = 18
+	}
+
+	history = {
+		owner = JEL
+        add_core_of = JEL
+
+        victory_points = {
+            2340 10
+        }
+        
+		buildings = {
+			infrastructure = 6
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 5
+			industrial_complex = 4
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			2292 = {
+				bunker = 6
+			}
+			2307 = {
+				bunker = 5
+			}
+			2308 = {
+				bunker = 7
+			}
+			2323 = {
+				bunker = 5
+			}
+			2340 = {
+				bunker = 1
+			}
+			2443 = {
+				bunker = 1
+			}
+		}
+	}
+
+	provinces = {
+        2292 2307 2308 2323 2340 2443 
+    }
+}

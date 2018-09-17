@@ -1,0 +1,19 @@
+state = {
+	id = 210
+	name = "THE_FLORAL_VALE"
+	manpower = 14
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = STR
+
+        612.1.1 = {
+            set_state_name = THE_FUNGAL_VALE
+        }
+	}
+
+	provinces = {
+        2652 2653 2667 2668 2712 2727
+    }
+}

@@ -1,0 +1,478 @@
+spriteTypes = {	
+    spriteType = {
+		name = "GFX_event_AHN_KAHET"
+		texturefile = "gfx/event_pictures/ahnkahet.dds"
+	}
+    spriteType = {
+		name = "GFX_event_AUCHINDOUN_1"
+		texturefile = "gfx/event_pictures/auchindoun.dds"
+	}
+    spriteType = {
+		name = "GFX_event_AUCHINDOUN_2"
+		texturefile = "gfx/event_pictures/auchindoun_2.dds"
+	}
+    spriteType = {
+		name = "GFX_event_AZJOL_NERUB"
+		texturefile = "gfx/event_pictures/azjol_nerub.dds"
+	}
+    spriteType = {
+		name = "GFX_event_BARADIN_HOLD"
+		texturefile = "gfx/event_pictures/baradin_hold.dds"
+	}
+    spriteType = {
+		name = "GFX_event_BLACK_ROOK_HOLD"
+		texturefile = "gfx/event_pictures/black_rook_hold.dds"
+	}
+    spriteType = {
+		name = "GFX_event_BLACK_TEMPLE"
+		texturefile = "gfx/event_pictures/black_temple.dds"
+	}
+    spriteType = {
+		name = "GFX_event_BLACKFATHOM_DEEPS"
+		texturefile = "gfx/event_pictures/blackfathom_deeps.dds"
+	}
+    spriteType = {
+		name = "GFX_event_BLACKROCK_CAVERNS"
+		texturefile = "gfx/event_pictures/blackrock_caverns.dds"
+	}
+    spriteType = {
+		name = "GFX_event_BLACKROCK_DEPTHS"
+		texturefile = "gfx/event_pictures/blackrock_depths.dds"
+	}
+    spriteType = {
+		name = "GFX_event_BLACKROCK_FOUNDRY"
+		texturefile = "gfx/event_pictures/blackrock_foundry.dds"
+	}
+    spriteType = {
+		name = "GFX_event_BLACKROCK_SPIRE"
+		texturefile = "gfx/event_pictures/blackrock_spire.dds"
+	}
+    spriteType = {
+		name = "GFX_event_BLACKWING_DESCENT"
+		texturefile = "gfx/event_pictures/blackwing_descent.dds"
+	}
+    spriteType = {
+		name = "GFX_event_BLACKWING_LAIR"
+		texturefile = "gfx/event_pictures/blackwing_lair.dds"
+	}
+    spriteType = {
+		name = "GFX_event_BLOODMAUL_SLAG_MINES"
+		texturefile = "gfx/event_pictures/bloodmaul_slag_mines.dds"
+	}
+    spriteType = {
+		name = "GFX_event_BROKEN_ISLES"
+		texturefile = "gfx/event_pictures/broken_isles.dds"
+	}
+    spriteType = {
+		name = "GFX_event_CAVERNS_OF_TIME"
+		texturefile = "gfx/event_pictures/caverns_of_time.dds"
+	}
+    spriteType = {
+		name = "GFX_event_COILFANG_RESERVOIR"
+		texturefile = "gfx/event_pictures/coilfang_reservior.dds"
+	}
+    spriteType = {
+		name = "GFX_event_COURT_OF_STARS"
+		texturefile = "gfx/event_pictures/court_of_stars.dds"
+	}
+    spriteType = {
+		name = "GFX_event_CULLING_OF_STRATHOLME"
+		texturefile = "gfx/event_pictures/culling_of_stratholme.dds"
+	}
+    spriteType = {
+		name = "GFX_event_DARKHEART_THICKET"
+		texturefile = "gfx/event_pictures/darkheart_thicket.dds"
+	}
+    spriteType = {
+		name = "GFX_event_DEADMINES"
+		texturefile = "gfx/event_pictures/deadmines.dds"
+	}
+    spriteType = {
+		name = "GFX_event_DIREMAUL"
+		texturefile = "gfx/event_pictures/diremaul.dds"
+	}
+    spriteType = {
+		name = "GFX_event_DRAENOR"
+		texturefile = "gfx/event_pictures/draenor.dds"
+	}
+    spriteType = {
+		name = "GFX_event_DRAGONSOUL"
+		texturefile = "gfx/event_pictures/dragonsoul.dds"
+	}
+    spriteType = {
+		name = "GFX_event_DRAKTHARON_KEEP"
+		texturefile = "gfx/event_pictures/draktharon_keep.dds"
+	}
+    spriteType = {
+		name = "GFX_event_END_OF_TIME"
+		texturefile = "gfx/event_pictures/end_of_time.dds"
+	}
+    spriteType = {
+		name = "GFX_event_EVERBLOOM"
+		texturefile = "gfx/event_pictures/everbloom.dds"
+	}
+    spriteType = {
+		name = "GFX_event_EYE_OF_AZSHARA"
+		texturefile = "gfx/event_pictures/eye_of_azshara.dds"
+	}
+    spriteType = {
+		name = "GFX_event_EYE_OF_ETERNITY"
+		texturefile = "gfx/event_pictures/eye_of_eternity.dds"
+	}
+    spriteType = {
+		name = "GFX_event_FIRELANDS"
+		texturefile = "gfx/event_pictures/firelands.dds"
+	}
+    spriteType = {
+		name = "GFX_event_FORGE_OF_SOULS"
+		texturefile = "gfx/event_pictures/forge_of_souls.dds"
+	}
+    spriteType = {
+		name = "GFX_event_GATE_OF_THE_SETTING_SUN"
+		texturefile = "gfx/event_pictures/gate_of_the_setting_sun.dds"
+	}
+    spriteType = {
+		name = "GFX_event_GNOMEREGAN"
+		texturefile = "gfx/event_pictures/gnomeregan.dds"
+	}
+    spriteType = {
+		name = "GFX_event_GRIM_BATOL_1"
+		texturefile = "gfx/event_pictures/grim_batol.dds"
+	}
+    spriteType = {
+		name = "GFX_event_GRIM_BATOL_2"
+		texturefile = "gfx/event_pictures/grim_batol_2.dds"
+	}
+    spriteType = {
+		name = "GFX_event_GRIMRAIL_DEPOT"
+		texturefile = "gfx/event_pictures/grimrail_depot.dds"
+	}
+    spriteType = {
+		name = "GFX_event_GRUUL_LAIR"
+		texturefile = "gfx/event_pictures/gruuls_lair.dds"
+	}
+    spriteType = {
+		name = "GFX_event_GUNDRAK"
+		texturefile = "gfx/event_pictures/gundrak.dds"
+	}
+    spriteType = {
+		name = "GFX_event_HALLS_OF_LIGHTNING"
+		texturefile = "gfx/event_pictures/halls_of_lightning.dds"
+	}
+    spriteType = {
+		name = "GFX_event_HALLS_OF_ORIGINATION"
+		texturefile = "gfx/event_pictures/halls_of_origination.dds"
+	}
+    spriteType = {
+		name = "GFX_event_HALLS_OF_REFLECTION"
+		texturefile = "gfx/event_pictures/halls_of_reflection.dds"
+	}
+    spriteType = {
+		name = "GFX_event_HALLS_OF_STONE"
+		texturefile = "gfx/event_pictures/halls_of_stone.dds"
+	}
+    spriteType = {
+		name = "GFX_event_HALLS_OF_VALOR"
+		texturefile = "gfx/event_pictures/halls_of_valor.dds"
+	}
+    spriteType = {
+		name = "GFX_event_HEART_OF_FEAR"
+		texturefile = "gfx/event_pictures/heart_of_fear.dds"
+	}
+    spriteType = {
+		name = "GFX_event_HELLFIRE_CITADEL"
+		texturefile = "gfx/event_pictures/hellfire_citadel.dds"
+	}
+    spriteType = {
+		name = "GFX_event_HELLFIRE_CITADEL_RAID"
+		texturefile = "gfx/event_pictures/hellfire_raid.dds"
+	}
+    spriteType = {
+		name = "GFX_event_HIGHMAUL"
+		texturefile = "gfx/event_pictures/highmaul.dds"
+	}
+    spriteType = {
+		name = "GFX_event_HOUR_OF_TWILIGHT"
+		texturefile = "gfx/event_pictures/hour_of_twilight.dds"
+	}
+    spriteType = {
+		name = "GFX_event_ICECROWN_CITADEL"
+		texturefile = "gfx/event_pictures/icecrown_citadel.dds"
+	}
+    spriteType = {
+		name = "GFX_event_IRON_DOCKS"
+		texturefile = "gfx/event_pictures/iron_docks.dds"
+	}
+    spriteType = {
+		name = "GFX_event_KARAZHAN"
+		texturefile = "gfx/event_pictures/karazhan.dds"
+	}
+    spriteType = {
+		name = "GFX_event_LOST_CITY_OF_TOLVIR"
+		texturefile = "gfx/event_pictures/lost_city_of_tolvir.dds"
+	}
+    spriteType = {
+		name = "GFX_event_MAGISTER_TERRACE"
+		texturefile = "gfx/event_pictures/magisters_terrace.dds"
+	}
+    spriteType = {
+		name = "GFX_event_MAGTHERIDON_LAIR"
+		texturefile = "gfx/event_pictures/magtheridons_lair.dds"
+	}
+    spriteType = {
+		name = "GFX_event_MARAUDON"
+		texturefile = "gfx/event_pictures/maraudon.dds"
+	}
+    spriteType = {
+		name = "GFX_event_MAW_OF_SOULS"
+		texturefile = "gfx/event_pictures/maw_of_souls.dds"
+	}
+    spriteType = {
+		name = "GFX_event_MOGUSHAN_PALACE"
+		texturefile = "gfx/event_pictures/mogushan_palace.dds"
+	}
+    spriteType = {
+		name = "GFX_event_MOGUSHAN_VAULTS"
+		texturefile = "gfx/event_pictures/mogushan_vaults.dds"
+	}
+    spriteType = {
+		name = "GFX_event_MOLTEN_CORE"
+		texturefile = "gfx/event_pictures/molten_core.dds"
+	}
+    spriteType = {
+		name = "GFX_event_NAXXRAMAS"
+		texturefile = "gfx/event_pictures/naxxramas.dds"
+	}
+    spriteType = {
+		name = "GFX_event_NELTHARION_LAIR"
+		texturefile = "gfx/event_pictures/neltharions_lair.dds"
+	}
+    spriteType = {
+		name = "GFX_event_OBSIDIAN_SANCTUM"
+		texturefile = "gfx/event_pictures/obsidian_sanctum.dds"
+	}
+    spriteType = {
+		name = "GFX_event_ONXYIA_LAIR"
+		texturefile = "gfx/event_pictures/onxyias_lair.dds"
+	}
+    spriteType = {
+		name = "GFX_event_PANDARIA"
+		texturefile = "gfx/event_pictures/pandaria.dds"
+	}
+    spriteType = {
+		name = "GFX_event_PIT_OF_SARON"
+		texturefile = "gfx/event_pictures/pit_of_saron.dds"
+	}
+    spriteType = {
+		name = "GFX_event_RAGEFIRE_CHASM"
+		texturefile = "gfx/event_pictures/ragefire_chasm.dds"
+	}
+    spriteType = {
+		name = "GFX_event_RAZORFEN_DOWNS"
+		texturefile = "gfx/event_pictures/razorfen_downs.dds"
+	}
+    spriteType = {
+		name = "GFX_event_RAZORFEN_KRAUL"
+		texturefile = "gfx/event_pictures/razorfen_kraul.dds"
+	}
+    spriteType = {
+		name = "GFX_event_RUBY_SANCTUM"
+		texturefile = "gfx/event_pictures/ruby_sanctum.dds"
+	}
+    spriteType = {
+		name = "GFX_event_RUINS_OF_ANHQIRAJ"
+		texturefile = "gfx/event_pictures/ruins_of_ahnqiraj.dds"
+	}
+    spriteType = {
+		name = "GFX_event_SCARLET_HALLS"
+		texturefile = "gfx/event_pictures/scarlet_halls.dds"
+	}
+    spriteType = {
+		name = "GFX_event_SCARLET_MONASTERY"
+		texturefile = "gfx/event_pictures/scarlet_monastery.dds"
+	}
+    spriteType = {
+		name = "GFX_event_SCHOLOMANCE"
+		texturefile = "gfx/event_pictures/scholomance.dds"
+	}
+    spriteType = {
+		name = "GFX_event_SHADO_PAN_MONASTERY"
+		texturefile = "gfx/event_pictures/shadopan_monastery.dds"
+	}
+    spriteType = {
+		name = "GFX_event_SHADOWFANG_KEEP"
+		texturefile = "gfx/event_pictures/shadowfang_keep.dds"
+	}
+    spriteType = {
+		name = "GFX_event_SHADOWMOON_BURIAL_GROUNDS"
+		texturefile = "gfx/event_pictures/shadowmoon_burial_grounds.dds"
+	}
+    spriteType = {
+		name = "GFX_event_SIEGE_OF_NIAZUO_TEMPLE"
+		texturefile = "gfx/event_pictures/siege_of_niazuo_temple.dds"
+	}
+    spriteType = {
+		name = "GFX_event_SIEGE_OF_ORGRIMMAR"
+		texturefile = "gfx/event_pictures/siege_of_orgrimmar.dds"
+	}
+    spriteType = {
+		name = "GFX_event_SKYREACH"
+		texturefile = "gfx/event_pictures/skyreach.dds"
+	}
+    spriteType = {
+		name = "GFX_event_SKYWALL"
+		texturefile = "gfx/event_pictures/skywall.dds"
+	}
+    spriteType = {
+		name = "GFX_event_STORMSTOUT_BREWERY"
+		texturefile = "gfx/event_pictures/stormstout_brewery.dds"
+	}
+    spriteType = {
+		name = "GFX_event_STRATHOLME"
+		texturefile = "gfx/event_pictures/stratholme.dds"
+	}
+    spriteType = {
+		name = "GFX_event_SUNKEN_TEMPLE"
+		texturefile = "gfx/event_pictures/sunken_temple.dds"
+	}
+    spriteType = {
+		name = "GFX_event_SUNWELL_PLATEAU"
+		texturefile = "gfx/event_pictures/sunwell_plateau.dds"
+	}
+    spriteType = {
+		name = "GFX_event_TEMPEST_KEEP"
+		texturefile = "gfx/event_pictures/tempest_keep.dds"
+	}
+    spriteType = {
+		name = "GFX_event_TEMPLE_OF_AHNQIRAJ"
+		texturefile = "gfx/event_pictures/temple_of_ahnqiraj.dds"
+	}
+    spriteType = {
+		name = "GFX_event_TEMPLE_OF_THE_JADE_SERPENT"
+		texturefile = "gfx/event_pictures/temple_of_the_jade_serpent.dds"
+	}
+    spriteType = {
+		name = "GFX_event_TERRACE_OF_ENDLESS_SPRING"
+		texturefile = "gfx/event_pictures/terrace_of_endless_spring.dds"
+	}
+    spriteType = {
+		name = "GFX_event_THE_ARCWAY"
+		texturefile = "gfx/event_pictures/the_arcway.dds"
+	}
+    spriteType = {
+		name = "GFX_event_THE_EMERALD_NIGHTMARE"
+		texturefile = "gfx/event_pictures/the_emerald_nightmare.dds"
+	}
+    spriteType = {
+		name = "GFX_event_THE_NEXUS"
+		texturefile = "gfx/event_pictures/the_nexus.dds"
+	}
+    spriteType = {
+		name = "GFX_event_THE_NIGHTHOLD"
+		texturefile = "gfx/event_pictures/the_nighthold.dds"
+	}
+    spriteType = {
+		name = "GFX_event_THE_OCULUS"
+		texturefile = "gfx/event_pictures/the_oculus.dds"
+	}
+    spriteType = {
+		name = "GFX_event_THE_STOCKADE"
+		texturefile = "gfx/event_pictures/the_stockade.dds"
+	}
+    spriteType = {
+		name = "GFX_event_THE_STONECORE"
+		texturefile = "gfx/event_pictures/the_stonecore.dds"
+	}
+    spriteType = {
+		name = "GFX_event_THRONE_OF_THE_TIDES"
+		texturefile = "gfx/event_pictures/throne_of_the_tides.dds"
+	}
+    spriteType = {
+		name = "GFX_event_THRONE_OF_THUNDER"
+		texturefile = "gfx/event_pictures/throne_of_thunder.dds"
+	}
+    spriteType = {
+		name = "GFX_event_TRIAL_OF_THE_CHAMPION"
+		texturefile = "gfx/event_pictures/trial_of_the_champion.dds"
+	}
+    spriteType = {
+		name = "GFX_event_TRIAL_OF_THE_CRUSADER"
+		texturefile = "gfx/event_pictures/trial_of_the_crusader.dds"
+	}
+    spriteType = {
+		name = "GFX_event_TRIAL_OF_VALOR"
+		texturefile = "gfx/event_pictures/trial_of_valor.dds"
+	}
+    spriteType = {
+		name = "GFX_event_GENERIC_HUMAN"
+		texturefile = "gfx/event_pictures/twin_peaks_ls_1.dds"
+	}
+    spriteType = {
+		name = "GFX_event_GENERIC_HUMAN_2"
+		texturefile = "gfx/event_pictures/twin_peaks_ls_2.dds"
+	}
+    spriteType = {
+		name = "GFX_event_ULDAMAN"
+		texturefile = "gfx/event_pictures/uldaman.dds"
+	}
+    spriteType = {
+		name = "GFX_event_ULDUAR"
+		texturefile = "gfx/event_pictures/ulduar.dds"
+	}
+    spriteType = {
+		name = "GFX_event_UPPER_BLACKROCK_SPIRE"
+		texturefile = "gfx/event_pictures/upper_blackrock_spire.dds"
+	}
+    spriteType = {
+		name = "GFX_event_UTGARDE_KEEP"
+		texturefile = "gfx/event_pictures/utgarde_keep.dds"
+	}
+    spriteType = {
+		name = "GFX_event_UTGARDE_PINNACLE"
+		texturefile = "gfx/event_pictures/utgarde_pinnacle.dds"
+	}
+    spriteType = {
+		name = "GFX_event_VALSHARAH"
+		texturefile = "gfx/event_pictures/valsharah_ls.dds"
+	}
+    spriteType = {
+		name = "GFX_event_VAULT_OF_ARCHAVON"
+		texturefile = "gfx/event_pictures/vault_of_archavon.dds"
+	}
+    spriteType = {
+		name = "GFX_event_VAULT_OF_THE_WARDENS"
+		texturefile = "gfx/event_pictures/vault_of_the_wardens.dds"
+	}
+    spriteType = {
+		name = "GFX_event_VIOLET_HOLD"
+		texturefile = "gfx/event_pictures/violet_hold.dds"
+	}
+    spriteType = {
+		name = "GFX_event_VIOLET_HOLD_2"
+		texturefile = "gfx/event_pictures/violet_hold_2.dds"
+	}
+    spriteType = {
+		name = "GFX_event_VORTEX_PINNACLE"
+		texturefile = "gfx/event_pictures/vortex_pinnacle.dds"
+	}
+    spriteType = {
+		name = "GFX_event_WAILING_CAVERNS"
+		texturefile = "gfx/event_pictures/wailing_caverns.dds"
+	}
+    spriteType = {
+		name = "GFX_event_WELL_OF_ETERNITY"
+		texturefile = "gfx/event_pictures/well_of_eternity.dds"
+	}
+    spriteType = {
+		name = "GFX_event_ZUL_FARRAK"
+		texturefile = "gfx/event_pictures/zul_farrak.dds"
+	}
+    spriteType = {
+		name = "GFX_event_ZUL_AMAN"
+		texturefile = "gfx/event_pictures/zulaman.dds"
+	}
+    spriteType = {
+		name = "GFX_event_ZUL_GURUB"
+		texturefile = "gfx/event_pictures/zulgurub.dds"
+	}
+}

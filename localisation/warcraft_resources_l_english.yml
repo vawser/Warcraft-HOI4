@@ -1,0 +1,21 @@
+﻿l_english: 
+ oil: "Fuel"
+ oil_desc: ""
+ flying_beast: "Flying Creatures"
+ flying_beast_desc: ""
+ ground_beast: "Ground Creatures"
+ ground_beast_desc: ""
+ wood: "Wood"
+ wood_desc: ""
+ steel: "Iron"
+ steel_desc: ""
+ food: "Food"
+ food_desc: ""
+ 
+ PRODUCTION_MATERIALS_OIL: "Fuel"
+ PRODUCTION_MATERIALS_FLYING_BEAST: "Flying Creatures"
+ PRODUCTION_MATERIALS_GROUND_BEAST: "Ground Creatures"
+ PRODUCTION_MATERIALS_WOOD: "Wood"
+ PRODUCTION_MATERIALS_STEEL: "Iron"
+ PRODUCTION_MATERIALS_FOOD: "Food"
+ 

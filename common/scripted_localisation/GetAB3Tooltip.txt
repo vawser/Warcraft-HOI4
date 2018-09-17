@@ -1,0 +1,23 @@
+defined_text = { 
+	name = GetAB3Tooltip
+    
+    text = {
+		trigger = {
+			OR = {
+                check_variable = { faith_power > faith_action_3_cost }
+                check_variable = { faith_power = faith_action_3_cost }
+            }
+		}
+		localization_key = AB3_ENABLED
+	}
+    text = {
+		trigger = {
+			check_variable = { faith_power < faith_action_3_cost }
+		}
+		localization_key = AB3_DISABLED
+	}
+    text = {
+		localization_key = ""
+	}
+}
+

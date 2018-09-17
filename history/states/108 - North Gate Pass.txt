@@ -1,0 +1,55 @@
+state = {
+	id = 108
+	name = "NORTH_GATE_PASS"
+	manpower = 596
+	state_category = rural
+
+	resources = {
+		oil = 2
+		ground_beast = 7
+		flying_beast = 7
+		wood = 1
+		steel = 9
+		food = 22
+	}
+
+	history = {
+		owner = IRO
+        add_core_of = IRO
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 4
+			industrial_complex = 0
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			2811 = {
+				bunker = 0
+			}
+			2834 = {
+				bunker = 0
+			}
+			2861 = {
+				bunker = 0
+			}
+			2887 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        2811 2834 2861 2887 
+    }
+}

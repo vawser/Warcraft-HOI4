@@ -1,0 +1,7 @@
+debugging = {
+	icon = the_holy_light
+
+	visible = {
+        check_variable = { global.debug_decisions = 1 }
+	}
+}

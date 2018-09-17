@@ -1,0 +1,41 @@
+SRW_strategy_default = {
+    enable = {
+        original_tag = SRW
+    }
+    
+    # The Orcish Horde
+    ai_strategy = {
+		type = contain
+		id = "TTH"
+        value = 250
+	}
+    ai_strategy = {
+		type = conquer
+		id = "TTH"
+        value = 250
+	}
+    ai_strategy = {
+		type = antagonize
+		id = "TTH"
+        value = 250
+	}
+    # Dark Iron
+    ai_strategy = {
+		type = contain
+		id = "DKI"
+        value = 250
+	}
+    ai_strategy = {
+		type = antagonize
+		id = "DKI"
+        value = 250
+	}
+    
+    # Make friends!
+    ai_strategy = {
+		type = befriend
+		id = "IRO"
+        value = 100
+	}
+}
+

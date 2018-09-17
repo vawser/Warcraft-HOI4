@@ -1,0 +1,34 @@
+﻿l_english: 
+ # Bookmarks
+ THE_FIRST_WAR_NAME: "The First War"
+ THE_FIRST_WAR_DESC: "After the opening of the Dark Portal, the Orcish Horde swept across the Kingdom of Azeroth - destroying centuries worth of progress and gutting the nation to its core."
+ 
+ STORMWIND_FIRST_WAR_DESC: "Stormwind awaits its doom as the Orcish Horde arrives in Azeroth. The Orcish Horde sweeps through southern Azeroth, decimating the human population. \n\nOur people look for a leader with the strength and tenacity to push back these orcish brutes."
+ HORDE_FIRST_WAR_DESC: "Having arrived in the Black Morass, the orc clans set about establishing a forward base in this new land called Azeroth. \n\nThe Blasted Lands are been subjugated and are known home to the Orcish Horde, which has turned its view west, towards Stormwind and the human kingdoms under its dominion."
+ LORDAERON_FIRST_WAR_DESC: "Lordaeron is stagnant, but stable. Its people enjoy prosperity and security, and are unaware of the horrors that await the human kingdoms in the near future. \n\nAs the Orcish Horde subjugates Stormwind, will Lordaeron intervene and save its people, or abandon them to these orcish beasts?"
+ DARK_IRON_DESC: "The Fire Lord Ragnaros has been the de-facto ruler of the Dark Iron dwarves for many years, ever since their residence in Blackrock Mountain. \n\nOur racial leader is but a figurehead, and it is the will of the Fire Lord that guides the Dark Iron."
+ IRONFORGE_DESC: "The dwarves of Ironforge have enjoyed relative peace for many years now, although the Frostmane trolls of the south have remained a persistent threat. \n\nAs the human kingdom of Stormwind faces destruction, will Ironforge support their human allies, or will its people turn inwards?"
+ QUELTHALAS_DESC: "The elves of Quel'thalas have enjoyed much prosperity thanks to the power of the Sunwell. Ever since their exile from Darnassian society, the elves of Quel'thalas have styled themselves as High Elves, and rule the lands of the Eversong Woods as their own.\n\nHowever, the Amani trolls remain a threat and with the arrival of the Orcish Horde, who is to say they will remain passive?"
+ STROMGARDE_DESC: "The humans of Stromgarde have enjoyed much security as an ally of Lordaeron, but will it persist now that the Orcish Horde has arrived on Azeroth?"
+ 
+ THE_SECOND_WAR_NAME: "The Second War"
+ THE_SECOND_WAR_DESC: "With the backing of the Alliance of Lordaeron, the survivors of Azeroth rallied to push the Orcish Horde back and liberate the ruins of their homeland."
+ 
+ LORDAERON_SECOND_WAR_DESC: ""
+ HORDE_SECOND_WAR_DESC: ""
+ STROMGARDE_SECOND_WAR_DESC: ""
+ QUETHALAS_SECOND_WAR_DESC: ""
+ AMANI_DESC: ""
+ ALTERAC_DESC: ""
+ 
+ THE_THIRD_WAR_NAME: "The Third War"
+ THE_THIRD_WAR_DESC: "What began as a rogue wizard's plague in the Kingdom of Lordaeron eventually spread into an all out war for the very survival of the planet."
+ 
+ SCOURGE_DESC: ""
+ LORDAERON_THIRD_WAR_DESC: ""
+ HORDE_THIRD_WAR_DESC: ""
+ STORMWIND_THIRD_WAR_DESC: ""
+ GILNEAS_DESC: ""
+ QUETHALAS_THIRD_WAR_DESC: ""
+ 
+ BLANK_DESC: "Intentionally blank."

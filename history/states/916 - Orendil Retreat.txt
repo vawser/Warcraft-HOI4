@@ -1,0 +1,58 @@
+state = {
+	id = 916
+	name = "ORENDIL_RETREAT"
+	manpower = 2979
+	state_category = village
+
+	resources = {
+		oil = 3
+		ground_beast = 3
+		flying_beast = 3
+		wood = 10
+		steel = 5
+		food = 15
+	}
+
+	history = {
+		owner = SEA
+		add_core_of = SEA
+
+		buildings = {
+			infrastructure = 2
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 5
+			industrial_complex = 3
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			3858 = {
+				bunker = 0
+			}
+			3886 = {
+				bunker = 0
+			}
+			3933 = {
+				bunker = 0
+			}
+			4107 = {
+				bunker = 0
+			}
+			7359 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        3858 3886 3933 4107 7359
+    }
+}

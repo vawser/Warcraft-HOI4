@@ -1,0 +1,15 @@
+state = {
+	id = 1117
+	name = "INNER_MARAUDON"
+	manpower = 78
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = MUR
+	}
+
+	provinces = {
+        4743 4784 4575 4614 3202 3203 3204 3208
+    }
+}

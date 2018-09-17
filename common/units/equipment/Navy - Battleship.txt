@@ -1,0 +1,194 @@
+equipments = {
+    battleship_equipment = { 
+		is_archetype = yes
+		is_buildable = no
+		type = capital_ship
+        picture = archetype_ship
+		group_by = archetype
+		
+		interface_category = interface_category_capital_ships
+		
+		upgrades = {
+			wm_battleship_max_strength
+            wm_battleship_max_organisation
+            wm_battleship_reliability
+            wm_battleship_supply_consumption
+            wm_battleship_attack
+            wm_battleship_ap_attack
+            wm_battleship_shore_bombardment
+            wm_battleship_anti_air_attack
+            wm_battleship_fire_range
+            wm_battleship_armor_value
+            wm_battleship_evasion
+            wm_battleship_sub_detection
+            wm_battleship_surface_visibility
+            wm_battleship_surface_detection
+            wm_battleship_naval_range
+            wm_battleship_naval_speed
+            wm_battleship_port_capacity_usage
+            wm_battleship_build_cost_ic
+		}
+
+        max_organisation = 40
+		supply_consumption = 0.2
+        
+        reliability = 0.7
+        max_strength = 300
+        
+        attack = 10
+        ap_attack = 20
+        shore_bombardment = 20
+        anti_air_attack = 10
+        torpedo_attack = 0
+        
+        fire_range = 30
+        
+        armor_value = 30
+        evasion = 15
+        
+        sub_detection = 5
+        surface_visibility = 30
+        surface_detection = 10
+        
+        naval_range = 1000
+        naval_speed = 15
+        
+        port_capacity_usage = 1
+        
+        manpower = 100
+        build_cost_ic = 400
+        
+		resources = {
+            steel = 5
+            oil = 5
+            wood = 5
+		}
+	}
+    
+    battleship_equipment_0 = {
+		archetype = battleship_equipment
+		priority = 10
+        #active = yes  
+	}
+    battleship_equipment_1 = {
+		archetype = battleship_equipment
+        parent = battleship_equipment_0
+		priority = 20
+
+        max_organisation = 40
+		supply_consumption = 0.2
+        
+        reliability = 0.7
+        max_strength = 300
+        
+        attack = 10
+        ap_attack = 20
+        shore_bombardment = 20
+        anti_air_attack = 10
+        torpedo_attack = 0
+        
+        fire_range = 30
+        
+        armor_value = 30
+        evasion = 15
+        
+        sub_detection = 5
+        surface_visibility = 30
+        surface_detection = 10
+        
+        naval_range = 1000
+        naval_speed = 15
+        
+        port_capacity_usage = 1
+        
+        manpower = 100
+        build_cost_ic = 400
+        
+		resources = {
+            steel = 5
+            oil = 5
+            wood = 5
+		}
+	}
+    battleship_equipment_2 = {
+		archetype = battleship_equipment
+        parent = battleship_equipment_1
+		priority = 30
+
+        max_organisation = 40
+		supply_consumption = 0.2
+        
+        reliability = 0.8
+        max_strength = 300
+        
+        attack = 20
+        ap_attack = 30
+        shore_bombardment = 30
+        anti_air_attack = 15
+        torpedo_attack = 0
+        
+        fire_range = 40
+        
+        armor_value = 40
+        evasion = 30
+        
+        sub_detection = 10
+        surface_visibility = 25
+        surface_detection = 15
+        
+        port_capacity_usage = 1
+        
+        naval_range = 1500
+        naval_speed = 20
+        
+        manpower = 100
+        build_cost_ic = 450
+        
+		resources = {
+            steel = 6
+            oil = 6
+            wood = 6
+		}
+	}
+    battleship_equipment_3 = {
+		archetype = battleship_equipment
+        parent = battleship_equipment_2
+		priority = 40
+
+        max_organisation = 40
+		supply_consumption = 0.2
+        
+        reliability = 0.9
+        max_strength = 300
+        
+        attack = 30
+        ap_attack = 40
+        shore_bombardment = 40
+        anti_air_attack = 20
+        torpedo_attack = 0
+        
+        fire_range = 50
+        
+        armor_value = 50
+        evasion = 45
+        
+        sub_detection = 15
+        surface_visibility = 20
+        surface_detection = 20
+        
+        port_capacity_usage = 1
+        
+        naval_range = 2000
+        naval_speed = 25
+        
+        manpower = 100
+        build_cost_ic = 500
+        
+		resources = {
+            steel = 7
+            oil = 7
+            wood = 7
+		}
+	}
+}
+

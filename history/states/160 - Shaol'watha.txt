@@ -1,0 +1,65 @@
+state = {
+	id = 160
+	name = "SHAOL_WATHA"
+	manpower = 854
+	state_category = rural
+
+	resources = {
+		oil = 1
+		ground_beast = 2
+		flying_beast = 6
+		wood = 17
+		steel = 8
+		food = 11
+	}
+
+	history = {
+		owner = VLB
+        add_core_of = VLB
+
+        victory_points = {
+            2438 5
+        }
+        
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 2
+			industrial_complex = 0
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			2287 = {
+				bunker = 0
+			}
+			2365 = {
+				bunker = 0
+			}
+			2438 = {
+				bunker = 0
+			}
+			2900 = {
+				bunker = 0
+			}
+			3001 = {
+				bunker = 0
+			}
+			3027 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        2287 2365 2438 2900 3001 3027
+    }
+}

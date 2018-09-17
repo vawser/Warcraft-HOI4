@@ -1,0 +1,80 @@
+state = {
+	id = 706
+	name = "LANDS_END_BEACH"
+	manpower = 793
+	state_category = rural
+
+	resources = {
+		oil = 14
+		ground_beast = 5
+		flying_beast = 9
+		wood = 1
+		steel = 8
+		food = 2
+	}
+
+	history = {
+		owner = SAN
+		add_core_of = SAN
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 1
+			industrial_complex = 2
+			dockyard = 0
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			3076 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 6
+			}
+			3079 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 6
+			}
+			3082 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 9
+			}
+			3086 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 4
+			}
+			3090 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 1
+			}
+			3119 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 5
+			}
+			3500 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        3076 3079 3082 3086 3090 3119 3500 
+    }
+}

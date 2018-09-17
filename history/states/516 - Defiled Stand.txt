@@ -1,0 +1,55 @@
+state = {
+	id = 516
+	name = "DEFILED_STAND"
+	manpower = 749
+	state_category = rural
+
+	resources = {
+		oil = 4
+		ground_beast = 2
+		flying_beast = 4
+		wood = 2
+		steel = 7
+		food = 12
+	}
+
+	history = {
+		owner = DAK
+		add_core_of = DAK
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 1
+			industrial_complex = 3
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			6170 = {
+				bunker = 0
+			}
+			6194 = {
+				bunker = 0
+			}
+			6235 = {
+				bunker = 0
+			}
+			6247 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        6170 6194 6235 6247 
+    }
+}

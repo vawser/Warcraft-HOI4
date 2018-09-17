@@ -1,0 +1,65 @@
+state = {
+	id = 494
+	name = "AMBERPINE"
+	manpower = 3693
+	state_category = village
+
+	resources = {
+		ground_beast = 8
+		flying_beast = 8
+		wood = 11
+		steel = 7
+		food = 11
+	}
+
+	history = {
+		owner = FTP
+		add_core_of = FTP
+
+		buildings = {
+			infrastructure = 4
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 3
+			industrial_complex = 0
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+
+			manufactory = 0
+
+			5634 = {
+				bunker = 0
+			}
+			5751 = {
+				bunker = 0
+			}
+			5763 = {
+				bunker = 0
+			}
+			5794 = {
+				bunker = 0
+			}
+			5805 = {
+				bunker = 0
+			}
+			5814 = {
+				bunker = 0
+			}
+			7267 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        5634 5751 5763 5794 5805 5814 7267 
+    }
+}

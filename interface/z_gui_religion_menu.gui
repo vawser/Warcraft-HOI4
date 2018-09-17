@@ -1,0 +1,132 @@
+guiTypes = {
+    containerWindowType = {
+		name = "religion_menu"
+		position = { x = -300 y = -300 }	
+		
+		size = { width = 600 height= 600 }
+		
+		fade_time = 300
+		fade_type = linear
+		moveable = yes
+		show_sound = menu_open_window
+		click_to_front = yes
+        
+		orientation = center
+        
+		background = {
+			name = "Background"		
+			quadTextureSprite ="GFX_598x600_parchment_bg"
+		}
+        
+        @button_x = 125
+        
+        buttonType = {
+			name = "action_button_1"
+			position = { x = @button_x y = 120 }
+			quadTextureSprite ="GFX_long_red_menu_button"
+		}
+        instantTextBoxType = {
+			name = "action_button_1_text"
+			position = { x = @button_x y = 135 }
+			font = "hoi_20b"
+			borderSize = {x = 0 y = 0}
+			text = "AB1_TITLE"
+            pdx_tooltip = "AB1_TOOLTIP"
+			maxWidth = 354
+			maxHeight = 20
+            format = center
+		}
+        
+        buttonType = {
+			name = "action_button_2"
+			position = { x = @button_x y = 180 }
+			quadTextureSprite ="GFX_long_red_menu_button"
+		}
+        instantTextBoxType = {
+			name = "action_button_2_text"
+			position = { x = @button_x y = 195 }
+			font = "hoi_20b"
+			borderSize = {x = 0 y = 0}
+			text = "AB2_TITLE"
+			pdx_tooltip = "AB2_TOOLTIP"
+			maxWidth = 354
+			maxHeight = 20
+            format = center
+		}
+        
+        buttonType = {
+			name = "action_button_3"
+			position = { x = @button_x y = 240 }
+			quadTextureSprite ="GFX_long_red_menu_button"
+		}
+        instantTextBoxType = {
+			name = "action_button_3_text"
+			position = { x = @button_x y = 255 }
+			font = "hoi_20b"
+			borderSize = {x = 0 y = 0}
+			text = "AB3_TITLE"
+			pdx_tooltip = "AB3_TOOLTIP"
+			maxWidth = 354
+			maxHeight = 20
+            format = center
+		}
+        
+        buttonType = {
+			name = "action_button_4"
+			position = { x = @button_x y = 300 }
+			quadTextureSprite ="GFX_long_red_menu_button"
+		}
+        instantTextBoxType = {
+			name = "action_button_4_text"
+			position = { x = @button_x y = 315 }
+			font = "hoi_20b"
+			borderSize = {x = 0 y = 0}
+			text = "AB4_TITLE"
+			pdx_tooltip = "AB4_TOOLTIP"
+			maxWidth = 354
+			maxHeight = 20
+            format = center
+		}
+        
+        buttonType = {
+			name = "action_button_5"
+			position = { x = @button_x y = 360 }
+			quadTextureSprite ="GFX_long_red_menu_button"
+		}
+        instantTextBoxType = {
+			name = "action_button_5_text"
+			position = { x = @button_x y = 375 }
+			font = "hoi_20b"
+			borderSize = {x = 0 y = 0}
+			text = "AB5_TITLE"
+			pdx_tooltip = "AB5_TOOLTIP"
+			maxWidth = 354
+			maxHeight = 20
+            format = center
+		}
+        buttonType = {
+			name = "action_button_6"
+			position = { x = @button_x y = 420 }
+			quadTextureSprite ="GFX_long_red_menu_button"
+		}
+        instantTextBoxType = {
+			name = "action_button_6_text"
+			position = { x = @button_x y = 435 }
+			font = "hoi_20b"
+			borderSize = {x = 0 y = 0}
+			text = "AB6_TITLE"
+			pdx_tooltip = "AB6_TOOLTIP"
+			maxWidth = 354
+			maxHeight = 20
+            format = center
+		}
+        
+        iconType = {
+			name = "religion_icon_64" 
+			position = { x = 270 y = 30 }	
+			spriteType = "GFX_icon_religion"
+            pdx_tooltip = "RELIGION_MENU_DESCRIPTION"
+            frame = 1
+		}
+    }
+}

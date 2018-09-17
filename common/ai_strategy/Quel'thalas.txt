@@ -1,0 +1,57 @@
+QUE_strategy_default = {
+    enable = {
+        original_tag = QUE
+    }
+    
+    # Make friends
+    ai_strategy = {
+		type = befriend
+		id = "LOR"
+        value = 100
+	}
+    ai_strategy = {
+		type = befriend
+		id = "ANO"
+        value = 100
+	}
+    ai_strategy = {
+		type = befriend
+		id = "STR"
+        value = 100
+	}
+    
+    # Amani
+    ai_strategy = {
+		type = contain
+		id = "AMA"
+        value = 250
+	}
+    ai_strategy = {
+		type = conquer
+		id = "AMA"
+        value = 250
+	}
+    ai_strategy = {
+		type = antagonize
+		id = "AMA"
+        value = 250
+	}
+    
+    # Shadowpine
+    ai_strategy = {
+		type = contain
+		id = "SWP"
+        value = 250
+	}
+    ai_strategy = {
+		type = conquer
+		id = "SWP"
+        value = 250
+	}
+    ai_strategy = {
+		type = antagonize
+		id = "SWP"
+        value = 250
+	}
+    
+}

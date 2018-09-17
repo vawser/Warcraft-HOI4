@@ -1,0 +1,15 @@
+state = {
+	id = 659
+	name = "KHARTUT_TERRACE"
+	manpower = 6
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = OOG
+	}
+
+	provinces = {
+        4366 4636 4834 4841 4848 
+    }
+}

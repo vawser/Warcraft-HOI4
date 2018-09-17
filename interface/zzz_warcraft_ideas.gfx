@@ -1,0 +1,964 @@
+spriteTypes = {	
+    spriteType = {
+		name = "GFX_idea_categories"
+		texturefile = "gfx/interface/idea_categories.dds"
+		noOfFrames = 8
+	}
+
+    #-------------------------------------
+    # National Spirits
+    #-------------------------------------
+    spriteType = {
+		name = "GFX_idea_gnomish_engineering"
+		texturefile = "gfx/interface/ideas/national_spirits/gnomish_engineering.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_goblin_engineering"
+		texturefile = "gfx/interface/ideas/national_spirits/goblin_engineering.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_primitive_nation"
+		texturefile = "gfx/interface/ideas/national_spirits/primitive_nation.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_crumbling_equipment"
+		texturefile = "gfx/interface/ideas/national_spirits/crumbling_equipment.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_ineffectual_construction"
+		texturefile = "gfx/interface/ideas/national_spirits/ineffectual_construction.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_the_sunwell"
+		texturefile = "gfx/interface/ideas/national_spirits/the_sunwell.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_end_of_the_gnoll_wars"
+		texturefile = "gfx/interface/ideas/national_spirits/end_of_the_gnoll_wars.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_orcish_conquerors"
+		texturefile = "gfx/interface/ideas/national_spirits/orcish_conquerors.dds"
+	}
+    
+    
+    #-------------------------------------
+    # Focuses
+    #-------------------------------------
+    spriteType = {
+		name = "GFX_idea_offensive_edict"
+		texturefile = "gfx/interface/ideas/focuses/offensive_edict.tga"
+	}
+    spriteType = {
+		name = "GFX_idea_defensive_edict"
+		texturefile = "gfx/interface/ideas/focuses/defensive_edict.tga"
+	}
+    spriteType = {
+		name = "GFX_idea_cavalry_edict"
+		texturefile = "gfx/interface/ideas/focuses/cavalry_edict.tga"
+	}
+    spriteType = {
+		name = "GFX_idea_support_edict"
+		texturefile = "gfx/interface/ideas/focuses/support_edict.tga"
+	}
+    spriteType = {
+		name = "GFX_idea_dogfighting_edict"
+		texturefile = "gfx/interface/ideas/focuses/dogfighting_edict.tga"
+	}
+    spriteType = {
+		name = "GFX_idea_bombing_edict"
+		texturefile = "gfx/interface/ideas/focuses/bombing_edict.tga"
+	}
+    spriteType = {
+		name = "GFX_idea_harassment_edict"
+		texturefile = "gfx/interface/ideas/focuses/harassment_edict.tga"
+	}
+    spriteType = {
+		name = "GFX_idea_bombardment_edict"
+		texturefile = "gfx/interface/ideas/focuses/bombardment_edict.tga"
+	}
+    
+    spriteType = {
+		name = "GFX_idea_orc_settlements"
+		texturefile = "gfx/interface/ideas/focuses/orc_settlements.tga"
+	}
+    spriteType = {
+		name = "GFX_idea_spoils_of_stormwind"
+		texturefile = "gfx/interface/ideas/focuses/spoils_of_stormwind.tga"
+	}
+    spriteType = {
+		name = "GFX_idea_spoils_of_blackrock_mountain"
+		texturefile = "gfx/interface/ideas/focuses/spoils_of_blackrock_mountain.tga"
+	}
+    spriteType = {
+		name = "GFX_idea_secure_lakeshire"
+		texturefile = "gfx/interface/ideas/focuses/secure_lakeshire.tga"
+	}
+    spriteType = {
+		name = "GFX_idea_secure_brightwood"
+		texturefile = "gfx/interface/ideas/focuses/secure_brightwood.tga"
+	}
+    spriteType = {
+		name = "GFX_idea_secure_westfall"
+		texturefile = "gfx/interface/ideas/focuses/secure_westfall.tga"
+	}
+    spriteType = {
+		name = "GFX_idea_orc_raid"
+		texturefile = "gfx/interface/ideas/focuses/orc_raid.tga"
+	}
+    spriteType = {
+		name = "GFX_idea_extraordinary_efforts"
+		texturefile = "gfx/interface/ideas/focuses/extraordinary_efforts.tga"
+	}
+    spriteType = {
+		name = "GFX_idea_shadow_council_support"
+		texturefile = "gfx/interface/ideas/focuses/shadow_council_support.tga"
+	}
+
+    
+    #-------------------------------------
+    # Laws
+    #-------------------------------------
+    spriteType = {
+		name = "GFX_idea_civil_economy_1"
+		texturefile = "gfx/interface/ideas/politics/civil_economy.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_civil_economy_2"
+		texturefile = "gfx/interface/ideas/politics/civil_economy.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_civil_economy_3"
+		texturefile = "gfx/interface/ideas/politics/civil_economy.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_civil_economy_4"
+		texturefile = "gfx/interface/ideas/politics/civil_economy.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_civil_economy_5"
+		texturefile = "gfx/interface/ideas/politics/civil_economy.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_war_economy_1"
+		texturefile = "gfx/interface/ideas/politics/war_economy.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_war_economy_2"
+		texturefile = "gfx/interface/ideas/politics/war_economy.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_war_economy_3"
+		texturefile = "gfx/interface/ideas/politics/war_economy.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_war_economy_4"
+		texturefile = "gfx/interface/ideas/politics/war_economy.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_war_economy_5"
+		texturefile = "gfx/interface/ideas/politics/war_economy.dds"
+	}
+    
+    # Trade
+    spriteType = {
+		name = "GFX_idea_free_trade"
+		texturefile = "gfx/interface/ideas/politics/free_trade.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_limited_trade"
+		texturefile = "gfx/interface/ideas/politics/limited_trade.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_minimal_trade"
+		texturefile = "gfx/interface/ideas/politics/minimal_trade.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_no_trade"
+		texturefile = "gfx/interface/ideas/politics/no_trade.dds"
+	}
+    
+    # Conscription
+    spriteType = {
+		name = "GFX_idea_conscription_1"
+		texturefile = "gfx/interface/ideas/politics/conscription_1.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_conscription_2"
+		texturefile = "gfx/interface/ideas/politics/conscription_2.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_conscription_3"
+		texturefile = "gfx/interface/ideas/politics/conscription_3.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_conscription_4"
+		texturefile = "gfx/interface/ideas/politics/conscription_4.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_conscription_5"
+		texturefile = "gfx/interface/ideas/politics/conscription_5.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_conscription_6"
+		texturefile = "gfx/interface/ideas/politics/conscription_6.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_conscription_7"
+		texturefile = "gfx/interface/ideas/politics/conscription_7.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_conscription_8"
+		texturefile = "gfx/interface/ideas/politics/conscription_8.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_conscription_9"
+		texturefile = "gfx/interface/ideas/politics/conscription_9.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_conscription_10"
+		texturefile = "gfx/interface/ideas/politics/conscription_10.dds"
+	}
+
+    # Swarm Conscription
+    spriteType = {
+		name = "GFX_idea_swarm_conscription_1"
+		texturefile = "gfx/interface/ideas/politics/conscription_1.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_swarm_conscription_2"
+		texturefile = "gfx/interface/ideas/politics/conscription_2.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_swarm_conscription_3"
+		texturefile = "gfx/interface/ideas/politics/conscription_3.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_swarm_conscription_4"
+		texturefile = "gfx/interface/ideas/politics/conscription_4.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_swarm_conscription_5"
+		texturefile = "gfx/interface/ideas/politics/conscription_5.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_swarm_conscription_6"
+		texturefile = "gfx/interface/ideas/politics/conscription_6.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_swarm_conscription_7"
+		texturefile = "gfx/interface/ideas/politics/conscription_7.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_swarm_conscription_8"
+		texturefile = "gfx/interface/ideas/politics/conscription_8.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_swarm_conscription_9"
+		texturefile = "gfx/interface/ideas/politics/conscription_9.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_swarm_conscription_10"
+		texturefile = "gfx/interface/ideas/politics/conscription_10.dds"
+	}
+    
+    #-------------------------------------
+    # Racials
+    #-------------------------------------
+    spriteType = {
+		name = "GFX_idea_racial_aqir"
+		texturefile = "gfx/interface/ideas/racials/racial_aqir.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_racial_black_dragonflight"
+		texturefile = "gfx/interface/ideas/racials/racial_black_dragonflight.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_racial_blood_elf"
+		texturefile = "gfx/interface/ideas/racials/racial_blood_elf.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_racial_blue_dragonflight"
+		texturefile = "gfx/interface/ideas/racials/racial_blue_dragonflight.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_racial_centaur"
+		texturefile = "gfx/interface/ideas/racials/racial_centaur.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_racial_draenei"
+		texturefile = "gfx/interface/ideas/racials/racial_draenei.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_racial_dryad"
+		texturefile = "gfx/interface/ideas/racials/racial_dryad.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_racial_dwarf"
+		texturefile = "gfx/interface/ideas/racials/racial_dwarf.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_racial_earthern"
+		texturefile = "gfx/interface/ideas/racials/racial_earthern.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_racial_frost_giant"
+		texturefile = "gfx/interface/ideas/racials/racial_frost_giant.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_racial_furbolg"
+		texturefile = "gfx/interface/ideas/racials/racial_furbolg.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_racial_gnoll"
+		texturefile = "gfx/interface/ideas/racials/racial_gnoll.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_racial_gnome"
+		texturefile = "gfx/interface/ideas/racials/racial_gnome.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_racial_goblin"
+		texturefile = "gfx/interface/ideas/racials/racial_goblin.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_racial_gorloc"
+		texturefile = "gfx/interface/ideas/racials/racial_gorloc.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_racial_green_dragonflight"
+		texturefile = "gfx/interface/ideas/racials/racial_green_dragonflight.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_racial_harpy"
+		texturefile = "gfx/interface/ideas/racials/racial_harpy.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_racial_hozen"
+		texturefile = "gfx/interface/ideas/racials/racial_hozen.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_racial_human"
+		texturefile = "gfx/interface/ideas/racials/racial_human.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_racial_jinyu"
+		texturefile = "gfx/interface/ideas/racials/racial_jinyu.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_racial_kobold"
+		texturefile = "gfx/interface/ideas/racials/racial_kobold.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_racial_magnataur"
+		texturefile = "gfx/interface/ideas/racials/racial_magnataur.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_racial_mantid"
+		texturefile = "gfx/interface/ideas/racials/racial_mantid.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_racial_mogu"
+		texturefile = "gfx/interface/ideas/racials/racial_mogu.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_racial_murloc"
+		texturefile = "gfx/interface/ideas/racials/racial_murloc.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_racial_naga"
+		texturefile = "gfx/interface/ideas/racials/racial_naga.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_racial_nerubian"
+		texturefile = "gfx/interface/ideas/racials/racial_nerubian.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_racial_night_elf"
+		texturefile = "gfx/interface/ideas/racials/racial_night_elf.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_racial_nightborne"
+		texturefile = "gfx/interface/ideas/racials/racial_nightborne.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_racial_ogre"
+		texturefile = "gfx/interface/ideas/racials/racial_ogre.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_racial_orc"
+		texturefile = "gfx/interface/ideas/racials/racial_orc.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_racial_pandaren"
+		texturefile = "gfx/interface/ideas/racials/racial_pandaren.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_racial_pygmy"
+		texturefile = "gfx/interface/ideas/racials/racial_pygmy.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_racial_quillboar"
+		texturefile = "gfx/interface/ideas/racials/racial_quillboar.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_racial_red_dragonflight"
+		texturefile = "gfx/interface/ideas/racials/racial_red_dragonflight.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_racial_satyr"
+		texturefile = "gfx/interface/ideas/racials/racial_satyr.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_racial_saurok"
+		texturefile = "gfx/interface/ideas/racials/racial_saurok.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_racial_scourge"
+		texturefile = "gfx/interface/ideas/racials/racial_scourge.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_racial_sprite"
+		texturefile = "gfx/interface/ideas/racials/racial_sprite.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_racial_tauren"
+		texturefile = "gfx/interface/ideas/racials/racial_tauren.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_racial_titan"
+		texturefile = "gfx/interface/ideas/racials/racial_titan.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_racial_tolvir"
+		texturefile = "gfx/interface/ideas/racials/racial_tolvir.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_racial_trogg"
+		texturefile = "gfx/interface/ideas/racials/racial_trogg.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_racial_troll"
+		texturefile = "gfx/interface/ideas/racials/racial_troll.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_racial_tuskarr"
+		texturefile = "gfx/interface/ideas/racials/racial_tuskarr.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_racial_undead"
+		texturefile = "gfx/interface/ideas/racials/racial_undead.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_racial_vrykul"
+		texturefile = "gfx/interface/ideas/racials/racial_vrykul.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_racial_wolvar"
+		texturefile = "gfx/interface/ideas/racials/racial_wolvar.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_racial_yaungol"
+		texturefile = "gfx/interface/ideas/racials/racial_yaungol.dds"
+	}
+    
+    #-------------------------------------
+    # Advisors
+    #-------------------------------------
+    spriteType = {
+        name = "GFX_idea_light_advisor"
+        texturefile = "gfx/interface/ideas/advisors/ideology_light.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_shadow_advisor"
+        texturefile = "gfx/interface/ideas/advisors/ideology_shadow.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_order_advisor"
+        texturefile = "gfx/interface/ideas/advisors/ideology_order.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_disorder_advisor"
+        texturefile = "gfx/interface/ideas/advisors/ideology_disorder.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_life_advisor"
+        texturefile = "gfx/interface/ideas/advisors/ideology_life.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_death_advisor"
+        texturefile = "gfx/interface/ideas/advisors/ideology_death.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_unaligned_advisor"
+        texturefile = "gfx/interface/ideas/advisors/ideology_unaligned.dds"
+    }
+    
+    spriteType = {
+        name = "GFX_idea_death_knight_advisor"
+        texturefile = "gfx/interface/ideas/advisors/death_knight.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_demon_hunter_advisor"
+        texturefile = "gfx/interface/ideas/advisors/demon_hunter.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_druid_advisor"
+        texturefile = "gfx/interface/ideas/advisors/druid.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_hunter_advisor"
+        texturefile = "gfx/interface/ideas/advisors/hunter.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_mage_advisor"
+        texturefile = "gfx/interface/ideas/advisors/mage.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_monk_advisor"
+        texturefile = "gfx/interface/ideas/advisors/monk.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_paladin_advisor"
+        texturefile = "gfx/interface/ideas/advisors/paladin.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_priest_advisor"
+        texturefile = "gfx/interface/ideas/advisors/priest.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_rogue_advisor"
+        texturefile = "gfx/interface/ideas/advisors/rogue.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_shaman_advisor"
+        texturefile = "gfx/interface/ideas/advisors/shaman.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_warlock_advisor"
+        texturefile = "gfx/interface/ideas/advisors/warlock.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_warrior_advisor"
+        texturefile = "gfx/interface/ideas/advisors/warrior.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_berserker_advisor"
+        texturefile = "gfx/interface/ideas/advisors/berserker.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_champion_advisor"
+        texturefile = "gfx/interface/ideas/advisors/champion.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_defender_advisor"
+        texturefile = "gfx/interface/ideas/advisors/defender.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_hero_advisor"
+        texturefile = "gfx/interface/ideas/advisors/hero.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_guardian_advisor"
+        texturefile = "gfx/interface/ideas/advisors/guardian.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_protector_advisor"
+        texturefile = "gfx/interface/ideas/advisors/protector.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_vanquisher_advisor"
+        texturefile = "gfx/interface/ideas/advisors/vanquisher.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_conqueror_advisor"
+        texturefile = "gfx/interface/ideas/advisors/conqueror.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_vindicator_advisor"
+        texturefile = "gfx/interface/ideas/advisors/vindicator.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_sentinel_advisor"
+        texturefile = "gfx/interface/ideas/advisors/sentinel.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_overseer_mil_advisor"
+        texturefile = "gfx/interface/ideas/advisors/overseer_mil.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_custodian_advisor"
+        texturefile = "gfx/interface/ideas/advisors/custodian.dds"
+    }
+    
+    spriteType = {
+        name = "GFX_idea_patron_advisor"
+        texturefile = "gfx/interface/ideas/advisors/patron.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_scout_advisor"
+        texturefile = "gfx/interface/ideas/advisors/scout.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_recruiter_advisor"
+        texturefile = "gfx/interface/ideas/advisors/recruiter.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_merchant_advisor"
+        texturefile = "gfx/interface/ideas/advisors/merchant.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_spymaster_advisor"
+        texturefile = "gfx/interface/ideas/advisors/spymaster.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_saboteur_advisor"
+        texturefile = "gfx/interface/ideas/advisors/saboteur.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_inventor_advisor"
+        texturefile = "gfx/interface/ideas/advisors/inventor.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_architect_advisor"
+        texturefile = "gfx/interface/ideas/advisors/architect.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_builder_advisor"
+        texturefile = "gfx/interface/ideas/advisors/builder.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_overseer_advisor"
+        texturefile = "gfx/interface/ideas/advisors/overseer_mil.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_diplomat_advisor"
+        texturefile = "gfx/interface/ideas/advisors/diplomat.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_strongman_advisor"
+        texturefile = "gfx/interface/ideas/advisors/strongman.dds"
+    }
+    
+    #-------------------------------------
+    # Religion
+    #-------------------------------------
+    spriteType = {
+		name = "GFX_idea_cast_out_the_darkness"
+		texturefile = "gfx/interface/ideas/cast_out_the_darkness.dds"
+	}
+    
+    spriteType = {
+		name = "GFX_idea_soothe_the_people"
+		texturefile = "gfx/interface/ideas/soothe_the_people.dds"
+	}
+    
+    spriteType = {
+		name = "GFX_idea_moon_blessings"
+		texturefile = "gfx/interface/ideas/moon_blessings.dds"
+	}
+    
+    spriteType = {
+		name = "GFX_idea_gift_of_hakkar"
+		texturefile = "gfx/interface/ideas/gift_of_hakkar.dds"
+	}
+    
+    spriteType = {
+		name = "GFX_idea_desecrated_remains"
+		texturefile = "gfx/interface/ideas/desecrated_remains.dds"
+	}
+    
+    spriteType = {
+		name = "GFX_idea_imbued_blood_prophets"
+		texturefile = "gfx/interface/ideas/imbued_blood_prophets.dds"
+	}
+    
+    spriteType = {
+		name = "GFX_idea_avatar_of_hakkar"
+		texturefile = "gfx/interface/ideas/avatar_of_hakkar.dds"
+	}
+    
+    spriteType = {
+		name = "GFX_idea_tiki_lord"
+		texturefile = "gfx/interface/ideas/tiki_lord.dds"
+	}
+    
+    spriteType = {
+		name = "GFX_idea_enhanced_equipment"
+		texturefile = "gfx/interface/ideas/enhanced_equipment.dds"
+	}
+    
+    spriteType = {
+		name = "GFX_idea_void_lord"
+		texturefile = "gfx/interface/ideas/void_lord.dds"
+	}
+    
+    spriteType = {
+		name = "GFX_idea_voidform"
+		texturefile = "gfx/interface/ideas/voidform.dds"
+	}
+    
+    spriteType = {
+		name = "GFX_idea_murloc_warcry"
+		texturefile = "gfx/interface/ideas/murloc_warcry.dds"
+	}
+    
+    spriteType = {
+		name = "GFX_idea_murloc_invasion"
+		texturefile = "gfx/interface/ideas/murloc_invasion.dds"
+	}
+    
+    spriteType = {
+		name = "GFX_idea_arcane_surge"
+		texturefile = "gfx/interface/ideas/arcane_surge.dds"
+	}
+    
+    spriteType = {
+		name = "GFX_idea_arcane_empowerment"
+		texturefile = "gfx/interface/ideas/arcane_empowerment.dds"
+	}
+    
+    spriteType = {
+		name = "GFX_idea_wrath_of_nature"
+		texturefile = "gfx/interface/ideas/wrath_of_nature.dds"
+	}
+    
+    spriteType = {
+		name = "GFX_idea_moon_blessing"
+		texturefile = "gfx/interface/ideas/moon_blessing.dds"
+	}
+    
+    spriteType = {
+		name = "GFX_idea_gift_of_cthun"
+		texturefile = "gfx/interface/ideas/gift_of_cthun.dds"
+	}
+    
+    spriteType = {
+		name = "GFX_idea_gift_of_yshaarj"
+		texturefile = "gfx/interface/ideas/gift_of_yshaarj.dds"
+	}
+    
+    spriteType = {
+		name = "GFX_idea_gift_of_yogg_saron"
+		texturefile = "gfx/interface/ideas/gift_of_yogg_saron.dds"
+	}
+    
+    spriteType = {
+		name = "GFX_idea_gift_of_nzoth"
+		texturefile = "gfx/interface/ideas/gift_of_nzoth.dds"
+	}
+    
+    spriteType = {
+		name = "GFX_idea_fel_conduits"
+		texturefile = "gfx/interface/ideas/fel_conduits.dds"
+	}
+    
+    spriteType = {
+		name = "GFX_idea_plague_of_undeath"
+		texturefile = "gfx/interface/ideas/plague_of_undeath.dds"
+	}
+    
+    spriteType = {
+		name = "GFX_idea_animal_blessing"
+		texturefile = "gfx/interface/ideas/animal_blessing.dds"
+	}
+    
+    spriteType = {
+		name = "GFX_idea_ancestral_wisdom"
+		texturefile = "gfx/interface/ideas/ancestral_wisdom.dds"
+	}
+    
+    spriteType = {
+		name = "GFX_idea_spirit_of_the_wilds"
+		texturefile = "gfx/interface/ideas/spirit_of_the_wilds.dds"
+	}
+    
+    spriteType = {
+		name = "GFX_idea_gift_of_yulon"
+		texturefile = "gfx/interface/ideas/gift_of_yulon.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_gift_of_niuzao"
+		texturefile = "gfx/interface/ideas/gift_of_niuzao.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_gift_of_chiji"
+		texturefile = "gfx/interface/ideas/gift_of_chiji.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_gift_of_xuen"
+		texturefile = "gfx/interface/ideas/gift_of_xuen.dds"
+	}
+    
+    spriteType = {
+		name = "GFX_idea_wisdom_of_yulon"
+		texturefile = "gfx/interface/ideas/wisdom_of_yulon.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_wisdom_of_niuzao"
+		texturefile = "gfx/interface/ideas/wisdom_of_niuzao.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_wisdom_of_chiji"
+		texturefile = "gfx/interface/ideas/wisdom_of_chiji.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_wisdom_of_xuen"
+		texturefile = "gfx/interface/ideas/wisdom_of_xuen.dds"
+	}
+    
+    spriteType = {
+		name = "GFX_idea_fury_of_yulon"
+		texturefile = "gfx/interface/ideas/fury_of_yulon.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_fury_of_niuzao"
+		texturefile = "gfx/interface/ideas/fury_of_niuzao.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_fury_of_chiji"
+		texturefile = "gfx/interface/ideas/fury_of_chiji.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_fury_of_xuen"
+		texturefile = "gfx/interface/ideas/fury_of_xuen.dds"
+	}
+    
+    spriteType = {
+		name = "GFX_idea_titanic_knowledge"
+		texturefile = "gfx/interface/ideas/titanic_knowledge.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_titan_blessing"
+		texturefile = "gfx/interface/ideas/titan_blessing.dds"
+	}
+    
+    spriteType = {
+		name = "GFX_idea_bond_of_fire"
+		texturefile = "gfx/interface/ideas/bond_of_fire.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_ragnaros_favour"
+		texturefile = "gfx/interface/ideas/ragnaros_favour.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_flame_weaponry"
+		texturefile = "gfx/interface/ideas/flame_weaponry.dds"
+	}
+    
+    spriteType = {
+		name = "GFX_idea_bond_of_earth"
+		texturefile = "gfx/interface/ideas/bond_of_earth.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_therazane_favour"
+		texturefile = "gfx/interface/ideas/therazane_favour.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_rock_weaponry"
+		texturefile = "gfx/interface/ideas/rock_weaponry.dds"
+	}
+    
+    spriteType = {
+		name = "GFX_idea_bond_of_wind"
+		texturefile = "gfx/interface/ideas/bond_of_wind.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_alakir_favour"
+		texturefile = "gfx/interface/ideas/alakir_favour.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_wind_weaponry"
+		texturefile = "gfx/interface/ideas/wind_weaponry.dds"
+	}
+    
+    spriteType = {
+		name = "GFX_idea_bond_of_water"
+		texturefile = "gfx/interface/ideas/bond_of_water.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_neptulon_favour"
+		texturefile = "gfx/interface/ideas/neptulon_favour.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_water_weaponry"
+		texturefile = "gfx/interface/ideas/water_weaponry.dds"
+	}
+    
+    spriteType = {
+		name = "GFX_idea_bond_of_the_elements"
+		texturefile = "gfx/interface/ideas/bond_of_the_elements.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_primal_connection"
+		texturefile = "gfx/interface/ideas/primal_connection.dds"
+	}
+    
+    spriteType = {
+		name = "GFX_idea_blessing_of_the_naaru"
+		texturefile = "gfx/interface/ideas/blessing_of_the_naaru.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_wisdom_of_the_naaru"
+		texturefile = "gfx/interface/ideas/wisdom_of_the_naaru.dds"
+	}
+    
+    spriteType = {
+		name = "GFX_idea_blessing_of_alexstrasza"
+		texturefile = "gfx/interface/ideas/blessing_of_alexstrasza.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_blessing_of_ysera"
+		texturefile = "gfx/interface/ideas/blessing_of_ysera.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_blessing_of_neltharion"
+		texturefile = "gfx/interface/ideas/blessing_of_neltharion.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_blessing_of_malygos"
+		texturefile = "gfx/interface/ideas/blessing_of_malygos.dds"
+	}
+    
+    spriteType = {
+		name = "GFX_idea_power_of_alexstrasza"
+		texturefile = "gfx/interface/ideas/power_of_alexstrasza.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_power_of_ysera"
+		texturefile = "gfx/interface/ideas/power_of_ysera.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_power_of_neltharion"
+		texturefile = "gfx/interface/ideas/power_of_neltharion.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_power_of_malygos"
+		texturefile = "gfx/interface/ideas/power_of_malygos.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_innovation_wave"
+		texturefile = "gfx/interface/ideas/innovation_wave.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_engineer_insights"
+		texturefile = "gfx/interface/ideas/engineer_insights.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_engineer_insights"
+		texturefile = "gfx/interface/ideas/engineer_insights.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_power_of_money"
+		texturefile = "gfx/interface/ideas/power_of_money.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_keen_financiers"
+		texturefile = "gfx/interface/ideas/keen_financiers.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_ceremonial_horn"
+		texturefile = "gfx/interface/ideas/ceremonial_horn.dds"
+	}
+}
+

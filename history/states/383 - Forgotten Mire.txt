@@ -1,0 +1,52 @@
+state = {
+	id = 383
+	name = "FORGOTTEN_MIRE"
+	manpower = 528
+	state_category = rural
+
+	resources = {
+		oil = 2
+		ground_beast = 1
+		flying_beast = 6
+		wood = 1
+		steel = 1
+		food = 16
+	}
+
+	history = {
+		owner = MAN
+		add_core_of = MAN
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 4
+			industrial_complex = 0
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			6812 = {
+				bunker = 0
+			}
+			6822 = {
+				bunker = 0
+			}
+			6900 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        6812 6822 6900 
+    }
+}

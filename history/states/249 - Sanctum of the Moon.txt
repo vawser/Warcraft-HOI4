@@ -1,0 +1,65 @@
+state = {
+	id = 249
+	name = "SANCTUM_OF_THE_MOON"
+	manpower = 861
+	state_category = rural
+
+	resources = {
+		oil = 1
+		ground_beast = 5
+		flying_beast = 3
+		wood = 12
+		steel = 9
+		food = 12
+	}
+
+	history = {
+		owner = QUE
+        add_core_of = QUE
+        
+        612.1.1 = {
+            set_state_name = THE_DEAD_SCAR
+        }
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 1
+			industrial_complex = 2
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			2203 = {
+				bunker = 0
+			}
+			2227 = {
+				bunker = 0
+			}
+			2229 = {
+				bunker = 0
+			}
+			2251 = {
+				bunker = 0
+			}
+			2253 = {
+				bunker = 0
+			}
+			2271 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        2203 2227 2229 2251 2253 2271 
+    }
+}

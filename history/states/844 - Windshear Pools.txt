@@ -1,0 +1,57 @@
+state = {
+	id = 844
+	name = "WINDSHEAR_POOLS"
+	manpower = 465
+	state_category = rural
+
+	resources = {
+		ground_beast = 8
+		flying_beast = 9
+		wood = 6
+		steel = 7
+		food = 14
+	}
+
+	history = {
+		owner = WIS
+		add_core_of = WIS
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 2
+			industrial_complex = 1
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			4125 = {
+				bunker = 0
+			}
+			4134 = {
+				bunker = 0
+			}
+			4144 = {
+				bunker = 0
+			}
+			4155 = {
+				bunker = 0
+			}
+			4209 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        4125 4134 4144 4155 4209 
+    }
+}

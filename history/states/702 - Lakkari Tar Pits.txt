@@ -1,0 +1,52 @@
+state = {
+	id = 702
+	name = "LAKKARI_TAR_PITS"
+	manpower = 655
+	state_category = rural
+
+	resources = {
+		ground_beast = 9
+		flying_beast = 6
+		wood = 18
+	}
+
+	history = {
+		owner = AQJ
+		add_core_of = AQJ
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 1
+			industrial_complex = 2
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			4223 = {
+				bunker = 0
+			}
+			4228 = {
+				bunker = 0
+			}
+			4233 = {
+				bunker = 0
+			}
+			4255 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        4223 4228 4233 4255 
+    }
+}

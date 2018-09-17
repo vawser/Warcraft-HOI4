@@ -1,0 +1,52 @@
+state = {
+	id = 994
+	name = "NIGHTHAVEN"
+	manpower = 5443
+	state_category = town
+
+	resources = {
+		oil = 4
+		ground_beast = 4
+		flying_beast = 7
+		wood = 28
+		steel = 9
+		food = 14
+	}
+
+	history = {
+		owner = CEN
+		add_core_of = CEN
+
+		buildings = {
+			infrastructure = 6
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 8
+			industrial_complex = 5
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			4035 = {
+				bunker = 3
+			}
+			4066 = {
+				bunker = 1
+			}
+			4095 = {
+				bunker = 1
+			}
+		}
+	}
+
+	provinces = {
+        4035 4066 4095 
+    }
+}

@@ -1,0 +1,88 @@
+state = {
+	id = 264
+	name = "SUNSTRIDER_ISLE"
+	manpower = 653
+	state_category = rural
+
+	resources = {
+		oil = 2
+		ground_beast = 8
+		flying_beast = 2
+		wood = 18
+		steel = 8
+		food = 19
+	}
+
+	history = {
+		owner = QUE
+        add_core_of = QUE
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 1
+			industrial_complex = 0
+			dockyard = 1
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			1670 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 3
+			}
+			1678 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 8
+			}
+			1686 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 5
+			}
+			1696 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 9
+			}
+			1706 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 2
+			}
+			1710 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 7
+			}
+			1816 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 3
+			}
+			2093 = {
+				bunker = 0
+			}
+			2197 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        1670 1678 1686 1696 1706 1710 1816 2093 2197 
+    }
+}

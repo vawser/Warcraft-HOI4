@@ -1,0 +1,59 @@
+state = {
+	id = 12
+	name = "BALLAL_RUINS"
+	manpower = 525
+	state_category = rural
+
+	resources = {
+		ground_beast = 5
+		wood = 13
+		steel = 2
+		food = 1
+	}
+
+	history = {
+        victory_points = {
+            2476 5
+        }
+		owner = BLS
+		add_core_of = BLS
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 3
+			industrial_complex = 0
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			2476 = {
+				bunker = 0
+			}
+			2498 = {
+				bunker = 0
+			}
+			2501 = {
+				bunker = 0
+			}
+			2507 = {
+				bunker = 0
+			}
+			2516 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        2476 2498 2501 2507 2516 
+    }
+}

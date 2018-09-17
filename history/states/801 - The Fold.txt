@@ -1,0 +1,15 @@
+state = {
+	id = 801
+	name = "THE_FOLD"
+	manpower = 53
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = WIS
+	}
+
+	provinces = {
+        4612 4651 4671 4679 4704 4739 4763 
+    }
+}

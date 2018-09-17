@@ -1,0 +1,60 @@
+state = {
+	id = 358
+	name = "FOUR_WINDS_OVERLOOK"
+	manpower = 617
+	state_category = rural
+
+	resources = {
+		oil = 4
+		ground_beast = 9
+		flying_beast = 5
+		wood = 4
+		food = 28
+	}
+
+	history = {
+		owner = TIL
+		add_core_of = TIL
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 2
+			industrial_complex = 1
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			6821 = {
+				bunker = 0
+			}
+			6831 = {
+				bunker = 0
+			}
+			6839 = {
+				bunker = 0
+			}
+			6849 = {
+				bunker = 0
+			}
+			6858 = {
+				bunker = 0
+			}
+			6868 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        6821 6831 6839 6849 6858 6868 
+    }
+}

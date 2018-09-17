@@ -1,0 +1,60 @@
+state = {
+	id = 1047
+	name = "DUN_ALGAZ_PASSAGE"
+	manpower = 865
+	state_category = rural
+
+	resources = {
+		oil = 2
+		ground_beast = 2
+		flying_beast = 8
+		wood = 7
+		steel = 7
+		food = 12
+	}
+
+	history = {
+        owner = IRO
+        add_core_of = IRO
+
+        # The Second War
+        597.1.1 = {
+            owner = TTH
+            add_core_of = TTH
+        }
+        # The Third War
+        612.1.1 = {
+            owner = IRO
+            add_core_of = IRO
+        }
+        
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 1
+			industrial_complex = 1
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			7341 = {
+				bunker = 0
+			}
+			7342 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        7341 7342
+    }
+}

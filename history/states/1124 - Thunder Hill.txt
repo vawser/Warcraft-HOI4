@@ -1,0 +1,15 @@
+state = {
+	id = 1124
+	name = "THUNDER_HILL"
+	manpower = 6
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = RAZ
+	}
+
+	provinces = {
+        4316
+    }
+}

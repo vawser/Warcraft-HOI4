@@ -1,0 +1,53 @@
+state = {
+	id = 694
+	name = "GOLAKKA_HOT_SPRINGS"
+	manpower = 797
+	state_category = rural
+
+	resources = {
+		ground_beast = 4
+		flying_beast = 1
+		wood = 16
+		steel = 6
+	}
+
+	history = {
+		owner = AQJ
+		add_core_of = AQJ
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 2
+			industrial_complex = 1
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			4225 = {
+				bunker = 0
+			}
+			4230 = {
+				bunker = 0
+			}
+			4248 = {
+				bunker = 0
+			}
+			4253 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        4225 4230 4248 4253 
+    }
+}

@@ -1,0 +1,67 @@
+state = {
+	id = 272
+	name = "AZUREWING_REPOSE"
+	manpower = 4950
+	state_category = town
+
+	resources = {
+		oil = 2
+		wood = 18
+		food = 14
+	}
+
+	history = {
+		owner = AZW
+		add_core_of = AZW
+
+		buildings = {
+			infrastructure = 6
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 1
+			industrial_complex = 5
+			dockyard = 4
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			7046 = {
+				bunker = 7
+				coastal_bunker = 9
+				naval_base = 2
+			}
+			7052 = {
+				bunker = 3
+				coastal_bunker = 3
+				naval_base = 8
+			}
+			7064 = {
+				bunker = 5
+				coastal_bunker = 1
+				naval_base = 4
+			}
+			7092 = {
+				bunker = 7
+				coastal_bunker = 1
+				naval_base = 5
+			}
+			7116 = {
+				bunker = 3
+			}
+		}
+	}
+
+	provinces = {
+        7046 7052 7064 7092 7116 
+    }
+}

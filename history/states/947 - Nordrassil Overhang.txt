@@ -1,0 +1,15 @@
+state = {
+	id = 947
+	name = "NORDRASSIL_OVERHANG"
+	manpower = 32
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = SEN
+	}
+
+	provinces = {
+        4321 4337 4353 4354 4375 4395 4412 
+    }
+}

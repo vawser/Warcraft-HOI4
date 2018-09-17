@@ -1,0 +1,15 @@
+state = {
+	id = 705
+	name = "LANDS_END_MOUND"
+	manpower = 69
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = SAN
+	}
+
+	provinces = {
+        4497 4508 4530 4531 4543 4552 4553 4586
+    }
+}

@@ -1,0 +1,51 @@
+state = {
+	id = 709
+	name = "VALLEY_OF_THE_WATCHERS"
+	manpower = 775
+	state_category = rural
+
+	resources = {
+		oil = 4
+		flying_beast = 8
+		wood = 4
+		steel = 3
+		food = 2
+	}
+
+	history = {
+		owner = OOG
+		add_core_of = OOG
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 1
+			industrial_complex = 0
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			3528 = {
+				bunker = 0
+			}
+			3544 = {
+				bunker = 0
+			}
+			3555 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        3528 3544 3555 
+    }
+}

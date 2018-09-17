@@ -1,0 +1,76 @@
+state = {
+	id = 276
+	name = "VALSHARAH"
+	manpower = 2891
+	state_category = village
+
+	resources = {
+		oil = 4
+		ground_beast = 6
+		flying_beast = 1
+		wood = 13
+		steel = 2
+		food = 17
+	}
+
+	history = {
+		owner = VAL
+		add_core_of = VAL
+
+		buildings = {
+			infrastructure = 2
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 2
+			industrial_complex = 2
+			dockyard = 3
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			7048 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 6
+			}
+			7050 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 7
+			}
+			7054 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 7
+			}
+			7091 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 3
+			}
+			7105 = {
+				bunker = 0
+			}
+			7110 = {
+				bunker = 0
+			}
+			7117 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        7048 7050 7054 7091 7105 7110 7117
+    }
+}

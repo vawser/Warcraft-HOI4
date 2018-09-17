@@ -1,0 +1,51 @@
+ROC = {
+	army = {
+		male = {
+			"gfx/leaders/MURLOC/murloc_yellow.dds"
+		}
+	}
+
+	navy = {
+		male = {
+			"gfx/leaders/MURLOC/murloc_yellow.dds"
+		}
+	}
+
+	political = {
+		light = {
+			male = {
+                "gfx/leaders/MURLOC/murloc_yellow.dds"
+            }
+		}
+		shadow = {
+			male = {
+                "gfx/leaders/MURLOC/murloc_yellow.dds"
+            }
+		}
+        order = {
+			male = {
+                "gfx/leaders/MURLOC/murloc_yellow.dds"
+            }
+		}
+        disorder = {
+			male = {
+                "gfx/leaders/MURLOC/murloc_yellow.dds"
+            }
+		}
+        life = {
+			male = {
+                "gfx/leaders/MURLOC/murloc_yellow.dds"
+            }
+		}
+        death = {
+			male = {
+                "gfx/leaders/MURLOC/murloc_yellow.dds"
+            }
+		}
+        unaligned = {
+			male = {
+                "gfx/leaders/MURLOC/murloc_yellow.dds"
+            }
+		}
+	}
+}

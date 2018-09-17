@@ -1,0 +1,81 @@
+state = {
+	id = 412
+	name = "ZOUCHIN_VILLAGE"
+	manpower = 4156
+	state_category = village
+
+	resources = {
+		oil = 2
+		ground_beast = 4
+		flying_beast = 7
+		wood = 7
+		steel = 11
+		food = 12
+	}
+
+	history = {
+		owner = TIG
+		add_core_of = TIG
+
+		buildings = {
+			infrastructure = 3
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 3
+			industrial_complex = 6
+			dockyard = 0
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			6275 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 4
+			}
+			6300 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 4
+			}
+			6303 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 3
+			}
+			6522 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 3
+			}
+			6593 = {
+				bunker = 0
+			}
+			6875 = {
+				bunker = 0
+			}
+			6885 = {
+				bunker = 0
+			}
+			6525 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 8
+			}
+		}
+	}
+
+	provinces = {
+        6275 6300 6303 6522 6593 6875 6885 6525
+    }
+}

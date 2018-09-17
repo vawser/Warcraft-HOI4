@@ -1,0 +1,420 @@
+ideas = {
+    government_advisor = {
+        light_advisor = {
+            allowed = {
+                NOT = {
+                    has_available_idea_with_traits = {
+                        idea = light_trait
+                        limit = 1
+                    }
+                }
+            }
+            traits = { light_trait }
+            ai_will_do = {
+                factor = 0
+                
+                modifier = {
+                    add = 5
+                    
+                    has_government = light
+                    light < 0.75
+                }
+            }
+        }
+        shadow_advisor = {
+            allowed = {
+                NOT = {
+                    has_available_idea_with_traits = {
+                        idea = shadow_trait
+                        limit = 1
+                    }
+                }
+            }
+            traits = { shadow_trait }
+            ai_will_do = {
+                factor = 0
+                
+                modifier = {
+                    add = 5
+                    
+                    has_government = shadow
+                    shadow < 0.75
+                }
+            }
+        }
+        order_advisor = {
+            allowed = {
+                NOT = {
+                    has_available_idea_with_traits = {
+                        idea = order_trait
+                        limit = 1
+                    }
+                }
+            }
+            traits = { order_trait }
+            ai_will_do = {
+                factor = 0
+                
+                modifier = {
+                    add = 5
+                    
+                    has_government = order
+                    order < 0.75
+                }
+            }
+        }
+        disorder_advisor = {
+            allowed = {
+                NOT = {
+                    has_available_idea_with_traits = {
+                        idea = disorder_trait
+                        limit = 1
+                    }
+                }
+            }
+            traits = { disorder_trait }
+            ai_will_do = {
+                factor = 0
+                
+                modifier = {
+                    add = 5
+                    
+                    has_government = disorder
+                    disorder < 0.75
+                }
+            }
+        }
+        life_advisor = {
+            allowed = {
+                NOT = {
+                    has_available_idea_with_traits = {
+                        idea = life_trait
+                        limit = 1
+                    }
+                }
+            }
+            traits = { life_trait }
+            ai_will_do = {
+                factor = 0
+                
+                modifier = {
+                    add = 5
+                    
+                    has_government = life
+                    life < 0.75
+                }
+            }
+        }
+        death_advisor = {
+            allowed = {
+                NOT = {
+                    has_available_idea_with_traits = {
+                        idea = death_trait
+                        limit = 1
+                    }
+                }
+            }
+            traits = { death_trait }
+            ai_will_do = {
+                factor = 0
+                
+                modifier = {
+                    add = 5
+                    
+                    has_government = death
+                    death < 0.75
+                }
+            }
+        }
+        unaligned_advisor = {
+            allowed = {
+                NOT = {
+                    has_available_idea_with_traits = {
+                        idea = unaligned_trait
+                        limit = 1
+                    }
+                }
+            }
+            traits = { unaligned_trait }
+            ai_will_do = {
+                factor = 0
+                
+                modifier = {
+                    add = 5
+                    
+                    has_government = unaligned
+                    unaligned < 0.75
+                }
+            }
+        }
+        patron_advisor = {
+            allowed = {
+                NOT = {
+                    has_available_idea_with_traits = {
+                        idea = patron_trait
+                        limit = 1
+                    }
+                }
+            }
+            traits = { patron_trait }
+            ai_will_do = {
+                factor = 3
+                
+                modifier = {
+                    factor = 0
+                    
+                    has_stability > 0.75
+                }
+                
+                modifier = {
+                    add = 1
+                    
+                    has_stability < 0.5
+                }
+                
+                modifier = {
+                    add = 1
+                    
+                    has_stability < 0.4
+                }
+                
+                modifier = {
+                    add = 1
+                    
+                    has_stability < 0.3
+                }
+            }
+        }
+        scout_advisor = {
+            allowed = {
+                NOT = {
+                    has_available_idea_with_traits = {
+                        idea = scout_trait
+                        limit = 1
+                    }
+                }
+            }
+            traits = { scout_trait }
+            ai_will_do = {
+                factor = 5
+                
+                modifier = {
+                    add = 1
+                    
+                    has_war = yes
+                }
+            }
+        }
+        recruiter_advisor = {
+            allowed = {
+                NOT = {
+                    has_available_idea_with_traits = {
+                        idea = recruiter_trait
+                        limit = 1
+                    }
+                }
+            }
+            traits = { recruiter_trait }
+            ai_will_do = {
+                factor = 5
+                
+                modifier = {
+                    add = 10
+                    
+                    has_low_manpower = yes
+                }
+                
+                modifier = {
+                    factor = 0
+                    
+                    has_high_manpower = yes
+                }
+            }
+        }
+        merchant_advisor = {
+            allowed = {
+                NOT = {
+                    has_available_idea_with_traits = {
+                        idea = merchant_trait
+                        limit = 1
+                    }
+                }
+            }
+            traits = { merchant_trait }
+            ai_will_do = {
+                factor = 1
+                
+                modifier = {
+                    factor = 0
+                    
+                    is_savage = yes
+                }
+            }
+        }
+        spymaster_advisor = {
+            allowed = {
+                NOT = {
+                    has_available_idea_with_traits = {
+                        idea = spymaster_trait
+                        limit = 1
+                    }
+                }
+            }
+            traits = { spymaster_trait }
+            ai_will_do = {
+                factor = 1
+            }
+        }
+        saboteur_advisor = {
+            allowed = {
+                NOT = {
+                    has_available_idea_with_traits = {
+                        idea = saboteur_trait
+                        limit = 1
+                    }
+                }
+            }
+            traits = { saboteur_trait }
+            ai_will_do = {
+                factor = 1
+            }
+        }
+        inventor_advisor = {
+            allowed = {
+                NOT = {
+                    has_available_idea_with_traits = {
+                        idea = inventor_trait
+                        limit = 1
+                    }
+                }
+            }
+            traits = { inventor_trait }
+            ai_will_do = {
+                factor = 5
+            }
+        }
+        architect_advisor = {
+            allowed = {
+                NOT = {
+                    has_available_idea_with_traits = {
+                        idea = architect_trait
+                        limit = 1
+                    }
+                }
+            }
+            traits = { architect_trait }
+            ai_will_do = {
+                factor = 1
+                
+                modifier = {
+                    add = 4
+                    
+                    num_of_factories < 20
+                }
+            }
+        }
+        builder_advisor = {
+            allowed = {
+                NOT = {
+                    has_available_idea_with_traits = {
+                        idea = builder_trait
+                        limit = 1
+                    }
+                }
+            }
+            traits = { builder_trait }
+            ai_will_do = {
+                factor = 3
+            }
+        }
+        overseer_advisor = {
+            allowed = {
+                NOT = {
+                    has_available_idea_with_traits = {
+                        idea = overseer_trait
+                        limit = 1
+                    }
+                }
+            }
+            traits = { overseer_trait }
+            ai_will_do = {
+                factor = 1
+                
+                modifier = {
+                    add = 2
+                    
+                    oil < 0
+                }
+                modifier = {
+                    add = 2
+                    
+                    steel < 0
+                }
+                modifier = {
+                    add = 2
+                    
+                    ground_beast < 0
+                }
+            }
+        }
+        diplomat_advisor = {
+            allowed = {
+                NOT = {
+                    has_available_idea_with_traits = {
+                        idea = diplomat_trait
+                        limit = 1
+                    }
+                }
+            }
+            traits = { diplomat_trait }
+            ai_will_do = {
+                factor = 1
+                
+                modifier = {
+                    factor = 0
+                    
+                    is_savage = yes
+                }
+            }
+        }
+        strongman_advisor = {
+            allowed = {
+                NOT = {
+                    has_available_idea_with_traits = {
+                        idea = strongman_trait
+                        limit = 1
+                    }
+                }
+            }
+            traits = { strongman_trait }
+            ai_will_do = {
+                factor = 3
+                
+                modifier = {
+                    factor = 0
+                    
+                    has_war_support > 0.75
+                }
+                
+                modifier = {
+                    add = 1
+                    
+                    has_war_support < 0.5
+                }
+                
+                modifier = {
+                    add = 1
+                    
+                    has_war_support < 0.4
+                }
+                
+                modifier = {
+                    add = 1
+                    
+                    has_war_support < 0.3
+                }
+            }
+        }
+    }
+}
+

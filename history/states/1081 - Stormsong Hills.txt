@@ -1,0 +1,15 @@
+state = {
+	id = 1081
+	name = "STORMSONG_HILLS"
+	manpower = 30
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = KUL
+	}
+
+	provinces = {
+        1846
+    }
+}

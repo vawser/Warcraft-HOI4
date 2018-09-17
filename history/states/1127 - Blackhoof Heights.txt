@@ -1,0 +1,15 @@
+state = {
+	id = 1127
+	name = "BLACKHOOF_HEIGHTS"
+	manpower = 70
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = XAV
+	}
+
+	provinces = {
+        4351 4373 
+    }
+}

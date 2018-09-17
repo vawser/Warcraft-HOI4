@@ -1,0 +1,207 @@
+equipments = {
+	grunt_equipment = {
+		is_archetype = yes
+		picture = archetype_infantry		
+		is_buildable = no
+		type = infantry
+		group_by = archetype
+		
+		interface_category = interface_category_land
+		
+		active = yes
+		
+        upgrades = {
+			wm_grunt_max_strength
+            wm_grunt_max_organisation
+            wm_grunt_default_morale
+            wm_grunt_weight
+            wm_grunt_supply_consumption
+            wm_grunt_reliability
+            wm_grunt_maximum_speed
+            wm_grunt_soft_attack
+            wm_grunt_hard_attack
+            wm_grunt_defense
+            wm_grunt_breakthrough
+            wm_grunt_ap_attack
+            wm_grunt_hardness
+            wm_grunt_armor_value
+            wm_grunt_build_cost_ic
+		}
+        
+        max_strength = 20
+        max_organisation = 40
+        default_morale = 0.2
+        weight = 1
+        supply_consumption = 0.05
+        
+		reliability = 0.7
+		maximum_speed = 4
+
+        soft_attack = 2
+		hard_attack = 2
+        
+        defense = 2
+		breakthrough = 2
+        
+        ap_attack = 2
+		air_attack = 0
+
+		hardness = 0.05
+		armor_value = 1
+
+		lend_lease_cost = 1
+		build_cost_ic = 1
+        
+		resources = {
+            food = 1
+		}
+	}
+
+	grunt_equipment_1 = {
+		archetype = grunt_equipment
+		active = yes
+		priority = 05
+		visual_level = 1
+	}
+
+	grunt_equipment_2 = {
+		archetype = grunt_equipment
+		parent = grunt_equipment_1
+		priority = 15
+		visual_level = 2
+		
+        max_strength = 20
+        max_organisation = 40
+        default_morale = 0.2
+        weight = 1
+        supply_consumption = 0.05
+        
+		reliability = 0.75
+		maximum_speed = 4
+
+        soft_attack = 4
+		hard_attack = 4
+        
+        defense = 4
+		breakthrough = 4
+        
+        ap_attack = 4
+		air_attack = 0
+
+		hardness = 0.05
+		armor_value = 2
+
+		lend_lease_cost = 1
+		build_cost_ic = 1.25
+        
+		resources = {
+            food = 2
+		}
+	}
+	
+	grunt_equipment_3 = {
+		archetype = grunt_equipment
+		parent = grunt_equipment_2
+		priority = 20
+		visual_level = 3
+		
+        max_strength = 20
+        max_organisation = 40
+        default_morale = 0.2
+        weight = 1
+        supply_consumption = 0.05
+        
+		reliability = 0.8
+		maximum_speed = 4
+
+        soft_attack = 6
+		hard_attack = 6
+        
+        defense = 6
+		breakthrough = 6
+        
+        ap_attack = 6
+		air_attack = 0
+
+		hardness = 0.05
+		armor_value = 3
+
+		lend_lease_cost = 1
+		build_cost_ic = 1.5
+        
+		resources = {
+            food = 3
+		}
+	}
+    
+    grunt_equipment_4 = {
+		archetype = grunt_equipment
+		parent = grunt_equipment_3
+		priority = 25
+		visual_level = 4
+		
+        max_strength = 20
+        max_organisation = 40
+        default_morale = 0.2
+        weight = 1
+        supply_consumption = 0.05
+        
+		reliability = 0.85
+		maximum_speed = 4
+
+        soft_attack = 8
+		hard_attack = 8
+        
+        defense = 8
+		breakthrough = 8
+        
+        ap_attack = 8
+		air_attack = 0
+
+		hardness = 0.05
+		armor_value = 4
+
+		lend_lease_cost = 1
+		build_cost_ic = 1.75
+        
+		resources = {
+            food = 4
+		}
+	}
+    
+    grunt_equipment_5 = {
+		archetype = grunt_equipment
+		parent = grunt_equipment_4
+		priority = 30
+		visual_level = 5
+		
+        max_strength = 20
+        max_organisation = 40
+        default_morale = 0.2
+        weight = 1
+        supply_consumption = 0.05
+        
+		reliability = 0.9
+		maximum_speed = 4
+
+        soft_attack = 10
+		hard_attack = 10
+        
+        defense = 10
+		breakthrough = 10
+        
+        ap_attack = 10
+		air_attack = 0
+
+		hardness = 0.05
+		armor_value = 5
+
+		lend_lease_cost = 1
+		build_cost_ic = 2
+        
+		resources = {
+            food = 5
+		}
+	}
+}
+

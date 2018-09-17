@@ -1,0 +1,69 @@
+state = {
+	id = 1034
+	name = "NAZZIVIAN"
+	manpower = 1435
+	state_category = village
+
+	resources = {
+		oil = 3
+		ground_beast = 4
+		flying_beast = 9
+		wood = 13
+		steel = 6
+		food = 16
+	}
+
+	history = {
+        owner = SIF
+		add_core_of = SIF
+
+		buildings = {
+			infrastructure = 4
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 2
+			industrial_complex = 3
+			dockyard = 2
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			6925 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 8
+			}
+			6947 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 2
+			}
+			7006 = {
+				bunker = 0
+			}
+			7010 = {
+				bunker = 0
+			}
+			7017 = {
+				bunker = 0
+			}
+			7032 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        6925 6947 7006 7010 7017 7032 
+    }
+}

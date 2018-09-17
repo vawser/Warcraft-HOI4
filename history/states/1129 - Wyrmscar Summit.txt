@@ -1,0 +1,15 @@
+state = {
+	id = 1129
+	name = "WYRMSCAR_SUMMIT"
+	manpower = 65
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = WRS
+	}
+
+	provinces = {
+        7038
+    }
+}

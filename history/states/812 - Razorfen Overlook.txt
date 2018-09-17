@@ -1,0 +1,15 @@
+state = {
+	id = 812
+	name = "RAZORFEN_OVERLOOK"
+	manpower = 69
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = RAF
+	}
+
+	provinces = {
+        4502 4512 4536 4537 4547 4557 4558 4590 
+    }
+}

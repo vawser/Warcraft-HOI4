@@ -1,0 +1,70 @@
+state = {
+	id = 401
+	name = "SRAVESS"
+	manpower = 572
+	state_category = rural
+
+	resources = {
+		oil = 2
+		ground_beast = 7
+		flying_beast = 4
+		wood = 1
+		steel = 10
+		food = 16
+	}
+
+	history = {
+		owner = BOX
+		add_core_of = BOX
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 1
+			industrial_complex = 2
+			dockyard = 0
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			6323 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 4
+			}
+			6362 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 9
+			}
+			6370 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 7
+			}
+			6379 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 7
+			}
+			6916 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        6323 6362 6370 6379 6916 
+    }
+}

@@ -1,0 +1,15 @@
+state = {
+	id = 1088
+	name = "LUNAR_RIDGE"
+	manpower = 18
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = JAS
+	}
+
+	provinces = {
+        6799
+    }
+}

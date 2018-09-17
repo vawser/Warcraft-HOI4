@@ -1,0 +1,72 @@
+state = {
+	id = 51
+	name = "EASTVALE"
+	manpower = 1166
+	state_category = village
+
+	resources = {
+		oil = 2
+		ground_beast = 9
+		flying_beast = 8
+		wood = 11
+		steel = 4
+		food = 18
+	}
+
+	history = {
+		owner = SRW
+        add_core_of = SRW
+
+        # The Second War
+        597.1.1 = {
+            owner = TTH
+            add_core_of = TTH
+        }
+        # The Third War
+        612.1.1 = {
+            owner = SRW
+            add_core_of = SRW
+        }
+        
+		buildings = {
+			infrastructure = 4
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 2
+			industrial_complex = 5
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			2298 = {
+				bunker = 0
+			}
+			2420 = {
+				bunker = 0
+			}
+			2434 = {
+				bunker = 0
+			}
+			2435 = {
+				bunker = 0
+			}
+			2449 = {
+				bunker = 0
+			}
+			2450 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        2298 2420 2434 2435 2449 2450 
+    }
+}

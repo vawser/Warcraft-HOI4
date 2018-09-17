@@ -1,0 +1,65 @@
+state = {
+	id = 486
+	name = "ZEB_HALAK"
+	manpower = 2294
+	state_category = village
+
+	resources = {
+		oil = 2
+		ground_beast = 8
+		flying_beast = 3
+		wood = 18
+		food = 18
+	}
+
+	history = {
+		owner = DAK
+		add_core_of = DAK
+
+		buildings = {
+			infrastructure = 4
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 3
+			industrial_complex = 5
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+
+			manufactory = 0
+
+			5684 = {
+				bunker = 0
+			}
+			5703 = {
+				bunker = 0
+			}
+			5772 = {
+				bunker = 0
+			}
+			5792 = {
+				bunker = 0
+			}
+			5803 = {
+				bunker = 0
+			}
+			5813 = {
+				bunker = 0
+			}
+			7262 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        5684 5703 5772 5792 5803 5813 7262 
+    }
+}

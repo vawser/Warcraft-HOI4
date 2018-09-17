@@ -1,0 +1,70 @@
+state = {
+	id = 398
+	name = "NIUZAO_FLATS"
+	manpower = 710
+	state_category = rural
+
+	resources = {
+		oil = 1
+		ground_beast = 2
+		flying_beast = 8
+		wood = 5
+		steel = 11
+		food = 17
+	}
+
+	history = {
+		owner = BOX
+		add_core_of = BOX
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 2
+			industrial_complex = 1
+			dockyard = 0
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			6355 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 9
+			}
+			6361 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 6
+			}
+			6369 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 6
+			}
+			6378 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 6
+			}
+			6909 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        6355 6361 6369 6378 6909 
+    }
+}

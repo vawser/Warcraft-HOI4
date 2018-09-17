@@ -1,0 +1,49 @@
+state = {
+	id = 418
+	name = "MOGUSHAN_TERRACE"
+	manpower = 2310
+	state_category = village
+
+	resources = {
+		oil = 2
+		ground_beast = 6
+		flying_beast = 6
+		wood = 4
+		steel = 6
+		food = 10
+	}
+
+	history = {
+		owner = SPN
+		add_core_of = SPN
+
+		buildings = {
+			infrastructure = 2
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 6
+			industrial_complex = 0
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			6759 = {
+				bunker = 0
+			}
+			6776 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        6759 6776 
+    }
+}

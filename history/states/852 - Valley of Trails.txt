@@ -1,0 +1,58 @@
+state = {
+	id = 852
+	name = "VALLEY_OF_TRIALS"
+	manpower = 4037
+	state_category = village
+
+	resources = {
+		oil = 4
+		wood = 3
+		steel = 5
+		food = 18
+	}
+
+	history = {
+		owner = RAZ
+		add_core_of = RAZ
+
+        612.1.1 = {
+            owner = ORG
+            add_core_of = ORG
+        }
+        
+		buildings = {
+			infrastructure = 4
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 2
+			industrial_complex = 5
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			4185 = {
+				bunker = 0
+			}
+			4195 = {
+				bunker = 0
+			}
+			4203 = {
+				bunker = 0
+			}
+			4211 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        4185 4195 4203 4211 
+    }
+}

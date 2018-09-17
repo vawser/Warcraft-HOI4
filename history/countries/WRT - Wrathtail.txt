@@ -1,0 +1,83 @@
+﻿capital = 918
+
+oob = "WRT_default"
+
+set_research_slots = 4
+set_stability = 0.5
+set_war_support = 0.75
+
+set_technology = {
+    grunt_equipment_1_tech = 1
+	champion_equipment_1_tech = 1
+	spellcaster_equipment_1_tech = 1
+	archer_equipment_1_tech = 1
+	light_cavalry_equipment_1_tech = 1
+	heavy_cavalry_equipment_1_tech = 1
+	war_engine_equipment_1_tech = 1
+	battleship_tech_1 = 1
+	cruiser_tech_1 = 1
+	destroyer_tech_1 = 1
+	submarine_tech_1 = 1
+	war_engine_support_tech_1 = 1
+	archer_support_tech_1 = 1
+	spellcaster_support_tech_1 = 1
+	logistics_support_tech_1 = 1
+	guard_support_tech_1 = 1
+	engineer_support_tech_1 = 1
+	medic_support_tech_1 = 1
+	scout_support_tech_1 = 1
+	cavalry_support_tech_1 = 1
+	history_tech = 1
+}
+
+add_ideas = {
+    
+	racial_naga
+    
+    war_economy_1
+    minimal_trade
+    conscription_4
+    
+}
+
+set_convoys = 100
+
+set_politics = {
+	parties = {
+		light = {
+			popularity = 0
+		}
+		shadow = {
+			popularity = 90
+		}
+		order = {
+			popularity = 10
+		}
+        disorder = {
+			popularity = 0
+		}
+        life = {
+			popularity = 0
+		}
+        death = {
+			popularity = 0
+		}
+        unaligned = {
+			popularity = 0
+		}
+	}
+
+	ruling_party = shadow
+}
+
+create_country_leader = {
+	name = "Lady Vespia"
+	desc = ""
+	picture = "gfx/leaders/NAGA/naga_female_1.dds"
+	expire = "2000.1.1"
+	ideology = kingdom_shadow
+	traits = {
+		headstrong
+        warmonger
+	}
+}

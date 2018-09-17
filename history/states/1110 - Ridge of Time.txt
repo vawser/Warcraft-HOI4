@@ -1,0 +1,15 @@
+state = {
+	id = 1110
+	name = "RIDGE_OF_TIME"
+	manpower = 26
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = SAN
+	}
+
+	provinces = {
+        4498 3248 4544 4509
+    }
+}

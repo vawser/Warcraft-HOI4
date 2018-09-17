@@ -1,0 +1,1530 @@
+#reload countrycolors
+
+#--------------------------------------
+# HUMAN
+#--------------------------------------
+# Alterac
+ALT = {
+	color = rgb { 239 183 110 }
+	color_ui = rgb { 239 183 110 }
+}
+# Andorhal
+ANO = {
+    color = rgb { 117 132 58 }
+    color_ui = rgb { 117 132 58 }
+}
+# Dalaran
+DAL = {
+	color = rgb { 239 177 231 }
+	color_ui = rgb { 239 177 231 }
+}
+# Darkshire
+DAR = {
+	color = rgb { 19 153 42 }
+	color_ui = rgb { 19 153 42 }
+}
+# Gilneas
+GIL = {
+	color = rgb { 47 92 132 }
+	color_ui = rgb { 47 92 132 }
+}
+# Kul Tiras
+KUL = {
+	color = rgb { 101 47 132 }
+	color_ui = rgb { 101 47 132 }
+}
+# Lordaeron
+LOR = {
+	color = rgb { 190 190 190 }
+	color_ui = rgb { 190 190 190 }
+}
+# Redridge
+RED = {
+	color = rgb { 186 94 29 }
+	color_ui = rgb { 186 94 29 }
+}
+# Stromgarde
+SMG = {
+	color = rgb { 198 28 25 }
+	color_ui = rgb { 198 28 25 }
+}
+# Southshore
+SOU = {
+	color = rgb { 168 73 47 }
+	color_ui = rgb { 168 73 47 }
+}
+# Stormwind
+SRW = {
+	color = rgb { 31 105 224 }
+	color_ui = rgb { 31 105 224 }
+}
+# Stratholme
+STR = {
+    color = rgb { 193 156 81 }
+    color_ui = rgb { 193 156 81 }
+}
+# Tol Barad
+TOL = {
+	color = rgb { 198 100 43 }
+	color_ui = rgb { 198 100 43 }
+}
+# Westfall
+WES = {
+	color = rgb { 201 224 31 }
+	color_ui = rgb { 201 224 31 }
+}
+# Bloodsail
+BLO = {
+	color = rgb { 163 49 34 }
+	color_ui = rgb { 163 49 34 }
+}
+# Karazhan
+KAZ = {
+	color = rgb { 157 43 198 }
+	color_ui = rgb { 157 43 198 }
+}
+
+#--------------------------------------
+# AQIR
+#--------------------------------------
+# Ahn'Qiraj
+AQJ = {
+    color = rgb { 122 12 52 }
+    color_ui = rgb { 122 12 52 }
+}
+# Azjol'Nerub
+AZJ = {
+    color = rgb { 122 12 52 }
+    color_ui = rgb { 122 12 52 }
+}
+
+#--------------------------------------
+# CENTAUR
+#--------------------------------------
+# Galak
+GAL = {
+	color = rgb { 96 168 30 }
+	color_ui = rgb { 96 168 30 }
+}
+# Gelkis
+GEL = {
+    color = rgb { 100 193 116 }
+    color_ui = rgb { 100 193 116 }
+}
+# Magram
+MRA = {
+	color = rgb { 175 96 26 }
+	color_ui = rgb { 175 96 26 }
+}
+# Mauraudine
+MUR = {
+    color = rgb { 7 153 111 }
+    color_ui = rgb { 7 153 111 }
+}
+# Kolkar
+KOL = {
+	color = rgb { 86 142 64 }
+	color_ui = rgb { 86 142 64 }
+}
+
+#--------------------------------------
+# DRAENEI
+#--------------------------------------
+# Exodar
+EXO = {
+	color = rgb { 140 102 193 }
+	color_ui = rgb { 140 102 193 }
+}
+# Lost Ones
+LSO = {
+    color = rgb { 21 114 214 }
+    color_ui = rgb { 21 114 214 }
+}
+# Portal Seekers
+POR = {
+    color = rgb { 10 79 153 }
+    color_ui = rgb { 10 79 153 }
+}
+
+#--------------------------------------
+# DRAGONFLIGHT
+#--------------------------------------
+# Grim Batol
+GMB = {
+	color = rgb { 140 71 70 }
+	color_ui = rgb { 140 71 70 }
+}
+# Wyrmrest Temple
+WYT = {
+    color = rgb { 206 30 30 }
+    color_ui = rgb { 206 30 30 }
+}
+# Twilight Grove
+TWG = {
+	color = rgb { 88 186 70 }
+	color_ui = rgb { 88 186 70 }
+}
+# Seradane
+SER = {
+	color = rgb { 94 150 84 }
+	color_ui = rgb { 94 150 84 }
+}
+# Emerald Dragonshrine
+EDS = {
+	color = rgb { 139 186 70 }
+	color_ui = rgb { 139 186 70 }
+}
+# Dream Bough
+DRB = {
+	color = rgb { 48 160 76 }
+	color_ui = rgb { 48 160 76 }
+}
+# Wyrmbog
+WYB = {
+	color = rgb { 65 68 65 }
+	color_ui = rgb { 65 68 65 }
+}
+# Obsidian Dragonshrine
+ODS = {
+	color = rgb { 33 38 34 }
+	color_ui = rgb { 33 38 34 }
+}
+# The Nexus
+NEX = {
+	color = rgb { 58 106 140 }
+	color_ui = rgb { 58 106 140 }
+}
+# Azure Dragonshrine
+ADS = {
+    color = rgb { 7 153 111 }
+    color_ui = rgb { 7 153 111 }
+}
+# Azurewing
+AZW = {
+    color = rgb { 7 153 111 }
+    color_ui = rgb { 7 153 111 }
+}
+
+#--------------------------------------
+# DWARF
+#--------------------------------------
+# Wildhammer
+WIL = {
+	color = rgb { 36 124 37 }
+	color_ui = rgb { 36 124 37 }
+}
+# Khaz Modan
+IRO = {
+	color = rgb { 65 155 139 }
+	color_ui = rgb { 65 155 139 }
+}
+# Dark Iron
+DKI = {
+	color = rgb { 60 60 60 }
+	color_ui = rgb { 60 60 60 }
+}
+# Aerie Peak
+AER = {
+	color = rgb { 124 193 132 }
+	color_ui = rgb { 124 193 132 }
+}
+
+#--------------------------------------
+# DRYAD
+#--------------------------------------
+# The Unbound
+UNB = {
+    color = rgb { 126 22 224 }
+    color_ui = rgb { 126 22 224 }
+}
+# Sisterhood of Winter
+SOW = {
+    color = rgb { 21 214 159 }
+    color_ui = rgb { 21 214 159 }
+}
+
+#--------------------------------------
+# Earthern
+#--------------------------------------
+# Thor Modan
+TMN = {
+	color = rgb { 100 175 77 }
+	color_ui = rgb { 100 175 77 }
+}
+# Frostborn
+FRO = {
+    color = rgb { 10 79 153 }
+    color_ui = rgb { 10 79 153 }
+}
+# Uldaman
+ULM = {
+	color = rgb { 186 169 63 }
+	color_ui = rgb { 186 169 63 }
+}
+
+#--------------------------------------
+# HIGH ELF
+#--------------------------------------
+# Quel'thalas
+QUE = {
+	color = rgb { 48 61 204 }
+	color_ui = rgb { 48 61 204 }
+}
+
+#--------------------------------------
+# NIGHTBORNE
+#--------------------------------------
+# Suramar
+NTB = {
+    color = rgb { 162 107 214 }
+    color_ui = rgb { 162 107 214 }
+}
+
+#--------------------------------------
+# NIGHT ELF
+#--------------------------------------
+# Darnassus
+DAS = {
+	color = rgb { 119 90 219 }
+	color_ui = rgb { 119 90 219 }
+}
+# Sentinels of Hyjal
+SEN = {
+    color = rgb { 88 214 21 }
+    color_ui = rgb { 88 214 21 }
+}
+# Sentinels of Ashenvale
+SEA = {
+    color = rgb { 84 168 98 }
+    color_ui = rgb { 84 168 98 }
+}
+# Sentinels of Auberdine
+SDS = {
+    color = rgb { 49 102 58 }
+    color_ui = rgb { 49 102 58 }
+}
+# Sentinels of Feathermoon
+SFR = {
+    color = rgb { 99 168 110 }
+    color_ui = rgb { 99 168 110 }
+}
+# Moonglade
+CEN = {
+	color = rgb { 114 62 190 }
+	color_ui = rgb { 114 62 190 }
+}
+# Cenarion Expedition
+CEX = {
+    color = rgb { 61 142 74 }
+    color_ui = rgb { 61 142 74 }
+}
+# Val'sharah
+VAL = {
+    color = rgb { 62 155 12 }
+    color_ui = rgb { 62 155 12 }
+}
+
+#--------------------------------------
+# Furbolg
+#--------------------------------------
+# Timbermaw
+TIM = {
+	color = rgb { 178 126 68 }
+	color_ui = rgb { 178 126 68 }
+}
+# Stillpine
+STP = {
+    color = rgb { 118 145 10 }
+    color_ui = rgb { 118 145 10 }
+}
+# Winterfall
+WTA = {
+    color = rgb { 111 161 214 }
+    color_ui = rgb { 111 161 214 }
+}
+# Frostpaw
+FTP = {
+    color = rgb { 119 193 206 }
+    color_ui = rgb { 119 193 206 }
+}
+# Redfang
+RDF = {
+    color = rgb { 206 30 30 }
+    color_ui = rgb { 206 30 30 }
+}
+# Thistlefur
+THS = {
+    color = rgb { 214 94 14 }
+    color_ui = rgb { 214 94 14 }
+}
+# Blackmaw
+BMW = {
+	color = rgb { 40 40 40 }
+	color_ui = rgb { 40 40 40 }
+}
+# Bloodtooth
+BOH = {
+    color = rgb { 206 30 30 }
+    color_ui = rgb { 206 30 30 }
+}
+# Bristlelimb
+BMB = {
+    color = rgb { 216 196 13 }
+    color_ui = rgb { 216 196 13 }
+}
+# Deadwood
+DDW = {
+    color = rgb { 122 9 9 }
+    color_ui = rgb { 122 9 9 }
+}
+# Foulweald
+FWD = {
+    color = rgb { 124 67 57 }
+    color_ui = rgb { 124 67 57 }
+}
+# Blackwood
+BKF = {
+    color = rgb { 204 144 26 }
+    color_ui = rgb { 204 144 26 }
+}
+# Grizzleweald
+GRZ = {
+    color = rgb { 122 85 12 }
+    color_ui = rgb { 122 85 12 }
+}
+
+#--------------------------------------
+# Gnoll
+#--------------------------------------
+# Palemane
+PAL = {
+	color = rgb { 149 158 215 }
+	color_ui = rgb { 149 158 215 }
+}
+# Mosshide
+MOS = {
+	color = rgb { 68 147 81 }
+	color_ui = rgb { 68 147 81 }
+}
+# Riverpaw
+RVP = {
+	color = rgb { 175 183 66 }
+	color_ui = rgb { 175 183 66 }
+}
+# Blackmane
+BKM = {
+    color = rgb { 88 214 21 }
+    color_ui = rgb { 88 214 21 }
+}
+# Blackpaw
+BPC = {
+    color = rgb { 143 206 109 }
+    color_ui = rgb { 143 206 109 }
+}
+# Drysnout
+DSN = {
+    color = rgb { 62 155 12 }
+    color_ui = rgb { 62 155 12 }
+}
+# Grimtail
+GRI = {
+    color = rgb { 214 100 100 }
+    color_ui = rgb { 214 100 100 }
+}
+# Mudsnout
+MUD = {
+    color = rgb { 216 196 13 }
+    color_ui = rgb { 216 196 13 }
+}
+# Redpine
+REP = {
+    color = rgb { 204 192 93 }
+    color_ui = rgb { 204 192 93 }
+}
+# Redridge Pack
+RRP = {
+    color = rgb { 112 102 11 }
+    color_ui = rgb { 112 102 11 }
+}
+# Rot Hide
+ROT = {
+    color = rgb { 122 115 52 }
+    color_ui = rgb { 122 115 52 }
+}
+# Savage Hill
+SVH = {
+    color = rgb { 175 196 92 }
+    color_ui = rgb { 175 196 92 }
+}
+# Shadowhide
+SDW = {
+    color = rgb { 123 55 122 }
+    color_ui = rgb { 123 55 122 }
+}
+# Woodpaw
+WOO = {
+    color = rgb { 174 214 17 }
+    color_ui = rgb { 174 214 17 }
+}
+
+#--------------------------------------
+# Gnome
+#--------------------------------------
+# Gnomeregan
+GNO = {
+	color = rgb { 168 189 134 }
+	color_ui = rgb { 168 189 134 }
+}
+
+#--------------------------------------
+# Goblin
+#--------------------------------------
+# Bilgewater Cartel
+BIL = {
+	color = rgb { 154 102 68 }
+	color_ui = rgb { 154 102 68 }
+}
+# Steamwheedle Cartel
+SMW = {
+	color = rgb { 20 60 79 }
+	color_ui = rgb { 20 60 79 }
+}
+# Venture Company
+VTC = {
+	color = rgb { 131 202 116 }
+	color_ui = rgb { 131 202 116 }
+}
+# Blackwater Cartel
+BWA = {
+	color = rgb { 131 88 59 }
+	color_ui = rgb { 131 88 59 }
+}
+
+#--------------------------------------
+# Gorloc
+#--------------------------------------
+# Mistwhisper
+MSW = {
+    color = rgb { 10 79 153 }
+    color_ui = rgb { 10 79 153 }
+}
+# Rainspeaker
+RAI = {
+    color = rgb { 61 142 74 }
+    color_ui = rgb { 61 142 74 }
+}
+# Mosswalker
+MWK = {
+    color = rgb { 124 74 124 }
+    color_ui = rgb { 124 74 124 }
+}
+# Sparktouched
+SPK = {
+    color = rgb { 66 132 113 }
+    color_ui = rgb { 66 132 113 }
+}
+
+#--------------------------------------
+# Harpy
+#--------------------------------------
+# Bloodfury
+BFY = {
+    color = rgb { 122 9 9 }
+    color_ui = rgb { 122 9 9 }
+}
+# Coldwind
+COL = {
+    color = rgb { 107 206 178 }
+    color_ui = rgb { 107 206 178 }
+}
+# Dustwind
+DUS = {
+    color = rgb { 62 155 12 }
+    color_ui = rgb { 62 155 12 }
+}
+# Windfury
+WFY = {
+    color = rgb { 111 161 214 }
+    color_ui = rgb { 111 161 214 }
+}
+# Witchwing
+WIW = {
+    color = rgb { 13 125 145 }
+    color_ui = rgb { 13 125 145 }
+}
+
+#--------------------------------------
+# Hozen
+#--------------------------------------
+# Grookin
+GRO = {
+	color = rgb { 173 152 84 }
+	color_ui = rgb { 173 152 84 }
+}
+# Oona
+OON = {
+	color = rgb { 162 83 96 }
+	color_ui = rgb { 162 83 96 }
+}
+
+#--------------------------------------
+# Jinyu
+#--------------------------------------
+# Pearlfin
+PEA = {
+    color = rgb { 67 103 142 }
+    color_ui = rgb { 67 103 142 }
+}
+
+#--------------------------------------
+# Kobold
+#--------------------------------------
+# Gravelsnout
+GRV = {
+    color = rgb { 61 142 74 }
+    color_ui = rgb { 61 142 74 }
+}
+# Windshear
+WIS = {
+    color = rgb { 132 57 7 }
+    color_ui = rgb { 132 57 7 }
+}
+
+#--------------------------------------
+# Magnataur
+#--------------------------------------
+# Magmoth
+MAG = {
+	color = rgb { 194 206 133 }
+	color_ui = rgb { 194 206 133 }
+}
+# Garm
+GAM = {
+    color = rgb { 122 115 52 }
+    color_ui = rgb { 122 115 52 }
+}
+
+#--------------------------------------
+# Mantid
+#--------------------------------------
+# Mantid Empire
+MAN = {
+    color = rgb { 117 132 58 }
+    color_ui = rgb { 117 132 58 }
+}
+
+#--------------------------------------
+# Mogu
+#--------------------------------------
+# Mogu Shan
+MOH = {
+	color = rgb { 61 212 181 }
+	color_ui = rgb { 61 212 181 }
+}
+# Gormali
+GOM = {
+	color = rgb { 188 82 67 }
+	color_ui = rgb { 188 82 67 }
+}
+# Dojani
+DOJ = {
+    color = rgb { 124 67 57 }
+    color_ui = rgb { 124 67 57 }
+}
+# Shan'ze
+SAZ = {
+	color = rgb { 57 157 209 }
+	color_ui = rgb { 57 157 209 }
+}
+# Shao Tien
+SHO = {
+	color = rgb { 46 105 173 }
+	color_ui = rgb { 46 105 173 }
+}
+
+#--------------------------------------
+# Murloc
+#--------------------------------------
+# Siltfin
+SIF = {
+    color = rgb { 21 214 159 }
+    color_ui = rgb { 21 214 159 }
+}
+# Bluegill
+BLU = {
+	color = rgb { 123 185 229 }
+	color_ui = rgb { 123 185 229 }
+}
+# Vilefin
+VIL = {
+	color = rgb { 158 84 173 }
+	color_ui = rgb { 158 84 173 }
+}
+# Saltscale
+SAL = {
+	color = rgb { 165 109 99 }
+	color_ui = rgb { 165 109 99 }
+}
+# Rockpool
+ROC = {
+	color = rgb { 131 163 147 }
+	color_ui = rgb { 131 163 147 }
+}
+# Redgill
+REG = {
+    color = rgb { 214 94 14 }
+    color_ui = rgb { 214 94 14 }
+}
+# Winterfin
+WRF = {
+	color = rgb { 146 170 157 }
+	color_ui = rgb { 146 170 157 }
+}
+# Chillmere
+CHI = {
+	color = rgb { 51 82 77 }
+	color_ui = rgb { 51 82 77 }
+}
+
+#--------------------------------------
+# Naga
+#--------------------------------------
+# Riplash
+RIP = {
+    color = rgb { 61 142 74 }
+    color_ui = rgb { 61 142 74 }
+}
+# Blackfathom
+FAT = {
+    color = rgb { 21 114 214 }
+    color_ui = rgb { 21 114 214 }
+}
+# Eye of Azshara
+EYE = {
+    color = rgb { 111 161 214 }
+    color_ui = rgb { 111 161 214 }
+}
+# Bloodcursed
+BOC = {
+    color = rgb { 21 214 159 }
+    color_ui = rgb { 21 214 159 }
+}
+# Daggerspine
+DGS = {
+    color = rgb { 107 206 178 }
+    color_ui = rgb { 107 206 178 }
+}
+# Hatecrest
+HTC = {
+    color = rgb { 7 153 111 }
+    color_ui = rgb { 7 153 111 }
+}
+# Slitherblade
+SLB = {
+    color = rgb { 66 132 113 }
+    color_ui = rgb { 66 132 113 }
+}
+# Spitelash
+SPL = {
+    color = rgb { 21 185 214 }
+    color_ui = rgb { 21 185 214 }
+}
+# Stormscale
+SMC = {
+    color = rgb { 119 193 206 }
+    color_ui = rgb { 119 193 206 }
+}
+# Strashaz
+SHZ = {
+    color = rgb { 21 114 214 }
+    color_ui = rgb { 21 114 214 }
+}
+# Wrathscale
+WRS = {
+    color = rgb { 10 79 153 }
+    color_ui = rgb { 10 79 153 }
+}
+# Wrathtail
+WRT = {
+    color = rgb { 66 113 122 }
+    color_ui = rgb { 66 113 122 }
+}
+
+#--------------------------------------
+# Ogre
+#--------------------------------------
+# Dreadmaul
+DRD = {
+	color = rgb { 190 139 82 }
+	color_ui = rgb { 190 139 82 }
+}
+# Dunemaul
+DUM = {
+    color = rgb { 112 102 11 }
+    color_ui = rgb { 112 102 11 }
+}
+# Gordunni
+GOR = {
+    color = rgb { 214 100 100 }
+    color_ui = rgb { 214 100 100 }
+}
+# Mo'grosh
+MOG = {
+    color = rgb { 206 30 30 }
+    color_ui = rgb { 206 30 30 }
+}
+# Boulderfist
+BOU = {
+    color = rgb { 204 144 26 }
+    color_ui = rgb { 204 144 26 }
+}
+# Crushridge
+CRS = {
+    color = rgb { 216 196 13 }
+    color_ui = rgb { 216 196 13 }
+}
+# Deadwind
+DWO = {
+    color = rgb { 62 60 60 }
+    color_ui = rgb { 62 60 60 }
+}
+# Dustbelcher
+DBR = {
+    color = rgb { 112 102 11 }
+    color_ui = rgb { 112 102 11 }
+}
+# Firegut
+FRG = {
+    color = rgb { 214 94 14 }
+    color_ui = rgb { 214 94 14 }
+}
+# Moss'Ogg
+MSO = {
+    color = rgb { 9 153 33 }
+    color_ui = rgb { 62 155 12 }
+}
+# Stone Fist
+SPF = {
+    color = rgb { 119 193 206 }
+    color_ui = rgb { 119 193 206 }
+}
+# Stonemaul
+STM = { 
+    color = rgb { 10 79 153 }
+    color_ui = rgb { 10 79 153 }
+}
+# Stonegullet
+SGL = {
+    color = rgb { 118 145 10 }
+    color_ui = rgb { 118 145 10 }
+}
+# Torchbelcher
+TBC = {
+    color = rgb { 124 99 47 }
+    color_ui = rgb { 124 99 47 }
+}
+
+#--------------------------------------
+# Orc
+#--------------------------------------
+# The Orcish Horde
+TTH = {
+	color = rgb { 30 30 30 }
+	color_ui = rgb { 30 30 30 }
+}
+# The Horde
+ORG = {
+	color = rgb { 153 205 59 }
+	color_ui = rgb { 153 205 59 }
+}
+# Burning Blade
+BBC = {
+    color = rgb { 214 100 100 }
+    color_ui = rgb { 214 100 100 }
+}
+# Bleeding Hollow
+BLH = {
+    color = rgb { 62 155 12 }
+    color_ui = rgb { 62 155 12 }
+}
+# Blackrock
+BLK = {
+	color = rgb { 50 50 50 }
+	color_ui = rgb { 50 50 50 }
+}
+# Black Tooth Grin
+BTG = {
+    color = rgb { 40 40 40 }
+	color_ui = rgb { 40 40 40 }
+}
+# Dragonmaw
+DGM = {
+    color = rgb { 122 9 9 }
+    color_ui = rgb { 122 9 9 }
+}
+# Stormreaver
+SRC = {
+    color = rgb { 76 203 199 }
+    color_ui = rgb { 76 203 199 }
+}
+# Twilight's Hammer
+TWH = {
+    color = rgb { 126 22 224 }
+    color_ui = rgb { 126 22 224 }
+}
+
+#--------------------------------------
+# Pandaren
+#--------------------------------------
+# Shado-pan
+SPN = {
+	color = rgb { 147 129 110 }
+	color_ui = rgb { 147 129 110 }
+}
+# Yu'lon
+JAS = {
+    color = rgb { 91 142 64 }
+    color_ui = rgb { 91 142 64 }
+}
+# Niuzao
+BOX = {
+	color = rgb { 51 107 77 }
+	color_ui = rgb { 51 107 77 }
+}
+# Chi'ji
+RCR = {
+	color = rgb { 158 41 54 }
+	color_ui = rgb { 158 41 54 }
+}
+# Xu'en
+TIG = {
+    color = rgb { 180 160 170 }
+    color_ui = rgb { 180 160 170 }
+}
+# Tillers
+TIL = {
+	color = rgb { 91 147 68 }
+	color_ui = rgb { 91 147 68 }
+}
+
+#--------------------------------------
+# Pygmy
+#--------------------------------------
+# Oogah
+OOG = {
+    color = rgb { 143 81 36 }
+    color_ui = rgb { 143 81 36 }
+}
+
+#--------------------------------------
+# Quillboar
+#--------------------------------------
+# Bristleback
+BIS = {
+    color = rgb { 132 57 7 }
+    color_ui = rgb { 132 57 7 }
+}
+# Razormane
+RAZ = {
+    color = rgb { 206 30 30 }
+    color_ui = rgb { 206 30 30 }
+}
+# Razorfen
+RAF = {
+    color = rgb { 204 192 93 }
+    color_ui = rgb { 204 192 93 }
+}
+
+#--------------------------------------
+# Satyr
+#--------------------------------------
+# Legashi
+LEG = {
+    color = rgb { 69 13 122 }
+    color_ui = rgb { 69 13 122 }
+}
+# Nazzivus
+NAZ = {
+	color = rgb { 137 183 216 }
+	color_ui = rgb { 137 183 216 }
+}
+# Xavian
+XAV = {
+	color = rgb { 168 24 24 }
+	color_ui = rgb { 168 24 24  }
+}
+# Haldarr
+HAL = {
+    color = rgb { 11 13 142 }
+    color_ui = rgb { 11 13 142 }
+}
+# Jadefire
+JAD = {
+    color = rgb { 122 14 120 }
+    color_ui = rgb { 122 14 120 }
+}
+# Axxarian
+AXX = {
+	color = rgb { 140 63 114 }
+	color_ui = rgb { 140 63 114 }
+}
+# Wildspawn
+WDP = {
+    color = rgb { 23 214 55 }
+    color_ui = rgb { 23 214 55 }
+}
+
+#--------------------------------------
+# Saurok
+#--------------------------------------
+# Glintrok
+GLI = {
+	color = rgb { 136 172 159 }
+	color_ui = rgb { 136 172 159 }
+}
+# Mistblade
+MTD = {
+    color = rgb { 66 132 113 }
+    color_ui = rgb { 66 132 113 }
+}
+# Riverblade
+RVE = {
+	color = rgb { 65 178 88 }
+	color_ui = rgb { 65 178 88 }
+}
+
+#--------------------------------------
+# Scourge
+#--------------------------------------
+# The Scourge
+SCO = {
+    color = rgb { 69 13 122 }
+    color_ui = rgb { 69 13 122 }
+}
+
+#--------------------------------------
+# Sprite
+#--------------------------------------
+# Rikkitun
+RIK = {
+	color = rgb { 178 176 45 }
+	color_ui = rgb { 178 176 45 }
+}
+
+#--------------------------------------
+# Tauren
+#--------------------------------------
+# Cliffwalker
+CFW = {
+    color = rgb { 204 192 93 }
+    color_ui = rgb { 204 192 93 }
+}
+# Grimtotem
+GMT = {
+    color = rgb { 66 113 122 }
+    color_ui = rgb { 66 113 122 }
+}
+# Runetotem
+RET = {
+    color = rgb { 10 79 153 }
+    color_ui = rgb { 10 79 153 }
+}
+# Dawnstrider
+DST = {
+    color = rgb { 174 214 17 }
+    color_ui = rgb { 174 214 17 }
+}
+# Bloodhoof
+BDH = {
+    color = rgb { 180 60 30 }
+    color_ui = rgb { 186 60 30 }
+}
+# Winterhoof
+WTH = {
+	color = rgb { 129 179 209 }
+	color_ui = rgb { 129 179 209 }
+}
+# Cloudsong
+CST = {
+    color = rgb { 111 161 214 }
+    color_ui = rgb { 111 161 214 }
+}
+# Darkmane
+DKM = {
+    color = rgb { 124 67 57 }
+    color_ui = rgb { 124 67 57 }
+}
+# Eagletalon
+EGL = {
+    color = rgb { 118 145 10 }
+    color_ui = rgb { 118 145 10 }
+}
+# Mistrunner
+MIS = {
+    color = rgb { 119 193 206 }
+    color_ui = rgb { 119 193 206 }
+}
+# Skychaser
+SKC = {
+    color = rgb { 102 114 144 }
+    color_ui = rgb { 102 114 144 }
+}
+# Skyseer
+SKY = {
+    color = rgb { 127 162 199 }
+    color_ui = rgb { 145 175 162 }
+}
+# Stonehoof
+SOT = {
+    color = rgb { 145 175 162 }
+    color_ui = rgb { 145 175 162 }
+}
+# Stonespire
+SPR = {
+    color = rgb { 196 195 111 }
+    color_ui = rgb { 196 195 111 }
+}
+# Wheathoof
+WHE = {
+    color = rgb { 216 196 13 }
+    color_ui = rgb { 216 196 13 }
+}
+# Whitehoof
+WHI = {
+    color = rgb { 210 190 190 }
+    color_ui = rgb { 210 190 190 }
+}
+# Wildmane
+WIM = {
+    color = rgb { 67 103 142 }
+    color_ui = rgb { 67 103 142 }
+}
+# Wildrunner
+WIR = {
+    color = rgb { 105 160 168 }
+    color_ui = rgb { 105 160 168 }
+}
+# Windtotem
+WIT = {
+    color = rgb { 143 206 109 }
+    color_ui = rgb { 143 206 109 }
+}
+# Younghoof
+YOU = {
+    color = rgb { 62 155 12 }
+    color_ui = rgb { 62 155 12 }
+}
+# Highmountain
+HMT = {
+    color = rgb { 91 142 64 }
+    color_ui = rgb { 91 142 64 }
+}
+# Bloodtotem
+BOT = {
+    color = rgb { 21 114 214 }
+    color_ui = rgb { 21 114 214 }
+}
+# Ironhorn
+IRH = {
+    color = rgb { 216 196 13 }
+    color_ui = rgb { 216 196 13 }
+}
+# Prepfoot
+PRF = {
+    color = rgb { 204 144 26 }
+    color_ui = rgb { 204 144 26 }
+}
+# Rivermane
+RVM = {
+    color = rgb { 132 57 7 }
+    color_ui = rgb { 132 57 7 }
+}
+# Skyhorn
+SKH = {
+    color = rgb { 214 94 14 }
+    color_ui = rgb { 214 94 14 }
+}
+
+#--------------------------------------
+# Taunka
+#--------------------------------------
+# Icemist
+ICE = {
+	color = rgb { 129 179 209 }
+	color_ui = rgb { 129 179 209 }
+}
+# Ashtotem
+ASH = {
+    color = rgb { 214 100 100 }
+    color_ui = rgb { 214 100 100 }
+}
+# Wintergale
+WTG = {
+    color = rgb { 11 13 142 }
+    color_ui = rgb { 11 13 142 }
+}
+
+#--------------------------------------
+# Tolvir
+#--------------------------------------
+# Neferset
+NEF = {
+    color = rgb { 204 144 26 }
+    color_ui = rgb { 204 144 26 }
+}
+# Orsis
+ORS = {
+    color = rgb { 69 149 48 }
+    color_ui = rgb { 69 149 48 }
+}
+# Ramkahen
+RAM = {
+    color = rgb { 122 85 12 }
+    color_ui = rgb { 122 85 12 }
+}
+
+#--------------------------------------
+# Titan
+#--------------------------------------
+# Ulduar
+ULD = {
+    color = rgb { 93 47 92 }
+    color_ui = rgb { 93 47 92 }
+}
+# Lifewarders
+LIF = {
+    color = rgb { 216 196 13 }
+    color_ui = rgb { 216 196 13 }
+}
+
+#--------------------------------------
+# Trogg
+#--------------------------------------
+# Stonevault
+SVT = {
+	color = rgb { 42 117 25 }
+	color_ui = rgb { 42 117 25 }
+}
+
+#--------------------------------------
+# Zandalari Troll
+#--------------------------------------
+# Zandalar
+ZDL = {
+    color = rgb { 62 155 12 }
+    color_ui = rgb { 62 155 12 }
+}
+
+#--------------------------------------
+# Forest Troll
+#--------------------------------------
+# Amani
+AMA = {
+    color = rgb { 62 155 12 }
+    color_ui = rgb { 62 155 12 }
+}
+# Shadowpine
+SWP = {
+    color = rgb { 91 142 64 }
+    color_ui = rgb { 91 142 64 }
+}
+# Vilebranch
+VLB = {
+    color = rgb { 122 14 120 }
+    color_ui = rgb { 122 14 120 }
+}
+# Revantusk
+RVT = {
+    color = rgb { 119 193 206 }
+    color_ui = rgb { 119 193 206 }
+}
+# Firetree
+FRR = {
+	color = rgb { 227 137 71 }
+	color_ui = rgb { 227 137 71 }
+}
+# Witherbark
+WTR = {
+    color = rgb { 127 70 91 }
+    color_ui = rgb { 127 70 91 }
+}
+# Smolderthorn
+SLD = {
+    color = rgb { 66 132 113 }
+    color_ui = rgb { 66 132 113 }
+}
+# Shadowglen
+SWN = {
+    color = rgb { 122 12 52 }
+    color_ui = rgb { 122 12 52 }
+}
+
+#--------------------------------------
+# Jungle Troll
+#--------------------------------------
+# Gurubashi
+GUR = {
+	color = rgb { 130 209 50 }
+	color_ui = rgb { 130 209 50 }
+}
+# Bloodscalp
+BLS = {
+	color = rgb { 224 52 22 }
+	color_ui = rgb { 224 52 22 }
+}
+# Shatterspear
+STS = {
+    color = rgb { 91 142 64 }
+    color_ui = rgb { 91 142 64 }
+}
+# Skullsplitter
+SKS = {
+    color = rgb { 122 115 52 }
+    color_ui = rgb { 122 115 52 }
+}
+# Atalai
+ATL = {
+	color = rgb { 180 180 180 }
+	color_ui = rgb { 180 180 180 }
+}
+# Jellyneck
+JEL = {
+	color = rgb { 175 183 66 }
+	color_ui = rgb { 175 183 66 }
+}
+
+#--------------------------------------
+# Sand Troll
+#--------------------------------------
+# Sandfury
+SAN = {
+    color = rgb { 216 196 13 }
+    color_ui = rgb { 216 196 13 }
+}
+
+#--------------------------------------
+# Frost Troll
+#--------------------------------------
+# Drakkari
+DAK = {
+    color = rgb { 21 114 214 }
+    color_ui = rgb { 21 114 214 }
+}
+# Frostmane
+FSM = {
+	color = rgb { 28 25 117 }
+	color_ui = rgb { 28 25 117 }
+}
+# Winterax
+WTX = {
+    color = rgb { 7 153 111 }
+    color_ui = rgb { 7 153 111 }
+}
+# Winterfang
+WTF = {
+    color = rgb { 111 161 214 }
+    color_ui = rgb { 111 161 214 }
+}
+#--------------------------------------
+# Tuskarr
+#--------------------------------------
+# Kal'uak
+KAL = {
+	color = rgb { 58 168 168 }
+	color_ui = rgb { 58 168 168 }
+}
+# Moa'ki
+MOA = {
+	color = rgb { 57 66 109 }
+	color_ui = rgb { 57 66 109 }
+}
+
+#--------------------------------------
+# Undead
+#--------------------------------------
+# The Forsaken
+FOR = {
+	color = rgb { 141 96 67 }
+	color_ui = rgb { 141 96 67 }
+}
+
+#--------------------------------------
+# Vrykul
+#--------------------------------------
+# Dragonflayer
+DGF = {
+	color = rgb { 30 30 188 }
+	color_ui = rgb { 30 30 188 }
+}
+# Winterskorn
+WTO = {
+    color = rgb { 124 74 124 }
+    color_ui = rgb { 124 74 124 }
+}
+# Skadir
+SKA = {
+	color = rgb { 118 176 115 }
+	color_ui = rgb { 118 176 115 }
+}
+# Ymirjar
+YMI = {
+    color = rgb { 7 153 111 }
+    color_ui = rgb { 7 153 111 }
+}
+# Hyldnir
+HYL = {
+    color = rgb { 67 103 142 }
+    color_ui = rgb { 67 103 142 }
+}
+# Jotunheim
+JOT = {
+    color = rgb { 66 132 113 }
+    color_ui = rgb { 66 132 113 }
+}
+# Stormheim
+STH = {
+    color = rgb { 112 102 11 }
+    color_ui = rgb { 112 102 11 }
+}
+
+#--------------------------------------
+# Wolvar
+#--------------------------------------
+# Bloodpaw
+BLP = {
+    color = rgb { 122 9 9 }
+    color_ui = rgb { 122 9 9 }
+}
+# Frenzyheart
+FZY = {
+    color = rgb { 21 114 214 }
+    color_ui = rgb { 21 114 214 }
+}
+# Howling
+HWG = {
+    color = rgb { 13 125 145 }
+    color_ui = rgb { 13 125 145 }
+}
+# Rageclaw
+RGC = {
+    color = rgb { 132 82 49 }
+    color_ui = rgb { 132 82 49 }
+}
+# Snowfall
+SNF = {
+    color = rgb { 66 113 122 }
+    color_ui = rgb { 66 113 122 }
+}
+
+#--------------------------------------
+# Yaungol
+#--------------------------------------
+# Bataari
+BAT = {
+	color = rgb { 112 127 106 }
+	color_ui = rgb { 112 127 106 }
+}
+# Burilgi
+BUR = {
+	color = rgb { 151 182 109 }
+	color_ui = rgb { 151 182 109 }
+}
+# Ordo
+ORD = {
+    color = rgb { 193 156 81 }
+    color_ui = rgb { 193 156 81 }
+}
+# Osul
+OSU = {
+	color = rgb { 176 194 41 }
+	color_ui = rgb { 176 194 41 }
+}
+# Deadtalker
+DTK = {
+	color = rgb { 107 97 109 }
+	color_ui = rgb { 107 97 109 }
+}
+# Palewind
+PAW = {
+	color = rgb { 189 87 76 }
+	color_ui = rgb { 189 87 76 }
+}
+# Gai-Cho
+GAI = {
+	color = rgb { 49 115 207 }
+	color_ui = rgb { 49 115 207 }
+}
+# Ruqin
+RUQ = {
+	color = rgb { 86 71 188 }
+	color_ui = rgb { 86 71 188 }
+}
+# Yongqi
+YON = {
+	color = rgb { 187 44 91 }
+	color_ui = rgb { 187 44 91 }
+}
+
+#--------------------------------------
+# DYNAMIC
+#--------------------------------------
+D01 = {
+	color = rgb { 200 100 31 }
+	color_ui = rgb { 245 123 38 }
+}
+D02 = {
+	color = rgb { 80 150 179 }
+	color_ui = rgb { 89 219 220 }
+}
+D03 = {
+	color = rgb { 92 92 197 }
+	color_ui = rgb { 116 116 247 }
+}
+D04 = {
+	color = rgb { 154 69 116 }
+	color_ui = rgb { 200 90 151 }
+}
+D05 = {
+	color = rgb { 194 140 86 }
+	color_ui = rgb { 252 182 112 }
+}
+D06 = {
+	color = rgb { 195 149 155 }
+	color_ui = rgb { 254 194 202 }
+}
+D07 = {
+	color = rgb { 210 106 47 }
+	color_ui = rgb { 255 138 61 }
+}
+D08 = {
+	color = rgb { 105 147 86 }
+	color_ui = rgb { 149 210 123 }
+}
+D09 = {
+	color = rgb { 175 162 108 }
+	color_ui = rgb { 221 203 135 }
+}
+D10 = {
+	color = rgb { 124 140 162 }
+	color_ui = rgb { 161 182 211 }
+}
+D11 = {
+	color = rgb { 187 79 86 }
+	color_ui = rgb { 243 103 112 }
+}
+D12 = {
+	color = rgb { 69 157 208 }
+	color_ui = rgb { 90 204 255 }
+}
+D13 = {
+	color = rgb { 142 79 200 }
+	color_ui = rgb { 176 98 249 }
+}
+D14 = {
+	color = rgb { 122 179 97 }
+	color_ui = rgb { 159 233 126 }
+}
+D15 = {
+	color = rgb { 194 140 86 }
+	color_ui = rgb { 252 182 112 }
+}

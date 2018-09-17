@@ -1,0 +1,68 @@
+state = {
+	id = 431
+	name = "WHITE_LOTUS"
+	manpower = 788
+	state_category = rural
+
+	resources = {
+		oil = 2
+		ground_beast = 2
+		flying_beast = 8
+		wood = 2
+		steel = 12
+		food = 15
+	}
+
+	history = {
+		owner = BUR
+		add_core_of = BUR
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 3
+			industrial_complex = 1
+			dockyard = 0
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			6295 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 4
+			}
+			6297 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 1
+			}
+			6475 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 4
+			}
+			6814 = {
+				bunker = 0
+			}
+			6903 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        6295 6297 6475 6814 6903 
+    }
+}

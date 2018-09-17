@@ -1,0 +1,76 @@
+state = {
+	id = 46
+	name = "NORTHSHIRE"
+	manpower = 15966
+	state_category = city
+
+	resources = {
+		oil = 1
+		ground_beast = 1
+		flying_beast = 4
+		wood = 18
+		steel = 4
+		food = 10
+	}
+
+	history = {
+        victory_points = {
+            2313 10
+        }
+        
+		owner = SRW
+        add_core_of = SRW
+
+        # The Second War
+        597.1.1 = {
+            owner = TTH
+            add_core_of = TTH
+        }
+        # The Third War
+        612.1.1 = {
+            owner = SRW
+            add_core_of = SRW
+        }
+        
+		buildings = {
+			infrastructure = 9
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 10
+			industrial_complex = 6
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			2297 = {
+				bunker = 7
+			}
+			2313 = {
+				bunker = 3
+			}
+			2329 = {
+				bunker = 7
+			}
+			2346 = {
+				bunker = 4
+			}
+			2433 = {
+				bunker = 1
+			}
+			2448 = {
+				bunker = 2
+			}
+		}
+	}
+
+	provinces = {
+        2297 2313 2329 2346 2433 2448
+    }
+}

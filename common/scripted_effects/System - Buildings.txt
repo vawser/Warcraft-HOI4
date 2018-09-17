@@ -1,0 +1,3061 @@
+#-------------------------------------------------------------------------------
+# Buildings
+#-------------------------------------------------------------------------------
+# This system grants the effects of the custom buildings for the current country.
+
+# ROOT = Processor
+# Called every 168 hours
+building_update = {
+    every_country = {
+        limit = { }
+
+        #------------------------------
+        # Temple
+        #------------------------------
+        temple_count = yes
+
+        if = {
+            limit = { check_variable = { temple_count > 0 } }
+            
+            # Max of +35 Faith power per week
+            set_temp_variable = { faith_gain = 0.35 }
+            multiply_temp_variable = { faith_gain = temple_count }
+            
+            add_to_variable = { faith_power = faith_gain }
+            
+            set_variable = { report_temple_gain = faith_gain }
+        }
+        
+        #------------------------------
+        # Forum
+        #------------------------------
+        forum_count = yes
+        
+        if = {
+            limit = { check_variable = { forum_count > 0 } }
+            
+            # Max of +50 PP per week
+            set_temp_variable = { pp_gain = 0.5 }
+            multiply_temp_variable = { pp_gain = forum_count }
+            
+            add_political_power = var:pp_gain
+            
+            set_variable = { report_forum_gain = pp_gain }
+        }
+        
+        #------------------------------
+        # Tavern
+        #------------------------------
+        tavern_count = yes
+        
+        if = {
+            limit = { check_variable = { tavern_count > 0 } }
+            
+            # Max of +5 stability per week
+            set_temp_variable = { stability_gain = 0.005 }
+            multiply_temp_variable = { stability_gain = tavern_count }
+            
+            add_stability = var:stability_gain
+            
+            set_variable = { report_tavern_gain = stability_gain }
+        }
+        
+        #------------------------------
+        # Arena
+        #------------------------------
+        arena_count = yes
+        
+        if = {
+            limit = { check_variable = { arena_count > 0 } }
+            
+            # Max of +5 War Support per week
+            set_temp_variable = { ws_gain = 0.005 }
+            multiply_temp_variable = { ws_gain = arena_count }
+            
+            add_war_support = var:ws_gain
+            
+            set_variable = { report_arena_gain = ws_gain }
+        }
+        
+        #------------------------------
+        # Command Post
+        #------------------------------
+        command_post_count = yes
+        
+        if = {
+            limit = { check_variable = { command_post_count > 0 } }
+            
+            # Max of +50 Command Power per week
+            set_temp_variable = { cp_gain = 0.5 }
+            multiply_temp_variable = { cp_gain = command_post_count }
+            
+            add_command_power = var:cp_gain
+            
+            set_variable = { report_cp_gain = cp_gain }
+        }
+        
+        #------------------------------
+        # Training Ground
+        #------------------------------
+        training_ground_count = yes
+        
+        if = {
+            limit = { check_variable = { training_ground_count > 0 } }
+            
+            # Max of +25 Army Exp. per week
+            set_temp_variable = { army_x_gain = 0.25 }
+            multiply_temp_variable = { army_x_gain = training_ground_count }
+            
+            army_experience = var:army_x_gain
+            
+            set_variable = { report_army_x_gain = army_x_gain }
+        }
+        
+        #------------------------------
+        # Airfield
+        #------------------------------
+        airfield_count = yes
+        
+        if = {
+            limit = { check_variable = { airfield_count > 0 } }
+            
+            # Max of +25 Air Exp. per week
+            set_temp_variable = { air_x_gain = 0.25 }
+            multiply_temp_variable = { air_x_gain = airfield_count }
+            
+            air_experience = var:air_x_gain
+            
+            set_variable = { report_air_x_gain = air_x_gain }
+        }
+        
+        #------------------------------
+        # Harbour
+        #------------------------------
+        harbour_count = yes
+        
+        if = {
+            limit = { check_variable = { harbour_count > 0 } }
+            
+            # Max of +25 Navy Exp. per week
+            set_temp_variable = { navy_x_gain = 0.25 }
+            multiply_temp_variable = { navy_x_gain = harbour_count }
+            
+            navy_experience = var:navy_x_gain
+            
+            set_variable = { report_navy_x_gain = navy_x_gain }
+        }
+        
+        #------------------------------
+        # Manufactory
+        #------------------------------
+        manufactory_count = yes
+        
+        set_variable = { report_oil = 0 }
+        set_variable = { report_flying_beast = 0 }
+        set_variable = { report_ground_beast = 0 }
+        set_variable = { report_wood = 0 }
+        set_variable = { report_steel = 0 }
+        set_variable = { report_food = 0 }
+        
+        
+        if = {
+            limit = { check_variable = { manufactory_count > 0 } }
+            
+            set_temp_variable = { r = random }
+            divide_temp_variable = { manufactory_count = 200 }
+            
+            if = { 
+                limit = {
+                    check_variable = { global.debug_manufactory = 1 }
+                }
+                set_temp_variable = { r = manufactory_count }
+                add_to_temp_variable = { r = 1 }
+            }
+            
+            if = {
+                limit = {
+                    check_variable = { r > manufactory_count }
+                }
+                random_owned_state = {
+                    limit = { 
+                        manufactory > 0
+                    }
+                
+                    set_temp_variable = { r = random }
+                    
+                    if = {
+                        limit = {
+                            check_variable { r < 0.15 }
+                        }
+                        add_resource = {
+                            type = oil
+                            amount = 1
+                        }
+                        
+                        add_to_variable = { prev.report_oil = 1 }
+                    }
+                    if = {
+                        limit = {
+                            check_variable { r < 0.3 }
+                        }
+                        add_resource = {
+                            type = flying_beast
+                            amount = 1
+                        }
+                        
+                        add_to_variable = { prev.report_flying_beast = 1 }
+                    }
+                    if = {
+                        limit = {
+                            check_variable { r < 0.45 }
+                        }
+                        add_resource = {
+                            type = ground_beast
+                            amount = 1
+                        }
+                        
+                        add_to_variable = { prev.report_ground_beast = 1 }
+                    }
+                    if = {
+                        limit = {
+                            check_variable { r < 0.6 }
+                        }
+                        add_resource = {
+                            type = wood
+                            amount = 1
+                        }
+                        
+                        add_to_variable = { prev.report_wood = 1 }
+                    }
+                    if = {
+                        limit = {
+                            check_variable { r < 0.75 }
+                        }
+                        add_resource = {
+                            type = steel
+                            amount = 1
+                        }
+                        
+                        add_to_variable = { prev.report_steel = 1 }
+                    }
+                    else = {
+                        add_resource = {
+                            type = food
+                            amount = 1
+                        }
+                        
+                        add_to_variable = { prev.report_food = 1 }
+                    }
+                }
+            }
+        }
+    }
+}
+
+temple_count = {
+    set_temp_variable = { temple_count = 0 }
+
+    if = { limit = { temple > 0 }
+        add_to_temp_variable = { temple_count =  1 }
+    }
+    if = { limit = { temple > 1 }
+        add_to_temp_variable = { temple_count =  1 }
+    }
+    if = { limit = { temple > 2 }
+        add_to_temp_variable = { temple_count =  1 }
+    }
+    if = { limit = { temple > 3 }
+        add_to_temp_variable = { temple_count =  1 }
+    }
+    if = { limit = { temple > 4 }
+        add_to_temp_variable = { temple_count =  1 }
+    }
+    if = { limit = { temple > 5 }
+        add_to_temp_variable = { temple_count =  1 }
+    }
+    if = { limit = { temple > 6 }
+        add_to_temp_variable = { temple_count =  1 }
+    }
+    if = { limit = { temple > 7 }
+        add_to_temp_variable = { temple_count =  1 }
+    }
+    if = { limit = { temple > 8 }
+        add_to_temp_variable = { temple_count =  1 }
+    }
+    if = { limit = { temple > 9 }
+        add_to_temp_variable = { temple_count =  1 }
+    }
+    if = { limit = { temple > 10 }
+        add_to_temp_variable = { temple_count =  1 }
+    }
+    if = { limit = { temple > 11 }
+        add_to_temp_variable = { temple_count =  1 }
+    }
+    if = { limit = { temple > 12 }
+        add_to_temp_variable = { temple_count =  1 }
+    }
+    if = { limit = { temple > 13 }
+        add_to_temp_variable = { temple_count =  1 }
+    }
+    if = { limit = { temple > 14 }
+        add_to_temp_variable = { temple_count =  1 }
+    }
+    if = { limit = { temple > 15 }
+        add_to_temp_variable = { temple_count =  1 }
+    }
+    if = { limit = { temple > 16 }
+        add_to_temp_variable = { temple_count =  1 }
+    }
+    if = { limit = { temple > 17 }
+        add_to_temp_variable = { temple_count =  1 }
+    }
+    if = { limit = { temple > 18 }
+        add_to_temp_variable = { temple_count =  1 }
+    }
+    if = { limit = { temple > 19 }
+        add_to_temp_variable = { temple_count =  1 }
+    }
+    if = { limit = { temple > 20 }
+        add_to_temp_variable = { temple_count =  1 }
+    }
+    if = { limit = { temple > 21 }
+        add_to_temp_variable = { temple_count =  1 }
+    }
+    if = { limit = { temple > 22 }
+        add_to_temp_variable = { temple_count =  1 }
+    }
+    if = { limit = { temple > 23 }
+        add_to_temp_variable = { temple_count =  1 }
+    }
+    if = { limit = { temple > 24 }
+        add_to_temp_variable = { temple_count =  1 }
+    }
+    if = { limit = { temple > 25 }
+        add_to_temp_variable = { temple_count =  1 }
+    }
+    if = { limit = { temple > 26 }
+        add_to_temp_variable = { temple_count =  1 }
+    }
+    if = { limit = { temple > 27 }
+        add_to_temp_variable = { temple_count =  1 }
+    }
+    if = { limit = { temple > 28 }
+        add_to_temp_variable = { temple_count =  1 }
+    }
+    if = { limit = { temple > 29 }
+        add_to_temp_variable = { temple_count =  1 }
+    }
+    if = { limit = { temple > 30 }
+        add_to_temp_variable = { temple_count =  1 }
+    }
+    if = { limit = { temple > 31 }
+        add_to_temp_variable = { temple_count =  1 }
+    }
+    if = { limit = { temple > 32 }
+        add_to_temp_variable = { temple_count =  1 }
+    }
+    if = { limit = { temple > 33 }
+        add_to_temp_variable = { temple_count =  1 }
+    }
+    if = { limit = { temple > 34 }
+        add_to_temp_variable = { temple_count =  1 }
+    }
+    if = { limit = { temple > 35 }
+        add_to_temp_variable = { temple_count =  1 }
+    }
+    if = { limit = { temple > 36 }
+        add_to_temp_variable = { temple_count =  1 }
+    }
+    if = { limit = { temple > 37 }
+        add_to_temp_variable = { temple_count =  1 }
+    }
+    if = { limit = { temple > 38 }
+        add_to_temp_variable = { temple_count =  1 }
+    }
+    if = { limit = { temple > 39 }
+        add_to_temp_variable = { temple_count =  1 }
+    }
+    if = { limit = { temple > 40 }
+        add_to_temp_variable = { temple_count =  1 }
+    }
+    if = { limit = { temple > 41 }
+        add_to_temp_variable = { temple_count =  1 }
+    }
+    if = { limit = { temple > 42 }
+        add_to_temp_variable = { temple_count =  1 }
+    }
+    if = { limit = { temple > 43 }
+        add_to_temp_variable = { temple_count =  1 }
+    }
+    if = { limit = { temple > 44 }
+        add_to_temp_variable = { temple_count =  1 }
+    }
+    if = { limit = { temple > 45 }
+        add_to_temp_variable = { temple_count =  1 }
+    }
+    if = { limit = { temple > 46 }
+        add_to_temp_variable = { temple_count =  1 }
+    }
+    if = { limit = { temple > 47 }
+        add_to_temp_variable = { temple_count =  1 }
+    }
+    if = { limit = { temple > 48 }
+        add_to_temp_variable = { temple_count =  1 }
+    }
+    if = { limit = { temple > 49 }
+        add_to_temp_variable = { temple_count =  1 }
+    }
+    if = { limit = { temple > 50 }
+        add_to_temp_variable = { temple_count =  1 }
+    }
+    if = { limit = { temple > 51 }
+        add_to_temp_variable = { temple_count =  1 }
+    }
+    if = { limit = { temple > 52 }
+        add_to_temp_variable = { temple_count =  1 }
+    }
+    if = { limit = { temple > 53 }
+        add_to_temp_variable = { temple_count =  1 }
+    }
+    if = { limit = { temple > 54 }
+        add_to_temp_variable = { temple_count =  1 }
+    }
+    if = { limit = { temple > 55 }
+        add_to_temp_variable = { temple_count =  1 }
+    }
+    if = { limit = { temple > 56 }
+        add_to_temp_variable = { temple_count =  1 }
+    }
+    if = { limit = { temple > 57 }
+        add_to_temp_variable = { temple_count =  1 }
+    }
+    if = { limit = { temple > 58 }
+        add_to_temp_variable = { temple_count =  1 }
+    }
+    if = { limit = { temple > 59 }
+        add_to_temp_variable = { temple_count =  1 }
+    }
+    if = { limit = { temple > 60 }
+        add_to_temp_variable = { temple_count =  1 }
+    }
+    if = { limit = { temple > 61 }
+        add_to_temp_variable = { temple_count =  1 }
+    }
+    if = { limit = { temple > 62 }
+        add_to_temp_variable = { temple_count =  1 }
+    }
+    if = { limit = { temple > 63 }
+        add_to_temp_variable = { temple_count =  1 }
+    }
+    if = { limit = { temple > 64 }
+        add_to_temp_variable = { temple_count =  1 }
+    }
+    if = { limit = { temple > 65 }
+        add_to_temp_variable = { temple_count =  1 }
+    }
+    if = { limit = { temple > 66 }
+        add_to_temp_variable = { temple_count =  1 }
+    }
+    if = { limit = { temple > 67 }
+        add_to_temp_variable = { temple_count =  1 }
+    }
+    if = { limit = { temple > 68 }
+        add_to_temp_variable = { temple_count =  1 }
+    }
+    if = { limit = { temple > 69 }
+        add_to_temp_variable = { temple_count =  1 }
+    }
+    if = { limit = { temple > 70 }
+        add_to_temp_variable = { temple_count =  1 }
+    }
+    if = { limit = { temple > 71 }
+        add_to_temp_variable = { temple_count =  1 }
+    }
+    if = { limit = { temple > 72 }
+        add_to_temp_variable = { temple_count =  1 }
+    }
+    if = { limit = { temple > 73 }
+        add_to_temp_variable = { temple_count =  1 }
+    }
+    if = { limit = { temple > 74 }
+        add_to_temp_variable = { temple_count =  1 }
+    }
+    if = { limit = { temple > 75 }
+        add_to_temp_variable = { temple_count =  1 }
+    }
+    if = { limit = { temple > 76 }
+        add_to_temp_variable = { temple_count =  1 }
+    }
+    if = { limit = { temple > 77 }
+        add_to_temp_variable = { temple_count =  1 }
+    }
+    if = { limit = { temple > 78 }
+        add_to_temp_variable = { temple_count =  1 }
+    }
+    if = { limit = { temple > 79 }
+        add_to_temp_variable = { temple_count =  1 }
+    }
+    if = { limit = { temple > 80 }
+        add_to_temp_variable = { temple_count =  1 }
+    }
+    if = { limit = { temple > 81 }
+        add_to_temp_variable = { temple_count =  1 }
+    }
+    if = { limit = { temple > 82 }
+        add_to_temp_variable = { temple_count =  1 }
+    }
+    if = { limit = { temple > 83 }
+        add_to_temp_variable = { temple_count =  1 }
+    }
+    if = { limit = { temple > 84 }
+        add_to_temp_variable = { temple_count =  1 }
+    }
+    if = { limit = { temple > 85 }
+        add_to_temp_variable = { temple_count =  1 }
+    }
+    if = { limit = { temple > 86 }
+        add_to_temp_variable = { temple_count =  1 }
+    }
+    if = { limit = { temple > 87 }
+        add_to_temp_variable = { temple_count =  1 }
+    }
+    if = { limit = { temple > 88 }
+        add_to_temp_variable = { temple_count =  1 }
+    }
+    if = { limit = { temple > 89 }
+        add_to_temp_variable = { temple_count =  1 }
+    }
+    if = { limit = { temple > 90 }
+        add_to_temp_variable = { temple_count =  1 }
+    }
+    if = { limit = { temple > 91 }
+        add_to_temp_variable = { temple_count =  1 }
+    }
+    if = { limit = { temple > 92 }
+        add_to_temp_variable = { temple_count =  1 }
+    }
+    if = { limit = { temple > 93 }
+        add_to_temp_variable = { temple_count =  1 }
+    }
+    if = { limit = { temple > 94 }
+        add_to_temp_variable = { temple_count =  1 }
+    }
+    if = { limit = { temple > 95 }
+        add_to_temp_variable = { temple_count =  1 }
+    }
+    if = { limit = { temple > 96 }
+        add_to_temp_variable = { temple_count =  1 }
+    }
+    if = { limit = { temple > 97 }
+        add_to_temp_variable = { temple_count =  1 }
+    }
+    if = { limit = { temple > 98 }
+        add_to_temp_variable = { temple_count =  1 }
+    }
+    if = { limit = { temple > 99 }
+        add_to_temp_variable = { temple_count =  1 }
+    }
+    
+    if = {
+        limit = { check_variable = { global.debug_buildings = 1 } }
+        set_temp_variable = { temple_count = 100 }
+    }
+    
+    set_variable = { temples_built = temple_count }
+}
+
+forum_count = {
+    set_temp_variable = { forum_count = 0 }
+
+    if = { limit = { forum > 0 }
+        add_to_temp_variable = { forum_count =  1 }
+    }
+    if = { limit = { forum > 1 }
+        add_to_temp_variable = { forum_count =  1 }
+    }
+    if = { limit = { forum > 2 }
+        add_to_temp_variable = { forum_count =  1 }
+    }
+    if = { limit = { forum > 3 }
+        add_to_temp_variable = { forum_count =  1 }
+    }
+    if = { limit = { forum > 4 }
+        add_to_temp_variable = { forum_count =  1 }
+    }
+    if = { limit = { forum > 5 }
+        add_to_temp_variable = { forum_count =  1 }
+    }
+    if = { limit = { forum > 6 }
+        add_to_temp_variable = { forum_count =  1 }
+    }
+    if = { limit = { forum > 7 }
+        add_to_temp_variable = { forum_count =  1 }
+    }
+    if = { limit = { forum > 8 }
+        add_to_temp_variable = { forum_count =  1 }
+    }
+    if = { limit = { forum > 9 }
+        add_to_temp_variable = { forum_count =  1 }
+    }
+    if = { limit = { forum > 10 }
+        add_to_temp_variable = { forum_count =  1 }
+    }
+    if = { limit = { forum > 11 }
+        add_to_temp_variable = { forum_count =  1 }
+    }
+    if = { limit = { forum > 12 }
+        add_to_temp_variable = { forum_count =  1 }
+    }
+    if = { limit = { forum > 13 }
+        add_to_temp_variable = { forum_count =  1 }
+    }
+    if = { limit = { forum > 14 }
+        add_to_temp_variable = { forum_count =  1 }
+    }
+    if = { limit = { forum > 15 }
+        add_to_temp_variable = { forum_count =  1 }
+    }
+    if = { limit = { forum > 16 }
+        add_to_temp_variable = { forum_count =  1 }
+    }
+    if = { limit = { forum > 17 }
+        add_to_temp_variable = { forum_count =  1 }
+    }
+    if = { limit = { forum > 18 }
+        add_to_temp_variable = { forum_count =  1 }
+    }
+    if = { limit = { forum > 19 }
+        add_to_temp_variable = { forum_count =  1 }
+    }
+    if = { limit = { forum > 20 }
+        add_to_temp_variable = { forum_count =  1 }
+    }
+    if = { limit = { forum > 21 }
+        add_to_temp_variable = { forum_count =  1 }
+    }
+    if = { limit = { forum > 22 }
+        add_to_temp_variable = { forum_count =  1 }
+    }
+    if = { limit = { forum > 23 }
+        add_to_temp_variable = { forum_count =  1 }
+    }
+    if = { limit = { forum > 24 }
+        add_to_temp_variable = { forum_count =  1 }
+    }
+    if = { limit = { forum > 25 }
+        add_to_temp_variable = { forum_count =  1 }
+    }
+    if = { limit = { forum > 26 }
+        add_to_temp_variable = { forum_count =  1 }
+    }
+    if = { limit = { forum > 27 }
+        add_to_temp_variable = { forum_count =  1 }
+    }
+    if = { limit = { forum > 28 }
+        add_to_temp_variable = { forum_count =  1 }
+    }
+    if = { limit = { forum > 29 }
+        add_to_temp_variable = { forum_count =  1 }
+    }
+    if = { limit = { forum > 30 }
+        add_to_temp_variable = { forum_count =  1 }
+    }
+    if = { limit = { forum > 31 }
+        add_to_temp_variable = { forum_count =  1 }
+    }
+    if = { limit = { forum > 32 }
+        add_to_temp_variable = { forum_count =  1 }
+    }
+    if = { limit = { forum > 33 }
+        add_to_temp_variable = { forum_count =  1 }
+    }
+    if = { limit = { forum > 34 }
+        add_to_temp_variable = { forum_count =  1 }
+    }
+    if = { limit = { forum > 35 }
+        add_to_temp_variable = { forum_count =  1 }
+    }
+    if = { limit = { forum > 36 }
+        add_to_temp_variable = { forum_count =  1 }
+    }
+    if = { limit = { forum > 37 }
+        add_to_temp_variable = { forum_count =  1 }
+    }
+    if = { limit = { forum > 38 }
+        add_to_temp_variable = { forum_count =  1 }
+    }
+    if = { limit = { forum > 39 }
+        add_to_temp_variable = { forum_count =  1 }
+    }
+    if = { limit = { forum > 40 }
+        add_to_temp_variable = { forum_count =  1 }
+    }
+    if = { limit = { forum > 41 }
+        add_to_temp_variable = { forum_count =  1 }
+    }
+    if = { limit = { forum > 42 }
+        add_to_temp_variable = { forum_count =  1 }
+    }
+    if = { limit = { forum > 43 }
+        add_to_temp_variable = { forum_count =  1 }
+    }
+    if = { limit = { forum > 44 }
+        add_to_temp_variable = { forum_count =  1 }
+    }
+    if = { limit = { forum > 45 }
+        add_to_temp_variable = { forum_count =  1 }
+    }
+    if = { limit = { forum > 46 }
+        add_to_temp_variable = { forum_count =  1 }
+    }
+    if = { limit = { forum > 47 }
+        add_to_temp_variable = { forum_count =  1 }
+    }
+    if = { limit = { forum > 48 }
+        add_to_temp_variable = { forum_count =  1 }
+    }
+    if = { limit = { forum > 49 }
+        add_to_temp_variable = { forum_count =  1 }
+    }
+    if = { limit = { forum > 50 }
+        add_to_temp_variable = { forum_count =  1 }
+    }
+    if = { limit = { forum > 51 }
+        add_to_temp_variable = { forum_count =  1 }
+    }
+    if = { limit = { forum > 52 }
+        add_to_temp_variable = { forum_count =  1 }
+    }
+    if = { limit = { forum > 53 }
+        add_to_temp_variable = { forum_count =  1 }
+    }
+    if = { limit = { forum > 54 }
+        add_to_temp_variable = { forum_count =  1 }
+    }
+    if = { limit = { forum > 55 }
+        add_to_temp_variable = { forum_count =  1 }
+    }
+    if = { limit = { forum > 56 }
+        add_to_temp_variable = { forum_count =  1 }
+    }
+    if = { limit = { forum > 57 }
+        add_to_temp_variable = { forum_count =  1 }
+    }
+    if = { limit = { forum > 58 }
+        add_to_temp_variable = { forum_count =  1 }
+    }
+    if = { limit = { forum > 59 }
+        add_to_temp_variable = { forum_count =  1 }
+    }
+    if = { limit = { forum > 60 }
+        add_to_temp_variable = { forum_count =  1 }
+    }
+    if = { limit = { forum > 61 }
+        add_to_temp_variable = { forum_count =  1 }
+    }
+    if = { limit = { forum > 62 }
+        add_to_temp_variable = { forum_count =  1 }
+    }
+    if = { limit = { forum > 63 }
+        add_to_temp_variable = { forum_count =  1 }
+    }
+    if = { limit = { forum > 64 }
+        add_to_temp_variable = { forum_count =  1 }
+    }
+    if = { limit = { forum > 65 }
+        add_to_temp_variable = { forum_count =  1 }
+    }
+    if = { limit = { forum > 66 }
+        add_to_temp_variable = { forum_count =  1 }
+    }
+    if = { limit = { forum > 67 }
+        add_to_temp_variable = { forum_count =  1 }
+    }
+    if = { limit = { forum > 68 }
+        add_to_temp_variable = { forum_count =  1 }
+    }
+    if = { limit = { forum > 69 }
+        add_to_temp_variable = { forum_count =  1 }
+    }
+    if = { limit = { forum > 70 }
+        add_to_temp_variable = { forum_count =  1 }
+    }
+    if = { limit = { forum > 71 }
+        add_to_temp_variable = { forum_count =  1 }
+    }
+    if = { limit = { forum > 72 }
+        add_to_temp_variable = { forum_count =  1 }
+    }
+    if = { limit = { forum > 73 }
+        add_to_temp_variable = { forum_count =  1 }
+    }
+    if = { limit = { forum > 74 }
+        add_to_temp_variable = { forum_count =  1 }
+    }
+    if = { limit = { forum > 75 }
+        add_to_temp_variable = { forum_count =  1 }
+    }
+    if = { limit = { forum > 76 }
+        add_to_temp_variable = { forum_count =  1 }
+    }
+    if = { limit = { forum > 77 }
+        add_to_temp_variable = { forum_count =  1 }
+    }
+    if = { limit = { forum > 78 }
+        add_to_temp_variable = { forum_count =  1 }
+    }
+    if = { limit = { forum > 79 }
+        add_to_temp_variable = { forum_count =  1 }
+    }
+    if = { limit = { forum > 80 }
+        add_to_temp_variable = { forum_count =  1 }
+    }
+    if = { limit = { forum > 81 }
+        add_to_temp_variable = { forum_count =  1 }
+    }
+    if = { limit = { forum > 82 }
+        add_to_temp_variable = { forum_count =  1 }
+    }
+    if = { limit = { forum > 83 }
+        add_to_temp_variable = { forum_count =  1 }
+    }
+    if = { limit = { forum > 84 }
+        add_to_temp_variable = { forum_count =  1 }
+    }
+    if = { limit = { forum > 85 }
+        add_to_temp_variable = { forum_count =  1 }
+    }
+    if = { limit = { forum > 86 }
+        add_to_temp_variable = { forum_count =  1 }
+    }
+    if = { limit = { forum > 87 }
+        add_to_temp_variable = { forum_count =  1 }
+    }
+    if = { limit = { forum > 88 }
+        add_to_temp_variable = { forum_count =  1 }
+    }
+    if = { limit = { forum > 89 }
+        add_to_temp_variable = { forum_count =  1 }
+    }
+    if = { limit = { forum > 90 }
+        add_to_temp_variable = { forum_count =  1 }
+    }
+    if = { limit = { forum > 91 }
+        add_to_temp_variable = { forum_count =  1 }
+    }
+    if = { limit = { forum > 92 }
+        add_to_temp_variable = { forum_count =  1 }
+    }
+    if = { limit = { forum > 93 }
+        add_to_temp_variable = { forum_count =  1 }
+    }
+    if = { limit = { forum > 94 }
+        add_to_temp_variable = { forum_count =  1 }
+    }
+    if = { limit = { forum > 95 }
+        add_to_temp_variable = { forum_count =  1 }
+    }
+    if = { limit = { forum > 96 }
+        add_to_temp_variable = { forum_count =  1 }
+    }
+    if = { limit = { forum > 97 }
+        add_to_temp_variable = { forum_count =  1 }
+    }
+    if = { limit = { forum > 98 }
+        add_to_temp_variable = { forum_count =  1 }
+    }
+    if = { limit = { forum > 99 }
+        add_to_temp_variable = { forum_count =  1 }
+    }
+    
+    if = {
+        limit = { check_variable = { global.debug_buildings = 1 } }
+        set_temp_variable = { forum_count = 100 }
+    }
+    
+    set_variable = { forums_built = forum_count }
+}
+
+tavern_count = {
+    set_temp_variable = { tavern_count = 0 }
+
+    if = { limit = { tavern > 0 }
+        add_to_temp_variable = { tavern_count =  1 }
+    }
+    if = { limit = { tavern > 1 }
+        add_to_temp_variable = { tavern_count =  1 }
+    }
+    if = { limit = { tavern > 2 }
+        add_to_temp_variable = { tavern_count =  1 }
+    }
+    if = { limit = { tavern > 3 }
+        add_to_temp_variable = { tavern_count =  1 }
+    }
+    if = { limit = { tavern > 4 }
+        add_to_temp_variable = { tavern_count =  1 }
+    }
+    if = { limit = { tavern > 5 }
+        add_to_temp_variable = { tavern_count =  1 }
+    }
+    if = { limit = { tavern > 6 }
+        add_to_temp_variable = { tavern_count =  1 }
+    }
+    if = { limit = { tavern > 7 }
+        add_to_temp_variable = { tavern_count =  1 }
+    }
+    if = { limit = { tavern > 8 }
+        add_to_temp_variable = { tavern_count =  1 }
+    }
+    if = { limit = { tavern > 9 }
+        add_to_temp_variable = { tavern_count =  1 }
+    }
+    if = { limit = { tavern > 10 }
+        add_to_temp_variable = { tavern_count =  1 }
+    }
+    if = { limit = { tavern > 11 }
+        add_to_temp_variable = { tavern_count =  1 }
+    }
+    if = { limit = { tavern > 12 }
+        add_to_temp_variable = { tavern_count =  1 }
+    }
+    if = { limit = { tavern > 13 }
+        add_to_temp_variable = { tavern_count =  1 }
+    }
+    if = { limit = { tavern > 14 }
+        add_to_temp_variable = { tavern_count =  1 }
+    }
+    if = { limit = { tavern > 15 }
+        add_to_temp_variable = { tavern_count =  1 }
+    }
+    if = { limit = { tavern > 16 }
+        add_to_temp_variable = { tavern_count =  1 }
+    }
+    if = { limit = { tavern > 17 }
+        add_to_temp_variable = { tavern_count =  1 }
+    }
+    if = { limit = { tavern > 18 }
+        add_to_temp_variable = { tavern_count =  1 }
+    }
+    if = { limit = { tavern > 19 }
+        add_to_temp_variable = { tavern_count =  1 }
+    }
+    if = { limit = { tavern > 20 }
+        add_to_temp_variable = { tavern_count =  1 }
+    }
+    if = { limit = { tavern > 21 }
+        add_to_temp_variable = { tavern_count =  1 }
+    }
+    if = { limit = { tavern > 22 }
+        add_to_temp_variable = { tavern_count =  1 }
+    }
+    if = { limit = { tavern > 23 }
+        add_to_temp_variable = { tavern_count =  1 }
+    }
+    if = { limit = { tavern > 24 }
+        add_to_temp_variable = { tavern_count =  1 }
+    }
+    if = { limit = { tavern > 25 }
+        add_to_temp_variable = { tavern_count =  1 }
+    }
+    if = { limit = { tavern > 26 }
+        add_to_temp_variable = { tavern_count =  1 }
+    }
+    if = { limit = { tavern > 27 }
+        add_to_temp_variable = { tavern_count =  1 }
+    }
+    if = { limit = { tavern > 28 }
+        add_to_temp_variable = { tavern_count =  1 }
+    }
+    if = { limit = { tavern > 29 }
+        add_to_temp_variable = { tavern_count =  1 }
+    }
+    if = { limit = { tavern > 30 }
+        add_to_temp_variable = { tavern_count =  1 }
+    }
+    if = { limit = { tavern > 31 }
+        add_to_temp_variable = { tavern_count =  1 }
+    }
+    if = { limit = { tavern > 32 }
+        add_to_temp_variable = { tavern_count =  1 }
+    }
+    if = { limit = { tavern > 33 }
+        add_to_temp_variable = { tavern_count =  1 }
+    }
+    if = { limit = { tavern > 34 }
+        add_to_temp_variable = { tavern_count =  1 }
+    }
+    if = { limit = { tavern > 35 }
+        add_to_temp_variable = { tavern_count =  1 }
+    }
+    if = { limit = { tavern > 36 }
+        add_to_temp_variable = { tavern_count =  1 }
+    }
+    if = { limit = { tavern > 37 }
+        add_to_temp_variable = { tavern_count =  1 }
+    }
+    if = { limit = { tavern > 38 }
+        add_to_temp_variable = { tavern_count =  1 }
+    }
+    if = { limit = { tavern > 39 }
+        add_to_temp_variable = { tavern_count =  1 }
+    }
+    if = { limit = { tavern > 40 }
+        add_to_temp_variable = { tavern_count =  1 }
+    }
+    if = { limit = { tavern > 41 }
+        add_to_temp_variable = { tavern_count =  1 }
+    }
+    if = { limit = { tavern > 42 }
+        add_to_temp_variable = { tavern_count =  1 }
+    }
+    if = { limit = { tavern > 43 }
+        add_to_temp_variable = { tavern_count =  1 }
+    }
+    if = { limit = { tavern > 44 }
+        add_to_temp_variable = { tavern_count =  1 }
+    }
+    if = { limit = { tavern > 45 }
+        add_to_temp_variable = { tavern_count =  1 }
+    }
+    if = { limit = { tavern > 46 }
+        add_to_temp_variable = { tavern_count =  1 }
+    }
+    if = { limit = { tavern > 47 }
+        add_to_temp_variable = { tavern_count =  1 }
+    }
+    if = { limit = { tavern > 48 }
+        add_to_temp_variable = { tavern_count =  1 }
+    }
+    if = { limit = { tavern > 49 }
+        add_to_temp_variable = { tavern_count =  1 }
+    }
+    if = { limit = { tavern > 50 }
+        add_to_temp_variable = { tavern_count =  1 }
+    }
+    if = { limit = { tavern > 51 }
+        add_to_temp_variable = { tavern_count =  1 }
+    }
+    if = { limit = { tavern > 52 }
+        add_to_temp_variable = { tavern_count =  1 }
+    }
+    if = { limit = { tavern > 53 }
+        add_to_temp_variable = { tavern_count =  1 }
+    }
+    if = { limit = { tavern > 54 }
+        add_to_temp_variable = { tavern_count =  1 }
+    }
+    if = { limit = { tavern > 55 }
+        add_to_temp_variable = { tavern_count =  1 }
+    }
+    if = { limit = { tavern > 56 }
+        add_to_temp_variable = { tavern_count =  1 }
+    }
+    if = { limit = { tavern > 57 }
+        add_to_temp_variable = { tavern_count =  1 }
+    }
+    if = { limit = { tavern > 58 }
+        add_to_temp_variable = { tavern_count =  1 }
+    }
+    if = { limit = { tavern > 59 }
+        add_to_temp_variable = { tavern_count =  1 }
+    }
+    if = { limit = { tavern > 60 }
+        add_to_temp_variable = { tavern_count =  1 }
+    }
+    if = { limit = { tavern > 61 }
+        add_to_temp_variable = { tavern_count =  1 }
+    }
+    if = { limit = { tavern > 62 }
+        add_to_temp_variable = { tavern_count =  1 }
+    }
+    if = { limit = { tavern > 63 }
+        add_to_temp_variable = { tavern_count =  1 }
+    }
+    if = { limit = { tavern > 64 }
+        add_to_temp_variable = { tavern_count =  1 }
+    }
+    if = { limit = { tavern > 65 }
+        add_to_temp_variable = { tavern_count =  1 }
+    }
+    if = { limit = { tavern > 66 }
+        add_to_temp_variable = { tavern_count =  1 }
+    }
+    if = { limit = { tavern > 67 }
+        add_to_temp_variable = { tavern_count =  1 }
+    }
+    if = { limit = { tavern > 68 }
+        add_to_temp_variable = { tavern_count =  1 }
+    }
+    if = { limit = { tavern > 69 }
+        add_to_temp_variable = { tavern_count =  1 }
+    }
+    if = { limit = { tavern > 70 }
+        add_to_temp_variable = { tavern_count =  1 }
+    }
+    if = { limit = { tavern > 71 }
+        add_to_temp_variable = { tavern_count =  1 }
+    }
+    if = { limit = { tavern > 72 }
+        add_to_temp_variable = { tavern_count =  1 }
+    }
+    if = { limit = { tavern > 73 }
+        add_to_temp_variable = { tavern_count =  1 }
+    }
+    if = { limit = { tavern > 74 }
+        add_to_temp_variable = { tavern_count =  1 }
+    }
+    if = { limit = { tavern > 75 }
+        add_to_temp_variable = { tavern_count =  1 }
+    }
+    if = { limit = { tavern > 76 }
+        add_to_temp_variable = { tavern_count =  1 }
+    }
+    if = { limit = { tavern > 77 }
+        add_to_temp_variable = { tavern_count =  1 }
+    }
+    if = { limit = { tavern > 78 }
+        add_to_temp_variable = { tavern_count =  1 }
+    }
+    if = { limit = { tavern > 79 }
+        add_to_temp_variable = { tavern_count =  1 }
+    }
+    if = { limit = { tavern > 80 }
+        add_to_temp_variable = { tavern_count =  1 }
+    }
+    if = { limit = { tavern > 81 }
+        add_to_temp_variable = { tavern_count =  1 }
+    }
+    if = { limit = { tavern > 82 }
+        add_to_temp_variable = { tavern_count =  1 }
+    }
+    if = { limit = { tavern > 83 }
+        add_to_temp_variable = { tavern_count =  1 }
+    }
+    if = { limit = { tavern > 84 }
+        add_to_temp_variable = { tavern_count =  1 }
+    }
+    if = { limit = { tavern > 85 }
+        add_to_temp_variable = { tavern_count =  1 }
+    }
+    if = { limit = { tavern > 86 }
+        add_to_temp_variable = { tavern_count =  1 }
+    }
+    if = { limit = { tavern > 87 }
+        add_to_temp_variable = { tavern_count =  1 }
+    }
+    if = { limit = { tavern > 88 }
+        add_to_temp_variable = { tavern_count =  1 }
+    }
+    if = { limit = { tavern > 89 }
+        add_to_temp_variable = { tavern_count =  1 }
+    }
+    if = { limit = { tavern > 90 }
+        add_to_temp_variable = { tavern_count =  1 }
+    }
+    if = { limit = { tavern > 91 }
+        add_to_temp_variable = { tavern_count =  1 }
+    }
+    if = { limit = { tavern > 92 }
+        add_to_temp_variable = { tavern_count =  1 }
+    }
+    if = { limit = { tavern > 93 }
+        add_to_temp_variable = { tavern_count =  1 }
+    }
+    if = { limit = { tavern > 94 }
+        add_to_temp_variable = { tavern_count =  1 }
+    }
+    if = { limit = { tavern > 95 }
+        add_to_temp_variable = { tavern_count =  1 }
+    }
+    if = { limit = { tavern > 96 }
+        add_to_temp_variable = { tavern_count =  1 }
+    }
+    if = { limit = { tavern > 97 }
+        add_to_temp_variable = { tavern_count =  1 }
+    }
+    if = { limit = { tavern > 98 }
+        add_to_temp_variable = { tavern_count =  1 }
+    }
+    if = { limit = { tavern > 99 }
+        add_to_temp_variable = { tavern_count =  1 }
+    }
+    
+    if = {
+        limit = { check_variable = { global.debug_buildings = 1 } }
+        set_temp_variable = { tavern_count = 100 }
+    }
+    
+    set_variable = { taverns_built = tavern_count }
+}
+
+arena_count = {
+    set_temp_variable = { arena_count = 0 }
+
+    if = { limit = { arena > 0 }
+        add_to_temp_variable = { arena_count =  1 }
+    }
+    if = { limit = { arena > 1 }
+        add_to_temp_variable = { arena_count =  1 }
+    }
+    if = { limit = { arena > 2 }
+        add_to_temp_variable = { arena_count =  1 }
+    }
+    if = { limit = { arena > 3 }
+        add_to_temp_variable = { arena_count =  1 }
+    }
+    if = { limit = { arena > 4 }
+        add_to_temp_variable = { arena_count =  1 }
+    }
+    if = { limit = { arena > 5 }
+        add_to_temp_variable = { arena_count =  1 }
+    }
+    if = { limit = { arena > 6 }
+        add_to_temp_variable = { arena_count =  1 }
+    }
+    if = { limit = { arena > 7 }
+        add_to_temp_variable = { arena_count =  1 }
+    }
+    if = { limit = { arena > 8 }
+        add_to_temp_variable = { arena_count =  1 }
+    }
+    if = { limit = { arena > 9 }
+        add_to_temp_variable = { arena_count =  1 }
+    }
+    if = { limit = { arena > 10 }
+        add_to_temp_variable = { arena_count =  1 }
+    }
+    if = { limit = { arena > 11 }
+        add_to_temp_variable = { arena_count =  1 }
+    }
+    if = { limit = { arena > 12 }
+        add_to_temp_variable = { arena_count =  1 }
+    }
+    if = { limit = { arena > 13 }
+        add_to_temp_variable = { arena_count =  1 }
+    }
+    if = { limit = { arena > 14 }
+        add_to_temp_variable = { arena_count =  1 }
+    }
+    if = { limit = { arena > 15 }
+        add_to_temp_variable = { arena_count =  1 }
+    }
+    if = { limit = { arena > 16 }
+        add_to_temp_variable = { arena_count =  1 }
+    }
+    if = { limit = { arena > 17 }
+        add_to_temp_variable = { arena_count =  1 }
+    }
+    if = { limit = { arena > 18 }
+        add_to_temp_variable = { arena_count =  1 }
+    }
+    if = { limit = { arena > 19 }
+        add_to_temp_variable = { arena_count =  1 }
+    }
+    if = { limit = { arena > 20 }
+        add_to_temp_variable = { arena_count =  1 }
+    }
+    if = { limit = { arena > 21 }
+        add_to_temp_variable = { arena_count =  1 }
+    }
+    if = { limit = { arena > 22 }
+        add_to_temp_variable = { arena_count =  1 }
+    }
+    if = { limit = { arena > 23 }
+        add_to_temp_variable = { arena_count =  1 }
+    }
+    if = { limit = { arena > 24 }
+        add_to_temp_variable = { arena_count =  1 }
+    }
+    if = { limit = { arena > 25 }
+        add_to_temp_variable = { arena_count =  1 }
+    }
+    if = { limit = { arena > 26 }
+        add_to_temp_variable = { arena_count =  1 }
+    }
+    if = { limit = { arena > 27 }
+        add_to_temp_variable = { arena_count =  1 }
+    }
+    if = { limit = { arena > 28 }
+        add_to_temp_variable = { arena_count =  1 }
+    }
+    if = { limit = { arena > 29 }
+        add_to_temp_variable = { arena_count =  1 }
+    }
+    if = { limit = { arena > 30 }
+        add_to_temp_variable = { arena_count =  1 }
+    }
+    if = { limit = { arena > 31 }
+        add_to_temp_variable = { arena_count =  1 }
+    }
+    if = { limit = { arena > 32 }
+        add_to_temp_variable = { arena_count =  1 }
+    }
+    if = { limit = { arena > 33 }
+        add_to_temp_variable = { arena_count =  1 }
+    }
+    if = { limit = { arena > 34 }
+        add_to_temp_variable = { arena_count =  1 }
+    }
+    if = { limit = { arena > 35 }
+        add_to_temp_variable = { arena_count =  1 }
+    }
+    if = { limit = { arena > 36 }
+        add_to_temp_variable = { arena_count =  1 }
+    }
+    if = { limit = { arena > 37 }
+        add_to_temp_variable = { arena_count =  1 }
+    }
+    if = { limit = { arena > 38 }
+        add_to_temp_variable = { arena_count =  1 }
+    }
+    if = { limit = { arena > 39 }
+        add_to_temp_variable = { arena_count =  1 }
+    }
+    if = { limit = { arena > 40 }
+        add_to_temp_variable = { arena_count =  1 }
+    }
+    if = { limit = { arena > 41 }
+        add_to_temp_variable = { arena_count =  1 }
+    }
+    if = { limit = { arena > 42 }
+        add_to_temp_variable = { arena_count =  1 }
+    }
+    if = { limit = { arena > 43 }
+        add_to_temp_variable = { arena_count =  1 }
+    }
+    if = { limit = { arena > 44 }
+        add_to_temp_variable = { arena_count =  1 }
+    }
+    if = { limit = { arena > 45 }
+        add_to_temp_variable = { arena_count =  1 }
+    }
+    if = { limit = { arena > 46 }
+        add_to_temp_variable = { arena_count =  1 }
+    }
+    if = { limit = { arena > 47 }
+        add_to_temp_variable = { arena_count =  1 }
+    }
+    if = { limit = { arena > 48 }
+        add_to_temp_variable = { arena_count =  1 }
+    }
+    if = { limit = { arena > 49 }
+        add_to_temp_variable = { arena_count =  1 }
+    }
+    if = { limit = { arena > 50 }
+        add_to_temp_variable = { arena_count =  1 }
+    }
+    if = { limit = { arena > 51 }
+        add_to_temp_variable = { arena_count =  1 }
+    }
+    if = { limit = { arena > 52 }
+        add_to_temp_variable = { arena_count =  1 }
+    }
+    if = { limit = { arena > 53 }
+        add_to_temp_variable = { arena_count =  1 }
+    }
+    if = { limit = { arena > 54 }
+        add_to_temp_variable = { arena_count =  1 }
+    }
+    if = { limit = { arena > 55 }
+        add_to_temp_variable = { arena_count =  1 }
+    }
+    if = { limit = { arena > 56 }
+        add_to_temp_variable = { arena_count =  1 }
+    }
+    if = { limit = { arena > 57 }
+        add_to_temp_variable = { arena_count =  1 }
+    }
+    if = { limit = { arena > 58 }
+        add_to_temp_variable = { arena_count =  1 }
+    }
+    if = { limit = { arena > 59 }
+        add_to_temp_variable = { arena_count =  1 }
+    }
+    if = { limit = { arena > 60 }
+        add_to_temp_variable = { arena_count =  1 }
+    }
+    if = { limit = { arena > 61 }
+        add_to_temp_variable = { arena_count =  1 }
+    }
+    if = { limit = { arena > 62 }
+        add_to_temp_variable = { arena_count =  1 }
+    }
+    if = { limit = { arena > 63 }
+        add_to_temp_variable = { arena_count =  1 }
+    }
+    if = { limit = { arena > 64 }
+        add_to_temp_variable = { arena_count =  1 }
+    }
+    if = { limit = { arena > 65 }
+        add_to_temp_variable = { arena_count =  1 }
+    }
+    if = { limit = { arena > 66 }
+        add_to_temp_variable = { arena_count =  1 }
+    }
+    if = { limit = { arena > 67 }
+        add_to_temp_variable = { arena_count =  1 }
+    }
+    if = { limit = { arena > 68 }
+        add_to_temp_variable = { arena_count =  1 }
+    }
+    if = { limit = { arena > 69 }
+        add_to_temp_variable = { arena_count =  1 }
+    }
+    if = { limit = { arena > 70 }
+        add_to_temp_variable = { arena_count =  1 }
+    }
+    if = { limit = { arena > 71 }
+        add_to_temp_variable = { arena_count =  1 }
+    }
+    if = { limit = { arena > 72 }
+        add_to_temp_variable = { arena_count =  1 }
+    }
+    if = { limit = { arena > 73 }
+        add_to_temp_variable = { arena_count =  1 }
+    }
+    if = { limit = { arena > 74 }
+        add_to_temp_variable = { arena_count =  1 }
+    }
+    if = { limit = { arena > 75 }
+        add_to_temp_variable = { arena_count =  1 }
+    }
+    if = { limit = { arena > 76 }
+        add_to_temp_variable = { arena_count =  1 }
+    }
+    if = { limit = { arena > 77 }
+        add_to_temp_variable = { arena_count =  1 }
+    }
+    if = { limit = { arena > 78 }
+        add_to_temp_variable = { arena_count =  1 }
+    }
+    if = { limit = { arena > 79 }
+        add_to_temp_variable = { arena_count =  1 }
+    }
+    if = { limit = { arena > 80 }
+        add_to_temp_variable = { arena_count =  1 }
+    }
+    if = { limit = { arena > 81 }
+        add_to_temp_variable = { arena_count =  1 }
+    }
+    if = { limit = { arena > 82 }
+        add_to_temp_variable = { arena_count =  1 }
+    }
+    if = { limit = { arena > 83 }
+        add_to_temp_variable = { arena_count =  1 }
+    }
+    if = { limit = { arena > 84 }
+        add_to_temp_variable = { arena_count =  1 }
+    }
+    if = { limit = { arena > 85 }
+        add_to_temp_variable = { arena_count =  1 }
+    }
+    if = { limit = { arena > 86 }
+        add_to_temp_variable = { arena_count =  1 }
+    }
+    if = { limit = { arena > 87 }
+        add_to_temp_variable = { arena_count =  1 }
+    }
+    if = { limit = { arena > 88 }
+        add_to_temp_variable = { arena_count =  1 }
+    }
+    if = { limit = { arena > 89 }
+        add_to_temp_variable = { arena_count =  1 }
+    }
+    if = { limit = { arena > 90 }
+        add_to_temp_variable = { arena_count =  1 }
+    }
+    if = { limit = { arena > 91 }
+        add_to_temp_variable = { arena_count =  1 }
+    }
+    if = { limit = { arena > 92 }
+        add_to_temp_variable = { arena_count =  1 }
+    }
+    if = { limit = { arena > 93 }
+        add_to_temp_variable = { arena_count =  1 }
+    }
+    if = { limit = { arena > 94 }
+        add_to_temp_variable = { arena_count =  1 }
+    }
+    if = { limit = { arena > 95 }
+        add_to_temp_variable = { arena_count =  1 }
+    }
+    if = { limit = { arena > 96 }
+        add_to_temp_variable = { arena_count =  1 }
+    }
+    if = { limit = { arena > 97 }
+        add_to_temp_variable = { arena_count =  1 }
+    }
+    if = { limit = { arena > 98 }
+        add_to_temp_variable = { arena_count =  1 }
+    }
+    if = { limit = { arena > 99 }
+        add_to_temp_variable = { arena_count =  1 }
+    }
+    
+    if = {
+        limit = { check_variable = { global.debug_buildings = 1 } }
+        set_temp_variable = { arena_count = 100 }
+    }
+    
+    set_variable = { arenas_built = arena_count }
+}
+
+command_post_count = {
+    set_temp_variable = { command_post_count = 0 }
+
+    if = { limit = { command_post > 0 }
+        add_to_temp_variable = { command_post_count =  1 }
+    }
+    if = { limit = { command_post > 1 }
+        add_to_temp_variable = { command_post_count =  1 }
+    }
+    if = { limit = { command_post > 2 }
+        add_to_temp_variable = { command_post_count =  1 }
+    }
+    if = { limit = { command_post > 3 }
+        add_to_temp_variable = { command_post_count =  1 }
+    }
+    if = { limit = { command_post > 4 }
+        add_to_temp_variable = { command_post_count =  1 }
+    }
+    if = { limit = { command_post > 5 }
+        add_to_temp_variable = { command_post_count =  1 }
+    }
+    if = { limit = { command_post > 6 }
+        add_to_temp_variable = { command_post_count =  1 }
+    }
+    if = { limit = { command_post > 7 }
+        add_to_temp_variable = { command_post_count =  1 }
+    }
+    if = { limit = { command_post > 8 }
+        add_to_temp_variable = { command_post_count =  1 }
+    }
+    if = { limit = { command_post > 9 }
+        add_to_temp_variable = { command_post_count =  1 }
+    }
+    if = { limit = { command_post > 10 }
+        add_to_temp_variable = { command_post_count =  1 }
+    }
+    if = { limit = { command_post > 11 }
+        add_to_temp_variable = { command_post_count =  1 }
+    }
+    if = { limit = { command_post > 12 }
+        add_to_temp_variable = { command_post_count =  1 }
+    }
+    if = { limit = { command_post > 13 }
+        add_to_temp_variable = { command_post_count =  1 }
+    }
+    if = { limit = { command_post > 14 }
+        add_to_temp_variable = { command_post_count =  1 }
+    }
+    if = { limit = { command_post > 15 }
+        add_to_temp_variable = { command_post_count =  1 }
+    }
+    if = { limit = { command_post > 16 }
+        add_to_temp_variable = { command_post_count =  1 }
+    }
+    if = { limit = { command_post > 17 }
+        add_to_temp_variable = { command_post_count =  1 }
+    }
+    if = { limit = { command_post > 18 }
+        add_to_temp_variable = { command_post_count =  1 }
+    }
+    if = { limit = { command_post > 19 }
+        add_to_temp_variable = { command_post_count =  1 }
+    }
+    if = { limit = { command_post > 20 }
+        add_to_temp_variable = { command_post_count =  1 }
+    }
+    if = { limit = { command_post > 21 }
+        add_to_temp_variable = { command_post_count =  1 }
+    }
+    if = { limit = { command_post > 22 }
+        add_to_temp_variable = { command_post_count =  1 }
+    }
+    if = { limit = { command_post > 23 }
+        add_to_temp_variable = { command_post_count =  1 }
+    }
+    if = { limit = { command_post > 24 }
+        add_to_temp_variable = { command_post_count =  1 }
+    }
+    if = { limit = { command_post > 25 }
+        add_to_temp_variable = { command_post_count =  1 }
+    }
+    if = { limit = { command_post > 26 }
+        add_to_temp_variable = { command_post_count =  1 }
+    }
+    if = { limit = { command_post > 27 }
+        add_to_temp_variable = { command_post_count =  1 }
+    }
+    if = { limit = { command_post > 28 }
+        add_to_temp_variable = { command_post_count =  1 }
+    }
+    if = { limit = { command_post > 29 }
+        add_to_temp_variable = { command_post_count =  1 }
+    }
+    if = { limit = { command_post > 30 }
+        add_to_temp_variable = { command_post_count =  1 }
+    }
+    if = { limit = { command_post > 31 }
+        add_to_temp_variable = { command_post_count =  1 }
+    }
+    if = { limit = { command_post > 32 }
+        add_to_temp_variable = { command_post_count =  1 }
+    }
+    if = { limit = { command_post > 33 }
+        add_to_temp_variable = { command_post_count =  1 }
+    }
+    if = { limit = { command_post > 34 }
+        add_to_temp_variable = { command_post_count =  1 }
+    }
+    if = { limit = { command_post > 35 }
+        add_to_temp_variable = { command_post_count =  1 }
+    }
+    if = { limit = { command_post > 36 }
+        add_to_temp_variable = { command_post_count =  1 }
+    }
+    if = { limit = { command_post > 37 }
+        add_to_temp_variable = { command_post_count =  1 }
+    }
+    if = { limit = { command_post > 38 }
+        add_to_temp_variable = { command_post_count =  1 }
+    }
+    if = { limit = { command_post > 39 }
+        add_to_temp_variable = { command_post_count =  1 }
+    }
+    if = { limit = { command_post > 40 }
+        add_to_temp_variable = { command_post_count =  1 }
+    }
+    if = { limit = { command_post > 41 }
+        add_to_temp_variable = { command_post_count =  1 }
+    }
+    if = { limit = { command_post > 42 }
+        add_to_temp_variable = { command_post_count =  1 }
+    }
+    if = { limit = { command_post > 43 }
+        add_to_temp_variable = { command_post_count =  1 }
+    }
+    if = { limit = { command_post > 44 }
+        add_to_temp_variable = { command_post_count =  1 }
+    }
+    if = { limit = { command_post > 45 }
+        add_to_temp_variable = { command_post_count =  1 }
+    }
+    if = { limit = { command_post > 46 }
+        add_to_temp_variable = { command_post_count =  1 }
+    }
+    if = { limit = { command_post > 47 }
+        add_to_temp_variable = { command_post_count =  1 }
+    }
+    if = { limit = { command_post > 48 }
+        add_to_temp_variable = { command_post_count =  1 }
+    }
+    if = { limit = { command_post > 49 }
+        add_to_temp_variable = { command_post_count =  1 }
+    }
+    if = { limit = { command_post > 50 }
+        add_to_temp_variable = { command_post_count =  1 }
+    }
+    if = { limit = { command_post > 51 }
+        add_to_temp_variable = { command_post_count =  1 }
+    }
+    if = { limit = { command_post > 52 }
+        add_to_temp_variable = { command_post_count =  1 }
+    }
+    if = { limit = { command_post > 53 }
+        add_to_temp_variable = { command_post_count =  1 }
+    }
+    if = { limit = { command_post > 54 }
+        add_to_temp_variable = { command_post_count =  1 }
+    }
+    if = { limit = { command_post > 55 }
+        add_to_temp_variable = { command_post_count =  1 }
+    }
+    if = { limit = { command_post > 56 }
+        add_to_temp_variable = { command_post_count =  1 }
+    }
+    if = { limit = { command_post > 57 }
+        add_to_temp_variable = { command_post_count =  1 }
+    }
+    if = { limit = { command_post > 58 }
+        add_to_temp_variable = { command_post_count =  1 }
+    }
+    if = { limit = { command_post > 59 }
+        add_to_temp_variable = { command_post_count =  1 }
+    }
+    if = { limit = { command_post > 60 }
+        add_to_temp_variable = { command_post_count =  1 }
+    }
+    if = { limit = { command_post > 61 }
+        add_to_temp_variable = { command_post_count =  1 }
+    }
+    if = { limit = { command_post > 62 }
+        add_to_temp_variable = { command_post_count =  1 }
+    }
+    if = { limit = { command_post > 63 }
+        add_to_temp_variable = { command_post_count =  1 }
+    }
+    if = { limit = { command_post > 64 }
+        add_to_temp_variable = { command_post_count =  1 }
+    }
+    if = { limit = { command_post > 65 }
+        add_to_temp_variable = { command_post_count =  1 }
+    }
+    if = { limit = { command_post > 66 }
+        add_to_temp_variable = { command_post_count =  1 }
+    }
+    if = { limit = { command_post > 67 }
+        add_to_temp_variable = { command_post_count =  1 }
+    }
+    if = { limit = { command_post > 68 }
+        add_to_temp_variable = { command_post_count =  1 }
+    }
+    if = { limit = { command_post > 69 }
+        add_to_temp_variable = { command_post_count =  1 }
+    }
+    if = { limit = { command_post > 70 }
+        add_to_temp_variable = { command_post_count =  1 }
+    }
+    if = { limit = { command_post > 71 }
+        add_to_temp_variable = { command_post_count =  1 }
+    }
+    if = { limit = { command_post > 72 }
+        add_to_temp_variable = { command_post_count =  1 }
+    }
+    if = { limit = { command_post > 73 }
+        add_to_temp_variable = { command_post_count =  1 }
+    }
+    if = { limit = { command_post > 74 }
+        add_to_temp_variable = { command_post_count =  1 }
+    }
+    if = { limit = { command_post > 75 }
+        add_to_temp_variable = { command_post_count =  1 }
+    }
+    if = { limit = { command_post > 76 }
+        add_to_temp_variable = { command_post_count =  1 }
+    }
+    if = { limit = { command_post > 77 }
+        add_to_temp_variable = { command_post_count =  1 }
+    }
+    if = { limit = { command_post > 78 }
+        add_to_temp_variable = { command_post_count =  1 }
+    }
+    if = { limit = { command_post > 79 }
+        add_to_temp_variable = { command_post_count =  1 }
+    }
+    if = { limit = { command_post > 80 }
+        add_to_temp_variable = { command_post_count =  1 }
+    }
+    if = { limit = { command_post > 81 }
+        add_to_temp_variable = { command_post_count =  1 }
+    }
+    if = { limit = { command_post > 82 }
+        add_to_temp_variable = { command_post_count =  1 }
+    }
+    if = { limit = { command_post > 83 }
+        add_to_temp_variable = { command_post_count =  1 }
+    }
+    if = { limit = { command_post > 84 }
+        add_to_temp_variable = { command_post_count =  1 }
+    }
+    if = { limit = { command_post > 85 }
+        add_to_temp_variable = { command_post_count =  1 }
+    }
+    if = { limit = { command_post > 86 }
+        add_to_temp_variable = { command_post_count =  1 }
+    }
+    if = { limit = { command_post > 87 }
+        add_to_temp_variable = { command_post_count =  1 }
+    }
+    if = { limit = { command_post > 88 }
+        add_to_temp_variable = { command_post_count =  1 }
+    }
+    if = { limit = { command_post > 89 }
+        add_to_temp_variable = { command_post_count =  1 }
+    }
+    if = { limit = { command_post > 90 }
+        add_to_temp_variable = { command_post_count =  1 }
+    }
+    if = { limit = { command_post > 91 }
+        add_to_temp_variable = { command_post_count =  1 }
+    }
+    if = { limit = { command_post > 92 }
+        add_to_temp_variable = { command_post_count =  1 }
+    }
+    if = { limit = { command_post > 93 }
+        add_to_temp_variable = { command_post_count =  1 }
+    }
+    if = { limit = { command_post > 94 }
+        add_to_temp_variable = { command_post_count =  1 }
+    }
+    if = { limit = { command_post > 95 }
+        add_to_temp_variable = { command_post_count =  1 }
+    }
+    if = { limit = { command_post > 96 }
+        add_to_temp_variable = { command_post_count =  1 }
+    }
+    if = { limit = { command_post > 97 }
+        add_to_temp_variable = { command_post_count =  1 }
+    }
+    if = { limit = { command_post > 98 }
+        add_to_temp_variable = { command_post_count =  1 }
+    }
+    if = { limit = { command_post > 99 }
+        add_to_temp_variable = { command_post_count =  1 }
+    }
+    
+    if = {
+        limit = { check_variable = { global.debug_buildings = 1 } }
+        set_temp_variable = { command_post_count = 100 }
+    }
+    
+    set_variable = { command_posts_built = command_post_count }
+}
+
+training_ground_count = {
+    set_temp_variable = { training_ground_count = 0 }
+
+    if = { limit = { training_ground > 0 }
+        add_to_temp_variable = { training_ground_count =  1 }
+    }
+    if = { limit = { training_ground > 1 }
+        add_to_temp_variable = { training_ground_count =  1 }
+    }
+    if = { limit = { training_ground > 2 }
+        add_to_temp_variable = { training_ground_count =  1 }
+    }
+    if = { limit = { training_ground > 3 }
+        add_to_temp_variable = { training_ground_count =  1 }
+    }
+    if = { limit = { training_ground > 4 }
+        add_to_temp_variable = { training_ground_count =  1 }
+    }
+    if = { limit = { training_ground > 5 }
+        add_to_temp_variable = { training_ground_count =  1 }
+    }
+    if = { limit = { training_ground > 6 }
+        add_to_temp_variable = { training_ground_count =  1 }
+    }
+    if = { limit = { training_ground > 7 }
+        add_to_temp_variable = { training_ground_count =  1 }
+    }
+    if = { limit = { training_ground > 8 }
+        add_to_temp_variable = { training_ground_count =  1 }
+    }
+    if = { limit = { training_ground > 9 }
+        add_to_temp_variable = { training_ground_count =  1 }
+    }
+    if = { limit = { training_ground > 10 }
+        add_to_temp_variable = { training_ground_count =  1 }
+    }
+    if = { limit = { training_ground > 11 }
+        add_to_temp_variable = { training_ground_count =  1 }
+    }
+    if = { limit = { training_ground > 12 }
+        add_to_temp_variable = { training_ground_count =  1 }
+    }
+    if = { limit = { training_ground > 13 }
+        add_to_temp_variable = { training_ground_count =  1 }
+    }
+    if = { limit = { training_ground > 14 }
+        add_to_temp_variable = { training_ground_count =  1 }
+    }
+    if = { limit = { training_ground > 15 }
+        add_to_temp_variable = { training_ground_count =  1 }
+    }
+    if = { limit = { training_ground > 16 }
+        add_to_temp_variable = { training_ground_count =  1 }
+    }
+    if = { limit = { training_ground > 17 }
+        add_to_temp_variable = { training_ground_count =  1 }
+    }
+    if = { limit = { training_ground > 18 }
+        add_to_temp_variable = { training_ground_count =  1 }
+    }
+    if = { limit = { training_ground > 19 }
+        add_to_temp_variable = { training_ground_count =  1 }
+    }
+    if = { limit = { training_ground > 20 }
+        add_to_temp_variable = { training_ground_count =  1 }
+    }
+    if = { limit = { training_ground > 21 }
+        add_to_temp_variable = { training_ground_count =  1 }
+    }
+    if = { limit = { training_ground > 22 }
+        add_to_temp_variable = { training_ground_count =  1 }
+    }
+    if = { limit = { training_ground > 23 }
+        add_to_temp_variable = { training_ground_count =  1 }
+    }
+    if = { limit = { training_ground > 24 }
+        add_to_temp_variable = { training_ground_count =  1 }
+    }
+    if = { limit = { training_ground > 25 }
+        add_to_temp_variable = { training_ground_count =  1 }
+    }
+    if = { limit = { training_ground > 26 }
+        add_to_temp_variable = { training_ground_count =  1 }
+    }
+    if = { limit = { training_ground > 27 }
+        add_to_temp_variable = { training_ground_count =  1 }
+    }
+    if = { limit = { training_ground > 28 }
+        add_to_temp_variable = { training_ground_count =  1 }
+    }
+    if = { limit = { training_ground > 29 }
+        add_to_temp_variable = { training_ground_count =  1 }
+    }
+    if = { limit = { training_ground > 30 }
+        add_to_temp_variable = { training_ground_count =  1 }
+    }
+    if = { limit = { training_ground > 31 }
+        add_to_temp_variable = { training_ground_count =  1 }
+    }
+    if = { limit = { training_ground > 32 }
+        add_to_temp_variable = { training_ground_count =  1 }
+    }
+    if = { limit = { training_ground > 33 }
+        add_to_temp_variable = { training_ground_count =  1 }
+    }
+    if = { limit = { training_ground > 34 }
+        add_to_temp_variable = { training_ground_count =  1 }
+    }
+    if = { limit = { training_ground > 35 }
+        add_to_temp_variable = { training_ground_count =  1 }
+    }
+    if = { limit = { training_ground > 36 }
+        add_to_temp_variable = { training_ground_count =  1 }
+    }
+    if = { limit = { training_ground > 37 }
+        add_to_temp_variable = { training_ground_count =  1 }
+    }
+    if = { limit = { training_ground > 38 }
+        add_to_temp_variable = { training_ground_count =  1 }
+    }
+    if = { limit = { training_ground > 39 }
+        add_to_temp_variable = { training_ground_count =  1 }
+    }
+    if = { limit = { training_ground > 40 }
+        add_to_temp_variable = { training_ground_count =  1 }
+    }
+    if = { limit = { training_ground > 41 }
+        add_to_temp_variable = { training_ground_count =  1 }
+    }
+    if = { limit = { training_ground > 42 }
+        add_to_temp_variable = { training_ground_count =  1 }
+    }
+    if = { limit = { training_ground > 43 }
+        add_to_temp_variable = { training_ground_count =  1 }
+    }
+    if = { limit = { training_ground > 44 }
+        add_to_temp_variable = { training_ground_count =  1 }
+    }
+    if = { limit = { training_ground > 45 }
+        add_to_temp_variable = { training_ground_count =  1 }
+    }
+    if = { limit = { training_ground > 46 }
+        add_to_temp_variable = { training_ground_count =  1 }
+    }
+    if = { limit = { training_ground > 47 }
+        add_to_temp_variable = { training_ground_count =  1 }
+    }
+    if = { limit = { training_ground > 48 }
+        add_to_temp_variable = { training_ground_count =  1 }
+    }
+    if = { limit = { training_ground > 49 }
+        add_to_temp_variable = { training_ground_count =  1 }
+    }
+    if = { limit = { training_ground > 50 }
+        add_to_temp_variable = { training_ground_count =  1 }
+    }
+    if = { limit = { training_ground > 51 }
+        add_to_temp_variable = { training_ground_count =  1 }
+    }
+    if = { limit = { training_ground > 52 }
+        add_to_temp_variable = { training_ground_count =  1 }
+    }
+    if = { limit = { training_ground > 53 }
+        add_to_temp_variable = { training_ground_count =  1 }
+    }
+    if = { limit = { training_ground > 54 }
+        add_to_temp_variable = { training_ground_count =  1 }
+    }
+    if = { limit = { training_ground > 55 }
+        add_to_temp_variable = { training_ground_count =  1 }
+    }
+    if = { limit = { training_ground > 56 }
+        add_to_temp_variable = { training_ground_count =  1 }
+    }
+    if = { limit = { training_ground > 57 }
+        add_to_temp_variable = { training_ground_count =  1 }
+    }
+    if = { limit = { training_ground > 58 }
+        add_to_temp_variable = { training_ground_count =  1 }
+    }
+    if = { limit = { training_ground > 59 }
+        add_to_temp_variable = { training_ground_count =  1 }
+    }
+    if = { limit = { training_ground > 60 }
+        add_to_temp_variable = { training_ground_count =  1 }
+    }
+    if = { limit = { training_ground > 61 }
+        add_to_temp_variable = { training_ground_count =  1 }
+    }
+    if = { limit = { training_ground > 62 }
+        add_to_temp_variable = { training_ground_count =  1 }
+    }
+    if = { limit = { training_ground > 63 }
+        add_to_temp_variable = { training_ground_count =  1 }
+    }
+    if = { limit = { training_ground > 64 }
+        add_to_temp_variable = { training_ground_count =  1 }
+    }
+    if = { limit = { training_ground > 65 }
+        add_to_temp_variable = { training_ground_count =  1 }
+    }
+    if = { limit = { training_ground > 66 }
+        add_to_temp_variable = { training_ground_count =  1 }
+    }
+    if = { limit = { training_ground > 67 }
+        add_to_temp_variable = { training_ground_count =  1 }
+    }
+    if = { limit = { training_ground > 68 }
+        add_to_temp_variable = { training_ground_count =  1 }
+    }
+    if = { limit = { training_ground > 69 }
+        add_to_temp_variable = { training_ground_count =  1 }
+    }
+    if = { limit = { training_ground > 70 }
+        add_to_temp_variable = { training_ground_count =  1 }
+    }
+    if = { limit = { training_ground > 71 }
+        add_to_temp_variable = { training_ground_count =  1 }
+    }
+    if = { limit = { training_ground > 72 }
+        add_to_temp_variable = { training_ground_count =  1 }
+    }
+    if = { limit = { training_ground > 73 }
+        add_to_temp_variable = { training_ground_count =  1 }
+    }
+    if = { limit = { training_ground > 74 }
+        add_to_temp_variable = { training_ground_count =  1 }
+    }
+    if = { limit = { training_ground > 75 }
+        add_to_temp_variable = { training_ground_count =  1 }
+    }
+    if = { limit = { training_ground > 76 }
+        add_to_temp_variable = { training_ground_count =  1 }
+    }
+    if = { limit = { training_ground > 77 }
+        add_to_temp_variable = { training_ground_count =  1 }
+    }
+    if = { limit = { training_ground > 78 }
+        add_to_temp_variable = { training_ground_count =  1 }
+    }
+    if = { limit = { training_ground > 79 }
+        add_to_temp_variable = { training_ground_count =  1 }
+    }
+    if = { limit = { training_ground > 80 }
+        add_to_temp_variable = { training_ground_count =  1 }
+    }
+    if = { limit = { training_ground > 81 }
+        add_to_temp_variable = { training_ground_count =  1 }
+    }
+    if = { limit = { training_ground > 82 }
+        add_to_temp_variable = { training_ground_count =  1 }
+    }
+    if = { limit = { training_ground > 83 }
+        add_to_temp_variable = { training_ground_count =  1 }
+    }
+    if = { limit = { training_ground > 84 }
+        add_to_temp_variable = { training_ground_count =  1 }
+    }
+    if = { limit = { training_ground > 85 }
+        add_to_temp_variable = { training_ground_count =  1 }
+    }
+    if = { limit = { training_ground > 86 }
+        add_to_temp_variable = { training_ground_count =  1 }
+    }
+    if = { limit = { training_ground > 87 }
+        add_to_temp_variable = { training_ground_count =  1 }
+    }
+    if = { limit = { training_ground > 88 }
+        add_to_temp_variable = { training_ground_count =  1 }
+    }
+    if = { limit = { training_ground > 89 }
+        add_to_temp_variable = { training_ground_count =  1 }
+    }
+    if = { limit = { training_ground > 90 }
+        add_to_temp_variable = { training_ground_count =  1 }
+    }
+    if = { limit = { training_ground > 91 }
+        add_to_temp_variable = { training_ground_count =  1 }
+    }
+    if = { limit = { training_ground > 92 }
+        add_to_temp_variable = { training_ground_count =  1 }
+    }
+    if = { limit = { training_ground > 93 }
+        add_to_temp_variable = { training_ground_count =  1 }
+    }
+    if = { limit = { training_ground > 94 }
+        add_to_temp_variable = { training_ground_count =  1 }
+    }
+    if = { limit = { training_ground > 95 }
+        add_to_temp_variable = { training_ground_count =  1 }
+    }
+    if = { limit = { training_ground > 96 }
+        add_to_temp_variable = { training_ground_count =  1 }
+    }
+    if = { limit = { training_ground > 97 }
+        add_to_temp_variable = { training_ground_count =  1 }
+    }
+    if = { limit = { training_ground > 98 }
+        add_to_temp_variable = { training_ground_count =  1 }
+    }
+    if = { limit = { training_ground > 99 }
+        add_to_temp_variable = { training_ground_count =  1 }
+    }
+    
+    if = {
+        limit = { check_variable = { global.debug_buildings = 1 } }
+        set_temp_variable = { training_ground_count = 100 }
+    }
+    
+    set_variable = { training_grounds_built = training_ground_count }
+}
+
+airfield_count = {
+    set_temp_variable = { airfield_count = 0 }
+
+    if = { limit = { airfield > 0 }
+        add_to_temp_variable = { airfield_count =  1 }
+    }
+    if = { limit = { airfield > 1 }
+        add_to_temp_variable = { airfield_count =  1 }
+    }
+    if = { limit = { airfield > 2 }
+        add_to_temp_variable = { airfield_count =  1 }
+    }
+    if = { limit = { airfield > 3 }
+        add_to_temp_variable = { airfield_count =  1 }
+    }
+    if = { limit = { airfield > 4 }
+        add_to_temp_variable = { airfield_count =  1 }
+    }
+    if = { limit = { airfield > 5 }
+        add_to_temp_variable = { airfield_count =  1 }
+    }
+    if = { limit = { airfield > 6 }
+        add_to_temp_variable = { airfield_count =  1 }
+    }
+    if = { limit = { airfield > 7 }
+        add_to_temp_variable = { airfield_count =  1 }
+    }
+    if = { limit = { airfield > 8 }
+        add_to_temp_variable = { airfield_count =  1 }
+    }
+    if = { limit = { airfield > 9 }
+        add_to_temp_variable = { airfield_count =  1 }
+    }
+    if = { limit = { airfield > 10 }
+        add_to_temp_variable = { airfield_count =  1 }
+    }
+    if = { limit = { airfield > 11 }
+        add_to_temp_variable = { airfield_count =  1 }
+    }
+    if = { limit = { airfield > 12 }
+        add_to_temp_variable = { airfield_count =  1 }
+    }
+    if = { limit = { airfield > 13 }
+        add_to_temp_variable = { airfield_count =  1 }
+    }
+    if = { limit = { airfield > 14 }
+        add_to_temp_variable = { airfield_count =  1 }
+    }
+    if = { limit = { airfield > 15 }
+        add_to_temp_variable = { airfield_count =  1 }
+    }
+    if = { limit = { airfield > 16 }
+        add_to_temp_variable = { airfield_count =  1 }
+    }
+    if = { limit = { airfield > 17 }
+        add_to_temp_variable = { airfield_count =  1 }
+    }
+    if = { limit = { airfield > 18 }
+        add_to_temp_variable = { airfield_count =  1 }
+    }
+    if = { limit = { airfield > 19 }
+        add_to_temp_variable = { airfield_count =  1 }
+    }
+    if = { limit = { airfield > 20 }
+        add_to_temp_variable = { airfield_count =  1 }
+    }
+    if = { limit = { airfield > 21 }
+        add_to_temp_variable = { airfield_count =  1 }
+    }
+    if = { limit = { airfield > 22 }
+        add_to_temp_variable = { airfield_count =  1 }
+    }
+    if = { limit = { airfield > 23 }
+        add_to_temp_variable = { airfield_count =  1 }
+    }
+    if = { limit = { airfield > 24 }
+        add_to_temp_variable = { airfield_count =  1 }
+    }
+    if = { limit = { airfield > 25 }
+        add_to_temp_variable = { airfield_count =  1 }
+    }
+    if = { limit = { airfield > 26 }
+        add_to_temp_variable = { airfield_count =  1 }
+    }
+    if = { limit = { airfield > 27 }
+        add_to_temp_variable = { airfield_count =  1 }
+    }
+    if = { limit = { airfield > 28 }
+        add_to_temp_variable = { airfield_count =  1 }
+    }
+    if = { limit = { airfield > 29 }
+        add_to_temp_variable = { airfield_count =  1 }
+    }
+    if = { limit = { airfield > 30 }
+        add_to_temp_variable = { airfield_count =  1 }
+    }
+    if = { limit = { airfield > 31 }
+        add_to_temp_variable = { airfield_count =  1 }
+    }
+    if = { limit = { airfield > 32 }
+        add_to_temp_variable = { airfield_count =  1 }
+    }
+    if = { limit = { airfield > 33 }
+        add_to_temp_variable = { airfield_count =  1 }
+    }
+    if = { limit = { airfield > 34 }
+        add_to_temp_variable = { airfield_count =  1 }
+    }
+    if = { limit = { airfield > 35 }
+        add_to_temp_variable = { airfield_count =  1 }
+    }
+    if = { limit = { airfield > 36 }
+        add_to_temp_variable = { airfield_count =  1 }
+    }
+    if = { limit = { airfield > 37 }
+        add_to_temp_variable = { airfield_count =  1 }
+    }
+    if = { limit = { airfield > 38 }
+        add_to_temp_variable = { airfield_count =  1 }
+    }
+    if = { limit = { airfield > 39 }
+        add_to_temp_variable = { airfield_count =  1 }
+    }
+    if = { limit = { airfield > 40 }
+        add_to_temp_variable = { airfield_count =  1 }
+    }
+    if = { limit = { airfield > 41 }
+        add_to_temp_variable = { airfield_count =  1 }
+    }
+    if = { limit = { airfield > 42 }
+        add_to_temp_variable = { airfield_count =  1 }
+    }
+    if = { limit = { airfield > 43 }
+        add_to_temp_variable = { airfield_count =  1 }
+    }
+    if = { limit = { airfield > 44 }
+        add_to_temp_variable = { airfield_count =  1 }
+    }
+    if = { limit = { airfield > 45 }
+        add_to_temp_variable = { airfield_count =  1 }
+    }
+    if = { limit = { airfield > 46 }
+        add_to_temp_variable = { airfield_count =  1 }
+    }
+    if = { limit = { airfield > 47 }
+        add_to_temp_variable = { airfield_count =  1 }
+    }
+    if = { limit = { airfield > 48 }
+        add_to_temp_variable = { airfield_count =  1 }
+    }
+    if = { limit = { airfield > 49 }
+        add_to_temp_variable = { airfield_count =  1 }
+    }
+    if = { limit = { airfield > 50 }
+        add_to_temp_variable = { airfield_count =  1 }
+    }
+    if = { limit = { airfield > 51 }
+        add_to_temp_variable = { airfield_count =  1 }
+    }
+    if = { limit = { airfield > 52 }
+        add_to_temp_variable = { airfield_count =  1 }
+    }
+    if = { limit = { airfield > 53 }
+        add_to_temp_variable = { airfield_count =  1 }
+    }
+    if = { limit = { airfield > 54 }
+        add_to_temp_variable = { airfield_count =  1 }
+    }
+    if = { limit = { airfield > 55 }
+        add_to_temp_variable = { airfield_count =  1 }
+    }
+    if = { limit = { airfield > 56 }
+        add_to_temp_variable = { airfield_count =  1 }
+    }
+    if = { limit = { airfield > 57 }
+        add_to_temp_variable = { airfield_count =  1 }
+    }
+    if = { limit = { airfield > 58 }
+        add_to_temp_variable = { airfield_count =  1 }
+    }
+    if = { limit = { airfield > 59 }
+        add_to_temp_variable = { airfield_count =  1 }
+    }
+    if = { limit = { airfield > 60 }
+        add_to_temp_variable = { airfield_count =  1 }
+    }
+    if = { limit = { airfield > 61 }
+        add_to_temp_variable = { airfield_count =  1 }
+    }
+    if = { limit = { airfield > 62 }
+        add_to_temp_variable = { airfield_count =  1 }
+    }
+    if = { limit = { airfield > 63 }
+        add_to_temp_variable = { airfield_count =  1 }
+    }
+    if = { limit = { airfield > 64 }
+        add_to_temp_variable = { airfield_count =  1 }
+    }
+    if = { limit = { airfield > 65 }
+        add_to_temp_variable = { airfield_count =  1 }
+    }
+    if = { limit = { airfield > 66 }
+        add_to_temp_variable = { airfield_count =  1 }
+    }
+    if = { limit = { airfield > 67 }
+        add_to_temp_variable = { airfield_count =  1 }
+    }
+    if = { limit = { airfield > 68 }
+        add_to_temp_variable = { airfield_count =  1 }
+    }
+    if = { limit = { airfield > 69 }
+        add_to_temp_variable = { airfield_count =  1 }
+    }
+    if = { limit = { airfield > 70 }
+        add_to_temp_variable = { airfield_count =  1 }
+    }
+    if = { limit = { airfield > 71 }
+        add_to_temp_variable = { airfield_count =  1 }
+    }
+    if = { limit = { airfield > 72 }
+        add_to_temp_variable = { airfield_count =  1 }
+    }
+    if = { limit = { airfield > 73 }
+        add_to_temp_variable = { airfield_count =  1 }
+    }
+    if = { limit = { airfield > 74 }
+        add_to_temp_variable = { airfield_count =  1 }
+    }
+    if = { limit = { airfield > 75 }
+        add_to_temp_variable = { airfield_count =  1 }
+    }
+    if = { limit = { airfield > 76 }
+        add_to_temp_variable = { airfield_count =  1 }
+    }
+    if = { limit = { airfield > 77 }
+        add_to_temp_variable = { airfield_count =  1 }
+    }
+    if = { limit = { airfield > 78 }
+        add_to_temp_variable = { airfield_count =  1 }
+    }
+    if = { limit = { airfield > 79 }
+        add_to_temp_variable = { airfield_count =  1 }
+    }
+    if = { limit = { airfield > 80 }
+        add_to_temp_variable = { airfield_count =  1 }
+    }
+    if = { limit = { airfield > 81 }
+        add_to_temp_variable = { airfield_count =  1 }
+    }
+    if = { limit = { airfield > 82 }
+        add_to_temp_variable = { airfield_count =  1 }
+    }
+    if = { limit = { airfield > 83 }
+        add_to_temp_variable = { airfield_count =  1 }
+    }
+    if = { limit = { airfield > 84 }
+        add_to_temp_variable = { airfield_count =  1 }
+    }
+    if = { limit = { airfield > 85 }
+        add_to_temp_variable = { airfield_count =  1 }
+    }
+    if = { limit = { airfield > 86 }
+        add_to_temp_variable = { airfield_count =  1 }
+    }
+    if = { limit = { airfield > 87 }
+        add_to_temp_variable = { airfield_count =  1 }
+    }
+    if = { limit = { airfield > 88 }
+        add_to_temp_variable = { airfield_count =  1 }
+    }
+    if = { limit = { airfield > 89 }
+        add_to_temp_variable = { airfield_count =  1 }
+    }
+    if = { limit = { airfield > 90 }
+        add_to_temp_variable = { airfield_count =  1 }
+    }
+    if = { limit = { airfield > 91 }
+        add_to_temp_variable = { airfield_count =  1 }
+    }
+    if = { limit = { airfield > 92 }
+        add_to_temp_variable = { airfield_count =  1 }
+    }
+    if = { limit = { airfield > 93 }
+        add_to_temp_variable = { airfield_count =  1 }
+    }
+    if = { limit = { airfield > 94 }
+        add_to_temp_variable = { airfield_count =  1 }
+    }
+    if = { limit = { airfield > 95 }
+        add_to_temp_variable = { airfield_count =  1 }
+    }
+    if = { limit = { airfield > 96 }
+        add_to_temp_variable = { airfield_count =  1 }
+    }
+    if = { limit = { airfield > 97 }
+        add_to_temp_variable = { airfield_count =  1 }
+    }
+    if = { limit = { airfield > 98 }
+        add_to_temp_variable = { airfield_count =  1 }
+    }
+    if = { limit = { airfield > 99 }
+        add_to_temp_variable = { airfield_count =  1 }
+    }
+    
+    if = {
+        limit = { check_variable = { global.debug_buildings = 1 } }
+        set_temp_variable = { airfield_count = 100 }
+    }
+    
+    set_variable = { airfields_built = airfield_count }
+}
+
+harbour_count = {
+    set_temp_variable = { harbour_count = 0 }
+
+    if = { limit = { harbour > 0 }
+        add_to_temp_variable = { harbour_count =  1 }
+    }
+    if = { limit = { harbour > 1 }
+        add_to_temp_variable = { harbour_count =  1 }
+    }
+    if = { limit = { harbour > 2 }
+        add_to_temp_variable = { harbour_count =  1 }
+    }
+    if = { limit = { harbour > 3 }
+        add_to_temp_variable = { harbour_count =  1 }
+    }
+    if = { limit = { harbour > 4 }
+        add_to_temp_variable = { harbour_count =  1 }
+    }
+    if = { limit = { harbour > 5 }
+        add_to_temp_variable = { harbour_count =  1 }
+    }
+    if = { limit = { harbour > 6 }
+        add_to_temp_variable = { harbour_count =  1 }
+    }
+    if = { limit = { harbour > 7 }
+        add_to_temp_variable = { harbour_count =  1 }
+    }
+    if = { limit = { harbour > 8 }
+        add_to_temp_variable = { harbour_count =  1 }
+    }
+    if = { limit = { harbour > 9 }
+        add_to_temp_variable = { harbour_count =  1 }
+    }
+    if = { limit = { harbour > 10 }
+        add_to_temp_variable = { harbour_count =  1 }
+    }
+    if = { limit = { harbour > 11 }
+        add_to_temp_variable = { harbour_count =  1 }
+    }
+    if = { limit = { harbour > 12 }
+        add_to_temp_variable = { harbour_count =  1 }
+    }
+    if = { limit = { harbour > 13 }
+        add_to_temp_variable = { harbour_count =  1 }
+    }
+    if = { limit = { harbour > 14 }
+        add_to_temp_variable = { harbour_count =  1 }
+    }
+    if = { limit = { harbour > 15 }
+        add_to_temp_variable = { harbour_count =  1 }
+    }
+    if = { limit = { harbour > 16 }
+        add_to_temp_variable = { harbour_count =  1 }
+    }
+    if = { limit = { harbour > 17 }
+        add_to_temp_variable = { harbour_count =  1 }
+    }
+    if = { limit = { harbour > 18 }
+        add_to_temp_variable = { harbour_count =  1 }
+    }
+    if = { limit = { harbour > 19 }
+        add_to_temp_variable = { harbour_count =  1 }
+    }
+    if = { limit = { harbour > 20 }
+        add_to_temp_variable = { harbour_count =  1 }
+    }
+    if = { limit = { harbour > 21 }
+        add_to_temp_variable = { harbour_count =  1 }
+    }
+    if = { limit = { harbour > 22 }
+        add_to_temp_variable = { harbour_count =  1 }
+    }
+    if = { limit = { harbour > 23 }
+        add_to_temp_variable = { harbour_count =  1 }
+    }
+    if = { limit = { harbour > 24 }
+        add_to_temp_variable = { harbour_count =  1 }
+    }
+    if = { limit = { harbour > 25 }
+        add_to_temp_variable = { harbour_count =  1 }
+    }
+    if = { limit = { harbour > 26 }
+        add_to_temp_variable = { harbour_count =  1 }
+    }
+    if = { limit = { harbour > 27 }
+        add_to_temp_variable = { harbour_count =  1 }
+    }
+    if = { limit = { harbour > 28 }
+        add_to_temp_variable = { harbour_count =  1 }
+    }
+    if = { limit = { harbour > 29 }
+        add_to_temp_variable = { harbour_count =  1 }
+    }
+    if = { limit = { harbour > 30 }
+        add_to_temp_variable = { harbour_count =  1 }
+    }
+    if = { limit = { harbour > 31 }
+        add_to_temp_variable = { harbour_count =  1 }
+    }
+    if = { limit = { harbour > 32 }
+        add_to_temp_variable = { harbour_count =  1 }
+    }
+    if = { limit = { harbour > 33 }
+        add_to_temp_variable = { harbour_count =  1 }
+    }
+    if = { limit = { harbour > 34 }
+        add_to_temp_variable = { harbour_count =  1 }
+    }
+    if = { limit = { harbour > 35 }
+        add_to_temp_variable = { harbour_count =  1 }
+    }
+    if = { limit = { harbour > 36 }
+        add_to_temp_variable = { harbour_count =  1 }
+    }
+    if = { limit = { harbour > 37 }
+        add_to_temp_variable = { harbour_count =  1 }
+    }
+    if = { limit = { harbour > 38 }
+        add_to_temp_variable = { harbour_count =  1 }
+    }
+    if = { limit = { harbour > 39 }
+        add_to_temp_variable = { harbour_count =  1 }
+    }
+    if = { limit = { harbour > 40 }
+        add_to_temp_variable = { harbour_count =  1 }
+    }
+    if = { limit = { harbour > 41 }
+        add_to_temp_variable = { harbour_count =  1 }
+    }
+    if = { limit = { harbour > 42 }
+        add_to_temp_variable = { harbour_count =  1 }
+    }
+    if = { limit = { harbour > 43 }
+        add_to_temp_variable = { harbour_count =  1 }
+    }
+    if = { limit = { harbour > 44 }
+        add_to_temp_variable = { harbour_count =  1 }
+    }
+    if = { limit = { harbour > 45 }
+        add_to_temp_variable = { harbour_count =  1 }
+    }
+    if = { limit = { harbour > 46 }
+        add_to_temp_variable = { harbour_count =  1 }
+    }
+    if = { limit = { harbour > 47 }
+        add_to_temp_variable = { harbour_count =  1 }
+    }
+    if = { limit = { harbour > 48 }
+        add_to_temp_variable = { harbour_count =  1 }
+    }
+    if = { limit = { harbour > 49 }
+        add_to_temp_variable = { harbour_count =  1 }
+    }
+    if = { limit = { harbour > 50 }
+        add_to_temp_variable = { harbour_count =  1 }
+    }
+    if = { limit = { harbour > 51 }
+        add_to_temp_variable = { harbour_count =  1 }
+    }
+    if = { limit = { harbour > 52 }
+        add_to_temp_variable = { harbour_count =  1 }
+    }
+    if = { limit = { harbour > 53 }
+        add_to_temp_variable = { harbour_count =  1 }
+    }
+    if = { limit = { harbour > 54 }
+        add_to_temp_variable = { harbour_count =  1 }
+    }
+    if = { limit = { harbour > 55 }
+        add_to_temp_variable = { harbour_count =  1 }
+    }
+    if = { limit = { harbour > 56 }
+        add_to_temp_variable = { harbour_count =  1 }
+    }
+    if = { limit = { harbour > 57 }
+        add_to_temp_variable = { harbour_count =  1 }
+    }
+    if = { limit = { harbour > 58 }
+        add_to_temp_variable = { harbour_count =  1 }
+    }
+    if = { limit = { harbour > 59 }
+        add_to_temp_variable = { harbour_count =  1 }
+    }
+    if = { limit = { harbour > 60 }
+        add_to_temp_variable = { harbour_count =  1 }
+    }
+    if = { limit = { harbour > 61 }
+        add_to_temp_variable = { harbour_count =  1 }
+    }
+    if = { limit = { harbour > 62 }
+        add_to_temp_variable = { harbour_count =  1 }
+    }
+    if = { limit = { harbour > 63 }
+        add_to_temp_variable = { harbour_count =  1 }
+    }
+    if = { limit = { harbour > 64 }
+        add_to_temp_variable = { harbour_count =  1 }
+    }
+    if = { limit = { harbour > 65 }
+        add_to_temp_variable = { harbour_count =  1 }
+    }
+    if = { limit = { harbour > 66 }
+        add_to_temp_variable = { harbour_count =  1 }
+    }
+    if = { limit = { harbour > 67 }
+        add_to_temp_variable = { harbour_count =  1 }
+    }
+    if = { limit = { harbour > 68 }
+        add_to_temp_variable = { harbour_count =  1 }
+    }
+    if = { limit = { harbour > 69 }
+        add_to_temp_variable = { harbour_count =  1 }
+    }
+    if = { limit = { harbour > 70 }
+        add_to_temp_variable = { harbour_count =  1 }
+    }
+    if = { limit = { harbour > 71 }
+        add_to_temp_variable = { harbour_count =  1 }
+    }
+    if = { limit = { harbour > 72 }
+        add_to_temp_variable = { harbour_count =  1 }
+    }
+    if = { limit = { harbour > 73 }
+        add_to_temp_variable = { harbour_count =  1 }
+    }
+    if = { limit = { harbour > 74 }
+        add_to_temp_variable = { harbour_count =  1 }
+    }
+    if = { limit = { harbour > 75 }
+        add_to_temp_variable = { harbour_count =  1 }
+    }
+    if = { limit = { harbour > 76 }
+        add_to_temp_variable = { harbour_count =  1 }
+    }
+    if = { limit = { harbour > 77 }
+        add_to_temp_variable = { harbour_count =  1 }
+    }
+    if = { limit = { harbour > 78 }
+        add_to_temp_variable = { harbour_count =  1 }
+    }
+    if = { limit = { harbour > 79 }
+        add_to_temp_variable = { harbour_count =  1 }
+    }
+    if = { limit = { harbour > 80 }
+        add_to_temp_variable = { harbour_count =  1 }
+    }
+    if = { limit = { harbour > 81 }
+        add_to_temp_variable = { harbour_count =  1 }
+    }
+    if = { limit = { harbour > 82 }
+        add_to_temp_variable = { harbour_count =  1 }
+    }
+    if = { limit = { harbour > 83 }
+        add_to_temp_variable = { harbour_count =  1 }
+    }
+    if = { limit = { harbour > 84 }
+        add_to_temp_variable = { harbour_count =  1 }
+    }
+    if = { limit = { harbour > 85 }
+        add_to_temp_variable = { harbour_count =  1 }
+    }
+    if = { limit = { harbour > 86 }
+        add_to_temp_variable = { harbour_count =  1 }
+    }
+    if = { limit = { harbour > 87 }
+        add_to_temp_variable = { harbour_count =  1 }
+    }
+    if = { limit = { harbour > 88 }
+        add_to_temp_variable = { harbour_count =  1 }
+    }
+    if = { limit = { harbour > 89 }
+        add_to_temp_variable = { harbour_count =  1 }
+    }
+    if = { limit = { harbour > 90 }
+        add_to_temp_variable = { harbour_count =  1 }
+    }
+    if = { limit = { harbour > 91 }
+        add_to_temp_variable = { harbour_count =  1 }
+    }
+    if = { limit = { harbour > 92 }
+        add_to_temp_variable = { harbour_count =  1 }
+    }
+    if = { limit = { harbour > 93 }
+        add_to_temp_variable = { harbour_count =  1 }
+    }
+    if = { limit = { harbour > 94 }
+        add_to_temp_variable = { harbour_count =  1 }
+    }
+    if = { limit = { harbour > 95 }
+        add_to_temp_variable = { harbour_count =  1 }
+    }
+    if = { limit = { harbour > 96 }
+        add_to_temp_variable = { harbour_count =  1 }
+    }
+    if = { limit = { harbour > 97 }
+        add_to_temp_variable = { harbour_count =  1 }
+    }
+    if = { limit = { harbour > 98 }
+        add_to_temp_variable = { harbour_count =  1 }
+    }
+    if = { limit = { harbour > 99 }
+        add_to_temp_variable = { harbour_count =  1 }
+    }
+    
+    if = {
+        limit = { check_variable = { global.debug_buildings = 1 } }
+        set_temp_variable = { harbour_count = 100 }
+    }
+    
+    set_variable = { harbours_built = harbour_count }
+}
+
+manufactory_count = {
+    set_temp_variable = { manufactory_count = 0 }
+
+    if = { limit = { manufactory > 0 }
+        add_to_temp_variable = { manufactory_count =  1 }
+    }
+    if = { limit = { manufactory > 1 }
+        add_to_temp_variable = { manufactory_count =  1 }
+    }
+    if = { limit = { manufactory > 2 }
+        add_to_temp_variable = { manufactory_count =  1 }
+    }
+    if = { limit = { manufactory > 3 }
+        add_to_temp_variable = { manufactory_count =  1 }
+    }
+    if = { limit = { manufactory > 4 }
+        add_to_temp_variable = { manufactory_count =  1 }
+    }
+    if = { limit = { manufactory > 5 }
+        add_to_temp_variable = { manufactory_count =  1 }
+    }
+    if = { limit = { manufactory > 6 }
+        add_to_temp_variable = { manufactory_count =  1 }
+    }
+    if = { limit = { manufactory > 7 }
+        add_to_temp_variable = { manufactory_count =  1 }
+    }
+    if = { limit = { manufactory > 8 }
+        add_to_temp_variable = { manufactory_count =  1 }
+    }
+    if = { limit = { manufactory > 9 }
+        add_to_temp_variable = { manufactory_count =  1 }
+    }
+    if = { limit = { manufactory > 10 }
+        add_to_temp_variable = { manufactory_count =  1 }
+    }
+    if = { limit = { manufactory > 11 }
+        add_to_temp_variable = { manufactory_count =  1 }
+    }
+    if = { limit = { manufactory > 12 }
+        add_to_temp_variable = { manufactory_count =  1 }
+    }
+    if = { limit = { manufactory > 13 }
+        add_to_temp_variable = { manufactory_count =  1 }
+    }
+    if = { limit = { manufactory > 14 }
+        add_to_temp_variable = { manufactory_count =  1 }
+    }
+    if = { limit = { manufactory > 15 }
+        add_to_temp_variable = { manufactory_count =  1 }
+    }
+    if = { limit = { manufactory > 16 }
+        add_to_temp_variable = { manufactory_count =  1 }
+    }
+    if = { limit = { manufactory > 17 }
+        add_to_temp_variable = { manufactory_count =  1 }
+    }
+    if = { limit = { manufactory > 18 }
+        add_to_temp_variable = { manufactory_count =  1 }
+    }
+    if = { limit = { manufactory > 19 }
+        add_to_temp_variable = { manufactory_count =  1 }
+    }
+    if = { limit = { manufactory > 20 }
+        add_to_temp_variable = { manufactory_count =  1 }
+    }
+    if = { limit = { manufactory > 21 }
+        add_to_temp_variable = { manufactory_count =  1 }
+    }
+    if = { limit = { manufactory > 22 }
+        add_to_temp_variable = { manufactory_count =  1 }
+    }
+    if = { limit = { manufactory > 23 }
+        add_to_temp_variable = { manufactory_count =  1 }
+    }
+    if = { limit = { manufactory > 24 }
+        add_to_temp_variable = { manufactory_count =  1 }
+    }
+    if = { limit = { manufactory > 25 }
+        add_to_temp_variable = { manufactory_count =  1 }
+    }
+    if = { limit = { manufactory > 26 }
+        add_to_temp_variable = { manufactory_count =  1 }
+    }
+    if = { limit = { manufactory > 27 }
+        add_to_temp_variable = { manufactory_count =  1 }
+    }
+    if = { limit = { manufactory > 28 }
+        add_to_temp_variable = { manufactory_count =  1 }
+    }
+    if = { limit = { manufactory > 29 }
+        add_to_temp_variable = { manufactory_count =  1 }
+    }
+    if = { limit = { manufactory > 30 }
+        add_to_temp_variable = { manufactory_count =  1 }
+    }
+    if = { limit = { manufactory > 31 }
+        add_to_temp_variable = { manufactory_count =  1 }
+    }
+    if = { limit = { manufactory > 32 }
+        add_to_temp_variable = { manufactory_count =  1 }
+    }
+    if = { limit = { manufactory > 33 }
+        add_to_temp_variable = { manufactory_count =  1 }
+    }
+    if = { limit = { manufactory > 34 }
+        add_to_temp_variable = { manufactory_count =  1 }
+    }
+    if = { limit = { manufactory > 35 }
+        add_to_temp_variable = { manufactory_count =  1 }
+    }
+    if = { limit = { manufactory > 36 }
+        add_to_temp_variable = { manufactory_count =  1 }
+    }
+    if = { limit = { manufactory > 37 }
+        add_to_temp_variable = { manufactory_count =  1 }
+    }
+    if = { limit = { manufactory > 38 }
+        add_to_temp_variable = { manufactory_count =  1 }
+    }
+    if = { limit = { manufactory > 39 }
+        add_to_temp_variable = { manufactory_count =  1 }
+    }
+    if = { limit = { manufactory > 40 }
+        add_to_temp_variable = { manufactory_count =  1 }
+    }
+    if = { limit = { manufactory > 41 }
+        add_to_temp_variable = { manufactory_count =  1 }
+    }
+    if = { limit = { manufactory > 42 }
+        add_to_temp_variable = { manufactory_count =  1 }
+    }
+    if = { limit = { manufactory > 43 }
+        add_to_temp_variable = { manufactory_count =  1 }
+    }
+    if = { limit = { manufactory > 44 }
+        add_to_temp_variable = { manufactory_count =  1 }
+    }
+    if = { limit = { manufactory > 45 }
+        add_to_temp_variable = { manufactory_count =  1 }
+    }
+    if = { limit = { manufactory > 46 }
+        add_to_temp_variable = { manufactory_count =  1 }
+    }
+    if = { limit = { manufactory > 47 }
+        add_to_temp_variable = { manufactory_count =  1 }
+    }
+    if = { limit = { manufactory > 48 }
+        add_to_temp_variable = { manufactory_count =  1 }
+    }
+    if = { limit = { manufactory > 49 }
+        add_to_temp_variable = { manufactory_count =  1 }
+    }
+    if = { limit = { manufactory > 50 }
+        add_to_temp_variable = { manufactory_count =  1 }
+    }
+    if = { limit = { manufactory > 51 }
+        add_to_temp_variable = { manufactory_count =  1 }
+    }
+    if = { limit = { manufactory > 52 }
+        add_to_temp_variable = { manufactory_count =  1 }
+    }
+    if = { limit = { manufactory > 53 }
+        add_to_temp_variable = { manufactory_count =  1 }
+    }
+    if = { limit = { manufactory > 54 }
+        add_to_temp_variable = { manufactory_count =  1 }
+    }
+    if = { limit = { manufactory > 55 }
+        add_to_temp_variable = { manufactory_count =  1 }
+    }
+    if = { limit = { manufactory > 56 }
+        add_to_temp_variable = { manufactory_count =  1 }
+    }
+    if = { limit = { manufactory > 57 }
+        add_to_temp_variable = { manufactory_count =  1 }
+    }
+    if = { limit = { manufactory > 58 }
+        add_to_temp_variable = { manufactory_count =  1 }
+    }
+    if = { limit = { manufactory > 59 }
+        add_to_temp_variable = { manufactory_count =  1 }
+    }
+    if = { limit = { manufactory > 60 }
+        add_to_temp_variable = { manufactory_count =  1 }
+    }
+    if = { limit = { manufactory > 61 }
+        add_to_temp_variable = { manufactory_count =  1 }
+    }
+    if = { limit = { manufactory > 62 }
+        add_to_temp_variable = { manufactory_count =  1 }
+    }
+    if = { limit = { manufactory > 63 }
+        add_to_temp_variable = { manufactory_count =  1 }
+    }
+    if = { limit = { manufactory > 64 }
+        add_to_temp_variable = { manufactory_count =  1 }
+    }
+    if = { limit = { manufactory > 65 }
+        add_to_temp_variable = { manufactory_count =  1 }
+    }
+    if = { limit = { manufactory > 66 }
+        add_to_temp_variable = { manufactory_count =  1 }
+    }
+    if = { limit = { manufactory > 67 }
+        add_to_temp_variable = { manufactory_count =  1 }
+    }
+    if = { limit = { manufactory > 68 }
+        add_to_temp_variable = { manufactory_count =  1 }
+    }
+    if = { limit = { manufactory > 69 }
+        add_to_temp_variable = { manufactory_count =  1 }
+    }
+    if = { limit = { manufactory > 70 }
+        add_to_temp_variable = { manufactory_count =  1 }
+    }
+    if = { limit = { manufactory > 71 }
+        add_to_temp_variable = { manufactory_count =  1 }
+    }
+    if = { limit = { manufactory > 72 }
+        add_to_temp_variable = { manufactory_count =  1 }
+    }
+    if = { limit = { manufactory > 73 }
+        add_to_temp_variable = { manufactory_count =  1 }
+    }
+    if = { limit = { manufactory > 74 }
+        add_to_temp_variable = { manufactory_count =  1 }
+    }
+    if = { limit = { manufactory > 75 }
+        add_to_temp_variable = { manufactory_count =  1 }
+    }
+    if = { limit = { manufactory > 76 }
+        add_to_temp_variable = { manufactory_count =  1 }
+    }
+    if = { limit = { manufactory > 77 }
+        add_to_temp_variable = { manufactory_count =  1 }
+    }
+    if = { limit = { manufactory > 78 }
+        add_to_temp_variable = { manufactory_count =  1 }
+    }
+    if = { limit = { manufactory > 79 }
+        add_to_temp_variable = { manufactory_count =  1 }
+    }
+    if = { limit = { manufactory > 80 }
+        add_to_temp_variable = { manufactory_count =  1 }
+    }
+    if = { limit = { manufactory > 81 }
+        add_to_temp_variable = { manufactory_count =  1 }
+    }
+    if = { limit = { manufactory > 82 }
+        add_to_temp_variable = { manufactory_count =  1 }
+    }
+    if = { limit = { manufactory > 83 }
+        add_to_temp_variable = { manufactory_count =  1 }
+    }
+    if = { limit = { manufactory > 84 }
+        add_to_temp_variable = { manufactory_count =  1 }
+    }
+    if = { limit = { manufactory > 85 }
+        add_to_temp_variable = { manufactory_count =  1 }
+    }
+    if = { limit = { manufactory > 86 }
+        add_to_temp_variable = { manufactory_count =  1 }
+    }
+    if = { limit = { manufactory > 87 }
+        add_to_temp_variable = { manufactory_count =  1 }
+    }
+    if = { limit = { manufactory > 88 }
+        add_to_temp_variable = { manufactory_count =  1 }
+    }
+    if = { limit = { manufactory > 89 }
+        add_to_temp_variable = { manufactory_count =  1 }
+    }
+    if = { limit = { manufactory > 90 }
+        add_to_temp_variable = { manufactory_count =  1 }
+    }
+    if = { limit = { manufactory > 91 }
+        add_to_temp_variable = { manufactory_count =  1 }
+    }
+    if = { limit = { manufactory > 92 }
+        add_to_temp_variable = { manufactory_count =  1 }
+    }
+    if = { limit = { manufactory > 93 }
+        add_to_temp_variable = { manufactory_count =  1 }
+    }
+    if = { limit = { manufactory > 94 }
+        add_to_temp_variable = { manufactory_count =  1 }
+    }
+    if = { limit = { manufactory > 95 }
+        add_to_temp_variable = { manufactory_count =  1 }
+    }
+    if = { limit = { manufactory > 96 }
+        add_to_temp_variable = { manufactory_count =  1 }
+    }
+    if = { limit = { manufactory > 97 }
+        add_to_temp_variable = { manufactory_count =  1 }
+    }
+    if = { limit = { manufactory > 98 }
+        add_to_temp_variable = { manufactory_count =  1 }
+    }
+    if = { limit = { manufactory > 99 }
+        add_to_temp_variable = { manufactory_count =  1 }
+    }
+    
+    if = {
+        limit = { check_variable = { global.debug_buildings = 1 } }
+        set_temp_variable = { manufactory_count = 100 }
+    }
+    
+    set_variable = { manufactories_built = manufactory_count }
+}

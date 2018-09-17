@@ -1,0 +1,57 @@
+state = {
+	id = 509
+	name = "ALTAR_OF_RHUNOK"
+	manpower = 899
+	state_category = rural
+
+	resources = {
+		oil = 3
+		ground_beast = 2
+		flying_beast = 9
+		wood = 4
+		food = 26
+	}
+
+	history = {
+		owner = DAK
+		add_core_of = DAK
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 2
+			industrial_complex = 0
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			5365 = {
+				bunker = 0
+			}
+			5390 = {
+				bunker = 0
+			}
+			6203 = {
+				bunker = 0
+			}
+			6212 = {
+				bunker = 0
+			}
+			6222 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        5365 5390 6203 6212 6222 
+    }
+}

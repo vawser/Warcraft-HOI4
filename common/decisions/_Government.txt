@@ -1,0 +1,285 @@
+government_actions = {
+	support_peasantry = {
+		icon = yellow_quest_mark
+        
+        days_remove = 180
+		days_re_enable = 365
+        
+		cost = 100
+
+		modifier = {
+			stability_weekly = 0.005
+			consumer_goods_factor = 0.05
+			industrial_capacity_factory = -0.1
+		}
+
+		ai_will_do = {
+			base = 0
+            
+            modifier = {
+                add = 1
+                
+                has_stability < 0.6
+            }
+		}
+	}
+    
+    promise_peace = {
+		icon = yellow_quest_mark
+
+		available = {
+            is_civil = yes
+			has_war = no
+			has_war_support > 0.2
+		}
+
+		visible = {
+			is_civil = yes
+		}
+
+		remove_trigger = {
+			has_war = yes
+			has_war_support < 0.05
+		}
+
+		fire_only_once = no
+
+		modifier = {
+			stability_weekly = 0.005
+			war_support_weekly = -0.01
+			political_power_gain = -0.5
+		}
+
+		days_remove = 90
+		days_re_enable = 360
+
+		cost = 50
+
+		ai_will_do = {
+			base = 0
+			modifier = {
+				add = 1
+				has_stability < 0.4
+			}
+		}
+	}
+    
+    promise_war = {
+		icon = yellow_quest_mark
+
+		available = {
+            is_savage = yes
+			has_stability > 0.2
+		}
+
+		visible = {
+			is_savage = yes
+		}
+
+		remove_trigger = {
+			has_stability < 0.05
+		}
+
+		fire_only_once = no
+
+		modifier = {
+			stability_weekly = -0.01
+			war_support_weekly = 0.005
+			political_power_gain = -0.5
+		}
+
+		days_remove = 90
+		days_re_enable = 360
+
+		cost = 50
+
+		ai_will_do = {
+			base = 0
+			modifier = {
+				add = 1
+				has_war_support < 0.4
+			}
+		}
+	}
+    
+    embrace_the_light = {
+		icon = yellow_quest_mark
+
+        visible = {
+            NOT = { has_government = light }
+            light > 0.75
+        }
+        
+		available = {
+            light > 0.9
+		}
+
+		complete_effect = {
+            set_politics = {
+                ruling_party = light
+            }
+        }
+
+		cost = 200
+
+		ai_will_do = {
+			base = 0
+            
+			modifier = {
+				add = 1
+				light > 0.95
+			}
+		}
+	}
+    
+    embrace_the_shadow = {
+		icon = yellow_quest_mark
+
+        visible = {
+            NOT = { has_government = shadow }
+            shadow > 0.75
+        }
+        
+		available = {
+            shadow > 0.9
+		}
+
+		complete_effect = {
+            set_politics = {
+                ruling_party = shadow
+            }
+        }
+
+		cost = 200
+
+		ai_will_do = {
+			base = 0
+            
+			modifier = {
+				add = 1
+				shadow > 0.95
+			}
+		}
+	}
+    
+    embrace_the_order = {
+		icon = yellow_quest_mark
+
+        visible = {
+            NOT = { has_government = order }
+            order > 0.75
+        }
+        
+		available = {
+            order > 0.9
+		}
+
+		complete_effect = {
+            set_politics = {
+                ruling_party = order
+            }
+        }
+
+		cost = 200
+
+		ai_will_do = {
+			base = 0
+            
+			modifier = {
+				add = 1
+				order > 0.95
+			}
+		}
+	}
+    
+    embrace_the_disorder = {
+		icon = yellow_quest_mark
+
+        visible = {
+            NOT = { has_government = disorder }
+            disorder > 0.75
+        }
+        
+		available = {
+            disorder > 0.9
+		}
+
+		complete_effect = {
+            set_politics = {
+                ruling_party = disorder
+            }
+        }
+
+		cost = 200
+
+		ai_will_do = {
+			base = 0
+            
+			modifier = {
+				add = 1
+				disorder > 0.95
+			}
+		}
+	}
+    
+    embrace_the_life = {
+		icon = yellow_quest_mark
+
+        visible = {
+            NOT = { has_government = life }
+            life > 0.75
+        }
+        
+		available = {
+            life > 0.9
+		}
+
+		complete_effect = {
+            set_politics = {
+                ruling_party = life
+            }
+        }
+
+		cost = 200
+
+		ai_will_do = {
+			base = 0
+            
+			modifier = {
+				add = 1
+				life > 0.95
+			}
+		}
+	}
+    
+    embrace_the_death = {
+		icon = yellow_quest_mark
+
+        visible = {
+            NOT = { has_government = death }
+            death > 0.75
+        }
+        
+		available = {
+            death > 0.9
+		}
+
+		complete_effect = {
+            set_politics = {
+                ruling_party = death
+            }
+        }
+
+		cost = 200
+
+		ai_will_do = {
+			base = 0
+            
+			modifier = {
+				add = 1
+				death > 0.9
+			}
+		}
+	}
+}
+

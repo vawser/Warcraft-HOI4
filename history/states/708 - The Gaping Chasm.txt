@@ -1,0 +1,52 @@
+state = {
+	id = 708
+	name = "GAPING_CHASM"
+	manpower = 698
+	state_category = rural
+
+	resources = {
+		ground_beast = 8
+		flying_beast = 5
+		food = 3
+	}
+
+	history = {
+		owner = SAN
+		add_core_of = SAN
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 0
+			industrial_complex = 2
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			3346 = {
+				bunker = 0
+			}
+			3572 = {
+				bunker = 0
+			}
+			3599 = {
+				bunker = 0
+			}
+			3626 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        3346 3572 3599 3626
+    }
+}

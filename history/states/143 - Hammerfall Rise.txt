@@ -1,0 +1,15 @@
+state = {
+	id = 143
+	name = "HAMMERFALL_RISE"
+	manpower = 49
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = VLB
+	}
+
+	provinces = {
+        1819 2560 2581 2634 
+    }
+}

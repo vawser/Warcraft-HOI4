@@ -1,0 +1,15 @@
+state = {
+	id = 800
+	name = "STONETALON_BLUFF"
+	manpower = 26
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = CFW
+	}
+
+	provinces = {
+        4640 4641 4649 4668 4669 4677 4703 4738 
+    }
+}

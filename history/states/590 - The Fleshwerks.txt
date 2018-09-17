@@ -1,0 +1,68 @@
+state = {
+	id = 590
+	name = "AHN_ZIGUR"
+	manpower = 6400
+	state_category = town
+
+	resources = {
+		oil = 4
+		ground_beast = 7
+		flying_beast = 9
+		wood = 9
+		steel = 10
+		food = 19
+	}
+
+	history = {
+		owner = AZJ
+		add_core_of = AZJ
+
+        # The Third War
+        612.1.1 = {
+            owner = SCO
+            add_core_of = SCO
+            set_state_name = THE_FLESHWERKS
+        }
+        
+		buildings = {
+			infrastructure = 5
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 5
+			industrial_complex = 4
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			5552 = {
+				bunker = 1
+			}
+			5574 = {
+				bunker = 6
+			}
+			5592 = {
+				bunker = 7
+			}
+			6004 = {
+				bunker = 6
+			}
+			6022 = {
+				bunker = 3
+			}
+			6037 = {
+				bunker = 2
+			}
+		}
+	}
+
+	provinces = {
+        5552 5574 5592 6004 6022 6037 
+    }
+}

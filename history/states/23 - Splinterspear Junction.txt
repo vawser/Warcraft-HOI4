@@ -1,0 +1,72 @@
+state = {
+	id = 23
+	name = "SPLINTERSPEAR_JUNCTION"
+	manpower = 2404
+	state_category = village
+
+	resources = {
+		oil = 18
+		ground_beast = 1
+		flying_beast = 1
+		wood = 3
+		steel = 8
+		food = 4
+	}
+
+	history = {
+        victory_points = {
+            2525 5
+        }
+    
+		owner = TTH
+        add_core_of = TTH
+        add_core_of = ATL
+
+        # The Third War
+        612.1.1 = {
+            owner = ATL
+            add_core_of = ATL
+        }
+        
+		buildings = {
+			infrastructure = 3
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 7
+			industrial_complex = 1
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			2520 = {
+				bunker = 0
+			}
+			2521 = {
+				bunker = 0
+			}
+			2525 = {
+				bunker = 0
+			}
+			2529 = {
+				bunker = 0
+			}
+			2541 = {
+				bunker = 0
+			}
+			2556 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        2520 2521 2525 2529 2541 2556
+    }
+}

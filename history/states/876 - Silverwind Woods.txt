@@ -1,0 +1,57 @@
+state = {
+	id = 876
+	name = "SILVERWIND_WOODS"
+	manpower = 902
+	state_category = rural
+
+	resources = {
+		ground_beast = 5
+		flying_beast = 9
+		wood = 19
+		steel = 6
+		food = 14
+	}
+
+	history = {
+		owner = HAL
+		add_core_of = HAL
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 3
+			industrial_complex = 0
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			3869 = {
+				bunker = 0
+			}
+			3949 = {
+				bunker = 0
+			}
+			4003 = {
+				bunker = 0
+			}
+			4061 = {
+				bunker = 0
+			}
+			4092 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        3869 3949 4003 4061 4092 
+    }
+}

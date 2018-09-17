@@ -1,0 +1,71 @@
+state = {
+	id = 17
+	name = "DAWNING_WOOD"
+	manpower = 743
+	state_category = rural
+
+	resources = {
+		ground_beast = 2
+		flying_beast = 4
+		wood = 24
+		steel = 1
+		food = 19
+	}
+
+	history = {
+		owner = DAR
+        add_core_of = DAR
+
+        # The Second War
+        597.1.1 = {
+            owner = TTH
+            add_core_of = TTH
+        }
+        # The Third War
+        612.1.1 = {
+            owner = DAR
+            add_core_of = DAR
+        }
+        
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 1
+			industrial_complex = 2
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			2295 = {
+				bunker = 0
+			}
+			2311 = {
+				bunker = 0
+			}
+			2358 = {
+				bunker = 0
+			}
+			2406 = {
+				bunker = 0
+			}
+			2419 = {
+				bunker = 0
+			}
+			2432 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        2295 2311 2358 2406 2419 2432 
+    }
+}

@@ -1,0 +1,73 @@
+state = {
+	id = 569
+	name = "SNOWDRIFT_PLAINS"
+	manpower = 437
+	state_category = rural
+
+	resources = {
+		oil = 2
+		ground_beast = 8
+		wood = 4
+		steel = 7
+		food = 10
+	}
+
+	history = {
+		owner = HYL
+		add_core_of = HYL
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 1
+			industrial_complex = 0
+			dockyard = 2
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			5146 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 4
+			}
+			5155 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 2
+			}
+			5163 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 3
+			}
+			5422 = {
+				bunker = 0
+			}
+			5449 = {
+				bunker = 0
+			}
+			5599 = {
+				bunker = 0
+			}
+			5929 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        5146 5155 5163 5422 5449 5599 5929 
+    }
+}

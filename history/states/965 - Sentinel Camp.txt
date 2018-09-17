@@ -1,0 +1,63 @@
+state = {
+	id = 965
+	name = "SENTINEL_CAMP"
+	manpower = 3089
+	state_category = village
+
+	resources = {
+		oil = 2
+		ground_beast = 6
+		flying_beast = 8
+		steel = 5
+		food = 21
+	}
+
+	history = {
+		owner = SEN
+		add_core_of = SEN
+
+		buildings = {
+			infrastructure = 3
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 5
+			industrial_complex = 3
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			4854 = {
+				bunker = 0
+			}
+			4858 = {
+				bunker = 0
+			}
+			4863 = {
+				bunker = 0
+			}
+			4868 = {
+				bunker = 0
+			}
+			4885 = {
+				bunker = 0
+			}
+			4890 = {
+				bunker = 0
+			}
+			4895 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        4854 4858 4863 4868 4885 4890 4895 
+    }
+}

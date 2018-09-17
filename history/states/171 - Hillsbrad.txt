@@ -1,0 +1,56 @@
+state = {
+	id = 171
+	name = "HILLSBRAD"
+	manpower = 2249
+	state_category = village
+
+	resources = {
+		flying_beast = 2
+		wood = 2
+		steel = 9
+		food = 20
+	}
+
+	history = {
+		owner = SOU
+        add_core_of = SOU
+
+		buildings = {
+			infrastructure = 4
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 5
+			industrial_complex = 3
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			2797 = {
+				bunker = 0
+			}
+			2799 = {
+				bunker = 0
+			}
+			2823 = {
+				bunker = 0
+			}
+			2824 = {
+				bunker = 0
+			}
+			3029 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        2797 2799 2823 2824 3029 
+    }
+}

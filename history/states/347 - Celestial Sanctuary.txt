@@ -1,0 +1,61 @@
+state = {
+	id = 347
+	name = "CELESTIAL_SANCTUARY"
+	manpower = 474
+	state_category = rural
+
+	resources = {
+		ground_beast = 4
+		flying_beast = 6
+		wood = 18
+		steel = 8
+		food = 1
+	}
+
+	history = {
+		owner = RCR
+		add_core_of = RCR
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 1
+			industrial_complex = 1
+			dockyard = 2
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			6440 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 5
+			}
+			6444 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 8
+			}
+			6458 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 8
+			}
+		}
+	}
+
+	provinces = {
+        6440 6444 6458 
+    }
+}

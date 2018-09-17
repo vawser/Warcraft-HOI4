@@ -1,0 +1,21 @@
+defined_text = { 
+	name = GetFaithModifier
+    
+    text = {
+		trigger = {
+			check_variable = { faith_gain > 0.0 }
+		}
+		localization_key = POSITIVE_FAITH_GAIN
+	}
+    text = {
+		trigger = {
+			check_variable = { faith_gain < 0.0 }
+		}
+		localization_key = NEGATIVE_FAITH_GAIN
+	}
+    text = {
+		localization_key = "0"
+	}
+}
+
+

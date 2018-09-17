@@ -1,0 +1,29 @@
+hakkar_actions = {
+	# seek_stability = {
+		# icon = yellow_quest_mark
+        
+		# available = {
+            # has_holy_light = yes
+		# }
+
+        # days_remove = 90
+		# days_re_enable = 90
+
+		# cost = 100
+
+		# modifier = {
+            # stability_factor = 0.1
+        # }
+
+		# ai_will_do = {
+			# base = 0
+            
+            # modifier = {
+                # add = 1
+                
+                # has_stability < 0.5
+            # }
+		# }
+	# }
+}
+

@@ -1,0 +1,61 @@
+state = {
+	id = 1041
+	name = "AMBERWEB_PASS"
+	manpower = 734
+	state_category = rural
+
+	resources = {
+		oil = 1
+		ground_beast = 6
+		flying_beast = 2
+		wood = 27
+		steel = 2
+		food = 13
+	}
+
+	history = {
+        owner = AXX
+		add_core_of = AXX
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 3
+			industrial_complex = 0
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			6992 = {
+				bunker = 0
+			}
+			6998 = {
+				bunker = 0
+			}
+			7003 = {
+				bunker = 0
+			}
+			7008 = {
+				bunker = 0
+			}
+			7012 = {
+				bunker = 0
+			}
+			7019 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        6992 6998 7003 7008 7012 7019  
+    }
+}

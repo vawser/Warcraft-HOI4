@@ -1,0 +1,15 @@
+state = {
+	id = 1071
+	name = "FROST_PEAK"
+	manpower = 78
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = FRO
+	}
+
+	provinces = {
+        5930 5940 5950 7273 7274 
+    }
+}

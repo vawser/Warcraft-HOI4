@@ -1,0 +1,107 @@
+﻿capital = 259
+
+oob = "QUE_default"
+
+set_research_slots = 4
+set_stability = 0.5
+set_war_support = 0.5
+
+set_technology = {
+    grunt_equipment_1_tech = 1
+	champion_equipment_1_tech = 1
+	spellcaster_equipment_1_tech = 1
+	archer_equipment_1_tech = 1
+	light_cavalry_equipment_1_tech = 1
+	heavy_cavalry_equipment_1_tech = 1
+	war_engine_equipment_1_tech = 1
+	battleship_tech_1 = 1
+	cruiser_tech_1 = 1
+	destroyer_tech_1 = 1
+	submarine_tech_1 = 1
+	war_engine_support_tech_1 = 1
+	archer_support_tech_1 = 1
+	spellcaster_support_tech_1 = 1
+	logistics_support_tech_1 = 1
+	guard_support_tech_1 = 1
+	engineer_support_tech_1 = 1
+	medic_support_tech_1 = 1
+	scout_support_tech_1 = 1
+	cavalry_support_tech_1 = 1
+	history_tech = 1
+}
+
+add_ideas = {
+    the_sunwell
+	racial_high_elf
+    
+    civil_economy_2
+    free_trade
+    conscription_3
+    
+}
+
+set_convoys = 100
+
+set_politics = {
+	parties = {
+		light = {
+			popularity = 0
+		}
+		shadow = {
+			popularity = 0
+		}
+		order = {
+			popularity = 100
+		}
+        disorder = {
+			popularity = 0
+		}
+        life = {
+			popularity = 0
+		}
+        death = {
+			popularity = 0
+		}
+        unaligned = {
+			popularity = 0
+		}
+	}
+
+	ruling_party = order
+}
+
+create_country_leader = {
+	name = "Anasterian Sunstrider"
+	desc = ""
+	picture = "gfx/leaders/HIGH_ELF/characters/anasterian_sunstrider.dds"
+	expire = "2000.1.1"
+	ideology = kingdom_order
+	traits = {
+		excellent_diplomat
+        prepared_for_war
+	}
+}
+
+create_field_marshal = {
+    name = "Sylvanas Windrunnner"
+    id = 1014
+    portrait_path = "gfx/leaders/HIGH_ELF/characters/sylvanas.dds"
+    traits = { }
+    skill = 5
+    attack_skill = 5
+	defense_skill = 5
+	planning_skill = 5
+	logistics_skill = 5
+}
+
+create_field_marshal = {
+    name = "Alleria Windrunnner"
+    id = 1015
+    portrait_path = "gfx/leaders/HIGH_ELF/characters/alleria.dds"
+    traits = { }
+    skill = 5
+    attack_skill = 4
+	defense_skill = 4
+	planning_skill = 4
+	logistics_skill = 4
+}

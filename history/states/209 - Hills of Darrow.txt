@@ -1,0 +1,15 @@
+state = {
+	id = 209
+	name = "HILLS_OF_DARROW"
+	manpower = 39
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = ANO
+	}
+
+	provinces = {
+        2654 2669 2684 2698 2729 2714
+    }
+}

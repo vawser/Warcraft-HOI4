@@ -1,0 +1,49 @@
+state = {
+	id = 975
+	name = "TIMBERMAW_STRONGHOLD"
+	manpower = 5820
+	state_category = town
+
+	resources = {
+		oil = 1
+		ground_beast = 5
+		flying_beast = 7
+		wood = 8
+		steel = 8
+		food = 15
+	}
+
+	history = {
+		owner = TIM
+		add_core_of = TIM
+
+		buildings = {
+			infrastructure = 5
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 9
+			industrial_complex = 1
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			4689 = {
+				bunker = 7
+			}
+			4774 = {
+				bunker = 7
+			}
+		}
+	}
+
+	provinces = {
+        4689 4774 
+    }
+}

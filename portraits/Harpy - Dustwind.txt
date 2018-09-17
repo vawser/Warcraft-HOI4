@@ -1,0 +1,78 @@
+DUS = {
+	army = {
+		male = {
+			"gfx/leaders/HARPY/harpy_red.dds"
+		}
+        female = {
+			"gfx/leaders/HARPY/harpy_red.dds"
+		}
+	}
+
+	navy = {
+		male = {
+			"gfx/leaders/HARPY/harpy_red.dds"
+		}
+        female = {
+			"gfx/leaders/HARPY/harpy_red.dds"
+		}
+	}
+
+	political = {
+		light = {
+			male = {
+                "gfx/leaders/HARPY/harpy_red.dds"
+            }
+            female = {
+                "gfx/leaders/HARPY/harpy_red.dds"
+            }
+		}
+		shadow = {
+			male = {
+                "gfx/leaders/HARPY/harpy_red.dds"
+            }
+            female = {
+                "gfx/leaders/HARPY/harpy_red.dds"
+            }
+		}
+        order = {
+			male = {
+                "gfx/leaders/HARPY/harpy_red.dds"
+            }
+            female = {
+                "gfx/leaders/HARPY/harpy_red.dds"
+            }
+		}
+        disorder = {
+			male = {
+                "gfx/leaders/HARPY/harpy_red.dds"
+            }
+            female = {
+                "gfx/leaders/HARPY/harpy_red.dds"
+            }
+		}
+        life = {
+			male = {
+                "gfx/leaders/HARPY/harpy_red.dds"
+            }
+            female = {
+                "gfx/leaders/HARPY/harpy_red.dds"
+            }
+		}
+        death = {
+			male = {
+                "gfx/leaders/HARPY/harpy_red.dds"
+            }
+            female = {
+                "gfx/leaders/HARPY/harpy_red.dds"
+            }
+		}
+        unaligned = {
+			male = {
+                "gfx/leaders/HARPY/harpy_red.dds"
+            }
+            female = {
+                "gfx/leaders/HARPY/harpy_red.dds"
+            }
+		}
+	}
+}

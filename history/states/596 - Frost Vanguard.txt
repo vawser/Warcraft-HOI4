@@ -1,0 +1,76 @@
+state = {
+	id = 596
+	name = "FROST_VANGUARD"
+	manpower = 4302
+	state_category = village
+
+	resources = {
+		oil = 3
+		ground_beast = 8
+		flying_beast = 3
+		wood = 1
+		steel = 1
+		food = 10
+	}
+
+	history = {
+		owner = AZJ
+		add_core_of = AZJ
+
+        # The Third War
+        612.1.1 = {
+            owner = SCO
+            add_core_of = SCO
+        }
+        
+		buildings = {
+			infrastructure = 2
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 1
+			industrial_complex = 7
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			5491 = {
+				bunker = 0
+			}
+			5556 = {
+				bunker = 0
+			}
+			5991 = {
+				bunker = 0
+			}
+			6007 = {
+				bunker = 0
+			}
+			6026 = {
+				bunker = 0
+			}
+			6039 = {
+				bunker = 0
+			}
+			6054 = {
+				bunker = 0
+			}
+			6131 = {
+				bunker = 0
+			}
+			6150 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        5491 5556 5991 6007 6026 6039 6054 6131 6150
+    }
+}

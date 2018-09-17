@@ -1,0 +1,69 @@
+WTG = {
+	army = {
+		male = {
+			"gfx/leaders/TAUNKA/taunka_white.dds"
+			"gfx/leaders/TAUNKA/taunka_brown.dds"
+            "gfx/leaders/TAUNKA/taunka_black.dds"
+		}
+	}
+
+	navy = {
+		male = {
+			"gfx/leaders/TAUNKA/taunka_white.dds"
+			"gfx/leaders/TAUNKA/taunka_brown.dds"
+            "gfx/leaders/TAUNKA/taunka_black.dds"
+		}
+	}
+
+	political = {
+		light = {
+			male = {
+                "gfx/leaders/TAUNKA/taunka_white.dds"
+                "gfx/leaders/TAUNKA/taunka_brown.dds"
+                "gfx/leaders/TAUNKA/taunka_black.dds"
+            }
+		}
+		shadow = {
+			male = {
+                "gfx/leaders/TAUNKA/taunka_white.dds"
+                "gfx/leaders/TAUNKA/taunka_brown.dds"
+                "gfx/leaders/TAUNKA/taunka_black.dds"
+            }
+		}
+        order = {
+			male = {
+                "gfx/leaders/TAUNKA/taunka_white.dds"
+                "gfx/leaders/TAUNKA/taunka_brown.dds"
+                "gfx/leaders/TAUNKA/taunka_black.dds"
+            }
+		}
+        disorder = {
+			male = {
+                "gfx/leaders/TAUNKA/taunka_white.dds"
+                "gfx/leaders/TAUNKA/taunka_brown.dds"
+                "gfx/leaders/TAUNKA/taunka_black.dds"
+            }
+		}
+        life = {
+			male = {
+                "gfx/leaders/TAUNKA/taunka_white.dds"
+                "gfx/leaders/TAUNKA/taunka_brown.dds"
+                "gfx/leaders/TAUNKA/taunka_black.dds"
+            }
+		}
+        death = {
+			male = {
+                "gfx/leaders/TAUNKA/taunka_white.dds"
+                "gfx/leaders/TAUNKA/taunka_brown.dds"
+                "gfx/leaders/TAUNKA/taunka_black.dds"
+            }
+		}
+        unaligned = {
+			male = {
+                "gfx/leaders/TAUNKA/taunka_white.dds"
+                "gfx/leaders/TAUNKA/taunka_brown.dds"
+                "gfx/leaders/TAUNKA/taunka_black.dds"
+            }
+		}
+	}
+}

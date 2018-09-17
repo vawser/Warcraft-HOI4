@@ -1,0 +1,21 @@
+state = {
+	id = 582
+	name = "THE_FROZEN_RIDGE"
+	manpower = 15
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = AZJ
+
+        # The Third War
+        612.1.1 = {
+            owner = SCO
+            set_state_name = THE_SHADOW_VAULT
+        }
+	}
+
+	provinces = {
+        5932 5942 5952 5961 5969 5978 
+    }
+}

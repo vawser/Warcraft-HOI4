@@ -1,0 +1,66 @@
+state = {
+	id = 785
+	name = "DESOLACE_UPLANDS"
+	manpower = 674
+	state_category = rural
+
+	resources = {
+		oil = 4
+		ground_beast = 7
+		flying_beast = 4
+		wood = 3
+		steel = 8
+		food = 14
+	}
+
+	history = {
+		owner = KOL
+		add_core_of = KOL
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 2
+			industrial_complex = 0
+			dockyard = 1
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			3320 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 5
+			}
+			3328 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 7
+			}
+			4995 = {
+				bunker = 0
+			}
+			5014 = {
+				bunker = 0
+			}
+			5092 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        3320 3328 4995 5014 5092 
+    }
+}

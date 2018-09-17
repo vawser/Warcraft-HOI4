@@ -1,0 +1,42 @@
+spriteTypes = {	
+    spriteType = {
+		name = "GFX_ideology_light_group"
+		texturefile = "gfx/interface/ideologies/light_group.dds"
+	}
+    
+    spriteType = {
+		name = "GFX_ideology_shadow_group"
+		texturefile = "gfx/interface/ideologies/shadow_group.dds"
+	}
+    
+    spriteType = {
+		name = "GFX_ideology_order_group"
+		texturefile = "gfx/interface/ideologies/order_group.dds"
+	}
+    
+    spriteType = {
+		name = "GFX_ideology_disorder_group"
+		texturefile = "gfx/interface/ideologies/disorder_group.dds"
+	}
+    
+    spriteType = {
+		name = "GFX_ideology_life_group"
+		texturefile = "gfx/interface/ideologies/life_group.dds"
+	}
+    
+    spriteType = {
+		name = "GFX_ideology_death_group"
+		texturefile = "gfx/interface/ideologies/death_group.dds"
+	}
+    
+    spriteType = {
+		name = "GFX_ideology_unaligned_group"
+		texturefile = "gfx/interface/ideologies/unaligned_group.dds"
+	}
+    
+    spriteType = {
+		name = "GFX_ideology_unknown"
+		texturefile = "gfx/interface/ideologies/unknown.dds"
+		legacy_lazy_load = no
+	}
+}

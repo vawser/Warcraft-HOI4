@@ -1,0 +1,69 @@
+BKM = {
+	army = {
+		male = {
+			"gfx/leaders/GNOLL/gnoll_riverpaw_1.dds"
+			"gfx/leaders/GNOLL/gnoll_riverpaw_2.dds"
+            "gfx/leaders/GNOLL/gnoll_riverpaw_3.dds"
+		}
+	}
+
+	navy = {
+		male = {
+			"gfx/leaders/GNOLL/gnoll_riverpaw_1.dds"
+			"gfx/leaders/GNOLL/gnoll_riverpaw_2.dds"
+            "gfx/leaders/GNOLL/gnoll_riverpaw_3.dds"
+		}
+	}
+
+	political = {
+		light = {
+			male = {
+                "gfx/leaders/GNOLL/gnoll_riverpaw_1.dds"
+                "gfx/leaders/GNOLL/gnoll_riverpaw_2.dds"
+                "gfx/leaders/GNOLL/gnoll_riverpaw_3.dds"
+            }
+		}
+		shadow = {
+			male = {
+                "gfx/leaders/GNOLL/gnoll_riverpaw_1.dds"
+                "gfx/leaders/GNOLL/gnoll_riverpaw_2.dds"
+                "gfx/leaders/GNOLL/gnoll_riverpaw_3.dds"
+            }
+		}
+        order = {
+			male = {
+                "gfx/leaders/GNOLL/gnoll_riverpaw_1.dds"
+                "gfx/leaders/GNOLL/gnoll_riverpaw_2.dds"
+                "gfx/leaders/GNOLL/gnoll_riverpaw_3.dds"
+            }
+		}
+        disorder = {
+			male = {
+                "gfx/leaders/GNOLL/gnoll_riverpaw_1.dds"
+                "gfx/leaders/GNOLL/gnoll_riverpaw_2.dds"
+                "gfx/leaders/GNOLL/gnoll_riverpaw_3.dds"
+            }
+		}
+        life = {
+			male = {
+                "gfx/leaders/GNOLL/gnoll_riverpaw_1.dds"
+                "gfx/leaders/GNOLL/gnoll_riverpaw_2.dds"
+                "gfx/leaders/GNOLL/gnoll_riverpaw_3.dds"
+            }
+		}
+        death = {
+			male = {
+                "gfx/leaders/GNOLL/gnoll_riverpaw_1.dds"
+                "gfx/leaders/GNOLL/gnoll_riverpaw_2.dds"
+                "gfx/leaders/GNOLL/gnoll_riverpaw_3.dds"
+            }
+		}
+        unaligned = {
+			male = {
+                "gfx/leaders/GNOLL/gnoll_riverpaw_1.dds"
+                "gfx/leaders/GNOLL/gnoll_riverpaw_2.dds"
+                "gfx/leaders/GNOLL/gnoll_riverpaw_3.dds"
+            }
+		}
+	}
+}

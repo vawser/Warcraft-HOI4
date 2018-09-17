@@ -1,0 +1,52 @@
+state = {
+	id = 845
+	name = "SUN_ROCK_CAMP"
+	manpower = 3541
+	state_category = village
+
+	resources = {
+		oil = 2
+		ground_beast = 7
+		flying_beast = 6
+		wood = 3
+		steel = 8
+		food = 17
+	}
+
+	history = {
+		owner = CFW
+		add_core_of = CFW
+
+		buildings = {
+			infrastructure = 4
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 6
+			industrial_complex = 1
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			4133 = {
+				bunker = 0
+			}
+			4143 = {
+				bunker = 0
+			}
+			4154 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        4133 4143 4154 
+    }
+}

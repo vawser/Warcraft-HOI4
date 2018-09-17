@@ -1,0 +1,57 @@
+state = {
+	id = 636
+	name = "TAUNKALE_VILLAGE"
+	manpower = 2967
+	state_category = village
+
+	resources = {
+		oil = 4
+		flying_beast = 7
+		wood = 4
+		steel = 6
+		food = 14
+	}
+
+	history = {
+		owner = ICE
+		add_core_of = ICE
+
+		buildings = {
+			infrastructure = 4
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 5
+			industrial_complex = 0
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			5995 = {
+				bunker = 0
+			}
+			6042 = {
+				bunker = 0
+			}
+			6043 = {
+				bunker = 0
+			}
+			6058 = {
+				bunker = 0
+			}
+			6070 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        5995 6042 6043 6058 6070
+    }
+}

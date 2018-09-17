@@ -1,0 +1,12 @@
+continents = {
+    azeroth # 1
+    kalimdor # 2
+    northrend # 3
+    pandaria # 4
+    kezan # 5
+    zandalar # 6
+    plunder_isle # 7
+    broken_isles # 8
+    teldrassil # 9
+    azuremyst_isles # 10
+}

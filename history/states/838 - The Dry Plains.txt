@@ -1,0 +1,53 @@
+state = {
+	id = 838
+	name = "DRY_PLAINS"
+	manpower = 823
+	state_category = rural
+
+	resources = {
+		oil = 3
+		flying_beast = 7
+		steel = 5
+		food = 15
+	}
+
+	history = {
+        owner = WIR
+		add_core_of = WIR
+        
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 3
+			industrial_complex = 1
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			5060 = {
+				bunker = 0
+			}
+			5077 = {
+				bunker = 0
+			}
+			5099 = {
+				bunker = 0
+			}
+			5121 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        5060 5077 5099 5121 
+    }
+}

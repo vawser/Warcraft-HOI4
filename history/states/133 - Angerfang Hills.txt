@@ -1,0 +1,70 @@
+state = {
+	id = 133
+	name = "ANGERGANG_HILLS"
+	manpower = 544
+	state_category = rural
+
+	resources = {
+		ground_beast = 4
+		flying_beast = 8
+		steel = 9
+		food = 21
+	}
+
+	history = {
+		owner = MOS
+        add_core_of = MOS
+
+        # The Second War
+        597.1.1 = {
+            owner = TTH
+            add_core_of = TTH
+        }
+        # The Third War
+        612.1.1 = {
+            owner = MOS
+            add_core_of = MOS
+        }
+        
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 3
+			industrial_complex = 1
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			2830 = {
+				bunker = 0
+			}
+			2882 = {
+				bunker = 0
+			}
+			2912 = {
+				bunker = 0
+			}
+			2935 = {
+				bunker = 0
+			}
+			2958 = {
+				bunker = 0
+			}
+			2985 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        2830 2882 2912 2935 2958 2985 
+    }
+}

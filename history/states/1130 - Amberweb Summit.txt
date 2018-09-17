@@ -1,0 +1,15 @@
+state = {
+	id = 1130
+	name = "AMBERWEB_SUMMIT"
+	manpower = 16
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = AXX
+	}
+
+	provinces = {
+        7042
+    }
+}

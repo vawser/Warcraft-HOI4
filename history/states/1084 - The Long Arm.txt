@@ -1,0 +1,15 @@
+state = {
+	id = 1084
+	name = "THE_LONG_ARM"
+	manpower = 38
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = ZDL
+	}
+
+	provinces = {
+        6761
+    }
+}

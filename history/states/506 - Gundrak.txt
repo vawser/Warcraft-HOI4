@@ -1,0 +1,81 @@
+state = {
+	id = 506
+	name = "GUNDRAK"
+	manpower = 12030
+	state_category = city
+
+	resources = {
+		ground_beast = 1
+		flying_beast = 8
+		wood = 6
+		steel = 11
+		food = 16
+	}
+
+	history = {
+		owner = DAK
+		add_core_of = DAK
+
+		buildings = {
+			infrastructure = 8
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 4
+			industrial_complex = 5
+			dockyard = 7
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			5171 = {
+				bunker = 1
+				coastal_bunker = 8
+				naval_base = 7
+			}
+			5178 = {
+				bunker = 5
+				coastal_bunker = 6
+				naval_base = 9
+			}
+			5187 = {
+				bunker = 7
+				coastal_bunker = 4
+				naval_base = 4
+			}
+			5197 = {
+				bunker = 7
+				coastal_bunker = 4
+				naval_base = 7
+			}
+			5463 = {
+				bunker = 5
+			}
+			5610 = {
+				bunker = 4
+			}
+			5612 = {
+				bunker = 8
+			}
+			5613 = {
+				bunker = 4
+			}
+			5614 = {
+				bunker = 1
+			}
+		}
+	}
+
+	provinces = {
+        5171 5178 5187 5197 5463 5610 5612 5613 5614 
+    }
+}

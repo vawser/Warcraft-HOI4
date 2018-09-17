@@ -1,0 +1,15 @@
+state = {
+	id = 1082
+	name = "DRUSTVAR_RIDGE"
+	manpower = 63
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = KUL
+	}
+
+	provinces = {
+        1902
+    }
+}

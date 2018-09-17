@@ -1,0 +1,52 @@
+state = {
+	id = 898
+	name = "ASHWOOD_GROVE"
+	manpower = 914
+	state_category = rural
+
+	resources = {
+		oil = 4
+		ground_beast = 3
+		flying_beast = 3
+		wood = 24
+		steel = 2
+		food = 14
+	}
+
+	history = {
+		owner = BOH
+		add_core_of = BOH
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 3
+			industrial_complex = 1
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			3905 = {
+				bunker = 0
+			}
+			3986 = {
+				bunker = 0
+			}
+			4014 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        3905 3986 4014 
+    }
+}

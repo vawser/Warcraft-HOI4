@@ -1,0 +1,15 @@
+state = {
+	id = 677
+	name = "ASCENT_OF_THE_MOON"
+	manpower = 26
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = AQJ
+	}
+
+	provinces = {
+        4433 4434 4437 4441 4442 4453 4459 4460 4476 4477 
+    }
+}

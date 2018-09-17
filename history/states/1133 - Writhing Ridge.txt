@@ -1,0 +1,15 @@
+state = {
+	id = 1133
+	name = "WRITHING_RIDGE"
+	manpower = 42
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = AQJ
+	}
+
+	provinces = {
+        4520 4483 4424 4471
+    }
+}

@@ -1,0 +1,15 @@
+state = {
+	id = 229
+	name = "PEAKS_OF_ZUL"
+	manpower = 42
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = AMA
+	}
+
+	provinces = {
+        2619 2631 2649 2664 2679 2709 2724 
+    }
+}

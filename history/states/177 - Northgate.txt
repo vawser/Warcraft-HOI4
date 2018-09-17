@@ -1,0 +1,130 @@
+state = {
+	id = 177
+	name = "NORTHGATE"
+	manpower = 571
+	state_category = rural
+
+	resources = {
+		oil = 4
+		ground_beast = 6
+		wood = 15
+		steel = 1
+		food = 13
+	}
+
+	history = {
+		owner = GIL
+        add_core_of = GIL
+
+        612.1.1 = {
+            set_state_name = GREYMANE_WALL
+            buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 0
+			industrial_complex = 0
+			dockyard = 0
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			1729 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 2
+			}
+			1731 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 5
+			}
+			1733 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 7
+			}
+			1933 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 6
+			}
+			2315 = {
+				bunker = 0
+			}
+			2331 = {
+				bunker = 0
+			}
+			2410 = {
+				bunker = 0
+			}
+		}
+        }
+        
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 0
+			industrial_complex = 0
+			dockyard = 0
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			1729 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 2
+			}
+			1731 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 5
+			}
+			1733 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 7
+			}
+			1933 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 6
+			}
+			2315 = {
+				bunker = 0
+			}
+			2331 = {
+				bunker = 0
+			}
+			2410 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        1729 1731 1733 1933 2315 2331 2410 
+    }
+}

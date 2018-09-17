@@ -1,0 +1,15 @@
+state = {
+	id = 96
+	name = "ALGAZ_RIDGE"
+	manpower = 64
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = IRO
+	}
+
+	provinces = {
+        2575 2627 2637 2741 2744
+    }
+}

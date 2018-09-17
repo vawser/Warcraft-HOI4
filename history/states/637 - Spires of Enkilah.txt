@@ -1,0 +1,66 @@
+state = {
+	id = 637
+	name = "SPIRES_OF_ENKILAH"
+	manpower = 910
+	state_category = rural
+
+	resources = {
+		oil = 4
+		ground_beast = 7
+		flying_beast = 3
+		steel = 4
+		food = 29
+	}
+
+	history = {
+		owner = AZJ
+		add_core_of = AZJ
+
+        # The Third War
+        612.1.1 = {
+            owner = SCO
+            add_core_of = SCO
+        }
+        
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 4
+			industrial_complex = 0
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			6057 = {
+				bunker = 0
+			}
+			6071 = {
+				bunker = 0
+			}
+			6086 = {
+				bunker = 0
+			}
+			6103 = {
+				bunker = 0
+			}
+			6137 = {
+				bunker = 0
+			}
+			6138 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        6057 6071 6086 6103 6137 6138
+    }
+}

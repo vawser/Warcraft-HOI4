@@ -1,0 +1,52 @@
+state = {
+	id = 839
+	name = "THE_BURNT_ROAD"
+	manpower = 540
+	state_category = rural
+
+	resources = {
+		oil = 3
+		ground_beast = 5
+		flying_beast = 7
+		wood = 3
+		steel = 3
+		food = 26
+	}
+
+	history = {
+        owner = SKC
+		add_core_of = SKC
+        
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 1
+			industrial_complex = 1
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			5037 = {
+				bunker = 0
+			}
+			5042 = {
+				bunker = 0
+			}
+			5100 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        5037 5042 5100
+    }
+}

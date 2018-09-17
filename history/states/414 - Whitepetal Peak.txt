@@ -1,0 +1,15 @@
+state = {
+	id = 414
+	name = "WHITEPETAL_PEAK"
+	manpower = 9
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = SPN
+	}
+
+	provinces = {
+        6472 6479 6483 6487 6471 6476
+    }
+}

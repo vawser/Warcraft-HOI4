@@ -1,0 +1,73 @@
+state = {
+	id = 52
+	name = "AZORA"
+	manpower = 3698
+	state_category = village
+
+	resources = {
+		oil = 4
+		ground_beast = 5
+		flying_beast = 4
+		wood = 13
+		steel = 9
+		food = 11
+	}
+
+	history = {
+        victory_points = {
+            2343 5
+        }
+        
+		owner = SRW
+        add_core_of = SRW
+
+        # The Second War
+        597.1.1 = {
+            owner = TTH
+            add_core_of = TTH
+        }
+        # The Third War
+        612.1.1 = {
+            owner = SRW
+            add_core_of = SRW
+        }
+        
+		buildings = {
+			infrastructure = 3
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 5
+			industrial_complex = 2
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			2326 = {
+				bunker = 0
+			}
+			2330 = {
+				bunker = 0
+			}
+			2343 = {
+				bunker = 0
+			}
+			2359 = {
+				bunker = 0
+			}
+			2407 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        2326 2330 2343 2359 2407 
+    }
+}

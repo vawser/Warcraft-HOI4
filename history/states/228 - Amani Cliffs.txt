@@ -1,0 +1,15 @@
+state = {
+	id = 228
+	name = "AMANI_CLIFFS"
+	manpower = 31
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = AMA
+	}
+
+	provinces = {
+        1873 1881 1891 2641 2650 2680
+    }
+}

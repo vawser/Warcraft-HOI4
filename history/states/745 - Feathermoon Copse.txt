@@ -1,0 +1,56 @@
+state = {
+	id = 745
+	name = "FEATHERMOON_COPSE"
+	manpower = 580
+	state_category = rural
+
+	resources = {
+		flying_beast = 5
+		wood = 20
+		steel = 3
+		food = 16
+	}
+
+	history = {
+		owner = WOO
+		add_core_of = WOO
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 2
+			industrial_complex = 1
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			3893 = {
+				bunker = 0
+			}
+			3919 = {
+				bunker = 0
+			}
+			3972 = {
+				bunker = 0
+			}
+			3999 = {
+				bunker = 0
+			}
+			4028 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        3893 3919 3972 3999 4028 
+    }
+}

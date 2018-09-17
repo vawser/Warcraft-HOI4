@@ -1,0 +1,363 @@
+﻿l_english: 
+ #--------------------------------------------
+ # The Orcish Horde
+ #--------------------------------------------
+ # Industry
+ TTH_orc_settlements: "Construct Settlements"
+ TTH_orc_settlements_desc: ""
+ TTH_orc_engineering: "Orc Engineering"
+ TTH_orc_engineering_desc: ""
+ 
+ TTH_settlement_in_stonard: "Stonard Camp"
+ TTH_settlement_in_stonard_desc: ""
+ TTH_settlement_in_splinterspear: "Splinterspear Camp"
+ TTH_settlement_in_splinterspear_desc: ""
+ TTH_settlement_in_stagalbog: "Stagalbog Camp"
+ TTH_settlement_in_stagalbog_desc: ""
+ TTH_settlement_in_sorrowmurk: "Sorrowmurk Camp"
+ TTH_settlement_in_sorrowmurk_desc: ""
+ TTH_settlement_in_fallow_sanctuary: "Fallow Sanctuary Camp"
+ TTH_settlement_in_fallow_sanctuary_desc: ""
+ 
+ TTH_settlement_in_dark_portal: "Dark Portal Camp"
+ TTH_settlement_in_dark_portal_desc: ""
+ TTH_settlement_in_blasted_hill: "Blasted Hill Camp"
+ TTH_settlement_in_blasted_hill_desc: ""
+ TTH_settlement_in_blasted_shore: "Blasted Shore Camp"
+ TTH_settlement_in_blasted_shore_desc: ""
+ TTH_dock_in_blasted_shore: "Blasted Shore Docks"
+ TTH_dock_in_blasted_shore_desc: ""
+ TTH_dock_in_red_coast: "Red Coast Docks"
+ TTH_dock_in_red_coast_desc: ""
+ 
+ TTH_fortify_blasted_pass: "Fortify Blasted Pass"
+ TTH_fortify_blasted_pass_desc: ""
+ TTH_fortify_deadwind_pass: "Fortify Deadwind Pass"
+ TTH_fortify_deadwind_pass_desc: ""
+ 
+ TTH_azeroth_supply_lines: "Azeroth Supply Lines"
+ TTH_azeroth_supply_lines_desc: ""
+ 
+ TTH_duskwood_camp: "Duskwood Camp"
+ TTH_duskwood_camp_desc: ""
+ TTH_westfall_camp: "Westfall Camp"
+ TTH_westfall_camp_desc: ""
+ TTH_redridge_camp: "Redridge Camp"
+ TTH_redridge_camp_desc: ""
+ 
+ TTH_capital_stormwind: "Spoils of Stormwind"
+ TTH_capital_stormwind_desc: ""
+ 
+ TTH_capital_blackrock_mountain: "Spoils of Blackrock Mt."
+ TTH_capital_blackrock_mountain_desc: ""
+ 
+ # First War
+ TTH_orc_warcry: "Orc Warcry"
+ TTH_orc_warcry_desc: "Let loose the spirit of war upon Azeroth!"
+ 
+ TTH_raid_duskwood: "Raid Brightwood"
+ TTH_raid_duskwood_desc: "Let our orc soldiers hunt down the humans of Brightwood whilst pillaging their towns."
+ TTH_raid_westfall: "Raid Westfall"
+ TTH_raid_westfall_desc: "Let our orc soldiers hunt down the humans of Westfall whilst pillaging their towns."
+ TTH_raid_lakeshire: "Raid Lakeshire"
+ TTH_raid_lakeshire_desc: "Let our orc soldiers hunt down the humans of Lakeshire whilst pillaging their towns."
+ TTH_raid_stormwind: "Raid Stormwind"
+ TTH_raid_stormwind_desc: "Let our orc soldiers hunt down the humans of Stormwind whilst pillaging their towns."
+ TTH_war_stormwind: "Attack Stormwind"
+ TTH_war_stormwind_desc: "These humans must fall beneath our blade. Let us declare war upon these creatures and oust them from their lands."
+ 
+ TTH_secure_lakeshire: "Secure Lakeshire"
+ TTH_secure_lakeshire_desc: "Let us secure the town of Lakeshire for our attack upon Stormwind city."
+ TTH_secure_westfall: "Secure Westfall"
+ TTH_secure_westfall_desc: "Let us secure the town of Sentinel Hill for our attack upon Stormwind city."
+ TTH_secure_duskwood: "Secure Brightwood"
+ TTH_secure_duskwood_desc: "Let us secure the town of Brightwood for our attack upon Stormwind city."
+ TTH_secure_sunnyglade: "Secure Sunnyglade"
+ TTH_secure_sunnyglade_desc: "Rumours of tomes that contain the workings of the human's magic are to be found in the human town of Sunnyglade. Let us seize their magi tower and claim these tomes as our own."
+ 
+ TTH_oust_stormwind: "Oust Stormwind"
+ TTH_oust_stormwind_desc: "It is time to oust Stormwind from their lands entirely and kill all the humans that remain."
+ TTH_consolidate_lands: "Consolidate Lands"
+ TTH_consolidate_lands_desc: "Now the humans have abandoned their lands, let us construct orc settlements across them."
+ 
+ TTH_mok_gora: "Issue Mok'gora"
+ TTH_mok_gora_desc: "Ogrim Doomhammer wishes to usurp Warchief Blackhand, and with Gul'dan incapacitated, it is now or never."
+ 
+ TTH_enter_stranglethorn: "Enter Stranglethorn Vale"
+ TTH_enter_stranglethorn_desc: "The jungles of Stranglethorn Vale are reminicent of the jungles of the Bleeding Hollow clan. Kil'rogg Deadeye and his clan wish to venture into the vale and see what lies within."
+ TTH_invite_the_bloodscalp: "Invite Bloodscalp Trolls"
+ TTH_invite_the_bloodscalp_desc: "Let us invite the Bloodscalp trolls into our Horde."
+ TTH_invite_the_skullsplitter: "Invite Skullsplitter Trolls"
+ TTH_invite_the_skullsplitter_desc: "Let us invite the Skullsplitter trolls into our Horde."
+ TTH_invite_the_atalai: "Invite the Ata'lai Trolls"
+ TTH_invite_the_atalai_desc: "Let us invite the Ata'lai trolls into our Horde."
+ 
+ TTH_accept_shadow_council: "Consult Shadow Council"
+ TTH_accept_shadow_council_desc: "Whilst many of orcs have been distrustful of the Shadow Council for their practices, perhaps it is time to accept their powers and to reap the rewards of such defference."
+ TTH_submit_to_guldan: "Submit to Gul'dan"
+ TTH_submit_to_guldan_desc: "Gul'dan is the true power behind the warchief. He and his Shadow Council must leave the shadows and claim the Horde as their own."
+ 
+ # Other
+ orc_settlements: "Orc Settlements"
+ orc_settlements_desc: ""
+ spoils_of_stormwind: "Spoils of Stormwind"
+ spoils_of_stormwind_desc: ""
+ spoils_of_blackrock_mountain: "Spoils of Blackrock Mountain"
+ spoils_of_blackrock_mountain_desc: ""
+ secure_lakeshire: "Secure Lakeshire"
+ secure_lakeshire_desc: ""
+ secure_brightwood: "Secure Brightwood"
+ secure_brightwood_desc: ""
+ secure_westfall: "Secure Westfall"
+ secure_westfall_desc: ""
+ orc_raid: "Orc Raid"
+ orc_raid_desc: ""
+ extraordinary_efforts: "Extraordinary Efforts"
+ extraordinary_efforts_desc: ""
+ shadow_council_support: "Shadow Council Support"
+ shadow_council_support_desc: ""
+ 
+ the_orcish_horde.2.title: "Orc Raid!"
+ the_orcish_horde.2.desc: "The brutish orcs have begun to raid our towns and villages. Without extraordinary efforts, our people will be slaughtered by the hundreds."
+ the_orcish_horde.2.option.a: "Muster our best!"
+ the_orcish_horde.2.option.b: "Let them defend themselves..."
+ 
+ the_orcish_horde.3.title: "Human Ambush!"
+ the_orcish_horde.3.desc: "The humans led by that wretched man Lothar surprised Blackhand and his clan as they entered Lakeshire. It is only thanks to the efforts of Gul'dan's warlocks that Blackhand survives. But such a victory means little to such a proud orc, and the fate of the warlocks is yet to be decided."
+ the_orcish_horde.3.option.a: "Kill them!"
+ the_orcish_horde.3.option.b: "Spare them..."
+ 
+ the_orcish_horde.4.title: "Issue Mok'gora"
+ the_orcish_horde.4.desc: "Ogrim Doomhammer has challenged Blackhand for the supremacy of the Horde. Without Gul'dan, Blackhand is vunerable, but it is still an exceptionally tough fight."
+ the_orcish_horde.4.option.a: "Ogrim Doomhammer must prevail!"
+ the_orcish_horde.4.option.b: "Lok'tar ogar!"
+ 
+ the_orcish_horde.5.title: "Stranglethorn Vale"
+ the_orcish_horde.5.desc: "Kilrogg Deadeye and his Bleeding Hollow clan have been sent into the jungles of Stranglethorn Vale to seek what lies within. What they found were trolls, unending and devious to say the least. As the orcs are beaten back, there is much talk of abandoning the campaign, but perhaps these creatures could serve as a useful ally?"
+ the_orcish_horde.5.option.a: "Abandon the jungles"
+ the_orcish_horde.5.option.b: "Send an envoy to the trolls"
+ 
+ the_orcish_horde.6.title: "Orc Envoy"
+ the_orcish_horde.6.desc: "These foul orcs have sent a grovelling envoy to our feet. They talk of alliance and spoils of war, but their actions so far display only bloodlust. Whilst these creatures are foul, they appear to wage war against the humans as we do, perhaps we should accept this tenuous alliance?"
+ the_orcish_horde.6.option.a: "Never!"
+ the_orcish_horde.6.option.b: "Accept their request"
+ 
+ the_orcish_horde.7.title: "Troll Envoy"
+ the_orcish_horde.7.desc: "These 'Gurubashi' trolls have accepted our alliance request. They will serve our Horde well in the coming battles."
+ the_orcish_horde.7.option.a: "Lok'tar ogar!"
+ 
+ STORMWIND_FALLS: "Stormwind has fallen..."
+ STORMWIND_OUSTED_TT: "Stormwind retreats to §HSouthshore§!.\n\nThe Horde captured the remanants of Stormwind's lands and the war ends with Stormwind."
+ MOKGORA_BLACKHAND_DIES: "§HBlackhand§! dies and §HOgrim Doomhammer§! becomes warchief."
+ MOKGORA_OGRIM_DIES: "§HOgrim Doomhammer§! dies."
+ 
+ medivh_ousted: "Medivh Revealed"
+ 
+ #--------------------------------------------
+ # Generic
+ #--------------------------------------------
+ offensive_army_effort: "Offensive Edict"
+ offensive_army_effort_desc: ""
+ grunt_effort: "Grunt Effort"
+ grunt_effort_desc: ""
+ grunt_upgrade_effort: "Grunt Training"
+ grunt_upgrade_effort_desc: ""
+ champion_effort: "Champion Effort"
+ champion_effort_desc: ""
+ champion_upgrade_effort: "Champion Training"
+ champion_upgrade_effort_desc: ""
+ 
+ offensive_edict: "Offensive Edict"
+ offensive_edict_desc: ""
+ 
+ defensive_army_effort: "Defensive Edict"
+ defensive_army_effort_desc: ""
+ spellcaster_effort: "Spellcaster Effort"
+ spellcaster_effort_desc: ""
+ spellcaster_upgrade_effort: "Spellcaster Training"
+ spellcaster_upgrade_effort_desc: ""
+ archer_effort: "Archer Effort"
+ archer_effort_desc: ""
+ archer_upgrade_effort: "Archer Training"
+ archer_upgrade_effort_desc: ""
+ 
+ defensive_edict: "Defensive Edict"
+ defensive_edict_desc: ""
+ 
+ cavalry_effort: "Cavalry Edict"
+ cavalry_effort_desc: ""
+ light_cavalry_effort: "Light Cavalry Effort"
+ light_cavalry_effort_desc: ""
+ light_cavalry_upgrade_effort: "Light Cavalry Training"
+ light_cavalry_upgrade_effort_desc: ""
+ heavy_cavalry_effort: "Heavy Cavalry Effort"
+ heavy_cavalry_effort_desc: ""
+ heavy_cavalry_upgrade_effort: "Heavy Cavalry Training"
+ heavy_cavalry_upgrade_effort_desc: ""
+ 
+ cavalry_edict: "Cavalry Edict"
+ cavalry_edict_desc: ""
+ 
+ support_effort: "Support Edict"
+ support_effort_desc: ""
+ war_engine_effort: "War Engine Effort"
+ war_engine_effort_desc: ""
+ war_engine_upgrade_effort: "War Engine Training"
+ war_engine_upgrade_effort_desc: ""
+ support_eq_effort: "Support Effort I"
+ support_eq_effort_desc: ""
+ support_eq_effort_2: "Support Effort II"
+ 
+ support_edict: "Support Edict"
+ support_edict_desc: ""
+ 
+ dogfighting_effort: "Dogfighting Edict"
+ dogfighting_effort_desc: ""
+ fighter_effort: "Fighter Effort I"
+ fighter_effort_desc: ""
+ fighter_effort_2: "Fighter Effort II"
+ fighter_effort_2_desc: ""
+ cas_effort: "CAS Effort I"
+ cas_effort_desc: ""
+ cas_effort_2: "CAS Effort II"
+ cas_effort_2_desc: ""
+ bombing_effort: "Bombing Edict"
+ bombing_effort_desc: ""
+ tactical_bomber_effort: "Tac. Bomber Effort I"
+ tactical_bomber_effort_desc: ""
+ tactical_bomber_effort_2: "Tac. Bomber Effort II"
+ tactical_bomber_effort_2_desc: ""
+ strategic_bomber_effort: "Strat. Bomber Effort I"
+ strategic_bomber_effort_desc: ""
+ strategic_bomber_effort_2: "Strat. Bomber Effort II"
+ strategic_bomber_effort_2_desc: ""
+ 
+ dogfighting_edict: "Dogfighting Edict"
+ dogfighting_edict_desc: ""
+ bombing_edict: "Bombing Edict"
+ bombing_edict_desc: ""
+ 
+ harassment_effort: "Harassment Edict"
+ harassment_effort_desc: ""
+ bombardment_effort: "Bombardment Edict"
+ bombardment_effort_desc: ""
+ wm_submarine_effort: "Submarine Effort I"
+ wm_submarine_effort_desc: ""
+ submarine_effort_2: "Submarine Effort II"
+ submarine_effort_2_desc: ""
+ wm_destroyer_effort: "Destroyer Effort I"
+ wm_destroyer_effort_desc: ""
+ destroyer_effort_2: "Destroyer Effort II"
+ destroyer_effort_2_desc: ""
+ wm_cruiser_effort: "Cruiser Effort I"
+ wm_cruiser_effort_desc: ""
+ cruiser_effort_2: "Cruiser Effort II"
+ cruiser_effort_2_desc: ""
+ battleship_effort: "Battleship Effort I"
+ battleship_effort_desc: ""
+ battleship_effort_2: "Battleship Effort II"
+ battleship_effort_2_desc: ""
+ 
+ harassment_edict: "Harassment Edict"
+ harassment_edict_desc: ""
+ bombardment_edict: "Bombardment Edict"
+ bombardment_edict_desc: ""
+ 
+ industrial_effort: "Industry Effort I"
+ industrial_effort_desc: ""
+ industrial_effort_2: "Industry Effort II"
+ industrial_effort_2_desc: ""
+ industrial_effort_3: "Industry Effort III"
+ industrial_effort_3_desc: ""
+ 
+ resource_effort: "Resource Effort I"
+ resource_effort_desc: ""
+ resource_effort_2: "Resource Effort II"
+ resource_effort_2_desc: ""
+ resource_effort_3: "Resource Effort III"
+ resource_effort_3_desc: ""
+ 
+ wm_espionage_effort: "Espionage Effort I"
+ wm_espionage_effort_desc: ""
+ wm_espionage_effort_2: "Espionage Effort II"
+ wm_espionage_effort_2_desc: ""
+ wm_espionage_effort_3: "Espionage Effort III"
+ wm_espionage_effort_3_desc: ""
+ 
+ wm_religious_effort: "Religious Effort I"
+ wm_religious_effort_desc: ""
+ religious_effort_2: "Religious Effort II"
+ religious_effort_2_desc: ""
+ religious_effort_3: "Religious Effort III"
+ religious_effort_3_desc: ""
+ 
+ #--------------------------------------------
+ # Continuous Focuses
+ #--------------------------------------------
+ wm_continuous_religion: "Religious Fervor"
+ wm_continuous_religion_desc: "By focusing on our religious institutions, we can increase religious fervor within our people."
+ 
+ wm_continuous_espionage: "Espionage"
+ wm_continuous_espionage_desc: "By focusing on espionage, we can increase the effectiveness of our spies."
+
+ wm_continuous_infiltration: "Infiltration"
+ wm_continuous_infiltration_desc: "By focusing on infiltration of our enemies, we can increases the effectiveness of our spies."
+ 
+ wm_continuous_stability: "Stability"
+ wm_continuous_stability_desc: "By focusing on our national stability, we can make our nation more stable."
+ 
+ wm_continuous_war_support: "War Support"
+ wm_continuous_war_support_desc: "By focusing on war support, we can make our nation war-ready."
+
+ wm_continuous_political_power: "Political Skill"
+ wm_continuous_political_power_desc: "By focusing on our political skill, we can more readily command our armies."
+ 
+ wm_continuous_command_power: "Command Skill"
+ wm_continuous_command_power_desc: "By focusing on our command skill, we can more readily command our armies."
+ 
+ wm_continuous_naval_production: "Naval Production"
+ wm_continuous_naval_production_desc: "By focusing on our naval production, we will produce ships quicker."
+ 
+ wm_continuous_air_production: "Air Production"
+ wm_continuous_air_production_desc: "By focusing on our aviation production, we will produce flying units quicker."
+ 
+ wm_continuous_construction: "Construction"
+ wm_continuous_construction_desc: "By focusing on construction, we can erect new buildings quicker."
+ 
+ wm_continuous_army_training: "Army Training"
+ wm_continuous_army_training_desc: "By focusing on army training, our troops will deploy quicker."
+ 
+ wm_continuous_suppression: "Suppression"
+ wm_continuous_suppression_desc: "By focusing on suppression, our newly conquered lands will be more easily managed."
+ 
+ wm_continuous_repair: "Repair Industry"
+ wm_continuous_repair_desc: "By focusing on repairing our industry, we will recover from economic damage quicker."
+ 
+ wm_continuous_boost_freedom: "Boost Freedom"
+ wm_continuous_boost_freedom_desc: "By permitting more from our subjects, we will grant them the benefits of autonomy."
+ 
+ wm_continuous_restrict_freedom: "Restrict Freedom"
+ wm_continuous_restrict_freedom_desc: "By restricting the freedom of our subjects, we will better control them."
+ 
+ wm_continuous_tank_production: "Tank Engineering"
+ wm_continuous_tank_production_desc: "By focusing on tank engineering, we will produce tanks quicker."
+ 
+ wm_continuous_cavalry_production: "Horse Breeding"
+ wm_continuous_cavalry_production_desc: "By focusing on horse breeding, we will produce cavalry quicker."
+ 
+ continuous_tank_production: "Tank Engineering"
+ continuous_tank_production_desc: ""
+ continuous_cavalry_production: "Horse Breeding"
+ continuous_cavalry_production_desC: ""
+ 
+ #--------------------------------------------
+ # Tooltips
+ #--------------------------------------------
+ no_possible_building_slots_tooltip: "No available building slots in any state."
+ RELIGIOUS_FERVOR_ADDED: "Adds §H1§! [Root.GetFaithPowerName] gain."
+ RELIGIOUS_FERVOR_REMOVED: "Removes added §H1§! [Root.GetFaithPowerName] gain."
+ INFILTRATION_FOCUS_ADDED: "Halves the §HSpy Network§! cost for all §HSpy Actions§!."
+ INFILTRATION_FOCUS_REMOVED: "Reverts the §HSpy Network§! cost for all §HSpy Actions§! back to normal."
+ ESPIONAGE_FOCUS_ADDED: "Doubles the growth of §HSpy Networks§! and §HSpy Actions§!."
+ ESPIONAGE_FOCUS_REMOVED: "Reverts to normal growth of §HSpy Networks§! and §HSpy Actions§!."
+ 

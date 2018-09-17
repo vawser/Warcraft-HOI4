@@ -1,0 +1,15 @@
+state = {
+	id = 561
+	name = "TITANIC_TOR"
+	manpower = 9
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = HYL
+	}
+
+	provinces = {
+        5221 5886 5893 5918 5925 
+    }
+}

@@ -1,0 +1,63 @@
+state = {
+	id = 541
+	name = "CRYSTAL_FRONT"
+	manpower = 828
+	state_category = rural
+
+	resources = {
+		oil = 1
+		flying_beast = 9
+		wood = 5
+		steel = 14
+		food = 14
+	}
+
+	history = {
+		owner = COL
+		add_core_of = COL
+
+        # The Third War
+        612.1.1 = {
+            owner = SCO
+            add_core_of = SCO
+        }
+        
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 1
+			industrial_complex = 1
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			5380 = {
+				bunker = 0
+			}
+			5429 = {
+				bunker = 0
+			}
+			5455 = {
+				bunker = 0
+			}
+			5478 = {
+				bunker = 0
+			}
+			6175 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        5380 5429 5455 5478 6175 
+    }
+}

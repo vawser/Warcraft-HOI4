@@ -1,0 +1,15 @@
+state = {
+	id = 675
+	name = "QIRAJ_HEIGHTS"
+	manpower = 75
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = AQJ
+	}
+
+	provinces = {
+        3220 3242 3264 3269 3277 4438 4698 
+    }
+}

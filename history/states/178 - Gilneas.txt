@@ -1,0 +1,79 @@
+state = {
+	id = 178
+	name = "GILNEAS"
+	manpower = 18809
+	state_category = city
+
+	resources = {
+		ground_beast = 14
+		flying_beast = 10
+		wood = 2
+		steel = 13
+		food = 14
+	}
+
+	history = {
+		owner = GIL
+        add_core_of = GIL
+        
+        victory_points = {
+            2819 15
+        }
+
+		buildings = {
+			infrastructure = 8
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 6
+			industrial_complex = 4
+			dockyard = 5
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			1914 = {
+				bunker = 5
+				coastal_bunker = 1
+				naval_base = 2
+			}
+			2819 = {
+				bunker = 1
+			}
+			2844 = {
+				bunker = 8
+			}
+			2870 = {
+				bunker = 6
+			}
+			2871 = {
+				bunker = 5
+			}
+			2897 = {
+				bunker = 2
+			}
+			2898 = {
+				bunker = 1
+			}
+			2946 = {
+				bunker = 1
+			}
+			3052 = {
+				bunker = 8
+			}
+		}
+	}
+
+	provinces = {
+        1914 2819 2844 2870 2871 2897 2898 2946 3052 
+    }
+}

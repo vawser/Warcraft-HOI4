@@ -1,0 +1,87 @@
+state = {
+	id = 629
+	name = "FORGOTTEN_LANDING"
+	manpower = 624
+	state_category = island
+
+	resources = {
+		oil = 3
+		ground_beast = 8
+		flying_beast = 2
+		wood = 3
+		steel = 4
+		food = 15
+	}
+
+	history = {
+		owner = SKA
+		add_core_of = SKA
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 1
+			industrial_complex = 2
+			dockyard = 0
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			5250 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 3
+			}
+			5291 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 5
+			}
+			5302 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 6
+			}
+			5313 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 4
+			}
+			5324 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 5
+			}
+			5335 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 6
+			}
+			5347 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 9
+			}
+			5358 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 8
+			}
+		}
+	}
+
+	provinces = {
+        5250 5291 5302 5313 5324 5335 5347 5358 
+    }
+}

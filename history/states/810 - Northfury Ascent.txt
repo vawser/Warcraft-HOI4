@@ -1,0 +1,20 @@
+state = {
+	id = 810
+	name = "NORTHFURY_ASCENT"
+	manpower = 43
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = RAZ
+
+        # The Third War
+        612.1.1 = {
+            owner = ORG
+        }
+	}
+
+	provinces = {
+        3201 3205 3206 3209 4318 
+    }
+}

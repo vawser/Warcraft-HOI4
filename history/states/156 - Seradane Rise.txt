@@ -1,0 +1,16 @@
+state = {
+	id = 156
+	name = "SERADANE_RISE"
+	manpower = 13
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = SER
+
+	}
+
+	provinces = {
+        1866 1872 2662 2708 2723
+    }
+}

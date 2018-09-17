@@ -1,0 +1,62 @@
+state = {
+	id = 748
+	name = "FEATHERMOON_TEMPLE"
+	manpower = 3530
+	state_category = village
+
+	resources = {
+		oil = 1
+		ground_beast = 5
+		flying_beast = 9
+		wood = 12
+		steel = 6
+		food = 13
+	}
+
+	history = {
+		owner = SFR
+		add_core_of = SFR
+
+		buildings = {
+			infrastructure = 4
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 4
+			industrial_complex = 4
+			dockyard = 1
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			3123 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 3
+			}
+			3124 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 8
+			}
+			3129 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 6
+			}
+		}
+	}
+
+	provinces = {
+        3123 3124 3129 
+    }
+}

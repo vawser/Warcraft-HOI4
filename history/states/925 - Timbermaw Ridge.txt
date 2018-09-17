@@ -1,0 +1,15 @@
+state = {
+	id = 925
+	name = "TIMBERMAW_RIDGE"
+	manpower = 15
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = TIM
+	}
+
+	provinces = {
+        4688 4726 4758 4773 4800 4818 
+    }
+}

@@ -1,0 +1,1315 @@
+ideas = {
+    country = {
+        #-------------------------------------
+        # The Holy Light
+        #-------------------------------------
+        cast_out_the_darkness = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = cast_out_the_darkness
+
+			modifier = {
+                justify_war_goal_time = -0.25
+			}
+		}
+        
+        #-------------------------------------
+        # Elune
+        #-------------------------------------
+        soothe_the_people = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = soothe_the_people
+
+			modifier = {
+                enemy_partisan_effect = -0.5
+                resistance_tick = -0.5
+			}
+		}
+        
+        moon_blessings = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = moon_blessings
+
+			modifier = {
+                production_speed_buildings_factor = 0.25
+			}
+		}
+        
+        #-------------------------------------
+        # Hakkar
+        #-------------------------------------
+        gift_of_hakkar = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = gift_of_hakkar
+
+			modifier = {
+                army_speed_factor = 0.1
+			}
+		}
+        
+        desecrated_remains = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = desecrated_remains
+
+			modifier = {
+                army_morale_factor = 0.1
+			}
+		}
+        
+        imbued_blood_prophets = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = imbued_blood_prophets
+
+			modifier = {
+                army_org_factor = 0.1
+			}
+		}
+        
+        avatar_of_hakkar = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = avatar_of_hakkar
+
+			modifier = {
+                army_attack_factor = 0.1
+			}
+		}
+        
+        #-------------------------------------
+        # Voodoo
+        #-------------------------------------
+        tiki_lord = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = tiki_lord
+
+			modifier = {
+                attrition = -0.25
+			}
+		}
+        
+        enhanced_equipment = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = enhanced_equipment
+
+			modifier = {
+                supply_consumption_factor = -0.25
+			}
+		}
+        
+        #-------------------------------------
+        # Shadow
+        #-------------------------------------
+        void_lord = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = void_lord
+
+			modifier = {
+                army_org_factor = 0.1
+			}
+		}
+        
+        voidform = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = voidform
+
+			modifier = {
+                terrain_penalty_reduction = 1
+			}
+		}
+        
+        #-------------------------------------
+        # Deep Mother
+        #-------------------------------------
+        murloc_warcry = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = murloc_warcry
+
+			modifier = {
+                army_speed_factor = 0.1
+			}
+		}
+        
+        murloc_invasion = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = murloc_invasion
+
+			modifier = {
+                amphibious_invasion = 1.0
+                naval_invasion_capacity = 50
+			}
+		}
+        
+        #-------------------------------------
+        # Arcane
+        #-------------------------------------
+        arcane_surge = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = arcane_surge
+
+			modifier = {
+                army_speed_factor = 0.1
+			}
+		}
+        
+        arcane_empowerment = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = arcane_empowerment
+
+			modifier = {
+                army_attack_factor = 0.1
+			}
+		}
+        
+        #-------------------------------------
+        # Druidism
+        #-------------------------------------
+        wrath_of_nature = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = wrath_of_nature
+
+			modifier = {
+                army_attack_factor = 0.1
+			}
+		}
+        
+        druid_moon_blessing = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = druid_moon_blessing
+
+			modifier = {
+                army_org_factor = 0.1
+			}
+		}
+        
+        #-------------------------------------
+        # Old Gods
+        #-------------------------------------
+        gift_of_cthun = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = gift_of_cthun
+
+			modifier = {
+                attrition = -0.5
+			}
+		}
+        
+        gift_of_yshaarj = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = gift_of_cthun
+
+			modifier = {
+                combat_width_factor = -0.5
+			}
+		}
+        
+        gift_of_yogg_saron = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = gift_of_cthun
+
+			modifier = {
+                org_loss_when_moving = -0.25
+			}
+		}
+        
+        gift_of_nzoth = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = gift_of_cthun
+
+			modifier = {
+                out_of_supply_factor = -0.25
+			}
+		}
+        #-------------------------------------
+        # Fel
+        #-------------------------------------
+        fel_conduits = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = fel_conduits
+
+			modifier = {
+                army_org_factor = 0.1
+			}
+		}
+        
+        #-------------------------------------
+        # Necromancy
+        #-------------------------------------
+        plague_of_undeath = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = plague_of_undeath
+
+			modifier = {
+                conscription_factor = -0.5
+                death_drift = 0.25
+			}
+		}
+        
+        #-------------------------------------
+        # Shamanism
+        #-------------------------------------
+        animal_blessing = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = animal_blessing
+
+			modifier = {
+                planning_speed = 0.1
+			}
+		}
+        
+        ancestral_wisdom = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = ancestral_wisdom
+
+			modifier = {
+                terrain_penalty_reduction = 0.5
+			}
+		}
+        
+        spirit_of_the_wilds = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = spirit_of_the_wilds
+
+			modifier = {
+                army_attack_factor = 0.1
+			}
+		}
+        
+        #-------------------------------------
+        # Celestials
+        #-------------------------------------
+        gift_of_yulon = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = gift_of_yulon
+
+			modifier = {
+                research_time_factor = -0.05
+			}
+		}
+        gift_of_niuzao = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = gift_of_niuzao
+
+			modifier = {
+                military_leader_cost_factor = -0.5
+			}
+		}
+        gift_of_chiji = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = gift_of_chiji
+
+			modifier = {
+                production_speed_buildings_factor = 0.25
+			}
+		}
+        gift_of_xuen = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = gift_of_xuen
+
+			modifier = {
+                justify_war_goal_time = -0.25
+			}
+		}
+        
+        wisdom_of_yulon = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = wisdom_of_yulon
+
+			modifier = {
+                political_power_factor = 0.25
+			}
+		}
+        wisdom_of_niuzao = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = wisdom_of_niuzao
+
+			modifier = {
+                stability_weekly_factor = 0.25
+			}
+		}
+        wisdom_of_chiji = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = wisdom_of_chiji
+
+			modifier = {
+                justify_war_goal_time = -0.25
+			}
+		}
+        wisdom_of_xuen = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = wisdom_of_xuen
+
+			modifier = {
+                war_support_weekly_factor = 0.25
+			}
+		}
+        
+        fury_of_yulon = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = fury_of_yulon
+
+			modifier = {
+                army_org_factor = 0.1
+			}
+		}
+        fury_of_niuzao = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = fury_of_niuzao
+
+			modifier = {
+                army_defence_factor = 0.1
+			}
+		}
+        fury_of_chiji = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = fury_of_chiji
+
+			modifier = {
+                army_speed_factor = 0.1
+			}
+		}
+        fury_of_xuen = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = fury_of_xuen
+
+			modifier = {
+                army_attack_factor = 0.1
+			}
+		}
+        
+        #-------------------------------------
+        # Titan
+        #-------------------------------------
+        titanic_knowledge = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = titanic_knowledge
+
+			modifier = {
+                army_attack_factor = 0.1
+			}
+		}
+        
+        titan_blessing = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = titan_blessing
+
+			modifier = {
+                army_defence_factor = 0.1
+			}
+		}
+        
+        #-------------------------------------
+        # Fire
+        #-------------------------------------
+        bond_of_fire = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = bond_of_fire
+
+			modifier = {
+                army_org_factor = 0.1
+			}
+		}
+        
+        ragnaros_favour = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = ragnaros_favour
+
+			modifier = {
+                mobilization_speed = 0.1
+			}
+		}
+        
+        flame_weaponry = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = flame_weaponry
+
+			modifier = {
+                army_attack_factor = 0.1
+			}
+		}
+        
+        #-------------------------------------
+        # Earth
+        #-------------------------------------
+        bond_of_earth = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = bond_of_earth
+
+			modifier = {
+                army_org_factor = 0.1
+			}
+		}
+        
+        therazane_favour = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = therazane_favour
+
+			modifier = {
+                mobilization_speed = 0.1
+			}
+		}
+        
+        rock_weaponry = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = rock_weaponry
+
+			modifier = {
+                army_defence_factor = 0.1
+			}
+		}
+        
+        #-------------------------------------
+        # Wind
+        #-------------------------------------
+        bond_of_wind = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = bond_of_wind
+
+			modifier = {
+                army_org_factor = 0.1
+			}
+		}
+        
+        alakir_favour = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = alakir_favour
+
+			modifier = {
+                mobilization_speed = 0.1
+			}
+		}
+        
+        wind_weaponry = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = wind_weaponry
+
+			modifier = {
+                army_speed_factor = 0.1
+			}
+		}
+        
+        #-------------------------------------
+        # Water
+        #-------------------------------------
+        bond_of_water = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = bond_of_water
+
+			modifier = {
+                army_org_factor = 0.1
+			}
+		}
+        
+        neptulon_favour = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = neptulon_favour
+
+			modifier = {
+                mobilization_speed = 0.1
+			}
+		}
+        
+        water_weaponry = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = water_weaponry
+
+			modifier = {
+                army_morale_factor = 0.1
+			}
+		}
+        
+        #-------------------------------------
+        # Geomancy
+        #-------------------------------------
+        bond_of_the_elements = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = bond_of_the_elements
+
+			modifier = {
+                army_attack_factor = 0.1
+			}
+		}
+        
+        primal_connection = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = primal_connection
+
+			modifier = {
+                army_morale_factor = 0.1
+			}
+		}
+        
+        #-------------------------------------
+        # Light of the Naaru
+        #-------------------------------------
+        blessing_of_the_naaru = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = blessing_of_the_naaru
+
+			modifier = {
+                army_defence_factor = 0.1
+			}
+		}
+        
+        wisdom_of_the_naaru = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = wisdom_of_the_naaru
+
+			modifier = {
+                army_org_factor = 0.1
+			}
+		}
+        
+        #-------------------------------------
+        # Dragon Aspects
+        #-------------------------------------
+        blessing_of_alexstrasza = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = blessing_of_alexstrasza
+
+			modifier = {
+                army_org_factor = 0.1
+			}
+		}
+        
+        blessing_of_ysera = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = blessing_of_ysera
+
+			modifier = {
+                army_org_factor = 0.1
+			}
+		}
+        
+        blessing_of_neltharion = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = blessing_of_neltharion
+
+			modifier = {
+                army_org_factor = 0.1
+			}
+		}
+        
+        blessing_of_malygos = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = blessing_of_malygos
+
+			modifier = {
+                army_org_factor = 0.1
+			}
+		}
+        
+        power_of_alexstrasza = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = power_of_alexstrasza
+
+			modifier = {
+                army_attack_factor = 0.1
+			}
+		}
+        
+        power_of_ysera = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = power_of_ysera
+
+			modifier = {
+                army_attack_factor = 0.1
+			}
+		}
+        
+        power_of_neltharion = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = power_of_neltharion
+
+			modifier = {
+                army_attack_factor = 0.1
+			}
+		}
+        
+        power_of_malygos = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = power_of_malygos
+
+			modifier = {
+                army_attack_factor = 0.1
+			}
+		}
+        
+        #-------------------------------------
+        # Technomancy
+        #-------------------------------------
+        innovation_wave = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = innovation_wave
+
+			modifier = {
+                research_time_factor = -0.1
+			}
+		}
+        
+        engineer_insights = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = engineer_insights
+
+			modifier = {
+                political_power_gain = 2
+			}
+		}
+        
+        #-------------------------------------
+        # Capitalism
+        #-------------------------------------
+        power_of_money = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = power_of_money
+
+			modifier = {
+                training_time_army_factor = -0.2
+			}
+		}
+        
+        keen_financiers = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = keen_financiers
+
+			modifier = {
+                production_speed_buildings_factor = 0.1
+			}
+		}
+        
+        #-------------------------------------
+        # Soul
+        #-------------------------------------
+        
+        #-------------------------------------
+        # Runic
+        #-------------------------------------
+        ceremonial_horn = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = ceremonial_horn
+
+			modifier = {
+                mobilization_speed = 0.1
+			}
+		}
+    }
+}
+

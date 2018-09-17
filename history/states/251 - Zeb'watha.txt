@@ -1,0 +1,56 @@
+state = {
+	id = 251
+	name = "ZEB_WATHA"
+	manpower = 745
+	state_category = rural
+
+	resources = {
+		ground_beast = 3
+		wood = 18
+		steel = 3
+		food = 18
+	}
+
+	history = {
+		owner = QUE
+        add_core_of = QUE
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 2
+			industrial_complex = 0
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			2055 = {
+				bunker = 0
+			}
+			2097 = {
+				bunker = 0
+			}
+			2118 = {
+				bunker = 0
+			}
+			2178 = {
+				bunker = 0
+			}
+			2201 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        2055 2097 2118 2178 2201 
+    }
+}

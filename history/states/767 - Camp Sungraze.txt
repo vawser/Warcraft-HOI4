@@ -1,0 +1,63 @@
+state = {
+	id = 767
+	name = "CAMP_SUNGRAZE"
+	manpower = 15944
+	state_category = city
+
+	resources = {
+		oil = 1
+		flying_beast = 2
+		wood = 2
+		steel = 9
+		food = 21
+	}
+
+	history = {
+		owner = BDH
+		add_core_of = BDH
+
+		buildings = {
+			infrastructure = 9
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 10
+			industrial_complex = 7
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			4907 = {
+				bunker = 2
+			}
+			4945 = {
+				bunker = 7
+			}
+			5027 = {
+				bunker = 8
+			}
+			5046 = {
+				bunker = 3
+			}
+			5064 = {
+				bunker = 2
+			}
+			5083 = {
+				bunker = 4
+			}
+			5104 = {
+				bunker = 3
+			}
+		}
+	}
+
+	provinces = {
+        4907 4945 5027 5046 5064 5083 5104 
+    }
+}

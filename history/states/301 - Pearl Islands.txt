@@ -1,0 +1,66 @@
+state = {
+	id = 301
+	name = "PEARL_ISLANDS"
+	manpower = 600
+	state_category = island
+
+	resources = {
+		ground_beast = 3
+		flying_beast = 4
+		wood = 6
+		steel = 9
+		food = 14
+	}
+
+	history = {
+		owner = PEA
+		add_core_of = PEA
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 1
+			industrial_complex = 0
+			dockyard = 1
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			6347 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 8
+			}
+			6352 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 1
+			}
+			6359 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 8
+			}
+			6531 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 8
+			}
+		}
+	}
+
+	provinces = {
+        6347 6352 6359 6531 
+    }
+}

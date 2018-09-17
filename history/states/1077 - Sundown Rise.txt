@@ -1,0 +1,19 @@
+state = {
+	id = 1077
+	name = "MOONGLADE_PASSAGE"
+	manpower = 2
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = BLU
+        
+        597.1.1 = {
+            owner = TTH
+        }
+	}
+
+	provinces = {
+        1837
+    }
+}

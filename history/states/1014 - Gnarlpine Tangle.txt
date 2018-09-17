@@ -1,0 +1,57 @@
+state = {
+	id = 1014
+	name = "GNARLPINE_TANGLE"
+	manpower = 614
+	state_category = rural
+
+	resources = {
+		oil = 2
+		flying_beast = 7
+		wood = 13
+		steel = 8
+		food = 16
+	}
+
+	history = {
+        owner = DAS
+		add_core_of = DAS
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 2
+			industrial_complex = 2
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			7176 = {
+				bunker = 0
+			}
+			7180 = {
+				bunker = 0
+			}
+			7189 = {
+				bunker = 0
+			}
+			7202 = {
+				bunker = 0
+			}
+			7205 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        7176 7180 7189 7202 7205 
+    }
+}

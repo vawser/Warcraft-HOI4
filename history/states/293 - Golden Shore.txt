@@ -1,0 +1,66 @@
+state = {
+	id = 293
+	name = "GOLDEN_SHORE"
+	manpower = 11595
+	state_category = city
+
+	resources = {
+		oil = 2
+		ground_beast = 7
+		flying_beast = 6
+		wood = 12
+		steel = 8
+	}
+
+	history = {
+		owner = BLO
+        add_core_of = BLO
+
+		buildings = {
+			infrastructure = 9
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 6
+			industrial_complex = 6
+			dockyard = 2
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			7148 = {
+				bunker = 8
+				coastal_bunker = 6
+				naval_base = 2
+			}
+			7150 = {
+				bunker = 9
+				coastal_bunker = 4
+				naval_base = 6
+			}
+			7151 = {
+				bunker = 6
+				coastal_bunker = 2
+				naval_base = 7
+			}
+			7153 = {
+				bunker = 7
+				coastal_bunker = 2
+				naval_base = 1
+			}
+		}
+	}
+
+	provinces = {
+        7148 7150 7151 7153 
+    }
+}

@@ -1,0 +1,173 @@
+#------------------------------------------
+# Production
+#------------------------------------------
+small_land_production = {
+    enable = {
+        NOT = { has_country_flag = ai_land_large }
+    }
+    abort = {
+        has_country_flag = ai_land_large
+    }
+    
+    ai_strategy = {
+		type = role_ratio
+		id = grunt
+		value = 60
+	}
+    ai_strategy = {
+		type = role_ratio
+		id = champion
+		value = 5
+	}
+    ai_strategy = {
+		type = role_ratio
+		id = spellcaster
+		value = 5
+	}
+    ai_strategy = {
+		type = role_ratio
+		id = archer
+		value = 5
+	}
+    ai_strategy = {
+		type = role_ratio
+		id = light_cavalry
+		value = 40
+	}
+    ai_strategy = {
+		type = role_ratio
+		id = heavy_cavalry
+		value = 5
+	}
+}
+
+large_land_production = {
+    enable = {
+        has_country_flag = ai_land_large
+    }
+    abort = {
+        NOT = { has_country_flag = ai_land_large }
+    }
+    
+    ai_strategy = {
+		type = role_ratio
+		id = grunt
+		value = 5
+	}
+    ai_strategy = {
+		type = role_ratio
+		id = champion
+		value = 60
+	}
+    ai_strategy = {
+		type = role_ratio
+		id = spellcaster
+		value = 30
+	}
+    ai_strategy = {
+		type = role_ratio
+		id = archer
+		value = 30
+	}
+    ai_strategy = {
+		type = role_ratio
+		id = war_engine
+		value = 25
+	}
+    ai_strategy = {
+		type = role_ratio
+		id = light_cavalry
+		value = 5
+	}
+    ai_strategy = {
+		type = role_ratio
+		id = heavy_cavalry
+		value = 30
+	}
+}
+
+default_air_unit_production = {
+    enable = {
+        has_country_flag = ai_land_large
+    }
+    abort = {
+        NOT = { has_country_flag = ai_land_large }
+    }
+    
+    ai_strategy = {
+		type = role_ratio
+		id = fighter
+		value = 60
+	}
+    ai_strategy = {
+		type = role_ratio
+		id = cas
+		value = 20
+	}
+    ai_strategy = {
+		type = role_ratio
+		id = tactical_bomber
+		value = 10
+	}
+    ai_strategy = {
+		type = role_ratio
+		id = strategic_bomber
+		value = 10
+	}
+}
+
+default_naval_unit_production = {
+    enable = {
+        has_country_flag = ai_naval_large
+    }
+    abort = {
+        NOT = { has_country_flag = ai_naval_large }
+    }
+    
+    ai_strategy = {
+		type = unit_ratio
+		id = capital_ship
+		value = 5
+	}
+
+	ai_strategy = {
+		type = unit_ratio
+		id = submarine
+		value = 20
+	}
+
+	ai_strategy = {
+		type = unit_ratio
+		id = screen_ship
+		value = 40
+	}
+
+	ai_strategy = {
+		type = unit_ratio
+		id = convoy
+		value = 15
+	}
+}
+
+default_garrison_production = {
+	enable = {
+		ai_wants_divisions >  12
+		is_major = yes
+	}
+	abort = {
+		ai_wants_divisions < 13
+		is_major = no
+	}
+
+	ai_strategy = {
+		type = role_ratio
+		id = garrison
+		value = 5
+	}
+	
+	ai_strategy = {
+		type = role_ratio
+		id = suppression
+		value = 2
+	}
+}

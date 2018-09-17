@@ -1,0 +1,150 @@
+AZW = {
+	army = {
+		male = {
+			"gfx/leaders/DRAGONFLIGHT/dragonflight_male_1.dds"
+			"gfx/leaders/DRAGONFLIGHT/dragonflight_male_2.dds"
+            "gfx/leaders/DRAGONFLIGHT/dragonflight_male_3.dds"
+            "gfx/leaders/DRAGONFLIGHT/dragonflight_male_4.dds"
+            "gfx/leaders/DRAGONFLIGHT/dragonflight_male_5.dds"
+		}
+        female = {
+			"gfx/leaders/DRAGONFLIGHT/dragonflight_female_1.dds"
+			"gfx/leaders/DRAGONFLIGHT/dragonflight_female_2.dds"
+            "gfx/leaders/DRAGONFLIGHT/dragonflight_female_3.dds"
+            "gfx/leaders/DRAGONFLIGHT/dragonflight_female_4.dds"
+            "gfx/leaders/DRAGONFLIGHT/dragonflight_female_5.dds"
+		}
+	}
+
+	navy = {
+		male = {
+			"gfx/leaders/DRAGONFLIGHT/dragonflight_male_1.dds"
+			"gfx/leaders/DRAGONFLIGHT/dragonflight_male_2.dds"
+            "gfx/leaders/DRAGONFLIGHT/dragonflight_male_3.dds"
+            "gfx/leaders/DRAGONFLIGHT/dragonflight_male_4.dds"
+            "gfx/leaders/DRAGONFLIGHT/dragonflight_male_5.dds"
+		}
+        female = {
+			"gfx/leaders/DRAGONFLIGHT/dragonflight_female_1.dds"
+			"gfx/leaders/DRAGONFLIGHT/dragonflight_female_2.dds"
+            "gfx/leaders/DRAGONFLIGHT/dragonflight_female_3.dds"
+            "gfx/leaders/DRAGONFLIGHT/dragonflight_female_4.dds"
+            "gfx/leaders/DRAGONFLIGHT/dragonflight_female_5.dds"
+		}
+	}
+
+	political = {
+		light = {
+			male = {
+                "gfx/leaders/DRAGONFLIGHT/dragonflight_male_1.dds"
+                "gfx/leaders/DRAGONFLIGHT/dragonflight_male_2.dds"
+                "gfx/leaders/DRAGONFLIGHT/dragonflight_male_3.dds"
+                "gfx/leaders/DRAGONFLIGHT/dragonflight_male_4.dds"
+                "gfx/leaders/DRAGONFLIGHT/dragonflight_male_5.dds"
+            }
+            female = {
+                "gfx/leaders/DRAGONFLIGHT/dragonflight_female_1.dds"
+                "gfx/leaders/DRAGONFLIGHT/dragonflight_female_2.dds"
+                "gfx/leaders/DRAGONFLIGHT/dragonflight_female_3.dds"
+                "gfx/leaders/DRAGONFLIGHT/dragonflight_female_4.dds"
+                "gfx/leaders/DRAGONFLIGHT/dragonflight_female_5.dds"
+            }
+		}
+		shadow = {
+			male = {
+                "gfx/leaders/DRAGONFLIGHT/dragonflight_male_1.dds"
+                "gfx/leaders/DRAGONFLIGHT/dragonflight_male_2.dds"
+                "gfx/leaders/DRAGONFLIGHT/dragonflight_male_3.dds"
+                "gfx/leaders/DRAGONFLIGHT/dragonflight_male_4.dds"
+                "gfx/leaders/DRAGONFLIGHT/dragonflight_male_5.dds"
+            }
+            female = {
+                "gfx/leaders/DRAGONFLIGHT/dragonflight_female_1.dds"
+                "gfx/leaders/DRAGONFLIGHT/dragonflight_female_2.dds"
+                "gfx/leaders/DRAGONFLIGHT/dragonflight_female_3.dds"
+                "gfx/leaders/DRAGONFLIGHT/dragonflight_female_4.dds"
+                "gfx/leaders/DRAGONFLIGHT/dragonflight_female_5.dds"
+            }
+		}
+        order = {
+			male = {
+                "gfx/leaders/DRAGONFLIGHT/dragonflight_male_1.dds"
+                "gfx/leaders/DRAGONFLIGHT/dragonflight_male_2.dds"
+                "gfx/leaders/DRAGONFLIGHT/dragonflight_male_3.dds"
+                "gfx/leaders/DRAGONFLIGHT/dragonflight_male_4.dds"
+                "gfx/leaders/DRAGONFLIGHT/dragonflight_male_5.dds"
+            }
+            female = {
+                "gfx/leaders/DRAGONFLIGHT/dragonflight_female_1.dds"
+                "gfx/leaders/DRAGONFLIGHT/dragonflight_female_2.dds"
+                "gfx/leaders/DRAGONFLIGHT/dragonflight_female_3.dds"
+                "gfx/leaders/DRAGONFLIGHT/dragonflight_female_4.dds"
+                "gfx/leaders/DRAGONFLIGHT/dragonflight_female_5.dds"
+            }
+		}
+        disorder = {
+			male = {
+                "gfx/leaders/DRAGONFLIGHT/dragonflight_male_1.dds"
+                "gfx/leaders/DRAGONFLIGHT/dragonflight_male_2.dds"
+                "gfx/leaders/DRAGONFLIGHT/dragonflight_male_3.dds"
+                "gfx/leaders/DRAGONFLIGHT/dragonflight_male_4.dds"
+                "gfx/leaders/DRAGONFLIGHT/dragonflight_male_5.dds"
+            }
+            female = {
+                "gfx/leaders/DRAGONFLIGHT/dragonflight_female_1.dds"
+                "gfx/leaders/DRAGONFLIGHT/dragonflight_female_2.dds"
+                "gfx/leaders/DRAGONFLIGHT/dragonflight_female_3.dds"
+                "gfx/leaders/DRAGONFLIGHT/dragonflight_female_4.dds"
+                "gfx/leaders/DRAGONFLIGHT/dragonflight_female_5.dds"
+            }
+		}
+        life = {
+			male = {
+                "gfx/leaders/DRAGONFLIGHT/dragonflight_male_1.dds"
+                "gfx/leaders/DRAGONFLIGHT/dragonflight_male_2.dds"
+                "gfx/leaders/DRAGONFLIGHT/dragonflight_male_3.dds"
+                "gfx/leaders/DRAGONFLIGHT/dragonflight_male_4.dds"
+                "gfx/leaders/DRAGONFLIGHT/dragonflight_male_5.dds"
+            }
+            female = {
+                "gfx/leaders/DRAGONFLIGHT/dragonflight_female_1.dds"
+                "gfx/leaders/DRAGONFLIGHT/dragonflight_female_2.dds"
+                "gfx/leaders/DRAGONFLIGHT/dragonflight_female_3.dds"
+                "gfx/leaders/DRAGONFLIGHT/dragonflight_female_4.dds"
+                "gfx/leaders/DRAGONFLIGHT/dragonflight_female_5.dds"
+            }
+		}
+        death = {
+			male = {
+                "gfx/leaders/DRAGONFLIGHT/dragonflight_male_1.dds"
+                "gfx/leaders/DRAGONFLIGHT/dragonflight_male_2.dds"
+                "gfx/leaders/DRAGONFLIGHT/dragonflight_male_3.dds"
+                "gfx/leaders/DRAGONFLIGHT/dragonflight_male_4.dds"
+                "gfx/leaders/DRAGONFLIGHT/dragonflight_male_5.dds"
+            }
+            female = {
+                "gfx/leaders/DRAGONFLIGHT/dragonflight_female_1.dds"
+                "gfx/leaders/DRAGONFLIGHT/dragonflight_female_2.dds"
+                "gfx/leaders/DRAGONFLIGHT/dragonflight_female_3.dds"
+                "gfx/leaders/DRAGONFLIGHT/dragonflight_female_4.dds"
+                "gfx/leaders/DRAGONFLIGHT/dragonflight_female_5.dds"
+            }
+		}
+        unaligned = {
+			male = {
+                "gfx/leaders/DRAGONFLIGHT/dragonflight_male_1.dds"
+                "gfx/leaders/DRAGONFLIGHT/dragonflight_male_2.dds"
+                "gfx/leaders/DRAGONFLIGHT/dragonflight_male_3.dds"
+                "gfx/leaders/DRAGONFLIGHT/dragonflight_male_4.dds"
+                "gfx/leaders/DRAGONFLIGHT/dragonflight_male_5.dds"
+            }
+            female = {
+                "gfx/leaders/DRAGONFLIGHT/dragonflight_female_1.dds"
+                "gfx/leaders/DRAGONFLIGHT/dragonflight_female_2.dds"
+                "gfx/leaders/DRAGONFLIGHT/dragonflight_female_3.dds"
+                "gfx/leaders/DRAGONFLIGHT/dragonflight_female_4.dds"
+                "gfx/leaders/DRAGONFLIGHT/dragonflight_female_5.dds"
+            }
+		}
+	}
+}

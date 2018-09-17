@@ -1,0 +1,15 @@
+state = {
+	id = 808
+	name = "DEMONS_ASCENT"
+	manpower = 63
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = WIR
+	}
+
+	provinces = {
+        4314 4315 4330 4347 4369 4389 4406 4645 4810 4828 
+    }
+}

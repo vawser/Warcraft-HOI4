@@ -1,0 +1,15 @@
+state = {
+	id = 1059
+	name = "AMBERMILL_MINES"
+	manpower = 22
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = SWN
+	}
+
+	provinces = {
+        2674 2565 2731
+    }
+}

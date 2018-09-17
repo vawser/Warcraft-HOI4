@@ -1,0 +1,15 @@
+state = {
+	id = 757
+	name = "MANNOROC_COVEN"
+	manpower = 35
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = GEL
+	}
+
+	provinces = {
+        4506 4540 4561 4574 4613 
+    }
+}

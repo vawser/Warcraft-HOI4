@@ -1,0 +1,218 @@
+equipments = {
+    # --------- heavy_cavalry ---------
+	heavy_cavalry_equipment = {
+		is_archetype = yes
+		picture = archetype_infantry		
+		is_buildable = no
+		type = infantry
+		group_by = archetype
+		
+		interface_category = interface_category_land
+		
+		active = yes
+		
+        upgrades = {
+			wm_heavy_cavalry_max_strength
+            wm_heavy_cavalry_max_organisation
+            wm_heavy_cavalry_default_morale
+            wm_heavy_cavalry_weight
+            wm_heavy_cavalry_supply_consumption
+            wm_heavy_cavalry_reliability
+            wm_heavy_cavalry_maximum_speed
+            wm_heavy_cavalry_soft_attack
+            wm_heavy_cavalry_hard_attack
+            wm_heavy_cavalry_defense
+            wm_heavy_cavalry_breakthrough
+            wm_heavy_cavalry_ap_attack
+            wm_heavy_cavalry_hardness
+            wm_heavy_cavalry_armor_value
+            wm_heavy_cavalry_build_cost_ic
+		}
+        
+        max_strength = 40
+        max_organisation = 60
+        default_morale = 0.4
+        weight = 1
+        supply_consumption = 0.15
+        
+		reliability = 0.7
+		maximum_speed = 5
+
+        soft_attack = 5
+		hard_attack = 5
+        
+        defense = 3
+		breakthrough = 6
+        
+        ap_attack = 6
+		air_attack = 0
+
+		hardness = 0.5
+		armor_value = 6
+
+		lend_lease_cost = 1
+		build_cost_ic = 7
+        
+		resources = {
+            food = 4
+            steel = 2
+			ground_beast = 2
+		}
+	}
+
+	heavy_cavalry_equipment_1 = {
+		archetype = heavy_cavalry_equipment
+		active = yes
+		priority = 05
+		visual_level = 1
+	}
+
+	heavy_cavalry_equipment_2 = {
+		archetype = heavy_cavalry_equipment
+		parent = heavy_cavalry_equipment_1
+		priority = 15
+		visual_level = 2
+		
+        max_strength = 40
+        max_organisation = 60
+        default_morale = 0.4
+        weight = 1
+        supply_consumption = 0.15
+        
+		reliability = 0.75
+		maximum_speed = 5
+
+        soft_attack = 10
+		hard_attack = 10
+        
+        defense = 6
+		breakthrough = 12
+        
+        ap_attack = 12
+		air_attack = 0
+
+		hardness = 0.5
+		armor_value = 12
+
+		lend_lease_cost = 1
+        build_cost_ic = 8
+        
+        resources = {
+            food = 5
+            steel = 3
+			ground_beast = 3
+		}
+	}
+	
+	heavy_cavalry_equipment_3 = {
+		archetype = heavy_cavalry_equipment
+		parent = heavy_cavalry_equipment_2
+		priority = 20
+		visual_level = 3
+		
+        max_strength = 40
+        max_organisation = 60
+        default_morale = 0.4
+        weight = 1
+        supply_consumption = 0.15
+        
+		reliability = 0.8
+		maximum_speed = 5
+
+        soft_attack = 15
+		hard_attack = 15
+        
+        defense = 9
+		breakthrough = 18
+        
+        ap_attack = 18
+		air_attack = 0
+
+		hardness = 0.5
+		armor_value = 18
+
+		lend_lease_cost = 1
+        build_cost_ic = 6
+        
+        resources = {
+            food = 6
+            steel = 4
+			ground_beast = 4
+		}
+	}
+    
+    heavy_cavalry_equipment_4 = {
+		archetype = heavy_cavalry_equipment
+		parent = heavy_cavalry_equipment_3
+		priority = 25
+		visual_level = 4
+		
+        max_strength = 40
+        max_organisation = 60
+        default_morale = 0.4
+        weight = 1
+        supply_consumption = 0.15
+        
+		reliability = 0.85
+		maximum_speed = 5
+
+        soft_attack = 20
+		hard_attack = 20
+        
+        defense = 12
+		breakthrough = 24
+        
+        ap_attack = 24
+		air_attack = 0
+
+		hardness = 0.5
+		armor_value = 24
+
+		lend_lease_cost = 1
+        build_cost_ic = 10
+        
+        resources = {
+            food = 7
+            steel = 5
+			ground_beast = 5
+		}
+	}
+    
+    heavy_cavalry_equipment_5 = {
+		archetype = heavy_cavalry_equipment
+		parent = heavy_cavalry_equipment_4
+		priority = 30
+		visual_level = 5
+		
+        max_strength = 40
+        max_organisation = 60
+        default_morale = 0.4
+        weight = 1
+        supply_consumption = 0.15
+        
+		reliability = 0.9
+		maximum_speed = 5
+
+        soft_attack = 25
+		hard_attack = 25
+        
+        defense = 15
+		breakthrough = 30
+        
+        ap_attack = 30
+		air_attack = 0
+
+		hardness = 0.5
+		armor_value = 30
+
+		lend_lease_cost = 1
+        build_cost_ic = 11
+        
+        resources = {
+            food = 8
+            steel = 6
+			ground_beast = 6
+		}
+	}
+}
+

@@ -1,0 +1,15 @@
+state = {
+	id = 674
+	name = "FEATHERMOON_HEIGHTS"
+	manpower = 59
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = AQJ
+	}
+
+	provinces = {
+        3214 3216 3219 3222 3268 4462 4463 4481 
+    }
+}

@@ -1,0 +1,360 @@
+scripted_gui = {
+    espionage_menu = {
+		context_type = selected_country_context
+		window_name = "espionage_menu_container"
+        
+        visible = {
+            NOT = { tag = ROOT }
+            NOT = { is_subject_of = ROOT }
+            ROOT = {
+                can_show_espionage_menu = yes
+            }
+        }    
+           
+		effects = {
+            spy_offence_value_bg_click = {
+                spy_offence_gui = yes
+            }
+            spy_defence_value_bg_click = {
+                spy_defence_gui = yes
+            }
+            build_network_click = {
+                build_network_gui = yes
+            }
+            halt_network_click = {
+                halt_network_gui = yes
+            }
+            destabilize_nation_click = {
+                destabilize_nation_gui = yes
+            }
+            sabotage_operations_click = {
+                sabotage_operations_gui = yes
+            }
+            aquire_army_intel_click = {
+                aquire_army_intel_gui = yes
+            }
+            aquire_aviation_intel_click = {
+                aquire_aviation_intel_gui = yes
+            }
+            aquire_naval_intel_click = {
+                aquire_naval_intel_gui = yes
+            }
+            sabotage_industry_click = {
+                sabotage_industry_gui = yes
+            }
+            assassinate_mil_leader_click = {
+                assassinate_mil_leader_gui = yes
+            }
+            cancel_action_click = {
+                set_variable = { ROOT.current_action@FROM = 0 }
+                set_variable = { ROOT.action_progress@FROM = 0 }
+            }
+		}       
+        triggers = {
+            destabilize_nation_click_enabled = {
+                OR = {
+                    check_variable = { global.debug = 1 }
+                    check_variable = { ROOT.destabilize_nation_allow = 1 }
+                }
+                OR = {
+                    check_variable = { ROOT.spy_network@FROM > ROOT.destabilize_nation_cost }
+                    check_variable = { ROOT.spy_network@FROM = ROOT.destabilize_nation_cost }
+                }
+                check_variable = { ROOT.current_action@FROM = 0 }
+            } 
+            sabotage_operations_click_enabled = {
+                OR = {
+                    check_variable = { global.debug = 1 }
+                    check_variable = { ROOT.sabotage_operations_allow = 1 }
+                }
+                OR = {
+                    check_variable = { global.debug = 1 }
+                    check_variable = { ROOT.spy_network@FROM > ROOT.sabotage_operations_cost }
+                    check_variable = { ROOT.spy_network@FROM = ROOT.sabotage_operations_cost }
+                }
+                check_variable = { ROOT.current_action@FROM = 0 }
+            }
+            aquire_army_intel_click_enabled = {
+                OR = {
+                    check_variable = { global.debug = 1 }
+                    check_variable = { ROOT.aquire_army_intel_allow = 1 }
+                }
+                OR = {
+                    check_variable = { global.debug = 1 }
+                    check_variable = { ROOT.spy_network@FROM > ROOT.aquire_army_intel_cost }
+                    check_variable = { ROOT.spy_network@FROM = ROOT.aquire_army_intel_cost }
+                }
+                check_variable = { ROOT.current_action@FROM = 0 }
+            }
+            aquire_aviation_intel_click_enabled = {
+                OR = {
+                    check_variable = { global.debug = 1 }
+                    check_variable = { ROOT.aquire_aviation_intel_allow = 1 }
+                }
+                OR = {
+                    check_variable = { global.debug = 1 }
+                    check_variable = { ROOT.spy_network@FROM > ROOT.aquire_aviation_intel_cost }
+                    check_variable = { ROOT.spy_network@FROM = ROOT.aquire_aviation_intel_cost }
+                }
+                check_variable = { ROOT.current_action@FROM = 0 }
+            }
+            aquire_naval_intel_click_enabled = {
+                OR = {
+                    check_variable = { global.debug = 1 }
+                    check_variable = { ROOT.aquire_naval_intel_allow = 1 }
+                }
+                OR = {
+                    check_variable = { global.debug = 1 }
+                    check_variable = { ROOT.spy_network@FROM > ROOT.aquire_naval_intel_cost }
+                    check_variable = { ROOT.spy_network@FROM = ROOT.aquire_naval_intel_cost }
+                }
+                check_variable = { ROOT.current_action@FROM = 0 }
+            }
+            sabotage_industry_click_enabled = {
+                OR = {
+                    check_variable = { global.debug = 1 }
+                    check_variable = { ROOT.sabotage_industry_allow = 1 }
+                }
+                OR = {
+                    check_variable = { global.debug = 1 }
+                    check_variable = { ROOT.spy_network@FROM > ROOT.sabotage_industry_cost }
+                    check_variable = { ROOT.spy_network@FROM = ROOT.sabotage_industry_cost }
+                }
+                check_variable = { ROOT.current_action@FROM = 0 }
+            }
+            assassinate_mil_leader_click_enabled = {
+                OR = {
+                    check_variable = { global.debug = 1 }
+                    check_variable = { ROOT.assassinate_mil_leader_allow = 1 }
+                }
+                OR = {
+                    check_variable = { global.debug = 1 }
+                    check_variable = { ROOT.spy_network@FROM > ROOT.assassinate_mil_leader_cost }
+                    check_variable = { ROOT.spy_network@FROM = ROOT.assassinate_mil_leader_cost }
+                }
+                check_variable = { ROOT.current_action@FROM = 0 }
+            }
+            build_network_click_enabled = {
+                OR = {
+                    check_variable = { global.debug = 1 }
+                    ROOT = { has_political_power > 24 }
+                }
+            }
+            build_network_visible = {
+                check_variable = { ROOT.build_network@FROM = 0 }
+            }
+            build_network_text_visible = {
+                check_variable = { ROOT.build_network@FROM = 0 }
+            }
+            halt_network_visible = {
+                check_variable = { ROOT.build_network@FROM = 1 }
+            }
+            halt_network_text_visible = {
+                check_variable = { ROOT.build_network@FROM = 1 }
+            }
+            action_progress_text_bg_visible = {
+                NOT = { check_variable = { ROOT.current_action@FROM = 0 } }
+            }
+            action_progress_text_visible = {
+                NOT = { check_variable = { ROOT.current_action@FROM = 0 } }
+            }
+            action_progress_value_bg_visible = {
+                NOT = { check_variable = { ROOT.current_action@FROM = 0 } }
+            }
+            action_progress_value_text_visible = {
+                NOT = { check_variable = { ROOT.current_action@FROM = 0 } }
+            }
+            cancel_action_visible = {
+                NOT = { check_variable = { ROOT.current_action@FROM = 0 } }
+            }
+            cancel_action_text_visible = {
+                NOT = { check_variable = { ROOT.current_action@FROM = 0 } }
+            }
+        } 
+
+        ai_enabled = { check_variable = { ai_enable_menus = 1 } }
+        
+        ai_test_interval = 168
+        ai_test_variance = 0.1
+        
+        # AI will only ever target hostile neighbours.
+        # Prevents weirdness across the world
+        ai_test_scopes = test_neighbouring_enemy_countries
+        
+        # AI will only bother with large neighbours
+        ai_check = {
+            always = yes
+        }
+        
+        ai_max_weight_taken_per_test = 1
+        
+        ai_weights = {
+            spy_offence_value_bg_click = {
+                ai_will_do = {
+                    factor = 1
+                    
+                    modifier = {
+                        factor = 0
+                        
+                        ROOT = { has_political_power < 100 }
+                    }
+                    
+                    modifier = {
+                        factor = 0
+                        
+                        check_variable = { ROOT.spy_offence > 50 }
+                    }
+                }
+            }
+            spy_defence_value_bg_click = {
+                ai_will_do = {
+                    factor = 1
+                    
+                    modifier = {
+                        factor = 0
+                        
+                        ROOT = { has_political_power < 100 }
+                    }
+                    
+                    modifier = {
+                        factor = 0
+                        
+                        check_variable = { ROOT.spy_defence > 50 }
+                    }
+                }
+            }
+            build_network_click = {
+                ai_will_do = {
+                    factor = 1
+                    
+                    modifier = {
+                        factor = 0
+                        
+                        ROOT = { has_political_power < 100 }
+                    }
+                }
+            }
+            halt_network_click = {
+                ai_will_do = {
+                    factor = 0
+                }
+            }
+            cancel_action_click = {
+                ai_will_do = {
+                    factor = 0
+                }
+            }
+            destabilize_nation_click = {
+                ai_will_do = {
+                    factor = 1
+                    
+                    modifier = {
+                        add = 1
+                        
+                        FROM = { has_stability < 0.5 }
+                    }
+                }
+            }
+            sabotage_operations_click = {
+                ai_will_do = {
+                    factor = 1
+                    
+                    modifier = {
+                        add = 1
+                        
+                        FROM = { has_war_support < 0.5 }
+                    }
+                }
+            }
+            aquire_army_intel_click = {
+                ai_will_do = {
+                    factor = 1
+                    
+                    modifier = {
+                        add = 1
+                        
+                        ROOT = { has_army_experience < 50 }
+                    }
+                }
+            }
+            aquire_aviation_intel_click = {
+                ai_will_do = {
+                    factor = 1
+                    
+                    modifier = {
+                        add = 1
+                        
+                        ROOT = { has_air_experience < 50 }
+                    }
+                }
+            }
+            aquire_naval_intel_click = {
+                ai_will_do = {
+                    factor = 1
+                    
+                    modifier = {
+                        add = 1
+                        
+                        ROOT = { has_navy_experience < 50 }
+                    }
+                }
+            }
+            sabotage_industry_click = {
+                ai_will_do = {
+                    factor = 1
+                    
+                    modifier = {
+                        add = 1
+                        
+                        FROM = { num_of_military_factories > 20 }
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        FROM = { num_of_military_factories > 40 }
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        FROM = { num_of_military_factories > 60 }
+                    }
+                }
+            }
+            assassinate_mil_leader_click = {
+                ai_will_do = {
+                    factor = 1
+                    
+                    modifier = {
+                        add = 1
+                        
+                        FROM = {
+                            any_unit_leader = {
+                                skill > 2
+                            }
+                        }
+                    }
+                    modifier = {
+                        add = 1
+                        
+                        FROM = {
+                            any_unit_leader = {
+                                skill > 3
+                            }
+                        }
+                    }
+                    modifier = {
+                        add = 1
+                        
+                        FROM = {
+                            any_unit_leader = {
+                                skill > 4
+                            }
+                        }
+                    }
+                }
+            }
+        }
+	}
+}    

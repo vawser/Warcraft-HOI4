@@ -1,0 +1,58 @@
+state = {
+	id = 355
+	name = "BILGEWATER_FORTRESS"
+	manpower = 3384
+	state_category = village
+
+	resources = {
+		oil = 3
+		ground_beast = 4
+		flying_beast = 9
+		wood = 5
+		steel = 11
+		food = 10
+	}
+
+	history = {
+		owner = BIL
+        add_core_of = BIL
+
+		buildings = {
+			infrastructure = 4
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 4
+			industrial_complex = 4
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			7293 = {
+				bunker = 0
+			}
+			7295 = {
+				bunker = 0
+			}
+			7296 = {
+				bunker = 0
+			}
+			7297 = {
+				bunker = 0
+			}
+			7302 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        7293 7295 7296 7297 7302 
+    }
+}

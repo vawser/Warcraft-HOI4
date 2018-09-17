@@ -1,0 +1,60 @@
+state = {
+	id = 407
+	name = "ZATUAL"
+	manpower = 2337
+	state_category = village
+
+	resources = {
+		oil = 4
+		ground_beast = 8
+		flying_beast = 5
+		wood = 9
+		steel = 12
+		food = 16
+	}
+
+	history = {
+		owner = SAZ
+		add_core_of = SAZ
+
+		buildings = {
+			infrastructure = 3
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 1
+			industrial_complex = 3
+			dockyard = 3
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			6325 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 5
+			}
+			6381 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 2
+			}
+			6624 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        6325 6381 6624 
+    }
+}

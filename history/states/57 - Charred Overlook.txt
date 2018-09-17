@@ -1,0 +1,24 @@
+state = {
+	id = 57
+	name = "CHARRED_OVERLOOK"
+	manpower = 14
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = RED
+
+        # The Second War
+        597.1.1 = {
+            owner = TTH
+        }
+        # The Third War
+        612.1.1 = {
+            owner = SDW
+        }
+	}
+
+	provinces = {
+        2573 2646 2756 2773 
+    }
+}

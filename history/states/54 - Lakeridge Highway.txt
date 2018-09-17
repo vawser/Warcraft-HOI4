@@ -1,0 +1,79 @@
+state = {
+	id = 54
+	name = "LAKERIDGE_HIGHWAY"
+	manpower = 955
+	state_category = rural
+
+	resources = {
+		oil = 3
+		ground_beast = 4
+		flying_beast = 3
+		wood = 4
+		steel = 7
+		food = 25
+	}
+
+	history = {
+        victory_points = {
+            2891 5
+        }
+        
+		owner = RED
+        add_core_of = RED
+
+        # The Second War
+        597.1.1 = {
+            owner = TTH
+            add_core_of = TTH
+        }
+        # The Third War
+        612.1.1 = {
+            owner = RED
+            add_core_of = RED
+        }
+        
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 1
+			industrial_complex = 1
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			2814 = {
+				bunker = 0
+			}
+			2836 = {
+				bunker = 0
+			}
+			2863 = {
+				bunker = 0
+			}
+			2890 = {
+				bunker = 0
+			}
+			2891 = {
+				bunker = 0
+			}
+			2919 = {
+				bunker = 0
+			}
+			3070 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        2814 2836 2863 2890 2891 2919 3070 
+    }
+}

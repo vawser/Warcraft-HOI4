@@ -1,0 +1,15 @@
+state = {
+	id = 803
+	name = "WINDSHEAR_RIDGE"
+	manpower = 12
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = WIS
+	}
+
+	provinces = {
+        4446 4517 4541 4691 4741 
+    }
+}

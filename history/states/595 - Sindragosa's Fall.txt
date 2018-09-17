@@ -1,0 +1,81 @@
+state = {
+	id = 595
+	name = "SINDRAGOSA_FALL"
+	manpower = 725
+	state_category = rural
+
+	resources = {
+		ground_beast = 2
+		flying_beast = 5
+		wood = 4
+		steel = 12
+		food = 15
+	}
+
+	history = {
+		owner = AZJ
+		add_core_of = AZJ
+
+        # The Third War
+        612.1.1 = {
+            owner = SCO
+            add_core_of = SCO
+        }
+        
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 1
+			industrial_complex = 1
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			5394 = {
+				bunker = 0
+			}
+			5414 = {
+				bunker = 0
+			}
+			5441 = {
+				bunker = 0
+			}
+			5467 = {
+				bunker = 0
+			}
+			5490 = {
+				bunker = 0
+			}
+			5511 = {
+				bunker = 0
+			}
+			5532 = {
+				bunker = 0
+			}
+			5990 = {
+				bunker = 0
+			}
+			6006 = {
+				bunker = 0
+			}
+			6130 = {
+				bunker = 0
+			}
+			6149 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        5394 5414 5441 5467 5490 5511 5532 5990 6006 6130 6149 
+    }
+}

@@ -1,0 +1,63 @@
+state = {
+	id = 638
+	name = "DARKSTEAD_REFUGE"
+	manpower = 605
+	state_category = rural
+
+	resources = {
+		oil = 2
+		ground_beast = 8
+		flying_beast = 8
+		wood = 4
+		steel = 1
+		food = 18
+	}
+
+	history = {
+		owner = ICE
+		add_core_of = ICE
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 1
+			industrial_complex = 1
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+
+			manufactory = 0
+
+			5996 = {
+				bunker = 0
+			}
+			6090 = {
+				bunker = 0
+			}
+			6118 = {
+				bunker = 0
+			}
+			6156 = {
+				bunker = 0
+			}
+			7237 = {
+				bunker = 0
+			}
+			7238 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        5996 6090 6118 6156 7237 7238
+    }
+}

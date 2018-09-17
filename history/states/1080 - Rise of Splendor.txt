@@ -1,0 +1,15 @@
+state = {
+	id = 1080
+	name = "RISE_OF_SPLENDOR"
+	manpower = 40
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = BLO
+	}
+
+	provinces = {
+        7156 7157
+    }
+}

@@ -1,0 +1,53 @@
+state = {
+	id = 237
+	name = "SHORES_OF_TI_JI"
+	manpower = 793
+	state_category = rural
+
+	resources = {
+		oil = 3
+		wood = 15
+		steel = 7
+		food = 1
+	}
+
+	history = {
+		owner = AMA
+        add_core_of = AMA
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 1
+			industrial_complex = 2
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			2455 = {
+				bunker = 0
+			}
+			2457 = {
+				bunker = 0
+			}
+			2459 = {
+				bunker = 0
+			}
+			2461 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        2455 2457 2459 2461 
+    }
+}

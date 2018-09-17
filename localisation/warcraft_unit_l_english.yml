@@ -1,0 +1,71 @@
+﻿l_english: 
+ # ------ Infantry ------
+ grunt: "Grunt"
+ grunt_desc: "Meat for the meat grinder."
+ champion: "Champion"
+ champion_desc: "The champions of our realm."
+ spellcaster: "Spellcaster"
+ spellcaster_desc: "Masters of the arcane and other such magics."
+ archer: "Archer"
+ archer_desc: "Masters of defence."
+
+ # ------ Artillery ------
+ war_engine: "War Engine"
+ war_engine_desc: "A wooden artillery vehicle, used for its shock value."
+
+ # ------ Cavalry ------
+ light_cavalry: "Light Cavalry"
+ light_cavalry_desc: "Swift and harsh, cavalry is used to breakthrough the enemy lines."
+ heavy_cavalry: "Heavy Cavalry"
+ heavy_cavalry_desc: "Swift and harsh, cavalry is used to breakthrough the enemy lines."
+
+ # ------ Tank ------
+ light_tank: "Light Tank"
+ light_tank_desc: "A light tank created by one of the inventive races."
+ heavy_tank: "Heavy Tank"
+ heavy_tank_desc: "A heavy tank created by one of the inventive races."
+ 
+ # ------ Support ------
+ war_engine_support: "War Engine Support"
+ war_engine_support_desc: "A wooden artillery vehicle, used for its shock value."
+ spellcaster_support: "Spellcaster Support"
+ spellcaster_support_desc: "Masters of the arcane and other such magics."
+ archer_support: "Archer Support"
+ archer_support_desc: "Masters of defence."
+ cavalry_support: "Cavalry Support"
+ cavalry_support_desc: "Charge forth!"
+ 
+ logistics_support: "Logistics Support"
+ logistics_support_desc: "Handles planning, requesting and distributing resources for the division."
+ guard_support: "Guard Support"
+ guard_support_desc: "Maintains order and suppresses resistance in occupied territories."
+ engineer_support: "Engineer Support"
+ engineer_support_desc: "Construction of fortifications and breaching obstacles make combat engineers vital in the field. Giving our engineers a versatile role enables us to deploy them in the diverse situations where they will be needed."
+ medic_support: "Medic Support"
+ medic_support_desc: "Provides emergency medical attention to wounded soldiers in the field."
+ scout_support: "Scout Support"
+ scout_support_desc: "Sending smaller groups to scout ahead before moving in the main force allows us to gather intelligence about where the enemy is and how many we are facing."
+ 
+ # ------ Air ------
+ fighter: "Fighter"
+ fighter_desc: ""
+ cas: "Close Air Support"
+ cas_desc: ""
+ tac_bomber: "Tactical Bomber"
+ tac_bomber_desc: ""
+ strat_bomber: "Strategic Bomber"
+ strat_bomber_desc: ""
+ air_convoy: "Air Convoy"
+ air_convoy_desc: "The convoy of the sky."
+ 
+ # ------ Navy ------
+ battleship: "Battleship"
+ battleship_desc: ""
+ destroyer: "Destroyer"
+ destroyer_desc: ""
+ cruiser: "Cruiser"
+ cruiser_desc: "A cruiser."
+ submarine: "Submarine"
+ submarine_desc: ""
+ 
+ # ------ Racial ------

@@ -1,0 +1,15 @@
+state = {
+	id = 664
+	name = "SILITHUS_OVERLOOK"
+	manpower = 50
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = AQJ
+	}
+
+	provinces = {
+        4466 4484 4521 4564 4565 4597 4628 
+    }
+}

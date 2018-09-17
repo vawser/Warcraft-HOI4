@@ -1,0 +1,54 @@
+state = {
+	id = 908
+	name = "ASTRANAAR_GLADE"
+	manpower = 774
+	state_category = rural
+
+	resources = {
+		ground_beast = 2
+		flying_beast = 4
+		wood = 10
+		steel = 1
+		food = 16
+	}
+
+	history = {
+		owner = SEA
+		add_core_of = SEA
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 1
+			industrial_complex = 1
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			3827 = {
+				bunker = 0
+			}
+			3883 = {
+				bunker = 0
+			}
+			4044 = {
+				bunker = 0
+			}
+			4110 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        3827 3883 4044 4110 
+    }
+}

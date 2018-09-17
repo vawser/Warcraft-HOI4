@@ -1,0 +1,66 @@
+state = {
+	id = 542
+	name = "THE_CRYSTAL_VICE"
+	manpower = 676
+	state_category = rural
+
+	resources = {
+		oil = 3
+		ground_beast = 2
+		wood = 9
+		steel = 7
+		food = 14
+	}
+
+	history = {
+		owner = WYT
+		add_core_of = WYT
+
+        # The Third War
+        612.1.1 = {
+            owner = SCO
+            add_core_of = SCO
+        }
+        
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 3
+			industrial_complex = 1
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			5415 = {
+				bunker = 0
+			}
+			5442 = {
+				bunker = 0
+			}
+			5503 = {
+				bunker = 0
+			}
+			6193 = {
+				bunker = 0
+			}
+			6202 = {
+				bunker = 0
+			}
+			6255 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        5415 5442 5503 6193 6202 6255 
+    }
+}

@@ -1,0 +1,61 @@
+state = {
+	id = 342
+	name = "CRANE_WING_REFUGE"
+	manpower = 2066
+	state_category = village
+
+	resources = {
+		oil = 3
+		ground_beast = 6
+		wood = 13
+		steel = 6
+	}
+
+	history = {
+		owner = RCR
+		add_core_of = RCR
+
+		buildings = {
+			infrastructure = 4
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 3
+			industrial_complex = 3
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+
+			manufactory = 0
+
+			6730 = {
+				bunker = 0
+			}
+			6732 = {
+				bunker = 0
+			}
+			6733 = {
+				bunker = 0
+			}
+			6736 = {
+				bunker = 0
+			}
+			6748 = {
+				bunker = 0
+			}
+			7275 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        6730 6732 6733 6736 6748 7275
+    }
+}

@@ -1,0 +1,13 @@
+defined_text = { 
+	name = GetBuildingReportStatus
+    
+    text = {
+		trigger = {
+			check_variable = { show_building_report = 1 }
+		}
+		localization_key = BUILDING_REPORT_ACTIVE
+	}
+    text = {
+		localization_key = BUILDING_REPORT_INACTIVE
+	}
+}

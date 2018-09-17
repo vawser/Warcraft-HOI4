@@ -1,0 +1,799 @@
+#-------------------------------------------------------------------------------
+# Espionage
+#-------------------------------------------------------------------------------
+# This is the implementation effects for the Espionage view, which allows countries to spy on one another.
+# The system mirrors much of the EU4 spy system.
+
+# ROOT = Processor
+# Called every 24 hours
+setup_espionage_variables = {
+    set_variable = { spy_offence = 50 }
+    set_variable = { spy_defence = 50 }
+    
+    # 1 - Destabilize Nation
+    # 2 - Sabotage Operations
+    # 3 - Aquire Army Intel
+    # 4 - Aquire Aviation Intel
+    # 5 - Aquire Naval Intel
+    # 6 - Sabotage Industry
+    # 7 - Assassinate Mil. Leader
+    set_variable = { spy_network_growth = 2 }
+    set_variable = { spy_network_growth_multiplier = 1 }
+    set_variable = { action_growth = 5 }
+    set_variable = { action_growth_multiplier = 1 }
+    set_variable = { spy_network_discovery_loss = 5 }
+
+    set_variable = { destabilize_nation_allow = 0 }
+    set_variable = { sabotage_operations_allow = 0 }
+    set_variable = { aquire_army_intel_allow = 0 }
+    set_variable = { aquire_aviation_intel_allow = 0 }
+    set_variable = { aquire_naval_intel_allow = 0 }
+    set_variable = { sabotage_industry_allow = 0 }
+    set_variable = { assassinate_mil_leader_allow = 0 }
+    
+    set_variable = { spy_network_detect = 5 }
+    set_variable = { destabilize_nation_detect = 2 }
+    set_variable = { sabotage_operations_detect = 2 }
+    set_variable = { aquire_army_intel_detect = 5 }
+    set_variable = { aquire_aviation_intel_detect = 5 }
+    set_variable = { aquire_naval_intel_detect = 5 }
+    set_variable = { sabotage_industry_detect = 5 }
+    set_variable = { assassinate_mil_leader_detect = 5 }
+    
+    set_variable = { destabilize_nation_cost = 25 }
+    set_variable = { sabotage_operations_cost = 25 }
+    set_variable = { aquire_army_intel_cost = 50 }
+    set_variable = { aquire_aviation_intel_cost = 50 }
+    set_variable = { aquire_naval_intel_cost = 50 }
+    set_variable = { sabotage_industry_cost = 100 }
+    set_variable = { assassinate_mil_leader_cost = 100 }
+    
+    # Stats
+    set_variable = { stat_espionage_pp_spent = 0 }
+    set_variable = { stat_espionage_build_network_use = 0 }
+    set_variable = { stat_espionage_halt_network_use = 0 }
+    set_variable = { stat_espionage_destabilize_nation_use = 0 }
+    set_variable = { stat_espionage_sabotage_operations_use = 0 }
+    set_variable = { stat_espionage_aquire_army_intel_use = 0 }
+    set_variable = { stat_espionage_aquire_aviation_intel_use = 0 }
+    set_variable = { stat_espionage_aquire_naval_intel_use = 0 }
+    set_variable = { stat_espionage_sabotage_industry_use = 0 }
+    set_variable = { stat_espionage_assassinate_mil_leader_use = 0 }
+    set_variable = { stat_espionage_action_detected = 0 }
+    set_variable = { stat_espionage_network_detected = 0 }
+    set_variable = { stat_espionage_destabilize_nation_success = 0 }
+    set_variable = { stat_espionage_sabotage_operations_success = 0 }
+    set_variable = { stat_espionage_aquire_army_intel_success = 0 }
+    set_variable = { stat_espionage_aquire_aviation_intel_success = 0 }
+    set_variable = { stat_espionage_aquire_naval_intel_success = 0 }
+    set_variable = { stat_espionage_sabotage_industry_success = 0 }
+    set_variable = { stat_espionage_assassinate_mil_leader_success = 0 }
+}
+
+#---------------------------------------
+# Update
+#---------------------------------------
+espionage_update = {
+    update_spy_network = yes
+    update_spy_actions = yes
+}
+
+update_spy_network = {
+    every_country = {
+        limit = {
+            any_country = {
+                check_variable = { PREV.build_network@THIS = 1 }
+            }
+        }   
+        
+        # Update Spy network progress
+        every_country = {
+            limit = {
+                check_variable = { PREV.build_network@THIS = 1 }
+            }
+            
+            # set_variable = { global.v1 = THIS.id }
+            # set_variable = { global.v2 = ROOT.id }
+            # set_variable = { global.v3 = PREV.id }
+            # set_variable = { global.v4 = FROM.id }
+        
+            # Randomise the amount each tick
+            set_temp_variable = { growth = random }
+            multiply_temp_variable = { growth = PREV.spy_network_growth }
+            multiply_temp_variable = { growth = PREV.spy_network_growth_multiplier }
+            
+            # Add network
+            add_to_variable = { PREV.spy_network@THIS = growth }
+            clamp_spy_network = yes
+            
+            # Spy detection
+            run_spy_detection = yes
+        }
+    }
+}
+
+update_spy_actions = {
+    every_country = {
+        limit = {
+            any_country = {
+                check_variable = { PREV.current_action@THIS > 0 }
+            }
+        }
+
+        # Update action progress for all targeted countries of PREV
+        every_country = {
+            limit = {
+                check_variable = { PREV.current_action@THIS > 0 }
+            }
+            
+            # Randomise the growth each tick
+            set_temp_variable = { growth = random }
+            multiply_temp_variable = { growth = PREV.action_growth }
+            multiply_temp_variable = { growth = PREV.action_growth_multiplier }
+            
+            add_to_variable = { PREV.action_progress@THIS = growth }
+                
+            execute_spy_action_detection = yes
+            execute_spy_actions = yes
+        }
+    }
+}
+
+#---------------------------------------
+# Spy Network
+#---------------------------------------
+# This is called from the update scopes, which is why PREV is the user and THIS is the target
+# PREV is user country
+# THIS is targeted country
+run_spy_detection = {
+    # Get a random number between 0 and 100 as the detection value
+	set_temp_variable = { detect_random = random }
+	multiply_temp_variable = { detect_random = 100 }
+    
+    # If the detection value in below the targeted nation's detection rate, 
+    # run a detection check
+	if = {
+	    limit = {
+	        check_variable = { detect_random < THIS.spy_network_detect }
+	    }
+
+	    # Get Spy Offence value, R{0:1} * Spy Offence{0:100}
+	    set_temp_variable = { spy_offence = random }
+	    multiply_temp_variable = { spy_offence = PREV.spy_offence }
+
+	    # Get Spy Defence value, R{0:1} * Spy Defence{0:100}
+	    set_temp_variable = { spy_defence = random }
+	    multiply_temp_variable = { spy_defence = THIS.spy_defence }
+
+	    # If the spying nation's Spy Offence is below the targeted nation's Spy Defence, expel the spy.
+	    if = {
+	        limit = {
+                check_variable = { spy_offence < spy_defence }
+	        }
+	
+	        set_variable = { PREV.build_network@THIS = 0 }
+	        
+	        subtract_from_variable = { PREV.spy_network@THIS = PREV.spy_network_discovery_loss }
+	        clamp_spy_network = yes
+	        
+            add_to_variable = { THIS.stat_espionage_network_detected = 1 }
+            
+	        PREV = { country_event = { id = espionage.1 } }
+            THIS = { country_event = { id = espionage.17 } }
+	    }
+	}
+}
+
+clamp_spy_network = {
+    if = {
+        limit = {
+            check_variable = { PREV.spy_network@THIS > 100 }
+        }
+        set_variable = { PREV.spy_network@THIS = 100 }
+        set_variable = { PREV.build_network@THIS = 0 }
+    }
+    if = {
+        limit = {
+            check_variable = { PREV.spy_network@THIS < 0 }
+        }
+        set_variable = { PREV.spy_network@THIS = 0 }
+    }
+}
+
+#---------------------------------------
+# Spy Actions
+#---------------------------------------
+# This is called from the update scopes, which is why PREV is the user and THIS is the target
+# PREV is user country
+# THIS is targeted country
+execute_spy_actions = {
+    if = {
+        limit = { check_variable = { PREV.action_progress@THIS > 99 } }
+                
+        # Destabilize Nation 
+		if = {
+		    limit = { check_variable = { PREV.current_action@THIS = 1 } }
+		    destabilize_nation_effect = yes
+		}
+		# Sabotage Operations
+		if = {
+		    limit = { check_variable = { PREV.current_action@THIS = 2 } }
+		    sabotage_operations_effect = yes
+		}
+		# Aquire Army Intel
+		if = {
+		    limit = { check_variable = { PREV.current_action@THIS = 3 } }
+		    aquire_army_intel_effect = yes
+		}
+		# Aquire Aviation Intel
+		if = {
+		    limit = { check_variable = { PREV.current_action@THIS = 4 } }
+		    aquire_aviation_intel_effect = yes
+		}
+		# Aquire Naval Intel
+		if = {
+		    limit = { check_variable = { PREV.current_action@THIS = 5 } }
+		    aquire_naval_intel_effect = yes
+		}
+		# Sabotage Industry
+		if = {
+		    limit = { check_variable = { PREV.current_action@THIS = 6 } }
+		    sabotage_industry_effect = yes
+		}
+		# Assassinate Mil Leader
+		if = {
+		    limit = { check_variable = { PREV.current_action@THIS = 7 } }
+		    assassinate_mil_leader_effect = yes
+		}
+		
+		# Clean up
+		set_variable = { PREV.current_action@THIS = 0 }
+		set_variable = { PREV.action_progress@THIS = 0 }
+    }
+}
+
+destabilize_nation_effect = {
+    PREV = { country_event = { id = espionage.3 } }
+            
+    THIS = {
+        add_stability = -0.25
+        country_event = { id = espionage.4 }
+    }
+    
+    add_to_variable = { PREV.stat_espionage_destabilize_nation_success = 1 }
+}
+
+sabotage_operations_effect = {
+    PREV = { country_event = { id = espionage.5 } }
+            
+    THIS = {
+        country_event = { id = espionage.6 }
+        add_war_support = -0.25
+    }
+    
+    add_to_variable = { PREV.stat_espionage_sabotage_operations_success = 1 }
+}
+
+aquire_army_intel_effect = {
+    PREV = { 
+        country_event = { id = espionage.7 }
+        army_experience = 25
+    }
+            
+    THIS = {
+        country_event = { id = espionage.8 }
+        army_experience = -25
+    }
+    
+    add_to_variable = { PREV.stat_espionage_aquire_army_intel_success = 1 }
+}
+
+aquire_aviation_intel_effect = {
+    PREV = { 
+        country_event = { id = espionage.9 }
+        air_experience = 25
+    }
+            
+    THIS = {
+        country_event = { id = espionage.10 }
+        air_experience = -25
+    }
+    
+    add_to_variable = { PREV.stat_espionage_aquire_aviation_intel_success = 1 }
+}
+
+aquire_naval_intel_effect = {
+    PREV = { 
+        country_event = { id = espionage.11 }
+        navy_experience = 25
+    }
+            
+    THIS = {
+        country_event = { id = espionage.12 }
+        navy_experience = -25
+    }
+    
+    add_to_variable = { PREV.stat_espionage_aquire_naval_intel_success = 1 }
+}
+
+sabotage_industry_effect = {
+    PREV = { country_event = { id = espionage.13 } }
+            
+    THIS = {
+        country_event = { id = espionage.14 }
+                
+        every_owned_state = {
+            limit = { }
+		            
+            damage_building = {
+                type = infrastructure
+                damage = 1
+            }
+            damage_building = {
+                type = industrial_complex
+                damage = 1
+            }
+            damage_building = {
+                type = arms_factory
+                damage = 1
+            }
+        }
+    }
+    
+    add_to_variable = { PREV.stat_espionage_sabotage_industry_success = 1 }
+}
+
+assassinate_mil_leader_effect = {
+    PREV = { country_event = { id = espionage.15 } }
+            
+    THIS = {
+        country_event = { id = espionage.16 }
+                
+        random_unit_leader = {
+            limit = { }
+            retire = yes
+        }
+    }
+    
+    add_to_variable = { PREV.stat_espionage_assassinate_mil_leader_success = 1 }
+}
+
+execute_spy_action_detection = {
+    # Destabilize Nation
+    if = {
+        limit = { check_variable = { PREV.current_action@THIS = 1 } }
+        set_temp_variable = { action_detect_rate = THIS.destabilize_nation_detect }
+    }
+    # Sabotage Operations
+    if = {
+        limit = { check_variable = { PREV.current_action@THIS = 2 } }
+        set_temp_variable = { action_detect_rate = THIS.sabotage_operations_detect }
+    }
+    # Aquire Army Intel
+    if = {
+        limit = { check_variable = { PREV.current_action@THIS = 3 } }
+        set_temp_variable = { action_detect_rate = THIS.aquire_army_intel_detect }
+    }
+    # Aquire Aviation Intel
+    if = {
+        limit = { check_variable = { PREV.current_action@THIS = 4 } }
+        set_temp_variable = { action_detect_rate = THIS.aquire_aviation_intel_detect }
+    }
+    # Aquire Naval Intel
+    if = {
+        limit = { check_variable = { PREV.current_action@THIS = 5 } }
+        set_temp_variable = { action_detect_rate = THIS.aquire_naval_intel_detect }
+    }
+    # Sabotage Industry
+    if = {
+        limit = { check_variable = { PREV.current_action@THIS = 6 } }
+        set_temp_variable = { action_detect_rate = THIS.sabotage_industry_detect }
+    }
+    # Assassinate Mil Leader
+    if = {
+        limit = { check_variable = { PREV.current_action@THIS = 7 } }
+        set_temp_variable = { action_detect_rate = THIS.assassinate_mil_leader_detect }
+    }
+    
+    # Get a random number between 0 and 100 as the detection value
+	set_temp_variable = { detect_random = random }
+	multiply_temp_variable = { detect_random = 100 }
+    
+    # If the detection value in below the targeted nation's detection rate, 
+    # run a detection check
+	if = {
+	    limit = {
+	        check_variable = { detect_random < action_detect_rate }
+	    }
+
+	    # Get Spy Offence value, R{0:1} * Spy Offence{0:100}
+	    set_temp_variable = { spy_offence = random }
+	    multiply_temp_variable = { spy_offence = PREV.spy_offence }
+
+	    # Get Spy Defence value, R{0:1} * Spy Defence{0:100}
+	    set_temp_variable = { spy_defence = random }
+        multiply_temp_variable = { spy_defence = THIS.spy_defence }
+        
+	    # If the spying nation's Spy Offence is below the targeted nation's Spy Defence, expel the spy.
+	    if = {
+	        limit = {
+                check_variable = { spy_offence < spy_defence }
+	        }
+
+	        PREV = { country_event = { id = espionage.2 } }
+            THIS = { country_event = { id = espionage.18 } }
+            
+            add_to_variable = { THIS.stat_espionage_action_detected = 1 }
+            
+            set_variable = { PREV.current_action@THIS = 0 }
+            set_variable = { PREV.action_progress@THIS = 0 }
+	    }
+	}
+}
+
+#---------------------------------------
+# GUI
+#---------------------------------------
+# This is called from the GUI, which is why ROOT is the user, and FROM is the target
+# ROOT is user country
+# FROM is targeted country
+build_network_gui = {
+    if = {
+        limit = {
+            ROOT = { has_political_power > 24 }
+        }
+        ROOT = { add_political_power = -25 }
+        
+        set_variable = { ROOT.build_network@FROM = 1 }
+
+        add_to_variable = { ROOT.stat_espionage_pp_spent = 25 }
+        add_to_variable = { ROOT.stat_espionage_build_network_use = 1 }
+    }
+    else = {
+        custom_effect_tooltip = NOT_ENOUGH_PP_BUILD_NETWORK
+    }
+}
+
+halt_network_gui = {
+    clear_variable = ROOT.build_network@FROM
+    add_to_variable = { ROOT.stat_espionage_halt_network_use = 1 }
+}
+
+destabilize_nation_gui = {
+    if = {
+        limit = {
+            OR = {
+                check_variable = { global.debug_espionage = 1 }
+                check_variable = { ROOT.spy_network@FROM > ROOT.destabilize_nation_cost }
+                check_variable = { ROOT.spy_network@FROM = ROOT.destabilize_nation_cost }
+            }
+            check_variable = { ROOT.current_action@FROM = 0 }
+        }
+        custom_effect_tooltip = DESTABILIZE_NATION_COST
+        custom_effect_tooltip = TARGET_TOOLTIP
+        effect_tooltip = {
+            add_stability = -0.25
+        }
+        
+        add_to_variable = { ROOT.stat_espionage_destabilize_nation_use = 1 }
+        set_variable = { ROOT.current_action@FROM = 1 }
+        subtract_from_variable = { ROOT.spy_network@FROM = ROOT.destabilize_nation_cost }
+    }
+    else_if = {
+        limit = {
+            NOT = { check_variable = { ROOT.current_action@FROM = 0 } }
+        }
+        custom_effect_tooltip = GET_ONGOING_ACTION_TOOLTIP
+    }
+    else_if = {
+        limit = { 
+            check_variable = { ROOT.destabilize_nation_allow = 0 }
+        }
+        custom_effect_tooltip = LOCKED_DESTABILIZE_NATION
+    }
+    else = {
+        custom_effect_tooltip = DESTABILIZE_NATION_BLOCKED
+    }
+}
+
+sabotage_operations_gui = {
+    if = {
+        limit = {
+            OR = {
+                check_variable = { global.debug_espionage = 1 }
+                check_variable = { ROOT.spy_network@FROM > ROOT.sabotage_operations_cost }
+                check_variable = { ROOT.spy_network@FROM = ROOT.sabotage_operations_cost }
+            }
+            check_variable = { ROOT.current_action@FROM = 0 }
+        }
+        custom_effect_tooltip = SABOTAGE_OPERATIONS_COST
+        custom_effect_tooltip = TARGET_TOOLTIP
+        effect_tooltip = {
+            add_war_support = -0.25
+        }
+        
+        add_to_variable = { ROOT.stat_espionage_sabotage_operations_use = 1 }
+        set_variable = { ROOT.current_action@FROM = 2 }
+        subtract_from_variable = { ROOT.spy_network@FROM = ROOT.sabotage_operations_cost }
+    }
+    else_if = {
+        limit = {
+            NOT = { check_variable = { ROOT.current_action@FROM = 0 } }
+        }
+        custom_effect_tooltip = GET_ONGOING_ACTION_TOOLTIP
+    }
+    else_if = {
+        limit = { 
+            check_variable = { ROOT.sabotage_operations_allow = 0 }
+        }
+        custom_effect_tooltip = LOCKED_SABOTAGE_OPERATIONS
+    }
+    else = {
+        custom_effect_tooltip = SABOTAGE_OPERATIONS_BLOCKED
+    }
+}
+
+aquire_army_intel_gui = {
+    if = {
+        limit = {
+            OR = {
+                check_variable = { global.debug_espionage = 1 }
+                check_variable = { ROOT.spy_network@FROM > ROOT.aquire_army_intel_cost }
+                check_variable = { ROOT.spy_network@FROM = ROOT.aquire_army_intel_cost }
+            }
+            check_variable = { ROOT.current_action@FROM = 0 }
+        }
+        custom_effect_tooltip = AQUIRE_ARMY_INTEL_COST
+        effect_tooltip = {
+            army_experience = 25
+        }
+        custom_effect_tooltip = TARGET_TOOLTIP
+        effect_tooltip = {
+            army_experience = -25
+        }
+        
+        add_to_variable = { ROOT.stat_espionage_aquire_army_intel_use = 1 }
+        set_variable = { ROOT.current_action@FROM = 3 }
+        subtract_from_variable = { ROOT.spy_network@FROM = ROOT.aquire_army_intel_cost }
+    }
+    else_if = {
+        limit = {
+            NOT = { check_variable = { ROOT.current_action@FROM = 0 } }
+        }
+        custom_effect_tooltip = GET_ONGOING_ACTION_TOOLTIP
+    }
+    else_if = {
+        limit = { 
+            check_variable = { ROOT.aquire_army_intel_allow = 0 }
+        }
+        custom_effect_tooltip = LOCKED_AQUIRE_ARMY_INTEL
+    }
+    else = {
+        custom_effect_tooltip = AQUIRE_ARMY_INTEL_BLOCKED
+    }
+}
+
+aquire_aviation_intel_gui = {
+    if = {
+        limit = {
+            OR = {
+                check_variable = { global.debug_espionage = 1 }
+                check_variable = { ROOT.spy_network@FROM > ROOT.aquire_aviation_intel_cost }
+                check_variable = { ROOT.spy_network@FROM = ROOT.aquire_aviation_intel_cost }
+            }
+            check_variable = { ROOT.current_action@FROM = 0 }
+        }
+        
+        custom_effect_tooltip = AQUIRE_AVIATION_INTEL_COST
+        effect_tooltip = {
+            air_experience = 25
+        }
+        custom_effect_tooltip = TARGET_TOOLTIP
+        effect_tooltip = {
+            air_experience = -25
+        }
+        
+        add_to_variable = { ROOT.stat_espionage_aquire_aviation_intel_use = 1 }
+        set_variable = { ROOT.current_action@FROM = 4 }
+        subtract_from_variable = { ROOT.spy_network@FROM = ROOT.aquire_aviation_intel_cost }
+    }
+    else_if = {
+        limit = {
+            NOT = { check_variable = { ROOT.current_action@FROM = 0 } }
+        }
+        custom_effect_tooltip = GET_ONGOING_ACTION_TOOLTIP
+    }
+    else_if = {
+        limit = { 
+            check_variable = { ROOT.aquire_aviation_intel_allow = 0 }
+        }
+        custom_effect_tooltip = LOCKED_AQUIRE_AVIATION_INTEL
+    }
+    else = {
+        custom_effect_tooltip = AQUIRE_AVIATION_INTEL_BLOCKED
+    }
+}
+
+aquire_naval_intel_gui = {
+    if = {
+        limit = {
+            OR = {
+                check_variable = { global.debug_espionage = 1 }
+                check_variable = { ROOT.spy_network@FROM > ROOT.aquire_naval_intel_cost }
+                check_variable = { ROOT.spy_network@FROM = ROOT.aquire_naval_intel_cost }
+            }
+            check_variable = { ROOT.current_action@FROM = 0 }
+        }
+        
+        custom_effect_tooltip = AQUIRE_NAVAL_INTEL_COST
+        effect_tooltip = {
+            navy_experience = 25
+        }
+        custom_effect_tooltip = TARGET_TOOLTIP
+        effect_tooltip = {
+            navy_experience = -25
+        }
+        
+        add_to_variable = { ROOT.stat_espionage_aquire_naval_intel_use = 1 }
+        set_variable = { ROOT.current_action@FROM = 5 }
+        subtract_from_variable = { ROOT.spy_network@FROM = ROOT.aquire_naval_intel_cost }
+    }
+    else_if = {
+        limit = {
+            NOT = { check_variable = { ROOT.current_action@FROM = 0 } }
+        }
+        custom_effect_tooltip = GET_ONGOING_ACTION_TOOLTIP
+    }
+    else_if = {
+        limit = { 
+            check_variable = { ROOT.aquire_naval_intel_allow = 0 }
+        }
+        custom_effect_tooltip = LOCKED_AQUIRE_NAVAL_INTEL
+    }
+    else = {
+        custom_effect_tooltip = AQUIRE_NAVAL_INTEL_BLOCKED
+    }
+}
+
+sabotage_industry_gui = {
+    if = {
+        limit = {
+            OR = {
+                check_variable = { global.debug_espionage = 1 }
+                check_variable = { ROOT.spy_network@FROM > ROOT.sabotage_industry_cost }
+                check_variable = { ROOT.spy_network@FROM = ROOT.sabotage_industry_cost }
+            }
+            check_variable = { ROOT.current_action@FROM = 0 }
+        }
+        
+        custom_effect_tooltip = SABOTAGE_INDUSTRY_COST
+        custom_effect_tooltip = TARGET_TOOLTIP
+        effect_tooltip = {
+            every_owned_state = {
+                limit = { }
+		            
+                damage_building = {
+                    type = infrastructure
+                    damage = 1
+                }
+                damage_building = {
+                    type = industrial_complex
+                    damage = 1
+                }
+                damage_building = {
+                    type = arms_factory
+                    damage = 1
+                }
+            }
+        }
+        
+        add_to_variable = { ROOT.stat_espionage_sabotage_industry_use = 1 }
+        set_variable = { ROOT.current_action@FROM = 6 }
+        subtract_from_variable = { ROOT.spy_network@FROM = ROOT.sabotage_industry_cost }
+    }
+    else_if = {
+        limit = {
+            NOT = { check_variable = { ROOT.current_action@FROM = 0 } }
+        }
+        custom_effect_tooltip = GET_ONGOING_ACTION_TOOLTIP
+    }
+    else_if = {
+        limit = { 
+            check_variable = { ROOT.sabotage_industry_allow = 0 }
+        }
+        custom_effect_tooltip = LOCKED_SABOTAGE_INDUSTRY
+    }
+    else = {
+        custom_effect_tooltip = SABOTAGE_INDUSTRY_BLOCKED
+    }
+}
+
+assassinate_mil_leader_gui = {
+    if = {
+        limit = {
+            OR = {
+                check_variable = { global.debug_espionage = 1 }
+                check_variable = { ROOT.spy_network@FROM > ROOT.assassinate_mil_leader_cost }
+                check_variable = { ROOT.spy_network@FROM = ROOT.assassinate_mil_leader_cost }
+            }
+            check_variable = { ROOT.current_action@FROM = 0 }
+        }
+        
+        custom_effect_tooltip = ASSASSINATE_MIL_LEADER_COST
+        custom_effect_tooltip = TARGET_TOOLTIP
+        effect_tooltip = {
+            random_unit_leader = {
+                limit = { }
+		            
+                retire = yes
+            }
+        }
+        
+        add_to_variable = { ROOT.stat_espionage_assassinate_mil_leader_use = 1 }
+        set_variable = { ROOT.current_action@FROM = 7 }
+        subtract_from_variable = { ROOT.spy_network@FROM = ROOT.assassinate_mil_leader_cost }
+    }
+    else_if = {
+        limit = {
+            NOT = { check_variable = { ROOT.current_action@FROM = 0 } }
+        }
+        custom_effect_tooltip = GET_ONGOING_ACTION_TOOLTIP
+    }
+    else_if = {
+        limit = { 
+            check_variable = { ROOT.assassinate_mil_leader_allow = 0 }
+        }
+        custom_effect_tooltip = LOCKED_ASSASSINATE_MIL_LEADER
+    }
+    else = {
+        custom_effect_tooltip = ASSASSINATE_MIL_LEADER_BLOCKED
+    }
+}
+
+spy_offence_gui = {
+    ROOT = {
+        if = {
+            limit = { 
+                has_political_power > 25 
+                check_variable = { spy_offence < 100 }
+            }
+
+            custom_effect_tooltip = BOOST_SPY_OFFENCE
+            hidden_effect = { add_political_power = -25 }
+            add_to_variable = { spy_offence = 1 }
+        }
+        else_if = {
+            limit = {
+                check_variable = { spy_offence > 99 }
+            }
+            custom_effect_tooltip = SPY_OFFENCE_AT_MAX
+        }
+        else = {
+            custom_effect_tooltip = NO_PP_FOR_BOOST
+        }
+    }
+}
+
+spy_defence_gui = {
+    ROOT = {
+        if = {
+            limit = { 
+                has_political_power > 25 
+                check_variable = { spy_defence < 100 }
+            }
+
+            custom_effect_tooltip = BOOST_SPY_DEFENCE
+            hidden_effect = { add_political_power = -25 }
+            add_to_variable = { spy_defence = 1 }
+        }
+        else_if = {
+            limit = {
+                check_variable = { spy_defence > 99 }
+            }
+            custom_effect_tooltip = SPY_DEFENCE_AT_MAX
+        }
+        else = {
+            custom_effect_tooltip = NO_PP_FOR_BOOST
+        }
+    }
+}

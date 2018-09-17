@@ -1,0 +1,79 @@
+BOX_strategy_default = {
+    enable = {
+        original_tag = BOX
+    }
+
+    # Stormwind
+    ai_strategy = {
+		type = contain
+		id = "MOH"
+        value = 250
+	}
+    ai_strategy = {
+		type = conquer
+		id = "MOH"
+        value = 250
+	}
+    ai_strategy = {
+		type = antagonize
+		id = "MOH"
+        value = 250
+	}
+    ai_strategy = {
+		type = contain
+		id = "SHO"
+        value = 250
+	}
+    ai_strategy = {
+		type = conquer
+		id = "SHO"
+        value = 250
+	}
+    ai_strategy = {
+		type = antagonize
+		id = "SHO"
+        value = 250
+	}
+    
+    # Friends
+    ai_strategy = {
+		type = befriend
+		id = "JAS"
+        value = 250
+	}
+    ai_strategy = {
+		type = protect
+		id = "JAS"
+        value = 250
+	}
+    ai_strategy = {
+		type = befriend
+		id = "TIG"
+        value = 250
+	}
+    ai_strategy = {
+		type = protect
+		id = "TIG"
+        value = 250
+	}
+    ai_strategy = {
+		type = befriend
+		id = "RCR"
+        value = 250
+	}
+    ai_strategy = {
+		type = protect
+		id = "RCR"
+        value = 250
+	}
+    ai_strategy = {
+		type = befriend
+		id = "TIL"
+        value = 250
+	}
+    ai_strategy = {
+		type = protect
+		id = "TIL"
+        value = 250
+	} 
+}

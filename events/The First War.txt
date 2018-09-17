@@ -1,0 +1,23 @@
+﻿add_namespace = the_first_war
+
+# Remove End of the Gnoll Wars
+country_event = {
+	id = the_first_war.1
+	title = the_first_war.1.title
+	desc = the_first_war.1.desc
+	picture = GFX_event_HELLFIRE_CITADEL
+	
+	is_triggered_only = yes
+    
+    trigger = {
+        original_tag = SRW
+        has_war_with = TTH
+        has_idea = end_of_the_gnoll_wars
+    }
+    
+    option = {
+		name = the_first_war.1.option.a
+        
+        remove_ideas = end_of_the_gnoll_wars
+	}
+}

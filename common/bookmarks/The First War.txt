@@ -1,0 +1,140 @@
+bookmarks = {
+	bookmark = {
+		name = "THE_FIRST_WAR_NAME"
+		desc = "THE_FIRST_WAR_DESC"
+		date = 592.1.1.1
+		picture = "GFX_select_date_the_first_war"
+		default_country = "SRW"
+	
+        "SRW"={
+			history = "STORMWIND_FIRST_WAR_DESC"
+            ideology = light
+            ideas = {
+                racial_human
+            }
+            focuses = {
+                offensive_army_effort
+                defensive_army_effort
+                support_effort
+            }
+            # ideas = { }
+            # focuses = { }
+		}
+        
+        "TTH"={
+			history = "HORDE_FIRST_WAR_DESC"
+            ideology = disorder
+            ideas = {
+                racial_orc
+                orcish_conquerors
+            }
+            focuses = {
+                TTH_war_stormwind
+                TTH_enter_stranglethorn
+                TTH_accept_shadow_council
+            }
+		}
+        
+        "LOR"={
+			history = "LORDAERON_FIRST_WAR_DESC"
+            ideology = light
+            ideas = {
+                racial_human
+            }
+            focuses = {
+                offensive_army_effort
+                defensive_army_effort
+                support_effort
+            }
+		}
+        
+        "DKI"={
+			history = "DARK_IRON_DESC"
+            ideology = disorder
+            ideas = {
+                racial_dwarf
+            }
+            focuses = {
+                offensive_army_effort
+                defensive_army_effort
+                support_effort
+            }
+		}
+        
+        "IRO"={
+			history = "IRONFORGE_DESC"
+            ideology = light
+            ideas = {
+                racial_dwarf
+            }
+            focuses = {
+                offensive_army_effort
+                defensive_army_effort
+                support_effort
+            }
+		}
+        
+        "QUE"={
+			history = "QUELTHALAS_DESC"
+            ideology = order
+            ideas = {
+                racial_high_elf
+            }
+            focuses = {
+                offensive_army_effort
+                defensive_army_effort
+                support_effort
+            }
+		}
+        
+        "SMG"={
+			history = "STROMGARDE_DESC"
+            ideology = light
+            ideas = {
+                racial_human
+            }
+            focuses = {
+                offensive_army_effort
+                defensive_army_effort
+                support_effort
+            }
+		}
+        
+        "---"={
+			history = "BLANK_DESC"
+		}
+
+		effect = {
+            SRW = {
+                create_faction = KINGDOM_OF_AZEROTH
+                add_to_faction = TTH
+                add_to_faction = RED
+                add_to_faction = WES
+                add_to_faction = DAR
+            }
+            LOR = {
+                create_faction = ALLIANCE_OF_LORDAERON
+                add_to_faction = LOR
+                add_to_faction = ANO
+                add_to_faction = STR
+                add_to_faction = SOU
+            }
+            TTH = {
+                create_faction = THE_HORDE
+                add_to_faction = TTH
+            }  
+            DAS = {
+                create_faction = KALDOREI_EMPIRE
+                add_to_faction = DAS
+                add_to_faction = SEN
+                add_to_faction = SEA
+                add_to_faction = SDS
+                add_to_faction = SFR
+                add_to_faction = CEN
+                add_to_faction = CEX
+            }
+            
+			randomize_weather = 12345
+		}
+	}
+}

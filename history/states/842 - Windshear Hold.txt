@@ -1,0 +1,57 @@
+state = {
+	id = 842
+	name = "WINDSHEAR_HOLD"
+	manpower = 2080
+	state_category = village
+
+	resources = {
+		ground_beast = 3
+		flying_beast = 8
+		wood = 6
+		steel = 13
+		food = 18
+	}
+
+	history = {
+		owner = WIS
+		add_core_of = WIS
+
+		buildings = {
+			infrastructure = 3
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 7
+			industrial_complex = 2
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			4163 = {
+				bunker = 0
+			}
+			4164 = {
+				bunker = 0
+			}
+			4173 = {
+				bunker = 0
+			}
+			4174 = {
+				bunker = 0
+			}
+			4184 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        4163 4164 4173 4174 4184 
+    }
+}

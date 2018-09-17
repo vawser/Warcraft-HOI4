@@ -1,0 +1,15 @@
+state = {
+	id = 74
+	name = "SOUTH_STRANGLETHORN_MT"
+	manpower = 56
+	state_category = wasteland
+    impassable = yes
+    
+	history = {
+		owner = SKS
+	}
+
+	provinces = {
+        1858 1880 1889 1900 2678 2738 2746 
+    }
+}

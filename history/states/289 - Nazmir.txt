@@ -1,0 +1,63 @@
+state = {
+	id = 289
+	name = "NAZMIR"
+	manpower = 525
+	state_category = rural
+
+	resources = {
+		oil = 1
+		ground_beast = 2
+		flying_beast = 6
+		wood = 10
+		steel = 6
+		food = 3
+	}
+
+	history = {
+		owner = ZDL
+        add_core_of = ZDL
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 1
+			industrial_complex = 0
+			dockyard = 1
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			7219 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 1
+			}
+			7220 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 7
+			}
+			7230 = {
+				bunker = 0
+			}
+			7231 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        7219 7220 7230 7231 
+    }
+}

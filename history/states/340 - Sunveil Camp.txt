@@ -1,0 +1,66 @@
+state = {
+	id = 340
+	name = "SUNVEIL_CAMP"
+	manpower = 2640
+	state_category = village
+
+	resources = {
+		oil = 3
+		ground_beast = 7
+		flying_beast = 8
+		wood = 11
+		food = 2
+	}
+
+	history = {
+		owner = DOJ
+		add_core_of = DOJ
+
+		buildings = {
+			infrastructure = 2
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 3
+			industrial_complex = 1
+			dockyard = 4
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			6315 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 7
+			}
+			6433 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 6
+			}
+			6452 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 8
+			}
+			6455 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 5
+			}
+		}
+	}
+
+	provinces = {
+        6315 6433 6452 6455 
+    }
+}

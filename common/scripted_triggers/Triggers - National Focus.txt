@@ -1,0 +1,43 @@
+#-------------------------------------------------------------------------------
+# National Focuses
+#-------------------------------------------------------------------------------
+# These are triggers used in national focuses
+
+bypass_cannot_add_military_factory = {
+    custom_trigger_tooltip = {
+        tooltip = no_possible_building_slots_tooltip
+        all_owned_state = {
+            free_building_slots = {
+                building = arms_factory
+                size < 1
+                include_locked = yes
+            }					
+        }
+    }
+}
+
+bypass_cannot_add_civilian_factory = {
+    custom_trigger_tooltip = {
+        tooltip = no_possible_building_slots_tooltip
+        all_owned_state = {
+            free_building_slots = {
+                building = industrial_complex
+                size < 1
+                include_locked = yes
+            }					
+        }
+    }
+}
+
+bypass_cannot_add_infrastructure = {
+    custom_trigger_tooltip = {
+        tooltip = no_possible_building_slots_tooltip
+        all_owned_state = {
+            free_building_slots = {
+                building = infrastructure
+                size < 1
+                include_locked = yes
+            }					
+        }
+    }
+}

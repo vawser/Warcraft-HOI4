@@ -1,0 +1,15 @@
+state = {
+	id = 1118
+	name = "RATCHET_OVERLOOK"
+	manpower = 4
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = VTC
+	}
+
+	provinces = {
+        3266 4765
+    }
+}

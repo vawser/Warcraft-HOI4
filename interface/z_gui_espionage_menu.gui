@@ -1,0 +1,358 @@
+guiTypes = {
+    containerWindowType = {
+		name = "espionage_menu_container"
+		position = { x = -300 y = -300 }	
+		
+		size = { width = 900 height= 600 }
+		
+		fade_time = 300
+		fade_type = linear
+		moveable = yes
+		show_sound = menu_open_window
+		click_to_front = yes
+        
+		orientation = center
+        
+		background = {
+			name = "Background"		
+			quadTextureSprite ="GFX_900x600_parchment_bg"
+		}
+        
+        iconType = {
+			name = "title_bg"
+			spriteType = "GFX_wow_banner"
+			position = { x = 200 y = 20 }
+			allwaystransparent = yes
+            scale = 2.0
+		}
+        
+        instantTextBoxType = {
+			name = "menu_title"
+			position = { x = 360 y = 48 }
+			font = "hoi_18mbs"
+			borderSize = {x = 0 y = 0}
+			text = "ESPIONAGE_TITLE"
+            pdx_tooltip = "ESPIONAGE_TOOLTIP"
+			maxWidth = 200
+			maxHeight = 20
+            format = center
+		}
+
+        #------------------------------
+        # Spy Offence
+        #------------------------------
+        iconType = {
+			name = "spy_offence_text_bg"
+			position = { x = 100 y = 120 }
+			quadTextureSprite ="GFX_short_blue_menu_button"
+		}
+        instantTextBoxType = {
+			name = "spy_offence_text"
+			position = { x = 100 y = 135 }
+			font = "hoi_20b"
+			borderSize = {x = 0 y = 0}
+			text = "SPY_OFFENCE_TEXT"
+            pdx_tooltip = "SPY_OFFENCE_TOOLTIP"
+			maxWidth = 180
+			maxHeight = 20
+            format = center
+		}
+        buttonType = {
+			name = "spy_offence_value_bg"
+			position = { x = 320 y = 120 }
+			quadTextureSprite ="GFX_small_muted_menu_button"
+		}
+        instantTextBoxType = {
+			name = "spy_offence_value_text"
+			position = { x = 320 y = 135 }
+			font = "hoi_20b"
+			borderSize = {x = 0 y = 0}
+			text = "SPY_OFFENCE_VALUE"
+            pdx_tooltip = "SPY_OFFENCE_VALUE_TOOLTIP"
+			maxWidth = 94
+			maxHeight = 20
+            format = center
+		}
+        
+        #------------------------------
+        # Spy Defence
+        #------------------------------
+        iconType = {
+			name = "spy_defence_text_bg"
+			position = { x = 100 y = 170 }
+			quadTextureSprite ="GFX_short_blue_menu_button"
+		}
+        instantTextBoxType = {
+			name = "spy_defence_text"
+			position = { x = 100 y = 185 }
+			font = "hoi_20b"
+			borderSize = {x = 0 y = 0}
+			text = "SPY_DEFENCE_TEXT"
+            pdx_tooltip = "SPY_DEFENCE_TOOLTIP"
+			maxWidth = 180
+			maxHeight = 20
+            format = center
+		}
+        buttonType = {
+			name = "spy_defence_value_bg"
+			position = { x = 320 y = 170 }
+			quadTextureSprite ="GFX_small_muted_menu_button"
+		}
+        instantTextBoxType = {
+			name = "spy_defence_value_text"
+			position = { x = 320 y = 185 }
+			font = "hoi_20b"
+			borderSize = {x = 0 y = 0}
+			text = "SPY_DEFENCE_VALUE"
+            pdx_tooltip = "SPY_DEFENCE_VALUE_TOOLTIP"
+			maxWidth = 94
+			maxHeight = 20
+            format = center
+		}
+        
+        #------------------------------
+        # Spy Network
+        #------------------------------
+        iconType = {
+			name = "spy_network_text_bg"
+			position = { x = 100 y = 240 }
+			quadTextureSprite ="GFX_long_blue_menu_button"
+		}
+        instantTextBoxType = {
+			name = "spy_network_text"
+			position = { x = 100 y = 255 }
+			font = "hoi_20b"
+			borderSize = {x = 0 y = 0}
+			text = "SPY_NETWORK_TEXT"
+            pdx_tooltip = "SPY_NETWORK_TOOLTIP"
+			maxWidth = 354
+			maxHeight = 20
+            format = center
+		}
+        iconType = {
+			name = "spy_network_value_bg"
+			position = { x = 100 y = 290 }
+			quadTextureSprite ="GFX_long_muted_menu_button"
+		}
+        instantTextBoxType = {
+			name = "spy_network_value_text"
+			position = { x = 100 y = 305 }
+			font = "hoi_20b"
+			borderSize = {x = 0 y = 0}
+			text = "SPY_NETWORK_VALUE"
+            pdx_tooltip = "SPY_NETWORK_VALUE_TOOLTIP"
+			maxWidth = 354
+			maxHeight = 20
+            format = center
+		}
+        
+        #------------------------------
+        # Action Progress
+        #------------------------------
+        iconType = {
+			name = "action_progress_text_bg"
+			position = { x = 100 y = 360 }
+			quadTextureSprite ="GFX_long_blue_menu_button"
+		}
+        instantTextBoxType = {
+			name = "action_progress_text"
+			position = { x = 100 y = 375 }
+			font = "hoi_20b"
+			borderSize = {x = 0 y = 0}
+			text = "ACTION_PROGRESS_TEXT"
+            pdx_tooltip = "ACTION_PROGRESS_TOOLTIP"
+			maxWidth = 354
+			maxHeight = 20
+            format = center
+		}
+        iconType = {
+			name = "action_progress_value_bg"
+			position = { x = 100 y = 410 }
+			quadTextureSprite ="GFX_long_muted_menu_button"
+		}
+        instantTextBoxType = {
+			name = "action_progress_value_text"
+			position = { x = 100 y = 425 }
+			font = "hoi_20b"
+			borderSize = {x = 0 y = 0}
+			text = "ACTION_PROGRESS_VALUE"
+            pdx_tooltip = "ACTION_PROGRESS_VALUE_TOOLTIP"
+			maxWidth = 354
+			maxHeight = 20
+            format = center
+		}
+        
+        iconType = {
+			name = "cancel_action"
+			position = { x = 100 y = 460 }
+			quadTextureSprite ="GFX_long_muted_menu_button"
+		}
+        instantTextBoxType = {
+			name = "cancel_action_text"
+			position = { x = 100 y = 475 }
+			font = "hoi_20b"
+			borderSize = {x = 0 y = 0}
+			text = "CANCEL_ACTION"
+            pdx_tooltip = "CANCEL_ACTION_TOOLTIP"
+			maxWidth = 354
+			maxHeight = 20
+            format = center
+		}
+        
+        #------------------------------
+        # Spy Actions
+        #------------------------------
+        buttonType = {
+			name = "build_network"
+			position = { x = 480 y = 120 }
+			quadTextureSprite ="GFX_long_red_menu_button"
+		}
+        instantTextBoxType = {
+			name = "build_network_text"
+			position = { x = 480 y = 135 }
+			font = "hoi_20b"
+			borderSize = {x = 0 y = 0}
+			text = "BUILD_NETWORK_TEXT"
+            pdx_tooltip = "BUILD_NETWORK_TOOLTIP"
+			maxWidth = 354
+			maxHeight = 20
+            format = center
+		}
+        
+        buttonType = {
+			name = "halt_network"
+			position = { x = 480 y = 120 }
+			quadTextureSprite ="GFX_long_red_menu_button"
+		}
+        instantTextBoxType = {
+			name = "halt_network_text"
+			position = { x = 480 y = 135 }
+			font = "hoi_20b"
+			borderSize = {x = 0 y = 0}
+			text = "HALT_NETWORK_TEXT"
+            pdx_tooltip = "HALT_NETWORK_TOOLTIP"
+			maxWidth = 354
+			maxHeight = 20
+            format = center
+		}
+        
+        buttonType = {
+			name = "destabilize_nation"
+			position = { x = 480 y = 170 }
+			quadTextureSprite ="GFX_long_red_menu_button"
+		}
+        instantTextBoxType = {
+			name = "destabilize_nation_text"
+			position = { x = 480 y = 185 }
+			font = "hoi_20b"
+			borderSize = {x = 0 y = 0}
+			text = "DESTABILIZE_NATION"
+            pdx_tooltip = "DESTABILIZE_NATION_TOOLTIP"
+			maxWidth = 354
+			maxHeight = 20
+            format = center
+		}
+        
+        buttonType = {
+			name = "sabotage_operations"
+			position = { x = 480 y = 220 }
+			quadTextureSprite ="GFX_long_red_menu_button"
+		}
+        instantTextBoxType = {
+			name = "sabotage_operations_text"
+			position = { x = 480 y = 235 }
+			font = "hoi_20b"
+			borderSize = {x = 0 y = 0}
+			text = "SABOTAGE_OPERATIONS"
+            pdx_tooltip = "SABOTAGE_OPERATIONS_TOOLTIP"
+			maxWidth = 354
+			maxHeight = 20
+            format = center
+		}
+        
+        buttonType = {
+			name = "aquire_army_intel"
+			position = { x = 480 y = 270 }
+			quadTextureSprite ="GFX_long_red_menu_button"
+		}
+        instantTextBoxType = {
+			name = "aquire_army_intel_text"
+			position = { x = 480 y = 285 }
+			font = "hoi_20b"
+			borderSize = {x = 0 y = 0}
+			text = "AQUIRE_ARMY_INTEL"
+            pdx_tooltip = "AQUIRE_ARMY_INTEL_TOOLTIP"
+			maxWidth = 354
+			maxHeight = 20
+            format = center
+		}
+        
+        buttonType = {
+			name = "aquire_aviation_intel"
+			position = { x = 480 y = 320 }
+			quadTextureSprite ="GFX_long_red_menu_button"
+		}
+        instantTextBoxType = {
+			name = "aquire_aviation_intel_text"
+			position = { x = 480 y = 335 }
+			font = "hoi_20b"
+			borderSize = {x = 0 y = 0}
+			text = "AQUIRE_AVIATION_INTEL"
+            pdx_tooltip = "AQUIRE_AVIATION_INTEL_TOOLTIP"
+			maxWidth = 354
+			maxHeight = 20
+            format = center
+		}
+        
+        buttonType = {
+			name = "aquire_naval_intel"
+			position = { x = 480 y = 370 }
+			quadTextureSprite ="GFX_long_red_menu_button"
+		}
+        instantTextBoxType = {
+			name = "aquire_naval_intel_text"
+			position = { x = 480 y = 385 }
+			font = "hoi_20b"
+			borderSize = {x = 0 y = 0}
+			text = "AQUIRE_NAVAL_INTEL"
+            pdx_tooltip = "AQUIRE_NAVAL_INTEL_TOOLTIP"
+			maxWidth = 354
+			maxHeight = 20
+            format = center
+		}
+        
+        buttonType = {
+			name = "sabotage_industry"
+			position = { x = 480 y = 420 }
+			quadTextureSprite ="GFX_long_red_menu_button"
+		}
+        instantTextBoxType = {
+			name = "sabotage_industry_text"
+			position = { x = 480 y = 435 }
+			font = "hoi_20b"
+			borderSize = {x = 0 y = 0}
+			text = "SABOTAGE_INDUSTRY"
+            pdx_tooltip = "SABOTAGE_INDUSTRY_TOOLTIP"
+			maxWidth = 354
+			maxHeight = 20
+            format = center
+		}
+        
+        buttonType = {
+			name = "assassinate_mil_leader"
+			position = { x = 480 y = 470 }
+			quadTextureSprite ="GFX_long_red_menu_button"
+		}
+        instantTextBoxType = {
+			name = "assassinate_mil_leader_text"
+			position = { x = 480 y = 485 }
+			font = "hoi_20b"
+			borderSize = {x = 0 y = 0}
+			text = "ASSASSINATE_MIL_LEADER"
+            pdx_tooltip = "ASSASSINATE_MIL_LEADER_TOOLTIP"
+			maxWidth = 354
+			maxHeight = 20
+            format = center
+		}
+    } 
+}       

@@ -1,0 +1,77 @@
+state = {
+	id = 1031
+	name = "KESSEL_CROSSING"
+	manpower = 555
+	state_category = rural
+
+	resources = {
+		oil = 1
+		flying_beast = 6
+		wood = 14
+		steel = 4
+		food = 10
+	}
+
+	history = {
+        owner = SIF
+		add_core_of = SIF
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 0
+			industrial_complex = 3
+			dockyard = 1
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			6930 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 9
+			}
+			6935 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 7
+			}
+			6941 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 1
+			}
+			6943 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 1
+			}
+			6948 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 7
+			}
+			6985 = {
+				bunker = 0
+			}
+			6991 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        6930 6935 6941 6943 6948 6985 6991 
+    }
+}

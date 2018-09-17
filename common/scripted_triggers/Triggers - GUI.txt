@@ -1,0 +1,44 @@
+#-------------------------------------------------------------------------------
+# GUI
+#-------------------------------------------------------------------------------
+# These are triggers used in the scripted guis.
+
+can_show_religion_menu = {
+    OR = {
+        check_variable = { show_religion_menu > 0.0 }
+        AND = {
+            is_ai = yes
+            check_variable = { global.ai_hide_menus = 0 }
+        }
+    }
+}
+
+can_show_espionage_menu = {
+    OR = {
+        check_variable = { show_espionage_menu > 0.0 }
+        AND = {
+            is_ai = yes
+            check_variable = { global.ai_hide_menus = 0 }
+        }
+    }
+}
+
+can_show_state_menu = {
+    OR = {
+        check_variable = { show_state_menu > 0.0 }
+        AND = {
+            is_ai = yes
+            check_variable = { global.ai_hide_menus = 0 }
+        }
+    }
+}
+
+can_show_sidebar_menu = {
+    OR = {
+        check_variable = { show_sidebar = 1 }
+        AND = {
+            is_ai = yes
+            check_variable = { global.ai_hide_menus = 0 }
+        }
+    }
+}

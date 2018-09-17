@@ -1,0 +1,70 @@
+state = {
+	id = 204
+	name = "GAHRRONS_FARMSTEAD"
+	manpower = 629
+	state_category = rural
+
+	resources = {
+		ground_beast = 2
+		flying_beast = 2
+		wood = 18
+		steel = 1
+		food = 18
+	}
+
+	history = {
+		owner = ANO
+        add_core_of = ANO
+
+        612.1.1 = {
+            set_state_name = GAHRRONS_WITHERING
+        }
+        
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 3
+			industrial_complex = 1
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			2288 = {
+				bunker = 0
+			}
+			2318 = {
+				bunker = 0
+			}
+			2368 = {
+				bunker = 0
+			}
+			2384 = {
+				bunker = 0
+			}
+			2399 = {
+				bunker = 0
+			}
+			2440 = {
+				bunker = 0
+			}
+			2412 = {
+				bunker = 0
+			}
+			2425 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        2288 2318 2368 2384 2399 2440 2412 2425
+    }
+}

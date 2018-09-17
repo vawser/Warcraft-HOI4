@@ -1,0 +1,15 @@
+state = {
+	id = 1051
+	name = "FALDIRS_RIDGE"
+	manpower = 4
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = SMG
+	}
+    
+	provinces = {
+        1828 1820
+    }
+}

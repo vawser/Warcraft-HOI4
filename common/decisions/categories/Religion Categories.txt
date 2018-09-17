@@ -1,0 +1,208 @@
+# Religions
+the_holy_light_actions = {
+	icon = the_holy_light
+
+	visible = {
+        has_holy_light = yes
+	}
+}
+
+elune_actions = {
+	icon = elune
+
+	visible = {
+        has_elune = yes
+	}
+}
+
+hakkar_actions = {
+	icon = hakkar
+
+	visible = {
+        has_hakkar = yes
+	}
+}
+
+voodoo_actions = {
+	icon = voodoo
+
+	visible = {
+        has_voodoo = yes
+	}
+}
+
+shadow_actions = {
+	icon = shadow
+
+	visible = {
+        has_shadow = yes
+	}
+}
+
+nature_actions = {
+	icon = nature
+
+	visible = {
+        has_nature = yes
+	}
+}
+
+deep_mother_actions = {
+	icon = deep_mother
+
+	visible = {
+        has_deep_mother = yes
+	}
+}
+
+arcane_actions = {
+	icon = arcane
+
+	visible = {
+        has_arcane = yes
+	}
+}
+
+druidism_actions = {
+	icon = druidism
+
+	visible = {
+        has_druidism = yes
+	}
+}
+
+old_gods_actions = {
+	icon = old_gods
+
+	visible = {
+        has_old_gods = yes
+	}
+}
+
+fel_actions = {
+	icon = fel
+
+	visible = {
+        has_fel = yes
+	}
+}
+
+necromancy_actions = {
+	icon = necromancy
+
+	visible = {
+        has_necromancy = yes
+	}
+}
+
+shamanism_actions = {
+	icon = shamanism
+
+	visible = {
+        has_shamanism = yes
+	}
+}
+
+celestials_actions = {
+	icon = celestials
+
+	visible = {
+        has_celestials = yes
+	}
+}
+
+titan_actions = {
+	icon = titan
+
+	visible = {
+        has_titan = yes
+	}
+}
+
+fire_actions = {
+	icon = fire
+
+	visible = {
+        has_fire = yes
+	}
+}
+
+earth_actions = {
+	icon = earth
+
+	visible = {
+        has_earth = yes
+	}
+}
+
+wind_actions = {
+	icon = wind
+
+	visible = {
+        has_wind = yes
+	}
+}
+
+water_actions = {
+	icon = water
+
+	visible = {
+        has_water = yes
+	}
+}
+
+geomancy_actions = {
+	icon = geomancy
+
+	visible = {
+        has_geomancy = yes
+	}
+}
+
+light_of_the_naaru_actions = {
+	icon = light_of_the_naaru
+
+	visible = {
+        has_light_of_the_naaru = yes
+	}
+}
+
+dragon_aspects_actions = {
+	icon = dragon_aspects
+
+	visible = {
+        has_dragon_aspects = yes
+	}
+}
+
+technomancy_actions = {
+	icon = technomancy
+
+	visible = {
+        has_technomancy = yes
+	}
+}
+
+capitalism_actions = {
+	icon = capitalism
+
+	visible = {
+        has_capitalism = yes
+	}
+}
+
+soul_actions = {
+	icon = soul
+
+	visible = {
+        has_soul = yes
+	}
+}
+
+runic_actions = {
+	icon = runic
+
+	visible = {
+        has_runic = yes
+	}
+}

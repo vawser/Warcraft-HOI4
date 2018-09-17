@@ -1,0 +1,63 @@
+state = {
+	id = 837
+	name = "FAR_WATCH_POST"
+	manpower = 4020
+	state_category = village
+
+	resources = {
+		oil = 3
+		ground_beast = 2
+		flying_beast = 9
+		wood = 3
+		steel = 9
+		food = 21
+	}
+
+	history = {
+        owner = WIR
+		add_core_of = WIR
+        
+        612.1.1 = {
+            owner = RAZ
+            add_core_of = RAZ
+        }
+        
+		buildings = {
+			infrastructure = 2
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 3
+			industrial_complex = 3
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			4904 = {
+				bunker = 0
+			}
+			4980 = {
+				bunker = 0
+			}
+			5038 = {
+				bunker = 0
+			}
+			5075 = {
+				bunker = 0
+			}
+			5097 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        4904 4980 5038 5075 5097 
+    }
+}

@@ -1,0 +1,15 @@
+state = {
+	id = 75
+	name = "EAST_STRANGLETHORN_MT"
+	manpower = 14
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = GUR
+	}
+
+	provinces = {
+        1818 1907 2596 2736 2747 2760 
+    }
+}

@@ -1,0 +1,15 @@
+state = {
+	id = 102
+	name = "COLDRIDGE_FOLD"
+	manpower = 43
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = FSM
+	}
+
+	provinces = {
+        1804 1813 1823 1829 1839 1848 
+    }
+}

@@ -1,0 +1,68 @@
+state = {
+	id = 717
+	name = "WANJIN_HOLD"
+	manpower = 2083
+	state_category = village
+
+	resources = {
+		oil = 16
+		ground_beast = 9
+		flying_beast = 7
+		wood = 2
+		steel = 8
+		food = 2
+	}
+
+	history = {
+		owner = SMW
+		add_core_of = SMW
+
+		buildings = {
+			infrastructure = 2
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 1
+			industrial_complex = 1
+			dockyard = 2
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			3098 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 8
+			}
+			3103 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 1
+			}
+			3107 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 8
+			}
+			3471 = {
+				bunker = 0
+			}
+			3520 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        3098 3103 3107 3471 3520
+    }
+}

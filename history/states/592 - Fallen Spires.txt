@@ -1,0 +1,69 @@
+state = {
+	id = 592
+	name = "FALLEN_SPIRES"
+	manpower = 755
+	state_category = rural
+
+	resources = {
+		oil = 2
+		ground_beast = 1
+		wood = 2
+		steel = 7
+		food = 25
+	}
+
+	history = {
+		owner = AZJ
+		add_core_of = AZJ
+
+        # The Third War
+        612.1.1 = {
+            owner = SCO
+            add_core_of = SCO
+        }
+        
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 3
+			industrial_complex = 0
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			5466 = {
+				bunker = 0
+			}
+			5488 = {
+				bunker = 0
+			}
+			6005 = {
+				bunker = 0
+			}
+			6051 = {
+				bunker = 0
+			}
+			6094 = {
+				bunker = 0
+			}
+			6111 = {
+				bunker = 0
+			}
+			6127 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        5466 5488 6005 6051 6094 6111 6127 
+    }
+}

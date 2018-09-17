@@ -1,0 +1,6406 @@
+scripted_gui = {
+    @AI_RELIGION_TEST_INTERVAL = 720 # 720
+    @AI_RELIGION_TEST_VARIANCE = 0
+    @FAITH_POWER_THRESHOLD = 100 # 100
+     
+    #---------------------------------------------
+    # The Holy Light
+    #---------------------------------------------
+    the_holy_light_menu = {
+		context_type = player_context
+		window_name = "religion_menu"
+        
+        visible = {
+            has_holy_light = yes
+            can_show_religion_menu = yes
+        }
+        
+		effects = {
+            action_button_1_click = {
+                 check_faith_action_1_cost = yes
+                 holy_light_action_1 = yes
+            }
+            action_button_2_click = {
+                 check_faith_action_2_cost = yes
+                 holy_light_action_2 = yes
+            }
+            action_button_3_click = {
+                 check_faith_action_3_cost = yes
+                 holy_light_action_3 = yes
+            }
+            action_button_4_click = {
+                 check_faith_action_4_cost = yes
+                 holy_light_action_4 = yes
+            } 
+            action_button_5_click = {
+                 check_faith_action_5_cost = yes
+                 holy_light_action_5 = yes
+            }
+            action_button_6_click = {
+                 check_faith_action_6_cost = yes
+                 holy_light_action_6 = yes
+            }
+		}
+        triggers = {
+            action_button_1_click_enabled = {
+                can_afford_faith_action_1 = yes
+                holy_light_action_trigger_1 = yes
+            }
+            action_button_2_click_enabled = {
+                can_afford_faith_action_2 = yes
+                holy_light_action_trigger_2 = yes
+            }
+            action_button_3_click_enabled = {
+                can_afford_faith_action_3 = yes
+                holy_light_action_trigger_3 = yes
+            }
+            action_button_4_click_enabled = {
+                can_afford_faith_action_4 = yes
+                holy_light_action_trigger_4 = yes
+            }
+            action_button_5_click_enabled = {
+                can_afford_faith_action_5 = yes
+                holy_light_action_trigger_5 = yes
+            }
+            action_button_6_click_enabled = {
+                can_afford_faith_action_6 = yes
+                holy_light_action_trigger_6 = yes
+            }
+        }
+        
+        properties = {
+            religion_icon_64 = {
+                image = "GFX_icon_religion"
+                frame = root.country_religion
+            }
+        }
+        
+        ai_enabled = { always = yes }
+        
+        ai_test_interval = @AI_RELIGION_TEST_INTERVAL
+        ai_test_variance = @AI_RELIGION_TEST_VARIANCE
+        
+        ai_check = {
+            has_holy_light = yes
+            check_variable = { faith_power > @FAITH_POWER_THRESHOLD }
+        }
+        
+        ai_max_weight_taken_per_test = 6
+        
+        ai_weights = {
+            action_button_1_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        factor = 0
+                        
+                        has_stability > 0.9
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        has_stability < 0.5
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        has_stability < 0.25
+                    }
+				}
+            }
+            action_button_2_click = {
+                ai_will_do = {
+					factor = 1
+
+                    modifier = {
+                        factor = 0
+                        
+                        light > 0.9
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        light < 0.5
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        light < 0.4
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        light < 0.3
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        light < 0.2
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        light < 0.1
+                    }
+				}
+            }
+            action_button_3_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        factor = 0
+                        
+                        NOT = {
+                            any_unit_leader = {
+                                is_leading_army = yes
+                            }
+                        }
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        has_war = yes
+                    }
+				}
+            }
+            action_button_4_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        factor = 0
+                        
+                        stockpile_ratio = {
+                            archetype = champion_equipment
+                            ratio > 1
+                        }
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        stockpile_ratio = {
+                            archetype = champion_equipment
+                            ratio < 0.9
+                        }
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        stockpile_ratio = {
+                            archetype = champion_equipment
+                            ratio < 0.6
+                        }
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        stockpile_ratio = {
+                            archetype = champion_equipment
+                            ratio < 0.3
+                        }
+                    }
+				}
+            }
+            action_button_5_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        factor = 0
+                        
+                        has_tech_bonus = {
+                            category = champion_tech
+                        }
+                    }
+				}
+            }
+            action_button_6_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        add = 2
+                        
+                        any_claim = no
+                    }
+                    
+                    modifier = {
+                        factor = 0
+                        
+                        any_claim = yes
+                    }
+				}
+            }
+        }
+	}
+    
+    #---------------------------------------------
+    # Elune
+    #---------------------------------------------
+    elune_menu = {
+		context_type = player_context
+		window_name = "religion_menu"
+        
+        visible = {
+            has_elune = yes
+            can_show_religion_menu = yes
+        }
+        
+		effects = {
+            action_button_1_click = {
+                 check_faith_action_1_cost = yes
+                 elune_action_1 = yes
+            }
+            action_button_2_click = {
+                 check_faith_action_2_cost = yes
+                 elune_action_2 = yes
+            }
+            action_button_3_click = {
+                 check_faith_action_3_cost = yes
+                 elune_action_3 = yes
+            }
+            action_button_4_click = {
+                 check_faith_action_4_cost = yes
+                 elune_action_4 = yes
+            } 
+            action_button_5_click = {
+                 check_faith_action_5_cost = yes
+                 elune_action_5 = yes
+            }
+            action_button_6_click = {
+                 check_faith_action_6_cost = yes
+                 elune_action_6 = yes
+            }
+		}
+        triggers = {
+            action_button_1_click_enabled = {
+                can_afford_faith_action_1 = yes
+                elune_action_trigger_1 = yes
+            }
+            action_button_2_click_enabled = {
+                can_afford_faith_action_2 = yes
+                elune_action_trigger_2 = yes
+            }
+            action_button_3_click_enabled = {
+                can_afford_faith_action_3 = yes
+                elune_action_trigger_3 = yes
+            }
+            action_button_4_click_enabled = {
+                can_afford_faith_action_4 = yes
+                elune_action_trigger_4 = yes
+            }
+            action_button_5_click_enabled = {
+                can_afford_faith_action_5 = yes
+                elune_action_trigger_5 = yes
+            }
+            action_button_6_click_enabled = {
+                can_afford_faith_action_6 = yes
+                elune_action_trigger_6 = yes
+            }
+        }
+        
+        properties = {
+            religion_icon_64 = {
+                image = "GFX_icon_religion"
+                frame = root.country_religion
+            }
+        }
+        
+        ai_enabled = { always = yes }
+        
+        ai_test_interval = @AI_RELIGION_TEST_INTERVAL
+        ai_test_variance = @AI_RELIGION_TEST_VARIANCE
+        
+        ai_check = {
+            has_elune = yes
+            check_variable = { faith_power > @FAITH_POWER_THRESHOLD }
+        }
+        
+        ai_weights = {
+            action_button_1_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        factor = 0
+                        
+                        has_stability > 0.9
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        has_stability < 0.5
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        has_stability < 0.25
+                    }
+				}
+            }
+            action_button_2_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        factor = 0
+                        
+                        stockpile_ratio = {
+                            archetype = champion_equipment
+                            ratio > 1
+                        }
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        stockpile_ratio = {
+                            archetype = champion_equipment
+                            ratio < 0.9
+                        }
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        stockpile_ratio = {
+                            archetype = champion_equipment
+                            ratio < 0.6
+                        }
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        stockpile_ratio = {
+                            archetype = champion_equipment
+                            ratio < 0.3
+                        }
+                    }
+                }
+            }
+            action_button_3_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        factor = 0
+                        
+                        stockpile_ratio = {
+                            archetype = archer_equipment
+                            ratio > 1
+                        }
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        stockpile_ratio = {
+                            archetype = archer_equipment
+                            ratio < 0.9
+                        }
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        stockpile_ratio = {
+                            archetype = archer_equipment
+                            ratio < 0.6
+                        }
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        stockpile_ratio = {
+                            archetype = archer_equipment
+                            ratio < 0.3
+                        }
+                    }
+				}
+            }
+            action_button_4_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        factor = 0
+                        
+                        num_occupied_states < 1
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        num_occupied_states > 1
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        num_occupied_states > 3
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        num_occupied_states > 5
+                    }
+				}
+            }
+            action_button_5_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        add = 2
+                        
+                        has_low_manpower_factory_ratio = yes
+                    }
+				}
+            }
+            action_button_6_click = {
+                ai_will_do = {
+					factor = 2
+				}
+            }
+        }
+	}
+    
+    #---------------------------------------------
+    # Hakkar
+    #---------------------------------------------
+    hakkar_menu = {
+		context_type = player_context
+		window_name = "religion_menu"
+        
+        visible = {
+            has_hakkar = yes
+            can_show_religion_menu = yes
+        }
+        
+		effects = {
+            action_button_1_click = {
+                 check_faith_action_1_cost = yes
+                 hakkari_action_1 = yes
+            }
+            action_button_2_click = {
+                 check_faith_action_2_cost = yes
+                 hakkari_action_2 = yes
+            }
+            action_button_3_click = {
+                 check_faith_action_3_cost = yes
+                 hakkari_action_3 = yes
+            }
+            action_button_4_click = {
+                 check_faith_action_4_cost = yes
+                 hakkari_action_4 = yes
+            } 
+            action_button_5_click = {
+                 check_faith_action_5_cost = yes
+                 hakkari_action_5 = yes
+            }
+            action_button_6_click = {
+                 check_faith_action_6_cost = yes
+                 hakkari_action_6 = yes
+            }
+		}
+        triggers = {
+            action_button_1_click_enabled = {
+                can_afford_faith_action_1 = yes
+                hakkari_action_trigger_1 = yes
+            }
+            action_button_2_click_enabled = {
+                can_afford_faith_action_2 = yes
+                hakkari_action_trigger_2 = yes
+            }
+            action_button_3_click_enabled = {
+                can_afford_faith_action_3 = yes
+                hakkari_action_trigger_3 = yes
+            }
+            action_button_4_click_enabled = {
+                can_afford_faith_action_4 = yes
+                hakkari_action_trigger_4 = yes
+            }
+            action_button_5_click_enabled = {
+                can_afford_faith_action_5 = yes
+                hakkari_action_trigger_5 = yes
+            }
+            action_button_6_click_enabled = {
+                can_afford_faith_action_6 = yes
+                hakkari_action_trigger_6 = yes
+            }
+        }
+        
+        properties = {
+            religion_icon_64 = {
+                image = "GFX_icon_religion"
+                frame = root.country_religion
+            }
+        }
+        
+        ai_enabled = { always = yes }
+        
+        ai_test_interval = @AI_RELIGION_TEST_INTERVAL
+        ai_test_variance = @AI_RELIGION_TEST_VARIANCE
+        
+        ai_check = {
+            has_hakkar = yes
+            check_variable = { faith_power > @FAITH_POWER_THRESHOLD }
+        }
+        
+        ai_weights = {
+            action_button_1_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        factor = 0
+                        
+                        has_war = no
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        has_offensive_war = yes
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        surrender_progress < 0.1
+                    }
+				}
+            }
+            action_button_2_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        factor = 0
+                        
+                        has_war = no
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        has_offensive_war = yes
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        surrender_progress < 0.1
+                    }
+                }
+            }
+            action_button_3_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        factor = 0
+                        
+                        has_war = no
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        has_offensive_war = yes
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        surrender_progress < 0.1
+                    }
+				}
+            }
+            action_button_4_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        add = 1
+                        
+                        any_unit_leader = {
+                            attack_skill_level < 2
+                        }
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        any_unit_leader = {
+                            attack_skill_level < 4
+                        }
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        any_unit_leader = {
+                            attack_skill_level < 6
+                        }
+                    }
+				}
+            }
+            action_button_5_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        factor = 0
+                        
+                        has_war = no
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        has_offensive_war = yes
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        surrender_progress < 0.1
+                    }
+				}
+            }
+            action_button_6_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        factor = 0
+                        
+                        has_war_support > 0.9
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        has_war_support < 0.5
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        has_war_support < 0.25
+                    }
+				}
+            }
+        }
+	}
+    
+    #---------------------------------------------
+    # Voodoo
+    #---------------------------------------------
+    voodoo_menu = {
+		context_type = player_context
+		window_name = "religion_menu"
+        
+        visible = {
+            has_voodoo = yes
+            can_show_religion_menu = yes
+        }
+        
+		effects = {
+            action_button_1_click = {
+                 check_faith_action_1_cost = yes
+                 voodoo_action_1 = yes
+            }
+            action_button_2_click = {
+                 check_faith_action_2_cost = yes
+                 voodoo_action_2 = yes
+            }
+            action_button_3_click = {
+                 check_faith_action_3_cost = yes
+                 voodoo_action_3 = yes
+            }
+            action_button_4_click = {
+                 check_faith_action_4_cost = yes
+                 voodoo_action_4 = yes
+            } 
+            action_button_5_click = {
+                 check_faith_action_5_cost = yes
+                 voodoo_action_5 = yes
+            }
+            action_button_6_click = {
+                 check_faith_action_6_cost = yes
+                 voodoo_action_6 = yes
+            }
+		}
+        triggers = {
+            action_button_1_click_enabled = {
+                can_afford_faith_action_1 = yes
+                voodoo_action_trigger_1 = yes
+            }
+            action_button_2_click_enabled = {
+                can_afford_faith_action_2 = yes
+                voodoo_action_trigger_2 = yes
+            }
+            action_button_3_click_enabled = {
+                can_afford_faith_action_3 = yes
+                voodoo_action_trigger_3 = yes
+            }
+            action_button_4_click_enabled = {
+                can_afford_faith_action_4 = yes
+                voodoo_action_trigger_4 = yes
+            }
+            action_button_5_click_enabled = {
+                can_afford_faith_action_5 = yes
+                voodoo_action_trigger_5 = yes
+            }
+            action_button_6_click_enabled = {
+                can_afford_faith_action_6 = yes
+                voodoo_action_trigger_6 = yes
+            }
+        }
+        
+        properties = {
+            religion_icon_64 = {
+                image = "GFX_icon_religion"
+                frame = root.country_religion
+            }
+        }
+        
+        ai_enabled = { always = yes }
+        
+        ai_test_interval = @AI_RELIGION_TEST_INTERVAL
+        ai_test_variance = @AI_RELIGION_TEST_VARIANCE
+        
+        ai_check = {
+            has_voodoo = yes
+            check_variable = { faith_power > @FAITH_POWER_THRESHOLD }
+        }
+        
+        ai_weights = {
+            action_button_1_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        factor = 0
+                        
+                        NOT = {
+                            any_unit_leader = {
+                                is_leading_army = yes
+                            }
+                        }
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        has_war = yes
+                    }
+				}
+            }
+            action_button_2_click = {
+                ai_will_do = {
+					factor = 5
+                    
+                    modifier = {
+                        factor = 0
+                        
+                        has_war = no
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        has_offensive_war = yes
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        surrender_progress < 0.1
+                    }
+                }
+            }
+            action_button_3_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        factor = 0
+                        
+                        stockpile_ratio = {
+                            archetype = grunt_equipment
+                            ratio < 1.0
+                        }
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        num_divisions < 5
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        num_divisions < 10
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        num_divisions < 15
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        num_divisions < 20
+                    }
+				}
+            }
+            action_button_4_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        add = 2
+                        
+                        has_low_manpower_factory_ratio = yes
+                    }
+				}
+            }
+            action_button_5_click = {
+                ai_will_do = {
+					factor = 5
+                    
+                    modifier = {
+                        add = 1
+                        
+                        any_unit_leader = {
+                            logistics_skill_level < 2
+                        }
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        any_unit_leader = {
+                            logistics_skill_level < 4
+                        }
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        any_unit_leader = {
+                            logistics_skill_level < 6
+                        }
+                    }
+				}
+            }
+            action_button_6_click = {
+                ai_will_do = {
+					factor = 5
+                    
+                    modifier = {
+                        factor = 0
+                        
+                        has_war = no
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        has_offensive_war = yes
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        surrender_progress < 0.1
+                    }
+				}
+            }
+        }
+	}
+    
+    #---------------------------------------------
+    # Shadow
+    #---------------------------------------------
+    shadow_menu = {
+		context_type = player_context
+		window_name = "religion_menu"
+         
+        visible = {
+            has_shadow = yes
+            can_show_religion_menu = yes
+        }
+        
+		effects = {
+            action_button_1_click = {
+                 check_faith_action_1_cost = yes
+                 shadow_action_1 = yes
+            }
+            action_button_2_click = {
+                 check_faith_action_2_cost = yes
+                 shadow_action_2 = yes
+            }
+            action_button_3_click = {
+                 check_faith_action_3_cost = yes
+                 shadow_action_3 = yes
+            }
+            action_button_4_click = {
+                 check_faith_action_4_cost = yes
+                 shadow_action_4 = yes
+            } 
+            action_button_5_click = {
+                 check_faith_action_5_cost = yes
+                 shadow_action_5 = yes
+            }
+            action_button_6_click = {
+                 check_faith_action_6_cost = yes
+                 shadow_action_6 = yes
+            }
+		}
+        triggers = {
+            action_button_1_click_enabled = {
+                can_afford_faith_action_1 = yes
+                shadow_action_trigger_1 = yes
+            }
+            action_button_2_click_enabled = {
+                can_afford_faith_action_2 = yes
+                shadow_action_trigger_2 = yes
+            }
+            action_button_3_click_enabled = {
+                can_afford_faith_action_3 = yes
+                shadow_action_trigger_3 = yes
+            }
+            action_button_4_click_enabled = {
+                can_afford_faith_action_4 = yes
+                shadow_action_trigger_4 = yes
+            }
+            action_button_5_click_enabled = {
+                can_afford_faith_action_5 = yes
+                shadow_action_trigger_5 = yes
+            }
+            action_button_6_click_enabled = {
+                can_afford_faith_action_6 = yes
+                shadow_action_trigger_6 = yes
+            }
+        }
+        
+        properties = {
+            religion_icon_64 = {
+                image = "GFX_icon_religion"
+                frame = root.country_religion
+            }
+        }
+        
+        ai_enabled = { always = yes }
+        
+        ai_test_interval = @AI_RELIGION_TEST_INTERVAL
+        ai_test_variance = @AI_RELIGION_TEST_VARIANCE
+        
+        ai_check = {
+            has_shadow = yes
+            check_variable = { faith_power > @FAITH_POWER_THRESHOLD }
+        }
+        
+        ai_weights = {
+            action_button_1_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        factor = 0
+                        
+                        NOT = {
+                            any_neighbor_country = {
+                                has_stability < 0.5
+                            }
+                        }
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        any_neighbor_country = {
+                            has_stability < 0.5
+                        }
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        any_neighbor_country = {
+                            has_stability < 0.4
+                        }
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        any_neighbor_country = {
+                            has_stability < 0.3
+                        }
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        any_neighbor_country = {
+                            has_stability < 0.2
+                        }
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        any_neighbor_country = {
+                            has_stability < 0.1
+                        }
+                    }
+				}
+            }
+            action_button_2_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        factor = 0
+                        
+                        NOT = {
+                            any_neighbor_country = {
+                                shadow > 0.5
+                            }
+                        }
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        any_neighbor_country = {
+                            shadow > 0.5
+                        }
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        any_neighbor_country = {
+                            shadow > 0.6
+                        }
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        any_neighbor_country = {
+                            shadow > 0.7
+                        }
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        any_neighbor_country = {
+                            shadow > 0.8
+                        }
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        any_neighbor_country = {
+                            shadow > 0.9
+                        }
+                    }
+                }
+            }
+            action_button_3_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        factor = 0
+                        
+                        stockpile_ratio = {
+                            archetype = grunt_equipment
+                            ratio < 1.0
+                        }
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        num_divisions < 5
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        num_divisions < 10
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        num_divisions < 15
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        num_divisions < 20
+                    }
+				}
+            }
+            action_button_4_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        factor = 0
+                        
+                        stockpile_ratio = {
+                            archetype = spellcaster_equipment
+                            ratio > 1
+                        }
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        stockpile_ratio = {
+                            archetype = spellcaster_equipment
+                            ratio < 0.9
+                        }
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        stockpile_ratio = {
+                            archetype = spellcaster_equipment
+                            ratio < 0.6
+                        }
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        stockpile_ratio = {
+                            archetype = spellcaster_equipment
+                            ratio < 0.3
+                        }
+                    }
+				}
+            }
+            action_button_5_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        factor = 0
+                        
+                        has_war = no
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        has_offensive_war = yes
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        surrender_progress < 0.1
+                    }
+				}
+            }
+            action_button_6_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        factor = 0
+                        
+                        has_war = no
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        has_offensive_war = yes
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        surrender_progress < 0.1
+                    }
+				}
+            }
+        }
+	}
+    
+    #---------------------------------------------
+    # Nature
+    #---------------------------------------------
+    nature_menu = {
+		context_type = player_context
+		window_name = "religion_menu"
+        
+        visible = {
+            has_nature = yes
+            can_show_religion_menu = yes
+        }
+        
+		effects = {
+            action_button_1_click = {
+                 check_faith_action_1_cost = yes
+                 nature_action_1 = yes
+            }
+            action_button_2_click = {
+                 check_faith_action_2_cost = yes
+                 nature_action_2 = yes
+            }
+            action_button_3_click = {
+                 check_faith_action_3_cost = yes
+                 nature_action_3 = yes
+            }
+            action_button_4_click = {
+                 check_faith_action_4_cost = yes
+                 nature_action_4 = yes
+            } 
+            action_button_5_click = {
+                 check_faith_action_5_cost = yes
+                 nature_action_5 = yes
+            }
+            action_button_6_click = {
+                 check_faith_action_6_cost = yes
+                 nature_action_6 = yes
+            }
+		}
+        triggers = {
+            action_button_1_click_enabled = {
+                can_afford_faith_action_1 = yes
+                nature_action_trigger_1 = yes
+            }
+            action_button_2_click_enabled = {
+                can_afford_faith_action_2 = yes
+                nature_action_trigger_2 = yes
+            }
+            action_button_3_click_enabled = {
+                can_afford_faith_action_3 = yes
+                nature_action_trigger_3 = yes
+            }
+            action_button_4_click_enabled = {
+                can_afford_faith_action_4 = yes
+                nature_action_trigger_4 = yes
+            }
+            action_button_5_click_enabled = {
+                can_afford_faith_action_5 = yes
+                nature_action_trigger_5 = yes
+            }
+            action_button_6_click_enabled = {
+                can_afford_faith_action_6 = yes
+                nature_action_trigger_6 = yes
+            }
+        }
+        
+        properties = {
+            religion_icon_64 = {
+                image = "GFX_icon_religion"
+                frame = root.country_religion
+            }
+        }
+        
+        ai_enabled = { always = yes }
+        
+        ai_test_interval = @AI_RELIGION_TEST_INTERVAL
+        ai_test_variance = @AI_RELIGION_TEST_VARIANCE
+        
+        ai_check = {
+            has_nature = yes
+            check_variable = { faith_power > @FAITH_POWER_THRESHOLD }
+        }
+        
+        ai_weights = {
+            action_button_1_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        factor = 0
+                        
+                        life < 0.1
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        life > 0.5
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        life > 0.6
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        life > 0.7
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        life > 0.8
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        life > 0.9
+                    }
+				}
+            }
+            action_button_2_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        factor = 0
+                        
+                        stockpile_ratio = {
+                            archetype = spellcaster_equipment
+                            ratio > 1
+                        }
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        stockpile_ratio = {
+                            archetype = spellcaster_equipment
+                            ratio < 0.9
+                        }
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        stockpile_ratio = {
+                            archetype = spellcaster_equipment
+                            ratio < 0.6
+                        }
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        stockpile_ratio = {
+                            archetype = spellcaster_equipment
+                            ratio < 0.3
+                        }
+                    }
+                }
+            }
+            action_button_3_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        factor = 0
+                        
+                        life > 0.9
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        life < 0.5
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        life < 0.4
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        life < 0.3
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        life < 0.2
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        life < 0.1
+                    }
+				}
+            }
+            action_button_4_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        factor = 0
+                        
+                        has_stability > 0.9
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        has_stability < 0.5
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        has_stability < 0.25
+                    }
+				}
+            }
+            action_button_5_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = { 
+                        factor = 0
+                        
+                        num_of_available_civilian_factories > 10
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        num_of_available_civilian_factories < 3
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        num_of_available_civilian_factories < 2
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        num_of_available_civilian_factories < 1
+                    }
+				}
+            }
+            action_button_6_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        factor = 0
+                        
+                        has_war = no
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        has_offensive_war = yes
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        surrender_progress < 0.1
+                    }
+				}
+            }
+        }
+	}
+    
+    #---------------------------------------------
+    # Deep Mother
+    #---------------------------------------------
+    deep_mother_menu = {
+		context_type = player_context
+		window_name = "religion_menu"
+        
+        visible = {
+            has_deep_mother = yes
+            can_show_religion_menu = yes
+        }
+        
+		effects = {
+            action_button_1_click = {
+                 check_faith_action_1_cost = yes
+                 deep_mother_action_1 = yes
+            }
+            action_button_2_click = {
+                 check_faith_action_2_cost = yes
+                 deep_mother_action_2 = yes
+            }
+            action_button_3_click = {
+                 check_faith_action_3_cost = yes
+                 deep_mother_action_3 = yes
+            }
+            action_button_4_click = {
+                 check_faith_action_4_cost = yes
+                 deep_mother_action_4 = yes
+            } 
+            action_button_5_click = {
+                 check_faith_action_5_cost = yes
+                 deep_mother_action_5 = yes
+            }
+            action_button_6_click = {
+                 check_faith_action_6_cost = yes
+                 deep_mother_action_6 = yes
+            }
+		}
+        triggers = {
+            action_button_1_click_enabled = {
+                can_afford_faith_action_1 = yes
+                deep_mother_action_trigger_1 = yes
+            }
+            action_button_2_click_enabled = {
+                can_afford_faith_action_2 = yes
+                deep_mother_action_trigger_2 = yes
+            }
+            action_button_3_click_enabled = {
+                can_afford_faith_action_3 = yes
+                deep_mother_action_trigger_3 = yes
+            }
+            action_button_4_click_enabled = {
+                can_afford_faith_action_4 = yes
+                deep_mother_action_trigger_4 = yes
+            }
+            action_button_5_click_enabled = {
+                can_afford_faith_action_5 = yes
+                deep_mother_action_trigger_5 = yes
+            }
+            action_button_6_click_enabled = {
+                can_afford_faith_action_6 = yes
+                deep_mother_action_trigger_6 = yes
+            }
+        }
+        
+        properties = {
+            religion_icon_64 = {
+                image = "GFX_icon_religion"
+                frame = root.country_religion
+            }
+        }
+        
+        ai_enabled = { always = yes }
+        
+        ai_test_interval = @AI_RELIGION_TEST_INTERVAL
+        ai_test_variance = @AI_RELIGION_TEST_VARIANCE
+        
+        ai_check = {
+            has_deep_mother = yes
+            check_variable = { faith_power > @FAITH_POWER_THRESHOLD }
+        }
+        
+        ai_weights = {
+            action_button_1_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        factor = 0
+                        
+                        stockpile_ratio = {
+                            archetype = grunt_equipment
+                            ratio > 1
+                        }
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        stockpile_ratio = {
+                            archetype = grunt_equipment
+                            ratio < 0.9
+                        }
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        stockpile_ratio = {
+                            archetype = grunt_equipment
+                            ratio < 0.6
+                        }
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        stockpile_ratio = {
+                            archetype = grunt_equipment
+                            ratio < 0.3
+                        }
+                    }
+				}
+            }
+            action_button_2_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = { 
+                        factor = 0
+                        
+                        num_of_available_military_factories > 10
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        num_of_available_military_factories < 3
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        num_of_available_military_factories < 2
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        num_of_available_military_factories < 1
+                    }
+                }
+            }
+            action_button_3_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        factor = 0
+                        
+                        has_war = no
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        has_offensive_war = yes
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        surrender_progress < 0.1
+                    }
+				}
+            }
+            action_button_4_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        add = 2
+                        
+                        any_claim = no
+                    }
+                    
+                    modifier = {
+                        factor = 0
+                        
+                        any_claim = yes
+                    }
+				}
+            }
+            action_button_5_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        add = 2
+                        
+                        has_low_manpower_factory_ratio = yes
+                    }
+				}
+            }
+            action_button_6_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        factor = 0
+                        
+                        has_war = no
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        has_offensive_war = yes
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        surrender_progress < 0.1
+                    }
+				}
+            }
+        }
+	}
+    
+    #---------------------------------------------
+    # Arcane
+    #---------------------------------------------
+    arcane_menu = {
+		context_type = player_context
+		window_name = "religion_menu"
+        
+        visible = {
+            has_arcane = yes
+            can_show_religion_menu = yes
+        }
+        
+		effects = {
+            action_button_1_click = {
+                 check_faith_action_1_cost = yes
+                 arcanum_action_1 = yes
+            }
+            action_button_2_click = {
+                 check_faith_action_2_cost = yes
+                 arcanum_action_2 = yes
+            }
+            action_button_3_click = {
+                 check_faith_action_3_cost = yes
+                 arcanum_action_3 = yes
+            }
+            action_button_4_click = {
+                 check_faith_action_4_cost = yes
+                 arcanum_action_4 = yes
+            } 
+            action_button_5_click = {
+                 check_faith_action_5_cost = yes
+                 arcanum_action_5 = yes
+            }
+            action_button_6_click = {
+                 check_faith_action_6_cost = yes
+                 arcanum_action_6 = yes
+            }
+		}
+        triggers = {
+            action_button_1_click_enabled = {
+                can_afford_faith_action_1 = yes
+                arcanum_action_trigger_1 = yes
+            }
+            action_button_2_click_enabled = {
+                can_afford_faith_action_2 = yes
+                arcanum_action_trigger_2 = yes
+            }
+            action_button_3_click_enabled = {
+                can_afford_faith_action_3 = yes
+                arcanum_action_trigger_3 = yes
+            }
+            action_button_4_click_enabled = {
+                can_afford_faith_action_4 = yes
+                arcanum_action_trigger_4 = yes
+            }
+            action_button_5_click_enabled = {
+                can_afford_faith_action_5 = yes
+                arcanum_action_trigger_5 = yes
+            }
+            action_button_6_click_enabled = {
+                can_afford_faith_action_6 = yes
+                arcanum_action_trigger_6 = yes
+            }
+        }
+        
+        properties = {
+            religion_icon_64 = {
+                image = "GFX_icon_religion"
+                frame = root.country_religion
+            }
+        }
+        
+        ai_enabled = { always = yes }
+        
+        ai_test_interval = @AI_RELIGION_TEST_INTERVAL
+        ai_test_variance = @AI_RELIGION_TEST_VARIANCE
+        
+        ai_check = {
+            has_arcane = yes
+            check_variable = { faith_power > @FAITH_POWER_THRESHOLD }
+        }
+        
+        ai_weights = {
+            action_button_1_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        factor = 0
+                        
+                        has_war = no
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        has_offensive_war = yes
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        surrender_progress < 0.1
+                    }
+				}
+            }
+            action_button_2_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        factor = 0
+                        
+                        life < 0.1
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        life > 0.5
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        life > 0.6
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        life > 0.7
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        life > 0.8
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        life > 0.9
+                    }
+                }
+            }
+            action_button_3_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        factor = 0
+                        
+                        stockpile_ratio = {
+                            archetype = spellcaster_equipment
+                            ratio > 1
+                        }
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        stockpile_ratio = {
+                            archetype = spellcaster_equipment
+                            ratio < 0.9
+                        }
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        stockpile_ratio = {
+                            archetype = spellcaster_equipment
+                            ratio < 0.6
+                        }
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        stockpile_ratio = {
+                            archetype = spellcaster_equipment
+                            ratio < 0.3
+                        }
+                    }
+				}
+            }
+            action_button_4_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        factor = 0
+                        
+                        has_war = no
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        has_offensive_war = yes
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        surrender_progress < 0.1
+                    }
+				}
+            }
+            action_button_5_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        factor = 0
+                        
+                        has_tech_bonus = {
+                            category = spellcaster_tech
+                        }
+                    }
+				}
+            }
+            action_button_6_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        add = 5
+                        
+                        amount_research_slots < 4
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        amount_research_slots < 6
+                    }
+				}
+            }
+        }
+	}
+    
+    #---------------------------------------------
+    # Druidism
+    #---------------------------------------------
+    druidism_menu = {
+		context_type = player_context
+		window_name = "religion_menu"
+        
+        visible = {
+            has_druidism = yes
+            can_show_religion_menu = yes
+        }
+        
+		effects = {
+            action_button_1_click = {
+                 check_faith_action_1_cost = yes
+                 druidism_action_1 = yes
+            }
+            action_button_2_click = {
+                 check_faith_action_2_cost = yes
+                 druidism_action_2 = yes
+            }
+            action_button_3_click = {
+                 check_faith_action_3_cost = yes
+                 druidism_action_3 = yes
+            }
+            action_button_4_click = {
+                 check_faith_action_4_cost = yes
+                 druidism_action_4 = yes
+            } 
+            action_button_5_click = {
+                 check_faith_action_5_cost = yes
+                 druidism_action_5 = yes
+            }
+            action_button_6_click = {
+                 check_faith_action_6_cost = yes
+                 druidism_action_6 = yes
+            }
+		}
+        triggers = {
+            action_button_1_click_enabled = {
+                can_afford_faith_action_1 = yes
+                druidism_action_trigger_1 = yes
+            }
+            action_button_2_click_enabled = {
+                can_afford_faith_action_2 = yes
+                druidism_action_trigger_2 = yes
+            }
+            action_button_3_click_enabled = {
+                can_afford_faith_action_3 = yes
+                druidism_action_trigger_3 = yes
+            }
+            action_button_4_click_enabled = {
+                can_afford_faith_action_4 = yes
+                druidism_action_trigger_4 = yes
+            }
+            action_button_5_click_enabled = {
+                can_afford_faith_action_5 = yes
+                druidism_action_trigger_5 = yes
+            }
+            action_button_6_click_enabled = {
+                can_afford_faith_action_6 = yes
+                druidism_action_trigger_6 = yes
+            }
+        }
+        
+        properties = {
+            religion_icon_64 = {
+                image = "GFX_icon_religion"
+                frame = root.country_religion
+            }
+        }
+        
+        ai_enabled = { always = yes }
+        
+        ai_test_interval = @AI_RELIGION_TEST_INTERVAL
+        ai_test_variance = @AI_RELIGION_TEST_VARIANCE
+        
+        ai_check = {
+            has_druidism = yes
+            check_variable = { faith_power > @FAITH_POWER_THRESHOLD }
+        }
+        
+        ai_weights = {
+            action_button_1_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        factor = 0
+                        
+                        has_stability > 0.9
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        has_stability < 0.5
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        has_stability < 0.25
+                    }
+				}
+            }
+            action_button_2_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        factor = 0
+                        
+                        stockpile_ratio = {
+                            archetype = champion_equipment
+                            ratio > 1
+                        }
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        stockpile_ratio = {
+                            archetype = champion_equipment
+                            ratio < 0.9
+                        }
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        stockpile_ratio = {
+                            archetype = champion_equipment
+                            ratio < 0.6
+                        }
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        stockpile_ratio = {
+                            archetype = champion_equipment
+                            ratio < 0.3
+                        }
+                    }
+                }
+            }
+            action_button_3_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        factor = 0
+                        
+                        has_war = no
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        has_offensive_war = yes
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        surrender_progress < 0.1
+                    }
+				}
+            }
+            action_button_4_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        factor = 0
+                        
+                        has_war = no
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        has_offensive_war = yes
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        surrender_progress < 0.1
+                    }
+				}
+            }
+            action_button_5_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        factor = 0
+                        
+                        NOT = {
+                            any_unit_leader = {
+                                is_leading_army = yes
+                            }
+                        }
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        has_war = yes
+                    }
+				}
+            }
+            action_button_6_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        factor = 0
+                        
+                        life > 0.9
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        life < 0.5
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        life < 0.4
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        life < 0.3
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        life < 0.2
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        life < 0.1
+                    }
+				}
+            }
+        }
+	}
+    
+    #---------------------------------------------
+    # Old Gods
+    #---------------------------------------------
+    old_gods_menu = {
+		context_type = player_context
+		window_name = "religion_menu"
+        
+        visible = {
+            has_old_gods = yes
+            can_show_religion_menu = yes
+        }
+        
+		effects = {
+            action_button_1_click = {
+                 check_faith_action_1_cost = yes
+                 old_gods_action_1 = yes
+            }
+            action_button_2_click = {
+                 check_faith_action_2_cost = yes
+                 old_gods_action_2 = yes
+            }
+            action_button_3_click = {
+                 check_faith_action_3_cost = yes
+                 old_gods_action_3 = yes
+            }
+            action_button_4_click = {
+                 check_faith_action_4_cost = yes
+                 old_gods_action_4 = yes
+            } 
+            action_button_5_click = {
+                 check_faith_action_5_cost = yes
+                 old_gods_action_5 = yes
+            }
+            action_button_6_click = {
+                 check_faith_action_6_cost = yes
+                 old_gods_action_6 = yes
+            }
+		}
+        triggers = {
+            action_button_1_click_enabled = {
+                can_afford_faith_action_1 = yes
+                old_gods_action_trigger_1 = yes
+            }
+            action_button_2_click_enabled = {
+                can_afford_faith_action_2 = yes
+                old_gods_action_trigger_2 = yes
+            }
+            action_button_3_click_enabled = {
+                can_afford_faith_action_3 = yes
+                old_gods_action_trigger_3 = yes
+            }
+            action_button_4_click_enabled = {
+                can_afford_faith_action_4 = yes
+                old_gods_action_trigger_4 = yes
+            }
+            action_button_5_click_enabled = {
+                can_afford_faith_action_5 = yes
+                old_gods_action_trigger_5 = yes
+            }
+            action_button_6_click_enabled = {
+                can_afford_faith_action_6 = yes
+                old_gods_action_trigger_6 = yes
+            }
+        }
+        
+        properties = {
+            religion_icon_64 = {
+                image = "GFX_icon_religion"
+                frame = root.country_religion
+            }
+        }
+        
+        ai_enabled = { always = yes }
+        
+        ai_test_interval = @AI_RELIGION_TEST_INTERVAL
+        ai_test_variance = @AI_RELIGION_TEST_VARIANCE
+        
+        ai_check = {
+            has_old_gods = yes
+            check_variable = { faith_power > @FAITH_POWER_THRESHOLD }
+        }
+        
+        ai_weights = {
+            action_button_1_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        factor = 0
+                        
+                        NOT = {
+                            any_neighbor_country = {
+                                has_stability < 0.5
+                            }
+                        }
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        any_neighbor_country = {
+                            has_stability < 0.5
+                        }
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        any_neighbor_country = {
+                            has_stability < 0.4
+                        }
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        any_neighbor_country = {
+                            has_stability < 0.3
+                        }
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        any_neighbor_country = {
+                            has_stability < 0.2
+                        }
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        any_neighbor_country = {
+                            has_stability < 0.1
+                        }
+                    }
+				}
+            }
+            action_button_2_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        add = 2
+                        
+                        any_claim = no
+                    }
+                    
+                    modifier = {
+                        factor = 0
+                        
+                        any_claim = yes
+                    }
+                }
+            }
+            action_button_3_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        factor = 0
+                        
+                        shadow > 0.9
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        shadow < 0.5
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        shadow < 0.4
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        shadow < 0.3
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        shadow < 0.2
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        shadow < 0.1
+                    }
+				}
+            }
+            action_button_4_click = {
+                ai_will_do = {
+					factor = 5
+                    
+                    modifier = {
+                        add = 2
+                        
+                        has_low_manpower_factory_ratio = yes
+                    }
+				}
+            }
+            action_button_5_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        factor = 0
+                        
+                        has_war = no
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        has_offensive_war = yes
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        surrender_progress < 0.1
+                    }
+				}
+            }
+            action_button_6_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        factor = 0
+                        
+                        NOT = {
+                            any_unit_leader = {
+                                is_leading_army = yes
+                            }
+                        }
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        has_war = yes
+                    }
+				}
+            }
+        }
+	}
+    
+    #---------------------------------------------
+    # Fel
+    #---------------------------------------------
+    fel_menu = {
+		context_type = player_context
+		window_name = "religion_menu"
+        
+        visible = {
+            has_fel = yes
+            can_show_religion_menu = yes
+        }
+        
+		effects = {
+            action_button_1_click = {
+                 check_faith_action_1_cost = yes
+                 fel_action_1 = yes
+            }
+            action_button_2_click = {
+                 check_faith_action_2_cost = yes
+                 fel_action_2 = yes
+            }
+            action_button_3_click = {
+                 check_faith_action_3_cost = yes
+                 fel_action_3 = yes
+            }
+            action_button_4_click = {
+                 check_faith_action_4_cost = yes
+                 fel_action_4 = yes
+            } 
+            action_button_5_click = {
+                 check_faith_action_5_cost = yes
+                 fel_action_5 = yes
+            }
+            action_button_6_click = {
+                 check_faith_action_6_cost = yes
+                 fel_action_6 = yes
+            }
+		}
+        triggers = {
+            action_button_1_click_enabled = {
+                can_afford_faith_action_1 = yes
+                fel_action_trigger_1 = yes
+            }
+            action_button_2_click_enabled = {
+                can_afford_faith_action_2 = yes
+                fel_action_trigger_2 = yes
+            }
+            action_button_3_click_enabled = {
+                can_afford_faith_action_3 = yes
+                fel_action_trigger_3 = yes
+            }
+            action_button_4_click_enabled = {
+                can_afford_faith_action_4 = yes
+                fel_action_trigger_4 = yes
+            }
+            action_button_5_click_enabled = {
+                can_afford_faith_action_5 = yes
+                fel_action_trigger_5 = yes
+            }
+            action_button_6_click_enabled = {
+                can_afford_faith_action_6 = yes
+                fel_action_trigger_6 = yes
+            }
+        }
+        
+        properties = {
+            religion_icon_64 = {
+                image = "GFX_icon_religion"
+                frame = root.country_religion
+            }
+        }
+        
+        ai_enabled = { always = yes }
+        
+        ai_test_interval = @AI_RELIGION_TEST_INTERVAL
+        ai_test_variance = @AI_RELIGION_TEST_VARIANCE
+        
+        ai_check = {
+            has_fel = yes
+            check_variable = { faith_power > @FAITH_POWER_THRESHOLD }
+        }
+        
+        ai_weights = {
+            action_button_1_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        factor = 0
+                        
+                        disorder > 0.9
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        disorder < 0.5
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        disorder < 0.4
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        disorder < 0.3
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        disorder < 0.2
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        disorder < 0.1
+                    }
+				}
+            }
+            action_button_2_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        factor = 0
+                        
+                        has_war = no
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        has_offensive_war = yes
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        surrender_progress < 0.1
+                    }
+                }
+            }
+            action_button_3_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        factor = 0
+                        
+                        stockpile_ratio = {
+                            archetype = champion_equipment
+                            ratio < 1.0
+                        }
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        num_divisions < 5
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        num_divisions < 10
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        num_divisions < 15
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        num_divisions < 20
+                    }
+				}
+            }
+            action_button_4_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        factor = 0
+                        
+                        stockpile_ratio = {
+                            archetype = spellcaster_equipment
+                            ratio > 1
+                        }
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        stockpile_ratio = {
+                            archetype = spellcaster_equipment
+                            ratio < 0.9
+                        }
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        stockpile_ratio = {
+                            archetype = spellcaster_equipment
+                            ratio < 0.6
+                        }
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        stockpile_ratio = {
+                            archetype = spellcaster_equipment
+                            ratio < 0.3
+                        }
+                    }
+				}
+            }
+            action_button_5_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        factor = 0
+                        
+                        NOT = {
+                            any_unit_leader = {
+                                is_leading_army = yes
+                            }
+                        }
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        has_war = yes
+                    }
+				}
+            }
+            action_button_6_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        add = 2
+                        
+                        any_claim = no
+                    }
+                    
+                    modifier = {
+                        factor = 0
+                        
+                        any_claim = yes
+                    }
+				}
+            }
+        }
+	}
+    
+    #---------------------------------------------
+    # Necromancy
+    #---------------------------------------------
+    necromancy_menu = {
+		context_type = player_context
+		window_name = "religion_menu"
+        
+        visible = {
+            has_necromancy = yes
+            can_show_religion_menu = yes
+        }
+        
+		effects = {
+            action_button_1_click = {
+                 check_faith_action_1_cost = yes
+                 necromancy_action_1 = yes
+            }
+            action_button_2_click = {
+                 check_faith_action_2_cost = yes
+                 necromancy_action_2 = yes
+            }
+            action_button_3_click = {
+                 check_faith_action_3_cost = yes
+                 necromancy_action_3 = yes
+            }
+            action_button_4_click = {
+                 check_faith_action_4_cost = yes
+                 necromancy_action_4 = yes
+            } 
+            action_button_5_click = {
+                 check_faith_action_5_cost = yes
+                 necromancy_action_5 = yes
+            }
+            action_button_6_click = {
+                 check_faith_action_6_cost = yes
+                 necromancy_action_6 = yes
+            }
+		}
+        triggers = {
+            action_button_1_click_enabled = {
+                can_afford_faith_action_1 = yes
+                necromancy_action_trigger_1 = yes
+            }
+            action_button_2_click_enabled = {
+                can_afford_faith_action_2 = yes
+                necromancy_action_trigger_2 = yes
+            }
+            action_button_3_click_enabled = {
+                can_afford_faith_action_3 = yes
+                necromancy_action_trigger_3 = yes
+            }
+            action_button_4_click_enabled = {
+                can_afford_faith_action_4 = yes
+                necromancy_action_trigger_4 = yes
+            }
+            action_button_5_click_enabled = {
+                can_afford_faith_action_5 = yes
+                necromancy_action_trigger_5 = yes
+            }
+            action_button_6_click_enabled = {
+                can_afford_faith_action_6 = yes
+                necromancy_action_trigger_6 = yes
+            }
+        }
+        
+        properties = {
+            religion_icon_64 = {
+                image = "GFX_icon_religion"
+                frame = root.country_religion
+            }
+        }
+        
+        ai_enabled = { always = yes }
+        
+        ai_test_interval = @AI_RELIGION_TEST_INTERVAL
+        ai_test_variance = @AI_RELIGION_TEST_VARIANCE
+        
+        ai_check = {
+            has_necromancy = yes
+            check_variable = { faith_power > @FAITH_POWER_THRESHOLD }
+        }
+        
+        ai_weights = {
+            action_button_1_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        factor = 0
+                        
+                        NOT = {
+                            any_unit_leader = {
+                                is_leading_army = yes
+                            }
+                        }
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        has_war = yes
+                    }
+				}
+            }
+            action_button_2_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        add = 2
+                        
+                        has_low_manpower_factory_ratio = yes
+                    }
+                }
+            }
+            action_button_3_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        add = 1
+                        
+                        any_neighbor_country = {
+                            NOT = { has_government = death }
+                        }
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        any_neighbor_country = {
+                            NOT = { has_government = death }
+                            has_war = yes
+                        }
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        any_neighbor_country = {
+                            NOT = { has_government = death }
+                            surrender_progress > 0.5
+                        }
+                    }
+				}
+            }
+            action_button_4_click = {
+                ai_will_do = {
+					factor = 2
+                    
+                    modifier = { 
+                        factor = 0
+                        
+                        num_of_available_military_factories > 10
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        num_of_available_military_factories < 3
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        num_of_available_military_factories < 2
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        num_of_available_military_factories < 1
+                    }
+				}
+            }
+            action_button_5_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        factor = 0
+                        
+                        has_war_support > 0.9
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        has_war_support < 0.5
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        has_war_support < 0.25
+                    }
+				}
+            }
+            action_button_6_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        factor = 0
+                        
+                        stockpile_ratio = {
+                            archetype = champion_equipment
+                            ratio < 1.0
+                        }
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        num_divisions < 5
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        num_divisions < 10
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        num_divisions < 15
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        num_divisions < 20
+                    }
+				}
+            }
+        }
+	}
+    
+    #---------------------------------------------
+    # Shamanism
+    #---------------------------------------------
+    shamanism_menu = {
+		context_type = player_context
+		window_name = "religion_menu"
+        
+        visible = {
+            has_shamanism = yes
+            can_show_religion_menu = yes
+        }
+        
+		effects = {
+            action_button_1_click = {
+                 check_faith_action_1_cost = yes
+                 shamanism_action_1 = yes
+            }
+            action_button_2_click = {
+                 check_faith_action_2_cost = yes
+                 shamanism_action_2 = yes
+            }
+            action_button_3_click = {
+                 check_faith_action_3_cost = yes
+                 shamanism_action_3 = yes
+            }
+            action_button_4_click = {
+                 check_faith_action_4_cost = yes
+                 shamanism_action_4 = yes
+            } 
+            action_button_5_click = {
+                 check_faith_action_5_cost = yes
+                 shamanism_action_5 = yes
+            }
+            action_button_6_click = {
+                 check_faith_action_6_cost = yes
+                 shamanism_action_6 = yes
+            }
+		}
+        triggers = {
+            action_button_1_click_enabled = {
+                can_afford_faith_action_1 = yes
+                shamanism_action_trigger_1 = yes
+            }
+            action_button_2_click_enabled = {
+                can_afford_faith_action_2 = yes
+                shamanism_action_trigger_2 = yes
+            }
+            action_button_3_click_enabled = {
+                can_afford_faith_action_3 = yes
+                shamanism_action_trigger_3 = yes
+            }
+            action_button_4_click_enabled = {
+                can_afford_faith_action_4 = yes
+                shamanism_action_trigger_4 = yes
+            }
+            action_button_5_click_enabled = {
+                can_afford_faith_action_5 = yes
+                shamanism_action_trigger_5 = yes
+            }
+            action_button_6_click_enabled = {
+                can_afford_faith_action_6 = yes
+                shamanism_action_trigger_6 = yes
+            }
+        }
+        
+        properties = {
+            religion_icon_64 = {
+                image = "GFX_icon_religion"
+                frame = root.country_religion
+            }
+        }
+        
+        ai_enabled = { always = yes }
+        
+        ai_test_interval = @AI_RELIGION_TEST_INTERVAL
+        ai_test_variance = @AI_RELIGION_TEST_VARIANCE
+        
+        ai_check = {
+            has_shamanism = yes
+            check_variable = { faith_power > @FAITH_POWER_THRESHOLD }
+        }
+        
+        ai_weights = {
+            action_button_1_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        factor = 0
+                        
+                        has_war = no
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        has_offensive_war = yes
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        surrender_progress < 0.1
+                    }
+				}
+            }
+            action_button_2_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        factor = 0
+                        
+                        has_war = no
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        has_offensive_war = yes
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        surrender_progress < 0.1
+                    }
+                }
+            }
+            action_button_3_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        factor = 0
+                        
+                        NOT = {
+                            any_unit_leader = {
+                                is_leading_army = yes
+                            }
+                        }
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        has_war = yes
+                    }
+				}
+            }
+            action_button_4_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        factor = 0
+                        
+                        stockpile_ratio = {
+                            archetype = champion_equipment
+                            ratio < 1.0
+                        }
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        num_divisions < 5
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        num_divisions < 10
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        num_divisions < 15
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        num_divisions < 20
+                    }
+				}
+            }
+            action_button_5_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        factor = 0
+                        
+                        life > 0.9
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        life < 0.5
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        life < 0.4
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        life < 0.3
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        life < 0.2
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        life < 0.1
+                    }
+				}
+            }
+            action_button_6_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        factor = 0
+                        
+                        has_war = no
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        has_offensive_war = yes
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        surrender_progress < 0.1
+                    }
+				}
+            }
+        } 
+	}
+    
+    #---------------------------------------------
+    # Celestials
+    #---------------------------------------------
+    celestials_menu = {
+		context_type = player_context
+		window_name = "religion_menu"
+        
+        visible = {
+            has_celestials = yes
+            can_show_religion_menu = yes
+        }
+        
+		effects = {
+            action_button_1_click = {
+                 check_faith_action_1_cost = yes
+                 celestials_action_1 = yes
+            }
+            action_button_2_click = {
+                 check_faith_action_2_cost = yes
+                 celestials_action_2 = yes
+            }
+            action_button_3_click = {
+                 check_faith_action_3_cost = yes
+                 celestials_action_3 = yes
+            }
+            action_button_4_click = {
+                 check_faith_action_4_cost = yes
+                 celestials_action_4 = yes
+            } 
+            action_button_5_click = {
+                 check_faith_action_5_cost = yes
+                 celestials_action_5 = yes
+            }
+            action_button_6_click = {
+                 check_faith_action_6_cost = yes
+                 celestials_action_6 = yes
+            }
+		}
+        triggers = {
+            action_button_1_click_enabled = {
+                can_afford_faith_action_1 = yes
+                celestials_action_trigger_1 = yes
+            }
+            action_button_2_click_enabled = {
+                can_afford_faith_action_2 = yes
+                celestials_action_trigger_2 = yes
+            }
+            action_button_3_click_enabled = {
+                can_afford_faith_action_3 = yes
+                celestials_action_trigger_3 = yes
+            }
+            action_button_4_click_enabled = {
+                can_afford_faith_action_4 = yes
+                celestials_action_trigger_4 = yes
+            }
+            action_button_5_click_enabled = {
+                can_afford_faith_action_5 = yes
+                celestials_action_trigger_5 = yes
+            }
+            action_button_6_click_enabled = {
+                can_afford_faith_action_6 = yes
+                celestials_action_trigger_6 = yes
+            }
+        }
+        
+        properties = {
+            religion_icon_64 = {
+                image = "GFX_icon_religion"
+                frame = root.country_religion
+            }
+        }
+        
+        ai_enabled = { always = yes }
+        
+        ai_test_interval = @AI_RELIGION_TEST_INTERVAL
+        ai_test_variance = @AI_RELIGION_TEST_VARIANCE
+        
+        ai_check = {
+            has_celestials = yes
+            check_variable = { faith_power > @FAITH_POWER_THRESHOLD }
+        }
+        
+        ai_weights = {
+            action_button_1_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        add = 1
+                        
+                        has_war = no
+                    }
+				}
+            }
+            action_button_2_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        add = 1
+                        
+                        has_war = no
+                    }
+                }
+            }
+            action_button_3_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        factor = 0
+                        
+                        life > 0.9
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        life < 0.5
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        life < 0.4
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        life < 0.3
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        life < 0.2
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        life < 0.1
+                    }
+				}
+            }
+            action_button_4_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        factor = 0
+                        
+                        has_stability > 0.9
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        has_stability < 0.5
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        has_stability < 0.25
+                    }
+				}
+            }
+            action_button_5_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        factor = 0
+                        
+                        life < 0.1
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        life > 0.5
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        life > 0.6
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        life > 0.7
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        life > 0.8
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        life > 0.9
+                    }
+				}
+            }
+            action_button_6_click = {
+                ai_will_do = {
+					factor = 5
+                    
+                    modifier = {
+                        factor = 0
+                        
+                        has_war = no
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        has_offensive_war = yes
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        surrender_progress < 0.1
+                    }
+				}
+            }
+        }
+	}
+    
+    #---------------------------------------------
+    # Titan
+    #---------------------------------------------
+    titan_menu = {
+		context_type = player_context
+		window_name = "religion_menu"
+        
+        visible = {
+            has_titan = yes
+            can_show_religion_menu = yes
+        }
+        
+		effects = {
+            action_button_1_click = {
+                 check_faith_action_1_cost = yes
+                 titan_action_1 = yes
+            }
+            action_button_2_click = {
+                 check_faith_action_2_cost = yes
+                 titan_action_2 = yes
+            }
+            action_button_3_click = {
+                 check_faith_action_3_cost = yes
+                 titan_action_3 = yes
+            }
+            action_button_4_click = {
+                 check_faith_action_4_cost = yes
+                 titan_action_4 = yes
+            } 
+            action_button_5_click = {
+                 check_faith_action_5_cost = yes
+                 titan_action_5 = yes
+            }
+            action_button_6_click = {
+                 check_faith_action_6_cost = yes
+                 titan_action_6 = yes
+            }
+		}
+        triggers = {
+            action_button_1_click_enabled = {
+                can_afford_faith_action_1 = yes
+                titan_action_trigger_1 = yes
+            }
+            action_button_2_click_enabled = {
+                can_afford_faith_action_2 = yes
+                titan_action_trigger_2 = yes
+            }
+            action_button_3_click_enabled = {
+                can_afford_faith_action_3 = yes
+                titan_action_trigger_3 = yes
+            }
+            action_button_4_click_enabled = {
+                can_afford_faith_action_4 = yes
+                titan_action_trigger_4 = yes
+            }
+            action_button_5_click_enabled = {
+                can_afford_faith_action_5 = yes
+                titan_action_trigger_5 = yes
+            }
+            action_button_6_click_enabled = {
+                can_afford_faith_action_6 = yes
+                titan_action_trigger_6 = yes
+            }
+        }
+        
+        properties = {
+            religion_icon_64 = {
+                image = "GFX_icon_religion"
+                frame = root.country_religion
+            }
+        }
+        
+        ai_enabled = { always = yes }
+        
+        ai_test_interval = @AI_RELIGION_TEST_INTERVAL
+        ai_test_variance = @AI_RELIGION_TEST_VARIANCE
+        
+        ai_check = {
+            has_titan = yes
+            check_variable = { faith_power > @FAITH_POWER_THRESHOLD }
+        }
+        
+        ai_weights = {
+            action_button_1_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        factor = 0
+                        
+                        has_war = no
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        has_offensive_war = yes
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        surrender_progress < 0.1
+                    }
+				}
+            }
+            action_button_2_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        factor = 0
+                        
+                        has_war = no
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        has_offensive_war = yes
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        surrender_progress < 0.1
+                    }
+                }
+            }
+            action_button_3_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        factor = 0
+                        
+                        has_stability > 0.9
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        has_stability < 0.5
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        has_stability < 0.25
+                    }
+				}
+            }
+            action_button_4_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        factor = 0
+                        
+                        NOT = {
+                            any_unit_leader = {
+                                is_leading_army = yes
+                            }
+                        }
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        has_war = yes
+                    }
+				}
+            }
+            action_button_5_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        factor = 0
+                        
+                        order > 0.9
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        order < 0.5
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        order < 0.4
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        order < 0.3
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        order < 0.2
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        order < 0.1
+                    }
+				}
+            }
+            action_button_6_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        add = 2
+                        
+                        any_claim = no
+                    }
+                    
+                    modifier = {
+                        factor = 0
+                        
+                        any_claim = yes
+                    }
+				}
+            }
+        }
+	}
+    
+    #---------------------------------------------
+    # Fire
+    #---------------------------------------------
+    fire_menu = {
+		context_type = player_context
+		window_name = "religion_menu"
+        
+        visible = {
+            has_fire = yes
+            can_show_religion_menu = yes
+        }
+        
+		effects = {
+            action_button_1_click = {
+                 check_faith_action_1_cost = yes
+                 fire_action_1 = yes
+            }
+            action_button_2_click = {
+                 check_faith_action_2_cost = yes
+                 fire_action_2 = yes
+            }
+            action_button_3_click = {
+                 check_faith_action_3_cost = yes
+                 fire_action_3 = yes
+            }
+            action_button_4_click = {
+                 check_faith_action_4_cost = yes
+                 fire_action_4 = yes
+            } 
+            action_button_5_click = {
+                 check_faith_action_5_cost = yes
+                 fire_action_5 = yes
+            }
+            action_button_6_click = {
+                 check_faith_action_6_cost = yes
+                 fire_action_6 = yes
+            }
+		}
+        triggers = {
+            action_button_1_click_enabled = {
+                can_afford_faith_action_1 = yes
+                fire_action_trigger_1 = yes
+            }
+            action_button_2_click_enabled = {
+                can_afford_faith_action_2 = yes
+                fire_action_trigger_2 = yes
+            }
+            action_button_3_click_enabled = {
+                can_afford_faith_action_3 = yes
+                fire_action_trigger_3 = yes
+            }
+            action_button_4_click_enabled = {
+                can_afford_faith_action_4 = yes
+                fire_action_trigger_4 = yes
+            }
+            action_button_5_click_enabled = {
+                can_afford_faith_action_5 = yes
+                fire_action_trigger_5 = yes
+            }
+            action_button_6_click_enabled = {
+                can_afford_faith_action_6 = yes
+                fire_action_trigger_6 = yes
+            }
+        }
+        
+        properties = {
+            religion_icon_64 = {
+                image = "GFX_icon_religion"
+                frame = root.country_religion
+            }
+        }
+        
+        ai_enabled = { always = yes }
+        
+        ai_test_interval = @AI_RELIGION_TEST_INTERVAL
+        ai_test_variance = @AI_RELIGION_TEST_VARIANCE
+        
+        ai_check = {
+            has_fire = yes
+            check_variable = { faith_power > @FAITH_POWER_THRESHOLD }
+        }
+        
+        ai_weights = {
+            action_button_1_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        factor = 0
+                        
+                        stockpile_ratio = {
+                            archetype = champion_equipment
+                            ratio < 1.0
+                        }
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        num_divisions < 5
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        num_divisions < 10
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        num_divisions < 15
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        num_divisions < 20
+                    }
+				}
+            }
+            action_button_2_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        factor = 0
+                        
+                        has_war = no
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        has_offensive_war = yes
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        surrender_progress < 0.1
+                    }
+                }
+            }
+            action_button_3_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        factor = 0
+                        
+                        has_war = no
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        has_offensive_war = yes
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        surrender_progress < 0.1
+                    }
+				}
+            }
+            action_button_4_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        factor = 0
+                        
+                        has_war = no
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        has_offensive_war = yes
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        surrender_progress < 0.1
+                    }
+				}
+            }
+            action_button_5_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        factor = 0
+                        
+                        stockpile_ratio = {
+                            archetype = champion_equipment
+                            ratio > 1
+                        }
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        stockpile_ratio = {
+                            archetype = champion_equipment
+                            ratio < 0.9
+                        }
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        stockpile_ratio = {
+                            archetype = champion_equipment
+                            ratio < 0.6
+                        }
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        stockpile_ratio = {
+                            archetype = champion_equipment
+                            ratio < 0.3
+                        }
+                    }
+				}
+            }
+            action_button_6_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        add = 2
+                        
+                        any_claim = no
+                    }
+                    
+                    modifier = {
+                        factor = 0
+                        
+                        any_claim = yes
+                    }
+				}
+            }
+        }
+	}
+    
+    #---------------------------------------------
+    # Earth
+    #---------------------------------------------
+    earth_menu = {
+		context_type = player_context
+		window_name = "religion_menu"
+        
+        visible = {
+            has_earth = yes
+            can_show_religion_menu = yes
+        }
+        
+		effects = {
+            action_button_1_click = {
+                 check_faith_action_1_cost = yes
+                 earth_action_1 = yes
+            }
+            action_button_2_click = {
+                 check_faith_action_2_cost = yes
+                 earth_action_2 = yes
+            }
+            action_button_3_click = {
+                 check_faith_action_3_cost = yes
+                 earth_action_3 = yes
+            }
+            action_button_4_click = {
+                 check_faith_action_4_cost = yes
+                 earth_action_4 = yes
+            } 
+            action_button_5_click = {
+                 check_faith_action_5_cost = yes
+                 earth_action_5 = yes
+            }
+            action_button_6_click = {
+                 check_faith_action_6_cost = yes
+                 earth_action_6 = yes
+            }
+		}
+        triggers = {
+            action_button_1_click_enabled = {
+                can_afford_faith_action_1 = yes
+                earth_action_trigger_1 = yes
+            }
+            action_button_2_click_enabled = {
+                can_afford_faith_action_2 = yes
+                earth_action_trigger_2 = yes
+            }
+            action_button_3_click_enabled = {
+                can_afford_faith_action_3 = yes
+                earth_action_trigger_3 = yes
+            }
+            action_button_4_click_enabled = {
+                can_afford_faith_action_4 = yes
+                earth_action_trigger_4 = yes
+            }
+            action_button_5_click_enabled = {
+                can_afford_faith_action_5 = yes
+                earth_action_trigger_5 = yes
+            }
+            action_button_6_click_enabled = {
+                can_afford_faith_action_6 = yes
+                earth_action_trigger_6 = yes
+            }
+        }
+        
+        properties = {
+            religion_icon_64 = {
+                image = "GFX_icon_religion"
+                frame = root.country_religion
+            }
+        }
+        
+        ai_enabled = { always = yes }
+        
+        ai_test_interval = @AI_RELIGION_TEST_INTERVAL
+        ai_test_variance = @AI_RELIGION_TEST_VARIANCE
+        
+        ai_check = {
+            has_earth = yes
+            check_variable = { faith_power > @FAITH_POWER_THRESHOLD }
+        }
+        
+        ai_weights = {
+            action_button_1_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        factor = 0
+                        
+                        stockpile_ratio = {
+                            archetype = champion_equipment
+                            ratio < 1.0
+                        }
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        num_divisions < 5
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        num_divisions < 10
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        num_divisions < 15
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        num_divisions < 20
+                    }
+				}
+            }
+            action_button_2_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        factor = 0
+                        
+                        has_war = no
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        has_offensive_war = yes
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        surrender_progress < 0.1
+                    }
+                }
+            }
+            action_button_3_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        factor = 0
+                        
+                        has_war = no
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        has_offensive_war = yes
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        surrender_progress < 0.1
+                    }
+				}
+            }
+            action_button_4_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        factor = 0
+                        
+                        has_war = no
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        has_offensive_war = yes
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        surrender_progress < 0.1
+                    }
+				}
+            }
+            action_button_5_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        factor = 0
+                        
+                        stockpile_ratio = {
+                            archetype = champion_equipment
+                            ratio > 1
+                        }
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        stockpile_ratio = {
+                            archetype = champion_equipment
+                            ratio < 0.9
+                        }
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        stockpile_ratio = {
+                            archetype = champion_equipment
+                            ratio < 0.6
+                        }
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        stockpile_ratio = {
+                            archetype = champion_equipment
+                            ratio < 0.3
+                        }
+                    }
+				}
+            }
+            action_button_6_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        add = 2
+                        
+                        any_claim = no
+                    }
+                    
+                    modifier = {
+                        factor = 0
+                        
+                        any_claim = yes
+                    }
+				}
+            }
+        }
+	}
+    
+    #---------------------------------------------
+    # Wind
+    #---------------------------------------------
+    wind_menu = {
+		context_type = player_context
+		window_name = "religion_menu"
+        
+        visible = {
+            has_wind = yes
+            can_show_religion_menu = yes
+        }
+        
+		effects = {
+            action_button_1_click = {
+                 check_faith_action_1_cost = yes
+                 wind_action_1 = yes
+            }
+            action_button_2_click = {
+                 check_faith_action_2_cost = yes
+                 wind_action_2 = yes
+            }
+            action_button_3_click = {
+                 check_faith_action_3_cost = yes
+                 wind_action_3 = yes
+            }
+            action_button_4_click = {
+                 check_faith_action_4_cost = yes
+                 wind_action_4 = yes
+            } 
+            action_button_5_click = {
+                 check_faith_action_5_cost = yes
+                 wind_action_5 = yes
+            }
+            action_button_6_click = {
+                 check_faith_action_6_cost = yes
+                 wind_action_6 = yes
+            }
+		}
+        triggers = {
+            action_button_1_click_enabled = {
+                can_afford_faith_action_1 = yes
+                wind_action_trigger_1 = yes
+            }
+            action_button_2_click_enabled = {
+                can_afford_faith_action_2 = yes
+                wind_action_trigger_2 = yes
+            }
+            action_button_3_click_enabled = {
+                can_afford_faith_action_3 = yes
+                wind_action_trigger_3 = yes
+            }
+            action_button_4_click_enabled = {
+                can_afford_faith_action_4 = yes
+                wind_action_trigger_4 = yes
+            }
+            action_button_5_click_enabled = {
+                can_afford_faith_action_5 = yes
+                wind_action_trigger_5 = yes
+            }
+            action_button_6_click_enabled = {
+                can_afford_faith_action_6 = yes
+                wind_action_trigger_6 = yes
+            }
+        }
+        
+        properties = {
+            religion_icon_64 = {
+                image = "GFX_icon_religion"
+                frame = root.country_religion
+            }
+        }
+        
+        ai_enabled = { always = yes }
+        
+        ai_test_interval = @AI_RELIGION_TEST_INTERVAL
+        ai_test_variance = @AI_RELIGION_TEST_VARIANCE
+        
+        ai_check = {
+            has_wind = yes
+            check_variable = { faith_power > @FAITH_POWER_THRESHOLD }
+        }
+        
+        ai_weights = {
+            action_button_1_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        factor = 0
+                        
+                        stockpile_ratio = {
+                            archetype = champion_equipment
+                            ratio < 1.0
+                        }
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        num_divisions < 5
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        num_divisions < 10
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        num_divisions < 15
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        num_divisions < 20
+                    }
+				}
+            }
+            action_button_2_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        factor = 0
+                        
+                        has_war = no
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        has_offensive_war = yes
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        surrender_progress < 0.1
+                    }
+                }
+            }
+            action_button_3_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        factor = 0
+                        
+                        has_war = no
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        has_offensive_war = yes
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        surrender_progress < 0.1
+                    }
+				}
+            }
+            action_button_4_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        factor = 0
+                        
+                        has_war = no
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        has_offensive_war = yes
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        surrender_progress < 0.1
+                    }
+				}
+            }
+            action_button_5_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        factor = 0
+                        
+                        stockpile_ratio = {
+                            archetype = champion_equipment
+                            ratio > 1
+                        }
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        stockpile_ratio = {
+                            archetype = champion_equipment
+                            ratio < 0.9
+                        }
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        stockpile_ratio = {
+                            archetype = champion_equipment
+                            ratio < 0.6
+                        }
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        stockpile_ratio = {
+                            archetype = champion_equipment
+                            ratio < 0.3
+                        }
+                    }
+				}
+            }
+            action_button_6_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        add = 2
+                        
+                        any_claim = no
+                    }
+                    
+                    modifier = {
+                        factor = 0
+                        
+                        any_claim = yes
+                    }
+				}
+            }
+        }
+	}
+    
+    #---------------------------------------------
+    # Water
+    #---------------------------------------------
+    water_menu = {
+		context_type = player_context
+		window_name = "religion_menu"
+        
+        visible = {
+            has_water =  yes
+            can_show_religion_menu = yes
+        }
+        
+		effects = {
+            action_button_1_click = {
+                 check_faith_action_1_cost = yes
+                 water_action_1 = yes
+            }
+            action_button_2_click = {
+                 check_faith_action_2_cost = yes
+                 water_action_2 = yes
+            }
+            action_button_3_click = {
+                 check_faith_action_3_cost = yes
+                 water_action_3 = yes
+            }
+            action_button_4_click = {
+                 check_faith_action_4_cost = yes
+                 water_action_4 = yes
+            } 
+            action_button_5_click = {
+                 check_faith_action_5_cost = yes
+                 water_action_5 = yes
+            }
+            action_button_6_click = {
+                 check_faith_action_6_cost = yes
+                 water_action_6 = yes
+            }
+		}
+        triggers = {
+            action_button_1_click_enabled = {
+                can_afford_faith_action_1 = yes
+                water_action_trigger_1 = yes
+            }
+            action_button_2_click_enabled = {
+                can_afford_faith_action_2 = yes
+                water_action_trigger_2 = yes
+            }
+            action_button_3_click_enabled = {
+                can_afford_faith_action_3 = yes
+                water_action_trigger_3 = yes
+            }
+            action_button_4_click_enabled = {
+                can_afford_faith_action_4 = yes
+                water_action_trigger_4 = yes
+            }
+            action_button_5_click_enabled = {
+                can_afford_faith_action_5 = yes
+                water_action_trigger_5 = yes
+            }
+            action_button_6_click_enabled = {
+                can_afford_faith_action_6 = yes
+                water_action_trigger_6 = yes
+            }
+        }
+        
+        properties = {
+            religion_icon_64 = {
+                image = "GFX_icon_religion"
+                frame = root.country_religion
+            }
+        }
+        
+        ai_enabled = { always = yes }
+        
+        ai_test_interval = @AI_RELIGION_TEST_INTERVAL
+        ai_test_variance = @AI_RELIGION_TEST_VARIANCE
+        
+        ai_check = {
+            has_water =  yes
+            check_variable = { faith_power > @FAITH_POWER_THRESHOLD }
+        }
+        
+        ai_weights = {
+            action_button_1_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        factor = 0
+                        
+                        stockpile_ratio = {
+                            archetype = champion_equipment
+                            ratio < 1.0
+                        }
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        num_divisions < 5
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        num_divisions < 10
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        num_divisions < 15
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        num_divisions < 20
+                    }
+				}
+            }
+            action_button_2_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        factor = 0
+                        
+                        has_war = no
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        has_offensive_war = yes
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        surrender_progress < 0.1
+                    }
+                }
+            }
+            action_button_3_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        factor = 0
+                        
+                        has_war = no
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        has_offensive_war = yes
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        surrender_progress < 0.1
+                    }
+				}
+            }
+            action_button_4_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        factor = 0
+                        
+                        has_war = no
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        has_offensive_war = yes
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        surrender_progress < 0.1
+                    }
+				}
+            }
+            action_button_5_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        factor = 0
+                        
+                        stockpile_ratio = {
+                            archetype = champion_equipment
+                            ratio > 1
+                        }
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        stockpile_ratio = {
+                            archetype = champion_equipment
+                            ratio < 0.9
+                        }
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        stockpile_ratio = {
+                            archetype = champion_equipment
+                            ratio < 0.6
+                        }
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        stockpile_ratio = {
+                            archetype = champion_equipment
+                            ratio < 0.3
+                        }
+                    }
+				}
+            }
+            action_button_6_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        add = 2
+                        
+                        any_claim = no
+                    }
+                    
+                    modifier = {
+                        factor = 0
+                        
+                        any_claim = yes
+                    }
+				}
+            }
+        }
+	}
+    
+    #---------------------------------------------
+    # Geomancy
+    #---------------------------------------------
+    geomancy_menu = {
+		context_type = player_context
+		window_name = "religion_menu"
+        
+        visible = {
+            has_geomancy = yes
+            can_show_religion_menu = yes
+        }
+        
+		effects = {
+            action_button_1_click = {
+                 check_faith_action_1_cost = yes
+                 geomancy_action_1 = yes
+            }
+            action_button_2_click = {
+                 check_faith_action_2_cost = yes
+                 geomancy_action_2 = yes
+            }
+            action_button_3_click = {
+                 check_faith_action_3_cost = yes
+                 geomancy_action_3 = yes
+            }
+            action_button_4_click = {
+                 check_faith_action_4_cost = yes
+                 geomancy_action_4 = yes
+            } 
+            action_button_5_click = {
+                 check_faith_action_5_cost = yes
+                 geomancy_action_5 = yes
+            }
+            action_button_6_click = {
+                 check_faith_action_6_cost = yes
+                 geomancy_action_6 = yes
+            }
+		}
+        triggers = {
+            action_button_1_click_enabled = {
+                can_afford_faith_action_1 = yes
+                geomancy_action_trigger_1 = yes
+            }
+            action_button_2_click_enabled = {
+                can_afford_faith_action_2 = yes
+                geomancy_action_trigger_2 = yes
+            }
+            action_button_3_click_enabled = {
+                can_afford_faith_action_3 = yes
+                geomancy_action_trigger_3 = yes
+            }
+            action_button_4_click_enabled = {
+                can_afford_faith_action_4 = yes
+                geomancy_action_trigger_4 = yes
+            }
+            action_button_5_click_enabled = {
+                can_afford_faith_action_5 = yes
+                geomancy_action_trigger_5 = yes
+            }
+            action_button_6_click_enabled = {
+                can_afford_faith_action_6 = yes
+                geomancy_action_trigger_6 = yes
+            }
+        }
+        
+        properties = {
+            religion_icon_64 = {
+                image = "GFX_icon_religion"
+                frame = root.country_religion
+            }
+        }
+        
+        ai_enabled = { always = yes }
+        
+        ai_test_interval = @AI_RELIGION_TEST_INTERVAL
+        ai_test_variance = @AI_RELIGION_TEST_VARIANCE
+        
+        ai_check = {
+            has_geomancy = yes
+            check_variable = { faith_power > @FAITH_POWER_THRESHOLD }
+        }
+        
+        ai_weights = {
+            action_button_1_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        factor = 0
+                        
+                        stockpile_ratio = {
+                            archetype = spellcaster_equipment
+                            ratio > 1
+                        }
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        stockpile_ratio = {
+                            archetype = spellcaster_equipment
+                            ratio < 0.9
+                        }
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        stockpile_ratio = {
+                            archetype = spellcaster_equipment
+                            ratio < 0.6
+                        }
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        stockpile_ratio = {
+                            archetype = spellcaster_equipment
+                            ratio < 0.3
+                        }
+                    }
+				}
+            }
+            action_button_2_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        factor = 0
+                        
+                        has_war = no
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        has_offensive_war = yes
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        surrender_progress < 0.1
+                    }
+                }
+            }
+            action_button_3_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        factor = 0
+                        
+                        stockpile_ratio = {
+                            archetype = champion_equipment
+                            ratio < 1.0
+                        }
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        num_divisions < 5
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        num_divisions < 10
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        num_divisions < 15
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        num_divisions < 20
+                    }
+				}
+            }
+            action_button_4_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        factor = 0
+                        
+                        has_war = no
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        has_offensive_war = yes
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        surrender_progress < 0.1
+                    }
+				}
+            }
+            action_button_5_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        factor = 0
+                        
+                        life > 0.9
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        life < 0.5
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        life < 0.4
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        life < 0.3
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        life < 0.2
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        life < 0.1
+                    }
+				}
+            }
+            action_button_6_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        factor = 0
+                        
+                        NOT = {
+                            any_unit_leader = {
+                                is_leading_army = yes
+                            }
+                        }
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        has_war = yes
+                    }
+				}
+            }
+        }
+	}
+    
+    #---------------------------------------------
+    # Light of the Naaru
+    #---------------------------------------------
+    light_of_the_naaru_menu = {
+		context_type = player_context
+		window_name = "religion_menu"
+        
+        visible = {
+            has_light_of_the_naaru = yes
+            can_show_religion_menu = yes
+        }
+        
+		effects = {
+            action_button_1_click = {
+                 check_faith_action_1_cost = yes
+                 light_of_the_naaru_action_1 = yes
+            }
+            action_button_2_click = {
+                 check_faith_action_2_cost = yes
+                 light_of_the_naaru_action_2 = yes
+            }
+            action_button_3_click = {
+                 check_faith_action_3_cost = yes
+                 light_of_the_naaru_action_3 = yes
+            }
+            action_button_4_click = {
+                 check_faith_action_4_cost = yes
+                 light_of_the_naaru_action_4 = yes
+            } 
+            action_button_5_click = {
+                 check_faith_action_5_cost = yes
+                 light_of_the_naaru_action_5 = yes
+            }
+            action_button_6_click = {
+                 check_faith_action_6_cost = yes
+                 light_of_the_naaru_action_6 = yes
+            }
+		}
+        triggers = {
+            action_button_1_click_enabled = {
+                can_afford_faith_action_1 = yes
+                light_of_the_naaru_action_trigger_1 = yes
+            }
+            action_button_2_click_enabled = {
+                can_afford_faith_action_2 = yes
+                light_of_the_naaru_action_trigger_2 = yes
+            }
+            action_button_3_click_enabled = {
+                can_afford_faith_action_3 = yes
+                light_of_the_naaru_action_trigger_3 = yes
+            }
+            action_button_4_click_enabled = {
+                can_afford_faith_action_4 = yes
+                light_of_the_naaru_action_trigger_4 = yes
+            }
+            action_button_5_click_enabled = {
+                can_afford_faith_action_5 = yes
+                light_of_the_naaru_action_trigger_5 = yes
+            }
+            action_button_6_click_enabled = {
+                can_afford_faith_action_6 = yes
+                light_of_the_naaru_action_trigger_6 = yes
+            }
+        }
+        
+        properties = {
+            religion_icon_64 = {
+                image = "GFX_icon_religion"
+                frame = root.country_religion
+            }
+        }
+        
+        ai_enabled = { always = yes }
+        
+        ai_test_interval = @AI_RELIGION_TEST_INTERVAL
+        ai_test_variance = @AI_RELIGION_TEST_VARIANCE
+        
+        ai_check = {
+            has_light_of_the_naaru = yes
+            check_variable = { faith_power > @FAITH_POWER_THRESHOLD }
+        }
+        
+        ai_weights = {
+            action_button_1_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        factor = 0
+                        
+                        has_war = no
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        has_offensive_war = yes
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        surrender_progress < 0.1
+                    }
+				}
+            }
+            action_button_2_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        factor = 0
+                        
+                        light > 0.9
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        light < 0.5
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        light < 0.4
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        light < 0.3
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        light < 0.2
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        light < 0.1
+                    }
+                }
+            }
+            action_button_3_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        factor = 0
+                        
+                        NOT = {
+                            any_unit_leader = {
+                                is_leading_army = yes
+                            }
+                        }
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        has_war = yes
+                    }
+				}
+            }
+            action_button_4_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        factor = 0
+                        
+                        stockpile_ratio = {
+                            archetype = champion_equipment
+                            ratio > 1
+                        }
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        stockpile_ratio = {
+                            archetype = champion_equipment
+                            ratio < 0.9
+                        }
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        stockpile_ratio = {
+                            archetype = champion_equipment
+                            ratio < 0.6
+                        }
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        stockpile_ratio = {
+                            archetype = champion_equipment
+                            ratio < 0.3
+                        }
+                    }
+				}
+            }
+            action_button_5_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        factor = 0
+                        
+                        has_war = no
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        has_offensive_war = yes
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        surrender_progress < 0.1
+                    }
+				}
+            }
+            action_button_6_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        add = 2
+                        
+                        any_claim = no
+                    }
+                    
+                    modifier = {
+                        factor = 0
+                        
+                        any_claim = yes
+                    }
+				}
+            }
+        }
+	}
+    
+    #---------------------------------------------
+    # Dragon Aspects
+    #---------------------------------------------
+    dragon_aspects_menu = {
+		context_type = player_context
+		window_name = "religion_menu"
+        
+        visible = {
+            has_dragon_aspects = yes
+            can_show_religion_menu = yes
+        }
+        
+		effects = {
+            action_button_1_click = {
+                 check_faith_action_1_cost = yes
+                 dragon_aspects_action_1 = yes                 
+            }
+            action_button_2_click = {
+                 check_faith_action_2_cost = yes
+                 dragon_aspects_action_2 = yes
+            }
+            action_button_3_click = {
+                 check_faith_action_3_cost = yes
+                 dragon_aspects_action_3 = yes
+            }
+            action_button_4_click = {
+                 check_faith_action_4_cost = yes
+                 dragon_aspects_action_4 = yes
+            } 
+            action_button_5_click = {
+                 check_faith_action_5_cost = yes
+                 dragon_aspects_action_5 = yes
+            }
+            action_button_6_click = {
+                 check_faith_action_6_cost = yes
+                 dragon_aspects_action_6 = yes
+            }
+		}
+        triggers = {
+            action_button_1_click_enabled = {
+                can_afford_faith_action_1 = yes
+                dragon_aspects_action_trigger_1 = yes
+            }
+            action_button_2_click_enabled = {
+                can_afford_faith_action_2 = yes
+                dragon_aspects_action_trigger_2 = yes
+            }
+            action_button_3_click_enabled = {
+                can_afford_faith_action_3 = yes
+                dragon_aspects_action_trigger_3 = yes
+            }
+            action_button_4_click_enabled = {
+                can_afford_faith_action_4 = yes
+                dragon_aspects_action_trigger_4 = yes
+            }
+            action_button_5_click_enabled = {
+                can_afford_faith_action_5 = yes
+                dragon_aspects_action_trigger_5 = yes
+            }
+            action_button_6_click_enabled = {
+                can_afford_faith_action_6 = yes
+                dragon_aspects_action_trigger_6 = yes
+            }
+        }
+        
+        properties = {
+            religion_icon_64 = {
+                image = "GFX_icon_religion"
+                frame = root.country_religion
+            }
+        }
+        
+        ai_enabled = { always = yes }
+        
+        ai_test_interval = @AI_RELIGION_TEST_INTERVAL
+        ai_test_variance = @AI_RELIGION_TEST_VARIANCE
+        
+        ai_check = {
+            has_dragon_aspects = yes
+            check_variable = { faith_power > @FAITH_POWER_THRESHOLD }
+        }
+        
+        ai_weights = {
+            action_button_1_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        factor = 0
+                        
+                        has_war = no
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        has_offensive_war = yes
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        surrender_progress < 0.1
+                    }
+				}
+            }
+            action_button_2_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        add = 2
+                        
+                        has_low_manpower_factory_ratio = yes
+                    }
+                }
+            }
+            action_button_3_click = {
+                ai_will_do = {
+					factor = 5
+                    
+                    modifier = {
+                        factor = 0
+                        
+                        has_war = no
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        has_offensive_war = yes
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        surrender_progress < 0.1
+                    }
+				}
+            }
+            action_button_4_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        factor = 0
+                        
+                        NOT = {
+                            any_unit_leader = {
+                                is_leading_army = yes
+                            }
+                        }
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        has_war = yes
+                    }
+				}
+            }
+            action_button_5_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        factor = 0
+                        
+                        stockpile_ratio = {
+                            archetype = champion_equipment
+                            ratio > 1
+                        }
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        stockpile_ratio = {
+                            archetype = champion_equipment
+                            ratio < 0.9
+                        }
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        stockpile_ratio = {
+                            archetype = champion_equipment
+                            ratio < 0.6
+                        }
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        stockpile_ratio = {
+                            archetype = champion_equipment
+                            ratio < 0.3
+                        }
+                    }
+				}
+            }
+            action_button_6_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        add = 2
+                        
+                        any_claim = no
+                    }
+                    
+                    modifier = {
+                        factor = 0
+                        
+                        any_claim = yes
+                    }
+				}
+            }
+        }
+	}
+    
+    #---------------------------------------------
+    # Technomancy
+    #---------------------------------------------
+    technomancy_menu = {
+		context_type = player_context
+		window_name = "religion_menu"
+        
+        visible = {
+            has_technomancy = yes
+            can_show_religion_menu = yes
+        }
+        
+		effects = {
+            action_button_1_click = {
+                 check_faith_action_1_cost = yes
+                 technomancy_action_1 = yes
+            }
+            action_button_2_click = {
+                 check_faith_action_2_cost = yes
+                 technomancy_action_2 = yes
+            }
+            action_button_3_click = {
+                 check_faith_action_3_cost = yes
+                 technomancy_action_3 = yes
+            }
+            action_button_4_click = {
+                 check_faith_action_4_cost = yes
+                 technomancy_action_4 = yes
+            } 
+            action_button_5_click = {
+                 check_faith_action_5_cost = yes
+                 technomancy_action_5 = yes
+            }
+            action_button_6_click = {
+                 check_faith_action_6_cost = yes
+                 technomancy_action_6 = yes
+            }
+		}
+        triggers = {
+            action_button_1_click_enabled = {
+                can_afford_faith_action_1 = yes
+                technomancy_action_trigger_1 = yes
+            }
+            action_button_2_click_enabled = {
+                can_afford_faith_action_2 = yes
+                technomancy_action_trigger_2 = yes
+            }
+            action_button_3_click_enabled = {
+                can_afford_faith_action_3 = yes
+                technomancy_action_trigger_3 = yes
+            }
+            action_button_4_click_enabled = {
+                can_afford_faith_action_4 = yes
+                technomancy_action_trigger_4 = yes
+            }
+            action_button_5_click_enabled = {
+                can_afford_faith_action_5 = yes
+                technomancy_action_trigger_5 = yes
+            }
+            action_button_6_click_enabled = {
+                can_afford_faith_action_6 = yes
+                technomancy_action_trigger_6 = yes
+            }
+        }
+        
+        properties = {
+            religion_icon_64 = {
+                image = "GFX_icon_religion"
+                frame = root.country_religion
+            }
+        }
+        
+        ai_enabled = { always = yes }
+        
+        ai_test_interval = @AI_RELIGION_TEST_INTERVAL
+        ai_test_variance = @AI_RELIGION_TEST_VARIANCE
+        
+        ai_check = {
+            has_technomancy = yes
+            check_variable = { faith_power > @FAITH_POWER_THRESHOLD }
+        }
+        
+        ai_weights = {
+            action_button_1_click = {
+                ai_will_do = {
+					factor = 1
+				}
+            }
+            action_button_2_click = {
+                ai_will_do = {
+					factor = 1
+                }
+            }
+            action_button_3_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        factor = 0
+                        
+                        stockpile_ratio = {
+                            archetype = spellcaster_equipment
+                            ratio > 1
+                        }
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        stockpile_ratio = {
+                            archetype = spellcaster_equipment
+                            ratio < 0.9
+                        }
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        stockpile_ratio = {
+                            archetype = spellcaster_equipment
+                            ratio < 0.6
+                        }
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        stockpile_ratio = {
+                            archetype = spellcaster_equipment
+                            ratio < 0.3
+                        }
+                    }
+				}
+            }
+            action_button_4_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        add = 1
+                        
+                        political_power_daily < 1
+                    }
+				}
+            }
+            action_button_5_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        factor = 0
+                        
+                        stockpile_ratio = {
+                            archetype = grunt_equipment
+                            ratio > 1
+                        }
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        stockpile_ratio = {
+                            archetype = grunt_equipment
+                            ratio < 0.9
+                        }
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        stockpile_ratio = {
+                            archetype = grunt_equipment
+                            ratio < 0.6
+                        }
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        stockpile_ratio = {
+                            archetype = grunt_equipment
+                            ratio < 0.3
+                        }
+                    }
+				}
+            }
+            action_button_6_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        add = 5
+                        
+                        amount_research_slots < 4
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        amount_research_slots < 6
+                    }
+				}
+            }
+        }
+	}
+    
+    #---------------------------------------------
+    # Capitalism
+    #---------------------------------------------
+    capitalism_menu = {
+		context_type = player_context
+		window_name = "religion_menu"
+        
+        visible = {
+            has_capitalism = yes
+            can_show_religion_menu = yes
+        }
+        
+		effects = {
+            action_button_1_click = {
+                 check_faith_action_1_cost = yes
+                 capitalism_action_1 = yes
+            }
+            action_button_2_click = {
+                 check_faith_action_2_cost = yes
+                 capitalism_action_2 = yes
+            }
+            action_button_3_click = {
+                 check_faith_action_3_cost = yes
+                 capitalism_action_3 = yes
+            }
+            action_button_4_click = {
+                 check_faith_action_4_cost = yes
+                 capitalism_action_4 = yes
+            } 
+            action_button_5_click = {
+                 check_faith_action_5_cost = yes
+                 capitalism_action_5 = yes
+            }
+            action_button_6_click = {
+                 check_faith_action_6_cost = yes
+                 capitalism_action_6 = yes
+            }
+		}
+        triggers = {
+            action_button_1_click_enabled = {
+                can_afford_faith_action_1 = yes
+                capitalism_action_trigger_1 = yes
+            }
+            action_button_2_click_enabled = {
+                can_afford_faith_action_2 = yes
+                capitalism_action_trigger_2 = yes
+            }
+            action_button_3_click_enabled = {
+                can_afford_faith_action_3 = yes
+                capitalism_action_trigger_3 = yes
+            }
+            action_button_4_click_enabled = {
+                can_afford_faith_action_4 = yes
+                capitalism_action_trigger_4 = yes
+            }
+            action_button_5_click_enabled = {
+                can_afford_faith_action_5 = yes
+                capitalism_action_trigger_5 = yes
+            }
+            action_button_6_click_enabled = {
+                can_afford_faith_action_6 = yes
+                capitalism_action_trigger_6 = yes
+            }
+        }
+        
+        properties = {
+            religion_icon_64 = {
+                image = "GFX_icon_religion"
+                frame = root.country_religion
+            }
+        }
+        
+        ai_enabled = { always = yes }
+        
+        ai_test_interval = @AI_RELIGION_TEST_INTERVAL
+        ai_test_variance = @AI_RELIGION_TEST_VARIANCE
+        
+        ai_check = {
+            has_capitalism = yes
+            check_variable = { faith_power > @FAITH_POWER_THRESHOLD }
+        }
+        
+        ai_weights = {
+            action_button_1_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        factor = 0
+                        
+                        has_war = no
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        has_offensive_war = yes
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        surrender_progress < 0.1
+                    }
+				}
+            }
+            action_button_2_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        factor = 0
+                        
+                        stockpile_ratio = {
+                            archetype = grunt_equipment
+                            ratio > 1
+                        }
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        stockpile_ratio = {
+                            archetype = grunt_equipment
+                            ratio < 0.9
+                        }
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        stockpile_ratio = {
+                            archetype = grunt_equipment
+                            ratio < 0.6
+                        }
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        stockpile_ratio = {
+                            archetype = grunt_equipment
+                            ratio < 0.3
+                        }
+                    }
+                }
+            }
+            action_button_3_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        factor = 0
+                        
+                        has_tech_bonus = {
+                            category = doctrine_tech
+                        }
+                    }
+				}
+            }
+            action_button_4_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        factor = 0
+                        
+                        has_war_support > 0.9
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        has_war_support < 0.5
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        has_war_support < 0.25
+                    }
+				}
+            }
+            action_button_5_click = {
+                ai_will_do = {
+					factor = 5
+                    
+                    modifier = {
+                        factor = 0
+                        
+                        NOT = {
+                            any_unit_leader = {
+                                is_leading_army = yes
+                            }
+                        }
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        has_war = yes
+                    }
+				}
+            }
+            action_button_6_click = {
+                ai_will_do = {
+					factor = 1
+				}
+            }
+        }
+	}
+    
+    #---------------------------------------------
+    # Soul
+    #---------------------------------------------
+    soul_menu = {
+		context_type = player_context
+		window_name = "religion_menu"
+        
+        visible = {
+            has_soul = yes
+            can_show_religion_menu = yes
+        }
+        
+		effects = {
+            action_button_1_click = {
+                 check_faith_action_1_cost = yes
+                 soul_action_1 = yes
+            }
+            action_button_2_click = {
+                 check_faith_action_2_cost = yes
+                 soul_action_2 = yes
+            }
+            action_button_3_click = {
+                 check_faith_action_3_cost = yes
+                 soul_action_3 = yes
+            }
+            action_button_4_click = {
+                 check_faith_action_4_cost = yes
+                 soul_action_4 = yes
+            } 
+            action_button_5_click = {
+                 check_faith_action_5_cost = yes
+                 soul_action_5 = yes
+            }
+            action_button_6_click = {
+                 check_faith_action_6_cost = yes
+                 soul_action_6 = yes
+            }
+		}
+        triggers = {
+            action_button_1_click_enabled = {
+                can_afford_faith_action_1 = yes
+                soul_action_trigger_1 = yes
+            }
+            action_button_2_click_enabled = {
+                can_afford_faith_action_2 = yes
+                soul_action_trigger_2 = yes
+            }
+            action_button_3_click_enabled = {
+                can_afford_faith_action_3 = yes
+                soul_action_trigger_3 = yes
+            }
+            action_button_4_click_enabled = {
+                can_afford_faith_action_4 = yes
+                soul_action_trigger_4 = yes
+            }
+            action_button_5_click_enabled = {
+                can_afford_faith_action_5 = yes
+                soul_action_trigger_5 = yes
+            }
+            action_button_6_click_enabled = {
+                can_afford_faith_action_6 = yes
+                soul_action_trigger_6 = yes
+            }
+        }
+        
+        properties = {
+            religion_icon_64 = {
+                image = "GFX_icon_religion"
+                frame = root.country_religion
+            }
+        }
+        
+        ai_enabled = { always = yes }
+        
+        ai_test_interval = @AI_RELIGION_TEST_INTERVAL
+        ai_test_variance = @AI_RELIGION_TEST_VARIANCE
+        
+        ai_check = {
+            has_soul = yes
+            check_variable = { faith_power > @FAITH_POWER_THRESHOLD }
+        }
+        
+        ai_weights = {
+            action_button_1_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        factor = 0
+                        
+                        has_low_manpower = yes
+                    }
+				}
+            }
+            action_button_2_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        factor = 0
+                        
+                        shadow > 0.9
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        shadow < 0.5
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        shadow < 0.4
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        shadow < 0.3
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        shadow < 0.2
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        shadow < 0.1
+                    }
+                }
+            }
+            action_button_3_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        factor = 0
+                        
+                        stockpile_ratio = {
+                            archetype = grunt_equipment
+                            ratio < 1.0
+                        }
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        num_divisions < 5
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        num_divisions < 10
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        num_divisions < 15
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        num_divisions < 20
+                    }
+				}
+            }
+            action_button_4_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        factor = 0
+                        
+                        NOT = {
+                            any_unit_leader = {
+                                is_leading_army = yes
+                            }
+                        }
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        has_war = yes
+                    }
+				}
+            }
+            action_button_5_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        add = 1
+                        
+                        any_unit_leader = {
+                            OR = {
+                                attack_skill_level < 2
+                                planning_skill_level < 2
+                                logistics_skill_level < 2
+                                defense_skill_level < 2
+                            }
+                        }
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        any_unit_leader = {
+                            OR = {
+                                attack_skill_level < 4
+                                planning_skill_level < 4
+                                logistics_skill_level < 4
+                                defense_skill_level < 4
+                            }
+                        }
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        any_unit_leader = {
+                            OR = {
+                                attack_skill_level < 6
+                                planning_skill_level < 6
+                                logistics_skill_level < 6
+                                defense_skill_level < 6
+                            }
+                        }
+                    }
+				}
+            }
+            action_button_6_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        add = 2
+                        
+                        any_claim = no
+                    }
+                    
+                    modifier = {
+                        factor = 0
+                        
+                        any_claim = yes
+                    }
+				}
+            }
+        }
+	}
+    
+    #---------------------------------------------
+    # Runic
+    #---------------------------------------------
+    runic_menu = {
+		context_type = player_context
+		window_name = "religion_menu"
+        
+        visible = {
+            has_runic = yes
+            can_show_religion_menu = yes
+        }
+        
+		effects = {
+            action_button_1_click = {
+                 check_faith_action_1_cost = yes
+                 runic_action_1 = yes
+            }
+            action_button_2_click = {
+                 check_faith_action_2_cost = yes
+                 runic_action_2 = yes
+            }
+            action_button_3_click = {
+                 check_faith_action_3_cost = yes
+                 runic_action_3 = yes
+            }
+            action_button_4_click = {
+                 check_faith_action_4_cost = yes
+                 runic_action_4 = yes
+            } 
+            action_button_5_click = {
+                 check_faith_action_5_cost = yes
+                 runic_action_5 = yes
+            }
+            action_button_6_click = {
+                 check_faith_action_6_cost = yes
+                 runic_action_6 = yes
+            }
+		}
+        triggers = {
+            action_button_1_click_enabled = {
+                can_afford_faith_action_1 = yes
+                runic_action_trigger_1 = yes
+            }
+            action_button_2_click_enabled = {
+                can_afford_faith_action_2 = yes
+                runic_action_trigger_2 = yes
+            }
+            action_button_3_click_enabled = {
+                can_afford_faith_action_3 = yes
+                runic_action_trigger_3 = yes
+            }
+            action_button_4_click_enabled = {
+                can_afford_faith_action_4 = yes
+                runic_action_trigger_4 = yes
+            }
+            action_button_5_click_enabled = {
+                can_afford_faith_action_5 = yes
+                runic_action_trigger_5 = yes
+            }
+            action_button_6_click_enabled = {
+                can_afford_faith_action_6 = yes
+                runic_action_trigger_6 = yes
+            }
+        }
+        
+        properties = {
+            religion_icon_64 = {
+                image = "GFX_icon_religion"
+                frame = root.country_religion
+            }
+        }
+        
+        ai_enabled = { always = yes }
+        
+        ai_test_interval = @AI_RELIGION_TEST_INTERVAL
+        ai_test_variance = @AI_RELIGION_TEST_VARIANCE
+        
+        ai_check = {
+            has_runic = yes
+            check_variable = { faith_power > @FAITH_POWER_THRESHOLD }
+        }
+        
+        ai_weights = {
+            action_button_1_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        factor = 0
+                        
+                        has_war = no
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        has_offensive_war = yes
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        surrender_progress < 0.1
+                    }
+				}
+            }
+            action_button_2_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        factor = 0
+                        
+                        order > 0.9
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        order < 0.5
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        order < 0.4
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        order < 0.3
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        order < 0.2
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        order < 0.1
+                    }
+                }
+            }
+            action_button_3_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        factor = 0
+                        
+                        NOT = {
+                            any_unit_leader = {
+                                is_leading_army = yes
+                            }
+                        }
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        has_war = yes
+                    }
+				}
+            }
+            action_button_4_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        add = 2
+                        
+                        has_low_manpower_factory_ratio = yes
+                    }
+				}
+            }
+            action_button_5_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        factor = 0
+                        
+                        stockpile_ratio = {
+                            archetype = champion_equipment
+                            ratio > 1
+                        }
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        stockpile_ratio = {
+                            archetype = champion_equipment
+                            ratio < 0.9
+                        }
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        stockpile_ratio = {
+                            archetype = champion_equipment
+                            ratio < 0.6
+                        }
+                    }
+                    
+                    modifier = {
+                        add = 1
+                        
+                        stockpile_ratio = {
+                            archetype = champion_equipment
+                            ratio < 0.3
+                        }
+                    }
+				}
+            }
+            action_button_6_click = {
+                ai_will_do = {
+					factor = 1
+                    
+                    modifier = {
+                        add = 2
+                        
+                        any_claim = no
+                    }
+                    
+                    modifier = {
+                        factor = 0
+                        
+                        any_claim = yes
+                    }
+				}
+            }
+        }
+	}
+    
+    #---------------------------------------------
+    # END
+    #---------------------------------------------
+}    

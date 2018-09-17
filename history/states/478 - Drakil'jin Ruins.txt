@@ -1,0 +1,71 @@
+state = {
+	id = 478
+	name = "DRAKILJIN_RUINS"
+	manpower = 837
+	state_category = rural
+
+	resources = {
+		oil = 4
+		ground_beast = 4
+		flying_beast = 1
+		wood = 11
+		steel = 5
+		food = 13
+	}
+
+	history = {
+		owner = RDF
+		add_core_of = RDF
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 2
+			industrial_complex = 0
+			dockyard = 0
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			5240 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 4
+			}
+			5349 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 6
+			}
+			5706 = {
+				bunker = 0
+			}
+			5718 = {
+				bunker = 0
+			}
+			5816 = {
+				bunker = 0
+			}
+			5257 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 8
+			}
+		}
+	}
+
+	provinces = {
+        5240 5349 5706 5718 5816 5257
+    }
+}

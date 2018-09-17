@@ -1,0 +1,57 @@
+state = {
+	id = 333
+	name = "VEILED_STAIR"
+	manpower = 4655
+	state_category = village
+
+	resources = {
+		oil = 4
+		flying_beast = 8
+		wood = 24
+		steel = 4
+		food = 16
+	}
+
+	history = {
+		owner = MOH
+		add_core_of = MOH
+
+		buildings = {
+			infrastructure = 3
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 4
+			industrial_complex = 3
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			6634 = {
+				bunker = 0
+			}
+			6658 = {
+				bunker = 0
+			}
+			6659 = {
+				bunker = 0
+			}
+			6683 = {
+				bunker = 0
+			}
+			6689 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        6634 6658 6659 6683 6689 
+    }
+}

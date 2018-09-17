@@ -1,0 +1,64 @@
+state = {
+	id = 832
+	name = "THE_DRY_HILLS"
+	manpower = 689
+	state_category = rural
+
+	resources = {
+		oil = 1
+		ground_beast = 3
+		flying_beast = 5
+		wood = 6
+		steel = 5
+		food = 11
+	}
+
+	history = {
+		owner = WIW
+		add_core_of = WIW
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 2
+			industrial_complex = 2
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			4131 = {
+				bunker = 0
+			}
+			4140 = {
+				bunker = 0
+			}
+			4150 = {
+				bunker = 0
+			}
+			4151 = {
+				bunker = 0
+			}
+			4160 = {
+				bunker = 0
+			}
+			4189 = {
+				bunker = 0
+			}
+			4198 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        4131 4140 4150 4151 4160 4189 4198 
+    }
+}

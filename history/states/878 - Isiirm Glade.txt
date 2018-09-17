@@ -1,0 +1,54 @@
+state = {
+	id = 878
+	name = "ISIIRM_GLADE"
+	manpower = 692
+	state_category = rural
+
+	resources = {
+		ground_beast = 3
+		flying_beast = 9
+		wood = 10
+		steel = 6
+		food = 17
+	}
+
+	history = {
+		owner = HAL
+		add_core_of = HAL
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 2
+			industrial_complex = 2
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			3823 = {
+				bunker = 0
+			}
+			4073 = {
+				bunker = 0
+			}
+			4102 = {
+				bunker = 0
+			}
+			4121 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        3823 4073 4102 4121 
+    }
+}

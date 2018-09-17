@@ -1,0 +1,3404 @@
+#-------------------------------------------------------------------------------
+# Religion
+#-------------------------------------------------------------------------------
+# This is the implementation effects of the Religion view for countries. #
+# This allows countries to exchange mana for effects.
+
+# General Effects:
+# set_religion_none
+# set_religion_the_holy_light
+# set_religion_elune
+# set_religion_hakkar
+# set_religion_voodoo
+# set_religion_shadow
+# set_religion_nature
+# set_religion_deep_mother
+# set_religion_arcane
+# set_religion_druidism
+# set_religion_old_gods
+# set_religion_old_gods_cthun
+# set_religion_old_gods_yshaarj
+# set_religion_old_gods_yogg_saron
+# set_religion_old_gods_nzoth
+# set_religion_fel
+# set_religion_necromancy
+# set_religion_shamanism
+# set_religion_celestials
+# set_religion_celestials_yulon
+# set_religion_celestials_niuzao
+# set_religion_celestials_chiji
+# set_religion_celestials_xuen
+# set_religion_titan
+# set_religion_fire
+# set_religion_earth
+# set_religion_air
+# set_religion_water
+# set_religion_geomancy
+# set_religion_light_of_the_naaru
+# set_religion_dragon_aspects
+# set_religion_dragon_aspects_red
+# set_religion_dragon_aspects_blue
+# set_religion_dragon_aspects_green
+# set_religion_dragon_aspects_black
+# set_religion_technomancy
+# set_religion_capitalism
+# set_religion_soul
+# set_religion_runic
+
+# ROOT = Country
+setup_religion_variables = {
+    set_variable = { faith_action_1_cost = 100 }    # Cost of Religion Action 1
+    set_variable = { faith_action_2_cost = 100 }    # Cost of Religion Action 2
+    set_variable = { faith_action_3_cost = 100 }    # Cost of Religion Action 3
+    set_variable = { faith_action_4_cost = 100 }    # Cost of Religion Action 4
+    set_variable = { faith_action_5_cost = 100 }    # Cost of Religion Action 5
+    set_variable = { faith_action_6_cost = 100 }    # Cost of Religion Action 6
+    set_variable = { faith_power = 0 }              # Current Faith Power
+    set_variable = { faith_gain = 0 }               # Current Faith Gain (other)
+    set_variable = { faith_gain_base = 1 }          # Current Faith Gain (base)
+    set_variable = { faith_gain_multiplier = 1 }    # Multiplier applied to Faith Gain (other)
+    set_variable = { faith_action_multiplier = 1 }  # Multiplier to the size of certain effects
+    set_variable = { country_religion = 0 }         # Current religion
+    
+    #-------------------------------------
+    # Human
+    #-------------------------------------
+    if = {
+        limit = { is_human = yes }
+        set_religion_the_holy_light = yes
+    }
+    if = {
+        limit = { original_tag = DAL }
+        set_religion_arcane = yes
+    }
+    if = {
+        limit = { original_tag = KAZ }
+        set_religion_arcane = yes
+    }
+    if = {
+        limit = { original_tag = BLO }
+        set_religion_capitalism = yes
+    }
+    
+    #-------------------------------------
+    # Aqir
+    #-------------------------------------
+    if = {
+        limit = { is_aqir = yes }
+        set_religion_old_gods_cthun = yes
+    }
+    
+    #-------------------------------------
+    # Nerubian
+    #-------------------------------------
+    if = {
+        limit = { is_nerubian = yes }
+        set_religion_arcane = yes
+    }
+    
+    #-------------------------------------
+    # Centaur
+    #-------------------------------------
+    if = {
+        limit = { is_centaur = yes }
+        set_religion_shamanism = yes
+    }
+    
+    #-------------------------------------
+    # Draenei
+    #-------------------------------------
+    if = {
+        limit = { is_draenei = yes }
+        set_religion_light_of_the_naaru = yes
+    }
+    if = {
+        limit = { original_tag = LSO }
+        set_religion_shadow = yes
+    }
+    if = {
+        limit = { original_tag = POR }
+        set_religion_shadow = yes
+    }
+    
+    #-------------------------------------
+    # Dragonflight
+    #-------------------------------------
+    if = {
+        limit = { is_dragonflight = yes }
+        set_religion_dragon_aspects = yes
+    }
+    if = {
+        limit = { original_tag = WYT }
+        set_religion_dragon_aspects_red = yes
+    }
+    if = {
+        limit = { original_tag = GMB }
+        set_religion_dragon_aspects_red = yes
+    }
+    if = {
+        limit = { original_tag = TWG }
+        set_religion_dragon_aspects_green = yes
+    }
+    if = {
+        limit = { original_tag = SER }
+        set_religion_dragon_aspects_green = yes
+    }
+    if = {
+        limit = { original_tag = EDS }
+        set_religion_dragon_aspects_green = yes
+    }
+    if = {
+        limit = { original_tag = DRB }
+        set_religion_dragon_aspects_green = yes
+    }
+    if = {
+        limit = { original_tag = WYB }
+        set_religion_dragon_aspects_black = yes
+    }
+    if = {
+        limit = { original_tag = ODS }
+        set_religion_dragon_aspects_black = yes
+    }
+    if = {
+        limit = { original_tag = NEX }
+        set_religion_dragon_aspects_blue = yes
+    }
+    if = {
+        limit = { original_tag = ADS }
+        set_religion_dragon_aspects_blue = yes
+    }
+    if = {
+        limit = { original_tag = AZW }
+        set_religion_dragon_aspects_blue = yes
+    }
+    
+    #-------------------------------------
+    # Dwarf
+    #-------------------------------------
+    if = {
+        limit = { is_dwarf = yes }
+        set_religion_the_holy_light = yes
+    }
+    if = {
+        limit = { original_tag = WIL }
+        set_religion_shamanism = yes
+    }
+    if = {
+        limit = { original_tag = DKI }
+        set_religion_fire = yes
+    }
+    
+    #-------------------------------------
+    # Dryad
+    #-------------------------------------
+    if = {
+        limit = { is_dryad = yes }
+        set_religion_nature = yes
+    }
+    
+    #-------------------------------------
+    # Earthen
+    #-------------------------------------
+    if = {
+        limit = { is_earthern = yes }
+        set_religion_titan = yes
+    }
+    
+    #-------------------------------------
+    # High Elf
+    #-------------------------------------
+    if = {
+        limit = { is_high_elf = yes }
+        set_religion_arcane = yes
+    }
+    
+    #-------------------------------------
+    # Nightborne
+    #-------------------------------------
+    if = {
+        limit = { is_nightborne = yes }
+        set_religion_arcane = yes
+    }
+    
+    #-------------------------------------
+    # Night Elf
+    #-------------------------------------
+    if = {
+        limit = { is_night_elf = yes }
+        set_religion_elune = yes
+    }
+    
+    #-------------------------------------
+    # Furbolg
+    #-------------------------------------
+    if = {
+        limit = { is_furbolg = yes }
+        set_religion_shamanism = yes
+    }
+    
+    #-------------------------------------
+    # Gnoll
+    #-------------------------------------
+    if = {
+        limit = { is_gnoll = yes }
+        set_religion_shamanism = yes
+    }
+    
+    if = {
+        limit = { original_tag = ROT }
+        set_religion_necromancy = yes
+    }
+    
+    #-------------------------------------
+    # Gnome
+    #-------------------------------------
+    if = {
+        limit = { is_gnome = yes }
+        set_religion_technomancy = yes
+    }
+    
+    #-------------------------------------
+    # Goblin
+    #-------------------------------------
+    if = {
+        limit = { is_goblin = yes }
+        set_religion_capitalism = yes
+    }
+    
+    #-------------------------------------
+    # Gorloc
+    #-------------------------------------
+    if = {
+        limit = { is_gorloc = yes }
+        set_religion_shamanism = yes
+    }
+    
+    #-------------------------------------
+    # Harpy
+    #-------------------------------------
+    if = {
+        limit = { is_harpy = yes }
+        set_religion_wind = yes
+    }
+    
+    #-------------------------------------
+    # Hozen
+    #-------------------------------------
+    if = {
+        limit = { is_hozen = yes }
+        set_religion_celestials_yulon = yes
+    }
+    
+    #-------------------------------------
+    # Jinyu
+    #-------------------------------------
+    if = {
+        limit = { is_jinyu = yes }
+        set_religion_celestials_yulon = yes
+    }
+    
+    #-------------------------------------
+    # Kobold
+    #-------------------------------------
+    if = {
+        limit = { is_kobold = yes }
+        set_religion_geomancy = yes
+    }
+    
+    #-------------------------------------
+    # Magnataur
+    #-------------------------------------
+    if = {
+        limit = { is_magnataur = yes }
+        set_religion_geomancy = yes
+    }
+    
+    #-------------------------------------
+    # Mantid
+    #-------------------------------------
+    if = {
+        limit = { is_mantid = yes }
+        set_religion_old_gods_yshaarj = yes
+    }
+    
+    #-------------------------------------
+    # Mogu
+    #-------------------------------------
+    if = {
+        limit = { is_mogu = yes }
+        set_religion_soul = yes
+    }
+    
+    #-------------------------------------
+    # Murloc
+    #-------------------------------------
+    if = {
+        limit = { is_murloc = yes }
+        set_religion_deep_mother = yes
+    }
+    
+    #-------------------------------------
+    # Naga
+    #-------------------------------------
+    if = {
+        limit = { is_naga = yes }
+        set_religion_old_gods_nzoth = yes
+    }
+    
+    #-------------------------------------
+    # Ogre
+    #-------------------------------------
+    if = {
+        limit = { is_ogre = yes }
+        set_religion_geomancy = yes
+    }
+    
+    #-------------------------------------
+    # Orc
+    #-------------------------------------
+    if = {
+        limit = { is_orc = yes }
+        set_religion_fel = yes
+    }
+    
+    if = {
+        limit = { original_tag = ORG }
+        set_religion_shamanism = yes
+    }
+    
+    #-------------------------------------
+    # Pandaren
+    #-------------------------------------
+    if = {
+        limit = { is_pandaren = yes }
+        set_religion_celestials_yulon = yes
+    }
+    if = {
+        limit = { original_tag = BOX }
+        set_religion_celestials_niuzao = yes
+    }
+    if = {
+        limit = { original_tag = RCR }
+        set_religion_celestials_chiji = yes
+    }
+    if = {
+        limit = { original_tag = TIG }
+        set_religion_celestials_xuen = yes
+    }
+    if = {
+        limit = { original_tag = TIL }
+        set_religion_nature = yes
+    }
+    
+    #-------------------------------------
+    # Pygmy
+    #-------------------------------------
+    if = {
+        limit = { is_pygmy = yes }
+        set_religion_shamanism = yes
+    }
+    
+    #-------------------------------------
+    # Quillboar
+    #-------------------------------------
+    if = {
+        limit = { is_quillboar = yes }
+        set_religion_shamanism = yes
+    }
+    
+    #-------------------------------------
+    # Satyr
+    #-------------------------------------
+    if = {
+        limit = { is_satyr = yes }
+        set_religion_fel = yes
+    }
+    
+    #-------------------------------------
+    # Saurok
+    #-------------------------------------
+    if = {
+        limit = { is_saurok = yes }
+        set_religion_shamanism = yes
+    }
+    
+    #-------------------------------------
+    # Scourge
+    #-------------------------------------
+    if = {
+        limit = { is_scourge = yes }
+        set_religion_necromancy = yes
+    }
+    
+    #-------------------------------------
+    # Sprite
+    #-------------------------------------
+    if = {
+        limit = { is_sprite = yes }
+        set_religion_nature = yes
+    }
+    
+    #-------------------------------------
+    # Tauren
+    #-------------------------------------
+    if = {
+        limit = { is_tauren = yes }
+        set_religion_shamanism = yes
+    }
+    if = {
+        limit = { original_tag = GMT }
+        set_religion_shadow = yes
+    }
+    
+    #-------------------------------------
+    # Taunka
+    #-------------------------------------
+    if = {
+        limit = { is_taunka = yes }
+        set_religion_shamanism = yes
+    }
+    
+    #-------------------------------------
+    # Tolvir
+    #-------------------------------------
+    if = {
+        limit = { is_tolvir = yes }
+        set_religion_wind = yes
+    }
+    
+    #-------------------------------------
+    # Titan
+    #-------------------------------------
+    if = {
+        limit = { is_titan = yes }
+        set_religion_titan = yes
+    }
+
+    if = {
+        limit = { original_tag = ULD }
+        set_religion_old_gods_yogg_saron = yes
+    }
+    
+    #-------------------------------------
+    # Trogg
+    #-------------------------------------
+    if = {
+        limit = { is_trogg = yes }
+        set_religion_geomancy = yes
+    }
+    
+    #-------------------------------------
+    # Troll
+    #-------------------------------------
+    if = {
+        limit = { is_troll = yes }
+        set_religion_voodoo = yes
+    }
+    
+    if = {
+        limit = { original_tag = ATL }
+        set_religion_hakkar = yes
+    }
+    
+    #-------------------------------------
+    # Tuskarr
+    #-------------------------------------
+    if = {
+        limit = { is_tuskarr = yes }
+        set_religion_shamanism = yes
+    }
+    
+    #-------------------------------------
+    # Undead
+    #-------------------------------------
+    if = {
+        limit = { is_undead = yes }
+        set_religion_necromancy = yes
+    }
+    
+    #-------------------------------------
+    # Vrykul
+    #-------------------------------------
+    if = {
+        limit = { is_vrykul = yes }
+        set_religion_runic = yes
+    }
+    
+    if = {
+        limit = { original_tag = YMI }
+        set_religion_necromancy = yes
+    }
+    
+    #-------------------------------------
+    # Wolvar
+    #-------------------------------------
+    if = {
+        limit = { is_wolvar = yes }
+        set_religion_shamanism = yes
+    }
+    
+    #-------------------------------------
+    # Yaungol
+    #-------------------------------------
+    if = {
+        limit = { is_yaungol = yes }
+        set_religion_fire = yes
+    }
+    
+    #-------------------------------------
+    # Cost Adjustments per Religion
+    #-------------------------------------
+    if = {
+        limit = { has_arcane = yes }
+        
+        set_variable = { faith_action_6_cost = 1000 }
+    }
+    if = {
+        limit = { has_technomancy = yes }
+        
+        set_variable = { faith_action_6_cost = 1000 }
+    }
+}
+
+# ROOT = Processor
+# Called every 24 hours
+religion_update = {
+    every_country = {
+        limit = {
+            check_variable = { country_religion > 0 }
+        }
+        set_temp_variable = { growth = faith_gain_base }
+        add_to_temp_variable = { growth = faith_gain }
+        multiply_temp_variable = { growth = faith_gain_multiplier }
+        add_to_variable = { faith_power = growth }
+        
+        if = { 
+            limit = {
+                check_variable = {
+                    faith_power > 1000
+                }
+            }
+            set_variable = {
+                faith_power = 1000
+            }
+        }
+        if = {
+            limit = {
+                check_variable = {
+                    faith_power < 0
+                }
+            }
+            set_variable = {
+                faith_power = 0
+            }
+        }
+    }
+}
+
+check_faith_action_1_cost = {
+    subtract_from_variable = { faith_power = faith_action_1_cost }
+    if = {
+        limit = { check_variable = { faith_power < 0 } }
+        set_variable = { faith_power = 0 }
+    }
+}
+
+check_faith_action_2_cost = {
+    subtract_from_variable = { faith_power = faith_action_2_cost }
+    if = {
+        limit = { check_variable = { faith_power < 0 } }
+        set_variable = { faith_power = 0 }
+    }
+}
+
+check_faith_action_3_cost = {
+    subtract_from_variable = { faith_power = faith_action_3_cost }
+    if = {
+        limit = { check_variable = { faith_power < 0 } }
+        set_variable = { faith_power = 0 }
+    }
+}
+
+check_faith_action_4_cost = {
+    subtract_from_variable = { faith_power = faith_action_4_cost }
+    if = {
+        limit = { check_variable = { faith_power < 0 } }
+        set_variable = { faith_power = 0 }
+    }
+}
+
+check_faith_action_5_cost = {
+    subtract_from_variable = { faith_power = faith_action_5_cost }
+    if = {
+        limit = { check_variable = { faith_power < 0 } }
+        set_variable = { faith_power = 0 }
+    }
+}
+
+check_faith_action_6_cost = {
+    subtract_from_variable = { faith_power = faith_action_6_cost }
+    if = {
+        limit = { check_variable = { faith_power < 0 } }
+        set_variable = { faith_power = 0 }
+    }
+}
+
+#------------------------------------
+# Arcane
+#------------------------------------
+# Arcane Surge
+arcanum_action_1 = {
+    if = {
+        limit = {
+            NOT = { has_idea = arcane_surge }
+        }
+        
+        set_temp_variable = { base = 30 }
+        multiply_temp_variable = { base = faith_action_multiplier }
+        
+        add_timed_idea = {
+            idea = arcane_surge
+            days = var:base
+        }
+    }
+    else = {
+        custom_effect_tooltip = ALREADY_ARCANE_SURGE
+    }
+}
+
+# Magi Dealings
+arcanum_action_2 = {
+    custom_effect_tooltip = MAGI_DEALINGS_TOOLTIP
+    add_pp_from_order = yes
+}
+
+# Train Magi 
+arcanum_action_3 = {
+    add_spellcaster_equipment = yes
+}
+
+# Empower the Arcane
+arcanum_action_4 = {
+    if = {
+        limit = {
+            NOT = { has_idea = arcane_empowerment }
+        }
+        
+        set_temp_variable = { base = 30 }
+        multiply_temp_variable = { base = faith_action_multiplier }
+        
+        add_timed_idea = {
+            idea = arcane_empowerment
+            days = var:base
+        }
+    }
+    else = {
+        custom_effect_tooltip = ALREADY_ARCANE_EMPOWERMENT
+    }
+}
+
+# Arcane Knowledge
+arcanum_action_5 = {
+    add_tech_bonus = {
+        name = ARCANE_KNOWLEDGE
+        bonus = 0.5
+        uses = 1
+        category = spellcaster_tech
+    }
+}
+
+# Delve into the Arcane
+arcanum_action_6 = {
+    if = {
+        limit = { amount_research_slots < 20 }
+  
+        add_research_slot = 1
+    }
+    else = {
+        custom_effect_tooltip = MAXIMUM_RESEARCH_SLOTS
+    }
+}
+
+#------------------------------------
+# Celestials
+#------------------------------------
+# Tribute to [Root.GetCelestial]
+celestials_action_1 = {
+    set_temp_variable = { base = 30 }
+    multiply_temp_variable = { base = faith_action_multiplier }
+        
+    if = {
+        limit = {
+            has_yulon = yes
+            NOT = { has_idea = gift_of_yulon }
+        }
+        
+        add_timed_idea = {
+            idea = gift_of_yulon
+            days = var:base
+        }
+    }
+    else_if = {
+        limit = {
+            has_niuzao = yes
+            NOT = { has_idea = gift_of_niuzao }
+        }
+        add_timed_idea = {
+            idea = gift_of_niuzao
+            days = var:base
+        }
+    }
+    else_if = {
+        limit = { 
+            has_chiji = yes
+            NOT = { has_idea = gift_of_chiji }
+        }
+        add_timed_idea = {
+            idea = gift_of_chiji
+            days = var:base
+        }
+    }
+    else_if = {
+        limit = { 
+            has_xuen = yes
+            NOT = { has_idea = gift_of_xuen }
+        }
+        add_timed_idea = {
+            idea = gift_of_xuen
+            days = var:base
+        }
+    }
+    else = {
+        custom_effect_tooltip = ALREADY_GIFT_OF_CELESTIAL_X
+    }
+}
+
+# Wisdom of [Root.GetCelestial]
+celestials_action_2 = {
+    set_temp_variable = { base = 30 }
+    multiply_temp_variable = { base = faith_action_multiplier }
+    
+    if = {
+        limit = {
+            has_yulon = yes
+            NOT = { has_idea = wisdom_of_yulon }
+        }
+        add_timed_idea = {
+            idea = wisdom_of_yulon
+            days = var:base
+        }
+    }
+    else_if = {
+        limit = {
+            has_niuzao = yes
+            NOT = { has_idea = wisdom_of_niuzao }
+        }
+        add_timed_idea = {
+            idea = wisdom_of_niuzao
+            days = var:base
+        }
+    }
+    else_if = {
+        limit = { 
+            has_chiji = yes
+            NOT = { has_idea = wisdom_of_chiji }
+        }
+        add_timed_idea = {
+            idea = wisdom_of_chiji
+            days = var:base
+        }
+    }
+    else_if = {
+        limit = { 
+            has_xuen = yes
+            NOT = { has_idea = wisdom_of_xuen }
+        }
+        add_timed_idea = {
+            idea = wisdom_of_xuen
+            days = var:base
+        }
+    }
+    else = {
+        custom_effect_tooltip = ALREADY_WISDOM_OF_CELESTIAL_X
+    }
+}
+
+# Restore Balance
+celestials_action_3 = {
+    add_popularity_x_10 = yes
+}
+
+# Seek Harmony
+celestials_action_4 = {
+    add_scaled_stability = yes
+}
+
+# Promote Prosperity
+celestials_action_5 = {
+    custom_effect_tooltip = PROSPERITY_TOOTLTIP
+    add_pp_from_life = yes
+}
+
+# Fury of [Root.GetCelestial]
+celestials_action_6 = {
+    set_temp_variable = { base = 30 }
+    multiply_temp_variable = { base = faith_action_multiplier }
+    
+    if = {
+        limit = {
+            has_yulon = yes
+            NOT = { has_idea = fury_of_yulon }
+        }
+        add_timed_idea = {
+            idea = fury_of_yulon
+            days = var:base
+        }
+    }
+    else_if = {
+        limit = {
+            has_niuzao = yes
+            NOT = { has_idea = fury_of_niuzao }
+        }
+        add_timed_idea = {
+            idea = fury_of_niuzao
+            days = var:base
+        }
+    }
+    else_if = {
+        limit = { 
+            has_chiji = yes
+            NOT = { has_idea = fury_of_chiji }
+        }
+        add_timed_idea = {
+            idea = fury_of_chiji
+            days = var:base
+        }
+    }
+    else_if = {
+        limit = { 
+            has_xuen = yes
+            NOT = { has_idea = fury_of_xuen }
+        }
+        add_timed_idea = {
+            idea = fury_of_xuen
+            days = var:base
+        }
+    }
+    else = {
+        custom_effect_tooltip = ALREADY_FURY_OF_CELESTIAL_X
+    }
+}
+
+#------------------------------------
+# Deep Mother
+#------------------------------------
+# Muster Murloc Weaponry
+deep_mother_action_1 = {
+    add_grunt_equipment = yes
+}
+
+# Blessing of the Deep Mother
+deep_mother_action_2 = {
+    add_offsite_building = {
+        type = arms_factory
+        level = 1
+    }
+}
+
+# Aaaaaughibbrgubugbugrguburgle!
+deep_mother_action_3 = {
+   if = {
+        limit = {
+            NOT = { has_idea = murloc_warcry }
+        }
+        
+        set_temp_variable = { base = 30 }
+        multiply_temp_variable = { base = faith_action_multiplier }
+        
+        add_timed_idea = {
+            idea = murloc_warcry
+            days = var:base
+        }
+    }
+    else = {
+        custom_effect_tooltip = ALREADY_MURLOC_WARCRY
+    } 
+}
+
+# Deep Mother's Vengeance
+deep_mother_action_4 = {
+    add_wargoal_on_neighbor = yes
+}
+
+# Start Murloc Spawning
+deep_mother_action_5 = {
+    add_scaled_manpower = yes
+}
+
+# Enact Murloc Invasion
+deep_mother_action_6 = {
+    if = {
+        limit = {
+            NOT = { has_idea = murloc_invasion }
+        }
+        
+        set_temp_variable = { base = 30 }
+        multiply_temp_variable = { base = faith_action_multiplier }
+        
+        add_timed_idea = {
+            idea = murloc_invasion
+            days = var:base
+        }
+    }
+    else = {
+        custom_effect_tooltip = ALREADY_MURLOC_INVASION
+    } 
+}
+
+#------------------------------------
+# Dragon Aspects
+#------------------------------------
+# Pay Tribute to [Root.GetDragonAspect]
+dragon_aspects_action_1 = {
+    set_temp_variable = { base = 30 }
+    multiply_temp_variable = { base = faith_action_multiplier }
+    
+    if = {
+        limit = {
+            has_red_dragonflight = yes
+            NOT = { has_idea = blessing_of_alexstrasza }
+        }
+        add_timed_idea = {
+            idea = blessing_of_alexstrasza
+            days = var:base
+        }
+    }
+    else_if = {
+        limit = {
+            has_green_dragonflight = yes
+            NOT = { has_idea = blessing_of_ysera }
+        }
+        add_timed_idea = {
+            idea = blessing_of_ysera
+            days = var:base
+        }
+    }
+    else_if = {
+        limit = { 
+            has_black_dragonflight = yes
+            NOT = { has_idea = blessing_of_neltharion }
+        }
+        add_timed_idea = {
+            idea = blessing_of_neltharion
+            days = var:base
+        }
+    }
+    else_if = {
+        limit = { 
+            has_blue_dragonflight = yes
+            NOT = { has_idea = blessing_of_malygos }
+        }
+        add_timed_idea = {
+            idea = blessing_of_malygos
+            days = var:base
+        }
+    }
+    else = {
+        custom_effect_tooltip = ALREADY_BLESSING_OF_DRAGON_X
+    }
+}
+
+# Nurture [Root.GetDragonAspectColor] Dragons
+dragon_aspects_action_2 = {
+    add_scaled_manpower = yes
+}
+
+# Request [Root.GetDragonAspect]'s Powers
+dragon_aspects_action_3 = {
+    set_temp_variable = { base = 30 }
+    multiply_temp_variable = { base = faith_action_multiplier }
+    
+    if = {
+        limit = {
+            has_red_dragonflight = yes
+            NOT = { has_idea = power_of_alexstrasza }
+        }
+        add_timed_idea = {
+            idea = power_of_alexstrasza
+            days = var:base
+        }
+    }
+    else_if = {
+        limit = {
+            has_green_dragonflight = yes
+            NOT = { has_idea = power_of_ysera }
+        }
+        add_timed_idea = {
+            idea = power_of_ysera
+            days = 30
+        }
+    }
+    else_if = {
+        limit = { 
+            has_black_dragonflight = yes
+            NOT = { has_idea = power_of_neltharion }
+        }
+        add_timed_idea = {
+            idea = power_of_neltharion
+            days = 30
+        }
+    }
+    else_if = {
+        limit = { 
+            has_blue_dragonflight = yes
+            NOT = { has_idea = power_of_malygos }
+        }
+        add_timed_idea = {
+            idea = power_of_malygos
+            days = 30
+        }
+    }
+    else = {
+        custom_effect_tooltip = ALREADY_POWER_OF_DRAGON_X
+    }
+}
+
+# Empower Dragons
+dragon_aspects_action_4 = {    
+    if = {
+        limit = {
+            any_unit_leader = {
+                is_field_marshal = yes
+            }
+        }
+        custom_effect_tooltip = UNITS_DRACONIC_EMPOWERMENT
+        
+        every_unit_leader = {
+            limit = { is_field_marshal = yes }
+            add_temporary_buff_to_units = {
+                combat_offense = 0.25
+                combat_breakthrough = 0.25
+                combat_defense = 0.25
+                combat_entrenchment = 0.25
+                
+                days = 7
+                tooltip = DRACONIC_EMPOWERMENT
+            }
+        }
+    }
+    else = {
+        custom_effect_tooltip = NO_VALID_UNIT_LEADER
+    }
+}
+
+# Champions of the [Root.GetDragonAspectColor] Dragonflight
+dragon_aspects_action_5 = {
+    add_champion_equipment = yes
+}
+
+# Protect Azeroth
+dragon_aspects_action_6 = {
+    add_wargoal_on_neighbor = yes
+}
+
+
+
+#------------------------------------
+# Druidism
+#------------------------------------
+# Restore Natural Order
+druidism_action_1 = {
+    add_scaled_stability = yes
+}
+
+# Support Flegling Druids
+druidism_action_2 = {
+    add_champion_equipment = yes
+}
+
+# Harness Nature's Wrath
+druidism_action_3 = {
+    set_temp_variable = { base = 30 }
+    multiply_temp_variable = { base = faith_action_multiplier }
+    
+    if = {
+        limit = {
+            NOT = { has_idea = wrath_of_nature }
+        }
+        add_timed_idea = {
+            idea = wrath_of_nature
+            days = var:base
+        }
+    }
+    else = {
+        custom_effect_tooltip = ALREADY_WRATH_OF_NATURE
+    } 
+}
+
+# Consumate Moon Blessing
+druidism_action_4 = {
+    set_temp_variable = { base = 30 }
+    multiply_temp_variable = { base = faith_action_multiplier }
+    
+    if = {
+        limit = {
+            NOT = { has_idea = druid_moon_blessing }
+        }
+        add_timed_idea = {
+            idea = druid_moon_blessing
+            days = var:base
+        }
+    }
+    else = {
+        custom_effect_tooltip = ALREADY_MOON_BLESSING
+    }
+}
+
+# Enter Beastly Fury
+druidism_action_5 = {
+    if = {
+        limit = {
+            any_unit_leader = {
+                is_field_marshal = yes
+            }
+        }
+        custom_effect_tooltip = UNIT_BEASTLY_FURY
+        
+        every_unit_leader = {
+            limit = { is_field_marshal = yes }
+            add_temporary_buff_to_units = {
+                combat_offense = 0.5
+                combat_breakthrough = 0.5
+                
+                days = 7
+                tooltip = BEASTLY_FURY
+            }
+        }
+    }
+    else = {
+        custom_effect_tooltip = NO_VALID_UNIT_LEADER
+    }
+}
+
+# Strengthen Primal Connection
+druidism_action_6 = {
+    add_popularity_x_10 = yes
+}
+
+#------------------------------------
+# Earth
+#------------------------------------
+# Summon Earth Elementals
+earth_action_1 = {
+    custom_effect_tooltip = SPAWN_UNIT_EARTH_ELEMENTALS
+    
+    hidden_effect = {
+        if = {
+            limit = {
+                NOT = { has_template = "Earth Elementals" }
+            }
+            load_oob = "Religion - Earth Elementals"
+        }
+        
+        capital_scope = {    
+            create_unit = {
+                division = "name = \"Earth Elementals\" division_template = \"Earth Elementals\" start_experience_factor = 0.1 start_equipment_factor = 0.2"
+                owner = ROOT
+            }
+        }
+    }
+}
+
+# Form Bond of Earth
+earth_action_2 = {
+    set_temp_variable = { base = 30 }
+    multiply_temp_variable = { base = faith_action_multiplier }
+    
+    if = {
+        limit = {
+            NOT = { has_idea = bond_of_earth }
+        }
+        add_timed_idea = {
+            idea = bond_of_earth
+            days = var:base
+        }
+    }
+    else = {
+        custom_effect_tooltip = ALREADY_BOND_OF_EARTH
+    }
+}
+
+# Beg Therazane's Favour
+earth_action_3 = {
+    set_temp_variable = { base = 30 }
+    multiply_temp_variable = { base = faith_action_multiplier }
+    
+    if = {
+        limit = {
+            NOT = { has_idea = therazane_favour }
+        }
+        add_timed_idea = {
+            idea = therazane_favour
+            days = var:base
+        }
+    }
+    else = {
+        custom_effect_tooltip = ALREADY_THERAZANE_FAVOUR
+    }
+}
+
+# Imbue Weaponry
+earth_action_4 = {
+    set_temp_variable = { base = 30 }
+    multiply_temp_variable = { base = faith_action_multiplier }
+    
+    if = {
+        limit = {
+            NOT = { has_idea = rock_weaponry }
+        }
+        add_timed_idea = {
+            idea = rock_weaponry
+            days = var:base
+        }
+    }
+    else = {
+        custom_effect_tooltip = ALREADY_ROCK_WEAPONRY
+    }
+}
+
+# Accrue Earth Elementalists
+earth_action_5 = {
+    add_champion_equipment = yes
+}
+
+# Expand Dominion
+earth_action_6 = {
+    add_wargoal_on_neighbor = yes
+}
+
+#------------------------------------
+# Elune
+#------------------------------------
+# Spread Tranquility
+elune_action_1 = {
+    add_scaled_stability = yes
+}
+
+# Appoint Priestesses
+elune_action_2 = {
+    add_champion_equipment = yes
+}
+
+# Bolster Sentinels
+elune_action_3 = {
+    add_archer_equipment = yes
+}
+
+# Soothe the People
+elune_action_4 = {
+    set_temp_variable = { base = 30 }
+    multiply_temp_variable = { base = faith_action_multiplier }
+    
+    if = {
+        limit = {
+            NOT = { has_idea = soothe_the_people }
+        }
+        add_timed_idea = {
+            idea = soothe_the_people
+            days = var:base
+        }
+    }
+    else = {
+        custom_effect_tooltip = ALREADY_SOOTHE_POPULANCE
+    }
+}
+
+# Heal the Wounded
+elune_action_5 = {
+    add_scaled_manpower = yes
+}
+
+# Grant Moon Blessings
+elune_action_6 = {
+    set_temp_variable = { base = 30 }
+    multiply_temp_variable = { base = faith_action_multiplier }
+    
+    if = {
+        limit = {
+            NOT = { has_idea = moon_blessings }
+        }
+        add_timed_idea = {
+            idea = moon_blessings
+            days = var:base
+        }
+    }
+    else = {
+        custom_effect_tooltip = ALREADY_MOON_BLESSINGS
+    }
+}
+
+
+
+#------------------------------------
+# Fel
+#------------------------------------
+# Build Fel Spreaders
+fel_action_1 = {
+    add_popularity_x_10 = yes
+}
+
+# Establish Fel Conduits
+fel_action_2 = {
+    set_temp_variable = { base = 30 }
+    multiply_temp_variable = { base = faith_action_multiplier }
+    
+    if = {
+        limit = {
+            NOT = { has_idea = fel_conduits }
+        }
+        add_timed_idea = {
+            idea = fel_conduits
+            days = var:base
+        }
+    }
+    else = {
+        custom_effect_tooltip = ALREADY_FEL_CONDUITS
+    }
+}
+
+# Summon Demons
+fel_action_3 = {
+    custom_effect_tooltip = SPAWN_UNIT_DEMONS
+    
+    hidden_effect = {
+        if = {
+            limit = {
+                NOT = { has_template = "Demons" }
+            }
+            load_oob = "Religion - Demons"
+        }
+        
+        capital_scope = {    
+            create_unit = {
+                division = "name = \"Demons\" division_template = \"Demons\" start_experience_factor = 0.1 start_equipment_factor = 0.2"
+                owner = ROOT
+            }
+        }
+    }
+}
+
+# Imbue the Weak
+fel_action_4 = {
+    add_scaled_manpower = yes
+}
+
+# Imbue with Fel
+fel_action_5 = {
+    if = {
+        limit = {
+            any_unit_leader = {
+                is_field_marshal = yes
+            }
+        }
+        custom_effect_tooltip = UNIT_FEL_CORRUPTION
+        
+        every_unit_leader = {
+            limit = { is_field_marshal = yes }
+            add_temporary_buff_to_units = {
+                combat_offense = 0.25
+                combat_breakthrough = 0.25
+                
+                days = 7
+                tooltip = IMBUED_WITH_FEL
+            }
+        }
+    }
+    else = {
+        custom_effect_tooltip = NO_VALID_UNIT_LEADER
+    }
+}
+
+# Expand Dominion
+fel_action_6 = {
+    add_wargoal_on_neighbor = yes
+}
+
+#------------------------------------
+# Fire
+#------------------------------------
+# Summon Fire Elementals
+fire_action_1 = {
+    custom_effect_tooltip = SPAWN_UNIT_FIRE_ELEMENTALS
+    
+    hidden_effect = {
+        if = {
+            limit = {
+                NOT = { has_template = "Fire Elementals" }
+            }
+            load_oob = "Religion - Fire Elementals"
+        }
+        
+        capital_scope = {    
+            create_unit = {
+                division = "name = \"Fire Elementals\" division_template = \"Fire Elementals\" start_experience_factor = 0.1 start_equipment_factor = 0.2"
+                owner = ROOT
+            }
+        }
+    }
+}
+
+# Form Bond of Fire
+fire_action_2 = {
+    set_temp_variable = { base = 30 }
+    multiply_temp_variable = { base = faith_action_multiplier }
+    
+    if = {
+        limit = {
+            NOT = { has_idea = bond_of_fire }
+        }
+        add_timed_idea = {
+            idea = bond_of_fire
+            days = var:base
+        }
+    }
+    else = {
+        custom_effect_tooltip = ALREADY_BOND_OF_FIRE
+    }
+}
+
+# Beg Ragnaros's Favour
+fire_action_3 = {
+    set_temp_variable = { base = 30 }
+    multiply_temp_variable = { base = faith_action_multiplier }
+    
+    if = {
+        limit = {
+            NOT = { has_idea = ragnaros_favour }
+        }
+        add_timed_idea = {
+            idea = ragnaros_favour
+            days = var:base
+        }
+    }
+    else = {
+        custom_effect_tooltip = ALREADY_RAGNAROS_FAVOUR
+    }
+}
+
+# Imbue Weaponry
+fire_action_4 = {
+    set_temp_variable = { base = 30 }
+    multiply_temp_variable = { base = faith_action_multiplier }
+    
+    if = {
+        limit = {
+            NOT = { has_idea = flame_weaponry }
+        }
+        add_timed_idea = {
+            idea = flame_weaponry
+            days = var:base
+        }
+    }
+    else = {
+        custom_effect_tooltip = ALREADY_FLAME_WEAPONRY
+    }
+}
+
+# Train Fire Elementalists
+fire_action_5 = {
+    add_champion_equipment = yes
+}
+
+# Expand Dominion
+fire_action_6 = {
+    add_wargoal_on_neighbor = yes
+}
+
+#------------------------------------
+# Nature
+#------------------------------------
+# Bestow Life
+nature_action_1 = {
+    custom_effect_tooltip = BESTOW_LIFE_TOOLTIP
+    add_pp_from_life = yes
+}
+
+# Magi of Nature 
+nature_action_2 = {
+    add_spellcaster_equipment = yes
+}
+
+# Restore Natural Balance
+nature_action_3 = {
+    add_popularity_x_10 = yes
+}
+
+# Quell Discord
+nature_action_4 = {
+    add_scaled_stability = yes
+}
+
+# Gifts of Azeroth
+nature_action_5 = {
+    add_offsite_building = {
+        type = industrial_complex
+        level = 1
+    }
+}
+
+# Nature's Fury
+nature_action_6 = {
+    if = {
+        limit = {
+            any_unit_leader = {
+                is_field_marshal = yes
+            }
+        }
+        custom_effect_tooltip = UNITS_NATURES_FURY
+        
+        every_unit_leader = {
+            limit = { is_field_marshal = yes }
+            add_temporary_buff_to_units = {
+                combat_breakthrough = 0.5
+                combat_defense = 0.5
+                
+                days = 7
+                tooltip = NATURES_FURY
+            }
+        }
+    }
+    else = {
+        custom_effect_tooltip = NO_VALID_UNIT_LEADER
+    }
+}
+
+#------------------------------------
+# Geomancy
+#------------------------------------
+# Train Geomancers
+geomancy_action_1 = {
+    add_spellcaster_equipment = yes
+}
+
+# Forge Bond of Elements
+geomancy_action_2 = {
+    set_temp_variable = { base = 30 }
+    multiply_temp_variable = { base = faith_action_multiplier }
+    
+    if = {
+        limit = {
+            NOT = { has_idea = bond_of_the_elements }
+        }
+        add_timed_idea = {
+            idea = bond_of_the_elements
+            days = var:base
+        }
+    }
+    else = {
+        custom_effect_tooltip = ALREADY_BOND_OF_THE_ELEMENTS
+    }
+}
+
+# Summon Elementals
+geomancy_action_3 = {
+    custom_effect_tooltip = SPAWN_UNIT_ELEMENTALS
+    
+    hidden_effect = {
+        if = {
+            limit = {
+                NOT = { has_template = "Elementals" }
+            }
+            load_oob = "Religion - Geo Elementals"
+        }
+        
+        capital_scope = {    
+            create_unit = {
+                division = "name = \"Elementals\" division_template = \"Elementals\" start_experience_factor = 0.1 start_equipment_factor = 0.2"
+                owner = ROOT
+            }
+        }
+    }
+}
+
+# Establish Primal Connection
+geomancy_action_4 = {
+    set_temp_variable = { base = 30 }
+    multiply_temp_variable = { base = faith_action_multiplier }
+    
+    if = {
+        limit = {
+            NOT = { has_idea = primal_connection }
+        }
+        add_timed_idea = {
+            idea = primal_connection
+            days = var:base
+        }
+    }
+    else = {
+        custom_effect_tooltip = ALREADY_PRIMAL_CONNECTION
+    }
+}
+
+# Pay Tribute to the Elements
+geomancy_action_5 = {
+    add_popularity_x_10 = yes
+}
+
+# Elemental Fury
+geomancy_action_6 = {
+    if = {
+        limit = {
+            any_unit_leader = {
+                is_field_marshal = yes
+            }
+        }
+        custom_effect_tooltip = UNITS_ELEMENTAL_FURY
+        
+        every_unit_leader = {
+            limit = { is_field_marshal = yes }
+            
+            add_temporary_buff_to_units = {
+                combat_offense = 0.25
+                combat_breakthrough = 0.25
+                combat_defense = 0.25
+                combat_entrenchment = 0.25
+                
+                days = 7
+                tooltip = ELEMENTAL_FURY
+            }
+        }
+    }
+    else = {
+        custom_effect_tooltip = NO_VALID_UNIT_LEADER
+    }
+}
+
+#------------------------------------
+# Hakkar
+#------------------------------------
+# Offer Sacrifice to Hakkar
+hakkari_action_1 = {
+    set_temp_variable = { base = 30 }
+    multiply_temp_variable = { base = faith_action_multiplier }
+    
+    if = {
+        limit = {
+            NOT = { has_idea = gift_of_hakkar }
+        }
+        add_timed_idea = {
+            idea = gift_of_hakkar
+            days = var:base
+        }
+    }
+    else = {
+        custom_effect_tooltip = ALREADY_HAS_GIFT_OF_HAKKAR
+    }
+}
+
+# Desecrate Remains
+hakkari_action_2 = {
+    set_temp_variable = { base = 30 }
+    multiply_temp_variable = { base = faith_action_multiplier }
+    
+    if = {
+        limit = {
+            NOT = { has_idea = desecrated_remains }
+        }
+        add_timed_idea = {
+            idea = desecrated_remains
+            days = var:base
+        }
+    }
+    else = {
+        custom_effect_tooltip = ALREADY_HAS_DESECRATED_REMAINS
+    }
+}
+
+# Imbue Blood Prophets
+hakkari_action_3 = {
+    set_temp_variable = { base = 30 }
+    multiply_temp_variable = { base = faith_action_multiplier }
+    
+    if = {
+        limit = {
+            NOT = { has_idea = imbued_blood_prophets }
+        }
+        add_timed_idea = {
+            idea = imbued_blood_prophets
+            days = var:base
+        }
+    }
+    else = {
+        custom_effect_tooltip = ALREADY_HAS_IMBUED_BLOOD_PROPHETS
+    }
+}
+
+# Consume Blood of Hakkar
+hakkari_action_4 = {
+    if = {
+        limit = {
+            any_unit_leader = {
+                is_leading_army = yes
+                attack_skill_level < 10.0
+            }
+        }
+        random_unit_leader = {
+            limit = {
+                is_leading_army = yes
+                attack_skill_level < 10.0
+            }
+            add_attack = 2
+        }
+    }
+    else = {
+        custom_effect_tooltip = NO_VALID_UNIT_LEADER
+    }
+}
+
+# Summon Avatar of Hakkar
+hakkari_action_5 = {
+    set_temp_variable = { base = 30 }
+    multiply_temp_variable = { base = faith_action_multiplier }
+    
+    if = {
+        limit = {
+            NOT = { has_idea = avatar_of_hakkar }
+        }
+        add_timed_idea = {
+            idea = avatar_of_hakkar
+            days = var:base
+        }
+    }
+    else = {
+        custom_effect_tooltip = ALREADY_HAS_AVATAR_OF_HAKKAR
+    }
+}
+
+# Receive Hakkar's Wisdom
+hakkari_action_6 = {
+    add_scaled_war_support = yes
+}
+
+#------------------------------------
+# Light of the Naaru
+#------------------------------------
+# Blessing of the Naaru
+light_of_the_naaru_action_1 = {
+    set_temp_variable = { base = 30 }
+    multiply_temp_variable = { base = faith_action_multiplier }
+    
+    if = {
+        limit = {
+            NOT = { has_idea = blessing_of_the_naaru }
+        }
+        add_timed_idea = {
+            idea = blessing_of_the_naaru
+            days = var:base
+        }
+    }
+    else = {
+        custom_effect_tooltip = ALREADY_BLESSING_OF_THE_NAARU
+    }
+}
+
+# Banish the Void
+light_of_the_naaru_action_2 = {
+    add_popularity_x_10 = yes
+}
+
+# Infuse with the Light
+light_of_the_naaru_action_3 = {
+    if = {
+        limit = {
+            any_unit_leader = {
+                is_field_marshal = yes
+            }
+        }
+        custom_effect_tooltip = UNITS_UNWAVERING_FAITH
+        
+        every_unit_leader = {
+            limit = { is_field_marshal = yes }
+            add_temporary_buff_to_units = {
+                combat_offense = 0.25
+                combat_breakthrough = 0.25
+                combat_defense = 0.25
+                combat_entrenchment = 0.25
+                
+                days = 7
+                tooltip = UNWAVERING_FAITH
+            }
+        }
+    }
+    else = {
+        custom_effect_tooltip = NO_VALID_UNIT_LEADER
+    }
+}
+
+# Appoint Champions of the Naaru
+light_of_the_naaru_action_4 = {
+    add_champion_equipment = yes
+}
+
+# Study the Naaru
+light_of_the_naaru_action_5 = {
+    set_temp_variable = { base = 30 }
+    multiply_temp_variable = { base = faith_action_multiplier }
+    
+    if = {
+        limit = {
+            NOT = { has_idea = wisdom_of_the_naaru }
+        }
+        add_timed_idea = {
+            idea = wisdom_of_the_naaru
+            days = var:base
+        }
+    }
+    else = {
+        custom_effect_tooltip = ALREADY_WISDOM_OF_THE_NAARU
+    }
+}
+
+# Secure the Light's Dominion
+light_of_the_naaru_action_6 = {
+    add_wargoal_on_neighbor = yes
+}
+
+#------------------------------------
+# Necromancy
+#------------------------------------
+# Imbue with Death
+necromancy_action_1 = {
+    if = {
+        limit = {
+            any_unit_leader = {
+                is_field_marshal = yes
+            }
+        }
+        custom_effect_tooltip = UNITS_NECROMANTIC_POWER
+        
+        every_unit_leader = {
+            limit = { is_field_marshal = yes }
+            add_temporary_buff_to_units = {
+                org_damage_multiplier = -1.0
+                str_damage_multiplier = -1.0
+                
+                days = 7
+                tooltip = IMBUED_WITH_NECROMANTIC_POWER
+            }
+        }
+    }
+    else = {
+        custom_effect_tooltip = NO_VALID_UNIT_LEADER
+    }
+}
+
+# Raise Mass Undead
+necromancy_action_2 = {
+    add_scaled_manpower = yes
+}
+
+# Spread Plague of Undeath
+necromancy_action_3 = {
+    set_temp_variable = { base = 90 }
+    multiply_temp_variable = { base = faith_action_multiplier }
+    
+    if = {
+        limit = {
+            any_neighbor_country = {
+                NOT = { is_in_faction_with = ROOT }
+                has_opinion = {
+                    target = ROOT
+                    value < 10
+                }
+                NOT = { has_government = death }
+                NOT = { has_idea = plague_of_undeath }
+            }
+        }
+        random_neighbor_country = {
+            limit = {
+                NOT = { is_in_faction_with = ROOT }
+                has_opinion = {
+                    target = ROOT
+                    value < 10
+                }
+                NOT = { has_government = death }
+                NOT = { has_idea = plague_of_undeath }
+            }
+            
+            add_timed_idea = {
+                idea = plague_of_undeath
+                days = var:base
+            }
+        }
+    }
+    else = {
+        custom_effect_tooltip = NO_VALID_TARGET
+    }
+}
+
+# Fuel the Fleshwerks
+necromancy_action_4 = {
+    add_offsite_building = {
+        type = arms_factory
+        level = 1
+    }
+}
+
+# Enforce Dominance
+necromancy_action_5 = {
+    add_scaled_war_support = yes
+}
+
+# Forge Death Knights 
+necromancy_action_6 = {
+    custom_effect_tooltip = SPAWN_UNIT_DEATH_KNIGHT
+    
+    hidden_effect = {
+        if = {
+            limit = {
+                NOT = { has_template = "Death Knights" }
+            }
+            load_oob = "Religion - Death Knights"
+        }
+        
+        capital_scope = {    
+            create_unit = {
+                division = "name = \"Death Knights\" division_template = \"Death Knights\" start_experience_factor = 0.1 start_equipment_factor = 0.2"
+                owner = ROOT
+            }
+        }
+    }
+}
+
+#------------------------------------
+# Old Gods
+#------------------------------------
+# Inflict Insanity
+old_gods_action_1 = {
+    custom_effect_tooltip = THE_SHADOW_ENCROACHES_TOOLTIP
+
+    every_neighbor_country = {
+        limit = {
+            NOT = { has_government = shadow }
+            NOT = { is_in_faction_with = ROOT }
+            NOT = { is_subject_of = ROOT }
+            
+        }
+        country_event = { id = shadow.1 }
+    }
+}
+
+# Expand Dominion
+old_gods_action_2 = {
+    add_wargoal_on_neighbor = yes
+}
+
+# Sway the Feeble
+old_gods_action_3 = {
+    add_popularity_x_10 = yes
+}
+
+# Corrupt their Hearts
+old_gods_action_4 = {
+    add_scaled_manpower = yes
+}
+
+# Receive [Root.GetOldGod] Gift
+old_gods_action_5 = {
+    set_temp_variable = { base = 30 }
+    multiply_temp_variable = { base = faith_action_multiplier }
+    
+    if = {
+        limit = { 
+            has_cthun = yes
+            NOT = { has_idea = gift_of_cthun }
+        }
+        add_timed_idea = {
+            idea = gift_of_cthun
+            days = var:base
+        }
+    }
+    else_if = {
+        limit = { 
+            has_yshaarj = yes
+            NOT = { has_idea = gift_of_yshaarj }
+        }
+        add_timed_idea = {
+            idea = gift_of_yshaarj
+            days = var:base
+        }
+    }
+    else_if = {
+        limit = { 
+            has_yogg_saron = yes
+            NOT = { has_idea = gift_of_yogg_saron }
+        }
+        add_timed_idea = {
+            idea = gift_of_yogg_saron
+            days = var:base
+        }
+    }
+    else_if = {
+        limit = { 
+            has_nzoth = yes
+            NOT = { has_idea = gift_of_nzoth }
+        }
+        add_timed_idea = {
+            idea = gift_of_nzoth
+            days = var:base
+        }
+    }
+    else = {
+        custom_effect_tooltip = ALREADY_GIFT_OF_X
+    }
+}
+
+# Madness of [Root.GetOldGod]
+old_gods_action_6 = {
+    if = {
+        limit = { 
+            has_cthun = yes
+            any_unit_leader = {
+                is_field_marshal = yes
+            }
+        }
+        custom_effect_tooltip = UNIT_MADNESS_OF_X
+            
+        every_unit_leader = {
+            limit = { is_field_marshal = yes }
+            add_temporary_buff_to_units = {
+                str_damage_multiplier = -1.0
+                    
+                days = 7
+                tooltip = MADNESS_OF_X
+            }
+        }
+    }
+    else_if = {
+        limit = { 
+            has_yshaarj = yes
+            any_unit_leader = {
+                is_field_marshal = yes
+            }
+        }
+        custom_effect_tooltip = UNIT_MADNESS_OF_X
+            
+        every_unit_leader = {
+            limit = { is_field_marshal = yes }
+            add_temporary_buff_to_units = {
+                org_damage_multiplier = -1.0
+                    
+                days = 7
+                tooltip = MADNESS_OF_X
+            }
+        }
+    } 
+    else_if = {
+        limit = { 
+            has_yogg_saron = yes
+            any_unit_leader = {
+                is_field_marshal = yes
+            }
+        }
+        custom_effect_tooltip = UNIT_MADNESS_OF_X
+            
+        every_unit_leader = {
+            limit = { is_field_marshal = yes }
+            add_temporary_buff_to_units = {
+                combat_offense = 1.0
+                    
+                days = 7
+                tooltip = MADNESS_OF_X
+            }
+        }
+    }
+    else_if = {
+        limit = { 
+            has_nzoth = yes
+            any_unit_leader = {
+                is_field_marshal = yes
+            }
+        }
+        custom_effect_tooltip = UNIT_MADNESS_OF_X
+            
+        every_unit_leader = {
+            limit = { is_field_marshal = yes }
+            add_temporary_buff_to_units = {
+                combat_defense = 1.0
+                    
+                days = 7
+                tooltip = MADNESS_OF_X
+            }
+        }
+    }
+    else = {
+        custom_effect_tooltip = NO_VALID_UNIT_LEADER
+    }
+}
+
+#------------------------------------
+# Shadow
+#------------------------------------
+# Impart Despair 
+#   +shadow support in neighbor countries, scaled by stability (1 = 0.01, 0 == 0.1)
+shadow_action_1 = {
+    custom_effect_tooltip = THE_SHADOW_ENCROACHES_TOOLTIP
+
+    every_neighbor_country = {
+        limit = {
+            NOT = { has_government = shadow }
+            NOT = { is_in_faction_with = ROOT }
+            NOT = { is_subject_of = ROOT }
+            
+        }
+        country_event = { id = shadow.1 }
+    }
+}
+
+# Incite Panic
+#   -stability in neighbours, scaling with their shadow support
+shadow_action_2 = {
+    custom_effect_tooltip = INCITE_PANIC_TOOLTIP
+ 
+    every_neighbor_country = {
+        limit = {
+            NOT = { has_government = shadow }
+            NOT = { is_in_faction_with = ROOT }
+            NOT = { is_subject_of = ROOT }
+            
+        }
+        country_event = { id = shadow.2 }
+    }
+}
+
+# Manifest Voidlings
+#   Spawn voidlings unit
+shadow_action_3 = {
+    custom_effect_tooltip = SPAWN_UNIT_VOIDLINGS
+    
+    hidden_effect = {
+        if = {
+            limit = {
+                NOT = { has_template = "Voidlings" }
+            }
+            load_oob = "Religion - Voidlings"
+        }
+        
+        capital_scope = {    
+            create_unit = {
+                division = "name = \"Voidlings\" division_template = \"Voidlings\" start_experience_factor = 0.1 start_equipment_factor = 0.2"
+                owner = ROOT
+            }
+        }
+    }
+}
+
+# Train Shadowpriests
+#   Gain spellcaster equipment
+shadow_action_4 = {
+    add_spellcaster_equipment = yes
+}
+
+# Manifest Void Lord
+#   Gain army_attack_factor 0.25 for 30 days
+shadow_action_5 = {
+    set_temp_variable = { base = 30 }
+    multiply_temp_variable = { base = faith_action_multiplier }
+    
+    if = {
+        limit = {
+            NOT = { has_idea = void_lord }
+        }
+        add_timed_idea = {
+            idea = void_lord
+            days = var:base
+        }
+    }
+    else = {
+        custom_effect_tooltip = ALREADY_VOIDLORD
+    }
+}
+
+# Induce Voidform
+#   Gain terrain_penalty_reduction -0.5 for 7 days
+shadow_action_6 = {
+    set_temp_variable = { base = 7 }
+    multiply_temp_variable = { base = faith_action_multiplier }
+    
+    if = {
+        limit = {
+            NOT = { has_idea = voidform }
+        }
+        add_timed_idea = {
+            idea = voidform
+            days = var:base
+        }
+    }
+    else = {
+        custom_effect_tooltip = ALREADY_VOIDFORM
+    }
+}
+
+#------------------------------------
+# Shamanism
+#------------------------------------
+# Conduct Animal Worship
+shamanism_action_1 = {
+    set_temp_variable = { base = 30 }
+    multiply_temp_variable = { base = faith_action_multiplier }
+    
+    if = {
+        limit = {
+            NOT = { has_idea = animal_blessing }
+        }
+        add_timed_idea = {
+            idea = animal_blessing
+            days = var:base
+        }
+    }
+    else = {
+        custom_effect_tooltip = ALREADY_ANIMAL_BLESSING
+    }
+}
+
+# Speak to Ancestors
+shamanism_action_2 = {
+    set_temp_variable = { base = 30 }
+    multiply_temp_variable = { base = faith_action_multiplier }
+    
+    if = {
+        limit = {
+            NOT = { has_idea = ancestral_wisdom }
+        }
+        add_timed_idea = {
+            idea = ancestral_wisdom
+            days = var:base
+        }
+    }
+    else = {
+        custom_effect_tooltip = ALREADY_ANCESTRAL_WISDOM
+    }
+}
+
+# Harness Totemic Power
+shamanism_action_3 = {
+    if = {
+        limit = {
+            any_unit_leader = {
+                is_field_marshal = yes
+            }
+        }
+        custom_effect_tooltip = UNIT_TOTEMIC_POWER
+        every_unit_leader = {
+            limit = { is_field_marshal = yes }
+            
+            add_temporary_buff_to_units = {
+                combat_offense = 0.25
+                combat_breakthrough = 0.25
+                combat_defense = 0.25
+                
+                days = 7
+                tooltip = TOTEMIC_POWER
+            }
+        }
+    }
+    else = {
+        custom_effect_tooltip = NO_VALID_UNIT_LEADER
+    }
+}
+
+# Summon Elementals
+shamanism_action_4 = {
+    custom_effect_tooltip = SPAWN_UNIT_ELEMENTALS
+    
+    hidden_effect = {
+        if = {
+            limit = {
+                NOT = { has_template = "Elementals" }
+            }
+            load_oob = "_elemental"
+        }
+        
+        capital_scope = {    
+            create_unit = {
+                division = "name = \"Elementals\" division_template = \"Elementals\" start_experience_factor = 0.1 start_equipment_factor = 0.2"
+                owner = ROOT
+            }
+        }
+    }
+}
+
+# Imbue with Life
+shamanism_action_5 = {
+    add_popularity_x_10 = yes
+}
+
+# Call the Spirit of the Wilds
+shamanism_action_6 = {
+    set_temp_variable = { base = 30 }
+    multiply_temp_variable = { base = faith_action_multiplier }
+    
+    if = {
+        limit = {
+            NOT = { has_idea = spirit_of_the_wilds }
+        }
+        add_timed_idea = {
+            idea = spirit_of_the_wilds
+            days = var:base
+        }
+    }
+    else = {
+        custom_effect_tooltip = ALREADY_SPIRIT_OF_THE_WILDS
+    }
+} 
+
+#------------------------------------
+# The Holy Light
+#------------------------------------
+# Enforce the Three Virtues
+holy_light_action_1 = {
+    add_scaled_stability = yes
+}
+
+# Banish Corruption 
+holy_light_action_2 = {
+    add_popularity_x_10 = yes
+}
+ 
+# Infuse with Light
+holy_light_action_3 = {
+    if = {
+        limit = {
+            any_unit_leader = {
+                is_field_marshal = yes
+            }
+        }
+        custom_effect_tooltip = UNITS_INFUSED_WITH_LIGHT_TOOLTIP
+        
+        every_unit_leader = {
+            limit = { is_field_marshal = yes }
+            add_temporary_buff_to_units = {
+                combat_offense = 0.25
+                combat_breakthrough = 0.25
+                combat_defense = 0.25
+                combat_entrenchment = 0.25
+                
+                days = 7
+                tooltip = INFUSED_WITH_LIGHT
+            }
+        }
+    }
+    else = {
+        custom_effect_tooltip = NO_VALID_UNIT_LEADER
+    }
+}
+
+# Anoint Paladins
+holy_light_action_4 = {
+    add_champion_equipment = yes
+}
+
+# Study the Tomes of Light
+holy_light_action_5 = {  
+    add_tech_bonus = {
+        name = TOMES_OF_LIGHT
+        bonus = 0.25
+        uses = 1
+        category = champion_tech
+    }
+}
+
+# Cast out the Darkness
+holy_light_action_6 = {
+    set_temp_variable = { base = 30 }
+    multiply_temp_variable = { base = faith_action_multiplier }
+    
+    if = {
+        limit = {
+            NOT = { has_idea = cast_out_the_darkness }
+        }
+        add_timed_idea = {
+            idea = cast_out_the_darkness
+            days = var:base
+        }
+    }
+    else = {
+        custom_effect_tooltip = ALREADY_COTD
+    }
+}
+
+
+
+#------------------------------------
+# Titan
+#------------------------------------
+# Study Titanic Artifacts
+titan_action_1 = {  
+    set_temp_variable = { base = 30 }
+    multiply_temp_variable = { base = faith_action_multiplier }
+    
+    if = {
+        limit = {
+            NOT = { has_idea = titanic_knowledge }
+        }
+        add_timed_idea = {
+            idea = titanic_knowledge
+            days = var:base
+        }
+    }
+    else = {
+        custom_effect_tooltip = ALREADY_TITANIC_KNOWLEDGE
+    }
+}
+
+# Imbue Titanic Weaponry
+titan_action_2 = {
+    set_temp_variable = { base = 30 }
+    multiply_temp_variable = { base = faith_action_multiplier }
+    
+    if = {
+        limit = {
+            NOT = { has_idea = titan_blessing }
+        }
+        add_timed_idea = {
+            idea = titan_blessing
+            days = var:base
+        }
+    }
+    else = {
+        custom_effect_tooltip = ALREADY_TITAN_BLESSING
+    }
+}
+
+# Favour the Titans
+titan_action_3 = {
+    add_scaled_stability = yes
+}
+
+# Summon Titanic Fury
+titan_action_4 = {
+    if = {
+        limit = {
+            any_unit_leader = {
+                is_field_marshal = yes
+            }
+        }
+        custom_effect_tooltip = UNITS_TITANIC_FURY
+        
+        every_unit_leader = {
+            limit = { is_field_marshal = yes }
+            add_temporary_buff_to_units = {
+                org_damage_multiplier = -0.5
+                str_damage_multiplier = -0.5
+                
+                days = 7
+                tooltip = TITANIC_FURY
+            }
+        }
+    }
+    else = {
+        custom_effect_tooltip = NO_VALID_UNIT_LEADER
+    }
+}
+
+# Restore Titanic Order
+titan_action_5 = {
+    add_popularity_x_10 = yes
+}
+
+# Defend Azeroth
+titan_action_6 = {
+    add_wargoal_on_neighbor = yes
+}
+
+#------------------------------------
+# Voodoo
+#------------------------------------
+# Big Bad Voodoo
+voodoo_action_1 = {
+    if = {
+        limit = {
+            any_unit_leader = {
+                is_field_marshal = yes
+            }
+        }
+        custom_effect_tooltip = BIG_BAD_VOODOO_EFFECT
+        every_unit_leader = {
+            limit = { is_field_marshal = yes }
+            
+            add_temporary_buff_to_units = {
+                combat_offense = 1.0
+                combat_breakthrough = 1.0
+                combat_defense = 1.0
+                
+                days = 7
+                tooltip = BIG_BAD_VOODOO
+            }
+        }
+    }
+    else = {
+        custom_effect_tooltip = NO_VALID_UNIT_LEADER
+    }
+}
+
+# Empower Tiki Lord
+voodoo_action_2 = {
+    set_temp_variable = { base = 30 }
+    multiply_temp_variable = { base = faith_action_multiplier }
+    
+    if = {
+        limit = {
+            NOT = { has_idea = tiki_lord }
+        }
+        add_timed_idea = {
+            idea = tiki_lord
+            days = var:base
+        }
+    }
+    else = {
+        custom_effect_tooltip = ALREADY_HAS_TIKI_LORD
+    }
+}
+
+# Enslave Fallen Spirits
+voodoo_action_3 = {
+    custom_effect_tooltip = SPAWN_UNIT_FALLEN_SPIRITS
+    
+    hidden_effect = {
+        if = {
+            limit = {
+                NOT = { has_template = "Fallen Spirits" }
+            }
+            load_oob = "Religion - Fallen Spirits"
+        }
+        
+        capital_scope = {    
+            create_unit = {
+                division = "name = \"Fallen Spirits\" division_template = \"Fallen Spirits\" start_experience_factor = 0.1 start_equipment_factor = 0.2"
+                owner = ROOT
+            }
+        }
+    }
+}
+
+# Raise the Fallen
+voodoo_action_4 = {
+    add_scaled_manpower = yes
+}
+
+# Scry Enemies
+voodoo_action_5 = {
+    if = {
+        limit = {
+            any_unit_leader = {
+                is_leading_army = yes
+                logistics_skill_level < 10.0
+            }
+        }
+        random_unit_leader = {
+            limit = {
+                is_leading_army = yes
+                logistics_skill_level < 10.0
+            }
+            add_logistics = 2
+        }
+    }
+    else = {
+        custom_effect_tooltip = NO_VALID_UNIT_LEADER
+    }
+}
+
+# Enhance Equipment
+voodoo_action_6 = {
+    set_temp_variable = { base = 30 }
+    multiply_temp_variable = { base = faith_action_multiplier }
+    
+    if = {
+        limit = {
+            NOT = { has_idea = enhanced_equipment }
+        }
+        add_timed_idea = {
+            idea = enhanced_equipment
+            days = var:base
+        }
+    }
+    else = {
+        custom_effect_tooltip = ALREADY_HAS_ENHANCED_EQUIPMENT
+    }
+}
+
+
+#------------------------------------
+# Water
+#------------------------------------
+# Summon Water Elementals
+water_action_1 = {
+    custom_effect_tooltip = SPAWN_UNIT_WATER_ELEMENTALS
+   
+    hidden_effect = {
+        if = {
+            limit = {
+                NOT = { has_template = "Water Elementals" }
+            }
+            load_oob = "Religion - Water Elementals"
+        }
+        
+        capital_scope = {    
+            create_unit = {
+                division = "name = \"Water Elementals\" division_template = \"Water Elementals\" start_experience_factor = 0.1 start_equipment_factor = 0.2"
+                owner = ROOT
+            }
+        }
+    }
+}
+
+# Form Bond of Water
+water_action_2 = {
+    set_temp_variable = { base = 30 }
+    multiply_temp_variable = { base = faith_action_multiplier }
+    
+    if = {
+        limit = {
+            NOT = { has_idea = bond_of_water }
+        }
+        add_timed_idea = {
+            idea = bond_of_water
+            days = var:base
+        }
+    }
+    else = {
+        custom_effect_tooltip = ALREADY_BOND_OF_WATER
+    }
+}
+
+# Beg Neptulon's Favour
+water_action_3 = {
+    set_temp_variable = { base = 30 }
+    multiply_temp_variable = { base = faith_action_multiplier }
+    
+    if = {
+        limit = {
+            NOT = { has_idea = neptulon_favour }
+        }
+        add_timed_idea = {
+            idea = neptulon_favour
+            days = var:base
+        }
+    }
+    else = {
+        custom_effect_tooltip = ALREADY_NEPTULON_FAVOUR
+    }
+}
+
+# Imbue Weaponry
+water_action_4 = {
+    set_temp_variable = { base = 30 }
+    multiply_temp_variable = { base = faith_action_multiplier }
+    
+    if = {
+        limit = {
+            NOT = { has_idea = water_weaponry }
+        }
+        add_timed_idea = {
+            idea = water_weaponry
+            days = var:base
+        }
+    }
+    else = {
+        custom_effect_tooltip = ALREADY_WATER_WEAPONRY
+    }
+}
+
+# Accrue Water Elementalists
+water_action_5 = {
+    add_champion_equipment = yes
+}
+
+# Expand Dominion
+water_action_6 = {
+    add_wargoal_on_neighbor = yes
+}
+
+#------------------------------------
+# Wind
+#------------------------------------
+# Summon Wind Elementals
+wind_action_1 = {
+    custom_effect_tooltip = SPAWN_UNIT_WIND_ELEMENTALS
+    
+    hidden_effect = {
+        if = {
+            limit = {
+                NOT = { has_template = "Wind Elementals" }
+            }
+            load_oob = "Religion - Wind Elementals"
+        }
+        
+        capital_scope = {    
+            create_unit = {
+                division = "name = \"Wind Elementals\" division_template = \"Wind Elementals\" start_experience_factor = 0.1 start_equipment_factor = 0.2"
+                owner = ROOT
+            }
+        }
+    }
+}
+
+# Form Bond of Wind
+wind_action_2 = {
+    set_temp_variable = { base = 30 }
+    multiply_temp_variable = { base = faith_action_multiplier }
+    
+    if = {
+        limit = {
+            NOT = { has_idea = bond_of_wind }
+        }
+        add_timed_idea = {
+            idea = bond_of_wind
+            days = var:base
+        }
+    }
+    else = {
+        custom_effect_tooltip = ALREADY_BOND_OF_WIND
+    }
+}
+
+# Beg Al'Akir's Favour
+wind_action_3 = {
+    set_temp_variable = { base = 30 }
+    multiply_temp_variable = { base = faith_action_multiplier }
+    
+    if = {
+        limit = {
+            NOT = { has_idea = alakir_favour }
+        }
+        add_timed_idea = {
+            idea = alakir_favour
+            days = var:base
+        }
+    }
+    else = {
+        custom_effect_tooltip = ALREADY_ALAKIR_FAVOUR
+    }
+}
+
+# Imbue Weaponry
+wind_action_4 = {
+    set_temp_variable = { base = 30 }
+    multiply_temp_variable = { base = faith_action_multiplier }
+    
+    if = {
+        limit = {
+            NOT = { has_idea = wind_weaponry }
+        }
+        add_timed_idea = {
+            idea = wind_weaponry
+            days = var:base
+        }
+    }
+    else = {
+        custom_effect_tooltip = ALREADY_WIND_WEAPONRY
+    }
+}
+
+# Accrue Wind Elementalists
+wind_action_5 = {
+    add_champion_equipment = yes
+}
+
+# Expand Dominion
+wind_action_6 = {
+    add_wargoal_on_neighbor = yes
+}
+
+#------------------------------------
+# Technomancy
+#------------------------------------
+# Encourage Innovation
+technomancy_action_1 = {
+    set_temp_variable = { base = 90 }
+    multiply_temp_variable = { base = faith_action_multiplier }
+    
+    if = {
+        limit = {
+            NOT = { has_idea = innovation_wave }
+        }
+        add_timed_idea = {
+            idea = innovation_wave
+            days = var:base
+        }
+    }
+    else = {
+        custom_effect_tooltip = ALREADY_INNOVATION_WAVE
+    }
+}
+
+# Incite the Inventor's Spark
+technomancy_action_2 = {
+    random_list = {
+        25 = {
+            add_tech_bonus = {
+                name = infantry_tech_bonus
+                bonus = 0.5
+                uses = 1
+                category = infantry_tech
+            }
+        }
+        25 = {
+            add_tech_bonus = {
+                name = cavalry_tech_bonus
+                bonus = 0.5
+                uses = 1
+                category = cavalry_tech
+            }
+        }
+        25 = {
+            add_tech_bonus = {
+                name = tank_tech_bonus
+                bonus = 0.5
+                uses = 1
+                category = tank_tech
+            }
+        }
+        25 = {
+            add_tech_bonus = {
+                name = support_tech_bonus
+                bonus = 0.5
+                uses = 1
+                category = support_tech
+            }
+        }
+    }
+}
+
+# Train Techno-magi
+technomancy_action_3 = {
+    add_spellcaster_equipment = yes
+}
+
+# Seek Engineer Insights
+technomancy_action_4 = {
+    set_temp_variable = { base = 90 }
+    multiply_temp_variable = { base = faith_action_multiplier }
+    
+    if = {
+        limit = {
+            NOT = { has_idea = engineer_insights }
+        }
+        add_timed_idea = {
+            idea = engineer_insights
+            days = var:base
+        }
+    }
+    else = {
+        custom_effect_tooltip = ALREADY_ENGINEER_INSIGHTS
+    }
+}
+
+# Manufacture Mechanical Constructs
+technomancy_action_5 = {
+    add_grunt_equipment = yes
+}
+
+# Delve into Technomagic
+technomancy_action_6 = {
+    if = {
+        limit = { amount_research_slots < 6 }
+  
+        add_research_slot = 1
+    }
+    else = {
+        custom_effect_tooltip = MAXIMUM_RESEARCH_SLOTS
+    }
+}
+
+#------------------------------------
+# Capitalism
+#------------------------------------
+# The Power of Money
+capitalism_action_1 = {
+    set_temp_variable = { base = 30 }
+    multiply_temp_variable = { base = faith_action_multiplier }
+    
+    if = {
+        limit = {
+            NOT = { has_idea = power_of_money }
+        }
+        add_timed_idea = {
+            idea = power_of_money
+            days = var:base
+        }
+    }
+    else = {
+        custom_effect_tooltip = ALREADY_POWER_OF_MONEY
+    }
+}
+
+# Invest in Mercenaries
+capitalism_action_2 = {
+    add_champion_equipment = yes
+}
+
+# Expedite Training
+capitalism_action_3 = {
+    add_tech_bonus = {
+        name = doctrine_tech_bonus
+        bonus = 0.5
+        uses = 1
+        category = doctrine_tech
+    }
+}
+
+# Spread Propaganda
+capitalism_action_4 = {
+    add_scaled_war_support = yes
+}
+
+# Bribe Commanders
+capitalism_action_5 = {
+    if = {
+        limit = {
+            any_unit_leader = {
+                is_field_marshal = yes
+            }
+        }
+        custom_effect_tooltip = UNITS_BAGS_OF_GOLD
+        
+        every_unit_leader = {
+            limit = { is_field_marshal = yes }
+            add_temporary_buff_to_units = {
+                org_damage_multiplier = -0.5
+                str_damage_multiplier = -0.5
+                
+                days = 7
+                tooltip = BAGS_OF_GOLD
+            }
+        }
+    }
+    else = {
+        custom_effect_tooltip = NO_VALID_UNIT_LEADER
+    }
+}
+
+# Keen Financiers
+capitalism_action_6 = {
+    set_temp_variable = { base = 30 }
+    multiply_temp_variable = { base = faith_action_multiplier }
+    
+    if = {
+        limit = {
+            NOT = { has_idea = keen_financiers }
+        }
+        add_timed_idea = {
+            idea = keen_financiers
+            days = var:base
+        }
+    }
+    else = {
+        custom_effect_tooltip = ALREADY_KEEN_FINANCIERS
+    }
+}
+
+#------------------------------------
+# Soul
+#------------------------------------
+# Enslave Enemies
+soul_action_1 = {
+    add_scaled_manpower = yes
+}
+
+# Shackle Spirits 
+soul_action_2 = {
+    add_popularity_x_10 = yes
+}
+
+# Undergo Flesh-shaping
+soul_action_3 = {
+    custom_effect_tooltip = SPAWN_FLESHSHAPED_CREATURE
+    
+    hidden_effect = {
+        if = {
+            limit = {
+                NOT = { has_template = "Fleshshaped Creatures" }
+            }
+            load_oob = "Religion - Fleshshaped Creatures"
+        }
+        
+        capital_scope = {    
+            create_unit = {
+                division = "name = \"Fleshshaped Creatures\" division_template = \"Fleshshaped Creatures\" start_experience_factor = 0.1 start_equipment_factor = 0.2"
+                owner = ROOT
+            }
+        }
+    }
+}
+
+# Craft Soul Amulets
+soul_action_4 = {
+    if = {
+        limit = {
+            any_unit_leader = {
+                is_field_marshal = yes
+            }
+        }
+        custom_effect_tooltip = UNITS_SOUL_AMULETS
+        
+        every_unit_leader = {
+            limit = { is_field_marshal = yes }
+            add_temporary_buff_to_units = {
+                org_damage_multiplier = -0.5
+                str_damage_multiplier = -0.5
+                
+                days = 7
+                tooltip = SOUL_AMULETS
+            }
+        }
+    }
+    else = {
+        custom_effect_tooltip = NO_VALID_UNIT_LEADER
+    }
+}
+
+# Survival of the Fittest
+soul_action_5 = {
+    random_list = {
+        25 = {
+            every_unit_leader = {
+                limit = { is_field_marshal = yes }
+                add_attack = 1
+            }
+        }
+        25 = {
+            every_unit_leader = {
+                limit = { is_field_marshal = yes }
+                add_defense = 1
+            }
+        }
+        25 = {
+            every_unit_leader = {
+                limit = { is_field_marshal = yes }
+                add_planning = 1
+            }
+        }
+        25 = {
+            every_unit_leader = {
+                limit = { is_field_marshal = yes }
+                add_logistics = 1
+            }
+        }
+    }
+}
+
+# Subjugate the Weak
+soul_action_6 = {
+    add_wargoal_on_neighbor = yes
+}
+
+#------------------------------------
+# Runic
+#------------------------------------
+# Bestow Ceremonial Horn
+runic_action_1 = {
+    set_temp_variable = { base = 30 }
+    multiply_temp_variable = { base = faith_action_multiplier }
+    
+    if = {
+        limit = {
+            NOT = { has_idea = ceremonial_horn }
+        }
+        add_timed_idea = {
+            idea = ceremonial_horn
+            days = var:base
+        }
+    }
+    else = {
+        custom_effect_tooltip = ALREADY_CEREMONIAL_HORN
+    }
+}
+
+# Visit Runic Shrines
+runic_action_2 = {
+    add_popularity_x_10 = yes
+}
+
+# Runic Empowerment
+runic_action_3 = {
+    if = {
+        limit = {
+            any_unit_leader = {
+                is_field_marshal = yes
+            }
+        }
+        custom_effect_tooltip = UNIT_RUNIC_EMPOWERMENT
+        every_unit_leader = {
+            limit = { is_field_marshal = yes }
+            
+            add_temporary_buff_to_units = {
+                combat_offense = 0.5
+                combat_breakthrough = 0.5
+
+                days = 7
+                tooltip = RUNIC_EMPOWERMENT
+            }
+        }
+    }
+    else = {
+        custom_effect_tooltip = NO_VALID_UNIT_LEADER
+    }
+}
+
+# Raise Fallen Vrykul
+runic_action_4 = {
+    add_scaled_manpower = yes
+}
+
+# Tame Proto-dragons
+runic_action_5 = {
+    add_champion_equipment = yes
+}
+
+# Secure Vrykul Lands
+runic_action_6 = {
+    custom_effect_tooltip = WARGOAL_GENERATION_TOOLTIP
+    
+    if = {
+        limit = {
+            any_neighbor_country = {
+                capital_scope = { is_on_continent = northrend }
+                NOT = { is_in_faction_with = ROOT }
+                has_opinion = {
+                    target = ROOT
+                    value < 10
+                }
+                ROOT = { NOT = { has_wargoal_against = PREV } }
+            }
+        }
+
+        random_neighbor_country = {
+            limit = {
+                capital_scope = { is_on_continent = northrend }
+                NOT = { is_in_faction_with = ROOT }
+                has_opinion = {
+                    target = ROOT
+                    value < 10
+                }
+                ROOT = { NOT = { has_wargoal_against = PREV } }
+            }
+            set_temp_variable = { target_country = THIS.id }
+         }
+         create_wargoal = {
+            type = annex_everything
+            target = var:target_country
+         }
+    }
+    else = {
+        custom_effect_tooltip = NO_VALID_WARGOAL_TARGET
+    }
+}
+
+set_religion_none = {
+    custom_effect_tooltip = SET_RELIGION_NONE
+    set_variable = { country_religion = 0 }
+}
+
+set_religion_the_holy_light = {
+    custom_effect_tooltip = SET_RELIGION_HOLY_LIGHT
+    set_variable = { country_religion = 1 }
+}
+
+set_religion_elune = {
+    custom_effect_tooltip = SET_RELIGION_ELUNE
+    set_variable = { country_religion = 2 }
+}
+
+set_religion_hakkar = {
+    custom_effect_tooltip = SET_RELIGION_HAKKAR
+    set_variable = { country_religion = 3 }
+}
+
+set_religion_voodoo = {
+    custom_effect_tooltip = SET_RELIGION_VOODOO
+    set_variable = { country_religion = 4 }
+}
+
+set_religion_shadow = {
+    custom_effect_tooltip = SET_RELIGION_SHADOW
+    set_variable = { country_religion = 5 }
+}
+
+set_religion_nature = {
+    custom_effect_tooltip = SET_RELIGION_NATURE
+    set_variable = { country_religion = 6 }
+}
+
+set_religion_deep_mother = {
+    custom_effect_tooltip = SET_RELIGION_DEEP_MOTHER
+    set_variable = { country_religion = 7 }
+}
+
+set_religion_arcane = {
+    custom_effect_tooltip = SET_RELIGION_ARCANE
+    set_variable = { country_religion = 8 }
+}
+
+set_religion_druidism = {
+    custom_effect_tooltip = SET_RELIGION_DRUIDISM
+    set_variable = { country_religion = 9 }
+}
+
+set_religion_old_gods = {
+    custom_effect_tooltip = SET_RELIGION_OLD_GODS
+    set_variable = { country_religion = 10 }
+}
+
+set_religion_old_gods_cthun = {
+    custom_effect_tooltip = SET_RELIGION_OLD_GODS_CTHUN
+    set_variable = { country_religion = 10 }
+    set_variable = { old_god = 1 }
+}
+
+set_religion_old_gods_yshaarj = {
+    custom_effect_tooltip = SET_RELIGION_OLD_GODS_YSHAARJ
+    set_variable = { country_religion = 10 }
+    set_variable = { old_god = 2 }
+}
+
+set_religion_old_gods_yogg_saron = {
+    custom_effect_tooltip = SET_RELIGION_OLD_GODS_YOGG_SARON
+    set_variable = { country_religion = 10 }
+    set_variable = { old_god = 3 }
+}
+
+set_religion_old_gods_nzoth = {
+    custom_effect_tooltip = SET_RELIGION_OLD_GODS_NZOTH
+    set_variable = { country_religion = 10 }
+    set_variable = { old_god = 4 }
+}
+
+set_religion_fel = {
+    custom_effect_tooltip = SET_RELIGION_FEL
+    set_variable = { country_religion = 11 }
+}
+
+set_religion_necromancy = {
+    custom_effect_tooltip = SET_RELIGION_NECROMANCY
+    set_variable = { country_religion = 12 }
+}
+
+set_religion_shamanism = {
+    custom_effect_tooltip = SET_RELIGION_SHAMANISM
+    set_variable = { country_religion = 13 }
+}
+
+set_religion_celestials = {
+    custom_effect_tooltip = SET_RELIGION_CELESTIALS
+    set_variable = { country_religion = 14 }
+}
+
+set_religion_celestials_yulon = {
+    custom_effect_tooltip = SET_RELIGION_CELESTIALS_YULON
+    set_variable = { country_religion = 14 }
+    set_variable = { celestial = 1 }
+}
+
+set_religion_celestials_niuzao = {
+    custom_effect_tooltip = SET_RELIGION_CELESTIALS_NIUZAO
+    set_variable = { country_religion = 14 }
+    set_variable = { celestial = 2 }
+}
+
+set_religion_celestials_chiji = {
+    custom_effect_tooltip = SET_RELIGION_CELESTIALS_CHIJI
+    set_variable = { country_religion = 14 }
+    set_variable = { celestial = 3 }
+}
+
+set_religion_celestials_xuen = {
+    custom_effect_tooltip = SET_RELIGION_CELESTIALS_XUEN
+    set_variable = { country_religion = 14 }
+    set_variable = { celestial = 4 }
+}
+
+set_religion_titan = {
+    custom_effect_tooltip = SET_RELIGION_TITAN
+    set_variable = { country_religion = 15 }
+}
+
+set_religion_fire = {
+    custom_effect_tooltip = SET_RELIGION_FIRE
+    set_variable = { country_religion = 16 }
+}
+
+set_religion_earth = {
+    custom_effect_tooltip = SET_RELIGION_EARTH
+    set_variable = { country_religion = 17 }
+}
+
+set_religion_wind = {
+    custom_effect_tooltip = SET_RELIGION_AIR
+    set_variable = { country_religion = 18 }
+}
+
+set_religion_water = {
+    custom_effect_tooltip = SET_RELIGION_WATER
+    set_variable = { country_religion = 19 }
+}
+
+set_religion_geomancy = {
+    custom_effect_tooltip = SET_RELIGION_GEOMANCY
+    set_variable = { country_religion = 20 }
+}
+
+set_religion_light_of_the_naaru = {
+    custom_effect_tooltip = SET_RELIGION_LIGHT_OF_THE_NAARU
+    set_variable = { country_religion = 21 }
+}
+
+set_religion_dragon_aspects = {
+    custom_effect_tooltip = SET_RELIGION_DRAGON_ASPECTS
+    set_variable = { country_religion = 22 }
+}
+
+set_religion_dragon_aspects_red = {
+    custom_effect_tooltip = SET_RELIGION_DRAGON_ASPECTS_RED
+    set_variable = { country_religion = 22 }
+    set_variable = { dragonflight = 1 }
+}
+
+set_religion_dragon_aspects_blue = {
+    custom_effect_tooltip = SET_RELIGION_DRAGON_ASPECTS_BLUE
+    set_variable = { country_religion = 22 }
+    set_variable = { dragonflight = 2 }
+}
+
+set_religion_dragon_aspects_green = {
+    custom_effect_tooltip = SET_RELIGION_DRAGON_ASPECTS_GREEN
+    set_variable = { country_religion = 22 }
+    set_variable = { dragonflight = 3 }
+}
+
+set_religion_dragon_aspects_black = {
+    custom_effect_tooltip = SET_RELIGION_DRAGON_ASPECTS_BLACK
+    set_variable = { country_religion = 22 }
+    set_variable = { dragonflight = 4 }
+}
+
+set_religion_technomancy = {
+    custom_effect_tooltip = SET_RELIGION_TECHNOMANCY
+    set_variable = { country_religion = 23 }
+}
+
+set_religion_capitalism = {
+    custom_effect_tooltip = SET_RELIGION_CAPITALISM
+    set_variable = { country_religion = 24 }
+}
+
+set_religion_soul = {
+    custom_effect_tooltip = SET_RELIGION_SOUL
+    set_variable = { country_religion = 25 }
+}
+
+set_religion_runic = {
+    custom_effect_tooltip = SET_RELIGION_RUNIC
+    set_variable = { country_religion = 26 }
+}
+

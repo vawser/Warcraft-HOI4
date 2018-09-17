@@ -1,0 +1,70 @@
+state = {
+	id = 128
+	name = "THUNDERMAR"
+	manpower = 8237
+	state_category = town
+
+	resources = {
+		oil = 1
+		ground_beast = 8
+		wood = 24
+		steel = 1
+		food = 19
+	}
+
+	history = {
+		owner = WIL
+        add_core_of = WIL
+
+        victory_points = {
+            2337 10
+        }
+        
+		buildings = {
+			infrastructure = 6
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 8
+			industrial_complex = 1
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			2293 = {
+				bunker = 9
+			}
+			2337 = {
+				bunker = 5
+			}
+			2338 = {
+				bunker = 5
+			}
+			2371 = {
+				bunker = 1
+			}
+			2389 = {
+				bunker = 1
+			}
+			2908 = {
+				bunker = 3
+			}
+			2983 = {
+				bunker = 3
+			}
+			3036 = {
+				bunker = 5
+			}
+		}
+	}
+
+	provinces = {
+        2293 2337 2338 2371 2389 2908 2983 3036 
+    }
+}

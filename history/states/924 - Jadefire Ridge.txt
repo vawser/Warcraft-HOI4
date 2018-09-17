@@ -1,0 +1,15 @@
+state = {
+	id = 924
+	name = "JADEFIRE_RIDGE"
+	manpower = 22
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = BKF
+	}
+
+	provinces = {
+        4687 4724 4725 4756 4757 4772 4799 4817 
+    }
+}

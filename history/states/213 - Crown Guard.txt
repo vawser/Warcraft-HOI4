@@ -1,0 +1,64 @@
+state = {
+	id = 213
+	name = "CROWN_GUARD"
+	manpower = 693
+	state_category = rural
+
+	resources = {
+		oil = 1
+		ground_beast = 4
+		flying_beast = 4
+		wood = 20
+		steel = 5
+		food = 19
+	}
+
+	history = {
+		owner = STR
+        add_core_of = STR
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 3
+			industrial_complex = 1
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			2067 = {
+				bunker = 0
+			}
+			2087 = {
+				bunker = 0
+			}
+			2109 = {
+				bunker = 0
+			}
+			2129 = {
+				bunker = 0
+			}
+			2236 = {
+				bunker = 0
+			}
+			2279 = {
+				bunker = 0
+			}
+			2149 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        2067 2087 2109 2129 2236 2279 2149
+    }
+}

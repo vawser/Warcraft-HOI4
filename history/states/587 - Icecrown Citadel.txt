@@ -1,0 +1,115 @@
+state = {
+	id = 587
+	name = "ICECROWN_RISE"
+	manpower = 14874
+	state_category = city
+
+	resources = {
+		oil = 4
+		ground_beast = 6
+		wood = 2
+		steel = 13
+		food = 14
+	}
+
+	history = {
+		owner = AZJ
+		add_core_of = AZJ
+
+        # The Third War
+        612.1.1 = {
+            owner = SCO
+            add_core_of = SCO
+            set_state_name = ICECROWN_CITADEL
+            buildings = {
+			infrastructure = 8
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 10
+			industrial_complex = 6
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			5465 = {
+				bunker = 4
+			}
+			5487 = {
+				bunker = 8
+			}
+			5510 = {
+				bunker = 8
+			}
+			5553 = {
+				bunker = 7
+			}
+			6065 = {
+				bunker = 9
+			}
+			6078 = {
+				bunker = 2
+			}
+			6093 = {
+				bunker = 3
+			}
+			6110 = {
+				bunker = 3
+			}
+		}
+        }
+        
+		buildings = {
+			infrastructure = 8
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 10
+			industrial_complex = 6
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			5465 = {
+				bunker = 4
+			}
+			5487 = {
+				bunker = 8
+			}
+			5510 = {
+				bunker = 8
+			}
+			5553 = {
+				bunker = 7
+			}
+			6065 = {
+				bunker = 9
+			}
+			6078 = {
+				bunker = 2
+			}
+			6093 = {
+				bunker = 3
+			}
+			6110 = {
+				bunker = 3
+			}
+		}
+	}
+
+	provinces = {
+        5465 5487 5510 5553 6065 6078 6093 6110
+    }
+}

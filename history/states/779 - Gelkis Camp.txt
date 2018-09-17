@@ -1,0 +1,63 @@
+state = {
+	id = 779
+	name = "GELKIS_CAMP"
+	manpower = 9228
+	state_category = town
+
+	resources = {
+		ground_beast = 5
+		flying_beast = 2
+		wood = 19
+		steel = 4
+		food = 15
+	}
+
+	history = {
+		owner = GEL
+		add_core_of = GEL
+
+		buildings = {
+			infrastructure = 7
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 5
+			industrial_complex = 4
+			dockyard = 5
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			3317 = {
+				bunker = 2
+				coastal_bunker = 9
+				naval_base = 5
+			}
+			4025 = {
+				bunker = 8
+			}
+			4053 = {
+				bunker = 4
+			}
+			4084 = {
+				bunker = 3
+			}
+			4114 = {
+				bunker = 1
+			}
+		}
+	}
+
+	provinces = {
+        3317 4025 4053 4084 4114 
+    }
+}

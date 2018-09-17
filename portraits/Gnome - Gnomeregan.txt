@@ -1,0 +1,150 @@
+GNO = {
+	army = {
+		male = {
+			"gfx/leaders/GNOME/gnome_male_1.dds"
+			"gfx/leaders/GNOME/gnome_male_2.dds"
+            "gfx/leaders/GNOME/gnome_male_3.dds"
+            "gfx/leaders/GNOME/gnome_male_4.dds"
+            "gfx/leaders/GNOME/gnome_male_5.dds"
+		}
+        female = {
+			"gfx/leaders/GNOME/gnome_female_1.dds"
+			"gfx/leaders/GNOME/gnome_female_2.dds"
+            "gfx/leaders/GNOME/gnome_female_3.dds"
+            "gfx/leaders/GNOME/gnome_female_4.dds"
+            "gfx/leaders/GNOME/gnome_female_5.dds"
+		}
+	}
+
+	navy = {
+		male = {
+			"gfx/leaders/GNOME/gnome_male_1.dds"
+			"gfx/leaders/GNOME/gnome_male_2.dds"
+            "gfx/leaders/GNOME/gnome_male_3.dds"
+            "gfx/leaders/GNOME/gnome_male_4.dds"
+            "gfx/leaders/GNOME/gnome_male_5.dds"
+		}
+        female = {
+			"gfx/leaders/GNOME/gnome_female_1.dds"
+			"gfx/leaders/GNOME/gnome_female_2.dds"
+            "gfx/leaders/GNOME/gnome_female_3.dds"
+            "gfx/leaders/GNOME/gnome_female_4.dds"
+            "gfx/leaders/GNOME/gnome_female_5.dds"
+		}
+	}
+
+	political = {
+		light = {
+			male = {
+                "gfx/leaders/GNOME/gnome_male_1.dds"
+                "gfx/leaders/GNOME/gnome_male_2.dds"
+                "gfx/leaders/GNOME/gnome_male_3.dds"
+                "gfx/leaders/GNOME/gnome_male_4.dds"
+                "gfx/leaders/GNOME/gnome_male_5.dds"
+            }
+            female = {
+                "gfx/leaders/GNOME/gnome_female_1.dds"
+                "gfx/leaders/GNOME/gnome_female_2.dds"
+                "gfx/leaders/GNOME/gnome_female_3.dds"
+                "gfx/leaders/GNOME/gnome_female_4.dds"
+                "gfx/leaders/GNOME/gnome_female_5.dds"
+            }
+		}
+		shadow = {
+			male = {
+                "gfx/leaders/GNOME/gnome_male_1.dds"
+                "gfx/leaders/GNOME/gnome_male_2.dds"
+                "gfx/leaders/GNOME/gnome_male_3.dds"
+                "gfx/leaders/GNOME/gnome_male_4.dds"
+                "gfx/leaders/GNOME/gnome_male_5.dds"
+            }
+            female = {
+                "gfx/leaders/GNOME/gnome_female_1.dds"
+                "gfx/leaders/GNOME/gnome_female_2.dds"
+                "gfx/leaders/GNOME/gnome_female_3.dds"
+                "gfx/leaders/GNOME/gnome_female_4.dds"
+                "gfx/leaders/GNOME/gnome_female_5.dds"
+            }
+		}
+        order = {
+			male = {
+                "gfx/leaders/GNOME/gnome_male_1.dds"
+                "gfx/leaders/GNOME/gnome_male_2.dds"
+                "gfx/leaders/GNOME/gnome_male_3.dds"
+                "gfx/leaders/GNOME/gnome_male_4.dds"
+                "gfx/leaders/GNOME/gnome_male_5.dds"
+            }
+            female = {
+                "gfx/leaders/GNOME/gnome_female_1.dds"
+                "gfx/leaders/GNOME/gnome_female_2.dds"
+                "gfx/leaders/GNOME/gnome_female_3.dds"
+                "gfx/leaders/GNOME/gnome_female_4.dds"
+                "gfx/leaders/GNOME/gnome_female_5.dds"
+            }
+		}
+        disorder = {
+			male = {
+                "gfx/leaders/GNOME/gnome_male_1.dds"
+                "gfx/leaders/GNOME/gnome_male_2.dds"
+                "gfx/leaders/GNOME/gnome_male_3.dds"
+                "gfx/leaders/GNOME/gnome_male_4.dds"
+                "gfx/leaders/GNOME/gnome_male_5.dds"
+            }
+            female = {
+                "gfx/leaders/GNOME/gnome_female_1.dds"
+                "gfx/leaders/GNOME/gnome_female_2.dds"
+                "gfx/leaders/GNOME/gnome_female_3.dds"
+                "gfx/leaders/GNOME/gnome_female_4.dds"
+                "gfx/leaders/GNOME/gnome_female_5.dds"
+            }
+		}
+        life = {
+			male = {
+                "gfx/leaders/GNOME/gnome_male_1.dds"
+                "gfx/leaders/GNOME/gnome_male_2.dds"
+                "gfx/leaders/GNOME/gnome_male_3.dds"
+                "gfx/leaders/GNOME/gnome_male_4.dds"
+                "gfx/leaders/GNOME/gnome_male_5.dds"
+            }
+            female = {
+                "gfx/leaders/GNOME/gnome_female_1.dds"
+                "gfx/leaders/GNOME/gnome_female_2.dds"
+                "gfx/leaders/GNOME/gnome_female_3.dds"
+                "gfx/leaders/GNOME/gnome_female_4.dds"
+                "gfx/leaders/GNOME/gnome_female_5.dds"
+            }
+		}
+        death = {
+			male = {
+                "gfx/leaders/GNOME/gnome_male_1.dds"
+                "gfx/leaders/GNOME/gnome_male_2.dds"
+                "gfx/leaders/GNOME/gnome_male_3.dds"
+                "gfx/leaders/GNOME/gnome_male_4.dds"
+                "gfx/leaders/GNOME/gnome_male_5.dds"
+            }
+            female = {
+                "gfx/leaders/GNOME/gnome_female_1.dds"
+                "gfx/leaders/GNOME/gnome_female_2.dds"
+                "gfx/leaders/GNOME/gnome_female_3.dds"
+                "gfx/leaders/GNOME/gnome_female_4.dds"
+                "gfx/leaders/GNOME/gnome_female_5.dds"
+            }
+		}
+        unaligned = {
+			male = {
+                "gfx/leaders/GNOME/gnome_male_1.dds"
+                "gfx/leaders/GNOME/gnome_male_2.dds"
+                "gfx/leaders/GNOME/gnome_male_3.dds"
+                "gfx/leaders/GNOME/gnome_male_4.dds"
+                "gfx/leaders/GNOME/gnome_male_5.dds"
+            }
+            female = {
+                "gfx/leaders/GNOME/gnome_female_1.dds"
+                "gfx/leaders/GNOME/gnome_female_2.dds"
+                "gfx/leaders/GNOME/gnome_female_3.dds"
+                "gfx/leaders/GNOME/gnome_female_4.dds"
+                "gfx/leaders/GNOME/gnome_female_5.dds"
+            }
+		}
+	}
+}

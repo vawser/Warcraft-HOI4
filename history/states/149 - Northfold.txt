@@ -1,0 +1,64 @@
+state = {
+	id = 149
+	name = "NORTHFOLD"
+	manpower = 804
+	state_category = rural
+
+	resources = {
+		ground_beast = 1
+		flying_beast = 5
+		wood = 2
+		steel = 9
+		food = 27
+	}
+
+	history = {
+		owner = SMG
+        add_core_of = SMG
+
+        victory_points = {
+            3058 5
+        }
+        
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 1
+			industrial_complex = 3
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			2802 = {
+				bunker = 0
+			}
+			2852 = {
+				bunker = 0
+			}
+			2929 = {
+				bunker = 0
+			}
+			2954 = {
+				bunker = 0
+			}
+			2982 = {
+				bunker = 0
+			}
+			3058 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        2802 2852 2929 2954 2982 3058 
+    }
+}

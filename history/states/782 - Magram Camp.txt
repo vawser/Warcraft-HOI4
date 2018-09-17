@@ -1,0 +1,58 @@
+state = {
+	id = 782
+	name = "MAGRAM_CAMP"
+	manpower = 5560
+	state_category = town
+
+	resources = {
+		oil = 1
+		ground_beast = 7
+		flying_beast = 6
+		wood = 9
+		steel = 7
+		food = 16
+	}
+
+	history = {
+		owner = MRA
+		add_core_of = MRA
+
+		buildings = {
+			infrastructure = 6
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 5
+			industrial_complex = 4
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			4168 = {
+				bunker = 7
+			}
+			4178 = {
+				bunker = 6
+			}
+			4197 = {
+				bunker = 2
+			}
+			4205 = {
+				bunker = 1
+			}
+			4213 = {
+				bunker = 1
+			}
+		}
+	}
+
+	provinces = {
+        4168 4178 4197 4205 4213 
+    }
+}

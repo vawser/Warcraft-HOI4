@@ -1,0 +1,55 @@
+state = {
+	id = 771
+	name = "MISTHORN"
+	manpower = 15115
+	state_category = city
+
+	resources = {
+		oil = 2
+		ground_beast = 8
+		flying_beast = 8
+		wood = 1
+		steel = 9
+		food = 13
+	}
+
+	history = {
+		owner = WHI
+		add_core_of = WHI
+
+		buildings = {
+			infrastructure = 9
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 10
+			industrial_complex = 6
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			4905 = {
+				bunker = 2
+			}
+			4943 = {
+				bunker = 8
+			}
+			5030 = {
+				bunker = 4
+			}
+			5103 = {
+				bunker = 9
+			}
+		}
+	}
+
+	provinces = {
+        4905 4943 5030 5103
+    }
+}

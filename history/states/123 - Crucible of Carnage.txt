@@ -1,0 +1,57 @@
+state = {
+	id = 123
+	name = "CRUCIBLE_OF_CARNAGE"
+	manpower = 919
+	state_category = rural
+
+	resources = {
+		oil = 2
+		ground_beast = 6
+		wood = 19
+		steel = 3
+		food = 12
+	}
+
+	history = {
+		owner = JEL
+        add_core_of = JEL
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 2
+			industrial_complex = 0
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			2321 = {
+				bunker = 0
+			}
+			2353 = {
+				bunker = 0
+			}
+			2372 = {
+				bunker = 0
+			}
+			2415 = {
+				bunker = 0
+			}
+			2827 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        2321 2353 2372 2415 2827
+    }
+}

@@ -1,0 +1,15 @@
+state = {
+	id = 444
+	name = "TERRACE_OF_ENDLESS_SPRING"
+	manpower = 78
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = MOH
+	}
+
+	provinces = {
+        6485 6762 6769 6750 6780 
+    }
+}

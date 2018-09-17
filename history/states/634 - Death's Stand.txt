@@ -1,0 +1,79 @@
+state = {
+	id = 634
+	name = "DEATHS_STAND"
+	manpower = 831
+	state_category = rural
+
+	resources = {
+		oil = 3
+		ground_beast = 3
+		flying_beast = 9
+		wood = 1
+		steel = 6
+		food = 26
+	}
+
+	history = {
+		owner = WTG
+		add_core_of = WTG
+
+        # The Third War
+        612.1.1 = {
+            owner = SCO
+            add_core_of = SCO
+        }
+        
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 2
+			industrial_complex = 1
+			dockyard = 0
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			5243 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 1
+			}
+			5255 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 9
+			}
+			5267 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 7
+			}
+			5351 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 3
+			}
+			6013 = {
+				bunker = 0
+			}
+			6155 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        5243 5255 5267 5351 6013 6155
+    }
+}

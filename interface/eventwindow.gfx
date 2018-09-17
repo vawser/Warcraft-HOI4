@@ -1,0 +1,48 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_event_news_pic_overlay"
+		texturefile = "gfx/interface/event_news_pic_overlay.dds"
+	}
+
+	spriteType = {
+		name = "GFX_event_news_bg"
+		texturefile = "gfx/interface/event_news_bg.dds"
+	}
+
+	spriteType = {
+		name = "GFX_event_pic_clip"
+		texturefile = "gfx/interface/event_pic_clip.dds"
+	}
+
+	spriteType = {
+		name = "GFX_event_option_entry"
+		texturefile = "gfx/interface/event_window/wow_event_button.dds"
+        effectFile = "gfx/FX/buttonstate.lua"
+	}
+
+	corneredTileSpriteType = {
+		name = "GFX_event_report_tileable_midsection"
+		size = { x = 580 y = 66 }		
+		textureFile = "gfx/interface/event_window/wow_event_middle.dds"
+		borderSize = { x = 290 y = 16 }
+		allwaystransparent = yes			
+	}
+
+	spriteType = {
+		name = "GFX_event_report_top_win"
+		texturefile = "gfx/interface/event_window/wow_event_top.dds"
+		allwaystransparent = yes			
+	}
+
+	spriteType = {
+		name = "GFX_event_report_bottom_win"
+		texturefile = "gfx/interface/event_window/wow_event_bottom.dds"
+		allwaystransparent = yes	
+	}
+    
+	spriteType = {
+		name = "GFX_event_button_minimize"
+		texturefile = "gfx/interface/event_window/wow_minimise_button.dds"
+	}
+}

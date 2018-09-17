@@ -1,0 +1,56 @@
+state = {
+	id = 701
+	name = "THE_SCREAMING_REACHES"
+	manpower = 833
+	state_category = rural
+
+	resources = {
+		ground_beast = 6
+		flying_beast = 7
+		wood = 19
+		food = 3
+	}
+
+	history = {
+		owner = AQJ
+		add_core_of = AQJ
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 3
+			industrial_complex = 1
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			4235 = {
+				bunker = 0
+			}
+			4241 = {
+				bunker = 0
+			}
+			4265 = {
+				bunker = 0
+			}
+			4269 = {
+				bunker = 0
+			}
+			4274 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        4235 4241 4265 4269 4274 
+    }
+}

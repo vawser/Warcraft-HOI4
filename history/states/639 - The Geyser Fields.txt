@@ -1,0 +1,59 @@
+state = {
+	id = 639
+	name = "THE_GEYSER_FIELDS"
+	manpower = 813
+	state_category = rural
+
+	resources = {
+		oil = 17
+		ground_beast = 6
+		flying_beast = 8
+		wood = 6
+		steel = 1
+	}
+
+	history = {
+		owner = ICE
+		add_core_of = ICE
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 1
+			industrial_complex = 2
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+
+			manufactory = 0
+
+			7239 = {
+				bunker = 0
+			}
+			7240 = {
+				bunker = 0
+			}
+			7241 = {
+				bunker = 0
+			}
+			7242 = {
+				bunker = 0
+			}
+			7243 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        7239 7240 7241 7242 7243 
+    }
+}

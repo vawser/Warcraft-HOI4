@@ -1,0 +1,66 @@
+state = {
+	id = 488
+	name = "AMBERBROOK"
+	manpower = 1993
+	state_category = village
+
+	resources = {
+		oil = 12
+		ground_beast = 9
+		flying_beast = 9
+		wood = 1
+		steel = 2
+		food = 1
+	}
+
+	history = {
+		owner = FTP
+		add_core_of = FTP
+
+		buildings = {
+			infrastructure = 4
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 1
+			industrial_complex = 3
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+
+			manufactory = 0
+
+			7245 = {
+				bunker = 0
+			}
+			7248 = {
+				bunker = 0
+			}
+			7253 = {
+				bunker = 0
+			}
+			7256 = {
+				bunker = 0
+			}
+			7259 = {
+				bunker = 0
+			}
+			7268 = {
+				bunker = 0
+			}
+			7270 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        7245 7248 7253 7256 7259 7268 7270 
+    }
+}

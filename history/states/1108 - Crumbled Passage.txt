@@ -1,0 +1,15 @@
+state = {
+	id = 1108
+	name = "CRUMBLED_PASSAGE"
+	manpower = 49
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = AQJ
+	}
+
+	provinces = {
+        4518
+    }
+}

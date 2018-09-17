@@ -1,0 +1,101 @@
+state = {
+	id = 575
+	name = "SHADOW_ISLE"
+	manpower = 445
+	state_category = rural
+
+	resources = {
+		ground_beast = 2
+		flying_beast = 9
+		wood = 4
+		steel = 12
+		food = 14
+	}
+
+	history = {
+		owner = AZJ
+		add_core_of = AZJ
+
+        # The Third War
+        612.1.1 = {
+            owner = SCO
+            add_core_of = SCO
+        }
+        
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 1
+			industrial_complex = 2
+			dockyard = 1
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			5168 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 4
+			}
+			5175 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 4
+			}
+			5184 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 2
+			}
+			5211 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 8
+			}
+			5215 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 2
+			}
+			5226 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 2
+			}
+			5405 = {
+				bunker = 0
+			}
+			5427 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 1
+			}
+			5454 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 4
+			}
+			5476 = {
+				bunker = 0
+			}
+			5501 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        5168 5175 5184 5211 5215 5226 5405 5427 5454 5476 5501 
+    }
+}

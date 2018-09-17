@@ -1,0 +1,15 @@
+state = {
+	id = 417
+	name = "NEVEREST_PEAK"
+	manpower = 45
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = SPN
+	}
+
+	provinces = {
+        6773 6778 6784 6785 
+    }
+}

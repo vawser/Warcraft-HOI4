@@ -1,0 +1,80 @@
+state = {
+	id = 279
+	name = "HALLS_OF_VALOR"
+	manpower = 9644
+	state_category = city
+
+	resources = {
+		oil = 2
+		ground_beast = 2
+		flying_beast = 9
+		wood = 23
+		steel = 3
+		food = 10
+	}
+
+	history = {
+		owner = STH
+		add_core_of = STH
+
+		buildings = {
+			infrastructure = 8
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 2
+			industrial_complex = 7
+			dockyard = 8
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			7049 = {
+				bunker = 2
+				coastal_bunker = 3
+				naval_base = 9
+			}
+			7053 = {
+				bunker = 5
+				coastal_bunker = 2
+				naval_base = 2
+			}
+			7057 = {
+				bunker = 9
+				coastal_bunker = 5
+				naval_base = 6
+			}
+			7065 = {
+				bunker = 3
+				coastal_bunker = 9
+				naval_base = 4
+			}
+			7080 = {
+				bunker = 4
+				coastal_bunker = 8
+				naval_base = 5
+			}
+			7089 = {
+				bunker = 2
+				coastal_bunker = 6
+				naval_base = 2
+			}
+			7096 = {
+				bunker = 5
+			}
+		}
+	}
+
+	provinces = {
+        7049 7053 7057 7065 7080 7089 7096 
+    }
+}

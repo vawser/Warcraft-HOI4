@@ -1,0 +1,24 @@
+state = {
+	id = 91
+	name = "HELMS_MT"
+	manpower = 47
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = DKI
+
+        # The Second War
+        597.1.1 = {
+            owner = TTH
+        }
+        # The Third War
+        612.1.1 = {
+            owner = SGL
+        }
+	}
+
+	provinces = {
+        2588 2754 2770 
+    }
+}

@@ -1,0 +1,59 @@
+state = {
+	id = 770
+	name = "WILDMANE"
+	manpower = 9155
+	state_category = town
+
+	resources = {
+		oil = 2
+		flying_beast = 2
+		steel = 3
+		food = 19
+	}
+
+	history = {
+		owner = WHE
+		add_core_of = WHE
+
+		buildings = {
+			infrastructure = 5
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 10
+			industrial_complex = 2
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			4906 = {
+				bunker = 6
+			}
+			4926 = {
+				bunker = 3
+			}
+			5009 = {
+				bunker = 5
+			}
+			5028 = {
+				bunker = 5
+			}
+			5065 = {
+				bunker = 9
+			}
+			5084 = {
+				bunker = 8
+			}
+		}
+	}
+
+	provinces = {
+        4906 4926 5009 5028 5065 5084 
+    }
+}

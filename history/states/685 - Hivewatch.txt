@@ -1,0 +1,54 @@
+state = {
+	id = 685
+	name = "HIVEWATCH"
+	manpower = 3992
+	state_category = village
+
+	resources = {
+		oil = 9
+		ground_beast = 3
+		flying_beast = 9
+		steel = 8
+		food = 4
+	}
+
+	history = {
+		owner = AQJ
+		add_core_of = AQJ
+
+		buildings = {
+			infrastructure = 3
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 6
+			industrial_complex = 0
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			3360 = {
+				bunker = 0
+			}
+			3361 = {
+				bunker = 0
+			}
+			3390 = {
+				bunker = 0
+			}
+			3419 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        3360 3361 3390 3419 
+    }
+}

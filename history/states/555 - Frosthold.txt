@@ -1,0 +1,45 @@
+state = {
+	id = 555
+	name = "FROSTHOLD"
+	manpower = 3988
+	state_category = town
+
+	resources = {
+		oil = 2
+		ground_beast = 6
+		flying_beast = 2
+		wood = 9
+		steel = 10
+		food = 18
+	}
+
+	history = {
+		owner = FRO
+		add_core_of = FRO
+
+		buildings = {
+			infrastructure = 6
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 5
+			industrial_complex = 6
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			5960 = {
+				bunker = 3
+			}
+		}
+	}
+	provinces = {
+        5960
+    }
+}

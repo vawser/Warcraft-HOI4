@@ -1,0 +1,64 @@
+state = {
+	id = 491
+	name = "VENTURE_BAY"
+	manpower = 4280
+	state_category = village
+
+	resources = {
+		ground_beast = 2
+		flying_beast = 1
+		wood = 4
+		steel = 6
+		food = 23
+	}
+
+	history = {
+		owner = BLP
+		add_core_of = BLP
+
+		buildings = {
+			infrastructure = 2
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 2
+			industrial_complex = 2
+			dockyard = 6
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			5193 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 4
+			}
+			5322 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 3
+			}
+			5337 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 7
+			}
+			7255 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        5193 5322 5337 7255 
+    }
+}

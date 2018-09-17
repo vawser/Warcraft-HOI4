@@ -1,0 +1,217 @@
+#-------------------------------------------------------------------------------
+# Setup
+#-------------------------------------------------------------------------------
+# These effects are called from each countries OOB, spawning their starting units.
+
+setup_small_nation_units = {
+    random_owned_state = {
+        limit = { is_core_of = ROOT }
+        create_unit = { 
+            division = "name = \"Grunt Division\" division_template = \"Barrage Division\" start_experience_factor = 0.1 start_equipment_factor = 1.0" 
+            owner = ROOT
+        }
+        create_unit = { 
+            division = "name = \"Grunt Division\" division_template = \"Barrage Division\" start_experience_factor = 0.1 start_equipment_factor = 1.0" 
+            owner = ROOT
+        }
+        create_unit = { 
+            division = "name = \"Grunt Division\" division_template = \"Barrage Division\" start_experience_factor = 0.1 start_equipment_factor = 1.0" 
+            owner = ROOT
+        }
+        create_unit = { 
+            division = "name = \"Grunt Division\" division_template = \"Barrage Division\" start_experience_factor = 0.1 start_equipment_factor = 1.0" 
+            owner = ROOT
+        }
+        create_unit = { 
+            division = "name = \"Grunt Division\" division_template = \"Barrage Division\" start_experience_factor = 0.1 start_equipment_factor = 1.0" 
+            owner = ROOT
+        }
+        create_unit = { 
+            division = "name = \"Grunt Division\" division_template = \"Barrage Division\" start_experience_factor = 0.1 start_equipment_factor = 1.0" 
+            owner = ROOT
+        }
+        create_unit = { 
+            division = "name = \"Grunt Division\" division_template = \"Barrage Division\" start_experience_factor = 0.1 start_equipment_factor = 1.0" 
+            owner = ROOT
+        }
+        create_unit = { 
+            division = "name = \"Grunt Division\" division_template = \"Barrage Division\" start_experience_factor = 0.1 start_equipment_factor = 1.0" 
+            owner = ROOT
+        }
+        create_unit = { 
+            division = "name = \"Grunt Division\" division_template = \"Barrage Division\" start_experience_factor = 0.1 start_equipment_factor = 1.0" 
+            owner = ROOT
+        }
+        create_unit = { 
+            division = "name = \"Grunt Division\" division_template = \"Barrage Division\" start_experience_factor = 0.1 start_equipment_factor = 1.0" 
+            owner = ROOT
+        }
+    }
+    if = {
+        limit = {
+            OR = {
+                tag = GAL
+                tag = GEL
+                tag = MRA
+                tag = MUR
+                tag = KOL
+                tag = UNB
+                tag = SOW
+                tag = MAG
+                tag = GAM
+                tag = LEG
+                tag = NAZ
+                tag = XAV
+                tag = HAL
+                tag = JAD
+                tag = AXX
+                tag = WDP
+            }
+        }
+        random_owned_state = {
+            limit = { is_core_of = ROOT }
+            create_unit = { 
+                division = "name = \"Light Cavalry Division\" division_template = \"Scout Division\" start_experience_factor = 0.1 start_equipment_factor = 1.0" 
+                owner = ROOT
+            }
+            create_unit = { 
+                division = "name = \"Light Cavalry Division\" division_template = \"Scout Division\" start_experience_factor = 0.1 start_equipment_factor = 1.0" 
+                owner = ROOT
+            }
+            create_unit = { 
+                division = "name = \"Light Cavalry Division\" division_template = \"Scout Division\" start_experience_factor = 0.1 start_equipment_factor = 1.0" 
+                owner = ROOT
+            }
+            create_unit = { 
+                division = "name = \"Light Cavalry Division\" division_template = \"Scout Division\" start_experience_factor = 0.1 start_equipment_factor = 1.0" 
+                owner = ROOT
+            }
+            create_unit = { 
+                division = "name = \"Light Cavalry Division\" division_template = \"Scout Division\" start_experience_factor = 0.1 start_equipment_factor = 1.0" 
+                owner = ROOT
+            }
+        }
+    }
+}
+
+setup_large_nation_units = {
+    load_oob = "Setup - Additional Templates"
+    
+    random_owned_state = {
+        limit = { is_core_of = ROOT }
+        create_unit = { 
+            division = "name = \"Champion Division\" division_template = \"Onslaught Division\" start_experience_factor = 0.1 start_equipment_factor = 1.0" 
+            owner = ROOT
+        }
+        create_unit = { 
+            division = "name = \"Champion Division\" division_template = \"Onslaught Division\" start_experience_factor = 0.1 start_equipment_factor = 1.0" 
+            owner = ROOT
+        }
+        create_unit = { 
+            division = "name = \"Champion Division\" division_template = \"Onslaught Division\" start_experience_factor = 0.1 start_equipment_factor = 1.0" 
+            owner = ROOT
+        }
+        create_unit = { 
+            division = "name = \"Champion Division\" division_template = \"Onslaught Division\" start_experience_factor = 0.1 start_equipment_factor = 1.0" 
+            owner = ROOT
+        }
+        create_unit = { 
+            division = "name = \"Champion Division\" division_template = \"Onslaught Division\" start_experience_factor = 0.1 start_equipment_factor = 1.0" 
+            owner = ROOT
+        }
+    }
+    random_owned_state = {
+        limit = { is_core_of = ROOT }
+        create_unit = { 
+            division = "name = \"Champion Division\" division_template = \"Onslaught Division\" start_experience_factor = 0.1 start_equipment_factor = 1.0" 
+            owner = ROOT
+        }
+        create_unit = { 
+            division = "name = \"Champion Division\" division_template = \"Onslaught Division\" start_experience_factor = 0.1 start_equipment_factor = 1.0" 
+            owner = ROOT
+        }
+        create_unit = { 
+            division = "name = \"Champion Division\" division_template = \"Onslaught Division\" start_experience_factor = 0.1 start_equipment_factor = 1.0" 
+            owner = ROOT
+        }
+        create_unit = { 
+            division = "name = \"Champion Division\" division_template = \"Onslaught Division\" start_experience_factor = 0.1 start_equipment_factor = 1.0" 
+            owner = ROOT
+        }
+        create_unit = { 
+            division = "name = \"Champion Division\" division_template = \"Onslaught Division\" start_experience_factor = 0.1 start_equipment_factor = 1.0" 
+            owner = ROOT
+        }
+    }
+
+    random_owned_state = {
+        limit = { is_core_of = ROOT }
+        create_unit = { 
+            division = "name = \"Magi Division\" division_template = \"Strike Division\" start_experience_factor = 0.1 start_equipment_factor = 1.0" 
+            owner = ROOT
+        }
+        create_unit = { 
+            division = "name = \"Magi Division\" division_template = \"Strike Division\" start_experience_factor = 0.1 start_equipment_factor = 1.0" 
+            owner = ROOT
+        }
+        create_unit = { 
+            division = "name = \"Magi Division\" division_template = \"Strike Division\" start_experience_factor = 0.1 start_equipment_factor = 1.0" 
+            owner = ROOT
+        }
+        create_unit = { 
+            division = "name = \"Magi Division\" division_template = \"Strike Division\" start_experience_factor = 0.1 start_equipment_factor = 1.0" 
+            owner = ROOT
+        }
+        create_unit = { 
+            division = "name = \"Magi Division\" division_template = \"Strike Division\" start_experience_factor = 0.1 start_equipment_factor = 1.0" 
+            owner = ROOT
+        }
+    }
+    
+    random_owned_state = {
+        limit = { is_core_of = ROOT }
+        create_unit = { 
+            division = "name = \"Light Cavalry Division\" division_template = \"Scout Division\" start_experience_factor = 0.1 start_equipment_factor = 1.0" 
+            owner = ROOT
+        }
+        create_unit = { 
+            division = "name = \"Light Cavalry Division\" division_template = \"Scout Division\" start_experience_factor = 0.1 start_equipment_factor = 1.0" 
+            owner = ROOT
+        }
+        create_unit = { 
+            division = "name = \"Light Cavalry Division\" division_template = \"Scout Division\" start_experience_factor = 0.1 start_equipment_factor = 1.0" 
+            owner = ROOT
+        }
+        create_unit = { 
+            division = "name = \"Light Cavalry Division\" division_template = \"Scout Division\" start_experience_factor = 0.1 start_equipment_factor = 1.0" 
+            owner = ROOT
+        }
+        create_unit = { 
+            division = "name = \"Light Cavalry Division\" division_template = \"Scout Division\" start_experience_factor = 0.1 start_equipment_factor = 1.0" 
+            owner = ROOT
+        }
+    }
+    random_owned_state = {
+        limit = { is_core_of = ROOT }
+        create_unit = { 
+            division = "name = \"Light Cavalry Division\" division_template = \"Scout Division\" start_experience_factor = 0.1 start_equipment_factor = 1.0" 
+            owner = ROOT
+        }
+        create_unit = { 
+            division = "name = \"Light Cavalry Division\" division_template = \"Scout Division\" start_experience_factor = 0.1 start_equipment_factor = 1.0" 
+            owner = ROOT
+        }
+        create_unit = { 
+            division = "name = \"Light Cavalry Division\" division_template = \"Scout Division\" start_experience_factor = 0.1 start_equipment_factor = 1.0" 
+            owner = ROOT
+        }
+        create_unit = { 
+            division = "name = \"Light Cavalry Division\" division_template = \"Scout Division\" start_experience_factor = 0.1 start_equipment_factor = 1.0" 
+            owner = ROOT
+        }
+        create_unit = { 
+            division = "name = \"Light Cavalry Division\" division_template = \"Scout Division\" start_experience_factor = 0.1 start_equipment_factor = 1.0" 
+            owner = ROOT
+        }
+    }
+}

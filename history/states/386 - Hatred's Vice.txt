@@ -1,0 +1,53 @@
+state = {
+	id = 386
+	name = "HATREDS_VICE"
+	manpower = 461
+	state_category = rural
+
+	resources = {
+		ground_beast = 5
+		wood = 8
+		steel = 12
+		food = 14
+	}
+
+	history = {
+		owner = GAI
+		add_core_of = GAI
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 1
+			industrial_complex = 1
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			6567 = {
+				bunker = 0
+			}
+			6617 = {
+				bunker = 0
+			}
+			6623 = {
+				bunker = 0
+			}
+			6824 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        6567 6617 6623 6824 
+    }
+}

@@ -1,0 +1,42 @@
+setup_research_slots = {
+    # Default is 4
+    
+    if = {
+        limit = {
+            OR = {
+                is_dragonflight = yes
+                is_high_elf = yes
+                is_blood_elf = yes
+                is_night_elf = yes
+                is_nightborne = yes
+                is_gnome = yes
+                is_goblin = yes
+                is_nerubian = yes
+                is_naga = yes
+            }
+        }
+        set_research_slots = 5
+    }
+    if = {
+        limit = {
+            OR = {
+                is_centaur = yes
+                is_furbolg = yes
+                is_gnoll = yes
+                is_gorloc = yes
+                is_harpy = yes
+                is_hozen = yes
+                is_jinyu = yes
+                is_kobold = yes
+                is_murloc = yes
+                is_pygmy = yes
+                is_quillboar = yes
+                is_satyr = yes
+                is_saurok = yes
+                is_sprite = yes
+                is_wolvar = yes
+            }
+        }
+        set_research_slots = 3
+    }
+}

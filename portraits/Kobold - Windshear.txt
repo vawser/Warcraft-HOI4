@@ -1,0 +1,105 @@
+WIS = {
+	army = {
+		male = {
+			"gfx/leaders/KOBOLD/kobold_1.dds"
+            "gfx/leaders/KOBOLD/kobold_2.dds"
+            "gfx/leaders/KOBOLD/kobold_3.dds"
+            "gfx/leaders/KOBOLD/kobold_4.dds"
+            "gfx/leaders/KOBOLD/kobold_5.dds"
+            "gfx/leaders/KOBOLD/kobold_6.dds"
+            "gfx/leaders/KOBOLD/kobold_7.dds"
+		}
+	}
+
+	navy = {
+		male = {
+			"gfx/leaders/KOBOLD/kobold_1.dds"
+            "gfx/leaders/KOBOLD/kobold_2.dds"
+            "gfx/leaders/KOBOLD/kobold_3.dds"
+            "gfx/leaders/KOBOLD/kobold_4.dds"
+            "gfx/leaders/KOBOLD/kobold_5.dds"
+            "gfx/leaders/KOBOLD/kobold_6.dds"
+            "gfx/leaders/KOBOLD/kobold_7.dds"
+		}
+	}
+
+	political = {
+		light = {
+			male = {
+                "gfx/leaders/KOBOLD/kobold_1.dds"
+                "gfx/leaders/KOBOLD/kobold_2.dds"
+                "gfx/leaders/KOBOLD/kobold_3.dds"
+                "gfx/leaders/KOBOLD/kobold_4.dds"
+                "gfx/leaders/KOBOLD/kobold_5.dds"
+                "gfx/leaders/KOBOLD/kobold_6.dds"
+                "gfx/leaders/KOBOLD/kobold_7.dds"
+            }
+		}
+		shadow = {
+			male = {
+                "gfx/leaders/KOBOLD/kobold_1.dds"
+                "gfx/leaders/KOBOLD/kobold_2.dds"
+                "gfx/leaders/KOBOLD/kobold_3.dds"
+                "gfx/leaders/KOBOLD/kobold_4.dds"
+                "gfx/leaders/KOBOLD/kobold_5.dds"
+                "gfx/leaders/KOBOLD/kobold_6.dds"
+                "gfx/leaders/KOBOLD/kobold_7.dds"
+            }
+		}
+        order = {
+			male = {
+                "gfx/leaders/KOBOLD/kobold_1.dds"
+                "gfx/leaders/KOBOLD/kobold_2.dds"
+                "gfx/leaders/KOBOLD/kobold_3.dds"
+                "gfx/leaders/KOBOLD/kobold_4.dds"
+                "gfx/leaders/KOBOLD/kobold_5.dds"
+                "gfx/leaders/KOBOLD/kobold_6.dds"
+                "gfx/leaders/KOBOLD/kobold_7.dds"
+            }
+		}
+        disorder = {
+			male = {
+                "gfx/leaders/KOBOLD/kobold_1.dds"
+                "gfx/leaders/KOBOLD/kobold_2.dds"
+                "gfx/leaders/KOBOLD/kobold_3.dds"
+                "gfx/leaders/KOBOLD/kobold_4.dds"
+                "gfx/leaders/KOBOLD/kobold_5.dds"
+                "gfx/leaders/KOBOLD/kobold_6.dds"
+                "gfx/leaders/KOBOLD/kobold_7.dds"
+            }
+		}
+        life = {
+			male = {
+                "gfx/leaders/KOBOLD/kobold_1.dds"
+                "gfx/leaders/KOBOLD/kobold_2.dds"
+                "gfx/leaders/KOBOLD/kobold_3.dds"
+                "gfx/leaders/KOBOLD/kobold_4.dds"
+                "gfx/leaders/KOBOLD/kobold_5.dds"
+                "gfx/leaders/KOBOLD/kobold_6.dds"
+                "gfx/leaders/KOBOLD/kobold_7.dds"
+            }
+		}
+        death = {
+			male = {
+                "gfx/leaders/KOBOLD/kobold_1.dds"
+                "gfx/leaders/KOBOLD/kobold_2.dds"
+                "gfx/leaders/KOBOLD/kobold_3.dds"
+                "gfx/leaders/KOBOLD/kobold_4.dds"
+                "gfx/leaders/KOBOLD/kobold_5.dds"
+                "gfx/leaders/KOBOLD/kobold_6.dds"
+                "gfx/leaders/KOBOLD/kobold_7.dds"
+            }
+		}
+        unaligned = {
+			male = {
+                "gfx/leaders/KOBOLD/kobold_1.dds"
+                "gfx/leaders/KOBOLD/kobold_2.dds"
+                "gfx/leaders/KOBOLD/kobold_3.dds"
+                "gfx/leaders/KOBOLD/kobold_4.dds"
+                "gfx/leaders/KOBOLD/kobold_5.dds"
+                "gfx/leaders/KOBOLD/kobold_6.dds"
+                "gfx/leaders/KOBOLD/kobold_7.dds"
+            }
+		}
+	}
+}

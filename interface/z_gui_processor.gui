@@ -1,0 +1,14 @@
+guiTypes = {
+    containerWindowType = {
+		name = "processor_container"
+		position = { x = 1400 y = 1 }
+ 
+        buttonType  ={
+           name ="processor_button"
+           spriteType = "GFX_religion_topbar_bg"
+           position = { x=0 y=0}
+           shortcut = "l"
+        }
+    }
+}
+

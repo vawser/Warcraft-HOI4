@@ -1,0 +1,71 @@
+state = {
+	id = 42
+	name = "JANSEN_FARMSTEAD"
+	manpower = 3451
+	state_category = village
+
+	resources = {
+		oil = 1
+		flying_beast = 5
+		wood = 4
+		steel = 7
+		food = 12
+	}
+
+	history = {
+		owner = WES
+        add_core_of = WES
+
+        # The Second War
+        597.1.1 = {
+            owner = TTH
+            add_core_of = TTH
+        }
+        # The Third War
+        612.1.1 = {
+            owner = WES
+            add_core_of = WES
+        }
+        
+		buildings = {
+			infrastructure = 2
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 2
+			industrial_complex = 3
+			dockyard = 3
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			1918 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 3
+			}
+			2838 = {
+				bunker = 0
+			}
+			2865 = {
+				bunker = 0
+			}
+			3050 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        1918 2838 2865 3050 
+    }
+}

@@ -1,0 +1,318 @@
+ideologies = {
+    # light - Naaru
+    # shadow - Old Gods, Void
+    # order - Arcane, Titan
+    # disorder - Fel, Fire 
+    # life - Nature, Wild Gods
+    # death - Necromantic, Undead
+    # unaligned - Goblin
+
+	light = {
+		types = {
+			kingdom_light = { }
+            tribe_light = { }
+            republic_light = { }
+            warband_light = { }
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_1"
+			"FACTION_NAME_2"
+			"FACTION_NAME_3"
+			"FACTION_NAME_4"
+			"FACTION_NAME_5"
+		}
+		
+		color = { 232 244 66 }
+		
+		rules = {
+			can_declare_war_on_same_ideology = yes
+			can_force_government = no
+			can_send_volunteers = no
+			can_puppet = yes
+			can_lower_tension = yes
+            can_only_justify_war_on_threat_country = no
+			can_guarantee_other_ideologies = no
+		}
+		
+		war_impact_on_world_tension = -1.0
+		faction_impact_on_world_tension = -0.1
+		
+		modifiers = {
+            generate_wargoal_tension = 0.0
+            join_faction_tension = 0.0
+            lend_lease_tension = 0.0
+            send_volunteers_tension = 0.0
+            guarantee_tension = 0.0
+            civil_war_involvement_tension = 0.0
+            justify_war_goal_time = -0.9
+		}
+        
+		ai_democratic = yes
+	}
+    
+    shadow = {
+		types = {
+			kingdom_shadow = { }
+            tribe_shadow = { }
+            republic_shadow = { }
+            warband_shadow = { }
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_1"
+			"FACTION_NAME_2"
+			"FACTION_NAME_3"
+			"FACTION_NAME_4"
+			"FACTION_NAME_5"
+		}
+		
+		color = { 141 32 204 }
+		
+		rules = {
+			can_declare_war_on_same_ideology = yes
+			can_force_government = no
+			can_send_volunteers = no
+			can_puppet = yes
+			can_lower_tension = no
+            can_only_justify_war_on_threat_country = no
+			can_guarantee_other_ideologies = no
+		}
+		
+		war_impact_on_world_tension = 0.5
+		faction_impact_on_world_tension = 0.5
+		
+		modifiers = {
+            generate_wargoal_tension = 0.0
+            join_faction_tension = 0.0
+            lend_lease_tension = 0.0
+            send_volunteers_tension = 0.0
+            guarantee_tension = 0.0
+            civil_war_involvement_tension = 0.0
+            justify_war_goal_time = -0.9
+		}
+		
+		ai_fascist = yes
+	}
+    
+    order = {
+		types = {
+			kingdom_order = { }
+            tribe_order = { }
+            republic_order = { }
+            warband_order = { }
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_1"
+			"FACTION_NAME_2"
+			"FACTION_NAME_3"
+			"FACTION_NAME_4"
+			"FACTION_NAME_5"
+		}
+		
+		color = { 123 201 216 }
+		
+		rules = {
+			can_declare_war_on_same_ideology = yes
+			can_force_government = no
+			can_send_volunteers = no
+			can_puppet = yes
+			can_lower_tension = yes
+            can_only_justify_war_on_threat_country = no
+			can_guarantee_other_ideologies = no
+		}
+		
+		war_impact_on_world_tension = -1.0
+		faction_impact_on_world_tension = -0.1
+		
+		modifiers = {
+			generate_wargoal_tension = 0.0
+            join_faction_tension = 0.0
+            lend_lease_tension = 0.0
+            send_volunteers_tension = 0.0
+            guarantee_tension = 0.0
+            civil_war_involvement_tension = 0.0
+            justify_war_goal_time = -0.9
+		}
+		
+		ai_democratic = yes
+	}
+    
+    disorder = {
+		types = {
+			kingdom_disorder = { }
+            tribe_disorder = { }
+            republic_disorder = { }
+            warband_disorder = { }
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_1"
+			"FACTION_NAME_2"
+			"FACTION_NAME_3"
+			"FACTION_NAME_4"
+			"FACTION_NAME_5"
+		}
+		
+		color = { 55 204 32 }
+		
+		rules = {
+			can_declare_war_on_same_ideology = yes
+			can_force_government = no
+			can_send_volunteers = no
+			can_puppet = yes
+			can_lower_tension = no
+            can_only_justify_war_on_threat_country = no
+			can_guarantee_other_ideologies = no
+		}
+		
+		war_impact_on_world_tension = 0.75
+		faction_impact_on_world_tension = 0.5
+		
+		modifiers = {
+			generate_wargoal_tension = 0.0
+            join_faction_tension = 0.0
+            lend_lease_tension = 0.0
+            send_volunteers_tension = 0.0
+            guarantee_tension = 0.0
+            civil_war_involvement_tension = 0.0
+            justify_war_goal_time = -0.9
+		}
+		
+		ai_fascist = yes
+	}
+    
+    life = {
+		types = {
+			kingdom_life = { }
+            tribe_life = { }
+            republic_life = { }
+            warband_life = { }
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_1"
+			"FACTION_NAME_2"
+			"FACTION_NAME_3"
+			"FACTION_NAME_4"
+			"FACTION_NAME_5"
+		}
+		
+		color = { 128 209 121 }
+		
+		rules = {
+			can_declare_war_on_same_ideology = yes
+			can_force_government = no
+			can_send_volunteers = no
+			can_puppet = yes
+			can_lower_tension = yes
+            can_only_justify_war_on_threat_country = no
+			can_guarantee_other_ideologies = no
+		}
+		
+		war_impact_on_world_tension = -1.0
+		faction_impact_on_world_tension = -0.1
+		
+		modifiers = {
+			generate_wargoal_tension = 0.0
+            join_faction_tension = 0.0
+            lend_lease_tension = 0.0
+            send_volunteers_tension = 0.0
+            guarantee_tension = 0.0
+            civil_war_involvement_tension = 0.0
+            justify_war_goal_time = -0.9
+		}
+		
+		ai_neutral = yes
+	}
+    
+    death = {
+		types = {
+			kingdom_death = { }
+            tribe_death = { }
+            republic_death = { }
+            warband_death = { }
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_1"
+			"FACTION_NAME_2"
+			"FACTION_NAME_3"
+			"FACTION_NAME_4"
+			"FACTION_NAME_5"
+		}
+		
+		color = { 32 175 204 }
+		
+		rules = {
+			can_declare_war_on_same_ideology = yes
+			can_force_government = no
+			can_send_volunteers = no
+			can_puppet = yes
+			can_lower_tension = no
+            can_only_justify_war_on_threat_country = no
+			can_guarantee_other_ideologies = no
+		}
+		
+		war_impact_on_world_tension = 0.75
+		faction_impact_on_world_tension = 0.5
+		
+		modifiers = {
+            generate_wargoal_tension = 0.0
+            join_faction_tension = 0.0
+            lend_lease_tension = 0.0
+            send_volunteers_tension = 0.0
+            guarantee_tension = 0.0
+            civil_war_involvement_tension = 0.0
+            justify_war_goal_time = -0.9
+		}
+		
+		ai_fascist = yes
+	}
+
+    unaligned = {
+		types = {
+			kingdom_unaligned = { }
+            tribe_unaligned = { }
+            republic_unaligned = { }
+            warband_unaligned = { }
+		}
+		
+		dynamic_faction_names = {
+			"FACTION_NAME_1"
+			"FACTION_NAME_2"
+			"FACTION_NAME_3"
+			"FACTION_NAME_4"
+			"FACTION_NAME_5"
+		}
+		
+		color = { 220 220 220 }
+		
+		rules = {
+			can_declare_war_on_same_ideology = yes
+			can_force_government = no
+			can_send_volunteers = no
+			can_puppet = yes
+			can_lower_tension = yes
+            can_only_justify_war_on_threat_country = no
+			can_guarantee_other_ideologies = no
+		}
+		
+		war_impact_on_world_tension = -1.0
+		faction_impact_on_world_tension = -0.1
+		
+		modifiers = {
+            generate_wargoal_tension = 0.0
+            join_faction_tension = 0.0
+            lend_lease_tension = 0.0
+            send_volunteers_tension = 0.0
+            guarantee_tension = 0.0
+            civil_war_involvement_tension = 0.0
+            justify_war_goal_time = -0.9
+		}
+		
+		can_collaborate = yes
+		ai_neutral = yes
+	}
+}

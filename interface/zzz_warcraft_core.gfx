@@ -1,0 +1,98 @@
+spriteTypes = {	
+    spriteType = {
+		name = "GFX_pol_view_bg_big"
+		texturefile = "gfx/interface/pol_view_bg_big.dds"
+	}
+    
+    #-------------------------------------
+    # RELIGION
+    #-------------------------------------
+    spriteType = {
+		name = "GFX_icon_religion"
+		texturefile = "gfx/interface/icon_religion.dds"
+		noOfFrames = 26
+	}
+	
+	spriteType = {
+		name = "GFX_icon_religion_small"
+		texturefile = "gfx/interface/icon_religion_small.dds"
+		noOfFrames = 26
+	}
+    
+    #-------------------------------------
+    # UNIT LEVEL
+    #-------------------------------------
+    SpriteType = {
+		name = "GFX_unit_level"
+		texturefile = "gfx/interface/unit_level.dds"
+		noOfFrames = 14
+	}
+    
+    #-------------------------------------
+    # BOOKMARKS
+    #-------------------------------------    
+    spriteType = {
+		name = "GFX_select_date_the_first_war"
+		texturefile = "gfx/interface/select_date_the_first_war.dds"
+	}
+    
+    spriteType = {
+		name = "GFX_select_date_the_second_war"
+		texturefile = "gfx/interface/select_date_the_second_war.dds"
+	}
+    
+    spriteType = {
+		name = "GFX_select_date_the_third_war"
+		texturefile = "gfx/interface/select_date_the_third_war.dds"
+	}
+    
+    
+    #-------------------------------------
+    # RESOURCES
+    #-------------------------------------
+    spriteType = {
+		name = "GFX_resources_strip"
+		texturefile = "gfx/interface/resources_strip.dds"
+		noOfFrames = 6
+	}
+
+	spriteType = {
+		name = "GFX_missing_resources_strip"
+		texturefile = "gfx/interface/missing_resources_strip.dds"
+		noOfFrames = 6
+	}
+    
+    #-------------------------------------
+    # TECHNOLOGY
+    #-------------------------------------
+    spriteType = {
+		name = "GFX_wow_infantry_techtree_bg"
+		textureFile = "gfx//interface//techtree//wow_infantry_bg.dds"
+	}	
+    
+    spriteType = {
+		name = "GFX_wow_trade_filter_bg"
+		textureFile = "gfx//interface//trade_filter_bg.dds"
+	}
+    
+    #-------------------------------------
+    # Buildings
+    #-------------------------------------
+    spriteType = {
+		name = "GFX_buildings_strip"
+		textureFile = "gfx/interface/buildings/building_icon_strip.dds"
+		noOfFrames = 25
+	}
+    
+    frameAnimatedSpriteType = {
+		name = "GFX_construction_icon_glow_overlay"
+		texturefile = "gfx//interface//buildings//construction_glow_overlay.dds"
+		noOfFrames = 2
+		animation_rate_fps = 1.5
+		looping = yes
+		play_on_show = yes
+		pause_on_loop = 0.0
+		allwaystransparent = yes
+		effectFile = "gfx/FX/buttonstate_blendframes.lua"
+	}
+}

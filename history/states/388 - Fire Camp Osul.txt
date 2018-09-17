@@ -1,0 +1,67 @@
+state = {
+	id = 388
+	name = "FIRE_CAMP_OSUL"
+	manpower = 3707
+	state_category = village
+
+	resources = {
+		oil = 2
+		ground_beast = 7
+		flying_beast = 1
+		wood = 1
+		steel = 8
+		food = 11
+	}
+
+	history = {
+		owner = OSU
+		add_core_of = OSU
+
+		buildings = {
+			infrastructure = 4
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 1
+			industrial_complex = 2
+			dockyard = 6
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			6298 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 9
+			}
+			6588 = {
+				bunker = 0
+			}
+			6595 = {
+				bunker = 0
+			}
+			6603 = {
+				bunker = 0
+			}
+			6883 = {
+				bunker = 0
+			}
+			6893 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        6298 6588 6595 6603 6883 6893 
+    }
+}

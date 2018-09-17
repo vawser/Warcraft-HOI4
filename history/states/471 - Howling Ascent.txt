@@ -1,0 +1,15 @@
+state = {
+	id = 471
+	name = "HOWLING_ASCENT"
+	manpower = 43
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = HWG
+	}
+
+	provinces = {
+        5212 5216 5883 5890 5904 5913 5922 
+    }
+}

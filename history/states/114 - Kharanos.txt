@@ -1,0 +1,62 @@
+state = {
+	id = 114
+	name = "KHARANOS"
+	manpower = 1645
+	state_category = village
+
+	resources = {
+		oil = 2
+		ground_beast = 8
+		flying_beast = 1
+		wood = 3
+		steel = 5
+		food = 15
+	}
+
+	history = {
+		owner = IRO
+        add_core_of = IRO
+
+        victory_points = {
+            2324 10
+        }
+        
+		buildings = {
+			infrastructure = 3
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 4
+			industrial_complex = 3
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			2324 = {
+				bunker = 0
+			}
+			2391 = {
+				bunker = 0
+			}
+			2884 = {
+				bunker = 0
+			}
+			2990 = {
+				bunker = 0
+			}
+			3017 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        2324 2391 2884 2990 3017
+    }
+}

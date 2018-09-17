@@ -1,0 +1,164 @@
+defined_text = { 
+	name = GetAB5Title
+    
+    text = {
+		trigger = {
+			has_holy_light = yes
+		}
+		localization_key = AB5_TITLE_HOLY_LIGHT
+	}
+    text = {
+		trigger = {
+            has_elune = yes
+		}
+		localization_key = AB5_TITLE_ELUNE
+	}
+    text = {
+		trigger = {
+			has_hakkar = yes
+		}
+		localization_key = AB5_TITLE_HAKKARI
+	}
+    text = {
+		trigger = {
+			has_voodoo = yes
+		}
+		localization_key = AB5_TITLE_VOODOO
+	}
+    text = {
+		trigger = {
+			has_shadow = yes
+		}
+		localization_key = AB5_TITLE_SHADOW
+	}
+    text = {
+		trigger = {
+			has_nature = yes
+		}
+		localization_key = AB5_TITLE_NATURE
+	}
+    text = {
+		trigger = {
+			has_deep_mother = yes
+		}
+		localization_key = AB5_TITLE_DEEP_MOTHER
+	}
+    text = {
+		trigger = {
+			has_arcane = yes
+		}
+		localization_key = AB5_TITLE_ARCANUM
+	}
+    text = {
+		trigger = {
+			has_druidism = yes
+		}
+		localization_key = AB5_TITLE_DRUIDISM
+	}
+    text = {
+		trigger = {
+			has_old_gods = yes
+		}
+		localization_key = AB5_TITLE_OLD_GODS
+	}
+    text = {
+		trigger = {
+			has_fel = yes
+		}
+		localization_key = AB5_TITLE_FEL
+	}
+    text = {
+		trigger = {
+			has_necromancy = yes
+		}
+		localization_key = AB5_TITLE_NECROMANCY
+	}
+    text = {
+		trigger = {
+			has_shamanism = yes
+		}
+		localization_key = AB5_TITLE_SHAMANISM
+	}
+    text = {
+		trigger = {
+			has_celestials = yes
+		}
+		localization_key = AB5_TITLE_CELESTIALS
+	}
+    text = {
+		trigger = {
+            has_titan = yes
+		}
+		localization_key = AB5_TITLE_TITAN
+	}
+    text = {
+		trigger = {
+			has_fire = yes
+		}
+		localization_key = AB5_TITLE_FIRE
+	}
+    text = {
+		trigger = {
+			has_earth = yes
+		}
+		localization_key = AB5_TITLE_EARTH
+	}
+    text = {
+		trigger = {
+			has_wind = yes
+		}
+		localization_key = AB5_TITLE_WIND
+	}
+    text = {
+		trigger = {
+			has_water = yes
+		}
+		localization_key = AB5_TITLE_WATER
+	}
+    text = {
+		trigger = {
+			has_geomancy = yes
+		}
+		localization_key = AB5_TITLE_GEOMANCY
+	}
+    text = {
+		trigger = {
+			has_light_of_the_naaru = yes
+		}
+		localization_key = AB5_TITLE_LIGHT_OF_THE_NAARU
+	}
+    text = {
+		trigger = {
+			has_dragon_aspects = yes
+		}
+		localization_key = AB5_TITLE_DRAGON_ASPECTS
+	}
+    text = {
+		trigger = {
+			has_technomancy = yes
+		}
+		localization_key = AB5_TITLE_TECHNOMANCY
+	}
+    text = {
+		trigger = {
+			has_capitalism = yes
+		}
+		localization_key = AB5_TITLE_CAPITALISM
+	}
+    text = {
+		trigger = {
+			has_soul = yes
+		}
+		localization_key = AB5_TITLE_SOUL
+	}
+    text = {
+		trigger = {
+			has_runic = yes
+		}
+		localization_key = AB5_TITLE_RUNIC
+	}
+    text = {
+		localization_key = ""
+	}
+}
+

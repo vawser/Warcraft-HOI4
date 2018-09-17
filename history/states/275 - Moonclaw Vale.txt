@@ -1,0 +1,58 @@
+state = {
+	id = 275
+	name = "MOONCLAW_VALE"
+	manpower = 15328
+	state_category = city
+
+	resources = {
+		oil = 3
+		ground_beast = 1
+		flying_beast = 7
+		wood = 19
+		steel = 1
+		food = 15
+	}
+
+	history = {
+		owner = GRZ
+		add_core_of = GRZ
+
+		buildings = {
+			infrastructure = 8
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 6
+			industrial_complex = 9
+			dockyard = 1
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			7047 = {
+				bunker = 7
+				coastal_bunker = 8
+				naval_base = 9
+			}
+			7103 = {
+				bunker = 4
+			}
+			7104 = {
+				bunker = 1
+			}
+		}
+	}
+
+	provinces = {
+        7047 7103 7104
+    }
+}

@@ -1,0 +1,51 @@
+state = {
+	id = 1008
+	name = "RUTTHERAN"
+	manpower = 904
+	state_category = island
+
+	resources = {
+		oil = 1
+		ground_beast = 7
+		flying_beast = 5
+		steel = 9
+		food = 12
+	}
+
+	history = {
+        owner = DAS
+		add_core_of = DAS
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 1
+			industrial_complex = 1
+			dockyard = 1
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			3306 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 1
+			}
+		}
+	}
+
+	provinces = {
+        3306
+    }
+}

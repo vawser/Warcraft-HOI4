@@ -1,0 +1,123 @@
+﻿l_english:
+ # --- Ideologies
+ light: "Light"
+ light_noun: "Light"
+ light_desc: "Light"
+ 
+ shadow: "Shadow"
+ shadow_noun: "Shadow"
+ shadow_desc: "Shadow"
+ 
+ order: "Order"
+ order_noun: "Order"
+ order_desc: "Order"
+ 
+ disorder: "Disorder"
+ disorder_noun: "Disorder"
+ disorder_desc: "Disorder"
+ 
+ life: "Life"
+ life_noun: "Life"
+ life_desc: "Life"
+ 
+ death: "Death"
+ death_noun: "Death"
+ death_desc: "Death"
+
+ unaligned: "Unaligned"
+ unaligned_noun: "Unaligned"
+ unaligned_desc: "Unaligned"
+ 
+ # Ideology Modifiers
+ light_drift: "Light Drift"
+ light_acceptance: "Light Acceptance"
+ 
+ shadow_drift: "Shadow Drift"
+ shadow_acceptance: "Shadow Acceptance"
+ 
+ order_drift: "Order Drift"
+ order_acceptance: "Order Acceptance"
+ 
+ disorder_drift: "Disorder Drift"
+ disorder_acceptance: "Disorder Acceptance"
+ 
+ life_drift: "Life Drift"
+ life_acceptance: "Life Acceptance"
+ 
+ death_drift: "Death Drift"
+ death_acceptance: "Death Acceptance"
+ 
+ unaligned_drift: "Unaligned Drift"
+ unaligned_acceptance: "Unaligned Acceptance"
+ 
+ # Governments
+ kingdom_light: "Kingdom"
+ kingdom_light_desc: ""
+ tribe_light: "Tribe"
+ tribe_light_desc: ""
+ republic_light: "Republic"
+ republic_light_desc: ""
+ warband_light: "Warband"
+ warband_light_desc: ""
+ 
+ kingdom_shadow: "Kingdom"
+ kingdom_shadow_desc: ""
+ tribe_shadow: "Tribe"
+ tribe_shadow_desc: ""
+ republic_shadow: "Republic"
+ republic_shadow_desc: ""
+ warband_shadow: "Warband"
+ warband_shadow_desc: ""
+ 
+ kingdom_order: "Kingdom"
+ kingdom_order_desc: ""
+ tribe_order: "Tribe"
+ tribe_order_desc: ""
+ republic_order: "Republic"
+ republic_order_desc: ""
+ warband_order: "Warband"
+ warband_order_desc: ""
+ 
+ kingdom_disorder: "Kingdom"
+ kingdom_disorder_desc: ""
+ tribe_disorder: "Tribe"
+ tribe_disorder_desc: ""
+ republic_disorder: "Republic"
+ republic_disorder_desc: ""
+ warband_disorder: "Warband"
+ warband_disorder_desc: ""
+ 
+ kingdom_life: "Kingdom"
+ kingdom_life_desc: ""
+ tribe_life: "Tribe"
+ tribe_life_desc: ""
+ republic_life: "Republic"
+ republic_life_desc: ""
+ warband_life: "Warband"
+ warband_life_desc: ""
+ 
+ kingdom_death: "Kingdom"
+ kingdom_death_desc: ""
+ tribe_death: "Tribe"
+ tribe_death_desc: ""
+ republic_death: "Republic"
+ republic_death_desc: ""
+ warband_death: "Warband"
+ warband_death_desc: ""
+ 
+ kingdom_unaligned: "Kingdom"
+ kingdom_unaligned_desc: ""
+ tribe_unaligned: "Tribe"
+ tribe_unaligned_desc: ""
+ republic_unaligned: "Republic"
+ republic_unaligned_desc: ""
+ warband_unaligned: "Warband"
+ warband_unaligned_desc: ""
+ 
+ 
+ # Faction names
+ FACTION_NAME_1: "The $LEADER_COUNTRY_ADJ$ Union"
+ FACTION_NAME_2: "The $LEADER_COUNTRY_ADJ$ Association"
+ FACTION_NAME_3: "The $LEADER_COUNTRY_ADJ$ Concordat"
+ FACTION_NAME_4: "The $LEADER_COUNTRY_ADJ$ Coalition"
+ FACTION_NAME_5: "The $LEADER_COUNTRY_ADJ$ League"

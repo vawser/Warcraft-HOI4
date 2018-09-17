@@ -1,0 +1,60 @@
+state = {
+	id = 841
+	name = "WEBBED_TRAIL"
+	manpower = 771
+	state_category = rural
+
+	resources = {
+		ground_beast = 8
+		flying_beast = 9
+		wood = 7
+		steel = 13
+		food = 11
+	}
+
+	history = {
+		owner = WIT
+		add_core_of = WIT
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 3
+			industrial_complex = 1
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			4126 = {
+				bunker = 0
+			}
+			4135 = {
+				bunker = 0
+			}
+			4194 = {
+				bunker = 0
+			}
+			4202 = {
+				bunker = 0
+			}
+			4210 = {
+				bunker = 0
+			}
+			4219 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        4126 4135 4194 4202 4210 4219
+    }
+}

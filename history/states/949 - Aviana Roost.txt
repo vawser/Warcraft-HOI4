@@ -1,0 +1,15 @@
+state = {
+	id = 949
+	name = "AVIANA_ROOST"
+	manpower = 26
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = SEN
+	}
+
+	provinces = {
+        4319 4335 4352 4374 4411
+    }
+}

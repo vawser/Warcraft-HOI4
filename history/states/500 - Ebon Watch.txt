@@ -1,0 +1,61 @@
+state = {
+	id = 500
+	name = "EBON_WATCH"
+	manpower = 469
+	state_category = rural
+
+	resources = {
+		oil = 4
+		ground_beast = 3
+		flying_beast = 6
+		wood = 25
+		steel = 5
+		food = 19
+	}
+
+	history = {
+		owner = DAK
+		add_core_of = DAK
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 1
+			industrial_complex = 1
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			5364 = {
+				bunker = 0
+			}
+			5389 = {
+				bunker = 0
+			}
+			5410 = {
+				bunker = 0
+			}
+			5702 = {
+				bunker = 0
+			}
+			5716 = {
+				bunker = 0
+			}
+			5802 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        5364 5389 5410 5702 5716 5802 
+    }
+}

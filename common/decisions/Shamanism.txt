@@ -1,0 +1,53 @@
+shamanism_actions = {
+    convert_to_druidism_shamanism = {
+		icon = yellow_quest_mark
+
+		available = {
+            has_shamanism = yes
+		}
+
+		visible = {
+			has_shamanism = yes
+		}
+
+        days_remove = 365
+		days_re_enable = 365
+        
+		cost = 100
+
+		complete_effect = {
+            set_religion_druidism = yes
+		}
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+    
+    convert_to_elune_shamanism = {
+		icon = yellow_quest_mark
+
+		available = {
+            has_shamanism = yes
+            is_night_elf = yes
+		}
+
+		visible = {
+			has_shamanism = yes
+		}
+
+        days_remove = 365
+		days_re_enable = 365
+        
+		cost = 100
+
+		complete_effect = {
+            set_religion_elune = yes
+		}
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+}
+

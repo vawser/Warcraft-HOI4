@@ -1,0 +1,15 @@
+state = {
+	id = 262
+	name = "AZUREBREEZE_CLIFFS"
+	manpower = 66
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = QUE
+	}
+
+	provinces = {
+        1825 1832 1841 
+    }
+}

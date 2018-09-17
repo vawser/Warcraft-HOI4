@@ -1,0 +1,168 @@
+﻿l_english: 
+ # GUI
+ ESPIONAGE_MENU_TOOLTIP: "Select another country to open the Espionage menu."
+ ESPIONAGE_TITLE: "Espionage"
+ ESPIONAGE_TOOLTIP: "§LStatistics§!: \n§HPolitical Power Spent§!: [?ROOT.espionage_pp_spent]\n§HBuild Network Uses§!: [?ROOT.stat_espionage_build_network_use]\n§HHalt Network Uses§!: [?ROOT.stat_espionage_halt_network_use]\n§HDestablize Nation Uses§!: [?ROOT.stat_espionage_destabilize_nation_use]\n§HSabotage Operations Uses§!: [?ROOT.stat_espionage_sabotage_operations_use]\n§HAquire Army Intel Uses§!: [?ROOT.stat_espionage_aquire_army_intel_use]\n§HAquire Aviation Intel Uses§!: [?ROOT.stat_espionage_aquire_aviation_intel_use]\n§HAquire Naval Intel Uses§!: [?ROOT.stat_espionage_aquire_naval_intel_use]\n§HSabotage Industry Uses§!: [?ROOT.stat_espionage_sabotage_industry_use]\n§HAssassinate Military Leader Uses§!: [?ROOT.stat_espionage_assassinate_mil_leader_use]\n§HEspionage Actions Detected§!: [?ROOT.stat_espionage_action_detected]\n§HEspionage Networks Detected§!: [?ROOT.stat_espionage_network_detected]\n§HDestabilize Nation Successes§!: [?ROOT.stat_espionage_destabilize_nation_success]\n§HSabotage Operations Successes§!: [?ROOT.stat_espionage_sabotage_operations_success]\n§HAquire Army Intel Successes§!: [?ROOT.stat_espionage_aquire_army_intel_success]\n§HAquire Aviation Intel Successes§!: [?ROOT.stat_espionage_aquire_aviation_intel_success]\n§HAquire Naval Intel Successes§!: [?ROOT.stat_espionage_aquire_naval_intel_success]\n§HSabotage Industry Successes§!: [?ROOT.stat_espionage_sabotage_industry_success]\n§HAssassinate Military Leader Successes§!: [?ROOT.stat_espionage_assassinate_mil_leader_success]"
+ 
+ SPY_OFFENCE_GAIN: "Our Spy Offence has risen by §H1§!."
+ SPY_DEFENCE_GAIN: "Our Spy Offence has risen by §H1§!."
+ SPY_OFFENCE_LOSS: "Our Spy Offence has dropped by §H1§!."
+ SPY_DEFENCE_LOSS: "Our Spy Offence has dropped by §H1§!."
+ 
+ SPY_OFFENCE_TEXT: "Spy Offence"
+ SPY_OFFENCE_TOOLTIP: "Spy Offence is used in §HSpy Detection§!, reducing the chance of being expelled. \n\nIt is also used in §HEspionage§! actions, increasing the success rate."
+ SPY_OFFENCE_VALUE: "[?ROOT.spy_offence]"
+ SPY_OFFENCE_VALUE_TOOLTIP: "This is your Spy Offence value. It ranges from §H0§! to §H100§!.\n\n[!spy_offence_value_bg_click]"
+ 
+ SPY_DEFENCE_TEXT: "Spy Defence"
+ SPY_DEFENCE_TOOLTIP: "Spy Defence is used in §HSpy Detection§!, increasing the chance of expelling enemy spies. \n\nIt is also used in §HEspionage§! actions, decreasing the enemy success rate."
+ SPY_DEFENCE_VALUE: "[?ROOT.spy_defence]"
+ SPY_DEFENCE_VALUE_TOOLTIP: "This is your Spy Defence value. It ranges from §H0§! to §H100§!.\n\n[!spy_defence_value_bg_click]"
+ 
+ SPY_NETWORK_TEXT: "Spy Network in [From.GetName]"
+ SPY_NETWORK_TOOLTIP: "Spy Network is built over time using the §HBuild Network§! action. \n\nSpy Network is spent to enact other §HEspionage§! actions."
+ SPY_NETWORK_VALUE: "[?ROOT.spy_network@FROM]%"
+ SPY_NETWORK_VALUE_TOOLTIP: "This is your Spy Network value in the targeted country. It ranges from §H0%§! to §H100%§!."
+ 
+ ACTION_PROGRESS_TEXT: "[ROOT.GetCurrentEspionageAction] Progress"
+ ACTION_PROGRESS_TOOLTIP: "This is the current progress for §H[ROOT.GetCurrentEspionageAction]§!\n\nOnly one action can be ongoing at any one time, even across different countries."
+ ACTION_PROGRESS_VALUE: "[?ROOT.action_progress@FROM]%"
+ ACTION_PROGRESS_VALUE_TOOLTIP: "This is your progress towards §H[ROOT.GetCurrentEspionageAction]§!. It ranges from §H0%§! to §H100%§!."
+ 
+ BOOST_SPY_OFFENCE: "Press to increase Spy Offence by §H1§! for §R25§! Political Power."
+ BOOST_SPY_DEFENCE: "Press to increase Spy Defence by §H1§! for §R25§! Political Power."
+ SPY_OFFENCE_AT_MAX: "Spy Offence is at its maximum."
+ SPY_DEFENCE_AT_MAX: "Spy Defence is at its maximum."
+ NO_PP_FOR_BOOST: "You cannot afford the §H25§! Political Power needed to boost."
+ 
+ CANCEL_ACTION: "Cancel [ROOT.GetCurrentEspionageAction]"
+ CANCEL_ACTION_TOOLTIP: "Ends the current ongoing action. All progress is lost."
+ 
+ BUILD_NETWORK_TEXT: "Build Network"
+ BUILD_NETWORK_TOOLTIP: "Start building Spy Networks in your targeted country.\n\n[!build_network_click]"
+ NOT_ENOUGH_PP_BUILD_NETWORK: "You do not have the §H25§! Political Power needed to start building Spy Networks."
+ 
+ HALT_NETWORK_TEXT: "Halt Network"
+ HALT_NETWORK_TOOLTIP: "Stop building Spy Networks in your targeted country."
+
+ GET_ONGOING_ACTION_TOOLTIP: "An action is already in progress."
+ 
+ TARGET_TOOLTIP: "§HTarget§!: "
+ 
+ DESTABILIZE_NATION: "Destabilize Nation"
+ SABOTAGE_OPERATIONS: "Sabotage Operations"
+ AQUIRE_ARMY_INTEL: "Aquire Army Intel"
+ AQUIRE_AVIATION_INTEL: "Aquire Aviation Intel"
+ AQUIRE_NAVAL_INTEL: "Aquire Naval Intel"
+ SABOTAGE_INDUSTRY: "Sabotage Industry"
+ ASSASSINATE_MIL_LEADER: "Assassinate Leader"
+ 
+ LOCKED_DESTABILIZE_NATION: "You need to research §HDestabilize Nation§! before you can use this action."
+ LOCKED_SABOTAGE_OPERATIONS: "You need to research §HSabotage Operations§! before you can use this action."
+ LOCKED_AQUIRE_ARMY_INTEL: "You need to research §HAquire Army Intel§! before you can use this action."
+ LOCKED_AQUIRE_AVIATION_INTEL: "You need to research §HAquire Aviation Intel§! before you can use this action."
+ LOCKED_AQUIRE_NAVAL_INTEL: "You need to research §HAquire Naval Intel§! before you can use this action."
+ LOCKED_SABOTAGE_INDUSTRY: "You need to research §HSabotage Industry§! before you can use this action."
+ LOCKED_ASSASSINATE_MIL_LEADER: "You need to research §HAssassinate Military Leader§! before you can use this action."
+ 
+
+ DESTABILIZE_NATION_TOOLTIP: "[!destabilize_nation_click]"
+ DESTABILIZE_NATION_COST: "This action costs §H[?ROOT.destabilize_nation_cost]%§! Spy Network.\n"
+ DESTABILIZE_NATION_BLOCKED: "You do not have the §H[?ROOT.destabilize_nation_cost]%§! Spy Network needed to use Destabilize Nation."
+ 
+ SABOTAGE_OPERATIONS_TOOLTIP: "[!sabotage_operations_click]"
+ SABOTAGE_OPERATIONS_COST: "This action costs §H[?ROOT.sabotage_operations_cost]%§! Spy Network.\n"
+ SABOTAGE_OPERATIONS_BLOCKED: "You do not have the §H[?ROOT.sabotage_operations_cost]%§! Spy Network needed to use Sabotage Operations."
+ 
+ AQUIRE_ARMY_INTEL_TOOLTIP: "[!aquire_army_intel_click]"
+ AQUIRE_ARMY_INTEL_COST: "This action costs §H[?ROOT.aquire_army_intel_cost]%§! Spy Network.\n"
+ AQUIRE_ARMY_INTEL_BLOCKED: "You do not have the §H[?ROOT.aquire_army_intel_cost]%§! Spy Network needed to use Aquire Army Intel."
+ 
+ AQUIRE_AVIATION_INTEL_TOOLTIP: "[!aquire_aviation_intel_click]"
+ AQUIRE_AVIATION_INTEL_COST: "This action costs §H[?ROOT.aquire_aviation_intel_cost]%§! Spy Network.\n"
+ AQUIRE_AVIATION_INTEL_BLOCKED: "You do not have the §H[?ROOT.aquire_aviation_intel_cost]%§! Spy Network needed to use Aquire Aviation Intel."
+ 
+ AQUIRE_NAVAL_INTEL_TOOLTIP: "[!aquire_naval_intel_click]"
+ AQUIRE_NAVAL_INTEL_COST: "This action costs §H[?ROOT.aquire_naval_intel_cost]%§! Spy Network.\n"
+ AQUIRE_NAVAL_INTEL_BLOCKED: "You do not have the §H[?ROOT.aquire_naval_intel_cost]%§! Spy Network needed to use Aquire Naval Intel."
+ 
+ SABOTAGE_INDUSTRY_TOOLTIP: "[!sabotage_industry_click]"
+ SABOTAGE_INDUSTRY_COST: "This action costs §H[?ROOT.sabotage_industry_cost]%§! Spy Network.\n"
+ SABOTAGE_INDUSTRY_BLOCKED: "You do not have the §H[?ROOT.sabotage_industry_cost]%§! Spy Network needed to use Sabotage Industry."
+ 
+ ASSASSINATE_MIL_LEADER_TOOLTIP: "[!assassinate_mil_leader_click]"
+ ASSASSINATE_MIL_LEADER_COST: "This action costs §H[?ROOT.assassinate_mil_leader_cost]%§! Spy Network.\n"
+ ASSASSINATE_MIL_LEADER_BLOCKED: "You do not have the §H[?ROOT.assassinate_mil_leader_cost]%§! Spy Network needed to use Assassinate Military Leader."
+ 
+ # Events
+ espionage.1.title: "Our spies were caught!"
+ espionage.1.desc: "Our spies were ousted from another country, reducing our spy network strength."
+ espionage.1.option.a: "Damn!"
+ 
+ espionage.17.title: "Enemy spies were caught!"
+ espionage.17.desc: "Enemy spies were ousted from our country."
+ espionage.17.option.a: "Great"
+ 
+ espionage.2.title: "Our spies were caught!"
+ espionage.2.desc: "Our spies were ousted from another country, ending our attempt at [Root.GetCurrentEspionageAction]."
+ espionage.2.option.a: "Damn!"
+ 
+ espionage.18.title: "Enemy espionage mission thwarted!"
+ espionage.18.desc: "Enemy spies were ousted from our country, preventing them from completing their mission."
+ espionage.18.option.a: "Great"
+ 
+ espionage.3.title: "Enemy nation destabilized"
+ espionage.3.desc: "Our spies have successfully destabilized an enemy nation."
+ espionage.3.option.a: "Hurrah!"
+ 
+ espionage.4.title: "Nation destabilized!"
+ espionage.4.desc: "Enemy spies have destabilized our nation, reducing stability."
+ espionage.4.option.a: "..."
+ 
+ espionage.5.title: "Enemy operations sabotaged"
+ espionage.5.desc: "Our spies have successfully sabotaged enemy operations."
+ espionage.5.option.a: "Hurrah!"
+ 
+ espionage.6.title: "Operations sabotaged!"
+ espionage.6.desc: "Enemy spies have sabotaged our military operations, reducing support for war."
+ espionage.6.option.a: "..."
+ 
+ espionage.7.title: "Enemy intel aquired"
+ espionage.7.desc: "Our spies have successfully aquired enemy army intel."
+ espionage.7.option.a: "Hurrah!"
+ 
+ espionage.8.title: "Army intel stolen!"
+ espionage.8.desc: "Enemy spies have stolen our secret army intel."
+ espionage.8.option.a: "..."
+ 
+ espionage.9.title: "Enemy intel aquired"
+ espionage.9.desc: "Our spies have successfully aquired enemy aviation intel."
+ espionage.9.option.a: "Hurrah!"
+ 
+ espionage.10.title: "Aviation intel stolen!"
+ espionage.10.desc: "Enemy spies have stolen our secret aviation intel."
+ espionage.10.option.a: "..."
+ 
+ espionage.11.title: "Enemy intel aquired"
+ espionage.11.desc: "Our spies have successfully aquired enemy naval intel."
+ espionage.11.option.a: "Hurrah!"
+ 
+ espionage.12.title: "Naval intel stolen!"
+ espionage.12.desc: "Enemy spies have stolen our secret naval intel."
+ espionage.12.option.a: "..."
+ 
+ espionage.13.title: "Enemy industry sabotaged"
+ espionage.13.desc: "Our spies have successfully sabotaged enemy industry."
+ espionage.13.option.a: "Hurrah!"
+ 
+ espionage.14.title: "Industry sabotaged!"
+ espionage.14.desc: "Enemy spies have sabotaged our industry across our lands."
+ espionage.14.option.a: "..."
+ 
+ espionage.15.title: "Enemy commander assassinated"
+ espionage.15.desc: "Our spies have successfully assassinated an enemy commander."
+ espionage.15.option.a: "Hurrah!"
+ 
+ espionage.16.title: "Commander assassinated!"
+ espionage.16.desc: "Enemy spies have assassinated one of our commanders."
+ espionage.16.option.a: "...."

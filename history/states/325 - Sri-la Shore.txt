@@ -1,0 +1,65 @@
+state = {
+	id = 325
+	name = "SRI_LA_SHORE"
+	manpower = 789
+	state_category = rural
+
+	resources = {
+		oil = 4
+		ground_beast = 1
+		flying_beast = 6
+		wood = 16
+		steel = 1
+		food = 18
+	}
+
+	history = {
+		owner = GOM
+		add_core_of = GOM
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 1
+			industrial_complex = 2
+			dockyard = 1
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			6398 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 1
+			}
+			6401 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 3
+			}
+			6405 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 4
+			}
+			6709 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        6398 6401 6405 6709 
+    }
+}

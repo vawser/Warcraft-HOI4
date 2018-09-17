@@ -1,0 +1,425 @@
+
+ai_focus_defense = {
+	research = {
+		armor = 10.0
+		industry = 10.0
+		electronics = 10.0
+		artillery = 10.0
+		infantry_weapons = 10.0
+		infantry_tech = 10.0
+		marine_tech = 10.0
+		night_vision = 10.0
+		support_tech = 10.0
+		mot_rockets = 10.0
+		nuclear = 10.0
+		naval_equipment = 10.0
+		naval_doctrine = 10.0
+		air_equipment = 10.0
+		rocketry = 10.0
+		jet_technology = 10.0
+		air_doctrine = 10.0
+		land_doctrine = 10.0
+        
+        infantry_tech = 10.0
+        grunt_tech = 10.0
+        champion_tech = 10.0
+        archer_tech = 10.0
+        spellcaster_tech = 10.0
+        war_engine_tech = 10.0
+        
+        cavalry_tech = 10.0
+        light_cavalry_tech = 10.0
+        heavy_cavalry_tech = 10.0
+        
+        tank_tech = 10.0
+        light_tank_tech = 10.0
+        heavy_tank_tech = 10.0
+        
+        support_tech = 10.0
+        war_engine_support_tech = 10.0
+        archer_support_tech = 10.0
+        spellcaster_support_tech = 10.0
+        logistics_support_tech = 10.0
+        guard_support_tech = 10.0 
+        engineer_support_tech = 10.0
+        medic_support_tech = 10.0
+        scout_support_tech = 10.0
+        cavalry_support_tech = 10.0
+        
+        air_tech = 10.0
+        fighter_tech = 10.0
+        cas_tech = 10.0
+        tactical_bomber_tech = 10.0
+        strategic_bomber_tech = 10.0
+        air_convoy_tech = 10.0
+        
+        navy_tech = 10.0
+        cruiser_tech = 10.0
+        battleship_tech = 10.0
+        submarine_tech = 10.0
+        destroyer_tech = 10.0
+        convoy_tech = 10.0
+        
+        industry_tech = 10.0
+        construction_tech = 10.0
+        production_tech = 10.0
+        repair_tech = 10.0
+        efficiency_tech = 10.0
+	}
+}
+
+ai_focus_aggressive = {
+	research = {
+		armor = 10.0
+		industry = 10.0
+		electronics = 10.0
+		artillery = 10.0
+		infantry_weapons = 10.0
+		infantry_tech = 10.0
+		marine_tech = 10.0
+		night_vision = 10.0
+		support_tech = 10.0
+		mot_rockets = 10.0
+		nuclear = 10.0
+		naval_equipment = 10.0
+		naval_doctrine = 10.0
+		air_equipment = 10.0
+		rocketry = 10.0
+		jet_technology = 10.0
+		air_doctrine = 10.0
+		land_doctrine = 10.0
+        
+        infantry_tech = 10.0
+        grunt_tech = 10.0
+        champion_tech = 10.0
+        archer_tech = 10.0
+        spellcaster_tech = 10.0
+        war_engine_tech = 10.0
+        
+        cavalry_tech = 10.0
+        light_cavalry_tech = 10.0
+        heavy_cavalry_tech = 10.0
+        
+        tank_tech = 10.0
+        light_tank_tech = 10.0
+        heavy_tank_tech = 10.0
+        
+        support_tech = 10.0
+        war_engine_support_tech = 10.0
+        archer_support_tech = 10.0
+        spellcaster_support_tech = 10.0
+        logistics_support_tech = 10.0
+        guard_support_tech = 10.0 
+        engineer_support_tech = 10.0
+        medic_support_tech = 10.0
+        scout_support_tech = 10.0
+        cavalry_support_tech = 10.0
+        
+        air_tech = 10.0
+        fighter_tech = 10.0
+        cas_tech = 10.0
+        tactical_bomber_tech = 10.0
+        strategic_bomber_tech = 10.0
+        air_convoy_tech = 10.0
+        
+        navy_tech = 10.0
+        cruiser_tech = 10.0
+        battleship_tech = 10.0
+        submarine_tech = 10.0
+        destroyer_tech = 10.0
+        convoy_tech = 10.0
+        
+        industry_tech = 10.0
+        construction_tech = 10.0
+        production_tech = 10.0
+        repair_tech = 10.0
+        efficiency_tech = 10.0
+	}
+}
+
+ai_focus_war_production = {
+	research = {
+		armor = 10.0
+		industry = 10.0
+		electronics = 10.0
+		artillery = 10.0
+		infantry_weapons = 10.0
+		infantry_tech = 10.0
+		marine_tech = 10.0
+		night_vision = 10.0
+		support_tech = 10.0
+		mot_rockets = 10.0
+		nuclear = 10.0
+		naval_equipment = 10.0
+		naval_doctrine = 10.0
+		air_equipment = 10.0
+		rocketry = 10.0
+		jet_technology = 10.0
+		air_doctrine = 10.0
+		land_doctrine = 10.0
+        
+        infantry_tech = 10.0
+        grunt_tech = 10.0
+        champion_tech = 10.0
+        archer_tech = 10.0
+        spellcaster_tech = 10.0
+        war_engine_tech = 10.0
+        
+        cavalry_tech = 10.0
+        light_cavalry_tech = 10.0
+        heavy_cavalry_tech = 10.0
+        
+        tank_tech = 10.0
+        light_tank_tech = 10.0
+        heavy_tank_tech = 10.0
+        
+        support_tech = 10.0
+        war_engine_support_tech = 10.0
+        archer_support_tech = 10.0
+        spellcaster_support_tech = 10.0
+        logistics_support_tech = 10.0
+        guard_support_tech = 10.0 
+        engineer_support_tech = 10.0
+        medic_support_tech = 10.0
+        scout_support_tech = 10.0
+        cavalry_support_tech = 10.0
+        
+        air_tech = 10.0
+        fighter_tech = 10.0
+        cas_tech = 10.0
+        tactical_bomber_tech = 10.0
+        strategic_bomber_tech = 10.0
+        air_convoy_tech = 10.0
+        
+        navy_tech = 10.0
+        cruiser_tech = 10.0
+        battleship_tech = 10.0
+        submarine_tech = 10.0
+        destroyer_tech = 10.0
+        convoy_tech = 10.0
+        
+        industry_tech = 10.0
+        construction_tech = 10.0
+        production_tech = 10.0
+        repair_tech = 10.0
+        efficiency_tech = 10.0
+	}
+}
+
+ai_focus_peaceful = {
+	research = {
+		armor = 10.0
+		industry = 10.0
+		electronics = 10.0
+		artillery = 10.0
+		infantry_weapons = 10.0
+		infantry_tech = 10.0
+		marine_tech = 10.0
+		night_vision = 10.0
+		support_tech = 10.0
+		mot_rockets = 10.0
+		nuclear = 10.0
+		naval_equipment = 10.0
+		naval_doctrine = 10.0
+		air_equipment = 10.0
+		rocketry = 10.0
+		jet_technology = 10.0
+		air_doctrine = 10.0
+		land_doctrine = 10.0
+        
+        industry_tech = 10.0
+        construction_tech = 10.0
+        production_tech = 10.0
+        repair_tech = 10.0
+        efficiency_tech = 10.0
+        
+        resource_tech = 10.0
+        fuel_pump_tech = 10.0
+        roost_tech = 10.0
+        stable_tech = 10.0
+        lumberyard_tech = 10.0
+        smeltery_tech = 10.0
+        farm_tech = 10.0
+        
+        statecraft_tech = 10.0
+        political_tech = 10.0 
+        espionage_tech = 10.0
+        religion_tech = 10.0
+        invention_tech = 10.0
+        diplomacy_tech = 10.0
+	}
+}
+
+ai_focus_military_advancements = {
+	research = {
+		armor = 10.0
+		industry = 10.0
+		electronics = 10.0
+		artillery = 10.0
+		infantry_weapons = 10.0
+		infantry_tech = 10.0
+		marine_tech = 10.0
+		night_vision = 10.0
+		support_tech = 10.0
+		mot_rockets = 10.0
+		nuclear = 10.0
+		naval_equipment = 10.0
+		naval_doctrine = 10.0
+		air_equipment = 10.0
+		rocketry = 10.0
+		jet_technology = 10.0
+		air_doctrine = 10.0
+		land_doctrine = 10.0
+        
+        infantry_tech = 10.0
+        grunt_tech = 10.0
+        champion_tech = 10.0
+        archer_tech = 10.0
+        spellcaster_tech = 10.0
+        war_engine_tech = 10.0
+        
+        cavalry_tech = 10.0
+        light_cavalry_tech = 10.0
+        heavy_cavalry_tech = 10.0
+        
+        tank_tech = 10.0
+        light_tank_tech = 10.0
+        heavy_tank_tech = 10.0
+        
+        support_tech = 10.0
+        war_engine_support_tech = 10.0
+        archer_support_tech = 10.0
+        spellcaster_support_tech = 10.0
+        logistics_support_tech = 10.0
+        guard_support_tech = 10.0 
+        engineer_support_tech = 10.0
+        medic_support_tech = 10.0
+        scout_support_tech = 10.0
+        cavalry_support_tech = 10.0
+        
+        air_tech = 10.0
+        fighter_tech = 10.0
+        cas_tech = 10.0
+        tactical_bomber_tech = 10.0
+        strategic_bomber_tech = 10.0
+        air_convoy_tech = 10.0
+        
+        navy_tech = 10.0
+        cruiser_tech = 10.0
+        battleship_tech = 10.0
+        submarine_tech = 10.0
+        destroyer_tech = 10.0
+        convoy_tech = 10.0
+        
+        leadership_tech = 10.0
+        experience_tech = 10.0
+        organisation_tech = 10.0
+        naval_invasion_tech = 10.0
+	}
+}
+
+ai_focus_military_equipment = {
+	research = {
+		armor = 1.0
+		industry = 1.0
+		electronics = 1.0
+		artillery = 1.0
+		infantry_weapons = 1.0
+		infantry_tech = 1.0
+		marine_tech = 1.0
+		night_vision = 1.0
+		support_tech = 1.0
+		mot_rockets = 1.0
+		nuclear = 1.0
+		naval_equipment = 1.0
+		naval_doctrine = 1.0
+		air_equipment = 1.0
+		rocketry = 1.0
+		jet_technology = 1.0
+		air_doctrine = 1.0
+		land_doctrine = 1.0
+	}
+}
+
+ai_focus_naval = {
+    research = {
+		armor = 1.0
+		industry = 1.0
+		electronics = 1.0
+		artillery = 1.0
+		infantry_weapons = 1.0
+		infantry_tech = 1.0
+		marine_tech = 1.0
+		night_vision = 1.0
+		support_tech = 1.0
+		mot_rockets = 1.0
+		nuclear = 1.0
+		naval_equipment = 1.0
+		naval_doctrine = 1.0
+		air_equipment = 1.0
+		rocketry = 1.0
+		jet_technology = 1.0
+		air_doctrine = 1.0
+		land_doctrine = 1.0
+        
+        navy_tech = 10.0
+        cruiser_tech = 10.0
+        battleship_tech = 10.0
+        submarine_tech = 10.0
+        destroyer_tech = 10.0
+        convoy_tech = 10.0
+	}
+}
+
+ai_focus_naval_air = {
+	research = {
+		armor = 1.0
+		industry = 1.0
+		electronics = 1.0
+		artillery = 1.0
+		infantry_weapons = 1.0
+		infantry_tech = 1.0
+		marine_tech = 1.0
+		night_vision = 1.0
+		support_tech = 1.0
+		mot_rockets = 1.0
+		nuclear = 1.0
+		naval_equipment = 1.0
+		naval_doctrine = 1.0
+		air_equipment = 1.0
+		rocketry = 1.0
+		jet_technology = 1.0
+		air_doctrine = 1.0
+		land_doctrine = 1.0
+	}
+}
+
+ai_focus_aviation = {
+	research = {
+		armor = 1.0
+		industry = 1.0
+		electronics = 1.0
+		artillery = 1.0
+		infantry_weapons = 1.0
+		infantry_tech = 1.0
+		marine_tech = 1.0
+		night_vision = 1.0
+		support_tech = 1.0
+		mot_rockets = 1.0
+		nuclear = 1.0
+		naval_equipment = 1.0
+		naval_doctrine = 1.0
+		air_equipment = 1.0
+		rocketry = 1.0
+		jet_technology = 1.0
+		air_doctrine = 1.0
+		land_doctrine = 1.0
+        
+        air_tech = 10.0
+        fighter_tech = 10.0
+        cas_tech = 10.0
+        tactical_bomber_tech = 10.0
+        strategic_bomber_tech = 10.0
+        air_convoy_tech = 10.0
+	}
+}

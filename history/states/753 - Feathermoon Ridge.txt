@@ -1,0 +1,15 @@
+state = {
+	id = 753
+	name = "FEATHERMOON_RIDGE"
+	manpower = 43
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = RET
+	}
+
+	provinces = {
+        3234 3243 3265 3287 3288 4593 
+    }
+}

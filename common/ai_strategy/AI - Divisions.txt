@@ -1,0 +1,113 @@
+small_template_design_spending = {
+	enable = {
+		always = yes
+	}
+    
+    ai_strategy = {
+		type = template_xp_reserve
+		value = 100
+	}
+}
+
+small_template_design = {
+	enable = {
+		NOT = { has_country_flag = ai_land_large }
+	}
+    abort = {
+        has_country_flag = ai_land_large
+    }
+
+    ai_strategy = {
+		type = template_prio
+		id = grunt
+		value = 25
+	}
+    
+    ai_strategy = {
+		type = template_prio
+		id = war_engine
+		value = -50
+	}
+    
+    ai_strategy = {
+		type = template_prio
+		id = champion
+		value = -50
+	}
+    
+    ai_strategy = {
+		type = template_prio
+		id = spellcaster
+		value = -50
+	}
+    
+    ai_strategy = {
+		type = template_prio
+		id = archer
+		value = -50
+	}
+    
+	ai_strategy = {
+		type = template_prio
+		id = light_cavalry
+		value = 25
+	}
+
+	ai_strategy = {
+		type = template_prio
+		id = heavy_cavalry
+		value = -50
+	}
+}
+
+large_template_design = {
+    enable = {
+        has_country_flag = ai_land_large
+    }
+    abort = {
+        NOT = { has_country_flag = ai_land_large }
+    }
+    
+    ai_strategy = {
+		type = template_prio
+		id = grunt
+		value = -50
+	}
+    
+    ai_strategy = {
+		type = template_prio
+		id = war_engine
+		value = 25
+	}
+    
+    ai_strategy = {
+		type = template_prio
+		id = champion
+		value = 25
+	}
+    
+    ai_strategy = {
+		type = template_prio
+		id = spellcaster
+		value = 25
+	}
+    
+    ai_strategy = {
+		type = template_prio
+		id = archer
+		value = 25
+	}
+    
+	ai_strategy = {
+		type = template_prio
+		id = light_cavalry
+		value = -50
+	}
+
+	ai_strategy = {
+		type = template_prio
+		id = heavy_cavalry
+		value = 25
+	}
+}
+

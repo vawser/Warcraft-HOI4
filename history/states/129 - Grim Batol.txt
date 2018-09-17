@@ -1,0 +1,79 @@
+state = {
+	id = 129
+	name = "GRIM_BATOL"
+	manpower = 14398
+	state_category = city
+
+	resources = {
+		oil = 4
+		ground_beast = 3
+		flying_beast = 2
+		wood = 29
+		steel = 7
+		food = 19
+	}
+
+	history = {
+		owner = GMB
+        add_core_of = GMB
+
+        victory_points = {
+            2613 15
+        }
+        
+        # The Second War
+        597.1.1 = {
+            owner = TTH
+            add_core_of = TTH
+        }
+        # The Third War
+        612.1.1 = {
+            owner = GMB
+            add_core_of = GMB
+        }
+        
+		buildings = {
+			infrastructure = 8
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 6
+			industrial_complex = 4
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			2341 = {
+				bunker = 7
+			}
+			2355 = {
+				bunker = 1
+			}
+			2373 = {
+				bunker = 6
+			}
+			2390 = {
+				bunker = 5
+			}
+			2403 = {
+				bunker = 4
+			}
+			2416 = {
+				bunker = 9
+			}
+			2613 = {
+				bunker = 1
+			}
+		}
+	}
+
+	provinces = {
+        2341 2355 2373 2390 2403 2416 2613 
+    }
+}

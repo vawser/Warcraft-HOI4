@@ -1,0 +1,50 @@
+state = {
+	id = 915
+	name = "GLADE_OF_ASTREN"
+	manpower = 836
+	state_category = rural
+
+	resources = {
+		ground_beast = 2
+		flying_beast = 8
+		wood = 12
+		food = 15
+	}
+
+	history = {
+		owner = SEA
+		add_core_of = SEA
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 2
+			industrial_complex = 1
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			3912 = {
+				bunker = 0
+			}
+			3938 = {
+				bunker = 0
+			}
+			4077 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        3912 3938 4077 
+    }
+}

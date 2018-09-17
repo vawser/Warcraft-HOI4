@@ -1,0 +1,60 @@
+state = {
+	id = 126
+	name = "KIRTHAVEN"
+	manpower = 4053
+	state_category = village
+
+	resources = {
+		oil = 1
+		flying_beast = 8
+		wood = 3
+		steel = 5
+		food = 14
+	}
+
+	history = {
+		owner = WIL
+        add_core_of = WIL
+
+		buildings = {
+			infrastructure = 4
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 4
+			industrial_complex = 2
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			2853 = {
+				bunker = 0
+			}
+			2880 = {
+				bunker = 0
+			}
+			2910 = {
+				bunker = 0
+			}
+			2932 = {
+				bunker = 0
+			}
+			3011 = {
+				bunker = 0
+			}
+			3059 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        2853 2880 2910 2932 3011 3059 
+    }
+}

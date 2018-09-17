@@ -1,0 +1,80 @@
+state = {
+	id = 854
+	name = "ECHO_ISLES"
+	manpower = 671
+	state_category = island
+
+	resources = {
+		ground_beast = 1
+		flying_beast = 5
+		steel = 9
+		food = 19
+	}
+
+	history = {
+		owner = RAZ
+		add_core_of = RAZ
+
+        612.1.1 = {
+            owner = ORG
+            add_core_of = ORG
+        }
+        
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 0
+			industrial_complex = 2
+			dockyard = 1
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			3291 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 1
+			}
+			3293 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 7
+			}
+			3305 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 2
+			}
+			3307 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 2
+			}
+			3310 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 8
+			}
+			3313 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 4
+			}
+		}
+	}
+
+	provinces = {
+        3291 3293 3305 3307 3310 3313
+    }
+}

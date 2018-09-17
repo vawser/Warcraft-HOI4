@@ -1,0 +1,67 @@
+state = {
+	id = 857
+	name = "DRYGULCH_RAVINE"
+	manpower = 774
+	state_category = rural
+
+	resources = {
+		ground_beast = 6
+		flying_beast = 1
+		wood = 8
+		steel = 14
+		food = 17
+	}
+
+	history = {
+		owner = RAZ
+		add_core_of = RAZ
+
+        612.1.1 = {
+            owner = ORG
+            add_core_of = ORG
+        }
+        
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 1
+			industrial_complex = 0
+			dockyard = 1
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			3200 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 7
+			}
+			3324 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 6
+			}
+			4349 = {
+				bunker = 0
+			}
+			5024 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        3200 3324 4349 5024 
+    }
+}

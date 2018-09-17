@@ -1,0 +1,7 @@
+objectTypes = {
+    pdxmesh = {
+		name = "goblin_statue"
+		file = "gfx/models/buildings/goblin_statue/goblinstatuebooty.mesh"
+	}
+}
+

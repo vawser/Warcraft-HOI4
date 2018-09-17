@@ -1,0 +1,64 @@
+state = {
+	id = 233
+	name = "ZEB_NOWA"
+	manpower = 9068
+	state_category = town
+
+	resources = {
+		oil = 4
+		ground_beast = 3
+		flying_beast = 6
+		wood = 15
+		steel = 9
+		food = 19
+	}
+
+	history = {
+		owner = SWP
+        add_core_of = SWP
+
+		buildings = {
+			infrastructure = 5
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 5
+			industrial_complex = 6
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			2057 = {
+				bunker = 4
+			}
+			2078 = {
+				bunker = 5
+			}
+			2079 = {
+				bunker = 8
+			}
+			2101 = {
+				bunker = 9
+			}
+			2121 = {
+				bunker = 8
+			}
+			2142 = {
+				bunker = 5
+			}
+			2182 = {
+				bunker = 2
+			}
+		}
+	}
+
+	provinces = {
+        2057 2078 2079 2101 2121 2142 2182 
+    }
+}

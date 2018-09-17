@@ -1,0 +1,63 @@
+state = {
+	id = 736
+	name = "WESTREACH_CROSSING"
+	manpower = 876
+	state_category = rural
+
+	resources = {
+		oil = 18
+		ground_beast = 8
+		flying_beast = 3
+		steel = 9
+		food = 2
+	}
+
+	history = {
+		owner = GRV
+		add_core_of = GRV
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 1
+			industrial_complex = 2
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			3350 = {
+				bunker = 0
+			}
+			3378 = {
+				bunker = 0
+			}
+			3408 = {
+				bunker = 0
+			}
+			3436 = {
+				bunker = 0
+			}
+			3464 = {
+				bunker = 0
+			}
+			3521 = {
+				bunker = 0
+			}
+			3602 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        3350 3378 3408 3436 3464 3521 3602 
+    }
+}

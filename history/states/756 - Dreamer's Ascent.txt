@@ -1,0 +1,15 @@
+state = {
+	id = 756
+	name = "DREAMERS_ASCENT"
+	manpower = 54
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = DRB
+	}
+
+	provinces = {
+        4515 4538 4550 4560 4842 4849 
+    }
+}

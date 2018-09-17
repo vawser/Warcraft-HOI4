@@ -1,0 +1,15 @@
+state = {
+	id = 936
+	name = "REMULOS_ASCENT"
+	manpower = 70
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = SEN
+	}
+
+	provinces = {
+        4421 4682 4720 4795 4813 
+    }
+}

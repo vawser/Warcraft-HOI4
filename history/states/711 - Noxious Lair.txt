@@ -1,0 +1,53 @@
+state = {
+	id = 711
+	name = "NOXIOUS_LAIR"
+	manpower = 2758
+	state_category = village
+
+	resources = {
+		oil = 16
+		ground_beast = 6
+		flying_beast = 8
+		steel = 8
+	}
+
+	history = {
+		owner = AQJ
+		add_core_of = AQJ
+
+		buildings = {
+			infrastructure = 3
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 2
+			industrial_complex = 4
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			3417 = {
+				bunker = 0
+			}
+			3444 = {
+				bunker = 0
+			}
+			3472 = {
+				bunker = 0
+			}
+			3501 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        3417 3444 3472 3501 
+    }
+}

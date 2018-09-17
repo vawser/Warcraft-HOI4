@@ -1,0 +1,15 @@
+state = {
+	id = 1098
+	name = "GOLDEN_WATCH"
+	manpower = 72
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = GLI
+	}
+
+	provinces = {
+        6492
+    }
+}

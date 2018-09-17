@@ -1,0 +1,67 @@
+state = {
+	id = 410
+	name = "TIGER_PASS"
+	manpower = 816
+	state_category = rural
+
+	resources = {
+		oil = 1
+		ground_beast = 3
+		flying_beast = 6
+		wood = 5
+		steel = 14
+		food = 15
+	}
+
+	history = {
+		owner = TIG
+		add_core_of = TIG
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 4
+			industrial_complex = 0
+			dockyard = 0
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			6278 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 2
+			}
+			6281 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 8
+			}
+			6364 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 4
+			}
+			6511 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 8
+			}
+		}
+	}
+
+	provinces = {
+        6278 6281 6364 6511 
+    }
+}

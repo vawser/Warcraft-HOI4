@@ -1,0 +1,55 @@
+state = {
+	id = 360
+	name = "STONEPLOW"
+	manpower = 3337
+	state_category = village
+
+	resources = {
+		oil = 2
+		ground_beast = 6
+		flying_beast = 2
+		wood = 4
+		steel = 6
+		food = 13
+	}
+
+	history = {
+		owner = TIL
+		add_core_of = TIL
+
+		buildings = {
+			infrastructure = 4
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 4
+			industrial_complex = 3
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			6816 = {
+				bunker = 0
+			}
+			6827 = {
+				bunker = 0
+			}
+			6871 = {
+				bunker = 0
+			}
+			6881 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        6816 6827 6871 6881 
+    }
+}

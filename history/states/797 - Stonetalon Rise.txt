@@ -1,0 +1,15 @@
+state = {
+	id = 797
+	name = "STONETALON_RISE"
+	manpower = 71
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = BFY
+	}
+
+	provinces = {
+        3228 3238 3278 3279 4638 4646 4754 
+    }
+}

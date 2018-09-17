@@ -1,0 +1,61 @@
+state = {
+	id = 641
+	name = "AKHENET_FIELDS"
+	manpower = 799
+	state_category = rural
+
+	resources = {
+		ground_beast = 2
+		flying_beast = 5
+		steel = 4
+		food = 4
+	}
+
+	history = {
+		owner = RAM
+		add_core_of = RAM
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 0
+			industrial_complex = 2
+			dockyard = 2
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			3081 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 6
+			}
+			3084 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 3
+			}
+			3428 = {
+				bunker = 0
+			}
+			3456 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        3081 3084 3428 3456 
+    }
+}

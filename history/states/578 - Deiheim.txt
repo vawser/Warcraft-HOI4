@@ -1,0 +1,70 @@
+state = {
+	id = 578
+	name = "DEIHEIM"
+	manpower = 1858
+	state_category = village
+
+	resources = {
+		ground_beast = 5
+		flying_beast = 9
+		steel = 13
+		food = 14
+	}
+
+	history = {
+		owner = JOT
+		add_core_of = JOT
+
+		buildings = {
+			infrastructure = 2
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 2
+			industrial_complex = 0
+			dockyard = 2
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			5126 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 2
+			}
+			5132 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 5
+			}
+			5138 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 7
+			}
+			5141 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 6
+			}
+			5148 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 1
+			}
+		}
+	}
+
+	provinces = {
+        5126 5132 5138 5141 5148 
+    }
+}

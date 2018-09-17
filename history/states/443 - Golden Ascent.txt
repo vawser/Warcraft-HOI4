@@ -1,0 +1,15 @@
+state = {
+	id = 443
+	name = "THE_GOLDEN_ASCENT"
+	manpower = 13
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = MOH
+	}
+
+	provinces = {
+        6749 6755 6797 6800 
+    }
+}

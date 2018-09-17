@@ -1,0 +1,15 @@
+state = {
+	id = 926
+	name = "SHATTERSPEAR_RISE"
+	manpower = 25
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = CEN
+	}
+
+	provinces = {
+        3231 3262 4690 4728 4802 4803 4820 
+    }
+}

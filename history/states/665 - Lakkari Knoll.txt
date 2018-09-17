@@ -1,0 +1,15 @@
+state = {
+	id = 665
+	name = "LAKKARI_KNOLL"
+	manpower = 46
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = AQJ
+	}
+
+	provinces = {
+        4386  4831 4832 4838 4845 
+    }
+}

@@ -1,0 +1,54 @@
+state = {
+	id = 868
+	name = "BLACKHOOF"
+	manpower = 4475
+	state_category = village
+
+	resources = {
+		oil = 18
+		ground_beast = 8
+		flying_beast = 7
+		steel = 3
+		food = 3
+	}
+
+	history = {
+		owner = DST
+		add_core_of = DST
+
+		buildings = {
+			infrastructure = 4
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 5
+			industrial_complex = 3
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			4284 = {
+				bunker = 0
+			}
+			4304 = {
+				bunker = 0
+			}
+			4307 = {
+				bunker = 0
+			}
+			4310 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        4284 4304 4307 4310 
+    }
+}

@@ -1,0 +1,72 @@
+state = {
+	id = 530
+	name = "ICEMIRE"
+	manpower = 921
+	state_category = rural
+
+	resources = {
+		oil = 1
+		ground_beast = 3
+		steel = 8
+		food = 24
+	}
+
+	history = {
+		owner = SNF
+		add_core_of = SNF
+
+        # The Third War
+        612.1.1 = {
+            owner = SCO
+            add_core_of = SCO
+        }
+        
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 1
+			industrial_complex = 0
+			dockyard = 2
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			5329 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 7
+			}
+			5340 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 8
+			}
+			5640 = {
+				bunker = 0
+			}
+			5248 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 8
+			}
+			5688 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        5329 5340 5640 5248 5688 
+    }
+}

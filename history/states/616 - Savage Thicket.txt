@@ -1,0 +1,64 @@
+state = {
+	id = 616
+	name = "THE_SAVAGE_THICKET"
+	manpower = 551
+	state_category = rural
+
+	resources = {
+		oil = 2
+		ground_beast = 1
+		flying_beast = 2
+		wood = 15
+		steel = 1
+		food = 1
+	}
+
+	history = {
+		owner = MSW
+		add_core_of = MSW
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 0
+			industrial_complex = 1
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			5823 = {
+				bunker = 0
+			}
+			5828 = {
+				bunker = 0
+			}
+			5839 = {
+				bunker = 0
+			}
+			5845 = {
+				bunker = 0
+			}
+			5871 = {
+				bunker = 0
+			}
+			5874 = {
+				bunker = 0
+			}
+			5880 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        5823 5828 5839 5845 5871 5874 5880 
+    }
+}

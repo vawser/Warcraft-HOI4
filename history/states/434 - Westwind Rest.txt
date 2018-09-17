@@ -1,0 +1,53 @@
+state = {
+	id = 434
+	name = "WESTWIND_REST"
+	manpower = 808
+	state_category = rural
+
+	resources = {
+		flying_beast = 8
+		wood = 4
+		steel = 3
+		food = 16
+	}
+
+	history = {
+		owner = TIG
+		add_core_of = TIG
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 1
+			industrial_complex = 1
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			6805 = {
+				bunker = 0
+			}
+			6842 = {
+				bunker = 0
+			}
+			6853 = {
+				bunker = 0
+			}
+			6902 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        6805 6842 6853 6902 
+    }
+}

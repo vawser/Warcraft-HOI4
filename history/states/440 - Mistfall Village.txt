@@ -1,0 +1,49 @@
+state = {
+	id = 440
+	name = "MISTFALL_VILLAGE"
+	manpower = 989
+	state_category = village
+
+	resources = {
+		oil = 3
+		ground_beast = 5
+		flying_beast = 4
+		wood = 10
+		steel = 3
+		food = 19
+	}
+
+	history = {
+		owner = SHO
+		add_core_of = SHO
+
+		buildings = {
+			infrastructure = 4
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 4
+			industrial_complex = 4
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			6664 = {
+				bunker = 0
+			}
+			6672 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        6664 6672 
+    }
+}

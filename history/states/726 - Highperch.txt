@@ -1,0 +1,70 @@
+state = {
+	id = 726
+	name = "HIGHPERCH"
+	manpower = 3435
+	state_category = village
+
+	resources = {
+		oil = 17
+		ground_beast = 3
+		flying_beast = 3
+		wood = 1
+		steel = 5
+		food = 4
+	}
+
+	history = {
+        owner = GAL
+		add_core_of = GAL
+        
+		buildings = {
+			infrastructure = 4
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 5
+			industrial_complex = 3
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			3356 = {
+				bunker = 0
+			}
+			3384 = {
+				bunker = 0
+			}
+			3414 = {
+				bunker = 0
+			}
+			3442 = {
+				bunker = 0
+			}
+			3470 = {
+				bunker = 0
+			}
+			3498 = {
+				bunker = 0
+			}
+			3499 = {
+				bunker = 0
+			}
+			3525 = {
+				bunker = 0
+			}
+			3552 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        3356 3384 3414 3442 3470 3498 3499 3525 3552 
+    }
+}

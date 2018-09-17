@@ -1,0 +1,55 @@
+state = {
+	id = 608
+	name = "WILDGROWTH_MANGAL"
+	manpower = 592
+	state_category = rural
+
+	resources = {
+		oil = 3
+		flying_beast = 4
+		wood = 18
+	}
+
+	history = {
+		owner = SPK
+		add_core_of = SPK
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 3
+			industrial_complex = 1
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			5825 = {
+				bunker = 0
+			}
+			5831 = {
+				bunker = 0
+			}
+			5837 = {
+				bunker = 0
+			}
+			5843 = {
+				bunker = 0
+			}
+			5870 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        5825 5831 5837 5843 5870
+    }
+}

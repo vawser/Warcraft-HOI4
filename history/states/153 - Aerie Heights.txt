@@ -1,0 +1,15 @@
+state = {
+	id = 153
+	name = "AERIE_HEIGHTS"
+	manpower = 38
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = AER
+	}
+
+	provinces = {
+        2558 2579 2599 2609 2622 
+    }
+}

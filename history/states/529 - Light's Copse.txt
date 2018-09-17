@@ -1,0 +1,82 @@
+state = {
+	id = 529
+	name = "LIGHTS_COPSE"
+	manpower = 505
+	state_category = rural
+
+	resources = {
+		oil = 1
+		ground_beast = 8
+		flying_beast = 5
+		wood = 4
+		steel = 3
+		food = 27
+	}
+
+	history = {
+		owner = SNF
+		add_core_of = SNF
+
+        # The Third War
+        612.1.1 = {
+            owner = SCO
+            add_core_of = SCO
+        }
+        
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 1
+			industrial_complex = 2
+			dockyard = 1
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			5296 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 8
+			}
+			5307 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 3
+			}
+			5318 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 5
+			}
+			5356 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 2
+			}
+			5625 = {
+				bunker = 0
+			}
+			5631 = {
+				bunker = 0
+			}
+			5660 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        5296 5307 5318 5356 5625 5631 5660 
+    }
+}

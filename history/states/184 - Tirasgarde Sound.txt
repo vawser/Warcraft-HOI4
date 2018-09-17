@@ -1,0 +1,72 @@
+state = {
+	id = 184
+	name = "TIRASGARDE_SOUND"
+	manpower = 14698
+	state_category = city
+
+	resources = {
+		oil = 3
+		ground_beast = 10
+		flying_beast = 10
+		wood = 7
+		steel = 10
+		food = 11
+	}
+
+	history = {
+		owner = KUL
+        add_core_of = KUL
+
+		buildings = {
+			infrastructure = 9
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 5
+			industrial_complex = 6
+			dockyard = 5
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			1784 = {
+				bunker = 8
+				coastal_bunker = 7
+				naval_base = 4
+			}
+			1789 = {
+				bunker = 2
+				coastal_bunker = 1
+				naval_base = 9
+			}
+			1791 = {
+				bunker = 6
+				coastal_bunker = 3
+				naval_base = 4
+			}
+			1795 = {
+				bunker = 2
+				coastal_bunker = 8
+				naval_base = 1
+			}
+			7281 = {
+				bunker = 5
+				coastal_bunker = 2
+				naval_base = 4
+			}
+		}
+	}
+
+	provinces = {
+         1784 1789 1791 1795 7281 
+    }
+}

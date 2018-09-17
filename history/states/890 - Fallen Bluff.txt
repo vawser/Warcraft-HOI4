@@ -1,0 +1,65 @@
+state = {
+	id = 890
+	name = "FALLEN_BLUFF"
+	manpower = 886
+	state_category = rural
+
+	resources = {
+		oil = 2
+		ground_beast = 7
+		flying_beast = 2
+		wood = 13
+		food = 17
+	}
+
+	history = {
+		owner = LEG
+		add_core_of = LEG
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 0
+			industrial_complex = 2
+			dockyard = 0
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			3154 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 4
+			}
+			3159 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 5
+			}
+			3876 = {
+				bunker = 0
+			}
+			3903 = {
+				bunker = 0
+			}
+			3929 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        3154 3159 3876 3903 3929 
+    }
+}

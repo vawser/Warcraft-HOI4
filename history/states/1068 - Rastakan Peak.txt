@@ -1,0 +1,15 @@
+state = {
+	id = 1068
+	name = "RASTAKAN_PEAK"
+	manpower = 61
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = ZDL
+	}
+
+	provinces = {
+        7221 7223
+    }
+}

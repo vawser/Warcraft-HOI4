@@ -1,0 +1,57 @@
+state = {
+	id = 912
+	name = "SHRINE_OF_AESSINA"
+	manpower = 1797
+	state_category = village
+
+	resources = {
+		ground_beast = 8
+		flying_beast = 4
+		wood = 28
+		steel = 5
+		food = 10
+	}
+
+	history = {
+		owner = SEA
+		add_core_of = SEA
+
+		buildings = {
+			infrastructure = 3
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 4
+			industrial_complex = 4
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			3829 = {
+				bunker = 0
+			}
+			3857 = {
+				bunker = 0
+			}
+			3885 = {
+				bunker = 0
+			}
+			4019 = {
+				bunker = 0
+			}
+			4109 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        3829 3857 3885 4019 4109 
+    }
+}

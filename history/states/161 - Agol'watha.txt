@@ -1,0 +1,61 @@
+state = {
+	id = 161
+	name = "AGOL_WATHA"
+	manpower = 2258
+	state_category = village
+
+	resources = {
+		oil = 1
+		ground_beast = 5
+		flying_beast = 6
+		wood = 1
+		steel = 2
+		food = 27
+	}
+
+	history = {
+		owner = WTR
+        add_core_of = WTR
+
+		buildings = {
+			infrastructure = 3
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 8
+			industrial_complex = 2
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			2845 = {
+				bunker = 0
+			}
+			2872 = {
+				bunker = 0
+			}
+			2899 = {
+				bunker = 0
+			}
+			2947 = {
+				bunker = 0
+			}
+			2974 = {
+				bunker = 0
+			}
+			2301 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        2845 2872 2899 2947 2974 2301
+    }
+}

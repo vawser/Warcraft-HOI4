@@ -1,0 +1,55 @@
+state = {
+	id = 214
+	name = "CORINS_CROSSING"
+	manpower = 486
+	state_category = rural
+
+	resources = {
+		oil = 4
+		ground_beast = 7
+		flying_beast = 3
+		wood = 24
+		steel = 7
+		food = 17
+	}
+
+	history = {
+		owner = STR
+        add_core_of = STR
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 3
+			industrial_complex = 1
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			2066 = {
+				bunker = 0
+			}
+			2086 = {
+				bunker = 0
+			}
+			2108 = {
+				bunker = 0
+			}
+			2278 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        2066 2086 2108 2278 
+    }
+}

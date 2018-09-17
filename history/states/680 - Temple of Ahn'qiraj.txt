@@ -1,0 +1,63 @@
+state = {
+	id = 680
+	name = "TEMPLE_OF_AHNQIRAJ"
+	manpower = 16659
+	state_category = city
+
+	resources = {
+		oil = 18
+		flying_beast = 5
+		wood = 3
+		steel = 6
+		food = 3
+	}
+
+	history = {
+		owner = AQJ
+		add_core_of = AQJ
+
+		buildings = {
+			infrastructure = 8
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 10
+			industrial_complex = 2
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			3450 = {
+				bunker = 7
+			}
+			3478 = {
+				bunker = 3
+			}
+			3479 = {
+				bunker = 9
+			}
+			3508 = {
+				bunker = 6
+			}
+			3535 = {
+				bunker = 4
+			}
+			3536 = {
+				bunker = 4
+			}
+			3562 = {
+				bunker = 2
+			}
+		}
+	}
+
+	provinces = {
+        3450 3478 3479 3508 3535 3536 3562
+    }
+}

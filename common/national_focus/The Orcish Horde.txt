@@ -1,0 +1,1336 @@
+focus_tree = {
+    id = orcish_horde_focus
+    country = {
+        factor = 0
+        
+        modifier = {
+            add = 100
+         
+            tag = TTH
+        }
+    }
+    
+    reset_on_civilwar = no
+
+    @industry_x = 8
+    @war_x = 2
+    @focus_cost = 10
+    
+    #-------------------------------
+	# The First War
+	#-------------------------------
+    focus = {
+		id = TTH_orc_warcry
+		icon = GFX_goal_TTH_orc_warcry
+		x = @war_x
+		y = 0
+		cost = @focus_cost
+        
+		available_if_capitulated = yes
+
+		completion_reward = {
+            add_political_power = 150
+		}
+        
+        ai_will_do = {
+            factor = 5
+        }
+	}
+    focus = {
+		id = TTH_mok_gora
+        icon = GFX_goal_TTH_mok_gora
+		relative_position_id = TTH_orc_warcry
+		x = -2
+		y = 2
+		cost = @focus_cost
+        
+        prerequisite = { focus = TTH_orc_warcry }
+        
+		available_if_capitulated = yes
+
+        available = {
+            has_country_leader = { name = "Warchief Blackhand" }
+            OR = {
+                has_country_flag = medivh_ousted # human tree event
+                has_completed_focus = TTH_oust_stormwind
+            }
+        }
+        
+		completion_reward = {
+            country_event = { id = the_orcish_horde.4 }
+		}
+        
+        ai_will_do = {
+            factor = 1
+        }
+	} 
+    
+    #-------------------------------
+    # Humans
+    #-------------------------------
+    focus = {
+		id = TTH_raid_duskwood
+        icon = GFX_goal_TTH_raid
+		relative_position_id = TTH_orc_warcry
+		x = -1
+		y = 1
+		cost = @focus_cost
+
+        prerequisite = { focus = TTH_orc_warcry }
+        
+        bypass = {
+            NOT = { country_exists = DAR }
+        }
+        
+		available_if_capitulated = yes
+
+		completion_reward = {
+            DAR = { country_event = { id = the_orcish_horde.2 } }
+		}
+        
+        ai_will_do = {
+            factor = 5
+        }
+	}
+    focus = {
+		id = TTH_raid_westfall
+        icon = GFX_goal_TTH_raid
+		relative_position_id = TTH_orc_warcry
+		x = 0
+		y = 1
+		cost = @focus_cost
+
+        prerequisite = { focus = TTH_orc_warcry }
+        
+        bypass = {
+            NOT = { country_exists = WES }
+        }
+        
+		available_if_capitulated = yes
+
+		completion_reward = {
+            WES = { country_event = { id = the_orcish_horde.2 } }
+		}
+        
+        ai_will_do = {
+            factor = 5
+        }
+	}
+    focus = {
+		id = TTH_raid_lakeshire
+        icon = GFX_goal_TTH_raid
+		relative_position_id = TTH_orc_warcry
+		x = 1
+		y = 1
+		cost = @focus_cost
+
+        prerequisite = { focus = TTH_orc_warcry }
+        
+        bypass = {
+            NOT = { country_exists = RED }
+        }
+        
+		available_if_capitulated = yes
+
+		completion_reward = {
+            RED = { country_event = { id = the_orcish_horde.2 } }
+		}
+        
+        ai_will_do = {
+            factor = 5
+        } 
+	}
+    focus = {
+		id = TTH_raid_stormwind
+        icon = GFX_goal_TTH_raid
+		relative_position_id = TTH_raid_westfall
+		x = 0
+		y = 1
+		cost = @focus_cost
+
+        prerequisite = { focus = TTH_raid_duskwood }
+        prerequisite = { focus = TTH_raid_westfall }
+        prerequisite = { focus = TTH_raid_lakeshire }
+        
+        bypass = {
+            NOT = { country_exists = SRW }
+        }
+        
+		available_if_capitulated = yes
+
+		completion_reward = {
+            SRW = { country_event = { id = the_orcish_horde.2 } }
+		}
+        
+        ai_will_do = {
+            factor = 5
+        } 
+	}
+    focus = {
+		id = TTH_war_stormwind
+        icon = GFX_goal_TTH_war
+		relative_position_id = TTH_raid_stormwind
+		x = 0
+		y = 1
+		cost = @focus_cost
+
+        prerequisite = { focus = TTH_raid_stormwind }
+        
+        bypass = {
+            NOT = { country_exists = SRW }
+        }
+        
+		available_if_capitulated = yes
+
+		completion_reward = {
+            declare_war_on = {
+                target = SRW
+                type = annex_everything
+            }
+		}
+        
+        ai_will_do = {
+            factor = 5
+        } 
+	}
+    focus = {
+		id = TTH_secure_lakeshire
+        icon = GFX_goal_TTH_secure
+		relative_position_id = TTH_war_stormwind
+		x = 1
+		y = 1
+		cost = @focus_cost
+
+        prerequisite = { focus = TTH_war_stormwind }
+        
+        available = {
+            has_war_with = SRW
+        }
+        
+        bypass = {
+            NOT = { has_war_with = SRW }
+            NOT = { country_exists = RED }
+        }
+        
+		available_if_capitulated = yes
+
+		completion_reward = {
+            add_timed_idea = {
+                idea = secure_lakeshire
+                days = 180
+            }
+            country_event = { id = the_orcish_horde.3 }
+		}
+        
+        ai_will_do = {
+            factor = 1
+        } 
+	}
+    focus = {
+		id = TTH_secure_westfall
+        icon = GFX_goal_TTH_secure
+		relative_position_id = TTH_war_stormwind
+		x = 0
+		y = 1
+		cost = @focus_cost
+
+        prerequisite = { focus = TTH_war_stormwind }
+        
+        available = {
+            has_war_with = SRW
+        }
+        
+        bypass = {
+            NOT = { has_war_with = SRW }
+            NOT = { country_exists = WES }
+        }
+        
+		available_if_capitulated = yes
+
+		completion_reward = {
+            add_timed_idea = {
+                idea = secure_westfall
+                days = 180
+            }
+		}
+        
+        ai_will_do = {
+            factor = 1
+        } 
+	}
+    focus = {
+		id = TTH_secure_duskwood
+        icon = GFX_goal_TTH_secure
+		relative_position_id = TTH_war_stormwind
+		x = -1
+		y = 1
+		cost = @focus_cost
+
+        prerequisite = { focus = TTH_war_stormwind }
+        
+        available = {
+            has_war_with = SRW
+        }
+        
+        bypass = {
+            NOT = { has_war_with = SRW }
+            NOT = { country_exists = DAR }
+        }
+        
+		available_if_capitulated = yes
+
+		completion_reward = {
+            add_timed_idea = {
+                idea = secure_brightwood
+                days = 180
+            }
+		}
+        
+        ai_will_do = {
+            factor = 1
+        } 
+	}
+    focus = {
+		id = TTH_secure_sunnyglade
+        icon = GFX_goal_TTH_secure_sunnyglade
+		relative_position_id = TTH_war_stormwind
+		x = -2
+		y = 1
+		cost = @focus_cost
+
+        prerequisite = { focus = TTH_war_stormwind }
+        
+        available = {
+            has_war_with = SRW
+            controls_state = 52
+        }
+        
+        bypass = {
+            NOT = { has_war_with = SRW }
+        }
+        
+		available_if_capitulated = yes
+
+		completion_reward = {
+            add_tech_bonus = {
+                name = spellcaster_tech_bonus
+                bonus = 1.0
+                uses = 1
+                category = spellcaster_tech
+            }
+		}
+        
+        ai_will_do = {
+            factor = 1
+        } 
+	}
+    focus = {
+		id = TTH_oust_stormwind
+        icon = GFX_goal_TTH_oust_stormwind
+		relative_position_id = TTH_secure_westfall
+		x = 0
+		y = 1
+		cost = @focus_cost
+
+        prerequisite = { focus = TTH_secure_westfall }
+        
+        available = {
+            controls_state = 48
+            controls_state = 48
+            controls_state = 49
+        }
+        
+        bypass = {
+            NOT = { country_exists = SRW }
+        }
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+            custom_effect_tooltip = STORMWIND_OUSTED_TT
+            hidden_effect = {
+                if = {
+                    limit = { 
+                        has_idea = secure_westfall
+                    }
+                    remove_ideas = secure_westfall
+                }
+                if = {
+                    limit = { 
+                        has_idea = secure_brightwood
+                    }
+                    remove_ideas = secure_brightwood
+                }
+                if = {
+                    limit = { 
+                        has_idea = secure_lakeshire
+                    }
+                    remove_ideas = secure_lakeshire
+                }
+                # Move Stormwind if their 'allies' own Southshore
+                if = {
+                    limit = {
+                        country_exists = SRW
+                        170 = {
+                            OR = {
+                                is_owned_by = SOU
+                                is_owned_by = LOR
+                            }
+                        }
+                    }
+                    SRW = {
+                        transfer_state = 170
+                    }
+                }
+                # Cede all lands to The Horde
+                SRW = {
+                    every_owned_state = {
+                        limit = {
+                            NOT = { state = 170 }
+                        }
+                        TTH = { transfer_state = PREV }
+                    }
+                    # End war with the Horde
+                    if = {
+                        limit = {
+                            has_war_with = TTH
+                        }
+                        white_peace = {
+                            tag = TTH
+                            message = STORMWIND_FALLS
+                        }
+                    }
+                }
+                every_country = {
+                    limit = { is_subject_of = SRW }
+                    every_owned_state = {
+                        TTH = { transfer_state = PREV }
+                    }
+                }
+            }
+		}
+        
+        ai_will_do = {
+            factor = 1
+        } 
+	} 
+    focus = {
+		id = TTH_consolidate_lands
+        icon = GFX_goal_TTH_consolidate_lands
+		relative_position_id = TTH_oust_stormwind
+		x = 0
+		y = 1
+		cost = @focus_cost
+
+        prerequisite = { focus = TTH_oust_stormwind }
+        
+		available_if_capitulated = yes
+        
+        available = {
+            owns_state = 48
+        }
+        
+        completion_reward = {
+            set_capital = 48
+            every_owned_state = {
+                limit = {
+                    OR = {
+                        region = 64
+                        region = 65
+                        region = 66
+                        region = 67
+                    }
+                }
+                add_core_of = ROOT
+            }
+		}
+        
+        ai_will_do = {
+            factor = 1
+        } 
+    }
+    
+    #-------------------------------
+    # Trolls
+    #-------------------------------
+    focus = {
+		id = TTH_enter_stranglethorn
+        icon = GFX_goal_TTH_enter_stranglethorn
+		relative_position_id = TTH_orc_warcry
+		x = 3
+		y = 1
+		cost = @focus_cost
+        
+        prerequisite = { focus = TTH_orc_warcry }
+        
+		available_if_capitulated = yes
+
+        available = {
+            country_exists = GUR
+        }
+        
+		completion_reward = {
+            country_event = { id = the_orcish_horde.5 }
+		}
+        
+        ai_will_do = {
+            factor = 1
+        }
+	}
+    focus = {
+		id = TTH_invite_the_bloodscalp
+        icon = GFX_goal_TTH_invite_troll
+		relative_position_id = TTH_enter_stranglethorn
+		x = 0
+		y = 1
+		cost = @focus_cost
+        
+        prerequisite = { focus = TTH_enter_stranglethorn }
+        
+		available_if_capitulated = yes
+
+        available = {
+            country_exists = BLS
+            country_exists = GUR
+            is_in_faction_with = GUR
+        }
+        
+		completion_reward = {
+            add_to_faction = BLS
+		}
+        
+        ai_will_do = {
+            factor = 1
+        }
+	}
+    focus = {
+		id = TTH_invite_the_skullsplitter
+        icon = GFX_goal_TTH_invite_troll
+		relative_position_id = TTH_enter_stranglethorn
+		x = -1
+		y = 1
+		cost = @focus_cost
+        
+        prerequisite = { focus = TTH_enter_stranglethorn }
+        
+		available_if_capitulated = yes
+
+        available = {
+            country_exists = SKS
+            country_exists = GUR
+            is_in_faction_with = GUR
+        }
+        
+		completion_reward = {
+            add_to_faction = SKS
+		}
+        
+        ai_will_do = {
+            factor = 1
+        }
+	}
+    focus = {
+		id = TTH_invite_the_atalai
+        icon = GFX_goal_TTH_invite_troll
+		relative_position_id = TTH_enter_stranglethorn
+		x = 1
+		y = 1
+		cost = @focus_cost
+        
+        prerequisite = { focus = TTH_enter_stranglethorn }
+        
+		available_if_capitulated = yes
+
+        available = {
+            country_exists = ATL
+            country_exists = GUR
+            is_in_faction_with = GUR
+        }
+        
+		completion_reward = {
+            add_to_faction = ATL
+		}
+        
+        ai_will_do = {
+            factor = 1
+        }
+	}
+     
+    #-------------------------------
+    # Shadow Council
+    #-------------------------------
+    focus = {
+		id = TTH_accept_shadow_council
+        icon = GFX_goal_TTH_shadow_council
+		relative_position_id = TTH_war_stormwind
+		x = 3
+		y = 0
+		cost = @focus_cost
+        
+        prerequisite = { focus = TTH_war_stormwind }
+        
+		available_if_capitulated = yes
+
+        available = {
+            disorder > 0.8
+        }
+        
+		completion_reward = {
+            add_command_power = 100
+		}
+        
+        ai_will_do = {
+            factor = 0
+        }
+	}
+    focus = {
+		id = TTH_submit_to_guldan
+        icon = GFX_goal_TTH_shadow_council
+		relative_position_id = TTH_accept_shadow_council
+		x = 0
+		y = 1
+		cost = @focus_cost
+        
+        prerequisite = { focus = TTH_accept_shadow_council }
+        
+		available_if_capitulated = yes
+
+		completion_reward = {
+            retire_country_leader = yes
+
+            create_country_leader = {
+                name = "Gul'dan"
+                desc = ""
+                picture = "gfx/leaders/ORC/characters/guldan.dds"
+                expire = "2000.1.1"
+                ideology = kingdom_disorder
+                traits = {
+                    warmonger
+                    prepared_for_war
+                }
+            }
+            
+            add_research_slot = 1
+		}
+        
+        ai_will_do = {
+            factor = 0
+        }
+	}
+     
+	#-------------------------------
+	# The Second War
+	#-------------------------------
+	 
+    #-------------------------------
+    # Industry
+    #-------------------------------
+    focus = {
+		id = TTH_orc_settlements
+		icon = GFX_goal_TTH_orc_settlements
+		x = @industry_x
+		y = 0
+		cost = @focus_cost
+        
+		available_if_capitulated = yes
+
+		completion_reward = {
+            add_timed_idea = {
+                idea = orc_settlements
+                days = 365
+            }
+		}
+        
+        ai_will_do = {
+            factor = 1
+        }
+	}
+    focus = { 
+		id = TTH_orc_engineering
+		icon = GFX_goal_TTH_orc_engineering
+        relative_position_id = TTH_orc_settlements
+		x = 0
+		y = 1
+		cost = @focus_cost
+
+        prerequisite = { focus = TTH_orc_settlements }
+
+		available_if_capitulated = yes
+
+		completion_reward = {
+            add_tech_bonus = {
+				name = industry_tech_bonus
+				bonus = 0.5
+				uses = 1
+				category = industry_tech
+			}
+		}
+        
+        ai_will_do = {
+            factor = 1
+        }
+	}
+    focus = { 
+		id = TTH_azeroth_supply_lines
+		icon = GFX_goal_TTH_azeroth_supply_lines
+        relative_position_id = TTH_fortify_deadwind_pass
+		x = 1
+		y = 1
+		cost = @focus_cost
+
+        prerequisite = { 
+            focus = TTH_fortify_blasted_pass 
+            focus = TTH_fortify_deadwind_pass
+        }
+
+		available_if_capitulated = yes
+
+        available = {
+            owns_state = 32
+            owns_state = 29 
+            owns_state = 23 
+            owns_state = 21
+            owns_state = 31
+        }
+        
+		completion_reward = {
+            32 = {
+                add_building_construction = {
+                    type = infrastructure
+                    level = 10
+                    instant_build = yes
+                }
+            }
+            29 = {
+                add_building_construction = {
+                    type = infrastructure
+                    level = 10
+                    instant_build = yes
+                }
+            }
+            23 = {
+                add_building_construction = {
+                    type = infrastructure
+                    level = 10
+                    instant_build = yes
+                }
+            }
+            21 = {
+                add_building_construction = {
+                    type = infrastructure
+                    level = 10
+                    instant_build = yes
+                }
+            }
+            31 = {
+                add_building_construction = {
+                    type = infrastructure
+                    level = 10
+                    instant_build = yes
+                }
+            }
+		}
+        
+        ai_will_do = {
+            factor = 5
+        }
+	}
+    
+    #-------------------------------
+    # Dark Iron Industry
+    #-------------------------------
+    focus = { 
+		id = TTH_capital_blackrock_mountain
+		icon = GFX_goal_TTH_capital_blackrock_mountain
+        relative_position_id = TTH_capital_stormwind
+		x = 0
+		y = 1
+		cost = @focus_cost
+
+        prerequisite = { 
+            focus = TTH_capital_stormwind
+        }
+
+		available_if_capitulated = yes
+
+        available = {
+            owns_state = 66
+        }
+        
+		completion_reward = {
+            add_timed_idea = {
+                idea = spoils_of_blackrock_mountain
+                days = 720
+            }
+		}
+        
+        ai_will_do = {
+            factor = 1
+        }
+	}
+    
+    #-------------------------------
+    # Stormwind Industry
+    #-------------------------------
+    focus = { 
+		id = TTH_duskwood_camp
+		icon = GFX_goal_TTH_duskwood
+        relative_position_id = TTH_azeroth_supply_lines
+		x = -1
+		y = 1
+		cost = @focus_cost
+
+        prerequisite = { 
+            focus = TTH_azeroth_supply_lines 
+        }
+
+		available_if_capitulated = yes
+
+        available = {
+            owns_state = 20
+        }
+        
+		completion_reward = {
+            20 = {
+                add_building_construction = {
+                    type = infrastructure
+                    level = 10
+                    instant_build = yes
+                }
+            }
+		}
+        
+        ai_will_do = {
+            factor = 1
+        }
+	}
+    focus = { 
+		id = TTH_westfall_camp
+		icon = GFX_goal_TTH_westfall
+        relative_position_id = TTH_azeroth_supply_lines
+		x = 0
+		y = 1
+		cost = @focus_cost
+
+        prerequisite = { 
+            focus = TTH_azeroth_supply_lines 
+        }
+
+		available_if_capitulated = yes
+
+        available = {
+            owns_state = 38
+        }
+        
+		completion_reward = {
+            38 = {
+                add_building_construction = {
+                    type = infrastructure
+                    level = 10
+                    instant_build = yes
+                }
+            }
+		}
+        
+        ai_will_do = {
+            factor = 1
+        }
+	}
+    focus = { 
+		id = TTH_redridge_camp
+		icon = GFX_goal_TTH_redridge
+        relative_position_id = TTH_azeroth_supply_lines
+		x = 1
+		y = 1
+		cost = @focus_cost
+
+        prerequisite = { 
+            focus = TTH_azeroth_supply_lines 
+        }
+
+		available_if_capitulated = yes
+
+        available = {
+            owns_state = 53
+        }
+        
+		completion_reward = {
+            53 = {
+                add_building_construction = {
+                    type = infrastructure
+                    level = 10
+                    instant_build = yes
+                }
+            }
+		}
+        
+        ai_will_do = {
+            factor = 1
+        }
+	}
+    focus = { 
+		id = TTH_capital_stormwind
+		icon = GFX_goal_TTH_capital_stormwind
+        relative_position_id = TTH_westfall_camp
+		x = 0
+		y = 1
+		cost = @focus_cost
+
+        prerequisite = { 
+            focus = TTH_redridge_camp
+            focus = TTH_westfall_camp
+            focus = TTH_duskwood_camp
+        }
+
+		available_if_capitulated = yes
+
+        available = {
+            owns_state = 47
+            owns_state = 48
+            owns_state = 49
+        }
+        
+		completion_reward = {
+            add_timed_idea = {
+                idea = spoils_of_stormwind
+                days = 720
+            }
+		}
+        
+        ai_will_do = {
+            factor = 1
+        }
+	}
+    
+    #-------------------------------
+    # Blasted Lands
+    #-------------------------------
+    focus = { 
+		id = TTH_settlement_in_dark_portal
+		icon = GFX_goal_TTH_dark_portal
+        relative_position_id = TTH_orc_settlements
+		x = 1
+		y = 1
+		cost = @focus_cost
+
+        prerequisite = { focus = TTH_orc_settlements }
+
+		available_if_capitulated = yes
+
+        available = {
+            owns_state = 32
+        }
+
+		completion_reward = {
+            32 = {
+                add_extra_state_shared_building_slots = 4
+                add_building_construction = {
+                    type = industrial_complex
+                    level = 2
+                    instant_build = yes
+                }
+                add_building_construction = {
+                    type = arms_factory
+                    level = 2
+                    instant_build = yes
+                }
+            }
+		}
+        
+        ai_will_do = {
+            factor = 1
+        }
+	}
+    focus = { 
+		id = TTH_settlement_in_blasted_hill
+		icon = GFX_goal_TTH_blasted_lands
+        relative_position_id = TTH_settlement_in_dark_portal
+		x = 0
+		y = 1
+		cost = @focus_cost
+
+        prerequisite = { focus = TTH_settlement_in_dark_portal }
+
+		available_if_capitulated = yes
+
+        available = {
+            owns_state = 31
+        }
+
+		completion_reward = {
+            31 = {
+                add_extra_state_shared_building_slots = 4
+                add_building_construction = {
+                    type = industrial_complex
+                    level = 2
+                    instant_build = yes
+                }
+                add_building_construction = {
+                    type = arms_factory
+                    level = 2
+                    instant_build = yes
+                }
+            }
+		}
+        
+        ai_will_do = {
+            factor = 1
+        }
+	}
+    focus = { 
+		id = TTH_settlement_in_blasted_shore
+		icon = GFX_goal_TTH_blasted_lands
+        relative_position_id = TTH_settlement_in_blasted_hill
+		x = 0
+		y = 1
+		cost = @focus_cost
+
+        prerequisite = { focus = TTH_settlement_in_blasted_hill }
+
+		available_if_capitulated = yes
+
+        available = {
+            owns_state = 34
+        }
+
+		completion_reward = {
+            34 = {
+                add_extra_state_shared_building_slots = 4
+                add_building_construction = {
+                    type = industrial_complex
+                    level = 2
+                    instant_build = yes
+                }
+                add_building_construction = {
+                    type = arms_factory
+                    level = 2
+                    instant_build = yes
+                }
+            }
+		}
+        
+        ai_will_do = {
+            factor = 1
+        }
+	}
+    focus = { 
+		id = TTH_dock_in_blasted_shore
+		icon = GFX_goal_TTH_blasted_lands
+        relative_position_id = TTH_settlement_in_blasted_hill
+		x = -1
+		y = 1
+		cost = @focus_cost
+
+        prerequisite = { focus = TTH_settlement_in_blasted_hill }
+
+		available_if_capitulated = yes
+
+        available = {
+            owns_state = 34
+        }
+
+		completion_reward = {
+            34 = {
+                add_extra_state_shared_building_slots = 4
+                add_building_construction = {
+                    type = dockyard
+                    level = 4
+                    instant_build = yes
+                }
+            }
+		}
+        
+        ai_will_do = {
+            factor = 1
+        }
+	}
+    focus = { 
+		id = TTH_dock_in_red_coast
+		icon = GFX_goal_TTH_blasted_lands
+        relative_position_id = TTH_dock_in_blasted_shore
+		x = 0
+		y = 1
+		cost = @focus_cost
+
+        prerequisite = { focus = TTH_dock_in_blasted_shore }
+
+		available_if_capitulated = yes
+
+        available = {
+            owns_state = 35
+        }
+
+		completion_reward = {
+            35 = {
+                add_extra_state_shared_building_slots = 4
+                add_building_construction = {
+                    type = dockyard
+                    level = 4
+                    instant_build = yes
+                }
+            }
+		}
+        
+        ai_will_do = {
+            factor = 1
+        }
+	}
+     
+    #-------------------------------
+    # Swamp of Sorrows
+    #-------------------------------
+    focus = { 
+		id = TTH_settlement_in_stonard
+		icon = GFX_goal_TTH_swamp_of_sorrows
+        relative_position_id = TTH_orc_settlements
+		x = -1
+		y = 1
+		cost = @focus_cost
+
+        prerequisite = { focus = TTH_orc_settlements }
+
+		available_if_capitulated = yes
+
+        available = {
+            owns_state = 24
+        }
+
+		completion_reward = {
+            24 = {
+                add_extra_state_shared_building_slots = 4
+                add_building_construction = {
+                    type = industrial_complex
+                    level = 2
+                    instant_build = yes
+                }
+                add_building_construction = {
+                    type = arms_factory
+                    level = 2
+                    instant_build = yes
+                }
+            }
+		}
+        
+        ai_will_do = {
+            factor = 1
+        }
+	}
+    
+    focus = { 
+		id = TTH_settlement_in_splinterspear
+		icon = GFX_goal_TTH_swamp_of_sorrows
+        relative_position_id = TTH_settlement_in_stonard
+		x = 0
+		y = 1
+		cost = @focus_cost
+
+        prerequisite = { focus = TTH_settlement_in_stonard }
+
+		available_if_capitulated = yes
+
+        available = {
+            owns_state = 24
+        }
+        
+		completion_reward = {
+            24 = {
+                add_extra_state_shared_building_slots = 4
+                add_building_construction = {
+                    type = industrial_complex
+                    level = 2
+                    instant_build = yes
+                }
+                add_building_construction = {
+                    type = arms_factory
+                    level = 2
+                    instant_build = yes
+                }
+            }
+		}
+        
+        ai_will_do = {
+            factor = 1
+        }
+	}
+    
+    focus = { 
+		id = TTH_settlement_in_stagalbog
+		icon = GFX_goal_TTH_swamp_of_sorrows
+        relative_position_id = TTH_settlement_in_splinterspear
+		x = 0
+		y = 1
+		cost = @focus_cost
+
+        prerequisite = { focus = TTH_settlement_in_splinterspear }
+
+		available_if_capitulated = yes
+
+        available = {
+            owns_state = 28
+        }
+        
+		completion_reward = {
+            28 = {
+                add_extra_state_shared_building_slots = 4
+                add_building_construction = {
+                    type = industrial_complex
+                    level = 2
+                    instant_build = yes
+                }
+                add_building_construction = {
+                    type = arms_factory
+                    level = 2
+                    instant_build = yes
+                }
+            }
+		}
+        
+        ai_will_do = {
+            factor = 1
+        }
+	}
+    
+    focus = { 
+		id = TTH_settlement_in_sorrowmurk
+		icon = GFX_goal_TTH_swamp_of_sorrows
+        relative_position_id = TTH_settlement_in_stagalbog
+		x = 0
+		y = 1
+		cost = @focus_cost
+
+        prerequisite = { focus = TTH_settlement_in_stagalbog }
+
+		available_if_capitulated = yes
+
+        available = {
+            owns_state = 27
+        }
+        
+		completion_reward = {
+            27 = {
+                add_extra_state_shared_building_slots = 4
+                add_building_construction = {
+                    type = industrial_complex
+                    level = 2
+                    instant_build = yes
+                }
+                add_building_construction = {
+                    type = arms_factory
+                    level = 2
+                    instant_build = yes
+                }
+            }
+		}
+        
+        ai_will_do = {
+            factor = 1
+        }
+	}
+    
+    focus = { 
+		id = TTH_settlement_in_fallow_sanctuary
+		icon = GFX_goal_TTH_swamp_of_sorrows
+        relative_position_id = TTH_settlement_in_sorrowmurk
+		x = 0
+		y = 1
+		cost = @focus_cost
+
+        prerequisite = { focus = TTH_settlement_in_sorrowmurk }
+
+		available_if_capitulated = yes
+
+        available = {
+            owns_state = 25
+        }
+
+		completion_reward = {
+            25 = {
+                add_extra_state_shared_building_slots = 4
+                add_building_construction = {
+                    type = industrial_complex
+                    level = 2
+                    instant_build = yes
+                }
+                add_building_construction = {
+                    type = arms_factory
+                    level = 2
+                    instant_build = yes
+                }
+            }
+		}
+        
+        ai_will_do = {
+            factor = 1
+        }
+	}
+    
+    #-------------------------------
+    # Fortifications
+    #-------------------------------
+    focus = { 
+		id = TTH_fortify_blasted_pass
+		icon = GFX_goal_TTH_fortify
+        relative_position_id = TTH_settlement_in_blasted_shore
+		x = 0
+		y = 3
+		cost = @focus_cost
+
+        prerequisite = { focus = TTH_settlement_in_blasted_shore }
+
+		available_if_capitulated = yes
+
+        available = {
+            owns_state = 29
+        }
+
+		completion_reward = {
+            29 = {
+                add_building_construction = {
+                    type = bunker
+                    level = 10
+                    instant_build = yes
+                    province = 2524
+                }
+            }
+		}
+        
+        ai_will_do = {
+            factor = 1
+        }
+	}
+    focus = { 
+		id = TTH_fortify_deadwind_pass
+		icon = GFX_goal_TTH_fortify
+        relative_position_id = TTH_settlement_in_fallow_sanctuary
+		x = 0
+		y = 1
+		cost = @focus_cost
+
+        prerequisite = { focus = TTH_settlement_in_fallow_sanctuary }
+
+		available_if_capitulated = yes
+
+        available = {
+            owns_state = 21
+        }
+
+		completion_reward = {
+            21 = {
+                add_building_construction = {
+                    type = bunker
+                    level = 10
+                    instant_build = yes
+                    province = {
+                        all_provinces = yes
+                    }
+                }
+            }
+		}
+        
+        ai_will_do = {
+            factor = 1
+        }
+	}
+    
+}
+

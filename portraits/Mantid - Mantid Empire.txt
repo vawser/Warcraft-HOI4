@@ -1,0 +1,132 @@
+MAN = {
+	army = {
+		male = {
+			"gfx/leaders/MANTID/mantid_1.dds"
+			"gfx/leaders/MANTID/mantid_2.dds"
+			"gfx/leaders/MANTID/mantid_3.dds"
+			"gfx/leaders/MANTID/mantid_4.dds"
+			"gfx/leaders/MANTID/mantid_5.dds"
+			"gfx/leaders/MANTID/mantid_6.dds"
+			"gfx/leaders/MANTID/mantid_7.dds"
+			"gfx/leaders/MANTID/mantid_8.dds"
+			"gfx/leaders/MANTID/mantid_9.dds"
+			"gfx/leaders/MANTID/mantid_10.dds"
+		}
+	}
+
+	navy = {
+		male = {
+			"gfx/leaders/MANTID/mantid_1.dds"
+			"gfx/leaders/MANTID/mantid_2.dds"
+			"gfx/leaders/MANTID/mantid_3.dds"
+			"gfx/leaders/MANTID/mantid_4.dds"
+			"gfx/leaders/MANTID/mantid_5.dds"
+			"gfx/leaders/MANTID/mantid_6.dds"
+			"gfx/leaders/MANTID/mantid_7.dds"
+			"gfx/leaders/MANTID/mantid_8.dds"
+			"gfx/leaders/MANTID/mantid_9.dds"
+			"gfx/leaders/MANTID/mantid_10.dds"
+		}
+	}
+
+	political = {
+		light = {
+			male = {
+                "gfx/leaders/MANTID/mantid_1.dds"
+                "gfx/leaders/MANTID/mantid_2.dds"
+                "gfx/leaders/MANTID/mantid_3.dds"
+                "gfx/leaders/MANTID/mantid_4.dds"
+                "gfx/leaders/MANTID/mantid_5.dds"
+                "gfx/leaders/MANTID/mantid_6.dds"
+                "gfx/leaders/MANTID/mantid_7.dds"
+                "gfx/leaders/MANTID/mantid_8.dds"
+                "gfx/leaders/MANTID/mantid_9.dds"
+                "gfx/leaders/MANTID/mantid_10.dds"
+            }
+		}
+		shadow = {
+			male = {
+                "gfx/leaders/MANTID/mantid_1.dds"
+                "gfx/leaders/MANTID/mantid_2.dds"
+                "gfx/leaders/MANTID/mantid_3.dds"
+                "gfx/leaders/MANTID/mantid_4.dds"
+                "gfx/leaders/MANTID/mantid_5.dds"
+                "gfx/leaders/MANTID/mantid_6.dds"
+                "gfx/leaders/MANTID/mantid_7.dds"
+                "gfx/leaders/MANTID/mantid_8.dds"
+                "gfx/leaders/MANTID/mantid_9.dds"
+                "gfx/leaders/MANTID/mantid_10.dds"
+            }
+		}
+        order = {
+			male = {
+                "gfx/leaders/MANTID/mantid_1.dds"
+                "gfx/leaders/MANTID/mantid_2.dds"
+                "gfx/leaders/MANTID/mantid_3.dds"
+                "gfx/leaders/MANTID/mantid_4.dds"
+                "gfx/leaders/MANTID/mantid_5.dds"
+                "gfx/leaders/MANTID/mantid_6.dds"
+                "gfx/leaders/MANTID/mantid_7.dds"
+                "gfx/leaders/MANTID/mantid_8.dds"
+                "gfx/leaders/MANTID/mantid_9.dds"
+                "gfx/leaders/MANTID/mantid_10.dds"
+            }
+		}
+        disorder = {
+			male = {
+                "gfx/leaders/MANTID/mantid_1.dds"
+                "gfx/leaders/MANTID/mantid_2.dds"
+                "gfx/leaders/MANTID/mantid_3.dds"
+                "gfx/leaders/MANTID/mantid_4.dds"
+                "gfx/leaders/MANTID/mantid_5.dds"
+                "gfx/leaders/MANTID/mantid_6.dds"
+                "gfx/leaders/MANTID/mantid_7.dds"
+                "gfx/leaders/MANTID/mantid_8.dds"
+                "gfx/leaders/MANTID/mantid_9.dds"
+                "gfx/leaders/MANTID/mantid_10.dds"
+            }
+		}
+        life = {
+			male = {
+                "gfx/leaders/MANTID/mantid_1.dds"
+                "gfx/leaders/MANTID/mantid_2.dds"
+                "gfx/leaders/MANTID/mantid_3.dds"
+                "gfx/leaders/MANTID/mantid_4.dds"
+                "gfx/leaders/MANTID/mantid_5.dds"
+                "gfx/leaders/MANTID/mantid_6.dds"
+                "gfx/leaders/MANTID/mantid_7.dds"
+                "gfx/leaders/MANTID/mantid_8.dds"
+                "gfx/leaders/MANTID/mantid_9.dds"
+                "gfx/leaders/MANTID/mantid_10.dds"
+            }
+		}
+        death = {
+			male = {
+                "gfx/leaders/MANTID/mantid_1.dds"
+                "gfx/leaders/MANTID/mantid_2.dds"
+                "gfx/leaders/MANTID/mantid_3.dds"
+                "gfx/leaders/MANTID/mantid_4.dds"
+                "gfx/leaders/MANTID/mantid_5.dds"
+                "gfx/leaders/MANTID/mantid_6.dds"
+                "gfx/leaders/MANTID/mantid_7.dds"
+                "gfx/leaders/MANTID/mantid_8.dds"
+                "gfx/leaders/MANTID/mantid_9.dds"
+                "gfx/leaders/MANTID/mantid_10.dds"
+            }
+		}
+        unaligned = {
+			male = {
+                "gfx/leaders/MANTID/mantid_1.dds"
+                "gfx/leaders/MANTID/mantid_2.dds"
+                "gfx/leaders/MANTID/mantid_3.dds"
+                "gfx/leaders/MANTID/mantid_4.dds"
+                "gfx/leaders/MANTID/mantid_5.dds"
+                "gfx/leaders/MANTID/mantid_6.dds"
+                "gfx/leaders/MANTID/mantid_7.dds"
+                "gfx/leaders/MANTID/mantid_8.dds"
+                "gfx/leaders/MANTID/mantid_9.dds"
+                "gfx/leaders/MANTID/mantid_10.dds"
+            }
+		}
+	}
+}

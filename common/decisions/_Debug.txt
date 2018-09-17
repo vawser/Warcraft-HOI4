@@ -1,0 +1,218 @@
+debugging = {
+    debug_decision = {
+		icon = yellow_quest_mark
+        
+        visible = {
+            check_variable = { global.debug_decisions = 1 }
+        }
+        
+        available = {
+            
+        }
+
+		complete_effect = {
+            transfer_state = 47
+            transfer_state = 48
+            transfer_state = 49
+        }
+        
+        ai_will_do = {
+			base = 0
+		}
+	}
+    
+    debug_print_stats = {
+		icon = yellow_quest_mark
+        
+        visible = {
+            check_variable = { global.debug_decisions = 1 }
+        }
+        
+        available = {
+            
+        }
+
+		complete_effect = {
+            every_country = {
+                set_variable = { stat_ai_irrationality = ai_irrationality }
+                set_variable = { stat_ai_wants_divisions = ai_wants_divisions }
+                set_variable = { stat_alliance_naval_strength_ratio = alliance_naval_strength_ratio }
+                set_variable = { stat_alliance_strength_ratio = alliance_strength_ratio }
+                set_variable = { stat_amount_manpower_in_deployment_queue = amount_manpower_in_deployment_queue }
+                set_variable = { stat_amount_research_slots = amount_research_slots }
+                set_variable = { stat_any_war_score = any_war_score }
+                set_variable = { stat_casualties = casualties }
+                set_variable = { stat_command_power = command_power }
+                set_variable = { stat_command_power_daily = command_power_daily }
+                set_variable = { stat_compare_autonomy_progress_ratio = compare_autonomy_progress_ratio }
+                set_variable = { stat_enemies_naval_strength_ratio = enemies_naval_strength_ratio }
+                set_variable = { stat_enemies_strength_ratio = enemies_strength_ratio }
+                set_variable = { stat_has_added_tension_amount = has_added_tension_amount }
+                set_variable = { stat_has_political_power = has_political_power }
+                set_variable = { stat_has_stability = has_stability }
+                set_variable = { stat_has_war_support = has_war_support }
+                set_variable = { stat_land_doctrine_level = land_doctrine_level }
+                set_variable = { stat_manpower = manpower }
+                set_variable = { stat_manpower_per_military_factory = manpower_per_military_factory }
+                set_variable = { stat_max_available_manpower = max_available_manpower }
+                set_variable = { stat_max_manpower = max_manpower }
+                set_variable = { stat_num_controlled_states = num_controlled_states }
+                set_variable = { stat_num_core_states = num_core_states }
+                set_variable = { stat_num_divisions = num_divisions }
+                set_variable = { stat_num_faction_members = num_faction_members }
+                set_variable = { stat_num_occupied_states = num_occupied_states }
+                set_variable = { stat_num_of_available_civilian_factories = num_of_available_civilian_factories }
+                set_variable = { stat_num_of_available_military_factories = num_of_available_military_factories }
+                set_variable = { stat_num_of_available_naval_factories = num_of_available_naval_factories }
+                set_variable = { stat_num_of_civilian_factories = num_of_civilian_factories }
+                set_variable = { stat_num_of_civilian_factories_available_for_projects = num_of_civilian_factories_available_for_projects }
+                set_variable = { stat_num_of_controlled_states = num_of_controlled_states }
+                set_variable = { stat_num_of_factories = num_of_factories }
+                set_variable = { stat_num_of_military_factories = num_of_military_factories }
+                set_variable = { stat_num_of_naval_factories = num_of_naval_factories }
+                set_variable = { stat_num_owned_controlled_states = num_owned_controlled_states }
+                set_variable = { stat_num_owned_states = num_owned_states }
+                set_variable = { stat_num_subjects = num_subjects }
+                set_variable = { stat_num_tech_sharing_groups = num_tech_sharing_groups }
+                set_variable = { stat_political_power = political_power }
+                set_variable = { stat_political_power_daily = political_power_daily }
+                set_variable = { stat_political_power_growth = political_power_growth }
+                
+                set_variable = { stat_oil = resource@oil }
+                set_variable = { stat_ground_beast = resource@ground_beast }
+                set_variable = { stat_flying_beast = resource@flying_beast }
+                set_variable = { stat_wood = resource@wood }
+                set_variable = { stat_steel = resource@steel }
+                set_variable = { stat_food = resource@food }
+                
+                set_variable = { stat_oil_consumed = resource_consumed@oil }
+                set_variable = { stat_ground_beast_consumed = resource_consumed@ground_beast }
+                set_variable = { stat_flying_beast_consumed = resource_consumed@flying_beast }
+                set_variable = { stat_wood_consumed = resource_consumed@wood }
+                set_variable = { stat_steel_consumed = resource_consumed@steel }
+                set_variable = { stat_food_consumed = resource_consumed@food }
+                
+                set_variable = { stat_oil_exported = resource_exported@oil }
+                set_variable = { stat_ground_beast_exported = resource_exported@ground_beast }
+                set_variable = { stat_flying_beast_exported = resource_exported@flying_beast }
+                set_variable = { stat_wood_exported = resource_exported@wood }
+                set_variable = { stat_steel_exported = resource_exported@steel }
+                set_variable = { stat_food_exported = resource_exported@food }
+                
+                set_variable = { stat_oil_imported = resource_imported@oil }
+                set_variable = { stat_ground_beast_imported = resource_imported@ground_beast }
+                set_variable = { stat_flying_beast_imported = resource_imported@flying_beast }
+                set_variable = { stat_wood_imported = resource_imported@wood }
+                set_variable = { stat_steel_imported = resource_imported@steel }
+                set_variable = { stat_food_imported = resource_imported@food }
+                
+                set_variable = { stat_oil_produced = resource_produced@oil }
+                set_variable = { stat_ground_beast_produced = resource_produced@ground_beast }
+                set_variable = { stat_flying_beast_produced = resource_produced@flying_beast }
+                set_variable = { stat_wood_produced = resource_produced@wood }
+                set_variable = { stat_steel_produced = resource_produced@steel }
+                set_variable = { stat_food_produced = resource_produced@food }
+                
+                set_variable = { stat_stability = stability }
+                set_variable = { stat_surrender_progress = surrender_progress }
+                
+                capital_scope = {
+                    set_variable = { root.capital_state = THIS }
+                }
+
+                print_variables = {
+                    file = "stats"
+                    text = "Header"
+                    append = yes
+                    #print_global = yes
+                    var_list = {
+                        stat_oil_produced
+                        stat_ground_beast_produced
+                        stat_flying_beast_produced
+                        stat_wood_produced
+                        stat_steel_produced
+                        stat_food_produced
+                        root.capital_state
+                    }
+                }
+            }
+        }
+        
+        ai_will_do = {
+			base = 0
+		}
+	}
+    
+    #-----------------------
+    # Check current wars
+    #-----------------------
+    war_check = {
+		icon = yellow_quest_mark
+        
+        visible = {
+            check_variable = { global.debug_decisions = 1 }
+        }
+        
+        available = {
+            
+        }
+        
+        #days_remove = 2
+		#days_re_enable = 2
+
+		complete_effect = {
+            every_country = {
+                limit = { 
+                    has_war = yes 
+                    capital_scope = { is_on_continent = azeroth }
+                }
+                
+                add_political_power = 1
+            }
+            every_country = {
+                limit = { 
+                    has_war = yes 
+                    OR = {
+                        capital_scope = { is_on_continent = kalimdor }
+                        capital_scope = { is_on_continent = teldrassil }
+                        capital_scope = { is_on_continent = azuremyst_isles }
+                    }
+                }
+                
+                add_political_power = 1
+            }
+            every_country = {
+                limit = { 
+                    has_war = yes 
+                    capital_scope = { is_on_continent = northrend }
+                }
+                
+                add_political_power = 1
+            }
+            every_country = {
+                limit = { 
+                    has_war = yes 
+                    capital_scope = { is_on_continent = pandaria }
+                }
+                
+                add_political_power = 1
+            }
+            every_country = {
+                limit = { 
+                    has_war = yes 
+                    OR = {
+                        capital_scope = { is_on_continent = kezan }
+                        capital_scope = { is_on_continent = zandalar }
+                        capital_scope = { is_on_continent = plunder_isle }
+                    }
+                }
+                
+                add_political_power = 1
+            }
+        }
+
+		ai_will_do = {
+			base = 0
+		}
+	}
+}

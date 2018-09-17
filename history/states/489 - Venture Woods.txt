@@ -1,0 +1,59 @@
+state = {
+	id = 489
+	name = "VENTURE_WOODS"
+	manpower = 746
+	state_category = rural
+
+	resources = {
+		oil = 15
+		ground_beast = 9
+		flying_beast = 7
+		wood = 9
+		food = 1
+	}
+
+	history = {
+		owner = BLP
+		add_core_of = BLP
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 2
+			industrial_complex = 1
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+
+			manufactory = 0
+
+			7251 = {
+				bunker = 0
+			}
+			7252 = {
+				bunker = 0
+			}
+			7260 = {
+				bunker = 0
+			}
+			7263 = {
+				bunker = 0
+			}
+			7266 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        7251 7252 7260 7263 7266 
+    }
+}

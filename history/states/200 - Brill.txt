@@ -1,0 +1,64 @@
+state = {
+	id = 200
+	name = "BRILL"
+	manpower = 15083
+	state_category = city
+
+	resources = {
+		oil = 1
+		ground_beast = 1
+		flying_beast = 6
+		wood = 17
+		steel = 7
+		food = 10
+	}
+
+	history = {
+		owner = LOR
+        add_core_of = LOR
+
+		buildings = {
+			infrastructure = 9
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 9
+			industrial_complex = 9
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			2130 = {
+				bunker = 7
+			}
+			2150 = {
+				bunker = 4
+			}
+			2151 = {
+				bunker = 7
+			}
+			2168 = {
+				bunker = 3
+			}
+			2190 = {
+				bunker = 7
+			}
+			2214 = {
+				bunker = 2
+			}
+			2260 = {
+				bunker = 2
+			}
+		}
+	}
+
+	provinces = {
+        2130 2150 2151 2168 2190 2214 2260 
+    }
+}

@@ -1,0 +1,61 @@
+IRO_strategy_default = {
+    enable = {
+        original_tag = IRO
+    }
+    
+    # Frostmane
+    ai_strategy = {
+		type = contain
+		id = "FSM"
+        value = 250
+	}
+    ai_strategy = {
+		type = conquer
+		id = "FSM"
+        value = 250
+	}
+    ai_strategy = {
+		type = antagonize
+		id = "FSM"
+        value = 250
+	}
+    
+    # Dark Iron
+    ai_strategy = {
+		type = contain
+		id = "DKI"
+        value = 250
+	}
+    ai_strategy = {
+		type = conquer
+		id = "DKI"
+        value = 250
+	}
+    ai_strategy = {
+		type = antagonize
+		id = "DKI"
+        value = 250
+	}
+    
+    # Make friends
+    ai_strategy = {
+		type = befriend
+		id = "SRW"
+        value = 100
+	}
+    ai_strategy = {
+		type = befriend
+		id = "WIL"
+        value = 100
+	}
+    ai_strategy = {
+		type = befriend
+		id = "GNO"
+        value = 1000
+	}
+    ai_strategy = {
+		type = protect
+		id = "GNO"
+        value = 1000
+	}
+}

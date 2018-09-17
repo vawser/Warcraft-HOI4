@@ -1,0 +1,67 @@
+state = {
+	id = 570
+	name = "TITANIC_TUNDRA"
+	manpower = 731
+	state_category = rural
+
+	resources = {
+		ground_beast = 6
+		flying_beast = 3
+		steel = 13
+		food = 12
+	}
+
+	history = {
+		owner = HYL
+		add_core_of = HYL
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 2
+			industrial_complex = 0
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+
+			manufactory = 0
+
+			5131 = {
+				bunker = 0
+			}
+			5377 = {
+				bunker = 0
+			}
+			5400 = {
+				bunker = 0
+			}
+			5448 = {
+				bunker = 0
+			}
+			5560 = {
+				bunker = 0
+			}
+			5578 = {
+				bunker = 0
+			}
+			5579 = {
+				bunker = 0
+			}
+			5598 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        5131 5377 5400 5448 5560 5578 5579 5598 
+    }
+}

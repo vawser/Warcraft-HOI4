@@ -1,0 +1,57 @@
+state = {
+	id = 617
+	name = "THE_MAKERS_PERCH"
+	manpower = 675
+	state_category = rural
+
+	resources = {
+		oil = 2
+		ground_beast = 5
+		flying_beast = 8
+		wood = 11
+		steel = 1
+	}
+
+	history = {
+		owner = FZY
+		add_core_of = FZY
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 2
+			industrial_complex = 1
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			5847 = {
+				bunker = 0
+			}
+			5852 = {
+				bunker = 0
+			}
+			5858 = {
+				bunker = 0
+			}
+			5863 = {
+				bunker = 0
+			}
+			5869 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        5847 5852 5858 5863 5869 
+    }
+}

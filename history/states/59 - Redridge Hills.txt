@@ -1,0 +1,24 @@
+state = {
+	id = 59
+	name = "REDRIDGE_HILLS"
+	manpower = 77
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = RED
+
+        # The Second War
+        597.1.1 = {
+            owner = TTH
+        }
+        # The Third War
+        612.1.1 = {
+            owner = RRP
+        }
+	}
+
+	provinces = {
+        2594 2643 2647 2739 2743 
+    }
+}

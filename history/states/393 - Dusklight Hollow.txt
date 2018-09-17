@@ -1,0 +1,55 @@
+state = {
+	id = 393
+	name = "DUSKLIGHT_HOLLOW"
+	manpower = 501
+	state_category = rural
+
+	resources = {
+		oil = 2
+		ground_beast = 4
+		flying_beast = 2
+		wood = 5
+		steel = 12
+		food = 11
+	}
+
+	history = {
+		owner = PAW
+		add_core_of = PAW
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 2
+			industrial_complex = 1
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			6536 = {
+				bunker = 0
+			}
+			6554 = {
+				bunker = 0
+			}
+			6562 = {
+				bunker = 0
+			}
+			6899 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        6536 6554 6562 6899 
+    }
+}

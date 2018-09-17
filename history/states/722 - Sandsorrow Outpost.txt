@@ -1,0 +1,58 @@
+state = {
+	id = 722
+	name = "SANDSORROW_OUTPOST"
+	manpower = 2905
+	state_category = village
+
+	resources = {
+		oil = 17
+		ground_beast = 7
+		flying_beast = 9
+		wood = 4
+		steel = 4
+		food = 1
+	}
+
+	history = {
+		owner = SAN
+		add_core_of = SAN
+
+		buildings = {
+			infrastructure = 3
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 3
+			industrial_complex = 4
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			3357 = {
+				bunker = 0
+			}
+			3385 = {
+				bunker = 0
+			}
+			3556 = {
+				bunker = 0
+			}
+			3600 = {
+				bunker = 0
+			}
+			3627 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        3357 3385 3556 3600 3627 
+    }
+}

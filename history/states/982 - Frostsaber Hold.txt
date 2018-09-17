@@ -1,0 +1,55 @@
+state = {
+	id = 982
+	name = "FROSTSABER_HOLD"
+	manpower = 3840
+	state_category = village
+
+	resources = {
+		oil = 2
+		ground_beast = 9
+		flying_beast = 6
+		wood = 27
+		steel = 6
+		food = 15
+	}
+
+	history = {
+		owner = WTA
+		add_core_of = WTA
+
+		buildings = {
+			infrastructure = 3
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 3
+			industrial_complex = 4
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			3707 = {
+				bunker = 0
+			}
+			3723 = {
+				bunker = 0
+			}
+			3738 = {
+				bunker = 0
+			}
+			3753 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        3707 3723 3738 3753
+    }
+}

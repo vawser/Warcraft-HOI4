@@ -1,0 +1,15 @@
+state = {
+	id = 1056
+	name = "RIDGE_OF_STRAHNBRAD"
+	manpower = 73
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = ALT
+	}
+
+	provinces = {
+        2692 2676
+    }
+}

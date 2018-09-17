@@ -1,0 +1,55 @@
+state = {
+	id = 880
+	name = "RAVENFALL"
+	manpower = 2475
+	state_category = village
+
+	resources = {
+		oil = 1
+		ground_beast = 2
+		flying_beast = 2
+		wood = 14
+		steel = 8
+		food = 19
+	}
+
+	history = {
+		owner = HAL
+		add_core_of = HAL
+
+		buildings = {
+			infrastructure = 3
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 3
+			industrial_complex = 1
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			3822 = {
+				bunker = 0
+			}
+			3930 = {
+				bunker = 0
+			}
+			3958 = {
+				bunker = 0
+			}
+			3985 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        3822 3930 3958 3985 
+    }
+}

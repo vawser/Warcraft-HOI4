@@ -1,0 +1,117 @@
+state = {
+	id = 175
+	name = "EMBERSTONE"
+	manpower = 875
+	state_category = rural
+
+	resources = {
+		oil = 1
+		ground_beast = 9
+		flying_beast = 6
+		steel = 6
+		food = 19
+	}
+
+	history = {
+		owner = GIL
+        add_core_of = GIL
+
+        victory_points = {
+            1959 5
+        }
+        
+        612.1.1 = {
+            buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 0
+			industrial_complex = 1
+			dockyard = 2
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			1915 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 7
+			}
+			1955 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 5
+			}
+			1959 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 5
+			}
+			2423 = {
+				bunker = 0
+			}
+			2923 = {
+				bunker = 0
+			}
+		}
+        }
+        
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 0
+			industrial_complex = 1
+			dockyard = 2
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			1915 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 7
+			}
+			1955 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 5
+			}
+			1959 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 5
+			}
+			2423 = {
+				bunker = 0
+			}
+			2923 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        1915 1955 1959 2423 2923 
+    }
+}

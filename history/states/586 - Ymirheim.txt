@@ -1,0 +1,76 @@
+state = {
+	id = 586
+	name = "YMIRHEIM"
+	manpower = 5175
+	state_category = town
+
+	resources = {
+		oil = 2
+		ground_beast = 9
+		flying_beast = 2
+		wood = 8
+		steel = 14
+		food = 19
+	}
+
+	history = {
+		owner = YMI
+		add_core_of = YMI
+
+        # The Third War
+        612.1.1 = {
+            owner = SCO
+            add_core_of = SCO
+        }
+        
+		buildings = {
+			infrastructure = 6
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 6
+			industrial_complex = 6
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			5367 = {
+				bunker = 5
+			}
+			5575 = {
+				bunker = 7
+			}
+			5593 = {
+				bunker = 5
+			}
+			5934 = {
+				bunker = 3
+			}
+			5944 = {
+				bunker = 4
+			}
+			5954 = {
+				bunker = 2
+			}
+			5963 = {
+				bunker = 4
+			}
+			5972 = {
+				bunker = 6
+			}
+			5980 = {
+				bunker = 7
+			}
+		}
+	}
+
+	provinces = {
+        5367 5575 5593 5934 5944 5954 5963 5972 5980 
+    }
+}

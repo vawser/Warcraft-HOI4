@@ -1,0 +1,20 @@
+state = {
+	id = 79
+	name = "BLACK_MT"
+	manpower = 6
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = TTH
+
+        # The Third War
+        612.1.1 = {
+            owner = REG
+        }
+	}
+
+	provinces = {
+        2567 2586 2606 
+    }
+}

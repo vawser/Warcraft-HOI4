@@ -1,0 +1,73 @@
+state = {
+	id = 296
+	name = "VOLCANOTH"
+	manpower = 767
+	state_category = rural
+
+	resources = {
+		oil = 2
+		ground_beast = 9
+		flying_beast = 8
+		wood = 2
+		steel = 9
+		food = 16
+	}
+
+	history = {
+		owner = BIL
+        add_core_of = BIL
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 2
+			industrial_complex = 0
+			dockyard = 1
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			7126 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 1
+			}
+			7127 = {
+				bunker = 0
+			}
+			7130 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 7
+			}
+			7132 = {
+				bunker = 0
+			}
+			7138 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 8
+			}
+			7312 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 4
+			}
+		}
+	}
+
+	provinces = {
+        7126 7127 7130 7132 7138 7312
+    }
+}

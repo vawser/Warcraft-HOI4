@@ -1,0 +1,15 @@
+state = {
+	id = 1067
+	name = "FAIRBREEZE_MOUND"
+	manpower = 50
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = QUE
+	}
+
+	provinces = {
+        2616
+    }
+}

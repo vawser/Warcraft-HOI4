@@ -1,0 +1,65 @@
+equipments = {
+    convoy_equipment = {
+		is_archetype = yes
+		type = convoy
+		picture = archetype_ship	
+		group_by = archetype
+		sprite = convoy
+		
+		interface_category = interface_category_other_ships
+
+        upgrades = {
+            wm_convoy_max_strength
+            wm_convoy_max_organisation
+            wm_convoy_reliability
+            wm_convoy_evasion
+            wm_convoy_sub_detection
+            wm_convoy_surface_visibility
+            wm_convoy_surface_detection
+            wm_convoy_naval_speed
+            wm_convoy_build_cost_ic
+        }
+        
+        max_strength = 30
+		max_organisation = 30
+        
+        reliability = 0.8
+        
+        attack = 0.5
+        ap_attack = 1
+        anti_air_attack = 0.5
+        torpedo_attack = 0
+        
+        armor_value = 0
+        evasion = 15
+        
+        sub_detection = 5
+        surface_visibility = 10
+		surface_detection = 5
+		
+        naval_speed = 12
+        
+		port_capacity_usage = 0
+        lend_lease_cost = 0
+        
+		build_cost_ic = 1
+        
+		# (Describes combat behaviour - hidden stat)
+		offensive_weapons = no
+		
+		resources = {
+			oil = 1
+			steel = 1
+            wood = 1
+		}
+	}
+
+	convoy_equipment_0 = {
+		archetype = convoy_equipment
+		type = { 
+			convoy
+		}
+		active = yes
+		priority = 10
+	}
+}

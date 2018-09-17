@@ -1,0 +1,82 @@
+state = {
+	id = 302
+	name = "JADE_ISLES"
+	manpower = 598
+	state_category = island
+
+	resources = {
+		oil = 4
+		ground_beast = 4
+		flying_beast = 5
+		wood = 4
+		steel = 1
+		food = 14
+	}
+
+	history = {
+		owner = JAS
+		add_core_of = JAS
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 0
+			industrial_complex = 2
+			dockyard = 1
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			6319 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 7
+			}
+			6334 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 9
+			}
+			6420 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 3
+			}
+			6422 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 1
+			}
+			6515 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 4
+			}
+			6521 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 1
+			}
+			6534 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 6
+			}
+		}
+	}
+
+	provinces = {
+        6319 6334 6420 6422 6515 6521 6534
+    }
+}

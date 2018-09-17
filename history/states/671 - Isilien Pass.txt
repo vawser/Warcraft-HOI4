@@ -1,0 +1,15 @@
+state = {
+	id = 671
+	name = "ISILIEN_PASS"
+	manpower = 7
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = AQJ
+	}
+
+	provinces = {
+        4562 4627 
+    }
+}

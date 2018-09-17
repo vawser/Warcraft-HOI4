@@ -1,0 +1,71 @@
+state = {
+	id = 248
+	name = "WINDRUNNER_SPIRE"
+	manpower = 668
+	state_category = rural
+
+	resources = {
+		oil = 3
+		ground_beast = 4
+		flying_beast = 2
+		wood = 15
+		steel = 3
+		food = 18
+	}
+
+	history = {
+		owner = QUE
+        add_core_of = QUE
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 0
+			industrial_complex = 1
+			dockyard = 2
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			1683 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 4
+			}
+			1693 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 6
+			}
+			1699 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 8
+			}
+			2060 = {
+				bunker = 0
+			}
+			2206 = {
+				bunker = 0
+			}
+			2273 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        1683 1693 1699 2060 2206 2273 
+    }
+}

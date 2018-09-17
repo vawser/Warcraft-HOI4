@@ -1,0 +1,60 @@
+state = {
+	id = 816
+	name = "DESOLATED_OVERGROWTH"
+	manpower = 2722
+	state_category = village
+
+	resources = {
+		oil = 2
+		ground_beast = 3
+		steel = 1
+		food = 28
+	}
+
+	history = {
+		owner = BIS
+		add_core_of = BIS
+        
+        612.1.1 = {
+            set_state_name = DESOLATION_HOLD
+        }
+        
+		buildings = {
+			infrastructure = 3
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 5
+			industrial_complex = 3
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			4239 = {
+				bunker = 0
+			}
+			4254 = {
+				bunker = 0
+			}
+			4914 = {
+				bunker = 0
+			}
+			4952 = {
+				bunker = 0
+			}
+			5111 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        4239 4254 4914 4952 5111
+    }
+}

@@ -1,0 +1,15 @@
+state = {
+	id = 927
+	name = "MOONSPUN_HEIGHTS"
+	manpower = 70
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = CEN
+	}
+
+	provinces = {
+        4727 4759 4760 4775 4821 
+    }
+}

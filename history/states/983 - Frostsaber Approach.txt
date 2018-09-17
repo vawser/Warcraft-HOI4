@@ -1,0 +1,55 @@
+state = {
+	id = 983
+	name = "FROSTSABER_APPROACH"
+	manpower = 753
+	state_category = rural
+
+	resources = {
+		oil = 2
+		ground_beast = 2
+		flying_beast = 4
+		wood = 29
+		steel = 5
+		food = 19
+	}
+
+	history = {
+		owner = WTA
+		add_core_of = WTA
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 4
+			industrial_complex = 0
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			3676 = {
+				bunker = 0
+			}
+			3768 = {
+				bunker = 0
+			}
+			3782 = {
+				bunker = 0
+			}
+			3796 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        3676 3768 3782 3796 
+    }
+}

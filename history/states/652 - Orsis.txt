@@ -1,0 +1,59 @@
+state = {
+	id = 652
+	name = "ORSIS"
+	manpower = 6661
+	state_category = town
+
+	resources = {
+		oil = 9
+		ground_beast = 5
+		steel = 4
+		food = 1
+	}
+
+	history = {
+		owner = ORS
+		add_core_of = ORS
+
+		buildings = {
+			infrastructure = 5
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 5
+			industrial_complex = 6
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			3370 = {
+				bunker = 3
+			}
+			3399 = {
+				bunker = 1
+			}
+			3455 = {
+				bunker = 4
+			}
+			3483 = {
+				bunker = 2
+			}
+			3594 = {
+				bunker = 9
+			}
+			3621 = {
+				bunker = 4
+			}
+		}
+	}
+
+	provinces = {
+        3370 3399 3455 3483 3594 3621
+    }
+}

@@ -1,0 +1,67 @@
+state = {
+	id = 564
+	name = "DUN_NIFFELEM"
+	manpower = 579
+	state_category = rural
+
+	resources = {
+		oil = 2
+		ground_beast = 5
+		flying_beast = 9
+		wood = 7
+		steel = 14
+		food = 10
+	}
+
+	history = {
+		owner = SVH
+		add_core_of = SVH
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 1
+			industrial_complex = 2
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			5372 = {
+				bunker = 0
+			}
+			5397 = {
+				bunker = 0
+			}
+			5417 = {
+				bunker = 0
+			}
+			5444 = {
+				bunker = 0
+			}
+			5469 = {
+				bunker = 0
+			}
+			5493 = {
+				bunker = 0
+			}
+			5513 = {
+				bunker = 0
+			}
+			5594 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        5372 5397 5417 5444 5469 5493 5513 5594 
+    }
+}

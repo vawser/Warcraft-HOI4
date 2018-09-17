@@ -1,0 +1,105 @@
+DDW = {
+	army = {
+		male = {
+			"gfx/leaders/FURBOLG/furbolg_black.dds"
+			"gfx/leaders/FURBOLG/furbolg_blue.dds"
+            "gfx/leaders/FURBOLG/furbolg_brown.dds"
+            "gfx/leaders/FURBOLG/furbolg_dirty_white.dds"
+            "gfx/leaders/FURBOLG/furbolg_gray.dds"
+            "gfx/leaders/FURBOLG/furbolg_light_brown.dds"
+            "gfx/leaders/FURBOLG/furbolg_white.dds"
+		}
+	}
+
+	navy = {
+		male = {
+			"gfx/leaders/FURBOLG/furbolg_black.dds"
+			"gfx/leaders/FURBOLG/furbolg_blue.dds"
+            "gfx/leaders/FURBOLG/furbolg_brown.dds"
+            "gfx/leaders/FURBOLG/furbolg_dirty_white.dds"
+            "gfx/leaders/FURBOLG/furbolg_gray.dds"
+            "gfx/leaders/FURBOLG/furbolg_light_brown.dds"
+            "gfx/leaders/FURBOLG/furbolg_white.dds"
+		}
+	}
+
+	political = {
+		light = {
+			male = {
+                "gfx/leaders/FURBOLG/furbolg_black.dds"
+                "gfx/leaders/FURBOLG/furbolg_blue.dds"
+                "gfx/leaders/FURBOLG/furbolg_brown.dds"
+                "gfx/leaders/FURBOLG/furbolg_dirty_white.dds"
+                "gfx/leaders/FURBOLG/furbolg_gray.dds"
+                "gfx/leaders/FURBOLG/furbolg_light_brown.dds"
+                "gfx/leaders/FURBOLG/furbolg_white.dds"
+            }
+		}
+		shadow = {
+			male = {
+                "gfx/leaders/FURBOLG/furbolg_black.dds"
+                "gfx/leaders/FURBOLG/furbolg_blue.dds"
+                "gfx/leaders/FURBOLG/furbolg_brown.dds"
+                "gfx/leaders/FURBOLG/furbolg_dirty_white.dds"
+                "gfx/leaders/FURBOLG/furbolg_gray.dds"
+                "gfx/leaders/FURBOLG/furbolg_light_brown.dds"
+                "gfx/leaders/FURBOLG/furbolg_white.dds"
+            }
+		}
+        order = {
+			male = {
+                "gfx/leaders/FURBOLG/furbolg_black.dds"
+                "gfx/leaders/FURBOLG/furbolg_blue.dds"
+                "gfx/leaders/FURBOLG/furbolg_brown.dds"
+                "gfx/leaders/FURBOLG/furbolg_dirty_white.dds"
+                "gfx/leaders/FURBOLG/furbolg_gray.dds"
+                "gfx/leaders/FURBOLG/furbolg_light_brown.dds"
+                "gfx/leaders/FURBOLG/furbolg_white.dds"
+            }
+		}
+        disorder = {
+			male = {
+                "gfx/leaders/FURBOLG/furbolg_black.dds"
+                "gfx/leaders/FURBOLG/furbolg_blue.dds"
+                "gfx/leaders/FURBOLG/furbolg_brown.dds"
+                "gfx/leaders/FURBOLG/furbolg_dirty_white.dds"
+                "gfx/leaders/FURBOLG/furbolg_gray.dds"
+                "gfx/leaders/FURBOLG/furbolg_light_brown.dds"
+                "gfx/leaders/FURBOLG/furbolg_white.dds"
+            }
+		}
+        life = {
+			male = {
+                "gfx/leaders/FURBOLG/furbolg_black.dds"
+                "gfx/leaders/FURBOLG/furbolg_blue.dds"
+                "gfx/leaders/FURBOLG/furbolg_brown.dds"
+                "gfx/leaders/FURBOLG/furbolg_dirty_white.dds"
+                "gfx/leaders/FURBOLG/furbolg_gray.dds"
+                "gfx/leaders/FURBOLG/furbolg_light_brown.dds"
+                "gfx/leaders/FURBOLG/furbolg_white.dds"
+            }
+		}
+        death = {
+			male = {
+                "gfx/leaders/FURBOLG/furbolg_black.dds"
+                "gfx/leaders/FURBOLG/furbolg_blue.dds"
+                "gfx/leaders/FURBOLG/furbolg_brown.dds"
+                "gfx/leaders/FURBOLG/furbolg_dirty_white.dds"
+                "gfx/leaders/FURBOLG/furbolg_gray.dds"
+                "gfx/leaders/FURBOLG/furbolg_light_brown.dds"
+                "gfx/leaders/FURBOLG/furbolg_white.dds"
+            }
+		}
+        unaligned = {
+			male = {
+                "gfx/leaders/FURBOLG/furbolg_black.dds"
+                "gfx/leaders/FURBOLG/furbolg_blue.dds"
+                "gfx/leaders/FURBOLG/furbolg_brown.dds"
+                "gfx/leaders/FURBOLG/furbolg_dirty_white.dds"
+                "gfx/leaders/FURBOLG/furbolg_gray.dds"
+                "gfx/leaders/FURBOLG/furbolg_light_brown.dds"
+                "gfx/leaders/FURBOLG/furbolg_white.dds"
+            }
+		}
+	}
+}

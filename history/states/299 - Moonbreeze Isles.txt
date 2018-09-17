@@ -1,0 +1,67 @@
+state = {
+	id = 299
+	name = "MOONBREEZE_ISLES"
+	manpower = 549
+	state_category = island
+
+	resources = {
+		oil = 4
+		ground_beast = 6
+		flying_beast = 4
+		wood = 1
+		steel = 8
+		food = 18
+	}
+
+	history = {
+		owner = JAS
+		add_core_of = JAS
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 1
+			industrial_complex = 1
+			dockyard = 0
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			6335 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 4
+			}
+			6341 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 6
+			}
+			6348 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 7
+			}
+			6353 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 6
+			}
+		}
+	}
+
+	provinces = {
+        6335 6341 6348 6353
+    }
+}

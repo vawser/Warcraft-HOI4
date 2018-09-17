@@ -1,0 +1,24 @@
+state = {
+	id = 88
+	name = "SEARING_CLIFFS_MT"
+	manpower = 63
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = DKI
+
+        # The Second War
+        597.1.1 = {
+            owner = TTH
+        }
+        # The Third War
+        612.1.1 = {
+            owner = SGL
+        }
+	}
+
+	provinces = {
+        1855 1867 1890 2777 2695
+    }
+}

@@ -1,0 +1,15 @@
+state = {
+	id = 765
+	name = "REDROCK_ASCENT"
+	manpower = 42
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = SKY
+	}
+
+	provinces = {
+        4392 4409 4578 4615 4656 4708 4709 4786 
+    }
+}

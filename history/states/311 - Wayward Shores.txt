@@ -1,0 +1,68 @@
+state = {
+	id = 311
+	name = "WAYWARD_SHORES"
+	manpower = 657
+	state_category = rural
+
+	resources = {
+		flying_beast = 8
+		wood = 29
+		steel = 9
+		food = 11
+	}
+
+	history = {
+		owner = JAS
+		add_core_of = JAS
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 0
+			industrial_complex = 1
+			dockyard = 1
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			6399 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 5
+			}
+			6403 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 5
+			}
+			6406 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 8
+			}
+			6410 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 4
+			}
+			6670 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        6399 6403 6406 6410 6670
+    }
+}

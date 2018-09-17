@@ -1,0 +1,53 @@
+state = {
+	id = 416
+	name = "SHADOPAN_MONASTERY"
+	manpower = 6617
+	state_category = town
+
+	resources = {
+		ground_beast = 2
+		flying_beast = 7
+		steel = 5
+		food = 19
+	}
+
+	history = {
+		owner = SPN
+		add_core_of = SPN
+
+		buildings = {
+			infrastructure = 5
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 6
+			industrial_complex = 4
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			6754 = {
+				bunker = 9
+			}
+			6760 = {
+				bunker = 6
+			}
+			6783 = {
+				bunker = 1
+			}
+			6758 = {
+				bunker = 9
+			}
+		}
+	}
+
+	provinces = {
+        6754 6760 6783 6758
+    }
+}

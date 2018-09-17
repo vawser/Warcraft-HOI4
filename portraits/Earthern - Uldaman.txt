@@ -1,0 +1,51 @@
+ULM = {
+	army = {
+		male = {
+			"gfx/leaders/EARTHERN/earthern_tan.dds"
+		}
+	}
+
+	navy = {
+		male = {
+			"gfx/leaders/EARTHERN/earthern_tan.dds"
+		}
+	}
+
+	political = {
+		light = {
+			male = {
+                "gfx/leaders/EARTHERN/earthern_tan.dds"
+            }
+		}
+		shadow = {
+			male = {
+                "gfx/leaders/EARTHERN/earthern_tan.dds"
+            }
+		}
+        order = {
+			male = {
+                "gfx/leaders/EARTHERN/earthern_tan.dds"
+            }
+		}
+        disorder = {
+			male = {
+                "gfx/leaders/EARTHERN/earthern_tan.dds"
+            }
+		}
+        life = {
+			male = {
+                "gfx/leaders/EARTHERN/earthern_tan.dds"
+            }
+		}
+        death = {
+			male = {
+                "gfx/leaders/EARTHERN/earthern_tan.dds"
+            }
+		}
+        unaligned = {
+			male = {
+                "gfx/leaders/EARTHERN/earthern_tan.dds"
+            }
+		}
+	}
+}

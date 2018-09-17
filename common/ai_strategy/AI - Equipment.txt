@@ -1,0 +1,250 @@
+default_land_equipment_production = {
+    enable = {
+        always = yes
+    }
+    
+    ai_strategy = {
+		type = equipment_variant_production_factor
+		id = grunt_equipment
+		value = 20
+	}
+    ai_strategy = {
+		type = equipment_variant_production_factor
+		id = champion_equipment
+		value = 20
+	}
+    ai_strategy = {
+		type = equipment_variant_production_factor
+		id = spellcaster_equipment
+		value = 20
+	}
+    ai_strategy = {
+		type = equipment_variant_production_factor
+		id = archer_equipment
+		value = 20
+	}
+    ai_strategy = {
+		type = equipment_variant_production_factor
+		id = light_cavalry_equipment
+		value = 20
+	}
+    ai_strategy = {
+		type = equipment_variant_production_factor
+		id = heavy_cavalry_equipment
+		value = 20
+	}
+    ai_strategy = {
+		type = equipment_variant_production_factor
+		id = war_engine_equipment
+		value = 20
+	}
+    ai_strategy = {
+		type = equipment_variant_production_factor
+		id = support_equipment
+		value = 20
+	}
+}
+
+light_tank_equipment_production = {
+    enable = {
+        has_tech = light_tank_equipment_1_tech
+    }
+    ai_strategy = {
+		type = equipment_variant_production_factor
+		id = light_tank_equipment
+		value = 20
+	}
+}
+
+heavy_tank_equipment_production = {
+    enable = {
+        has_tech = heavy_tank_equipment_1_tech
+    }
+    ai_strategy = {
+		type = equipment_variant_production_factor
+		id = heavy_tank_equipment
+		value = 20
+	}
+}
+
+stop_grunt_production = {
+    enable = {
+        stockpile_ratio = {
+            archetype = grunt_equipment
+            ratio > 5.0
+        }
+    }
+    abort = {
+        stockpile_ratio = {
+            archetype = grunt_equipment
+            ratio < 5.0
+        }
+    }
+    ai_strategy = {
+		type = equipment_variant_production_factor
+		id = grunt_equipment
+		value = -100
+	}
+}
+
+stop_champion_production = {
+    enable = {
+        stockpile_ratio = {
+            archetype = champion_equipment
+            ratio > 5.0
+        }
+    }
+    abort = {
+        stockpile_ratio = {
+            archetype = champion_equipment
+            ratio < 5.0
+        }
+    }
+    ai_strategy = {
+		type = equipment_variant_production_factor
+		id = champion_equipment
+		value = -100
+	}
+}
+
+stop_spellcaster_production = {
+    enable = {
+        stockpile_ratio = {
+            archetype = spellcaster_equipment
+            ratio > 5.0
+        }
+    }
+    abort = {
+        stockpile_ratio = {
+            archetype = spellcaster_equipment
+            ratio < 5.0
+        }
+    }
+    ai_strategy = {
+		type = equipment_variant_production_factor
+		id = spellcaster_equipment
+		value = -100
+	}
+}
+
+stop_archer_production = {
+    enable = {
+        stockpile_ratio = {
+            archetype = archer_equipment
+            ratio > 5.0
+        }
+    }
+    abort = {
+        stockpile_ratio = {
+            archetype = archer_equipment
+            ratio < 5.0
+        }
+    }
+    ai_strategy = {
+		type = equipment_variant_production_factor
+		id = archer_equipment
+		value = -100
+	}
+}
+
+stop_war_engine_production = {
+    enable = {
+        stockpile_ratio = {
+            archetype = war_engine_equipment
+            ratio > 5.0
+        }
+    }
+    abort = {
+        stockpile_ratio = {
+            archetype = war_engine_equipment
+            ratio < 5.0
+        }
+    }
+    ai_strategy = {
+		type = equipment_variant_production_factor
+		id = war_engine_equipment
+		value = -100
+	}
+}
+
+stop_light_cavalry_production = {
+    enable = {
+        stockpile_ratio = {
+            archetype = light_cavalry_equipment
+            ratio > 5.0
+        }
+    }
+    abort = {
+        stockpile_ratio = {
+            archetype = light_cavalry_equipment
+            ratio < 5.0
+        }
+    }
+    ai_strategy = {
+		type = equipment_variant_production_factor
+		id = light_cavalry_equipment
+		value = -100
+	}
+}
+
+stop_heavy_cavalry_production = {
+    enable = {
+        stockpile_ratio = {
+            archetype = heavy_cavalry_equipment
+            ratio > 5.0
+        }
+    }
+    abort = {
+        stockpile_ratio = {
+            archetype = heavy_cavalry_equipment
+            ratio < 5.0
+        }
+    }
+    ai_strategy = {
+		type = equipment_variant_production_factor
+		id = heavy_cavalry_equipment
+		value = -100
+	}
+}
+
+stop_light_tank_production = {
+    enable = {
+        has_tech = light_tank_equipment_1_tech
+        stockpile_ratio = {
+            archetype = light_tank_equipment
+            ratio > 5.0
+        }
+    }
+    abort = {
+        stockpile_ratio = {
+            archetype = light_tank_equipment
+            ratio < 5.0
+        }
+    }
+    ai_strategy = {
+		type = equipment_variant_production_factor
+		id = light_tank_equipment
+		value = -100
+	}
+}
+
+stop_heavy_tank_production = {
+    enable = {
+        has_tech = heavy_tank_equipment_1_tech
+        stockpile_ratio = {
+            archetype = heavy_tank_equipment
+            ratio > 5.0
+        }
+    }
+    abort = {
+        stockpile_ratio = {
+            archetype = heavy_tank_equipment
+            ratio < 5.0
+        }
+    }
+    ai_strategy = {
+		type = equipment_variant_production_factor
+		id = heavy_tank_equipment
+		value = -100
+	}
+}

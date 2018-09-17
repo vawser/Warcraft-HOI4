@@ -1,0 +1,15 @@
+state = {
+	id = 761
+	name = "NARACHE_RIDGE"
+	manpower = 2
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = CST
+	}
+
+	provinces = {
+        4429 4448 4494 4608 4623 4624 4717 
+    }
+}

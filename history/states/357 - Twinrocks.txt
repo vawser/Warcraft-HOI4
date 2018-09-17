@@ -1,0 +1,53 @@
+state = {
+	id = 357
+	name = "TWINROCKS"
+	manpower = 1922
+	state_category = village
+
+	resources = {
+		ground_beast = 1
+		flying_beast = 2
+		steel = 9
+		food = 24
+	}
+
+	history = {
+		owner = TIL
+		add_core_of = TIL
+
+		buildings = {
+			infrastructure = 3
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 3
+			industrial_complex = 5
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			6840 = {
+				bunker = 0
+			}
+			6851 = {
+				bunker = 0
+			}
+			6861 = {
+				bunker = 0
+			}
+			6908 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        6840 6851 6861 6908 
+    }
+}

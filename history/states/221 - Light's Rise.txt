@@ -1,0 +1,15 @@
+state = {
+	id = 221
+	name = "LIGHTS_RISE"
+	manpower = 30
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = AMA
+	}
+
+	provinces = {
+        2665 2681 2696 2711 2726 
+    }
+}

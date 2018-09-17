@@ -1,0 +1,70 @@
+state = {
+	id = 69
+	name = "KARGATH"
+	manpower = 2776
+	state_category = village
+
+	resources = {
+		oil = 5
+		ground_beast = 1
+		flying_beast = 8
+		wood = 2
+		steel = 6
+		food = 1
+	}
+
+	history = {
+        victory_points = {
+            1990 5
+        }
+    
+		owner = ULM
+        add_core_of = ULM
+
+        # The Second War
+        597.1.1 = {
+            owner = TTH
+            add_core_of = TTH
+        }
+        # The Third War
+        612.1.1 = {
+            owner = SVT
+            add_core_of = SVT
+        }
+        
+		buildings = {
+			infrastructure = 2
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 6
+			industrial_complex = 3
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			1982 = {
+				bunker = 0
+			}
+			1990 = {
+				bunker = 0
+			}
+			1998 = {
+				bunker = 0
+			}
+			2006 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        1982 1990 1998 2006 
+    }
+}

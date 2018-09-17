@@ -1,0 +1,20 @@
+state = {
+	id = 90
+	name = "LETHLOR_MT"
+	manpower = 46
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = DKI
+
+        # The Second War
+        597.1.1 = {
+            owner = TTH
+        }
+	}
+
+	provinces = {
+        1808 1827 1860 1864 1886 2657 2672 2688 2701 2732 2757 
+    }
+}

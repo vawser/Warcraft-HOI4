@@ -1,0 +1,61 @@
+state = {
+	id = 623
+	name = "STEAMFLATS"
+	manpower = 590
+	state_category = rural
+
+	resources = {
+		oil = 3
+		ground_beast = 5
+		flying_beast = 9
+		wood = 3
+		steel = 3
+		food = 24
+	}
+
+	history = {
+		owner = MAG
+		add_core_of = MAG
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 2
+			industrial_complex = 1
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			6033 = {
+				bunker = 0
+			}
+			6046 = {
+				bunker = 0
+			}
+			6074 = {
+				bunker = 0
+			}
+			6106 = {
+				bunker = 0
+			}
+			6122 = {
+				bunker = 0
+			}
+			6141 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        6033 6046 6074 6106 6122 6141
+    }
+}

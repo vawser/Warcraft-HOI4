@@ -1,0 +1,54 @@
+state = {
+	id = 986
+	name = "FROSTCLAW_CAMP"
+	manpower = 2163
+	state_category = village
+
+	resources = {
+		oil = 1
+		flying_beast = 1
+		wood = 11
+		steel = 6
+		food = 14
+	}
+
+	history = {
+		owner = WTA
+		add_core_of = WTA
+
+		buildings = {
+			infrastructure = 3
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 3
+			industrial_complex = 3
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			3659 = {
+				bunker = 0
+			}
+			3705 = {
+				bunker = 0
+			}
+			3736 = {
+				bunker = 0
+			}
+			3751 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        3659 3705 3736 3751 
+    }
+}

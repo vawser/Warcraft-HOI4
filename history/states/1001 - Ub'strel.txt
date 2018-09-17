@@ -1,0 +1,68 @@
+state = {
+	id = 1001
+	name = "UBSTREL"
+	manpower = 788
+	state_category = rural
+
+	resources = {
+		ground_beast = 4
+		flying_beast = 6
+		wood = 10
+		steel = 7
+		food = 15
+	}
+
+	history = {
+        owner = SDS
+		add_core_of = SDS
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 2
+			industrial_complex = 1
+			dockyard = 0
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			3140 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 1
+			}
+			3145 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 2
+			}
+			3709 = {
+				bunker = 0
+			}
+			3725 = {
+				bunker = 0
+			}
+			3740 = {
+				bunker = 0
+			}
+			3755 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        3140 3145 3709 3725 3740 3755 
+    }
+}

@@ -1,0 +1,66 @@
+state = {
+	id = 864
+	name = "DUSTWALLOW_ISLAND"
+	manpower = 6676
+	state_category = town
+
+	resources = {
+		oil = 4
+		ground_beast = 2
+		flying_beast = 8
+		wood = 1
+		steel = 3
+		food = 25
+	}
+
+	history = {
+		owner = WYB
+		add_core_of = WYB
+
+        612.1.1 = { 
+            set_state_name = THERAMORE_ISLE
+        }
+        
+		buildings = {
+			infrastructure = 7
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 4
+			industrial_complex = 3
+			dockyard = 4
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			3312 = {
+				bunker = 2
+				coastal_bunker = 8
+				naval_base = 8
+			}
+			3314 = {
+				bunker = 9
+				coastal_bunker = 7
+				naval_base = 6
+			}
+			3330 = {
+				bunker = 4
+				coastal_bunker = 8
+				naval_base = 8
+			}
+		}
+	}
+
+	provinces = {
+        3312 3314 3330 
+    }
+}

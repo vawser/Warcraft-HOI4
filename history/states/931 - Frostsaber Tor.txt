@@ -1,0 +1,15 @@
+state = {
+	id = 931
+	name = "FROSTSABER_TOR"
+	manpower = 46
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = WTA
+	}
+
+	provinces = {
+        3253 3273 4731 4780
+    }
+}

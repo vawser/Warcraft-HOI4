@@ -1,0 +1,192 @@
+equipments = {
+    cruiser_equipment = {
+		is_archetype = yes
+		is_buildable = no
+		type = capital_ship
+        picture = archetype_ship
+		group_by = archetype
+		
+		interface_category = interface_category_capital_ships
+		
+		upgrades = {
+			wm_cruiser_max_strength
+            wm_cruiser_max_organisation
+            wm_cruiser_reliability
+            wm_cruiser_supply_consumption
+            wm_cruiser_attack
+            wm_cruiser_ap_attack
+            wm_cruiser_shore_bombardment
+            wm_cruiser_fire_range
+            wm_cruiser_armor_value
+            wm_cruiser_evasion
+            wm_cruiser_sub_detection
+            wm_cruiser_surface_visibility
+            wm_cruiser_surface_detection
+            wm_cruiser_naval_range
+            wm_cruiser_naval_speed
+            wm_cruiser_port_capacity_usage
+            wm_cruiser_build_cost_ic
+		}
+
+        max_organisation = 40
+		supply_consumption = 0.1
+        
+        reliability = 0.7
+        max_strength = 100
+        
+        attack = 8
+        ap_attack = 10
+        shore_bombardment = 6
+        anti_air_attack = 6
+        torpedo_attack = 0
+        
+        fire_range = 20
+        
+        armor_value = 10
+        evasion = 30
+        
+        sub_detection = 20
+        surface_visibility = 20
+        surface_detection = 10
+        
+        naval_range = 1000
+        naval_speed = 15
+        
+        port_capacity_usage = 1
+        
+        manpower = 75
+        build_cost_ic = 300
+        
+		resources = {
+            steel = 5
+            oil = 5
+            wood = 5
+		}
+	}
+    
+    cruiser_equipment_0 = {
+		archetype = cruiser_equipment
+		priority = 10
+	}
+    cruiser_equipment_1 = {
+		archetype = cruiser_equipment
+        parent = cruiser_equipment_0
+		priority = 20
+
+        max_organisation = 40
+		supply_consumption = 0.1
+        
+        reliability = 0.7
+        max_strength = 100
+        
+        attack = 8
+        ap_attack = 10
+        shore_bombardment = 6
+        anti_air_attack = 6
+        torpedo_attack = 0
+        
+        fire_range = 20
+        
+        armor_value = 10
+        evasion = 30
+        
+        sub_detection = 20
+        surface_visibility = 20
+        surface_detection = 10
+        
+        naval_range = 1000
+        naval_speed = 15
+        
+        port_capacity_usage = 1
+        
+        manpower = 75
+        build_cost_ic = 300
+        
+		resources = {
+            steel = 5
+            oil = 5
+            wood = 5
+		}
+	}
+    cruiser_equipment_2 = {
+		archetype = cruiser_equipment
+        parent = cruiser_equipment_1
+		priority = 30
+
+        max_organisation = 40
+		supply_consumption = 0.1
+        
+        reliability = 0.7
+        max_strength = 100
+        
+        attack = 10
+        ap_attack = 12
+        shore_bombardment = 8
+        anti_air_attack = 8
+        torpedo_attack = 0
+        
+        fire_range = 25
+        
+        armor_value = 15
+        evasion = 35
+        
+        sub_detection = 22
+        surface_visibility = 19
+        surface_detection = 12
+        
+        naval_range = 1500
+        naval_speed = 20
+        
+        port_capacity_usage = 1
+        
+        manpower = 75
+        build_cost_ic = 350
+        
+		resources = {
+            steel = 6
+            oil = 6
+            wood = 6
+		}
+	}
+    cruiser_equipment_3 = {
+		archetype = cruiser_equipment
+        parent = cruiser_equipment_2
+		priority = 40
+
+        max_organisation = 40
+		supply_consumption = 0.1
+        
+        reliability = 0.7
+        max_strength = 100
+        
+        attack = 15
+        ap_attack = 15
+        shore_bombardment = 10
+        anti_air_attack = 10
+        torpedo_attack = 0
+        
+        fire_range = 30
+        
+        armor_value = 20
+        evasion = 40
+        
+        sub_detection = 25
+        surface_visibility = 18
+        surface_detection = 15
+        
+        naval_range = 2000
+        naval_speed = 25
+        
+        port_capacity_usage = 1
+        
+        manpower = 75
+        build_cost_ic = 400
+        
+		resources = {
+            steel = 7
+            oil = 7
+            wood = 7
+		}
+	}
+}
+

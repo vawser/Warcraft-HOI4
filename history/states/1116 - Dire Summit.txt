@@ -1,0 +1,15 @@
+state = {
+	id = 1116
+	name = "DIRE_SUMMIT"
+	manpower = 14
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = WDP
+	}
+
+	provinces = {
+        4368 4405 4423 4539 4836 4843 4852 
+    }
+}

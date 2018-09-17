@@ -1,0 +1,50 @@
+defined_text = { 
+	name = GetCurrentEspionageAction
+
+    text = {
+		trigger = {
+			check_variable = { ROOT.current_action@FROM = 1 }
+		}
+		localization_key = DESTABILIZE_NATION
+	}
+    text = {
+		trigger = {
+			check_variable = { ROOT.current_action@FROM = 2 }
+		}
+		localization_key = SABOTAGE_OPERATIONS
+	}
+    text = {
+		trigger = {
+			check_variable = { ROOT.current_action@FROM = 3 }
+		}
+		localization_key = AQUIRE_ARMY_INTEL
+	}
+    text = {
+		trigger = {
+			check_variable = { ROOT.current_action@FROM = 4 }
+		}
+		localization_key = AQUIRE_AVIATION_INTEL
+	}
+    text = {
+		trigger = {
+			check_variable = { ROOT.current_action@FROM = 5 }
+		}
+		localization_key = AQUIRE_NAVAL_INTEL
+	}
+    text = {
+		trigger = {
+			check_variable = { ROOT.current_action@FROM = 6 }
+		}
+		localization_key = SABOTAGE_INDUSTRY
+	}
+    text = {
+		trigger = {
+			check_variable = { ROOT.current_action@FROM = 7 }
+		}
+		localization_key = ASSASSINATE_MIL_LEADER
+	}
+    text = {
+		localization_key = ""
+	}
+}
+

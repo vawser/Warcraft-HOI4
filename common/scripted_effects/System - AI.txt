@@ -1,0 +1,107 @@
+ai_update = {
+    # every_country = {
+        # limit = { 
+            # is_ai = yes 
+            # has_war = yes
+        # }
+        
+        # if = {
+            # limit = {
+                # stockpile_ratio = {
+                    # archetype = grunt_equipment
+                    # ratio < 0.01
+                # }
+            # }
+            # add_equipment_to_stockpile = {
+                # type = grunt_equipment
+                # amount = 100
+            # }
+        # }
+        # if = {
+            # limit = {
+                # stockpile_ratio = {
+                    # archetype = champion_equipment
+                    # ratio < 0.01
+                # }
+            # }
+            # add_equipment_to_stockpile = {
+                # type = champion_equipment
+                # amount = 100
+            # }
+        # }
+        # if = {
+            # limit = {
+                # stockpile_ratio = {
+                    # archetype = spellcaster_equipment
+                    # ratio < 0.01
+                # }
+            # }
+            # add_equipment_to_stockpile = {
+                # type = spellcaster_equipment
+                # amount = 100
+            # }
+        # }
+        # if = {
+            # limit = {
+                # stockpile_ratio = {
+                    # archetype = archer_equipment
+                    # ratio < 0.01
+                # }
+            # }
+            # add_equipment_to_stockpile = {
+                # type = archer_equipment
+                # amount = 100
+            # }
+        # }
+        # if = {
+            # limit = {
+                # stockpile_ratio = {
+                    # archetype = light_cavalry_equipment
+                    # ratio < 0.01
+                # }
+            # }
+            # add_equipment_to_stockpile = {
+                # type = light_cavalry_equipment
+                # amount = 100
+            # }
+        # }
+        # if = {
+            # limit = {
+                # stockpile_ratio = {
+                    # archetype = heavy_cavalry_equipment
+                    # ratio < 0.01
+                # }
+            # }
+            # add_equipment_to_stockpile = {
+                # type = heavy_cavalry_equipment
+                # amount = 100
+            # }
+        # }
+        # if = {
+            # limit = {
+                # has_tech = light_tank_equipment_1_tech
+                # stockpile_ratio = {
+                    # archetype = light_tank_equipment
+                    # ratio < 0.01
+                # }
+            # }
+            # add_equipment_to_stockpile = {
+                # type = light_tank_equipment
+                # amount = 100
+            # }
+        # }
+        # if = {
+            # limit = {   
+                # has_tech = heavy_tank_equipment_1_tech
+                # stockpile_ratio = {
+                    # archetype = heavy_tank_equipment
+                    # ratio < 0.01
+                # }
+            # }
+            # add_equipment_to_stockpile = {
+                # type = heavy_tank_equipment
+                # amount = 100
+            # }
+        # }
+    # }
+}

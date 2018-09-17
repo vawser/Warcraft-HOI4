@@ -1,0 +1,157 @@
+ideas = {
+    trade_laws = { 
+        law = yes
+        
+        #---------------------------
+        # Free Trade
+        #---------------------------
+        free_trade = {
+            allowed = {
+                NOT = {
+                    OR = {
+                        original_tag = AQJ
+                        original_tag = AZJ
+                        original_tag = MAN
+                        original_tag = SCO
+                        original_tag = DTH
+                        original_tag = CTD
+                    }
+                }
+            }
+            modifier = { 
+                min_export = 0.6
+                trade_opinion_factor = 0.25
+                local_resources_factor = 0.1
+            }
+            
+            cost = 250
+            removal_cost = -1
+            cancel_if_invalid = no
+            
+            ai_will_do = {
+   				factor = 1
+
+                modifier = {
+                    factor = 10
+                    is_civil = yes
+                    
+                }
+                modifier = {
+                    factor = 0
+                    num_of_civilian_factories < 20
+                }
+                
+                modifier = {
+                    factor = 0
+                    has_idea = no_trade
+                }
+			}
+        }
+        
+        #---------------------------
+        # Limited Trade
+        #---------------------------
+        limited_trade = {
+            allowed = {
+                NOT = {
+                    OR = {
+                        original_tag = AQJ
+                        original_tag = AZJ
+                        original_tag = MAN
+                        original_tag = SCO
+                        original_tag = DTH
+                        original_tag = CTD
+                    }
+                }
+            }
+            modifier = { 
+                min_export = 0.4
+                trade_opinion_factor = 0.1
+                local_resources_factor = 0.05
+            }
+            
+            cost = 250
+            removal_cost = -1
+            cancel_if_invalid = no
+            
+            ai_will_do = {
+   				factor = 1
+                
+                modifier = {
+                    factor = 0
+                    has_idea = no_trade
+                }
+			}
+        }
+        
+        #---------------------------
+        # Minimal Trade
+        #---------------------------
+        minimal_trade = {
+            allowed = {
+                NOT = {
+                    OR = {
+                        original_tag = AQJ
+                        original_tag = AZJ
+                        original_tag = MAN
+                        original_tag = SCO
+                        original_tag = DTH
+                        original_tag = CTD
+                    }
+                }
+            }
+            modifier = { 
+                min_export = 0.2
+            }
+            
+            cost = 250
+            removal_cost = -1
+            cancel_if_invalid = no
+            
+            ai_will_do = {
+   				factor = 1
+
+                modifier = {
+                    factor = 0
+                    has_idea = no_trade
+                }
+                
+                modifier = {
+                    factor = 10
+                    is_savage = yes
+                }
+                modifier = {
+                    factor = 10
+                    num_of_civilian_factories < 10
+                }
+			}
+        }
+        
+        #---------------------------
+        # No Trade
+        #---------------------------
+        no_trade = {
+            allowed = {
+                OR = {
+                    original_tag = AQJ
+                    original_tag = AZJ
+                    original_tag = MAN
+                    original_tag = SCO
+                    original_tag = DTH
+                    original_tag = CTD
+                }
+            }
+            modifier = { 
+                min_export = 0.0
+            }
+            
+            cost = 250
+            removal_cost = -1
+            cancel_if_invalid = no
+            
+            ai_will_do = {
+   				factor = 1
+			}
+        }
+    }
+}

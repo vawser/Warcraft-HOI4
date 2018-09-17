@@ -1,0 +1,64 @@
+state = {
+	id = 40
+	name = "ALEXSON_FARMSTEAD"
+	manpower = 8054
+	state_category = town
+
+	resources = {
+		ground_beast = 2
+		flying_beast = 9
+		wood = 4
+		food = 17
+	}
+
+	history = {
+		owner = WES
+        add_core_of = WES
+
+        # The Second War
+        597.1.1 = {
+            owner = TTH
+            add_core_of = TTH
+        }
+        # The Third War
+        612.1.1 = {
+            owner = WES
+            add_core_of = WES
+        }
+        
+		buildings = {
+			infrastructure = 6
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 6
+			industrial_complex = 4
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			2816 = {
+				bunker = 8
+			}
+			2839 = {
+				bunker = 3
+			}
+			2866 = {
+				bunker = 9
+			}
+			2893 = {
+				bunker = 7
+			}
+		}
+	}
+
+	provinces = {
+        2816 2839 2866 2893 
+    }
+}

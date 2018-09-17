@@ -1,0 +1,60 @@
+state = {
+	id = 118
+	name = "GNOMEREGAN"
+	manpower = 15971
+	state_category = city
+
+	resources = {
+		oil = 2
+		wood = 3
+		steel = 7
+		food = 17
+	}
+
+	history = {
+		owner = GNO
+        add_core_of = GNO
+
+        victory_points = {
+            2961 15
+        }
+        
+		buildings = {
+			infrastructure = 9
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 10
+			industrial_complex = 2
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			2961 = {
+				bunker = 6
+			}
+			2988 = {
+				bunker = 4
+			}
+			3015 = {
+				bunker = 7
+			}
+			3040 = {
+				bunker = 8
+			}
+			3064 = {
+				bunker = 7
+			}
+		}
+	}
+
+	provinces = {
+        2961 2988 3015 3040 3064 
+    }
+}

@@ -1,0 +1,62 @@
+state = {
+	id = 6
+	name = "BALIAMAH_RUINS"
+	manpower = 1821
+	state_category = village
+
+	resources = {
+		ground_beast = 7
+		flying_beast = 6
+		wood = 10
+		food = 3
+	}
+
+	history = {
+        victory_points = {
+            2485 5
+        }
+		owner = SKS
+		add_core_of = SKS
+
+		buildings = {
+			infrastructure = 4
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 2
+			industrial_complex = 6
+			dockyard = 2
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			1745 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 9
+			}
+			2485 = {
+				bunker = 0
+			}
+			2490 = {
+				bunker = 0
+			}
+			2510 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        1745 2485 2490 2510 
+    }
+}

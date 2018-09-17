@@ -1,0 +1,15 @@
+state = {
+	id = 100
+	name = "FROSTMANE_PEAKS"
+	manpower = 20
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = FSM
+	}
+
+	provinces = {
+        1815 1830 1849 2563 2624 1814 1840
+    }
+}

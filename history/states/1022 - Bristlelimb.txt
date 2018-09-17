@@ -1,0 +1,70 @@
+state = {
+	id = 1022
+	name = "BRISTLELIMB"
+	manpower = 1423
+	state_category = village
+
+	resources = {
+		oil = 3
+		ground_beast = 7
+		flying_beast = 6
+		wood = 22
+		steel = 1
+		food = 14
+	}
+
+	history = {
+        owner = BMB
+		add_core_of = BMB
+
+		buildings = {
+			infrastructure = 4
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 2
+			industrial_complex = 2
+			dockyard = 4
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			6921 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 7
+			}
+			6957 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 7
+			}
+			6963 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 1
+			}
+			6969 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 7
+			}
+			7029 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        6921 6957 6963 6969 7029 
+    }
+}

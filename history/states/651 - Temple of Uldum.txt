@@ -1,0 +1,57 @@
+state = {
+	id = 651
+	name = "TEMPLE_OF_ULDUM"
+	manpower = 873
+	state_category = rural
+
+	resources = {
+		oil = 4
+		ground_beast = 1
+		flying_beast = 7
+		wood = 2
+		steel = 9
+	}
+
+	history = {
+		owner = ORS
+		add_core_of = ORS
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 3
+			industrial_complex = 0
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			3512 = {
+				bunker = 0
+			}
+			3540 = {
+				bunker = 0
+			}
+			3567 = {
+				bunker = 0
+			}
+			3596 = {
+				bunker = 0
+			}
+			3623 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        3512 3540 3567 3596 3623 
+    }
+}

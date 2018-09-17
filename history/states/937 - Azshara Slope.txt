@@ -1,0 +1,15 @@
+state = {
+	id = 937
+	name = "AZSHARA_SLOPE"
+	manpower = 43
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = SEN
+	}
+
+	provinces = {
+        4329 4345 4362 4384 4404 
+    }
+}

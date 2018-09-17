@@ -1,0 +1,15 @@
+state = {
+	id = 921
+	name = "BLACKFATHOM_DEEPS"
+	manpower = 9
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = FAT
+	}
+
+	provinces = {
+        3259 3271 4685 4755 4815 
+    }
+}

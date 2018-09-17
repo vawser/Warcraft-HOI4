@@ -1,0 +1,55 @@
+state = {
+	id = 363
+	name = "SILKEN_FIELDS"
+	manpower = 577
+	state_category = rural
+
+	resources = {
+		oil = 2
+		ground_beast = 4
+		flying_beast = 3
+		wood = 2
+		steel = 6
+		food = 27
+	}
+
+	history = {
+		owner = TIL
+		add_core_of = TIL
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 1
+			industrial_complex = 0
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			6855 = {
+				bunker = 0
+			}
+			6856 = {
+				bunker = 0
+			}
+			6877 = {
+				bunker = 0
+			}
+			6878 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        6855 6856 6877 6878 
+    }
+}

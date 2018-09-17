@@ -1,0 +1,512 @@
+﻿l_english: 
+ # Stranglethorn
+ VICTORY_POINTS_1753: "Booty Bay"
+ VICTORY_POINTS_1761: "Jaguero Isle"
+ VICTORY_POINTS_1744: "Mistvale Valley"
+ VICTORY_POINTS_1752: "Cape of Stranglethorn"
+ VICTORY_POINTS_2479: "Gurubashi Arena"
+ VICTORY_POINTS_2485: "Fort Livingston"
+ VICTORY_POINTS_2503: "Ruins of Zul'mamwe"
+ VICTORY_POINTS_2499: "Zul'Gurub"
+ VICTORY_POINTS_2517: "Bambala"
+ VICTORY_POINTS_2491: "Kurzen Compound"
+ VICTORY_POINTS_2476: "Bal'lal Ruins"
+ VICTORY_POINTS_2494: "Zul'kunda"
+ VICTORY_POINTS_2484: "Mizjah Ruins"
+ 
+ # Duskwood
+ VICTORY_POINTS_2422: "Yorgen Farmstead"
+ VICTORY_POINTS_2299: "Vul'gol Ogre Mound"
+ VICTORY_POINTS_3023: "Raven Hill"
+ VICTORY_POINTS_2447: "Twilight Grove"
+ VICTORY_POINTS_2397: "Tranquil Gardens"
+ VICTORY_POINTS_2363: "The Grand Hamlet"
+ 
+ # Deadwind Pass
+ VICTORY_POINTS_2918: "Karazhan"
+ 
+ # Swamp of Sorrows
+ VICTORY_POINTS_2525: "Splinterspear Junction"
+ VICTORY_POINTS_2531: "Stonard"
+ VICTORY_POINTS_1776: "Bogpaddle"
+ VICTORY_POINTS_1788: "Temple of Atal'Hakkar"
+ 
+ # Blasted Lands
+ VICTORY_POINTS_1995: "Dark Portal"
+ VICTORY_POINTS_1634: "Surwich"
+ 
+ # Westfall
+ VICTORY_POINTS_2945: "Moonbrook"
+ VICTORY_POINTS_2920: "Sentinel Hill"
+ 
+ # Elwynn Forest
+ VICTORY_POINTS_2840: "Westbrook Garrison"
+ VICTORY_POINTS_2345: "Goldshire"
+ VICTORY_POINTS_2313: "Northshire"
+ VICTORY_POINTS_2944: "Stormwind Garrison"
+ VICTORY_POINTS_2867: "Stormwind Keep"
+ VICTORY_POINTS_1939: "Stormwind Harbour"
+ VICTORY_POINTS_2343: "Tower of Azora"
+ 
+ # Redridge
+ VICTORY_POINTS_2837: "Lakeshire"
+ VICTORY_POINTS_2891: "Three Corners"
+ VICTORY_POINTS_2995: "Stonewatch"
+ 
+ # Burning Steppes
+ VICTORY_POINTS_2647: "Morgan's Vigil"
+ VICTORY_POINTS_2009: "Dreadmaul Rock"
+ VICTORY_POINTS_2000: "Blackrock Stronghold"
+ VICTORY_POINTS_2033: "Chiselgrip"
+ VICTORY_POINTS_2047: "Flamestar Post"
+ VICTORY_POINTS_2725: "Blackrock Mountain"
+ VICTORY_POINTS_2695: "Altar of Storms"
+ 
+ # Searing Gorge
+ VICTORY_POINTS_1983: "Iron Summit"
+ VICTORY_POINTS_1991: "Thorium Point"
+ VICTORY_POINTS_2023: "Dustfire Valley"
+ 
+ # Badlands
+ VICTORY_POINTS_1990: "Kargath"
+ VICTORY_POINTS_2039: "Angor Fortress"
+ VICTORY_POINTS_1997: "Bloodwatcher Point"
+ VICTORY_POINTS_2030: "Uldaman"
+ VICTORY_POINTS_1646: "Fuselight-by-the-sea"
+ 
+ # Arathi Highlands
+ VICTORY_POINTS_2930: "Hammerfall"
+ VICTORY_POINTS_2826: "Stromgarde Keep"
+ VICTORY_POINTS_1917: "Faldir's Cove"
+ VICTORY_POINTS_3058: "Northfold Manor"
+ 
+ # Khaz Modan
+ VICTORY_POINTS_2962: "Anvilmar"
+ VICTORY_POINTS_2324: "Kharanos"
+ VICTORY_POINTS_2583: "Ironforge"
+ VICTORY_POINTS_2961: "Gnomeregan"
+ VICTORY_POINTS_2883: "Frostmane Hold"
+ VICTORY_POINTS_2445: "Amberstill Ranch"
+ 
+ # Stratholme
+ VICTORY_POINTS_2207: "Stratholme"
+ VICTORY_POINTS_2063: "Quel'lithien Lodge"
+ VICTORY_POINTS_2186: "Blackwood"
+ VICTORY_POINTS_2148: "Darrowshire"
+ VICTORY_POINTS_2277: "Light's Hope Chapel"
+ VICTORY_POINTS_2106: "Tyr's Hand"
+ VICTORY_POINTS_2794: "New Avalon"
+ 
+ # Gilneas
+ VICTORY_POINTS_2819: "Gilneas City"
+ VICTORY_POINTS_1896: "Duskhaven"
+ VICTORY_POINTS_1919: "Keel Harbour"
+ VICTORY_POINTS_1959: "Emberstone Mine"
+ VICTORY_POINTS_1948: "Stormglen Village"
+ 
+ # Loch Modan
+ VICTORY_POINTS_2993: "Valley of the Kings"
+ VICTORY_POINTS_2862: "Thelsamar"
+ VICTORY_POINTS_2325: "The Farstrider Lodge"
+ VICTORY_POINTS_2965: "Algaz Station"
+ 
+ # Northron
+ VICTORY_POINTS_2337: "Thundermar"
+ VICTORY_POINTS_2340: "Crushblow"
+ VICTORY_POINTS_1649: "Dragonmaw"
+ 
+ # Hinterlands
+ VICTORY_POINTS_2437: "Seradane"
+ VICTORY_POINTS_2821: "Aerie Peak"
+ VICTORY_POINTS_2976: "Quel'danil Lodge"
+ VICTORY_POINTS_2332: "Shadra'alor"
+ VICTORY_POINTS_2438: "Altar of Zul"
+ VICTORY_POINTS_2901: "Shaol'watha"
+ VICTORY_POINTS_2901: "Jintha'alor"
+ VICTORY_POINTS_2965: "Revantusk Village"
+ 
+ # Andorhal
+ VICTORY_POINTS_2385: "Andorhal"
+ VICTORY_POINTS_2849: "Caer Darrow"
+ VICTORY_POINTS_2349: "Hearthglen"
+ 
+ # Wetlands
+ VICTORY_POINTS_2856: "Dun Algaz"
+ VICTORY_POINTS_2986: "Greenwarden's Grove"
+ VICTORY_POINTS_1932: "Dun Modr"
+ VICTORY_POINTS_2613: "Grim Batol"
+ 
+ 
+ 
+ # Azuremyst Isle
+ VICTORY_POINTS_: "Bristlelimb Village"
+ VICTORY_POINTS_: "Stillpine Hold"
+ VICTORY_POINTS_: "Azure Watch"
+ 
+ # Bloodmyst Isle
+ VICTORY_POINTS_: "Kessel's Crossing"
+ VICTORY_POINTS_: "Bloodcurse Isle"
+ VICTORY_POINTS_: "Wyrmscar Island"
+ VICTORY_POINTS_: "Axxarien"
+ VICTORY_POINTS_: "Blood Watch"
+ VICTORY_POINTS_: "Nazzivian"
+ 
+ # Azsuna
+ VICTORY_POINTS_: "Isle of the Watchers"
+ VICTORY_POINTS_: "Nar'thalas Academy"
+ VICTORY_POINTS_: "Azurewing Repose"
+ VICTORY_POINTS_: "Nor'danil Wellspring"
+ 
+ # Broken Shore
+ VICTORY_POINTS_: "Tomb of Sargeras"
+ 
+ # Highmountain
+ VICTORY_POINTS_: "Riverbend"
+ VICTORY_POINTS_: "Thunder Totem"
+ VICTORY_POINTS_: "Frosthoof Watch"
+ VICTORY_POINTS_: "Torok's Bluff"
+ VICTORY_POINTS_: "Skyhorn"
+ VICTORY_POINTS_: "Trueshot Lodge"
+ 
+ # Stormheim
+ VICTORY_POINTS_: "Halls of Valor"
+ VICTORY_POINTS_: "Haustvald"
+ VICTORY_POINTS_: "Valdisdall"
+ VICTORY_POINTS_: "Hrydshal"
+ VICTORY_POINTS_: "Skold-Ashil"
+ VICTORY_POINTS_: "Aggramar's Vault"
+ VICTORY_POINTS_: "Shield's Rest"
+ 
+ # Suramar
+ VICTORY_POINTS_: "Suramar City"
+ VICTORY_POINTS_: "Meredil"
+ VICTORY_POINTS_: "Moon Guard Stronghold"
+ VICTORY_POINTS_: "Falanaar"
+ VICTORY_POINTS_: "Telanor"
+ VICTORY_POINTS_: "Jandvik"
+ 
+ # Val'sharah
+ VICTORY_POINTS_: "Black Rook Hold"
+ VICTORY_POINTS_: "Bradensbrook"
+ VICTORY_POINTS_: "Thas'talah"
+ VICTORY_POINTS_: "Grove of Cenarius"
+ VICTORY_POINTS_: "Temple of Elune"
+ VICTORY_POINTS_: "Andu'talah"
+ VICTORY_POINTS_: "Shala'nir"
+ VICTORY_POINTS_: "The Dreamgrove"
+ 
+ # Ashenvale
+ VICTORY_POINTS_: "Forest Song"
+ VICTORY_POINTS_: "Splintertree Post"
+ VICTORY_POINTS_: "Silverwind Refuge"
+ VICTORY_POINTS_: "Stardust Spire"
+ VICTORY_POINTS_: "Astranaar"
+ VICTORY_POINTS_: "Maestra's Post"
+ VICTORY_POINTS_: "Shrine of Aessina"
+ VICTORY_POINTS_: "Orendil's Retreat"
+ VICTORY_POINTS_: "Blackfathom Deeps"
+ 
+ # Azshara
+ VICTORY_POINTS_: "Ruins of Eldarath"
+ VICTORY_POINTS_: "Ravencrest Monument"
+ VICTORY_POINTS_: "Tower of Eldara"
+ VICTORY_POINTS_: "Talrendis Point"
+ 
+ # Darkshore
+ VICTORY_POINTS_: "Auberdine"
+ VICTORY_POINTS_: "Grove of the Ancients"
+ VICTORY_POINTS_: "The Master's Glaive"
+ VICTORY_POINTS_: "Mathystra"
+ VICTORY_POINTS_: "Shatterspear Vale"
+ VICTORY_POINTS_: "Lor'danel"
+ 
+ # Desolace
+ VICTORY_POINTS_: "Ranazjar Isle"
+ VICTORY_POINTS_: "Maraudon"
+ VICTORY_POINTS_: "Gelkis Village"
+ VICTORY_POINTS_: "Cenarion Wildlands"
+ VICTORY_POINTS_: "Shok'thokar"
+ VICTORY_POINTS_: "Magram Territory"
+ VICTORY_POINTS_: "Thunder Axe Fortress"
+ VICTORY_POINTS_: "Furien's Post"
+ VICTORY_POINTS_: "Sargeron"
+ VICTORY_POINTS_: "Nijel's Point"
+ 
+ # Durotar
+ VICTORY_POINTS_: "Echo Isles"
+ VICTORY_POINTS_: "Sen'jin Village"
+ VICTORY_POINTS_: "Razor Hill"
+ VICTORY_POINTS_: "Orgrimmar"
+ 
+ # Swamp of Sorrows
+ VICTORY_POINTS_: "Blackhoof Village"
+ VICTORY_POINTS_: "Direhorn Post"
+ VICTORY_POINTS_: "Wyrmbog"
+ VICTORY_POINTS_: "Mudsprocket"
+ 
+ # Felwood
+ VICTORY_POINTS_: "Jaedenar"
+ VICTORY_POINTS_: "Bloodvenom Post"
+ VICTORY_POINTS_: "Whisperwind Grove"
+ VICTORY_POINTS_: "Talonbranch Glade"
+ VICTORY_POINTS_: "Timbermaw Hold"
+ 
+ # Feralas
+ VICTORY_POINTS_: "Feathermoon Temple"
+ VICTORY_POINTS_: "Feathermoon Stronghold"
+ VICTORY_POINTS_: "Dire Maul"
+ VICTORY_POINTS_: "Isildien"
+ VICTORY_POINTS_: "Camp Mojache"
+ VICTORY_POINTS_: "Camp Ataya"
+ 
+ # Moonglade
+ VICTORY_POINTS_: "Nighthaven"
+ VICTORY_POINTS_: "Shrine of Remulos"
+ VICTORY_POINTS_: "Stormrage Barrow Dens"
+ 
+ # Hyjal
+ VICTORY_POINTS_: "Nordrassil"
+ VICTORY_POINTS_: "Shrine of Goldrinn"
+ VICTORY_POINTS_: "Grove of Aessina"
+ VICTORY_POINTS_: "Sanctuary of Malorne"
+ VICTORY_POINTS_: "Gates of Sothann"
+ 
+ # Mulgore
+ VICTORY_POINTS_: "Thunder Bluff"
+ VICTORY_POINTS_: "Red Rocks"
+ VICTORY_POINTS_: "Camp Sungraze"
+ VICTORY_POINTS_: "Bloodhoof Village"
+ VICTORY_POINTS_: "Camp Narche"
+ VICTORY_POINTS_: "The Great Gate"
+ 
+ # Barrens
+ VICTORY_POINTS_: "Far Watch Post"
+ VICTORY_POINTS_: "The Crossroads"
+ VICTORY_POINTS_: "The Wailing Caverns"
+ VICTORY_POINTS_: "Ratchet"
+ VICTORY_POINTS_: "The Overgrowth"
+ 
+ # Silithus
+ VICTORY_POINTS_: "Temple of Ahn'qiraj"
+ VICTORY_POINTS_: "Hive Regal"
+ VICTORY_POINTS_: "Hive Zora"
+ VICTORY_POINTS_: "Hive Ashi"
+ VICTORY_POINTS_: "Cenarion Hold"
+
+ # Stonetalon Mt
+ VICTORY_POINTS_: "Cliffwalker Post"
+ VICTORY_POINTS_: "Farwatcher's Glen"
+ VICTORY_POINTS_: "Sun Rock Retreat"
+ VICTORY_POINTS_: "Windshear Hold"
+ VICTORY_POINTS_: "Malaka'jin"
+ 
+ # Tanaris
+ VICTORY_POINTS_: "Gadgetzan"
+ VICTORY_POINTS_: "Zul'farrak"
+ VICTORY_POINTS_: "Sandsorrow Watch"
+ VICTORY_POINTS_: "Caverns of Time"
+ VICTORY_POINTS_: "Valley of the Watchers"
+ VICTORY_POINTS_: "The Noxious Lair"
+ 
+ # Thousand Needles
+ VICTORY_POINTS_: "Southsea Holdfast"
+ VICTORY_POINTS_: "Splithoof Heights"
+ VICTORY_POINTS_: "Razorfen Downs"
+ VICTORY_POINTS_: "Razorfen Kraul"
+ VICTORY_POINTS_: "Highperch"
+ 
+ # Uldum
+ VICTORY_POINTS_: "Halls of Origination"
+ VICTORY_POINTS_: "Lost City of the Tol'vir"
+ VICTORY_POINTS_: "Ramakahen"
+ VICTORY_POINTS_: "Obelisk of the Stars"
+ VICTORY_POINTS_: "Khartut's Tomb"
+ VICTORY_POINTS_: "Obelisk of the Moon"
+ VICTORY_POINTS_: "Temple of Uldum"
+ VICTORY_POINTS_: "Orsis"
+ VICTORY_POINTS_: "Obelisk of the Sun"
+ VICTORY_POINTS_: "Neferset"
+ 
+ # Ungoro
+ VICTORY_POINTS_: "Terror Run"
+ VICTORY_POINTS_: "Marshal's Stand"
+ VICTORY_POINTS_: "Lakkari Tar Pits"
+ VICTORY_POINTS_: "Golakka Hot Springs"
+ 
+ # Winterspring
+ VICTORY_POINTS_: "Starfall Village"
+ VICTORY_POINTS_: "Everlook"
+ VICTORY_POINTS_: "Mazthoril"
+ VICTORY_POINTS_: "Frostsaber Hold"
+ VICTORY_POINTS_: "The Hidden Grove"
+ VICTORY_POINTS_: "Lake Kel'theril"
+ VICTORY_POINTS_: "Frostwhisper Gorge"
+ 
+ # Boren Tundra
+ VICTORY_POINTS_: "Riplash Strand"
+ VICTORY_POINTS_: "Amber Ledge"
+ VICTORY_POINTS_: "Kaskala"
+ VICTORY_POINTS_: "Tunka'le Village"
+ VICTORY_POINTS_: "Temple City of En'kilah"
+ VICTORY_POINTS_: "The Nexus"
+ 
+ # Crystalsong
+ VICTORY_POINTS_: "Violet Stand"
+ VICTORY_POINTS_: "The Unbound Thicket"
+ 
+ # Dragonblight
+ VICTORY_POINTS_: "Azure Dragonshrine"
+ VICTORY_POINTS_: "Emerald Dragonshrine"
+ VICTORY_POINTS_: "Obsidian Dragonshrine"
+ VICTORY_POINTS_: "Azjol'Nerub"
+ VICTORY_POINTS_: "Icemist village"
+ VICTORY_POINTS_: "Wyrmrest Temple"
+ 
+ # Grizzly Hills
+ VICTORY_POINTS_: "Drak'Tharon Keep"
+ VICTORY_POINTS_: "Grizzlemaw"
+ VICTORY_POINTS_: "Venture Bay"
+ VICTORY_POINTS_: "Voldrune"
+ VICTORY_POINTS_: "Silverbrook"
+ VICTORY_POINTS_: "Thor Modan"
+ VICTORY_POINTS_: "Ursoc's Den"
+ VICTORY_POINTS_: "Camp Oneqwah"
+ VICTORY_POINTS_: "Dun Argol"
+ 
+ # Howling Fjord
+ VICTORY_POINTS_: "Valgarde"
+ VICTORY_POINTS_: "Utgarde Keep"
+ VICTORY_POINTS_: "Kamagua"
+ VICTORY_POINTS_: "Scalawag Point"
+ VICTORY_POINTS_: "Skorn"
+ VICTORY_POINTS_: "Gjalerbron"
+ VICTORY_POINTS_: "Camp Winterhoof"
+ VICTORY_POINTS_: "Nifflevar"
+ 
+ # Icecrown
+ VICTORY_POINTS_: "Jotunheim"
+ VICTORY_POINTS_: "Icecrown Citadel"
+ VICTORY_POINTS_: "Sindragosa's Fall"
+ VICTORY_POINTS_: "Onslaught Harbour"
+ 
+ # Sholozar Basin
+ VICTORY_POINTS_: "The Suntouched Pillar"
+ VICTORY_POINTS_: "The Glimmering Pillar"
+ VICTORY_POINTS_: "The Lifeblood Pillar"
+ VICTORY_POINTS_: "The Skyreach Pillar"
+ VICTORY_POINTS_: "The Mosslight Pillar"
+ VICTORY_POINTS_: "River's Heart"
+ VICTORY_POINTS_: "The Maker's Overlook"
+ VICTORY_POINTS_: "The Maker's Perch"
+ 
+ # Storm Peak
+ VICTORY_POINTS_: "Ulduar"
+ VICTORY_POINTS_: "Valkyrion"
+ VICTORY_POINTS_: "Terrace of the Maker's"
+ VICTORY_POINTS_: "Dun Niffelem"
+ VICTORY_POINTS_: "Camp Tunka'lo"
+ VICTORY_POINTS_: "Brunnhildar Village"
+ VICTORY_POINTS_: "Frosthold"
+ 
+ # Zul'drak
+ VICTORY_POINTS_: "Gundrak"
+ VICTORY_POINTS_: "Altar of Mam'toth"
+ VICTORY_POINTS_: "Zol'maz Stronghold"
+ VICTORY_POINTS_: "Altar of Rhunok"
+ VICTORY_POINTS_: "Altar of Quetz'lun"
+ VICTORY_POINTS_: "Zim'torga"
+ VICTORY_POINTS_: "Altar of Har'koa"
+ VICTORY_POINTS_: "Kolramas"
+ VICTORY_POINTS_: "Voltarus"
+ VICTORY_POINTS_: "Altar of Sseratus"
+ VICTORY_POINTS_: "Zeramas"
+ 
+ # Dread Wastes
+ VICTORY_POINTS_: "Heart of Fear"
+ VICTORY_POINTS_: "Zan'vess"
+ VICTORY_POINTS_: "Kypari Zar"
+ VICTORY_POINTS_: "Soggy's Gamble"
+ VICTORY_POINTS_: "Klaxxi'vess"
+ VICTORY_POINTS_: "Terrace of Gurthan"
+ VICTORY_POINTS_: "Kypari Vor"
+ VICTORY_POINTS_: "Kor'vess"
+ VICTORY_POINTS_: "Rikkitun Village"
+ 
+ # Thunder Isle
+ VICTORY_POINTS_: "Ihgaluk Crag"
+ VICTORY_POINTS_: "Za'tual"
+ VICTORY_POINTS_: "Diremoor"
+ VICTORY_POINTS_: "Court of Bones"
+ VICTORY_POINTS_: "The Thunder Forges"
+ VICTORY_POINTS_: "Throne of Thunder"
+ 
+ # Krasarang Wilds
+ VICTORY_POINTS_: "Temple of the Red Crane"
+ VICTORY_POINTS_: "Cradle of Chi'ji"
+ VICTORY_POINTS_: "Nayeli Lagoon"
+ VICTORY_POINTS_: "Crane Wing Refuge"
+ VICTORY_POINTS_: "Ruins of Dojan"
+ VICTORY_POINTS_: "Angler's Wharf"
+ VICTORY_POINTS_: "Zhu's Watch"
+ 
+ # Kunlai
+ VICTORY_POINTS_: "Shado-pan Monastery"
+ VICTORY_POINTS_: "Peak of Serenity"
+ VICTORY_POINTS_: "Zouchin Village"
+ VICTORY_POINTS_: "Mogu'shan Terrace"
+ VICTORY_POINTS_: "Temple of the White Tiger"
+ VICTORY_POINTS_: "One Keg"
+ VICTORY_POINTS_: "Binan Village"
+ VICTORY_POINTS_: "Shado-pan Fallback"
+ 
+ # Jade Forest
+ VICTORY_POINTS_: "Temple of the Jade Serpent"
+ VICTORY_POINTS_: "Pearlfin Village"
+ VICTORY_POINTS_: "Paw'don Village"
+ VICTORY_POINTS_: "Grookin Hill"
+ VICTORY_POINTS_: "Serpent's Heart"
+ VICTORY_POINTS_: "Dawn's Blossom"
+ VICTORY_POINTS_: "Tian Monastery"
+ VICTORY_POINTS_: "Honeydew Village"
+ VICTORY_POINTS_: "Sri-la Village"
+ VICTORY_POINTS_: "Terrace of Ten Thunders"
+ VICTORY_POINTS_: "The Arboretum"
+ 
+ # Townlong 
+ VICTORY_POINTS_: "Shan'ze Dao"
+ VICTORY_POINTS_: "Sra'vess"
+ VICTORY_POINTS_: "Niuzao Temple"
+ VICTORY_POINTS_: "Shado-pan Garrison"
+ VICTORY_POINTS_: "Dusklight Hollow"
+ VICTORY_POINTS_: "Hatred's Vice"
+ VICTORY_POINTS_: "Longying Outpost"
+ VICTORY_POINTS_: "Kri'vess"
+ VICTORY_POINTS_: "Fire Camp Osul"
+ VICTORY_POINTS_: "Sik'vess"
+ 
+ # Vale of Eternal Blossom
+ VICTORY_POINTS_: "Setting Sun Garrison"
+ VICTORY_POINTS_: "Guo-lai Halls"
+ VICTORY_POINTS_: "The Golden Pagoda"
+ VICTORY_POINTS_: "Shrine of Two Moons"
+ VICTORY_POINTS_: "Mogu'shan Palace"
+ VICTORY_POINTS_: "Shrine of Seven Stars"
+ VICTORY_POINTS_: "Mistfall Village"
+ 
+ # Valley of the Four Winds
+ VICTORY_POINTS_: "Paoquan Hollow"
+ VICTORY_POINTS_: "Stoneplow"
+ VICTORY_POINTS_: "Stormstout Brewery"
+ VICTORY_POINTS_: "The Imperial Granary"
+ VICTORY_POINTS_: "Halfhill"
+ VICTORY_POINTS_: "Thunderfoot Fields"
+ 
+ # Veiled Stair
+ VICTORY_POINTS_: "Terrace of Endless Sptring"
+ VICTORY_POINTS_: "Tavern in the Mists"
+ 
+ # Teldrassil
+ VICTORY_POINTS_: "Darnassus"
+ VICTORY_POINTS_: "Dolanaar"
+ VICTORY_POINTS_: "Starbreeze Village"
+ 

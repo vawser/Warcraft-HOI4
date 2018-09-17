@@ -1,0 +1,64 @@
+state = {
+	id = 775
+	name = "THE_GREAT_GATE"
+	manpower = 4359
+	state_category = village
+
+	resources = {
+		oil = 2
+		ground_beast = 6
+		flying_beast = 5
+		wood = 2
+		steel = 9
+		food = 10
+	}
+
+	history = {
+		owner = MIS
+		add_core_of = MIS
+
+		buildings = {
+			infrastructure = 4
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 7
+			industrial_complex = 0
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			4970 = {
+				bunker = 0
+			}
+			4991 = {
+				bunker = 0
+			}
+			4994 = {
+				bunker = 0
+			}
+			5050 = {
+				bunker = 0
+			}
+			5068 = {
+				bunker = 0
+			}
+			5087 = {
+				bunker = 0
+			}
+			5108 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        4970 4991 4994 5050 5068 5087 5108 
+    }
+}

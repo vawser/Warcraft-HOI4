@@ -1,0 +1,74 @@
+state = {
+	id = 11
+	name = "MIZJAH_RUINS"
+	manpower = 599
+	state_category = rural
+
+	resources = {
+		oil = 2
+		ground_beast = 3
+		flying_beast = 3
+		wood = 17
+		steel = 4
+	}
+
+	history = {
+        victory_points = {
+            2484 5
+        }
+        
+        owner = BLS
+		add_core_of = BLS
+        
+        597.1.1 = {
+            owner = MSO
+            add_core_of = MSO
+        }
+        
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 0
+			industrial_complex = 1
+			dockyard = 2
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			1743 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 7
+			}
+			1765 = {
+				bunker = 0
+				coastal_bunker = 0
+				naval_base = 1
+			}
+			2484 = {
+				bunker = 0
+			}
+			2489 = {
+				bunker = 0
+			}
+			2504 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        1743 1765 2484 2489 2504 
+    }
+}

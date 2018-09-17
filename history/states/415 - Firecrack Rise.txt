@@ -1,0 +1,15 @@
+state = {
+	id = 415
+	name = "FIRECRACK_RISE"
+	manpower = 52
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = SPN
+	}
+
+	provinces = {
+        6482 6484 6486 6765 6767
+    }
+}

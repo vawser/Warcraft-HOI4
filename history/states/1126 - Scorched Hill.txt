@@ -1,0 +1,15 @@
+state = {
+	id = 1126
+	name = "SCORCHED_HILL"
+	manpower = 28
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = RAZ
+	}
+
+	provinces = {
+        3245
+    }
+}

@@ -1,0 +1,440 @@
+areas = {
+    # Continents
+	azeroth = {
+		continents = { 
+			azeroth
+		}
+	}
+    kalimdor = {
+		continents = { 
+			kalimdor
+		}
+	}
+    northrend = {
+		continents = { 
+			northrend
+		}
+	}
+    pandaria = {
+		continents = { 
+			pandaria
+		}
+	}
+    kezan = {
+		continents = { 
+			kezan
+		}
+	}
+    zandalar = {
+		continents = { 
+			zandalar
+		}
+	}
+    plunder_isle = {
+		continents = { 
+			plunder_isle
+		}
+	}
+    broken_isles = {
+		continents = { 
+			broken_isles
+		}
+	}
+    teldrassil = {
+		continents = { 
+			teldrassil
+		}
+	}
+    azuremyst_isles = {
+		continents = { 
+			azuremyst_isles
+		}
+	}
+    
+    # Regions
+    teldrassil_region = {
+        strategic_regions = {
+            1
+        }
+    }
+    bloodmyst_isle_region = {
+        strategic_regions = {
+            2
+        }
+    }
+    azuremyst_isle_region = {
+        strategic_regions = {
+            3
+        }
+    }
+    ammen_isle_region = {
+        strategic_regions = {
+            4
+        }
+    }
+    darkshore_region = {
+        strategic_regions = {
+            10
+        }
+    }
+    moonglade_region = {
+        strategic_regions = {
+            15
+        }
+    }
+    winterspring_region = {
+        strategic_regions = {
+            16
+        }
+    }
+    mount_hyjal_region = {
+        strategic_regions = {
+            17
+        }
+    }
+    felwood_region = {
+        strategic_regions = {
+            18
+        }
+    }
+    ashenvale_region = {
+        strategic_regions = {
+            19
+        }
+    }
+    azshara_region = {
+        strategic_regions = {
+            20
+        }
+    }
+    durotar_region = {
+        strategic_regions = {
+            21
+        }
+    }
+    northern_barrens_region = {
+        strategic_regions = {
+            22
+        }
+    }
+    southern_barrens_region = {
+        strategic_regions = {
+            23
+        }
+    }
+    dustwallow_marsh_region = {
+        strategic_regions = {
+            24
+        }
+    }
+    thousand_needles_region = {
+        strategic_regions = {
+            25
+        }
+    }
+    mulgore_region = {
+        strategic_regions = {
+            26
+        }
+    }
+    stonetalon_mountains_region = {
+        strategic_regions = {
+            27
+        }
+    }
+    desolace_region = {
+        strategic_regions = {
+            28
+        }
+    }
+    feralas_region = {
+        strategic_regions = {
+            29
+        }
+    }
+    silithus_region = {
+        strategic_regions = {
+            30
+        }
+    }
+    ungoro_region = {
+        strategic_regions = {
+            31
+        }
+    }
+    tanaris_region = {
+        strategic_regions = {
+            32
+        }
+    }
+    uldum_region = {
+        strategic_regions = {
+            33
+        }
+    }
+    kezan_region = {
+        strategic_regions = {
+            34
+        }
+    }
+    borean_tundra_region = {
+        strategic_regions = {
+            35
+        }
+    }
+    sholazar_basin_region = {
+        strategic_regions = {
+            36
+        }
+    }
+    wintergrasp_region = {
+        strategic_regions = {
+            37
+        }
+    }
+    dragonblight_region = {
+        strategic_regions = {
+            38
+        }
+    }
+    icecrown_region = {
+        strategic_regions = {
+            39
+        }
+    }
+    crystalsong_region = {
+        strategic_regions = {
+            40
+        }
+    }
+    storm_peaks_region = {
+        strategic_regions = {
+            41
+        }
+    }
+    zuldrak_region = {
+        strategic_regions = {
+            42
+        }
+    }
+    grizzly_hills_region = {
+        strategic_regions = {
+            43
+        }
+    }
+    howling_fjord_region = {
+        strategic_regions = {
+            44
+        }
+    }
+    zandalar_region = {
+        strategic_regions = {
+            46
+        }
+    }
+    isle_of_giants_region = {
+        strategic_regions = {
+            47
+        }
+    }
+    isle_of_thunder_region = {
+        strategic_regions = {
+            48
+        }
+    }
+    townlong_steppes_region = {
+        strategic_regions = {
+            49
+        }
+    }
+    kunlai_summit_region = {
+        strategic_regions = {
+            50
+        }
+    }
+    vale_of_eternal_blossom_region = {
+        strategic_regions = {
+            51
+        }
+    }
+    dread_wastes_region = {
+        strategic_regions = {
+            52
+        }
+    }
+    valley_of_the_four_winds_region = {
+        strategic_regions = {
+            53
+        }
+    }
+    krasarang_wilds_region = {
+        strategic_regions = {
+            54
+        }
+    }
+    jade_forest_region = {
+        strategic_regions = {
+            55
+        }
+    }
+    plunder_isle_region = {
+        strategic_regions = {
+            56
+        }
+    }
+    broken_isles_region = {
+        strategic_regions = {
+            57
+        }
+    }
+    kul_tiras_region = {
+        strategic_regions = {
+            58
+        }
+    }
+    tol_barad_region = {
+        strategic_regions = {
+            59
+        }
+    }
+    stranglethorn_vale_region = {
+        strategic_regions = {
+            60
+        }
+    }
+    blasted_lands_region = {
+        strategic_regions = {
+            61
+        }
+    }
+    deadwind_pass_region = {
+        strategic_regions = {
+            62
+        }
+    }
+    swamp_of_sorrow_region = {
+        strategic_regions = {
+            63
+        }
+    }
+    duskwood_region = {
+        strategic_regions = {
+            64
+        }
+    }
+    westfall_region = {
+        strategic_regions = {
+            65
+        }
+    }
+    elwynn_forest_region = {
+        strategic_regions = {
+            66
+        }
+    }
+    redridge_mountains_region = {
+        strategic_regions = {
+            67
+        }
+    }
+    burning_steppes_region = {
+        strategic_regions = {
+            68
+        }
+    }
+    searing_gorge_region = {
+        strategic_regions = {
+            69
+        }
+    }
+    badlands_region = {
+        strategic_regions = {
+            70
+        }
+    }
+    loch_modan_region = {
+        strategic_regions = {
+            71
+        }
+    }
+    dun_morogh_region = {
+        strategic_regions = {
+            72
+        }
+    }
+    northron_highlands_region = {
+        strategic_regions = {
+            73
+        }
+    }
+    wetlands_region = {
+        strategic_regions = {
+            74
+        }
+    }
+    arathi_highlands_region = {
+        strategic_regions = {
+            75
+        }
+    }
+    hillsbrad_foothills_region = {
+        strategic_regions = {
+            76
+        }
+    }
+    alterac_mountains_region = {
+        strategic_regions = {
+            77
+        }
+    }
+    hinterlands_region = {
+        strategic_regions = {
+            78
+        }
+    }
+    gilneas_region = {
+        strategic_regions = {
+            79
+        }
+    }
+    silverpine_forest_region = {
+        strategic_regions = {
+            80
+        }
+    }
+    tirisfal_glade_region = {
+        strategic_regions = {
+            81
+        }
+    }
+    andorhal_region = {
+        strategic_regions = {
+            82
+        }
+    }
+    stratholme_region = {
+        strategic_regions = {
+            83
+        }
+    }
+    zulaman_region = {
+        strategic_regions = {
+            84
+        }
+    }
+    ghostlands_region = {
+        strategic_regions = {
+            85
+        }
+    }
+    eversong_woods_region = {
+        strategic_regions = {
+            86
+        }
+    }
+    isle_of_queldanas_region = {
+        strategic_regions = {
+            87
+        }
+    }
+}

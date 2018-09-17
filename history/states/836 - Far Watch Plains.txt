@@ -1,0 +1,63 @@
+state = {
+	id = 836
+	name = "FARWATCH_PLAINS"
+	manpower = 887
+	state_category = rural
+
+	resources = {
+		oil = 1
+		ground_beast = 1
+		flying_beast = 4
+		wood = 3
+		steel = 3
+		food = 14
+	}
+
+	history = {
+        owner = WIR
+		add_core_of = WIR
+        
+        612.1.1 = {
+            owner = RAZ
+            add_core_of = RAZ
+        }
+        
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 1
+			industrial_complex = 2
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			4939 = {
+				bunker = 0
+			}
+			4960 = {
+				bunker = 0
+			}
+			5059 = {
+				bunker = 0
+			}
+			5078 = {
+				bunker = 0
+			}
+			5118 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        4939 4960 5059 5078 5118 
+    }
+}

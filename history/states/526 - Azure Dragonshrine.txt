@@ -1,0 +1,75 @@
+state = {
+	id = 526
+	name = "AZURE_DRAGONSHRINE"
+	manpower = 9021
+	state_category = town
+
+	resources = {
+		oil = 3
+		ground_beast = 8
+		flying_beast = 7
+		wood = 2
+		steel = 1
+		food = 18
+	}
+
+	history = {
+		owner = ADS
+		add_core_of = ADS
+
+        # The Third War
+        612.1.1 = {
+            owner = SCO
+            add_core_of = SCO
+        }
+        
+		buildings = {
+			infrastructure = 7
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 7
+			industrial_complex = 3
+			dockyard = 2
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			5303 = {
+				bunker = 6
+				coastal_bunker = 2
+				naval_base = 8
+			}
+			5314 = {
+				bunker = 7
+				coastal_bunker = 7
+				naval_base = 5
+			}
+			6002 = {
+				bunker = 7
+			}
+			6064 = {
+				bunker = 4
+			}
+			6199 = {
+				bunker = 7
+			}
+			6218 = {
+				bunker = 5
+			}
+		}
+	}
+
+	provinces = {
+        5303 5314 6002 6064 6199 6218
+    }
+}

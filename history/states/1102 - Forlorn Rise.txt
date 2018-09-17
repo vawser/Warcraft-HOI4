@@ -1,0 +1,15 @@
+state = {
+	id = 1102
+	name = "FORLORN_RISE"
+	manpower = 25
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = BOX
+	}
+
+	provinces = {
+        6779
+    }
+}

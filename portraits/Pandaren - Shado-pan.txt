@@ -1,0 +1,78 @@
+SPN = {
+	army = {
+		male = {
+			"gfx/leaders/PANDAREN/shado_pan_male_1.dds"
+		}
+        female = {
+			"gfx/leaders/PANDAREN/shado_pan_female_1.dds"
+		}
+	}
+
+	navy = {
+		male = {
+			"gfx/leaders/PANDAREN/shado_pan_male_1.dds"
+		}
+        female = {
+			"gfx/leaders/PANDAREN/shado_pan_female_1.dds"
+		}
+	}
+
+	political = {
+		light = {
+			male = {
+                "gfx/leaders/PANDAREN/shado_pan_male_1.dds"
+            }
+            female = {
+                "gfx/leaders/PANDAREN/shado_pan_female_1.dds"
+            }
+		}
+		shadow = {
+			male = {
+                "gfx/leaders/PANDAREN/shado_pan_male_1.dds"
+            }
+            female = {
+                "gfx/leaders/PANDAREN/shado_pan_female_1.dds"
+            }
+		}
+        order = {
+			male = {
+                "gfx/leaders/PANDAREN/shado_pan_male_1.dds"
+            }
+            female = {
+                "gfx/leaders/PANDAREN/shado_pan_female_1.dds"
+            }
+		}
+        disorder = {
+			male = {
+                "gfx/leaders/PANDAREN/shado_pan_male_1.dds"
+            }
+            female = {
+                "gfx/leaders/PANDAREN/shado_pan_female_1.dds"
+            }
+		}
+        life = {
+			male = {
+                "gfx/leaders/PANDAREN/shado_pan_male_1.dds"
+            }
+            female = {
+                "gfx/leaders/PANDAREN/shado_pan_female_1.dds"
+            }
+		}
+        death = {
+			male = {
+                "gfx/leaders/PANDAREN/shado_pan_male_1.dds"
+            }
+            female = {
+                "gfx/leaders/PANDAREN/shado_pan_female_1.dds"
+            }
+		}
+        unaligned = {
+			male = {
+                "gfx/leaders/PANDAREN/shado_pan_male_1.dds"
+            }
+            female = {
+                "gfx/leaders/PANDAREN/shado_pan_female_1.dds"
+            }
+		}
+	}
+}

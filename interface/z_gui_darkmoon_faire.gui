@@ -1,0 +1,21 @@
+guiTypes = {
+    containerWindowType = {
+		name = "darkmoon_faire_menu"
+		position = { x = -300 y = -450 }	
+		
+		size = { width = 800 height= 800 }
+		
+		fade_time = 300
+		fade_type = linear
+		moveable = yes
+		show_sound = menu_open_window
+		click_to_front = yes
+        
+		orientation = center
+        
+		background = {
+			name = "Background"		
+			quadTextureSprite ="GFX_900x600_parchment_bg"
+		}
+    }
+}

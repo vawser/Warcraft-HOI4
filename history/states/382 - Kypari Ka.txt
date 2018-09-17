@@ -1,0 +1,54 @@
+state = {
+	id = 382
+	name = "KYPARI_KA"
+	manpower = 2018
+	state_category = village
+
+	resources = {
+		oil = 3
+		ground_beast = 3
+		wood = 6
+		steel = 6
+		food = 17
+	}
+
+	history = {
+		owner = MAN
+		add_core_of = MAN
+
+		buildings = {
+			infrastructure = 4
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 7
+			industrial_complex = 2
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			6539 = {
+				bunker = 0
+			}
+			6548 = {
+				bunker = 0
+			}
+			6614 = {
+				bunker = 0
+			}
+			6695 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        6539 6548 6614 6695 
+    }
+}

@@ -1,0 +1,84 @@
+state = {
+	id = 579
+	name = "JOTUNHEIM"
+	manpower = 6541
+	state_category = town
+
+	resources = {
+		oil = 2
+		ground_beast = 6
+		flying_beast = 6
+		wood = 8
+		steel = 7
+		food = 12
+	}
+
+	history = {
+		owner = JOT
+		add_core_of = JOT
+
+		buildings = {
+			infrastructure = 7
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 4
+			industrial_complex = 4
+			dockyard = 2
+
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			harbour = 0
+
+			manufactory = 0
+
+			5142 = {
+				bunker = 1
+				coastal_bunker = 7
+				naval_base = 8
+			}
+			5165 = {
+				bunker = 3
+				coastal_bunker = 4
+				naval_base = 6
+			}
+			5182 = {
+				bunker = 3
+				coastal_bunker = 5
+				naval_base = 2
+			}
+			5191 = {
+				bunker = 1
+				coastal_bunker = 5
+				naval_base = 9
+			}
+			5200 = {
+				bunker = 1
+				coastal_bunker = 7
+				naval_base = 4
+			}
+			5402 = {
+				bunker = 7
+			}
+			5423 = {
+				bunker = 7
+			}
+			5496 = {
+				bunker = 8
+			}
+			5539 = {
+				bunker = 9
+			}
+		}
+	}
+
+	provinces = {
+        5142 5165 5182 5191 5200 5402 5423 5496 5539 
+    }
+}

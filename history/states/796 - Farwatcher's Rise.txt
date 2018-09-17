@@ -1,0 +1,15 @@
+state = {
+	id = 796
+	name = "FARWATCHERS_RISE"
+	manpower = 68
+	state_category = wasteland
+    impassable = yes
+
+	history = {
+		owner = BFY
+	}
+
+	provinces = {
+        3229 4647 4665 4674 4700 4737 4770 4797 
+    }
+}

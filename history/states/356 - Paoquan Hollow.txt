@@ -1,0 +1,55 @@
+state = {
+	id = 356
+	name = "PAOQUAN_HOLLOW"
+	manpower = 777
+	state_category = rural
+
+	resources = {
+		oil = 3
+		ground_beast = 2
+		flying_beast = 9
+		wood = 4
+		steel = 5
+		food = 15
+	}
+
+	history = {
+		owner = TIL
+		add_core_of = TIL
+
+		buildings = {
+			infrastructure = 1
+			air_base = 0
+			anti_air_building = 0
+			radar_station = 0
+			
+			arms_factory = 3
+			industrial_complex = 1
+			temple = 0
+			forum = 0
+			tavern = 0
+			arena = 0
+			command_post = 0
+			training_ground = 0
+			airfield = 0
+			manufactory = 0
+
+			6807 = {
+				bunker = 0
+			}
+			6891 = {
+				bunker = 0
+			}
+			6905 = {
+				bunker = 0
+			}
+			7276 = {
+				bunker = 0
+			}
+		}
+	}
+
+	provinces = {
+        6807 6891 6905 7276 
+    }
+}

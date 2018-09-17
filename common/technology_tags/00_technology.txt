@@ -1,0 +1,100 @@
+# Do not change tags in here without changing every other reference to them.
+# If adding new technology, make sure they are uniquely named.
+
+technology_categories = {
+    # Infantry
+    infantry_tech
+    grunt_tech
+    champion_tech
+    archer_tech
+    spellcaster_tech
+    war_engine_tech
+
+    # Cavalry
+    cavalry_tech
+    light_cavalry_tech
+    heavy_cavalry_tech
+    
+    # Tank
+    tank_tech
+    light_tank_tech
+    heavy_tank_tech
+
+    # Support
+    support_tech
+    war_engine_support_tech
+    archer_support_tech
+    spellcaster_support_tech
+    logistics_support_tech
+    guard_support_tech
+    engineer_support_tech
+    medic_support_tech
+    scout_support_tech
+    cavalry_support_tech
+    
+    # Air
+    air_tech
+    fighter_tech
+    cas_tech
+    tactical_bomber_tech
+    strategic_bomber_tech
+    air_convoy_tech
+    
+    # Navy
+    navy_tech
+    cruiser_tech
+    battleship_tech
+    submarine_tech
+    destroyer_tech
+    convoy_tech
+
+    # Side
+    leadership_tech
+    experience_tech
+    organisation_tech
+    naval_invasion_tech
+    
+    # Industry
+    industry_tech
+    construction_tech
+    production_tech
+    repair_tech
+    efficiency_tech
+    
+    # Buildings
+    resource_tech
+    fuel_pump_tech
+    roost_tech
+    stable_tech
+    lumberyard_tech
+    smeltery_tech
+    farm_tech
+    
+    # Doctrine
+    land_doctrine_tech
+    air_doctrine_tech
+    naval_doctrine_tech
+    doctrine_tech
+    
+    # Statecraft
+    statecraft_tech
+    political_tech
+    espionage_tech
+    religion_tech
+    invention_tech
+    diplomacy_tech
+}
+
+technology_folders = {
+	army_folder
+    support_folder
+    air_folder
+    navy_folder
+    industry_folder
+    resources_folder
+    statecraft_folder
+    land_doctrine_folder
+    air_doctrine_folder
+    naval_doctrine_folder
+}
+
