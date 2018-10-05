@@ -1,4 +1,4 @@
 ﻿#---------------------------------------------------
-# Changelog
+# Bugs
 #---------------------------------------------------
-Reduced many positive modifiers from technology.
+Naval invasion -99% attack penalty
