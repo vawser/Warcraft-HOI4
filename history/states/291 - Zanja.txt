@@ -40,8 +40,6 @@ state = {
 
 			7208 = {
 				bunker = 0
-				coastal_bunker = 0
-				naval_base = 2
 			}
 			7209 = {
 				bunker = 0

@@ -2,3 +2,8 @@
 # Bugs
 #---------------------------------------------------
 Naval invasion -99% attack penalty
+
+Revantusk/Zandalar CTD on war declaration (Trolls?)
+605 date crash?
+
+Military Effectiveness bad scaling

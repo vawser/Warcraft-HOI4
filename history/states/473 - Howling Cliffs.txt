@@ -1,15 +1,15 @@
 state = {
 	id = 473
 	name = "HOWLING_CLIFFS"
-	manpower = 616
-	state_category = rural
+	manpower = 3616
+	state_category = small_village
 
 	resources = {
 		ground_beast = 8
-		flying_beast = 3
-		wood = 1
-		steel = 5
-		food = 11
+		flying_beast = 18
+		wood = 0
+		steel = 22
+		food = 0
 	}
 
 	history = {
@@ -23,7 +23,7 @@ state = {
 			radar_station = 0
 			
 			arms_factory = 1
-			industrial_complex = 2
+			industrial_complex = 3
 			temple = 0
 			forum = 0
 			tavern = 0

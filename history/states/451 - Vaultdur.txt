@@ -2,13 +2,13 @@ state = {
 	id = 451
 	name = "VALUTDAR"
 	manpower = 488
-	state_category = rural
+	state_category = small_settlement
 
 	resources = {
-		ground_beast = 3
-		flying_beast = 7
-		wood = 2
-		steel = 6
+		ground_beast = 0
+		flying_beast = 8
+		wood = 0
+		steel = 0
 		food = 22
 	}
 
@@ -23,7 +23,7 @@ state = {
 			radar_station = 0
 			
 			arms_factory = 1
-			industrial_complex = 3
+			industrial_complex = 2
 			dockyard = 0
 
 			temple = 0

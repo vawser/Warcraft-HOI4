@@ -27,8 +27,8 @@ state = {
 			radar_station = 0
 			
 			arms_factory = 5
-			industrial_complex = 6
-			dockyard = 8
+			industrial_complex = 4
+			dockyard = 5
 
 			temple = 0
 			forum = 0

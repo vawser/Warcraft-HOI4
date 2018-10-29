@@ -1,15 +1,16 @@
 state = {
 	id = 457
 	name = "UTGARDE_KEEP"
-	manpower = 10990
+	manpower = 11990
 	state_category = city
 
 	resources = {
-		oil = 1
-		ground_beast = 5
-		flying_beast = 7
-		wood = 13
-		food = 17
+		oil = 0
+		ground_beast = 0
+		flying_beast = 8
+		wood = 22
+		steel = 12
+		food = 0
 	}
 
 	history = {
@@ -22,8 +23,8 @@ state = {
 			anti_air_building = 0
 			radar_station = 0
 			
-			arms_factory = 8
-			industrial_complex = 6
+			arms_factory = 5
+			industrial_complex = 4
 			temple = 0
 			forum = 0
 			tavern = 0

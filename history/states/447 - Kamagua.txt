@@ -1,16 +1,16 @@
 state = {
 	id = 447
 	name = "KAMAGUA"
-	manpower = 4216
-	state_category = village
+	manpower = 3216
+	state_category = large_island
 
 	resources = {
-		oil = 2
-		ground_beast = 9
-		flying_beast = 2
-		wood = 1
+		oil = 0
+		ground_beast = 16
+		flying_beast = 0
+		wood = 6
 		steel = 4
-		food = 14
+		food = 21
 	}
 
 	history = {
@@ -23,9 +23,9 @@ state = {
 			anti_air_building = 0
 			radar_station = 0
 			
-			arms_factory = 0
-			industrial_complex = 4
-			dockyard = 3
+			arms_factory = 1
+			industrial_complex = 2
+			dockyard = 1
 
 			temple = 0
 			forum = 0

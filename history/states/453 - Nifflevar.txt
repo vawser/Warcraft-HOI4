@@ -2,14 +2,11 @@ state = {
 	id = 453
 	name = "NIFFLEVAR"
 	manpower = 4501
-	state_category = village
+	state_category = small_village
 
 	resources = {
-		ground_beast = 4
-		flying_beast = 6
-		wood = 2
-		steel = 8
-		food = 15
+		ground_beast = 13
+		food = 24
 	}
 
 	history = {
@@ -24,7 +21,7 @@ state = {
 			
 			arms_factory = 2
 			industrial_complex = 2
-			dockyard = 3
+			dockyard = 1
 
 			temple = 0
 			forum = 0

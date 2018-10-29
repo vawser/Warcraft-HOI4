@@ -1,16 +1,16 @@
 state = {
 	id = 459
 	name = "CAMP_WINTERHOOF"
-	manpower = 1875
-	state_category = village
+	manpower = 3875
+	state_category = small_village
 
 	resources = {
-		oil = 1
-		ground_beast = 6
-		flying_beast = 2
-		wood = 6
-		steel = 5
-		food = 17
+		oil = 0
+		ground_beast = 8
+		flying_beast = 0
+		wood = 12
+		steel = 0
+		food = 20
 	}
 
 	history = {
@@ -23,7 +23,7 @@ state = {
 			anti_air_building = 0
 			radar_station = 0
 			
-			arms_factory = 4
+			arms_factory = 2
 			industrial_complex = 3
 			temple = 0
 			forum = 0

@@ -2,14 +2,14 @@ state = {
 	id = 480
 	name = "THOR_MODAN"
 	manpower = 4762
-	state_category = town
+	state_category = small_village
 
 	resources = {
-		ground_beast = 4
-		flying_beast = 8
-		wood = 24
-		steel = 6
-		food = 16
+		ground_beast = 0
+		flying_beast = 12
+		wood = 0
+		steel = 16
+		food = 12
 	}
 
 	history = {
@@ -22,7 +22,7 @@ state = {
 			anti_air_building = 0
 			radar_station = 0
 			
-			arms_factory = 8
+			arms_factory = 3
 			industrial_complex = 4
 			temple = 0
 			forum = 0

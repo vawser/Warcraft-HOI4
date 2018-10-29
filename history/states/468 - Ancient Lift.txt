@@ -2,14 +2,14 @@ state = {
 	id = 468
 	name = "ANCIENT_LIFT"
 	manpower = 555
-	state_category = rural
+	state_category = small_settlement
 
 	resources = {
-		ground_beast = 3
-		flying_beast = 4
-		wood = 2
-		steel = 13
-		food = 19
+		ground_beast = 0
+		flying_beast = 0
+		wood = 8
+		steel = 0
+		food = 12
 	}
 
 	history = {
@@ -24,7 +24,7 @@ state = {
 			
 			arms_factory = 1
 			industrial_complex = 1
-			dockyard = 2
+			dockyard = 1
 
 			temple = 0
 			forum = 0

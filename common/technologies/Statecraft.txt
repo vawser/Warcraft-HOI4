@@ -32,7 +32,7 @@ technologies = {
     # Political Power
     #-----------------------------------------------------------------
     political_power_1 = {
-        political_power_factor = 0.05
+        political_power_factor = 0.1
  
         research_cost = 12
 
@@ -72,7 +72,7 @@ technologies = {
         
     }
     political_power_2 = {
-        political_power_factor = 0.05
+        political_power_factor = 0.1
         
         research_cost = 12
 
@@ -103,7 +103,7 @@ technologies = {
 		}
     }
     political_power_3 = {
-        political_power_factor = 0.05
+        political_power_factor = 0.1
         
         research_cost = 12
 
@@ -134,7 +134,7 @@ technologies = {
     }
     
     political_power_4 = {
-        political_power_factor = 0.05
+        political_power_factor = 0.1
         
         research_cost = 12
 
@@ -165,7 +165,7 @@ technologies = {
     }
     
     political_power_5 = {
-        political_power_factor = 0.05
+        political_power_factor = 0.1
         
         research_cost = 12
 
@@ -1134,7 +1134,7 @@ technologies = {
     # Drift Defence
     #-----------------------------------------------------------------
     drift_defence_1 = {
-        drift_defence_factor = 0.05
+        drift_defence_factor = 0.1
  
         research_cost = 12
 
@@ -1166,7 +1166,7 @@ technologies = {
         
     }
     drift_defence_2 = {
-        drift_defence_factor = 0.05
+        drift_defence_factor = 0.1
         
         research_cost = 12
 
@@ -1197,7 +1197,7 @@ technologies = {
 		}
     }
     drift_defence_3 = {
-        drift_defence_factor = 0.05
+        drift_defence_factor = 0.1
         
         research_cost = 12
 
@@ -1228,7 +1228,7 @@ technologies = {
     }
     
     drift_defence_4 = {
-        drift_defence_factor = 0.05
+        drift_defence_factor = 0.1
         
         research_cost = 12
 
@@ -1259,7 +1259,7 @@ technologies = {
     }
     
     drift_defence_5 = {
-        drift_defence_factor = 0.05
+        drift_defence_factor = 0.1
         
         research_cost = 12
 
@@ -1288,7 +1288,7 @@ technologies = {
     # Opinion Gain
     #-----------------------------------------------------------------
     opinion_gain_1 = {
-        opinion_gain_monthly_factor = 0.05
+        opinion_gain_monthly_factor = 0.1
  
         research_cost = 12
 
@@ -1320,7 +1320,7 @@ technologies = {
         
     }
     opinion_gain_2 = {
-        opinion_gain_monthly_factor = 0.05
+        opinion_gain_monthly_factor = 0.1
         
         research_cost = 12
 
@@ -1351,7 +1351,7 @@ technologies = {
 		}
     }
     opinion_gain_3 = {
-        opinion_gain_monthly_factor = 0.05
+        opinion_gain_monthly_factor = 0.1
         
         research_cost = 12
 
@@ -1382,7 +1382,7 @@ technologies = {
     }
     
     opinion_gain_4 = {
-        opinion_gain_monthly_factor = 0.05
+        opinion_gain_monthly_factor = 0.1
         
         research_cost = 12
 
@@ -1413,7 +1413,7 @@ technologies = {
     }
     
     opinion_gain_5 = {
-        opinion_gain_monthly_factor = 0.05
+        opinion_gain_monthly_factor = 0.1
         
         research_cost = 12
 

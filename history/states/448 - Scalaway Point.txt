@@ -1,15 +1,15 @@
 state = {
 	id = 448
 	name = "SCALAWAG_POINT"
-	manpower = 757
-	state_category = rural
+	manpower = 1757
+	state_category = island
 
 	resources = {
-		oil = 2
-		flying_beast = 2
-		wood = 2
-		steel = 1
-		food = 17
+		oil = 12
+		flying_beast = 0
+		wood = 6
+		steel = 0
+		food = 16
 	}
 
 	history = {
@@ -23,7 +23,7 @@ state = {
 			radar_station = 0
 			
 			arms_factory = 1
-			industrial_complex = 0
+			industrial_complex = 2
 			dockyard = 0
 
 			temple = 0

@@ -1,15 +1,12 @@
 state = {
 	id = 452
 	name = "NIFLERBREN_POINT"
-	manpower = 603
-	state_category = rural
+	manpower = 1603
+	state_category = settlement
 
 	resources = {
-		oil = 1
-		ground_beast = 5
-		flying_beast = 1
-		steel = 11
-		food = 16
+		steel = 12
+		food = 0
 	}
 
 	history = {
@@ -23,8 +20,8 @@ state = {
 			radar_station = 0
 			
 			arms_factory = 0
-			industrial_complex = 1
-			dockyard = 2
+			industrial_complex = 2
+			dockyard = 1
 
 			temple = 0
 			forum = 0

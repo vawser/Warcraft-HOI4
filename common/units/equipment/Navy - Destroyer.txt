@@ -32,39 +32,39 @@ equipments = {
             wm_destroyer_build_cost_ic
 		}
 
-        max_organisation = 40
+        max_organisation = 30
 		supply_consumption = 0.1
         
-        reliability = 0.7
-        max_strength = 25
+        reliability = 0.8
+        max_strength = 60
         
-        ap_attack = 2
-        attack = 2
-        anti_air_attack = 2
-        torpedo_attack = 2
-        sub_attack = 5
+        ap_attack = 5
+        attack = 3
+        anti_air_attack = 7
+        torpedo_attack = 0
+        sub_attack = 8
         
-        fire_range = 10
+        fire_range = 12
         
-        armor_value = 0
+        armor_value = 2
         evasion = 50
         
         sub_detection = 40
         surface_detection = 20
         surface_visibility = 10
         
-        naval_range = 1000
-        naval_speed = 15
+        naval_range = 1200
+        naval_speed = 18
         
-        port_capacity_usage = 1
+        port_capacity_usage = 0.1
         
-        manpower = 50
-        build_cost_ic = 200
+        manpower = 70
+        build_cost_ic = 500
         
 		resources = {
-			steel = 4
-            oil = 3
-            wood = 4
+			steel = 1
+            oil = 1
+            wood = 3
 		}
 	}
     
@@ -78,79 +78,79 @@ equipments = {
         parent = destroyer_equipment_0
 		priority = 20
 
-        max_organisation = 40
-		supply_consumption = 0.1
+        max_organisation = 30
+		supply_consumption = 0.2
         
-        reliability = 0.7
-        max_strength = 25
+        reliability = 0.8
+        max_strength = 60
         
-        ap_attack = 2
-        attack = 2
-        anti_air_attack = 2
-        torpedo_attack = 2
-        sub_attack = 5
+        ap_attack = 5
+        attack = 3
+        anti_air_attack = 7
+        torpedo_attack = 0
+        sub_attack = 8
         
-        fire_range = 10
+        fire_range = 12
         
-        armor_value = 0
+        armor_value = 2
         evasion = 50
         
         sub_detection = 40
         surface_detection = 20
         surface_visibility = 10
         
-        naval_range = 1000
-        naval_speed = 15
+        naval_range = 1200
+        naval_speed = 18
         
-        port_capacity_usage = 1
+        port_capacity_usage = 0.2
         
-        manpower = 50
-        build_cost_ic = 200
+        manpower = 70
+        build_cost_ic = 750
         
-		resources = {
-			steel = 4
-            oil = 3
-            wood = 4
-		}
+        resources = {
+            steel = 1
+            oil = 1
+            wood = 3
+        }
 	}
     destroyer_equipment_2 = {
 		archetype = destroyer_equipment
         parent = destroyer_equipment_1
 		priority = 30
 
-        max_organisation = 40
-		supply_consumption = 0.1
+        max_organisation = 32
+		supply_consumption = 0.2
         
-        reliability = 0.8
-        max_strength = 25
+        reliability = 0.85
+        max_strength = 80
         
-        ap_attack = 4
+        ap_attack = 7
         attack = 4
-        anti_air_attack = 4
-        torpedo_attack = 4
-        sub_attack = 10
+        anti_air_attack = 10
+        torpedo_attack = 0
+        sub_attack = 16
         
-        fire_range = 15
+        fire_range = 14
         
-        armor_value = 0
+        armor_value = 3
         evasion = 60
         
         sub_detection = 45
         surface_detection = 25
-        surface_visibility = 8
+        surface_visibility = 12
         
-        naval_range = 1500
+        naval_range = 2250
         naval_speed = 20
         
-        port_capacity_usage = 1
+        port_capacity_usage = 0.2
         
-        manpower = 50
-        build_cost_ic = 250
+        manpower = 100
+        build_cost_ic = 1000
         
 		resources = {
-			steel = 5
-            oil = 4
-            wood = 5
+			steel = 2
+            oil = 2
+            wood = 4
 		}
 	}
     destroyer_equipment_3 = {
@@ -158,39 +158,39 @@ equipments = {
         parent = destroyer_equipment_2
 		priority = 40
 
-        max_organisation = 40
-		supply_consumption = 0.1
+        max_organisation = 35
+		supply_consumption = 0.3
         
         reliability = 0.9
-        max_strength = 25
+        max_strength = 100
         
-        ap_attack = 6
+        ap_attack = 9
         attack = 6
-        anti_air_attack = 6
-        torpedo_attack = 6
-        sub_attack = 15
+        anti_air_attack = 12
+        torpedo_attack = 0
+        sub_attack = 20
         
-        fire_range = 20
+        fire_range = 15
         
-        armor_value = 0
+        armor_value = 4
         evasion = 70
         
         sub_detection = 50
         surface_detection = 30
-        surface_visibility = 8
+        surface_visibility = 13
         
-        naval_range = 2000
-        naval_speed = 25
+        naval_range = 3000
+        naval_speed = 22
         
-        port_capacity_usage = 1
+        port_capacity_usage = 0.3
         
-        manpower = 50
-        build_cost_ic = 300
+        manpower = 120
+        build_cost_ic = 1300
         
 		resources = {
-			steel = 6
-            oil = 5
-            wood = 6
+			steel = 2
+            oil = 3
+            wood = 5
 		}
 	}
 }

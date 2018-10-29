@@ -51,10 +51,10 @@ set_politics = {
 			popularity = 10
 		}
 		order = {
-			popularity = 70
+			popularity = 50
 		}
         disorder = {
-			popularity = 5
+			popularity = 10
 		}
         life = {
 			popularity = 0

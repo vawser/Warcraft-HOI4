@@ -2,15 +2,15 @@ state = {
 	id = 465
 	name = "HOWLING_WOODS"
 	manpower = 458
-	state_category = rural
+	state_category = small_settlement
 
 	resources = {
-		oil = 2
-		ground_beast = 6
-		flying_beast = 6
-		wood = 22
-		steel = 7
-		food = 13
+		oil = 0
+		ground_beast = 0
+		flying_beast = 0
+		wood = 18
+		steel = 8
+		food = 0
 	}
 
 	history = {

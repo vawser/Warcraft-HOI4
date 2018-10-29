@@ -5,11 +5,7 @@ state = {
 	state_category = rural
 
 	resources = {
-		oil = 1
-		ground_beast = 1
-		flying_beast = 5
-		steel = 2
-		food = 28
+		food = 16
 	}
 
 	history = {
@@ -23,7 +19,7 @@ state = {
 			radar_station = 0
 			
 			arms_factory = 1
-			industrial_complex = 2
+			industrial_complex = 0
 			dockyard = 1
 
 			temple = 0

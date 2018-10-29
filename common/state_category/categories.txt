@@ -1,26 +1,62 @@
 state_categories={
+	metropolis = {
+		local_building_slots = 25
+		color = { 47 40 40}
+	}
+	keep = {
+		local_building_slots = 21
+		color = { 46 40 40}
+	}
     city = {
-		local_building_slots = 20
+		local_building_slots = 18
         color = { 0 240 240 }
 	}
     town = {
 		local_building_slots = 15
 		color = { 0 240 0 }
 	}
+	small_town = {
+		local_building_slots = 12
+		color = { 45 40 40}
+	}
     village = {
 		local_building_slots = 10
 		color = { 200 200 0 }
+	}
+	small_village = {
+		local_building_slots = 8
+		color = { 44 40 40}
+	}
+	settlement = {
+		local_building_slots = 6
+		color = { 43 40 40}
 	}
     rural = {
 		local_building_slots = 5
 		color = { 240 160 0 }
 	}
-    island = {
+	small_settlement = {
 		local_building_slots = 4
-		color = { 200 160 0 }
+		color = { 42 40 40}
+	}
+	wilderness = {
+		local_building_slots = 2
+		color = { 41 40 40}
 	}
     wasteland = {
 		local_building_slots = 0
 		color = { 40 40 40 }
+	}
+	large_island = {
+		local_building_slots = 6
+		color = { 201 160 0 }
+	}
+	island = {
+		local_building_slots = 4
+		color = { 200 160 0 }
+	}
+	small_island = {
+		local_building_slots = 2
+		color = { 199 160 0 }
 	}
 }

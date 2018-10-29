@@ -32,35 +32,34 @@ equipments = {
         max_organisation = 40
 		supply_consumption = 0.1
         
-        reliability = 0.60
-        max_strength = 10
+        reliability = 0.7
+        max_strength = 100
 		
-		fire_range = 10
-		torpedo_attack = 10
-		anti_air_attack = 1
+		fire_range = 15
+		torpedo_attack = 12
+		anti_air_attack = 2
 		
 		evasion = 20
-		surface_detection = 20
-		surface_visibility = 1
-		sub_visibility = 0
+		surface_detection = 25
+		surface_visibility = 3
+		sub_visibility = 5
 		
-		naval_range = 1000
+		naval_range = 2000
 		naval_speed = 10
         
         ap_attack = 0
 		attack = 0
-        armor_value = 0
-        sub_detection = 0
+        armor_value = 5
+        sub_detection = 5
         
 		port_capacity_usage = 0.5
 		manpower = 25
         
-		build_cost_ic = 200
+		build_cost_ic = 3000
         
 		resources = {
-			steel = 4
-            oil = 3
-            wood = 4
+			food = 4
+            ground_beast = 3
 		}
 	}
     
@@ -75,37 +74,36 @@ equipments = {
 		priority = 20
 
         max_organisation = 40
-		supply_consumption = 0.1
+		supply_consumption = 0.6
         
         reliability = 0.60
-        max_strength = 10
+        max_strength = 120
 		
-		fire_range = 10
-		torpedo_attack = 10
-		anti_air_attack = 1
+		fire_range = 18
+		torpedo_attack = 15
+		anti_air_attack = 4
 		
-		evasion = 20
-		surface_detection = 20
-		surface_visibility = 1
-		sub_visibility = 20
+		evasion = 22
+		surface_detection = 30
+		surface_visibility = 4
+		sub_visibility = 10
 		
-		naval_range = 1000
-		naval_speed = 10
+		naval_range = 3000
+		naval_speed = 12
         
         ap_attack = 0
 		attack = 0
-        armor_value = 0
-        sub_detection = 0
+        armor_value = 6
+        sub_detection = 12
         
 		port_capacity_usage = 0.5
-		manpower = 25
+		manpower = 30
         
-		build_cost_ic = 100
+		build_cost_ic = 3600
         
 		resources = {
-			steel = 4
-            oil = 3
-            wood = 4
+			food = 5
+            ground_beast = 3
 		}
 	}
     submarine_equipment_2 = {
@@ -114,37 +112,36 @@ equipments = {
 		priority = 30
 
         max_organisation = 40
-		supply_consumption = 0.1
+		supply_consumption = 0.7
         
         reliability = 0.7
-        max_strength = 10
+        max_strength = 125
 		
-		fire_range = 15
-		torpedo_attack = 15
-		anti_air_attack = 2
+		fire_range = 20
+		torpedo_attack = 18
+		anti_air_attack = 7
 		
 		evasion = 30
-		surface_detection = 30
-		surface_visibility = 1
-		sub_visibility = 30
+		surface_detection = 35
+		surface_visibility = 5
+		sub_visibility = 15
 		
-		naval_range = 1500
+		naval_range = 4500
 		naval_speed = 15
         
         ap_attack = 0
 		attack = 0
-        armor_value = 0
-        sub_detection = 0
+        armor_value = 8
+        sub_detection = 20
         
 		port_capacity_usage = 0.5
-		manpower = 25
+		manpower = 35
         
-		build_cost_ic = 150
+		build_cost_ic = 4200
         
 		resources = {
-			steel = 5
-            oil = 4
-            wood = 5
+			food = 5
+            ground_beast = 4
 		}
 	}
     submarine_equipment_3 = {
@@ -153,37 +150,36 @@ equipments = {
 		priority = 40
 
         max_organisation = 40
-		supply_consumption = 0.1
+		supply_consumption = 0.8
         
         reliability = 0.9
-        max_strength = 10
+        max_strength = 150
 		
-		fire_range = 20
-		torpedo_attack = 20
-		anti_air_attack = 3
+		fire_range = 22
+		torpedo_attack = 21
+		anti_air_attack = 10
 		
 		evasion = 40
-		surface_detection = 40
-		surface_visibility = 1
-		sub_visibility = 40
+		surface_detection = 45
+		surface_visibility = 20
+		sub_visibility = 30
 		
-		naval_range = 2000
-		naval_speed = 20
+		naval_range = 6000
+		naval_speed = 18
         
         ap_attack = 0
 		attack = 0
-        armor_value = 0
-        sub_detection = 0
+        armor_value = 10
+        sub_detection = 30
         
 		port_capacity_usage = 0.5
-		manpower = 25
+		manpower = 35
         
-		build_cost_ic = 200
+		build_cost_ic = 4900
         
 		resources = {
-			steel = 6
-            oil = 5
-            wood = 6
+			food = 6
+			ground_beast = 5
 		}
 	}
 }

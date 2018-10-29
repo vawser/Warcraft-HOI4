@@ -1,16 +1,16 @@
 state = {
 	id = 463
 	name = "FORT_WESTGARDE"
-	manpower = 8317
-	state_category = town
+	manpower = 5317
+	state_category = village
 
 	resources = {
-		oil = 1
-		ground_beast = 9
-		flying_beast = 1
-		wood = 8
-		steel = 11
-		food = 13
+		oil = 0
+		ground_beast = 0
+		flying_beast = 0
+		wood = 0
+		steel = 12
+		food = 20
 	}
 
 	history = {
@@ -18,14 +18,14 @@ state = {
 		add_core_of = WTO
 
 		buildings = {
-			infrastructure = 5
+			infrastructure = 4
 			air_base = 0
 			anti_air_building = 0
 			radar_station = 0
 			
-			arms_factory = 3
+			arms_factory = 2
 			industrial_complex = 3
-			dockyard = 7
+			dockyard = 2
 
 			temple = 0
 			forum = 0

@@ -27,7 +27,7 @@ technologies = {
         
         research_cost = 6
 
-        naval_detection = 0.1
+        naval_detection = 0.25
         
         folder = {
 			name = naval_doctrine_folder
@@ -64,7 +64,7 @@ technologies = {
     naval_doctrine_tech_2 = {
         doctrine = yes
         
-        naval_coordination = 0.1
+        naval_coordination = 0.25
         
         research_cost = 6
 
@@ -108,10 +108,10 @@ technologies = {
         doctrine = yes
 
         battleship = {
-            attack = 0.1
+            attack = 0.25
         }
         cruiser = {
-            attack = 0.1
+            attack = 0.25
         }
         
         research_cost = 6
@@ -163,10 +163,10 @@ technologies = {
         doctrine = yes
         
         battleship = {
-            armor_value = 0.1
+            armor_value = 0.25
         }
         cruiser = {
-            armor_value = 0.1
+            armor_value = 0.25
         }
         
         research_cost = 6
@@ -211,10 +211,10 @@ technologies = {
         doctrine = yes
         
         destroyer = {
-            naval_range = 0.1
+            naval_range = 0.25
         }
         submarine = {
-            naval_range = 0.1
+            naval_range = 0.25
         }
         
         research_cost = 6
@@ -266,10 +266,10 @@ technologies = {
         doctrine = yes
         
         destroyer = {
-            naval_speed = 0.1
+            naval_speed = 0.25
         }
         submarine = {
-            naval_speed = 0.1
+            naval_speed = 0.25
         }
         
         research_cost = 6
@@ -314,7 +314,7 @@ technologies = {
         doctrine = yes
         
         battleship = {
-            shore_bombardment = 0.15
+            shore_bombardment = 0.5
         }
         
         research_cost = 12
@@ -355,7 +355,7 @@ technologies = {
         doctrine = yes
         
         battleship = {
-            fire_range = 0.15
+            fire_range = 0.5
         }
         
         research_cost = 12
@@ -393,10 +393,10 @@ technologies = {
         research_cost = 6
 
         battleship = {
-            naval_speed = 0.1
+            naval_speed = 0.25
         }
         cruiser = {
-            naval_speed = 0.1
+            naval_speed = 0.25
         }
         
         folder = {
@@ -435,7 +435,7 @@ technologies = {
         doctrine = yes
         
         destroyer = {
-            sub_attack = 0.15
+            sub_attack = 0.5
         }
         
         research_cost = 12
@@ -476,7 +476,7 @@ technologies = {
         doctrine = yes
         
         submarine = {
-            torpedo_attack = 0.15
+            torpedo_attack = 0.5
         }
         
         research_cost = 12
@@ -512,12 +512,12 @@ technologies = {
         doctrine = yes
         
         destroyer = {
-            surface_detection = 0.1
-            sub_detection = 0.1
+            surface_detection = 0.25
+            sub_detection = 0.25
         }
         submarine = {
-            surface_detection = 0.1
-            sub_detection = 0.1
+            surface_detection = 0.25
+            sub_detection = 0.25
         }
         
         research_cost = 6
@@ -557,7 +557,7 @@ technologies = {
     naval_doctrine_tech_13 = {
         doctrine = yes
         
-        naval_speed_factor = 0.05
+        naval_speed_factor = 0.25
         
         research_cost = 6
 
@@ -596,7 +596,7 @@ technologies = {
     naval_doctrine_tech_14 = {
         doctrine = yes
         
-        navy_org_factor = 0.05
+        navy_org_factor = 0.25
         
         research_cost = 6
 
@@ -639,7 +639,7 @@ technologies = {
     naval_doctrine_tech_15 = {
         doctrine = yes
         
-        navy_capital_ship_defence_factor = 0.1
+        navy_capital_ship_defence_factor = 0.25
         
         research_cost = 6
 
@@ -689,7 +689,7 @@ technologies = {
     naval_doctrine_tech_16 = {
         doctrine = yes
         
-        naval_hit_chance = 0.05
+        naval_hit_chance = 0.25
         
         research_cost = 6
 
@@ -732,8 +732,8 @@ technologies = {
     naval_doctrine_tech_17 = {
         doctrine = yes
         
-        navy_screen_attack_factor = 0.05
-        navy_submarine_attack_factor = 0.05
+        navy_screen_attack_factor = 0.25
+        navy_submarine_attack_factor = 0.25
         
         research_cost = 6
 
@@ -783,7 +783,7 @@ technologies = {
     naval_doctrine_tech_18 = {
         doctrine = yes
         
-        naval_torpedo_range_factor = 0.1
+        naval_torpedo_range_factor = 0.25
         
         research_cost = 6
 
@@ -826,7 +826,7 @@ technologies = {
     naval_doctrine_tech_19 = {
         doctrine = yes
         
-        navy_max_range_factor = 0.25
+        navy_max_range_factor = 1.0
         
         research_cost = 6
 
@@ -860,7 +860,7 @@ technologies = {
     naval_doctrine_tech_20 = {
         doctrine = yes
         
-        naval_morale_factor = 0.1
+        naval_morale_factor = 0.25
         
         research_cost = 6
 
@@ -894,8 +894,8 @@ technologies = {
     naval_doctrine_tech_21 = {
         doctrine = yes
         
-        naval_retreat_chance = 0.1
-        naval_retreat_speed = 0.1
+        naval_retreat_chance = 0.25
+        naval_retreat_speed = 0.25
         
         research_cost = 6
 

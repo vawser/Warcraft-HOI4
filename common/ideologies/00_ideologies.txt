@@ -26,26 +26,26 @@ ideologies = {
 		color = { 232 244 66 }
 		
 		rules = {
-			can_declare_war_on_same_ideology = yes
-			can_force_government = no
+			can_declare_war_on_same_ideology = no
+			can_force_government = yes
 			can_send_volunteers = no
-			can_puppet = yes
+			can_puppet = no
 			can_lower_tension = yes
             can_only_justify_war_on_threat_country = no
-			can_guarantee_other_ideologies = no
+			can_guarantee_other_ideologies = yes
 		}
 		
-		war_impact_on_world_tension = -1.0
-		faction_impact_on_world_tension = -0.1
+		war_impact_on_world_tension = 0.25
+		faction_impact_on_world_tension = 0.05
 		
 		modifiers = {
-            generate_wargoal_tension = 0.0
-            join_faction_tension = 0.0
+            generate_wargoal_tension = 0.5
+            join_faction_tension = 0.2
             lend_lease_tension = 0.0
             send_volunteers_tension = 0.0
-            guarantee_tension = 0.0
+            guarantee_tension = 0.1
             civil_war_involvement_tension = 0.0
-            justify_war_goal_time = -0.9
+            justify_war_goal_time = 0.25
 		}
         
 		ai_democratic = yes
@@ -79,17 +79,17 @@ ideologies = {
 			can_guarantee_other_ideologies = no
 		}
 		
-		war_impact_on_world_tension = 0.5
+		war_impact_on_world_tension = 0.75
 		faction_impact_on_world_tension = 0.5
 		
 		modifiers = {
             generate_wargoal_tension = 0.0
-            join_faction_tension = 0.0
+            join_faction_tension = 0.05
             lend_lease_tension = 0.0
             send_volunteers_tension = 0.0
             guarantee_tension = 0.0
             civil_war_involvement_tension = 0.0
-            justify_war_goal_time = -0.9
+            justify_war_goal_time = -0.5
 		}
 		
 		ai_fascist = yes
@@ -114,26 +114,26 @@ ideologies = {
 		color = { 123 201 216 }
 		
 		rules = {
-			can_declare_war_on_same_ideology = yes
-			can_force_government = no
+			can_declare_war_on_same_ideology = no
+			can_force_government = yes
 			can_send_volunteers = no
 			can_puppet = yes
 			can_lower_tension = yes
-            can_only_justify_war_on_threat_country = no
-			can_guarantee_other_ideologies = no
+            can_only_justify_war_on_threat_country = yes
+			can_guarantee_other_ideologies = yes
 		}
 		
-		war_impact_on_world_tension = -1.0
+		war_impact_on_world_tension = -0.25
 		faction_impact_on_world_tension = -0.1
 		
 		modifiers = {
-			generate_wargoal_tension = 0.0
-            join_faction_tension = 0.0
+			generate_wargoal_tension = 0.2
+            join_faction_tension = 0.25
             lend_lease_tension = 0.0
             send_volunteers_tension = 0.0
-            guarantee_tension = 0.0
+            guarantee_tension = 0.05
             civil_war_involvement_tension = 0.0
-            justify_war_goal_time = -0.9
+            justify_war_goal_time = 0.0
 		}
 		
 		ai_democratic = yes
@@ -159,9 +159,9 @@ ideologies = {
 		
 		rules = {
 			can_declare_war_on_same_ideology = yes
-			can_force_government = no
-			can_send_volunteers = no
-			can_puppet = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = no
 			can_lower_tension = no
             can_only_justify_war_on_threat_country = no
 			can_guarantee_other_ideologies = no
@@ -172,12 +172,12 @@ ideologies = {
 		
 		modifiers = {
 			generate_wargoal_tension = 0.0
-            join_faction_tension = 0.0
+            join_faction_tension = 0.05
             lend_lease_tension = 0.0
             send_volunteers_tension = 0.0
             guarantee_tension = 0.0
             civil_war_involvement_tension = 0.0
-            justify_war_goal_time = -0.9
+            justify_war_goal_time = -0.75
 		}
 		
 		ai_fascist = yes
@@ -203,25 +203,25 @@ ideologies = {
 		
 		rules = {
 			can_declare_war_on_same_ideology = yes
-			can_force_government = no
-			can_send_volunteers = no
-			can_puppet = yes
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = no
 			can_lower_tension = yes
             can_only_justify_war_on_threat_country = no
-			can_guarantee_other_ideologies = no
+			can_guarantee_other_ideologies = yes
 		}
 		
-		war_impact_on_world_tension = -1.0
-		faction_impact_on_world_tension = -0.1
+		war_impact_on_world_tension = 0.2
+		faction_impact_on_world_tension = 0.1
 		
 		modifiers = {
 			generate_wargoal_tension = 0.0
-            join_faction_tension = 0.0
+            join_faction_tension = 0.25
             lend_lease_tension = 0.0
-            send_volunteers_tension = 0.0
-            guarantee_tension = 0.0
+            send_volunteers_tension = 0.25
+            guarantee_tension = 0.10
             civil_war_involvement_tension = 0.0
-            justify_war_goal_time = -0.9
+            justify_war_goal_time = -0.25
 		}
 		
 		ai_neutral = yes
@@ -249,14 +249,14 @@ ideologies = {
 			can_declare_war_on_same_ideology = yes
 			can_force_government = no
 			can_send_volunteers = no
-			can_puppet = yes
+			can_puppet = no
 			can_lower_tension = no
             can_only_justify_war_on_threat_country = no
 			can_guarantee_other_ideologies = no
 		}
 		
-		war_impact_on_world_tension = 0.75
-		faction_impact_on_world_tension = 0.5
+		war_impact_on_world_tension = 1.5
+		faction_impact_on_world_tension = 1
 		
 		modifiers = {
             generate_wargoal_tension = 0.0
@@ -265,7 +265,7 @@ ideologies = {
             send_volunteers_tension = 0.0
             guarantee_tension = 0.0
             civil_war_involvement_tension = 0.0
-            justify_war_goal_time = -0.9
+            justify_war_goal_time = -0.95
 		}
 		
 		ai_fascist = yes
@@ -293,23 +293,23 @@ ideologies = {
 			can_declare_war_on_same_ideology = yes
 			can_force_government = no
 			can_send_volunteers = no
-			can_puppet = yes
-			can_lower_tension = yes
+			can_puppet = no
+			can_lower_tension = no
             can_only_justify_war_on_threat_country = no
 			can_guarantee_other_ideologies = no
 		}
 		
-		war_impact_on_world_tension = -1.0
-		faction_impact_on_world_tension = -0.1
+		war_impact_on_world_tension = 0.1
+		faction_impact_on_world_tension = 0.05
 		
 		modifiers = {
-            generate_wargoal_tension = 0.0
-            join_faction_tension = 0.0
+            generate_wargoal_tension = 10.0
+            join_faction_tension = 30.0
             lend_lease_tension = 0.0
             send_volunteers_tension = 0.0
             guarantee_tension = 0.0
             civil_war_involvement_tension = 0.0
-            justify_war_goal_time = -0.9
+            justify_war_goal_time = 0.0
 		}
 		
 		can_collaborate = yes

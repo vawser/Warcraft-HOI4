@@ -2,15 +2,11 @@ state = {
 	id = 456
 	name = "FORT_WILDERVAR"
 	manpower = 3081
-	state_category = village
+	state_category = settlement
 
 	resources = {
-		oil = 4
-		ground_beast = 9
-		flying_beast = 7
-		wood = 3
-		steel = 6
-		food = 15
+		steel = 22
+		food = 18
 	}
 
 	history = {
@@ -18,14 +14,14 @@ state = {
 		add_core_of = DGF
 
 		buildings = {
-			infrastructure = 2
+			infrastructure = 3
 			air_base = 0
 			anti_air_building = 0
 			radar_station = 0
 			
 			arms_factory = 1
-			industrial_complex = 3
-			dockyard = 3
+			industrial_complex = 2
+			dockyard = 1
 
 			temple = 0
 			forum = 0

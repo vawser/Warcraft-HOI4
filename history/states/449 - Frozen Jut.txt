@@ -1,14 +1,14 @@
 state = {
 	id = 449
 	name = "FROZEN_JUT"
-	manpower = 754
-	state_category = rural
+	manpower = 954
+	state_category = small_island
 
 	resources = {
-		oil = 3
-		ground_beast = 8
-		wood = 1
-		steel = 7
+		oil = 0
+		ground_beast = 12
+		wood = 4
+		steel = 0
 		food = 22
 	}
 
@@ -23,8 +23,8 @@ state = {
 			radar_station = 0
 			
 			arms_factory = 1
-			industrial_complex = 0
-			dockyard = 1
+			industrial_complex = 1
+			dockyard = 0
 
 			temple = 0
 			forum = 0

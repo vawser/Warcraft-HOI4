@@ -2,14 +2,14 @@ state = {
 	id = 455
 	name = "GIANTS_RUN"
 	manpower = 736
-	state_category = rural
+	state_category = wilderness
 
 	resources = {
-		ground_beast = 2
-		flying_beast = 1
-		wood = 25
-		steel = 3
-		food = 12
+		ground_beast = 12
+		flying_beast = 0
+		wood = 12
+		steel = 0
+		food = 10
 	}
 
 	history = {
@@ -22,8 +22,8 @@ state = {
 			anti_air_building = 0
 			radar_station = 0
 			
-			arms_factory = 3
-			industrial_complex = 1
+			arms_factory = 1
+			industrial_complex = 0
 			temple = 0
 			forum = 0
 			tavern = 0

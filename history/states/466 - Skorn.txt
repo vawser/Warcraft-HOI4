@@ -1,15 +1,15 @@
 state = {
 	id = 466
 	name = "SKORN"
-	manpower = 4715
-	state_category = town
+	manpower = 2715
+	state_category = settlement
 
 	resources = {
-		ground_beast = 1
-		flying_beast = 9
-		wood = 25
-		steel = 4
-		food = 19
+		ground_beast = 12
+		flying_beast = 0
+		wood = 26
+		steel = 0
+		food = 8
 	}
 
 	history = {
@@ -17,13 +17,13 @@ state = {
 		add_core_of = WTO
 
 		buildings = {
-			infrastructure = 7
+			infrastructure = 5
 			air_base = 0
 			anti_air_building = 0
 			radar_station = 0
 			
-			arms_factory = 7
-			industrial_complex = 3
+			arms_factory = 2
+			industrial_complex = 2
 			temple = 0
 			forum = 0
 			tavern = 0

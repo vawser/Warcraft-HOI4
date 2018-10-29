@@ -1,0 +1,37 @@
+focus_tree = {
+    id = goblin_focus
+    country = {
+        factor = 0
+        
+        modifier = {
+            add = 50
+         
+            is_goblin = yes
+        }
+    }
+    
+    reset_on_civilwar = no
+    # focus = {
+		# id = TTH_orc_settlements
+		# icon = GFX_goal_offensive_edict
+		# x = 1
+		# y = 0
+		# cost = 10
+        
+		# available_if_capitulated = yes
+
+		# completion_reward = {
+            # add_tech_bonus = {
+				# name = industry_tech_bonus
+				# bonus = 0.5
+				# uses = 1
+				# category = industry_tech
+			# }
+		# }
+        
+        # ai_will_do = {
+            # factor = 1
+        # }
+	# }
+}
+

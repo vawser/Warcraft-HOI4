@@ -1,14 +1,14 @@
 state = {
 	id = 491
 	name = "VENTURE_BAY"
-	manpower = 4280
-	state_category = village
+	manpower = 1280
+	state_category = rural
 
 	resources = {
-		ground_beast = 2
-		flying_beast = 1
+		ground_beast = 6
+		flying_beast = 0
 		wood = 4
-		steel = 6
+		steel = 0
 		food = 23
 	}
 
@@ -22,9 +22,9 @@ state = {
 			anti_air_building = 0
 			radar_station = 0
 			
-			arms_factory = 2
-			industrial_complex = 2
-			dockyard = 6
+			arms_factory = 1
+			industrial_complex = 1
+			dockyard = 1
 
 			temple = 0
 			forum = 0

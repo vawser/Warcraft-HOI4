@@ -77,7 +77,7 @@ technologies = {
     
     battleship_advancement_1_1 = {
         battleship = {
-            attack = 0.05
+            attack = 0.1
         }
         
         research_cost = 6
@@ -128,7 +128,7 @@ technologies = {
     
     battleship_advancement_1_2 = {
         battleship = {
-            fire_range = 0.05
+            fire_range = 0.1
         }
         
         research_cost = 6
@@ -167,7 +167,7 @@ technologies = {
     
     battleship_advancement_2_1 = {
         battleship = {
-            naval_range = 0.05
+            naval_range = 0.1
         }
         
         xor = { battleship_advancement_1_1 }
@@ -218,7 +218,7 @@ technologies = {
     
     battleship_advancement_2_2 = {
         battleship = {
-            evasion = 0.05
+            evasion = 0.1
         }
         
         research_cost = 6
@@ -378,7 +378,7 @@ technologies = {
     
     cruiser_advancement_1_1 = {
         cruiser = {
-            attack = 0.05
+            attack = 0.1
         }
         
         research_cost = 6
@@ -429,7 +429,7 @@ technologies = {
     
     cruiser_advancement_1_2 = {
         cruiser = {
-            fire_range = 0.05
+            fire_range = 0.1
         }
         
         research_cost = 6
@@ -468,7 +468,7 @@ technologies = {
     
     cruiser_advancement_2_1 = {
         cruiser = {
-            naval_range = 0.05
+            naval_range = 0.1
         }
         
         xor = { cruiser_advancement_1_1 }
@@ -519,7 +519,7 @@ technologies = {
     
     cruiser_advancement_2_2 = {
         cruiser = {
-            evasion = 0.05
+            evasion = 0.1
         }
         
         research_cost = 6
@@ -679,7 +679,7 @@ technologies = {
     
     destroyer_advancement_1_1 = {
         destroyer = {
-            attack = 0.05
+            attack = 0.1
         }
         
         research_cost = 6
@@ -730,7 +730,7 @@ technologies = {
     
     destroyer_advancement_1_2 = {
         destroyer = {
-            fire_range = 0.05
+            fire_range = 0.1
         }
         
         research_cost = 6
@@ -769,7 +769,7 @@ technologies = {
     
     destroyer_advancement_2_1 = {
         destroyer = {
-            naval_range = 0.05
+            naval_range = 0.1
         }
         
         xor = { destroyer_advancement_1_1 }
@@ -820,7 +820,7 @@ technologies = {
     
     destroyer_advancement_2_2 = {
         destroyer = {
-            evasion = 0.05
+            evasion = 0.1
         }
         
         research_cost = 6
@@ -979,7 +979,7 @@ technologies = {
     
     submarine_advancement_1_1 = {
         submarine = {
-            torpedo_attack = 0.05
+            torpedo_attack = 0.1
         }
         
         research_cost = 6
@@ -1030,7 +1030,7 @@ technologies = {
     
     submarine_advancement_1_2 = {
         submarine = {
-            fire_range = 0.05
+            fire_range = 0.1
         }
         
         research_cost = 6
@@ -1069,7 +1069,7 @@ technologies = {
     
     submarine_advancement_2_1 = {
         submarine = {
-            sub_visibility = -0.05
+            sub_visibility = -0.1
         }
         
         xor = { submarine_advancement_1_1 }
@@ -1120,7 +1120,7 @@ technologies = {
     
     submarine_advancement_2_2 = {
         submarine = {
-            sub_detection = 0.05
+            sub_detection = 0.1
         }
         
         research_cost = 6
@@ -1601,7 +1601,7 @@ technologies = {
     # Naval Invasion Defence
     #-----------------------------------------------------------------
     naval_invasion_defence_1 = {
-        amphibious_invasion_defence = 0.1
+        amphibious_invasion_defence = 0.2
         
         research_cost = 12
 
@@ -1638,7 +1638,7 @@ technologies = {
 		}
     }
     naval_invasion_defence_2 = {
-        amphibious_invasion_defence = 0.1
+        amphibious_invasion_defence = 0.2
         
         research_cost = 12
 
@@ -1675,7 +1675,7 @@ technologies = {
 		}
     }
     naval_invasion_defence_3 = {
-        amphibious_invasion_defence = 0.1
+        amphibious_invasion_defence = 0.2
         
         research_cost = 12
 
@@ -1712,7 +1712,7 @@ technologies = {
     }
     
     naval_invasion_defence_4 = {
-        amphibious_invasion_defence = 0.1
+        amphibious_invasion_defence = 0.2
         
         research_cost = 12
 
@@ -1749,7 +1749,7 @@ technologies = {
     }
     
     naval_invasion_defence_5 = {
-        amphibious_invasion_defence = 0.1
+        amphibious_invasion_defence = 0.2
         
         research_cost = 12
 
@@ -1784,7 +1784,7 @@ technologies = {
     # Naval Invasion Preparation
     #-----------------------------------------------------------------
     naval_invasion_preparation_1 = {
-        invasion_preparation = -0.1
+        invasion_preparation = -0.2
         
         research_cost = 12
 
@@ -1821,7 +1821,7 @@ technologies = {
 		}
     }
     naval_invasion_preparation_2 = {
-        invasion_preparation = -0.1
+        invasion_preparation = -0.2
         
         research_cost = 12
 
@@ -1858,7 +1858,7 @@ technologies = {
 		}
     }
     naval_invasion_preparation_3 = {
-        invasion_preparation = -0.1
+        invasion_preparation = -0.2
         
         research_cost = 12
 
@@ -1895,7 +1895,7 @@ technologies = {
     }
     
     naval_invasion_preparation_4 = {
-        invasion_preparation = -0.1
+        invasion_preparation = -0.2
         
         research_cost = 12
 
@@ -1932,7 +1932,7 @@ technologies = {
     }
     
     naval_invasion_preparation_5 = {
-        invasion_preparation = -0.1
+        invasion_preparation = -0.2
         
         research_cost = 12
 

@@ -2,15 +2,10 @@ state = {
 	id = 469
 	name = "VALGARDE"
 	manpower = 1978
-	state_category = village
+	state_category = rural
 
 	resources = {
-		oil = 2
-		ground_beast = 6
-		flying_beast = 4
-		wood = 3
-		steel = 5
-		food = 11
+		oil = 24
 	}
 
 	history = {
@@ -23,8 +18,8 @@ state = {
 			anti_air_building = 0
 			radar_station = 0
 			
-			arms_factory = 3
-			industrial_complex = 7
+			arms_factory = 2
+			industrial_complex = 2
 			temple = 0
 			forum = 0
 			tavern = 0

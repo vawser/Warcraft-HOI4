@@ -34,18 +34,19 @@ equipments = {
 		naval_strike_attack = 1
 		naval_strike_targetting = 10
         
-        air_range = 500
+        air_range = 750
 		maximum_speed = 200 
 		
 		air_superiority = 1
         
 		reliability = 0.8
-		manpower = 100
-		build_cost_ic = 150
+		manpower = 5
+		build_cost_ic = 25
         
 		resources = {
-			flying_beast = 5
-			food = 5
+			flying_beast = 2
+			food = 3
+			wood = 1
 		}
 	}
 
@@ -66,8 +67,17 @@ equipments = {
         
         naval_strike_attack = 2
 		naval_strike_targetting = 10
+
+		manpower = 5
+		build_cost_ic = 28
         
-        air_range = 600
+		resources = {
+			flying_beast = 2
+			food = 3
+			steel= 1
+		}
+        
+        air_range = 900
 		maximum_speed = 220
 	}
 	cas_equipment_2 = {
@@ -82,8 +92,17 @@ equipments = {
         
         naval_strike_attack = 3
 		naval_strike_targetting = 10
+
+		manpower = 5
+		build_cost_ic = 30
         
-        air_range = 700
+		resources = {
+			flying_beast = 3
+			food = 3
+			steel= 1
+		}
+        
+        air_range = 1200
 		maximum_speed = 240
 	}
     cas_equipment_3 = {
@@ -98,8 +117,17 @@ equipments = {
         
         naval_strike_attack = 4
 		naval_strike_targetting = 10
+
+		manpower = 6
+		build_cost_ic = 32
         
-        air_range = 800
+		resources = {
+			flying_beast = 3
+			food = 4
+			steel= 1
+		}
+        
+        air_range = 1500
 		maximum_speed = 260
 	}
 }

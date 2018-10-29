@@ -47,7 +47,7 @@ technologies = {
     conqueror_tech_1 = {
         doctrine = yes
         
-        army_attack_factor = 0.05
+        army_attack_factor = 0.25
         
         enable_tactic = tactic_breakthrough
         
@@ -102,7 +102,7 @@ technologies = {
         
         research_cost = 6
 
-        army_speed_factor = 0.1
+        army_speed_factor = 0.15
 
         enable_tactic = tactic_relentless_assault
         
@@ -151,7 +151,7 @@ technologies = {
         xor = { conqueror_tech_5 }
         
         category_cavalry = {
-            breakthrough = 0.05
+            breakthrough = 0.15
         }
 
         folder = {
@@ -202,7 +202,7 @@ technologies = {
         research_cost = 6
 
         category_cavalry = {
-            max_strength = 0.05
+            max_strength = 0.15
         }
 
         folder = {
@@ -250,7 +250,7 @@ technologies = {
         xor = { conqueror_tech_3 }
         
         category_infantry = {
-            breakthrough = 0.05
+            breakthrough = 0.15
         }
         
         folder = {
@@ -301,7 +301,7 @@ technologies = {
         research_cost = 6
 
         category_infantry = {
-            max_strength = 0.05
+            max_strength = 0.15
         }
         
         folder = {
@@ -347,7 +347,7 @@ technologies = {
         research_cost = 6
 
         category_cavalry = {
-            maximum_speed = 0.05
+            maximum_speed = 0.1
         }
         
         folder = {
@@ -389,7 +389,7 @@ technologies = {
         research_cost = 6
 
         category_cavalry = {
-            max_organisation = 5
+            max_organisation = 10
         }
         
         folder = {
@@ -426,7 +426,7 @@ technologies = {
         research_cost = 6
 
         category_cavalry = {
-            default_morale = 0.05
+            default_morale = 0.1
         }
 
         folder = {
@@ -468,7 +468,7 @@ technologies = {
         research_cost = 6
 
         category_infantry = {
-            soft_attack = 0.05
+            soft_attack = 0.15
         }
 
         folder = {
@@ -510,7 +510,7 @@ technologies = {
         research_cost = 6
 
         category_infantry = {
-            max_organisation = 5
+            max_organisation = 10
         }
         
         folder = {
@@ -547,7 +547,7 @@ technologies = {
         research_cost = 6
 
         category_infantry = {
-            default_morale = 0.05
+            default_morale = 0.1
         }
 
         folder = {
@@ -588,7 +588,7 @@ technologies = {
         
         research_cost = 6
 
-        army_org_factor = 0.05
+        army_org_factor = 0.1
         
         enable_tactic = tactic_blitz
         enable_tactic = tactic_barrage
@@ -678,7 +678,7 @@ technologies = {
         
         research_cost = 6
 
-        army_morale_factor = 0.05
+        army_morale_factor = 0.1
         
         xor = { conqueror_tech_17 }
         
@@ -729,7 +729,7 @@ technologies = {
         
         research_cost = 6
 
-        combat_width_factor = -0.1
+        combat_width_factor = -0.25
         
         folder = {
 			name = land_doctrine_folder
@@ -773,7 +773,7 @@ technologies = {
         
         research_cost = 6
 
-        terrain_penalty_reduction = 0.1
+        terrain_penalty_reduction = 0.25
         
         xor = { conqueror_tech_15 }
         
@@ -824,7 +824,7 @@ technologies = {
         
         research_cost = 6
 
-        supply_consumption_factor = -0.1
+        supply_consumption_factor = -0.25
         
         folder = {
 			name = land_doctrine_folder
@@ -868,7 +868,7 @@ technologies = {
         
         research_cost = 6
 
-        army_attack_factor = 0.1
+        army_attack_factor = 0.25
         
         folder = {
 			name = land_doctrine_folder
@@ -938,7 +938,7 @@ technologies = {
         
         research_cost = 6
 
-        land_night_attack = 0.15
+        land_night_attack = 0.25
         
         folder = {
 			name = land_doctrine_folder
@@ -973,7 +973,7 @@ technologies = {
     guardian_tech_1 = {
         doctrine = yes
         
-        army_defence_factor = 0.05
+        army_defence_factor = 0.25
         
         research_cost = 6
 
@@ -1026,7 +1026,7 @@ technologies = {
     guardian_tech_2 = {
         doctrine = yes
         
-        army_morale_factor = 0.05
+        army_morale_factor = 0.15
         
         research_cost = 6
 
@@ -1074,7 +1074,7 @@ technologies = {
         research_cost = 6
         
         category_cavalry = {
-            defense = 0.05
+            defense = 0.15
         }
         
         xor = { guardian_tech_5 }
@@ -1126,7 +1126,7 @@ technologies = {
         research_cost = 6
 
         category_cavalry = {
-            armor_value = 0.05
+            armor_value = 0.1
         }
         
         folder = {
@@ -1171,7 +1171,7 @@ technologies = {
         research_cost = 6
 
         category_infantry = {
-            defense = 0.05
+            defense = 0.15
         }
         
         xor = { guardian_tech_3 }
@@ -1223,7 +1223,7 @@ technologies = {
         research_cost = 6
 
         category_infantry = {
-            armor_value = 0.05
+            armor_value = 0.1
         }
         
         folder = {
@@ -1268,7 +1268,7 @@ technologies = {
         research_cost = 6
 
         category_cavalry = {
-            soft_attack = 0.05
+            soft_attack = 0.15
         }
         
         folder = {
@@ -1309,7 +1309,7 @@ technologies = {
         research_cost = 6
 
         category_cavalry = {
-            max_organisation = 5
+            max_organisation = 10
         }
         
         folder = {
@@ -1345,7 +1345,7 @@ technologies = {
         research_cost = 6
 
         category_cavalry = {
-            hardness = 0.05
+            hardness = 0.1
         }
         
         folder = {
@@ -1386,7 +1386,7 @@ technologies = {
         research_cost = 6
 
         category_infantry = {
-            entrenchment = 2
+            entrenchment = 5
         }
         
         folder = {
@@ -1425,7 +1425,7 @@ technologies = {
         doctrine = yes
         
         category_infantry = {
-            max_organisation = 5
+            max_organisation = 10
         }
         
         research_cost = 6
@@ -1461,7 +1461,7 @@ technologies = {
         doctrine = yes
         
         category_infantry = {
-            hardness = 0.05
+            hardness = 0.15
         }
         
         research_cost = 6
@@ -1543,7 +1543,7 @@ technologies = {
     guardian_tech_14 = {
         doctrine = yes
         
-        max_planning = 0.1
+        max_planning = 0.25
         
         research_cost = 6
 
@@ -1589,7 +1589,7 @@ technologies = {
     guardian_tech_15 = {
         doctrine = yes
         
-        out_of_supply_factor = -0.1
+        out_of_supply_factor = -0.25
         
         research_cost = 6
 
@@ -1639,7 +1639,7 @@ technologies = {
     guardian_tech_16 = {
         doctrine = yes
         
-        attrition = -0.1
+        attrition = -0.25
         
         research_cost = 6
 
@@ -1682,7 +1682,7 @@ technologies = {
     guardian_tech_17 = {
         doctrine = yes
         
-        dig_in_speed_factor = 0.1
+        dig_in_speed_factor = 0.25
         
         research_cost = 6
 
@@ -1732,7 +1732,7 @@ technologies = {
     guardian_tech_18 = {
         doctrine = yes
         
-        max_dig_in_factor = 0.1
+        max_dig_in_factor = 0.25
         
         research_cost = 6
 
@@ -1775,7 +1775,7 @@ technologies = {
     guardian_tech_19 = {
         doctrine = yes
         
-        army_defence_factor = 0.1
+        army_defence_factor = 0.25
         
         research_cost = 6
 
@@ -1809,7 +1809,7 @@ technologies = {
     guardian_tech_20 = {
         doctrine = yes
         
-        pocket_penalty = -0.1
+        pocket_penalty = -0.25
         
         research_cost = 6
 
@@ -1843,7 +1843,7 @@ technologies = {
     guardian_tech_21 = {
         doctrine = yes
         
-        planning_speed = 0.15
+        planning_speed = 0.25
         
         research_cost = 6
 

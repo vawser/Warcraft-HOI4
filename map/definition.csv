@@ -1948,7 +1948,7 @@
 1947;45;130;0;land;true;plains;1
 1948;67;120;0;land;true;plains;1
 1949;66;120;0;land;true;plains;1
-1950;63;120;0;land;true;plains;1
+1950;63;120;0;land;false;plains;1
 1951;47;120;0;land;true;plains;1
 1952;45;120;0;land;true;plains;1
 1953;11;120;0;land;true;urban;1
@@ -7206,7 +7206,7 @@
 7205;83;100;1;land;false;forest;9
 7206;82;100;1;land;false;forest;9
 7207;81;100;1;land;false;forest;9
-7208;76;200;0;land;true;jungle;6
+7208;76;200;0;land;false;jungle;6
 7209;76;190;0;land;true;jungle;6
 7210;76;180;0;land;true;jungle;6
 7211;76;160;0;land;true;jungle;6

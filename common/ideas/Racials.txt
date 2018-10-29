@@ -128,7 +128,7 @@ ideas = {
 			removal_cost = -1
 
 			picture = racial_red_dragonflight
-
+            
 			equipment_bonus = {
                 champion_equipment = {
                     soft_attack = 0.1

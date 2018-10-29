@@ -1,16 +1,16 @@
 state = {
 	id = 467
 	name = "SKORN_OVERLOOK"
-	manpower = 873
+	manpower = 1873
 	state_category = rural
 
 	resources = {
-		oil = 3
-		ground_beast = 5
-		flying_beast = 3
-		wood = 22
-		steel = 1
-		food = 15
+		oil = 0
+		ground_beast = 0
+		flying_beast = 0
+		wood = 21
+		steel = 8
+		food = 12
 	}
 
 	history = {
@@ -24,7 +24,7 @@ state = {
 			radar_station = 0
 			
 			arms_factory = 1
-			industrial_complex = 3
+			industrial_complex = 2
 			temple = 0
 			forum = 0
 			tavern = 0

@@ -1,14 +1,14 @@
 state = {
 	id = 490
 	name = "AMBER_BAY"
-	manpower = 758
-	state_category = rural
+	manpower = 3758
+	state_category = village
 
 	resources = {
-		oil = 1
-		ground_beast = 5
-		flying_beast = 7
-		steel = 9
+		oil = 0
+		ground_beast = 12
+		flying_beast = 0
+		steel = 8
 		food = 28
 	}
 
@@ -17,14 +17,14 @@ state = {
 		add_core_of = BLP
 
 		buildings = {
-			infrastructure = 1
+			infrastructure = 4
 			air_base = 0
 			anti_air_building = 0
 			radar_station = 0
 			
 			arms_factory = 1
 			industrial_complex = 2
-			dockyard = 0
+			dockyard = 1
 
 			temple = 0
 			forum = 0

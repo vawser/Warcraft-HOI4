@@ -58,8 +58,6 @@ state = {
 			}
 			1950 = {
 				bunker = 0
-				coastal_bunker = 0
-				naval_base = 3
 			}
 			1956 = {
 				bunker = 0

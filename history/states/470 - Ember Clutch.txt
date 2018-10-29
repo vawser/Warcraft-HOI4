@@ -2,14 +2,11 @@ state = {
 	id = 470
 	name = "EMBER_CLUTH"
 	manpower = 611
-	state_category = rural
+	state_category = wilderness
 
 	resources = {
-		oil = 3
-		flying_beast = 9
-		wood = 27
-		steel = 4
-		food = 12
+		oil = 18
+		food = 6
 	}
 
 	history = {
@@ -23,7 +20,7 @@ state = {
 			radar_station = 0
 			
 			arms_factory = 1
-			industrial_complex = 2
+			industrial_complex = 0
 			temple = 0
 			forum = 0
 			tavern = 0

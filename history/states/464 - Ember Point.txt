@@ -1,16 +1,16 @@
 state = {
 	id = 464
 	name = "EMBER_POINT"
-	manpower = 634
+	manpower = 934
 	state_category = rural
 
 	resources = {
-		oil = 4
-		ground_beast = 9
-		flying_beast = 7
-		wood = 10
-		steel = 8
-		food = 11
+		oil = 0
+		ground_beast = 8
+		flying_beast = 0
+		wood = 12
+		steel = 0
+		food = 0
 	}
 
 	history = {

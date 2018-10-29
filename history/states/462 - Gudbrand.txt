@@ -1,16 +1,16 @@
 state = {
 	id = 462
 	name = "GUDBRAND"
-	manpower = 4225
-	state_category = village
+	manpower = 8225
+	state_category = small_town
 
 	resources = {
-		oil = 4
-		ground_beast = 3
-		flying_beast = 7
-		wood = 7
+		oil = 0
+		ground_beast = 0
+		flying_beast = 0
+		wood = 8
 		steel = 12
-		food = 11
+		food = 8
 	}
 
 	history = {
@@ -18,7 +18,7 @@ state = {
 		add_core_of = WTO
 
 		buildings = {
-			infrastructure = 2
+			infrastructure = 5
 			air_base = 0
 			anti_air_building = 0
 			radar_station = 0

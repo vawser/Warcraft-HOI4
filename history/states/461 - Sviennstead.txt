@@ -2,15 +2,15 @@ state = {
 	id = 461
 	name = "SVEINNSTEAD"
 	manpower = 3891
-	state_category = village
+	state_category = small_village
 
 	resources = {
-		oil = 4
-		ground_beast = 7
-		flying_beast = 4
-		wood = 5
-		steel = 5
-		food = 12
+		oil = 0
+		ground_beast = 12
+		flying_beast = 0
+		wood = 6
+		steel = 0
+		food = 8
 	}
 
 	history = {

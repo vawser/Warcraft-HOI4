@@ -46,7 +46,7 @@ set_politics = {
 			popularity = 0
 		}
 		shadow = {
-			popularity = 70
+			popularity = 80
 		}
 		order = {
 			popularity = 0
@@ -55,7 +55,7 @@ set_politics = {
 			popularity = 10
 		}
         life = {
-			popularity = 10
+			popularity = 0
 		}
         death = {
 			popularity = 10
@@ -75,7 +75,6 @@ create_country_leader = {
 	expire = "2000.1.1"
 	ideology = kingdom_shadow
 	traits = {
-		headstrong
         warmonger
 	}
 }

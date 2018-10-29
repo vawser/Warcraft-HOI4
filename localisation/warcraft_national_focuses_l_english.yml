@@ -1,5 +1,75 @@
 ﻿l_english: 
  #--------------------------------------------
+ # Continuous Focuses
+ #--------------------------------------------
+ wm_continuous_religion: "Religious Fervor"
+ wm_continuous_religion_desc: "By focusing on our religious institutions, we can increase religious fervor within our people."
+ 
+ wm_continuous_espionage: "Espionage"
+ wm_continuous_espionage_desc: "By focusing on espionage, we can increase the effectiveness of our spies."
+
+ wm_continuous_infiltration: "Infiltration"
+ wm_continuous_infiltration_desc: "By focusing on infiltration of our enemies, we can increases the effectiveness of our spies."
+ 
+ wm_continuous_stability: "Stability"
+ wm_continuous_stability_desc: "By focusing on our national stability, we can make our nation more stable."
+ 
+ wm_continuous_war_support: "War Support"
+ wm_continuous_war_support_desc: "By focusing on war support, we can make our nation war-ready."
+
+ wm_continuous_political_power: "Political Skill"
+ wm_continuous_political_power_desc: "By focusing on our political skill, we can more readily command our armies."
+ 
+ wm_continuous_command_power: "Command Skill"
+ wm_continuous_command_power_desc: "By focusing on our command skill, we can more readily command our armies."
+ 
+ wm_continuous_naval_production: "Naval Production"
+ wm_continuous_naval_production_desc: "By focusing on our naval production, we will produce ships quicker."
+ 
+ wm_continuous_air_production: "Air Production"
+ wm_continuous_air_production_desc: "By focusing on our aviation production, we will produce flying units quicker."
+ 
+ wm_continuous_construction: "Construction"
+ wm_continuous_construction_desc: "By focusing on construction, we can erect new buildings quicker."
+ 
+ wm_continuous_army_training: "Army Training"
+ wm_continuous_army_training_desc: "By focusing on army training, our troops will deploy quicker."
+ 
+ wm_continuous_suppression: "Suppression"
+ wm_continuous_suppression_desc: "By focusing on suppression, our newly conquered lands will be more easily managed."
+ 
+ wm_continuous_repair: "Repair Industry"
+ wm_continuous_repair_desc: "By focusing on repairing our industry, we will recover from economic damage quicker."
+ 
+ wm_continuous_boost_freedom: "Boost Freedom"
+ wm_continuous_boost_freedom_desc: "By permitting more from our subjects, we will grant them the benefits of autonomy."
+ 
+ wm_continuous_restrict_freedom: "Restrict Freedom"
+ wm_continuous_restrict_freedom_desc: "By restricting the freedom of our subjects, we will better control them."
+ 
+ wm_continuous_tank_production: "Tank Engineering"
+ wm_continuous_tank_production_desc: "By focusing on tank engineering, we will produce tanks quicker."
+ 
+ wm_continuous_cavalry_production: "Horse Breeding"
+ wm_continuous_cavalry_production_desc: "By focusing on horse breeding, we will produce cavalry quicker."
+ 
+ continuous_tank_production: "Tank Engineering"
+ continuous_tank_production_desc: ""
+ continuous_cavalry_production: "Horse Breeding"
+ continuous_cavalry_production_desC: ""
+ 
+ #--------------------------------------------
+ # Tooltips
+ #--------------------------------------------
+ no_possible_building_slots_tooltip: "No available building slots in any state."
+ RELIGIOUS_FERVOR_ADDED: "Adds §H1§! [Root.GetFaithPowerName] gain."
+ RELIGIOUS_FERVOR_REMOVED: "Removes added §H1§! [Root.GetFaithPowerName] gain."
+ INFILTRATION_FOCUS_ADDED: "Halves the §HSpy Network§! cost for all §HSpy Actions§!."
+ INFILTRATION_FOCUS_REMOVED: "Reverts the §HSpy Network§! cost for all §HSpy Actions§! back to normal."
+ ESPIONAGE_FOCUS_ADDED: "Doubles the growth of §HSpy Networks§! and §HSpy Actions§!."
+ ESPIONAGE_FOCUS_REMOVED: "Reverts to normal growth of §HSpy Networks§! and §HSpy Actions§!."
+ 
+ #--------------------------------------------
  # The Orcish Horde
  #--------------------------------------------
  # Industry
@@ -292,72 +362,219 @@
  religious_effort_3_desc: ""
  
  #--------------------------------------------
- # Continuous Focuses
+ # Aqir
  #--------------------------------------------
- wm_continuous_religion: "Religious Fervor"
- wm_continuous_religion_desc: "By focusing on our religious institutions, we can increase religious fervor within our people."
- 
- wm_continuous_espionage: "Espionage"
- wm_continuous_espionage_desc: "By focusing on espionage, we can increase the effectiveness of our spies."
-
- wm_continuous_infiltration: "Infiltration"
- wm_continuous_infiltration_desc: "By focusing on infiltration of our enemies, we can increases the effectiveness of our spies."
- 
- wm_continuous_stability: "Stability"
- wm_continuous_stability_desc: "By focusing on our national stability, we can make our nation more stable."
- 
- wm_continuous_war_support: "War Support"
- wm_continuous_war_support_desc: "By focusing on war support, we can make our nation war-ready."
-
- wm_continuous_political_power: "Political Skill"
- wm_continuous_political_power_desc: "By focusing on our political skill, we can more readily command our armies."
- 
- wm_continuous_command_power: "Command Skill"
- wm_continuous_command_power_desc: "By focusing on our command skill, we can more readily command our armies."
- 
- wm_continuous_naval_production: "Naval Production"
- wm_continuous_naval_production_desc: "By focusing on our naval production, we will produce ships quicker."
- 
- wm_continuous_air_production: "Air Production"
- wm_continuous_air_production_desc: "By focusing on our aviation production, we will produce flying units quicker."
- 
- wm_continuous_construction: "Construction"
- wm_continuous_construction_desc: "By focusing on construction, we can erect new buildings quicker."
- 
- wm_continuous_army_training: "Army Training"
- wm_continuous_army_training_desc: "By focusing on army training, our troops will deploy quicker."
- 
- wm_continuous_suppression: "Suppression"
- wm_continuous_suppression_desc: "By focusing on suppression, our newly conquered lands will be more easily managed."
- 
- wm_continuous_repair: "Repair Industry"
- wm_continuous_repair_desc: "By focusing on repairing our industry, we will recover from economic damage quicker."
- 
- wm_continuous_boost_freedom: "Boost Freedom"
- wm_continuous_boost_freedom_desc: "By permitting more from our subjects, we will grant them the benefits of autonomy."
- 
- wm_continuous_restrict_freedom: "Restrict Freedom"
- wm_continuous_restrict_freedom_desc: "By restricting the freedom of our subjects, we will better control them."
- 
- wm_continuous_tank_production: "Tank Engineering"
- wm_continuous_tank_production_desc: "By focusing on tank engineering, we will produce tanks quicker."
- 
- wm_continuous_cavalry_production: "Horse Breeding"
- wm_continuous_cavalry_production_desc: "By focusing on horse breeding, we will produce cavalry quicker."
- 
- continuous_tank_production: "Tank Engineering"
- continuous_tank_production_desc: ""
- continuous_cavalry_production: "Horse Breeding"
- continuous_cavalry_production_desC: ""
  
  #--------------------------------------------
- # Tooltips
+ # Black Dragonflight
  #--------------------------------------------
- no_possible_building_slots_tooltip: "No available building slots in any state."
- RELIGIOUS_FERVOR_ADDED: "Adds §H1§! [Root.GetFaithPowerName] gain."
- RELIGIOUS_FERVOR_REMOVED: "Removes added §H1§! [Root.GetFaithPowerName] gain."
- INFILTRATION_FOCUS_ADDED: "Halves the §HSpy Network§! cost for all §HSpy Actions§!."
- INFILTRATION_FOCUS_REMOVED: "Reverts the §HSpy Network§! cost for all §HSpy Actions§! back to normal."
- ESPIONAGE_FOCUS_ADDED: "Doubles the growth of §HSpy Networks§! and §HSpy Actions§!."
- ESPIONAGE_FOCUS_REMOVED: "Reverts to normal growth of §HSpy Networks§! and §HSpy Actions§!."
+ 
+ #--------------------------------------------
+ # Blood Elf
+ #--------------------------------------------
+ 
+ #--------------------------------------------
+ # Blue Dragonflight
+ #--------------------------------------------
+ 
+ #--------------------------------------------
+ # Centaur
+ #--------------------------------------------
+ 
+ #--------------------------------------------
+ # Draenei
+ #--------------------------------------------
+ 
+ #--------------------------------------------
+ # Dryad
+ #--------------------------------------------
+ 
+ #--------------------------------------------
+ # Dwarf
+ #--------------------------------------------
+ 
+ #--------------------------------------------
+ # Earthern
+ #--------------------------------------------
+ 
+ #--------------------------------------------
+ # Forest Troll
+ #--------------------------------------------
+ 
+ #--------------------------------------------
+ # Frost Troll
+ #--------------------------------------------
+ 
+ #--------------------------------------------
+ # Furbolg
+ #--------------------------------------------
+ 
+ #--------------------------------------------
+ # Gnoll
+ #--------------------------------------------
+ 
+ #--------------------------------------------
+ # Gnome
+ #--------------------------------------------
+ 
+ #--------------------------------------------
+ # Goblin
+ #--------------------------------------------
+ 
+ #--------------------------------------------
+ # Gorloc
+ #--------------------------------------------
+ 
+ #--------------------------------------------
+ # Green Dragonflight
+ #--------------------------------------------
+ 
+ #--------------------------------------------
+ # Harpy
+ #--------------------------------------------
+ 
+ #--------------------------------------------
+ # High Elf
+ #--------------------------------------------
+ 
+ #--------------------------------------------
+ # Hozen
+ #--------------------------------------------
+ 
+ #--------------------------------------------
+ # Human
+ #--------------------------------------------
+ 
+ #--------------------------------------------
+ # Jinyu
+ #--------------------------------------------
+ 
+ #--------------------------------------------
+ # Jungle Troll
+ #--------------------------------------------
+ 
+ #--------------------------------------------
+ # Kobold
+ #--------------------------------------------
+ 
+ #--------------------------------------------
+ # Magnataur
+ #--------------------------------------------
+ 
+ #--------------------------------------------
+ # Mantid
+ #--------------------------------------------
+ 
+ #--------------------------------------------
+ # Mogu
+ #--------------------------------------------
+ 
+ #--------------------------------------------
+ # Murloc
+ #--------------------------------------------
+ 
+ #--------------------------------------------
+ # Naga
+ #--------------------------------------------
+ 
+ #--------------------------------------------
+ # Nerubian
+ #--------------------------------------------
+ 
+ #--------------------------------------------
+ # Night Elf
+ #--------------------------------------------
+ 
+ #--------------------------------------------
+ # Nightborne
+ #--------------------------------------------
+ 
+ #--------------------------------------------
+ # Ogre
+ #--------------------------------------------
+ 
+ #--------------------------------------------
+ # Orc
+ #--------------------------------------------
+ 
+ #--------------------------------------------
+ # Pandaren
+ #--------------------------------------------
+ 
+ #--------------------------------------------
+ # Pygmy
+ #--------------------------------------------
+ 
+ #--------------------------------------------
+ # Quillboar
+ #--------------------------------------------
+ 
+ #--------------------------------------------
+ # Red Dragonflight
+ #--------------------------------------------
+ 
+ #--------------------------------------------
+ # Sand Troll
+ #--------------------------------------------
+ 
+ #--------------------------------------------
+ # Satyr
+ #--------------------------------------------
+ 
+ #--------------------------------------------
+ # Saurok
+ #--------------------------------------------
+ 
+ #--------------------------------------------
+ # Scourge
+ #--------------------------------------------
+ 
+ #--------------------------------------------
+ # Spriteling
+ #--------------------------------------------
+ 
+ #--------------------------------------------
+ # Taunka
+ #--------------------------------------------
+ 
+ #--------------------------------------------
+ # Tauren
+ #--------------------------------------------
+ 
+ #--------------------------------------------
+ # Titan
+ #--------------------------------------------
+ 
+ #--------------------------------------------
+ # Tol'vir
+ #--------------------------------------------
+ 
+ #--------------------------------------------
+ # Trogg
+ #--------------------------------------------
+ 
+ #--------------------------------------------
+ # Tuskarr
+ #--------------------------------------------
+ 
+ #--------------------------------------------
+ # Undead
+ #--------------------------------------------
+ 
+ #--------------------------------------------
+ # Vrykul
+ #--------------------------------------------
+ 
+ #--------------------------------------------
+ # Wolvar
+ #--------------------------------------------
+ 
+ #--------------------------------------------
+ # Yaungol
+ #--------------------------------------------
+ 
+ #--------------------------------------------
+ # Zandalari Troll
+ #--------------------------------------------
+ 
  

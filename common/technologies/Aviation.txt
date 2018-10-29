@@ -77,7 +77,7 @@ technologies = {
     
     fighter_advancement_1_1 = {
         fighter = {
-            air_attack = 0.05
+            air_attack = 0.1
         }
         
         research_cost = 6
@@ -128,7 +128,7 @@ technologies = {
     
     fighter_advancement_1_2 = {
         fighter = {
-            air_agility = 0.05
+            air_agility = 0.1
         }
         
         research_cost = 6
@@ -167,7 +167,7 @@ technologies = {
     
     fighter_advancement_2_1 = {
         fighter = {
-            air_range = 0.05
+            air_range = 0.1
         }
         
         xor = { fighter_advancement_1_1 }
@@ -218,7 +218,7 @@ technologies = {
     
     fighter_advancement_2_2 = {
         fighter = {
-            air_defence = 0.05
+            air_defence = 0.1
         }
         
         research_cost = 6
@@ -378,7 +378,7 @@ technologies = {
     
     cas_advancement_1_1 = {
         cas = {
-            air_attack = 0.05
+            air_attack = 0.1
         }
         
         research_cost = 6
@@ -429,7 +429,7 @@ technologies = {
     
     cas_advancement_1_2 = {
         cas = {
-            air_agility = 0.05
+            air_agility = 0.1
         }
         
         research_cost = 6
@@ -468,7 +468,7 @@ technologies = {
     
     cas_advancement_2_1 = {
         cas = {
-            air_range = 0.05
+            air_range = 0.1
         }
         
         xor = { cas_advancement_1_1 }
@@ -519,7 +519,7 @@ technologies = {
     
     cas_advancement_2_2 = {
         cas = {
-            air_defence = 0.05
+            air_defence = 0.1
         }
         
         research_cost = 6
@@ -679,7 +679,7 @@ technologies = {
     
     tactical_bomber_advancement_1_1 = {
         tac_bomber = {
-            air_agility = 0.05
+            air_agility = 0.1
         }
         
         research_cost = 6
@@ -730,7 +730,7 @@ technologies = {
     
     tactical_bomber_advancement_1_2 = {
         tac_bomber = {
-            air_bombing = 0.05
+            air_bombing = 0.1
         }
         
         research_cost = 6
@@ -769,7 +769,7 @@ technologies = {
     
     tactical_bomber_advancement_2_1 = {
         tac_bomber = {
-            air_range = 0.05
+            air_range = 0.1
         }
         
         xor = { tactical_bomber_advancement_1_1 }
@@ -820,7 +820,7 @@ technologies = {
     
     tactical_bomber_advancement_2_2 = {
         tac_bomber = {
-            air_defence = 0.05
+            air_defence = 0.1
         }
         
         research_cost = 6
@@ -979,7 +979,7 @@ technologies = {
     
     strategic_bomber_advancement_1_1 = {
         strat_bomber = {
-            air_agility = 0.05
+            air_agility = 0.1
         }
         
         research_cost = 6
@@ -1030,7 +1030,7 @@ technologies = {
     
     strategic_bomber_advancement_1_2 = {
         strat_bomber = {
-            air_bombing = 0.05
+            air_bombing = 0.1
         }
         
         research_cost = 6
@@ -1069,7 +1069,7 @@ technologies = {
     
     strategic_bomber_advancement_2_1 = {
         strat_bomber = {
-            air_range = 0.05
+            air_range = 0.1
         }
         
         xor = { strategic_bomber_advancement_1_1 }
@@ -1120,7 +1120,7 @@ technologies = {
     
     strategic_bomber_advancement_2_2 = {
         strat_bomber = {
-            air_defence = 0.05
+            air_defence = 0.1
         }
         
         research_cost = 6
@@ -1418,7 +1418,7 @@ technologies = {
     # Ace Generation
     #-----------------------------------------------------------------
     ace_1 = {
-        air_ace_generation_chance_factor = 0.05
+        air_ace_generation_chance_factor = 0.1
         
         research_cost = 12
 
@@ -1454,7 +1454,7 @@ technologies = {
 		}
     }
     ace_2 = {
-        air_ace_generation_chance_factor = 0.05
+        air_ace_generation_chance_factor = 0.1
         
         research_cost = 12
 
@@ -1490,7 +1490,7 @@ technologies = {
 		}
     }
     ace_3 = {
-        air_ace_generation_chance_factor = 0.05
+        air_ace_generation_chance_factor = 0.1
         
         research_cost = 12
 
@@ -1526,7 +1526,7 @@ technologies = {
     }
     
     ace_4 = {
-        air_ace_generation_chance_factor = 0.05
+        air_ace_generation_chance_factor = 0.1
         
         research_cost = 12
 
@@ -1562,7 +1562,7 @@ technologies = {
     }
     
     ace_5 = {
-        air_ace_generation_chance_factor = 0.05
+        air_ace_generation_chance_factor = 0.1
         
         research_cost = 12
 

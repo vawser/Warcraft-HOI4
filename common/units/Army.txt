@@ -1,6 +1,6 @@
 # options for map_icon_category:
 # For land units: infantry,armored,other
-# For sea units: ship,transport,uboat 
+# For sea units: ship,transport,uboat
 sub_units = {
 	grunt = {
 		sprite = infantry
@@ -25,13 +25,33 @@ sub_units = {
         marines = yes
 		
 		combat_width = 2
-        manpower = 25
-        training_time = 90
+        manpower = 30
+        training_time = 100
         
         suppression = 1
         
 		need = {
-			grunt_equipment = 25
+			grunt_equipment = 30
+		}
+		forest = {
+			attack = -0.05
+			movement = -0.1
+		}
+		hills = {
+			attack = -0.1
+			movement = -0.1
+		}
+		mountain = {
+			attack = -0.2
+			movement = -0.2
+		}
+		river = {
+			attack = -0.3
+			movement = -0.2
+		}
+		jungle = {
+			attack = -0.1
+			movement = -0.3
 		}
 	}
 
@@ -58,13 +78,33 @@ sub_units = {
         marines = yes
 		
 		combat_width = 2   
-        manpower = 50
-        training_time = 360
+        manpower = 30
+        training_time = 300
 
         suppression = 1
         
 		need = {
-			champion_equipment = 25
+			champion_equipment = 30
+		}
+		forest = {
+			attack = -0.05
+			movement = -0.1
+		}
+		hills = {
+			attack = -0.1
+			movement = -0.15
+		}
+		mountain = {
+			attack = -0.25
+			movement = -0.3
+		}
+		river = {
+			attack = -0.5
+			movement = -0.3
+		}
+		jungle = {
+			attack = -0.3
+			movement = -0.5
 		}
 	}
     
@@ -91,13 +131,33 @@ sub_units = {
         marines = yes
 		
 		combat_width = 2
-        manpower = 40
-        training_time = 180
+        manpower = 30
+        training_time = 150
 	
         suppression = 1
         
 		need = {
-			archer_equipment = 25
+			archer_equipment = 45
+		}
+		forest = {
+			attack = -0.25
+			movement = -0.1
+		}
+		hills = {
+			attack = -0.05
+			movement = -0.1
+		}
+		mountain = {
+			attack = -0.2
+			movement = -0.2
+		}
+		river = {
+			attack = -0.1
+			movement = -0.2
+		}
+		jungle = {
+			attack = -0.5
+			movement = -0.3
 		}
 	}
     
@@ -123,14 +183,34 @@ sub_units = {
 
         marines = yes
         
-		combat_width = 2  
-        manpower = 40
-        training_time = 180
+		combat_width = 1 
+        manpower = 20
+        training_time = 450
         
         suppression = 1
         
 		need = {
-			spellcaster_equipment = 25
+			spellcaster_equipment = 30
+		}
+		forest = {
+			attack = 0.05
+			movement = -0.05
+		}
+		hills = {
+			attack = -0.1
+			movement = -0.1
+		}
+		mountain = {
+			attack = -0.2
+			movement = -0.15
+		}
+		river = {
+			attack = 0.1
+			movement = -0.25
+		}
+		jungle = {
+			attack = 0.1
+			movement = -0.15
 		}
 	}
     
@@ -154,48 +234,46 @@ sub_units = {
 		}
 
 		combat_width = 2
-        manpower = 50
+        manpower = 30
         training_time = 180
 
         need = {
-			war_engine_equipment = 25
+			war_engine_equipment = 30
 		}
         
 		forest = {
 			attack = -0.2
-			movement = -0.2
+			movement = -0.25
 		}
 
 		hills = {
-			movement = -0.05
+			movement = -0.1
 		}
 
 		mountain = {
-			movement = -0.2
+			movement = -0.5
+			attack = -0.2
 		}
 
 		jungle = {
 			attack = -0.25
-			movement = -0.2
+			movement = -0.4
 		}
 
 		marsh = {
 			attack = -0.2
-			movement = -0.3
+			movement = -0.4
 		}
 
 		fort = {
-			attack = 0.1
+			attack = 1
 		}
 
 		river = {
-			attack = -0.2
-			movement = -0.2
+			attack = -0.1
+			movement = -0.4
 		}
 
-		amphibious = {
-			attack = -0.4
-		}
 	}
     
     light_cavalry = {
@@ -217,17 +295,18 @@ sub_units = {
 		}
 
 		combat_width = 2  
-        manpower = 40
+        manpower = 30
         training_time = 180		
 
 		suppression = 2
 
 		need = {
-			light_cavalry_equipment = 25
+			light_cavalry_equipment = 30
 		}
 
 		forest = {
 			attack = -0.05
+			movement = -0.1
 		}
 
 		hills = {
@@ -235,20 +314,21 @@ sub_units = {
 		}
 
 		mountain = {
-			attack = -0.1
-			movement = -0.05
+			attack = -0.2
+			movement = -0.2
 		}
 
 		jungle = {
-			attack = -0.1
+			attack = -0.3
+			movement = -0.2
 		}
 
 		urban = {
-			attack = -0.05
+			attack = -0.1
 		}
 
 		amphibious = {
-			attack = -0.4
+			attack = -0.3
 		}
 	}
     
@@ -271,34 +351,36 @@ sub_units = {
 		}
 
 		combat_width = 2
-        manpower = 50
+        manpower = 35
         training_time = 360
 
 		suppression = 2
 	
 		need = {
-			heavy_cavalry_equipment = 25
+			heavy_cavalry_equipment = 30
 		}
 
 		forest = {
-			attack = -0.05
+			attack = -0.15
+			movement= -0.1
 		}
 
 		hills = {
-			attack = -0.05
+			attack = -0.1
 		}
 
 		mountain = {
-			attack = -0.1
-			movement = -0.05
+			attack = -0.4
+			movement = -0.25
 		}
 
 		jungle = {
-			attack = -0.1
+			attack = -0.4
+			movement = -0.3
 		}
 
 		urban = {
-			attack = -0.05
+			attack = -0.1
 		}
 
 		amphibious = {

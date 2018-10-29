@@ -2,15 +2,15 @@ state = {
 	id = 460
 	name = "GJALERBRON"
 	manpower = 1455
-	state_category = village
+	state_category = settlement
 
 	resources = {
-		oil = 1
-		ground_beast = 9
-		flying_beast = 6
-		wood = 8
-		steel = 6
-		food = 15
+		oil = 0
+		ground_beast = 0
+		flying_beast = 12
+		wood = 16
+		steel = 20
+		food = 12
 	}
 
 	history = {
@@ -23,8 +23,8 @@ state = {
 			anti_air_building = 0
 			radar_station = 0
 			
-			arms_factory = 3
-			industrial_complex = 3
+			arms_factory = 2
+			industrial_complex = 2
 			temple = 0
 			forum = 0
 			tavern = 0

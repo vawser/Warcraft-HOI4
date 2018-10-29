@@ -35,21 +35,23 @@ equipments = {
         air_range = 2500
 		maximum_speed = 400
         
-		air_superiority = 0.01
+		air_superiority = 0.5
         
-		reliability = 0.8
         
 		naval_strike_attack = 1.5
 		naval_strike_targetting = 0.5
         
 		lend_lease_cost = 12
-		manpower = 100
+
+		manpower = 15
+		reliability = 0.85
         
-		build_cost_ic = 300
+		build_cost_ic = 80
         
 		resources = {
 			flying_beast = 5
-			food = 5
+			food = 3
+			oil = 3
 		}
 	}
     
@@ -70,8 +72,19 @@ equipments = {
         
         naval_strike_attack = 1.5
 		naval_strike_targetting = 0.5
+
+		manpower = 18
+		reliability = 0.86
         
-        air_range = 2600
+		build_cost_ic = 90
+        
+		resources = {
+			flying_beast = 5
+			food = 4
+			oil = 4
+		}
+        
+        air_range = 3000
 		maximum_speed = 410
 	}
 	strategic_bomber_equipment_2 = {
@@ -86,8 +99,19 @@ equipments = {
         
         naval_strike_attack = 1.5
 		naval_strike_targetting = 0.5
+
+		manpower = 21
+		reliability = 0.88
         
-        air_range = 2700
+		build_cost_ic = 105
+        
+		resources = {
+			flying_beast = 6
+			food = 4
+			oil = 4
+		}
+        
+        air_range = 3500
 		maximum_speed = 420
 	}
     strategic_bomber_equipment_3 = {
@@ -102,8 +126,19 @@ equipments = {
         
         naval_strike_attack = 1.5
 		naval_strike_targetting = 0.5
+
+		manpower = 25
+		reliability = 0.9
         
-        air_range = 2800
+		build_cost_ic = 125
+        
+		resources = {
+			flying_beast = 7
+			food = 5
+			oil = 5
+		}
+        
+        air_range = 4000
 		maximum_speed = 430
 	}
 }

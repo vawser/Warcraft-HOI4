@@ -398,7 +398,7 @@ technologies = {
     # Equipment Capture
     #-----------------------------------------------------------------
     equipment_capture_factor_1 = {
-        equipment_capture = 0.01
+        equipment_capture = 0.05
         
         research_cost = 12
 
@@ -435,7 +435,7 @@ technologies = {
 		}
     }
     equipment_capture_factor_2 = {
-        equipment_capture = 0.01
+        equipment_capture = 0.05
         
         research_cost = 12
 
@@ -472,7 +472,7 @@ technologies = {
 		}
     }
     equipment_capture_factor_3 = {
-        equipment_capture = 0.01
+        equipment_capture = 0.05
         
         research_cost = 12
 
@@ -509,7 +509,7 @@ technologies = {
     }
     
     equipment_capture_factor_4 = {
-        equipment_capture = 0.01
+        equipment_capture = 0.05
         
         research_cost = 12
 
@@ -546,7 +546,7 @@ technologies = {
     }
     
     equipment_capture_factor_5 = {
-        equipment_capture = 0.01
+        equipment_capture = 0.05
         
         research_cost = 12
 

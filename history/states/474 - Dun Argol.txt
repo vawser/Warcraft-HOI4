@@ -2,13 +2,14 @@ state = {
 	id = 474
 	name = "DUN_ARGOL"
 	manpower = 5882
-	state_category = town
+	state_category = small_town
 
 	resources = {
-		oil = 3
-		flying_beast = 7
-		steel = 7
-		food = 13
+		oil = 0
+		flying_beast = 0
+		steel = 12
+		food = 0
+		wood = 12
 	}
 
 	history = {
@@ -21,9 +22,9 @@ state = {
 			anti_air_building = 0
 			radar_station = 0
 			
-			arms_factory = 5
-			industrial_complex = 2
-			dockyard = 6
+			arms_factory = 3
+			industrial_complex = 4
+			dockyard = 2
 
 			temple = 0
 			forum = 0

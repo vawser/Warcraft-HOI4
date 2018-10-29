@@ -1,16 +1,16 @@
 state = {
 	id = 454
 	name = "VALDER"
-	manpower = 1920
+	manpower = 2920
 	state_category = village
 
 	resources = {
-		oil = 1
-		ground_beast = 2
-		flying_beast = 8
-		wood = 6
-		steel = 9
-		food = 14
+		oil = 0
+		ground_beast = 12
+		flying_beast = 0
+		wood = 14
+		steel = 0
+		food = 18
 	}
 
 	history = {
