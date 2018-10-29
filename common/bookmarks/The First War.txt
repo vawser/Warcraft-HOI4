@@ -12,11 +12,6 @@ bookmarks = {
             ideas = {
                 racial_human
             }
-            focuses = {
-                offensive_army_effort
-                defensive_army_effort
-                support_effort
-            }
             # ideas = { }
             # focuses = { }
 		}
@@ -41,11 +36,6 @@ bookmarks = {
             ideas = {
                 racial_human
             }
-            focuses = {
-                offensive_army_effort
-                defensive_army_effort
-                support_effort
-            }
 		}
         
         "DKI"={
@@ -53,11 +43,6 @@ bookmarks = {
             ideology = disorder
             ideas = {
                 racial_dwarf
-            }
-            focuses = {
-                offensive_army_effort
-                defensive_army_effort
-                support_effort
             }
 		}
         
@@ -67,11 +52,6 @@ bookmarks = {
             ideas = {
                 racial_dwarf
             }
-            focuses = {
-                offensive_army_effort
-                defensive_army_effort
-                support_effort
-            }
 		}
         
         "QUE"={
@@ -80,11 +60,6 @@ bookmarks = {
             ideas = {
                 racial_high_elf
             }
-            focuses = {
-                offensive_army_effort
-                defensive_army_effort
-                support_effort
-            }
 		}
         
         "SMG"={
@@ -92,11 +67,6 @@ bookmarks = {
             ideology = light
             ideas = {
                 racial_human
-            }
-            focuses = {
-                offensive_army_effort
-                defensive_army_effort
-                support_effort
             }
 		}
         

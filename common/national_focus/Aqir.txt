@@ -9,76 +9,115 @@ focus_tree = {
             is_aqir = yes
         }
     }
-    
-    # Start
-    #  Gifts of our Ancestors (pick tradition)
-    #  Lessons of our Elders (pick lesson)
-    #  Ambitions of the Young (pick ambition)
-    
-    # Military
-    #   Protect the Young (ns: max_entrenchment = 5)
-    #    Erect Palisades (ns: bunker build speed = -0.1)
-    #    Fortify City (capital: +2 bunker)
-    
-    # Development
-    #   Local Developments (capital: +3 slots, +2 civ fac)
-    #   Establish Farmlands (+0.15 monthly pop, 180 days)
-    #    Fertile Crescent  (+0.05 monthly pop)
-    #    Peace and Stability (+0.1 monthly pop, replace former)
-    #   Establish Trade Routes (r-state: +2 inf)
-    #    Protect Merchants (ns: factory_ouput = 0.03)
-    #     Develop Pathways (r-state: +3 inf)
-    #    Plan for the Future (r-tech: industry)
-    #     Local Pride (ns: div defence on core-t = 0.05)
-    #     Bustling Town (capital: +3 slots, +2 civ fac)
-    #     Establish Capital City (capital: +4 slots)
-    #      Expand Markets (capital: +1 marketplace)
-    #      Open Manufactories (capital: +1 manufactory)
-    
-    # Politics
-    #   Inner Influence (add_political_power)
-    #    Embrace Light (ns: light_support = 0.05)
-    #     Lessons of Light (ns: )
-    #     Beings of Light (ruling party becomes light)
-    #    Uncover Shadow (ns: shadow_support = 0.05)
-    #     Lessons of Shadow (ns: )
-    #     Beings of Shadow (ruling party becomes shadow)
-    #    Adhere to Order (ns: order_support = 0.05)
-    #     Lessons of Order (ns: )
-    #     Beings of Order (ruling party becomes order)
-    #    Beckon Disorder (ns: disorder_support = 0.05)
-    #     Lessons of Disorder (ns: )
-    #     Beings of Disorder (ruling party becomes disorder)
-    #    Seed Life (ns: life_support = 0.05)
-    #     Lessons of Life (ns: )
-    #     Beings of Life (ruling party becomes life)
-    #    Accept Death (ns: death_support = 0.05)
-    #     Lessons of Death (ns: )
-    #     Beings of Death (ruling party becomes death)
-    
-    
     reset_on_civilwar = no
-    # focus = {
-		# id = TTH_orc_settlements
-		# icon = GFX_goal_offensive_edict
-		# x = 1
-		# y = 0
-		# cost = 10
+    
+    shared_focus = shared_inner_contemplation
+    
+    #---------------------------------------
+    # Prelude
+    #---------------------------------------
+    focus = {
+		id = silithid_traditions
+		icon = GFX_goal_offensive_edict
+		x = 3
+		y = 0
+		cost = 10
         
-		# available_if_capitulated = yes
+		available_if_capitulated = yes
 
-		# completion_reward = {
-            # add_tech_bonus = {
-				# name = industry_tech_bonus
-				# bonus = 0.5
-				# uses = 1
-				# category = industry_tech
-			# }
-		# }
+		completion_reward = {
+            country_event = { id = aqir.1 }
+		}
         
-        # ai_will_do = {
-            # factor = 1
-        # }
-	# }
+        ai_will_do = {
+            factor = 1
+        }
+	}
+    focus = {
+		id = silithid_leadership
+		icon = GFX_goal_offensive_edict
+        relative_position_id = silithid_traditions
+		x = 0
+		y = 1
+		cost = 10
+        
+        prerequisite = { focus = silithid_traditions }
+        
+		available_if_capitulated = yes
+
+		completion_reward = {
+            country_event = { id = aqir.2 }
+		}
+        
+        ai_will_do = {
+            factor = 1
+        }
+	}
+    focus = {
+		id = silithid_ambitions
+		icon = GFX_goal_offensive_edict
+        relative_position_id = silithid_leadership
+		x = 0
+		y = 1
+		cost = 10
+        
+        prerequisite = { focus = silithid_leadership }
+        
+		available_if_capitulated = yes
+
+		completion_reward = {
+            country_event = { id = aqir.3 }
+		}
+        
+        ai_will_do = {
+            factor = 1
+        }
+	}
+    
+    #---------------------------------------
+    # Development
+    #---------------------------------------
+    focus = {
+		id = silithid_developing_the_hive
+		icon = GFX_goal_offensive_edict
+		x = 1
+		y = 3
+		cost = 10
+        
+        prerequisite = { focus = silithid_ambitions }
+        
+		available_if_capitulated = yes
+
+		completion_reward = {
+            
+		}
+        
+        ai_will_do = {
+            factor = 1
+        }
+	}
+    
+    #---------------------------------------
+    # Military
+    #---------------------------------------
+    focus = {
+		id = silithid_developing_the_swarm
+		icon = GFX_goal_offensive_edict
+		x = 5
+		y = 3
+		cost = 10
+        
+        prerequisite = { focus = silithid_ambitions }
+        
+		available_if_capitulated = yes
+
+		completion_reward = {
+            
+		}
+        
+        ai_will_do = {
+            factor = 1
+        }
+	}
 }
 

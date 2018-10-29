@@ -1,9 +1,30 @@
 ﻿#---------------------------------------------------
 # Bugs
 #---------------------------------------------------
-Naval invasion -99% attack penalty
 
-Revantusk/Zandalar CTD on war declaration (Trolls?)
-605 date crash?
-
-Military Effectiveness bad scaling
+# Start
+    #  Gifts of our Ancestors (pick tradition)
+    #  Lessons of our Elders (pick lesson)
+    #  Ambitions of the Young (pick ambition)
+    
+    # Military
+    #   Protect the Young (ns: max_entrenchment = 5)
+    #    Erect Palisades (ns: bunker build speed = -0.1)
+    #    Fortify City (capital: +2 bunker)
+    
+    # Development
+    #   Local Developments (capital: +3 slots, +2 civ fac)
+    #   Establish Farmlands (+0.15 monthly pop, 180 days)
+    #    Fertile Crescent  (+0.05 monthly pop)
+    #    Peace and Stability (+0.1 monthly pop, replace former)
+    #   Establish Trade Routes (r-state: +2 inf)
+    #    Protect Merchants (ns: factory_ouput = 0.03)
+    #     Develop Pathways (r-state: +3 inf)
+    #    Plan for the Future (r-tech: industry)
+    #     Local Pride (ns: div defence on core-t = 0.05)
+    #     Bustling Town (capital: +3 slots, +2 civ fac)
+    #     Establish Capital City (capital: +4 slots)
+    #      Expand Markets (capital: +1 marketplace)
+    #      Open Manufactories (capital: +1 manufactory)
+    
+    

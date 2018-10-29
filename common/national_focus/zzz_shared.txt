@@ -1,0 +1,475 @@
+focus_tree = {
+    id = default_focus
+    country = {
+        factor = 1
+    }
+    
+    reset_on_civilwar = no
+    
+    shared_focus = shared_inner_contemplation
+}
+
+#---------------------------------------
+# Politics
+#---------------------------------------
+shared_focus = {
+	id = shared_inner_contemplation
+	icon = GFX_goal_scroll
+	x = 7
+	y = 0
+	cost = 10
+
+	available_if_capitulated = yes
+
+	completion_reward = {
+        add_political_power = 100
+	}
+        
+    ai_will_do = {
+        factor = 0  # AI probably shouldn't use these
+    }
+}
+    
+#----------------------------------
+# Light
+#----------------------------------
+shared_focus = {
+	id = shared_embrace_the_light
+	icon = GFX_goal_light_1
+    relative_position_id = shared_inner_contemplation
+	x = 0
+	y = 1
+	cost = 30
+
+	available_if_capitulated = yes
+
+    prerequisite = { focus = shared_inner_contemplation }
+        
+    available = {
+        NOT = { has_government = light }
+    }
+
+	completion_reward = {
+        add_ideas = embrace_light
+	}
+        
+    ai_will_do = {
+        factor = 1
+    }
+}
+shared_focus = {
+	id = shared_lessons_of_the_light
+	icon = GFX_goal_light_2
+    relative_position_id = shared_embrace_the_light
+	x = 0
+	y = 1
+	cost = 30
+
+	available_if_capitulated = yes
+
+	prerequisite = { focus = shared_embrace_the_light }
+        
+	available = { 
+        light > 0.3
+    }
+	completion_reward = {
+        add_ideas = gift_of_light
+	}
+        
+	ai_will_do = {
+		factor = 1
+    }
+}
+shared_focus = {
+	id = shared_turn_to_the_light
+	icon = GFX_goal_light_3
+	relative_position_id = shared_lessons_of_the_light
+	x = 0
+	y = 1
+	cost = 30
+
+	available_if_capitulated = yes
+
+	prerequisite = { focus = shared_lessons_of_the_light }
+        
+	available = { 
+        light > 0.5
+    }
+	completion_reward = {
+            set_politics = { ruling_party = light elections_allowed = no }
+	}
+        
+	ai_will_do = {
+		factor = 1
+    }
+}
+    
+#----------------------------------
+# Shadow
+#----------------------------------
+shared_focus = {
+	id = shared_embrace_shadow
+	icon = GFX_goal_shadow_1
+	relative_position_id = shared_inner_contemplation
+	x = 1
+	y = 1
+	cost = 30
+
+	available_if_capitulated = yes
+
+	prerequisite = { focus = shared_inner_contemplation }
+        
+	available = {
+        NOT = { has_government = shadow }
+    }
+
+	completion_reward = {
+        add_ideas = embrace_shadow
+	}
+        
+	ai_will_do = {
+		factor = 1
+    }
+}
+shared_focus = {
+	id = shared_lessons_of_shadow
+	icon = GFX_goal_shadow_2
+	relative_position_id = shared_embrace_shadow
+	x = 0
+	y = 1
+	cost = 30
+
+	available_if_capitulated = yes
+
+	prerequisite = { focus = shared_embrace_shadow }
+        
+	available = { 
+        shadow > 0.3
+    }
+	completion_reward = {
+        add_ideas = gift_of_shadow
+	}
+        
+	ai_will_do = {
+		factor = 1
+    }
+}
+shared_focus = {
+	id = shared_turn_to_shadow
+	icon = GFX_goal_shadow_3
+	relative_position_id = shared_lessons_of_shadow
+	x = 0
+	y = 1
+	cost = 30
+
+	available_if_capitulated = yes
+
+	prerequisite = { focus = shared_lessons_of_shadow }
+        
+	available = { 
+        shadow > 0.5
+    }
+	completion_reward = {
+        set_politics = { ruling_party = shadow elections_allowed = no }
+	}
+        
+	ai_will_do = {
+		factor = 1
+    }
+}
+    
+#----------------------------------
+# Order
+#----------------------------------
+shared_focus = {
+	id = shared_embrace_order
+	icon = GFX_goal_order_1
+	relative_position_id = shared_inner_contemplation
+	x = 2
+	y = 1
+	cost = 30
+
+	available_if_capitulated = yes
+
+	prerequisite = { focus = shared_inner_contemplation }
+        
+	available = {
+        NOT = { has_government = order }
+    }
+ 
+	completion_reward = {
+        add_ideas = embrace_order
+	}
+        
+	ai_will_do = {
+		factor = 1
+    }
+}
+shared_focus = {
+	id = shared_lessons_of_order
+	icon = GFX_goal_order_2
+	relative_position_id = shared_embrace_order
+	x = 0
+	y = 1
+	cost = 30
+
+	available_if_capitulated = yes
+
+	prerequisite = { focus = shared_embrace_order }
+        
+	available = { 
+        order > 0.3
+    }
+	completion_reward = {
+        add_ideas = gift_of_order
+	}
+        
+	ai_will_do = {
+		factor = 1
+    }
+}
+shared_focus = {
+	id = shared_turn_to_order
+	icon = GFX_goal_order_3
+	relative_position_id = shared_lessons_of_order
+	x = 0
+	y = 1
+	cost = 30
+
+	available_if_capitulated = yes
+
+	prerequisite = { focus = shared_lessons_of_order }
+        
+	available = { 
+        order > 0.5
+    }
+	completion_reward = {
+        set_politics = { ruling_party = order elections_allowed = no }
+	}
+        
+	ai_will_do = {
+		factor = 1
+    }
+}
+    
+#----------------------------------
+# Disorder
+#----------------------------------
+shared_focus = {
+	id = shared_embrace_disorder
+	icon = GFX_goal_disorder_1
+	relative_position_id = shared_inner_contemplation
+	x = 3
+	y = 1
+	cost = 30
+
+	available_if_capitulated = yes
+
+	prerequisite = { focus = shared_inner_contemplation }
+        
+	available = {
+        NOT = { has_government = disorder }
+    }
+
+	completion_reward = {
+        add_ideas = embrace_disorder
+	}
+        
+	ai_will_do = {
+		factor = 1
+    }
+}
+shared_focus = {
+	id = shared_lessons_of_disorder
+	icon = GFX_goal_disorder_2
+	relative_position_id = shared_embrace_disorder
+	x = 0
+	y = 1
+	cost = 30
+
+	available_if_capitulated = yes
+
+	prerequisite = { focus = shared_embrace_disorder }
+        
+	available = { 
+        disorder > 0.3
+    }
+	completion_reward = {
+        add_ideas = gift_of_disorder
+	}
+        
+	ai_will_do = {
+		factor = 1
+    }
+}
+shared_focus = {
+	id = shared_turn_to_disorder
+	icon = GFX_goal_disorder_3
+	relative_position_id = shared_lessons_of_disorder
+	x = 0
+	y = 1
+	cost = 30
+
+	available_if_capitulated = yes
+
+	prerequisite = { focus = shared_lessons_of_disorder }
+        
+	available = { 
+        disorder > 0.5
+    }
+	completion_reward = {
+        set_politics = { ruling_party = disorder elections_allowed = no }
+	}
+        
+	ai_will_do = {
+		factor = 1
+    }
+}
+    
+#----------------------------------
+# Life
+#----------------------------------
+shared_focus = {
+	id = shared_embrace_life
+	icon = GFX_goal_life_1
+	relative_position_id = shared_inner_contemplation
+	x = 4
+	y = 1
+	cost = 30
+
+	available_if_capitulated = yes
+
+	prerequisite = { focus = shared_inner_contemplation }
+        
+	available = {
+        NOT = { has_government = life }
+    }
+        
+	completion_reward = {
+        add_ideas = embrace_life
+	}
+        
+	ai_will_do = {
+		factor = 1
+    }
+}
+shared_focus = {
+	id = shared_lessons_of_life
+	icon = GFX_goal_life_2
+	relative_position_id = shared_embrace_life
+	x = 0
+	y = 1
+	cost = 30
+
+	available_if_capitulated = yes
+
+	prerequisite = { focus = shared_embrace_life }
+        
+	available = { 
+        life > 0.3
+    }
+	completion_reward = {
+        add_ideas = gift_of_life
+	}
+        
+	ai_will_do = {
+		factor = 1
+    }
+}
+shared_focus = {
+	id = shared_turn_to_life
+	icon = GFX_goal_life_3
+	relative_position_id = shared_lessons_of_life
+	x = 0
+	y = 1
+	cost = 30
+
+	available_if_capitulated = yes
+
+	prerequisite = { focus = shared_lessons_of_life }
+        
+	available = { 
+        life > 0.5
+    }
+	completion_reward = {
+        set_politics = { ruling_party = life elections_allowed = no }
+	}
+        
+	ai_will_do = {
+		factor = 1
+    }
+}
+    
+#----------------------------------
+# Death
+#----------------------------------
+shared_focus = {
+	id = shared_embrace_death
+	icon = GFX_goal_death_1
+	relative_position_id = shared_inner_contemplation
+	x = 5
+	y = 1
+	cost = 30
+
+	available_if_capitulated = yes
+
+	prerequisite = { focus = shared_inner_contemplation }
+        
+	available = {
+        NOT = { has_government = death }
+    }
+
+	completion_reward = {
+        add_ideas = embrace_death
+	}
+        
+	ai_will_do = {
+		factor = 1
+    }
+}
+shared_focus = {
+	id = shared_lessons_of_death
+	icon = GFX_goal_death_2
+	relative_position_id = shared_embrace_death
+	x = 0
+	y = 1
+	cost = 30
+
+	available_if_capitulated = yes
+
+	prerequisite = { focus = shared_embrace_death }
+        
+	available = { 
+        death > 0.3
+    }
+	completion_reward = {
+        add_ideas = gift_of_death
+	}
+        
+	ai_will_do = {
+		factor = 1
+    }
+}
+shared_focus = {
+	id = shared_turn_to_death
+	icon = GFX_goal_death_3
+	relative_position_id = shared_lessons_of_death
+	x = 0
+	y = 1
+	cost = 30
+
+	available_if_capitulated = yes
+
+	prerequisite = { focus = shared_lessons_of_death }
+        
+	available = { 
+        death > 0.5
+    }
+	completion_reward = {
+        set_politics = { ruling_party = death elections_allowed = no }
+	}
+        
+	ai_will_do = {
+		factor = 1
+    }
+}

@@ -1,0 +1,10 @@
+focus_tree = {
+    id = default_focus
+    country = {
+        factor = 1
+    }
+    
+    reset_on_civilwar = no
+    
+    shared_focus = shared_inner_contemplation
+}

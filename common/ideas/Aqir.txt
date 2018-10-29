@@ -1,22 +1,56 @@
 ideas = {
     country = {
-        # orc_settlements = {
-			# allowed = {
-				# always = no
-			# }
+        aqir_adaptation = {
+			allowed = {
+				always = no
+			}
 
-			# allowed_civil_war = {
-				# always = no
-			# }
+			allowed_civil_war = {
+				always = no
+			}
 
-			# removal_cost = -1
+			removal_cost = -1
 
-			# picture = orc_settlements
+			picture = aqir_1
 
-			# modifier = {
-                # production_speed_buildings_factor = 0.25
-            # }
-		# }
+			modifier = {
+                terrain_penalty_reduction = 0.1
+            }
+		}
+        aqir_breeding = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = aqir_2
+
+			modifier = {
+                monthly_population = 0.1
+            }
+		}
+        aqir_swarm = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = aqir_3
+
+			modifier = {
+                army_org_factor = 0.05
+            }
+		}
     }
 }
 

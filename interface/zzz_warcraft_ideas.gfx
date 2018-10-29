@@ -40,7 +40,30 @@ spriteTypes = {
 		name = "GFX_idea_orcish_conquerors"
 		texturefile = "gfx/interface/ideas/national_spirits/orcish_conquerors.dds"
 	}
-    
+    spriteType = {
+		name = "GFX_idea_light"
+		texturefile = "gfx/interface/ideas/national_spirits/light.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_shadow"
+		texturefile = "gfx/interface/ideas/national_spirits/shadow.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_order"
+		texturefile = "gfx/interface/ideas/national_spirits/order.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_disorder"
+		texturefile = "gfx/interface/ideas/national_spirits/disorder.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_life"
+		texturefile = "gfx/interface/ideas/national_spirits/life.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_death"
+		texturefile = "gfx/interface/ideas/national_spirits/death.dds"
+	}
     
     #-------------------------------------
     # Focuses
@@ -114,7 +137,18 @@ spriteTypes = {
 		name = "GFX_idea_shadow_council_support"
 		texturefile = "gfx/interface/ideas/focuses/shadow_council_support.tga"
 	}
-
+    spriteType = {
+		name = "GFX_idea_aqir_1"
+		texturefile = "gfx/interface/ideas/focuses/aqir_1.tga"
+	}
+    spriteType = {
+		name = "GFX_idea_aqir_2"
+		texturefile = "gfx/interface/ideas/focuses/aqir_1.tga"
+	}
+    spriteType = {
+		name = "GFX_idea_aqir_3"
+		texturefile = "gfx/interface/ideas/focuses/aqir_1.tga"
+	}
     
     #-------------------------------------
     # Laws

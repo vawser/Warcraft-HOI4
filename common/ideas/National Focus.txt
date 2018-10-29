@@ -1,6 +1,6 @@
 ideas = {
     country = {
-        offensive_edict = {
+        embrace_light = {
 			allowed = {
 				always = no
 			}
@@ -11,21 +11,13 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = offensive_edict
+			picture = light
 
-			equipment_bonus = {
-                grunt_equipment = {
-                    instant = yes
-                    build_cost_ic = -0.1
-                }
-                champion_equipment = {
-                    instant = yes
-                    build_cost_ic = -0.1
-                }
-			}
+			modifier = {
+                light_drift = 0.05
+            }
 		}
-        
-        defensive_edict = {
+        embrace_shadow = {
 			allowed = {
 				always = no
 			}
@@ -36,21 +28,13 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = defensive_edict
+			picture = shadow
 
-			equipment_bonus = {
-                spellcaster_equipment = {
-                    instant = yes
-                    build_cost_ic = -0.1
-                }
-                archer_equipment = {
-                    instant = yes
-                    build_cost_ic = -0.1
-                }
-			}
+			modifier = {
+                shadow_drift = 0.05
+            }
 		}
-        
-        cavalry_edict = {
+        embrace_order = {
 			allowed = {
 				always = no
 			}
@@ -61,21 +45,13 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = cavalry_edict
+			picture = order
 
-			equipment_bonus = {
-                light_cavalry_equipment = {
-                    instant = yes
-                    build_cost_ic = -0.1
-                }
-                heavy_cavalry_equipment = {
-                    instant = yes
-                    build_cost_ic = -0.1
-                }
-			}
+			modifier = {
+                order_drift = 0.05
+            }
 		}
-        
-        support_edict = {
+        embrace_disorder = {
 			allowed = {
 				always = no
 			}
@@ -86,21 +62,13 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = support_edict
+			picture = disorder
 
-			equipment_bonus = {
-                war_engine_equipment = {
-                    instant = yes
-                    build_cost_ic = -0.1
-                }
-                support_equipment = {
-                    instant = yes
-                    build_cost_ic = -0.1
-                }
-			}
+			modifier = {
+                disorder_drift = 0.05
+            }
 		}
-        
-        dogfighting_edict = {
+        embrace_life = {
 			allowed = {
 				always = no
 			}
@@ -111,21 +79,13 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = dogfighting_edict
+			picture = life
 
-			equipment_bonus = {
-                fighter_equipment = {
-                    instant = yes
-                    build_cost_ic = -0.1
-                }
-                cas_equipment = {
-                    instant = yes
-                    build_cost_ic = -0.1
-                }
-			}
+			modifier = {
+                life_drift = 0.05
+            }
 		}
-        
-        bombing_edict = {
+        embrace_death = {
 			allowed = {
 				always = no
 			}
@@ -136,21 +96,13 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = bombing_edict
+			picture = death
 
-			equipment_bonus = {
-                tactical_bomber_equipment = {
-                    instant = yes
-                    build_cost_ic = -0.1
-                }
-                strategic_bomber_equipment = {
-                    instant = yes
-                    build_cost_ic = -0.1
-                }
-			}
+			modifier = {
+                death_drift = 0.05
+            }
 		}
-        
-        harassment_edict = {
+        gift_of_light = {
 			allowed = {
 				always = no
 			}
@@ -161,21 +113,13 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = bombing_edict
+			picture = light
 
-			equipment_bonus = {
-                destroyer_equipment = {
-                    instant = yes
-                    build_cost_ic = -0.1
-                }
-                submarine_equipment = {
-                    instant = yes
-                    build_cost_ic = -0.1
-                }
-			}
+			modifier = {
+                army_defence_factor = 0.03
+            }
 		}
-        
-        bombardment_edict = {
+        gift_of_shadow = {
 			allowed = {
 				always = no
 			}
@@ -186,18 +130,80 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = bombing_edict
+			picture = shadow
 
-			equipment_bonus = {
-                battleship_equipment = {
-                    instant = yes
-                    build_cost_ic = -0.1
-                }
-                cruiser_equipment = {
-                    instant = yes
-                    build_cost_ic = -0.1
-                }
+			modifier = {
+                army_morale_factor = 0.05
+            }
+		}
+        gift_of_order = {
+			allowed = {
+				always = no
 			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = order
+
+			modifier = {
+                training_time_army_factor = -0.05
+            }
+		}
+        gift_of_disorder = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = disorder
+
+			modifier = {
+                army_attack_factor = 0.03
+            }
+		}
+        gift_of_life = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = life
+
+			modifier = {
+                monthly_population = 0.1
+            }
+		}
+        gift_of_death = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = death
+
+			modifier = {
+                mobilization_speed = 0.1
+            }
 		}
     }
 }
+
