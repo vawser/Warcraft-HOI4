@@ -32,9 +32,9 @@ set_technology = {
 
 add_ideas = {
 	racial_blue_dragonflight
-    civil_economy_2
+    civil_economy
     minimal_trade
-    conscription_3
+    low_conscription
 }
 
 set_convoys = 100

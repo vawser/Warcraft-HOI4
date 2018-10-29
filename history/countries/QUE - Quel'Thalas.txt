@@ -34,9 +34,9 @@ add_ideas = {
     the_sunwell
 	racial_high_elf
     
-    civil_economy_2
+    civil_economy
     free_trade
-    conscription_3
+    low_conscription
     
 }
 

@@ -32,9 +32,9 @@ set_technology = {
 
 add_ideas = {
 	racial_nerubian
-    civil_economy_4
+    civil_economy
     no_trade
-    conscription_3
+    low_conscription
 }
 
 set_convoys = 100

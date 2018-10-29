@@ -34,9 +34,9 @@ add_ideas = {
     
 	racial_orc
     
-    civil_economy_2
+    civil_economy
     limited_trade
-    conscription_4
+    low_conscription
     
 }
 

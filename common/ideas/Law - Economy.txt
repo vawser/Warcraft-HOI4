@@ -2,321 +2,37 @@ ideas = {
     economy_laws = { 
         law = yes
 
-        #---------------------------
-        # Civil
-        #---------------------------
-        civil_economy_1 = {
+        civil_economy = {
             available = { 
-                has_idea = civil_economy_2
+                always = yes
             }
             modifier = { 
-                consumer_goods_factor = 0.3
-                monthly_population = 0.5
+                consumer_goods_factor = 0.4
+                monthly_population = 1.0
             }
             
-            cost = 200
+            cost = 100
             removal_cost = -1
             cancel_if_invalid = no
             
             ai_will_do = {
-   				factor = 1
-                
-                modifier = {
-                    factor = 0
-                    
-                    num_of_available_civilian_factories < 2
-                }
-                
-                modifier = {
-                    factor = 2
-                    
-                    num_of_available_civilian_factories > 10
-                }
+   				factor = 0
 			}
         }
-        civil_economy_2 = {
+        war_economy = {
             available = { 
-                OR = {
-                    has_idea = civil_economy_1
-                    has_idea = civil_economy_3
-                }
+                has_war_support > 0.75
             }
             modifier = { 
-                consumer_goods_factor = 0.29
-                monthly_population = 0.4
+                consumer_goods_factor = 0.2
             }
             
-            cost = 200
+            cost = 100
             removal_cost = -1
             cancel_if_invalid = no
             
             ai_will_do = {
    				factor = 1
-                
-                modifier = {
-                    factor = 0
-                    
-                    num_of_available_civilian_factories < 2
-                }
-                
-                modifier = {
-                    factor = 2
-                    
-                    num_of_available_civilian_factories > 10
-                }
-			}
-        }
-        civil_economy_3 = {
-            available = { 
-                OR = {
-                    has_idea = civil_economy_2
-                    has_idea = civil_economy_4
-                }
-            }
-            modifier = { 
-                consumer_goods_factor = 0.28
-                monthly_population = 0.3
-            }
-            
-            cost = 200
-            removal_cost = -1
-            cancel_if_invalid = no
-            
-            ai_will_do = {
-   				factor = 1
-                
-                modifier = {
-                    factor = 0
-                    
-                    num_of_available_civilian_factories < 2
-                }
-                
-                modifier = {
-                    factor = 2
-                    
-                    num_of_available_civilian_factories > 10
-                }
-			}
-        }
-        civil_economy_4 = {
-            available = { 
-                OR = {
-                    has_idea = civil_economy_3
-                    has_idea = civil_economy_5
-                }
-            }
-            modifier = { 
-                consumer_goods_factor = 0.27
-                monthly_population = 0.2
-            }
-            
-            cost = 200
-            removal_cost = -1
-            cancel_if_invalid = no
-            
-            ai_will_do = {
-   				factor = 1
-                
-                modifier = {
-                    factor = 0
-                    
-                    num_of_available_civilian_factories < 2
-                }
-                
-                modifier = {
-                    factor = 2
-                    
-                    num_of_available_civilian_factories > 10
-                }
-			}
-        }
-        civil_economy_5 = {
-            available = { 
-                OR = {
-                    has_idea = civil_economy_4
-                    has_idea = war_economy_1
-                }
-            }
-            modifier = { 
-                consumer_goods_factor = 0.26
-                monthly_population = 0.1
-            }
-            
-            cost = 200
-            removal_cost = -1
-            cancel_if_invalid = no
-            
-            ai_will_do = {
-   				factor = 1
-                
-                modifier = {
-                    factor = 0
-                    
-                    num_of_available_civilian_factories < 2
-                }
-                
-                modifier = {
-                    factor = 2
-                    
-                    num_of_available_civilian_factories > 10
-                }
-			}
-        }
-        war_economy_1 = {
-            available = { 
-                OR = {
-                    has_idea = civil_economy_5
-                    has_idea = war_economy_2
-                }
-            }
-            modifier = { 
-                consumer_goods_factor = 0.24
-                monthly_population = -0.1
-            }
-            
-            cost = 200
-            removal_cost = -1
-            cancel_if_invalid = no
-            
-            ai_will_do = {
-   				factor = 1
-                
-                modifier = {
-                    factor = 0
-                    
-                    num_of_available_civilian_factories > 2
-                }
-                
-                modifier = {
-                    factor = 2
-                    
-                    num_of_available_civilian_factories < 10
-                }
-			}
-        }
-        war_economy_2 = {
-            available = { 
-                OR = {
-                    has_idea = war_economy_1
-                    has_idea = war_economy_3
-                }
-            }
-            modifier = { 
-                consumer_goods_factor = 0.23
-                monthly_population = -0.2
-            }
-            
-            cost = 200
-            removal_cost = -1
-            cancel_if_invalid = no
-            
-            ai_will_do = {
-   				factor = 1
-                
-                modifier = {
-                    factor = 0
-                    
-                    num_of_available_civilian_factories > 2
-                }
-                
-                modifier = {
-                    factor = 2
-                    
-                    num_of_available_civilian_factories < 10
-                }
-			}
-        }
-        war_economy_3 = {
-            available = { 
-                OR = {
-                    has_idea = war_economy_2
-                    has_idea = war_economy_4
-                }
-            }
-            modifier = { 
-                consumer_goods_factor = 0.22
-                monthly_population = -0.3
-            }
-            
-            cost = 200
-            removal_cost = -1
-            cancel_if_invalid = no
-            
-            ai_will_do = {
-   				factor = 1
-                
-                modifier = {
-                    factor = 0
-                    
-                    num_of_available_civilian_factories > 2
-                }
-                
-                modifier = {
-                    factor = 2
-                    
-                    num_of_available_civilian_factories < 10
-                }
-			}
-        }
-        war_economy_4 = {
-            available = { 
-                OR = {
-                    has_idea = war_economy_3
-                    has_idea = war_economy_5
-                }
-            }
-            modifier = { 
-                consumer_goods_factor = 0.21
-                monthly_population = -0.4
-            }
-            
-            cost = 200
-            removal_cost = -1
-            cancel_if_invalid = no
-            
-            ai_will_do = {
-   				factor = 1
-                
-                modifier = {
-                    factor = 0
-                    
-                    num_of_available_civilian_factories > 2
-                }
-                
-                modifier = {
-                    factor = 2
-                    
-                    num_of_available_civilian_factories < 10
-                }
-			}
-        }
-        war_economy_5 = {
-            available = { 
-                has_idea = war_economy_4
-            }
-            modifier = { 
-                consumer_goods_factor = 0.20
-                monthly_population = -0.5
-            }
-            
-            cost = 200
-            removal_cost = -1
-            cancel_if_invalid = no
-            
-            ai_will_do = {
-   				factor = 1
-                
-                modifier = {
-                    factor = 0
-                    
-                    num_of_available_civilian_factories > 2
-                }
-                
-                modifier = {
-                    factor = 2
-                    
-                    num_of_available_civilian_factories < 10
-                }
 			}
         }
     }

@@ -34,9 +34,9 @@ add_ideas = {
     primitive_nation
 	racial_gnoll
     
-    war_economy_1
+    war_economy
     minimal_trade
-    conscription_3
+    low_conscription
 }
 
 set_convoys = 100

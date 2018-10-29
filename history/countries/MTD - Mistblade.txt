@@ -33,9 +33,9 @@ set_technology = {
 add_ideas = {
 	racial_saurok
     
-    war_economy_1
+    war_economy
     minimal_trade
-    conscription_4
+    low_conscription
 }
 
 set_convoys = 100

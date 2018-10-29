@@ -153,44 +153,13 @@ spriteTypes = {
     #-------------------------------------
     # Laws
     #-------------------------------------
+    # Economy
     spriteType = {
-		name = "GFX_idea_civil_economy_1"
+		name = "GFX_idea_civil_economy"
 		texturefile = "gfx/interface/ideas/politics/civil_economy.dds"
 	}
     spriteType = {
-		name = "GFX_idea_civil_economy_2"
-		texturefile = "gfx/interface/ideas/politics/civil_economy.dds"
-	}
-    spriteType = {
-		name = "GFX_idea_civil_economy_3"
-		texturefile = "gfx/interface/ideas/politics/civil_economy.dds"
-	}
-    spriteType = {
-		name = "GFX_idea_civil_economy_4"
-		texturefile = "gfx/interface/ideas/politics/civil_economy.dds"
-	}
-    spriteType = {
-		name = "GFX_idea_civil_economy_5"
-		texturefile = "gfx/interface/ideas/politics/civil_economy.dds"
-	}
-    spriteType = {
-		name = "GFX_idea_war_economy_1"
-		texturefile = "gfx/interface/ideas/politics/war_economy.dds"
-	}
-    spriteType = {
-		name = "GFX_idea_war_economy_2"
-		texturefile = "gfx/interface/ideas/politics/war_economy.dds"
-	}
-    spriteType = {
-		name = "GFX_idea_war_economy_3"
-		texturefile = "gfx/interface/ideas/politics/war_economy.dds"
-	}
-    spriteType = {
-		name = "GFX_idea_war_economy_4"
-		texturefile = "gfx/interface/ideas/politics/war_economy.dds"
-	}
-    spriteType = {
-		name = "GFX_idea_war_economy_5"
+		name = "GFX_idea_war_economy"
 		texturefile = "gfx/interface/ideas/politics/war_economy.dds"
 	}
     
@@ -214,86 +183,24 @@ spriteTypes = {
     
     # Conscription
     spriteType = {
-		name = "GFX_idea_conscription_1"
+		name = "GFX_idea_minimal_conscription"
 		texturefile = "gfx/interface/ideas/politics/conscription_1.dds"
 	}
     spriteType = {
-		name = "GFX_idea_conscription_2"
-		texturefile = "gfx/interface/ideas/politics/conscription_2.dds"
-	}
-    spriteType = {
-		name = "GFX_idea_conscription_3"
+		name = "GFX_idea_low_conscription"
 		texturefile = "gfx/interface/ideas/politics/conscription_3.dds"
 	}
     spriteType = {
-		name = "GFX_idea_conscription_4"
+		name = "GFX_idea_limited_conscription"
 		texturefile = "gfx/interface/ideas/politics/conscription_4.dds"
 	}
     spriteType = {
-		name = "GFX_idea_conscription_5"
+		name = "GFX_idea_high_conscription"
 		texturefile = "gfx/interface/ideas/politics/conscription_5.dds"
 	}
     spriteType = {
-		name = "GFX_idea_conscription_6"
-		texturefile = "gfx/interface/ideas/politics/conscription_6.dds"
-	}
-    spriteType = {
-		name = "GFX_idea_conscription_7"
-		texturefile = "gfx/interface/ideas/politics/conscription_7.dds"
-	}
-    spriteType = {
-		name = "GFX_idea_conscription_8"
+		name = "GFX_idea_maximal_conscription"
 		texturefile = "gfx/interface/ideas/politics/conscription_8.dds"
-	}
-    spriteType = {
-		name = "GFX_idea_conscription_9"
-		texturefile = "gfx/interface/ideas/politics/conscription_9.dds"
-	}
-    spriteType = {
-		name = "GFX_idea_conscription_10"
-		texturefile = "gfx/interface/ideas/politics/conscription_10.dds"
-	}
-
-    # Swarm Conscription
-    spriteType = {
-		name = "GFX_idea_swarm_conscription_1"
-		texturefile = "gfx/interface/ideas/politics/conscription_1.dds"
-	}
-    spriteType = {
-		name = "GFX_idea_swarm_conscription_2"
-		texturefile = "gfx/interface/ideas/politics/conscription_2.dds"
-	}
-    spriteType = {
-		name = "GFX_idea_swarm_conscription_3"
-		texturefile = "gfx/interface/ideas/politics/conscription_3.dds"
-	}
-    spriteType = {
-		name = "GFX_idea_swarm_conscription_4"
-		texturefile = "gfx/interface/ideas/politics/conscription_4.dds"
-	}
-    spriteType = {
-		name = "GFX_idea_swarm_conscription_5"
-		texturefile = "gfx/interface/ideas/politics/conscription_5.dds"
-	}
-    spriteType = {
-		name = "GFX_idea_swarm_conscription_6"
-		texturefile = "gfx/interface/ideas/politics/conscription_6.dds"
-	}
-    spriteType = {
-		name = "GFX_idea_swarm_conscription_7"
-		texturefile = "gfx/interface/ideas/politics/conscription_7.dds"
-	}
-    spriteType = {
-		name = "GFX_idea_swarm_conscription_8"
-		texturefile = "gfx/interface/ideas/politics/conscription_8.dds"
-	}
-    spriteType = {
-		name = "GFX_idea_swarm_conscription_9"
-		texturefile = "gfx/interface/ideas/politics/conscription_9.dds"
-	}
-    spriteType = {
-		name = "GFX_idea_swarm_conscription_10"
-		texturefile = "gfx/interface/ideas/politics/conscription_10.dds"
 	}
     
     #-------------------------------------

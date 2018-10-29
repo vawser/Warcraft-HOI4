@@ -34,9 +34,9 @@ add_ideas = {
     
 	racial_nightborne
     
-    civil_economy_2
+    civil_economy
     minimal_trade
-    conscription_4
+    low_conscription
     
 }
 

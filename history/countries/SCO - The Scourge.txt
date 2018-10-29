@@ -35,9 +35,9 @@ add_ideas = {
     ineffectual_construction
 	racial_scourge
     
-    war_economy_3
+    war_economy
     no_trade
-    conscription_3
+    low_conscription
     
 }
 

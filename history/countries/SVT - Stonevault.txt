@@ -34,9 +34,9 @@ add_ideas = {
     primitive_nation
 	racial_trogg
     
-    war_economy_1
+    war_economy
     minimal_trade
-    conscription_4
+    low_conscription
     
 }
 

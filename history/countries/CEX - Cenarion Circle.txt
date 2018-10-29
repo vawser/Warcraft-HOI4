@@ -34,9 +34,9 @@ add_ideas = {
     
 	racial_night_elf
     
-    civil_economy_2
+    civil_economy
     minimal_trade
-    conscription_3
+    low_conscription
 }
 
 set_convoys = 100

@@ -2,318 +2,110 @@ ideas = {
     conscription_laws = { 
         law = yes
         
-        conscription_1 = {
+        minimal_conscription = {
             available = {
-                has_idea = conscription_2
+                always = yes
             }
-            modifier = { 
-                monthly_population = 0.5
+            modifier = {
                 conscription = 0.1
             }
             
-            cost = 150
+            cost = 100
             removal_cost = -1
             cancel_if_invalid = no
             
             ai_will_do = { 
-                factor = 1
-            
-                modifier = {
-                    factor = 0.1
-                    
-                    has_low_manpower = yes
-                }
-                modifier = {
-                    factor = 2
-                    
-                    has_high_manpower = yes
-                }
+                factor = 0
             }
         }
-        
-        conscription_2 = {
+        low_conscription = {
             available = {
-                OR = {
-                    has_idea = conscription_1
-                    has_idea = conscription_3
-                }
+                has_war_support > 0.25
             }
-            modifier = { 
-                monthly_population = 0.4
+            modifier = {
                 conscription = 0.15
             }
             
-            cost = 150
+            cost = 100
             removal_cost = -1
             cancel_if_invalid = no
             
             ai_will_do = { 
                 factor = 1
-            
+                
                 modifier = {
-                    factor = 0.1
+                    factor = 10
                     
-                    has_low_manpower = yes
-                }
-                modifier = {
-                    factor = 2
-                    
-                    has_high_manpower = yes
+                    manpower_per_military_factory < 1000
                 }
             }
         }
-        
-        conscription_3 = {
+        limited_conscription = {
             available = {
-                OR = {
-                    has_idea = conscription_2
-                    has_idea = conscription_4
-                }
+                has_war_support > 0.5
             }
-            modifier = { 
-                monthly_population = 0.3
-                conscription = 0.2
-            }
-            
-            cost = 150
-            removal_cost = -1
-            cancel_if_invalid = no
-            
-            ai_will_do = { 
-                factor = 1
-            
-                modifier = {
-                    factor = 0.1
-                    
-                    has_low_manpower = yes
-                }
-                modifier = {
-                    factor = 2
-                    
-                    has_high_manpower = yes
-                }
-            }
-        }
-        
-        conscription_4 = {
-            available = {
-                OR = {
-                    has_idea = conscription_3
-                    has_idea = conscription_5
-                }
-            }
-            modifier = { 
-                monthly_population = 0.2
-                conscription = 0.25
-            }
-            
-            cost = 150
-            removal_cost = -1
-            cancel_if_invalid = no
-            
-            ai_will_do = { 
-                factor = 1
-            
-                modifier = {
-                    factor = 0.1
-                    
-                    has_low_manpower = yes
-                }
-                modifier = {
-                    factor = 2
-                    
-                    has_high_manpower = yes
-                }
-            }
-        }
-        
-        conscription_5 = {
-            available = {
-                OR = {
-                    has_idea = conscription_4
-                    has_idea = conscription_6
-                }
-            }
-            modifier = { 
-                monthly_population = 0.1
+            modifier = {
                 conscription = 0.3
             }
             
-            cost = 150
+            cost = 100
             removal_cost = -1
             cancel_if_invalid = no
             
             ai_will_do = { 
-                factor = 1
-            
+                factor = 2
+                
                 modifier = {
-                    factor = 0.1
+                    factor = 10
                     
-                    has_low_manpower = yes
-                }
-                modifier = {
-                    factor = 2
-                    
-                    has_high_manpower = yes
+                    manpower_per_military_factory < 1000
                 }
             }
         }
-        
-        conscription_6 = {
+        high_conscription = {
             available = {
-                OR = {
-                    has_idea = conscription_5
-                    has_idea = conscription_7
-                }
+                has_war_support > 0.75
             }
-            modifier = { 
-                monthly_population = -0.1
-                conscription = 0.35
-            }
-            
-            cost = 150
-            removal_cost = -1
-            cancel_if_invalid = no
-            
-            ai_will_do = { 
-                factor = 1
-            
-                modifier = {
-                    factor = 2
-                    
-                    has_low_manpower = yes
-                }
-                modifier = {
-                    factor = 0.1
-                    
-                    has_high_manpower = yes
-                }
-            }
-        }
-        
-        conscription_7 = {
-            available = {
-                OR = {
-                    has_idea = conscription_6
-                    has_idea = conscription_8
-                }
-            }
-            modifier = { 
-                monthly_population = -0.2
+            modifier = {
                 conscription = 0.4
             }
             
-            cost = 150
+            cost = 100
             removal_cost = -1
             cancel_if_invalid = no
             
             ai_will_do = { 
-                factor = 1
-            
+                factor = 3
+                
                 modifier = {
-                    factor = 2
+                    factor = 10
                     
-                    has_low_manpower = yes
-                }
-                modifier = {
-                    factor = 0.1
-                    
-                    has_high_manpower = yes
+                    manpower_per_military_factory < 1000
                 }
             }
         }
-        
-        conscription_8 = {
+        maximal_conscription = {
             available = {
-                OR = {
-                    has_idea = conscription_7
-                    has_idea = conscription_9
-                }
+                has_war_support > 0.9
             }
-            modifier = { 
-                monthly_population = -0.3
-                conscription = 0.45
-            }
-            
-            cost = 150
-            removal_cost = -1
-            cancel_if_invalid = no
-            
-            ai_will_do = { 
-                factor = 1
-            
-                modifier = {
-                    factor = 2
-                    
-                    has_low_manpower = yes
-                }
-                modifier = {
-                    factor = 0.1
-                    
-                    has_high_manpower = yes
-                }
-            }
-        }
-        
-        conscription_9 = {
-            available = {
-                OR = {
-                    has_idea = conscription_8
-                    has_idea = conscription_10
-                }
-            }
-            modifier = { 
-                monthly_population = -0.4
+            modifier = {
                 conscription = 0.5
             }
             
-            cost = 150
+            cost = 100
             removal_cost = -1
             cancel_if_invalid = no
             
             ai_will_do = { 
-                factor = 1
-            
+                factor = 4
+                
                 modifier = {
-                    factor = 2
+                    factor = 10
                     
-                    has_low_manpower = yes
-                }
-                modifier = {
-                    factor = 0.1
-                    
-                    has_high_manpower = yes
-                }
-            }
-        }
-        
-        conscription_10 = {
-            available = {
-                has_idea = conscription_9
-            }
-            modifier = { 
-                monthly_population = -0.5
-                conscription = 0.60
-            }
-            
-            cost = 150
-            removal_cost = -1
-            cancel_if_invalid = no
-            
-            ai_will_do = { 
-                factor = 1
-            
-                modifier = {
-                    factor = 2
-                    
-                    has_low_manpower = yes
-                }
-                modifier = {
-                    factor = 0.1
-                    
-                    has_high_manpower = yes
+                    manpower_per_military_factory < 1000
                 }
             }
         }
     }
 }
+

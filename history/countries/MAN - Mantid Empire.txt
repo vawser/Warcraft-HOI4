@@ -32,10 +32,9 @@ set_technology = {
 
 add_ideas = {
 	racial_mantid
-    
-    war_economy_3
+    war_economy
     no_trade
-    conscription_3
+    maximal_conscription
 }
 
 set_convoys = 100

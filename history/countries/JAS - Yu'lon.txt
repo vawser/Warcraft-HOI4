@@ -34,9 +34,9 @@ add_ideas = {
     
 	racial_pandaren
     
-    civil_economy_2
+    civil_economy
     free_trade
-    conscription_3
+    low_conscription
 }
 
 set_convoys = 100

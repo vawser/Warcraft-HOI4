@@ -34,9 +34,9 @@ add_ideas = {
     
 	racial_broken
     
-    civil_economy_2
+    civil_economy
     minimal_trade
-    conscription_3
+    low_conscription
     
 }
 
