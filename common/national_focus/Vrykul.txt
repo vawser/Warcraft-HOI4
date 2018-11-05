@@ -1,37 +1,1094 @@
 focus_tree = {
-    id = vrykul_focus
-    country = {
-        factor = 0
-        
-        modifier = {
-            add = 50
-         
-            is_vrykul = yes
-        }
-    }
-    
-    reset_on_civilwar = no
-    # focus = {
-		# id = TTH_orc_settlements
-		# icon = GFX_goal_offensive_edict
-		# x = 1
-		# y = 0
-		# cost = 10
-        
-		# available_if_capitulated = yes
+	id = vrykul_focus
 
-		# completion_reward = {
-            # add_tech_bonus = {
-				# name = industry_tech_bonus
-				# bonus = 0.5
-				# uses = 1
-				# category = industry_tech
-			# }
-		# }
+	country = {
+		factor = 0
         
-        # ai_will_do = {
-            # factor = 1
-        # }
-	# }
+		modifier = {
+			add = 100
+            
+			OR = { 
+				tag = DGF
+				tag = HYL
+				tag = JOT	
+				tag = SKA
+				tag = STH
+				tag = WTO
+				tag = YMI
+			}
+		}
+	}
+	default = no
+
+	focus = {
+		id = vrykul_01
+		icon = GFX_focus_generic_home_defense
+		x = 3
+		y = 0
+
+		cost = 20
+
+		ai_will_do = { factor = 100 }
+
+		completion_reward = { 
+			country_event = { id = vrykul.1 }
+		}
+	}
+
+	focus = {
+		id = vrykul_02
+		icon = GFX_focus_generic_home_defense
+		x = 3
+		y = 1
+
+		prerequisite = { focus = vrykul_01 }
+		cost = 20
+
+		ai_will_do = { factor = 100 }
+
+		completion_reward = { 
+			country_event = { id = vrykul.2 }
+			
+		}
+	}
+
+	focus = {
+		id = vrykul_03
+		icon = GFX_focus_generic_home_defense
+		x = 3
+		y = 2
+
+		prerequisite = { focus = vrykul_02 }
+		cost = 20
+
+
+		ai_will_do = { factor = 50}
+
+		completion_reward = { 
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = vrykul_04
+		icon = GFX_focus_generic_home_defense
+		x = 3
+		y = 3
+
+		cost = 20
+
+		prerequisite = { focus = vrykul_03 }
+		
+		ai_will_do = { factor = 25}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}			
+		}
+	}
+
+	focus = {
+		id = vrykul_05
+		icon = GFX_focus_generic_home_defense
+		x = 3
+		y = 4
+
+		cost = 20
+
+		prerequisite = { focus = vrykul_04 }
+
+		ai_will_do = { factor = 25 }
+
+		completion_reward = {
+			country_event = { id = vrykul.3 }	
+		}
+	}
+
+	focus = {
+		id = vrykul_06
+		icon = GFX_focus_generic_home_defense
+		x = 3
+		y = 7
+
+		cost = 20
+
+		prerequisite = { focus = vrykul_05 }
+		prerequisite = {
+			focus = vrykul_13
+			focus = vrykul_20
+		}
+		ai_will_do = { factor = 75 }
+
+		completion_reward = {
+			add_political_power = 100
+			stability_factor = 0.10
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}		
+		}
+	}	
+
+	##############
+	# Death tree # 
+	##############
+
+	focus = {
+		id = vrykul_07
+		icon = GFX_focus_generic_home_defense
+		x = 1
+		y = 2
+
+		cost = 20
+
+		prerequisite = { focus = vrykul_02 }
+		mutually_exclusive = {
+			focus = vrykul_14	
+		}
+
+		ai_will_do = { factor = 70 }
+
+		available = {
+			is_subject = no	
+		}
+
+		completion_reward = {
+			add_ideas = vrykul_titans_accused_idea
+			add_war_support = 0.1	
+		}
+	}
+
+	focus = {
+		id = vrykul_08
+		icon = GFX_focus_generic_home_defense
+		x = 1
+		y = 3
+
+		cost = 20
+
+		prerequisite = { focus = vrykul_07 }
+		
+		ai_will_do = { factor = 50 }
+
+		completion_reward = {
+			add_stability = 0.05
+			add_war_support = 0.05		
+		}
+	}
+
+	focus = {
+		id = vrykul_09
+		icon = GFX_focus_generic_home_defense
+		x = 0
+		y = 4
+
+		cost = 20
+
+		prerequisite = { focus = vrykul_08 }
+
+		ai_will_do = { factor = 40 }
+
+
+		completion_reward = {
+			add_ideas = vrykul_racial_purity_idea	
+			add_popularity = {
+				ideology = death
+				popularity = 0.05
+			}
+		}
+	}
+
+	focus = {
+		id = vrykul_10
+		icon = GFX_focus_generic_home_defense
+		x = 2
+		y = 4
+
+		cost = 20
+
+		prerequisite = { focus = vrykul_08 }
+
+		ai_will_do = { factor = 40 }
+
+		completion_reward = {
+			add_political_power = 125
+			add_popularity = {
+				ideology = death
+				popularity = 0.05
+			}
+		}
+	}
+
+	focus = {
+		id = vrykul_11
+		icon = GFX_focus_generic_home_defense
+		x = 0
+		y = 5
+
+		cost = 20
+
+		prerequisite = { focus = vrykul_09 }
+
+		ai_will_do = { factor = 40 }
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_manpower = -231
+			}
+			random_owned_controlled_state = {
+				add_manpower = -176
+			}
+			random_owned_controlled_state = {
+				add_manpower = -257
+			}
+			random_owned_controlled_state = {
+				add_manpower = -143
+			}
+			add_popularity = {
+				ideology = death
+				popularity = 0.05
+			}
+		}
+	}
+
+	focus = {
+		id = vrykul_12
+		icon = GFX_focus_generic_home_defense
+		x = 2
+		y = 5
+
+		cost = 20
+
+		prerequisite = { focus = vrykul_10 }
+
+		ai_will_do = { factor = 40 }
+
+		completion_reward = {
+			add_ideas = vrykul_occult_research_idea	
+			add_popularity = {
+				ideology = death
+				popularity = 0.05
+			}
+		}
+	}
+
+	focus = {
+		id = vrykul_13
+		icon = GFX_focus_generic_home_defense
+		x = 1
+		y = 6
+
+		cost = 20
+
+		prerequisite = { focus = vrykul_11 }
+		prerequisite = { focus = vrykul_12 }
+		
+
+		ai_will_do = { factor = 40 }
+
+		completion_reward = {
+			add_ideas = vrykul_living_death_idea
+			set_politics = {
+				ruling_party = death
+			}	
+		}
+	}
+	##############
+	# Order tree #
+	##############
+	focus = {
+		id = vrykul_14
+		icon = GFX_focus_generic_home_defense
+		x = 5
+		y = 2
+
+		cost = 20
+
+		prerequisite = { focus = vrykul_02 }
+		mutually_exclusive = {
+			focus = vrykul_07	
+		}
+
+		ai_will_do = { factor = 30 }
+
+		available = {
+			is_subject = no
+		}
+
+		completion_reward = {
+			add_ideas = vrykul_titans_aquitted_idea
+			add_stabilty = 0.1
+		}
+	}
+
+	focus = {
+		id = vrykul_15
+		icon = GFX_focus_generic_home_defense
+		x = 5
+		y = 3
+
+		cost = 20
+
+		prerequisite = { focus = vrykul_14 }
+
+		ai_will_do = { factor = 50 }
+
+		completion_reward = {
+			add_war_support = -0.1
+			add_stability = 0.1
+		}
+	}
+
+	focus = {
+		id = vrykul_16
+		icon = GFX_focus_generic_home_defense
+		x = 4
+		y = 4
+
+		cost = 20
+
+		prerequisite = { focus = vrykul_15 }
+
+		ai_will_do = { factor = 40 }
+
+		completion_reward = {
+			add_ideas = vrykul_pluralism_idea
+			add_popularity = {
+				ideology = order
+				popularity = 0.025
+			}
+		}
+	}
+
+	focus = {
+		id = vrykul_17
+		icon = GFX_focus_generic_home_defense
+		x = 6
+		y = 4
+
+		cost = 20
+
+		prerequisite = { focus = vrykul_15 }
+
+		ai_will_do = { factor = 40 }
+
+		completion_reward = {
+			add_ideas = vrykul_prosperity_idea
+			add_popularity = {
+				ideology = order
+				popularity = 0.025
+			}
+		}
+	}
+
+	focus = {
+		id = vrykul_18
+		icon = GFX_focus_generic_home_defense
+		x = 4
+		y = 5
+
+		cost = 20
+
+		prerequisite = { focus = vrykul_16 }
+		
+		ai_will_do = { factor = 40 }
+
+		completion_reward = {
+			add_ideas = vrykul_human_workers_idea
+			add_popularity = {
+				ideology = order
+				popularity = 0.025
+			}
+		}
+	}
+
+	focus = {
+		id = vrykul_19
+		icon = GFX_focus_generic_home_defense
+		x = 6
+		y = 5
+
+		cost = 12
+
+		prerequisite = { focus = vrykul_17 }
+		
+		ai_will_do = { factor = 40 }
+
+		completion_reward = {
+			add_stability = 0.1
+			add_war_support = -0.2
+			add_popularity = {
+				ideology = order
+				popularity = 0.025
+			}
+		}
+	}
+
+	focus = {
+		id = vrykul_20
+		icon = GFX_focus_generic_home_defense
+		x = 5
+		y = 6
+
+		cost = 20
+
+		
+		prerequisite = { focus = vrykul_18 }
+		prerequisite = { focus = vrykul_19 }
+
+		ai_will_do = { factor = 50 }
+
+		completion_reward = {
+			add_ideas = vrykul_dying_life_idea
+
+		}
+	}
+	###################
+	# Death extension #
+	###################
+	focus = {
+		id = vrykul_21
+		icon = GFX_focus_generic_home_defense
+		x = 1
+		y = 7
+
+		cost = 20
+
+		prerequisite = { focus = vrykul_13 }
+		
+		ai_will_do = { factor = 25 }
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_manpower = 666
+			}
+			random_owned_controlled_state = {
+				add_manpower = 286
+			}
+			random_owned_controlled_state = {
+				add_manpower = 487
+			}
+			random_owned_controlled_state = {
+				add_manpower = 357
+			}
+		}
+	}
+
+	focus = {
+		id = vrykul_22
+		icon = GFX_focus_generic_home_defense
+		x = 1
+		y = 8
+
+		cost = 20
+
+		prerequisite = { focus = vrykul_21 }
+		
+		ai_will_do = { factor = 25 }
+
+		completion_reward = {
+			add_ideas = vrykul_undead_society_idea
+		}
+	}
+
+	focus = {
+		id = vrykul_23
+		icon = GFX_focus_generic_home_defense
+		x = 1
+		y = 9
+
+		cost = 20
+
+		prerequisite = { focus = vrykul_22 }
+		
+		ai_will_do = { factor = 25 }
+
+		completion_reward = {
+			add_ideas = vrykul_undead_champions_idea
+		}
+	}
+
+	focus = {
+		id = vrykul_25
+		icon = GFX_focus_generic_home_defense
+		x = 1
+		y = 11
+
+		cost = 20
+
+		prerequisite = { focus = vrykul_24 }
+
+		ai_will_do = { factor = 25 }
+
+		available = {
+			country_exists = TTH
+			has_equipment = {
+				grunt_equipment
+				> 750
+			}
+		}
+
+		completion_reward = {
+			TTH = {
+				country_event = { 
+				id = vrykull_Horde.1 
+				days = 1
+				}
+			}
+			send_equipment = {
+				equipment = grunt_equipment
+				amount = 750
+				target = TTH
+			}
+		}
+	}
+
+	focus = {
+		id = vrykul_24
+		icon = GFX_focus_generic_home_defense
+		x = 1
+		y = 10
+
+		cost = 20
+
+		prerequisite = { focus = vrykul_23 }
+
+		ai_will_do = { factor = 20 }
+
+		completion_reward = {
+			add_ideas = vrykul_undead_slaves_idea
+		}
+	}
+
+	###################
+	# Order extension #
+	###################
+
+	focus = {
+		id = vrykul_26
+		icon = GFX_focus_generic_home_defense
+		x = 5
+		y = 7
+
+		cost = 20
+
+		prerequisite = { focus = vrykul_20 }
+		
+		ai_will_do = { factor = 25 }
+
+		completion_reward = {
+			add_political_power = 120
+			add_stability = 0.05
+			add_war_support = 0.05
+		}
+	}
+
+	focus = {
+		id = vrykul_27
+		icon = GFX_focus_generic_home_defense
+		x = 5
+		y = 8
+
+		cost = 20
+
+		prerequisite = { focus = vrykul_26 }
+		
+		ai_will_do = { factor = 25 }
+
+		completion_reward = {
+			
+			remove_ideas = vrykul_dying_life_idea
+			add_ideas = vrykul_mortal_values_idea
+			
+		}
+	}
+
+	focus = {
+		id = vrykul_28
+		icon = GFX_focus_generic_home_defense
+		x = 5
+		y = 9
+
+		cost = 20
+
+		prerequisite = { focus = vrykul_27 }
+
+		ai_will_do = { factor = 25 }
+
+		completion_reward = {
+			add_ideas = vrykul_the_kingsguard_idea
+		}
+	}
+
+	focus = {
+		id = vrykul_29
+		icon = GFX_focus_generic_home_defense
+		x = 5
+		y = 10
+
+		cost = 20
+
+		prerequisite = { focus = vrykul_28 }
+		mutually_exclusive = {
+			focus = vrykul_30	
+		}
+
+		ai_will_do = { factor = 50 }
+
+		available = {
+			country_exists = SRW
+			has_equipment = {
+				grunt_equipment
+				> 750
+			}
+		}
+
+		completion_reward = {
+			SRW = {
+				country_event = { 
+				id = vrykull_Stormwind.1 
+				days = 1
+				}
+			}
+			send_equipment = {
+				equipment = grunt_equipment
+				amount = 750
+				target = SRW
+			}
+		}
+	}
+
+	focus = {
+		id = vrykul_30
+		icon = GFX_focus_generic_home_defense
+		x = 6
+		y = 10
+
+		cost = 20
+
+		prerequisite = { focus = vrykul_28 }
+		mutually_exclusive = {
+			focus = vrykull_29	
+		}
+
+		ai_will_do = { 
+			factor = 50
+			limit = {
+				target = SRW
+				has_war = yes
+			}
+			factor = 5
+
+		available = {		
+			country_exists = SRW
+		}
+
+		completion_reward = {
+			country_event = { id = vrykul.4}
+		}
+	}
+
+	focus = {
+		id = vrykul_31
+		icon = GFX_focus_generic_home_defense
+		x = 2
+		y = 8
+
+		cost = 20
+
+		prerequisite = { focus = vrykul_06 }
+		
+		ai_will_do = { factor = 10 }
+
+		completion_reward = {
+			add_tech_bonus = {
+				name = production_bonus
+				bonus = 0.25
+				uses = 3
+				category = production_tech
+			}
+		}
+	}
+
+	focus = {
+		id = vrykul_32
+		icon = GFX_focus_generic_home_defense
+		x = 3
+		y = 8
+
+		cost = 20
+
+		prerequisite = { focus = vrykul_06 }
+
+		ai_will_do = { factor = 10 }
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 2
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = vrykul_33
+		icon = GFX_focus_generic_home_defense
+		x = 4
+		y = 8
+
+		cost = 20
+
+		prerequisite = { focus = vrykul_06 }
+
+		ai_will_do = { factor = 10 }
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = temple
+						size > 0
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = temple
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = vrykul_34
+		icon = GFX_focus_generic_home_defense
+		x = 2
+		y = 9
+
+		cost = 20
+
+		prerequisite = { focus = vrykul_31 }
+		
+		ai_will_do = { factor = 10 }
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_resource = { 
+					type = steel 
+					amount = 16 
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = vrykul_35
+		icon = GFX_focus_generic_home_defense
+		x = 3
+		y = 9
+
+		cost = 20
+
+		prerequisite = { focus = vrykul_32 }
+
+		ai_will_do = { factor = 10 }
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_resource = { 
+					type = food 
+					amount = 20 
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = vrykul_36
+		icon = GFX_focus_generic_home_defense
+		x = 4
+		y = 9
+
+		cost = 20
+
+		prerequisite = { focus = vrykul_33 }
+		
+		ai_will_do = { factor = 10 }
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_resource = { 
+					type = wood 
+					amount = 16
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = vrykul_37
+		icon = GFX_focus_generic_home_defense
+		x = 2
+		y = 10
+
+		cost = 20
+
+		prerequisite = { focus = vrykul_34 }
+
+		ai_will_do = { factor = 10 }
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = vrykul_38
+		icon = GFX_focus_generic_home_defense
+		x = 3
+		y = 10
+
+		cost = 20
+
+		prerequisite = { focus = vrykul_35 }
+
+		ai_will_do = { factor = 10 }
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+			}
+
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 1
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 2
+			}
+		}
+	}
+
+	focus = {
+		id = vrykul_39
+		icon = GFX_focus_generic_home_defense
+		x = 4
+		y = 10
+
+		cost = 20
+
+		prerequisite = { focus = vrykul_36 }
+
+		ai_will_do = { factor = 10 }
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = vrykul_40
+		icon = GFX_focus_generic_home_defense
+		x = 3
+		y = 11
+
+		cost = 20
+
+		prerequisite = { focus = vrykul_37 }
+		prerequisite = { focus = vrykul_38}
+		prerequisite = { focus = vrykul_39 }
+
+		ai_will_do = { factor = 25 }
+
+		completion_reward = {
+			add_research_slot = 1
+			add_stability = 0.1
+		}
+	}
 }
+
+
 

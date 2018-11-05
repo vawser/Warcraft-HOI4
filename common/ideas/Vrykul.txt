@@ -1,0 +1,294 @@
+ideas = {
+    country = {
+        vrykul_curse_of_flesh_idea = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = racial_vrykul
+            
+			modifier = {
+				monthly_population = -0.2
+				stability_weekly = -0.001
+				consumer_goods_factor =0.03
+			}
+		}
+
+		vrykul_titans_accused_idea = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = racial_vrykul
+            
+			modifier = {
+				order_drift = -0.1
+				death_drift = 0.1
+			}
+		}
+
+		vrykul_titans_aquitted_idea = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = racial_vrykul
+            
+			modifier = {
+				order_drift = 0.05
+			}
+		}
+
+		vrykul_racial_purity_idea = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = racial_vrykul
+            
+			modifier = {
+				monthly_population = -0.05
+				army_attack_factor = 0.1
+				army_defence_factor = 0.05
+				army_offence = 0.1
+			}
+		}
+
+		vrykul_occult_research_idea = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = racial_vrykul
+            
+			modifier = {
+				research_time_factor = -0.05
+			}
+		}
+
+		vrykul_living_death_idea = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = racial_vrykul
+            
+			modifier = {
+				monthly_population = -0.5
+				non_core_manpower = 25
+				conscription_factor = 0.1
+			}
+		}
+
+		vrykul_pluralism_idea = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = racial_vrykul
+            
+			modifier = {
+				monthly_population = 0.25
+			}
+		}
+
+		vrykul_prosperity_idea = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = racial_vrykul
+            
+			modifier = {
+				production_speed_buildings_factor = 0.1
+			}
+		}
+
+		vrykul_human_workers_idea = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = racial_vrykul
+            
+			modifier = {
+				conscription_factor = -0.05
+				industrial_capacity_factory = 0.1
+				industrial_capacity_dockyard = 0.1
+				production_factory_max_efficiency_factor = 0.05
+			}
+		}
+
+		vrykul_dying_life_idea = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = racial_vrykul
+            
+			modifier = {
+				monthly_population = 0.1
+				stability_weekly = -0.001
+			}
+		}
+
+		vrykul_undead_society_idea = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = racial_vrykul
+            
+			modifier = {
+				consumer_goods_factor = -0.15
+				stability_weekly = 0.001
+				industrial_capacity_factory = -0.1
+				industrial_capacity_dockyard = -0.1
+				production_speed_buildings_factor = -0.1
+			}
+		}
+
+		vrykul_undead_champions_idea = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = racial_vrykul
+            
+			modifier = {
+				army_attack_factor = 0.1
+			}
+		}
+
+		vrykul_undead_slaves_idea = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = racial_vrykul
+            
+			modifier = {
+				local_resources_factor = 0.2
+			}
+		}
+
+		vrykul_mortal_values_idea = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = racial_vrykul
+            
+			modifier = {
+				army_defence_factor = 0.05
+				monthly_population = 0.125
+			}
+		}
+
+		vrykul_the_kingsguard_idea = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = racial_vrykul
+			
+			equipment_bonus = {
+    			champion_equipment = {
+       				 soft_attack = 0.1
+       				 defence = 0.1
+       				 instant = yes
+    			}
+			}
+		}
+    }
+}
