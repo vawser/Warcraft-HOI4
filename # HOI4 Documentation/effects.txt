@@ -1,0 +1,97 @@
+#---------------------------------------------
+# Country
+#---------------------------------------------
+remove_decision = <string>  # Allows to remove specified decision without running remove_effect. 
+
+
+# Similar to swap_ideas. Removes one trait and adds another. 
+swap_ruler_traits = {
+    remove = <string>
+    add = <string>
+}
+
+# Remove the exile tag on a army leader, making them no longer be considered exile leaders. 
+remove_exile_tag = {
+    <scope> = <string>
+}
+
+# Makes a country a government in exile in a set country, with a set starting legitimacy. 
+become_exiled_in = {
+    target = <scope>
+    legitimacy = <float>
+}
+
+end_exile = yes # Ends a government in exile. 
+
+add_legitimacy = <float>    # Adds legitimacy to a government in exile. 
+set_legitimacy = <float>    # Sets the legitimacy of governments in exile. 
+
+set_faction_name = <string> # Sets a faction name as the loc name. 
+
+add_nuclear_bombs = <int> #  	Adds nuclear bomb to current scope's stockpile. 
+
+# Nukes a province. 
+launch_nuke = {
+    province = <id>
+    state = <id>
+    controller = <scope>
+    use_nuke = yes
+}
+
+# Add mines to a strategic region for the current country. 
+add_mines = {
+    region = <id>
+    amount = <int>
+}
+
+# Transfers all of a nations techs to a specified tag. 
+inherit_technology = <scope>
+
+set_fuel_ratio = yes # Set country's current fuel ratio relative to its capacity. 
+
+# Gives resource rights for state to country
+give_resource_rights = {
+    receiver = <scope>
+    state = <id>
+}
+
+# 	Removes resource rights from state
+remove_resource_rights = <id>
+
+#---------------------------------------------
+# Province
+#---------------------------------------------
+# Adds a province modifier. 
+add_province_modifier = {
+    <id> = <modifier> 
+}
+
+# Removes a province modifier. 
+remove_province_modifier = {
+    <id> = <modifier> 
+}
+
+#---------------------------------------------
+# Espionage
+#---------------------------------------------
+create_intelligence_agency = <bool>         # Allows to create automatically an intelligence agency 
+upgrade_intelligence_agency = <string>      # Allows to unlock automatically an intelligence agency upgrade 
+kill_ideology_leader = <string>             # Allows to kill a country leader from a precise ideology
+
+#---------------------------------------------
+# Military
+#---------------------------------------------
+# Allows to transfer a precise part of the army and the equipement of a country to any country. 
+transfer_units_fraction = {
+    target = <scope>
+    size = <float>
+    stockpile_ratio = <float>
+    army_ratio = <float>
+    navy_ratio = <float>
+    air_ratio = <float>
+    
+    keep_unit_leaders_trigger = {
+        <trigger>s
+    }
+}
+
