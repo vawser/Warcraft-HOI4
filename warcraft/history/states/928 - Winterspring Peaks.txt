@@ -3,7 +3,7 @@ state = {
 	name = "WINTERSPRING_PEAKS"
 	manpower = 78
 	state_category = wasteland
-    impassable = yes
+    #impassable = yes
 
 	history = {
 		owner = CEN

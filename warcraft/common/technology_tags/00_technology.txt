@@ -86,15 +86,38 @@ technology_categories = {
 }
 
 technology_folders = {
-	army_folder
-    support_folder
-    air_folder
-    navy_folder
-    industry_folder
-    resources_folder
-    statecraft_folder
-    land_doctrine_folder
-    air_doctrine_folder
-    naval_doctrine_folder
+	army_folder = {
+        ledger = army
+    }
+    support_folder = {
+        ledger = army
+    }
+    air_folder = {
+        ledger = air
+    }
+    navy_folder = {
+        ledger = navy
+    }
+    industry_folder = {
+        ledger = civilian
+    }
+    resources_folder = {
+        ledger = civilian
+    }
+    statecraft_folder = {
+        ledger = civilian
+    }
+    land_doctrine_folder = {
+        ledger = army
+        doctrine = yes
+    }
+    air_doctrine_folder = {
+        ledger = air
+        doctrine = yes
+    }
+    naval_doctrine_folder = {
+        ledger = navy
+        doctrine = yes
+    }
 }
 

@@ -3,7 +3,7 @@ state = {
 	name = "AMBERMILL_MINES"
 	manpower = 22
 	state_category = wasteland
-    impassable = yes
+    #impassable = yes
 
 	history = {
 		owner = SWN

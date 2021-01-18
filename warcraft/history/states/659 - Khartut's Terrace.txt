@@ -3,7 +3,7 @@ state = {
 	name = "KHARTUT_TERRACE"
 	manpower = 6
 	state_category = wasteland
-    impassable = yes
+    #impassable = yes
 
 	history = {
 		owner = OOG

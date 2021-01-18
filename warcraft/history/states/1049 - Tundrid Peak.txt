@@ -3,7 +3,7 @@ state = {
 	name = "TUNDRID_PEAK"
 	manpower = 7
 	state_category = wasteland
-    impassable = yes
+    #impassable = yes
 
 	history = {
 		owner = IRO

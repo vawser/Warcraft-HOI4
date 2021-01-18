@@ -3,7 +3,7 @@ state = {
 	name = "THE_LONG_ARM"
 	manpower = 38
 	state_category = wasteland
-    impassable = yes
+    #impassable = yes
 
 	history = {
 		owner = ZDL

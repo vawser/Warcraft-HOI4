@@ -3,7 +3,7 @@ state = {
 	name = "GNOMEREGAN_MOUNTAINS"
 	manpower = 26
 	state_category = wasteland
-    impassable = yes
+    #impassable = yes
 
 	history = {
 		owner = GNO

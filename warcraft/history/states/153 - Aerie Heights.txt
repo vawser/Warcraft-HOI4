@@ -3,7 +3,7 @@ state = {
 	name = "AERIE_HEIGHTS"
 	manpower = 38
 	state_category = wasteland
-    impassable = yes
+    #impassable = yes
 
 	history = {
 		owner = AER

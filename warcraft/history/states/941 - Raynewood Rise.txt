@@ -3,7 +3,7 @@ state = {
 	name = "RAYNEWOOD_RISE"
 	manpower = 10
 	state_category = wasteland
-    impassable = yes
+    #impassable = yes
 
 	history = {
 		owner = SEN

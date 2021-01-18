@@ -3,7 +3,7 @@ state = {
 	name = "DRY_TOP"
 	manpower = 9
 	state_category = wasteland
-    impassable = yes
+    #impassable = yes
 
 	history = {
 		owner = WIR

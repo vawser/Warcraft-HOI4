@@ -3,7 +3,7 @@ state = {
 	name = "NORTHDALE"
 	manpower = 71
 	state_category = wasteland
-    impassable = yes
+    #impassable = yes
 
 	history = {
 		owner = AMA

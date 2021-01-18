@@ -55,7 +55,7 @@ the_holy_light_actions = {
 	}
     
     # Pray for the Light's Wisdom
-    # research_time_factor
+    # research_speed_factor
     pray_for_the_lights_wisdom = {
 		icon = yellow_quest_mark
 
@@ -70,7 +70,7 @@ the_holy_light_actions = {
 		cost = 100
 
 		modifier = {
-            research_time_factor = -0.05
+            research_speed_factor = -0.05
         }
 
 		ai_will_do = {

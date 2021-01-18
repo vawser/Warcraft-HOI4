@@ -3,7 +3,7 @@ state = {
 	name = "STONEWROUGHT_DAM_MT"
 	manpower = 24
 	state_category = wasteland
-    impassable = yes
+    #impassable = yes
 
 	history = {
 		owner = IRO

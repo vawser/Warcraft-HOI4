@@ -15,6 +15,8 @@ buildings = {
 		value = 1
         
 		infrastructure = yes
+        show_modifier = yes
+		max_fuel_building = 0.75
 	}
 
     air_base = {
@@ -261,6 +263,9 @@ buildings = {
 		infrastructure_construction_effect = yes
         
         show_on_map = 1
+        
+        show_modifier = yes
+		max_fuel_building = 100.0
 	}
     
     roost = {
@@ -277,6 +282,8 @@ buildings = {
 		infrastructure_construction_effect = yes
         
         show_on_map = 1
+        
+        show_modifier = yes
 	}
     
     stable = {
@@ -293,6 +300,8 @@ buildings = {
 		infrastructure_construction_effect = yes
         
         show_on_map = 1
+        
+        show_modifier = yes
 	}
     
     lumbercamp = {
@@ -309,6 +318,8 @@ buildings = {
 		infrastructure_construction_effect = yes
         
         show_on_map = 1
+        
+        show_modifier = yes
 	}
     
     smeltery = {
@@ -325,6 +336,8 @@ buildings = {
 		infrastructure_construction_effect = yes
         
         show_on_map = 1
+        
+        show_modifier = yes
 	}
     
     farm = {
@@ -341,6 +354,8 @@ buildings = {
 		infrastructure_construction_effect = yes
         
         show_on_map = 1
+        
+        show_modifier = yes
 	}
     
     #---------------------------------------------------

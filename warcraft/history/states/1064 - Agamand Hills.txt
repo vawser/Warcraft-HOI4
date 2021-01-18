@@ -3,7 +3,7 @@ state = {
 	name = "AGAMAND_HILLS"
 	manpower = 18
 	state_category = wasteland
-    impassable = yes
+    #impassable = yes
 
 	history = {
 		owner = LOR

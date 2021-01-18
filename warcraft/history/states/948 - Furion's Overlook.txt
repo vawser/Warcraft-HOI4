@@ -3,7 +3,7 @@ state = {
 	name = "FURIONS_OVERLOOK"
 	manpower = 69
 	state_category = wasteland
-    impassable = yes
+    #impassable = yes
 
 	history = {
 		owner = SEN

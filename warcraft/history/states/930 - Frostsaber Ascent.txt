@@ -3,7 +3,7 @@ state = {
 	name = "FROSTSABER_ASCENT"
 	manpower = 54
 	state_category = wasteland
-    impassable = yes
+    #impassable = yes
 
 	history = {
 		owner = WTA

@@ -38,8 +38,8 @@ ideas = {
 			picture = soothe_the_people
 
 			modifier = {
-                enemy_partisan_effect = -0.5
-                resistance_tick = -0.5
+                operation_boost_resistance_cost = -0.5
+                resistance_activity = -0.5
 			}
 		}
         
@@ -523,7 +523,7 @@ ideas = {
 			picture = gift_of_yulon
 
 			modifier = {
-                research_time_factor = -0.05
+                research_speed_factor = -0.05
 			}
 		}
         gift_of_niuzao = {
@@ -1225,7 +1225,7 @@ ideas = {
 			picture = innovation_wave
 
 			modifier = {
-                research_time_factor = -0.1
+                research_speed_factor = -0.1
 			}
 		}
         

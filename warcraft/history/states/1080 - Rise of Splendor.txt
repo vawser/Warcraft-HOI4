@@ -3,7 +3,7 @@ state = {
 	name = "RISE_OF_SPLENDOR"
 	manpower = 40
 	state_category = wasteland
-    impassable = yes
+    #impassable = yes
 
 	history = {
 		owner = BLO

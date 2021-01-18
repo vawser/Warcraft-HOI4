@@ -3,7 +3,7 @@ state = {
 	name = "REDROCK_ASCENT"
 	manpower = 42
 	state_category = wasteland
-    impassable = yes
+    #impassable = yes
 
 	history = {
 		owner = SKY

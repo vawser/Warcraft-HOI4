@@ -3,7 +3,7 @@ state = {
 	name = "ISILIEN_PASS"
 	manpower = 7
 	state_category = wasteland
-    impassable = yes
+    #impassable = yes
 
 	history = {
 		owner = AQJ

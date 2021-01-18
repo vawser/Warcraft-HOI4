@@ -502,7 +502,7 @@ technologies = {
     # Research
     #-----------------------------------------------------------------
     research_time_1 = {
-        research_time_factor = -0.02
+        research_speed_factor = -0.02
  
         research_cost = 12
 
@@ -542,7 +542,7 @@ technologies = {
         
     }
     research_time_2 = {
-        research_time_factor = -0.02
+        research_speed_factor = -0.02
         
         research_cost = 12
 
@@ -573,7 +573,7 @@ technologies = {
 		}
     }
     research_time_3 = {
-        research_time_factor = -0.02
+        research_speed_factor = -0.02
         
         research_cost = 12
 
@@ -604,7 +604,7 @@ technologies = {
     }
     
     research_time_4 = {
-        research_time_factor = -0.02
+        research_speed_factor = -0.02
         
         research_cost = 12
 
@@ -635,7 +635,7 @@ technologies = {
     }
     
     research_time_5 = {
-        research_time_factor = -0.02
+        research_speed_factor = -0.02
         
         research_cost = 12
 

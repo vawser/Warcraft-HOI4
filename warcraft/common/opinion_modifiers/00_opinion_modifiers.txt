@@ -9,6 +9,11 @@
 # trade = yes/no
 
 opinion_modifiers = {
+
+	cheat_opinion_modifier_good = {
+		value = 200
+	}
+
 	hostile_status = { #special used for civil wars that are on hold and blocks faction stuff
 		value = -100
 	}
@@ -38,7 +43,7 @@ opinion_modifiers = {
 	}
 
 	anti_comintern_pact_opinion = {
-		value = 50
+		value = 25
 	}
 
 	refused_anti_comintern_pact_opinion= {
@@ -50,7 +55,7 @@ opinion_modifiers = {
 	}
 
 	tripartite_pact_opinion = {
-		value = 75
+		value = 35
 	}
 
 	refused_tripartite_pact_opinion = {
@@ -92,7 +97,7 @@ opinion_modifiers = {
 	}
 	
 	offered_support = {
-		value = 50
+		value = 25
 		months = 24
 	}
 	
@@ -107,12 +112,12 @@ opinion_modifiers = {
 	}
 
 	sov_ger_treaty = {
-		value = 25
+		value = 10
 	}
 
 	sov_ger_treaty_trade = {
 		trade = yes
-		value = 25
+		value = 10
 	}
 
 	SOV_FRA_join_comintern_reject = {		
@@ -120,11 +125,11 @@ opinion_modifiers = {
 	}
 
 	SOV_ultimatum_to_greece_thrace = {
-		value = 50
+		value = 25
 	}
 
 	MR_pact = {
-		value = 40
+		value = 20
 	}
 	
 	MR_pact_fascists = {
@@ -144,7 +149,7 @@ opinion_modifiers = {
 	}
 	
 	attache_sent = {
-		value = 30
+		value = 15
 	}
 	
 	attache_sent_to_enemy = {
@@ -157,11 +162,11 @@ opinion_modifiers = {
 	
 	guarantee = {
 		target = yes
-		value = 75
+		value = 35
 	}
 
 	danzig_for_guarantees = {
-		value = 75
+		value = 35
 	}
 	
 	betrayed_guarantee = {
@@ -174,11 +179,11 @@ opinion_modifiers = {
 	}
 	
 	in_faction = {
-		value = 100
+		value = 50
 	}
 	
 	military_access = {
-		value = 30
+		value = 10
 	}
 	
 	non_aggression_pact = {
@@ -186,11 +191,11 @@ opinion_modifiers = {
 	}
 
 	fascists_in_government = {
-		value = 30
+		value = 15
 	}
 
 	communists_in_government = {
-		value = 30
+		value = 15
 	}
 
 	refused_help = {
@@ -200,7 +205,7 @@ opinion_modifiers = {
 	}
 
 	took_stand_for_us = {
-		value = 50
+		value = 25
 		decay = 1
 	}
 	
@@ -222,51 +227,51 @@ opinion_modifiers = {
 	
 	puppet_opinion = 
 	{
-		value = 200
+		value = 50
 	}
 
 	ger_sov_alliance_focus = {
-		value = 50
+		value = 25
 	}
 
 	ger_jap_diplomacy_focus = {
-		value = 30
+		value = 15
 	}
 
 	withdrew_advisors = {
-		value = -30
+		value = -15
 	}
 
 	ger_chi_diplomacy_focus = {
-		value = 30
+		value = 15
 	}
 
 	supported_the_chinese = {
-		value = -30
+		value = -15
 	}
 
 	ger_tur_diplomacy_focus = {
-		value = 50
+		value = 25
 	}
 
 	ger_cze_diplomatic_focus = {
-		value = 60
+		value = 30
 	}
 
 	ger_ita_alliance_focus = {
-		value = 50
+		value = 25
 	}
 
 	ger_spa_alliance_focus = {
-		value = 50
+		value = 25
 	}
 
 	ger_pol_diplomacy_focus = {
-		value = 50
+		value = 25
 	}
 
 	ger_naval_intimidation_focus = {
-		value = 50
+		value = 25
 	}
 
 	GER_FRA_join_germany_reject = {
@@ -282,11 +287,11 @@ opinion_modifiers = {
 	}
 
 	ita_supported_spain_civil_war = {
-		value = 30
+		value = 15
 	}
 
 	ita_diplomacy_focus = {
-		value = 40
+		value = 20
 	}
 
 	ITA_FRA_woo_italy_reject = {
@@ -294,18 +299,18 @@ opinion_modifiers = {
 	}
 
 	pact_of_steel_opinion = {
-		value = 60
+		value = 30
 	}
 
 	anti_fascist_diplomacy_focus = {
-		value = 30
+		value = 15
 	}
 	anti_fascist_diplomacy_fascists = {
 		value = -40
 	}
 
 	anti_capitalist_diplomacy_focus = {
-		value = 30
+		value = 15
 	}
 
 	anti_capitalist_diplomacy_capitalists = {
@@ -313,7 +318,7 @@ opinion_modifiers = {
 	}
 
 	operation_zet_chi = {
-		value = 40
+		value = 20
 	}
 
 	operation_zet_jap = {
@@ -325,7 +330,7 @@ opinion_modifiers = {
 	}
 
 	border_conflict_reconciled = {
-		value = 40
+		value = 20
 	}
 
 	threat_to_baltic = {
@@ -360,25 +365,31 @@ opinion_modifiers = {
 		value = -50
 	}
 	democratic_leanings_good = {
-		value = 30
+		value = 15
 	}
 	democratic_leanings_bad = {
 		value = -30
 	}
 	communism_leanings_good = {
-		value = 30
+		value = 15
 	}
 	communism_leanings_bad = {
 		value = -30
 	}
 	fascism_leanings_good = {
-		value = 30
+		value = 15
 	}
 	fascism_leanings_bad = {
 		value = -30
 	}
+	neutrality_leanings_good = {
+		value = 15
+	}
+	neutrality_leanings_bad = {
+		value = -30
+	}
 	tizard_relations = {
-		value = 50
+		value = 25
 	}
 	tizard_refused = {
 		value = -50
@@ -390,16 +401,16 @@ opinion_modifiers = {
 		value = -20
 	}
 	burma_road_good = {
-		value = 30
+		value = 15
 	}
 	burma_road_bad = {
 		value = -30
 	}
 	axis_leanings_focus = {
-		value = 50
+		value = 25
 	}
 	jap_sia_love = {
-		value = 50
+		value = 25
 	}
 	unprovoked_aggression = {
 		value = -50
@@ -413,7 +424,7 @@ opinion_modifiers = {
 	}
 
 	balkan_strategy_good = {
-		value = 30
+		value = 15
 	}
 
 	balkan_strategy_bad = {
@@ -421,14 +432,14 @@ opinion_modifiers = {
 	}
 
 	aided_industry = {
-		value = 30
+		value = 15
 	}
 	
 	pan_slavic_opinion = {
-		value = 30
+		value = 15
 	}
 	ger_ita_tech_treaty = {
-		value = 50
+		value = 25
 	}
 
 	ger_ita_tech_treaty_rejected = {
@@ -436,7 +447,7 @@ opinion_modifiers = {
 	}
 
 	lend_leased_spanish_civil_war = {
-		value = 30
+		value = 15
 	}
 
 	anti_german_coup = {
@@ -456,13 +467,20 @@ opinion_modifiers = {
 	}
 
 	anti_imperialist = {
-		value = 40
+		value = 20
 	}
 
 	destroyers_for_bases_opinion = {
-		value = 30
+		value = 15
+	}
+	
+	CZE_trust_in_the_west = {
+		value = 25
 	}
 
+	CZE_german_leanings = {
+		value = 25
+	}
 
 	rejected_demands = {
 		value = -30
@@ -489,19 +507,19 @@ opinion_modifiers = {
 	}
 
 	small_increase = {
-		value = 10
+		value = 5
 	}
 
 	medium_increase = {
-		value = 25
+		value = 15
 	}
 
 	large_increase = {
-		value = 50
+		value = 25
 	}
 	
 	huge_increase = {
-		value = 100
+		value = 50
 	}
 
 	##### TRADE MODIFIERS
@@ -511,7 +529,7 @@ opinion_modifiers = {
 	}
 	sanctions = {
 		trade = yes
-		value = -40
+		value = -50
 	}
 	minor_sanctions = {
 		trade = yes
@@ -519,11 +537,11 @@ opinion_modifiers = {
 	}
 
 	unholy_alliance_opinion = {
-		value = 40
+		value = 20
 	}
 	unholy_alliance_trade = {
 		trade = yes
-		value = 20
+		value = 10
 	}
 
 	monroe_doctrine_trade = {

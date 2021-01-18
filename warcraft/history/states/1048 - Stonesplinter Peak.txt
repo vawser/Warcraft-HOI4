@@ -3,7 +3,7 @@ state = {
 	name = "STONESPLINTER_PEAK"
 	manpower = 18
 	state_category = wasteland
-    impassable = yes
+    #impassable = yes
 
 	history = {
 		owner = SVT

@@ -3,7 +3,7 @@ state = {
 	name = "DRYGULCH_HILL"
 	manpower = 52
 	state_category = wasteland
-    impassable = yes
+    #impassable = yes
 
 	history = {
 		owner = RAZ

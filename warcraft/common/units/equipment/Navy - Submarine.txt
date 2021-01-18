@@ -4,106 +4,87 @@ equipments = {
 		is_buildable = no
         picture = archetype_ship
 		group_by = archetype
-		
-        type = { 
-			submarine
-		}
-
+        type = submarine
+        
 		interface_category = interface_category_other_ships
 
 		upgrades = {
-			wm_submarine_max_strength
-            wm_submarine_max_organisation
-            wm_submarine_reliability
-            wm_submarine_supply_consumption
-            wm_submarine_torpedo_attack
-            wm_submarine_anti_air_attack
-            wm_submarine_fire_range
-            wm_submarine_evasion
-            wm_submarine_sub_detection
-            wm_submarine_surface_visibility
-            wm_submarine_surface_detection
-            wm_submarine_naval_range
-            wm_submarine_naval_speed
-            wm_submarine_port_capacity_usage
-            wm_submarine_build_cost_ic
+            
 		}
         
-        max_organisation = 40
-		supply_consumption = 0.1
+        module_slots = {
         
-        reliability = 0.7
-        max_strength = 100
+        }
+        
+        module_count_limit = {
+        
+        }
+        
+        default_modules = {
+        
+        }
+        
+        lg_armor_piercing = 0
+		lg_attack = 0
 		
-		fire_range = 15
-		torpedo_attack = 12
-		anti_air_attack = 2
+		hg_armor_piercing = 0
+		hg_attack = 0
 		
-		evasion = 20
-		surface_detection = 25
-		surface_visibility = 3
-		sub_visibility = 5
+		torpedo_attack = 0
+		sub_attack = 0
 		
-		naval_range = 2000
-		naval_speed = 10
-        
-        ap_attack = 0
-		attack = 0
-        armor_value = 5
-        sub_detection = 5
-        
-		port_capacity_usage = 0.5
-		manpower = 25
-        
-		build_cost_ic = 3000
+		anti_air_attack = 0
+		
+		armor_value = 0
+
+		
+		surface_detection = 20
+		sub_detection = 0
+		surface_visibility = 1
+		sub_visibility = 25
+		naval_speed = 14
+		reliability = 0.60
+		
+		naval_range = 2500
+		
+		max_strength = 10
+		
+		fuel_consumption = 1
+		
+		build_cost_ic = 220
+        manpower = 200
         
 		resources = {
-			food = 4
-            ground_beast = 3
+			steel = 2
 		}
 	}
     
     submarine_equipment_0 = {
 		archetype = submarine_equipment
 		priority = 10
-        #active = yes     
+		
+		module_slots = inherit
 	}
     submarine_equipment_1 = {
 		archetype = submarine_equipment
         parent = submarine_equipment_0
 		priority = 20
-
-        max_organisation = 40
-		supply_consumption = 0.6
         
-        reliability = 0.60
-        max_strength = 120
-		
-		fire_range = 18
-		torpedo_attack = 15
-		anti_air_attack = 4
-		
-		evasion = 22
-		surface_detection = 30
-		surface_visibility = 4
-		sub_visibility = 10
-		
-		naval_range = 3000
-		naval_speed = 12
+        type = { 
+			submarine
+		}
         
-        ap_attack = 0
-		attack = 0
-        armor_value = 6
-        sub_detection = 12
+        module_slots = {
         
-		port_capacity_usage = 0.5
-		manpower = 30
+        }
         
-		build_cost_ic = 3600
+        default_modules = {
+        
+        }
+        
         
 		resources = {
-			food = 5
-            ground_beast = 3
+			steel = 3
 		}
 	}
     submarine_equipment_2 = {
@@ -111,37 +92,21 @@ equipments = {
         parent = submarine_equipment_1
 		priority = 30
 
-        max_organisation = 40
-		supply_consumption = 0.7
+        type = { 
+			submarine
+		}
         
-        reliability = 0.7
-        max_strength = 125
-		
-		fire_range = 20
-		torpedo_attack = 18
-		anti_air_attack = 7
-		
-		evasion = 30
-		surface_detection = 35
-		surface_visibility = 5
-		sub_visibility = 15
-		
-		naval_range = 4500
-		naval_speed = 15
+        module_slots = {
         
-        ap_attack = 0
-		attack = 0
-        armor_value = 8
-        sub_detection = 20
+        }
         
-		port_capacity_usage = 0.5
-		manpower = 35
+        default_modules = {
         
-		build_cost_ic = 4200
+        }
+        
         
 		resources = {
-			food = 5
-            ground_beast = 4
+			steel = 4
 		}
 	}
     submarine_equipment_3 = {
@@ -149,37 +114,17 @@ equipments = {
         parent = submarine_equipment_2
 		priority = 40
 
-        max_organisation = 40
-		supply_consumption = 0.8
+        module_slots = {
         
-        reliability = 0.9
-        max_strength = 150
-		
-		fire_range = 22
-		torpedo_attack = 21
-		anti_air_attack = 10
-		
-		evasion = 40
-		surface_detection = 45
-		surface_visibility = 20
-		sub_visibility = 30
-		
-		naval_range = 6000
-		naval_speed = 18
+        }
         
-        ap_attack = 0
-		attack = 0
-        armor_value = 10
-        sub_detection = 30
+        default_modules = {
         
-		port_capacity_usage = 0.5
-		manpower = 35
+        }
         
-		build_cost_ic = 4900
         
 		resources = {
-			food = 6
-			ground_beast = 5
+			steel = 5
 		}
 	}
 }

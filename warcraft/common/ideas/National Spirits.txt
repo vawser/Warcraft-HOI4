@@ -32,7 +32,7 @@ ideas = {
 			picture = gnomish_engineering
             
             modifier = {
-                research_time_factor = -0.05
+                research_speed_factor = -0.05
             }
 		}
         
@@ -50,7 +50,7 @@ ideas = {
 			picture = goblin_engineering
             
             modifier = {
-                research_time_factor = -0.05
+                research_speed_factor = -0.05
             }
 		}
         

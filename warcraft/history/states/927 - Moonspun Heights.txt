@@ -3,7 +3,7 @@ state = {
 	name = "MOONSPUN_HEIGHTS"
 	manpower = 70
 	state_category = wasteland
-    impassable = yes
+    #impassable = yes
 
 	history = {
 		owner = CEN

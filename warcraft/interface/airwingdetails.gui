@@ -277,7 +277,7 @@ guiTypes = {
 		iconType = {
 			name ="equipment_icon"
 			spriteType = "GFX_technology_medium"
-			position = { x=25 y=5 }
+			position = { x=17 y=20 }
 			scale = 0.5
 			alwaystransparent = yes
 		}
@@ -297,7 +297,7 @@ guiTypes = {
 			maxWidth = 450
 			maxHeight = 23
 			format = left
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}
 		
 		instantTextboxType = {
@@ -308,7 +308,7 @@ guiTypes = {
 			maxHeight = 23
 			fixedsize = yes
 			format = left
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}
 		
 		instantTextboxType = {
@@ -318,7 +318,7 @@ guiTypes = {
 			maxWidth = 150
 			maxHeight = 23
 			format = left
-			allwaystransparent = yes
+			alwaystransparent = yes
 		}
 	}
 }

@@ -145,7 +145,8 @@ guiTypes = {
 		moveable = yes
 		fade_time = 200
 		fade_type = linear
-		
+		clipping = no
+
 		background = {
 			name = "Background"	
 			quadTextureSprite ="GFX_tiled_window_w_close"
@@ -171,11 +172,12 @@ guiTypes = {
 		
 		instantTextboxType = {
 			name = "action_name"
-			position = {x=110 y=22}
+			position = {x=140 y=22}
 			font = "hoi_20bs"
-			maxWidth = 410
+			maxWidth = 310
 			maxHeight = 23
 			format = center
+			fixedsize = yes
 			alwaystransparent = yes
 		}
 		
@@ -190,6 +192,72 @@ guiTypes = {
 			text = "AIR_WAREHOUSE_LABEL"
 		}
 		
+		buttonType = {
+			name = "left_reinforce_1"	
+			position = { x=15 y=15 }
+			quadTextureSprite = "GFX_wing_prio_strip"
+			frame = 1
+			clicksound = click_default
+			pdx_tooltip = "AIR_REINFORCE_OBSOLETE_ONLY"
+		}
+		buttonType = {
+			name = "left_reinforce_2"	
+			position = { x=45 y=15 }
+			quadTextureSprite = "GFX_wing_prio_strip"
+			frame = 2
+			clicksound = click_default
+			pdx_tooltip = "AIR_REINFORCE_ANY"
+		}
+		buttonType = {
+			name = "left_reinforce_3"	
+			position = { x=78 y=15 }
+			quadTextureSprite = "GFX_wing_prio_strip"
+			frame = 3
+			clicksound = click_default
+			pdx_tooltip = "AIR_REINFORCE_ONLY_NEW"
+		}
+		buttonType = {
+			name = "left_reinforce_4"
+			position = { x=105 y=15 }
+			quadTextureSprite = "GFX_wing_prio_strip"
+			frame = 4
+			clicksound = click_default
+			pdx_tooltip = "AIR_REINFORCE_ONLY_SAME"
+		}
+
+		buttonType = {
+			name = "right_reinforce_1"	
+			position = { x=454 y=15 }
+			quadTextureSprite = "GFX_wing_prio_strip"
+			frame = 1
+			clicksound = click_default
+			pdx_tooltip = "AIR_REINFORCE_OBSOLETE_ONLY"
+		}
+		buttonType = {
+			name = "right_reinforce_2"	
+			position = { x=484 y=15 }
+			quadTextureSprite = "GFX_wing_prio_strip"
+			frame = 2
+			clicksound = click_default
+			pdx_tooltip = "AIR_REINFORCE_ANY"
+		}
+		buttonType = {
+			name = "right_reinforce_3"	
+			position = { x=514 y=15 }
+			quadTextureSprite = "GFX_wing_prio_strip"
+			frame = 3
+			clicksound = click_default
+			pdx_tooltip = "AIR_REINFORCE_ONLY_NEW"
+		}
+		buttonType = {
+			name = "right_reinforce_4"
+			position = { x=542 y=15 }
+			quadTextureSprite = "GFX_wing_prio_strip"
+			frame = 4
+			clicksound = click_default
+			pdx_tooltip = "AIR_REINFORCE_ONLY_SAME"
+		}
+
 		containerWindowType = {
 			name = "header_left"
 			position = {x=15 y=50}
@@ -240,7 +308,7 @@ guiTypes = {
 				maxWidth = 450
 				maxHeight = 23
 				format = left
-				allwaystransparent = yes
+				alwaystransparent = yes
 			}
 			
 			buttonType = {
@@ -263,7 +331,7 @@ guiTypes = {
 				maxWidth = 450
 				maxHeight = 23
 				format = left
-				allwaystransparent = yes
+				alwaystransparent = yes
 				text = "Bf109"
 			}
 			
@@ -275,7 +343,7 @@ guiTypes = {
 				fixedsize = yes
 				maxHeight = 23
 				format = left
-				allwaystransparent = yes
+				alwaystransparent = yes
 				text = "region"
 			}
 
@@ -336,7 +404,7 @@ guiTypes = {
 				maxWidth = 450
 				maxHeight = 23
 				format = left
-				allwaystransparent = yes
+				alwaystransparent = yes
 			}
 			
 			buttonType = {
@@ -359,7 +427,7 @@ guiTypes = {
 				maxWidth = 450
 				maxHeight = 23
 				format = left
-				allwaystransparent = yes
+				alwaystransparent = yes
 				text = "Bf109"
 			}
 			
@@ -371,7 +439,7 @@ guiTypes = {
 				fixedsize = yes
 				maxHeight = 23
 				format = left
-				allwaystransparent = yes
+				alwaystransparent = yes
 				text = "region"
 			}
 
@@ -477,6 +545,49 @@ guiTypes = {
 			maxHeight = 20
 			format = center
 		}
+
+		dropDownBoxType = {
+			name = "manpower_dropdown"
+			position = { x = 555 y = 355 }
+			size = { width = 60 height = 40 }
+			
+
+			expandButton = {
+				name = "expand_button"	
+				position = { x = -10 y = 14 }
+				quadTextureSprite ="GFX_flag_small2"
+				buttonFont = "Main_14_black"
+				clicksound = click_default
+			}
+
+			expandedWindow = {
+				name = "expanded_window"
+				position = { x=-260 y= -355 }	
+				show_position = { x = 60 y = -355 }
+				show_animation_type = decelerated
+				hide_animation_type = accelerated
+				animation_time = 500
+				size = { width=200 height=420 }	
+				verticalScrollbar = "right_vertical_slider"
+				margin = { top = 7 bottom = 7 right = 6 }
+				#clipping = no
+				
+				background = {
+					name = "Background"		
+					quadTextureSprite ="GFX_tiled_window_1b_thin_border"
+					position = { x = 0 y = 0 }
+				}
+				
+				gridBoxType = {
+					name = "countries_grid"
+					position = { x = 8 y = 0 }
+					size = { width = 199 height = 100%% }
+					slotsize = { width = 256 height = 70 }
+					max_slots_horizontal = 1
+					format = "UPPER_LEFT"
+				}
+			}
+		}
 		
 		buttonType = {
 			name = "confirm_btn"
@@ -489,6 +600,38 @@ guiTypes = {
 			clicksound = click_default
 			text = "BUTTON_OK"
 		}
+	}
+
+	containerWindowType = {
+		name = "airwing_manpower_item"
+		size = { width = 270 height = 66  }
+		clipping = no
+
+		background = {
+			name = "Background"
+			quadTextureSprite ="GFX_mini_tooltip"
+			clicksound = click_default
+		}
+
+		iconType = {
+			name = "flag"
+			quadTextureSprite ="GFX_flag_small2"
+			position = { x= 13 y = 24 }
+			alwaystransparent = yes
+		}
+		
+		instantTextboxType = {
+			name = "manpower_text"
+			position = { x = 65 y = 25 }
+			textureFile = ""
+			font = "hoi_18mbs"
+			borderSize = {x = 0 y = 0}
+			text = "Maus"
+			maxWidth = 160
+			maxHeight = 20
+			format = left
+			alwaystransparent = yes
+		}		
 	}
 	
 	containerWindowType = {
@@ -506,7 +649,7 @@ guiTypes = {
 		iconType = {
 			name ="equipment_icon"
 			spriteType = "GFX_technology_medium"
-			position = { x=55 y=35 }
+			position = { x=55 y=45 }
 			scale = 0.6
 			alwaystransparent = yes
 		}		
@@ -526,7 +669,7 @@ guiTypes = {
 			maxWidth = 450
 			maxHeight = 23
 			format = left
-			allwaystransparent = yes
+			alwaystransparent = yes
 			text = "10"
 		}
 		
@@ -538,7 +681,7 @@ guiTypes = {
 			maxHeight = 23
 			fixedsize = yes			
 			format = left
-			allwaystransparent = yes
+			alwaystransparent = yes
 			text = "fighter"
 		}
 		
@@ -550,7 +693,7 @@ guiTypes = {
 			maxHeight = 23
 			fixedsize = yes
 			format = left
-			allwaystransparent = yes
+			alwaystransparent = yes
 			text = "Bf109"
 		}
 		
@@ -586,7 +729,7 @@ guiTypes = {
 		iconType = {
 			name ="equipment_icon"
 			spriteType = "GFX_technology_medium"
-			position = { x=146 y=35 }
+			position = { x=146 y=45 }
 			scale = 0.6
 			alwaystransparent = yes
 		}		
@@ -606,7 +749,7 @@ guiTypes = {
 			maxWidth = 50
 			maxHeight = 23
 			format = right
-			allwaystransparent = yes
+			alwaystransparent = yes
 			text = "10"
 		}
 		
@@ -617,7 +760,7 @@ guiTypes = {
 			maxWidth = 250
 			maxHeight = 23
 			format = right
-			allwaystransparent = yes
+			alwaystransparent = yes
 			text = "fighter"
 		}
 		
@@ -628,7 +771,7 @@ guiTypes = {
 			maxWidth = 250
 			maxHeight = 23
 			format = right
-			allwaystransparent = yes
+			alwaystransparent = yes
 			text = "Bf109"
 		}
 		

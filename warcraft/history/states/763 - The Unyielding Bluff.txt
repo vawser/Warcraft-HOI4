@@ -3,7 +3,7 @@ state = {
 	name = "THE_UNYIELDING_BLUFF"
 	manpower = 67
 	state_category = wasteland
-    impassable = yes
+    #impassable = yes
 
 	history = {
 		owner = BDH

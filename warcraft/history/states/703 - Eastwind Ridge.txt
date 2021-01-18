@@ -3,7 +3,7 @@ state = {
 	name = "EASTWIND_RIDGE"
 	manpower = 43
 	state_category = wasteland
-    impassable = yes
+    #impassable = yes
 
 	history = {
 		owner = GAL

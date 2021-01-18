@@ -3,7 +3,7 @@ state = {
 	name = "FEATHERMOON_HEIGHTS"
 	manpower = 59
 	state_category = wasteland
-    impassable = yes
+    #impassable = yes
 
 	history = {
 		owner = AQJ

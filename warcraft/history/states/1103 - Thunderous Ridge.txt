@@ -3,7 +3,7 @@ state = {
 	name = "THUNDEROUS_RIDGE"
 	manpower = 4
 	state_category = wasteland
-    impassable = yes
+    #impassable = yes
 
 	history = {
 		owner = SAZ

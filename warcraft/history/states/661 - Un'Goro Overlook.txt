@@ -3,7 +3,7 @@ state = {
 	name = "UNGORO_OVERLOOK"
 	manpower = 62
 	state_category = wasteland
-    impassable = yes
+    #impassable = yes
 
 	history = {
 		owner = AQJ

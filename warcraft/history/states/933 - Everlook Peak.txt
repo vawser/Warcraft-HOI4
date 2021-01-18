@@ -3,7 +3,7 @@ state = {
 	name = "EVERLOOK_PEAK"
 	manpower = 26
 	state_category = wasteland
-    impassable = yes
+    #impassable = yes
 
 	history = {
 		owner = WTA

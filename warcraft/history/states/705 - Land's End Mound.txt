@@ -3,7 +3,7 @@ state = {
 	name = "LANDS_END_MOUND"
 	manpower = 69
 	state_category = wasteland
-    impassable = yes
+    #impassable = yes
 
 	history = {
 		owner = SAN

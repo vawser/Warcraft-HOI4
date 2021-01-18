@@ -51,7 +51,7 @@ ideas = {
 
             modifier = {
                 training_time_army_factor = -0.25
-                research_time_factor = -0.05
+                research_speed_factor = -0.05
             }
 		}
         
@@ -394,7 +394,7 @@ ideas = {
 			picture = racial_gnome
 
             modifier = {
-                research_time_factor = -0.05
+                research_speed_factor = -0.05
             }
 		}
         

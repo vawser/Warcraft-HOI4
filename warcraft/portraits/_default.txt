@@ -1,4 +1,13 @@
 default = {	
+    operative = {
+		male = {
+			"gfx/leaders/operative_unknown.dds"
+		}
+		female = {
+			"gfx/leaders/operative_unknown.dds"
+		}
+	}
+    
 	male = {
 		"gfx/leaders/leader_unknown.dds"
 	}

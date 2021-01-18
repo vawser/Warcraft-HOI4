@@ -5,6 +5,8 @@ idea_categories = {
 	
 		cost = 0
 		removal_cost = -1
+		
+		ledger = hidden
 	}
 
 	country = {
@@ -12,6 +14,8 @@ idea_categories = {
 		
 		cost = 0
 		removal_cost = -1
+		
+		ledger = hidden
 	}
 	
 	government = {
@@ -20,6 +24,7 @@ idea_categories = {
 		slot = conscription_laws
         
 		cost = 100
+		ledger = civilian
 		removal_cost = 0
 	}
     
@@ -30,6 +35,8 @@ idea_categories = {
         slot = government_advisor
         slot = government_advisor
         slot = government_advisor
+		
+		ledger = civilian
 		
 		cost = 100
 		removal_cost = 0
@@ -42,8 +49,15 @@ idea_categories = {
         slot = military_advisor
         slot = military_advisor
         slot = military_advisor
+
+		ledger = military
 		
 		cost = 100
 		removal_cost = 0
     }
 }
+
+slot_ledgers = {
+	
+}
+

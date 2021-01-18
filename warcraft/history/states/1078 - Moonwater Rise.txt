@@ -3,7 +3,7 @@ state = {
 	name = "MOONWATER_RISE"
 	manpower = 73
 	state_category = wasteland
-    impassable = yes
+    #impassable = yes
 
 	history = {
 		owner = PEA

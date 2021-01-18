@@ -3,7 +3,7 @@ state = {
 	name = "GOLDEN_WATCH"
 	manpower = 72
 	state_category = wasteland
-    impassable = yes
+    #impassable = yes
 
 	history = {
 		owner = GLI

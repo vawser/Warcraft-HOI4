@@ -3,7 +3,7 @@ state = {
 	name = "RASTAKAN_PEAK"
 	manpower = 61
 	state_category = wasteland
-    impassable = yes
+    #impassable = yes
 
 	history = {
 		owner = ZDL

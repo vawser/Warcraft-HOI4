@@ -3,7 +3,7 @@ state = {
 	name = "VILE_OVERLOOK"
 	manpower = 16
 	state_category = wasteland
-    impassable = yes
+    #impassable = yes
 
 	history = {
 		owner = SWN

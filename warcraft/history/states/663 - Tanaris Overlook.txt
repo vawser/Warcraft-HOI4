@@ -3,7 +3,7 @@ state = {
 	name = "TANARIS_OVERLOOK"
 	manpower = 4
 	state_category = wasteland
-    impassable = yes
+    #impassable = yes
 
 	history = {
 		owner = AQJ

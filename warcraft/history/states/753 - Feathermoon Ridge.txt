@@ -3,7 +3,7 @@ state = {
 	name = "FEATHERMOON_RIDGE"
 	manpower = 43
 	state_category = wasteland
-    impassable = yes
+    #impassable = yes
 
 	history = {
 		owner = RET

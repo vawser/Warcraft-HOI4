@@ -3,7 +3,7 @@ state = {
 	name = "TI_JI_CLIFFS"
 	manpower = 13
 	state_category = wasteland
-    impassable = yes
+    #impassable = yes
 
 	history = {
 		owner = AMA

@@ -1,0 +1,24 @@
+﻿#-----------------------------
+# Plan
+#-----------------------------
+Remove Second/Third war bookmarks
+
+Revert wasteland back to normal provinces
+
+Add Stormwind/Orcish Horde focuses
+Add racial focuses (i.e. Pandaren, Gnome, etc)
+
+Base focuses will remain, but shift so they are to the right by 5 rows
+
+#-----------------------------
+# TODO
+#----------------------------- 
+
+Update equipment for latest stuff (i.e. naval parts, etc)
+
+Check:
+ scripted_effects
+ scripted_guis
+ scripted_triggers
+ scripted_localisation
+ 

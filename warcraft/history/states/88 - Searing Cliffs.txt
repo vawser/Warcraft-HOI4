@@ -3,7 +3,7 @@ state = {
 	name = "SEARING_CLIFFS_MT"
 	manpower = 63
 	state_category = wasteland
-    impassable = yes
+    #impassable = yes
 
 	history = {
 		owner = DKI

@@ -3,7 +3,7 @@ state = {
 	name = "HIGHPERCH_OVERLOOK"
 	manpower = 42
 	state_category = wasteland
-    impassable = yes
+    #impassable = yes
 
 	history = {
 		owner = AQJ

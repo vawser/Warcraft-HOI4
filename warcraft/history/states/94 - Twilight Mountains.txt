@@ -3,7 +3,7 @@ state = {
 	name = "TWILIGHT_MOUNTAINS_MT"
 	manpower = 2
 	state_category = wasteland
-    impassable = yes
+    #impassable = yes
 
 	history = {
 		owner = JEL

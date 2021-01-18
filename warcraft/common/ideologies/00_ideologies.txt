@@ -26,6 +26,7 @@ ideologies = {
 		color = { 232 244 66 }
 		
 		rules = {
+			can_create_collaboration_government = no
 			can_declare_war_on_same_ideology = no
 			can_force_government = yes
 			can_send_volunteers = no
@@ -70,6 +71,7 @@ ideologies = {
 		color = { 141 32 204 }
 		
 		rules = {
+			can_create_collaboration_government = no
 			can_declare_war_on_same_ideology = yes
 			can_force_government = no
 			can_send_volunteers = no
@@ -114,6 +116,7 @@ ideologies = {
 		color = { 123 201 216 }
 		
 		rules = {
+			can_create_collaboration_government = no
 			can_declare_war_on_same_ideology = no
 			can_force_government = yes
 			can_send_volunteers = no
@@ -158,6 +161,7 @@ ideologies = {
 		color = { 55 204 32 }
 		
 		rules = {
+			can_create_collaboration_government = no
 			can_declare_war_on_same_ideology = yes
 			can_force_government = yes
 			can_send_volunteers = yes
@@ -202,6 +206,7 @@ ideologies = {
 		color = { 128 209 121 }
 		
 		rules = {
+			can_create_collaboration_government = no
 			can_declare_war_on_same_ideology = yes
 			can_force_government = yes
 			can_send_volunteers = yes
@@ -246,6 +251,7 @@ ideologies = {
 		color = { 32 175 204 }
 		
 		rules = {
+			can_create_collaboration_government = no
 			can_declare_war_on_same_ideology = yes
 			can_force_government = no
 			can_send_volunteers = no
@@ -290,6 +296,7 @@ ideologies = {
 		color = { 220 220 220 }
 		
 		rules = {
+			can_create_collaboration_government = no
 			can_declare_war_on_same_ideology = yes
 			can_force_government = no
 			can_send_volunteers = no

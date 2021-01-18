@@ -3,7 +3,7 @@ state = {
 	name = "HOWLING_ASCENT"
 	manpower = 43
 	state_category = wasteland
-    impassable = yes
+    #impassable = yes
 
 	history = {
 		owner = HWG

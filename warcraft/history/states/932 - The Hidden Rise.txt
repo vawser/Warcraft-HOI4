@@ -3,7 +3,7 @@ state = {
 	name = "THE_HIDDEN_RISE"
 	manpower = 57
 	state_category = wasteland
-    impassable = yes
+    #impassable = yes
 
 	history = {
 		owner = WTA

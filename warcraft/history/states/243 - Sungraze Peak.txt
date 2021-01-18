@@ -4,7 +4,7 @@ state = {
 	name = "SUNGRAZE_PEAK"
 	manpower = 66
 	state_category = wasteland
-    impassable = yes
+    #impassable = yes
 
 	history = {
 		owner = SWP

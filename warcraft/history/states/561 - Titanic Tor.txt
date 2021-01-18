@@ -3,7 +3,7 @@ state = {
 	name = "TITANIC_TOR"
 	manpower = 9
 	state_category = wasteland
-    impassable = yes
+    #impassable = yes
 
 	history = {
 		owner = HYL

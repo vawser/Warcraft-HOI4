@@ -3,7 +3,7 @@ state = {
 	name = "FROSTFELL"
 	manpower = 62
 	state_category = wasteland
-    impassable = yes
+    #impassable = yes
 
 	history = {
 		owner = DAK

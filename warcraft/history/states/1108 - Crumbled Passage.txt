@@ -3,7 +3,7 @@ state = {
 	name = "CRUMBLED_PASSAGE"
 	manpower = 49
 	state_category = wasteland
-    impassable = yes
+    #impassable = yes
 
 	history = {
 		owner = AQJ

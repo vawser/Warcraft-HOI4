@@ -3,7 +3,7 @@ state = {
 	name = "ALGAZ_RIDGE"
 	manpower = 64
 	state_category = wasteland
-    impassable = yes
+    #impassable = yes
 
 	history = {
 		owner = IRO

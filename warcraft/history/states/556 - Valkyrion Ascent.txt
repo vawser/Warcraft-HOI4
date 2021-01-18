@@ -3,7 +3,7 @@ state = {
 	name = "VALKYRION_ASCENT"
 	manpower = 45
 	state_category = wasteland
-    impassable = yes
+    #impassable = yes
 
 	history = {
 		owner = HYL

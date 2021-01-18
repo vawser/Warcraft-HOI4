@@ -3,7 +3,7 @@ state = {
 	name = "ASCENT_OF_THE_MOON"
 	manpower = 26
 	state_category = wasteland
-    impassable = yes
+    #impassable = yes
 
 	history = {
 		owner = AQJ

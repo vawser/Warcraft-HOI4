@@ -3,7 +3,7 @@ state = {
 	name = "WHITEPETAL_PEAK"
 	manpower = 9
 	state_category = wasteland
-    impassable = yes
+    #impassable = yes
 
 	history = {
 		owner = SPN

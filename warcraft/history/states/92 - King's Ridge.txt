@@ -3,7 +3,7 @@ state = {
 	name = "VALLEY_OF_KINGS_MT"
 	manpower = 22
 	state_category = wasteland
-    impassable = yes
+    #impassable = yes
 
 	history = {
 		owner = ULM

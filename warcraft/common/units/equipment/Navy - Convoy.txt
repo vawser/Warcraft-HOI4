@@ -9,43 +9,36 @@ equipments = {
 		interface_category = interface_category_other_ships
 
         upgrades = {
-            wm_convoy_max_strength
-            wm_convoy_max_organisation
-            wm_convoy_reliability
-            wm_convoy_evasion
-            wm_convoy_sub_detection
-            wm_convoy_surface_visibility
-            wm_convoy_surface_detection
-            wm_convoy_naval_speed
-            wm_convoy_build_cost_ic
+            
         }
         
-        max_strength = 30
+        # Unused by convoys
+		surface_detection = 10
+		sub_detection = 0
+
+		fuel_consumption = 0
+
+		# Combat abilities
+		lg_armor_piercing = 1
+		armor_value = 0
+		reliability = 0.8
+		surface_visibility = 14
+
+		torpedo_attack = 0
+		lg_attack = 0.25
+		naval_speed = 12
+		max_strength = 60
 		max_organisation = 30
-        
-        reliability = 0.8
-        
-        attack = 0.5
-        ap_attack = 1
-        anti_air_attack = 0.5
-        torpedo_attack = 0
-        
-        armor_value = 0
-        evasion = 25
-        
-        sub_detection = 5
-        surface_visibility = 10
-		surface_detection = 5
-		
-        naval_speed = 15
-        
-		port_capacity_usage = 0
+		anti_air_attack = 0.1
+
+
+        #Space taken in convoy
         lend_lease_cost = 0
-        
-		build_cost_ic = 12
-        
+		
 		# (Describes combat behaviour - hidden stat)
 		offensive_weapons = no
+		
+		build_cost_ic = 70
 		
 		resources = {
 			oil = 2

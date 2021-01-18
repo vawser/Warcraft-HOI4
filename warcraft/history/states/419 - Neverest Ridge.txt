@@ -3,7 +3,7 @@ state = {
 	name = "NEVEREST_RIDGE"
 	manpower = 54
 	state_category = wasteland
-    impassable = yes
+    #impassable = yes
 
 	history = {
 		owner = TIG

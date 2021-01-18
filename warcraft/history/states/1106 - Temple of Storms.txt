@@ -3,7 +3,7 @@ state = {
 	name = "TEMPLE_OF_STORMS"
 	manpower = 40
 	state_category = wasteland
-    impassable = yes
+    #impassable = yes
 
 	history = {
 		owner = HYL

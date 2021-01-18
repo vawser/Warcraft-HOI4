@@ -3,7 +3,7 @@ state = {
 	name = "AZUREBREEZE_CLIFFS"
 	manpower = 66
 	state_category = wasteland
-    impassable = yes
+    #impassable = yes
 
 	history = {
 		owner = QUE

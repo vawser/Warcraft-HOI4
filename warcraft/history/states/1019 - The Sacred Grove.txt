@@ -3,7 +3,7 @@ state = {
 	name = "THE_SACRED_GROVE"
 	manpower = 29
 	state_category = wasteland
-    impassable = yes
+    #impassable = yes
 
 	history = {
         owner = STP

@@ -3,7 +3,7 @@ state = {
 	name = "RIDGE_OF_STRAHNBRAD"
 	manpower = 73
 	state_category = wasteland
-    impassable = yes
+    #impassable = yes
 
 	history = {
 		owner = ALT
