@@ -214,7 +214,7 @@ KAZ = {
 	}
 
 	political = {
-		light = {
+		holy = {
 			male = {
                 "gfx/leaders/HUMAN/human_male_0_1.dds"
                 "gfx/leaders/HUMAN/human_male_0_2.dds"
@@ -638,7 +638,7 @@ KAZ = {
                 "gfx/leaders/HUMAN/human_female_3_10.dds"  
             }
 		}
-        life = {
+        nature = {
 			male = {
                 "gfx/leaders/HUMAN/human_male_0_1.dds"
                 "gfx/leaders/HUMAN/human_male_0_2.dds"

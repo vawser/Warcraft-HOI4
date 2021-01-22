@@ -18,7 +18,7 @@ WYB = {
 	}
 
 	political = {
-		light = {
+		holy = {
 			male = {
                 "gfx/leaders/DRAGONFLIGHT/black_dragon.dds"
             }
@@ -50,7 +50,7 @@ WYB = {
                 "gfx/leaders/DRAGONFLIGHT/black_dragon.dds"
             }
 		}
-        life = {
+        nature = {
 			male = {
                 "gfx/leaders/DRAGONFLIGHT/black_dragon.dds"
             }

@@ -38,7 +38,6 @@ ideas = {
 			picture = soothe_the_people
 
 			modifier = {
-                operation_boost_resistance_cost = -0.5
                 resistance_activity = -0.5
 			}
 		}

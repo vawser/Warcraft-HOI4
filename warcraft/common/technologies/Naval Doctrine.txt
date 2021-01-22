@@ -108,10 +108,12 @@ technologies = {
         doctrine = yes
 
         battleship = {
-            attack = 0.25
+            lg_attack = 0.25
+            hg_attack = 0.25
         }
         cruiser = {
-            attack = 0.25
+            lg_attack = 0.25
+            hg_attack = 0.25
         }
         
         research_cost = 6
@@ -314,7 +316,8 @@ technologies = {
         doctrine = yes
         
         battleship = {
-            shore_bombardment = 0.5
+            lg_armor_piercing = 0.25
+            hg_armor_piercing = 0.25
         }
         
         research_cost = 12
@@ -355,7 +358,7 @@ technologies = {
         doctrine = yes
         
         battleship = {
-            fire_range = 0.5
+            max_organisation = 10
         }
         
         research_cost = 12
@@ -783,7 +786,7 @@ technologies = {
     naval_doctrine_tech_18 = {
         doctrine = yes
         
-        naval_torpedo_range_factor = 0.25
+        naval_torpedo_screen_penetration_factor = 0.25
         
         research_cost = 6
 

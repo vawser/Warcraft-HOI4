@@ -25,7 +25,7 @@ technologies = {
     aviation_doctrine_tech_1 = {
         doctrine = yes
         
-        training_time_air_factor = -0.25
+        experience_gain_air = 0.05
         
         research_cost = 6
 

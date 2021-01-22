@@ -35,10 +35,9 @@ add_ideas = {
 
 set_convoys = 100
 
-set_politics = {
+set_popularities = {
 	parties = {
-		light = {
-			popularity = 0
+		holy = 0
 		}
 		shadow = {
 			popularity = 90
@@ -49,7 +48,7 @@ set_politics = {
         disorder = {
 			popularity = 0
 		}
-        life = {
+        nature = {
 			popularity = 0
 		}
         death = {

@@ -20,7 +20,7 @@ OON = {
 	}
 
 	political = {
-		light = {
+		holy = {
 			male = {
                 "gfx/leaders/HOZEN/hozen_1.dds"
                 "gfx/leaders/HOZEN/hozen_2.dds"
@@ -56,7 +56,7 @@ OON = {
                 "gfx/leaders/HOZEN/hozen_5.dds"
             }
 		}
-        life = {
+        nature = {
 			male = {
                 "gfx/leaders/HOZEN/hozen_1.dds"
                 "gfx/leaders/HOZEN/hozen_2.dds"

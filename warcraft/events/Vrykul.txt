@@ -101,14 +101,11 @@ country_event = {
 					value = 200
 				}
 			}
-			country_event = { id = vrykul_Stormwind.2 days = 1 }
+			country_event = { id = vrykul_stormwind.2 days = 1 }
 		}
 	}
 }
-#######################################
-# change and add to horde file !!!     #
-# temporary name and id !             #
-#######################################
+
 country_event = {
 	id = vrykul_horde.1
 	title = vrykul_horde.1.title
@@ -120,13 +117,11 @@ country_event = {
 
 	option = {
 		name = vrykul_horde.1.option.a 
+        
 		add_political_power = 5
 	}
 }
-#######################################
-# change and add to stormwind file !!!#
-# temporary name and id !             #
-#######################################
+
 country_event = {
 	id = vrykul_stormwind.1
 	title = vrykul_stormwind.1.title
@@ -138,6 +133,7 @@ country_event = {
 
 	option = {
 		name = vrykul_stormwind.1.option.a 
+        
 		add_political_power = 5
 	}
 }
@@ -153,6 +149,7 @@ country_event = {
 
 	option = {
 		name = vrykul_stormwind.2.option.a 
+        
 		add_political_power = 25
 	}
 }

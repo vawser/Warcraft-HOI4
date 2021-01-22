@@ -34,7 +34,7 @@ DKI = {
 	}
 
 	political = {
-		light = {
+		holy = {
 			male = {
                 "gfx/leaders/DARK_IRON/dark_iron_male_1.dds"
                 "gfx/leaders/DARK_IRON/dark_iron_male_2.dds"
@@ -98,7 +98,7 @@ DKI = {
                 "gfx/leaders/DARK_IRON/dark_iron_female_5.dds"
             }
 		}
-        life = {
+        nature = {
 			male = {
                 "gfx/leaders/DARK_IRON/dark_iron_male_1.dds"
                 "gfx/leaders/DARK_IRON/dark_iron_male_2.dds"

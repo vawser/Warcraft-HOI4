@@ -54,7 +54,7 @@ FOR = {
 	}
 
 	political = {
-		light = {
+		holy = {
 			male = {
                 "gfx/leaders/UNDEAD/undead_male_1.dds"
                 "gfx/leaders/UNDEAD/undead_male_2.dds"
@@ -158,7 +158,7 @@ FOR = {
                 "gfx/leaders/UNDEAD/undead_female_10.dds"
             }
 		}
-        life = {
+        nature = {
 			male = {
                 "gfx/leaders/UNDEAD/undead_male_1.dds"
                 "gfx/leaders/UNDEAD/undead_male_2.dds"

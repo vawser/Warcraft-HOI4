@@ -1,8 +1,8 @@
 ﻿l_english:
  # --- Ideologies
- light: "Light"
- light_noun: "Light"
- light_desc: "Light"
+ holy: "Light"
+ holy_noun: "Light"
+ holy_desc: "Light"
  
  shadow: "Shadow"
  shadow_noun: "Shadow"
@@ -16,9 +16,9 @@
  disorder_noun: "Disorder"
  disorder_desc: "Disorder"
  
- life: "Life"
- life_noun: "Life"
- life_desc: "Life"
+ nature: "Life"
+ nature_noun: "Life"
+ nature_desc: "Life"
  
  death: "Death"
  death_noun: "Death"
@@ -29,8 +29,8 @@
  unaligned_desc: "Unaligned"
  
  # Ideology Modifiers
- light_drift: "Light Drift"
- light_acceptance: "Light Acceptance"
+ holy_drift: "Light Drift"
+ holy_acceptance: "Light Acceptance"
  
  shadow_drift: "Shadow Drift"
  shadow_acceptance: "Shadow Acceptance"
@@ -41,8 +41,8 @@
  disorder_drift: "Disorder Drift"
  disorder_acceptance: "Disorder Acceptance"
  
- life_drift: "Life Drift"
- life_acceptance: "Life Acceptance"
+ nature_drift: "Life Drift"
+ nature_acceptance: "Life Acceptance"
  
  death_drift: "Death Drift"
  death_acceptance: "Death Acceptance"
@@ -51,14 +51,14 @@
  unaligned_acceptance: "Unaligned Acceptance"
  
  # Governments
- kingdom_light: "Kingdom"
- kingdom_light_desc: ""
- tribe_light: "Tribe"
- tribe_light_desc: ""
- republic_light: "Republic"
- republic_light_desc: ""
- warband_light: "Warband"
- warband_light_desc: ""
+ kingdom_holy: "Kingdom"
+ kingdom_holy_desc: ""
+ tribe_holy: "Tribe"
+ tribe_holy_desc: ""
+ republic_holy: "Republic"
+ republic_holy_desc: ""
+ warband_holy: "Warband"
+ warband_holy_desc: ""
  
  kingdom_shadow: "Kingdom"
  kingdom_shadow_desc: ""
@@ -87,14 +87,14 @@
  warband_disorder: "Warband"
  warband_disorder_desc: ""
  
- kingdom_life: "Kingdom"
- kingdom_life_desc: ""
- tribe_life: "Tribe"
- tribe_life_desc: ""
- republic_life: "Republic"
- republic_life_desc: ""
- warband_life: "Warband"
- warband_life_desc: ""
+ kingdom_nature: "Kingdom"
+ kingdom_nature_desc: ""
+ tribe_nature: "Tribe"
+ tribe_nature_desc: ""
+ republic_nature: "Republic"
+ republic_nature_desc: ""
+ warband_nature: "Warband"
+ warband_nature_desc: ""
  
  kingdom_death: "Kingdom"
  kingdom_death_desc: ""

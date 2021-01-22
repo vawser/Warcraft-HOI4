@@ -74,7 +74,7 @@ DAK = {
 	}
 
 	political = {
-		light = {
+		holy = {
 			male = {
                 "gfx/leaders/TROLL/troll_male_1.dds"
                 "gfx/leaders/TROLL/troll_male_2.dds"
@@ -218,7 +218,7 @@ DAK = {
                 "gfx/leaders/TROLL/troll_female_15.dds"
             }
 		}
-        life = {
+        nature = {
 			male = {
                 "gfx/leaders/TROLL/troll_male_1.dds"
                 "gfx/leaders/TROLL/troll_male_2.dds"

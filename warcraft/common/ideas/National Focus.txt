@@ -11,10 +11,10 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = light
+			picture = holy
 
 			modifier = {
-                light_drift = 0.05
+                holy_drift = 0.05
             }
 		}
         embrace_shadow = {
@@ -79,10 +79,10 @@ ideas = {
 
 			removal_cost = -1
 
-			picture = life
+			picture = nature
 
 			modifier = {
-                life_drift = 0.05
+                nature_drift = 0.05
             }
 		}
         embrace_death = {

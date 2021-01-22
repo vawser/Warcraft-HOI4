@@ -18,7 +18,7 @@ SER = {
 	}
 
 	political = {
-		light = {
+		holy = {
 			male = {
                 "gfx/leaders/DRAGONFLIGHT/green_dragon.dds"
             }
@@ -50,7 +50,7 @@ SER = {
                 "gfx/leaders/DRAGONFLIGHT/green_dragon.dds"
             }
 		}
-        life = {
+        nature = {
 			male = {
                 "gfx/leaders/DRAGONFLIGHT/green_dragon.dds"
             }

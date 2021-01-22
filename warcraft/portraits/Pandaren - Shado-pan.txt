@@ -18,7 +18,7 @@ SPN = {
 	}
 
 	political = {
-		light = {
+		holy = {
 			male = {
                 "gfx/leaders/PANDAREN/shado_pan_male_1.dds"
             }
@@ -50,7 +50,7 @@ SPN = {
                 "gfx/leaders/PANDAREN/shado_pan_female_1.dds"
             }
 		}
-        life = {
+        nature = {
 			male = {
                 "gfx/leaders/PANDAREN/shado_pan_male_1.dds"
             }

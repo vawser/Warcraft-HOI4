@@ -16,7 +16,7 @@ SDW = {
 	}
 
 	political = {
-		light = {
+		holy = {
 			male = {
                 "gfx/leaders/GNOLL/gnoll_shadowhide_1.dds"
                 "gfx/leaders/GNOLL/gnoll_shadowhide_2.dds"
@@ -44,7 +44,7 @@ SDW = {
                 "gfx/leaders/GNOLL/gnoll_shadowhide_3.dds"
             }
 		}
-        life = {
+        nature = {
 			male = {
                 "gfx/leaders/GNOLL/gnoll_shadowhide_1.dds"
                 "gfx/leaders/GNOLL/gnoll_shadowhide_2.dds"

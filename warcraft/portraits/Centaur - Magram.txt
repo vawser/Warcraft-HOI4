@@ -34,7 +34,7 @@ MRA = {
 	}
 
 	political = {
-		light = {
+		holy = {
 			male = {
                 "gfx/leaders/CENTAUR/centaur_male_1.dds"
                 "gfx/leaders/CENTAUR/centaur_male_2.dds"
@@ -98,7 +98,7 @@ MRA = {
                 "gfx/leaders/CENTAUR/centaur_female_5.dds"
             }
 		}
-        life = {
+        nature = {
 			male = {
                 "gfx/leaders/CENTAUR/centaur_male_1.dds"
                 "gfx/leaders/CENTAUR/centaur_male_2.dds"

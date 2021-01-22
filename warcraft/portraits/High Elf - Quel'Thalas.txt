@@ -96,7 +96,7 @@ QUE = {
 	}
 
 	political = {
-		light = {
+		holy = {
 			male = {
                 "gfx/leaders/HIGH_ELF/high_elf_male_1.dds"
                 "gfx/leaders/HIGH_ELF/high_elf_male_2.dds"
@@ -284,7 +284,7 @@ QUE = {
                 "gfx/leaders/HIGH_ELF/high_elf_female_20.dds"
             }
 		}
-        life = {
+        nature = {
 			male = {
                 "gfx/leaders/HIGH_ELF/high_elf_male_1.dds"
                 "gfx/leaders/HIGH_ELF/high_elf_male_2.dds"

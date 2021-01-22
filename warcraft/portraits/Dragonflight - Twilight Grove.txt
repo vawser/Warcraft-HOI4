@@ -18,7 +18,7 @@ TWG = {
 	}
 
 	political = {
-		light = {
+		holy = {
 			male = {
                 "gfx/leaders/DRAGONFLIGHT/green_dragon.dds"
             }
@@ -50,7 +50,7 @@ TWG = {
                 "gfx/leaders/DRAGONFLIGHT/green_dragon.dds"
             }
 		}
-        life = {
+        nature = {
 			male = {
                 "gfx/leaders/DRAGONFLIGHT/green_dragon.dds"
             }

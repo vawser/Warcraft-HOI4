@@ -18,7 +18,7 @@ DUS = {
 	}
 
 	political = {
-		light = {
+		holy = {
 			male = {
                 "gfx/leaders/HARPY/harpy_red.dds"
             }
@@ -50,7 +50,7 @@ DUS = {
                 "gfx/leaders/HARPY/harpy_red.dds"
             }
 		}
-        life = {
+        nature = {
 			male = {
                 "gfx/leaders/HARPY/harpy_red.dds"
             }

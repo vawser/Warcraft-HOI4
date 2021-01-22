@@ -12,7 +12,7 @@ FRO = {
 	}
 
 	political = {
-		light = {
+		holy = {
 			male = {
                 "gfx/leaders/EARTHERN/earthern_blue.dds"
             }
@@ -32,7 +32,7 @@ FRO = {
                 "gfx/leaders/EARTHERN/earthern_blue.dds"
             }
 		}
-        life = {
+        nature = {
 			male = {
                 "gfx/leaders/EARTHERN/earthern_blue.dds"
             }

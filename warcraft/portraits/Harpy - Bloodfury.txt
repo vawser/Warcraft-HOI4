@@ -18,7 +18,7 @@ BFY = {
 	}
 
 	political = {
-		light = {
+		holy = {
 			male = {
                 "gfx/leaders/HARPY/harpy_red.dds"
             }
@@ -50,7 +50,7 @@ BFY = {
                 "gfx/leaders/HARPY/harpy_red.dds"
             }
 		}
-        life = {
+        nature = {
 			male = {
                 "gfx/leaders/HARPY/harpy_red.dds"
             }

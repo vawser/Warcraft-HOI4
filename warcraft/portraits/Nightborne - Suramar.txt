@@ -34,7 +34,7 @@ NTB = {
 	}
 
 	political = {
-		light = {
+		holy = {
 			male = {
                 "gfx/leaders/NIGHTBORNE/nightborne_male_1.dds"
                 "gfx/leaders/NIGHTBORNE/nightborne_male_2.dds"
@@ -98,7 +98,7 @@ NTB = {
                 "gfx/leaders/NIGHTBORNE/nightborne_female_5.dds"
             }
 		}
-        life = {
+        nature = {
 			male = {
                 "gfx/leaders/NIGHTBORNE/nightborne_male_1.dds"
                 "gfx/leaders/NIGHTBORNE/nightborne_male_2.dds"

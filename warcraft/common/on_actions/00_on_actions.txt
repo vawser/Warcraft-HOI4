@@ -16,18 +16,17 @@ on_actions = {
             random_country = {
                 set_country_flag = processor
             }
-		}
-        
-        if = {
-            limit = {
-                has_dlc = "La Resistance"
-            }
-            every_country = {
-                capital_scope = {
-                    set_variable = { historical_capital_for_country = PREV }
+            if = {
+                limit = {
+                    has_dlc = "La Resistance"
+                }
+                every_country = {
+                    capital_scope = {
+                        set_variable = { historical_capital_for_country = PREV }
+                    }
                 }
             }
-        }
+		}
 	}
     
     # country 

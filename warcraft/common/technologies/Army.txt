@@ -3593,10 +3593,10 @@ technologies = {
             light_tank_equipment_1
         }
         
+        on_research_complete_limit = {
+            NOT = {	has_template_containing_unit = light_tank }
+        }
         on_research_complete = {
-			limit = {
-				NOT = {	has_template_containing_unit = light_tank }
-			}
 			hidden_effect = {
 				load_oob = "Unlock - Light Tank"
 			}
@@ -3881,10 +3881,10 @@ technologies = {
             heavy_tank_equipment_1
         }
         
+        on_research_complete_limit = {
+            NOT = {	has_template_containing_unit = heavy_tank }
+        }
         on_research_complete = {
-			limit = {
-				NOT = {	has_template_containing_unit = heavy_tank }
-			}
 			hidden_effect = {
 				load_oob = "Unlock - Heavy Tank"
 			}

@@ -54,7 +54,7 @@ CEX = {
 	}
 
 	political = {
-		light = {
+		holy = {
 			male = {
                 "gfx/leaders/NIGHT_ELF/night_elf_male_1.dds"
                 "gfx/leaders/NIGHT_ELF/night_elf_male_2.dds"
@@ -158,7 +158,7 @@ CEX = {
                 "gfx/leaders/NIGHT_ELF/night_elf_female_10.dds"
             }
 		}
-        life = {
+        nature = {
 			male = {
                 "gfx/leaders/NIGHT_ELF/night_elf_male_1.dds"
                 "gfx/leaders/NIGHT_ELF/night_elf_male_2.dds"

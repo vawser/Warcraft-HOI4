@@ -30,7 +30,7 @@ RAZ = {
 	}
 
 	political = {
-		light = {
+		holy = {
 			male = {
                 "gfx/leaders/QUILLBOAR/quillboar_1.dds"
                 "gfx/leaders/QUILLBOAR/quillboar_2.dds"
@@ -86,7 +86,7 @@ RAZ = {
                 "gfx/leaders/QUILLBOAR/quillboar_10.dds"
             }
 		}
-        life = {
+        nature = {
 			male = {
                 "gfx/leaders/QUILLBOAR/quillboar_1.dds"
                 "gfx/leaders/QUILLBOAR/quillboar_2.dds"

@@ -18,7 +18,7 @@ LIF = {
 	}
 
 	political = {
-		light = {
+		holy = {
 			male = {
                 "gfx/leaders/TITAN/titan_gold_male.dds"
             }
@@ -50,7 +50,7 @@ LIF = {
                 "gfx/leaders/TITAN/titan_gold_female.dds"
             }
 		}
-        life = {
+        nature = {
 			male = {
                 "gfx/leaders/TITAN/titan_gold_male.dds"
             }

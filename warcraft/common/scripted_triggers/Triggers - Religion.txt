@@ -875,7 +875,7 @@ light_of_the_naaru_action_trigger_1 = {
 }
 
 light_of_the_naaru_action_trigger_2 = {
-    light < 1.0
+    holy < 1.0
 }
 
 light_of_the_naaru_action_trigger_3 = {
@@ -1044,7 +1044,7 @@ holy_light_action_trigger_1 = {
 }
 
 holy_light_action_trigger_2 = {
-    light < 1.0
+    holy < 1.0
 }
 
 holy_light_action_trigger_3 = {

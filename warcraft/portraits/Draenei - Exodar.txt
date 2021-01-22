@@ -76,7 +76,7 @@ EXO = {
 	}
 
 	political = {
-		light = {
+		holy = {
 			male = {
                 "gfx/leaders/DRAENEI/draenei_male_1.dds"
                 "gfx/leaders/DRAENEI/draenei_male_2.dds"
@@ -224,7 +224,7 @@ EXO = {
                 "gfx/leaders/DRAENEI/draenei_female_15.dds"
             }
 		}
-        life = {
+        nature = {
 			male = {
                 "gfx/leaders/DRAENEI/draenei_male_1.dds"
                 "gfx/leaders/DRAENEI/draenei_male_2.dds"

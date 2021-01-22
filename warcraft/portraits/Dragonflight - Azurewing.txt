@@ -34,7 +34,7 @@ AZW = {
 	}
 
 	political = {
-		light = {
+		holy = {
 			male = {
                 "gfx/leaders/DRAGONFLIGHT/dragonflight_male_1.dds"
                 "gfx/leaders/DRAGONFLIGHT/dragonflight_male_2.dds"
@@ -98,7 +98,7 @@ AZW = {
                 "gfx/leaders/DRAGONFLIGHT/dragonflight_female_5.dds"
             }
 		}
-        life = {
+        nature = {
 			male = {
                 "gfx/leaders/DRAGONFLIGHT/dragonflight_male_1.dds"
                 "gfx/leaders/DRAGONFLIGHT/dragonflight_male_2.dds"

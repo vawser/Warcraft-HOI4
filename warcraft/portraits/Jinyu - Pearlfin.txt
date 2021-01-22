@@ -22,7 +22,7 @@ PEA = {
 	}
 
 	political = {
-		light = {
+		holy = {
 			male = {
                 "gfx/leaders/JINYU/jinyu_1.dds"
                 "gfx/leaders/JINYU/jinyu_2.dds"
@@ -62,7 +62,7 @@ PEA = {
                 "gfx/leaders/JINYU/jinyu_6.dds"
             }
 		}
-        life = {
+        nature = {
 			male = {
                 "gfx/leaders/JINYU/jinyu_1.dds"
                 "gfx/leaders/JINYU/jinyu_2.dds"

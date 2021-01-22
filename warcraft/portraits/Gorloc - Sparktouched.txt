@@ -26,7 +26,7 @@ SPK = {
 	}
 
 	political = {
-		light = {
+		holy = {
 			male = {
                 "gfx/leaders/GORLOC/gorloc_1.dds"
                 "gfx/leaders/GORLOC/gorloc_2.dds"
@@ -74,7 +74,7 @@ SPK = {
                 "gfx/leaders/GORLOC/gorloc_8.dds"      
             }
 		}
-        life = {
+        nature = {
 			male = {
                 "gfx/leaders/GORLOC/gorloc_1.dds"
                 "gfx/leaders/GORLOC/gorloc_2.dds"

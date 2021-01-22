@@ -102,7 +102,6 @@ leader_traits = {
         random = no
         
         foreign_subversive_activites = -0.5
-        operation_boost_resistance_cost = -0.5
         
         ai_will_do = {
             factor = 1
@@ -111,7 +110,6 @@ leader_traits = {
     saboteur_trait = {
         random = no
         
-        partisan_effect = 0.5
         subversive_activites_upkeep = -0.5
         
         ai_will_do = {
@@ -166,7 +164,7 @@ leader_traits = {
     strongman_trait = {
         random = no
         
-        take_states_cost_factor = -0.1
+        political_power_factor = 0.25
         
         ai_will_do = {
             factor = 1

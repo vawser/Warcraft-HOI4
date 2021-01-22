@@ -106,17 +106,17 @@ government_actions = {
 		icon = yellow_quest_mark
 
         visible = {
-            NOT = { has_government = light }
-            light > 0.75
+            NOT = { has_government = holy }
+            holy > 0.75
         }
         
 		available = {
-            light > 0.9
+            holy > 0.9
 		}
 
 		complete_effect = {
             set_politics = {
-                ruling_party = light
+                ruling_party = holy
             }
         }
 
@@ -127,7 +127,7 @@ government_actions = {
             
 			modifier = {
 				add = 1
-				light > 0.95
+				holy > 0.95
 			}
 		}
 	}
@@ -226,17 +226,17 @@ government_actions = {
 		icon = yellow_quest_mark
 
         visible = {
-            NOT = { has_government = life }
-            life > 0.75
+            NOT = { has_government = nature }
+            nature > 0.75
         }
         
 		available = {
-            life > 0.9
+            nature > 0.9
 		}
 
 		complete_effect = {
             set_politics = {
-                ruling_party = life
+                ruling_party = nature
             }
         }
 
@@ -247,7 +247,7 @@ government_actions = {
             
 			modifier = {
 				add = 1
-				life > 0.95
+				nature > 0.95
 			}
 		}
 	}

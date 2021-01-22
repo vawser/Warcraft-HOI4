@@ -35,7 +35,7 @@ shared_focus = {
     prerequisite = { focus = shared_inner_contemplation }
         
     available = {
-        NOT = { has_government = light }
+        NOT = { has_government = holy }
     }
 
 	completion_reward = {
@@ -59,7 +59,7 @@ shared_focus = {
 	prerequisite = { focus = shared_embrace_the_light }
         
 	available = { 
-        light > 0.3
+        holy > 0.3
     }
 	completion_reward = {
         add_ideas = gift_of_light
@@ -82,10 +82,10 @@ shared_focus = {
 	prerequisite = { focus = shared_lessons_of_the_light }
         
 	available = { 
-        light > 0.5
+        holy > 0.5
     }
 	completion_reward = {
-            set_politics = { ruling_party = light elections_allowed = no }
+            set_politics = { ruling_party = holy elections_allowed = no }
 	}
         
 	ai_will_do = {
@@ -331,7 +331,7 @@ shared_focus = {
 	prerequisite = { focus = shared_inner_contemplation }
         
 	available = {
-        NOT = { has_government = life }
+        NOT = { has_government = nature }
     }
         
 	completion_reward = {
@@ -355,7 +355,7 @@ shared_focus = {
 	prerequisite = { focus = shared_embrace_life }
         
 	available = { 
-        life > 0.3
+        nature > 0.3
     }
 	completion_reward = {
         add_ideas = gift_of_life
@@ -378,10 +378,10 @@ shared_focus = {
 	prerequisite = { focus = shared_lessons_of_life }
         
 	available = { 
-        life > 0.5
+        nature > 0.5
     }
 	completion_reward = {
-        set_politics = { ruling_party = life elections_allowed = no }
+        set_politics = { ruling_party = nature elections_allowed = no }
 	}
         
 	ai_will_do = {

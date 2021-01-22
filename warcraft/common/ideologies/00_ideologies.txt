@@ -1,18 +1,18 @@
 ideologies = {
-    # light - Naaru
+    # holy - Naaru
     # shadow - Old Gods, Void
     # order - Arcane, Titan
     # disorder - Fel, Fire 
-    # life - Nature, Wild Gods
+    # nature - Nature, Wild Gods
     # death - Necromantic, Undead
     # unaligned - Goblin
 
-	light = {
+	holy = {
 		types = {
-			kingdom_light = { }
-            tribe_light = { }
-            republic_light = { }
-            warband_light = { }
+			kingdom_holy = { }
+            tribe_holy = { }
+            republic_holy = { }
+            warband_holy = { }
 		}
 		
 		dynamic_faction_names = {
@@ -187,12 +187,12 @@ ideologies = {
 		ai_fascist = yes
 	}
     
-    life = {
+    nature = {
 		types = {
-			kingdom_life = { }
-            tribe_life = { }
-            republic_life = { }
-            warband_life = { }
+			kingdom_nature = { }
+            tribe_nature = { }
+            republic_nature = { }
+            warband_nature = { }
 		}
 		
 		dynamic_faction_names = {

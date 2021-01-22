@@ -16,8 +16,8 @@ ideas = {
                 modifier = {
                     add = 5
                     
-                    has_government = light
-                    light < 0.75
+                    has_government = holy
+                    holy < 0.75
                 }
             }
         }
@@ -100,8 +100,8 @@ ideas = {
                 modifier = {
                     add = 5
                     
-                    has_government = life
-                    life < 0.75
+                    has_government = nature
+                    nature < 0.75
                 }
             }
         }

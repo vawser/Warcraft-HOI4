@@ -12,7 +12,7 @@ TMN = {
 	}
 
 	political = {
-		light = {
+		holy = {
 			male = {
                 "gfx/leaders/EARTHERN/earthern_ochre.dds"
             }
@@ -32,7 +32,7 @@ TMN = {
                 "gfx/leaders/EARTHERN/earthern_ochre.dds"
             }
 		}
-        life = {
+        nature = {
 			male = {
                 "gfx/leaders/EARTHERN/earthern_ochre.dds"
             }

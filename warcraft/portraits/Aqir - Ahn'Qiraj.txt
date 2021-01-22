@@ -54,7 +54,7 @@ AQJ = {
 	}
 
 	political = {
-		light = {
+		holy = {
 			male = {
                 "gfx/leaders/AQIR/aqir_beige.dds"
                 "gfx/leaders/AQIR/aqir_bronze.dds"
@@ -158,7 +158,7 @@ AQJ = {
                 "gfx/leaders/AQIR/aqir_yellow_striped.dds"
             }
 		}
-        life = {
+        nature = {
 			male = {
                 "gfx/leaders/AQIR/aqir_beige.dds"
                 "gfx/leaders/AQIR/aqir_bronze.dds"

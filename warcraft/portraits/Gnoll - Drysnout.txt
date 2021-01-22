@@ -16,7 +16,7 @@ DSN = {
 	}
 
 	political = {
-		light = {
+		holy = {
 			male = {
                 "gfx/leaders/GNOLL/gnoll_redridge_1.dds"
                 "gfx/leaders/GNOLL/gnoll_redridge_2.dds"
@@ -44,7 +44,7 @@ DSN = {
                 "gfx/leaders/GNOLL/gnoll_redridge_3.dds"
             }
 		}
-        life = {
+        nature = {
 			male = {
                 "gfx/leaders/GNOLL/gnoll_redridge_1.dds"
                 "gfx/leaders/GNOLL/gnoll_redridge_2.dds"

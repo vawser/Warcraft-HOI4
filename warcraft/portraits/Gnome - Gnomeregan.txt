@@ -34,7 +34,7 @@ GNO = {
 	}
 
 	political = {
-		light = {
+		holy = {
 			male = {
                 "gfx/leaders/GNOME/gnome_male_1.dds"
                 "gfx/leaders/GNOME/gnome_male_2.dds"
@@ -98,7 +98,7 @@ GNO = {
                 "gfx/leaders/GNOME/gnome_female_5.dds"
             }
 		}
-        life = {
+        nature = {
 			male = {
                 "gfx/leaders/GNOME/gnome_male_1.dds"
                 "gfx/leaders/GNOME/gnome_male_2.dds"

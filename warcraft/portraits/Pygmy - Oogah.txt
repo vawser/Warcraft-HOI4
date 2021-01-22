@@ -42,7 +42,7 @@ OOG = {
 	}
 
 	political = {
-		light = {
+		holy = {
 			male = {
                 "gfx/leaders/PYGMY/pygmy_1.dds"
                 "gfx/leaders/PYGMY/pygmy_2.dds"
@@ -122,7 +122,7 @@ OOG = {
                 "gfx/leaders/PYGMY/pygmy_16.dds"
             }
 		}
-        life = {
+        nature = {
 			male = {
                 "gfx/leaders/PYGMY/pygmy_1.dds"
                 "gfx/leaders/PYGMY/pygmy_2.dds"

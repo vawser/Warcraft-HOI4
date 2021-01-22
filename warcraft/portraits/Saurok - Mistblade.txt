@@ -26,7 +26,7 @@ MTD = {
 	}
 
 	political = {
-		light = {
+		holy = {
 			male = {
                 "gfx/leaders/SAUROK/saurok_1.dds"
                 "gfx/leaders/SAUROK/saurok_2.dds"
@@ -74,7 +74,7 @@ MTD = {
                 "gfx/leaders/SAUROK/saurok_8.dds"
             }
 		}
-        life = {
+        nature = {
 			male = {
                 "gfx/leaders/SAUROK/saurok_1.dds"
                 "gfx/leaders/SAUROK/saurok_2.dds"

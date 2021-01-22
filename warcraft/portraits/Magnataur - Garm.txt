@@ -18,7 +18,7 @@ GAM = {
 	}
 
 	political = {
-		light = {
+		holy = {
 			male = {
                 "gfx/leaders/MAGNATAUR/magnataur_1.dds"
                 "gfx/leaders/MAGNATAUR/magnataur_2.dds"
@@ -50,7 +50,7 @@ GAM = {
                 "gfx/leaders/MAGNATAUR/magnataur_4.dds"
             }
 		}
-        life = {
+        nature = {
 			male = {
                 "gfx/leaders/MAGNATAUR/magnataur_1.dds"
                 "gfx/leaders/MAGNATAUR/magnataur_2.dds"

@@ -16,7 +16,7 @@ ROT = {
 	}
 
 	political = {
-		light = {
+		holy = {
 			male = {
                 "gfx/leaders/GNOLL/gnoll_rothide_1.dds"
                 "gfx/leaders/GNOLL/gnoll_rothide_2.dds"
@@ -44,7 +44,7 @@ ROT = {
                 "gfx/leaders/GNOLL/gnoll_rothide_3.dds"
             }
 		}
-        life = {
+        nature = {
 			male = {
                 "gfx/leaders/GNOLL/gnoll_rothide_1.dds"
                 "gfx/leaders/GNOLL/gnoll_rothide_2.dds"

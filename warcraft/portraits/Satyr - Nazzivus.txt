@@ -28,7 +28,7 @@ NAZ = {
 	}
 
 	political = {
-		light = {
+		holy = {
 			male = {
                 "gfx/leaders/SATYR/satyr_1.dds"
                 "gfx/leaders/SATYR/satyr_2.dds"
@@ -80,7 +80,7 @@ NAZ = {
                 "gfx/leaders/SATYR/satyr_9.dds"
             }
 		}
-        life = {
+        nature = {
 			male = {
                 "gfx/leaders/SATYR/satyr_1.dds"
                 "gfx/leaders/SATYR/satyr_2.dds"

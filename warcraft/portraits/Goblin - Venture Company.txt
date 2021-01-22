@@ -20,7 +20,7 @@ VTC = {
 	}
 
 	political = {
-		light = {
+		holy = {
 			male = {
                 "gfx/leaders/GOBLIN/goblin_male_1.dds"
                 "gfx/leaders/GOBLIN/goblin_male_2.dds"
@@ -56,7 +56,7 @@ VTC = {
                 "gfx/leaders/GOBLIN/goblin_male_5.dds"
             }
 		}
-        life = {
+        nature = {
 			male = {
                 "gfx/leaders/GOBLIN/goblin_male_1.dds"
                 "gfx/leaders/GOBLIN/goblin_male_2.dds"

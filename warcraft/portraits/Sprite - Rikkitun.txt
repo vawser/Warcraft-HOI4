@@ -12,7 +12,7 @@ RIK = {
 	}
 
 	political = {
-		light = {
+		holy = {
 			male = {
                 "gfx/leaders/SPRITE/sprite.dds"
             }
@@ -32,7 +32,7 @@ RIK = {
                 "gfx/leaders/SPRITE/sprite.dds"
             }
 		}
-        life = {
+        nature = {
 			male = {
                 "gfx/leaders/SPRITE/sprite.dds"
             }

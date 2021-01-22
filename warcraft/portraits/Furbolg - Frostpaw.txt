@@ -24,7 +24,7 @@ FTP = {
 	}
 
 	political = {
-		light = {
+		holy = {
 			male = {
                 "gfx/leaders/FURBOLG/furbolg_black.dds"
                 "gfx/leaders/FURBOLG/furbolg_blue.dds"
@@ -68,7 +68,7 @@ FTP = {
                 "gfx/leaders/FURBOLG/furbolg_white.dds"
             }
 		}
-        life = {
+        nature = {
 			male = {
                 "gfx/leaders/FURBOLG/furbolg_black.dds"
                 "gfx/leaders/FURBOLG/furbolg_blue.dds"

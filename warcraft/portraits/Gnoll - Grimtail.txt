@@ -16,7 +16,7 @@ GRI = {
 	}
 
 	political = {
-		light = {
+		holy = {
 			male = {
                 "gfx/leaders/GNOLL/gnoll_mosshide_1.dds"
                 "gfx/leaders/GNOLL/gnoll_mosshide_2.dds"
@@ -44,7 +44,7 @@ GRI = {
                 "gfx/leaders/GNOLL/gnoll_mosshide_3.dds"
             }
 		}
-        life = {
+        nature = {
 			male = {
                 "gfx/leaders/GNOLL/gnoll_mosshide_1.dds"
                 "gfx/leaders/GNOLL/gnoll_mosshide_2.dds"

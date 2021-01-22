@@ -64,7 +64,7 @@ SRC = {
 	}
 
 	political = {
-		light = {
+		holy = {
 			male = {
                 "gfx/leaders/ORC/orc_male_1.dds"
                 "gfx/leaders/ORC/orc_male_2.dds"
@@ -188,7 +188,7 @@ SRC = {
                 "gfx/leaders/ORC/orc_female_10.dds"
             }
 		}
-        life = {
+        nature = {
 			male = {
                 "gfx/leaders/ORC/orc_male_1.dds"
                 "gfx/leaders/ORC/orc_male_2.dds"

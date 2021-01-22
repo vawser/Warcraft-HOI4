@@ -18,7 +18,7 @@ SNF = {
 	}
 
 	political = {
-		light = {
+		holy = {
 			male = {
                 "gfx/leaders/WOLVAR/wolvar_1.dds"
                 "gfx/leaders/WOLVAR/wolvar_2.dds"
@@ -50,7 +50,7 @@ SNF = {
                 "gfx/leaders/WOLVAR/wolvar_4.dds"
             }
 		}
-        life = {
+        nature = {
 			male = {
                 "gfx/leaders/WOLVAR/wolvar_1.dds"
                 "gfx/leaders/WOLVAR/wolvar_2.dds"

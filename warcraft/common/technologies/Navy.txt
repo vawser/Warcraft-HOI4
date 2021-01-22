@@ -77,7 +77,8 @@ technologies = {
     
     battleship_advancement_1_1 = {
         battleship = {
-            attack = 0.1
+            lg_attack = 0.1
+            hg_attack = 0.1
         }
         
         research_cost = 6
@@ -128,7 +129,7 @@ technologies = {
     
     battleship_advancement_1_2 = {
         battleship = {
-            fire_range = 0.1
+            max_organisation = 10
         }
         
         research_cost = 6
@@ -218,7 +219,7 @@ technologies = {
     
     battleship_advancement_2_2 = {
         battleship = {
-            evasion = 0.1
+            surface_detection = 0.1
         }
         
         research_cost = 6
@@ -378,7 +379,8 @@ technologies = {
     
     cruiser_advancement_1_1 = {
         cruiser = {
-            attack = 0.1
+            lg_attack = 0.1
+            hg_attack = 0.1
         }
         
         research_cost = 6
@@ -429,7 +431,7 @@ technologies = {
     
     cruiser_advancement_1_2 = {
         cruiser = {
-            fire_range = 0.1
+            max_organisation = 10
         }
         
         research_cost = 6
@@ -519,7 +521,7 @@ technologies = {
     
     cruiser_advancement_2_2 = {
         cruiser = {
-            evasion = 0.1
+            surface_detection = 0.1
         }
         
         research_cost = 6
@@ -679,7 +681,8 @@ technologies = {
     
     destroyer_advancement_1_1 = {
         destroyer = {
-            attack = 0.1
+            lg_attack = 0.1
+            hg_attack = 0.1
         }
         
         research_cost = 6
@@ -730,7 +733,7 @@ technologies = {
     
     destroyer_advancement_1_2 = {
         destroyer = {
-            fire_range = 0.1
+            max_organisation = 10
         }
         
         research_cost = 6
@@ -820,7 +823,7 @@ technologies = {
     
     destroyer_advancement_2_2 = {
         destroyer = {
-            evasion = 0.1
+            surface_detection = 0.1
         }
         
         research_cost = 6
@@ -1030,7 +1033,7 @@ technologies = {
     
     submarine_advancement_1_2 = {
         submarine = {
-            fire_range = 0.1
+            max_organisation = 10
         }
         
         research_cost = 6

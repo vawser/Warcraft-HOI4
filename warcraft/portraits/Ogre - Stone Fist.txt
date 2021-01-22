@@ -34,7 +34,7 @@ SPF = {
 	}
 
 	political = {
-		light = {
+		holy = {
 			male = {
                 "gfx/leaders/OGRE/ogre_1.dds"
                 "gfx/leaders/OGRE/ogre_2.dds"
@@ -98,7 +98,7 @@ SPF = {
                 "gfx/leaders/OGRE/ogre_12.dds" 
             }
 		}
-        life = {
+        nature = {
 			male = {
                 "gfx/leaders/OGRE/ogre_1.dds"
                 "gfx/leaders/OGRE/ogre_2.dds"

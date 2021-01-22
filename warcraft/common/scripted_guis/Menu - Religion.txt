@@ -116,37 +116,37 @@ scripted_gui = {
                     modifier = {
                         factor = 0
                         
-                        light > 0.9
+                        holy > 0.9
                     }
                     
                     modifier = {
                         add = 1
                         
-                        light < 0.5
+                        holy < 0.5
                     }
                     
                     modifier = {
                         add = 1
                         
-                        light < 0.4
+                        holy < 0.4
                     }
                     
                     modifier = {
                         add = 1
                         
-                        light < 0.3
+                        holy < 0.3
                     }
                     
                     modifier = {
                         add = 1
                         
-                        light < 0.2
+                        holy < 0.2
                     }
                     
                     modifier = {
                         add = 1
                         
-                        light < 0.1
+                        holy < 0.1
                     }
 				}
             }
@@ -5125,37 +5125,37 @@ scripted_gui = {
                     modifier = {
                         factor = 0
                         
-                        light > 0.9
+                        holy > 0.9
                     }
                     
                     modifier = {
                         add = 1
                         
-                        light < 0.5
+                        holy < 0.5
                     }
                     
                     modifier = {
                         add = 1
                         
-                        light < 0.4
+                        holy < 0.4
                     }
                     
                     modifier = {
                         add = 1
                         
-                        light < 0.3
+                        holy < 0.3
                     }
                     
                     modifier = {
                         add = 1
                         
-                        light < 0.2
+                        holy < 0.2
                     }
                     
                     modifier = {
                         add = 1
                         
-                        light < 0.1
+                        holy < 0.1
                     }
                 }
             }

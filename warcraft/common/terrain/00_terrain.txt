@@ -211,7 +211,7 @@ categories =  {
 				defence = -0.2
 			}
 		}
-		light_cruiser = {
+		cruiser = {
 			units = {
 				attack = -0.1
 				movement = -0.1

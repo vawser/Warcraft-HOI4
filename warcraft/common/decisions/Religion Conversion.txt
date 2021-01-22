@@ -3,13 +3,13 @@ religion_conversion_actions = {
 		icon = yellow_quest_mark
         
         allowed = {
-            light > 0.5
+            holy > 0.5
             NOT = { has_holy_light = yes }
         }
         
 		available = {
             NOT = { has_holy_light = yes }
-            light > 0.75
+            holy > 0.75
             any_country = {
                 has_holy_light = yes
                 has_opinion = {
@@ -34,12 +34,12 @@ religion_conversion_actions = {
 		icon = yellow_quest_mark
         
         allowed = {
-            life > 0.5
+            nature > 0.5
             NOT = { has_elune = yes }
         }
         
 		available = {
-            life > 0.75
+            nature > 0.75
             NOT = { has_elune = yes }
             any_country = {
                 has_elune = yes
@@ -157,12 +157,12 @@ religion_conversion_actions = {
 		icon = yellow_quest_mark
         
         allowed = {
-            life > 0.5
+            nature > 0.5
             NOT = { has_nature = yes }
         }
         
 		available = {
-            life > 0.75
+            nature > 0.75
             NOT = {has_nature = yes }
             any_country = {
                 has_nature = yes
@@ -188,12 +188,12 @@ religion_conversion_actions = {
 		icon = yellow_quest_mark
         
         allowed = {
-            life > 0.5
+            nature > 0.5
             NOT = { has_deep_mother = yes }
         }
         
 		available = {
-            life > 0.75
+            nature > 0.75
             NOT = { has_deep_mother = yes }
             any_country = {
                 has_deep_mother = yes
@@ -250,12 +250,12 @@ religion_conversion_actions = {
 		icon = yellow_quest_mark
         
         allowed = {
-            life > 0.5
+            nature > 0.5
             NOT = { has_druidism = yes }
         }
         
 		available = {
-            life > 0.75
+            nature > 0.75
             NOT = { has_druidism = yes }
             any_country = {
                 has_druidism = yes
@@ -375,12 +375,12 @@ religion_conversion_actions = {
 		icon = yellow_quest_mark
         
         allowed = {
-            life > 0.5
+            nature > 0.5
             NOT = { has_shamanism = yes }
         }
         
 		available = {
-            life > 0.75
+            nature > 0.75
             NOT = { has_shamanism = yes }
             any_country = {
                 has_shamanism = yes
@@ -406,12 +406,12 @@ religion_conversion_actions = {
 		icon = yellow_quest_mark
         
         allowed = {
-            life > 0.5
+            nature > 0.5
             NOT = { has_celestials = yes }
         }
         
 		available = {
-            life > 0.75
+            nature > 0.75
             NOT = { has_celestials = yes }
             any_country = {
                 has_celestials = yes
@@ -500,12 +500,12 @@ religion_conversion_actions = {
 		icon = yellow_quest_mark
         
         allowed = {
-            life > 0.5
+            nature > 0.5
             NOT = { has_earth = yes }
         }
         
 		available = {
-            life > 0.75
+            nature > 0.75
             NOT = { has_earth = yes }
             any_country = {
                 has_earth = yes
@@ -531,12 +531,12 @@ religion_conversion_actions = {
 		icon = yellow_quest_mark
         
         allowed = {
-            life > 0.5
+            nature > 0.5
             NOT = { has_wind = yes }
         }
         
 		available = {
-            life > 0.75
+            nature > 0.75
             NOT = { has_wind = yes }
             any_country = {
                 has_wind = yes
@@ -562,12 +562,12 @@ religion_conversion_actions = {
 		icon = yellow_quest_mark
         
         allowed = {
-            life > 0.5
+            nature > 0.5
             NOT = { has_water = yes }
         }
         
 		available = {
-            life > 0.75
+            nature > 0.75
             NOT = { has_water = yes }
             any_country = {
                 has_water = yes
@@ -593,12 +593,12 @@ religion_conversion_actions = {
 		icon = yellow_quest_mark
         
         allowed = {
-            life > 0.5
+            nature > 0.5
             NOT = { has_geomancy = yes }
         }
         
 		available = {
-            life > 0.75
+            nature > 0.75
             NOT = { has_geomancy = yes }
             any_country = {
                 has_geomancy = yes
@@ -624,12 +624,12 @@ religion_conversion_actions = {
 		icon = yellow_quest_mark
         
         allowed = {
-            light > 0.5
+            holy > 0.5
             NOT = { has_light_of_the_naaru = yes }
         }
         
 		available = {
-            light > 0.75
+            holy > 0.75
             NOT = { has_light_of_the_naaru = yes }
             any_country = {
                 has_light_of_the_naaru = yes

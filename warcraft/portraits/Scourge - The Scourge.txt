@@ -92,7 +92,7 @@ SCO = {
 	}
 
 	political = {
-		light = {
+		holy = {
 			male = {
                 "gfx/leaders/SCOURGE/scourge_draenei_male.dds"
                 "gfx/leaders/SCOURGE/scourge_dwarf_male.dds"
@@ -272,7 +272,7 @@ SCO = {
                 "gfx/leaders/UNDEAD/undead_female_10.dds"
             }
 		}
-        life = {
+        nature = {
 			male = {
                 "gfx/leaders/SCOURGE/scourge_draenei_male.dds"
                 "gfx/leaders/SCOURGE/scourge_dwarf_male.dds"

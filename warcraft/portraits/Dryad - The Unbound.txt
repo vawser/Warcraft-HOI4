@@ -26,7 +26,7 @@ UNB = {
 	}
 
 	political = {
-		light = {
+		holy = {
 			male = {
                 "gfx/leaders/DRYAD/crystal_dryad_green.dds"
                 "gfx/leaders/DRYAD/crystal_dryad_purple.dds"
@@ -74,7 +74,7 @@ UNB = {
                 "gfx/leaders/DRYAD/crystal_dryad_white.dds"
             }
 		}
-        life = {
+        nature = {
 			male = {
                 "gfx/leaders/DRYAD/crystal_dryad_green.dds"
                 "gfx/leaders/DRYAD/crystal_dryad_purple.dds"

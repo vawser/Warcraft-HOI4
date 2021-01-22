@@ -133,11 +133,11 @@ country_event = {
 					}
 					
 					# booleans that will be allowed to change ideology
-					set_temp_variable = { allowed_party_light = 1 }
+					set_temp_variable = { allowed_party_holy = 1 }
 					set_temp_variable = { allowed_party_shadow = 1 }
 					set_temp_variable = { allowed_party_order = 1 }
 					set_temp_variable = { allowed_party_disorder = 1 }
-					set_temp_variable = { allowed_party_life = 1 }
+					set_temp_variable = { allowed_party_nature = 1 }
 					set_temp_variable = { allowed_party_death = 1 }
 					set_temp_variable = { allowed_party_unaligned = 1 }
 					
@@ -162,8 +162,8 @@ country_event = {
 							limit = { 
 								OR = {
 									AND = {
-										has_government = light
-										check_variable = { allowed_party_light = 0 }
+										has_government = holy
+										check_variable = { allowed_party_holy = 0 }
 									}
 									AND = {
 										has_government = shadow
@@ -178,8 +178,8 @@ country_event = {
 										check_variable = { allowed_party_disorder = 0 }
 									}
                                     AND = { 
-										has_government = life
-										check_variable = { allowed_party_life = 0 }
+										has_government = nature
+										check_variable = { allowed_party_nature = 0 }
 									}
                                     AND = { 
 										has_government = death
@@ -193,11 +193,11 @@ country_event = {
 							}
 							
 							random_list = {
-								allowed_party_light = {
+								allowed_party_holy = {
 									set_popularities = {
-										light = 100
+										holy = 100
 									}
-									set_politics = { ruling_party = light elections_allowed = yes }
+									set_politics = { ruling_party = holy elections_allowed = yes }
 								}
 								allowed_party_shadow = {
 									set_popularities = {
@@ -217,11 +217,11 @@ country_event = {
 									}
 									set_politics = { ruling_party = disorder elections_allowed = no }
 								}
-                                allowed_party_life = {
+                                allowed_party_nature = {
 									set_popularities = {
-										life = 100
+										nature = 100
 									}
-									set_politics = { ruling_party = life elections_allowed = no }
+									set_politics = { ruling_party = nature elections_allowed = no }
 								}
                                 allowed_party_death = {
 									set_popularities = {
@@ -250,14 +250,14 @@ country_event = {
 							name = "Resistance"
 							is_locked = yes
 							regiments = {
-								infantry = { x = 0 y = 0 }
-								infantry = { x = 0 y = 1 }
+								grunt = { x = 0 y = 0 }
+								grunt = { x = 0 y = 1 }
 					
-								infantry = { x = 1 y = 0 }
-								infantry = { x = 1 y = 1 }
+								grunt = { x = 1 y = 0 }
+								grunt = { x = 1 y = 1 }
 								
-								infantry = { x = 2 y = 0 }
-								infantry = { x = 2 y = 1 }
+								grunt = { x = 2 y = 0 }
+								grunt = { x = 2 y = 1 }
 							}
 						}
 					}

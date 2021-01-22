@@ -8,7 +8,7 @@ bookmarks = {
 	
         "SRW"={
 			history = "STORMWIND_FIRST_WAR_DESC"
-            ideology = light
+            ideology = holy
             ideas = {
                 racial_human
             }
@@ -32,7 +32,7 @@ bookmarks = {
         
         "LOR"={
 			history = "LORDAERON_FIRST_WAR_DESC"
-            ideology = light
+            ideology = holy
             ideas = {
                 racial_human
             }
@@ -48,7 +48,7 @@ bookmarks = {
         
         "IRO"={
 			history = "IRONFORGE_DESC"
-            ideology = light
+            ideology = holy
             ideas = {
                 racial_dwarf
             }
@@ -64,7 +64,7 @@ bookmarks = {
         
         "SMG"={
 			history = "STROMGARDE_DESC"
-            ideology = light
+            ideology = holy
             ideas = {
                 racial_human
             }

@@ -18,7 +18,7 @@ SOW = {
 	}
 
 	political = {
-		light = {
+		holy = {
 			male = {
                 "gfx/leaders/DRYAD/dryad_frost.dds"
             }
@@ -50,7 +50,7 @@ SOW = {
                 "gfx/leaders/DRYAD/dryad_frost.dds"
             }
 		}
-        life = {
+        nature = {
 			male = {
                 "gfx/leaders/DRYAD/dryad_frost.dds"
             }

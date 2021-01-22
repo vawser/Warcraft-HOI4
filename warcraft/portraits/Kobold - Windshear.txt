@@ -24,7 +24,7 @@ WIS = {
 	}
 
 	political = {
-		light = {
+		holy = {
 			male = {
                 "gfx/leaders/KOBOLD/kobold_1.dds"
                 "gfx/leaders/KOBOLD/kobold_2.dds"
@@ -68,7 +68,7 @@ WIS = {
                 "gfx/leaders/KOBOLD/kobold_7.dds"
             }
 		}
-        life = {
+        nature = {
 			male = {
                 "gfx/leaders/KOBOLD/kobold_1.dds"
                 "gfx/leaders/KOBOLD/kobold_2.dds"

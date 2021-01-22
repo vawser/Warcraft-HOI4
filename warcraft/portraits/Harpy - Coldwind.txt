@@ -18,7 +18,7 @@ COL = {
 	}
 
 	political = {
-		light = {
+		holy = {
 			male = {
                 "gfx/leaders/HARPY/harpy_white.dds"
             }
@@ -50,7 +50,7 @@ COL = {
                 "gfx/leaders/HARPY/harpy_white.dds"
             }
 		}
-        life = {
+        nature = {
 			male = {
                 "gfx/leaders/HARPY/harpy_white.dds"
             }

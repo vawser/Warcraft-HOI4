@@ -22,3 +22,21 @@ Check:
  scripted_triggers
  scripted_localisation
  
+light -> holy
+life -> nature
+
+set_politics = {
+	ruling_party = nature
+	last_election = "590.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+    holy = 0
+    shadow = 0
+    order = 0
+    disorder = 0
+    nature = 0
+    death = 0
+    unaligned = 0
+}

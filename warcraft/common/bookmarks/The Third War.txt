@@ -13,7 +13,7 @@ bookmarks = {
         
         "LOR"={
 			history = "LORDAERON_THIRD_WAR_DESC"
-            ideology = light
+            ideology = holy
 		}
         
         "TTH"={
@@ -23,17 +23,17 @@ bookmarks = {
         
         "SRW"={
 			history = "STORMWIND_THIRD_WAR_DESC"
-            ideology = light
+            ideology = holy
 		}
         
         "GIL"={
 			history = "GILNEAS_DESC"
-            ideology = light
+            ideology = holy
 		}
         
         "SEN"={
 			history = "SENTINELS_DESC"
-            ideology = life
+            ideology = nature
 		}
         
         "QUE"={

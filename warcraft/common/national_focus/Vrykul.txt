@@ -163,7 +163,7 @@ focus_tree = {
 
 		completion_reward = {
 			add_political_power = 100
-			stability_factor = 0.10
+			add_stability = 0.10
 			random_owned_controlled_state = {
 				limit = {
 					free_building_slots = {
@@ -385,7 +385,7 @@ focus_tree = {
 
 		completion_reward = {
 			add_ideas = vrykul_titans_aquitted_idea
-			add_stabilty = 0.1
+			add_stability = 0.1
 		}
 	}
 
@@ -746,7 +746,8 @@ focus_tree = {
 				has_war = yes
 			}
 			factor = 5
-
+        }
+        
 		available = {		
 			country_exists = SRW
 		}

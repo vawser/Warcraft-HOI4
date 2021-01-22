@@ -43,6 +43,6 @@ phase_test = {
 	# Note: Exceptionally supports `civilian_factories` as an equipment type. It works like the agency creation cost, where it allocates a number of factories over time
 	
 	equipment = {
-		infantry_equipment = 5000
+		grunt_equipment = 5000
 	}
 }

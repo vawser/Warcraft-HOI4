@@ -43,10 +43,9 @@ add_ideas = {
 
 set_convoys = 100
 
-set_politics = {
+set_popularities = {
 	parties = {
-		light = {
-			popularity = 80
+		holy = 80
 		}
 		shadow = {
 			popularity = 5
@@ -57,7 +56,7 @@ set_politics = {
         disorder = {
 			popularity = 5
 		}
-        life = {
+        nature = {
 			popularity = 5
 		}
         death = {
@@ -68,7 +67,7 @@ set_politics = {
 		}
 	}
 
-	ruling_party = light
+	ruling_party = holy
 }
 
 create_country_leader = {
@@ -76,7 +75,7 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/HUMAN/human_male_2_7.dds"
 	expire = "2000.1.1"
-	ideology = kingdom_light
+	ideology = kingdom_holy
 	traits = {
 		sealord
 	}

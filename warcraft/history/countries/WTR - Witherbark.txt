@@ -43,31 +43,19 @@ add_ideas = {
 set_convoys = 100
 
 set_politics = {
-	parties = {
-		light = {
-			popularity = 0
-		}
-		shadow = {
-			popularity = 70
-		}
-		order = {
-			popularity = 0
-		}
-        disorder = {
-			popularity = 10
-		}
-        life = {
-			popularity = 10
-		}
-        death = {
-			popularity = 10
-		}
-        unaligned = {
-			popularity = 0
-		}
-	}
-
 	ruling_party = shadow
+	last_election = "590.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+    holy = 0
+    shadow = 70
+    order = 0
+    disorder = 10
+    nature = 10
+    death = 10
+    unaligned = 0
 }
 
 create_country_leader = {

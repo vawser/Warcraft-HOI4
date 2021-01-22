@@ -30,7 +30,7 @@ JOT = {
 	}
 
 	political = {
-		light = {
+		holy = {
 			male = {
                 "gfx/leaders/VRYKUL/vrykul_male_1.dds"
                 "gfx/leaders/VRYKUL/vrykul_male_2.dds"
@@ -86,7 +86,7 @@ JOT = {
                 "gfx/leaders/VRYKUL/vrykul_male_10.dds"    
             }
 		}
-        life = {
+        nature = {
 			male = {
                 "gfx/leaders/VRYKUL/vrykul_male_1.dds"
                 "gfx/leaders/VRYKUL/vrykul_male_2.dds"

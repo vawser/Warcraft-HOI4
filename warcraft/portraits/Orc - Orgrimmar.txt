@@ -94,7 +94,7 @@ ORG = {
 	}
 
 	political = {
-		light = {
+		holy = {
 			male = {
                 "gfx/leaders/ORC/orc_male_1.dds"
                 "gfx/leaders/ORC/orc_male_2.dds"
@@ -278,7 +278,7 @@ ORG = {
                 "gfx/leaders/TAUREN/tauren_female_5.dds"
             }
 		}
-        life = {
+        nature = {
 			male = {
                 "gfx/leaders/ORC/orc_male_1.dds"
                 "gfx/leaders/ORC/orc_male_2.dds"

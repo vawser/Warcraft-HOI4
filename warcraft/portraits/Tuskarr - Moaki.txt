@@ -30,7 +30,7 @@ MOA = {
 	}
 
 	political = {
-		light = {
+		holy = {
 			male = {
                 "gfx/leaders/TUSKARR/tuskarr_1.dds"
                 "gfx/leaders/TUSKARR/tuskarr_2.dds"
@@ -89,7 +89,7 @@ MOA = {
             }
 
 		}
-        life = {
+        nature = {
 			male = {
                 "gfx/leaders/TUSKARR/tuskarr_1.dds"
                 "gfx/leaders/TUSKARR/tuskarr_2.dds"

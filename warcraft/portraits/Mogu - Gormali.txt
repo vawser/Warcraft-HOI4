@@ -30,7 +30,7 @@ GOM = {
 	}
 
 	political = {
-		light = {
+		holy = {
 			male = {
                 "gfx/leaders/MOGU/mogu_1.dds"
                 "gfx/leaders/MOGU/mogu_2.dds"
@@ -86,7 +86,7 @@ GOM = {
                 "gfx/leaders/MOGU/mogu_10.dds"
             }
 		}
-        life = {
+        nature = {
 			male = {
                 "gfx/leaders/MOGU/mogu_1.dds"
                 "gfx/leaders/MOGU/mogu_2.dds"

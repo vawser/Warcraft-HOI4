@@ -12,7 +12,7 @@ ULM = {
 	}
 
 	political = {
-		light = {
+		holy = {
 			male = {
                 "gfx/leaders/EARTHERN/earthern_tan.dds"
             }
@@ -32,7 +32,7 @@ ULM = {
                 "gfx/leaders/EARTHERN/earthern_tan.dds"
             }
 		}
-        life = {
+        nature = {
 			male = {
                 "gfx/leaders/EARTHERN/earthern_tan.dds"
             }

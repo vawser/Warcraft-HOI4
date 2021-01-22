@@ -1,7 +1,7 @@
 spriteTypes = {	
     spriteType = {
-		name = "GFX_ideology_light_group"
-		texturefile = "gfx/interface/ideologies/light_group.dds"
+		name = "GFX_ideology_holy_group"
+		texturefile = "gfx/interface/ideologies/holy_group.dds"
 	}
     
     spriteType = {
@@ -20,8 +20,8 @@ spriteTypes = {
 	}
     
     spriteType = {
-		name = "GFX_ideology_life_group"
-		texturefile = "gfx/interface/ideologies/life_group.dds"
+		name = "GFX_ideology_nature_group"
+		texturefile = "gfx/interface/ideologies/nature_group.dds"
 	}
     
     spriteType = {

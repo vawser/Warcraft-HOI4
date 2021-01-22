@@ -34,7 +34,7 @@ DGS = {
 	}
 
 	political = {
-		light = {
+		holy = {
 			male = {
                 "gfx/leaders/NAGA/naga_male_1.dds"
                 "gfx/leaders/NAGA/naga_male_2.dds"
@@ -98,7 +98,7 @@ DGS = {
                 "gfx/leaders/NAGA/naga_female_5.dds"
             }
 		}
-        life = {
+        nature = {
 			male = {
                 "gfx/leaders/NAGA/naga_male_1.dds"
                 "gfx/leaders/NAGA/naga_male_2.dds"

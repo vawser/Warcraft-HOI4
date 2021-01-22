@@ -16,7 +16,7 @@ BPC = {
 	}
 
 	political = {
-		light = {
+		holy = {
 			male = {
                 "gfx/leaders/GNOLL/gnoll_riverpaw_1.dds"
                 "gfx/leaders/GNOLL/gnoll_riverpaw_2.dds"
@@ -44,7 +44,7 @@ BPC = {
                 "gfx/leaders/GNOLL/gnoll_riverpaw_3.dds"
             }
 		}
-        life = {
+        nature = {
 			male = {
                 "gfx/leaders/GNOLL/gnoll_riverpaw_1.dds"
                 "gfx/leaders/GNOLL/gnoll_riverpaw_2.dds"

@@ -105,34 +105,34 @@ no_garrison = {
 	}
 }
 
-autonomous_occupation = {
-	icon = 2
-	sound_effect = "Martial_Law_Interface_Autonomous_Occupation_Unique_DEM"
+# autonomous_occupation = {
+	# icon = 2
+	# sound_effect = "Martial_Law_Interface_Autonomous_Occupation_Unique_DEM"
 	
-	visible = {
-		has_government = democratic #? on design
-	}
+	# visible = {
+		# has_government = democratic #? on design
+	# }
 	
-	state_modifier = {
-		compliance_gain 				= 0.02
-		required_garrison_factor 		= -0.6		
-		resistance_damage_to_garrison 	= -0.25	
-	}
+	# state_modifier = {
+		# compliance_gain 				= 0.02
+		# required_garrison_factor 		= -0.6		
+		# resistance_damage_to_garrison 	= -0.25	
+	# }
 	
-	ai_will_do = {
-		base = 200
+	# ai_will_do = {
+		# base = 200
 		
-		modifier = {
-			set_temp_variable = { resistance_limit = 30 }
-			if = {
-				limit = { occupation_law = martial_law_occupation }
-				set_temp_variable = { resistance_limit = 35 }
-			}
-			resistance < autonomous_occupation # if we are under base resistance try to build compliance instead
-			add = 500
-		}
-	}
-}
+		# modifier = {
+			# set_temp_variable = { resistance_limit = 30 }
+			# if = {
+				# limit = { occupation_law = martial_law_occupation }
+				# set_temp_variable = { resistance_limit = 35 }
+			# }
+			# resistance < autonomous_occupation # if we are under base resistance try to build compliance instead
+			# add = 500
+		# }
+	# }
+# }
 
 foreign_civilian_oversight = {
 	icon = 3
@@ -359,24 +359,24 @@ forced_labor_occupation = {
 			multiply_temp_variable = { t = ai_desire_oil }
 			add_to_temp_variable = { releveant_resources = t }
 			
-			set_temp_variable = { t = resource@aluminium }
-			multiply_temp_variable = { t = ai_desire_aluminium }
+			set_temp_variable = { t = resource@flying_beast }
+			multiply_temp_variable = { t = ai_desire_flying_beast }
 			add_to_temp_variable = { releveant_resources = t }
 			
-			set_temp_variable = { t = resource@rubber }
-			multiply_temp_variable = { t = ai_desire_rubber }
+			set_temp_variable = { t = resource@ground_beast }
+			multiply_temp_variable = { t = ai_desire_ground_beast }
 			add_to_temp_variable = { releveant_resources = t }
 			
-			set_temp_variable = { t = resource@tungsten }
-			multiply_temp_variable = { t = ai_desire_tungsten }
+			set_temp_variable = { t = resource@wood }
+			multiply_temp_variable = { t = ai_desire_wood }
 			add_to_temp_variable = { releveant_resources = t }
 			
 			set_temp_variable = { t = resource@steel }
 			multiply_temp_variable = { t = ai_desire_steel }
 			add_to_temp_variable = { releveant_resources = t }
 			
-			set_temp_variable = { t = resource@chromium }
-			multiply_temp_variable = { t = ai_desire_chromium }
+			set_temp_variable = { t = resource@food }
+			multiply_temp_variable = { t = ai_desire_food }
 			add_to_temp_variable = { releveant_resources = t }
 			
 			check_variable = { releveant_resources > 0 }

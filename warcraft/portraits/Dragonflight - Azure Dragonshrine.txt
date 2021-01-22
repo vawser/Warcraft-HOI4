@@ -18,7 +18,7 @@ ADS = {
 	}
 
 	political = {
-		light = {
+		holy = {
 			male = {
                 "gfx/leaders/DRAGONFLIGHT/blue_dragon.dds"
             }
@@ -50,7 +50,7 @@ ADS = {
                 "gfx/leaders/DRAGONFLIGHT/blue_dragon.dds"
             }
 		}
-        life = {
+        nature = {
 			male = {
                 "gfx/leaders/DRAGONFLIGHT/blue_dragon.dds"
             }

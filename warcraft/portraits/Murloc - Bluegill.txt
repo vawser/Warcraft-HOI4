@@ -12,7 +12,7 @@ BLU = {
 	}
 
 	political = {
-		light = {
+		holy = {
 			male = {
                 "gfx/leaders/MURLOC/murloc_blue.dds"
             }
@@ -32,7 +32,7 @@ BLU = {
                 "gfx/leaders/MURLOC/murloc_blue.dds"
             }
 		}
-        life = {
+        nature = {
 			male = {
                 "gfx/leaders/MURLOC/murloc_blue.dds"
             }

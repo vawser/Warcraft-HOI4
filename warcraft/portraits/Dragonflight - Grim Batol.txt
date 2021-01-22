@@ -18,7 +18,7 @@ GMB = {
 	}
 
 	political = {
-		light = {
+		holy = {
 			male = {
                 "gfx/leaders/DRAGONFLIGHT/red_dragon.dds"
             }
@@ -50,7 +50,7 @@ GMB = {
                 "gfx/leaders/DRAGONFLIGHT/red_dragon.dds"
             }
 		}
-        life = {
+        nature = {
 			male = {
                 "gfx/leaders/DRAGONFLIGHT/red_dragon.dds"
             }

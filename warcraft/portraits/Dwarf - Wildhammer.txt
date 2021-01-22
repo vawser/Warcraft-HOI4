@@ -34,7 +34,7 @@ WIL = {
 	}
 
 	political = {
-		light = {
+		holy = {
 			male = {
                 "gfx/leaders/DWARF/dwarf_male_1.dds"
                 "gfx/leaders/DWARF/dwarf_male_2.dds"
@@ -98,7 +98,7 @@ WIL = {
                 "gfx/leaders/DWARF/dwarf_female_5.dds"
             }
 		}
-        life = {
+        nature = {
 			male = {
                 "gfx/leaders/DWARF/dwarf_male_1.dds"
                 "gfx/leaders/DWARF/dwarf_male_2.dds"

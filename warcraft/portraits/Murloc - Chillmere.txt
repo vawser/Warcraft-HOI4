@@ -12,7 +12,7 @@ CHI = {
 	}
 
 	political = {
-		light = {
+		holy = {
 			male = {
                 "gfx/leaders/MURLOC/murloc_corrupt.dds"
             }
@@ -32,7 +32,7 @@ CHI = {
                 "gfx/leaders/MURLOC/murloc_corrupt.dds"
             }
 		}
-        life = {
+        nature = {
 			male = {
                 "gfx/leaders/MURLOC/murloc_corrupt.dds"
             }

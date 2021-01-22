@@ -8,7 +8,7 @@ bookmarks = {
 	
         "LOR"={
 			history = "LORDAERON_SECOND_WAR_DESC"
-            ideology = light
+            ideology = holy
 		}
         
         "TTH"={
@@ -18,7 +18,7 @@ bookmarks = {
         
         "SMG"={
 			history = "STROMGARDE_SECOND_WAR_DESC"
-            ideology = light
+            ideology = holy
 		}
         
         "QUE"={
@@ -33,7 +33,7 @@ bookmarks = {
         
         "ALT"={
 			history = "ALTERAC_DESC"
-            ideology = light
+            ideology = holy
 		}
         
         "AZJ"={

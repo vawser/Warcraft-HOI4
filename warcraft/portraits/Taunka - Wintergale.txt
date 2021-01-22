@@ -16,7 +16,7 @@ WTG = {
 	}
 
 	political = {
-		light = {
+		holy = {
 			male = {
                 "gfx/leaders/TAUNKA/taunka_white.dds"
                 "gfx/leaders/TAUNKA/taunka_brown.dds"
@@ -44,7 +44,7 @@ WTG = {
                 "gfx/leaders/TAUNKA/taunka_black.dds"
             }
 		}
-        life = {
+        nature = {
 			male = {
                 "gfx/leaders/TAUNKA/taunka_white.dds"
                 "gfx/leaders/TAUNKA/taunka_brown.dds"

@@ -30,7 +30,7 @@ PAW = {
 	}
 
 	political = {
-		light = {
+		holy = {
 			male = {
                 "gfx/leaders/YAUNGOL/yaungol_1.dds"
                 "gfx/leaders/YAUNGOL/yaungol_2.dds"
@@ -86,7 +86,7 @@ PAW = {
                 "gfx/leaders/YAUNGOL/yaungol_10.dds"
             }
 		}
-        life = {
+        nature = {
 			male = {
                 "gfx/leaders/YAUNGOL/yaungol_1.dds"
                 "gfx/leaders/YAUNGOL/yaungol_2.dds"

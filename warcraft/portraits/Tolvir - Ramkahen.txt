@@ -20,7 +20,7 @@ RAM = {
 	}
 
 	political = {
-		light = {
+		holy = {
 			male = {
                 "gfx/leaders/TOLVIR/tolvir_1.dds"
                 "gfx/leaders/TOLVIR/tolvir_2.dds"
@@ -56,7 +56,7 @@ RAM = {
                 "gfx/leaders/TOLVIR/tolvir_5.dds"
             }
 		}
-        life = {
+        nature = {
 			male = {
                 "gfx/leaders/TOLVIR/tolvir_1.dds"
                 "gfx/leaders/TOLVIR/tolvir_2.dds"

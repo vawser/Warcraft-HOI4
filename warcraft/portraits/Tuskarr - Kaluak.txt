@@ -30,7 +30,7 @@ KAL = {
 	}
 
 	political = {
-		light = {
+		holy = {
 			male = {
                 "gfx/leaders/TUSKARR/tuskarr_1.dds"
                 "gfx/leaders/TUSKARR/tuskarr_2.dds"
@@ -89,7 +89,7 @@ KAL = {
             }
 
 		}
-        life = {
+        nature = {
 			male = {
                 "gfx/leaders/TUSKARR/tuskarr_1.dds"
                 "gfx/leaders/TUSKARR/tuskarr_2.dds"

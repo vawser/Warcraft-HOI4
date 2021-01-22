@@ -41,10 +41,9 @@ add_ideas = {
 
 set_convoys = 100
 
-set_politics = {
+set_popularities = {
 	parties = {
-		light = {
-			popularity = 0
+		holy = 0
 		}
 		shadow = {
 			popularity = 0
@@ -55,7 +54,7 @@ set_politics = {
         disorder = {
 			popularity = 5
 		}
-        life = {
+        nature = {
 			popularity = 90
 		}
         death = {
@@ -66,7 +65,7 @@ set_politics = {
 		}
 	}
 
-	ruling_party = life
+	ruling_party = nature
 }
 
 create_country_leader = {
@@ -74,7 +73,7 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/CENTAUR/centaur_gray.dds"
 	expire = "2000.1.1"
-	ideology = kingdom_life
+	ideology = kingdom_nature
 	traits = {
 		headstrong
         warmonger
