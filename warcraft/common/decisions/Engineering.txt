@@ -51,7 +51,7 @@ engineering_actions = {
         }
 
 		custom_cost_trigger = {
-            has_army_experience > 99 
+            has_army_experience > 99
         }
         custom_cost_text = ARMY_EXPERIENCE_100
 

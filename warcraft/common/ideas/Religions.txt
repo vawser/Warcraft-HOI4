@@ -522,7 +522,7 @@ ideas = {
 			picture = gift_of_yulon
 
 			modifier = {
-                research_speed_factor = -0.05
+                research_speed_factor = 0.05
 			}
 		}
         gift_of_niuzao = {
@@ -1224,7 +1224,7 @@ ideas = {
 			picture = innovation_wave
 
 			modifier = {
-                research_speed_factor = -0.1
+                research_speed_factor = 0.1
 			}
 		}
         

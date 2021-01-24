@@ -162,6 +162,14 @@ spriteTypes = {
 		name = "GFX_idea_war_economy"
 		texturefile = "gfx/interface/ideas/politics/war_economy.dds"
 	}
+    spriteType = {
+		name = "GFX_idea_transitional_economy"
+		texturefile = "gfx/interface/ideas/politics/transitional_economy.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_command_economy"
+		texturefile = "gfx/interface/ideas/politics/command_economy.dds"
+	}
     
     # Trade
     spriteType = {

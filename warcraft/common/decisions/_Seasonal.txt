@@ -367,11 +367,11 @@ seasonal_actions = {
         
         allowed = {
             is_civil_seasonal = yes
-            country_exists = FOR
         }
         
         visible = {
             is_october = yes
+            country_exists = FOR
         }
         
         available = {

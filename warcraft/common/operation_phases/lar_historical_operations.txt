@@ -57,7 +57,7 @@ bruneval_exfiltration = {
 
 	requirements = {
 		has_equipment = {
-			convoy > 0
+			convoy_equipment > 0
 		}
 	}
 	equipment = {

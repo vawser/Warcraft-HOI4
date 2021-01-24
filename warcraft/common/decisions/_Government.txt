@@ -7,6 +7,10 @@ government_actions = {
         
 		cost = 100
 
+        available = {
+			has_stability < 1.0
+        }
+        
 		modifier = {
 			stability_weekly = 0.005
 			consumer_goods_factor = 0.05
@@ -31,6 +35,7 @@ government_actions = {
             is_civil = yes
 			has_war = no
 			has_war_support > 0.2
+            has_stability < 1.0
 		}
 
 		visible = {

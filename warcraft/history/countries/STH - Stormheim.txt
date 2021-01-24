@@ -2,7 +2,7 @@
 
 oob = "STH_default"
 
-set_research_slots = 4
+set_research_slots = 3
 set_stability = 0.5
 set_war_support = 0.2
 
@@ -42,31 +42,20 @@ add_ideas = {
 
 set_convoys = 100
 
-set_popularities = {
-	parties = {
-		holy = 0
-		}
-		shadow = {
-			popularity = 20
-		}
-		order = {
-			popularity = 70
-		}
-        disorder = {
-			popularity = 5
-		}
-        nature = {
-			popularity = 5
-		}
-        death = {
-			popularity = 0
-		}
-        unaligned = {
-			popularity = 0
-		}
-	}
-
+set_politics = {
 	ruling_party = order
+	last_election = "590.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+    holy = 0
+    shadow = 20
+    order = 70
+    disorder = 5
+    nature = 5
+    death = 0
+    unaligned = 0
 }
 
 create_country_leader = {

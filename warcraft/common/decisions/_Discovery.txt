@@ -1,46 +1,46 @@
 discovery_actions = {
-	claim_wasteland = {
-		icon = yellow_quest_mark
+	# claim_wasteland = {
+		# icon = yellow_quest_mark
         
-		cost = 0
+		# cost = 0
         
-        visible = {
-            any_country = {
-                all_owned_state = {
-                    has_state_category = wasteland
-                }
-                is_neighbor_of = ROOT
-            }
-        }
+        # visible = {
+            # any_country = {
+                # all_owned_state = {
+                    # has_state_category = wasteland
+                # }
+                # is_neighbor_of = ROOT
+            # }
+        # }
         
-        available = {
-            any_country = {
-                all_owned_state = {
-                    has_state_category = wasteland
-                }
-                is_neighbor_of = ROOT
-            }
-        }
+        # available = {
+            # any_country = {
+                # all_owned_state = {
+                    # has_state_category = wasteland
+                # }
+                # is_neighbor_of = ROOT
+            # }
+        # }
 
-		complete_effect = {
-            every_owned_state = {
-                every_neighbor_state = {
-                    limit = {
-                        has_state_category = wasteland
-                        owner = {
-                            all_owned_state = {
-                                has_state_category = wasteland
-                            }
-                        }
-                    }
-                    ROOT = { transfer_state = PREV }
-                }
-            }
-        }
+		# complete_effect = {
+            # every_owned_state = {
+                # every_neighbor_state = {
+                    # limit = {
+                        # has_state_category = wasteland
+                        # owner = {
+                            # all_owned_state = {
+                                # has_state_category = wasteland
+                            # }
+                        # }
+                    # }
+                    # ROOT = { transfer_state = PREV }
+                # }
+            # }
+        # }
 
-		ai_will_do = {
-			base = 1
-		}
-	}
+		# ai_will_do = {
+			# base = 1
+		# }
+	# }
 }
 

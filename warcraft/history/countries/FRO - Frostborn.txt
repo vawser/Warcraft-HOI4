@@ -2,7 +2,7 @@
 
 oob = "FRO_default"
 
-set_research_slots = 4
+set_research_slots = 3
 set_stability = 0.5
 set_war_support = 0.2
 
@@ -31,8 +31,7 @@ set_technology = {
 }
 
 add_ideas = {
-    
-	racial_earthern
+	racial_dwarf
     
     civil_economy
     minimal_trade
@@ -41,31 +40,20 @@ add_ideas = {
 
 set_convoys = 100
 
+set_politics = {
+	ruling_party = nature
+	last_election = "590.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
 set_popularities = {
-	parties = {
-		holy = 5
-		}
-		shadow = {
-			popularity = 0
-		}
-		order = {
-			popularity = 5
-		}
-        disorder = {
-			popularity = 5
-		}
-        nature = {
-			popularity = 5
-		}
-        death = {
-			popularity = 0
-		}
-        unaligned = {
-			popularity = 90
-		}
-	}
-
-	ruling_party = unaligned
+    holy = 0
+    shadow = 0
+    order = 0
+    disorder = 0
+    nature = 80
+    death = 0
+    unaligned = 20
 }
 
 create_country_leader = {

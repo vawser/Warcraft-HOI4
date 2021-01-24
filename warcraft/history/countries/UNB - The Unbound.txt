@@ -2,7 +2,7 @@
 
 oob = "UNB_default"
 
-set_research_slots = 4
+set_research_slots = 2
 set_stability = 0.5
 set_war_support = 0.3
 
@@ -42,31 +42,20 @@ add_ideas = {
 
 set_convoys = 100
 
-set_popularities = {
-	parties = {
-		holy = 0
-		}
-		shadow = {
-			popularity = 0
-		}
-		order = {
-			popularity = 90
-		}
-        disorder = {
-			popularity = 0
-		}
-        nature = {
-			popularity = 10
-		}
-        death = {
-			popularity = 0
-		}
-        unaligned = {
-			popularity = 0
-		}
-	}
-
+set_politics = {
 	ruling_party = order
+	last_election = "590.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+    holy = 0
+    shadow = 0
+    order = 90
+    disorder = 0
+    nature = 10
+    death = 0
+    unaligned = 0
 }
 
 create_country_leader = {

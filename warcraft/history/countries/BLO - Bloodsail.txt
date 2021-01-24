@@ -2,7 +2,7 @@
 
 oob = "BLO_default"
 
-set_research_slots = 4
+set_research_slots = 3
 set_stability = 0.5
 set_war_support = 0.5
 
@@ -41,31 +41,20 @@ add_ideas = {
 
 set_convoys = 100
 
+set_politics = {
+	ruling_party = unaligned
+	last_election = "590.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
 set_popularities = {
-	parties = {
-		holy = 0
-		}
-		shadow = {
-			popularity = 60
-		}
-		order = {
-			popularity = 0
-		}
-        disorder = {
-			popularity = 20
-		}
-        nature = {
-			popularity = 0
-		}
-        death = {
-			popularity = 20
-		}
-        unaligned = {
-			popularity = 0
-		}
-	}
-
-	ruling_party = shadow
+    holy = 0
+    shadow = 30
+    order = 0
+    disorder = 0
+    nature = 0
+    death = 0
+    unaligned = 70
 }
 
 create_country_leader = {
@@ -73,7 +62,7 @@ create_country_leader = {
 	desc = ""
 	picture = "gfx/leaders/HUMAN/human_male_5_1.dds"
 	expire = "2000.1.1"
-	ideology = kingdom_shadow
+	ideology = kingdom_unaligned
 	traits = {
 		headstrong
         sealord

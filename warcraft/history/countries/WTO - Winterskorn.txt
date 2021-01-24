@@ -2,7 +2,7 @@
 
 oob = "WTO_default"
 
-set_research_slots = 4
+set_research_slots = 3
 set_stability = 0.5
 set_war_support = 0.5
 
@@ -49,12 +49,12 @@ set_politics = {
 	elections_allowed = no
 }
 set_popularities = {
-    holy = 10
-    shadow = 50
-    order = 10
+    holy = 0
+    shadow = 10
+    order = 80
     disorder = 0
     nature = 0
-    death = 20
+    death = 10
     unaligned = 0
 }
 

@@ -2,7 +2,7 @@
 
 oob = "WES_default"
 
-set_research_slots = 4
+set_research_slots = 3
 set_stability = 0.5
 set_war_support = 0.2
 
@@ -52,9 +52,9 @@ set_popularities = {
     holy = 80
     shadow = 5
     order = 5
-    disorder = 5
+    disorder = 3
     nature = 5
-    death = 5
+    death = 2
     unaligned = 0
 }
 

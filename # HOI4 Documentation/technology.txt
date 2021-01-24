@@ -1,0 +1,118 @@
+#---------------------------------------------
+# Overview
+#---------------------------------------------
+technologies = {
+    <technology> = {
+        # Any country-level modifier can be used here.
+        <modifier>
+        
+        doctrine = yes          # Consider this technology a doctrine technology.
+        research_cost = <float> # Cost in time, where 1 is the default research time length.
+        start_year = <year>     # Which year this technology stops receiving ahead-of-time penalities.
+        
+        # Limits to apply the the completion effect
+        on_research_complete_limit = {
+            <triggers>
+        }
+        # Effects to apply on technology completion
+        on_research_complete_execute = {
+            <effects>
+        }
+        show_effect_as_desc = yes   # Displays effects in description.
+        
+        # Alter unit attributes and sub-attributes
+        <unit> = {
+            <attribute> = <value> # Required!
+            
+            <terrain> = {
+                <attribute> <value>
+            }
+        }
+        
+        # Alter unit attribute for category
+        <category> = {
+            <attribute> <value>
+        }
+        
+        # Enable subunits
+        enable_subunits = {
+            <unit>
+        }
+        
+        # Enables equipment.
+        enable_equipments = {
+            <equipment name>
+        }
+        show_equipment_icon = yes   # Show the equipment icon that is unlocked
+        
+        # Enable building
+        enable_building = {
+            building = <name>
+            level = 1
+        }
+        
+        # Links technologies in corner. Used for variant technologies of base technology
+        sub_technologies = {
+            <technology>
+        }
+        
+        # Technologies taking this technology is dependant on (other than previous technology.)
+        dependencies = {
+            <technology> = 1
+        }
+        
+        # Limits technology visibility if trigger is false. Used for DLC checks. Used for focus-only technologies. Used for modding nation-specific technologies.
+        allow = {
+            <triggers>
+        }
+        
+        # Limits technology (and linked technologies) visibility if trigger is false. Used for DLC checks. Used for modding nation-specific technologies.
+        allow_branch = {
+            <triggers>
+        }
+        
+        # Multiple allowed. Controls the links between technologies.
+        path = {
+            leads_to_tech = <technology>
+            research_cost_coeff = <float>
+        }
+        
+        # Used to either-or with other technologies. 
+        XOR = {
+            <technology>
+        }
+        
+        # Controls which folder (tab) the technology appears under.
+        folder = {
+            name = <folder name> # Found in countrytechtreeview.gui
+            
+            # Position in the tech tree interface
+            position = { 
+                x = 0 
+                y = 0 
+            }
+        }
+        
+        # Which technology categories apply to this technology.
+        categories = {
+            <categories>
+        }
+        
+        # Weighting for the AI to pick the technology
+        ai_will_do = {
+            factor = <float>
+            
+            # Conditional modifier to the factor.
+            modifier = {
+                factor = <float>
+                
+                <triggers>
+            }
+        }
+        
+        # Adjusts weighting depending on taken technology (uses technology tags)
+        ai_research_weights = {
+            <type> = <float>
+        }
+    }
+}

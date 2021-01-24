@@ -1,42 +1,13 @@
 ﻿#-----------------------------
 # Plan
 #-----------------------------
-Remove Second/Third war bookmarks
+Change history to Wrath of the Lich King
 
-Revert wasteland back to normal provinces
-
-Add Stormwind/Orcish Horde focuses
-Add racial focuses (i.e. Pandaren, Gnome, etc)
-
-Base focuses will remain, but shift so they are to the right by 5 rows
-
+Add focuses for Stormwind/Orgrimmar/Scourge
 #-----------------------------
 # TODO
 #----------------------------- 
-
 Update equipment for latest stuff (i.e. naval parts, etc)
 
-Check:
- scripted_effects
- scripted_guis
- scripted_triggers
- scripted_localisation
- 
-light -> holy
-life -> nature
+# Army
 
-set_politics = {
-	ruling_party = nature
-	last_election = "590.1.1"
-	election_frequency = 48
-	elections_allowed = no
-}
-set_popularities = {
-    holy = 0
-    shadow = 0
-    order = 0
-    disorder = 0
-    nature = 0
-    death = 0
-    unaligned = 0
-}

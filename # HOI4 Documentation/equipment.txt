@@ -1,0 +1,110 @@
+#---------------------------------------------
+# Overview
+#---------------------------------------------
+Equipment will normally include the following:
+
+build_cost_ic = <float>
+lend_lease_cost = <float>
+reliability = <float>
+maximum_speed = <float>
+defense = <float>
+breakthrough = <float>
+hardness = <float>
+armor_value = <float>
+soft_attack = <float>
+hard_attack = <float>
+ap_attack = <float>
+air_attack = <float>
+
+#---------------------------------------------
+# Archetype
+#---------------------------------------------
+equipments = {
+    <equipment> = {
+        year = <int>        # Limits the equipment from appearing before the specified year. Optional
+        picture = <name>    # GFX reference used to define equipment picture in land-lease
+        
+        is_archetype = yes  # Specifies an entry as an archetype entry. All non-archetype entries inherit 
+        is_buildable = no   # Prevents this equipment from being built.
+        active = yes        # Determines if this equipment is available without unlocking from a technology.
+        
+        type = <type>       # Internal type: what kind of unit can use this equipment
+
+        group_by = <group>              # How the equipment is grouped in the production screen
+        interface_category = <type>     # Which category the equipment appears in the production screen
+        
+        # Resources used to build this equipment
+        resources = {
+            <resource> = <amount>
+        }
+        
+        # Modifiers the equipment uses
+        <modifiers> 
+    }
+}
+
+#---------------------------------------------
+# Regular
+#---------------------------------------------
+equipments = {
+    <equipment> = {
+        year = <int>        # Limits the equipment from appearing before the specified year. Optional
+        
+        active = yes            # Determines if this equipment is available without unlocking from a technology.
+        
+        archetype = <equipment> # Which archetype equipment this equipment inherits from.
+        parent = <equipment>    # Which equipment is parent to this equipment (i.e. which does it supercede)
+        priority = <int>        # Priority for usage over other equipment.
+        visual_level = <int>    # Image priority in production screen
+        
+        # Resources used to build this equipment
+        resources = {
+            <resource> = <amount>
+        }
+        
+        # Modifiers the equipment uses
+        <modifiers> 
+    }
+}
+
+#---------------------------------------------
+# Internal Types
+#---------------------------------------------
+infantry
+support
+artillery
+anti_tank
+anti_air
+motorized
+mechanized
+armor
+fighter
+cas
+naval_bomber
+interceptor
+suicide
+tactical_bomber
+strategic_bomber
+air_transport
+missile
+submarine
+screen_ship
+capital_ship
+carrier
+
+#---------------------------------------------
+# Group By Types
+#---------------------------------------------
+archetype
+type
+
+#---------------------------------------------
+# Interface Categories
+#---------------------------------------------
+interface_category_land
+interface_category_armor
+interface_category_capital_ships
+interface_category_screen_ships
+interface_category_other_ships
+interface_category_air
+

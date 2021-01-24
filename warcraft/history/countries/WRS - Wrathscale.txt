@@ -2,7 +2,7 @@
 
 oob = "WRS_default"
 
-set_research_slots = 4
+set_research_slots = 3
 set_stability = 0.5
 set_war_support = 0.75
 
@@ -53,7 +53,7 @@ set_popularities = {
     shadow = 90
     order = 10
     disorder = 0
-    nature = 100
+    nature = 0
     death = 0
     unaligned = 0
 }

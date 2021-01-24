@@ -2,7 +2,7 @@ leader_traits = {
     light_trait = {
         random = no
         
-        light_drift = 0.05
+        holy_drift = 0.05
         
         ai_will_do = {
             factor = 0
@@ -38,7 +38,7 @@ leader_traits = {
     life_trait = {
         random = no
         
-        life_drift = 0.05
+        nature_drift = 0.05
         
         ai_will_do = {
             factor = 0
@@ -101,7 +101,8 @@ leader_traits = {
     spymaster_trait = {
         random = no
         
-        foreign_subversive_activites = -0.5
+        foreign_subversive_activites = -0.25
+        intel_network_gain_factor = 0.25
         
         ai_will_do = {
             factor = 1
@@ -110,7 +111,8 @@ leader_traits = {
     saboteur_trait = {
         random = no
         
-        subversive_activites_upkeep = -0.5
+        justify_war_goal_time = -0.1
+        operation_cost = -0.25
         
         ai_will_do = {
             factor = 1
@@ -119,7 +121,7 @@ leader_traits = {
     inventor_trait = {
         random = no
         
-        research_speed_factor = -0.05
+        research_speed_factor = 0.05
         
         ai_will_do = {
             factor = 1

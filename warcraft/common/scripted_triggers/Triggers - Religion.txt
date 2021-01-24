@@ -517,7 +517,7 @@ celestials_action_trigger_2 = {
 }
 
 celestials_action_trigger_3 = {
-    life < 1.0
+    nature < 1.0
 }
 
 celestials_action_trigger_4 = {
@@ -525,7 +525,7 @@ celestials_action_trigger_4 = {
 }
 
 celestials_action_trigger_5 = {
-    life > 0.0
+    nature > 0.0
 }
 
 celestials_action_trigger_6 = {
@@ -667,7 +667,7 @@ druidism_action_trigger_5 = {
 }
 
 druidism_action_trigger_6 = {
-    life < 1.0
+    nature < 1.0
 }
 #------------------------------------
 # Earth
@@ -791,7 +791,7 @@ nature_action_trigger_2 = {
 }
 
 nature_action_trigger_3 = {
-    life < 1.0
+    nature < 1.0
 }
 
 nature_action_trigger_4 = {
@@ -828,7 +828,7 @@ geomancy_action_trigger_4 = {
 }
 
 geomancy_action_trigger_5 = {
-    life < 1.0
+    nature < 1.0
 }
 
 geomancy_action_trigger_6 = {
@@ -1027,7 +1027,7 @@ shamanism_action_trigger_4 = {
 }
 
 shamanism_action_trigger_5 = {
-    life < 1.0
+    nature < 1.0
 }
 
 shamanism_action_trigger_6 = {

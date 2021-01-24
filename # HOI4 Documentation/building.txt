@@ -1,0 +1,44 @@
+#---------------------------------------------
+# Overview
+#---------------------------------------------
+<building> = {
+    base_cost = <int>               # Cost in CIC to build.
+    base_cost_conversion = <int>    # Cost in CIC to convert to.
+    per_level_extra_cost = <int>    # Added cost per building level.
+    
+    max_level = <int>               # The maximum level that can be built.
+    value = <int>                   # The base health of the building. Is multiplied by the level of the building built.
+   
+    icon_frame = <int>              # Which icon frame in GFX_buildings_strip to use for the building.
+    show_on_map = <int>             # The amount of <building> models to display on the map when one instance is built.
+    show_on_map_meshes = <int>      # Number of models to display.
+    always_shown = yes              # Whether to always show the <building> model.
+    has_destroyed_mesh = yes         # Whether to show destroyed mesh for building.
+    
+    shares_slots = yes                          # Determines if this building uses building slots.
+    infrastructure_construction_effect = yes    # Determines if this building benefits from infrastructure boosting construction speed.
+    provincial = yes                            # Determines if this building is a province building.
+    damage_factor = <float>                     # Modifies damage taken from bombing.
+    
+    only_costal = yes               # Limits this building to only coastal provinces/states.
+    disabled_in_dmz = yes           # Limits this building, disabling in a DMZ state.
+    
+    infrastructure = yes            # Determines if this building is considered infrastructure.
+    air_base = yes                  # Determines if this building is considered an air base.
+    is_port = yes                   # Determines if this building is considered a port.
+    anti_air = yes                  # Determines if this building is considered an anti-air installation.
+    refinery = yes                  # Determines if this building is considered a refinery.
+    radar = yes                     # Determines if this building is considered a radar station.
+    nuclear_reactor = yes           # Determines if this building is considered a nuclear reactor.
+    military_production = <float>   # Adds X amount of MIC production.
+    general_production = <float>    # Adds X amount of CIC production.
+    naval_production = <float>      # Adds X amount of NIC production.
+    land_fort = <int>               # Adds X amount of land fort.
+    naval_fort = <int>              # Adds X amount of naval fort.
+    rocket_production = <int>       # Adds X amount of rocket production.
+    rocket_launch_capacity = <int>  # Adds X amount of rocket capacity.
+ 
+    local_resources_<resource> = <int>  # Adds resources to state.
+    air_defence = <float>               # Adds air defence to the state.
+    nuclear_production_factor = <float> # Adds Nuke production factor to owner of state.
+}

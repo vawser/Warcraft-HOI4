@@ -15,8 +15,12 @@
  economy_laws: "Economy"
  civil_economy: "Civil Economy"
  civil_economy_desc: "Our people come first, even if that means sacrificing our productivity."
+ transitional_economy: "Transitional Economy"
+ transitional_economy_desc: "Our people must sacrifice at times, as war looms on the horizon."
  war_economy: "War Economy"
  war_economy_desc: "Our economic might must be directed towards war, regardless of what our people demand."
+ command_economy: "Command Economy"
+ command_economy_desc: "Our economy is in dire need of direct control. Let us take the reins and steer this beast back on course."
 
  trade_laws: "Trade"
  free_trade: "Free Trade"

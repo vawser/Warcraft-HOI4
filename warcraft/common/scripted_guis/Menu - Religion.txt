@@ -1349,32 +1349,32 @@ scripted_gui = {
                     modifier = {
                         factor = 0
                         
-                        life < 0.1
+                        nature < 0.1
                     }
                     
                     modifier = {
                         add = 1
-                        life > 0.5
+                        nature > 0.5
                     }
                     
                     modifier = {
                         add = 1
-                        life > 0.6
+                        nature > 0.6
                     }
                     
                     modifier = {
                         add = 1
-                        life > 0.7
+                        nature > 0.7
                     }
                     
                     modifier = {
                         add = 1
-                        life > 0.8
+                        nature > 0.8
                     }
                     
                     modifier = {
                         add = 1
-                        life > 0.9
+                        nature > 0.9
                     }
 				}
             }
@@ -1426,37 +1426,37 @@ scripted_gui = {
                     modifier = {
                         factor = 0
                         
-                        life > 0.9
+                        nature > 0.9
                     }
                     
                     modifier = {
                         add = 1
                         
-                        life < 0.5
+                        nature < 0.5
                     }
                     
                     modifier = {
                         add = 1
                         
-                        life < 0.4
+                        nature < 0.4
                     }
                     
                     modifier = {
                         add = 1
                         
-                        life < 0.3
+                        nature < 0.3
                     }
                     
                     modifier = {
                         add = 1
                         
-                        life < 0.2
+                        nature < 0.2
                     }
                     
                     modifier = {
                         add = 1
                         
-                        life < 0.1
+                        nature < 0.1
                     }
 				}
             }
@@ -1879,32 +1879,32 @@ scripted_gui = {
                     modifier = {
                         factor = 0
                         
-                        life < 0.1
+                        nature < 0.1
                     }
                     
                     modifier = {
                         add = 1
-                        life > 0.5
+                        nature > 0.5
                     }
                     
                     modifier = {
                         add = 1
-                        life > 0.6
+                        nature > 0.6
                     }
                     
                     modifier = {
                         add = 1
-                        life > 0.7
+                        nature > 0.7
                     }
                     
                     modifier = {
                         add = 1
-                        life > 0.8
+                        nature > 0.8
                     }
                     
                     modifier = {
                         add = 1
-                        life > 0.9
+                        nature > 0.9
                     }
                 }
             }
@@ -2224,37 +2224,37 @@ scripted_gui = {
                     modifier = {
                         factor = 0
                         
-                        life > 0.9
+                        nature > 0.9
                     }
                     
                     modifier = {
                         add = 1
                         
-                        life < 0.5
+                        nature < 0.5
                     }
                     
                     modifier = {
                         add = 1
                         
-                        life < 0.4
+                        nature < 0.4
                     }
                     
                     modifier = {
                         add = 1
                         
-                        life < 0.3
+                        nature < 0.3
                     }
                     
                     modifier = {
                         add = 1
                         
-                        life < 0.2
+                        nature < 0.2
                     }
                     
                     modifier = {
                         add = 1
                         
-                        life < 0.1
+                        nature < 0.1
                     }
 				}
             }
@@ -3214,37 +3214,37 @@ scripted_gui = {
                     modifier = {
                         factor = 0
                         
-                        life > 0.9
+                        nature > 0.9
                     }
                     
                     modifier = {
                         add = 1
                         
-                        life < 0.5
+                        nature < 0.5
                     }
                     
                     modifier = {
                         add = 1
                         
-                        life < 0.4
+                        nature < 0.4
                     }
                     
                     modifier = {
                         add = 1
                         
-                        life < 0.3
+                        nature < 0.3
                     }
                     
                     modifier = {
                         add = 1
                         
-                        life < 0.2
+                        nature < 0.2
                     }
                     
                     modifier = {
                         add = 1
                         
-                        life < 0.1
+                        nature < 0.1
                     }
 				}
             }
@@ -3386,37 +3386,37 @@ scripted_gui = {
                     modifier = {
                         factor = 0
                         
-                        life > 0.9
+                        nature > 0.9
                     }
                     
                     modifier = {
                         add = 1
                         
-                        life < 0.5
+                        nature < 0.5
                     }
                     
                     modifier = {
                         add = 1
                         
-                        life < 0.4
+                        nature < 0.4
                     }
                     
                     modifier = {
                         add = 1
                         
-                        life < 0.3
+                        nature < 0.3
                     }
                     
                     modifier = {
                         add = 1
                         
-                        life < 0.2
+                        nature < 0.2
                     }
                     
                     modifier = {
                         add = 1
                         
-                        life < 0.1
+                        nature < 0.1
                     }
 				}
             }
@@ -3448,32 +3448,32 @@ scripted_gui = {
                     modifier = {
                         factor = 0
                         
-                        life < 0.1
+                        nature < 0.1
                     }
                     
                     modifier = {
                         add = 1
-                        life > 0.5
+                        nature > 0.5
                     }
                     
                     modifier = {
                         add = 1
-                        life > 0.6
+                        nature > 0.6
                     }
                     
                     modifier = {
                         add = 1
-                        life > 0.7
+                        nature > 0.7
                     }
                     
                     modifier = {
                         add = 1
-                        life > 0.8
+                        nature > 0.8
                     }
                     
                     modifier = {
                         add = 1
-                        life > 0.9
+                        nature > 0.9
                     }
 				}
             }
@@ -4954,37 +4954,37 @@ scripted_gui = {
                     modifier = {
                         factor = 0
                         
-                        life > 0.9
+                        nature > 0.9
                     }
                     
                     modifier = {
                         add = 1
                         
-                        life < 0.5
+                        nature < 0.5
                     }
                     
                     modifier = {
                         add = 1
                         
-                        life < 0.4
+                        nature < 0.4
                     }
                     
                     modifier = {
                         add = 1
                         
-                        life < 0.3
+                        nature < 0.3
                     }
                     
                     modifier = {
                         add = 1
                         
-                        life < 0.2
+                        nature < 0.2
                     }
                     
                     modifier = {
                         add = 1
                         
-                        life < 0.1
+                        nature < 0.1
                     }
 				}
             }

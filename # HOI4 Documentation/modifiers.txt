@@ -1,3 +1,4355 @@
 #---------------------------------------------
-# Effect
+# Overview
 #---------------------------------------------
+Modifiers can be hidden by using the following scope:
+
+hidden_modifier = {}
+
+#---------------------------------------------
+# Army
+#---------------------------------------------
+# General
+army_attack_factor
+army_defence_factor
+army_bonus_air_superiority_factor
+army_core_attack_factor
+army_core_defence_factor
+army_morale
+army_morale_factor
+army_org
+army_org_factor
+army_org_regain
+army_speed_factor
+army_speed_factor_for_controller
+attack_bonus_against
+attack_bonus_against_cores
+breakthrough_bonus_against
+breakthrough_factor
+
+# Unit: Infantry
+army_infantry_attack_factor
+army_infantry_defence_factor
+
+# Unit: Armor
+armor_factor
+army_armor_attack_factor
+army_armor_defence_factor
+army_armor_speed_factor
+
+# Unit: Artillery
+army_artillery_attack_factor
+army_artillery_defence_factor
+
+# Leader
+army_chief_cost_factor
+army_leader_cost_factor
+army_leader_start_attack_level
+army_leader_start_defense_level
+army_leader_start_level
+army_leader_start_logistics_level
+army_leader_start_planning_level
+
+# Acclimatization
+acclimatization_cold_climate_gain_factor
+acclimatization_hot_climate_gain_factor
+
+# Attrition
+attrition
+attrition_for_controller
+
+# Naval Invasion
+amphibious_invasion
+amphibious_invasion_defence
+
+# Industry
+army_fuel_capacity_factor
+army_fuel_consumption_factor
+
+# Intel
+army_intel_decryption_bonus
+army_intel_factor
+army_intel_to_others
+
+
+#---------------------------------------------
+# Navy
+#---------------------------------------------
+
+# Unit: Carrier
+carrier_capacity_penalty_reduction
+carrier_traffic
+
+#---------------------------------------------
+# Aviation
+#---------------------------------------------
+# General
+air_detection
+air_maximum_speed_factor
+air_mission_efficiency
+air_night_penalty
+air_range_factor
+air_volunteer_cap
+air_weather_penalty
+
+# Mission: Air Superority/Escort
+air_escort_efficiency
+air_air_superiority_agility_factor
+air_air_superiority_attack_factor
+air_air_superiority_defence_factor
+air_superiority_efficiency
+air_superiority_detect_factor
+air_superiority_bonus_in_combat
+
+# Mission: Close Air Support
+air_cas_efficiency
+air_close_air_support_agility_factor
+air_close_air_support_attack_factor
+air_close_air_support_defence_factor
+air_cas_present_factor
+
+# Mission: Interception
+air_intercept_efficiency
+air_interception_agility_factor
+air_interception_attack_factor
+air_interception_defence_factor
+air_interception_detect_factor
+
+# Mission: Strategic Bombing
+air_strategic_bomber_agility_factor
+air_strategic_bomber_attack_factor
+air_strategic_bomber_bombing_factor
+air_strategic_bomber_defence_factor
+air_strategic_bomber_night_penalty
+
+# Mission: Naval Strike
+air_nav_efficiency
+
+# Mission: Kamikaze Strike
+
+# Mission: Port Strike
+
+# Mission: Air Supply
+air_paradrop_agility_factor
+air_paradrop_attack_factor
+air_paradrop_defence_factor
+
+# Aces
+air_accidents
+air_accidents_factor
+air_ace_generation_chance_factor
+air_wing_xp_loss_when_killed_factor
+air_mission_xp_gain_factor
+
+# Leader
+air_chief_cost_factor
+air_training_xp_gain_factor
+
+# Combat
+air_attack_factor
+air_defence_factor
+air_agility_factor
+air_bombing_targetting
+
+# Industry
+air_equipment_upgrade_xp_cost
+air_fuel_consumption_factor
+aircraft_manufacturer_cost_factor
+
+# Intel
+airforce_intel_decryption_bonus
+airforce_intel_factor
+airforce_intel_to_others
+
+#---------------------------------------------
+# Industry
+#---------------------------------------------
+# Fuel
+base_fuel_gain
+base_fuel_gain_factor
+
+#---------------------------------------------
+# Nation
+#---------------------------------------------
+# Conquest
+annex_cost_factor
+
+# Subjects
+autonomy_gain
+autonomy_gain_global_factor
+autonomy_gain_ll_to_overlord
+autonomy_gain_ll_to_overlord_factor
+autonomy_gain_ll_to_subject
+autonomy_gain_ll_to_subject_factor
+autonomy_gain_trade
+autonomy_gain_trade_factor
+autonomy_gain_warscore
+autonomy_gain_warscore_factor
+autonomy_manpower_share
+can_master_build_for_us
+
+#---------------------------------------------
+# Espionage
+#---------------------------------------------
+agency_upgrade_time
+
+# Missions
+boost_ideology_mission_factor
+boost_resistance_factor
+
+# Operations
+<operation>_raid_cost
+<operation>_raid_outcome
+<operation>_raid_risk
+
+#---------------------------------------------
+# Unit Leader
+#---------------------------------------------
+cannot_use_abilities
+
+#---------------------------------------------
+# AI
+#---------------------------------------------
+ai_badass_factor
+ai_call_ally_desire_factor
+ai_desired_divisions_factor
+ai_focus_aggressive_factor
+ai_focus_aviation_factor
+ai_focus_defense_factor
+ai_focus_military_advancements_factor
+ai_focus_military_equipment_factor
+ai_focus_naval_air_factor
+ai_focus_naval_factor
+ai_focus_peaceful_factor
+ai_focus_war_production_factor
+ai_get_ally_desire_factor
+ai_join_ally_desire_factor
+ai_license_acceptance
+
+
+#####
+
+air_interception_attack_factor
+
+    Number with 2 decimal places
+    Categories:air
+
+air_interception_defence_factor
+
+    Number with 2 decimal places
+    Categories:air
+
+air_interception_detect_factor
+
+    Number with 2 decimal places
+    Categories:air
+
+air_maximum_speed_factor
+
+    Number with 0 decimal places
+    Categories:air
+
+air_mission_efficiency
+
+    Number with 1 decimal places
+    Categories:air
+
+air_mission_xp_gain_factor
+
+    Number with 0 decimal places
+    Categories:air
+
+air_nav_efficiency
+
+    Number with 0 decimal places
+    Categories:air
+
+air_night_penalty
+
+    Number with 2 decimal places
+    Categories:air
+
+air_paradrop_agility_factor
+
+    Number with 2 decimal places
+    Categories:air
+
+air_paradrop_attack_factor
+
+    Number with 2 decimal places
+    Categories:air
+
+air_paradrop_defence_factor
+
+    Number with 2 decimal places
+    Categories:air
+
+air_range_factor
+
+    Number with 0 decimal places
+    Categories:air
+
+air_strategic_bomber_agility_factor
+
+    Number with 2 decimal places
+    Categories:air
+
+air_strategic_bomber_attack_factor
+
+    Number with 2 decimal places
+    Categories:air
+
+air_strategic_bomber_bombing_factor
+
+    Number with 1 decimal places
+    Categories:air
+
+air_strategic_bomber_defence_factor
+
+    Number with 2 decimal places
+    Categories:air
+
+air_strategic_bomber_night_penalty
+
+    Number with 2 decimal places
+    Categories:air
+
+air_superiority_bonus_in_combat
+
+    Number with 1 decimal places
+    Categories:army
+
+air_superiority_detect_factor
+
+    Number with 2 decimal places
+    Categories:air
+
+air_superiority_efficiency
+
+    Number with 0 decimal places
+    Categories:air
+
+air_training_xp_gain_factor
+
+    Number with 0 decimal places
+    Categories:air
+
+air_volunteer_cap
+
+    Number with 0 decimal places
+    Categories:country
+
+air_weather_penalty
+
+    Number with 2 decimal places
+    Categories:air
+
+air_wing_xp_loss_when_killed_factor
+
+    Number with 0 decimal places
+    Categories:air
+
+aircraft_manufacturer_cost_factor
+
+    Number with 0 decimal places
+    Categories:country
+
+airforce_intel_decryption_bonus
+
+    Number with 0 decimal places
+    Categories:intelligence_agency
+
+airforce_intel_factor
+
+    Number with 0 decimal places
+    Categories:intelligence_agency
+
+airforce_intel_to_others
+
+    Number with 1 decimal places
+    Categories:country
+
+amphibious_invasion
+
+    Number with 1 decimal places
+    Categories:naval, unit_leader
+
+amphibious_invasion_defence
+
+    Number with 0 decimal places
+    Categories:naval, unit_leader
+
+annex_cost_factor
+
+    Number with 1 decimal places
+    Categories:peace, aggressive
+
+armor_factor
+
+    Number with 2 decimal places
+    Categories:army, defensive
+
+army_armor_attack_factor
+
+    Number with 1 decimal places
+    Categories:army, aggressive
+
+army_armor_defence_factor
+
+    Number with 1 decimal places
+    Categories:army, defensive
+
+army_armor_speed_factor
+
+    Number with 1 decimal places
+    Categories:army, aggressive
+
+army_artillery_attack_factor
+
+    Number with 1 decimal places
+    Categories:army, aggressive
+
+army_artillery_defence_factor
+
+    Number with 1 decimal places
+    Categories:army, defensive
+
+army_attack_factor
+
+    Number with 1 decimal places
+    Categories:army, aggressive
+
+army_bonus_air_superiority_factor
+
+    Number with 2 decimal places
+    Categories:air
+
+army_chief_cost_factor
+
+    Number with 0 decimal places
+    Categories:country
+
+army_core_attack_factor
+
+    Number with 1 decimal places
+    Categories:army, aggressive
+
+army_core_defence_factor
+
+    Number with 1 decimal places
+    Categories:army, defensive
+
+army_defence_factor
+
+    Number with 1 decimal places
+    Categories:army, defensive
+
+army_fuel_capacity_factor
+
+    Number with 2 decimal places
+    Categories:army
+
+army_fuel_consumption_factor
+
+    Number with 2 decimal places
+    Categories:army
+
+army_infantry_attack_factor
+
+    Number with 1 decimal places
+    Categories:army, aggressive
+
+army_infantry_defence_factor
+
+    Number with 1 decimal places
+    Categories:army, defensive
+
+army_intel_decryption_bonus
+
+    Number with 0 decimal places
+    Categories:intelligence_agency
+
+army_intel_factor
+
+    Number with 0 decimal places
+    Categories:intelligence_agency
+
+army_intel_to_others
+
+    Number with 1 decimal places
+    Categories:country
+
+army_leader_cost_factor
+
+    Number with 1 decimal places
+    Categories:unit_leader
+
+army_leader_start_attack_level
+
+    Number with 0 decimal places
+    Categories:unit_leader
+
+army_leader_start_defense_level
+
+    Number with 0 decimal places
+    Categories:unit_leader
+
+army_leader_start_level
+
+    Number with 0 decimal places
+    Categories:unit_leader
+
+army_leader_start_logistics_level
+
+    Number with 0 decimal places
+    Categories:unit_leader
+
+army_leader_start_planning_level
+
+    Number with 0 decimal places
+    Categories:unit_leader
+
+army_morale
+
+    Number with 1 decimal places
+    Categories:army, defensive, aggressive
+
+army_morale_factor
+
+    Number with 1 decimal places
+    Categories:army, defensive, aggressive
+
+army_org
+
+    Number with 1 decimal places
+    Categories:army, defensive, aggressive
+
+army_org_factor
+
+    Number with 1 decimal places
+    Categories:army, defensive, aggressive
+
+army_org_regain
+
+    Number with 2 decimal places
+    Categories:army
+
+army_speed_factor
+
+    Number with 2 decimal places
+    Categories:army
+
+army_speed_factor_for_controller
+
+    Number with 2 decimal places
+    Categories:state, army
+
+attack_bonus_against
+
+    Number with 1 decimal places
+    Categories:army
+
+attack_bonus_against_cores
+
+    Number with 1 decimal places
+    Categories:army
+
+attrition
+
+    Number with 1 decimal places
+    Categories:army, defensive, aggressive
+
+attrition_for_controller
+
+    Number with 1 decimal places
+    Categories:army, defensive, aggressive
+
+autonomy_gain
+
+    Number with 1 decimal places
+    Categories:autonomy
+
+autonomy_gain_global_factor
+
+    Number with 1 decimal places
+    Categories:autonomy
+
+autonomy_gain_ll_to_overlord
+
+    Number with 2 decimal places
+    Categories:autonomy
+
+autonomy_gain_ll_to_overlord_factor
+
+    Number with 2 decimal places
+    Categories:autonomy
+
+autonomy_gain_ll_to_subject
+
+    Number with 2 decimal places
+    Categories:autonomy
+
+autonomy_gain_ll_to_subject_factor
+
+    Number with 2 decimal places
+    Categories:autonomy
+
+autonomy_gain_trade
+
+    Number with 2 decimal places
+    Categories:autonomy
+
+autonomy_gain_trade_factor
+
+    Number with 2 decimal places
+    Categories:autonomy
+
+autonomy_gain_warscore
+
+    Number with 2 decimal places
+    Categories:autonomy
+
+autonomy_gain_warscore_factor
+
+    Number with 2 decimal places
+    Categories:autonomy
+
+autonomy_manpower_share
+
+    Number with 2 decimal places
+    Categories:autonomy
+
+base_fuel_gain
+
+    Number with 0 decimal places
+    Categories:country
+
+base_fuel_gain_factor
+
+    Number with 2 decimal places
+    Categories:country
+
+boost_ideology_mission_factor
+
+    Number with 0 decimal places
+    Categories:intelligence_agency
+
+boost_resistance_factor
+
+    Number with 0 decimal places
+    Categories:intelligence_agency
+
+breakthrough_bonus_against
+
+    Number with 1 decimal places
+    Categories:army
+
+breakthrough_factor
+
+    Number with 2 decimal places
+    Categories:army, aggressive
+
+bruneval_raid_cost
+
+    Number with 0 decimal places
+    Categories:intelligence_agency
+
+bruneval_raid_outcome
+
+    Number with 0 decimal places
+    Categories:intelligence_agency
+
+bruneval_raid_risk
+
+    Number with 0 decimal places
+    Categories:intelligence_agency
+
+can_master_build_for_us
+
+    Boolean
+    Categories:autonomy
+
+cannot_use_abilities
+
+    Boolean
+    Categories:unit_leader
+
+capture_tito_cost
+
+    Number with 0 decimal places
+    Categories:intelligence_agency
+
+capture_tito_outcome
+
+    Number with 0 decimal places
+    Categories:intelligence_agency
+
+capture_tito_risk
+
+    Number with 0 decimal places
+    Categories:intelligence_agency
+
+carrier_capacity_penalty_reduction
+
+    Number with 1 decimal places
+    Categories:naval, unit_leader, aggressive
+
+carrier_traffic
+
+    Number with 0 decimal places
+    Categories:naval, unit_leader, aggressive
+
+cas_damage_reduction
+
+    Number with 1 decimal places
+    Categories:army
+
+cavalry_attack_factor
+
+    Number with 1 decimal places
+    Categories:army, aggressive
+
+cavalry_defence_factor
+
+    Number with 1 decimal places
+    Categories:army, defensive
+
+cic_to_overlord_factor
+
+    Number with 2 decimal places
+    Categories:autonomy
+
+cic_to_target_factor
+
+    Number with 2 decimal places
+    Categories:country
+
+civil_war_involvement_tension
+
+    Number with 1 decimal places
+    Categories:country
+
+civilian_factory_use
+
+    Number with 0 decimal places
+    Categories:country, war_production
+
+civilian_intel_decryption_bonus
+
+    Number with 0 decimal places
+    Categories:intelligence_agency
+
+civilian_intel_factor
+
+    Number with 0 decimal places
+    Categories:intelligence_agency
+
+civilian_intel_to_others
+
+    Number with 1 decimal places
+    Categories:country
+
+combat_width_factor
+
+    Number with 1 decimal places
+    Categories:army, aggressive
+
+command_power_gain
+
+    Number with 2 decimal places
+    Categories:country
+
+command_power_gain_mult
+
+    Number with 0 decimal places
+    Categories:country
+
+commando_trait_chance_factor
+
+    Number with 0 decimal places
+    Categories:intelligence_agency
+
+communism_acceptance
+
+    Number with 0 decimal places
+    Categories:politics
+
+communism_drift
+
+    Number with 2 decimal places
+    Categories:politics
+
+compliance_gain
+
+    Number with 3 decimal places
+    Categories:country, state
+
+compliance_growth
+
+    Number with 0 decimal places
+    Categories:country, state
+
+compliance_growth_on_our_occupied_states
+
+    Number with 0 decimal places
+    Categories:country, state
+
+conscription
+
+    Number with 2 decimal places
+    Categories:country, war_production
+
+conscription_factor
+
+    Number with 0 decimal places
+    Categories:country, war_production
+
+consumer_goods_factor
+
+    Number with 0 decimal places
+    Categories:country, war_production
+
+control_trade_mission_factor
+
+    Number with 0 decimal places
+    Categories:intelligence_agency
+
+conversion_cost_civ_to_mil_factor
+
+    Number with 2 decimal places
+    Categories:country, war_production
+
+conversion_cost_mil_to_civ_factor
+
+    Number with 2 decimal places
+    Categories:country, war_production
+
+convoy_escort_efficiency
+
+    Number with 1 decimal places
+    Categories:naval, unit_leader, defensive
+
+convoy_raiding_efficiency_factor
+
+    Number with 2 decimal places
+    Categories:naval, unit_leader, aggressive
+
+convoy_retreat_speed
+
+    Number with 0 decimal places
+    Categories:naval, unit_leader, defensive
+
+country_cost_factor
+
+    Number with 0 decimal places
+    Categories:country
+
+country_resource_aluminium
+
+    Number with 0 decimal places
+    Categories:state
+
+country_resource_chromium
+
+    Number with 0 decimal places
+    Categories:state
+
+country_resource_cost_aluminium
+
+    Number with 0 decimal places
+    Categories:state
+
+country_resource_cost_chromium
+
+    Number with 0 decimal places
+    Categories:state
+
+country_resource_cost_oil
+
+    Number with 0 decimal places
+    Categories:state
+
+country_resource_cost_rubber
+
+    Number with 0 decimal places
+    Categories:state
+
+country_resource_cost_steel
+
+    Number with 0 decimal places
+    Categories:state
+
+country_resource_cost_tungsten
+
+    Number with 0 decimal places
+    Categories:state
+
+country_resource_oil
+
+    Number with 0 decimal places
+    Categories:state
+
+country_resource_rubber
+
+    Number with 0 decimal places
+    Categories:state
+
+country_resource_steel
+
+    Number with 0 decimal places
+    Categories:state
+
+country_resource_tungsten
+
+    Number with 0 decimal places
+    Categories:state
+
+critical_receive_chance
+
+    Number with 1 decimal places
+    Categories:naval, unit_leader, country
+
+crypto_department_enabled
+
+    Boolean
+    Categories:intelligence_agency
+
+crypto_strength
+
+    Number with 0 decimal places
+    Categories:intelligence_agency
+
+decryption
+
+    Number with 2 decimal places
+    Categories:country, aggressive
+
+decryption_factor
+
+    Number with 2 decimal places
+    Categories:country, aggressive
+
+decryption_power
+
+    Number with 0 decimal places
+    Categories:intelligence_agency
+
+decryption_power_factor
+
+    Number with 0 decimal places
+    Categories:intelligence_agency
+
+defence
+
+    Number with 2 decimal places
+    Categories:army, defensive
+
+defense_bonus_against
+
+    Number with 1 decimal places
+    Categories:army
+
+defense_impact_on_blueprint_stealing
+
+    Number with 1 decimal places
+    Categories:intelligence_agency
+
+defensive_war_stability_factor
+
+    Number with 2 decimal places
+    Categories:country
+
+democratic_acceptance
+
+    Number with 0 decimal places
+    Categories:politics
+
+democratic_drift
+
+    Number with 2 decimal places
+    Categories:politics
+
+dig_in_speed
+
+    Number with 0 decimal places
+    Categories:army, defensive
+
+dig_in_speed_factor
+
+    Number with 1 decimal places
+    Categories:army, defensive
+
+diplomatic_pressure_mission_factor
+
+    Number with 0 decimal places
+    Categories:intelligence_agency
+
+disable_strategic_redeployment
+
+    Boolean
+    Categories:state, army
+
+disable_strategic_redeployment_for_controller
+
+    Boolean
+    Categories:state, army
+
+disabled_ideas
+
+    Boolean
+    Categories:country
+
+dockyard_donations
+
+    Number with 0 decimal places
+    Categories:government_in_exile
+
+dont_lose_dig_in_on_attack
+
+    Boolean
+    Categories:army, defensive
+
+drift_defence_factor
+
+    Number with 1 decimal places
+    Categories:politics
+
+economy_cost_factor
+
+    Number with 0 decimal places
+    Categories:country
+
+encryption
+
+    Number with 2 decimal places
+    Categories:country, defensive
+
+encryption_factor
+
+    Number with 2 decimal places
+    Categories:country, defensive
+
+enemy_army_bonus_air_superiority_factor
+
+    Number with 2 decimal places
+    Categories:air
+
+enemy_declare_war_tension
+
+    Number with 1 decimal places
+    Categories:country, aggressive
+
+enemy_intel_network_gain_factor_over_occupied_tag
+
+    Number with 0 decimal places
+    Categories:state
+
+enemy_justify_war_goal_time
+
+    Number with 1 decimal places
+    Categories:country, aggressive
+
+enemy_operative_capture_chance_factor
+
+    Number with 0 decimal places
+    Categories:unit_leader, country
+
+enemy_operative_detection_chance
+
+    Number with 2 decimal places
+    Categories:unit_leader, country
+
+enemy_operative_detection_chance_factor
+
+    Number with 0 decimal places
+    Categories:unit_leader, country
+
+enemy_operative_detection_chance_factor_over_occupied_tag
+
+    Number with 0 decimal places
+    Categories:unit_leader, country
+
+enemy_operative_detection_chance_over_occupied_tag
+
+    Number with 2 decimal places
+    Categories:unit_leader, country
+
+enemy_operative_forced_into_hiding_time_factor
+
+    Number with 0 decimal places
+    Categories:unit_leader, country
+
+enemy_operative_harmed_time_factor
+
+    Number with 0 decimal places
+    Categories:unit_leader, country
+
+enemy_operative_intel_extraction_rate
+
+    Number with 0 decimal places
+    Categories:unit_leader, country
+
+enemy_operative_recruitment_chance
+
+    Number with 0 decimal places
+    Categories:intelligence_agency
+
+enemy_spy_negative_status_factor
+
+    Number with 0 decimal places
+    Categories:country, state
+
+equipment_capture
+
+    Number with 1 decimal places
+    Categories:country
+
+equipment_capture_factor
+
+    Number with 1 decimal places
+    Categories:country
+
+equipment_conversion_speed
+
+    Number with 2 decimal places
+    Categories:country, war_production
+
+equipment_upgrade_xp_cost
+
+    Number with 0 decimal places
+    Categories:country
+
+exile_manpower_factor
+
+    Number with 2 decimal places
+    Categories:government_in_exile
+
+exiled_divisions_attack_factor
+
+    Number with 2 decimal places
+    Categories:unit_leader
+
+exiled_divisions_defense_factor
+
+    Number with 2 decimal places
+    Categories:unit_leader
+
+experience_gain_air
+
+    Number with 2 decimal places
+    Categories:air
+
+experience_gain_air_factor
+
+    Number with 1 decimal places
+    Categories:air
+
+experience_gain_amphibious_armor_combat_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_amphibious_armor_training_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_amphibious_mechanized_combat_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_amphibious_mechanized_training_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_anti_air_brigade_combat_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_anti_air_brigade_training_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_anti_air_combat_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_anti_air_training_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_anti_tank_brigade_combat_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_anti_tank_brigade_training_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_anti_tank_combat_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_anti_tank_training_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_armored_car_combat_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_armored_car_recon_combat_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_armored_car_recon_training_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_armored_car_training_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_army
+
+    Number with 2 decimal places
+    Categories:army, military_advancements
+
+experience_gain_army_factor
+
+    Number with 1 decimal places
+    Categories:army, military_advancements
+
+experience_gain_army_unit
+
+    Number with 1 decimal places
+    Categories:army, military_advancements
+
+experience_gain_army_unit_factor
+
+    Number with 1 decimal places
+    Categories:army, military_advancements
+
+experience_gain_artillery_brigade_combat_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_artillery_brigade_training_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_artillery_combat_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_artillery_training_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_battle_cruiser_combat_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_battle_cruiser_training_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_battleship_combat_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_battleship_training_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_bicycle_battalion_combat_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_bicycle_battalion_training_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_carrier_combat_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_carrier_training_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_cas_combat_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_cas_training_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_cavalry_combat_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_cavalry_training_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_cv_cas_combat_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_cv_cas_training_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_cv_fighter_combat_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_cv_fighter_training_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_cv_nav_bomber_combat_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_cv_nav_bomber_training_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_destroyer_combat_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_destroyer_training_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_engineer_combat_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_engineer_training_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_factor
+
+    Number with 1 decimal places
+    Categories:unit_leader, military_advancements
+
+experience_gain_fake_intel_unit_combat_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_fake_intel_unit_training_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_field_hospital_combat_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_field_hospital_training_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_fighter_combat_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_fighter_training_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_guided_missile_combat_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_guided_missile_training_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_heavy_armor_combat_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_heavy_armor_training_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_heavy_cruiser_combat_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_heavy_cruiser_training_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_heavy_fighter_combat_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_heavy_fighter_training_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_heavy_sp_anti_air_brigade_combat_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_heavy_sp_anti_air_brigade_training_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_heavy_sp_artillery_brigade_combat_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_heavy_sp_artillery_brigade_training_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_heavy_tank_destroyer_brigade_combat_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_heavy_tank_destroyer_brigade_training_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_infantry_combat_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_infantry_training_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_jet_fighter_combat_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_jet_fighter_training_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_jet_strat_bomber_combat_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_jet_strat_bomber_training_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_jet_tac_bomber_combat_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_jet_tac_bomber_training_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_light_armor_combat_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_light_armor_training_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_light_cruiser_combat_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_light_cruiser_training_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_light_sp_anti_air_brigade_combat_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_light_sp_anti_air_brigade_training_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_light_sp_artillery_brigade_combat_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_light_sp_artillery_brigade_training_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_light_tank_destroyer_brigade_combat_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_light_tank_destroyer_brigade_training_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_light_tank_recon_combat_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_light_tank_recon_training_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_logistics_company_combat_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_logistics_company_training_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_maintenance_company_combat_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_maintenance_company_training_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_marine_combat_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_marine_training_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_mechanized_combat_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_mechanized_training_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_medium_armor_combat_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_medium_armor_training_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_medium_sp_anti_air_brigade_combat_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_medium_sp_anti_air_brigade_training_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_medium_sp_artillery_brigade_combat_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_medium_sp_artillery_brigade_training_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_medium_tank_destroyer_brigade_combat_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_medium_tank_destroyer_brigade_training_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_military_police_combat_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_military_police_training_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_modern_armor_combat_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_modern_armor_training_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_modern_sp_anti_air_brigade_combat_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_modern_sp_anti_air_brigade_training_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_modern_sp_artillery_brigade_combat_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_modern_sp_artillery_brigade_training_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_modern_tank_destroyer_brigade_combat_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_modern_tank_destroyer_brigade_training_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_mot_anti_air_brigade_combat_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_mot_anti_air_brigade_training_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_mot_anti_tank_brigade_combat_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_mot_anti_tank_brigade_training_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_mot_artillery_brigade_combat_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_mot_artillery_brigade_training_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_mot_recon_combat_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_mot_recon_training_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_mot_rocket_artillery_brigade_combat_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_mot_rocket_artillery_brigade_training_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_motorized_combat_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_motorized_rocket_brigade_combat_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_motorized_rocket_brigade_training_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_motorized_training_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_mountaineers_combat_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_mountaineers_training_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_nav_bomber_combat_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_nav_bomber_training_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_navy
+
+    Number with 2 decimal places
+    Categories:naval, unit_leader, military_advancements
+
+experience_gain_navy_factor
+
+    Number with 1 decimal places
+    Categories:naval, unit_leader, military_advancements
+
+experience_gain_navy_unit
+
+    Number with 1 decimal places
+    Categories:naval, unit_leader, military_advancements
+
+experience_gain_navy_unit_factor
+
+    Number with 1 decimal places
+    Categories:naval, unit_leader, military_advancements
+
+experience_gain_paratrooper_combat_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_paratrooper_training_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_recon_combat_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_recon_training_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_rocket_artillery_brigade_combat_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_rocket_artillery_brigade_training_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_rocket_artillery_combat_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_rocket_artillery_training_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_rocket_interceptor_combat_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_rocket_interceptor_training_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_scout_plane_combat_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_scout_plane_training_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_signal_company_combat_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_signal_company_training_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_strat_bomber_combat_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_strat_bomber_training_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_submarine_combat_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_submarine_training_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_suicide_craft_combat_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_suicide_craft_training_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_super_heavy_armor_combat_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_super_heavy_armor_training_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_super_heavy_sp_anti_air_brigade_combat_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_super_heavy_sp_anti_air_brigade_training_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_super_heavy_sp_artillery_brigade_combat_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_super_heavy_sp_artillery_brigade_training_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_super_heavy_tank_destroyer_brigade_combat_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_super_heavy_tank_destroyer_brigade_training_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_tac_bomber_combat_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_tac_bomber_training_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_transport_plane_combat_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_gain_transport_plane_training_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+experience_loss_factor
+
+    Number with 1 decimal places
+    Categories:country
+
+extra_marine_supply_grace
+
+    Number with 1 decimal places
+    Categories:army
+
+extra_paratrooper_supply_grace
+
+    Number with 1 decimal places
+    Categories:army
+
+extra_trade_to_overlord_factor
+
+    Number with 2 decimal places
+    Categories:autonomy
+
+extra_trade_to_target_factor
+
+    Number with 2 decimal places
+    Categories:country
+
+faction_trade_opinion_factor
+
+    Number with 2 decimal places
+    Categories:country, war_production
+
+fascism_acceptance
+
+    Number with 0 decimal places
+    Categories:politics
+
+fascism_drift
+
+    Number with 2 decimal places
+    Categories:politics
+
+female_random_admiral_chance
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+female_random_army_leader_chance
+
+    Number with 0 decimal places
+    Categories:country, army
+
+female_random_country_leader_chance
+
+    Number with 0 decimal places
+    Categories:country
+
+female_random_operative_chance
+
+    Number with 0 decimal places
+    Categories:country, intelligence_agency
+
+fighter_sortie_efficiency
+
+    Number with 0 decimal places
+    Categories:naval, unit_leader, aggressive
+
+forced_surrender_limit
+
+    Number with 2 decimal places
+    Categories:country
+
+foreign_subversive_activites
+
+    Number with 0 decimal places
+    Categories:country
+
+fortification_collateral_chance
+
+    Number with 1 decimal places
+    Categories:unit_leader
+
+fortification_damage
+
+    Number with 1 decimal places
+    Categories:unit_leader
+
+fuel_cost
+
+    Number with 0 decimal places
+    Categories:country
+
+fuel_gain
+
+    Number with 2 decimal places
+    Categories:country
+
+fuel_gain_factor
+
+    Number with 2 decimal places
+    Categories:country
+
+fuel_gain_factor_from_states
+
+    Number with 2 decimal places
+    Categories:country
+
+fuel_gain_from_states
+
+    Number with 2 decimal places
+    Categories:country
+
+generate_wargoal_tension
+
+    Number with 1 decimal places
+    Categories:country
+
+generate_wargoal_tension_against
+
+    Number with 1 decimal places
+    Categories:country
+
+global_building_slots
+
+    Number with 0 decimal places
+    Categories:country, war_production
+
+global_building_slots_factor
+
+    Number with 0 decimal places
+    Categories:country, war_production
+
+ground_attack
+
+    Number with 1 decimal places
+    Categories:air, aggressive
+
+ground_attack_factor
+
+    Number with 1 decimal places
+    Categories:air, aggressive
+
+guarantee_cost
+
+    Number with 0 decimal places
+    Categories:country, politics
+
+guarantee_tension
+
+    Number with 1 decimal places
+    Categories:country, defensive
+
+heat_attrition
+
+    Number with 1 decimal places
+    Categories:army, aggressive
+
+heat_attrition_factor
+
+    Number with 2 decimal places
+    Categories:army, aggressive
+
+heavy_water_raid_cost
+
+    Number with 0 decimal places
+    Categories:intelligence_agency
+
+heavy_water_raid_outcome
+
+    Number with 0 decimal places
+    Categories:intelligence_agency
+
+heavy_water_raid_risk
+
+    Number with 0 decimal places
+    Categories:intelligence_agency
+
+hidden_ideas_cost_factor
+
+    Number with 0 decimal places
+    Categories:country
+
+high_command_cost_factor
+
+    Number with 0 decimal places
+    Categories:country
+
+improve_relations_maintain_cost_factor
+
+    Number with 0 decimal places
+    Categories:country
+
+industrial_capacity_dockyard
+
+    Number with 2 decimal places
+    Categories:country, war_production
+
+industrial_capacity_factory
+
+    Number with 2 decimal places
+    Categories:country, war_production
+
+industrial_concern_cost_factor
+
+    Number with 0 decimal places
+    Categories:country
+
+industrial_factory_donations
+
+    Number with 0 decimal places
+    Categories:government_in_exile
+
+industry_air_damage_factor
+
+    Number with 2 decimal places
+    Categories:country, war_production
+
+industry_free_repair_factor
+
+    Number with 2 decimal places
+    Categories:country, war_production
+
+industry_repair_factor
+
+    Number with 2 decimal places
+    Categories:country, war_production
+
+intel_from_operatives_factor
+
+    Number with 0 decimal places
+    Categories:intelligence_agency
+
+intel_network_gain
+
+    Number with 1 decimal places
+    Categories:unit_leader, country, state, intelligence_agency
+
+intel_network_gain_factor
+
+    Number with 0 decimal places
+    Categories:unit_leader, country, state, intelligence_agency
+
+intelligence_agency_defense
+
+    Number with 2 decimal places
+    Categories:intelligence_agency
+
+invasion_preparation
+
+    Number with 1 decimal places
+    Categories:naval, unit_leader
+
+join_faction_tension
+
+    Number with 1 decimal places
+    Categories:country
+
+justify_war_goal_time
+
+    Number with 1 decimal places
+    Categories:country, aggressive
+
+justify_war_goal_when_in_major_war_time
+
+    Number with 1 decimal places
+    Categories:country, aggressive
+
+land_equipment_upgrade_xp_cost
+
+    Number with 0 decimal places
+    Categories:country
+
+land_night_attack
+
+    Number with 1 decimal places
+    Categories:army, aggressive
+
+land_reinforce_rate
+
+    Number with 1 decimal places
+    Categories:country, war_production
+
+legitimacy_daily
+
+    Number with 2 decimal places
+    Categories:government_in_exile
+
+legitimacy_gain_factor
+
+    Number with 0 decimal places
+    Categories:government_in_exile
+
+lend_lease_tension
+
+    Number with 1 decimal places
+    Categories:country
+
+license_air_purchase_cost
+
+    Number with 0 decimal places
+    Categories:country
+
+license_anti_tank_eq_cost_factor
+
+    Number with 0 decimal places
+    Categories:country
+
+license_anti_tank_eq_production_speed_factor
+
+    Number with 0 decimal places
+    Categories:country
+
+license_anti_tank_eq_tech_difference_speed_factor
+
+    Number with 0 decimal places
+    Categories:country
+
+license_armor_purchase_cost
+
+    Number with 0 decimal places
+    Categories:country
+
+license_artillery_eq_cost_factor
+
+    Number with 0 decimal places
+    Categories:country
+
+license_artillery_eq_production_speed_factor
+
+    Number with 0 decimal places
+    Categories:country
+
+license_artillery_eq_tech_difference_speed_factor
+
+    Number with 0 decimal places
+    Categories:country
+
+license_infantry_eq_cost_factor
+
+    Number with 0 decimal places
+    Categories:country
+
+license_infantry_eq_production_speed_factor
+
+    Number with 0 decimal places
+    Categories:country
+
+license_infantry_eq_tech_difference_speed_factor
+
+    Number with 0 decimal places
+    Categories:country
+
+license_infantry_purchase_cost
+
+    Number with 0 decimal places
+    Categories:country
+
+license_light_tank_eq_cost_factor
+
+    Number with 0 decimal places
+    Categories:country
+
+license_light_tank_eq_production_speed_factor
+
+    Number with 0 decimal places
+    Categories:country
+
+license_light_tank_eq_tech_difference_speed_factor
+
+    Number with 0 decimal places
+    Categories:country
+
+license_naval_purchase_cost
+
+    Number with 0 decimal places
+    Categories:country
+
+license_production_speed
+
+    Number with 0 decimal places
+    Categories:country
+
+license_purchase_cost
+
+    Number with 0 decimal places
+    Categories:country
+
+license_subject_master_purchase_cost
+
+    Number with 2 decimal places
+    Categories:autonomy
+
+license_tech_difference_speed
+
+    Number with 0 decimal places
+    Categories:country
+
+line_change_production_efficiency_factor
+
+    Number with 2 decimal places
+    Categories:country, war_production
+
+local_building_slots
+
+    Number with 0 decimal places
+    Categories:state, war_production
+
+local_building_slots_factor
+
+    Number with 0 decimal places
+    Categories:state, war_production
+
+local_factories
+
+    Number with 0 decimal places
+    Categories:state, war_production
+
+local_factory_sabotage
+
+    Number with 0 decimal places
+    Categories:state
+
+local_intel_to_enemies
+
+    Number with 0 decimal places
+    Categories:state, defensive
+
+local_manpower
+
+    Number with 0 decimal places
+    Categories:state, war_production
+
+local_non_core_manpower
+
+    Number with 2 decimal places
+    Categories:state, war_production
+
+local_org_regain
+
+    Number with 2 decimal places
+    Categories:army
+
+local_resources
+
+    Number with 0 decimal places
+    Categories:state, war_production
+
+local_resources_factor
+
+    Number with 2 decimal places
+    Categories:state, war_production
+
+local_supplies
+
+    Number with 0 decimal places
+    Categories:state, war_production
+
+local_supplies_for_controller
+
+    Number with 0 decimal places
+    Categories:state, war_production
+
+master_build_autonomy_factor
+
+    Boolean
+    Categories:autonomy
+
+master_ideology_drift
+
+    Number with 2 decimal places
+    Categories:politics
+
+materiel_manufacturer_cost_factor
+
+    Number with 0 decimal places
+    Categories:country
+
+max_army_group_size
+
+    Number with 0 decimal places
+    Categories:unit_leader
+
+max_command_power
+
+    Number with 0 decimal places
+    Categories:country
+
+max_command_power_mult
+
+    Number with 0 decimal places
+    Categories:country
+
+max_commander_army_size
+
+    Number with 0 decimal places
+    Categories:army
+
+max_dig_in
+
+    Number with 1 decimal places
+    Categories:army, defensive
+
+max_dig_in_factor
+
+    Number with 1 decimal places
+    Categories:army, defensive
+
+max_fuel
+
+    Number with 2 decimal places
+    Categories:country
+
+max_fuel_building
+
+    Number with 2 decimal places
+    Categories:country
+
+max_fuel_factor
+
+    Number with 2 decimal places
+    Categories:country
+
+max_planning
+
+    Number with 1 decimal places
+    Categories:army, aggressive
+
+max_planning_factor
+
+    Number with 1 decimal places
+    Categories:army, aggressive
+
+max_surrender_limit_offset
+
+    Number with 2 decimal places
+    Categories:country
+
+max_training
+
+    Number with 2 decimal places
+    Categories:army, aggressive
+
+mechanized_attack_factor
+
+    Number with 1 decimal places
+    Categories:army, aggressive
+
+mechanized_defence_factor
+
+    Number with 1 decimal places
+    Categories:army, defensive
+
+mic_to_overlord_factor
+
+    Number with 2 decimal places
+    Categories:autonomy
+
+mic_to_target_factor
+
+    Number with 2 decimal places
+    Categories:country
+
+military_factory_donations
+
+    Number with 0 decimal places
+    Categories:government_in_exile
+
+military_leader_cost_factor
+
+    Number with 1 decimal places
+    Categories:unit_leader
+
+min_export
+
+    Number with 0 decimal places
+    Categories:country, war_production
+
+mines_planting_by_air_factor
+
+    Number with 0 decimal places
+    Categories:air
+
+mines_planting_by_fleets_factor
+
+    Number with 0 decimal places
+    Categories:naval
+
+mines_sweeping_by_air_factor
+
+    Number with 0 decimal places
+    Categories:air
+
+mines_sweeping_by_fleets_factor
+
+    Number with 0 decimal places
+    Categories:naval
+
+minimum_training_level
+
+    Number with 0 decimal places
+    Categories:country, war_production
+
+mobilization_laws_cost_factor
+
+    Number with 0 decimal places
+    Categories:country
+
+mobilization_speed
+
+    Number with 2 decimal places
+    Categories:state, war_production
+
+modifier_enemy_port_superiority_limit
+
+    Number with 0 decimal places
+    Categories:air, country
+
+monthly_population
+
+    Number with 1 decimal places
+    Categories:country, war_production
+
+motorized_attack_factor
+
+    Number with 1 decimal places
+    Categories:army, aggressive
+
+motorized_defence_factor
+
+    Number with 1 decimal places
+    Categories:army, defensive
+
+naval_accidents_chance
+
+    Number with 2 decimal places
+    Categories:naval
+
+naval_attrition
+
+    Number with 2 decimal places
+    Categories:naval
+
+naval_coordination
+
+    Number with 0 decimal places
+    Categories:naval, unit_leader
+
+naval_critical_effect_factor
+
+    Number with 2 decimal places
+    Categories:naval, unit_leader
+
+naval_critical_score_chance_factor
+
+    Number with 2 decimal places
+    Categories:naval, unit_leader, aggressive
+
+naval_damage_factor
+
+    Number with 2 decimal places
+    Categories:naval, unit_leader, aggressive
+
+naval_defense_factor
+
+    Number with 2 decimal places
+    Categories:naval, unit_leader
+
+naval_detection
+
+    Number with 0 decimal places
+    Categories:naval, unit_leader
+
+naval_enemy_fleet_size_ratio_penalty_factor
+
+    Number with 2 decimal places
+    Categories:naval, unit_leader, aggressive
+
+naval_enemy_retreat_chance
+
+    Number with 2 decimal places
+    Categories:naval, unit_leader
+
+naval_equipment_upgrade_xp_cost
+
+    Number with 0 decimal places
+    Categories:country
+
+naval_has_potf_in_combat_attack
+
+    Number with 2 decimal places
+    Categories:naval, unit_leader, aggressive
+
+naval_has_potf_in_combat_defense
+
+    Number with 2 decimal places
+    Categories:naval, unit_leader, aggressive
+
+naval_hit_chance
+
+    Number with 0 decimal places
+    Categories:naval, unit_leader, aggressive
+
+naval_invasion_capacity
+
+    Number with 0 decimal places
+    Categories:naval
+
+naval_invasion_penalty
+
+    Number with 0 decimal places
+    Categories:naval, unit_leader
+
+naval_invasion_prep_speed
+
+    Number with 1 decimal places
+    Categories:unit_leader
+
+naval_manufacturer_cost_factor
+
+    Number with 0 decimal places
+    Categories:country
+
+naval_mine_hit_chance
+
+    Number with 2 decimal places
+    Categories:naval
+
+naval_mines_damage_factor
+
+    Number with 0 decimal places
+    Categories:naval
+
+naval_mines_effect_reduction
+
+    Number with 0 decimal places
+    Categories:naval
+
+naval_morale
+
+    Number with 1 decimal places
+    Categories:naval, unit_leader
+
+naval_morale_factor
+
+    Number with 1 decimal places
+    Categories:naval, unit_leader
+
+naval_retreat_chance
+
+    Number with 0 decimal places
+    Categories:naval, unit_leader, defensive
+
+naval_retreat_speed
+
+    Number with 0 decimal places
+    Categories:naval, unit_leader, defensive
+
+naval_speed_factor
+
+    Number with 0 decimal places
+    Categories:naval, unit_leader
+
+naval_strike
+
+    Number with 0 decimal places
+    Categories:naval, unit_leader, aggressive
+
+naval_strike_agility_factor
+
+    Number with 0 decimal places
+    Categories:air
+
+naval_strike_attack_factor
+
+    Number with 0 decimal places
+    Categories:air
+
+naval_strike_targetting_factor
+
+    Number with 0 decimal places
+    Categories:air
+
+naval_torpedo_cooldown_factor
+
+    Number with 2 decimal places
+    Categories:naval, unit_leader, aggressive
+
+naval_torpedo_hit_chance_factor
+
+    Number with 2 decimal places
+    Categories:naval, unit_leader, aggressive
+
+naval_torpedo_reveal_chance_factor
+
+    Number with 2 decimal places
+    Categories:naval, unit_leader
+
+naval_torpedo_screen_penetration_factor
+
+    Number with 2 decimal places
+    Categories:naval, unit_leader, aggressive
+
+navy_anti_air_attack
+
+    Number with 1 decimal places
+    Categories:naval, unit_leader
+
+navy_anti_air_attack_factor
+
+    Number with 2 decimal places
+    Categories:naval, unit_leader
+
+navy_capital_ship_attack_factor
+
+    Number with 2 decimal places
+    Categories:naval, unit_leader, aggressive
+
+navy_capital_ship_defence_factor
+
+    Number with 2 decimal places
+    Categories:naval, unit_leader, defensive
+
+navy_carrier_air_agility_factor
+
+    Number with 2 decimal places
+    Categories:naval, unit_leader, aggressive
+
+navy_carrier_air_attack_factor
+
+    Number with 2 decimal places
+    Categories:naval, unit_leader, aggressive
+
+navy_carrier_air_targetting_factor
+
+    Number with 2 decimal places
+    Categories:naval, unit_leader, aggressive
+
+navy_casualty_on_hit
+
+    Number with 2 decimal places
+    Categories:naval
+
+navy_casualty_on_sink
+
+    Number with 2 decimal places
+    Categories:naval
+
+navy_chief_cost_factor
+
+    Number with 0 decimal places
+    Categories:country
+
+navy_fuel_consumption_factor
+
+    Number with 2 decimal places
+    Categories:naval
+
+navy_intel_decryption_bonus
+
+    Number with 0 decimal places
+    Categories:intelligence_agency
+
+navy_intel_factor
+
+    Number with 0 decimal places
+    Categories:intelligence_agency
+
+navy_intel_to_others
+
+    Number with 1 decimal places
+    Categories:country
+
+navy_leader_cost_factor
+
+    Number with 1 decimal places
+    Categories:unit_leader
+
+navy_leader_start_attack_level
+
+    Number with 0 decimal places
+    Categories:unit_leader
+
+navy_leader_start_coordination_level
+
+    Number with 0 decimal places
+    Categories:unit_leader
+
+navy_leader_start_defense_level
+
+    Number with 0 decimal places
+    Categories:unit_leader
+
+navy_leader_start_level
+
+    Number with 0 decimal places
+    Categories:unit_leader
+
+navy_leader_start_maneuvering_level
+
+    Number with 0 decimal places
+    Categories:unit_leader
+
+navy_max_range
+
+    Number with 1 decimal places
+    Categories:naval, unit_leader
+
+navy_max_range_factor
+
+    Number with 2 decimal places
+    Categories:naval, unit_leader
+
+navy_org
+
+    Number with 1 decimal places
+    Categories:naval, unit_leader
+
+navy_org_factor
+
+    Number with 1 decimal places
+    Categories:naval, unit_leader
+
+navy_refit_ic_cost
+
+    Number with 0 decimal places
+    Categories:country
+
+navy_refit_speed
+
+    Number with 0 decimal places
+    Categories:country
+
+navy_screen_attack_factor
+
+    Number with 2 decimal places
+    Categories:naval, unit_leader, aggressive
+
+navy_screen_defence_factor
+
+    Number with 2 decimal places
+    Categories:naval, unit_leader, defensive
+
+navy_submarine_attack_factor
+
+    Number with 2 decimal places
+    Categories:naval, unit_leader, aggressive
+
+navy_submarine_defence_factor
+
+    Number with 2 decimal places
+    Categories:naval, unit_leader, defensive
+
+navy_submarine_detection_factor
+
+    Number with 2 decimal places
+    Categories:naval, unit_leader, defensive
+
+navy_visibility
+
+    Number with 2 decimal places
+    Categories:naval
+
+neutrality_acceptance
+
+    Number with 0 decimal places
+    Categories:politics
+
+neutrality_drift
+
+    Number with 2 decimal places
+    Categories:politics
+
+new_operative_slot_bonus
+
+    Number with 0 decimal places
+    Categories:intelligence_agency
+
+no_compliance_gain
+
+    Boolean
+    Categories:country, state
+
+no_supply_grace
+
+    Number with 1 decimal places
+    Categories:army, aggressive
+
+non_core_manpower
+
+    Number with 2 decimal places
+    Categories:state, war_production
+
+nuclear_production
+
+    Boolean
+    Categories:country
+
+nuclear_production_factor
+
+    Number with 0 decimal places
+    Categories:country
+
+occupation_cost
+
+    Number with 2 decimal places
+    Categories:country
+
+occupied_operative_recruitment_chance
+
+    Number with 0 decimal places
+    Categories:intelligence_agency
+
+offence
+
+    Number with 2 decimal places
+    Categories:army, aggressive
+
+offensive_war_stability_factor
+
+    Number with 2 decimal places
+    Categories:country
+
+operation_boost_resistance_cost
+
+    Number with 0 decimal places
+    Categories:intelligence_agency
+
+operation_boost_resistance_outcome
+
+    Number with 0 decimal places
+    Categories:intelligence_agency
+
+operation_boost_resistance_risk
+
+    Number with 0 decimal places
+    Categories:intelligence_agency
+
+operation_capture_cipher_cost
+
+    Number with 0 decimal places
+    Categories:intelligence_agency
+
+operation_capture_cipher_outcome
+
+    Number with 0 decimal places
+    Categories:intelligence_agency
+
+operation_capture_cipher_risk
+
+    Number with 0 decimal places
+    Categories:intelligence_agency
+
+operation_collaboration_government_cost
+
+    Number with 0 decimal places
+    Categories:intelligence_agency
+
+operation_collaboration_government_outcome
+
+    Number with 0 decimal places
+    Categories:intelligence_agency
+
+operation_collaboration_government_risk
+
+    Number with 0 decimal places
+    Categories:intelligence_agency
+
+operation_coordinated_strike_cost
+
+    Number with 0 decimal places
+    Categories:intelligence_agency
+
+operation_coordinated_strike_outcome
+
+    Number with 0 decimal places
+    Categories:intelligence_agency
+
+operation_coordinated_strike_risk
+
+    Number with 0 decimal places
+    Categories:intelligence_agency
+
+operation_cost
+
+    Number with 0 decimal places
+    Categories:intelligence_agency
+
+operation_coup_cost
+
+    Number with 0 decimal places
+    Categories:intelligence_agency
+
+operation_coup_government_cost
+
+    Number with 0 decimal places
+    Categories:intelligence_agency
+
+operation_coup_government_outcome
+
+    Number with 0 decimal places
+    Categories:intelligence_agency
+
+operation_coup_government_risk
+
+    Number with 0 decimal places
+    Categories:intelligence_agency
+
+operation_fake_intel_cost
+
+    Number with 0 decimal places
+    Categories:intelligence_agency
+
+operation_fake_intel_outcome
+
+    Number with 0 decimal places
+    Categories:intelligence_agency
+
+operation_fake_intel_risk
+
+    Number with 0 decimal places
+    Categories:intelligence_agency
+
+operation_infiltrate_armed_forces_airforce_cost
+
+    Number with 0 decimal places
+    Categories:intelligence_agency
+
+operation_infiltrate_armed_forces_airforce_outcome
+
+    Number with 0 decimal places
+    Categories:intelligence_agency
+
+operation_infiltrate_armed_forces_airforce_risk
+
+    Number with 0 decimal places
+    Categories:intelligence_agency
+
+operation_infiltrate_armed_forces_army_cost
+
+    Number with 0 decimal places
+    Categories:intelligence_agency
+
+operation_infiltrate_armed_forces_army_outcome
+
+    Number with 0 decimal places
+    Categories:intelligence_agency
+
+operation_infiltrate_armed_forces_army_risk
+
+    Number with 0 decimal places
+    Categories:intelligence_agency
+
+operation_infiltrate_armed_forces_navy_cost
+
+    Number with 0 decimal places
+    Categories:intelligence_agency
+
+operation_infiltrate_armed_forces_navy_outcome
+
+    Number with 0 decimal places
+    Categories:intelligence_agency
+
+operation_infiltrate_armed_forces_navy_risk
+
+    Number with 0 decimal places
+    Categories:intelligence_agency
+
+operation_infiltrate_civilian_cost
+
+    Number with 0 decimal places
+    Categories:intelligence_agency
+
+operation_infiltrate_civilian_outcome
+
+    Number with 0 decimal places
+    Categories:intelligence_agency
+
+operation_infiltrate_civilian_risk
+
+    Number with 0 decimal places
+    Categories:intelligence_agency
+
+operation_infiltrate_cost
+
+    Number with 0 decimal places
+    Categories:intelligence_agency
+
+operation_infiltrate_outcome
+
+    Number with 0 decimal places
+    Categories:intelligence_agency
+
+operation_infiltrate_risk
+
+    Number with 0 decimal places
+    Categories:intelligence_agency
+
+operation_make_resistance_contacts_cost
+
+    Number with 0 decimal places
+    Categories:intelligence_agency
+
+operation_make_resistance_contacts_outcome
+
+    Number with 0 decimal places
+    Categories:intelligence_agency
+
+operation_make_resistance_contacts_risk
+
+    Number with 0 decimal places
+    Categories:intelligence_agency
+
+operation_outcome
+
+    Number with 0 decimal places
+    Categories:intelligence_agency
+
+operation_rescue_operative_cost
+
+    Number with 0 decimal places
+    Categories:intelligence_agency
+
+operation_rescue_operative_outcome
+
+    Number with 0 decimal places
+    Categories:intelligence_agency
+
+operation_rescue_operative_risk
+
+    Number with 0 decimal places
+    Categories:intelligence_agency
+
+operation_risk
+
+    Number with 0 decimal places
+    Categories:intelligence_agency
+
+operation_steal_tech_airforce_cost
+
+    Number with 0 decimal places
+    Categories:intelligence_agency
+
+operation_steal_tech_airforce_outcome
+
+    Number with 0 decimal places
+    Categories:intelligence_agency
+
+operation_steal_tech_airforce_risk
+
+    Number with 0 decimal places
+    Categories:intelligence_agency
+
+operation_steal_tech_army_cost
+
+    Number with 0 decimal places
+    Categories:intelligence_agency
+
+operation_steal_tech_army_outcome
+
+    Number with 0 decimal places
+    Categories:intelligence_agency
+
+operation_steal_tech_army_risk
+
+    Number with 0 decimal places
+    Categories:intelligence_agency
+
+operation_steal_tech_civilian_cost
+
+    Number with 0 decimal places
+    Categories:intelligence_agency
+
+operation_steal_tech_civilian_outcome
+
+    Number with 0 decimal places
+    Categories:intelligence_agency
+
+operation_steal_tech_civilian_risk
+
+    Number with 0 decimal places
+    Categories:intelligence_agency
+
+operation_steal_tech_navy_cost
+
+    Number with 0 decimal places
+    Categories:intelligence_agency
+
+operation_steal_tech_navy_outcome
+
+    Number with 0 decimal places
+    Categories:intelligence_agency
+
+operation_steal_tech_navy_risk
+
+    Number with 0 decimal places
+    Categories:intelligence_agency
+
+operation_steal_tech_outcome
+
+    Number with 0 decimal places
+    Categories:intelligence_agency
+
+operation_steal_tech_risk
+
+    Number with 0 decimal places
+    Categories:intelligence_agency
+
+operation_targeted_sabotage_industry_cost
+
+    Number with 0 decimal places
+    Categories:intelligence_agency
+
+operation_targeted_sabotage_industry_outcome
+
+    Number with 0 decimal places
+    Categories:intelligence_agency
+
+operation_targeted_sabotage_industry_risk
+
+    Number with 0 decimal places
+    Categories:intelligence_agency
+
+operation_targeted_sabotage_infrastructure_cost
+
+    Number with 0 decimal places
+    Categories:intelligence_agency
+
+operation_targeted_sabotage_infrastructure_outcome
+
+    Number with 0 decimal places
+    Categories:intelligence_agency
+
+operation_targeted_sabotage_infrastructure_risk
+
+    Number with 0 decimal places
+    Categories:intelligence_agency
+
+operation_targeted_sabotage_resources_cost
+
+    Number with 0 decimal places
+    Categories:intelligence_agency
+
+operation_targeted_sabotage_resources_outcome
+
+    Number with 0 decimal places
+    Categories:intelligence_agency
+
+operation_targeted_sabotage_resources_risk
+
+    Number with 0 decimal places
+    Categories:intelligence_agency
+
+operative_death_on_capture_chance
+
+    Number with 0 decimal places
+    Categories:intelligence_agency
+
+operative_slot
+
+    Number with 0 decimal places
+    Categories:intelligence_agency
+
+opinion_gain_monthly
+
+    Number with 1 decimal places
+    Categories:country
+
+opinion_gain_monthly_factor
+
+    Number with 2 decimal places
+    Categories:country
+
+opinion_gain_monthly_same_ideology
+
+    Number with 1 decimal places
+    Categories:country
+
+opinion_gain_monthly_same_ideology_factor
+
+    Number with 2 decimal places
+    Categories:country
+
+org_loss_when_moving
+
+    Number with 1 decimal places
+    Categories:army, aggressive
+
+out_of_supply_factor
+
+    Number with 1 decimal places
+    Categories:army, aggressive
+
+overlord_trade_cost_factor
+
+    Number with 2 decimal places
+    Categories:autonomy
+
+own_exiled_divisions_attack_factor
+
+    Number with 2 decimal places
+    Categories:unit_leader
+
+own_exiled_divisions_defense_factor
+
+    Number with 2 decimal places
+    Categories:unit_leader
+
+own_operative_capture_chance_factor
+
+    Number with 0 decimal places
+    Categories:unit_leader, country
+
+own_operative_detection_chance
+
+    Number with 2 decimal places
+    Categories:unit_leader, country
+
+own_operative_detection_chance_factor
+
+    Number with 0 decimal places
+    Categories:unit_leader, country
+
+own_operative_forced_into_hiding_time_factor
+
+    Number with 0 decimal places
+    Categories:unit_leader, country
+
+own_operative_harmed_time_factor
+
+    Number with 0 decimal places
+    Categories:unit_leader, country
+
+own_operative_intel_extraction_rate
+
+    Number with 0 decimal places
+    Categories:unit_leader, country
+
+paradrop_organization_factor
+
+    Number with 1 decimal places
+    Categories:unit_leader
+
+paratrooper_aa_defense
+
+    Number with 1 decimal places
+    Categories:unit_leader
+
+paratrooper_count_per_plane
+
+    Number with 1 decimal places
+    Categories:unit_leader
+
+party_popularity_stability_factor
+
+    Number with 2 decimal places
+    Categories:country
+
+planning_speed
+
+    Number with 1 decimal places
+    Categories:army, aggressive
+
+pocket_penalty
+
+    Number with 1 decimal places
+    Categories:army, aggressive
+
+political_advisor_cost_factor
+
+    Number with 0 decimal places
+    Categories:country
+
+political_power_cost
+
+    Number with 2 decimal places
+    Categories:country
+
+political_power_factor
+
+    Number with 0 decimal places
+    Categories:country
+
+political_power_gain
+
+    Number with 2 decimal places
+    Categories:country
+
+port_strike
+
+    Number with 1 decimal places
+    Categories:naval, unit_leader, aggressive
+
+positioning
+
+    Number with 1 decimal places
+    Categories:naval, unit_leader
+
+production_cost_max_convoy
+
+    Number with 0 decimal places
+    Categories:naval
+
+production_cost_max_ship_hull_carrier
+
+    Number with 0 decimal places
+    Categories:naval
+
+production_cost_max_ship_hull_cruiser
+
+    Number with 0 decimal places
+    Categories:naval
+
+production_cost_max_ship_hull_heavy
+
+    Number with 0 decimal places
+    Categories:naval
+
+production_cost_max_ship_hull_light
+
+    Number with 0 decimal places
+    Categories:naval
+
+production_cost_max_ship_hull_submarine
+
+    Number with 0 decimal places
+    Categories:naval
+
+production_factory_efficiency_gain_factor
+
+    Number with 2 decimal places
+    Categories:country, war_production
+
+production_factory_max_efficiency_factor
+
+    Number with 2 decimal places
+    Categories:country, war_production
+
+production_factory_start_efficiency_factor
+
+    Number with 2 decimal places
+    Categories:country, war_production
+
+production_lack_of_resource_penalty_factor
+
+    Number with 2 decimal places
+    Categories:country, war_production
+
+production_oil_factor
+
+    Number with 2 decimal places
+    Categories:country, war_production
+
+production_speed_air_base_factor
+
+    Number with 2 decimal places
+    Categories:country
+
+production_speed_anti_air_building_factor
+
+    Number with 2 decimal places
+    Categories:country
+
+production_speed_arms_factory_factor
+
+    Number with 2 decimal places
+    Categories:country
+
+production_speed_buildings_factor
+
+    Number with 2 decimal places
+    Categories:country, war_production
+
+production_speed_bunker_factor
+
+    Number with 2 decimal places
+    Categories:country
+
+production_speed_coastal_bunker_factor
+
+    Number with 2 decimal places
+    Categories:country
+
+production_speed_dockyard_factor
+
+    Number with 2 decimal places
+    Categories:country
+
+production_speed_fuel_silo_factor
+
+    Number with 2 decimal places
+    Categories:country
+
+production_speed_industrial_complex_factor
+
+    Number with 2 decimal places
+    Categories:country
+
+production_speed_infrastructure_factor
+
+    Number with 2 decimal places
+    Categories:country
+
+production_speed_naval_base_factor
+
+    Number with 2 decimal places
+    Categories:country
+
+production_speed_nuclear_reactor_factor
+
+    Number with 2 decimal places
+    Categories:country
+
+production_speed_radar_station_factor
+
+    Number with 2 decimal places
+    Categories:country
+
+production_speed_rocket_site_factor
+
+    Number with 2 decimal places
+    Categories:country
+
+production_speed_synthetic_refinery_factor
+
+    Number with 2 decimal places
+    Categories:country
+
+promote_cost_factor
+
+    Number with 1 decimal places
+    Categories:unit_leader
+
+propaganda_mission_factor
+
+    Number with 0 decimal places
+    Categories:intelligence_agency
+
+puppet_cost_factor
+
+    Number with 1 decimal places
+    Categories:peace, defensive
+
+reassignment_duration_factor
+
+    Number with 1 decimal places
+    Categories:unit_leader
+
+recon_factor
+
+    Number with 1 decimal places
+    Categories:army, defensive
+
+recon_factor_while_entrenched
+
+    Number with 1 decimal places
+    Categories:army, defensive
+
+recruitable_population
+
+    Number with 3 decimal places
+    Categories:state
+
+recruitable_population_factor
+
+    Number with 2 decimal places
+    Categories:state
+
+refit_ic_cost
+
+    Number with 0 decimal places
+    Categories:country
+
+refit_speed
+
+    Number with 0 decimal places
+    Categories:country
+
+repair_speed_air_base_factor
+
+    Number with 2 decimal places
+    Categories:country
+
+repair_speed_anti_air_building_factor
+
+    Number with 2 decimal places
+    Categories:country
+
+repair_speed_arms_factory_factor
+
+    Number with 2 decimal places
+    Categories:country
+
+repair_speed_bunker_factor
+
+    Number with 2 decimal places
+    Categories:country
+
+repair_speed_coastal_bunker_factor
+
+    Number with 2 decimal places
+    Categories:country
+
+repair_speed_dockyard_factor
+
+    Number with 2 decimal places
+    Categories:country
+
+repair_speed_factor
+
+    Number with 0 decimal places
+    Categories:naval, country
+
+repair_speed_fuel_silo_factor
+
+    Number with 2 decimal places
+    Categories:country
+
+repair_speed_industrial_complex_factor
+
+    Number with 2 decimal places
+    Categories:country
+
+repair_speed_infrastructure_factor
+
+    Number with 2 decimal places
+    Categories:country
+
+repair_speed_naval_base_factor
+
+    Number with 2 decimal places
+    Categories:country
+
+repair_speed_nuclear_reactor_factor
+
+    Number with 2 decimal places
+    Categories:country
+
+repair_speed_radar_station_factor
+
+    Number with 2 decimal places
+    Categories:country
+
+repair_speed_rocket_site_factor
+
+    Number with 2 decimal places
+    Categories:country
+
+repair_speed_synthetic_refinery_factor
+
+    Number with 2 decimal places
+    Categories:country
+
+request_lease_tension
+
+    Number with 1 decimal places
+    Categories:country
+
+required_garrison_factor
+
+    Number with 0 decimal places
+    Categories:country, state
+
+rescue_mussolini_cost
+
+    Number with 0 decimal places
+    Categories:intelligence_agency
+
+rescue_mussolini_outcome
+
+    Number with 0 decimal places
+    Categories:intelligence_agency
+
+rescue_mussolini_risk
+
+    Number with 0 decimal places
+    Categories:intelligence_agency
+
+research_sharing_per_country_bonus
+
+    Number with 2 decimal places
+    Categories:country
+
+research_sharing_per_country_bonus_factor
+
+    Number with 2 decimal places
+    Categories:country
+
+research_speed_factor
+
+    Number with 2 decimal places
+    Categories:country, military_advancements
+
+resistance_activity
+
+    Number with 1 decimal places
+    Categories:country, state
+
+resistance_damage_to_garrison
+
+    Number with 2 decimal places
+    Categories:country, state
+
+resistance_damage_to_garrison_on_our_occupied_states
+
+    Number with 2 decimal places
+    Categories:country, state
+
+resistance_decay
+
+    Number with 0 decimal places
+    Categories:country, state
+
+resistance_decay_on_our_occupied_states
+
+    Number with 0 decimal places
+    Categories:country, state
+
+resistance_garrison_penetration_chance
+
+    Number with 2 decimal places
+    Categories:country, state
+
+resistance_growth
+
+    Number with 0 decimal places
+    Categories:country, state
+
+resistance_growth_on_our_occupied_states
+
+    Number with 0 decimal places
+    Categories:country, state
+
+resistance_target
+
+    Number with 0 decimal places
+    Categories:country, state
+
+resistance_target_on_our_occupied_states
+
+    Number with 0 decimal places
+    Categories:country, state
+
+river_crossing_factor
+
+    Number with 2 decimal places
+    Categories:unit_leader
+
+rocket_attack_factor
+
+    Number with 1 decimal places
+    Categories:army, aggressive
+
+root_out_resistance_effectiveness_factor
+
+    Number with 0 decimal places
+    Categories:intelligence_agency
+
+screening_efficiency
+
+    Number with 1 decimal places
+    Categories:naval, unit_leader
+
+send_volunteer_divisions_required
+
+    Number with 1 decimal places
+    Categories:country
+
+send_volunteer_factor
+
+    Number with 1 decimal places
+    Categories:country
+
+send_volunteer_size
+
+    Number with 0 decimal places
+    Categories:country
+
+send_volunteers_tension
+
+    Number with 1 decimal places
+    Categories:country, defensive
+
+ships_at_battle_start
+
+    Number with 0 decimal places
+    Categories:naval, unit_leader
+
+shore_bombardment_bonus
+
+    Number with 1 decimal places
+    Categories:army
+
+sickness_chance
+
+    Number with 2 decimal places
+    Categories:unit_leader
+
+skill_bonus_factor
+
+    Number with 1 decimal places
+    Categories:unit_leader
+
+sortie_efficiency
+
+    Number with 0 decimal places
+    Categories:naval, unit_leader, aggressive
+
+special_forces_attack_factor
+
+    Number with 1 decimal places
+    Categories:army, aggressive
+
+special_forces_cap
+
+    Number with 1 decimal places
+    Categories:army
+
+special_forces_defence_factor
+
+    Number with 1 decimal places
+    Categories:army, defensive
+
+special_forces_min
+
+    Number with 0 decimal places
+    Categories:army
+
+special_forces_no_supply_grace
+
+    Number with 1 decimal places
+    Categories:army, aggressive
+
+special_forces_out_of_supply_factor
+
+    Number with 2 decimal places
+    Categories:army, aggressive
+
+special_forces_training_time_factor
+
+    Number with 1 decimal places
+    Categories:army, war_production
+
+spotting_chance
+
+    Number with 0 decimal places
+    Categories:naval, unit_leader
+
+stability_factor
+
+    Number with 2 decimal places
+    Categories:country
+
+stability_weekly
+
+    Number with 2 decimal places
+    Categories:country
+
+stability_weekly_factor
+
+    Number with 2 decimal places
+    Categories:country
+
+starting_compliance
+
+    Number with 0 decimal places
+    Categories:country, state
+
+state_production_speed_air_base_factor
+
+    Number with 2 decimal places
+    Categories:state
+
+state_production_speed_anti_air_building_factor
+
+    Number with 2 decimal places
+    Categories:state
+
+state_production_speed_arms_factory_factor
+
+    Number with 2 decimal places
+    Categories:state
+
+state_production_speed_buildings_factor
+
+    Number with 0 decimal places
+    Categories:state, war_production
+
+state_production_speed_bunker_factor
+
+    Number with 2 decimal places
+    Categories:state
+
+state_production_speed_coastal_bunker_factor
+
+    Number with 2 decimal places
+    Categories:state
+
+state_production_speed_dockyard_factor
+
+    Number with 2 decimal places
+    Categories:state
+
+state_production_speed_fuel_silo_factor
+
+    Number with 2 decimal places
+    Categories:state
+
+state_production_speed_industrial_complex_factor
+
+    Number with 2 decimal places
+    Categories:state
+
+state_production_speed_infrastructure_factor
+
+    Number with 2 decimal places
+    Categories:state
+
+state_production_speed_naval_base_factor
+
+    Number with 2 decimal places
+    Categories:state
+
+state_production_speed_nuclear_reactor_factor
+
+    Number with 2 decimal places
+    Categories:state
+
+state_production_speed_radar_station_factor
+
+    Number with 2 decimal places
+    Categories:state
+
+state_production_speed_rocket_site_factor
+
+    Number with 2 decimal places
+    Categories:state
+
+state_production_speed_synthetic_refinery_factor
+
+    Number with 2 decimal places
+    Categories:state
+
+state_repair_speed_air_base_factor
+
+    Number with 2 decimal places
+    Categories:state
+
+state_repair_speed_anti_air_building_factor
+
+    Number with 2 decimal places
+    Categories:state
+
+state_repair_speed_arms_factory_factor
+
+    Number with 2 decimal places
+    Categories:state
+
+state_repair_speed_bunker_factor
+
+    Number with 2 decimal places
+    Categories:state
+
+state_repair_speed_coastal_bunker_factor
+
+    Number with 2 decimal places
+    Categories:state
+
+state_repair_speed_dockyard_factor
+
+    Number with 2 decimal places
+    Categories:state
+
+state_repair_speed_fuel_silo_factor
+
+    Number with 2 decimal places
+    Categories:state
+
+state_repair_speed_industrial_complex_factor
+
+    Number with 2 decimal places
+    Categories:state
+
+state_repair_speed_infrastructure_factor
+
+    Number with 2 decimal places
+    Categories:state
+
+state_repair_speed_naval_base_factor
+
+    Number with 2 decimal places
+    Categories:state
+
+state_repair_speed_nuclear_reactor_factor
+
+    Number with 2 decimal places
+    Categories:state
+
+state_repair_speed_radar_station_factor
+
+    Number with 2 decimal places
+    Categories:state
+
+state_repair_speed_rocket_site_factor
+
+    Number with 2 decimal places
+    Categories:state
+
+state_repair_speed_synthetic_refinery_factor
+
+    Number with 2 decimal places
+    Categories:state
+
+state_resource_aluminium
+
+    Number with 0 decimal places
+    Categories:state
+
+state_resource_chromium
+
+    Number with 0 decimal places
+    Categories:state
+
+state_resource_cost_aluminium
+
+    Number with 0 decimal places
+    Categories:state
+
+state_resource_cost_chromium
+
+    Number with 0 decimal places
+    Categories:state
+
+state_resource_cost_oil
+
+    Number with 0 decimal places
+    Categories:state
+
+state_resource_cost_rubber
+
+    Number with 0 decimal places
+    Categories:state
+
+state_resource_cost_steel
+
+    Number with 0 decimal places
+    Categories:state
+
+state_resource_cost_tungsten
+
+    Number with 0 decimal places
+    Categories:state
+
+state_resource_oil
+
+    Number with 0 decimal places
+    Categories:state
+
+state_resource_rubber
+
+    Number with 0 decimal places
+    Categories:state
+
+state_resource_steel
+
+    Number with 0 decimal places
+    Categories:state
+
+state_resource_tungsten
+
+    Number with 0 decimal places
+    Categories:state
+
+state_resources_factor
+
+    Number with 0 decimal places
+    Categories:state, war_production
+
+static_anti_air_damage_factor
+
+    Number with 2 decimal places
+    Categories:defensive
+
+static_anti_air_hit_chance_factor
+
+    Number with 2 decimal places
+    Categories:defensive
+
+strategic_bomb_visibility
+
+    Number with 0 decimal places
+    Categories:air
+
+strike_force_movement_org_loss
+
+    Number with 2 decimal places
+    Categories:naval, unit_leader, aggressive
+
+sub_retreat_speed
+
+    Number with 0 decimal places
+    Categories:naval, unit_leader, defensive
+
+subjects_autonomy_gain
+
+    Number with 1 decimal places
+    Categories:autonomy
+
+submarine_attack
+
+    Number with 1 decimal places
+    Categories:naval, unit_leader, aggressive
+
+subversive_activites_upkeep
+
+    Number with 0 decimal places
+    Categories:country
+
+supply_consumption_factor
+
+    Number with 1 decimal places
+    Categories:army, defensive, aggressive
+
+surrender_limit
+
+    Number with 2 decimal places
+    Categories:country
+
+tank_manufacturer_cost_factor
+
+    Number with 0 decimal places
+    Categories:country
+
+target_sabotage_cost
+
+    Number with 0 decimal places
+    Categories:intelligence_agency
+
+target_sabotage_factor
+
+    Number with 0 decimal places
+    Categories:intelligence_agency
+
+target_sabotage_risk
+
+    Number with 0 decimal places
+    Categories:intelligence_agency
+
+targeted_legitimacy_daily
+
+    Number with 2 decimal places
+    Categories:government_in_exile
+
+tech_air_damage_factor
+
+    Number with 2 decimal places
+    Categories:country, war_production
+
+temporary_state_resource_aluminium
+
+    Number with 0 decimal places
+    Categories:state
+
+temporary_state_resource_chromium
+
+    Number with 0 decimal places
+    Categories:state
+
+temporary_state_resource_oil
+
+    Number with 0 decimal places
+    Categories:state
+
+temporary_state_resource_rubber
+
+    Number with 0 decimal places
+    Categories:state
+
+temporary_state_resource_steel
+
+    Number with 0 decimal places
+    Categories:state
+
+temporary_state_resource_tungsten
+
+    Number with 0 decimal places
+    Categories:state
+
+terrain_penalty_reduction
+
+    Number with 1 decimal places
+    Categories:army, defensive
+
+theorist_cost_factor
+
+    Number with 0 decimal places
+    Categories:country
+
+trade_cost_for_target_factor
+
+    Number with 2 decimal places
+    Categories:country
+
+trade_laws_cost_factor
+
+    Number with 0 decimal places
+    Categories:country
+
+trade_opinion_factor
+
+    Number with 2 decimal places
+    Categories:country, war_production
+
+training_time_army
+
+    Number with 1 decimal places
+    Categories:army, war_production
+
+training_time_army_factor
+
+    Number with 1 decimal places
+    Categories:army, war_production
+
+training_time_factor
+
+    Number with 2 decimal places
+    Categories:army, aggressive
+
+transport_capacity
+
+    Number with 0 decimal places
+    Categories:naval
+
+unit_upkeep_attrition_factor
+
+    Number with 0 decimal places
+    Categories:army
+
+war_stability_factor
+
+    Number with 2 decimal places
+    Categories:country
+
+war_support_factor
+
+    Number with 2 decimal places
+    Categories:country
+
+war_support_weekly
+
+    Number with 2 decimal places
+    Categories:country
+
+war_support_weekly_factor
+
+    Number with 2 decimal places
+    Categories:country
+
+weekly_manpower
+
+    Number with 0 decimal places
+    Categories:country, war_production
+
+winter_attrition
+
+    Number with 1 decimal places
+    Categories:army, aggressive
+
+winter_attrition_factor
+
+    Number with 1 decimal places
+    Categories:army, aggressive
+
+wounded_chance_factor
+
+    Number with 1 decimal places
+    Categories:unit_leader
+

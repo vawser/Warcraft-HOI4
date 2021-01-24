@@ -1,0 +1,96 @@
+#---------------------------------------------
+# Treee
+#---------------------------------------------
+focus_tree = {
+	id = <focus tree id>
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = <country tag> 
+		}
+	}
+
+	default = <yes/no>
+
+	reset_on_civil_war = <yes/no>
+
+	shared_focus = <Shared Focus ID>
+
+	continuous_focus_position = { x = <position> y = <position> }
+	
+	initial_show_position = {
+		x = <integer>
+		y = <integer>
+		offset = {
+			x = <integer>
+			y = <integer>
+			<trigger>
+		}
+	}
+}
+
+#---------------------------------------------
+# Focus
+#---------------------------------------------
+focus = {
+	id = <focus id>
+	icon = <icon>
+
+	cost = <number>
+
+	allow_branch = {
+		<trigger>
+	}
+
+	x = <position>
+	y = <position>
+	relative_position_id = <previous focus>
+	offset = {
+		x = <position>
+		y = <position>
+		trigger = {
+			<trigger>
+		}
+	}
+
+	prerequisite = {
+		focus = <focus id>
+	}
+
+	mutually_exclusive = {
+		focus = <focus id>
+	}
+
+	available = {
+		<trigger>
+	}
+
+	bypass = {
+		<trigger>
+	}
+
+	available_if_capitulated = <true/false>
+	cancel_if_invalid = <true/false>
+
+	select_effect = {
+		<command>
+	}
+	
+	completion_reward = {
+		<effect>
+	}
+	
+	complete_tooltip = {
+		<effect>
+	}
+
+	ai_will_do = {
+		factor = 1
+		modifier = {
+			<modifier>
+		}
+	}
+}

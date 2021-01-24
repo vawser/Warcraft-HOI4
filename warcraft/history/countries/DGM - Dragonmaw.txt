@@ -2,7 +2,7 @@
 
 oob = "DGM_default"
 
-set_research_slots = 4
+set_research_slots = 3
 set_stability = 0.5
 set_war_support = 1.0
 
@@ -41,31 +41,20 @@ add_ideas = {
 
 set_convoys = 100
 
-set_popularities = {
-	parties = {
-		holy = 0
-		}
-		shadow = {
-			popularity = 20
-		}
-		order = {
-			popularity = 0
-		}
-        disorder = {
-			popularity = 80
-		}
-        nature = {
-			popularity = 0
-		}
-        death = {
-			popularity = 10
-		}
-        unaligned = {
-			popularity = 0
-		}
-	}
-
+set_politics = {
 	ruling_party = disorder
+	last_election = "590.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+    holy = 0
+    shadow = 20
+    order = 0
+    disorder = 80
+    nature = 0
+    death = 0
+    unaligned = 0
 }
 
 create_country_leader = {

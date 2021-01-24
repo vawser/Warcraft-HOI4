@@ -2,7 +2,7 @@
 
 oob = "COL_default"
 
-set_research_slots = 4
+set_research_slots = 2
 set_stability = 0.5
 set_war_support = 0.2
 
@@ -42,31 +42,20 @@ add_ideas = {
 
 set_convoys = 100
 
-set_popularities = {
-	parties = {
-		holy = 0
-		}
-		shadow = {
-			popularity = 5
-		}
-		order = {
-			popularity = 0
-		}
-        disorder = {
-			popularity = 5
-		}
-        nature = {
-			popularity = 90
-		}
-        death = {
-			popularity = 5
-		}
-        unaligned = {
-			popularity = 0
-		}
-	}
-
+set_politics = {
 	ruling_party = nature
+	last_election = "590.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+    holy = 0
+    shadow = 0
+    order = 0
+    disorder = 5
+    nature = 90
+    death = 5
+    unaligned = 0
 }
 
 create_country_leader = {

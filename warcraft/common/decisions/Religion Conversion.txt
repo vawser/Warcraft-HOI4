@@ -3,8 +3,12 @@ religion_conversion_actions = {
 		icon = yellow_quest_mark
         
         allowed = {
-            holy > 0.5
             NOT = { has_holy_light = yes }
+        }
+        
+        visible = {
+            NOT = { has_holy_light = yes }
+            holy > 0.5
         }
         
 		available = {
@@ -34,8 +38,12 @@ religion_conversion_actions = {
 		icon = yellow_quest_mark
         
         allowed = {
-            nature > 0.5
             NOT = { has_elune = yes }
+        }
+        
+        visible = {
+            NOT = { has_elune = yes }
+            nature > 0.5
         }
         
 		available = {
@@ -64,8 +72,12 @@ religion_conversion_actions = {
 		icon = yellow_quest_mark
         
         allowed = {
-            shadow > 0.5
             NOT = { has_hakkar = yes }
+        }
+        
+        visible = {
+            NOT = { has_hakkar = yes }
+            shadow > 0.5
         }
         
 		available = {
@@ -95,8 +107,12 @@ religion_conversion_actions = {
 		icon = yellow_quest_mark
         
         allowed = {
-            shadow > 0.5
             NOT = { has_voodoo = yes }
+        }
+        
+        visible = {
+            NOT = { has_voodoo = yes }
+            shadow > 0.5
         }
         
 		available = {
@@ -126,8 +142,12 @@ religion_conversion_actions = {
 		icon = yellow_quest_mark
         
         allowed = {
-            shadow > 0.5
             NOT = { has_shadow = yes }
+        }
+        
+        visible = {
+            NOT = { has_shadow = yes }
+            shadow > 0.5
         }
         
 		available = {
@@ -157,13 +177,17 @@ religion_conversion_actions = {
 		icon = yellow_quest_mark
         
         allowed = {
-            nature > 0.5
             NOT = { has_nature = yes }
+        }
+        
+        visible = {
+            NOT = { has_nature = yes }
+            nature > 0.5
         }
         
 		available = {
             nature > 0.75
-            NOT = {has_nature = yes }
+            NOT = { has_nature = yes }
             any_country = {
                 has_nature = yes
                 has_opinion = {
@@ -188,8 +212,12 @@ religion_conversion_actions = {
 		icon = yellow_quest_mark
         
         allowed = {
-            nature > 0.5
             NOT = { has_deep_mother = yes }
+        }
+        
+        visible = {
+            NOT = { has_deep_mother = yes }
+            nature > 0.5
         }
         
 		available = {
@@ -219,8 +247,12 @@ religion_conversion_actions = {
 		icon = yellow_quest_mark
         
         allowed = {
-            order > 0.5
             NOT = { has_arcane = yes }
+        }
+        
+        visible = {
+            NOT = { has_arcane = yes }
+            order > 0.5
         }
         
 		available = {
@@ -250,8 +282,12 @@ religion_conversion_actions = {
 		icon = yellow_quest_mark
         
         allowed = {
-            nature > 0.5
             NOT = { has_druidism = yes }
+        }
+        
+        visible = {
+            NOT = { has_druidism = yes }
+            nature > 0.5
         }
         
 		available = {
@@ -281,8 +317,12 @@ religion_conversion_actions = {
 		icon = yellow_quest_mark
         
         allowed = {
-            shadow > 0.5
             NOT = { has_old_gods = yes }
+        }
+        
+        visible = {
+            NOT = { has_old_gods = yes }
+            shadow > 0.5
         }
         
 		available = {
@@ -313,8 +353,12 @@ religion_conversion_actions = {
 		icon = yellow_quest_mark
         
         allowed = {
-            disorder > 0.5
             NOT = { has_fel = yes }
+        }
+        
+        visible = {
+            NOT = { has_fel = yes }
+            disorder > 0.5
         }
         
 		available = {
@@ -344,8 +388,12 @@ religion_conversion_actions = {
 		icon = yellow_quest_mark
         
         allowed = {
-            death > 0.5
             NOT = { has_necromancy = yes }
+        }
+        
+        visible = {
+            NOT = { has_necromancy = yes }
+            death > 0.5
         }
         
 		available = {
@@ -375,8 +423,12 @@ religion_conversion_actions = {
 		icon = yellow_quest_mark
         
         allowed = {
-            nature > 0.5
             NOT = { has_shamanism = yes }
+        }
+        
+        visible = {
+            NOT = { has_shamanism = yes }
+            nature > 0.5
         }
         
 		available = {
@@ -406,8 +458,12 @@ religion_conversion_actions = {
 		icon = yellow_quest_mark
         
         allowed = {
-            nature > 0.5
             NOT = { has_celestials = yes }
+        }
+        
+        visible = {
+            NOT = { has_celestials = yes }
+            nature > 0.5
         }
         
 		available = {
@@ -438,8 +494,12 @@ religion_conversion_actions = {
 		icon = yellow_quest_mark
         
         allowed = {
-            order > 0.5
             NOT = { has_titan = yes }
+        }
+        
+        visible = {
+            NOT = { has_titan = yes }
+            order > 0.5
         }
         
 		available = {
@@ -469,8 +529,12 @@ religion_conversion_actions = {
 		icon = yellow_quest_mark
         
         allowed = {
-            disorder > 0.5
             NOT = { has_fire = yes }
+        }
+        
+        visible = {
+            NOT = { has_fire = yes }
+            disorder > 0.5
         }
         
 		available = {
@@ -500,8 +564,12 @@ religion_conversion_actions = {
 		icon = yellow_quest_mark
         
         allowed = {
-            nature > 0.5
             NOT = { has_earth = yes }
+        }
+        
+        visible = {
+            NOT = { has_earth = yes }
+            nature > 0.5
         }
         
 		available = {
@@ -531,8 +599,12 @@ religion_conversion_actions = {
 		icon = yellow_quest_mark
         
         allowed = {
-            nature > 0.5
             NOT = { has_wind = yes }
+        }
+        
+        visible = {
+            NOT = { has_wind = yes }
+            nature > 0.5
         }
         
 		available = {
@@ -562,8 +634,12 @@ religion_conversion_actions = {
 		icon = yellow_quest_mark
         
         allowed = {
-            nature > 0.5
             NOT = { has_water = yes }
+        }
+        
+        visible = {
+            NOT = { has_water = yes }
+            nature > 0.5
         }
         
 		available = {
@@ -593,8 +669,12 @@ religion_conversion_actions = {
 		icon = yellow_quest_mark
         
         allowed = {
-            nature > 0.5
             NOT = { has_geomancy = yes }
+        }
+        
+        visible = {
+            NOT = { has_geomancy = yes }
+            nature > 0.5
         }
         
 		available = {
@@ -624,8 +704,12 @@ religion_conversion_actions = {
 		icon = yellow_quest_mark
         
         allowed = {
-            holy > 0.5
             NOT = { has_light_of_the_naaru = yes }
+        }
+        
+        visible = {
+            NOT = { has_light_of_the_naaru = yes }
+            holy > 0.5
         }
         
 		available = {
@@ -655,8 +739,12 @@ religion_conversion_actions = {
 		icon = yellow_quest_mark
         
         allowed = {
-            order > 0.5
             NOT = { has_dragon_aspects = yes }
+        }
+        
+        visible = {
+            NOT = { has_dragon_aspects = yes }
+            order > 0.5
         }
         
 		available = {
@@ -687,8 +775,12 @@ religion_conversion_actions = {
 		icon = yellow_quest_mark
         
         allowed = {
-            order > 0.5
             NOT = { has_technomancy = yes }
+        }
+        
+        visible = {
+            NOT = { has_technomancy = yes }
+            order > 0.5
         }
         
 		available = {
@@ -718,8 +810,12 @@ religion_conversion_actions = {
 		icon = yellow_quest_mark
         
         allowed = {
-            unaligned > 0.5
             NOT = { has_capitalism = yes }
+        }
+        
+        visible = {
+            NOT = { has_capitalism = yes }
+            unaligned > 0.5
         }
         
 		available = {
@@ -749,8 +845,12 @@ religion_conversion_actions = {
 		icon = yellow_quest_mark
         
         allowed = {
-            shadow > 0.5
             NOT = { has_soul = yes }
+        }
+        
+        visible = {
+            NOT = { has_soul = yes }
+            shadow > 0.5
         }
         
 		available = {
@@ -780,6 +880,10 @@ religion_conversion_actions = {
 		icon = yellow_quest_mark
         
         allowed = {
+            NOT = { has_runic = yes }
+        }
+        
+        visible = {
             NOT = { has_runic = yes }
             order > 0.5
         }
