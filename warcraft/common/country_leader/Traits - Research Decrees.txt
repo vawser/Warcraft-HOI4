@@ -1,0 +1,114 @@
+leader_traits = {
+    research_trait_industry = {
+        random = no
+        
+        
+        ai_will_do = {
+            factor = 1
+        }
+    }
+    research_trait_resource = {
+        random = no
+        
+        
+        ai_will_do = {
+            factor = 1
+        }
+    }
+    research_trait_infantry = {
+        random = no
+        
+        
+        ai_will_do = {
+            factor = 1
+        }
+    }
+    research_trait_cavalry = {
+        random = no
+        
+        
+        ai_will_do = {
+            factor = 1
+        }
+    }
+    research_trait_vehicle = {
+        random = no
+        
+        
+        ai_will_do = {
+            factor = 1
+        }
+    }
+    research_trait_support = {
+        random = no
+        
+        
+        ai_will_do = {
+            factor = 1
+        }
+    }
+    research_trait_cruiser = {
+        random = no
+        
+        
+        ai_will_do = {
+            factor = 1
+        }
+    }
+    research_trait_battleship = {
+        random = no
+        
+        
+        ai_will_do = {
+            factor = 1
+        }
+    }
+    research_trait_submarine = {
+        random = no
+        
+        
+        ai_will_do = {
+            factor = 1
+        }
+    }
+    research_trait_destroyer = {
+        random = no
+        
+        
+        ai_will_do = {
+            factor = 1
+        }
+    }
+    research_trait_fighter = {
+        random = no
+        
+        
+        ai_will_do = {
+            factor = 1
+        }
+    }
+    research_trait_cas = {
+        random = no
+        
+        
+        ai_will_do = {
+            factor = 1
+        }
+    }
+    research_trait_tactical_bomber = {
+        random = no
+        
+        
+        ai_will_do = {
+            factor = 1
+        }
+    }
+    research_trait_strategic_bomber = {
+        random = no
+        
+        
+        ai_will_do = {
+            factor = 1
+        }
+    }
+}

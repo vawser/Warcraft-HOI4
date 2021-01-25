@@ -34,9 +34,9 @@ add_ideas = {
     
 	racial_yaungol
     
-    war_economy
-    limited_trade
-    low_conscription
+    economy_wartime
+    trade_limited
+    conscription_low
 }
 
 set_convoys = 100

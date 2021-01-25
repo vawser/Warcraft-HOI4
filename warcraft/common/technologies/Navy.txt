@@ -219,7 +219,7 @@ technologies = {
     
     battleship_advancement_2_2 = {
         battleship = {
-            surface_detection = 0.1
+            naval_speed = 5
         }
         
         research_cost = 6
@@ -521,7 +521,7 @@ technologies = {
     
     cruiser_advancement_2_2 = {
         cruiser = {
-            surface_detection = 0.1
+            naval_speed = 5
         }
         
         research_cost = 6
@@ -823,7 +823,7 @@ technologies = {
     
     destroyer_advancement_2_2 = {
         destroyer = {
-            surface_detection = 0.1
+            naval_speed = 5
         }
         
         research_cost = 6

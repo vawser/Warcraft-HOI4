@@ -1,0 +1,184 @@
+leader_traits = {
+    political_trait_political_efforts = {
+        random = no
+        
+        political_power_factor = 0.15
+        
+        ai_will_do = {
+            factor = 1
+        }
+    }
+    political_trait_grant_autonomy = {
+        random = no
+        
+        resistance_damage_to_garrison = -0.25
+		foreign_subversive_activites = -0.3
+		non_core_manpower = 0.02
+        
+        ai_will_do = {
+            factor = 1
+        }
+    }
+    political_trait_bolster_diplomacy = {
+        random = no
+        
+        opinion_gain_monthly_factor = 0.25
+        
+        ai_will_do = {
+            factor = 1
+        }
+    }
+    political_trait_bolster_trade = {
+        random = no
+        
+        trade_opinion_factor = 0.25
+        
+        ai_will_do = {
+            factor = 1
+        }
+    }
+    political_trait_unite_through_faith = {
+        random = no
+        
+        opinion_gain_monthly_same_ideology_factor = 1.0
+
+        ai_will_do = {
+            factor = 1
+        }
+    }
+    political_trait_bolster_faith = {
+        random = no
+        
+        drift_defence_factor = 0.5
+        
+        ai_will_do = {
+            factor = 1
+        }
+    }
+    political_trait_align_with_holy = {
+        random = no
+        
+        holy_drift = 0.05
+        
+        ai_will_do = {
+            factor = 1
+        }
+    }
+    political_trait_align_with_shadow = {
+        random = no
+        
+        shadow_drift = 0.05
+        
+        ai_will_do = {
+            factor = 1
+        }
+    }
+    political_trait_align_with_order = {
+        random = no
+        
+        order_drift = 0.05
+        
+        ai_will_do = {
+            factor = 1
+        }
+    }
+    political_trait_align_with_disorder = {
+        random = no
+        
+        disorder_drift = 0.05
+        
+        ai_will_do = {
+            factor = 1
+        }
+    }
+    political_trait_align_with_nature = {
+        random = no
+        
+        nature_drift = 0.05
+        
+        ai_will_do = {
+            factor = 1
+        }
+    }
+    political_trait_align_with_death = {
+        random = no
+        
+        death_drift = 0.05
+        
+        ai_will_do = {
+            factor = 1
+        }
+    }
+    political_trait_align_with_the_unaligned = {
+        random = no
+        
+        unaligned_drift = 0.05
+        
+        ai_will_do = {
+            factor = 1
+        }
+    }
+    political_trait_stability_focus = {
+        random = no
+        
+        stability_weekly = 0.005
+        
+        ai_will_do = {
+            factor = 1
+        }
+    }
+    political_trait_war_support_focus = {
+        random = no
+        
+        war_support_weekly = 0.005
+        
+        ai_will_do = {
+            factor = 1
+        }
+    }
+    political_trait_justify_war = {
+        random = no
+        
+        justify_war_goal_time = -0.25
+        
+        ai_will_do = {
+            factor = 1
+        }
+    }
+    political_trait_expand_research = {
+        random = no
+        
+        research_speed_factor = 0.05
+        
+        ai_will_do = {
+            factor = 1
+        }
+    }
+    political_trait_quell_resistance = {
+        random = no
+        
+        resistance_growth = -0.05
+        
+        ai_will_do = {
+            factor = 1
+        }
+    }
+    political_trait_protect_garrisons = {
+        random = no
+        
+        resistance_damage_to_garrison = -0.25
+        
+        ai_will_do = {
+            factor = 1
+        }
+    }
+    political_trait_appease_subjects = {
+        random = no
+        
+        autonomy_gain = 0.5
+        
+        ai_will_do = {
+            factor = 1
+        }
+    }
+}

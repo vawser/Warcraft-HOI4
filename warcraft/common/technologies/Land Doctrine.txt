@@ -46,12 +46,15 @@ technologies = {
     # Conquerors
     conqueror_tech_1 = {
         doctrine = yes
+        xp_research_type = army
+		xp_research_cost = 100
+		xp_research_bonus = 1.00
         
         army_attack_factor = 0.25
         
         enable_tactic = tactic_breakthrough
         
-        research_cost = 6
+        research_cost = 12
 
         xor = { guardian_tech_1 }
         
@@ -99,8 +102,11 @@ technologies = {
     # Relentless Push
     conqueror_tech_2 = {
         doctrine = yes
+        xp_research_type = army
+		xp_research_cost = 100
+		xp_research_bonus = 1.00
         
-        research_cost = 6
+        research_cost = 12
 
         army_speed_factor = 0.15
 
@@ -145,8 +151,11 @@ technologies = {
     # Unstoppable Force
     conqueror_tech_3 = {
         doctrine = yes
+        xp_research_type = army
+		xp_research_cost = 100
+		xp_research_bonus = 1.00
 
-        research_cost = 6
+        research_cost = 12
         
         xor = { conqueror_tech_5 }
         
@@ -198,8 +207,11 @@ technologies = {
     # Uniform Charges
     conqueror_tech_4 = {
         doctrine = yes
+        xp_research_type = army
+		xp_research_cost = 100
+		xp_research_bonus = 1.00
         
-        research_cost = 6
+        research_cost = 12
 
         category_cavalry = {
             max_strength = 0.15
@@ -244,8 +256,11 @@ technologies = {
     # Unwavering Spirit
     conqueror_tech_5 = {
         doctrine = yes
+        xp_research_type = army
+		xp_research_cost = 100
+		xp_research_bonus = 1.00
         
-        research_cost = 6
+        research_cost = 12
 
         xor = { conqueror_tech_3 }
         
@@ -297,8 +312,11 @@ technologies = {
     # Toughness
     conqueror_tech_6 = {
         doctrine = yes
+        xp_research_type = army
+		xp_research_cost = 100
+		xp_research_bonus = 1.00
         
-        research_cost = 6
+        research_cost = 12
 
         category_infantry = {
             max_strength = 0.15
@@ -343,8 +361,11 @@ technologies = {
     # Speed Demons
     conqueror_tech_7 = {
         doctrine = yes
+        xp_research_type = army
+		xp_research_cost = 100
+		xp_research_bonus = 1.00
         
-        research_cost = 6
+        research_cost = 12
 
         category_cavalry = {
             maximum_speed = 0.1
@@ -385,8 +406,11 @@ technologies = {
     # Effective Communication
     conqueror_tech_8 = {
         doctrine = yes
+        xp_research_type = army
+		xp_research_cost = 100
+		xp_research_bonus = 1.00
         
-        research_cost = 6
+        research_cost = 12
 
         category_cavalry = {
             max_organisation = 10
@@ -422,8 +446,11 @@ technologies = {
     # Fearless Mounts
     conqueror_tech_9 = {
         doctrine = yes
+        xp_research_type = army
+		xp_research_cost = 100
+		xp_research_bonus = 1.00
         
-        research_cost = 6
+        research_cost = 12
 
         category_cavalry = {
             default_morale = 0.1
@@ -464,8 +491,11 @@ technologies = {
     # Powerful Blows
     conqueror_tech_10 = {
         doctrine = yes
+        xp_research_type = army
+		xp_research_cost = 100
+		xp_research_bonus = 1.00
         
-        research_cost = 6
+        research_cost = 12
 
         category_infantry = {
             soft_attack = 0.15
@@ -506,8 +536,11 @@ technologies = {
     # Fearless Troops
     conqueror_tech_11 = {
         doctrine = yes
+        xp_research_type = army
+		xp_research_cost = 100
+		xp_research_bonus = 1.00
         
-        research_cost = 6
+        research_cost = 12
 
         category_infantry = {
             max_organisation = 10
@@ -543,8 +576,11 @@ technologies = {
     # Bravery Within
     conqueror_tech_12 = {
         doctrine = yes
+        xp_research_type = army
+		xp_research_cost = 100
+		xp_research_bonus = 1.00
         
-        research_cost = 6
+        research_cost = 12
 
         category_infantry = {
             default_morale = 0.1
@@ -585,8 +621,11 @@ technologies = {
     # Military Organisation
     conqueror_tech_13 = {
         doctrine = yes
+        xp_research_type = army
+		xp_research_cost = 100
+		xp_research_bonus = 1.00
         
-        research_cost = 6
+        research_cost = 12
 
         army_org_factor = 0.1
         
@@ -628,8 +667,11 @@ technologies = {
     # Until the Last Breath
     conqueror_tech_14 = {
         doctrine = yes
+        xp_research_type = army
+		xp_research_cost = 100
+		xp_research_bonus = 1.00
         
-        research_cost = 6
+        research_cost = 12
 
         land_reinforce_rate = 0.03
 
@@ -675,8 +717,11 @@ technologies = {
     # Unceasing Morale
     conqueror_tech_15 = {
         doctrine = yes
+        xp_research_type = army
+		xp_research_cost = 100
+		xp_research_bonus = 1.00
         
-        research_cost = 6
+        research_cost = 12
 
         army_morale_factor = 0.1
         
@@ -726,8 +771,11 @@ technologies = {
     # Commmon Techniques
     conqueror_tech_16 = {
         doctrine = yes
+        xp_research_type = army
+		xp_research_cost = 100
+		xp_research_bonus = 1.00
         
-        research_cost = 6
+        research_cost = 12
 
         combat_width_factor = -0.25
         
@@ -770,8 +818,11 @@ technologies = {
     # Hardy Troops
     conqueror_tech_17 = {
         doctrine = yes
+        xp_research_type = army
+		xp_research_cost = 100
+		xp_research_bonus = 1.00
         
-        research_cost = 6
+        research_cost = 12
 
         terrain_penalty_reduction = 0.25
         
@@ -821,8 +872,11 @@ technologies = {
     # Living off the Land
     conqueror_tech_18 = {
         doctrine = yes
+        xp_research_type = army
+		xp_research_cost = 100
+		xp_research_bonus = 1.00
         
-        research_cost = 6
+        research_cost = 12
 
         supply_consumption_factor = -0.25
         
@@ -865,8 +919,11 @@ technologies = {
     # Fatal Strikes
     conqueror_tech_19 = {
         doctrine = yes
+        xp_research_type = army
+		xp_research_cost = 100
+		xp_research_bonus = 1.00
         
-        research_cost = 6
+        research_cost = 12
 
         army_attack_factor = 0.25
         
@@ -900,8 +957,11 @@ technologies = {
     # Mass Communications
     conqueror_tech_20 = {
         doctrine = yes
+        xp_research_type = army
+		xp_research_cost = 100
+		xp_research_bonus = 1.00
         
-        research_cost = 6
+        research_cost = 12
 
         org_loss_when_moving = -0.1
         
@@ -935,8 +995,11 @@ technologies = {
     # Until the Last Breath
     conqueror_tech_21 = {
         doctrine = yes
+        xp_research_type = army
+		xp_research_cost = 100
+		xp_research_bonus = 1.00
         
-        research_cost = 6
+        research_cost = 12
 
         land_night_attack = 0.25
         
@@ -972,10 +1035,13 @@ technologies = {
     #---------------------------------------
     guardian_tech_1 = {
         doctrine = yes
+        xp_research_type = army
+		xp_research_cost = 100
+		xp_research_bonus = 1.00
         
         army_defence_factor = 0.25
         
-        research_cost = 6
+        research_cost = 12
 
         xor = { conqueror_tech_1 }
         
@@ -1025,10 +1091,13 @@ technologies = {
     # Resolute Defenders
     guardian_tech_2 = {
         doctrine = yes
+        xp_research_type = army
+		xp_research_cost = 100
+		xp_research_bonus = 1.00
         
         army_morale_factor = 0.15
         
-        research_cost = 6
+        research_cost = 12
 
         enable_tactic = tactic_guerrilla_tactics
         
@@ -1070,8 +1139,11 @@ technologies = {
 
     guardian_tech_3 = {
         doctrine = yes
+        xp_research_type = army
+		xp_research_cost = 100
+		xp_research_bonus = 1.00
 
-        research_cost = 6
+        research_cost = 12
         
         category_cavalry = {
             defense = 0.15
@@ -1122,8 +1194,11 @@ technologies = {
     
     guardian_tech_4 = {
         doctrine = yes
+        xp_research_type = army
+		xp_research_cost = 100
+		xp_research_bonus = 1.00
         
-        research_cost = 6
+        research_cost = 12
 
         category_cavalry = {
             armor_value = 0.1
@@ -1167,8 +1242,11 @@ technologies = {
     
     guardian_tech_5 = {
         doctrine = yes
+        xp_research_type = army
+		xp_research_cost = 100
+		xp_research_bonus = 1.00
         
-        research_cost = 6
+        research_cost = 12
 
         category_infantry = {
             defense = 0.15
@@ -1219,8 +1297,11 @@ technologies = {
     
     guardian_tech_6 = {
         doctrine = yes
+        xp_research_type = army
+		xp_research_cost = 100
+		xp_research_bonus = 1.00
         
-        research_cost = 6
+        research_cost = 12
 
         category_infantry = {
             armor_value = 0.1
@@ -1264,8 +1345,11 @@ technologies = {
     
     guardian_tech_7 = {
         doctrine = yes
+        xp_research_type = army
+		xp_research_cost = 100
+		xp_research_bonus = 1.00
         
-        research_cost = 6
+        research_cost = 12
 
         category_cavalry = {
             soft_attack = 0.15
@@ -1305,8 +1389,11 @@ technologies = {
     
     guardian_tech_8 = {
         doctrine = yes
+        xp_research_type = army
+		xp_research_cost = 100
+		xp_research_bonus = 1.00
         
-        research_cost = 6
+        research_cost = 12
 
         category_cavalry = {
             max_organisation = 10
@@ -1341,8 +1428,11 @@ technologies = {
     
     guardian_tech_9 = {
         doctrine = yes
+        xp_research_type = army
+		xp_research_cost = 100
+		xp_research_bonus = 1.00
         
-        research_cost = 6
+        research_cost = 12
 
         category_cavalry = {
             hardness = 0.1
@@ -1382,8 +1472,11 @@ technologies = {
     
     guardian_tech_10 = {
         doctrine = yes
+        xp_research_type = army
+		xp_research_cost = 100
+		xp_research_bonus = 1.00
         
-        research_cost = 6
+        research_cost = 12
 
         category_infantry = {
             entrenchment = 5
@@ -1423,12 +1516,15 @@ technologies = {
     
     guardian_tech_11 = {
         doctrine = yes
+        xp_research_type = army
+		xp_research_cost = 100
+		xp_research_bonus = 1.00
         
         category_infantry = {
             max_organisation = 10
         }
         
-        research_cost = 6
+        research_cost = 12
 
         folder = {
 			name = land_doctrine_folder
@@ -1459,12 +1555,15 @@ technologies = {
     
     guardian_tech_12 = {
         doctrine = yes
+        xp_research_type = army
+		xp_research_cost = 100
+		xp_research_bonus = 1.00
         
         category_infantry = {
             hardness = 0.15
         }
         
-        research_cost = 6
+        research_cost = 12
 
         folder = {
 			name = land_doctrine_folder
@@ -1500,13 +1599,16 @@ technologies = {
     
     guardian_tech_13 = {
         doctrine = yes
+        xp_research_type = army
+		xp_research_cost = 100
+		xp_research_bonus = 1.00
         
         experience_loss_factor = -0.1
         
         enable_tactic = tactic_elastic_defense
         enable_tactic = tactic_overwhelming_fire
         
-        research_cost = 6
+        research_cost = 12
 
         folder = {
 			name = land_doctrine_folder
@@ -1542,10 +1644,13 @@ technologies = {
     
     guardian_tech_14 = {
         doctrine = yes
+        xp_research_type = army
+		xp_research_cost = 100
+		xp_research_bonus = 1.00
         
         max_planning = 0.25
         
-        research_cost = 6
+        research_cost = 12
 
         enable_tactic = tactic_tactical_withdrawal
         enable_tactic = tactic_backhand_blow
@@ -1588,10 +1693,13 @@ technologies = {
     
     guardian_tech_15 = {
         doctrine = yes
+        xp_research_type = army
+		xp_research_cost = 100
+		xp_research_bonus = 1.00
         
         out_of_supply_factor = -0.25
         
-        research_cost = 6
+        research_cost = 12
 
         xor = { guardian_tech_17 }
         
@@ -1638,10 +1746,13 @@ technologies = {
     
     guardian_tech_16 = {
         doctrine = yes
+        xp_research_type = army
+		xp_research_cost = 100
+		xp_research_bonus = 1.00
         
         attrition = -0.25
         
-        research_cost = 6
+        research_cost = 12
 
         folder = {
 			name = land_doctrine_folder
@@ -1681,10 +1792,13 @@ technologies = {
     
     guardian_tech_17 = {
         doctrine = yes
+        xp_research_type = army
+		xp_research_cost = 100
+		xp_research_bonus = 1.00
         
         dig_in_speed_factor = 0.25
         
-        research_cost = 6
+        research_cost = 12
 
         xor = { guardian_tech_15 }
         
@@ -1731,10 +1845,13 @@ technologies = {
 
     guardian_tech_18 = {
         doctrine = yes
+        xp_research_type = army
+		xp_research_cost = 100
+		xp_research_bonus = 1.00
         
         max_dig_in_factor = 0.25
         
-        research_cost = 6
+        research_cost = 12
 
         folder = {
 			name = land_doctrine_folder
@@ -1774,10 +1891,13 @@ technologies = {
     
     guardian_tech_19 = {
         doctrine = yes
+        xp_research_type = army
+		xp_research_cost = 100
+		xp_research_bonus = 1.00
         
         army_defence_factor = 0.25
         
-        research_cost = 6
+        research_cost = 12
 
         folder = {
 			name = land_doctrine_folder
@@ -1808,10 +1928,13 @@ technologies = {
     
     guardian_tech_20 = {
         doctrine = yes
+        xp_research_type = army
+		xp_research_cost = 100
+		xp_research_bonus = 1.00
         
         pocket_penalty = -0.25
         
-        research_cost = 6
+        research_cost = 12
 
         folder = {
 			name = land_doctrine_folder
@@ -1842,10 +1965,13 @@ technologies = {
     
     guardian_tech_21 = {
         doctrine = yes
+        xp_research_type = army
+		xp_research_cost = 100
+		xp_research_bonus = 1.00
         
         planning_speed = 0.25
         
-        research_cost = 6
+        research_cost = 12
 
         folder = {
 			name = land_doctrine_folder

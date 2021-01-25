@@ -1,13 +1,11 @@
 ﻿#-----------------------------
 # Plan
 #-----------------------------
-Change history to Wrath of the Lich King
 
-Add focuses for Stormwind/Orgrimmar/Scourge
 #-----------------------------
 # TODO
-#----------------------------- 
-Update equipment for latest stuff (i.e. naval parts, etc)
+#-----------------------------
+Add focuses
 
-# Army
+Convert core/religion gui into new topbar buttons and side views.
 

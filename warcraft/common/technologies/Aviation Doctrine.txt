@@ -24,10 +24,13 @@ technologies = {
 
     aviation_doctrine_tech_1 = {
         doctrine = yes
+        xp_research_type = air
+		xp_research_cost = 100
+		xp_research_bonus = 1.00
         
         experience_gain_air = 0.05
         
-        research_cost = 6
+        research_cost = 12
 
         folder = {
 			name = air_doctrine_folder
@@ -63,10 +66,13 @@ technologies = {
     
     aviation_doctrine_tech_2 = {
         doctrine = yes
+        xp_research_type = air
+		xp_research_cost = 100
+		xp_research_bonus = 1.00
         
         air_superiority_efficiency = 0.25
         
-        research_cost = 6
+        research_cost = 12
 
         folder = {
 			name = air_doctrine_folder
@@ -106,8 +112,11 @@ technologies = {
 
     aviation_doctrine_tech_3 = {
         doctrine = yes
+        xp_research_type = air
+		xp_research_cost = 100
+		xp_research_bonus = 1.00
 
-        research_cost = 6
+        research_cost = 12
         
         fighter = {
             air_attack = 0.25
@@ -161,6 +170,9 @@ technologies = {
     
     aviation_doctrine_tech_4 = {
         doctrine = yes
+        xp_research_type = air
+		xp_research_cost = 100
+		xp_research_bonus = 1.00
         
         fighter = {
             air_agility = 0.25
@@ -169,7 +181,7 @@ technologies = {
             air_agility = 0.25
         }
         
-        research_cost = 6
+        research_cost = 12
 
         folder = {
 			name = air_doctrine_folder
@@ -209,8 +221,11 @@ technologies = {
     
     aviation_doctrine_tech_5 = {
         doctrine = yes
+        xp_research_type = air
+		xp_research_cost = 100
+		xp_research_bonus = 1.00
         
-        research_cost = 6
+        research_cost = 12
 
         strat_bomber = {
             air_bombing = 0.25
@@ -264,8 +279,11 @@ technologies = {
     
     aviation_doctrine_tech_6 = {
         doctrine = yes
+        xp_research_type = air
+		xp_research_cost = 100
+		xp_research_bonus = 1.00
         
-        research_cost = 6
+        research_cost = 12
 
         strat_bomber = {
             air_defence = 0.25
@@ -312,8 +330,11 @@ technologies = {
     
     aviation_doctrine_tech_7 = {
         doctrine = yes
+        xp_research_type = air
+		xp_research_cost = 100
+		xp_research_bonus = 1.00
         
-        research_cost = 6
+        research_cost = 12
 
         fighter = {
             air_superiority = 0.25
@@ -353,8 +374,11 @@ technologies = {
     
     aviation_doctrine_tech_8 = {
         doctrine = yes
+        xp_research_type = air
+		xp_research_cost = 100
+		xp_research_bonus = 1.00
         
-        research_cost = 6
+        research_cost = 12
 
         cas = {
             air_ground_attack = 0.25
@@ -389,8 +413,11 @@ technologies = {
     
     aviation_doctrine_tech_9 = {
         doctrine = yes
+        xp_research_type = air
+		xp_research_cost = 100
+		xp_research_bonus = 1.00
         
-        research_cost = 6
+        research_cost = 12
 
         fighter = {
             air_range = 0.25
@@ -433,8 +460,11 @@ technologies = {
     
     aviation_doctrine_tech_10 = {
         doctrine = yes
+        xp_research_type = air
+		xp_research_cost = 100
+		xp_research_bonus = 1.00
         
-        research_cost = 6
+        research_cost = 12
 
         tac_bomber = {
             air_agility = 0.25
@@ -474,8 +504,11 @@ technologies = {
     
     aviation_doctrine_tech_11 = {
         doctrine = yes
+        xp_research_type = air
+		xp_research_cost = 100
+		xp_research_bonus = 1.00
         
-        research_cost = 6
+        research_cost = 12
 
         strat_bomber = {
             air_attack = 0.25
@@ -510,8 +543,11 @@ technologies = {
     
     aviation_doctrine_tech_12 = {
         doctrine = yes
+        xp_research_type = air
+		xp_research_cost = 100
+		xp_research_bonus = 1.00
         
-        research_cost = 6
+        research_cost = 12
 
         tac_bomber = {
             air_range = 0.25
@@ -554,8 +590,11 @@ technologies = {
     
     aviation_doctrine_tech_13 = {
         doctrine = yes
+        xp_research_type = air
+		xp_research_cost = 100
+		xp_research_bonus = 1.00
         
-        research_cost = 6
+        research_cost = 12
 
         air_mission_efficiency = 0.25
         
@@ -593,10 +632,13 @@ technologies = {
     
     aviation_doctrine_tech_14 = {
         doctrine = yes
+        xp_research_type = air
+		xp_research_cost = 100
+		xp_research_bonus = 1.00
         
         air_night_penalty = -0.25
         
-        research_cost = 6
+        research_cost = 12
 
         folder = {
 			name = air_doctrine_folder
@@ -636,8 +678,11 @@ technologies = {
     
     aviation_doctrine_tech_15 = {
         doctrine = yes
+        xp_research_type = air
+		xp_research_cost = 100
+		xp_research_bonus = 1.00
         
-        research_cost = 6
+        research_cost = 12
 
         air_superiority_efficiency = 0.25
         
@@ -686,8 +731,11 @@ technologies = {
     
     aviation_doctrine_tech_16 = {
         doctrine = yes
+        xp_research_type = air
+		xp_research_cost = 100
+		xp_research_bonus = 1.00
         
-        research_cost = 6
+        research_cost = 12
 
         air_intercept_efficiency = 0.25
         
@@ -729,8 +777,11 @@ technologies = {
     
     aviation_doctrine_tech_17 = {
         doctrine = yes
+        xp_research_type = air
+		xp_research_cost = 100
+		xp_research_bonus = 1.00
         
-        research_cost = 6
+        research_cost = 12
 
         air_cas_efficiency = 0.25
         
@@ -779,8 +830,11 @@ technologies = {
 
     aviation_doctrine_tech_18 = {
         doctrine = yes
+        xp_research_type = air
+		xp_research_cost = 100
+		xp_research_bonus = 1.00
         
-        research_cost = 6
+        research_cost = 12
 
         air_weather_penalty = 0.25
         
@@ -822,8 +876,11 @@ technologies = {
     
     aviation_doctrine_tech_19 = {
         doctrine = yes
+        xp_research_type = air
+		xp_research_cost = 100
+		xp_research_bonus = 1.00
         
-        research_cost = 6
+        research_cost = 12
 
         air_mission_efficiency = 0.25
         
@@ -856,8 +913,11 @@ technologies = {
     
     aviation_doctrine_tech_20 = {
         doctrine = yes
+        xp_research_type = air
+		xp_research_cost = 100
+		xp_research_bonus = 1.00
         
-        research_cost = 6
+        research_cost = 12
 
         air_superiority_detect_factor = 0.25
         
@@ -890,8 +950,11 @@ technologies = {
     
     aviation_doctrine_tech_21 = {
         doctrine = yes
+        xp_research_type = air
+		xp_research_cost = 100
+		xp_research_bonus = 1.00
         
-        research_cost = 6
+        research_cost = 12
 
         air_bombing_targetting = 0.25
         

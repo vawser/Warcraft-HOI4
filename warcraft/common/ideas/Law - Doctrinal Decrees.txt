@@ -1,0 +1,64 @@
+ideas = {
+    doctrinal_decree = {
+        # Focus on Land Warfare
+        doctrinal_decree_focus_on_land_warfare = {
+            allowed = {
+                NOT = {
+                    has_available_idea_with_traits = {
+                        idea = doctrinal_trait_focus_on_land_warfare
+                        limit = 1
+                    }
+                }
+            }
+            
+            research_bonus = {
+				land_doctrine_tech = 0.15
+			}
+            
+            traits = { doctrinal_trait_focus_on_land_warfare }
+            ai_will_do = {
+                factor = 1
+            }
+        }
+        # Focus on Naval Warfare
+        doctrinal_decree_focus_on_naval_warfare = {
+            allowed = {
+                NOT = {
+                    has_available_idea_with_traits = {
+                        idea = doctrinal_trait_focus_on_naval_warfare
+                        limit = 1
+                    }
+                }
+            }
+            
+            research_bonus = {
+				naval_doctrine_tech = 0.15
+			}
+            
+            traits = { doctrinal_trait_focus_on_naval_warfare }
+            ai_will_do = {
+                factor = 1
+            }
+        }
+        # Focus on Aerial Warfare
+        doctrinal_decree_focus_on_aerial_warfare = {
+            allowed = {
+                NOT = {
+                    has_available_idea_with_traits = {
+                        idea = doctrinal_trait_focus_on_aerial_warfare
+                        limit = 1
+                    }
+                }
+            }
+            
+            research_bonus = {
+				air_doctrine_tech = 0.15
+			}
+            
+            traits = { doctrinal_trait_focus_on_aerial_warfare }
+            ai_will_do = {
+                factor = 1
+            }
+        }
+    }
+}

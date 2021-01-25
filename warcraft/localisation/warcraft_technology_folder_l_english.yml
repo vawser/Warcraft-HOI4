@@ -9,6 +9,8 @@
  air_folder_desc: "Often mounted on griffons, flying units unlesh death from above."
  navy_folder: "Navy"
  navy_folder_desc: "He who rules the waves rules the shores."
+ navy_mtg_folder: "Navy"
+ navy_mtg_folder_desc: "He who rules the waves rules the shores."
  
  land_doctrine_folder: "Army Doctrine"
  land_doctrine_folder_desc: ""

@@ -34,9 +34,9 @@ add_ideas = {
     
 	racial_black_dragonflight
     
-    civil_economy
-    minimal_trade
-    low_conscription
+    economy_civilian
+    trade_minimal
+    conscription_low
     
 }
 

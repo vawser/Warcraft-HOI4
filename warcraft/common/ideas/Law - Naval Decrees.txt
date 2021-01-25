@@ -1,0 +1,156 @@
+ideas = {
+    naval_decree = {
+        # Capital Ship Focus
+        naval_decree_capital_ship_focus = {
+            allowed = {
+                NOT = {
+                    has_available_idea_with_traits = {
+                        idea = naval_trait_capital_ship_focus
+                        limit = 1
+                    }
+                }
+            }
+            traits = { naval_trait_capital_ship_focus }
+            ai_will_do = {
+                factor = 1
+            }
+        }
+        # Carrier Focus
+        naval_decree_carrier_focus = {
+            allowed = {
+                always = no # Carriers not implemented currently
+                NOT = {
+                    has_available_idea_with_traits = {
+                        idea = naval_trait_carrier_focus
+                        limit = 1
+                    }
+                }
+            }
+            traits = { naval_trait_carrier_focus }
+            ai_will_do = {
+                factor = 1
+            }
+        }
+        # Screening Focus
+        naval_decree_screening_focus = {
+            allowed = {
+                NOT = {
+                    has_available_idea_with_traits = {
+                        idea = naval_trait_screening_focus
+                        limit = 1
+                    }
+                }
+            }
+            traits = { naval_trait_screening_focus }
+            ai_will_do = {
+                factor = 1
+            }
+        }
+        # Submarine Focus
+        naval_decree_submarine_focus = {
+            allowed = {
+                NOT = {
+                    has_available_idea_with_traits = {
+                        idea = naval_trait_submarine_focus
+                        limit = 1
+                    }
+                }
+            }
+            traits = { naval_trait_submarine_focus }
+            ai_will_do = {
+                factor = 1
+            }
+        }
+        # Anti-Submarine Effort
+        naval_decree_anti_submarine_effort = {
+            allowed = {
+                NOT = {
+                    has_available_idea_with_traits = {
+                        idea = naval_trait_anti_submarine_effort
+                        limit = 1
+                    }
+                }
+            }
+            traits = { naval_trait_anti_submarine_effort }
+            ai_will_do = {
+                factor = 1
+            }
+        }
+        # Commerce Raiding Effort
+        naval_decree_commerce_raiding_effort = {
+            allowed = {
+                NOT = {
+                    has_available_idea_with_traits = {
+                        idea = naval_trait_commerce_raiding_effort
+                        limit = 1
+                    }
+                }
+            }
+            traits = { naval_trait_commerce_raiding_effort }
+            ai_will_do = {
+                factor = 1
+            }
+        }
+        # Naval Speed Focus
+        naval_decree_naval_speed_focus = {
+            allowed = {
+                NOT = {
+                    has_available_idea_with_traits = {
+                        idea = naval_trait_naval_speed_focus
+                        limit = 1
+                    }
+                }
+            }
+            traits = { naval_trait_naval_speed_focus }
+            ai_will_do = {
+                factor = 1
+            }
+        }
+        # Anti-Air Efforts
+        naval_decree_anti_air_efforts = {
+            allowed = {
+                NOT = {
+                    has_available_idea_with_traits = {
+                        idea = naval_trait_anti_air_efforts
+                        limit = 1
+                    }
+                }
+            }
+            traits = { naval_trait_anti_air_efforts }
+            ai_will_do = {
+                factor = 1
+            }
+        }
+        # Bolster Amphibious Assault
+        naval_decree_bolster_amphibious_assault = {
+            allowed = {
+                NOT = {
+                    has_available_idea_with_traits = {
+                        idea = naval_trait_bolster_amphibious_assault
+                        limit = 1
+                    }
+                }
+            }
+            traits = { naval_trait_bolster_amphibious_assault }
+            ai_will_do = {
+                factor = 1
+            }
+        }
+        # Bolster Aerial Assault
+        naval_decree_bolster_aerial_assault = {
+            allowed = {
+                always = no # Carriers not implemented yet
+                NOT = {
+                    has_available_idea_with_traits = {
+                        idea = naval_trait_bolster_aerial_assault
+                        limit = 1
+                    }
+                }
+            }
+            traits = { naval_trait_bolster_aerial_assault }
+            ai_will_do = {
+                factor = 1
+            }
+        }
+    }
+}

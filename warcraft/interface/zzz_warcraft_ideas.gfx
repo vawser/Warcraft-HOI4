@@ -151,67 +151,6 @@ spriteTypes = {
 	}
     
     #-------------------------------------
-    # Laws
-    #-------------------------------------
-    # Economy
-    spriteType = {
-		name = "GFX_idea_civil_economy"
-		texturefile = "gfx/interface/ideas/politics/civil_economy.dds"
-	}
-    spriteType = {
-		name = "GFX_idea_war_economy"
-		texturefile = "gfx/interface/ideas/politics/war_economy.dds"
-	}
-    spriteType = {
-		name = "GFX_idea_transitional_economy"
-		texturefile = "gfx/interface/ideas/politics/transitional_economy.dds"
-	}
-    spriteType = {
-		name = "GFX_idea_command_economy"
-		texturefile = "gfx/interface/ideas/politics/command_economy.dds"
-	}
-    
-    # Trade
-    spriteType = {
-		name = "GFX_idea_free_trade"
-		texturefile = "gfx/interface/ideas/politics/free_trade.dds"
-	}
-    spriteType = {
-		name = "GFX_idea_limited_trade"
-		texturefile = "gfx/interface/ideas/politics/limited_trade.dds"
-	}
-    spriteType = {
-		name = "GFX_idea_minimal_trade"
-		texturefile = "gfx/interface/ideas/politics/minimal_trade.dds"
-	}
-    spriteType = {
-		name = "GFX_idea_no_trade"
-		texturefile = "gfx/interface/ideas/politics/no_trade.dds"
-	}
-    
-    # Conscription
-    spriteType = {
-		name = "GFX_idea_minimal_conscription"
-		texturefile = "gfx/interface/ideas/politics/conscription_1.dds"
-	}
-    spriteType = {
-		name = "GFX_idea_low_conscription"
-		texturefile = "gfx/interface/ideas/politics/conscription_3.dds"
-	}
-    spriteType = {
-		name = "GFX_idea_limited_conscription"
-		texturefile = "gfx/interface/ideas/politics/conscription_4.dds"
-	}
-    spriteType = {
-		name = "GFX_idea_high_conscription"
-		texturefile = "gfx/interface/ideas/politics/conscription_5.dds"
-	}
-    spriteType = {
-		name = "GFX_idea_maximal_conscription"
-		texturefile = "gfx/interface/ideas/politics/conscription_8.dds"
-	}
-    
-    #-------------------------------------
     # Racials
     #-------------------------------------
     spriteType = {
@@ -410,184 +349,6 @@ spriteTypes = {
 		name = "GFX_idea_racial_yaungol"
 		texturefile = "gfx/interface/ideas/racials/racial_yaungol.dds"
 	}
-    
-    #-------------------------------------
-    # Advisors
-    #-------------------------------------
-    spriteType = {
-        name = "GFX_idea_light_advisor"
-        texturefile = "gfx/interface/ideas/advisors/ideology_light.dds"
-    }
-    spriteType = {
-        name = "GFX_idea_shadow_advisor"
-        texturefile = "gfx/interface/ideas/advisors/ideology_shadow.dds"
-    }
-    spriteType = {
-        name = "GFX_idea_order_advisor"
-        texturefile = "gfx/interface/ideas/advisors/ideology_order.dds"
-    }
-    spriteType = {
-        name = "GFX_idea_disorder_advisor"
-        texturefile = "gfx/interface/ideas/advisors/ideology_disorder.dds"
-    }
-    spriteType = {
-        name = "GFX_idea_life_advisor"
-        texturefile = "gfx/interface/ideas/advisors/ideology_life.dds"
-    }
-    spriteType = {
-        name = "GFX_idea_death_advisor"
-        texturefile = "gfx/interface/ideas/advisors/ideology_death.dds"
-    }
-    spriteType = {
-        name = "GFX_idea_unaligned_advisor"
-        texturefile = "gfx/interface/ideas/advisors/ideology_unaligned.dds"
-    }
-    
-    spriteType = {
-        name = "GFX_idea_death_knight_advisor"
-        texturefile = "gfx/interface/ideas/advisors/death_knight.dds"
-    }
-    spriteType = {
-        name = "GFX_idea_demon_hunter_advisor"
-        texturefile = "gfx/interface/ideas/advisors/demon_hunter.dds"
-    }
-    spriteType = {
-        name = "GFX_idea_druid_advisor"
-        texturefile = "gfx/interface/ideas/advisors/druid.dds"
-    }
-    spriteType = {
-        name = "GFX_idea_hunter_advisor"
-        texturefile = "gfx/interface/ideas/advisors/hunter.dds"
-    }
-    spriteType = {
-        name = "GFX_idea_mage_advisor"
-        texturefile = "gfx/interface/ideas/advisors/mage.dds"
-    }
-    spriteType = {
-        name = "GFX_idea_monk_advisor"
-        texturefile = "gfx/interface/ideas/advisors/monk.dds"
-    }
-    spriteType = {
-        name = "GFX_idea_paladin_advisor"
-        texturefile = "gfx/interface/ideas/advisors/paladin.dds"
-    }
-    spriteType = {
-        name = "GFX_idea_priest_advisor"
-        texturefile = "gfx/interface/ideas/advisors/priest.dds"
-    }
-    spriteType = {
-        name = "GFX_idea_rogue_advisor"
-        texturefile = "gfx/interface/ideas/advisors/rogue.dds"
-    }
-    spriteType = {
-        name = "GFX_idea_shaman_advisor"
-        texturefile = "gfx/interface/ideas/advisors/shaman.dds"
-    }
-    spriteType = {
-        name = "GFX_idea_warlock_advisor"
-        texturefile = "gfx/interface/ideas/advisors/warlock.dds"
-    }
-    spriteType = {
-        name = "GFX_idea_warrior_advisor"
-        texturefile = "gfx/interface/ideas/advisors/warrior.dds"
-    }
-    spriteType = {
-        name = "GFX_idea_berserker_advisor"
-        texturefile = "gfx/interface/ideas/advisors/berserker.dds"
-    }
-    spriteType = {
-        name = "GFX_idea_champion_advisor"
-        texturefile = "gfx/interface/ideas/advisors/champion.dds"
-    }
-    spriteType = {
-        name = "GFX_idea_defender_advisor"
-        texturefile = "gfx/interface/ideas/advisors/defender.dds"
-    }
-    spriteType = {
-        name = "GFX_idea_hero_advisor"
-        texturefile = "gfx/interface/ideas/advisors/hero.dds"
-    }
-    spriteType = {
-        name = "GFX_idea_guardian_advisor"
-        texturefile = "gfx/interface/ideas/advisors/guardian.dds"
-    }
-    spriteType = {
-        name = "GFX_idea_protector_advisor"
-        texturefile = "gfx/interface/ideas/advisors/protector.dds"
-    }
-    spriteType = {
-        name = "GFX_idea_vanquisher_advisor"
-        texturefile = "gfx/interface/ideas/advisors/vanquisher.dds"
-    }
-    spriteType = {
-        name = "GFX_idea_conqueror_advisor"
-        texturefile = "gfx/interface/ideas/advisors/conqueror.dds"
-    }
-    spriteType = {
-        name = "GFX_idea_vindicator_advisor"
-        texturefile = "gfx/interface/ideas/advisors/vindicator.dds"
-    }
-    spriteType = {
-        name = "GFX_idea_sentinel_advisor"
-        texturefile = "gfx/interface/ideas/advisors/sentinel.dds"
-    }
-    spriteType = {
-        name = "GFX_idea_overseer_mil_advisor"
-        texturefile = "gfx/interface/ideas/advisors/overseer_mil.dds"
-    }
-    spriteType = {
-        name = "GFX_idea_custodian_advisor"
-        texturefile = "gfx/interface/ideas/advisors/custodian.dds"
-    }
-    
-    spriteType = {
-        name = "GFX_idea_patron_advisor"
-        texturefile = "gfx/interface/ideas/advisors/patron.dds"
-    }
-    spriteType = {
-        name = "GFX_idea_scout_advisor"
-        texturefile = "gfx/interface/ideas/advisors/scout.dds"
-    }
-    spriteType = {
-        name = "GFX_idea_recruiter_advisor"
-        texturefile = "gfx/interface/ideas/advisors/recruiter.dds"
-    }
-    spriteType = {
-        name = "GFX_idea_merchant_advisor"
-        texturefile = "gfx/interface/ideas/advisors/merchant.dds"
-    }
-    spriteType = {
-        name = "GFX_idea_spymaster_advisor"
-        texturefile = "gfx/interface/ideas/advisors/spymaster.dds"
-    }
-    spriteType = {
-        name = "GFX_idea_saboteur_advisor"
-        texturefile = "gfx/interface/ideas/advisors/saboteur.dds"
-    }
-    spriteType = {
-        name = "GFX_idea_inventor_advisor"
-        texturefile = "gfx/interface/ideas/advisors/inventor.dds"
-    }
-    spriteType = {
-        name = "GFX_idea_architect_advisor"
-        texturefile = "gfx/interface/ideas/advisors/architect.dds"
-    }
-    spriteType = {
-        name = "GFX_idea_builder_advisor"
-        texturefile = "gfx/interface/ideas/advisors/builder.dds"
-    }
-    spriteType = {
-        name = "GFX_idea_overseer_advisor"
-        texturefile = "gfx/interface/ideas/advisors/overseer_mil.dds"
-    }
-    spriteType = {
-        name = "GFX_idea_diplomat_advisor"
-        texturefile = "gfx/interface/ideas/advisors/diplomat.dds"
-    }
-    spriteType = {
-        name = "GFX_idea_strongman_advisor"
-        texturefile = "gfx/interface/ideas/advisors/strongman.dds"
-    }
     
     #-------------------------------------
     # Religion
@@ -909,5 +670,457 @@ spriteTypes = {
 		name = "GFX_idea_ceremonial_horn"
 		texturefile = "gfx/interface/ideas/ceremonial_horn.dds"
 	}
+    
+    #-------------------------------------
+    # Decrees
+    #-------------------------------------
+    # Army 
+    spriteType = {
+        name = "GFX_idea_army_decree_focus_offense"
+        texturefile = "gfx/interface/ideas/decrees/army_decree_focus_offense.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_army_decree_focus_defense"
+        texturefile = "gfx/interface/ideas/decrees/army_decree_focus_defense.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_army_decree_maintain_drill"
+        texturefile = "gfx/interface/ideas/decrees/army_decree_maintain_drill.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_army_decree_ensure_organisation"
+        texturefile = "gfx/interface/ideas/decrees/army_decree_ensure_organisation.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_army_decree_boost_morale"
+        texturefile = "gfx/interface/ideas/decrees/army_decree_boost_morale.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_army_decree_focused_marching"
+        texturefile = "gfx/interface/ideas/decrees/army_decree_focused_marching.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_army_decree_deep_entrenchment"
+        texturefile = "gfx/interface/ideas/decrees/army_decree_deep_entrenchment.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_army_decree_ensure_concealment"
+        texturefile = "gfx/interface/ideas/decrees/army_decree_ensure_concealment.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_army_decree_bolster_infantry"
+        texturefile = "gfx/interface/ideas/decrees/army_decree_bolster_infantry.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_army_decree_bolster_cavalry"
+        texturefile = "gfx/interface/ideas/decrees/army_decree_bolster_cavalry.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_army_decree_bolster_armor"
+        texturefile = "gfx/interface/ideas/decrees/army_decree_bolster_armor.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_army_decree_bolster_artillery"
+        texturefile = "gfx/interface/ideas/decrees/army_decree_bolster_artillery.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_army_decree_bolster_special_forces"
+        texturefile = "gfx/interface/ideas/decrees/army_decree_bolster_special_forces.dds"
+    }
+    
+    # Naval 
+    spriteType = {
+        name = "GFX_idea_naval_decree_capital_ship_focus"
+        texturefile = "gfx/interface/ideas/decrees/naval_decree_capital_ship_focus.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_naval_decree_carrier_focus"
+        texturefile = "gfx/interface/ideas/decrees/naval_decree_carrier_focus.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_naval_decree_screening_focus"
+        texturefile = "gfx/interface/ideas/decrees/naval_decree_screening_focus.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_naval_decree_submarine_focus"
+        texturefile = "gfx/interface/ideas/decrees/naval_decree_submarine_focus.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_naval_decree_anti_submarine_effort"
+        texturefile = "gfx/interface/ideas/decrees/naval_decree_anti_submarine_effort.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_naval_decree_commerce_raiding_effort"
+        texturefile = "gfx/interface/ideas/decrees/naval_decree_commerce_raiding_effort.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_naval_decree_naval_speed_focus"
+        texturefile = "gfx/interface/ideas/decrees/naval_decree_naval_speed_focus.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_naval_decree_anti_air_efforts"
+        texturefile = "gfx/interface/ideas/decrees/naval_decree_anti_air_efforts.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_naval_decree_bolster_amphibious_assault"
+        texturefile = "gfx/interface/ideas/decrees/naval_decree_bolster_amphibious_assault.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_naval_decree_bolster_aerial_assault"
+        texturefile = "gfx/interface/ideas/decrees/naval_decree_bolster_aerial_assault.dds"
+    }
+    
+    # Avaiation
+    spriteType = {
+        name = "GFX_idea_aviation_decree_weather_adaptation"
+        texturefile = "gfx/interface/ideas/decrees/aviation_decree_weather_adaptation.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_aviation_decree_reliability_efforts"
+        texturefile = "gfx/interface/ideas/decrees/aviation_decree_reliability_efforts.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_aviation_decree_practise_night_operations"
+        texturefile = "gfx/interface/ideas/decrees/aviation_decree_practise_night_operations.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_aviation_decree_ground_support_focus"
+        texturefile = "gfx/interface/ideas/decrees/aviation_decree_ground_support_focus.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_aviation_decree_naval_strike_focus"
+        texturefile = "gfx/interface/ideas/decrees/aviation_decree_naval_strike_focus.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_aviation_decree_aerial_interception_focus"
+        texturefile = "gfx/interface/ideas/decrees/aviation_decree_aerial_interception_focus.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_aviation_decree_aerial_superiority_focus"
+        texturefile = "gfx/interface/ideas/decrees/aviation_decree_aerial_superiority_focus.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_aviation_decree_close_air_support_focus"
+        texturefile = "gfx/interface/ideas/decrees/aviation_decree_close_air_support_focus.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_aviation_decree_strategic_bombing_focus"
+        texturefile = "gfx/interface/ideas/decrees/aviation_decree_strategic_bombing_focus.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_aviation_decree_tactical_bombing_focus"
+        texturefile = "gfx/interface/ideas/decrees/aviation_decree_tactical_bombing_focus.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_aviation_decree_airborne_support"
+        texturefile = "gfx/interface/ideas/decrees/aviation_decree_airborne_support.dds"
+    }
+    
+    # Logistical
+    spriteType = {
+        name = "GFX_idea_logistical_decree_bolster_supply_lines"
+        texturefile = "gfx/interface/ideas/decrees/logistical_decree_bolster_supply_lines.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_logistical_decree_bolster_fleet_logistics"
+        texturefile = "gfx/interface/ideas/decrees/logistical_decree_bolster_fleet_logistics.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_logistical_decree_conduct_aerial_training"
+        texturefile = "gfx/interface/ideas/decrees/logistical_decree_conduct_aerial_training.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_logistical_decree_improve_army_standards"
+        texturefile = "gfx/interface/ideas/decrees/logistical_decree_improve_army_standards.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_logistical_decree_improve_naval_standards"
+        texturefile = "gfx/interface/ideas/decrees/logistical_decree_improve_naval_standards.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_logistical_decree_improve_aviation_standards"
+        texturefile = "gfx/interface/ideas/decrees/logistical_decree_improve_aviation_standards.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_logistical_decree_conduct_fuel_usage_survey"
+        texturefile = "gfx/interface/ideas/decrees/logistical_decree_conduct_fuel_usage_survey.dds"
+    }
+    
+    # Doctrinal
+    spriteType = {
+        name = "GFX_idea_doctrinal_decree_focus_on_land_warfare"
+        texturefile = "gfx/interface/ideas/decrees/doctrinal_decree_focus_on_land_warfare.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_doctrinal_decree_focus_on_naval_warfare"
+        texturefile = "gfx/interface/ideas/decrees/doctrinal_decree_focus_on_naval_warfare.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_doctrinal_decree_focus_on_aerial_warfare"
+        texturefile = "gfx/interface/ideas/decrees/doctrinal_decree_focus_on_aerial_warfare.dds"
+    }
+    
+    # Command
+    spriteType = {
+        name = "GFX_idea_command_decree_grant_free_hand"
+        texturefile = "gfx/interface/ideas/decrees/command_decree_grant_free_hand.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_command_decree_ensure_obedience"
+        texturefile = "gfx/interface/ideas/decrees/command_decree_ensure_obedience.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_command_decree_adjust_promotion_standards"
+        texturefile = "gfx/interface/ideas/decrees/command_decree_adjust_promotion_standards.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_command_decree_retain_command_structures"
+        texturefile = "gfx/interface/ideas/decrees/command_decree_retain_command_structures.dds"
+    }
+    
+    # Economy
+    spriteType = {
+		name = "GFX_idea_economy_civilian"
+		texturefile = "gfx/interface/ideas/politics/civil_economy.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_economy_warfooting"
+		texturefile = "gfx/interface/ideas/politics/transitional_economy.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_economy_wartime"
+		texturefile = "gfx/interface/ideas/politics/war_economy.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_economy_total_war"
+		texturefile = "gfx/interface/ideas/politics/command_economy.dds"
+	}
+    
+    # Trade
+    spriteType = {
+		name = "GFX_idea_trade_free_for_all"
+		texturefile = "gfx/interface/ideas/politics/free_trade.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_trade_limited"
+		texturefile = "gfx/interface/ideas/politics/limited_trade.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_trade_minimal"
+		texturefile = "gfx/interface/ideas/politics/minimal_trade.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_trade_none"
+		texturefile = "gfx/interface/ideas/politics/no_trade.dds"
+	}
+    
+    # Conscription
+    spriteType = {
+		name = "GFX_idea_conscription_minimal"
+		texturefile = "gfx/interface/ideas/politics/conscription_1.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_conscription_low"
+		texturefile = "gfx/interface/ideas/politics/conscription_3.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_conscription_limited"
+		texturefile = "gfx/interface/ideas/politics/conscription_4.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_conscription_high"
+		texturefile = "gfx/interface/ideas/politics/conscription_5.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_conscription_maximal"
+		texturefile = "gfx/interface/ideas/politics/conscription_8.dds"
+	}
+    
+    # Economic
+    spriteType = {
+        name = "GFX_idea_economic_decree_bolster_construction"
+        texturefile = "gfx/interface/ideas/decrees/economic_decree_bolster_construction.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_economic_decree_divert_goods"
+        texturefile = "gfx/interface/ideas/decrees/economic_decree_divert_goods.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_economic_decree_implement_standardized_conversion"
+        texturefile = "gfx/interface/ideas/decrees/economic_decree_implement_standardized_conversion.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_economic_decree_retain_industrial_knowledge"
+        texturefile = "gfx/interface/ideas/decrees/economic_decree_retain_industrial_knowledge.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_economic_decree_utilise_industrial_experience"
+        texturefile = "gfx/interface/ideas/decrees/economic_decree_utilise_industrial_experience.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_economic_decree_compile_substitution_lists"
+        texturefile = "gfx/interface/ideas/decrees/economic_decree_compile_substitution_lists.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_economic_decree_prepare_for_war"
+        texturefile = "gfx/interface/ideas/decrees/economic_decree_prepare_for_war.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_economic_decree_support_the_homeland"
+        texturefile = "gfx/interface/ideas/decrees/economic_decree_support_the_homeland.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_economic_decree_fortification_efforts"
+        texturefile = "gfx/interface/ideas/decrees/economic_decree_fortification_efforts.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_economic_decree_expand_national_reach"
+        texturefile = "gfx/interface/ideas/decrees/economic_decree_expand_national_reach.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_economic_decree_improve_fuel_extraction"
+        texturefile = "gfx/interface/ideas/decrees/economic_decree_improve_fuel_extraction.dds"
+    }
+    
+    # Research
+    spriteType = {
+        name = "GFX_idea_research_decree_industry"
+        texturefile = "gfx/interface/ideas/decrees/research_decree_industry.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_research_decree_resource"
+        texturefile = "gfx/interface/ideas/decrees/research_decree_resource.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_research_decree_infantry"
+        texturefile = "gfx/interface/ideas/decrees/research_decree_infantry.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_research_decree_cavalry"
+        texturefile = "gfx/interface/ideas/decrees/research_decree_cavalry.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_research_decree_vehicle"
+        texturefile = "gfx/interface/ideas/decrees/research_decree_vehicle.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_research_decree_support"
+        texturefile = "gfx/interface/ideas/decrees/research_decree_support.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_research_decree_cruiser"
+        texturefile = "gfx/interface/ideas/decrees/research_decree_cruiser.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_research_decree_battleship"
+        texturefile = "gfx/interface/ideas/decrees/research_decree_battleship.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_research_decree_submarine"
+        texturefile = "gfx/interface/ideas/decrees/research_decree_submarine.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_research_decree_destroyer"
+        texturefile = "gfx/interface/ideas/decrees/research_decree_destroyer.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_research_decree_fighter"
+        texturefile = "gfx/interface/ideas/decrees/research_decree_fighter.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_research_decree_cas"
+        texturefile = "gfx/interface/ideas/decrees/research_decree_cas.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_research_decree_tactical_bomber"
+        texturefile = "gfx/interface/ideas/decrees/research_decree_tactical_bomber.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_research_decree_strategic_bomber"
+        texturefile = "gfx/interface/ideas/decrees/research_decree_strategic_bomber.dds"
+    }
+    
+    # Political
+    spriteType = {
+        name = "GFX_idea_political_decree_political_efforts"
+        texturefile = "gfx/interface/ideas/decrees/political_decree_political_efforts.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_political_decree_grant_autonomy"
+        texturefile = "gfx/interface/ideas/decrees/political_decree_grant_autonomy.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_political_decree_bolster_diplomacy"
+        texturefile = "gfx/interface/ideas/decrees/political_decree_bolster_diplomacy.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_political_decree_bolster_trade"
+        texturefile = "gfx/interface/ideas/decrees/political_decree_bolster_trade.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_political_decree_unite_through_faith"
+        texturefile = "gfx/interface/ideas/decrees/political_decree_unite_through_faith.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_political_decree_bolster_faith"
+        texturefile = "gfx/interface/ideas/decrees/political_decree_bolster_faith.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_political_decree_align_with_holy"
+        texturefile = "gfx/interface/ideas/decrees/political_decree_align_with_holy.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_political_decree_align_with_shadow"
+        texturefile = "gfx/interface/ideas/decrees/political_decree_align_with_shadow.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_political_decree_align_with_order"
+        texturefile = "gfx/interface/ideas/decrees/political_decree_align_with_order.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_political_decree_align_with_disorder"
+        texturefile = "gfx/interface/ideas/decrees/political_decree_align_with_disorder.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_political_decree_align_with_nature"
+        texturefile = "gfx/interface/ideas/decrees/political_decree_align_with_nature.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_political_decree_align_with_death"
+        texturefile = "gfx/interface/ideas/decrees/political_decree_align_with_death.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_political_decree_align_with_the_unaligned"
+        texturefile = "gfx/interface/ideas/decrees/political_decree_align_with_the_unaligned.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_political_decree_stability_focus"
+        texturefile = "gfx/interface/ideas/decrees/political_decree_stability_focus.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_political_decree_war_support_focus"
+        texturefile = "gfx/interface/ideas/decrees/political_decree_war_support_focus.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_political_decree_justify_war"
+        texturefile = "gfx/interface/ideas/decrees/political_decree_justify_war.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_political_decree_expand_research"
+        texturefile = "gfx/interface/ideas/decrees/political_decree_expand_research.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_political_decree_quell_resistance"
+        texturefile = "gfx/interface/ideas/decrees/political_decree_quell_resistance.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_political_decree_protect_garrisons"
+        texturefile = "gfx/interface/ideas/decrees/political_decree_protect_garrisons.dds"
+    }
+    spriteType = {
+        name = "GFX_idea_political_decree_appease_subjects"
+        texturefile = "gfx/interface/ideas/decrees/political_decree_appease_subjects.dds"
+    }
+    
 }
 

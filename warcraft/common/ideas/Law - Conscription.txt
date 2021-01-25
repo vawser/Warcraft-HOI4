@@ -2,7 +2,7 @@ ideas = {
     conscription_laws = { 
         law = yes
         
-        minimal_conscription = {
+        conscription_minimal = {
             available = {
                 always = yes
             }
@@ -19,7 +19,7 @@ ideas = {
                 factor = 0
             }
         }
-        low_conscription = {
+        conscription_low = {
             available = {
                 has_war_support > 0.25
             }
@@ -41,7 +41,7 @@ ideas = {
                 }
             }
         }
-        limited_conscription = {
+        conscription_limited = {
             available = {
                 has_war_support > 0.5
             }
@@ -67,7 +67,7 @@ ideas = {
                 }
             }
         }
-        high_conscription = {
+        conscription_high = {
             available = {
                 has_war_support > 0.75
             }
@@ -93,7 +93,7 @@ ideas = {
                 }
             }
         }
-        maximal_conscription = {
+        conscription_maximal = {
             available = {
                 has_war_support > 0.9
             }

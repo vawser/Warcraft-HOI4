@@ -1138,6 +1138,90 @@ spriteTypes = {
         texturefile = "gfx/interface/ideas/technology/naval_invasion_preparation.dds"
     }
     
+    SpriteType = {
+        name = "GFX_mtg_navy_experience_1_medium"
+        texturefile = "gfx/interface/ideas/technology/navy_experience.dds"
+    }
+    SpriteType = {
+        name = "GFX_mtg_navy_experience_2_medium"
+        texturefile = "gfx/interface/ideas/technology/navy_experience.dds"
+    }
+    SpriteType = {
+        name = "GFX_mtg_navy_experience_3_medium"
+        texturefile = "gfx/interface/ideas/technology/navy_experience.dds"
+    }
+    SpriteType = {
+        name = "GFX_mtg_navy_experience_4_medium"
+        texturefile = "gfx/interface/ideas/technology/navy_experience.dds"
+    }
+    SpriteType = {
+        name = "GFX_mtg_navy_experience_5_medium"
+        texturefile = "gfx/interface/ideas/technology/navy_experience.dds"
+    }
+    
+    SpriteType = {
+        name = "GFX_mtg_naval_invasion_1_medium"
+        texturefile = "gfx/interface/ideas/technology/naval_invasion.dds"
+    }
+    SpriteType = {
+        name = "GFX_mtg_naval_invasion_2_medium"
+        texturefile = "gfx/interface/ideas/technology/naval_invasion.dds"
+    }
+    SpriteType = {
+        name = "GFX_mtg_naval_invasion_3_medium"
+        texturefile = "gfx/interface/ideas/technology/naval_invasion.dds"
+    }
+    SpriteType = {
+        name = "GFX_mtg_naval_invasion_4_medium"
+        texturefile = "gfx/interface/ideas/technology/naval_invasion.dds"
+    }
+    SpriteType = {
+        name = "GFX_mtg_naval_invasion_5_medium"
+        texturefile = "gfx/interface/ideas/technology/naval_invasion.dds"
+    }
+    
+    SpriteType = {
+        name = "GFX_mtg_naval_invasion_defence_1_medium"
+        texturefile = "gfx/interface/ideas/technology/naval_invasion_defence.dds"
+    }
+    SpriteType = {
+        name = "GFX_mtg_naval_invasion_defence_2_medium"
+        texturefile = "gfx/interface/ideas/technology/naval_invasion_defence.dds"
+    }
+    SpriteType = {
+        name = "GFX_mtg_naval_invasion_defence_3_medium"
+        texturefile = "gfx/interface/ideas/technology/naval_invasion_defence.dds"
+    }
+    SpriteType = {
+        name = "GFX_mtg_naval_invasion_defence_4_medium"
+        texturefile = "gfx/interface/ideas/technology/naval_invasion_defence.dds"
+    }
+    SpriteType = {
+        name = "GFX_mtg_naval_invasion_defence_5_medium"
+        texturefile = "gfx/interface/ideas/technology/naval_invasion_defence.dds"
+    }
+    
+    SpriteType = {
+        name = "GFX_mtg_naval_invasion_preparation_1_medium"
+        texturefile = "gfx/interface/ideas/technology/naval_invasion_preparation.dds"
+    }
+    SpriteType = {
+        name = "GFX_mtg_naval_invasion_preparation_2_medium"
+        texturefile = "gfx/interface/ideas/technology/naval_invasion_preparation.dds"
+    }
+    SpriteType = {
+        name = "GFX_mtg_naval_invasion_preparation_3_medium"
+        texturefile = "gfx/interface/ideas/technology/naval_invasion_preparation.dds"
+    }
+    SpriteType = {
+        name = "GFX_mtg_naval_invasion_preparation_4_medium"
+        texturefile = "gfx/interface/ideas/technology/naval_invasion_preparation.dds"
+    }
+    SpriteType = {
+        name = "GFX_mtg_naval_invasion_preparation_5_medium"
+        texturefile = "gfx/interface/ideas/technology/naval_invasion_preparation.dds"
+    }
+    
     #------------------------------------------------
     # Army
     #------------------------------------------------
@@ -1521,6 +1605,132 @@ spriteTypes = {
         texturefile = "gfx/interface/ideas/technology/submarine_equipment.dds"
     }
     
+        #------------------------------------------------
+    # Battleship
+    #------------------------------------------------
+    SpriteType = {
+        name = "GFX_mtg_battleship_tech_1_medium"
+        texturefile = "gfx/interface/ideas/technology/battleship_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_mtg_battleship_advancement_1_1_medium"
+        texturefile = "gfx/interface/ideas/technology/battleship_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_mtg_battleship_advancement_1_2_medium"
+        texturefile = "gfx/interface/ideas/technology/battleship_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_mtg_battleship_advancement_2_1_medium"
+        texturefile = "gfx/interface/ideas/technology/battleship_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_mtg_battleship_advancement_2_2_medium"
+        texturefile = "gfx/interface/ideas/technology/battleship_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_mtg_battleship_advancement_3_medium"
+        texturefile = "gfx/interface/ideas/technology/battleship_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_mtg_battleship_advancement_4_medium"
+        texturefile = "gfx/interface/ideas/technology/battleship_equipment.dds"
+    }
+    
+    #------------------------------------------------
+    # Cruiser
+    #------------------------------------------------
+    SpriteType = {
+        name = "GFX_mtg_cruiser_tech_1_medium"
+        texturefile = "gfx/interface/ideas/technology/cruiser_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_mtg_cruiser_advancement_1_1_medium"
+        texturefile = "gfx/interface/ideas/technology/cruiser_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_mtg_cruiser_advancement_1_2_medium"
+        texturefile = "gfx/interface/ideas/technology/cruiser_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_mtg_cruiser_advancement_2_1_medium"
+        texturefile = "gfx/interface/ideas/technology/cruiser_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_mtg_cruiser_advancement_2_2_medium"
+        texturefile = "gfx/interface/ideas/technology/cruiser_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_mtg_cruiser_advancement_3_medium"
+        texturefile = "gfx/interface/ideas/technology/cruiser_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_mtg_cruiser_advancement_4_medium"
+        texturefile = "gfx/interface/ideas/technology/cruiser_equipment.dds"
+    }
+    
+    #------------------------------------------------
+    # Destroyer
+    #------------------------------------------------
+    SpriteType = {
+        name = "GFX_mtg_destroyer_tech_1_medium"
+        texturefile = "gfx/interface/ideas/technology/destroyer_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_mtg_destroyer_advancement_1_1_medium"
+        texturefile = "gfx/interface/ideas/technology/destroyer_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_mtg_destroyer_advancement_1_2_medium"
+        texturefile = "gfx/interface/ideas/technology/destroyer_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_mtg_destroyer_advancement_2_1_medium"
+        texturefile = "gfx/interface/ideas/technology/destroyer_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_mtg_destroyer_advancement_2_2_medium"
+        texturefile = "gfx/interface/ideas/technology/destroyer_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_mtg_destroyer_advancement_3_medium"
+        texturefile = "gfx/interface/ideas/technology/destroyer_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_mtg_destroyer_advancement_4_medium"
+        texturefile = "gfx/interface/ideas/technology/destroyer_equipment.dds"
+    }
+    #------------------------------------------------
+    # Submarine
+    #------------------------------------------------
+    SpriteType = {
+        name = "GFX_mtg_submarine_tech_1_medium"
+        texturefile = "gfx/interface/ideas/technology/submarine_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_mtg_submarine_advancement_1_1_medium"
+        texturefile = "gfx/interface/ideas/technology/submarine_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_mtg_submarine_advancement_1_2_medium"
+        texturefile = "gfx/interface/ideas/technology/submarine_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_mtg_submarine_advancement_2_1_medium"
+        texturefile = "gfx/interface/ideas/technology/submarine_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_mtg_submarine_advancement_2_2_medium"
+        texturefile = "gfx/interface/ideas/technology/submarine_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_mtg_submarine_advancement_3_medium"
+        texturefile = "gfx/interface/ideas/technology/submarine_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_mtg_submarine_advancement_4_medium"
+        texturefile = "gfx/interface/ideas/technology/submarine_equipment.dds"
+    }
     #------------------------------------------------
     # Industry
     #------------------------------------------------

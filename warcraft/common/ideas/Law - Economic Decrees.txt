@@ -1,0 +1,169 @@
+ideas = {
+    economic_decree = {
+        # Bolster Construction
+        economic_decree_bolster_construction = {
+            allowed = {
+                NOT = {
+                    has_available_idea_with_traits = {
+                        idea = economic_trait_bolster_construction
+                        limit = 1
+                    }
+                }
+            }
+            traits = { economic_trait_bolster_construction }
+            ai_will_do = {
+                factor = 1
+            }
+        }
+        # Divert Goods
+        economic_decree_divert_goods = {
+            allowed = {
+                NOT = {
+                    has_available_idea_with_traits = {
+                        idea = economic_trait_divert_goods
+                        limit = 1
+                    }
+                }
+            }
+            traits = { economic_trait_divert_goods }
+            ai_will_do = {
+                factor = 1
+            }
+        }
+        # Implement Standardized Conversion
+        economic_decree_implement_standardized_conversion = {
+            allowed = {
+                NOT = {
+                    has_available_idea_with_traits = {
+                        idea = economic_trait_implement_standardized_conversion
+                        limit = 1
+                    }
+                }
+            }
+            traits = { economic_trait_implement_standardized_conversion }
+            ai_will_do = {
+                factor = 1
+            }
+        }
+        # Retain Industrial Knowledge
+        economic_decree_retain_industrial_knowledge = {
+            allowed = {
+                NOT = {
+                    has_available_idea_with_traits = {
+                        idea = economic_trait_retain_industrial_knowledge
+                        limit = 1
+                    }
+                }
+            }
+            traits = { economic_trait_retain_industrial_knowledge }
+            ai_will_do = {
+                factor = 1
+            }
+        }
+        # Utilise Industrial Experience
+        economic_decree_utilise_industrial_experience = {
+            allowed = {
+                NOT = {
+                    has_available_idea_with_traits = {
+                        idea = economic_trait_utilise_industrial_experience
+                        limit = 1
+                    }
+                }
+            }
+            traits = { economic_trait_utilise_industrial_experience }
+            ai_will_do = {
+                factor = 1
+            }
+        }
+        # Compile Substitution Lists
+        economic_decree_compile_substitution_lists = {
+            allowed = {
+                NOT = {
+                    has_available_idea_with_traits = {
+                        idea = economic_trait_compile_substitution_lists
+                        limit = 1
+                    }
+                }
+            }
+            traits = { economic_trait_compile_substitution_lists }
+            ai_will_do = {
+                factor = 1
+            }
+        }
+        # Prepare for War
+        economic_decree_prepare_for_war = {
+            allowed = {
+                NOT = {
+                    has_available_idea_with_traits = {
+                        idea = economic_trait_prepare_for_war
+                        limit = 1
+                    }
+                }
+            }
+            traits = { economic_trait_prepare_for_war }
+            ai_will_do = {
+                factor = 1
+            }
+        }
+        # Support the Homeland
+        economic_decree_support_the_homeland = {
+            allowed = {
+                NOT = {
+                    has_available_idea_with_traits = {
+                        idea = economic_trait_support_the_homeland
+                        limit = 1
+                    }
+                }
+            }
+            traits = { economic_trait_support_the_homeland }
+            ai_will_do = {
+                factor = 1
+            }
+        }
+        # Fortification Efforts
+        economic_decree_fortification_efforts = {
+            allowed = {
+                NOT = {
+                    has_available_idea_with_traits = {
+                        idea = economic_trait_fortification_efforts
+                        limit = 1
+                    }
+                }
+            }
+            traits = { economic_trait_fortification_efforts }
+            ai_will_do = {
+                factor = 1
+            }
+        }
+        # Expand National Reach
+        economic_decree_expand_national_reach = {
+            allowed = {
+                NOT = {
+                    has_available_idea_with_traits = {
+                        idea = economic_trait_expand_national_reach
+                        limit = 1
+                    }
+                }
+            }
+            traits = { economic_trait_expand_national_reach }
+            ai_will_do = {
+                factor = 1
+            }
+        }
+        # Improve Fuel Extraction
+        economic_decree_improve_fuel_extraction = {
+            allowed = {
+                NOT = {
+                    has_available_idea_with_traits = {
+                        idea = economic_trait_improve_fuel_extraction
+                        limit = 1
+                    }
+                }
+            }
+            traits = { economic_trait_improve_fuel_extraction }
+            ai_will_do = {
+                factor = 1
+            }
+        }
+    }
+}

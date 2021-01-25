@@ -177,11 +177,11 @@ scripted_gui = {
         ai_test_interval = 168
         ai_test_variance = 0.1
         
-        AI will only ever target hostile neighbours.
-        Prevents weirdness across the world
+        # AI will only ever target hostile neighbours.
+        # Prevents weirdness across the world
         ai_test_scopes = test_neighbouring_enemy_countries
         
-        AI will only bother with large neighbours
+        # AI will only bother with large neighbours
         ai_check = {
             always = yes
         }

@@ -34,9 +34,9 @@ add_ideas = {
     primitive_nation
 	racial_satyr
     
-    war_economy
-    limited_trade
-    low_conscription
+    economy_wartime
+    trade_limited
+    conscription_low
     
 }
 

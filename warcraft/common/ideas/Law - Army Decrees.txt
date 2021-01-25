@@ -1,0 +1,200 @@
+ideas = {
+    army_decree = {
+        # Focus Offense
+        army_decree_focus_offense = {
+            allowed = {
+                NOT = {
+                    has_available_idea_with_traits = {
+                        idea = army_trait_focus_offense
+                        limit = 1
+                    }
+                }
+            }
+            traits = { army_trait_focus_offense }
+            ai_will_do = {
+                factor = 1
+            }
+        }
+        # Focus Defense
+        army_decree_focus_defense = {
+            allowed = {
+                NOT = {
+                    has_available_idea_with_traits = {
+                        idea = army_trait_focus_defense
+                        limit = 1
+                    }
+                }
+            }
+            traits = { army_trait_focus_defense }
+            ai_will_do = {
+                factor = 1
+            }
+        }
+        # Maintain Drill
+        army_decree_maintain_drill = {
+            allowed = {
+                NOT = {
+                    has_available_idea_with_traits = {
+                        idea = army_trait_maintain_drill
+                        limit = 1
+                    }
+                }
+            }
+            traits = { army_trait_maintain_drill }
+            ai_will_do = {
+                factor = 1
+            }
+        }
+        # Ensure Organisation
+        army_decree_ensure_organisation = {
+            allowed = {
+                NOT = {
+                    has_available_idea_with_traits = {
+                        idea = army_trait_ensure_organisation
+                        limit = 1
+                    }
+                }
+            }
+            traits = { army_trait_ensure_organisation }
+            ai_will_do = {
+                factor = 1
+            }
+        }
+        # Boost Morale
+        army_decree_boost_morale = {
+            allowed = {
+                NOT = {
+                    has_available_idea_with_traits = {
+                        idea = army_trait_boost_morale
+                        limit = 1
+                    }
+                }
+            }
+            traits = { army_trait_boost_morale }
+            ai_will_do = {
+                factor = 1
+            }
+        }
+        # Focused Marching
+        army_decree_focused_marching = {
+            allowed = {
+                NOT = {
+                    has_available_idea_with_traits = {
+                        idea = army_trait_focused_marching
+                        limit = 1
+                    }
+                }
+            }
+            traits = { army_trait_focused_marching }
+            ai_will_do = {
+                factor = 1
+            }
+        }
+        # Deep Entrenchment
+        army_decree_deep_entrenchment = {
+            allowed = {
+                NOT = {
+                    has_available_idea_with_traits = {
+                        idea = army_trait_deep_entrenchment
+                        limit = 1
+                    }
+                }
+            }
+            traits = { army_trait_deep_entrenchment }
+            ai_will_do = {
+                factor = 1
+            }
+        }
+        # Ensure Concealment
+        army_decree_ensure_concealment = {
+            allowed = {
+                NOT = {
+                    has_available_idea_with_traits = {
+                        idea = army_trait_ensure_concealment
+                        limit = 1
+                    }
+                }
+            }
+            traits = { army_trait_ensure_concealment }
+            ai_will_do = {
+                factor = 1
+            }
+        }
+        # Support Infantry
+        army_decree_bolster_infantry = {
+            allowed = {
+                NOT = {
+                    has_available_idea_with_traits = {
+                        idea = army_trait_bolster_infantry
+                        limit = 1
+                    }
+                }
+            }
+            traits = { army_trait_bolster_infantry }
+            ai_will_do = {
+                factor = 1
+            }
+        }
+        # Support Cavalry
+        army_decree_bolster_cavalry = {
+            allowed = {
+                NOT = {
+                    has_available_idea_with_traits = {
+                        idea = army_trait_bolster_cavalry
+                        limit = 1
+                    }
+                }
+            }
+            traits = { army_trait_bolster_cavalry }
+            ai_will_do = {
+                factor = 1
+            }
+        }
+        # Support Armor
+        army_decree_bolster_armor = {
+            allowed = {
+                NOT = {
+                    has_available_idea_with_traits = {
+                        idea = army_trait_bolster_armor
+                        limit = 1
+                    }
+                }
+            }
+            traits = { army_trait_bolster_armor }
+            ai_will_do = {
+                factor = 1
+            }
+        }
+        # Support Artillery
+        army_decree_bolster_artillery = {
+            allowed = {
+                NOT = {
+                    has_available_idea_with_traits = {
+                        idea = army_trait_bolster_artillery
+                        limit = 1
+                    }
+                }
+            }
+            traits = { army_trait_bolster_artillery }
+            ai_will_do = {
+                factor = 1
+            }
+        }
+        # Support Special Forces
+        army_decree_bolster_special_forces = {
+            allowed = {
+                NOT = {
+                    has_available_idea_with_traits = {
+                        idea = army_trait_bolster_special_forces
+                        limit = 1
+                    }
+                }
+            }
+            traits = { army_trait_bolster_special_forces }
+            ai_will_do = {
+                factor = 1
+            }
+        }
+    }
+}
+

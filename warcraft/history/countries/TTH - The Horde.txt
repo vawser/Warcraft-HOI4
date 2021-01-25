@@ -34,9 +34,9 @@ add_ideas = {
     orcish_conquerors
 	racial_orc
     
-    war_economy
-    minimal_trade
-    low_conscription
+    economy_wartime
+    trade_minimal
+    conscription_low
     
 }
 

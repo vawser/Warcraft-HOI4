@@ -797,6 +797,182 @@ spriteTypes = {
         texturefile = "gfx/interface/ideas/technology/submarine_equipment.dds"
     }
     SpriteType = {
+        name = "GFX_hull_battleship_equipment_0_tech_medium"
+        texturefile = "gfx/interface/ideas/technology/battleship_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_hull_battleship_equipment_1_tech_medium"
+        texturefile = "gfx/interface/ideas/technology/battleship_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_hull_battleship_equipment_2_tech_medium"
+        texturefile = "gfx/interface/ideas/technology/battleship_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_hull_battleship_equipment_3_tech_medium"
+        texturefile = "gfx/interface/ideas/technology/battleship_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_hull_battleship_equipment_4_tech_medium"
+        texturefile = "gfx/interface/ideas/technology/battleship_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_hull_battleship_equipment_5_tech_medium"
+        texturefile = "gfx/interface/ideas/technology/battleship_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_hull_battleship_equipment_6_tech_medium"
+        texturefile = "gfx/interface/ideas/technology/battleship_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_hull_battleship_equipment_7_tech_medium"
+        texturefile = "gfx/interface/ideas/technology/battleship_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_hull_battleship_equipment_8_tech_medium"
+        texturefile = "gfx/interface/ideas/technology/battleship_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_hull_battleship_equipment_9_tech_medium"
+        texturefile = "gfx/interface/ideas/technology/battleship_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_hull_battleship_equipment_10_tech_medium"
+        texturefile = "gfx/interface/ideas/technology/battleship_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_hull_destroyer_equipment_0_tech_medium"
+        texturefile = "gfx/interface/ideas/technology/destroyer_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_hull_destroyer_equipment_1_tech_medium"
+        texturefile = "gfx/interface/ideas/technology/destroyer_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_hull_destroyer_equipment_2_tech_medium"
+        texturefile = "gfx/interface/ideas/technology/destroyer_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_hull_destroyer_equipment_3_tech_medium"
+        texturefile = "gfx/interface/ideas/technology/destroyer_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_hull_destroyer_equipment_4_tech_medium"
+        texturefile = "gfx/interface/ideas/technology/destroyer_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_hull_destroyer_equipment_5_tech_medium"
+        texturefile = "gfx/interface/ideas/technology/destroyer_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_hull_destroyer_equipment_6_tech_medium"
+        texturefile = "gfx/interface/ideas/technology/destroyer_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_hull_destroyer_equipment_7_tech_medium"
+        texturefile = "gfx/interface/ideas/technology/destroyer_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_hull_destroyer_equipment_8_tech_medium"
+        texturefile = "gfx/interface/ideas/technology/destroyer_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_hull_destroyer_equipment_9_tech_medium"
+        texturefile = "gfx/interface/ideas/technology/destroyer_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_hull_destroyer_equipment_10_tech_medium"
+        texturefile = "gfx/interface/ideas/technology/destroyer_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_hull_cruiser_equipment_0_tech_medium"
+        texturefile = "gfx/interface/ideas/technology/cruiser_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_hull_cruiser_equipment_1_tech_medium"
+        texturefile = "gfx/interface/ideas/technology/cruiser_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_hull_cruiser_equipment_2_tech_medium"
+        texturefile = "gfx/interface/ideas/technology/cruiser_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_hull_cruiser_equipment_3_tech_medium"
+        texturefile = "gfx/interface/ideas/technology/cruiser_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_hull_cruiser_equipment_4_tech_medium"
+        texturefile = "gfx/interface/ideas/technology/cruiser_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_hull_cruiser_equipment_5_tech_medium"
+        texturefile = "gfx/interface/ideas/technology/cruiser_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_hull_cruiser_equipment_6_tech_medium"
+        texturefile = "gfx/interface/ideas/technology/cruiser_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_hull_cruiser_equipment_7_tech_medium"
+        texturefile = "gfx/interface/ideas/technology/cruiser_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_hull_cruiser_equipment_8_tech_medium"
+        texturefile = "gfx/interface/ideas/technology/cruiser_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_hull_cruiser_equipment_9_tech_medium"
+        texturefile = "gfx/interface/ideas/technology/cruiser_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_hull_cruiser_equipment_10_tech_medium"
+        texturefile = "gfx/interface/ideas/technology/cruiser_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_hull_submarine_equipment_0_tech_medium"
+        texturefile = "gfx/interface/ideas/technology/submarine_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_hull_submarine_equipment_1_tech_medium"
+        texturefile = "gfx/interface/ideas/technology/submarine_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_hull_submarine_equipment_2_tech_medium"
+        texturefile = "gfx/interface/ideas/technology/submarine_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_hull_submarine_equipment_3_tech_medium"
+        texturefile = "gfx/interface/ideas/technology/submarine_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_hull_submarine_equipment_4_tech_medium"
+        texturefile = "gfx/interface/ideas/technology/submarine_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_hull_submarine_equipment_5_tech_medium"
+        texturefile = "gfx/interface/ideas/technology/submarine_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_hull_submarine_equipment_6_tech_medium"
+        texturefile = "gfx/interface/ideas/technology/submarine_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_hull_submarine_equipment_7_tech_medium"
+        texturefile = "gfx/interface/ideas/technology/submarine_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_hull_submarine_equipment_8_tech_medium"
+        texturefile = "gfx/interface/ideas/technology/submarine_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_hull_submarine_equipment_9_tech_medium"
+        texturefile = "gfx/interface/ideas/technology/submarine_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_hull_submarine_equipment_10_tech_medium"
+        texturefile = "gfx/interface/ideas/technology/submarine_equipment.dds"
+    }
+    SpriteType = {
         name = "GFX_support_equipment_0_tech_medium"
         texturefile = "gfx/interface/ideas/technology/support_equipment.dds"
     }
@@ -1595,6 +1771,182 @@ spriteTypes = {
     SpriteType = {
         name = "GFX_support_equipment_0_medium"
         texturefile = "gfx/interface/ideas/technology/support_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_hull_battleship_equipment_0_medium"
+        texturefile = "gfx/interface/ideas/technology/battleship_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_hull_battleship_equipment_1_medium"
+        texturefile = "gfx/interface/ideas/technology/battleship_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_hull_battleship_equipment_2_medium"
+        texturefile = "gfx/interface/ideas/technology/battleship_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_hull_battleship_equipment_3_medium"
+        texturefile = "gfx/interface/ideas/technology/battleship_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_hull_battleship_equipment_4_medium"
+        texturefile = "gfx/interface/ideas/technology/battleship_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_hull_battleship_equipment_5_medium"
+        texturefile = "gfx/interface/ideas/technology/battleship_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_hull_battleship_equipment_6_medium"
+        texturefile = "gfx/interface/ideas/technology/battleship_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_hull_battleship_equipment_7_medium"
+        texturefile = "gfx/interface/ideas/technology/battleship_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_hull_battleship_equipment_8_medium"
+        texturefile = "gfx/interface/ideas/technology/battleship_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_hull_battleship_equipment_9_medium"
+        texturefile = "gfx/interface/ideas/technology/battleship_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_hull_battleship_equipment_10_medium"
+        texturefile = "gfx/interface/ideas/technology/battleship_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_hull_destroyer_equipment_0_medium"
+        texturefile = "gfx/interface/ideas/technology/destroyer_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_hull_destroyer_equipment_1_medium"
+        texturefile = "gfx/interface/ideas/technology/destroyer_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_hull_destroyer_equipment_2_medium"
+        texturefile = "gfx/interface/ideas/technology/destroyer_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_hull_destroyer_equipment_3_medium"
+        texturefile = "gfx/interface/ideas/technology/destroyer_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_hull_destroyer_equipment_4_medium"
+        texturefile = "gfx/interface/ideas/technology/destroyer_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_hull_destroyer_equipment_5_medium"
+        texturefile = "gfx/interface/ideas/technology/destroyer_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_hull_destroyer_equipment_6_medium"
+        texturefile = "gfx/interface/ideas/technology/destroyer_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_hull_destroyer_equipment_7_medium"
+        texturefile = "gfx/interface/ideas/technology/destroyer_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_hull_destroyer_equipment_8_medium"
+        texturefile = "gfx/interface/ideas/technology/destroyer_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_hull_destroyer_equipment_9_medium"
+        texturefile = "gfx/interface/ideas/technology/destroyer_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_hull_destroyer_equipment_10_medium"
+        texturefile = "gfx/interface/ideas/technology/destroyer_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_hull_cruiser_equipment_0_medium"
+        texturefile = "gfx/interface/ideas/technology/cruiser_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_hull_cruiser_equipment_1_medium"
+        texturefile = "gfx/interface/ideas/technology/cruiser_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_hull_cruiser_equipment_2_medium"
+        texturefile = "gfx/interface/ideas/technology/cruiser_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_hull_cruiser_equipment_3_medium"
+        texturefile = "gfx/interface/ideas/technology/cruiser_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_hull_cruiser_equipment_4_medium"
+        texturefile = "gfx/interface/ideas/technology/cruiser_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_hull_cruiser_equipment_5_medium"
+        texturefile = "gfx/interface/ideas/technology/cruiser_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_hull_cruiser_equipment_6_medium"
+        texturefile = "gfx/interface/ideas/technology/cruiser_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_hull_cruiser_equipment_7_medium"
+        texturefile = "gfx/interface/ideas/technology/cruiser_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_hull_cruiser_equipment_8_medium"
+        texturefile = "gfx/interface/ideas/technology/cruiser_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_hull_cruiser_equipment_9_medium"
+        texturefile = "gfx/interface/ideas/technology/cruiser_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_hull_cruiser_equipment_10_medium"
+        texturefile = "gfx/interface/ideas/technology/cruiser_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_hull_submarine_equipment_0_medium"
+        texturefile = "gfx/interface/ideas/technology/submarine_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_hull_submarine_equipment_1_medium"
+        texturefile = "gfx/interface/ideas/technology/submarine_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_hull_submarine_equipment_2_medium"
+        texturefile = "gfx/interface/ideas/technology/submarine_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_hull_submarine_equipment_3_medium"
+        texturefile = "gfx/interface/ideas/technology/submarine_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_hull_submarine_equipment_4_medium"
+        texturefile = "gfx/interface/ideas/technology/submarine_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_hull_submarine_equipment_5_medium"
+        texturefile = "gfx/interface/ideas/technology/submarine_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_hull_submarine_equipment_6_medium"
+        texturefile = "gfx/interface/ideas/technology/submarine_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_hull_submarine_equipment_7_medium"
+        texturefile = "gfx/interface/ideas/technology/submarine_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_hull_submarine_equipment_8_medium"
+        texturefile = "gfx/interface/ideas/technology/submarine_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_hull_submarine_equipment_9_medium"
+        texturefile = "gfx/interface/ideas/technology/submarine_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_hull_submarine_equipment_10_medium"
+        texturefile = "gfx/interface/ideas/technology/submarine_equipment.dds"
     }
 }
     

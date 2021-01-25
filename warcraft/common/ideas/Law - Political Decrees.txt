@@ -1,0 +1,304 @@
+ideas = {
+    political_decree = {
+        # Political Efforts
+        political_decree_political_efforts = {
+            allowed = {
+                NOT = {
+                    has_available_idea_with_traits = {
+                        idea = political_trait_political_efforts
+                        limit = 1
+                    }
+                }
+            }
+            traits = { political_trait_political_efforts }
+            ai_will_do = {
+                factor = 1
+            }
+        }
+        # Grant Autonomy
+        political_decree_grant_autonomy = {
+            allowed = {
+                NOT = {
+                    has_available_idea_with_traits = {
+                        idea = political_trait_grant_autonomy
+                        limit = 1
+                    }
+                }
+            }
+            traits = { political_trait_grant_autonomy }
+            ai_will_do = {
+                factor = 1
+            }
+        }
+        # Bolster Diplomacy
+        political_decree_bolster_diplomacy = {
+            allowed = {
+                NOT = {
+                    has_available_idea_with_traits = {
+                        idea = political_trait_bolster_diplomacy
+                        limit = 1
+                    }
+                }
+            }
+            traits = { political_trait_bolster_diplomacy }
+            ai_will_do = {
+                factor = 1
+            }
+        }
+        # Bolster Trade
+        political_decree_bolster_trade = {
+            allowed = {
+                NOT = {
+                    has_available_idea_with_traits = {
+                        idea = political_trait_bolster_trade
+                        limit = 1
+                    }
+                }
+            }
+            traits = { political_trait_bolster_trade }
+            ai_will_do = {
+                factor = 1
+            }
+        }
+        # Unite through Faith
+        political_decree_unite_through_faith = {
+            allowed = {
+                NOT = {
+                    has_available_idea_with_traits = {
+                        idea = political_trait_unite_through_faith
+                        limit = 1
+                    }
+                }
+            }
+            traits = { political_trait_unite_through_faith }
+            ai_will_do = {
+                factor = 1
+            }
+        }
+        # Bolster Faith
+        political_decree_bolster_faith = {
+            allowed = {
+                NOT = {
+                    has_available_idea_with_traits = {
+                        idea = political_trait_bolster_faith
+                        limit = 1
+                    }
+                }
+            }
+            traits = { political_trait_bolster_faith }
+            ai_will_do = {
+                factor = 1
+            }
+        }
+        # Align with Holy
+        political_decree_align_with_holy = {
+            allowed = {
+                NOT = {
+                    has_available_idea_with_traits = {
+                        idea = political_trait_align_with_holy
+                        limit = 1
+                    }
+                }
+            }
+            traits = { political_trait_align_with_holy }
+            ai_will_do = {
+                factor = 1
+            }
+        }
+        # Align with Shadow
+        political_decree_align_with_shadow = {
+            allowed = {
+                NOT = {
+                    has_available_idea_with_traits = {
+                        idea = political_trait_align_with_shadow
+                        limit = 1
+                    }
+                }
+            }
+            traits = { political_trait_align_with_shadow }
+            ai_will_do = {
+                factor = 1
+            }
+        }
+        # Align with Order
+        political_decree_align_with_order = {
+            allowed = {
+                NOT = {
+                    has_available_idea_with_traits = {
+                        idea = political_trait_align_with_order
+                        limit = 1
+                    }
+                }
+            }
+            traits = { political_trait_align_with_order }
+            ai_will_do = {
+                factor = 1
+            }
+        }
+        # Align with Disorder
+        political_decree_align_with_disorder = {
+            allowed = {
+                NOT = {
+                    has_available_idea_with_traits = {
+                        idea = political_trait_align_with_disorder
+                        limit = 1
+                    }
+                }
+            }
+            traits = { political_trait_align_with_disorder }
+            ai_will_do = {
+                factor = 1
+            }
+        }
+        # Align with Nature
+        political_decree_align_with_nature = {
+            allowed = {
+                NOT = {
+                    has_available_idea_with_traits = {
+                        idea = political_trait_align_with_nature
+                        limit = 1
+                    }
+                }
+            }
+            traits = { political_trait_align_with_nature }
+            ai_will_do = {
+                factor = 1
+            }
+        }
+        # Align with Death
+        political_decree_align_with_death = {
+            allowed = {
+                NOT = {
+                    has_available_idea_with_traits = {
+                        idea = political_trait_align_with_death
+                        limit = 1
+                    }
+                }
+            }
+            traits = { political_trait_align_with_death }
+            ai_will_do = {
+                factor = 1
+            }
+        }
+        # Align with the Unaligned
+        political_decree_align_with_the_unaligned = {
+            allowed = {
+                NOT = {
+                    has_available_idea_with_traits = {
+                        idea = political_trait_align_with_the_unaligned
+                        limit = 1
+                    }
+                }
+            }
+            traits = { political_trait_align_with_the_unaligned }
+            ai_will_do = {
+                factor = 1
+            }
+        }
+        # Stability Focus
+        political_decree_stability_focus = {
+            allowed = {
+                NOT = {
+                    has_available_idea_with_traits = {
+                        idea = political_trait_stability_focus
+                        limit = 1
+                    }
+                }
+            }
+            traits = { political_trait_stability_focus }
+            ai_will_do = {
+                factor = 1
+            }
+        }
+        # War Support Focus
+        political_decree_war_support_focus = {
+            allowed = {
+                NOT = {
+                    has_available_idea_with_traits = {
+                        idea = political_trait_war_support_focus
+                        limit = 1
+                    }
+                }
+            }
+            traits = { political_trait_war_support_focus }
+            ai_will_do = {
+                factor = 1
+            }
+        }
+        # Justify War
+        political_decree_justify_war = {
+            allowed = {
+                NOT = {
+                    has_available_idea_with_traits = {
+                        idea = political_trait_justify_war
+                        limit = 1
+                    }
+                }
+            }
+            traits = { political_trait_justify_war }
+            ai_will_do = {
+                factor = 1
+            }
+        }
+        # Expand Research
+        political_decree_expand_research = {
+            allowed = {
+                NOT = {
+                    has_available_idea_with_traits = {
+                        idea = political_trait_expand_research
+                        limit = 1
+                    }
+                }
+            }
+            traits = { political_trait_expand_research }
+            ai_will_do = {
+                factor = 1
+            }
+        }
+        # Quell Resistance
+        political_decree_quell_resistance = {
+            allowed = {
+                NOT = {
+                    has_available_idea_with_traits = {
+                        idea = political_trait_quell_resistance
+                        limit = 1
+                    }
+                }
+            }
+            traits = { political_trait_quell_resistance }
+            ai_will_do = {
+                factor = 1
+            }
+        }
+        # Protect Garrisons
+        political_decree_protect_garrisons = {
+            allowed = {
+                NOT = {
+                    has_available_idea_with_traits = {
+                        idea = political_trait_protect_garrisons
+                        limit = 1
+                    }
+                }
+            }
+            traits = { political_trait_protect_garrisons }
+            ai_will_do = {
+                factor = 1
+            }
+        }
+        # Appease Subjects
+        political_decree_appease_subjects = {
+            allowed = {
+                NOT = {
+                    has_available_idea_with_traits = {
+                        idea = political_trait_appease_subjects
+                        limit = 1
+                    }
+                }
+            }
+            traits = { political_trait_appease_subjects }
+            ai_will_do = {
+                factor = 1
+            }
+        }
+    }
+}

@@ -1,0 +1,169 @@
+ideas = {
+    aviation_decree = {
+        # Weather Adaptation
+        aviation_decree_weather_adaptation = {
+            allowed = {
+                NOT = {
+                    has_available_idea_with_traits = {
+                        idea = aviation_trait_weather_adaptation
+                        limit = 1
+                    }
+                }
+            }
+            traits = { aviation_trait_weather_adaptation }
+            ai_will_do = {
+                factor = 1
+            }
+        }
+        # Reliability Efforts
+        aviation_decree_reliability_efforts = {
+            allowed = {
+                NOT = {
+                    has_available_idea_with_traits = {
+                        idea = aviation_trait_reliability_efforts
+                        limit = 1
+                    }
+                }
+            }
+            traits = { aviation_trait_reliability_efforts }
+            ai_will_do = {
+                factor = 1
+            }
+        }
+        # Practise Night Operations
+        aviation_decree_practise_night_operations = {
+            allowed = {
+                NOT = {
+                    has_available_idea_with_traits = {
+                        idea = aviation_trait_practise_night_operations
+                        limit = 1
+                    }
+                }
+            }
+            traits = { aviation_trait_practise_night_operations }
+            ai_will_do = {
+                factor = 1
+            }
+        }
+        # Ground Support Focus
+        aviation_decree_ground_support_focus = {
+            allowed = {
+                NOT = {
+                    has_available_idea_with_traits = {
+                        idea = aviation_trait_ground_support_focus
+                        limit = 1
+                    }
+                }
+            }
+            traits = { aviation_trait_ground_support_focus }
+            ai_will_do = {
+                factor = 1
+            }
+        }
+        # Naval Strike Focus
+        aviation_decree_naval_strike_focus = {
+            allowed = {
+                NOT = {
+                    has_available_idea_with_traits = {
+                        idea = aviation_trait_naval_strike_focus
+                        limit = 1
+                    }
+                }
+            }
+            traits = { aviation_trait_naval_strike_focus }
+            ai_will_do = {
+                factor = 1
+            }
+        }
+        # Aerial Interception Focus
+        aviation_decree_aerial_interception_focus = {
+            allowed = {
+                NOT = {
+                    has_available_idea_with_traits = {
+                        idea = aviation_trait_aerial_interception_focus
+                        limit = 1
+                    }
+                }
+            }
+            traits = { aviation_trait_aerial_interception_focus }
+            ai_will_do = {
+                factor = 1
+            }
+        }
+        # Aerial Superiority Focus
+        aviation_decree_aerial_superiority_focus = {
+            allowed = {
+                NOT = {
+                    has_available_idea_with_traits = {
+                        idea = aviation_trait_aerial_superiority_focus
+                        limit = 1
+                    }
+                }
+            }
+            traits = { aviation_trait_aerial_superiority_focus }
+            ai_will_do = {
+                factor = 1
+            }
+        }
+        # Close Air Support Focus
+        aviation_decree_close_air_support_focus = {
+            allowed = {
+                NOT = {
+                    has_available_idea_with_traits = {
+                        idea = aviation_trait_close_air_support_focus
+                        limit = 1
+                    }
+                }
+            }
+            traits = { aviation_trait_close_air_support_focus }
+            ai_will_do = {
+                factor = 1
+            }
+        }
+        # Strategic Bombing Focus
+        aviation_decree_strategic_bombing_focus = {
+            allowed = {
+                NOT = {
+                    has_available_idea_with_traits = {
+                        idea = aviation_trait_strategic_bombing_focus
+                        limit = 1
+                    }
+                }
+            }
+            traits = { aviation_trait_strategic_bombing_focus }
+            ai_will_do = {
+                factor = 1
+            }
+        }
+        # Tactical Bombing Focus
+        aviation_decree_tactical_bombing_focus = {
+            allowed = {
+                NOT = {
+                    has_available_idea_with_traits = {
+                        idea = aviation_trait_tactical_bombing_focus
+                        limit = 1
+                    }
+                }
+            }
+            traits = { aviation_trait_tactical_bombing_focus }
+            ai_will_do = {
+                factor = 1
+            }
+        }
+        # Airborne Support
+        aviation_decree_airborne_support = {
+            allowed = {
+                NOT = {
+                    has_available_idea_with_traits = {
+                        idea = aviation_trait_airborne_support
+                        limit = 1
+                    }
+                }
+            }
+            traits = { aviation_trait_airborne_support }
+            ai_will_do = {
+                factor = 1
+            }
+        }
+    }
+}

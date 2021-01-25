@@ -18,23 +18,27 @@ idea_categories = {
 		ledger = hidden
 	}
 	
-	government = {
+    economic_decrees = {
         slot = economy_laws
 		slot = trade_laws
 		slot = conscription_laws
-        
-		cost = 100
+		slot = economic_decree
+		slot = economic_decree
+		slot = economic_decree
+
 		ledger = civilian
+		
+		cost = 100
 		removal_cost = 0
-	}
+    }
     
-    government_advisors = {
-        slot = government_advisor
-		slot = government_advisor
-		slot = government_advisor
-        slot = government_advisor
-        slot = government_advisor
-        slot = government_advisor
+    national_decrees = {
+        slot = research_decree
+        slot = research_decree
+        slot = research_decree
+        slot = political_decree
+		slot = political_decree
+		slot = political_decree
 		
 		ledger = civilian
 		
@@ -42,13 +46,13 @@ idea_categories = {
 		removal_cost = 0
     }
     
-    military_command = {
-        slot = military_advisor
-		slot = military_advisor
-		slot = military_advisor
-        slot = military_advisor
-        slot = military_advisor
-        slot = military_advisor
+    military_decrees = {
+        slot = army_decree
+		slot = naval_decree
+		slot = aviation_decree
+        slot = logistical_decree
+        slot = doctrinal_decree
+        slot = command_decree
 
 		ledger = military
 		

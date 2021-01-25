@@ -37,9 +37,9 @@ add_ideas = {
     
 	racial_goblin
     
-    civil_economy
-    free_trade
-    low_conscription 
+    economy_civilian
+    trade_free_for_all
+    conscription_low 
 }
 
 set_convoys = 100

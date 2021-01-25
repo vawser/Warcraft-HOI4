@@ -1,0 +1,286 @@
+ideas = {
+    research_decree = {
+        designer = yes
+        
+        # Industry Focus
+        research_decree_industry = {
+            allowed = {
+                NOT = {
+                    has_available_idea_with_traits = {
+                        idea = research_trait_industry
+                        limit = 1
+                    }
+                }
+            }
+            
+            research_bonus = {
+				industry_tech = 0.15
+			}
+            
+            traits = { research_trait_industry }
+            ai_will_do = {
+                factor = 1
+            }
+        }
+        # Resource Focus
+        research_decree_resource = {
+            allowed = {
+                NOT = {
+                    has_available_idea_with_traits = {
+                        idea = research_trait_resource
+                        limit = 1
+                    }
+                }
+            }
+            
+            research_bonus = {
+				resource_tech = 0.15
+			}
+            
+            traits = { research_trait_resource }
+            ai_will_do = {
+                factor = 1
+            }
+        }
+        # Infantry Focus
+        research_decree_infantry = {
+            allowed = {
+                NOT = {
+                    has_available_idea_with_traits = {
+                        idea = research_trait_infantry
+                        limit = 1
+                    }
+                }
+            }
+            
+            research_bonus = {
+				infantry_tech = 0.15
+			}
+            
+            traits = { research_trait_infantry }
+            ai_will_do = {
+                factor = 1
+            }
+        }
+        # Cavalry Focus
+        research_decree_cavalry = {
+            allowed = {
+                NOT = {
+                    has_available_idea_with_traits = {
+                        idea = research_trait_cavalry
+                        limit = 1
+                    }
+                }
+            }
+            
+            research_bonus = {
+				cavalry_tech = 0.15
+			}
+            
+            traits = { research_trait_cavalry }
+            ai_will_do = {
+                factor = 1
+            }
+        }
+        # Vehicle Focus
+        research_decree_vehicle = {
+            allowed = {
+                NOT = {
+                    has_available_idea_with_traits = {
+                        idea = research_trait_vehicle
+                        limit = 1
+                    }
+                }
+            }
+            
+            research_bonus = {
+				tank_tech = 0.15
+			}
+            
+            traits = { research_trait_vehicle }
+            ai_will_do = {
+                factor = 1
+            }
+        }
+        # Support Focus
+        research_decree_support = {
+            allowed = {
+                NOT = {
+                    has_available_idea_with_traits = {
+                        idea = research_trait_support
+                        limit = 1
+                    }
+                }
+            }
+            
+            research_bonus = {
+				support_tech = 0.15
+			}
+            
+            traits = { research_trait_support }
+            ai_will_do = {
+                factor = 1
+            }
+        }
+        # Cruiser Focus
+        research_decree_cruiser = {
+            allowed = {
+                NOT = {
+                    has_available_idea_with_traits = {
+                        idea = research_trait_cruiser
+                        limit = 1
+                    }
+                }
+            }
+            
+            research_bonus = {
+				cruiser_tech = 0.15
+			}
+            
+            traits = { research_trait_cruiser }
+            ai_will_do = {
+                factor = 1
+            }
+        }
+        # Battleship Focus
+        research_decree_battleship = {
+            allowed = {
+                NOT = {
+                    has_available_idea_with_traits = {
+                        idea = research_trait_battleship
+                        limit = 1
+                    }
+                }
+            }
+            
+            research_bonus = {
+				battleship_tech = 0.15
+			}
+            
+            traits = { research_trait_battleship }
+            ai_will_do = {
+                factor = 1
+            }
+        }
+        # Submarine Focus
+        research_decree_submarine = {
+            allowed = {
+                NOT = {
+                    has_available_idea_with_traits = {
+                        idea = research_trait_submarine
+                        limit = 1
+                    }
+                }
+            }
+            
+            research_bonus = {
+				submarine_tech = 0.15
+			}
+            
+            traits = { research_trait_submarine }
+            ai_will_do = {
+                factor = 1
+            }
+        }
+        # Destroyer Focus
+        research_decree_destroyer = {
+            allowed = {
+                NOT = {
+                    has_available_idea_with_traits = {
+                        idea = research_trait_destroyer
+                        limit = 1
+                    }
+                }
+            }
+            
+            research_bonus = {
+				destroyer_tech = 0.15
+			}
+            
+            traits = { research_trait_destroyer }
+            ai_will_do = {
+                factor = 1
+            }
+        }
+        # Fighter Focus
+        research_decree_fighter = {
+            allowed = {
+                NOT = {
+                    has_available_idea_with_traits = {
+                        idea = research_trait_fighter
+                        limit = 1
+                    }
+                }
+            }
+            
+            research_bonus = {
+				fighter_tech = 0.15
+			}
+            
+            traits = { research_trait_fighter }
+            ai_will_do = {
+                factor = 1
+            }
+        }
+        # CAS Focus
+        research_decree_cas = {
+            allowed = {
+                NOT = {
+                    has_available_idea_with_traits = {
+                        idea = research_trait_cas
+                        limit = 1
+                    }
+                }
+            }
+            
+            research_bonus = {
+				cas_tech = 0.15
+			}
+            
+            traits = { research_trait_cas }
+            ai_will_do = {
+                factor = 1
+            }
+        }
+        # Tactical Bomber Focus
+        research_decree_tactical_bomber = {
+            allowed = {
+                NOT = {
+                    has_available_idea_with_traits = {
+                        idea = research_trait_tactical_bomber
+                        limit = 1
+                    }
+                }
+            }
+            
+            research_bonus = {
+				tactical_bomber_tech = 0.15
+			}
+            
+            traits = { research_trait_tactical_bomber }
+            ai_will_do = {
+                factor = 1
+            }
+        }
+        # Strategic Bomber Focus
+        research_decree_strategic_bomber = {
+            allowed = {
+                NOT = {
+                    has_available_idea_with_traits = {
+                        idea = research_trait_strategic_bomber
+                        limit = 1
+                    }
+                }
+            }
+            
+            research_bonus = {
+				strategic_bomber_tech = 0.15
+			}
+            
+            traits = { research_trait_strategic_bomber }
+            ai_will_do = {
+                factor = 1
+            }
+        }
+    }
+}

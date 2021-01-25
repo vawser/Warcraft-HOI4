@@ -34,9 +34,9 @@ add_ideas = {
     primitive_nation
 	racial_hozen
     
-    civil_economy
-    minimal_trade
-    low_conscription
+    economy_civilian
+    trade_minimal
+    conscription_low
     
 }
 

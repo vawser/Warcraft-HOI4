@@ -1,0 +1,67 @@
+leader_traits = {
+    logistical_trait_bolster_supply_lines = {
+        random = no
+        
+        attrition = -0.05
+        
+        ai_will_do = {
+            factor = 1
+        }
+    }
+    logistical_trait_bolster_fleet_logistics = {
+        random = no
+        
+        navy_max_range_factor = 0.1
+        
+        ai_will_do = {
+            factor = 1
+        }
+    }
+    logistical_trait_conduct_aerial_training = {
+        random = no
+        
+        air_ace_generation_chance_factor = 0.1
+        
+        ai_will_do = {
+            factor = 1
+        }
+    }
+    logistical_trait_improve_army_standards = {
+        random = no
+        
+        experience_gain_navy_factor = 0.05
+        
+        ai_will_do = {
+            factor = 1
+        }
+    }
+    logistical_trait_improve_naval_standards = {
+        random = no
+        
+        experience_gain_army_factor = 0.05
+        
+        ai_will_do = {
+            factor = 1
+        }
+    }
+    logistical_trait_improve_aviation_standards = {
+        random = no
+        
+        experience_gain_air_factor = 0.05
+        
+        ai_will_do = {
+            factor = 1
+        }
+    }
+    logistical_trait_conduct_fuel_usage_survey = {
+        random = no
+        
+        army_fuel_consumption_factor = -0.1
+        navy_fuel_consumption_factor = -0.1
+        air_fuel_consumption_factor = -0.1
+        
+        ai_will_do = {
+            factor = 1
+        }
+    }
+}

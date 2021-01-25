@@ -34,9 +34,9 @@ add_ideas = {
     
 	racial_aqir
     
-    war_economy
-    no_trade
-    low_conscription
+    economy_wartime
+    trade_none
+    conscription_low
 }
 
 set_convoys = 100

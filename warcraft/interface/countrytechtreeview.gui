@@ -105,6 +105,16 @@ guiTypes = {
             }
 
             buttonType = {
+                name = "navy_mtg_folder_tab"
+                position = { x = 10 y = 90 }
+                quadTextureSprite = "GFX_tech_tab"
+                clicksound = click_default
+                font = "hoi_20bs"
+                text = "Navy"
+                frame = 1
+            }
+            
+            buttonType = {
                 name = "naval_doctrine_folder_tab"
                 position = { x = 270 y = 90 }
                 quadTextureSprite = "GFX_tech_tab"
@@ -621,6 +631,110 @@ guiTypes = {
         }
 
         #---------------------------------------------------
+        # NAVY
+        #---------------------------------------------------
+        containerWindowType = {
+            name = "navy_mtg_folder"
+            position = { x=@techtab_x y=0 }
+            size = { width = 100%% height = 100%% }
+            margin = { top = 13 left = 13 bottom = 24 right = 25}
+            drag_scroll = { left middle }
+            verticalScrollbar = "right_vertical_slider"
+            horizontalScrollbar = "bottom_horizontal_slider"
+
+            background = {
+                name = "Background"
+                quadTextureSprite ="GFX_tiled_window_2b_border"
+            }
+
+            containerWindowType = {
+                name = "techtree_stripes"
+                position = { x= 0 y= 0 }
+                size = { 
+                    width = 1400 height = 1275
+                    min = { width = 100%% height = 100%% }
+                }
+                clipping = no
+
+                iconType = {
+                    name ="infantry_techtree_bg"
+                    spriteType = "GFX_wow_infantry_techtree_bg"
+                    position = { x=0 y=0 }
+                    allwaystransparent = yes
+                }
+
+                instantTextBoxType = {
+                    name = "techtree_subtitle_1"
+                    position = { x = 20 y = 20 }
+                    textureFile = ""
+                    font = "hoi_30header"
+                    borderSize = { x = 0 y = 0}
+                    text = "Navy"
+                    maxWidth = 600
+                    maxHeight = 62
+                    format = left
+                    Orientation = "UPPER_LEFT"
+                }
+            }
+            
+            gridboxtype = {
+                name = "mtg_battleship_tech_1_tree"
+                position = { x = 20 y = 100 }
+                slotsize = { width = 40 height = 40 }
+                format = "LEFT"
+            }
+            
+            gridboxtype = {
+                name = "mtg_destroyer_tech_1_tree"
+                position = { x = 20 y = 100 }
+                slotsize = { width = 40 height = 40 }
+                format = "LEFT"
+            }
+            
+            gridboxtype = {
+                name = "mtg_cruiser_tech_1_tree"
+                position = { x = 20 y = 100 }
+                slotsize = { width = 40 height = 40 }
+                format = "LEFT"
+            }
+            
+            gridboxtype = {
+                name = "mtg_submarine_tech_1_tree"
+                position = { x = 20 y = 100 }
+                slotsize = { width = 40 height = 40 }
+                format = "LEFT"
+            }
+            
+            gridboxtype = {
+                name = "mtg_navy_experience_1_tree"
+                position = { x = 20 y = 100 }
+                slotsize = { width = 40 height = 40 }
+                format = "LEFT"
+            }
+            
+            gridboxtype = {
+                name = "mtg_naval_invasion_1_tree"
+                position = { x = 20 y = 100 }
+                slotsize = { width = 40 height = 40 }
+                format = "LEFT"
+            }
+            
+            gridboxtype = {
+                name = "mtg_naval_invasion_defence_1_tree"
+                position = { x = 20 y = 100 }
+                slotsize = { width = 40 height = 40 }
+                format = "LEFT"
+            }
+            
+            gridboxtype = {
+                name = "mtg_naval_invasion_preparation_1_tree"
+                position = { x = 20 y = 100 }
+                slotsize = { width = 40 height = 40 }
+                format = "LEFT"
+            }
+        }
+        
+        #---------------------------------------------------
         # INDUSTRY
         #---------------------------------------------------
         containerWindowType = {
@@ -1127,6 +1241,15 @@ guiTypes = {
             shortcut = "RETURN"
         }
         
+        buttonType = {
+			name = "research_with_xp"
+			quadTextureSprite = "GFX_button_123x34"
+			text = "RESEARCH_WITH_XP"
+			buttonFont = "hoi_20b"
+			position = { x=390 y=90 }
+			shortcut = "RETURN"
+		}
+        
         iconType = {
             name = "research_progressbar"
             spriteType = "GFX_techtree_details_progress_bar"
@@ -1469,6 +1592,78 @@ guiTypes = {
         }    
     }
 
+    #---------------------------------------------------
+    # NAVY MTG
+    #---------------------------------------------------
+    containerWindowType = {
+        name = "techtree_navy_mtg_folder_item"
+        position = { x=0 y=0 }
+        size = { width = 90 height = 90 }
+        clipping = no
+
+        background = {
+            name = "Background"
+            quadTextureSprite ="GFX_technology_available_item_bg"
+        }
+
+        iconType = {
+            name = "Icon"
+            position = { x=42 y=34 }
+            spriteType = "GFX_technology_medium"
+            alwaystransparent = yes
+            centerposition = yes
+            scale = 0.5
+        }
+        instantTextBoxType = {
+            name = "Name"
+            position = { x = 0 y = -25 }
+            textureFile = ""
+            font = "hoi_16mbs"
+            borderSize = {x = 4 y = 4}
+            text = "Happy-Go-Lucky-Tank"
+            maxWidth = 100
+            maxHeight = 20
+            fixedsize = yes
+            format = left
+        }
+        
+        instantTextBoxType = {
+            name = "bonus"
+            position = { x = 15 y = 42 }
+            textureFile = ""
+            font = "hoi_16mbs"
+            borderSize = {x = 4 y = 4}
+            text = "lol boat"
+            maxWidth = 50
+            maxHeight = 20
+            format = center
+        }
+        
+        iconType = {
+            name = "bonus_icon"
+            position = { x=30 y=-9999 }
+            spriteType = "GFX_small_red_menu_button"
+        }
+        containerWindowType = {
+            name = "sub_technology_slot_0"
+            position = { x=141 y=1 }
+            size = { width = 35 height = 26 }
+            clipping = no
+            
+            background = {
+                name = "Background"
+                spriteType ="GFX_subtechnology_unavailable_item_bg"
+            }
+            
+            iconType = {
+                name = "picture"
+                position = { x=2 y=2 }
+                spriteType = "GFX_subtech_rocket"
+                alwaystransparent = yes
+            }
+        }    
+    }
+    
     #---------------------------------------------------
     # INDUSTRY
     #---------------------------------------------------

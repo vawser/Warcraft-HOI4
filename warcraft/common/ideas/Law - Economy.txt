@@ -2,7 +2,7 @@ ideas = {
     economy_laws = { 
         law = yes
 
-        civil_economy = {
+        economy_civilian = {
             available = { 
                 always = yes
             }
@@ -26,7 +26,7 @@ ideas = {
    				factor = 0
 			}
         }
-        transitional_economy = {
+        economy_warfooting = {
             available = { 
                 always = yes
             }
@@ -48,7 +48,7 @@ ideas = {
    				factor = 0
 			}
         }
-        war_economy = {
+        economy_wartime = {
             available = { 
                 has_war_support > 0.75
                 has_war = yes
@@ -69,7 +69,7 @@ ideas = {
    				factor = 1
 			}
         }
-        command_economy = {
+        economy_total_war = {
             available = { 
                 has_war_support > 0.9
                 has_war = yes

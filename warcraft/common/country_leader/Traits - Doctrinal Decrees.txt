@@ -1,0 +1,23 @@
+leader_traits = {
+    doctrinal_trait_focus_on_land_warfare = {
+        random = no
+        
+        ai_will_do = {
+            factor = 1
+        }
+    }
+    doctrinal_trait_focus_on_naval_warfare = {
+        random = no
+        
+        ai_will_do = {
+            factor = 1
+        }
+    }
+    doctrinal_trait_focus_on_aerial_warfare = {
+        random = no
+        
+        ai_will_do = {
+            factor = 1
+        }
+    }
+}

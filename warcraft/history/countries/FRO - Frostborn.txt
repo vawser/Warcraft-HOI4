@@ -33,9 +33,9 @@ set_technology = {
 add_ideas = {
 	racial_dwarf
     
-    civil_economy
-    minimal_trade
-    low_conscription
+    economy_civilian
+    trade_minimal
+    conscription_low
 }
 
 set_convoys = 100

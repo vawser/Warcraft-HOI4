@@ -37,9 +37,9 @@ add_ideas = {
     
 	racial_goblin
     
-    civil_economy
-    limited_trade
-    low_conscription
+    economy_civilian
+    trade_limited
+    conscription_low
     
 }
 

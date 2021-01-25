@@ -1,0 +1,109 @@
+ideas = {
+    logistical_decree = {
+        # Bolster Supply Lines
+        logistical_decree_bolster_supply_lines = {
+            allowed = {
+                NOT = {
+                    has_available_idea_with_traits = {
+                        idea = logistical_trait_bolster_supply_lines
+                        limit = 1
+                    }
+                }
+            }
+            traits = { logistical_trait_bolster_supply_lines }
+            ai_will_do = {
+                factor = 1
+            }
+        }
+        # Bolster Fleet Logistics
+        logistical_decree_bolster_fleet_logistics = {
+            allowed = {
+                NOT = {
+                    has_available_idea_with_traits = {
+                        idea = logistical_trait_bolster_fleet_logistics
+                        limit = 1
+                    }
+                }
+            }
+            traits = { logistical_trait_bolster_fleet_logistics }
+            ai_will_do = {
+                factor = 1
+            }
+        }
+        # Conduct Aerial Training
+        logistical_decree_conduct_aerial_training = {
+            allowed = {
+                NOT = {
+                    has_available_idea_with_traits = {
+                        idea = logistical_trait_conduct_aerial_training
+                        limit = 1
+                    }
+                }
+            }
+            traits = { logistical_trait_conduct_aerial_training }
+            ai_will_do = {
+                factor = 1
+            }
+        }
+        # Improve Army Standards
+        logistical_decree_improve_army_standards = {
+            allowed = {
+                NOT = {
+                    has_available_idea_with_traits = {
+                        idea = logistical_trait_improve_army_standards
+                        limit = 1
+                    }
+                }
+            }
+            traits = { logistical_trait_improve_army_standards }
+            ai_will_do = {
+                factor = 1
+            }
+        }
+        # Improve Naval Standards
+        logistical_decree_improve_naval_standards = {
+            allowed = {
+                NOT = {
+                    has_available_idea_with_traits = {
+                        idea = logistical_trait_improve_naval_standards
+                        limit = 1
+                    }
+                }
+            }
+            traits = { logistical_trait_improve_naval_standards }
+            ai_will_do = {
+                factor = 1
+            }
+        }
+        # Improve Aviation Standards
+        logistical_decree_improve_aviation_standards = {
+            allowed = {
+                NOT = {
+                    has_available_idea_with_traits = {
+                        idea = logistical_trait_improve_aviation_standards
+                        limit = 1
+                    }
+                }
+            }
+            traits = { logistical_trait_improve_aviation_standards }
+            ai_will_do = {
+                factor = 1
+            }
+        }
+        # Conduct Fuel Usage Survey
+        logistical_decree_conduct_fuel_usage_survey = {
+            allowed = {
+                NOT = {
+                    has_available_idea_with_traits = {
+                        idea = logistical_trait_conduct_fuel_usage_survey
+                        limit = 1
+                    }
+                }
+            }
+            traits = { logistical_trait_conduct_fuel_usage_survey }
+            ai_will_do = {
+                factor = 1
+            }
+        }
+    }
+}

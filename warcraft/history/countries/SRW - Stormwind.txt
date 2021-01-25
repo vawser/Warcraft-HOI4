@@ -34,9 +34,9 @@ add_ideas = {
     end_of_the_gnoll_wars
 	racial_human
     
-    civil_economy
-    free_trade
-    low_conscription
+    economy_civilian
+    trade_free_for_all
+    conscription_low
 }
 
 set_convoys = 100

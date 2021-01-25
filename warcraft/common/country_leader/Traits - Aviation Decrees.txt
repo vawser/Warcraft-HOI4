@@ -1,0 +1,114 @@
+leader_traits = {
+    aviation_trait_weather_adaptation = {
+        random = no
+        
+        air_weather_penalty = -0.1
+        
+        ai_will_do = {
+            factor = 1
+        }
+    }
+    aviation_trait_reliability_efforts = {
+        random = no
+        
+        air_accidents_factor = -0.05
+        
+        ai_will_do = {
+            factor = 1
+        }
+    }
+    aviation_trait_practise_night_operations = {
+        random = no
+        
+        air_night_penalty = -0.1
+        
+        ai_will_do = {
+            factor = 1
+        }
+    }
+    aviation_trait_ground_support_focus = {
+        random = no
+        
+        army_bonus_air_superiority_factor = 0.05
+        
+        ai_will_do = {
+            factor = 1
+        }
+    }
+    aviation_trait_naval_strike_focus = {
+        random = no
+        
+        naval_strike_attack_factor = 0.05
+		naval_strike_targetting_factor = 0.05
+		naval_strike_agility_factor = 0.05
+        
+        ai_will_do = {
+            factor = 1
+        }
+    }
+    aviation_trait_aerial_interception_focus = {
+        random = no
+        
+        air_interception_attack_factor = 0.05
+		air_interception_defence_factor = 0.05
+		air_interception_agility_factor = 0.05
+        
+        ai_will_do = {
+            factor = 1
+        }
+    }
+    aviation_trait_aerial_superiority_focus = {
+        random = no
+        
+        air_air_superiority_attack_factor = 0.05
+		air_air_superiority_defence_factor = 0.05
+		air_air_superiority_agility_factor = 0.05
+        
+        ai_will_do = {
+            factor = 1
+        }
+    }
+    aviation_trait_close_air_support_focus = {
+        random = no
+        
+        air_close_air_support_attack_factor = 0.05
+		air_close_air_support_defence_factor = 0.05
+		air_close_air_support_agility_factor = 0.05
+        
+        ai_will_do = {
+            factor = 1
+        }
+    }
+    aviation_trait_strategic_bombing_focus = {
+        random = no
+        
+        air_strategic_bomber_attack_factor = 0.05
+		air_strategic_bomber_defence_factor = 0.05
+		air_strategic_bomber_agility_factor = 0.05
+		air_strategic_bomber_bombing_factor = 0.05
+        
+        ai_will_do = {
+            factor = 1
+        }
+    }
+    aviation_trait_tactical_bombing_focus = {
+        random = no
+        
+        air_cas_present_factor = 0.1
+        
+        ai_will_do = {
+            factor = 1
+        }
+    }
+    aviation_trait_airborne_support = {
+        random = no
+        
+        air_paradrop_attack_factor = 0.05
+		air_paradrop_defence_factor = 0.05
+		air_paradrop_agility_factor = 0.05
+        
+        ai_will_do = {
+            factor = 1
+        }
+    }
+}

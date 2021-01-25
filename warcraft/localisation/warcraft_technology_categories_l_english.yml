@@ -77,6 +77,8 @@
  air_doctrine_tech_research: "Aviation Doctrine Research"
  naval_doctrine_tech: "Naval Doctrine"
  naval_doctrine_tech_research: "Naval Doctrine Research"
+ naval_component_tech: "Naval Component"
+ naval_component_tech_research: "Naval Component Research"
  
  leadership_tech: "Leadership"
  leadership_tech_research: "Leadership Research"

@@ -1,33 +1,70 @@
-#---------------------------------------------
+#--------------------------------------------------------
+# All
+#--------------------------------------------------------
+#--------------------------
+# General
+#--------------------------
+load_focus_tree
+
+#--------------------------
+# Border War
+#--------------------------
+cancel_border_war 
+finalize_border_war
+set_border_war_data
+
+#--------------------------------------------------------
 # Country
-#---------------------------------------------
+#--------------------------------------------------------
+#--------------------------
+# General
+#--------------------------
+add_command_power = <float>
+add_stability = <float>
+add_war_support = <float>
+set_stability
+
+#--------------------------
+# Decisions
+#--------------------------
+activate_decision = <string>
 remove_decision = <string>  # Allows to remove specified decision without running remove_effect. 
 
+activate_mission
+activate_mission_tooltip 
+activate_targeted_decision
 
+remove_mission
+remove_targeted_decision
+
+#--------------------------
+# Traits
+#--------------------------
 # Similar to swap_ideas. Removes one trait and adds another. 
 swap_ruler_traits = {
     remove = <string>
     add = <string>
 }
 
-# Remove the exile tag on a army leader, making them no longer be considered exile leaders. 
-remove_exile_tag = {
-    <scope> = <string>
+# Ideas
+
+#--------------------------
+# Ideas
+#--------------------------
+# 
+modify_timed_idea = {
+
 }
 
-# Makes a country a government in exile in a set country, with a set starting legitimacy. 
-become_exiled_in = {
-    target = <scope>
-    legitimacy = <float>
-}
-
-end_exile = yes # Ends a government in exile. 
-
-add_legitimacy = <float>    # Adds legitimacy to a government in exile. 
-set_legitimacy = <float>    # Sets the legitimacy of governments in exile. 
-
+#--------------------------
+# Factions
+#--------------------------
 set_faction_name = <string> # Sets a faction name as the loc name. 
+leave_faction
 
+#--------------------------
+# In-World Actions
+#--------------------------
 add_nuclear_bombs = <int> #  	Adds nuclear bomb to current scope's stockpile. 
 
 # Nukes a province. 
@@ -44,10 +81,20 @@ add_mines = {
     amount = <int>
 }
 
-# Transfers all of a nations techs to a specified tag. 
-inherit_technology = <scope>
+#--------------------------
+# Technology
+#--------------------------
+inherit_technology = <scope> # Transfers all of a nations techs to a specified tag. 
 
+#--------------------------
+# Fuel
+#--------------------------
 set_fuel_ratio = yes # Set country's current fuel ratio relative to its capacity. 
+
+#--------------------------
+# Industry
+#--------------------------
+remove_resource_rights = <id>   # Removes resource rights from state
 
 # Gives resource rights for state to country
 give_resource_rights = {
@@ -55,32 +102,21 @@ give_resource_rights = {
     state = <id>
 }
 
-# 	Removes resource rights from state
-remove_resource_rights = <id>
+# 
+add_offsite_building = {
 
-#---------------------------------------------
-# Province
-#---------------------------------------------
-# Adds a province modifier. 
-add_province_modifier = {
-    <id> = <modifier> 
 }
 
-# Removes a province modifier. 
-remove_province_modifier = {
-    <id> = <modifier> 
+# 
+modify_building_resources = {
+
 }
 
-#---------------------------------------------
-# Espionage
-#---------------------------------------------
-create_intelligence_agency = <bool>         # Allows to create automatically an intelligence agency 
-upgrade_intelligence_agency = <string>      # Allows to unlock automatically an intelligence agency upgrade 
-kill_ideology_leader = <string>             # Allows to kill a country leader from a precise ideology
+#--------------------------
+# Army
+#--------------------------
+set_division_template_lock
 
-#---------------------------------------------
-# Military
-#---------------------------------------------
 # Allows to transfer a precise part of the army and the equipement of a country to any country. 
 transfer_units_fraction = {
     target = <scope>
@@ -95,3 +131,350 @@ transfer_units_fraction = {
     }
 }
 
+
+# 
+delete_unit_template_and_units = {
+
+}
+
+# 
+destroy_ships = {
+
+}
+
+recall_attache = {
+
+}
+#--------------------------
+# Exiled Governments
+#--------------------------
+add_legitimacy = <float>    # Adds legitimacy to a government in exile. 
+set_legitimacy = <float>    # Sets the legitimacy of governments in exile. 
+end_exile = yes # Ends a government in exile. 
+
+# Remove the exile tag on a army leader, making them no longer be considered exile leaders. 
+remove_exile_tag = {
+    <scope> = <string>
+}
+
+# Makes a country a government in exile in a set country, with a set starting legitimacy. 
+become_exiled_in = {
+    target = <scope>
+    legitimacy = <float>
+}
+
+#--------------------------------------------------------
+# Province
+#--------------------------------------------------------
+#--------------------------
+# General
+#--------------------------
+add_region_efficiency
+
+# Adds a province modifier. 
+add_province_modifier = {
+    <id> = <modifier> 
+}
+
+# Removes a province modifier. 
+remove_province_modifier = {
+    <id> = <modifier> 
+}
+
+#--------------------------------------------------------
+# Espionage
+#--------------------------------------------------------
+#--------------------------
+# General
+#--------------------------
+create_intelligence_agency = <bool>         # Allows to create automatically an intelligence agency 
+upgrade_intelligence_agency = <string>      # Allows to unlock automatically an intelligence agency upgrade 
+kill_ideology_leader = <string>             # Allows to kill a country leader from a precise ideology
+
+#--------------------------------------------------------
+# Unit Leader
+#--------------------------------------------------------
+clr_unit_leader_flag = <string>
+
+promote_leader = <boolean>
+demote_leader = <boolean>
+retire = <boolean>
+set_nationality
+
+add_skill_level = <int>
+add_attack = <int>
+add_defense = <int>
+add_logistics = <int> 
+add_planning = <float>
+boost_planning = <float>
+
+#
+add_max_trait = {
+
+}
+
+#
+add_temporary_buff_to_units = {
+
+}
+
+# 
+add_timed_unit_leader_trait = {
+
+}
+
+# 
+modify_unit_leader_flag = {
+
+}
+ 
+# 
+replace_unit_leader_trait = {
+
+}
+
+#--------------------------------------------------------
+# Variables
+#--------------------------------------------------------
+print_variables = {
+
+}
+
+# Persistent
+add_to_variable = {
+
+}
+clamp_variable = {
+
+}
+clear_variable = {
+
+}
+divide_variable = {
+
+}
+multiply_variable = {
+
+}
+round_variable = {
+
+}
+
+# Temporary
+set_temp_variable = {
+
+}
+add_to_temp_variable = {
+
+}
+clamp_temp_variable = {
+
+}
+divide_temp_variable = {
+
+}
+multiply_temp_variable = {
+
+}
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+
+
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+set_truce 
+set_unit_leader_flag
+set_variable 
+set_war_support 
+start_border_war 
+subtract_from_temp_variable
+subtract_from_variable 
+supply_units 
+transfer_navy 
+unit_leader_event 
+unlock_decision_category_tooltip
+unlock_decision_tooltip 
+add_named_threat 
+add_national_unity 
+add_opinion_modifier 
+add_political_power 
+add_popularity 
+add_relation_modifier 
+add_scaled_political_power 
+add_threat 
+add_to_faction 
+add_to_war 
+annex_country 
+change_tag_from 
+create_faction
+create_import 
+create_wargoal 
+declare_war_on 
+diplomatic_relation 
+dismantle_faction 
+give_guarantee 
+give_military_access 
+hold_election 
+remove_from_faction
+remove_opinion_modifier 
+remove_relation_modifier 
+reverse_add_opinion_modifier 
+set_major 
+set_national_unity 
+set_party_name 
+set_political_party 
+set_political_power 
+set_politics 
+set_rule 
+start_civil_war 
+white_peace 
+add_autonomy_ratio
+set_autonomy 
+release 
+puppet 
+release_puppet 
+end_puppet 
+create_country_leader 
+set_country_leader_ideology
+add_country_leader_trait 
+remove_country_leader_trait 
+create_navy_leader 
+create_field_marshal 
+create_corps_commander 
+remove_unit_leader_trait 
+add_unit_leader_trait 
+keep_unit_leaders 
+remove_unit_leader 
+retire_country_leader 
+kill_country_leader 
+add_manpower
+create_unit 
+division_template 
+load_oob 
+army_experience
+navy_experience 
+air_experience 
+create_equipment_variant
+add_equipment_production 
+add_ace 
+add_equipment_to_stockpile
+send_equipment 
+set_equipment_fraction 
+create_production_license 
+transfer_ship
+unlock_national_focus 
+complete_national_focus
+add_ideas 
+add_timed_idea
+swap_ideas 
+remove_ideas 
+remove_ideas_with_trait
+country_event
+state_event 
+news_event 
+save_event_target_as 
+save_global_event_target_as 	
+clear_global_event_target 
+clear_global_event_targets 
+set_state_flag 
+clr_state_flag 
+set_country_flag 
+modify_country_flag
+clr_country_flag 
+set_global_flag 
+clr_global_flag
+set_state_name 
+reset_state_name 
+set_province_name 
+reset_province_name 
+add_state_core 
+remove_state_core
+set_capital 
+add_state_claim 
+remove_state_claim 
+set_state_owner 
+set_state_controller 
+transfer_state 
+add_claim_by 
+remove_claim_by 
+add_core_of 
+remove_core_of 
+set_demilitarized_zone 
+set_border_war 
+set_province_controller 
+goto_province 
+goto_state 
+add_extra_state_shared_building_slots
+set_building_level 
+damage_building
+remove_building 
+add_building_construction
+add_resource 
+add_research_slot 
+set_research_slots 
+add_tech_bonus
+add_to_tech_sharing_group 
+remove_from_tech_sharing_group 
+set_technology 
+set_cosmetic_tag 
+drop_cosmetic_tag 
+sound_effect 
+randomize_weather 
+break 
+show_ideas_tooltip 
+custom_effect_tooltip
+add_namespace
+log
+enable_building
+remove_idea
+add_idea
+modify_tech_sharing_bonus
+add_ai_strategy
+modify_state_flag
+add_resource
+set_state_category
+set_convoys
+release_autonomy
+modify_global_flag
+free_random_operative
+add_operation_token
+round_temp_variable
+add_to_array
+add_decryption
+add_intel
+add_resistance_target
+add_collaboration
+steal_random_tech_bonus
+remove_operation_token
+add_dynamic_modifier
+delete_unit
+transfer_units_fraction
+operative_leader_event
+add_nationality
+turn_operative
+force_operative_leader_into_hiding
+capture_operative
+harm_operative_leader
+kill_operative
+country_lock_all_division_template
+start_resistance
+add_civil_war_target
+remove_dynamic_modifier
+update_operation_ai
+give_resource_rights
+remove_resource_rights
+set_popularities

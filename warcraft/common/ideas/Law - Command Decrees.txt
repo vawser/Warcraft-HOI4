@@ -1,0 +1,64 @@
+ideas = {
+    command_decree = {
+        # Grant Free Hand
+        command_decree_grant_free_hand = {
+            allowed = {
+                NOT = {
+                    has_available_idea_with_traits = {
+                        idea = command_trait_grant_free_hand
+                        limit = 1
+                    }
+                }
+            }
+            traits = { command_trait_grant_free_hand }
+            ai_will_do = {
+                factor = 1
+            }
+        }
+        # Ensure Obedience
+        command_decree_ensure_obedience = {
+            allowed = {
+                NOT = {
+                    has_available_idea_with_traits = {
+                        idea = command_trait_ensure_obedience
+                        limit = 1
+                    }
+                }
+            }
+            traits = { command_trait_ensure_obedience }
+            ai_will_do = {
+                factor = 1
+            }
+        }
+        # Adjust Promotion Standards
+        command_decree_adjust_promotion_standards = {
+            allowed = {
+                NOT = {
+                    has_available_idea_with_traits = {
+                        idea = command_trait_adjust_promotion_standards
+                        limit = 1
+                    }
+                }
+            }
+            traits = { command_trait_adjust_promotion_standards }
+            ai_will_do = {
+                factor = 1
+            }
+        }
+        # Retain Command Structures
+        command_decree_retain_command_structures = {
+            allowed = {
+                NOT = {
+                    has_available_idea_with_traits = {
+                        idea = command_trait_retain_command_structures
+                        limit = 1
+                    }
+                }
+            }
+            traits = { command_trait_retain_command_structures }
+            ai_will_do = {
+                factor = 1
+            }
+        }
+    }
+}

@@ -3,23 +3,47 @@
 # cruiser
 # destroyer
 sub_units = {
+    battleship = {
+		sprite = battleship
+		map_icon_category = ship
+		priority = 9
+		type = { capital_ship }
+		need = { hull_battleship_equipment = 1 }
+		
+        max_organisation = 40
+        supply_consumption = 0.2
+        
+        critical_parts = { 
+            destroyed_ammo_storage 
+            broken_propeller 
+            on_fire rudder_jammed 
+            ballast_tanks_inoperable 
+        }
+		critical_part_damage_chance_mult = 1
+		hit_profile_mult = 1.0
+        
+        categories = { category_navy }
+	}
+    
     cruiser = {
 		sprite = battle_cruiser
 		map_icon_category = ship
 		priority = 8
 		type = { capital_ship }
-		need = { cruiser_equipment = 1 }
+		need = { hull_cruiser_equipment = 1 }
 	
-        categories = { category_navy }
-	}
-    
-    submarine = {
-		sprite = submarine
-		map_icon_category = ship
-		priority = 2
-		type = { submarine }
-		need = { submarine_equipment = 1 }
-		
+        max_organisation = 40
+        supply_consumption = 0.1
+        
+        critical_parts = { 
+            destroyed_ammo_storage 
+            broken_propeller 
+            on_fire rudder_jammed 
+            ballast_tanks_inoperable 
+        }
+		critical_part_damage_chance_mult = 1
+		hit_profile_mult = 1.0
+        
         categories = { category_navy }
 	}
     
@@ -28,18 +52,42 @@ sub_units = {
 		map_icon_category = ship
 		priority = 3
 		type = { screen_ship }
-		need = { destroyer_equipment = 1 }
+		need = { hull_destroyer_equipment = 1 }
 		
+        max_organisation = 40
+        supply_consumption = 0.05
+        
+        critical_parts = { 
+            destroyed_ammo_storage 
+            broken_propeller 
+            on_fire rudder_jammed 
+            ballast_tanks_inoperable 
+        }
+		critical_part_damage_chance_mult = 1
+		hit_profile_mult = 1.0
+        
         categories = { category_navy }
 	}
     
-    battleship = {
-		sprite = battleship
+    submarine = {
+		sprite = submarine
 		map_icon_category = ship
-		priority = 9
-		type = { capital_ship }
-		need = { battleship_equipment = 1 }
+		priority = 2
+		type = { submarine }
+		need = { hull_submarine_equipment = 1 }
 		
+        max_organisation = 40
+        supply_consumption = 0.01
+        
+        critical_parts = { 
+            destroyed_ammo_storage 
+            broken_propeller 
+            on_fire rudder_jammed 
+            ballast_tanks_inoperable 
+        }
+		critical_part_damage_chance_mult = 1
+		hit_profile_mult = 1.0
+        
         categories = { category_navy }
 	}
 }

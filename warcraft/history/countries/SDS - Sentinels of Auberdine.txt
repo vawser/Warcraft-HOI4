@@ -33,9 +33,9 @@ set_technology = {
 add_ideas = {
 	racial_night_elf
     
-    war_economy
-    limited_trade
-    low_conscription
+    economy_wartime
+    trade_limited
+    conscription_low
     
 }
 

@@ -1,0 +1,107 @@
+leader_traits = {
+    economic_trait_bolster_construction = {
+        random = no
+        
+        global_building_slots_factor = 0.1
+        
+        ai_will_do = {
+            factor = 1
+        }
+    }
+    economic_trait_divert_goods = {
+        random = no
+        
+        consumer_goods_factor = -0.05
+        
+        ai_will_do = {
+            factor = 1
+        }
+    }
+    economic_trait_implement_standardized_conversion = {
+        random = no
+        
+        conversion_cost_civ_to_mil_factor = -0.25
+        conversion_cost_mil_to_civ_factor = -0.25
+        
+        ai_will_do = {
+            factor = 1
+        }
+    }
+    economic_trait_retain_industrial_knowledge = {
+        random = no
+        
+        line_change_production_efficiency_factor = 0.05
+        
+        ai_will_do = {
+            factor = 1
+        }
+    }
+    economic_trait_utilise_industrial_experience = {
+        random = no
+        
+        production_factory_start_efficiency_factor = 0.05
+        
+        ai_will_do = {
+            factor = 1
+        }
+    }
+    economic_trait_compile_substitution_lists = {
+        random = no
+        
+        production_lack_of_resource_penalty_factor = -0.1
+        
+        ai_will_do = {
+            factor = 1
+        }
+    }
+    economic_trait_prepare_for_war = {
+        random = no
+        
+        production_speed_arms_factory_factor = 0.15
+        production_speed_dockyard_factor = 0.15
+        
+        ai_will_do = {
+            factor = 1
+        }
+    }
+    economic_trait_support_the_homeland = {
+        random = no
+        
+        production_speed_industrial_complex_factor = 0.15
+        production_speed_infrastructure_factor = 0.15
+        
+        ai_will_do = {
+            factor = 1
+        }
+    }
+    economic_trait_fortification_efforts = {
+        random = no
+        
+        production_speed_bunker_factor = 0.25
+        production_speed_coastal_bunker_factor = 0.25
+        production_speed_anti_air_building_factor = 0.25
+        
+        ai_will_do = {
+            factor = 1
+        }
+    }
+    economic_trait_expand_national_reach = {
+        random = no
+        
+        production_speed_air_base_factor = 0.15
+		production_speed_naval_base_factor = 0.15
+        
+        ai_will_do = {
+            factor = 1
+        }
+    }
+    economic_trait_improve_fuel_extraction = {
+        random = no
+        
+        fuel_gain_factor = 0.25
+        
+        ai_will_do = {
+            factor = 1
+        }
+    }
+}

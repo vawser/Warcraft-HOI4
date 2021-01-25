@@ -1,0 +1,38 @@
+leader_traits = {
+    command_trait_grant_free_hand = {
+        random = no
+        
+        max_commander_army_size = 6
+        
+        ai_will_do = {
+            factor = 1
+        }
+    }
+    command_trait_ensure_obedience = {
+        random = no
+        
+        command_power_gain_mult = 0.25
+        
+        ai_will_do = {
+            factor = 1
+        }
+    }
+    command_trait_adjust_promotion_standards = {
+        random = no
+        
+        promote_cost_factor = -0.25
+        
+        ai_will_do = {
+            factor = 1
+        }
+    }
+    command_trait_retain_command_structures = {
+        random = no
+        
+        experience_loss_factor = -0.25
+        
+        ai_will_do = {
+            factor = 1
+        }
+    }
+}
