@@ -1,6 +1,24 @@
 WOO = {
+    operative = {
+		male = {
+			"gfx/leaders/GNOLL/gnoll_riverpaw_1.dds"
+			"gfx/leaders/GNOLL/gnoll_riverpaw_2.dds"
+            "gfx/leaders/GNOLL/gnoll_riverpaw_3.dds"
+		}
+        female = {
+			"gfx/leaders/GNOLL/gnoll_riverpaw_1.dds"
+			"gfx/leaders/GNOLL/gnoll_riverpaw_2.dds"
+            "gfx/leaders/GNOLL/gnoll_riverpaw_3.dds"
+		}
+	}
+    
 	army = {
 		male = {
+			"gfx/leaders/GNOLL/gnoll_riverpaw_1.dds"
+			"gfx/leaders/GNOLL/gnoll_riverpaw_2.dds"
+            "gfx/leaders/GNOLL/gnoll_riverpaw_3.dds"
+		}
+        female = {
 			"gfx/leaders/GNOLL/gnoll_riverpaw_1.dds"
 			"gfx/leaders/GNOLL/gnoll_riverpaw_2.dds"
             "gfx/leaders/GNOLL/gnoll_riverpaw_3.dds"
@@ -9,6 +27,11 @@ WOO = {
 
 	navy = {
 		male = {
+			"gfx/leaders/GNOLL/gnoll_riverpaw_1.dds"
+			"gfx/leaders/GNOLL/gnoll_riverpaw_2.dds"
+            "gfx/leaders/GNOLL/gnoll_riverpaw_3.dds"
+		}
+        female = {
 			"gfx/leaders/GNOLL/gnoll_riverpaw_1.dds"
 			"gfx/leaders/GNOLL/gnoll_riverpaw_2.dds"
             "gfx/leaders/GNOLL/gnoll_riverpaw_3.dds"
@@ -22,9 +45,19 @@ WOO = {
                 "gfx/leaders/GNOLL/gnoll_riverpaw_2.dds"
                 "gfx/leaders/GNOLL/gnoll_riverpaw_3.dds"
             }
+            female = {
+                "gfx/leaders/GNOLL/gnoll_riverpaw_1.dds"
+                "gfx/leaders/GNOLL/gnoll_riverpaw_2.dds"
+                "gfx/leaders/GNOLL/gnoll_riverpaw_3.dds"
+            }
 		}
 		shadow = {
 			male = {
+                "gfx/leaders/GNOLL/gnoll_riverpaw_1.dds"
+                "gfx/leaders/GNOLL/gnoll_riverpaw_2.dds"
+                "gfx/leaders/GNOLL/gnoll_riverpaw_3.dds"
+            }
+            female = {
                 "gfx/leaders/GNOLL/gnoll_riverpaw_1.dds"
                 "gfx/leaders/GNOLL/gnoll_riverpaw_2.dds"
                 "gfx/leaders/GNOLL/gnoll_riverpaw_3.dds"
@@ -36,9 +69,19 @@ WOO = {
                 "gfx/leaders/GNOLL/gnoll_riverpaw_2.dds"
                 "gfx/leaders/GNOLL/gnoll_riverpaw_3.dds"
             }
+            female = {
+                "gfx/leaders/GNOLL/gnoll_riverpaw_1.dds"
+                "gfx/leaders/GNOLL/gnoll_riverpaw_2.dds"
+                "gfx/leaders/GNOLL/gnoll_riverpaw_3.dds"
+            }
 		}
         disorder = {
 			male = {
+                "gfx/leaders/GNOLL/gnoll_riverpaw_1.dds"
+                "gfx/leaders/GNOLL/gnoll_riverpaw_2.dds"
+                "gfx/leaders/GNOLL/gnoll_riverpaw_3.dds"
+            }
+            female = {
                 "gfx/leaders/GNOLL/gnoll_riverpaw_1.dds"
                 "gfx/leaders/GNOLL/gnoll_riverpaw_2.dds"
                 "gfx/leaders/GNOLL/gnoll_riverpaw_3.dds"
@@ -50,6 +93,11 @@ WOO = {
                 "gfx/leaders/GNOLL/gnoll_riverpaw_2.dds"
                 "gfx/leaders/GNOLL/gnoll_riverpaw_3.dds"
             }
+            female = {
+                "gfx/leaders/GNOLL/gnoll_riverpaw_1.dds"
+                "gfx/leaders/GNOLL/gnoll_riverpaw_2.dds"
+                "gfx/leaders/GNOLL/gnoll_riverpaw_3.dds"
+            }
 		}
         death = {
 			male = {
@@ -57,9 +105,19 @@ WOO = {
                 "gfx/leaders/GNOLL/gnoll_riverpaw_2.dds"
                 "gfx/leaders/GNOLL/gnoll_riverpaw_3.dds"
             }
+            female = {
+                "gfx/leaders/GNOLL/gnoll_riverpaw_1.dds"
+                "gfx/leaders/GNOLL/gnoll_riverpaw_2.dds"
+                "gfx/leaders/GNOLL/gnoll_riverpaw_3.dds"
+            }
 		}
         unaligned = {
 			male = {
+                "gfx/leaders/GNOLL/gnoll_riverpaw_1.dds"
+                "gfx/leaders/GNOLL/gnoll_riverpaw_2.dds"
+                "gfx/leaders/GNOLL/gnoll_riverpaw_3.dds"
+            }
+            female = {
                 "gfx/leaders/GNOLL/gnoll_riverpaw_1.dds"
                 "gfx/leaders/GNOLL/gnoll_riverpaw_2.dds"
                 "gfx/leaders/GNOLL/gnoll_riverpaw_3.dds"

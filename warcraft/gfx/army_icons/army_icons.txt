@@ -36,6 +36,208 @@
 	}
 	icon = {
 	}
+	icon = {
+		color_override = no
+	}
+	icon = {
+		color_override = no
+	}
+	icon = {
+		color_override = no
+	}
+	icon = {
+		color_override = no
+	}
+	icon = {
+		color_override = no
+	}
+	icon = {
+		color_override = no
+	}
+	icon = {
+		color_override = no
+	}
+	icon = {
+		color_override = no
+	}
+	icon = {
+		color_override = no
+	}
+	icon = {
+		color_override = no
+	}
+	icon = {
+		color_override = no
+	}
+	icon = {
+		color_override = no
+	}
+	icon = {
+		color_override = no
+	}
+	icon = {
+		color_override = no
+	}
+	icon = {
+		color_override = no
+	}
+	icon = {
+		color_override = no
+	}
+	icon = {
+		color_override = no
+	}
+	icon = {
+		color_override = no
+	}
+	icon = {
+		color_override = no
+	}
+	icon = {
+		color_override = no
+	}
+	icon = {
+		color_override = no
+	}
+	icon = {
+		color_override = no
+	}
+	icon = {
+		color_override = no
+	}
+	icon = {
+		color_override = no
+	}
+	icon = {
+		color_override = no
+	}
+	icon = {
+		color_override = no
+	}
+	icon = {
+		color_override = no
+	}
+	icon = {
+		color_override = no
+	}
+	icon = {
+		color_override = no
+	}
+	icon = {
+		color_override = no
+	}
+	icon = {
+		color_override = no
+	}
+	icon = {
+		color_override = no
+	}
+	icon = {
+		color_override = no
+	}
+	icon = {
+		color_override = no
+	}
+	icon = {
+		color_override = no
+	}
+	icon = {
+		color_override = no
+	}
+	icon = {
+		color_override = no
+	}
+	icon = {
+		color_override = no
+	}
+	icon = {
+		color_override = no
+	}
+	icon = {
+		color_override = no
+	}
+	icon = {
+		color_override = no
+	}
+	icon = {
+		color_override = no
+	}
+	icon = {
+		color_override = no
+	}
+	icon = {
+		color_override = no
+	}
+	icon = {
+		color_override = no
+	}
+	icon = {
+		color_override = no
+	}
+	icon = 
+	{
+		color_override = no
+	}
+	icon = {
+		color_override = no
+	}
+	icon = {
+		color_override = no
+	}
+	icon = {
+		color_override = no
+	}
+	icon = {
+		color_override = no
+	}
+	icon = {
+		color_override = no
+	}
+	icon = {
+		color_override = no
+	}
+	icon = {
+		color_override = no
+	}
+	icon = {
+		color_override = no
+	}
+	icon = {
+		color_override = no
+	}
+	icon = {
+		color_override = no
+	}
+	icon = {
+		color_override = no
+	}
+	icon = {
+		color_override = no
+	}
+	icon = {
+		color_override = no
+	}
+	icon = {
+		color_override = no
+	}
+	icon = {
+		color_override = no
+	}
+	icon = {
+		color_override = no
+	}
+	icon = {
+		color_override = no
+	}
+	icon = {
+		color_override = no
+	}
+	icon = {
+		color_override = no
+	}
+	icon = {
+		color_override = no
+	}
 }
 
 army_group = {
@@ -45,41 +247,18 @@ army_group = {
 	}
 	icon = {
 		color_override = no
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-		}
 	}
 	icon = {
 		color_override = no
-		name = "15. Army Group"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-		}
 	}
 	icon = {
 		color_override = no
-		name = "12. Army Group"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-		}
 	}
 	icon = {
 		color_override = no
-		name = "6. Army Group"
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-		}
 	}
 	icon = {
 		color_override = no
-		available = 
-		{
-			has_dlc = "Waking the Tiger"
-		}
 	}
 }
 

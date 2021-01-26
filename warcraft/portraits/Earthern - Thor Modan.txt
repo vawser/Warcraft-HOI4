@@ -1,12 +1,27 @@
 TMN = {
+    operative = {
+		male = {
+			"gfx/leaders/EARTHERN/earthern_ochre.dds"
+		}
+        female = {
+			"gfx/leaders/EARTHERN/earthern_ochre.dds"
+		}
+	}
+    
 	army = {
 		male = {
+			"gfx/leaders/EARTHERN/earthern_ochre.dds"
+		}
+        female = {
 			"gfx/leaders/EARTHERN/earthern_ochre.dds"
 		}
 	}
 
 	navy = {
 		male = {
+			"gfx/leaders/EARTHERN/earthern_ochre.dds"
+		}
+        female = {
 			"gfx/leaders/EARTHERN/earthern_ochre.dds"
 		}
 	}
@@ -16,9 +31,15 @@ TMN = {
 			male = {
                 "gfx/leaders/EARTHERN/earthern_ochre.dds"
             }
+            female = {
+                "gfx/leaders/EARTHERN/earthern_ochre.dds"
+            }
 		}
 		shadow = {
 			male = {
+                "gfx/leaders/EARTHERN/earthern_ochre.dds"
+            }
+            female = {
                 "gfx/leaders/EARTHERN/earthern_ochre.dds"
             }
 		}
@@ -26,9 +47,15 @@ TMN = {
 			male = {
                 "gfx/leaders/EARTHERN/earthern_ochre.dds"
             }
+            female = {
+                "gfx/leaders/EARTHERN/earthern_ochre.dds"
+            }
 		}
         disorder = {
 			male = {
+                "gfx/leaders/EARTHERN/earthern_ochre.dds"
+            }
+            female = {
                 "gfx/leaders/EARTHERN/earthern_ochre.dds"
             }
 		}
@@ -36,14 +63,23 @@ TMN = {
 			male = {
                 "gfx/leaders/EARTHERN/earthern_ochre.dds"
             }
+            female = {
+                "gfx/leaders/EARTHERN/earthern_ochre.dds"
+            }
 		}
         death = {
 			male = {
                 "gfx/leaders/EARTHERN/earthern_ochre.dds"
             }
+            female = {
+                "gfx/leaders/EARTHERN/earthern_ochre.dds"
+            }
 		}
         unaligned = {
 			male = {
+                "gfx/leaders/EARTHERN/earthern_ochre.dds"
+            }
+            female = {
                 "gfx/leaders/EARTHERN/earthern_ochre.dds"
             }
 		}

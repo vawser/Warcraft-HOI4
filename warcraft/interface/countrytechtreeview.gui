@@ -24,7 +24,7 @@ guiTypes = {
     containerWindowType = {
         name = "countrytechtreeview"
         position = { x=-3 y=80 }
-        size = { width = 100%% height = 100%% }
+        size = { width = 1350 height = 100%% }
         fade_time = 400
         fade_type = linear
 
@@ -35,7 +35,7 @@ guiTypes = {
 
         buttonType = {
             name = "close_button"
-            position = { x = 135 y = 270 }
+            position = { x = 135 y = 955 }
             quadTextureSprite ="GFX_tech_tab"
             frame = 2
             font = "hoi_20bs"
@@ -45,7 +45,10 @@ guiTypes = {
             pdx_tooltip = "CLOSE"
         }
         
-        @techtab_x = 520
+        @techtab_x = 505
+        @techtax_button_first_column_x = 10
+        @techtax_button_last_column_x = 250
+        @techtax_button_central_column_x = 130
         
         #---------------------------------------------------
         # FOLDER TABS
@@ -55,127 +58,443 @@ guiTypes = {
             position = { x=5 y=20 }
             size = { width = 100%% height = 100%% }
             
-            buttonType = {
-                name = "army_folder_tab"
-                position = { x = 10 y = 0 }
-                quadTextureSprite = "GFX_tech_tab"
-                clicksound = click_default
+            drag_scroll = { left middle }
+            verticalScrollbar = "right_vertical_slider"
+            
+            #-----------------------------
+            # Army
+            #-----------------------------
+            iconType = {
+                name ="title_banner_icon_1"
+                spriteType = "GFX_long_blue_menu_button"
+                position = { x=75 y=0 }
+                allwaystransparent = yes
+            }
+            instantTextBoxType = {
+                name = "title_banner_text_1"
+                position = { x=150 y=15 }
+                textureFile = ""
                 font = "hoi_20bs"
+                borderSize = { x = 0 y = 0}
                 text = "Army"
-                frame = 1
+                maxWidth = 200
+                maxHeight = 62
+                format = center
+                Orientation = "UPPER_LEFT"
             }
+            
             buttonType = {
-                name = "land_doctrine_folder_tab"
-                position = { x = 270 y = 0 }
+                name = "army_grunt_folder_tab"
+                position = { x = @techtax_button_first_column_x y = 45 }
                 quadTextureSprite = "GFX_tech_tab"
                 clicksound = click_default
                 font = "hoi_20bs"
-                text = "Army Doctrine"
+                text = "Grunt"
+                frame = 1
+            }
+            buttonType = {
+                name = "army_champion_folder_tab"
+                position = { x = @techtax_button_last_column_x y = 45 }
+                quadTextureSprite = "GFX_tech_tab"
+                clicksound = click_default
+                font = "hoi_20bs"
+                text = "Champion"
+                frame = 1
+            }
+            buttonType = {
+                name = "army_spellcaster_folder_tab"
+                position = { x = @techtax_button_first_column_x y = 90 }
+                quadTextureSprite = "GFX_tech_tab"
+                clicksound = click_default
+                font = "hoi_20bs"
+                text = "Spellcaster"
+                frame = 1
+            }
+            buttonType = {
+                name = "army_archer_folder_tab"
+                position = { x = @techtax_button_last_column_x y = 90 }
+                quadTextureSprite = "GFX_tech_tab"
+                clicksound = click_default
+                font = "hoi_20bs"
+                text = "Archer"
+                frame = 1
+            }
+            buttonType = {
+                name = "army_light_cavalry_folder_tab"
+                position = { x = @techtax_button_first_column_x y = 135 }
+                quadTextureSprite = "GFX_tech_tab"
+                clicksound = click_default
+                font = "hoi_20bs"
+                text = "Light Cavalry"
+                frame = 1
+            }
+            buttonType = {
+                name = "army_heavy_cavalry_folder_tab"
+                position = { x = @techtax_button_last_column_x y = 135 }
+                quadTextureSprite = "GFX_tech_tab"
+                clicksound = click_default
+                font = "hoi_20bs"
+                text = "Heavy Cavalry"
+                frame = 1
+            }
+            buttonType = {
+                name = "army_war_engine_folder_tab"
+                position = { x = @techtax_button_first_column_x y = 180 }
+                quadTextureSprite = "GFX_tech_tab"
+                clicksound = click_default
+                font = "hoi_20bs"
+                text = "War Engine"
+                frame = 1
+            }
+            buttonType = {
+                name = "army_support_folder_tab"
+                position = { x = @techtax_button_last_column_x y = 180 }
+                quadTextureSprite = "GFX_tech_tab"
+                clicksound = click_default
+                font = "hoi_20bs"
+                text = "Army Support"
+                frame = 1
+            }
+            buttonType = {
+                name = "army_light_tank_folder_tab"
+                position = { x = @techtax_button_first_column_x y = 225 }
+                quadTextureSprite = "GFX_tech_tab"
+                clicksound = click_default
+                font = "hoi_20bs"
+                text = "Light Tank"
+                frame = 1
+            }
+            buttonType = {
+                name = "army_heavy_tank_folder_tab"
+                position = { x = @techtax_button_last_column_x y = 225 }
+                quadTextureSprite = "GFX_tech_tab"
+                clicksound = click_default
+                font = "hoi_20bs"
+                text = "Heavy Tank"
                 frame = 1
             }
             
             buttonType = {
-                name = "air_folder_tab"
-                position = { x = 10 y = 45 }
+                name = "army_vanquisher_doctrine_folder_tab"
+                position = { x = @techtax_button_first_column_x y = 270 }
                 quadTextureSprite = "GFX_tech_tab"
                 clicksound = click_default
                 font = "hoi_20bs"
+                text = "Vanquisher Doctrine"
+                frame = 1
+            }
+            buttonType = {
+                name = "army_aegis_doctrine_folder_tab"
+                position = { x = @techtax_button_last_column_x y = 270 }
+                quadTextureSprite = "GFX_tech_tab"
+                clicksound = click_default
+                font = "hoi_20bs"
+                text = "Aegis Doctrine"
+                frame = 1
+            }
+            
+            #-----------------------------
+            # Navy
+            #-----------------------------
+            iconType = {
+                name ="title_banner_icon_2"
+                spriteType = "GFX_long_blue_menu_button"
+                position = { x=75 y=315 }
+                allwaystransparent = yes
+            }
+            instantTextBoxType = {
+                name = "title_banner_text_2"
+                position = { x=150 y=330 }
+                textureFile = ""
+                font = "hoi_20bs"
+                borderSize = { x = 0 y = 0}
+                text = "Navy"
+                maxWidth = 200
+                maxHeight = 62
+                format = center
+                Orientation = "UPPER_LEFT"
+            }
+            
+            buttonType = {
+                name = "navy_battleship_folder_tab"
+                position = { x = @techtax_button_first_column_x y = 360 }
+                quadTextureSprite = "GFX_tech_tab"
+                clicksound = click_default
+                font = "hoi_20bs"
+                text = "Battleship"
+                frame = 1
+            }
+            buttonType = {
+                name = "navy_cruiser_folder_tab"
+                position = { x = @techtax_button_last_column_x y = 360 }
+                quadTextureSprite = "GFX_tech_tab"
+                clicksound = click_default
+                font = "hoi_20bs"
+                text = "Cruiser"
+                frame = 1
+            }
+            buttonType = {
+                name = "navy_destroyer_folder_tab"
+                position = { x = @techtax_button_first_column_x y = 405 }
+                quadTextureSprite = "GFX_tech_tab"
+                clicksound = click_default
+                font = "hoi_20bs"
+                text = "Destroyer"
+                frame = 1
+            }
+            buttonType = {
+                name = "navy_submarine_folder_tab"
+                position = { x = @techtax_button_last_column_x y = 405 }
+                quadTextureSprite = "GFX_tech_tab"
+                clicksound = click_default
+                font = "hoi_20bs"
+                text = "Submarine"
+                frame = 1
+            }
+            buttonType = {
+                name = "navy_barrage_doctrine_folder_tab"
+                position = { x = @techtax_button_first_column_x y = 450 }
+                quadTextureSprite = "GFX_tech_tab"
+                clicksound = click_default
+                font = "hoi_20bs"
+                text = "Barrage Doctrine"
+                frame = 1
+            }
+            buttonType = {
+                name = "navy_assault_doctrine_folder_tab"
+                position = { x = @techtax_button_last_column_x y = 450 }
+                quadTextureSprite = "GFX_tech_tab"
+                clicksound = click_default
+                font = "hoi_20bs"
+                text = "Assault Doctrine"
+                frame = 1
+            }
+            
+            buttonType = {
+                name = "mtg_navy_battleship_folder_tab"
+                position = { x = @techtax_button_first_column_x y = 360 }
+                quadTextureSprite = "GFX_tech_tab"
+                clicksound = click_default
+                font = "hoi_20bs"
+                text = "Battleship"
+                frame = 1
+            }
+            buttonType = {
+                name = "mtg_navy_cruiser_folder_tab"
+                position = { x = @techtax_button_last_column_x y = 360 }
+                quadTextureSprite = "GFX_tech_tab"
+                clicksound = click_default
+                font = "hoi_20bs"
+                text = "Cruiser"
+                frame = 1
+            }
+            buttonType = {
+                name = "mtg_navy_destroyer_folder_tab"
+                position = { x = @techtax_button_first_column_x y = 405 }
+                quadTextureSprite = "GFX_tech_tab"
+                clicksound = click_default
+                font = "hoi_20bs"
+                text = "Destroyer"
+                frame = 1
+            }
+            buttonType = {
+                name = "mtg_navy_submarine_folder_tab"
+                position = { x = @techtax_button_last_column_x y = 405 }
+                quadTextureSprite = "GFX_tech_tab"
+                clicksound = click_default
+                font = "hoi_20bs"
+                text = "Submarine"
+                frame = 1
+            }
+            
+            #-----------------------------
+            # Air
+            #-----------------------------
+            iconType = {
+                name ="title_banner_icon_3"
+                spriteType = "GFX_long_blue_menu_button"
+                position = { x=75 y=495 }
+                allwaystransparent = yes
+            }
+            instantTextBoxType = {
+                name = "title_banner_text_3"
+                position = { x=150 y=510 }
+                textureFile = ""
+                font = "hoi_20bs"
+                borderSize = { x = 0 y = 0}
                 text = "Aviation"
-                frame = 1
+                maxWidth = 200
+                maxHeight = 62
+                format = center
+                Orientation = "UPPER_LEFT"
             }
             
             buttonType = {
-                name = "air_doctrine_folder_tab"
-                position = { x = 270 y = 45 }
+                name = "air_fighter_folder_tab"
+                position = { x = @techtax_button_first_column_x y = 540 }
                 quadTextureSprite = "GFX_tech_tab"
                 clicksound = click_default
                 font = "hoi_20bs"
-                text = "Aviation Doctrine"
+                text = "Fighter"
                 frame = 1
             }
-
             buttonType = {
-                name = "navy_folder_tab"
-                position = { x = 10 y = 90 }
+                name = "air_cas_folder_tab"
+                position = { x = @techtax_button_last_column_x y = 540 }
                 quadTextureSprite = "GFX_tech_tab"
                 clicksound = click_default
                 font = "hoi_20bs"
-                text = "Navy"
+                text = "CAS"
                 frame = 1
             }
-
             buttonType = {
-                name = "navy_mtg_folder_tab"
-                position = { x = 10 y = 90 }
+                name = "air_tactical_bomber_folder_tab"
+                position = { x = @techtax_button_first_column_x y = 585 }
                 quadTextureSprite = "GFX_tech_tab"
                 clicksound = click_default
                 font = "hoi_20bs"
-                text = "Navy"
+                text = "Tactical Bomber"
+                frame = 1
+            }
+            buttonType = {
+                name = "air_strategic_bomber_folder_tab"
+                position = { x = @techtax_button_last_column_x y = 585 }
+                quadTextureSprite = "GFX_tech_tab"
+                clicksound = click_default
+                font = "hoi_20bs"
+                text = "Strategic Bomber"
+                frame = 1
+            }
+            buttonType = {
+                name = "air_incursion_doctrine_folder_tab"
+                position = { x = @techtax_button_first_column_x y = 630 }
+                quadTextureSprite = "GFX_tech_tab"
+                clicksound = click_default
+                font = "hoi_20bs"
+                text = "Incursion Doctrine"
+                frame = 1
+            }
+            buttonType = {
+                name = "air_firestorm_doctrine_folder_tab"
+                position = { x = @techtax_button_last_column_x y = 630 }
+                quadTextureSprite = "GFX_tech_tab"
+                clicksound = click_default
+                font = "hoi_20bs"
+                text = "Firestorm Doctrine"
                 frame = 1
             }
             
-            buttonType = {
-                name = "naval_doctrine_folder_tab"
-                position = { x = 270 y = 90 }
-                quadTextureSprite = "GFX_tech_tab"
-                clicksound = click_default
+            #-----------------------------
+            # Economic
+            #-----------------------------
+            iconType = {
+                name ="title_banner_icon_4"
+                spriteType = "GFX_long_blue_menu_button"
+                position = { x=75 y=675 }
+                allwaystransparent = yes
+            }
+            instantTextBoxType = {
+                name = "title_banner_text_4"
+                position = { x=150 y=690 }
+                textureFile = ""
                 font = "hoi_20bs"
-                text = "Naval Doctrine"
-                frame = 1
+                borderSize = { x = 0 y = 0}
+                text = "Economic"
+                maxWidth = 200
+                maxHeight = 62
+                format = center
+                Orientation = "UPPER_LEFT"
             }
             
             buttonType = {
-                name = "support_folder_tab"
-                position = { x = 10 y = 135 }
+                name = "industry_folder_tab"
+                position = { x = @techtax_button_first_column_x y = 720 }
                 quadTextureSprite = "GFX_tech_tab"
                 clicksound = click_default
                 font = "hoi_20bs"
-                text = "Support"
+                text = "Industry"
                 frame = 1
+            }
+            buttonType = {
+                name = "production_folder_tab"
+                position = { x = @techtax_button_last_column_x y = 720 }
+                quadTextureSprite = "GFX_tech_tab"
+                clicksound = click_default
+                font = "hoi_20bs"
+                text = "Production"
+                frame = 1
+            }
+            buttonType = {
+                name = "extraction_folder_tab"
+                position = { x = @techtax_button_first_column_x y = 765 }
+                quadTextureSprite = "GFX_tech_tab"
+                clicksound = click_default
+                font = "hoi_20bs"
+                text = "Extraction"
+                frame = 1
+            }
+            buttonType = {
+                name = "construction_folder_tab"
+                position = { x = @techtax_button_last_column_x y = 765 }
+                quadTextureSprite = "GFX_tech_tab"
+                clicksound = click_default
+                font = "hoi_20bs"
+                text = "Construction"
+                frame = 1
+            }
+            
+            #-----------------------------
+            # Political
+            #-----------------------------
+            iconType = {
+                name ="title_banner_icon_5"
+                spriteType = "GFX_long_blue_menu_button"
+                position = { x=75 y=810 }
+                allwaystransparent = yes
+            }
+            instantTextBoxType = {
+                name = "title_banner_text_5"
+                position = { x=150 y=825 }
+                textureFile = ""
+                font = "hoi_20bs"
+                borderSize = { x = 0 y = 0}
+                text = "Political"
+                maxWidth = 200
+                maxHeight = 62
+                format = center
+                Orientation = "UPPER_LEFT"
             }
             
             buttonType = {
                 name = "statecraft_folder_tab"
-                position = { x = 270 y = 135 }
+                position = { x = @techtax_button_first_column_x y = 855 }
                 quadTextureSprite = "GFX_tech_tab"
                 clicksound = click_default
                 font = "hoi_20bs"
                 text = "Statecraft"
                 frame = 1
             }
-            
             buttonType = {
-                name = "industry_folder_tab"
-                position = { x = 10 y = 180 }
+                name = "diplomacy_folder_tab"
+                position = { x = @techtax_button_last_column_x y = 855 }
                 quadTextureSprite = "GFX_tech_tab"
                 clicksound = click_default
                 font = "hoi_20bs"
-                text = "Industry"
-                frame = 1
-            }
-
-            buttonType = {
-                name = "resources_folder_tab"
-                position = { x = 270 y = 180 }
-                quadTextureSprite = "GFX_tech_tab"
-                clicksound = click_default
-                font = "hoi_20bs"
-                text = "Industry"
+                text = "Diplomacy"
                 frame = 1
             }
         }
         
         #---------------------------------------------------
-        # Army
+        # Army - Grunt
         #---------------------------------------------------
         containerWindowType = {
-            name = "army_folder"
+            name = "army_grunt_folder"
             position = { x=@techtab_x y=0 }
             size = { width = 100%% height = 100%% }
-            margin = { top = 13 left = 13 bottom = 50 right = 25}
+            margin = { top = 13 left = 13 bottom = 50 right = 25 }
             drag_scroll = { left middle }
             verticalScrollbar = "right_vertical_slider"
-            horizontalScrollbar = "bottom_horizontal_slider"
 
             background = {
                 name = "Background"
@@ -204,7 +523,7 @@ guiTypes = {
                     textureFile = ""
                     font = "hoi_30header"
                     borderSize = { x = 0 y = 0}
-                    text = "Army"
+                    text = "Army - Grunt"
                     maxWidth = 600
                     maxHeight = 62
                     format = left
@@ -213,133 +532,238 @@ guiTypes = {
             }
             
             gridboxtype = {
-                name = "grunt_equipment_1_tech_tree"
-                position = { x = 20 y = 100 }
-                slotsize = { width = 40 height = 40 }
-                format = "LEFT"
-            }
-            gridboxtype = {
-                name = "champion_equipment_1_tech_tree"
-                position = { x = 20 y = 100 }
-                slotsize = { width = 40 height = 40 }
-                format = "LEFT"
-            }
-            gridboxtype = {
-                name = "archer_equipment_1_tech_tree"
-                position = { x = 20 y = 100 }
-                slotsize = { width = 40 height = 40 }
-                format = "LEFT"
-            }
-            gridboxtype = {
-                name = "spellcaster_equipment_1_tech_tree"
-                position = { x = 20 y = 100 }
-                slotsize = { width = 40 height = 40 }
-                format = "LEFT"
-            }
-            gridboxtype = {
-                name = "war_engine_equipment_1_tech_tree"
-                position = { x = 20 y = 100 }
-                slotsize = { width = 40 height = 40 }
-                format = "LEFT"
-            }
-            gridboxtype = {
-                name = "light_cavalry_equipment_1_tech_tree"
-                position = { x = 20 y = 100 }
-                slotsize = { width = 40 height = 40 }
-                format = "LEFT"
-            }
-            gridboxtype = {
-                name = "heavy_cavalry_equipment_1_tech_tree"
-                position = { x = 20 y = 100 }
-                slotsize = { width = 40 height = 40 }
-                format = "LEFT"
-            }
-            gridboxtype = {
-                name = "light_tank_equipment_1_tech_tree"
-                position = { x = 20 y = 100 }
-                slotsize = { width = 40 height = 40 }
-                format = "LEFT"
-            }
-            gridboxtype = {
-                name = "heavy_tank_equipment_1_tech_tree"
-                position = { x = 20 y = 100 }
-                slotsize = { width = 40 height = 40 }
-                format = "LEFT"
-            }
-            
-            gridboxtype = {
-                name = "army_experience_1_tree"
-                position = { x = 20 y = 100 }
-                slotsize = { width = 40 height = 40 }
-                format = "LEFT"
-            }
-            gridboxtype = {
-                name = "mobilization_speed_1_tree"
-                position = { x = 20 y = 100 }
-                slotsize = { width = 40 height = 40 }
-                format = "LEFT"
-            }
-            gridboxtype = {
-                name = "equipment_capture_factor_1_tree"
-                position = { x = 20 y = 100 }
-                slotsize = { width = 40 height = 40 }
-                format = "LEFT"
-            }
-            gridboxtype = {
-                name = "conscription_factor_1_tree"
-                position = { x = 20 y = 100 }
-                slotsize = { width = 40 height = 40 }
-                format = "LEFT"
-            }
-            gridboxtype = {
-                name = "monthly_population_1_tree"
-                position = { x = 20 y = 100 }
-                slotsize = { width = 40 height = 40 }
-                format = "LEFT"
-            }
-            gridboxtype = {
-                name = "army_start_level_1_tree"
-                position = { x = 20 y = 100 }
-                slotsize = { width = 40 height = 40 }
-                format = "LEFT"
-            }
-            gridboxtype = {
-                name = "army_attack_level_1_tree"
-                position = { x = 20 y = 100 }
-                slotsize = { width = 40 height = 40 }
-                format = "LEFT"
-            }
-            gridboxtype = {
-                name = "army_defence_level_1_tree"
-                position = { x = 20 y = 100 }
-                slotsize = { width = 40 height = 40 }
-                format = "LEFT"
-            }
-            gridboxtype = {
-                name = "army_logistics_level_1_tree"
-                position = { x = 20 y = 100 }
-                slotsize = { width = 40 height = 40 }
-                format = "LEFT"
-            }
-            gridboxtype = {
-                name = "army_planning_level_1_tree"
-                position = { x = 20 y = 100 }
-                slotsize = { width = 40 height = 40 }
+                name = "grunt_tech_1_tree"
+                position = { x = 80 y = 0 }
+                slotsize = { width = 120 height = 120 }
                 format = "LEFT"
             }
         }
         
         #---------------------------------------------------
-        # SUPPORT
+        # Army - Champion
         #---------------------------------------------------
         containerWindowType = {
-            name = "support_folder"
+            name = "army_champion_folder"
+            position = { x=@techtab_x y=0 }
+            size = { width = 100%% height = 100%% }
+            margin = { top = 13 left = 13 bottom = 50 right = 25}
+            drag_scroll = { left middle }
+            verticalScrollbar = "right_vertical_slider"
+            background = {
+                name = "Background"
+                quadTextureSprite ="GFX_tiled_window_2b_border"
+            }
+
+            containerWindowType = {
+                name = "techtree_stripes"
+                position = { x= 0 y= 0 }
+                size = { 
+                    width = 1400 height = 1275
+                    min = { width = 100%% height = 100%% }
+                }
+                clipping = no
+
+                iconType = {
+                    name ="infantry_techtree_bg"
+                    spriteType = "GFX_wow_infantry_techtree_bg"
+                    position = { x=0 y=0 }
+                    allwaystransparent = yes
+                }
+                
+                instantTextBoxType = {
+                    name = "techtree_subtitle_1"
+                    position = { x = 20 y = 20 }
+                    textureFile = ""
+                    font = "hoi_30header"
+                    borderSize = { x = 0 y = 0}
+                    text = "Army - Champion"
+                    maxWidth = 600
+                    maxHeight = 62
+                    format = left
+                    Orientation = "UPPER_LEFT"
+                }
+            }
+            
+            gridboxtype = {
+                name = "champion_tech_1_tree"
+                position = { x = 80 y = 0 }
+                slotsize = { width = 120 height = 120 }
+                format = "LEFT"
+            }
+        }
+        
+        #---------------------------------------------------
+        # Army - Spellcaster
+        #---------------------------------------------------
+        containerWindowType = {
+            name = "army_spellcaster_folder"
+            position = { x=@techtab_x y=0 }
+            size = { width = 100%% height = 100%% }
+            margin = { top = 13 left = 13 bottom = 50 right = 25}
+            drag_scroll = { left middle }
+            verticalScrollbar = "right_vertical_slider"
+
+            background = {
+                name = "Background"
+                quadTextureSprite ="GFX_tiled_window_2b_border"
+            }
+
+            containerWindowType = {
+                name = "techtree_stripes"
+                position = { x= 0 y= 0 }
+                size = { 
+                    width = 1400 height = 1275
+                    min = { width = 100%% height = 100%% }
+                }
+                clipping = no
+
+                iconType = {
+                    name ="infantry_techtree_bg"
+                    spriteType = "GFX_wow_infantry_techtree_bg"
+                    position = { x=0 y=0 }
+                    allwaystransparent = yes
+                }
+                
+                instantTextBoxType = {
+                    name = "techtree_subtitle_1"
+                    position = { x = 20 y = 20 }
+                    textureFile = ""
+                    font = "hoi_30header"
+                    borderSize = { x = 0 y = 0}
+                    text = "Army - Spellcaster"
+                    maxWidth = 600
+                    maxHeight = 62
+                    format = left
+                    Orientation = "UPPER_LEFT"
+                }
+            }
+            
+            gridboxtype = {
+                name = "spellcaster_tech_1_tree"
+                position = { x = 80 y = 0 }
+                slotsize = { width = 120 height = 120 }
+                format = "LEFT"
+            }
+        }
+        
+        #---------------------------------------------------
+        # Army - Archer
+        #---------------------------------------------------
+        containerWindowType = {
+            name = "army_archer_folder"
+            position = { x=@techtab_x y=0 }
+            size = { width = 100%% height = 100%% }
+            margin = { top = 13 left = 13 bottom = 50 right = 25}
+            drag_scroll = { left middle }
+            verticalScrollbar = "right_vertical_slider"
+
+            background = {
+                name = "Background"
+                quadTextureSprite ="GFX_tiled_window_2b_border"
+            }
+
+            containerWindowType = {
+                name = "techtree_stripes"
+                position = { x= 0 y= 0 }
+                size = { 
+                    width = 1400 height = 1275
+                    min = { width = 100%% height = 100%% }
+                }
+                clipping = no
+
+                iconType = {
+                    name ="infantry_techtree_bg"
+                    spriteType = "GFX_wow_infantry_techtree_bg"
+                    position = { x=0 y=0 }
+                    allwaystransparent = yes
+                }
+                
+                instantTextBoxType = {
+                    name = "techtree_subtitle_1"
+                    position = { x = 20 y = 20 }
+                    textureFile = ""
+                    font = "hoi_30header"
+                    borderSize = { x = 0 y = 0}
+                    text = "Army - Archer"
+                    maxWidth = 600
+                    maxHeight = 62
+                    format = left
+                    Orientation = "UPPER_LEFT"
+                }
+            }
+            
+            gridboxtype = {
+                name = "archer_tech_1_tree"
+                position = { x = 80 y = 0 }
+                slotsize = { width = 120 height = 120 }
+                format = "LEFT"
+            }
+        }
+        
+        #---------------------------------------------------
+        # Army - War Engine
+        #---------------------------------------------------
+        containerWindowType = {
+            name = "army_war_engine_folder"
+            position = { x=@techtab_x y=0 }
+            size = { width = 100%% height = 100%% }
+            margin = { top = 13 left = 13 bottom = 50 right = 25}
+            drag_scroll = { left middle }
+            verticalScrollbar = "right_vertical_slider"
+
+            background = {
+                name = "Background"
+                quadTextureSprite ="GFX_tiled_window_2b_border"
+            }
+
+            containerWindowType = {
+                name = "techtree_stripes"
+                position = { x= 0 y= 0 }
+                size = { 
+                    width = 1400 height = 1275
+                    min = { width = 100%% height = 100%% }
+                }
+                clipping = no
+
+                iconType = {
+                    name ="infantry_techtree_bg"
+                    spriteType = "GFX_wow_infantry_techtree_bg"
+                    position = { x=0 y=0 }
+                    allwaystransparent = yes
+                }
+                
+                instantTextBoxType = {
+                    name = "techtree_subtitle_1"
+                    position = { x = 20 y = 20 }
+                    textureFile = ""
+                    font = "hoi_30header"
+                    borderSize = { x = 0 y = 0}
+                    text = "Army - War Engine"
+                    maxWidth = 600
+                    maxHeight = 62
+                    format = left
+                    Orientation = "UPPER_LEFT"
+                }
+            }
+            
+            gridboxtype = {
+                name = "war_engine_tech_1_tree"
+                position = { x = 80 y = 0 }
+                slotsize = { width = 120 height = 120 }
+                format = "LEFT"
+            }
+        }
+        
+        #---------------------------------------------------
+        # Army - Support
+        #---------------------------------------------------
+        containerWindowType = {
+            name = "army_support_folder"
             position = { x=@techtab_x y=0 }
             size = { width = 100%% height = 100%% }
             margin = { top = 13 left = 13 bottom = 24 right = 25}
             drag_scroll = { left middle }
             verticalScrollbar = "right_vertical_slider"
-            horizontalScrollbar = "bottom_horizontal_slider"
 
             background = {
                 name = "Background"
@@ -368,7 +792,7 @@ guiTypes = {
                     textureFile = ""
                     font = "hoi_30header"
                     borderSize = { x = 0 y = 0}
-                    text = "Support"
+                    text = "Army - Support"
                     maxWidth = 600
                     maxHeight = 62
                     format = left
@@ -378,79 +802,78 @@ guiTypes = {
             
             gridboxtype = {
                 name = "war_engine_support_tech_1_tree"
-                position = { x = 20 y = 100 }
-                slotsize = { width = 40 height = 40 }
+                position = { x = 80 y = 0 }
+                slotsize = { width = 120 height = 120 }
                 format = "LEFT"
             }
             
             gridboxtype = {
                 name = "archer_support_tech_1_tree"
-                position = { x = 20 y = 100 }
-                slotsize = { width = 40 height = 40 }
+                position = { x = 80 y = 0 }
+                slotsize = { width = 120 height = 120 }
                 format = "LEFT"
             }
             
             gridboxtype = {
                 name = "spellcaster_support_tech_1_tree"
-                position = { x = 20 y = 100 }
-                slotsize = { width = 40 height = 40 }
+                position = { x = 80 y = 0 }
+                slotsize = { width = 120 height = 120 }
                 format = "LEFT"
             }
             
             gridboxtype = {
                 name = "logistics_support_tech_1_tree"
-                position = { x = 20 y = 100 }
-                slotsize = { width = 40 height = 40 }
+                position = { x = 80 y = 0 }
+                slotsize = { width = 120 height = 120 }
                 format = "LEFT"
             }
             
             gridboxtype = {
                 name = "guard_support_tech_1_tree"
-                position = { x = 20 y = 100 }
-                slotsize = { width = 40 height = 40 }
+                position = { x = 80 y = 0 }
+                slotsize = { width = 120 height = 120 }
                 format = "LEFT"
             }
             
             gridboxtype = {
                 name = "engineer_support_tech_1_tree"
-                position = { x = 20 y = 100 }
-                slotsize = { width = 40 height = 40 }
+                position = { x = 80 y = 0 }
+                slotsize = { width = 120 height = 120 }
                 format = "LEFT"
             }
             
             gridboxtype = {
                 name = "medic_support_tech_1_tree"
-                position = { x = 20 y = 100 }
-                slotsize = { width = 40 height = 40 }
+                position = { x = 80 y = 0 }
+                slotsize = { width = 120 height = 120 }
                 format = "LEFT"
             }
             
             gridboxtype = {
                 name = "scout_support_tech_1_tree"
-                position = { x = 20 y = 100 }
-                slotsize = { width = 40 height = 40 }
+                position = { x = 80 y = 0 }
+                slotsize = { width = 120 height = 120 }
                 format = "LEFT"
             }
             
             gridboxtype = {
                 name = "cavalry_support_tech_1_tree"
-                position = { x = 20 y = 100 }
-                slotsize = { width = 40 height = 40 }
+                position = { x = 80 y = 0 }
+                slotsize = { width = 120 height = 120 }
                 format = "LEFT"
             }
         }
 
         #---------------------------------------------------
-        # AIR
+        # Army - Light Cavalry
         #---------------------------------------------------
         containerWindowType = {
-            name = "air_folder"
+            name = "army_light_cavalry_folder"
             position = { x=@techtab_x y=0 }
             size = { width = 100%% height = 100%% }
-            margin = { top = 13 left = 13 bottom = 24 right = 25}
+            margin = { top = 13 left = 13 bottom = 50 right = 25}
             drag_scroll = { left middle }
             verticalScrollbar = "right_vertical_slider"
-            horizontalScrollbar = "bottom_horizontal_slider"
 
             background = {
                 name = "Background"
@@ -472,14 +895,14 @@ guiTypes = {
                     position = { x=0 y=0 }
                     allwaystransparent = yes
                 }
-
+                
                 instantTextBoxType = {
                     name = "techtree_subtitle_1"
                     position = { x = 20 y = 20 }
                     textureFile = ""
                     font = "hoi_30header"
                     borderSize = { x = 0 y = 0}
-                    text = "Air"
+                    text = "Army - Light Cavalry"
                     maxWidth = 600
                     maxHeight = 62
                     format = left
@@ -488,55 +911,185 @@ guiTypes = {
             }
             
             gridboxtype = {
-                name = "fighter_tech_1_tree"
-                position = { x = 20 y = 100 }
-                slotsize = { width = 40 height = 40 }
-                format = "LEFT"
-            }
-            gridboxtype = {
-                name = "cas_tech_1_tree"
-                position = { x = 20 y = 100 }
-                slotsize = { width = 40 height = 40 }
-                format = "LEFT"
-            }
-            gridboxtype = {
-                name = "tactical_bomber_tech_1_tree"
-                position = { x = 20 y = 100 }
-                slotsize = { width = 40 height = 40 }
-                format = "LEFT"
-            }
-            gridboxtype = {
-                name = "strategic_bomber_tech_1_tree"
-                position = { x = 20 y = 100 }
-                slotsize = { width = 40 height = 40 }
-                format = "LEFT"
-            }
-            
-            gridboxtype = {
-                name = "air_experience_1_tree"
-                position = { x = 20 y = 100 }
-                slotsize = { width = 40 height = 40 }
-                format = "LEFT"
-            }
-            gridboxtype = {
-                name = "ace_1_tree"
-                position = { x = 20 y = 100 }
-                slotsize = { width = 40 height = 40 }
+                name = "light_cavalry_tech_1_tree"
+                position = { x = 80 y = 0 }
+                slotsize = { width = 120 height = 120 }
                 format = "LEFT"
             }
         }
-
+        
         #---------------------------------------------------
-        # NAVY
+        # Army - Heavy Cavalry
         #---------------------------------------------------
         containerWindowType = {
-            name = "navy_folder"
+            name = "army_heavy_cavalry_folder"
             position = { x=@techtab_x y=0 }
             size = { width = 100%% height = 100%% }
-            margin = { top = 13 left = 13 bottom = 24 right = 25}
+            margin = { top = 13 left = 13 bottom = 50 right = 25}
             drag_scroll = { left middle }
             verticalScrollbar = "right_vertical_slider"
-            horizontalScrollbar = "bottom_horizontal_slider"
+
+            background = {
+                name = "Background"
+                quadTextureSprite ="GFX_tiled_window_2b_border"
+            }
+
+            containerWindowType = {
+                name = "techtree_stripes"
+                position = { x= 0 y= 0 }
+                size = { 
+                    width = 1400 height = 1275
+                    min = { width = 100%% height = 100%% }
+                }
+                clipping = no
+
+                iconType = {
+                    name ="infantry_techtree_bg"
+                    spriteType = "GFX_wow_infantry_techtree_bg"
+                    position = { x=0 y=0 }
+                    allwaystransparent = yes
+                }
+                
+                instantTextBoxType = {
+                    name = "techtree_subtitle_1"
+                    position = { x = 20 y = 20 }
+                    textureFile = ""
+                    font = "hoi_30header"
+                    borderSize = { x = 0 y = 0}
+                    text = "Army - Heavy Cavalry"
+                    maxWidth = 600
+                    maxHeight = 62
+                    format = left
+                    Orientation = "UPPER_LEFT"
+                }
+            }
+            
+            gridboxtype = {
+                name = "heavy_cavalry_tech_1_tree"
+                position = { x = 80 y = 0 }
+                slotsize = { width = 120 height = 120 }
+                format = "LEFT"
+            }
+        }
+        
+        #---------------------------------------------------
+        # Army - Light Tank
+        #---------------------------------------------------
+        containerWindowType = {
+            name = "army_light_tank_folder"
+            position = { x=@techtab_x y=0 }
+            size = { width = 100%% height = 100%% }
+            margin = { top = 13 left = 13 bottom = 50 right = 25}
+            drag_scroll = { left middle }
+            verticalScrollbar = "right_vertical_slider"
+
+            background = {
+                name = "Background"
+                quadTextureSprite ="GFX_tiled_window_2b_border"
+            }
+
+            containerWindowType = {
+                name = "techtree_stripes"
+                position = { x= 0 y= 0 }
+                size = { 
+                    width = 1400 height = 1275
+                    min = { width = 100%% height = 100%% }
+                }
+                clipping = no
+
+                iconType = {
+                    name ="infantry_techtree_bg"
+                    spriteType = "GFX_wow_infantry_techtree_bg"
+                    position = { x=0 y=0 }
+                    allwaystransparent = yes
+                }
+                
+                instantTextBoxType = {
+                    name = "techtree_subtitle_1"
+                    position = { x = 20 y = 20 }
+                    textureFile = ""
+                    font = "hoi_30header"
+                    borderSize = { x = 0 y = 0}
+                    text = "Army - Light Tank"
+                    maxWidth = 600
+                    maxHeight = 62
+                    format = left
+                    Orientation = "UPPER_LEFT"
+                }
+            }
+            
+            gridboxtype = {
+                name = "light_tank_tech_1_tree"
+                position = { x = 80 y = 0 }
+                slotsize = { width = 120 height = 120 }
+                format = "LEFT"
+            }
+        }
+        
+        #---------------------------------------------------
+        # Army - Heavy Tank
+        #---------------------------------------------------
+        containerWindowType = {
+            name = "army_heavy_tank_folder"
+            position = { x=@techtab_x y=0 }
+            size = { width = 100%% height = 100%% }
+            margin = { top = 13 left = 13 bottom = 50 right = 25}
+            drag_scroll = { left middle }
+            verticalScrollbar = "right_vertical_slider"
+
+            background = {
+                name = "Background"
+                quadTextureSprite ="GFX_tiled_window_2b_border"
+            }
+
+            containerWindowType = {
+                name = "techtree_stripes"
+                position = { x= 0 y= 0 }
+                size = { 
+                    width = 1400 height = 1275
+                    min = { width = 100%% height = 100%% }
+                }
+                clipping = no
+
+                iconType = {
+                    name ="infantry_techtree_bg"
+                    spriteType = "GFX_wow_infantry_techtree_bg"
+                    position = { x=0 y=0 }
+                    allwaystransparent = yes
+                }
+                
+                instantTextBoxType = {
+                    name = "techtree_subtitle_1"
+                    position = { x = 20 y = 20 }
+                    textureFile = ""
+                    font = "hoi_30header"
+                    borderSize = { x = 0 y = 0}
+                    text = "Army - Heavy Tank"
+                    maxWidth = 600
+                    maxHeight = 62
+                    format = left
+                    Orientation = "UPPER_LEFT"
+                }
+            }
+            
+            gridboxtype = {
+                name = "heavy_tank_tech_1_tree"
+                position = { x = 80 y = 0 }
+                slotsize = { width = 120 height = 120 }
+                format = "LEFT"
+            }
+        }
+        
+        #---------------------------------------------------
+        # Army - Vanquisher Doctrine
+        #---------------------------------------------------
+        containerWindowType = {
+            name = "army_vanquisher_doctrine_folder"
+            position = { x=@techtab_x y=0 }
+            size = { width = 100%% height = 100%% }
+            margin = { top = 13 left = 13 bottom = 60 right = 25}
+            drag_scroll = { left middle }
+            verticalScrollbar = "right_vertical_slider"
 
             background = {
                 name = "Background"
@@ -559,13 +1112,124 @@ guiTypes = {
                     allwaystransparent = yes
                 }
 
+
                 instantTextBoxType = {
-                    name = "techtree_subtitle_1"
+                    name = "techtree_subtitle_2"
                     position = { x = 20 y = 20 }
                     textureFile = ""
                     font = "hoi_30header"
                     borderSize = { x = 0 y = 0}
-                    text = "Navy"
+                    text = "Vanquisher Doctrine"
+                    maxWidth = 600
+                    maxHeight = 62
+                    format = left
+                    Orientation = "UPPER_LEFT"
+                }
+            }
+            
+            gridboxtype = {
+                name = "vanquisher_doctrine_tech_1_tree"
+                position = { x = 80 y = 0 }
+                slotsize = { width = 120 height = 120 }
+                format = "LEFT"
+            }
+        }
+        
+        #---------------------------------------------------
+        # Army - Aegis Doctrine
+        #---------------------------------------------------
+        containerWindowType = {
+            name = "army_aegis_doctrine_folder"
+            position = { x=@techtab_x y=0 }
+            size = { width = 100%% height = 100%% }
+            margin = { top = 13 left = 13 bottom = 60 right = 25}
+            drag_scroll = { left middle }
+            verticalScrollbar = "right_vertical_slider"
+
+            background = {
+                name = "Background"
+                quadTextureSprite ="GFX_tiled_window_2b_border"
+            }
+
+            containerWindowType = {
+                name = "techtree_stripes"
+                position = { x= 0 y= 0 }
+                size = { 
+                    width = 1400 height = 1275
+                    min = { width = 100%% height = 100%% }
+                }
+                clipping = no
+
+                iconType = {
+                    name ="infantry_techtree_bg"
+                    spriteType = "GFX_wow_infantry_techtree_bg"
+                    position = { x=0 y=0 }
+                    allwaystransparent = yes
+                }
+
+
+                instantTextBoxType = {
+                    name = "techtree_subtitle_2"
+                    position = { x = 20 y = 20 }
+                    textureFile = ""
+                    font = "hoi_30header"
+                    borderSize = { x = 0 y = 0}
+                    text = "Aegis Doctrine"
+                    maxWidth = 600
+                    maxHeight = 62
+                    format = left
+                    Orientation = "UPPER_LEFT"
+                }
+            }
+            
+            gridboxtype = {
+                name = "aegis_doctrine_tech_1_tree"
+                position = { x = 80 y = 0 }
+                slotsize = { width = 120 height = 120 }
+                format = "LEFT"
+            }
+        }
+        
+        #---------------------------------------------------
+        # Navy - Battleship
+        #---------------------------------------------------
+        containerWindowType = {
+            name = "navy_battleship_folder"
+            position = { x=@techtab_x y=0 }
+            size = { width = 100%% height = 100%% }
+            margin = { top = 13 left = 13 bottom = 60 right = 25}
+            drag_scroll = { left middle }
+            verticalScrollbar = "right_vertical_slider"
+
+            background = {
+                name = "Background"
+                quadTextureSprite ="GFX_tiled_window_2b_border"
+            }
+
+            containerWindowType = {
+                name = "techtree_stripes"
+                position = { x= 0 y= 0 }
+                size = { 
+                    width = 1400 height = 1275
+                    min = { width = 100%% height = 100%% }
+                }
+                clipping = no
+
+                iconType = {
+                    name ="infantry_techtree_bg"
+                    spriteType = "GFX_wow_infantry_techtree_bg"
+                    position = { x=0 y=0 }
+                    allwaystransparent = yes
+                }
+
+
+                instantTextBoxType = {
+                    name = "techtree_subtitle_2"
+                    position = { x = 20 y = 20 }
+                    textureFile = ""
+                    font = "hoi_30header"
+                    borderSize = { x = 0 y = 0}
+                    text = "Navy - Battleship"
                     maxWidth = 600
                     maxHeight = 62
                     format = left
@@ -575,72 +1239,22 @@ guiTypes = {
             
             gridboxtype = {
                 name = "battleship_tech_1_tree"
-                position = { x = 20 y = 100 }
-                slotsize = { width = 40 height = 40 }
-                format = "LEFT"
-            }
-            
-            gridboxtype = {
-                name = "destroyer_tech_1_tree"
-                position = { x = 20 y = 100 }
-                slotsize = { width = 40 height = 40 }
-                format = "LEFT"
-            }
-            
-            gridboxtype = {
-                name = "cruiser_tech_1_tree"
-                position = { x = 20 y = 100 }
-                slotsize = { width = 40 height = 40 }
-                format = "LEFT"
-            }
-            
-            gridboxtype = {
-                name = "submarine_tech_1_tree"
-                position = { x = 20 y = 100 }
-                slotsize = { width = 40 height = 40 }
-                format = "LEFT"
-            }
-            
-            gridboxtype = {
-                name = "navy_experience_1_tree"
-                position = { x = 20 y = 100 }
-                slotsize = { width = 40 height = 40 }
-                format = "LEFT"
-            }
-            
-            gridboxtype = {
-                name = "naval_invasion_1_tree"
-                position = { x = 20 y = 100 }
-                slotsize = { width = 40 height = 40 }
-                format = "LEFT"
-            }
-            
-            gridboxtype = {
-                name = "naval_invasion_defence_1_tree"
-                position = { x = 20 y = 100 }
-                slotsize = { width = 40 height = 40 }
-                format = "LEFT"
-            }
-            
-            gridboxtype = {
-                name = "naval_invasion_preparation_1_tree"
-                position = { x = 20 y = 100 }
-                slotsize = { width = 40 height = 40 }
+                position = { x = 80 y = 0 }
+                slotsize = { width = 120 height = 120 }
                 format = "LEFT"
             }
         }
-
+        
         #---------------------------------------------------
-        # NAVY
+        # Navy - Battleship (MTG)
         #---------------------------------------------------
         containerWindowType = {
-            name = "navy_mtg_folder"
+            name = "mtg_navy_battleship_folder"
             position = { x=@techtab_x y=0 }
             size = { width = 100%% height = 100%% }
-            margin = { top = 13 left = 13 bottom = 24 right = 25}
+            margin = { top = 13 left = 13 bottom = 60 right = 25}
             drag_scroll = { left middle }
             verticalScrollbar = "right_vertical_slider"
-            horizontalScrollbar = "bottom_horizontal_slider"
 
             background = {
                 name = "Background"
@@ -663,13 +1277,14 @@ guiTypes = {
                     allwaystransparent = yes
                 }
 
+
                 instantTextBoxType = {
-                    name = "techtree_subtitle_1"
+                    name = "techtree_subtitle_2"
                     position = { x = 20 y = 20 }
                     textureFile = ""
                     font = "hoi_30header"
                     borderSize = { x = 0 y = 0}
-                    text = "Navy"
+                    text = "Navy - Battleship"
                     maxWidth = 600
                     maxHeight = 62
                     format = left
@@ -679,63 +1294,784 @@ guiTypes = {
             
             gridboxtype = {
                 name = "mtg_battleship_tech_1_tree"
-                position = { x = 20 y = 100 }
-                slotsize = { width = 40 height = 40 }
-                format = "LEFT"
-            }
-            
-            gridboxtype = {
-                name = "mtg_destroyer_tech_1_tree"
-                position = { x = 20 y = 100 }
-                slotsize = { width = 40 height = 40 }
-                format = "LEFT"
-            }
-            
-            gridboxtype = {
-                name = "mtg_cruiser_tech_1_tree"
-                position = { x = 20 y = 100 }
-                slotsize = { width = 40 height = 40 }
-                format = "LEFT"
-            }
-            
-            gridboxtype = {
-                name = "mtg_submarine_tech_1_tree"
-                position = { x = 20 y = 100 }
-                slotsize = { width = 40 height = 40 }
-                format = "LEFT"
-            }
-            
-            gridboxtype = {
-                name = "mtg_navy_experience_1_tree"
-                position = { x = 20 y = 100 }
-                slotsize = { width = 40 height = 40 }
-                format = "LEFT"
-            }
-            
-            gridboxtype = {
-                name = "mtg_naval_invasion_1_tree"
-                position = { x = 20 y = 100 }
-                slotsize = { width = 40 height = 40 }
-                format = "LEFT"
-            }
-            
-            gridboxtype = {
-                name = "mtg_naval_invasion_defence_1_tree"
-                position = { x = 20 y = 100 }
-                slotsize = { width = 40 height = 40 }
-                format = "LEFT"
-            }
-            
-            gridboxtype = {
-                name = "mtg_naval_invasion_preparation_1_tree"
-                position = { x = 20 y = 100 }
-                slotsize = { width = 40 height = 40 }
+                position = { x = 80 y = 0 }
+                slotsize = { width = 120 height = 120 }
                 format = "LEFT"
             }
         }
         
         #---------------------------------------------------
-        # INDUSTRY
+        # Navy - Cruiser
+        #---------------------------------------------------
+        containerWindowType = {
+            name = "navy_cruiser_folder"
+            position = { x=@techtab_x y=0 }
+            size = { width = 100%% height = 100%% }
+            margin = { top = 13 left = 13 bottom = 60 right = 25}
+            drag_scroll = { left middle }
+            verticalScrollbar = "right_vertical_slider"
+
+            background = {
+                name = "Background"
+                quadTextureSprite ="GFX_tiled_window_2b_border"
+            }
+
+            containerWindowType = {
+                name = "techtree_stripes"
+                position = { x= 0 y= 0 }
+                size = { 
+                    width = 1400 height = 1275
+                    min = { width = 100%% height = 100%% }
+                }
+                clipping = no
+
+                iconType = {
+                    name ="infantry_techtree_bg"
+                    spriteType = "GFX_wow_infantry_techtree_bg"
+                    position = { x=0 y=0 }
+                    allwaystransparent = yes
+                }
+
+
+                instantTextBoxType = {
+                    name = "techtree_subtitle_2"
+                    position = { x = 20 y = 20 }
+                    textureFile = ""
+                    font = "hoi_30header"
+                    borderSize = { x = 0 y = 0}
+                    text = "Navy - Cruiser"
+                    maxWidth = 600
+                    maxHeight = 62
+                    format = left
+                    Orientation = "UPPER_LEFT"
+                }
+            }
+            
+            gridboxtype = {
+                name = "cruiser_tech_1_tree"
+                position = { x = 80 y = 0 }
+                slotsize = { width = 120 height = 120 }
+                format = "LEFT"
+            }
+        }
+        
+        #---------------------------------------------------
+        # Navy - Cruiser (MTG)
+        #---------------------------------------------------
+        containerWindowType = {
+            name = "mtg_navy_cruiser_folder"
+            position = { x=@techtab_x y=0 }
+            size = { width = 100%% height = 100%% }
+            margin = { top = 13 left = 13 bottom = 60 right = 25}
+            drag_scroll = { left middle }
+            verticalScrollbar = "right_vertical_slider"
+
+            background = {
+                name = "Background"
+                quadTextureSprite ="GFX_tiled_window_2b_border"
+            }
+
+            containerWindowType = {
+                name = "techtree_stripes"
+                position = { x= 0 y= 0 }
+                size = { 
+                    width = 1400 height = 1275
+                    min = { width = 100%% height = 100%% }
+                }
+                clipping = no
+
+                iconType = {
+                    name ="infantry_techtree_bg"
+                    spriteType = "GFX_wow_infantry_techtree_bg"
+                    position = { x=0 y=0 }
+                    allwaystransparent = yes
+                }
+
+
+                instantTextBoxType = {
+                    name = "techtree_subtitle_2"
+                    position = { x = 20 y = 20 }
+                    textureFile = ""
+                    font = "hoi_30header"
+                    borderSize = { x = 0 y = 0}
+                    text = "Navy - Cruiser"
+                    maxWidth = 600
+                    maxHeight = 62
+                    format = left
+                    Orientation = "UPPER_LEFT"
+                }
+            }
+            
+            gridboxtype = {
+                name = "mtg_cruiser_tech_1_tree"
+                position = { x = 80 y = 0 }
+                slotsize = { width = 120 height = 120 }
+                format = "LEFT"
+            }
+        }
+        
+        #---------------------------------------------------
+        # Navy - Destroyer
+        #---------------------------------------------------
+        containerWindowType = {
+            name = "navy_destroyer_folder"
+            position = { x=@techtab_x y=0 }
+            size = { width = 100%% height = 100%% }
+            margin = { top = 13 left = 13 bottom = 60 right = 25}
+            drag_scroll = { left middle }
+            verticalScrollbar = "right_vertical_slider"
+
+            background = {
+                name = "Background"
+                quadTextureSprite ="GFX_tiled_window_2b_border"
+            }
+
+            containerWindowType = {
+                name = "techtree_stripes"
+                position = { x= 0 y= 0 }
+                size = { 
+                    width = 1400 height = 1275
+                    min = { width = 100%% height = 100%% }
+                }
+                clipping = no
+
+                iconType = {
+                    name ="infantry_techtree_bg"
+                    spriteType = "GFX_wow_infantry_techtree_bg"
+                    position = { x=0 y=0 }
+                    allwaystransparent = yes
+                }
+
+
+                instantTextBoxType = {
+                    name = "techtree_subtitle_2"
+                    position = { x = 20 y = 20 }
+                    textureFile = ""
+                    font = "hoi_30header"
+                    borderSize = { x = 0 y = 0}
+                    text = "Navy - Destroyer"
+                    maxWidth = 600
+                    maxHeight = 62
+                    format = left
+                    Orientation = "UPPER_LEFT"
+                }
+            }
+            
+            gridboxtype = {
+                name = "destroyer_tech_1_tree"
+                position = { x = 80 y = 0 }
+                slotsize = { width = 120 height = 120 }
+                format = "LEFT"
+            }
+        }
+        
+        #---------------------------------------------------
+        # Navy - Destroyer (MTG)
+        #---------------------------------------------------
+        containerWindowType = {
+            name = "mtg_navy_destroyer_folder"
+            position = { x=@techtab_x y=0 }
+            size = { width = 100%% height = 100%% }
+            margin = { top = 13 left = 13 bottom = 60 right = 25}
+            drag_scroll = { left middle }
+            verticalScrollbar = "right_vertical_slider"
+
+            background = {
+                name = "Background"
+                quadTextureSprite ="GFX_tiled_window_2b_border"
+            }
+
+            containerWindowType = {
+                name = "techtree_stripes"
+                position = { x= 0 y= 0 }
+                size = { 
+                    width = 1400 height = 1275
+                    min = { width = 100%% height = 100%% }
+                }
+                clipping = no
+
+                iconType = {
+                    name ="infantry_techtree_bg"
+                    spriteType = "GFX_wow_infantry_techtree_bg"
+                    position = { x=0 y=0 }
+                    allwaystransparent = yes
+                }
+
+
+                instantTextBoxType = {
+                    name = "techtree_subtitle_2"
+                    position = { x = 20 y = 20 }
+                    textureFile = ""
+                    font = "hoi_30header"
+                    borderSize = { x = 0 y = 0}
+                    text = "Navy - Destroyer"
+                    maxWidth = 600
+                    maxHeight = 62
+                    format = left
+                    Orientation = "UPPER_LEFT"
+                }
+            }
+            
+            gridboxtype = {
+                name = "mtg_destroyer_tech_1_tree"
+                position = { x = 80 y = 0 }
+                slotsize = { width = 120 height = 120 }
+                format = "LEFT"
+            }
+        }
+        
+        #---------------------------------------------------
+        # Navy - Submarine
+        #---------------------------------------------------
+        containerWindowType = {
+            name = "navy_submarine_folder"
+            position = { x=@techtab_x y=0 }
+            size = { width = 100%% height = 100%% }
+            margin = { top = 13 left = 13 bottom = 60 right = 25}
+            drag_scroll = { left middle }
+            verticalScrollbar = "right_vertical_slider"
+
+            background = {
+                name = "Background"
+                quadTextureSprite ="GFX_tiled_window_2b_border"
+            }
+
+            containerWindowType = {
+                name = "techtree_stripes"
+                position = { x= 0 y= 0 }
+                size = { 
+                    width = 1400 height = 1275
+                    min = { width = 100%% height = 100%% }
+                }
+                clipping = no
+
+                iconType = {
+                    name ="infantry_techtree_bg"
+                    spriteType = "GFX_wow_infantry_techtree_bg"
+                    position = { x=0 y=0 }
+                    allwaystransparent = yes
+                }
+
+
+                instantTextBoxType = {
+                    name = "techtree_subtitle_2"
+                    position = { x = 20 y = 20 }
+                    textureFile = ""
+                    font = "hoi_30header"
+                    borderSize = { x = 0 y = 0}
+                    text = "Navy - Submarine"
+                    maxWidth = 600
+                    maxHeight = 62
+                    format = left
+                    Orientation = "UPPER_LEFT"
+                }
+            }
+            
+            gridboxtype = {
+                name = "submarine_tech_1_tree"
+                position = { x = 80 y = 0 }
+                slotsize = { width = 120 height = 120 }
+                format = "LEFT"
+            }
+        }
+        
+        #---------------------------------------------------
+        # Navy - Submarine (MTG)
+        #---------------------------------------------------
+        containerWindowType = {
+            name = "mtg_navy_submarine_folder"
+            position = { x=@techtab_x y=0 }
+            size = { width = 100%% height = 100%% }
+            margin = { top = 13 left = 13 bottom = 60 right = 25}
+            drag_scroll = { left middle }
+            verticalScrollbar = "right_vertical_slider"
+
+            background = {
+                name = "Background"
+                quadTextureSprite ="GFX_tiled_window_2b_border"
+            }
+
+            containerWindowType = {
+                name = "techtree_stripes"
+                position = { x= 0 y= 0 }
+                size = { 
+                    width = 1400 height = 1275
+                    min = { width = 100%% height = 100%% }
+                }
+                clipping = no
+
+                iconType = {
+                    name ="infantry_techtree_bg"
+                    spriteType = "GFX_wow_infantry_techtree_bg"
+                    position = { x=0 y=0 }
+                    allwaystransparent = yes
+                }
+
+
+                instantTextBoxType = {
+                    name = "techtree_subtitle_2"
+                    position = { x = 20 y = 20 }
+                    textureFile = ""
+                    font = "hoi_30header"
+                    borderSize = { x = 0 y = 0}
+                    text = "Navy - Submarine"
+                    maxWidth = 600
+                    maxHeight = 62
+                    format = left
+                    Orientation = "UPPER_LEFT"
+                }
+            }
+            
+            gridboxtype = {
+                name = "mtg_submarine_tech_1_tree"
+                position = { x = 80 y = 0 }
+                slotsize = { width = 120 height = 120 }
+                format = "LEFT"
+            }
+        }
+        
+        #---------------------------------------------------
+        # Navy - Barrage Doctrine
+        #---------------------------------------------------
+        containerWindowType = {
+            name = "navy_barrage_doctrine_folder"
+            position = { x=@techtab_x y=0 }
+            size = { width = 100%% height = 100%% }
+            margin = { top = 13 left = 13 bottom = 60 right = 25}
+            drag_scroll = { left middle }
+            verticalScrollbar = "right_vertical_slider"
+
+            background = {
+                name = "Background"
+                quadTextureSprite ="GFX_tiled_window_2b_border"
+            }
+
+            containerWindowType = {
+                name = "techtree_stripes"
+                position = { x= 0 y= 0 }
+                size = { 
+                    width = 1400 height = 1275
+                    min = { width = 100%% height = 100%% }
+                }
+                clipping = no
+
+                iconType = {
+                    name ="infantry_techtree_bg"
+                    spriteType = "GFX_wow_infantry_techtree_bg"
+                    position = { x=0 y=0 }
+                    allwaystransparent = yes
+                }
+
+
+                instantTextBoxType = {
+                    name = "techtree_subtitle_2"
+                    position = { x = 20 y = 20 }
+                    textureFile = ""
+                    font = "hoi_30header"
+                    borderSize = { x = 0 y = 0}
+                    text = "Navy - Barrage Doctrine"
+                    maxWidth = 600
+                    maxHeight = 62
+                    format = left
+                    Orientation = "UPPER_LEFT"
+                }
+            }
+            
+            gridboxtype = {
+                name = "barrage_doctrine_tech_1_tree"
+                position = { x = 80 y = 0 }
+                slotsize = { width = 120 height = 120 }
+                format = "LEFT"
+            }
+        }
+        
+        #---------------------------------------------------
+        # Navy - Assault Doctrine
+        #---------------------------------------------------
+        containerWindowType = {
+            name = "navy_assault_doctrine_folder"
+            position = { x=@techtab_x y=0 }
+            size = { width = 100%% height = 100%% }
+            margin = { top = 13 left = 13 bottom = 60 right = 25}
+            drag_scroll = { left middle }
+            verticalScrollbar = "right_vertical_slider"
+
+            background = {
+                name = "Background"
+                quadTextureSprite ="GFX_tiled_window_2b_border"
+            }
+
+            containerWindowType = {
+                name = "techtree_stripes"
+                position = { x= 0 y= 0 }
+                size = { 
+                    width = 1400 height = 1275
+                    min = { width = 100%% height = 100%% }
+                }
+                clipping = no
+
+                iconType = {
+                    name ="infantry_techtree_bg"
+                    spriteType = "GFX_wow_infantry_techtree_bg"
+                    position = { x=0 y=0 }
+                    allwaystransparent = yes
+                }
+
+
+                instantTextBoxType = {
+                    name = "techtree_subtitle_2"
+                    position = { x = 20 y = 20 }
+                    textureFile = ""
+                    font = "hoi_30header"
+                    borderSize = { x = 0 y = 0}
+                    text = "Navy - Assault Doctrine"
+                    maxWidth = 600
+                    maxHeight = 62
+                    format = left
+                    Orientation = "UPPER_LEFT"
+                }
+            }
+            
+            gridboxtype = {
+                name = "assault_doctrine_tech_1_tree"
+                position = { x = 80 y = 0 }
+                slotsize = { width = 120 height = 120 }
+                format = "LEFT"
+            }
+        }
+        
+        #---------------------------------------------------
+        # Air - Fighter
+        #---------------------------------------------------
+        containerWindowType = {
+            name = "air_fighter_folder"
+            position = { x=@techtab_x y=0 }
+            size = { width = 100%% height = 100%% }
+            margin = { top = 13 left = 13 bottom = 60 right = 25}
+            drag_scroll = { left middle }
+            verticalScrollbar = "right_vertical_slider"
+
+            background = {
+                name = "Background"
+                quadTextureSprite ="GFX_tiled_window_2b_border"
+            }
+
+            containerWindowType = {
+                name = "techtree_stripes"
+                position = { x= 0 y= 0 }
+                size = { 
+                    width = 1400 height = 1275
+                    min = { width = 100%% height = 100%% }
+                }
+                clipping = no
+
+                iconType = {
+                    name ="infantry_techtree_bg"
+                    spriteType = "GFX_wow_infantry_techtree_bg"
+                    position = { x=0 y=0 }
+                    allwaystransparent = yes
+                }
+
+
+                instantTextBoxType = {
+                    name = "techtree_subtitle_2"
+                    position = { x = 20 y = 20 }
+                    textureFile = ""
+                    font = "hoi_30header"
+                    borderSize = { x = 0 y = 0}
+                    text = "Aviation - Fighter"
+                    maxWidth = 600
+                    maxHeight = 62
+                    format = left
+                    Orientation = "UPPER_LEFT"
+                }
+            }
+            
+            gridboxtype = {
+                name = "fighter_tech_1_tree"
+                position = { x = 80 y = 0 }
+                slotsize = { width = 120 height = 120 }
+                format = "LEFT"
+            }
+        }
+        
+        #---------------------------------------------------
+        # Air - CAS
+        #---------------------------------------------------
+        containerWindowType = {
+            name = "air_cas_folder"
+            position = { x=@techtab_x y=0 }
+            size = { width = 100%% height = 100%% }
+            margin = { top = 13 left = 13 bottom = 60 right = 25}
+            drag_scroll = { left middle }
+            verticalScrollbar = "right_vertical_slider"
+
+            background = {
+                name = "Background"
+                quadTextureSprite ="GFX_tiled_window_2b_border"
+            }
+
+            containerWindowType = {
+                name = "techtree_stripes"
+                position = { x= 0 y= 0 }
+                size = { 
+                    width = 1400 height = 1275
+                    min = { width = 100%% height = 100%% }
+                }
+                clipping = no
+
+                iconType = {
+                    name ="infantry_techtree_bg"
+                    spriteType = "GFX_wow_infantry_techtree_bg"
+                    position = { x=0 y=0 }
+                    allwaystransparent = yes
+                }
+
+
+                instantTextBoxType = {
+                    name = "techtree_subtitle_2"
+                    position = { x = 20 y = 20 }
+                    textureFile = ""
+                    font = "hoi_30header"
+                    borderSize = { x = 0 y = 0}
+                    text = "Aviation - CAS"
+                    maxWidth = 600
+                    maxHeight = 62
+                    format = left
+                    Orientation = "UPPER_LEFT"
+                }
+            }
+            
+            gridboxtype = {
+                name = "cas_tech_1_tree"
+                position = { x = 80 y = 0 }
+                slotsize = { width = 120 height = 120 }
+                format = "LEFT"
+            }
+        }
+        
+        #---------------------------------------------------
+        # Air - Tactical Bomber
+        #---------------------------------------------------
+        containerWindowType = {
+            name = "air_tactical_bomber_folder"
+            position = { x=@techtab_x y=0 }
+            size = { width = 100%% height = 100%% }
+            margin = { top = 13 left = 13 bottom = 60 right = 25}
+            drag_scroll = { left middle }
+            verticalScrollbar = "right_vertical_slider"
+
+            background = {
+                name = "Background"
+                quadTextureSprite ="GFX_tiled_window_2b_border"
+            }
+
+            containerWindowType = {
+                name = "techtree_stripes"
+                position = { x= 0 y= 0 }
+                size = { 
+                    width = 1400 height = 1275
+                    min = { width = 100%% height = 100%% }
+                }
+                clipping = no
+
+                iconType = {
+                    name ="infantry_techtree_bg"
+                    spriteType = "GFX_wow_infantry_techtree_bg"
+                    position = { x=0 y=0 }
+                    allwaystransparent = yes
+                }
+
+
+                instantTextBoxType = {
+                    name = "techtree_subtitle_2"
+                    position = { x = 20 y = 20 }
+                    textureFile = ""
+                    font = "hoi_30header"
+                    borderSize = { x = 0 y = 0}
+                    text = "Aviation - Tactical Bomber"
+                    maxWidth = 600
+                    maxHeight = 62
+                    format = left
+                    Orientation = "UPPER_LEFT"
+                }
+            }
+            
+            gridboxtype = {
+                name = "tactical_bomber_tech_1_tree"
+                position = { x = 80 y = 0 }
+                slotsize = { width = 120 height = 120 }
+                format = "LEFT"
+            }
+        }
+        
+        #---------------------------------------------------
+        # Air - Strategic Bomber
+        #---------------------------------------------------
+        containerWindowType = {
+            name = "air_strategic_bomber_folder"
+            position = { x=@techtab_x y=0 }
+            size = { width = 100%% height = 100%% }
+            margin = { top = 13 left = 13 bottom = 60 right = 25}
+            drag_scroll = { left middle }
+            verticalScrollbar = "right_vertical_slider"
+
+            background = {
+                name = "Background"
+                quadTextureSprite ="GFX_tiled_window_2b_border"
+            }
+
+            containerWindowType = {
+                name = "techtree_stripes"
+                position = { x= 0 y= 0 }
+                size = { 
+                    width = 1400 height = 1275
+                    min = { width = 100%% height = 100%% }
+                }
+                clipping = no
+
+                iconType = {
+                    name ="infantry_techtree_bg"
+                    spriteType = "GFX_wow_infantry_techtree_bg"
+                    position = { x=0 y=0 }
+                    allwaystransparent = yes
+                }
+
+
+                instantTextBoxType = {
+                    name = "techtree_subtitle_2"
+                    position = { x = 20 y = 20 }
+                    textureFile = ""
+                    font = "hoi_30header"
+                    borderSize = { x = 0 y = 0}
+                    text = "Aviation - Strategic Bomber"
+                    maxWidth = 600
+                    maxHeight = 62
+                    format = left
+                    Orientation = "UPPER_LEFT"
+                }
+            }
+            
+            gridboxtype = {
+                name = "strategic_bomber_tech_1_tree"
+                position = { x = 80 y = 0 }
+                slotsize = { width = 120 height = 120 }
+                format = "LEFT"
+            }
+        }
+        
+        #---------------------------------------------------
+        # Air - Incursion Doctrine
+        #---------------------------------------------------
+        containerWindowType = {
+            name = "air_incursion_doctrine_folder"
+            position = { x=@techtab_x y=0 }
+            size = { width = 100%% height = 100%% }
+            margin = { top = 13 left = 13 bottom = 60 right = 25}
+            drag_scroll = { left middle }
+            verticalScrollbar = "right_vertical_slider"
+
+            background = {
+                name = "Background"
+                quadTextureSprite ="GFX_tiled_window_2b_border"
+            }
+
+            containerWindowType = {
+                name = "techtree_stripes"
+                position = { x= 0 y= 0 }
+                size = { 
+                    width = 1400 height = 1275
+                    min = { width = 100%% height = 100%% }
+                }
+                clipping = no
+
+                iconType = {
+                    name ="infantry_techtree_bg"
+                    spriteType = "GFX_wow_infantry_techtree_bg"
+                    position = { x=0 y=0 }
+                    allwaystransparent = yes
+                }
+
+
+                instantTextBoxType = {
+                    name = "techtree_subtitle_2"
+                    position = { x = 20 y = 20 }
+                    textureFile = ""
+                    font = "hoi_30header"
+                    borderSize = { x = 0 y = 0}
+                    text = "Aviation - Incursion Doctrine"
+                    maxWidth = 600
+                    maxHeight = 62
+                    format = left
+                    Orientation = "UPPER_LEFT"
+                }
+            }
+            
+            gridboxtype = {
+                name = "incursion_doctrine_tech_1_tree"
+                position = { x = 80 y = 0 }
+                slotsize = { width = 120 height = 120 }
+                format = "LEFT"
+            }
+        }
+        
+        #---------------------------------------------------
+        # Air - Firestorm Doctrine
+        #---------------------------------------------------
+        containerWindowType = {
+            name = "air_firestorm_doctrine_folder"
+            position = { x=@techtab_x y=0 }
+            size = { width = 100%% height = 100%% }
+            margin = { top = 13 left = 13 bottom = 60 right = 25}
+            drag_scroll = { left middle }
+            verticalScrollbar = "right_vertical_slider"
+
+            background = {
+                name = "Background"
+                quadTextureSprite ="GFX_tiled_window_2b_border"
+            }
+
+            containerWindowType = {
+                name = "techtree_stripes"
+                position = { x= 0 y= 0 }
+                size = { 
+                    width = 1400 height = 1275
+                    min = { width = 100%% height = 100%% }
+                }
+                clipping = no
+
+                iconType = {
+                    name ="infantry_techtree_bg"
+                    spriteType = "GFX_wow_infantry_techtree_bg"
+                    position = { x=0 y=0 }
+                    allwaystransparent = yes
+                }
+
+
+                instantTextBoxType = {
+                    name = "techtree_subtitle_2"
+                    position = { x = 20 y = 20 }
+                    textureFile = ""
+                    font = "hoi_30header"
+                    borderSize = { x = 0 y = 0}
+                    text = "Aviation - Firestorm Doctrine"
+                    maxWidth = 600
+                    maxHeight = 62
+                    format = left
+                    Orientation = "UPPER_LEFT"
+                }
+            }
+            
+            gridboxtype = {
+                name = "firestorm_doctrine_tech_1_tree"
+                position = { x = 80 y = 0 }
+                slotsize = { width = 120 height = 120 }
+                format = "LEFT"
+            }
+        }
+        
+        #---------------------------------------------------
+        # Economic - Industry
         #---------------------------------------------------
         containerWindowType = {
             name = "industry_folder"
@@ -744,7 +2080,6 @@ guiTypes = {
             margin = { top = 13 left = 13 bottom = 60 right = 25}
             drag_scroll = { left middle }
             verticalScrollbar = "right_vertical_slider"
-            horizontalScrollbar = "bottom_horizontal_slider"
 
             background = {
                 name = "Background"
@@ -767,13 +2102,14 @@ guiTypes = {
                     allwaystransparent = yes
                 }
 
+
                 instantTextBoxType = {
-                    name = "techtree_subtitle_1"
+                    name = "techtree_subtitle_2"
                     position = { x = 20 y = 20 }
                     textureFile = ""
                     font = "hoi_30header"
                     borderSize = { x = 0 y = 0}
-                    text = "Industry"
+                    text = "Economic - Industry"
                     maxWidth = 600
                     maxHeight = 62
                     format = left
@@ -782,52 +2118,23 @@ guiTypes = {
             }
             
             gridboxtype = {
-                name = "mil_factory_construction_1_tree"
-                position = { x = 20 y = 100 }
-                slotsize = { width = 40 height = 40 }
-                format = "LEFT"
-            }
-            
-            gridboxtype = {
-                name = "civ_factory_construction_1_tree"
-                position = { x = 20 y = 100 }
-                slotsize = { width = 40 height = 40 }
-                format = "LEFT"
-            }
-            
-            gridboxtype = {
-                name = "infrastructure_construction_1_tree"
-                position = { x = 20 y = 100 }
-                slotsize = { width = 40 height = 40 }
-                format = "LEFT"
-            }
-            
-            gridboxtype = {
-                name = "factory_output_1_tree"
-                position = { x = 20 y = 100 }
-                slotsize = { width = 40 height = 40 }
-                format = "LEFT"
-            }
-            
-            gridboxtype = {
-                name = "dockyard_output_1_tree"
-                position = { x = 20 y = 100 }
-                slotsize = { width = 40 height = 40 }
+                name = "industry_tech_1_tree"
+                position = { x = 80 y = 0 }
+                slotsize = { width = 120 height = 120 }
                 format = "LEFT"
             }
         }
         
         #---------------------------------------------------
-        # RESOURCES
+        # Economic - Production
         #---------------------------------------------------
         containerWindowType = {
-            name = "resources_folder"
+            name = "production_folder"
             position = { x=@techtab_x y=0 }
             size = { width = 100%% height = 100%% }
             margin = { top = 13 left = 13 bottom = 60 right = 25}
             drag_scroll = { left middle }
             verticalScrollbar = "right_vertical_slider"
-            horizontalScrollbar = "bottom_horizontal_slider"
 
             background = {
                 name = "Background"
@@ -850,13 +2157,14 @@ guiTypes = {
                     allwaystransparent = yes
                 }
 
+
                 instantTextBoxType = {
-                    name = "techtree_subtitle_1"
+                    name = "techtree_subtitle_2"
                     position = { x = 20 y = 20 }
                     textureFile = ""
                     font = "hoi_30header"
                     borderSize = { x = 0 y = 0}
-                    text = "Resources"
+                    text = "Economic - Production"
                     maxWidth = 600
                     maxHeight = 62
                     format = left
@@ -865,54 +2173,133 @@ guiTypes = {
             }
             
             gridboxtype = {
-                name = "farm_1_tree"
-                position = { x = 20 y = 100 }
-                slotsize = { width = 40 height = 40 }
-                format = "LEFT"
-            }
-            gridboxtype = {
-                name = "lumbercamp_1_tree"
-                position = { x = 20 y = 100 }
-                slotsize = { width = 40 height = 40 }
-                format = "LEFT"
-            }
-            gridboxtype = {
-                name = "roost_1_tree"
-                position = { x = 20 y = 100 }
-                slotsize = { width = 40 height = 40 }
-                format = "LEFT"
-            }
-            gridboxtype = {
-                name = "stable_1_tree"
-                position = { x = 20 y = 100 }
-                slotsize = { width = 40 height = 40 }
-                format = "LEFT"
-            }
-            gridboxtype = {
-                name = "smeltery_1_tree"
-                position = { x = 20 y = 100 }
-                slotsize = { width = 40 height = 40 }
-                format = "LEFT"
-            }
-            gridboxtype = {
-                name = "fuel_pump_1_tree"
-                position = { x = 20 y = 100 }
-                slotsize = { width = 40 height = 40 }
+                name = "production_tech_1_tree"
+                position = { x = 80 y = 0 }
+                slotsize = { width = 120 height = 120 }
                 format = "LEFT"
             }
         }
-    
+        
         #---------------------------------------------------
-        # Statecraft
+        # Economic - Extraction
+        #---------------------------------------------------
+        containerWindowType = {
+            name = "extraction_folder"
+            position = { x=@techtab_x y=0 }
+            size = { width = 100%% height = 100%% }
+            margin = { top = 13 left = 13 bottom = 60 right = 25}
+            drag_scroll = { left middle }
+            verticalScrollbar = "right_vertical_slider"
+
+            background = {
+                name = "Background"
+                quadTextureSprite ="GFX_tiled_window_2b_border"
+            }
+
+            containerWindowType = {
+                name = "techtree_stripes"
+                position = { x= 0 y= 0 }
+                size = { 
+                    width = 1400 height = 1275
+                    min = { width = 100%% height = 100%% }
+                }
+                clipping = no
+
+                iconType = {
+                    name ="infantry_techtree_bg"
+                    spriteType = "GFX_wow_infantry_techtree_bg"
+                    position = { x=0 y=0 }
+                    allwaystransparent = yes
+                }
+
+
+                instantTextBoxType = {
+                    name = "techtree_subtitle_2"
+                    position = { x = 20 y = 20 }
+                    textureFile = ""
+                    font = "hoi_30header"
+                    borderSize = { x = 0 y = 0}
+                    text = "Economic - Extraction"
+                    maxWidth = 600
+                    maxHeight = 62
+                    format = left
+                    Orientation = "UPPER_LEFT"
+                }
+            }
+            
+            gridboxtype = {
+                name = "extraction_tech_1_tree"
+                position = { x = 80 y = 0 }
+                slotsize = { width = 120 height = 120 }
+                format = "LEFT"
+            }
+        }
+        
+        #---------------------------------------------------
+        # Economic - Construction
+        #---------------------------------------------------
+        containerWindowType = {
+            name = "construction_folder"
+            position = { x=@techtab_x y=0 }
+            size = { width = 100%% height = 100%% }
+            margin = { top = 13 left = 13 bottom = 60 right = 25}
+            drag_scroll = { left middle }
+            verticalScrollbar = "right_vertical_slider"
+
+            background = {
+                name = "Background"
+                quadTextureSprite ="GFX_tiled_window_2b_border"
+            }
+
+            containerWindowType = {
+                name = "techtree_stripes"
+                position = { x= 0 y= 0 }
+                size = { 
+                    width = 1400 height = 1275
+                    min = { width = 100%% height = 100%% }
+                }
+                clipping = no
+
+                iconType = {
+                    name ="infantry_techtree_bg"
+                    spriteType = "GFX_wow_infantry_techtree_bg"
+                    position = { x=0 y=0 }
+                    allwaystransparent = yes
+                }
+
+
+                instantTextBoxType = {
+                    name = "techtree_subtitle_2"
+                    position = { x = 20 y = 20 }
+                    textureFile = ""
+                    font = "hoi_30header"
+                    borderSize = { x = 0 y = 0}
+                    text = "Economic - Construction"
+                    maxWidth = 600
+                    maxHeight = 62
+                    format = left
+                    Orientation = "UPPER_LEFT"
+                }
+            }
+            
+            gridboxtype = {
+                name = "construction_tech_1_tree"
+                position = { x = 80 y = 0 }
+                slotsize = { width = 120 height = 120 }
+                format = "LEFT"
+            }
+        }
+        
+        #---------------------------------------------------
+        # Nation - Statecraft
         #---------------------------------------------------
         containerWindowType = {
             name = "statecraft_folder"
             position = { x=@techtab_x y=0 }
             size = { width = 100%% height = 100%% }
-            margin = { top = 13 left = 13 bottom = 24 right = 25}
+            margin = { top = 13 left = 13 bottom = 60 right = 25}
             drag_scroll = { left middle }
             verticalScrollbar = "right_vertical_slider"
-            horizontalScrollbar = "bottom_horizontal_slider"
 
             background = {
                 name = "Background"
@@ -935,13 +2322,14 @@ guiTypes = {
                     allwaystransparent = yes
                 }
 
+
                 instantTextBoxType = {
-                    name = "techtree_subtitle_1"
+                    name = "techtree_subtitle_2"
                     position = { x = 20 y = 20 }
                     textureFile = ""
                     font = "hoi_30header"
                     borderSize = { x = 0 y = 0}
-                    text = "Statecraft"
+                    text = "Nation - Statecraft"
                     maxWidth = 600
                     maxHeight = 62
                     format = left
@@ -950,52 +2338,23 @@ guiTypes = {
             }
             
             gridboxtype = {
-                name = "political_power_1_tree"
-                position = { x = 20 y = 100 }
-                slotsize = { width = 40 height = 40 }
-                format = "LEFT"
-            }
-            
-            gridboxtype = {
-                name = "research_time_1_tree"
-                position = { x = 20 y = 100 }
-                slotsize = { width = 40 height = 40 }
-                format = "LEFT"
-            }
-            
-            gridboxtype = {
-                name = "command_power_1_tree"
-                position = { x = 20 y = 100 }
-                slotsize = { width = 40 height = 40 }
-                format = "LEFT"
-            }
-            
-            gridboxtype = {
-                name = "espionage_1_tree"
-                position = { x = 20 y = 100 }
-                slotsize = { width = 40 height = 40 }
-                format = "LEFT"
-            }
-            
-            gridboxtype = {
-                name = "faith_growth_1_tree"
-                position = { x = 20 y = 100 }
-                slotsize = { width = 40 height = 40 }
+                name = "statecraft_tech_1_tree"
+                position = { x = 80 y = 0 }
+                slotsize = { width = 120 height = 120 }
                 format = "LEFT"
             }
         }
         
         #---------------------------------------------------
-        # Land Doctrine
+        # Nation - Diplomacy
         #---------------------------------------------------
         containerWindowType = {
-            name = "land_doctrine_folder"
+            name = "diplomacy_folder"
             position = { x=@techtab_x y=0 }
             size = { width = 100%% height = 100%% }
             margin = { top = 13 left = 13 bottom = 60 right = 25}
             drag_scroll = { left middle }
             verticalScrollbar = "right_vertical_slider"
-            horizontalScrollbar = "bottom_horizontal_slider"
 
             background = {
                 name = "Background"
@@ -1025,7 +2384,7 @@ guiTypes = {
                     textureFile = ""
                     font = "hoi_30header"
                     borderSize = { x = 0 y = 0}
-                    text = "Army Doctrine"
+                    text = "Nation - Diplomacy"
                     maxWidth = 600
                     maxHeight = 62
                     format = left
@@ -1034,127 +2393,9 @@ guiTypes = {
             }
             
             gridboxtype = {
-                name = "conqueror_tech_1_tree"
-                position = { x = 20 y = 100 }
-                slotsize = { width = 40 height = 40 }
-                format = "LEFT"
-            }
-            gridboxtype = {
-                name = "guardian_tech_1_tree"
-                position = { x = 20 y = 100 }
-                slotsize = { width = 40 height = 40 }
-                format = "LEFT"
-            }
-        }
-
-        #---------------------------------------------------
-        # Air doctrine
-        #---------------------------------------------------
-        containerWindowType = {
-            name = "air_doctrine_folder"
-            position = { x=@techtab_x y=0 }
-            size = { width = 100%% height = 100%% }
-            margin = { top = 13 left = 13 bottom = 24 right = 25}
-            drag_scroll = { left middle }
-            verticalScrollbar = "right_vertical_slider"
-            horizontalScrollbar = "bottom_horizontal_slider"
-
-            background = {
-                name = "Background"
-                quadTextureSprite ="GFX_tiled_window_2b_border"
-            }
-
-            containerWindowType = {
-                name = "techtree_stripes"
-                position = { x= 0 y= 0 }
-                size = { 
-                    width = 1400 height = 1275
-                    min = { width = 100%% height = 100%% }
-                }
-                clipping = no
-
-                iconType = {
-                    name ="infantry_techtree_bg"
-                    spriteType = "GFX_wow_infantry_techtree_bg"
-                    position = { x=0 y=0 }
-                    allwaystransparent = yes
-                }
-
-
-                instantTextBoxType = {
-                    name = "techtree_subtitle_2"
-                    position = { x = 20 y = 20 }
-                    textureFile = ""
-                    font = "hoi_30header"
-                    borderSize = { x = 0 y = 0}
-                    text = "Aviation Doctrine"
-                    maxWidth = 600
-                    maxHeight = 62
-                    format = left
-                    Orientation = "UPPER_LEFT"
-                }
-            }
-            
-            gridboxtype = {
-                name = "aviation_doctrine_tech_1_tree"
-                position = { x = 20 y = 100 }
-                slotsize = { width = 40 height = 40 }
-                format = "LEFT"
-            }
-        }
-        
-        #---------------------------------------------------
-        # Naval doctrine
-        #---------------------------------------------------
-        containerWindowType = {
-            name = "naval_doctrine_folder"
-            position = { x=@techtab_x y=0 }
-            size = { width = 100%% height = 100%% }
-            margin = { top = 13 left = 13 bottom = 24 right = 25}
-            drag_scroll = { left middle }
-            verticalScrollbar = "right_vertical_slider"
-            horizontalScrollbar = "bottom_horizontal_slider"
-
-            background = {
-                name = "Background"
-                quadTextureSprite ="GFX_tiled_window_2b_border"
-            }
-
-            containerWindowType = {
-                name = "techtree_stripes"
-                position = { x= 0 y= 0 }
-                size = { 
-                    width = 1400 height = 1275
-                    min = { width = 100%% height = 100%% }
-                }
-                clipping = no
-
-                iconType = {
-                    name ="infantry_techtree_bg"
-                    spriteType = "GFX_wow_infantry_techtree_bg"
-                    position = { x=0 y=0 }
-                    allwaystransparent = yes
-                }
-
-
-                instantTextBoxType = {
-                    name = "techtree_subtitle_2"
-                    position = { x = 20 y = 20 }
-                    textureFile = ""
-                    font = "hoi_30header"
-                    borderSize = { x = 0 y = 0}
-                    text = "Naval Doctrine"
-                    maxWidth = 600
-                    maxHeight = 62
-                    format = left
-                    Orientation = "UPPER_LEFT"
-                }
-            }
-            
-            gridboxtype = {
-                name = "naval_doctrine_tech_1_tree"
-                position = { x = 20 y = 100 }
-                slotsize = { width = 40 height = 40 }
+                name = "diplomacy_tech_1_tree"
+                position = { x = 80 y = 0 }
+                slotsize = { width = 120 height = 120 }
                 format = "LEFT"
             }
         }
@@ -1305,12 +2546,12 @@ guiTypes = {
     }
     
     #---------------------------------------------------
-    # Army
+    # Army - Grunt
     #---------------------------------------------------
     containerWindowType = {
-        name = "techtree_army_folder_item"
+        name = "techtree_army_grunt_folder_item"
         position = { x=0 y=0 }
-        size = { width = 90 height = 90 }
+        size = { width = 104 height = 104 }
         clipping = no
 
         background = {
@@ -1320,20 +2561,20 @@ guiTypes = {
 
         iconType = {
             name = "Icon"
-            position = { x=42 y=34 }
+            position = { x=52 y=52 }
             spriteType = "GFX_technology_medium"
             alwaystransparent = yes
             centerposition = yes
-            scale = 0.5
+            scale = 1.0
         }
         instantTextBoxType = {
             name = "Name"
-            position = { x = 0 y = -25 }
+            position = { x = 0 y = 9999} # position = { x = 0 y = 105 }
             textureFile = ""
             font = "hoi_16mbs"
             borderSize = {x = 4 y = 4}
             text = "Happy-Go-Lucky-Tank"
-            maxWidth = 100
+            maxWidth = 200
             maxHeight = 20
             fixedsize = yes
             format = left
@@ -1341,7 +2582,7 @@ guiTypes = {
         
         instantTextBoxType = {
             name = "bonus"
-            position = { x = 15 y = 42 }
+            position = { x = 0 y = 120 }
             textureFile = ""
             font = "hoi_16mbs"
             borderSize = {x = 4 y = 4}
@@ -1377,12 +2618,12 @@ guiTypes = {
     }
     
     #---------------------------------------------------
-    # SUPPORT
+    # Army - Champion
     #---------------------------------------------------
     containerWindowType = {
-        name = "techtree_support_folder_item"
+        name = "techtree_army_champion_folder_item"
         position = { x=0 y=0 }
-        size = { width = 90 height = 90 }
+        size = { width = 104 height = 104 }
         clipping = no
 
         background = {
@@ -1392,20 +2633,20 @@ guiTypes = {
 
         iconType = {
             name = "Icon"
-            position = { x=42 y=34 }
+            position = { x=52 y=52 }
             spriteType = "GFX_technology_medium"
             alwaystransparent = yes
             centerposition = yes
-            scale = 0.5
+            scale = 1.0
         }
         instantTextBoxType = {
             name = "Name"
-            position = { x = 0 y = -25 }
+            position = { x = 0 y = 9999} # position = { x = 0 y = 105 }
             textureFile = ""
             font = "hoi_16mbs"
             borderSize = {x = 4 y = 4}
             text = "Happy-Go-Lucky-Tank"
-            maxWidth = 100
+            maxWidth = 200
             maxHeight = 20
             fixedsize = yes
             format = left
@@ -1413,7 +2654,151 @@ guiTypes = {
         
         instantTextBoxType = {
             name = "bonus"
-            position = { x = 15 y = 42 }
+            position = { x = 0 y = 120 }
+            textureFile = ""
+            font = "hoi_16mbs"
+            borderSize = {x = 4 y = 4}
+            text = "lol boat"
+            maxWidth = 50
+            maxHeight = 20
+            format = center
+        }
+        
+        iconType = {
+            name = "bonus_icon"
+            position = { x=30 y=-9999 }
+            spriteType = "GFX_small_red_menu_button"
+        }
+        containerWindowType = {
+            name = "sub_technology_slot_0"
+            position = { x=141 y=1 }
+            size = { width = 35 height = 26 }
+            clipping = no
+            
+            background = {
+                name = "Background"
+                spriteType ="GFX_subtechnology_unavailable_item_bg"
+            }
+            
+            iconType = {
+                name = "picture"
+                position = { x=2 y=2 }
+                spriteType = "GFX_subtech_rocket"
+                alwaystransparent = yes
+            }
+        }     
+    }
+    
+    #---------------------------------------------------
+    # Army - Spellcaster
+    #---------------------------------------------------
+    containerWindowType = {
+        name = "techtree_army_spellcaster_folder_item"
+        position = { x=0 y=0 }
+        size = { width = 104 height = 104 }
+        clipping = no
+
+        background = {
+            name = "Background"
+            quadTextureSprite ="GFX_technology_available_item_bg"
+        }
+
+        iconType = {
+            name = "Icon"
+            position = { x=52 y=52 }
+            spriteType = "GFX_technology_medium"
+            alwaystransparent = yes
+            centerposition = yes
+            scale = 1.0
+        }
+        instantTextBoxType = {
+            name = "Name"
+            position = { x = 0 y = 9999} # position = { x = 0 y = 105 }
+            textureFile = ""
+            font = "hoi_16mbs"
+            borderSize = {x = 4 y = 4}
+            text = "Happy-Go-Lucky-Tank"
+            maxWidth = 200
+            maxHeight = 20
+            fixedsize = yes
+            format = left
+        }
+        
+        instantTextBoxType = {
+            name = "bonus"
+            position = { x = 0 y = 120 }
+            textureFile = ""
+            font = "hoi_16mbs"
+            borderSize = {x = 4 y = 4}
+            text = "lol boat"
+            maxWidth = 50
+            maxHeight = 20
+            format = center
+        }
+        
+        iconType = {
+            name = "bonus_icon"
+            position = { x=30 y=-9999 }
+            spriteType = "GFX_small_red_menu_button"
+        }
+        containerWindowType = {
+            name = "sub_technology_slot_0"
+            position = { x=141 y=1 }
+            size = { width = 35 height = 26 }
+            clipping = no
+            
+            background = {
+                name = "Background"
+                spriteType ="GFX_subtechnology_unavailable_item_bg"
+            }
+            
+            iconType = {
+                name = "picture"
+                position = { x=2 y=2 }
+                spriteType = "GFX_subtech_rocket"
+                alwaystransparent = yes
+            }
+        }     
+    }
+    
+    #---------------------------------------------------
+    # Army - Archer
+    #---------------------------------------------------
+    containerWindowType = {
+        name = "techtree_army_archer_folder_item"
+        position = { x=0 y=0 }
+        size = { width = 104 height = 104 }
+        clipping = no
+
+        background = {
+            name = "Background"
+            quadTextureSprite ="GFX_technology_available_item_bg"
+        }
+
+        iconType = {
+            name = "Icon"
+            position = { x=52 y=52 }
+            spriteType = "GFX_technology_medium"
+            alwaystransparent = yes
+            centerposition = yes
+            scale = 1.0
+        }
+        instantTextBoxType = {
+            name = "Name"
+            position = { x = 0 y = 9999} # position = { x = 0 y = 105 }
+            textureFile = ""
+            font = "hoi_16mbs"
+            borderSize = {x = 4 y = 4}
+            text = "Happy-Go-Lucky-Tank"
+            maxWidth = 200
+            maxHeight = 20
+            fixedsize = yes
+            format = left
+        }
+        
+        instantTextBoxType = {
+            name = "bonus"
+            position = { x = 0 y = 120 }
             textureFile = ""
             font = "hoi_16mbs"
             borderSize = {x = 4 y = 4}
@@ -1449,12 +2834,12 @@ guiTypes = {
     }
     
     #---------------------------------------------------
-    # AIR
+    # Army - War Engine
     #---------------------------------------------------
     containerWindowType = {
-        name = "techtree_air_folder_item"
+        name = "techtree_army_war_engine_folder_item"
         position = { x=0 y=0 }
-        size = { width = 90 height = 90 }
+        size = { width = 104 height = 104 }
         clipping = no
 
         background = {
@@ -1464,20 +2849,20 @@ guiTypes = {
 
         iconType = {
             name = "Icon"
-            position = { x=42 y=34 }
+            position = { x=52 y=52 }
             spriteType = "GFX_technology_medium"
             alwaystransparent = yes
             centerposition = yes
-            scale = 0.5
+            scale = 1.0
         }
         instantTextBoxType = {
             name = "Name"
-            position = { x = 0 y = -25 }
+            position = { x = 0 y = 9999} # position = { x = 0 y = 105 }
             textureFile = ""
             font = "hoi_16mbs"
             borderSize = {x = 4 y = 4}
             text = "Happy-Go-Lucky-Tank"
-            maxWidth = 100
+            maxWidth = 200
             maxHeight = 20
             fixedsize = yes
             format = left
@@ -1485,7 +2870,7 @@ guiTypes = {
         
         instantTextBoxType = {
             name = "bonus"
-            position = { x = 15 y = 42 }
+            position = { x = 0 y = 120 }
             textureFile = ""
             font = "hoi_16mbs"
             borderSize = {x = 4 y = 4}
@@ -1517,16 +2902,16 @@ guiTypes = {
                 spriteType = "GFX_subtech_rocket"
                 alwaystransparent = yes
             }
-        }    
+        }     
     }
-
+    
     #---------------------------------------------------
-    # NAVY
+    # Army - Support
     #---------------------------------------------------
     containerWindowType = {
-        name = "techtree_navy_folder_item"
+        name = "techtree_army_support_folder_item"
         position = { x=0 y=0 }
-        size = { width = 90 height = 90 }
+        size = { width = 104 height = 104 }
         clipping = no
 
         background = {
@@ -1536,20 +2921,20 @@ guiTypes = {
 
         iconType = {
             name = "Icon"
-            position = { x=42 y=34 }
+            position = { x=52 y=52 }
             spriteType = "GFX_technology_medium"
             alwaystransparent = yes
             centerposition = yes
-            scale = 0.5
+            scale = 1.0
         }
         instantTextBoxType = {
             name = "Name"
-            position = { x = 0 y = -25 }
+            position = { x = 0 y = 9999} # position = { x = 0 y = 105 }
             textureFile = ""
             font = "hoi_16mbs"
             borderSize = {x = 4 y = 4}
             text = "Happy-Go-Lucky-Tank"
-            maxWidth = 100
+            maxWidth = 200
             maxHeight = 20
             fixedsize = yes
             format = left
@@ -1557,79 +2942,7 @@ guiTypes = {
         
         instantTextBoxType = {
             name = "bonus"
-            position = { x = 15 y = 42 }
-            textureFile = ""
-            font = "hoi_16mbs"
-            borderSize = {x = 4 y = 4}
-            text = "lol boat"
-            maxWidth = 50
-            maxHeight = 20
-            format = center
-        }
-        
-        iconType = {
-            name = "bonus_icon"
-            position = { x=30 y=-9999 }
-            spriteType = "GFX_small_red_menu_button"
-        }
-        containerWindowType = {
-            name = "sub_technology_slot_0"
-            position = { x=141 y=1 }
-            size = { width = 35 height = 26 }
-            clipping = no
-            
-            background = {
-                name = "Background"
-                spriteType ="GFX_subtechnology_unavailable_item_bg"
-            }
-            
-            iconType = {
-                name = "picture"
-                position = { x=2 y=2 }
-                spriteType = "GFX_subtech_rocket"
-                alwaystransparent = yes
-            }
-        }    
-    }
-
-    #---------------------------------------------------
-    # NAVY MTG
-    #---------------------------------------------------
-    containerWindowType = {
-        name = "techtree_navy_mtg_folder_item"
-        position = { x=0 y=0 }
-        size = { width = 90 height = 90 }
-        clipping = no
-
-        background = {
-            name = "Background"
-            quadTextureSprite ="GFX_technology_available_item_bg"
-        }
-
-        iconType = {
-            name = "Icon"
-            position = { x=42 y=34 }
-            spriteType = "GFX_technology_medium"
-            alwaystransparent = yes
-            centerposition = yes
-            scale = 0.5
-        }
-        instantTextBoxType = {
-            name = "Name"
-            position = { x = 0 y = -25 }
-            textureFile = ""
-            font = "hoi_16mbs"
-            borderSize = {x = 4 y = 4}
-            text = "Happy-Go-Lucky-Tank"
-            maxWidth = 100
-            maxHeight = 20
-            fixedsize = yes
-            format = left
-        }
-        
-        instantTextBoxType = {
-            name = "bonus"
-            position = { x = 15 y = 42 }
+            position = { x = 0 y = 120 }
             textureFile = ""
             font = "hoi_16mbs"
             borderSize = {x = 4 y = 4}
@@ -1665,12 +2978,1596 @@ guiTypes = {
     }
     
     #---------------------------------------------------
-    # INDUSTRY
+    # Army - Light Cavalry
+    #---------------------------------------------------
+    containerWindowType = {
+        name = "techtree_army_light_cavalry_folder_item"
+        position = { x=0 y=0 }
+        size = { width = 104 height = 104 }
+        clipping = no
+
+        background = {
+            name = "Background"
+            quadTextureSprite ="GFX_technology_available_item_bg"
+        }
+
+        iconType = {
+            name = "Icon"
+            position = { x=52 y=52 }
+            spriteType = "GFX_technology_medium"
+            alwaystransparent = yes
+            centerposition = yes
+            scale = 1.0
+        }
+        instantTextBoxType = {
+            name = "Name"
+            position = { x = 0 y = 9999} # position = { x = 0 y = 105 }
+            textureFile = ""
+            font = "hoi_16mbs"
+            borderSize = {x = 4 y = 4}
+            text = "Happy-Go-Lucky-Tank"
+            maxWidth = 200
+            maxHeight = 20
+            fixedsize = yes
+            format = left
+        }
+        
+        instantTextBoxType = {
+            name = "bonus"
+            position = { x = 0 y = 120 }
+            textureFile = ""
+            font = "hoi_16mbs"
+            borderSize = {x = 4 y = 4}
+            text = "lol boat"
+            maxWidth = 50
+            maxHeight = 20
+            format = center
+        }
+        
+        iconType = {
+            name = "bonus_icon"
+            position = { x=30 y=-9999 }
+            spriteType = "GFX_small_red_menu_button"
+        }
+        containerWindowType = {
+            name = "sub_technology_slot_0"
+            position = { x=141 y=1 }
+            size = { width = 35 height = 26 }
+            clipping = no
+            
+            background = {
+                name = "Background"
+                spriteType ="GFX_subtechnology_unavailable_item_bg"
+            }
+            
+            iconType = {
+                name = "picture"
+                position = { x=2 y=2 }
+                spriteType = "GFX_subtech_rocket"
+                alwaystransparent = yes
+            }
+        }      
+    }
+    
+    #---------------------------------------------------
+    # Army - Heavy Cavalry
+    #---------------------------------------------------
+    containerWindowType = {
+        name = "techtree_army_heavy_cavalry_folder_item"
+        position = { x=0 y=0 }
+        size = { width = 104 height = 104 }
+        clipping = no
+
+        background = {
+            name = "Background"
+            quadTextureSprite ="GFX_technology_available_item_bg"
+        }
+
+        iconType = {
+            name = "Icon"
+            position = { x=52 y=52 }
+            spriteType = "GFX_technology_medium"
+            alwaystransparent = yes
+            centerposition = yes
+            scale = 1.0
+        }
+        instantTextBoxType = {
+            name = "Name"
+            position = { x = 0 y = 9999} # position = { x = 0 y = 105 }
+            textureFile = ""
+            font = "hoi_16mbs"
+            borderSize = {x = 4 y = 4}
+            text = "Happy-Go-Lucky-Tank"
+            maxWidth = 200
+            maxHeight = 20
+            fixedsize = yes
+            format = left
+        }
+        
+        instantTextBoxType = {
+            name = "bonus"
+            position = { x = 0 y = 120 }
+            textureFile = ""
+            font = "hoi_16mbs"
+            borderSize = {x = 4 y = 4}
+            text = "lol boat"
+            maxWidth = 50
+            maxHeight = 20
+            format = center
+        }
+        
+        iconType = {
+            name = "bonus_icon"
+            position = { x=30 y=-9999 }
+            spriteType = "GFX_small_red_menu_button"
+        }
+        containerWindowType = {
+            name = "sub_technology_slot_0"
+            position = { x=141 y=1 }
+            size = { width = 35 height = 26 }
+            clipping = no
+            
+            background = {
+                name = "Background"
+                spriteType ="GFX_subtechnology_unavailable_item_bg"
+            }
+            
+            iconType = {
+                name = "picture"
+                position = { x=2 y=2 }
+                spriteType = "GFX_subtech_rocket"
+                alwaystransparent = yes
+            }
+        }      
+    }
+    
+    #---------------------------------------------------
+    # Army - Light Tank
+    #---------------------------------------------------
+    containerWindowType = {
+        name = "techtree_army_light_tank_folder_item"
+        position = { x=0 y=0 }
+        size = { width = 104 height = 104 }
+        clipping = no
+
+        background = {
+            name = "Background"
+            quadTextureSprite ="GFX_technology_available_item_bg"
+        }
+
+        iconType = {
+            name = "Icon"
+            position = { x=52 y=52 }
+            spriteType = "GFX_technology_medium"
+            alwaystransparent = yes
+            centerposition = yes
+            scale = 1.0
+        }
+        instantTextBoxType = {
+            name = "Name"
+            position = { x = 0 y = 9999} # position = { x = 0 y = 105 }
+            textureFile = ""
+            font = "hoi_16mbs"
+            borderSize = {x = 4 y = 4}
+            text = "Happy-Go-Lucky-Tank"
+            maxWidth = 200
+            maxHeight = 20
+            fixedsize = yes
+            format = left
+        }
+        
+        instantTextBoxType = {
+            name = "bonus"
+            position = { x = 0 y = 120 }
+            textureFile = ""
+            font = "hoi_16mbs"
+            borderSize = {x = 4 y = 4}
+            text = "lol boat"
+            maxWidth = 50
+            maxHeight = 20
+            format = center
+        }
+        
+        iconType = {
+            name = "bonus_icon"
+            position = { x=30 y=-9999 }
+            spriteType = "GFX_small_red_menu_button"
+        }
+        containerWindowType = {
+            name = "sub_technology_slot_0"
+            position = { x=141 y=1 }
+            size = { width = 35 height = 26 }
+            clipping = no
+            
+            background = {
+                name = "Background"
+                spriteType ="GFX_subtechnology_unavailable_item_bg"
+            }
+            
+            iconType = {
+                name = "picture"
+                position = { x=2 y=2 }
+                spriteType = "GFX_subtech_rocket"
+                alwaystransparent = yes
+            }
+        }    
+    }
+    
+    #---------------------------------------------------
+    # Army - Heavy Tank
+    #---------------------------------------------------
+    containerWindowType = {
+        name = "techtree_army_heavy_tank_folder_item"
+        position = { x=0 y=0 }
+        size = { width = 104 height = 104 }
+        clipping = no
+
+        background = {
+            name = "Background"
+            quadTextureSprite ="GFX_technology_available_item_bg"
+        }
+
+        iconType = {
+            name = "Icon"
+            position = { x=52 y=52 }
+            spriteType = "GFX_technology_medium"
+            alwaystransparent = yes
+            centerposition = yes
+            scale = 1.0
+        }
+        instantTextBoxType = {
+            name = "Name"
+            position = { x = 0 y = 9999} # position = { x = 0 y = 105 }
+            textureFile = ""
+            font = "hoi_16mbs"
+            borderSize = {x = 4 y = 4}
+            text = "Happy-Go-Lucky-Tank"
+            maxWidth = 200
+            maxHeight = 20
+            fixedsize = yes
+            format = left
+        }
+        
+        instantTextBoxType = {
+            name = "bonus"
+            position = { x = 0 y = 120 }
+            textureFile = ""
+            font = "hoi_16mbs"
+            borderSize = {x = 4 y = 4}
+            text = "lol boat"
+            maxWidth = 50
+            maxHeight = 20
+            format = center
+        }
+        
+        iconType = {
+            name = "bonus_icon"
+            position = { x=30 y=-9999 }
+            spriteType = "GFX_small_red_menu_button"
+        }
+        containerWindowType = {
+            name = "sub_technology_slot_0"
+            position = { x=141 y=1 }
+            size = { width = 35 height = 26 }
+            clipping = no
+            
+            background = {
+                name = "Background"
+                spriteType ="GFX_subtechnology_unavailable_item_bg"
+            }
+            
+            iconType = {
+                name = "picture"
+                position = { x=2 y=2 }
+                spriteType = "GFX_subtech_rocket"
+                alwaystransparent = yes
+            }
+        }    
+    }
+    
+    #---------------------------------------------------
+    # Army - Vanquisher Doctrine
+    #---------------------------------------------------
+    containerWindowType = {
+        name = "techtree_army_vanquisher_doctrine_folder_item"
+        position = { x=0 y=0 }
+        size = { width = 104 height = 104 }
+        clipping = no
+
+        background = {
+            name = "Background"
+            quadTextureSprite ="GFX_technology_available_item_bg"
+        }
+
+        iconType = {
+            name = "Icon"
+            position = { x=52 y=52 }
+            spriteType = "GFX_technology_medium"
+            alwaystransparent = yes
+            centerposition = yes
+            scale = 1.0
+        }
+        instantTextBoxType = {
+            name = "Name"
+            position = { x = 0 y = 9999} # position = { x = 0 y = 105 }
+            textureFile = ""
+            font = "hoi_16mbs"
+            borderSize = {x = 4 y = 4}
+            text = "Happy-Go-Lucky-Tank"
+            maxWidth = 200
+            maxHeight = 20
+            fixedsize = yes
+            format = left
+        }
+        
+        instantTextBoxType = {
+            name = "bonus"
+            position = { x = 0 y = 120 }
+            textureFile = ""
+            font = "hoi_16mbs"
+            borderSize = {x = 4 y = 4}
+            text = "lol boat"
+            maxWidth = 50
+            maxHeight = 20
+            format = center
+        }
+        
+        iconType = {
+            name = "bonus_icon"
+            position = { x=30 y=-9999 }
+            spriteType = "GFX_small_red_menu_button"
+        }
+        containerWindowType = {
+            name = "sub_technology_slot_0"
+            position = { x=141 y=1 }
+            size = { width = 35 height = 26 }
+            clipping = no
+            
+            background = {
+                name = "Background"
+                spriteType ="GFX_subtechnology_unavailable_item_bg"
+            }
+            
+            iconType = {
+                name = "picture"
+                position = { x=2 y=2 }
+                spriteType = "GFX_subtech_rocket"
+                alwaystransparent = yes
+            }
+        }    
+    }
+    
+    #---------------------------------------------------
+    # Army - Aegis Doctrine
+    #---------------------------------------------------
+    containerWindowType = {
+        name = "techtree_army_aegis_doctrine_folder_item"
+        position = { x=0 y=0 }
+        size = { width = 104 height = 104 }
+        clipping = no
+
+        background = {
+            name = "Background"
+            quadTextureSprite ="GFX_technology_available_item_bg"
+        }
+
+        iconType = {
+            name = "Icon"
+            position = { x=52 y=52 }
+            spriteType = "GFX_technology_medium"
+            alwaystransparent = yes
+            centerposition = yes
+            scale = 1.0
+        }
+        instantTextBoxType = {
+            name = "Name"
+            position = { x = 0 y = 9999} # position = { x = 0 y = 105 }
+            textureFile = ""
+            font = "hoi_16mbs"
+            borderSize = {x = 4 y = 4}
+            text = "Happy-Go-Lucky-Tank"
+            maxWidth = 200
+            maxHeight = 20
+            fixedsize = yes
+            format = left
+        }
+        
+        instantTextBoxType = {
+            name = "bonus"
+            position = { x = 0 y = 120 }
+            textureFile = ""
+            font = "hoi_16mbs"
+            borderSize = {x = 4 y = 4}
+            text = "lol boat"
+            maxWidth = 50
+            maxHeight = 20
+            format = center
+        }
+        
+        iconType = {
+            name = "bonus_icon"
+            position = { x=30 y=-9999 }
+            spriteType = "GFX_small_red_menu_button"
+        }
+        containerWindowType = {
+            name = "sub_technology_slot_0"
+            position = { x=141 y=1 }
+            size = { width = 35 height = 26 }
+            clipping = no
+            
+            background = {
+                name = "Background"
+                spriteType ="GFX_subtechnology_unavailable_item_bg"
+            }
+            
+            iconType = {
+                name = "picture"
+                position = { x=2 y=2 }
+                spriteType = "GFX_subtech_rocket"
+                alwaystransparent = yes
+            }
+        }    
+    }
+    
+    #---------------------------------------------------
+    # Navy - Battleship
+    #---------------------------------------------------
+    containerWindowType = {
+        name = "techtree_navy_battleship_folder_item"
+        position = { x=0 y=0 }
+        size = { width = 104 height = 104 }
+        clipping = no
+
+        background = {
+            name = "Background"
+            quadTextureSprite ="GFX_technology_available_item_bg"
+        }
+
+        iconType = {
+            name = "Icon"
+            position = { x=52 y=52 }
+            spriteType = "GFX_technology_medium"
+            alwaystransparent = yes
+            centerposition = yes
+            scale = 1.0
+        }
+        instantTextBoxType = {
+            name = "Name"
+            position = { x = 0 y = 9999} # position = { x = 0 y = 105 }
+            textureFile = ""
+            font = "hoi_16mbs"
+            borderSize = {x = 4 y = 4}
+            text = "Happy-Go-Lucky-Tank"
+            maxWidth = 200
+            maxHeight = 20
+            fixedsize = yes
+            format = left
+        }
+        
+        instantTextBoxType = {
+            name = "bonus"
+            position = { x = 0 y = 120 }
+            textureFile = ""
+            font = "hoi_16mbs"
+            borderSize = {x = 4 y = 4}
+            text = "lol boat"
+            maxWidth = 50
+            maxHeight = 20
+            format = center
+        }
+        
+        iconType = {
+            name = "bonus_icon"
+            position = { x=30 y=-9999 }
+            spriteType = "GFX_small_red_menu_button"
+        }
+        containerWindowType = {
+            name = "sub_technology_slot_0"
+            position = { x=141 y=1 }
+            size = { width = 35 height = 26 }
+            clipping = no
+            
+            background = {
+                name = "Background"
+                spriteType ="GFX_subtechnology_unavailable_item_bg"
+            }
+            
+            iconType = {
+                name = "picture"
+                position = { x=2 y=2 }
+                spriteType = "GFX_subtech_rocket"
+                alwaystransparent = yes
+            }
+        }    
+    }
+    
+    #---------------------------------------------------
+    # Navy - Battleship (MTG)
+    #---------------------------------------------------
+    containerWindowType = {
+        name = "techtree_mtg_navy_battleship_folder_item"
+        position = { x=0 y=0 }
+        size = { width = 104 height = 104 }
+        clipping = no
+
+        background = {
+            name = "Background"
+            quadTextureSprite ="GFX_technology_available_item_bg"
+        }
+
+        iconType = {
+            name = "Icon"
+            position = { x=52 y=52 }
+            spriteType = "GFX_technology_medium"
+            alwaystransparent = yes
+            centerposition = yes
+            scale = 1.0
+        }
+        instantTextBoxType = {
+            name = "Name"
+            position = { x = 0 y = 9999} # position = { x = 0 y = 105 }
+            textureFile = ""
+            font = "hoi_16mbs"
+            borderSize = {x = 4 y = 4}
+            text = "Happy-Go-Lucky-Tank"
+            maxWidth = 200
+            maxHeight = 20
+            fixedsize = yes
+            format = left
+        }
+        
+        instantTextBoxType = {
+            name = "bonus"
+            position = { x = 0 y = 120 }
+            textureFile = ""
+            font = "hoi_16mbs"
+            borderSize = {x = 4 y = 4}
+            text = "lol boat"
+            maxWidth = 50
+            maxHeight = 20
+            format = center
+        }
+        
+        iconType = {
+            name = "bonus_icon"
+            position = { x=30 y=-9999 }
+            spriteType = "GFX_small_red_menu_button"
+        }
+        containerWindowType = {
+            name = "sub_technology_slot_0"
+            position = { x=141 y=1 }
+            size = { width = 35 height = 26 }
+            clipping = no
+            
+            background = {
+                name = "Background"
+                spriteType ="GFX_subtechnology_unavailable_item_bg"
+            }
+            
+            iconType = {
+                name = "picture"
+                position = { x=2 y=2 }
+                spriteType = "GFX_subtech_rocket"
+                alwaystransparent = yes
+            }
+        }    
+    }
+    
+    #---------------------------------------------------
+    # Navy - Cruiser
+    #---------------------------------------------------
+    containerWindowType = {
+        name = "techtree_navy_cruiser_folder_item"
+        position = { x=0 y=0 }
+        size = { width = 104 height = 104 }
+        clipping = no
+
+        background = {
+            name = "Background"
+            quadTextureSprite ="GFX_technology_available_item_bg"
+        }
+
+        iconType = {
+            name = "Icon"
+            position = { x=52 y=52 }
+            spriteType = "GFX_technology_medium"
+            alwaystransparent = yes
+            centerposition = yes
+            scale = 1.0
+        }
+        instantTextBoxType = {
+            name = "Name"
+            position = { x = 0 y = 9999} # position = { x = 0 y = 105 }
+            textureFile = ""
+            font = "hoi_16mbs"
+            borderSize = {x = 4 y = 4}
+            text = "Happy-Go-Lucky-Tank"
+            maxWidth = 200
+            maxHeight = 20
+            fixedsize = yes
+            format = left
+        }
+        
+        instantTextBoxType = {
+            name = "bonus"
+            position = { x = 0 y = 120 }
+            textureFile = ""
+            font = "hoi_16mbs"
+            borderSize = {x = 4 y = 4}
+            text = "lol boat"
+            maxWidth = 50
+            maxHeight = 20
+            format = center
+        }
+        
+        iconType = {
+            name = "bonus_icon"
+            position = { x=30 y=-9999 }
+            spriteType = "GFX_small_red_menu_button"
+        }
+        containerWindowType = {
+            name = "sub_technology_slot_0"
+            position = { x=141 y=1 }
+            size = { width = 35 height = 26 }
+            clipping = no
+            
+            background = {
+                name = "Background"
+                spriteType ="GFX_subtechnology_unavailable_item_bg"
+            }
+            
+            iconType = {
+                name = "picture"
+                position = { x=2 y=2 }
+                spriteType = "GFX_subtech_rocket"
+                alwaystransparent = yes
+            }
+        }    
+    }
+    
+    #---------------------------------------------------
+    # Navy - Cruiser (MTG)
+    #---------------------------------------------------
+    containerWindowType = {
+        name = "techtree_mtg_navy_cruiser_folder_item"
+        position = { x=0 y=0 }
+        size = { width = 104 height = 104 }
+        clipping = no
+
+        background = {
+            name = "Background"
+            quadTextureSprite ="GFX_technology_available_item_bg"
+        }
+
+        iconType = {
+            name = "Icon"
+            position = { x=52 y=52 }
+            spriteType = "GFX_technology_medium"
+            alwaystransparent = yes
+            centerposition = yes
+            scale = 1.0
+        }
+        instantTextBoxType = {
+            name = "Name"
+            position = { x = 0 y = 9999} # position = { x = 0 y = 105 }
+            textureFile = ""
+            font = "hoi_16mbs"
+            borderSize = {x = 4 y = 4}
+            text = "Happy-Go-Lucky-Tank"
+            maxWidth = 200
+            maxHeight = 20
+            fixedsize = yes
+            format = left
+        }
+        
+        instantTextBoxType = {
+            name = "bonus"
+            position = { x = 0 y = 120 }
+            textureFile = ""
+            font = "hoi_16mbs"
+            borderSize = {x = 4 y = 4}
+            text = "lol boat"
+            maxWidth = 50
+            maxHeight = 20
+            format = center
+        }
+        
+        iconType = {
+            name = "bonus_icon"
+            position = { x=30 y=-9999 }
+            spriteType = "GFX_small_red_menu_button"
+        }
+        containerWindowType = {
+            name = "sub_technology_slot_0"
+            position = { x=141 y=1 }
+            size = { width = 35 height = 26 }
+            clipping = no
+            
+            background = {
+                name = "Background"
+                spriteType ="GFX_subtechnology_unavailable_item_bg"
+            }
+            
+            iconType = {
+                name = "picture"
+                position = { x=2 y=2 }
+                spriteType = "GFX_subtech_rocket"
+                alwaystransparent = yes
+            }
+        }    
+    }
+    
+    #---------------------------------------------------
+    # Navy - Destroyer
+    #---------------------------------------------------
+    containerWindowType = {
+        name = "techtree_navy_destroyer_folder_item"
+        position = { x=0 y=0 }
+        size = { width = 104 height = 104 }
+        clipping = no
+
+        background = {
+            name = "Background"
+            quadTextureSprite ="GFX_technology_available_item_bg"
+        }
+
+        iconType = {
+            name = "Icon"
+            position = { x=52 y=52 }
+            spriteType = "GFX_technology_medium"
+            alwaystransparent = yes
+            centerposition = yes
+            scale = 1.0
+        }
+        instantTextBoxType = {
+            name = "Name"
+            position = { x = 0 y = 9999} # position = { x = 0 y = 105 }
+            textureFile = ""
+            font = "hoi_16mbs"
+            borderSize = {x = 4 y = 4}
+            text = "Happy-Go-Lucky-Tank"
+            maxWidth = 200
+            maxHeight = 20
+            fixedsize = yes
+            format = left
+        }
+        
+        instantTextBoxType = {
+            name = "bonus"
+            position = { x = 0 y = 120 }
+            textureFile = ""
+            font = "hoi_16mbs"
+            borderSize = {x = 4 y = 4}
+            text = "lol boat"
+            maxWidth = 50
+            maxHeight = 20
+            format = center
+        }
+        
+        iconType = {
+            name = "bonus_icon"
+            position = { x=30 y=-9999 }
+            spriteType = "GFX_small_red_menu_button"
+        }
+        containerWindowType = {
+            name = "sub_technology_slot_0"
+            position = { x=141 y=1 }
+            size = { width = 35 height = 26 }
+            clipping = no
+            
+            background = {
+                name = "Background"
+                spriteType ="GFX_subtechnology_unavailable_item_bg"
+            }
+            
+            iconType = {
+                name = "picture"
+                position = { x=2 y=2 }
+                spriteType = "GFX_subtech_rocket"
+                alwaystransparent = yes
+            }
+        }    
+    }
+    
+    #---------------------------------------------------
+    # Navy - Destroyer (MTG)
+    #---------------------------------------------------
+    containerWindowType = {
+        name = "techtree_mtg_navy_destroyer_folder_item"
+        position = { x=0 y=0 }
+        size = { width = 104 height = 104 }
+        clipping = no
+
+        background = {
+            name = "Background"
+            quadTextureSprite ="GFX_technology_available_item_bg"
+        }
+
+        iconType = {
+            name = "Icon"
+            position = { x=52 y=52 }
+            spriteType = "GFX_technology_medium"
+            alwaystransparent = yes
+            centerposition = yes
+            scale = 1.0
+        }
+        instantTextBoxType = {
+            name = "Name"
+            position = { x = 0 y = 9999} # position = { x = 0 y = 105 }
+            textureFile = ""
+            font = "hoi_16mbs"
+            borderSize = {x = 4 y = 4}
+            text = "Happy-Go-Lucky-Tank"
+            maxWidth = 200
+            maxHeight = 20
+            fixedsize = yes
+            format = left
+        }
+        
+        instantTextBoxType = {
+            name = "bonus"
+            position = { x = 0 y = 120 }
+            textureFile = ""
+            font = "hoi_16mbs"
+            borderSize = {x = 4 y = 4}
+            text = "lol boat"
+            maxWidth = 50
+            maxHeight = 20
+            format = center
+        }
+        
+        iconType = {
+            name = "bonus_icon"
+            position = { x=30 y=-9999 }
+            spriteType = "GFX_small_red_menu_button"
+        }
+        containerWindowType = {
+            name = "sub_technology_slot_0"
+            position = { x=141 y=1 }
+            size = { width = 35 height = 26 }
+            clipping = no
+            
+            background = {
+                name = "Background"
+                spriteType ="GFX_subtechnology_unavailable_item_bg"
+            }
+            
+            iconType = {
+                name = "picture"
+                position = { x=2 y=2 }
+                spriteType = "GFX_subtech_rocket"
+                alwaystransparent = yes
+            }
+        }    
+    }
+    
+    #---------------------------------------------------
+    # Navy - Submarine
+    #---------------------------------------------------
+    containerWindowType = {
+        name = "techtree_navy_submarine_folder_item"
+        position = { x=0 y=0 }
+        size = { width = 104 height = 104 }
+        clipping = no
+
+        background = {
+            name = "Background"
+            quadTextureSprite ="GFX_technology_available_item_bg"
+        }
+
+        iconType = {
+            name = "Icon"
+            position = { x=52 y=52 }
+            spriteType = "GFX_technology_medium"
+            alwaystransparent = yes
+            centerposition = yes
+            scale = 1.0
+        }
+        instantTextBoxType = {
+            name = "Name"
+            position = { x = 0 y = 9999} # position = { x = 0 y = 105 }
+            textureFile = ""
+            font = "hoi_16mbs"
+            borderSize = {x = 4 y = 4}
+            text = "Happy-Go-Lucky-Tank"
+            maxWidth = 200
+            maxHeight = 20
+            fixedsize = yes
+            format = left
+        }
+        
+        instantTextBoxType = {
+            name = "bonus"
+            position = { x = 0 y = 120 }
+            textureFile = ""
+            font = "hoi_16mbs"
+            borderSize = {x = 4 y = 4}
+            text = "lol boat"
+            maxWidth = 50
+            maxHeight = 20
+            format = center
+        }
+        
+        iconType = {
+            name = "bonus_icon"
+            position = { x=30 y=-9999 }
+            spriteType = "GFX_small_red_menu_button"
+        }
+        containerWindowType = {
+            name = "sub_technology_slot_0"
+            position = { x=141 y=1 }
+            size = { width = 35 height = 26 }
+            clipping = no
+            
+            background = {
+                name = "Background"
+                spriteType ="GFX_subtechnology_unavailable_item_bg"
+            }
+            
+            iconType = {
+                name = "picture"
+                position = { x=2 y=2 }
+                spriteType = "GFX_subtech_rocket"
+                alwaystransparent = yes
+            }
+        }    
+    }
+    
+    #---------------------------------------------------
+    # Navy - Submarine (MTG)
+    #---------------------------------------------------
+    containerWindowType = {
+        name = "techtree_mtg_navy_submarine_folder_item"
+        position = { x=0 y=0 }
+        size = { width = 104 height = 104 }
+        clipping = no
+
+        background = {
+            name = "Background"
+            quadTextureSprite ="GFX_technology_available_item_bg"
+        }
+
+        iconType = {
+            name = "Icon"
+            position = { x=52 y=52 }
+            spriteType = "GFX_technology_medium"
+            alwaystransparent = yes
+            centerposition = yes
+            scale = 1.0
+        }
+        instantTextBoxType = {
+            name = "Name"
+            position = { x = 0 y = 9999} # position = { x = 0 y = 105 }
+            textureFile = ""
+            font = "hoi_16mbs"
+            borderSize = {x = 4 y = 4}
+            text = "Happy-Go-Lucky-Tank"
+            maxWidth = 200
+            maxHeight = 20
+            fixedsize = yes
+            format = left
+        }
+        
+        instantTextBoxType = {
+            name = "bonus"
+            position = { x = 0 y = 120 }
+            textureFile = ""
+            font = "hoi_16mbs"
+            borderSize = {x = 4 y = 4}
+            text = "lol boat"
+            maxWidth = 50
+            maxHeight = 20
+            format = center
+        }
+        
+        iconType = {
+            name = "bonus_icon"
+            position = { x=30 y=-9999 }
+            spriteType = "GFX_small_red_menu_button"
+        }
+        containerWindowType = {
+            name = "sub_technology_slot_0"
+            position = { x=141 y=1 }
+            size = { width = 35 height = 26 }
+            clipping = no
+            
+            background = {
+                name = "Background"
+                spriteType ="GFX_subtechnology_unavailable_item_bg"
+            }
+            
+            iconType = {
+                name = "picture"
+                position = { x=2 y=2 }
+                spriteType = "GFX_subtech_rocket"
+                alwaystransparent = yes
+            }
+        }    
+    }
+    
+    #---------------------------------------------------
+    # Navy - Barrage Doctrine
+    #---------------------------------------------------
+    containerWindowType = {
+        name = "techtree_navy_barrage_doctrine_folder_item"
+        position = { x=0 y=0 }
+        size = { width = 104 height = 104 }
+        clipping = no
+
+        background = {
+            name = "Background"
+            quadTextureSprite ="GFX_technology_available_item_bg"
+        }
+
+        iconType = {
+            name = "Icon"
+            position = { x=52 y=52 }
+            spriteType = "GFX_technology_medium"
+            alwaystransparent = yes
+            centerposition = yes
+            scale = 1.0
+        }
+        instantTextBoxType = {
+            name = "Name"
+            position = { x = 0 y = 9999} # position = { x = 0 y = 105 }
+            textureFile = ""
+            font = "hoi_16mbs"
+            borderSize = {x = 4 y = 4}
+            text = "Happy-Go-Lucky-Tank"
+            maxWidth = 200
+            maxHeight = 20
+            fixedsize = yes
+            format = left
+        }
+        
+        instantTextBoxType = {
+            name = "bonus"
+            position = { x = 0 y = 120 }
+            textureFile = ""
+            font = "hoi_16mbs"
+            borderSize = {x = 4 y = 4}
+            text = "lol boat"
+            maxWidth = 50
+            maxHeight = 20
+            format = center
+        }
+        
+        iconType = {
+            name = "bonus_icon"
+            position = { x=30 y=-9999 }
+            spriteType = "GFX_small_red_menu_button"
+        }
+        containerWindowType = {
+            name = "sub_technology_slot_0"
+            position = { x=141 y=1 }
+            size = { width = 35 height = 26 }
+            clipping = no
+            
+            background = {
+                name = "Background"
+                spriteType ="GFX_subtechnology_unavailable_item_bg"
+            }
+            
+            iconType = {
+                name = "picture"
+                position = { x=2 y=2 }
+                spriteType = "GFX_subtech_rocket"
+                alwaystransparent = yes
+            }
+        }    
+    }
+    
+    #---------------------------------------------------
+    # Navy - Assault Doctrine
+    #---------------------------------------------------
+    containerWindowType = {
+        name = "techtree_navy_assault_doctrine_folder_item"
+        position = { x=0 y=0 }
+        size = { width = 104 height = 104 }
+        clipping = no
+
+        background = {
+            name = "Background"
+            quadTextureSprite ="GFX_technology_available_item_bg"
+        }
+
+        iconType = {
+            name = "Icon"
+            position = { x=52 y=52 }
+            spriteType = "GFX_technology_medium"
+            alwaystransparent = yes
+            centerposition = yes
+            scale = 1.0
+        }
+        instantTextBoxType = {
+            name = "Name"
+            position = { x = 0 y = 9999} # position = { x = 0 y = 105 }
+            textureFile = ""
+            font = "hoi_16mbs"
+            borderSize = {x = 4 y = 4}
+            text = "Happy-Go-Lucky-Tank"
+            maxWidth = 200
+            maxHeight = 20
+            fixedsize = yes
+            format = left
+        }
+        
+        instantTextBoxType = {
+            name = "bonus"
+            position = { x = 0 y = 120 }
+            textureFile = ""
+            font = "hoi_16mbs"
+            borderSize = {x = 4 y = 4}
+            text = "lol boat"
+            maxWidth = 50
+            maxHeight = 20
+            format = center
+        }
+        
+        iconType = {
+            name = "bonus_icon"
+            position = { x=30 y=-9999 }
+            spriteType = "GFX_small_red_menu_button"
+        }
+        containerWindowType = {
+            name = "sub_technology_slot_0"
+            position = { x=141 y=1 }
+            size = { width = 35 height = 26 }
+            clipping = no
+            
+            background = {
+                name = "Background"
+                spriteType ="GFX_subtechnology_unavailable_item_bg"
+            }
+            
+            iconType = {
+                name = "picture"
+                position = { x=2 y=2 }
+                spriteType = "GFX_subtech_rocket"
+                alwaystransparent = yes
+            }
+        }    
+    }
+    
+    #---------------------------------------------------
+    # Aviation - Fighter
+    #---------------------------------------------------
+    containerWindowType = {
+        name = "techtree_air_fighter_folder_item"
+        position = { x=0 y=0 }
+        size = { width = 104 height = 104 }
+        clipping = no
+
+        background = {
+            name = "Background"
+            quadTextureSprite ="GFX_technology_available_item_bg"
+        }
+
+        iconType = {
+            name = "Icon"
+            position = { x=52 y=52 }
+            spriteType = "GFX_technology_medium"
+            alwaystransparent = yes
+            centerposition = yes
+            scale = 1.0
+        }
+        instantTextBoxType = {
+            name = "Name"
+            position = { x = 0 y = 9999} # position = { x = 0 y = 105 }
+            textureFile = ""
+            font = "hoi_16mbs"
+            borderSize = {x = 4 y = 4}
+            text = "Happy-Go-Lucky-Tank"
+            maxWidth = 200
+            maxHeight = 20
+            fixedsize = yes
+            format = left
+        }
+        
+        instantTextBoxType = {
+            name = "bonus"
+            position = { x = 0 y = 120 }
+            textureFile = ""
+            font = "hoi_16mbs"
+            borderSize = {x = 4 y = 4}
+            text = "lol boat"
+            maxWidth = 50
+            maxHeight = 20
+            format = center
+        }
+        
+        iconType = {
+            name = "bonus_icon"
+            position = { x=30 y=-9999 }
+            spriteType = "GFX_small_red_menu_button"
+        }
+        containerWindowType = {
+            name = "sub_technology_slot_0"
+            position = { x=141 y=1 }
+            size = { width = 35 height = 26 }
+            clipping = no
+            
+            background = {
+                name = "Background"
+                spriteType ="GFX_subtechnology_unavailable_item_bg"
+            }
+            
+            iconType = {
+                name = "picture"
+                position = { x=2 y=2 }
+                spriteType = "GFX_subtech_rocket"
+                alwaystransparent = yes
+            }
+        }    
+    }
+    
+    #---------------------------------------------------
+    # Aviation - CAS
+    #---------------------------------------------------
+    containerWindowType = {
+        name = "techtree_air_cas_folder_item"
+        position = { x=0 y=0 }
+        size = { width = 104 height = 104 }
+        clipping = no
+
+        background = {
+            name = "Background"
+            quadTextureSprite ="GFX_technology_available_item_bg"
+        }
+
+        iconType = {
+            name = "Icon"
+            position = { x=52 y=52 }
+            spriteType = "GFX_technology_medium"
+            alwaystransparent = yes
+            centerposition = yes
+            scale = 1.0
+        }
+        instantTextBoxType = {
+            name = "Name"
+            position = { x = 0 y = 9999} # position = { x = 0 y = 105 }
+            textureFile = ""
+            font = "hoi_16mbs"
+            borderSize = {x = 4 y = 4}
+            text = "Happy-Go-Lucky-Tank"
+            maxWidth = 200
+            maxHeight = 20
+            fixedsize = yes
+            format = left
+        }
+        
+        instantTextBoxType = {
+            name = "bonus"
+            position = { x = 0 y = 120 }
+            textureFile = ""
+            font = "hoi_16mbs"
+            borderSize = {x = 4 y = 4}
+            text = "lol boat"
+            maxWidth = 50
+            maxHeight = 20
+            format = center
+        }
+        
+        iconType = {
+            name = "bonus_icon"
+            position = { x=30 y=-9999 }
+            spriteType = "GFX_small_red_menu_button"
+        }
+        containerWindowType = {
+            name = "sub_technology_slot_0"
+            position = { x=141 y=1 }
+            size = { width = 35 height = 26 }
+            clipping = no
+            
+            background = {
+                name = "Background"
+                spriteType ="GFX_subtechnology_unavailable_item_bg"
+            }
+            
+            iconType = {
+                name = "picture"
+                position = { x=2 y=2 }
+                spriteType = "GFX_subtech_rocket"
+                alwaystransparent = yes
+            }
+        }    
+    }
+    
+    #---------------------------------------------------
+    # Aviation - Tactica Bomber
+    #---------------------------------------------------
+    containerWindowType = {
+        name = "techtree_air_tactical_bomber_folder_item"
+        position = { x=0 y=0 }
+        size = { width = 104 height = 104 }
+        clipping = no
+
+        background = {
+            name = "Background"
+            quadTextureSprite ="GFX_technology_available_item_bg"
+        }
+
+        iconType = {
+            name = "Icon"
+            position = { x=52 y=52 }
+            spriteType = "GFX_technology_medium"
+            alwaystransparent = yes
+            centerposition = yes
+            scale = 1.0
+        }
+        instantTextBoxType = {
+            name = "Name"
+            position = { x = 0 y = 9999} # position = { x = 0 y = 105 }
+            textureFile = ""
+            font = "hoi_16mbs"
+            borderSize = {x = 4 y = 4}
+            text = "Happy-Go-Lucky-Tank"
+            maxWidth = 200
+            maxHeight = 20
+            fixedsize = yes
+            format = left
+        }
+        
+        instantTextBoxType = {
+            name = "bonus"
+            position = { x = 0 y = 120 }
+            textureFile = ""
+            font = "hoi_16mbs"
+            borderSize = {x = 4 y = 4}
+            text = "lol boat"
+            maxWidth = 50
+            maxHeight = 20
+            format = center
+        }
+        
+        iconType = {
+            name = "bonus_icon"
+            position = { x=30 y=-9999 }
+            spriteType = "GFX_small_red_menu_button"
+        }
+        containerWindowType = {
+            name = "sub_technology_slot_0"
+            position = { x=141 y=1 }
+            size = { width = 35 height = 26 }
+            clipping = no
+            
+            background = {
+                name = "Background"
+                spriteType ="GFX_subtechnology_unavailable_item_bg"
+            }
+            
+            iconType = {
+                name = "picture"
+                position = { x=2 y=2 }
+                spriteType = "GFX_subtech_rocket"
+                alwaystransparent = yes
+            }
+        }    
+    }
+    
+    #---------------------------------------------------
+    # Aviation - Strategic Bomber
+    #---------------------------------------------------
+    containerWindowType = {
+        name = "techtree_air_strategic_bomber_folder_item"
+        position = { x=0 y=0 }
+        size = { width = 104 height = 104 }
+        clipping = no
+
+        background = {
+            name = "Background"
+            quadTextureSprite ="GFX_technology_available_item_bg"
+        }
+
+        iconType = {
+            name = "Icon"
+            position = { x=52 y=52 }
+            spriteType = "GFX_technology_medium"
+            alwaystransparent = yes
+            centerposition = yes
+            scale = 1.0
+        }
+        instantTextBoxType = {
+            name = "Name"
+            position = { x = 0 y = 9999} # position = { x = 0 y = 105 }
+            textureFile = ""
+            font = "hoi_16mbs"
+            borderSize = {x = 4 y = 4}
+            text = "Happy-Go-Lucky-Tank"
+            maxWidth = 200
+            maxHeight = 20
+            fixedsize = yes
+            format = left
+        }
+        
+        instantTextBoxType = {
+            name = "bonus"
+            position = { x = 0 y = 120 }
+            textureFile = ""
+            font = "hoi_16mbs"
+            borderSize = {x = 4 y = 4}
+            text = "lol boat"
+            maxWidth = 50
+            maxHeight = 20
+            format = center
+        }
+        
+        iconType = {
+            name = "bonus_icon"
+            position = { x=30 y=-9999 }
+            spriteType = "GFX_small_red_menu_button"
+        }
+        containerWindowType = {
+            name = "sub_technology_slot_0"
+            position = { x=141 y=1 }
+            size = { width = 35 height = 26 }
+            clipping = no
+            
+            background = {
+                name = "Background"
+                spriteType ="GFX_subtechnology_unavailable_item_bg"
+            }
+            
+            iconType = {
+                name = "picture"
+                position = { x=2 y=2 }
+                spriteType = "GFX_subtech_rocket"
+                alwaystransparent = yes
+            }
+        }    
+    }
+    
+    #---------------------------------------------------
+    # Aviation - Incursion Doctrine
+    #---------------------------------------------------
+    containerWindowType = {
+        name = "techtree_air_incursion_doctrine_folder_item"
+        position = { x=0 y=0 }
+        size = { width = 104 height = 104 }
+        clipping = no
+
+        background = {
+            name = "Background"
+            quadTextureSprite ="GFX_technology_available_item_bg"
+        }
+
+        iconType = {
+            name = "Icon"
+            position = { x=52 y=52 }
+            spriteType = "GFX_technology_medium"
+            alwaystransparent = yes
+            centerposition = yes
+            scale = 1.0
+        }
+        instantTextBoxType = {
+            name = "Name"
+            position = { x = 0 y = 9999} # position = { x = 0 y = 105 }
+            textureFile = ""
+            font = "hoi_16mbs"
+            borderSize = {x = 4 y = 4}
+            text = "Happy-Go-Lucky-Tank"
+            maxWidth = 200
+            maxHeight = 20
+            fixedsize = yes
+            format = left
+        }
+        
+        instantTextBoxType = {
+            name = "bonus"
+            position = { x = 0 y = 120 }
+            textureFile = ""
+            font = "hoi_16mbs"
+            borderSize = {x = 4 y = 4}
+            text = "lol boat"
+            maxWidth = 50
+            maxHeight = 20
+            format = center
+        }
+        
+        iconType = {
+            name = "bonus_icon"
+            position = { x=30 y=-9999 }
+            spriteType = "GFX_small_red_menu_button"
+        }
+        containerWindowType = {
+            name = "sub_technology_slot_0"
+            position = { x=141 y=1 }
+            size = { width = 35 height = 26 }
+            clipping = no
+            
+            background = {
+                name = "Background"
+                spriteType ="GFX_subtechnology_unavailable_item_bg"
+            }
+            
+            iconType = {
+                name = "picture"
+                position = { x=2 y=2 }
+                spriteType = "GFX_subtech_rocket"
+                alwaystransparent = yes
+            }
+        }    
+    }
+    
+    #---------------------------------------------------
+    # Aviation - Firestorm Doctrine
+    #---------------------------------------------------
+    containerWindowType = {
+        name = "techtree_air_firestorm_doctrine_folder_item"
+        position = { x=0 y=0 }
+        size = { width = 104 height = 104 }
+        clipping = no
+
+        background = {
+            name = "Background"
+            quadTextureSprite ="GFX_technology_available_item_bg"
+        }
+
+        iconType = {
+            name = "Icon"
+            position = { x=52 y=52 }
+            spriteType = "GFX_technology_medium"
+            alwaystransparent = yes
+            centerposition = yes
+            scale = 1.0
+        }
+        instantTextBoxType = {
+            name = "Name"
+            position = { x = 0 y = 9999} # position = { x = 0 y = 105 }
+            textureFile = ""
+            font = "hoi_16mbs"
+            borderSize = {x = 4 y = 4}
+            text = "Happy-Go-Lucky-Tank"
+            maxWidth = 200
+            maxHeight = 20
+            fixedsize = yes
+            format = left
+        }
+        
+        instantTextBoxType = {
+            name = "bonus"
+            position = { x = 0 y = 120 }
+            textureFile = ""
+            font = "hoi_16mbs"
+            borderSize = {x = 4 y = 4}
+            text = "lol boat"
+            maxWidth = 50
+            maxHeight = 20
+            format = center
+        }
+        
+        iconType = {
+            name = "bonus_icon"
+            position = { x=30 y=-9999 }
+            spriteType = "GFX_small_red_menu_button"
+        }
+        containerWindowType = {
+            name = "sub_technology_slot_0"
+            position = { x=141 y=1 }
+            size = { width = 35 height = 26 }
+            clipping = no
+            
+            background = {
+                name = "Background"
+                spriteType ="GFX_subtechnology_unavailable_item_bg"
+            }
+            
+            iconType = {
+                name = "picture"
+                position = { x=2 y=2 }
+                spriteType = "GFX_subtech_rocket"
+                alwaystransparent = yes
+            }
+        }    
+    }
+    
+    #---------------------------------------------------
+    # Economic - Industry
     #---------------------------------------------------
     containerWindowType = {
         name = "techtree_industry_folder_item"
         position = { x=0 y=0 }
-        size = { width = 90 height = 90 }
+        size = { width = 104 height = 104 }
         clipping = no
 
         background = {
@@ -1680,20 +4577,20 @@ guiTypes = {
 
         iconType = {
             name = "Icon"
-            position = { x=42 y=34 }
+            position = { x=52 y=52 }
             spriteType = "GFX_technology_medium"
             alwaystransparent = yes
             centerposition = yes
-            scale = 0.5
+            scale = 1.0
         }
         instantTextBoxType = {
             name = "Name"
-            position = { x = 0 y = -25 }
+            position = { x = 0 y = 9999} # position = { x = 0 y = 105 }
             textureFile = ""
             font = "hoi_16mbs"
             borderSize = {x = 4 y = 4}
             text = "Happy-Go-Lucky-Tank"
-            maxWidth = 100
+            maxWidth = 200
             maxHeight = 20
             fixedsize = yes
             format = left
@@ -1701,7 +4598,7 @@ guiTypes = {
         
         instantTextBoxType = {
             name = "bonus"
-            position = { x = 15 y = 42 }
+            position = { x = 0 y = 120 }
             textureFile = ""
             font = "hoi_16mbs"
             borderSize = {x = 4 y = 4}
@@ -1737,12 +4634,12 @@ guiTypes = {
     }
     
     #---------------------------------------------------
-    # RESOURCES
+    # Economic - Production
     #---------------------------------------------------
     containerWindowType = {
-        name = "techtree_resources_folder_item"
+        name = "techtree_production_folder_item"
         position = { x=0 y=0 }
-        size = { width = 90 height = 90 }
+        size = { width = 104 height = 104 }
         clipping = no
 
         background = {
@@ -1752,20 +4649,20 @@ guiTypes = {
 
         iconType = {
             name = "Icon"
-            position = { x=42 y=34 }
+            position = { x=52 y=52 }
             spriteType = "GFX_technology_medium"
             alwaystransparent = yes
             centerposition = yes
-            scale = 0.5
+            scale = 1.0
         }
         instantTextBoxType = {
             name = "Name"
-            position = { x = 0 y = -25 }
+            position = { x = 0 y = 9999} # position = { x = 0 y = 105 }
             textureFile = ""
             font = "hoi_16mbs"
             borderSize = {x = 4 y = 4}
             text = "Happy-Go-Lucky-Tank"
-            maxWidth = 100
+            maxWidth = 200
             maxHeight = 20
             fixedsize = yes
             format = left
@@ -1773,7 +4670,7 @@ guiTypes = {
         
         instantTextBoxType = {
             name = "bonus"
-            position = { x = 15 y = 42 }
+            position = { x = 0 y = 120 }
             textureFile = ""
             font = "hoi_16mbs"
             borderSize = {x = 4 y = 4}
@@ -1809,12 +4706,156 @@ guiTypes = {
     }
     
     #---------------------------------------------------
-    # STATECRAFT
+    # Economic - Extraction
+    #---------------------------------------------------
+    containerWindowType = {
+        name = "techtree_extraction_folder_item"
+        position = { x=0 y=0 }
+        size = { width = 104 height = 104 }
+        clipping = no
+
+        background = {
+            name = "Background"
+            quadTextureSprite ="GFX_technology_available_item_bg"
+        }
+
+        iconType = {
+            name = "Icon"
+            position = { x=52 y=52 }
+            spriteType = "GFX_technology_medium"
+            alwaystransparent = yes
+            centerposition = yes
+            scale = 1.0
+        }
+        instantTextBoxType = {
+            name = "Name"
+            position = { x = 0 y = 9999} # position = { x = 0 y = 105 }
+            textureFile = ""
+            font = "hoi_16mbs"
+            borderSize = {x = 4 y = 4}
+            text = "Happy-Go-Lucky-Tank"
+            maxWidth = 200
+            maxHeight = 20
+            fixedsize = yes
+            format = left
+        }
+        
+        instantTextBoxType = {
+            name = "bonus"
+            position = { x = 0 y = 120 }
+            textureFile = ""
+            font = "hoi_16mbs"
+            borderSize = {x = 4 y = 4}
+            text = "lol boat"
+            maxWidth = 50
+            maxHeight = 20
+            format = center
+        }
+        
+        iconType = {
+            name = "bonus_icon"
+            position = { x=30 y=-9999 }
+            spriteType = "GFX_small_red_menu_button"
+        }
+        containerWindowType = {
+            name = "sub_technology_slot_0"
+            position = { x=141 y=1 }
+            size = { width = 35 height = 26 }
+            clipping = no
+            
+            background = {
+                name = "Background"
+                spriteType ="GFX_subtechnology_unavailable_item_bg"
+            }
+            
+            iconType = {
+                name = "picture"
+                position = { x=2 y=2 }
+                spriteType = "GFX_subtech_rocket"
+                alwaystransparent = yes
+            }
+        }    
+    }
+    
+    #---------------------------------------------------
+    # Economic - Construction
+    #---------------------------------------------------
+    containerWindowType = {
+        name = "techtree_construction_folder_item"
+        position = { x=0 y=0 }
+        size = { width = 104 height = 104 }
+        clipping = no
+
+        background = {
+            name = "Background"
+            quadTextureSprite ="GFX_technology_available_item_bg"
+        }
+
+        iconType = {
+            name = "Icon"
+            position = { x=52 y=52 }
+            spriteType = "GFX_technology_medium"
+            alwaystransparent = yes
+            centerposition = yes
+            scale = 1.0
+        }
+        instantTextBoxType = {
+            name = "Name"
+            position = { x = 0 y = 9999} # position = { x = 0 y = 105 }
+            textureFile = ""
+            font = "hoi_16mbs"
+            borderSize = {x = 4 y = 4}
+            text = "Happy-Go-Lucky-Tank"
+            maxWidth = 200
+            maxHeight = 20
+            fixedsize = yes
+            format = left
+        }
+        
+        instantTextBoxType = {
+            name = "bonus"
+            position = { x = 0 y = 120 }
+            textureFile = ""
+            font = "hoi_16mbs"
+            borderSize = {x = 4 y = 4}
+            text = "lol boat"
+            maxWidth = 50
+            maxHeight = 20
+            format = center
+        }
+        
+        iconType = {
+            name = "bonus_icon"
+            position = { x=30 y=-9999 }
+            spriteType = "GFX_small_red_menu_button"
+        }
+        containerWindowType = {
+            name = "sub_technology_slot_0"
+            position = { x=141 y=1 }
+            size = { width = 35 height = 26 }
+            clipping = no
+            
+            background = {
+                name = "Background"
+                spriteType ="GFX_subtechnology_unavailable_item_bg"
+            }
+            
+            iconType = {
+                name = "picture"
+                position = { x=2 y=2 }
+                spriteType = "GFX_subtech_rocket"
+                alwaystransparent = yes
+            }
+        }    
+    }
+    
+    #---------------------------------------------------
+    # Nation - Statecraft
     #---------------------------------------------------
     containerWindowType = {
         name = "techtree_statecraft_folder_item"
         position = { x=0 y=0 }
-        size = { width = 90 height = 90 }
+        size = { width = 104 height = 104 }
         clipping = no
 
         background = {
@@ -1824,20 +4865,20 @@ guiTypes = {
 
         iconType = {
             name = "Icon"
-            position = { x=42 y=34 }
+            position = { x=52 y=52 }
             spriteType = "GFX_technology_medium"
             alwaystransparent = yes
             centerposition = yes
-            scale = 0.5
+            scale = 1.0
         }
         instantTextBoxType = {
             name = "Name"
-            position = { x = 0 y = -25 }
+            position = { x = 0 y = 9999} # position = { x = 0 y = 105 }
             textureFile = ""
             font = "hoi_16mbs"
             borderSize = {x = 4 y = 4}
             text = "Happy-Go-Lucky-Tank"
-            maxWidth = 100
+            maxWidth = 200
             maxHeight = 20
             fixedsize = yes
             format = left
@@ -1845,7 +4886,7 @@ guiTypes = {
         
         instantTextBoxType = {
             name = "bonus"
-            position = { x = 15 y = 42 }
+            position = { x = 0 y = 120 }
             textureFile = ""
             font = "hoi_16mbs"
             borderSize = {x = 4 y = 4}
@@ -1881,12 +4922,12 @@ guiTypes = {
     }
     
     #---------------------------------------------------
-    # Land doctrine
+    # Nation - Diplomacy
     #---------------------------------------------------
     containerWindowType = {
-        name = "techtree_land_doctrine_folder_item"
+        name = "techtree_diplomacy_folder_item"
         position = { x=0 y=0 }
-        size = { width = 90 height = 90 }
+        size = { width = 104 height = 104 }
         clipping = no
 
         background = {
@@ -1896,20 +4937,20 @@ guiTypes = {
 
         iconType = {
             name = "Icon"
-            position = { x=42 y=34 }
+            position = { x=52 y=52 }
             spriteType = "GFX_technology_medium"
             alwaystransparent = yes
             centerposition = yes
-            scale = 0.5
+            scale = 1.0
         }
         instantTextBoxType = {
             name = "Name"
-            position = { x = 0 y = -25 }
+            position = { x = 0 y = 9999} # position = { x = 0 y = 105 }
             textureFile = ""
             font = "hoi_16mbs"
             borderSize = {x = 4 y = 4}
             text = "Happy-Go-Lucky-Tank"
-            maxWidth = 100
+            maxWidth = 200
             maxHeight = 20
             fixedsize = yes
             format = left
@@ -1917,7 +4958,7 @@ guiTypes = {
         
         instantTextBoxType = {
             name = "bonus"
-            position = { x = 15 y = 42 }
+            position = { x = 0 y = 120 }
             textureFile = ""
             font = "hoi_16mbs"
             borderSize = {x = 4 y = 4}
@@ -1951,151 +4992,6 @@ guiTypes = {
             }
         }    
     }
-    
-    #---------------------------------------------------
-    # Air doctrine
-    #---------------------------------------------------
-    containerWindowType = {
-        name = "techtree_air_doctrine_folder_item"
-        position = { x=0 y=0 }
-        size = { width = 90 height = 90 }
-        clipping = no
-
-        background = {
-            name = "Background"
-            quadTextureSprite ="GFX_technology_available_item_bg"
-        }
-
-        iconType = {
-            name = "Icon"
-            position = { x=42 y=34 }
-            spriteType = "GFX_technology_medium"
-            alwaystransparent = yes
-            centerposition = yes
-            scale = 0.5
-        }
-        instantTextBoxType = {
-            name = "Name"
-            position = { x = 0 y = -25 }
-            textureFile = ""
-            font = "hoi_16mbs"
-            borderSize = {x = 4 y = 4}
-            text = "Happy-Go-Lucky-Tank"
-            maxWidth = 100
-            maxHeight = 20
-            fixedsize = yes
-            format = left
-        }
-        
-        instantTextBoxType = {
-            name = "bonus"
-            position = { x = 15 y = 42 }
-            textureFile = ""
-            font = "hoi_16mbs"
-            borderSize = {x = 4 y = 4}
-            text = "lol boat"
-            maxWidth = 50
-            maxHeight = 20
-            format = center
-        }
-        
-        iconType = {
-            name = "bonus_icon"
-            position = { x=30 y=-9999 }
-            spriteType = "GFX_small_red_menu_button"
-        }
-        containerWindowType = {
-            name = "sub_technology_slot_0"
-            position = { x=141 y=1 }
-            size = { width = 35 height = 26 }
-            clipping = no
-            
-            background = {
-                name = "Background"
-                spriteType ="GFX_subtechnology_unavailable_item_bg"
-            }
-            
-            iconType = {
-                name = "picture"
-                position = { x=2 y=2 }
-                spriteType = "GFX_subtech_rocket"
-                alwaystransparent = yes
-            }
-        }    
-    }
-
-    #---------------------------------------------------
-    # Naval doctrine
-    #---------------------------------------------------
-    containerWindowType = {
-        name = "techtree_naval_doctrine_folder_item"
-        position = { x=0 y=0 }
-        size = { width = 90 height = 90 }
-        clipping = no
-
-        background = {
-            name = "Background"
-            quadTextureSprite ="GFX_technology_available_item_bg"
-        }
-
-        iconType = {
-            name = "Icon"
-            position = { x=42 y=34 }
-            spriteType = "GFX_technology_medium"
-            alwaystransparent = yes
-            centerposition = yes
-            scale = 0.5
-        }
-        instantTextBoxType = {
-            name = "Name"
-            position = { x = 0 y = -25 }
-            textureFile = ""
-            font = "hoi_16mbs"
-            borderSize = {x = 4 y = 4}
-            text = "Happy-Go-Lucky-Tank"
-            maxWidth = 100
-            maxHeight = 20
-            fixedsize = yes
-            format = left
-        }
-        
-        instantTextBoxType = {
-            name = "bonus"
-            position = { x = 15 y = 42 }
-            textureFile = ""
-            font = "hoi_16mbs"
-            borderSize = {x = 4 y = 4}
-            text = "lol boat"
-            maxWidth = 50
-            maxHeight = 20
-            format = center
-        }
-        
-        iconType = {
-            name = "bonus_icon"
-            position = { x=30 y=-9999 }
-            spriteType = "GFX_small_red_menu_button"
-        }
-        containerWindowType = {
-            name = "sub_technology_slot_0"
-            position = { x=141 y=1 }
-            size = { width = 35 height = 26 }
-            clipping = no
-            
-            background = {
-                name = "Background"
-                spriteType ="GFX_subtechnology_unavailable_item_bg"
-            }
-            
-            iconType = {
-                name = "picture"
-                position = { x=2 y=2 }
-                spriteType = "GFX_subtech_rocket"
-                alwaystransparent = yes
-            }
-        }    
-    }
-    
     
     #---------------------------------------------------
     #---------------------------------------------------
@@ -2127,7 +5023,7 @@ guiTypes = {
 
         iconType = {
             name = "Up"
-            position = { x=27 y=0 }
+            position = { x=92 y=9999 }
             spriteType = "GFX_techtree_line_up_states"
             alwaystransparent = yes
             frame = 1
@@ -2135,7 +5031,7 @@ guiTypes = {
 
         iconType = {
             name = "Down"
-            position = { x=27 y=35 }
+            position = { x=92 y=9999 }
             spriteType = "GFX_techtree_line_down_states"
             alwaystransparent = yes
             frame = 1
@@ -2143,7 +5039,7 @@ guiTypes = {
 
         iconType = {
             name = "Left"
-            position = { x=0 y=27 }
+            position = { x=65 y=9999 }
             spriteType = "GFX_techtree_line_left_states"
             alwaystransparent = yes
             frame = 1
@@ -2151,7 +5047,7 @@ guiTypes = {
 
         iconType = {
             name = "Right"
-            position = { x=35 y=27 }
+            position = { x=100 y=9999 }
             spriteType = "GFX_techtree_line_right_states"
             alwaystransparent = yes
             frame = 1
@@ -2159,7 +5055,7 @@ guiTypes = {
         
         iconType = {
             name = "Center"
-            position = { x=27 y=27 }
+            position = { x=92 y=9999 }
             spriteType = "GFX_techline_center_all_states"
             alwaystransparent = yes
             frame = 1
@@ -2204,6 +5100,7 @@ guiTypes = {
             position = { x = 140 y = 27 }
             spriteType = "GFX_sub_tech_strip_w_bg"
             frame = 1
+            scale = 0.5
         }
         
         iconType = {

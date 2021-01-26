@@ -1,6 +1,30 @@
 RAM = {
+    operative = {
+		male = {
+			"gfx/leaders/TOLVIR/tolvir_1.dds"
+			"gfx/leaders/TOLVIR/tolvir_2.dds"
+            "gfx/leaders/TOLVIR/tolvir_3.dds"
+            "gfx/leaders/TOLVIR/tolvir_4.dds"
+            "gfx/leaders/TOLVIR/tolvir_5.dds"
+		}
+        female = {
+			"gfx/leaders/TOLVIR/tolvir_1.dds"
+			"gfx/leaders/TOLVIR/tolvir_2.dds"
+            "gfx/leaders/TOLVIR/tolvir_3.dds"
+            "gfx/leaders/TOLVIR/tolvir_4.dds"
+            "gfx/leaders/TOLVIR/tolvir_5.dds"
+		}
+	}
+    
 	army = {
 		male = {
+			"gfx/leaders/TOLVIR/tolvir_1.dds"
+			"gfx/leaders/TOLVIR/tolvir_2.dds"
+            "gfx/leaders/TOLVIR/tolvir_3.dds"
+            "gfx/leaders/TOLVIR/tolvir_4.dds"
+            "gfx/leaders/TOLVIR/tolvir_5.dds"
+		}
+        female = {
 			"gfx/leaders/TOLVIR/tolvir_1.dds"
 			"gfx/leaders/TOLVIR/tolvir_2.dds"
             "gfx/leaders/TOLVIR/tolvir_3.dds"
@@ -11,6 +35,13 @@ RAM = {
 
 	navy = {
 		male = {
+			"gfx/leaders/TOLVIR/tolvir_1.dds"
+			"gfx/leaders/TOLVIR/tolvir_2.dds"
+            "gfx/leaders/TOLVIR/tolvir_3.dds"
+            "gfx/leaders/TOLVIR/tolvir_4.dds"
+            "gfx/leaders/TOLVIR/tolvir_5.dds"
+		}
+        female = {
 			"gfx/leaders/TOLVIR/tolvir_1.dds"
 			"gfx/leaders/TOLVIR/tolvir_2.dds"
             "gfx/leaders/TOLVIR/tolvir_3.dds"
@@ -28,9 +59,23 @@ RAM = {
                 "gfx/leaders/TOLVIR/tolvir_4.dds"
                 "gfx/leaders/TOLVIR/tolvir_5.dds"
             }
+            female = {
+                "gfx/leaders/TOLVIR/tolvir_1.dds"
+                "gfx/leaders/TOLVIR/tolvir_2.dds"
+                "gfx/leaders/TOLVIR/tolvir_3.dds"
+                "gfx/leaders/TOLVIR/tolvir_4.dds"
+                "gfx/leaders/TOLVIR/tolvir_5.dds"
+            }
 		}
 		shadow = {
 			male = {
+                "gfx/leaders/TOLVIR/tolvir_1.dds"
+                "gfx/leaders/TOLVIR/tolvir_2.dds"
+                "gfx/leaders/TOLVIR/tolvir_3.dds"
+                "gfx/leaders/TOLVIR/tolvir_4.dds"
+                "gfx/leaders/TOLVIR/tolvir_5.dds"
+            }
+            female = {
                 "gfx/leaders/TOLVIR/tolvir_1.dds"
                 "gfx/leaders/TOLVIR/tolvir_2.dds"
                 "gfx/leaders/TOLVIR/tolvir_3.dds"
@@ -46,9 +91,23 @@ RAM = {
                 "gfx/leaders/TOLVIR/tolvir_4.dds"
                 "gfx/leaders/TOLVIR/tolvir_5.dds"
             }
+            female = {
+                "gfx/leaders/TOLVIR/tolvir_1.dds"
+                "gfx/leaders/TOLVIR/tolvir_2.dds"
+                "gfx/leaders/TOLVIR/tolvir_3.dds"
+                "gfx/leaders/TOLVIR/tolvir_4.dds"
+                "gfx/leaders/TOLVIR/tolvir_5.dds"
+            }
 		}
         disorder = {
 			male = {
+                "gfx/leaders/TOLVIR/tolvir_1.dds"
+                "gfx/leaders/TOLVIR/tolvir_2.dds"
+                "gfx/leaders/TOLVIR/tolvir_3.dds"
+                "gfx/leaders/TOLVIR/tolvir_4.dds"
+                "gfx/leaders/TOLVIR/tolvir_5.dds"
+            }
+            female = {
                 "gfx/leaders/TOLVIR/tolvir_1.dds"
                 "gfx/leaders/TOLVIR/tolvir_2.dds"
                 "gfx/leaders/TOLVIR/tolvir_3.dds"
@@ -64,6 +123,13 @@ RAM = {
                 "gfx/leaders/TOLVIR/tolvir_4.dds"
                 "gfx/leaders/TOLVIR/tolvir_5.dds"
             }
+            female = {
+                "gfx/leaders/TOLVIR/tolvir_1.dds"
+                "gfx/leaders/TOLVIR/tolvir_2.dds"
+                "gfx/leaders/TOLVIR/tolvir_3.dds"
+                "gfx/leaders/TOLVIR/tolvir_4.dds"
+                "gfx/leaders/TOLVIR/tolvir_5.dds"
+            }
 		}
         death = {
 			male = {
@@ -73,9 +139,23 @@ RAM = {
                 "gfx/leaders/TOLVIR/tolvir_4.dds"
                 "gfx/leaders/TOLVIR/tolvir_5.dds"
             }
+            female = {
+                "gfx/leaders/TOLVIR/tolvir_1.dds"
+                "gfx/leaders/TOLVIR/tolvir_2.dds"
+                "gfx/leaders/TOLVIR/tolvir_3.dds"
+                "gfx/leaders/TOLVIR/tolvir_4.dds"
+                "gfx/leaders/TOLVIR/tolvir_5.dds"
+            }
 		}
         unaligned = {
 			male = {
+                "gfx/leaders/TOLVIR/tolvir_1.dds"
+                "gfx/leaders/TOLVIR/tolvir_2.dds"
+                "gfx/leaders/TOLVIR/tolvir_3.dds"
+                "gfx/leaders/TOLVIR/tolvir_4.dds"
+                "gfx/leaders/TOLVIR/tolvir_5.dds"
+            }
+            female = {
                 "gfx/leaders/TOLVIR/tolvir_1.dds"
                 "gfx/leaders/TOLVIR/tolvir_2.dds"
                 "gfx/leaders/TOLVIR/tolvir_3.dds"

@@ -3,14 +3,14 @@
 #---------------------------------------------
 Land units should always include the following:
 
-manpower = <int>
-max_strength = <int>
-training_time = <int>
-weight = <float>
-default_morale = <float>
-max_organisation = <int>    
-combat_width = <int>        
-supply_consumption = <float>
+manpower = <int>                
+max_strength = <int>            
+training_time = <int>           
+weight = <float>                
+default_morale = <float>        
+max_organisation = <int>        
+combat_width = <int>            
+supply_consumption = <float>    
 
 Air units should always include the following:
 
@@ -21,104 +21,247 @@ Naval units should always include the following:
 max_organisation = <int>
 supply_consumption = <float>
 
+In the unit/equipment definitions, the modifiers act as base values in most cases, whereas usage elsewhere is mostly additive/multiplicate.
+
 #---------------------------------------------
 # Base
 #---------------------------------------------
-max_organisation = 20           # Organisation indicates combat readiness and how organized a unit is. 
-                                # Units with no organisation can't fight or move effectively.
-reliability = 0.9               # Reliability controls how often equipment will suffer random failures.
-weight = 0.1                    # Weight controls how many transports a unit needs to embark.
-maximum_speed = 0.5             # Maximum speed acts as a "bonus" mulitipler to the speed determined by the unit equipment in km/h. 
-                                # The formula for the calculated speed is 
-                                # <base speed> * (1 + maximum_speed)km/h; thus a maximum_speed
-                                # of 0.5 gives a movement speed 50% faster, a maximum_speed of 2 equals 200% faster, etc.
-supply_consumption = 0.02       # Supply consumption determmines how much supply a unit consumes per day
-default_morale = 0.3            # Default morale determines how much extra organisation can be regained 
-                                # hourly when not in combat
-combat_width = 0.5              # Combat width determines how much this unit contributes to overall combat width.
+max_organisation = 5           
+# Additive
+# Organisation indicates combat readiness and how organized a unit is. 
+# Units with no organisation can't fight or move effectively.
+
+reliability = 0.1        
+# Multiplicative     
+# Reliability controls how often equipment will suffer random failures.
+
+weight = 0.1                    
+# Multiplicative     
+# Weight controls how many transports a unit needs to embark.
+
+maximum_speed = 0.1            
+# Multiplicative  
+# Maximum speed acts as a "bonus" mulitipler to the speed determined by the unit equipment in km/h. 
+# The formula for the calculated speed is 
+# <base speed> * (1 + maximum_speed)km/h; thus a maximum_speed
+# of 0.5 gives a movement speed 50% faster, a maximum_speed of 2 equals 200% faster, etc.
+
+supply_consumption = 0.01
+# Multiplicative      
+# Supply consumption determmines how much supply a unit consumes per day
+
+default_morale = 0.5            
+# Additive
+# Default morale determines how much extra organisation can be regained hourly when not in combat
+
+combat_width = 1            
+# Additive
+# Combat width determines how much this unit contributes to overall combat width.
 
 #---------------------------------------------
 # Costs
 #---------------------------------------------
-lend_lease_cost = 1             # Space taken up in convoy
-build_cost_ic = 0.4             # Production Cost - How much factory output this piece of equipment needs
-manpower = 300                  # Manpower - Cost in manpower to produce
-training_time = 120             # Training time - Time in days to train this unit
+lend_lease_cost = 0.1          
+# Cannot be used as modifier
+# Lead lease cost
+
+build_cost_ic = 0.1           
+# Multiplicative
+# Production Cost - How much factory output this piece of equipment needs
+
+manpower = 300                  
+# Cannot be used as modifier
+# Manpower - Cost in manpower to produce
+
+training_time = 120             
+# Cannot be used as modifier
+# Training time - Time in days to train this unit
 
 #---------------------------------------------
 # Offensive
 #---------------------------------------------
-attack = 0.1                    # Firepower - Amount of damage done per attack
-soft_attack = -0.1              # Soft Attack - How many attacks the unit can make versus enemies with low hardness
-hard_attack = -0.5              # Hard Attack - How many attacks the unit can make versus enemies with high hardness
-air_attack = 1                  # Air Attack - How much damage we can do against airplanes. 
-                                # High Air Attack also helps to counter enemy Air Superiority effects
-ap_attack = 1                   # Piercing - Having equal or greater Piercing to the targets Armor value allows you to do more damage.
-breakthrough = 0.5              # Breakthrough - How many enemy attacks a unit can attempt to avoid while 
-                                # on the offensive, effectively allowing it to stay on the offense longer.
+attack = 0.1   
+# Cannot be used as modifier                 
+# Firepower - Amount of damage done per attack
+
+soft_attack = 0.1           
+# Multiplicative
+# Soft Attack - How many attacks the unit can make versus enemies with low hardness
+
+hard_attack = 0.1
+# Multiplicative         
+# Hard Attack - How many attacks the unit can make versus enemies with high hardness
+
+air_attack = 0.1
+# Multiplicative                  
+# Air Attack - How much damage we can do against airplanes. 
+# High Air Attack also helps to counter enemy Air Superiority effects
+
+ap_attack = 0.1      
+# Multiplicative              
+# Piercing - Having equal or greater Piercing to the targets Armor value allows you to do more damage.
+
+breakthrough = 0.5    
+# Multiplicative            
+# Breakthrough - How many enemy attacks a unit can attempt to avoid while on the offensive, effectively allowing it to stay on the offense longer.
                                 
 #---------------------------------------------
 # Defensive
 #---------------------------------------------
-defense = 0.1                   # Defense - How many enemy attacks a unit can avoid whilst on the defensive, 
-                                # effectively allowing it to stay on the defensive longer.
-max_strength = 2                # HP - Strength represents how much damage this unit can suffer before it is destroyed
-armor_value = 0                 # Armor - Armor that is higher than the opponents Piercing value reduces damage taken 
-                                # and allows more attacks to occur
-hardness = 0.5                  # Hardness - Represents how much of your divsion is made up of armoured vehicles. 
-                                # High Hardness = High Hard Attacks, Low Soft Attack
-entrenchment = 5                # Entrenchment - The ability to make proper defensive entrenchments before a hostile attack
+defense = 0.1         
+# Multiplicative  
+# Defense - How many enemy attacks a unit can avoid whilst on the defensive, effectively allowing it to stay on the defensive longer.
+                                
+max_strength = 2  
+# Multiplicative           
+# HP - Strength represents how much damage this unit can suffer before it is destroyed
+
+armor_value = 0     
+# Multiplicative  
+# Armor - Armor that is higher than the opponents Piercing value reduces damage taken and allows more attacks to occur
+
+hardness = 0.5
+# Multiplicative                    
+# Hardness - Represents how much of your divsion is made up of armoured vehicles. 
+# High Hardness = High Hard Attacks, Low Soft Attack
+
+entrenchment = 5                
+# Additive
+# Entrenchment - The ability to make proper defensive entrenchments before a hostile attack
 
 #---------------------------------------------
 # Unique
 #---------------------------------------------
-movement = 0.1                  # Movement - Changes the unit's speed
-experience_loss_factor = 0.1    # Exp. Loss - How much experience is lost in a division when they take casualities and have to replace them
-casualty_trickleback = 0.2      # Trickleback - The proportion of losses in combat that can be saved and returned to the manpower pool
-suppression_factor = 0.1        # Suppression bonus - Ability to supress local resistance
-reliability_factor = 0.05       # Reliability - Applies to an equipment type's reliability and reduces the chance of breakdowns and accidents
-recon = 1                       # Reconnaissance - Increases the chance that this unit can pick better tactics in battle
-initiative = 0.2                # Initiative - The higher the initiative, the quicker it can reinforce into battle, and the quick is completes its planning
+movement = 0.1    
+# Cannot be used as modifier                 
+# Movement - Changes the unit's speed
+
+experience_loss_factor = 0.1    
+# Multiplicative 
+# Exp. Loss - How much experience is lost in a division when they take casualities and have to replace them
+
+casualty_trickleback = 0.2      
+# Multiplicative 
+# Trickleback - The proportion of losses in combat that can be saved and returned to the manpower pool
+
+suppression_factor = 0.1      
+# Multiplicative 
+# Suppression bonus - Ability to supress local resistance
+
+reliability_factor = 0.05       
+# Multiplicative 
+# Reliability - Applies to an equipment type's reliability and reduces the chance of breakdowns and accidents
+
+recon = 1                       
+# Additive
+# Reconnaissance - Increases the chance that this unit can pick better tactics in battle
+
+initiative = 0.2                
+# Multiplicative 
+# Initiative - The higher the initiative, the quicker it can reinforce into battle, and the quick is completes its planning
 
 #---------------------------------------------
 # Boolean
 #---------------------------------------------
-can_be_parachuted = yes         # May be parachuted into battle
-can_license = yes               # Can be licesed
-is_convertable = yes            # Can be converted
-carrier_capable = yes           # Is usable in carriers (air only)
+can_be_parachuted = yes 
+# Cannot be used as modifier            
+# May be parachuted into battle
+
+can_license = yes     
+# Cannot be used as modifier              
+# Can be licesed
+
+is_convertable = yes 
+# Cannot be used as modifier              
+# Can be converted
+
+carrier_capable = yes         
+# Cannot be used as modifier      
+# Is usable in carriers (air only)
 
 #---------------------------------------------
 # Navy-specific
 #---------------------------------------------
-naval_speed = 28                        # Max Speed - maximum speed in kilometres per hour of the ship, higher means faster in combat too
-fire_range = 32                         # Fire Range - The range of the ship's main guns
-torpedo_attack = 1                      # Torpedo attack - How much damage we can do when using the ship's torpedos
-anti_air_attack = 5                     # Anti-air - How much anti-air firepower the ship carries for shooting down enemy planes
-shore_bombardment = 8                   # Shore Bombard - A unit's ability to do shore bombardment to help out in 
-                                        # land battles neighbouring its sea province when on Hold mission
-evasion = 15                            # Evasion - Ability for ships to evade enemy fire through maneuvering. 
-                                        # Evasion is checked against enemy evasion, so high evasion improves hits against high evasion targets
-surface_detection = 12                  # Surface detection - Ability to detect surface vessels
-sub_detection = 5                       # Sub detection - Ability to detect submarines
-surface_visibility = 25                 # Surface Visibility - How hard to find this ship is
-sub_visibility = 20                     # Sub Visibility - How easy it is to detect this submarine
-naval_range = 3000                      # Naval Range - max distance in kilometres the ship can travel from it's nearest Naval Base
-port_capacity_usage = 1                 # Port capacity usage - How much room the ship requires in port
+naval_speed = 28         
+# Multiplicative                    
+# Max Speed - maximum speed in kilometres per hour of the ship, higher means faster in combat too
+
+fire_range = 32                         
+# Cannot be used as modifier 
+# Fire Range - The range of the ship's main guns
+
+torpedo_attack = 1                      
+# Multiplicative   
+# Torpedo attack - How much damage we can do when using the ship's torpedos
+
+anti_air_attack = 5                     
+# Multiplicative   
+# Anti-air - How much anti-air firepower the ship carries for shooting down enemy planes
+
+surface_detection = 12                  
+# Multiplicative   
+# Surface detection - Ability to detect surface vessels
+
+sub_detection = 5                       
+# Multiplicative   
+# Sub detection - Ability to detect submarines
+
+surface_visibility = -0.1                 
+# Multiplicative
+# Surface Visibility - How hard to find this ship is
+
+sub_visibility = -0.1                     
+# Multiplicative
+# Sub Visibility - How easy it is to detect this submarine
+
+naval_range = 3000                      
+# Multiplicative
+# Naval Range - max distance in kilometres the ship can travel from it's nearest Naval Base
+
 search_and_destroy_coordination = 0.1
+# Multiplicative
+# Modifier to Search and Destroy mission efficiency
+
 convoy_raiding_coordination = 0.1
+# Multiplicative
+# Modifier to Convoy Raiding mission efficiency
+
+carrier_size = 0.05
+# Multiplicative
+# Naval Deck Size: number of flying units can be fit on board.
 
 #---------------------------------------------
 # Air-specific
 #---------------------------------------------
-air_attack = 50                         # Air Attack - amount of damage done against other planes
-air_defence = 50                        # Air Defence - how many hits a plane takes before being shot down
-air_range = 500                         # Range - How far away missions the plane can perform
-air_agility = 10                        # Agility - How agile a plane is. Agility effects how easy it is to 
-                                        # hit another plane, and avoid being hit
-air_bombing = 300                       # Strategic Bombing - how good the plane is at bombing
-air_superiority = 1                     # Air Superiority - How much the plane helps the overall air superiority of a strategic area
-naval_strike_attack = 1.5               # Naval Attack - how much damage the plane does against ships
-naval_strike_targetting = 0.5           # Naval Targeting - how likely the plane is to hit a ship
-carrier_size = 0.05
-default_carrier_composition_weight = 1
+air_attack = 50                         
+# Multiplicative
+# Air Attack - amount of damage done against other planes
+
+air_defence = 50                        
+# Multiplicative
+# Air Defence - how many hits a plane takes before being shot down
+
+air_range = 500                         
+# Multiplicative
+# Range - How far away missions the plane can perform
+
+air_agility = 10                        
+# Multiplicative
+# Agility - How agile a plane is. Agility effects how easy it is to hit another plane, and avoid being hit
+
+air_bombing = 300                       
+# Multiplicative
+# Strategic Bombing - how good the plane is at bombing
+
+air_superiority = 1                     
+# Multiplicative
+# Air Superiority - How much the plane helps the overall air superiority of a strategic area
+
+naval_strike_attack = 1.5               
+# Multiplicative
+# Naval Attack - how much damage the plane does against ships
+
+naval_strike_targetting = 0.5           
+# Multiplicative
+# Naval Targeting - how likely the plane is to hit a ship
+

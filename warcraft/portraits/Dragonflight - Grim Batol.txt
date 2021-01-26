@@ -1,4 +1,13 @@
 GMB = {
+    operative = {
+		male = {
+			"gfx/leaders/DRAGONFLIGHT/red_dragon.dds"
+		}
+        female = {
+			"gfx/leaders/DRAGONFLIGHT/red_dragon.dds"
+		}
+	}
+    
 	army = {
 		male = {
 			"gfx/leaders/DRAGONFLIGHT/red_dragon.dds"

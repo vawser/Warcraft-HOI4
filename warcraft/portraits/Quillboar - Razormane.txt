@@ -1,6 +1,45 @@
 RAZ = {
+    operative = {
+		male = {
+			"gfx/leaders/QUILLBOAR/quillboar_1.dds"
+			"gfx/leaders/QUILLBOAR/quillboar_2.dds"
+			"gfx/leaders/QUILLBOAR/quillboar_3.dds"
+			"gfx/leaders/QUILLBOAR/quillboar_4.dds"
+			"gfx/leaders/QUILLBOAR/quillboar_5.dds"
+			"gfx/leaders/QUILLBOAR/quillboar_6.dds"
+			"gfx/leaders/QUILLBOAR/quillboar_7.dds"
+			"gfx/leaders/QUILLBOAR/quillboar_8.dds"
+			"gfx/leaders/QUILLBOAR/quillboar_9.dds"
+			"gfx/leaders/QUILLBOAR/quillboar_10.dds"
+		}
+        female = {
+			"gfx/leaders/QUILLBOAR/quillboar_1.dds"
+			"gfx/leaders/QUILLBOAR/quillboar_2.dds"
+			"gfx/leaders/QUILLBOAR/quillboar_3.dds"
+			"gfx/leaders/QUILLBOAR/quillboar_4.dds"
+			"gfx/leaders/QUILLBOAR/quillboar_5.dds"
+			"gfx/leaders/QUILLBOAR/quillboar_6.dds"
+			"gfx/leaders/QUILLBOAR/quillboar_7.dds"
+			"gfx/leaders/QUILLBOAR/quillboar_8.dds"
+			"gfx/leaders/QUILLBOAR/quillboar_9.dds"
+			"gfx/leaders/QUILLBOAR/quillboar_10.dds"
+		}
+	}
+    
 	army = {
 		male = {
+			"gfx/leaders/QUILLBOAR/quillboar_1.dds"
+			"gfx/leaders/QUILLBOAR/quillboar_2.dds"
+			"gfx/leaders/QUILLBOAR/quillboar_3.dds"
+			"gfx/leaders/QUILLBOAR/quillboar_4.dds"
+			"gfx/leaders/QUILLBOAR/quillboar_5.dds"
+			"gfx/leaders/QUILLBOAR/quillboar_6.dds"
+			"gfx/leaders/QUILLBOAR/quillboar_7.dds"
+			"gfx/leaders/QUILLBOAR/quillboar_8.dds"
+			"gfx/leaders/QUILLBOAR/quillboar_9.dds"
+			"gfx/leaders/QUILLBOAR/quillboar_10.dds"
+		}
+        female = {
 			"gfx/leaders/QUILLBOAR/quillboar_1.dds"
 			"gfx/leaders/QUILLBOAR/quillboar_2.dds"
 			"gfx/leaders/QUILLBOAR/quillboar_3.dds"
@@ -16,6 +55,18 @@ RAZ = {
 
 	navy = {
 		male = {
+			"gfx/leaders/QUILLBOAR/quillboar_1.dds"
+			"gfx/leaders/QUILLBOAR/quillboar_2.dds"
+			"gfx/leaders/QUILLBOAR/quillboar_3.dds"
+			"gfx/leaders/QUILLBOAR/quillboar_4.dds"
+			"gfx/leaders/QUILLBOAR/quillboar_5.dds"
+			"gfx/leaders/QUILLBOAR/quillboar_6.dds"
+			"gfx/leaders/QUILLBOAR/quillboar_7.dds"
+			"gfx/leaders/QUILLBOAR/quillboar_8.dds"
+			"gfx/leaders/QUILLBOAR/quillboar_9.dds"
+			"gfx/leaders/QUILLBOAR/quillboar_10.dds"
+		}
+        female = {
 			"gfx/leaders/QUILLBOAR/quillboar_1.dds"
 			"gfx/leaders/QUILLBOAR/quillboar_2.dds"
 			"gfx/leaders/QUILLBOAR/quillboar_3.dds"
@@ -43,9 +94,33 @@ RAZ = {
                 "gfx/leaders/QUILLBOAR/quillboar_9.dds"
                 "gfx/leaders/QUILLBOAR/quillboar_10.dds"
             }
+            female = {
+                "gfx/leaders/QUILLBOAR/quillboar_1.dds"
+                "gfx/leaders/QUILLBOAR/quillboar_2.dds"
+                "gfx/leaders/QUILLBOAR/quillboar_3.dds"
+                "gfx/leaders/QUILLBOAR/quillboar_4.dds"
+                "gfx/leaders/QUILLBOAR/quillboar_5.dds"
+                "gfx/leaders/QUILLBOAR/quillboar_6.dds"
+                "gfx/leaders/QUILLBOAR/quillboar_7.dds"
+                "gfx/leaders/QUILLBOAR/quillboar_8.dds"
+                "gfx/leaders/QUILLBOAR/quillboar_9.dds"
+                "gfx/leaders/QUILLBOAR/quillboar_10.dds"
+            }
 		}
 		shadow = {
 			male = {
+                "gfx/leaders/QUILLBOAR/quillboar_1.dds"
+                "gfx/leaders/QUILLBOAR/quillboar_2.dds"
+                "gfx/leaders/QUILLBOAR/quillboar_3.dds"
+                "gfx/leaders/QUILLBOAR/quillboar_4.dds"
+                "gfx/leaders/QUILLBOAR/quillboar_5.dds"
+                "gfx/leaders/QUILLBOAR/quillboar_6.dds"
+                "gfx/leaders/QUILLBOAR/quillboar_7.dds"
+                "gfx/leaders/QUILLBOAR/quillboar_8.dds"
+                "gfx/leaders/QUILLBOAR/quillboar_9.dds"
+                "gfx/leaders/QUILLBOAR/quillboar_10.dds"
+            }
+            female = {
                 "gfx/leaders/QUILLBOAR/quillboar_1.dds"
                 "gfx/leaders/QUILLBOAR/quillboar_2.dds"
                 "gfx/leaders/QUILLBOAR/quillboar_3.dds"
@@ -71,9 +146,33 @@ RAZ = {
                 "gfx/leaders/QUILLBOAR/quillboar_9.dds"
                 "gfx/leaders/QUILLBOAR/quillboar_10.dds"
             }
+            female = {
+                "gfx/leaders/QUILLBOAR/quillboar_1.dds"
+                "gfx/leaders/QUILLBOAR/quillboar_2.dds"
+                "gfx/leaders/QUILLBOAR/quillboar_3.dds"
+                "gfx/leaders/QUILLBOAR/quillboar_4.dds"
+                "gfx/leaders/QUILLBOAR/quillboar_5.dds"
+                "gfx/leaders/QUILLBOAR/quillboar_6.dds"
+                "gfx/leaders/QUILLBOAR/quillboar_7.dds"
+                "gfx/leaders/QUILLBOAR/quillboar_8.dds"
+                "gfx/leaders/QUILLBOAR/quillboar_9.dds"
+                "gfx/leaders/QUILLBOAR/quillboar_10.dds"
+            }
 		}
         disorder = {
 			male = {
+                "gfx/leaders/QUILLBOAR/quillboar_1.dds"
+                "gfx/leaders/QUILLBOAR/quillboar_2.dds"
+                "gfx/leaders/QUILLBOAR/quillboar_3.dds"
+                "gfx/leaders/QUILLBOAR/quillboar_4.dds"
+                "gfx/leaders/QUILLBOAR/quillboar_5.dds"
+                "gfx/leaders/QUILLBOAR/quillboar_6.dds"
+                "gfx/leaders/QUILLBOAR/quillboar_7.dds"
+                "gfx/leaders/QUILLBOAR/quillboar_8.dds"
+                "gfx/leaders/QUILLBOAR/quillboar_9.dds"
+                "gfx/leaders/QUILLBOAR/quillboar_10.dds"
+            }
+            female = {
                 "gfx/leaders/QUILLBOAR/quillboar_1.dds"
                 "gfx/leaders/QUILLBOAR/quillboar_2.dds"
                 "gfx/leaders/QUILLBOAR/quillboar_3.dds"
@@ -99,6 +198,18 @@ RAZ = {
                 "gfx/leaders/QUILLBOAR/quillboar_9.dds"
                 "gfx/leaders/QUILLBOAR/quillboar_10.dds"
             }
+            female = {
+                "gfx/leaders/QUILLBOAR/quillboar_1.dds"
+                "gfx/leaders/QUILLBOAR/quillboar_2.dds"
+                "gfx/leaders/QUILLBOAR/quillboar_3.dds"
+                "gfx/leaders/QUILLBOAR/quillboar_4.dds"
+                "gfx/leaders/QUILLBOAR/quillboar_5.dds"
+                "gfx/leaders/QUILLBOAR/quillboar_6.dds"
+                "gfx/leaders/QUILLBOAR/quillboar_7.dds"
+                "gfx/leaders/QUILLBOAR/quillboar_8.dds"
+                "gfx/leaders/QUILLBOAR/quillboar_9.dds"
+                "gfx/leaders/QUILLBOAR/quillboar_10.dds"
+            }
 		}
         death = {
 			male = {
@@ -113,9 +224,33 @@ RAZ = {
                 "gfx/leaders/QUILLBOAR/quillboar_9.dds"
                 "gfx/leaders/QUILLBOAR/quillboar_10.dds"
             }
+            female = {
+                "gfx/leaders/QUILLBOAR/quillboar_1.dds"
+                "gfx/leaders/QUILLBOAR/quillboar_2.dds"
+                "gfx/leaders/QUILLBOAR/quillboar_3.dds"
+                "gfx/leaders/QUILLBOAR/quillboar_4.dds"
+                "gfx/leaders/QUILLBOAR/quillboar_5.dds"
+                "gfx/leaders/QUILLBOAR/quillboar_6.dds"
+                "gfx/leaders/QUILLBOAR/quillboar_7.dds"
+                "gfx/leaders/QUILLBOAR/quillboar_8.dds"
+                "gfx/leaders/QUILLBOAR/quillboar_9.dds"
+                "gfx/leaders/QUILLBOAR/quillboar_10.dds"
+            }
 		}
         unaligned = {
 			male = {
+                "gfx/leaders/QUILLBOAR/quillboar_1.dds"
+                "gfx/leaders/QUILLBOAR/quillboar_2.dds"
+                "gfx/leaders/QUILLBOAR/quillboar_3.dds"
+                "gfx/leaders/QUILLBOAR/quillboar_4.dds"
+                "gfx/leaders/QUILLBOAR/quillboar_5.dds"
+                "gfx/leaders/QUILLBOAR/quillboar_6.dds"
+                "gfx/leaders/QUILLBOAR/quillboar_7.dds"
+                "gfx/leaders/QUILLBOAR/quillboar_8.dds"
+                "gfx/leaders/QUILLBOAR/quillboar_9.dds"
+                "gfx/leaders/QUILLBOAR/quillboar_10.dds"
+            }
+            female = {
                 "gfx/leaders/QUILLBOAR/quillboar_1.dds"
                 "gfx/leaders/QUILLBOAR/quillboar_2.dds"
                 "gfx/leaders/QUILLBOAR/quillboar_3.dds"

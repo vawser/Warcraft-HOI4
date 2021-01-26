@@ -1,12 +1,27 @@
 ROC = {
+    operative = {
+		male = {
+			"gfx/leaders/MURLOC/murloc_yellow.dds"
+		}
+        female = {
+			"gfx/leaders/MURLOC/murloc_yellow.dds"
+		}
+	}
+    
 	army = {
 		male = {
+			"gfx/leaders/MURLOC/murloc_yellow.dds"
+		}
+        female = {
 			"gfx/leaders/MURLOC/murloc_yellow.dds"
 		}
 	}
 
 	navy = {
 		male = {
+			"gfx/leaders/MURLOC/murloc_yellow.dds"
+		}
+        female = {
 			"gfx/leaders/MURLOC/murloc_yellow.dds"
 		}
 	}
@@ -16,9 +31,15 @@ ROC = {
 			male = {
                 "gfx/leaders/MURLOC/murloc_yellow.dds"
             }
+            female = {
+                "gfx/leaders/MURLOC/murloc_yellow.dds"
+            }
 		}
 		shadow = {
 			male = {
+                "gfx/leaders/MURLOC/murloc_yellow.dds"
+            }
+            female = {
                 "gfx/leaders/MURLOC/murloc_yellow.dds"
             }
 		}
@@ -26,9 +47,15 @@ ROC = {
 			male = {
                 "gfx/leaders/MURLOC/murloc_yellow.dds"
             }
+            female = {
+                "gfx/leaders/MURLOC/murloc_yellow.dds"
+            }
 		}
         disorder = {
 			male = {
+                "gfx/leaders/MURLOC/murloc_yellow.dds"
+            }
+            female = {
                 "gfx/leaders/MURLOC/murloc_yellow.dds"
             }
 		}
@@ -36,14 +63,23 @@ ROC = {
 			male = {
                 "gfx/leaders/MURLOC/murloc_yellow.dds"
             }
+            female = {
+                "gfx/leaders/MURLOC/murloc_yellow.dds"
+            }
 		}
         death = {
 			male = {
                 "gfx/leaders/MURLOC/murloc_yellow.dds"
             }
+            female = {
+                "gfx/leaders/MURLOC/murloc_yellow.dds"
+            }
 		}
         unaligned = {
 			male = {
+                "gfx/leaders/MURLOC/murloc_yellow.dds"
+            }
+            female = {
                 "gfx/leaders/MURLOC/murloc_yellow.dds"
             }
 		}

@@ -1883,7 +1883,7 @@ guiTypes = {
 			spriteType = "GFX_technology_medium"
 			position = { x=80 y=43 }
 			centerposition = yes
-			scale = 0.5
+			scale = 0.7
 			alwaystransparent = yes
 		}
 

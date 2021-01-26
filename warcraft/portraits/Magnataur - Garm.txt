@@ -1,6 +1,27 @@
 GAM = {
+    operative = {
+		male = {
+			"gfx/leaders/MAGNATAUR/magnataur_1.dds"
+			"gfx/leaders/MAGNATAUR/magnataur_2.dds"
+            "gfx/leaders/MAGNATAUR/magnataur_3.dds"
+            "gfx/leaders/MAGNATAUR/magnataur_4.dds"
+        }
+        female = {
+			"gfx/leaders/MAGNATAUR/magnataur_1.dds"
+			"gfx/leaders/MAGNATAUR/magnataur_2.dds"
+            "gfx/leaders/MAGNATAUR/magnataur_3.dds"
+            "gfx/leaders/MAGNATAUR/magnataur_4.dds"
+        }
+	}
+    
 	army = {
 		male = {
+			"gfx/leaders/MAGNATAUR/magnataur_1.dds"
+			"gfx/leaders/MAGNATAUR/magnataur_2.dds"
+            "gfx/leaders/MAGNATAUR/magnataur_3.dds"
+            "gfx/leaders/MAGNATAUR/magnataur_4.dds"
+        }
+        female = {
 			"gfx/leaders/MAGNATAUR/magnataur_1.dds"
 			"gfx/leaders/MAGNATAUR/magnataur_2.dds"
             "gfx/leaders/MAGNATAUR/magnataur_3.dds"
@@ -10,6 +31,12 @@ GAM = {
 
 	navy = {
 		male = {
+			"gfx/leaders/MAGNATAUR/magnataur_1.dds"
+			"gfx/leaders/MAGNATAUR/magnataur_2.dds"
+            "gfx/leaders/MAGNATAUR/magnataur_3.dds"
+            "gfx/leaders/MAGNATAUR/magnataur_4.dds"
+        }
+        female = {
 			"gfx/leaders/MAGNATAUR/magnataur_1.dds"
 			"gfx/leaders/MAGNATAUR/magnataur_2.dds"
             "gfx/leaders/MAGNATAUR/magnataur_3.dds"
@@ -25,9 +52,21 @@ GAM = {
                 "gfx/leaders/MAGNATAUR/magnataur_3.dds"
                 "gfx/leaders/MAGNATAUR/magnataur_4.dds"
             }
+            female = {
+                "gfx/leaders/MAGNATAUR/magnataur_1.dds"
+                "gfx/leaders/MAGNATAUR/magnataur_2.dds"
+                "gfx/leaders/MAGNATAUR/magnataur_3.dds"
+                "gfx/leaders/MAGNATAUR/magnataur_4.dds"
+            }
 		}
 		shadow = {
 			male = {
+                "gfx/leaders/MAGNATAUR/magnataur_1.dds"
+                "gfx/leaders/MAGNATAUR/magnataur_2.dds"
+                "gfx/leaders/MAGNATAUR/magnataur_3.dds"
+                "gfx/leaders/MAGNATAUR/magnataur_4.dds"
+            }
+            female = {
                 "gfx/leaders/MAGNATAUR/magnataur_1.dds"
                 "gfx/leaders/MAGNATAUR/magnataur_2.dds"
                 "gfx/leaders/MAGNATAUR/magnataur_3.dds"
@@ -41,9 +80,21 @@ GAM = {
                 "gfx/leaders/MAGNATAUR/magnataur_3.dds"
                 "gfx/leaders/MAGNATAUR/magnataur_4.dds"
             }
+            female = {
+                "gfx/leaders/MAGNATAUR/magnataur_1.dds"
+                "gfx/leaders/MAGNATAUR/magnataur_2.dds"
+                "gfx/leaders/MAGNATAUR/magnataur_3.dds"
+                "gfx/leaders/MAGNATAUR/magnataur_4.dds"
+            }
 		}
         disorder = {
 			male = {
+                "gfx/leaders/MAGNATAUR/magnataur_1.dds"
+                "gfx/leaders/MAGNATAUR/magnataur_2.dds"
+                "gfx/leaders/MAGNATAUR/magnataur_3.dds"
+                "gfx/leaders/MAGNATAUR/magnataur_4.dds"
+            }
+            female = {
                 "gfx/leaders/MAGNATAUR/magnataur_1.dds"
                 "gfx/leaders/MAGNATAUR/magnataur_2.dds"
                 "gfx/leaders/MAGNATAUR/magnataur_3.dds"
@@ -57,9 +108,21 @@ GAM = {
                 "gfx/leaders/MAGNATAUR/magnataur_3.dds"
                 "gfx/leaders/MAGNATAUR/magnataur_4.dds"
             }
+            female = {
+                "gfx/leaders/MAGNATAUR/magnataur_1.dds"
+                "gfx/leaders/MAGNATAUR/magnataur_2.dds"
+                "gfx/leaders/MAGNATAUR/magnataur_3.dds"
+                "gfx/leaders/MAGNATAUR/magnataur_4.dds"
+            }
 		}
         death = {
 			male = {
+                "gfx/leaders/MAGNATAUR/magnataur_1.dds"
+                "gfx/leaders/MAGNATAUR/magnataur_2.dds"
+                "gfx/leaders/MAGNATAUR/magnataur_3.dds"
+                "gfx/leaders/MAGNATAUR/magnataur_4.dds"
+            }
+            female = {
                 "gfx/leaders/MAGNATAUR/magnataur_1.dds"
                 "gfx/leaders/MAGNATAUR/magnataur_2.dds"
                 "gfx/leaders/MAGNATAUR/magnataur_3.dds"
@@ -73,3 +136,12 @@ GAM = {
                 "gfx/leaders/MAGNATAUR/magnataur_3.dds"
                 "gfx/leaders/MAGNATAUR/magnataur_4.dds"
             }
+            female = {
+                "gfx/leaders/MAGNATAUR/magnataur_1.dds"
+                "gfx/leaders/MAGNATAUR/magnataur_2.dds"
+                "gfx/leaders/MAGNATAUR/magnataur_3.dds"
+                "gfx/leaders/MAGNATAUR/magnataur_4.dds"
+            }
+		}
+	}
+}

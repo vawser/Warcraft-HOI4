@@ -1,4 +1,21 @@
 DKI = {
+    operative = {
+		male = {
+			"gfx/leaders/DARK_IRON/dark_iron_male_1.dds"
+			"gfx/leaders/DARK_IRON/dark_iron_male_2.dds"
+            "gfx/leaders/DARK_IRON/dark_iron_male_3.dds"
+            "gfx/leaders/DARK_IRON/dark_iron_male_4.dds"
+            "gfx/leaders/DARK_IRON/dark_iron_male_5.dds"
+		}
+        female = {
+			"gfx/leaders/DARK_IRON/dark_iron_female_1.dds"
+			"gfx/leaders/DARK_IRON/dark_iron_female_2.dds"
+            "gfx/leaders/DARK_IRON/dark_iron_female_3.dds"
+            "gfx/leaders/DARK_IRON/dark_iron_female_4.dds"
+            "gfx/leaders/DARK_IRON/dark_iron_female_5.dds"
+		}
+	}
+    
 	army = {
 		male = {
 			"gfx/leaders/DARK_IRON/dark_iron_male_1.dds"

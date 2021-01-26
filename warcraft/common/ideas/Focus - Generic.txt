@@ -1,5 +1,205 @@
 ideas = {
     country = {
+        offensive_edict = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = offensive_edict
+
+			equipment_bonus = {
+                grunt_equipment = {
+                    instant = yes
+                    build_cost_ic = -0.1
+                }
+                champion_equipment = {
+                    instant = yes
+                    build_cost_ic = -0.1
+                }
+			}
+		}
+        
+        defensive_edict = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = defensive_edict
+
+			equipment_bonus = {
+                spellcaster_equipment = {
+                    instant = yes
+                    build_cost_ic = -0.1
+                }
+                archer_equipment = {
+                    instant = yes
+                    build_cost_ic = -0.1
+                }
+			}
+		}
+        
+        cavalry_edict = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = cavalry_edict
+
+			equipment_bonus = {
+                light_cavalry_equipment = {
+                    instant = yes
+                    build_cost_ic = -0.1
+                }
+                heavy_cavalry_equipment = {
+                    instant = yes
+                    build_cost_ic = -0.1
+                }
+			}
+		}
+        
+        support_edict = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = support_edict
+
+			equipment_bonus = {
+                war_engine_equipment = {
+                    instant = yes
+                    build_cost_ic = -0.1
+                }
+                support_equipment = {
+                    instant = yes
+                    build_cost_ic = -0.1
+                }
+			}
+		}
+        
+        dogfighting_edict = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = dogfighting_edict
+
+			equipment_bonus = {
+                fighter_equipment = {
+                    instant = yes
+                    build_cost_ic = -0.1
+                }
+                cas_equipment = {
+                    instant = yes
+                    build_cost_ic = -0.1
+                }
+			}
+		}
+        
+        bombing_edict = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = bombing_edict
+
+			equipment_bonus = {
+                tactical_bomber_equipment = {
+                    instant = yes
+                    build_cost_ic = -0.1
+                }
+                strategic_bomber_equipment = {
+                    instant = yes
+                    build_cost_ic = -0.1
+                }
+			}
+		}
+        
+        harassment_edict = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = bombing_edict
+
+			equipment_bonus = {
+                hull_destroyer_equipment = {
+                    instant = yes
+                    build_cost_ic = -0.1
+                }
+                hull_submarine_equipment = {
+                    instant = yes
+                    build_cost_ic = -0.1
+                }
+			}
+		}
+        
+        bombardment_edict = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = bombing_edict
+
+			equipment_bonus = {
+                hull_battleship_equipment = {
+                    instant = yes
+                    build_cost_ic = -0.1
+                }
+                hull_cruiser_equipment = {
+                    instant = yes
+                    build_cost_ic = -0.1
+                }
+			}
+		}
+
         embrace_light = {
 			allowed = {
 				always = no

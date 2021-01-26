@@ -1,6 +1,63 @@
 OOG = {
+    operative = {
+		male = {
+			"gfx/leaders/PYGMY/pygmy_1.dds"
+			"gfx/leaders/PYGMY/pygmy_2.dds"
+			"gfx/leaders/PYGMY/pygmy_3.dds"
+			"gfx/leaders/PYGMY/pygmy_4.dds"
+			"gfx/leaders/PYGMY/pygmy_5.dds"
+			"gfx/leaders/PYGMY/pygmy_6.dds"
+			"gfx/leaders/PYGMY/pygmy_7.dds"
+			"gfx/leaders/PYGMY/pygmy_8.dds"
+			"gfx/leaders/PYGMY/pygmy_9.dds"
+			"gfx/leaders/PYGMY/pygmy_10.dds"
+			"gfx/leaders/PYGMY/pygmy_11.dds"
+			"gfx/leaders/PYGMY/pygmy_12.dds"
+			"gfx/leaders/PYGMY/pygmy_13.dds"
+			"gfx/leaders/PYGMY/pygmy_14.dds"
+			"gfx/leaders/PYGMY/pygmy_15.dds"
+			"gfx/leaders/PYGMY/pygmy_16.dds"
+		}
+        female = {
+			"gfx/leaders/PYGMY/pygmy_1.dds"
+			"gfx/leaders/PYGMY/pygmy_2.dds"
+			"gfx/leaders/PYGMY/pygmy_3.dds"
+			"gfx/leaders/PYGMY/pygmy_4.dds"
+			"gfx/leaders/PYGMY/pygmy_5.dds"
+			"gfx/leaders/PYGMY/pygmy_6.dds"
+			"gfx/leaders/PYGMY/pygmy_7.dds"
+			"gfx/leaders/PYGMY/pygmy_8.dds"
+			"gfx/leaders/PYGMY/pygmy_9.dds"
+			"gfx/leaders/PYGMY/pygmy_10.dds"
+			"gfx/leaders/PYGMY/pygmy_11.dds"
+			"gfx/leaders/PYGMY/pygmy_12.dds"
+			"gfx/leaders/PYGMY/pygmy_13.dds"
+			"gfx/leaders/PYGMY/pygmy_14.dds"
+			"gfx/leaders/PYGMY/pygmy_15.dds"
+			"gfx/leaders/PYGMY/pygmy_16.dds"
+		}
+	}
+    
 	army = {
 		male = {
+			"gfx/leaders/PYGMY/pygmy_1.dds"
+			"gfx/leaders/PYGMY/pygmy_2.dds"
+			"gfx/leaders/PYGMY/pygmy_3.dds"
+			"gfx/leaders/PYGMY/pygmy_4.dds"
+			"gfx/leaders/PYGMY/pygmy_5.dds"
+			"gfx/leaders/PYGMY/pygmy_6.dds"
+			"gfx/leaders/PYGMY/pygmy_7.dds"
+			"gfx/leaders/PYGMY/pygmy_8.dds"
+			"gfx/leaders/PYGMY/pygmy_9.dds"
+			"gfx/leaders/PYGMY/pygmy_10.dds"
+			"gfx/leaders/PYGMY/pygmy_11.dds"
+			"gfx/leaders/PYGMY/pygmy_12.dds"
+			"gfx/leaders/PYGMY/pygmy_13.dds"
+			"gfx/leaders/PYGMY/pygmy_14.dds"
+			"gfx/leaders/PYGMY/pygmy_15.dds"
+			"gfx/leaders/PYGMY/pygmy_16.dds"
+		}
+        female = {
 			"gfx/leaders/PYGMY/pygmy_1.dds"
 			"gfx/leaders/PYGMY/pygmy_2.dds"
 			"gfx/leaders/PYGMY/pygmy_3.dds"
@@ -22,6 +79,24 @@ OOG = {
 
 	navy = {
 		male = {
+			"gfx/leaders/PYGMY/pygmy_1.dds"
+			"gfx/leaders/PYGMY/pygmy_2.dds"
+			"gfx/leaders/PYGMY/pygmy_3.dds"
+			"gfx/leaders/PYGMY/pygmy_4.dds"
+			"gfx/leaders/PYGMY/pygmy_5.dds"
+			"gfx/leaders/PYGMY/pygmy_6.dds"
+			"gfx/leaders/PYGMY/pygmy_7.dds"
+			"gfx/leaders/PYGMY/pygmy_8.dds"
+			"gfx/leaders/PYGMY/pygmy_9.dds"
+			"gfx/leaders/PYGMY/pygmy_10.dds"
+			"gfx/leaders/PYGMY/pygmy_11.dds"
+			"gfx/leaders/PYGMY/pygmy_12.dds"
+			"gfx/leaders/PYGMY/pygmy_13.dds"
+			"gfx/leaders/PYGMY/pygmy_14.dds"
+			"gfx/leaders/PYGMY/pygmy_15.dds"
+			"gfx/leaders/PYGMY/pygmy_16.dds"
+		}
+        female = {
 			"gfx/leaders/PYGMY/pygmy_1.dds"
 			"gfx/leaders/PYGMY/pygmy_2.dds"
 			"gfx/leaders/PYGMY/pygmy_3.dds"
@@ -61,9 +136,45 @@ OOG = {
                 "gfx/leaders/PYGMY/pygmy_15.dds"
                 "gfx/leaders/PYGMY/pygmy_16.dds"
             }
+            female = {
+                "gfx/leaders/PYGMY/pygmy_1.dds"
+                "gfx/leaders/PYGMY/pygmy_2.dds"
+                "gfx/leaders/PYGMY/pygmy_3.dds"
+                "gfx/leaders/PYGMY/pygmy_4.dds"
+                "gfx/leaders/PYGMY/pygmy_5.dds"
+                "gfx/leaders/PYGMY/pygmy_6.dds"
+                "gfx/leaders/PYGMY/pygmy_7.dds"
+                "gfx/leaders/PYGMY/pygmy_8.dds"
+                "gfx/leaders/PYGMY/pygmy_9.dds"
+                "gfx/leaders/PYGMY/pygmy_10.dds"
+                "gfx/leaders/PYGMY/pygmy_11.dds"
+                "gfx/leaders/PYGMY/pygmy_12.dds"
+                "gfx/leaders/PYGMY/pygmy_13.dds"
+                "gfx/leaders/PYGMY/pygmy_14.dds"
+                "gfx/leaders/PYGMY/pygmy_15.dds"
+                "gfx/leaders/PYGMY/pygmy_16.dds"
+            }
 		}
 		shadow = {
 			male = {
+                "gfx/leaders/PYGMY/pygmy_1.dds"
+                "gfx/leaders/PYGMY/pygmy_2.dds"
+                "gfx/leaders/PYGMY/pygmy_3.dds"
+                "gfx/leaders/PYGMY/pygmy_4.dds"
+                "gfx/leaders/PYGMY/pygmy_5.dds"
+                "gfx/leaders/PYGMY/pygmy_6.dds"
+                "gfx/leaders/PYGMY/pygmy_7.dds"
+                "gfx/leaders/PYGMY/pygmy_8.dds"
+                "gfx/leaders/PYGMY/pygmy_9.dds"
+                "gfx/leaders/PYGMY/pygmy_10.dds"
+                "gfx/leaders/PYGMY/pygmy_11.dds"
+                "gfx/leaders/PYGMY/pygmy_12.dds"
+                "gfx/leaders/PYGMY/pygmy_13.dds"
+                "gfx/leaders/PYGMY/pygmy_14.dds"
+                "gfx/leaders/PYGMY/pygmy_15.dds"
+                "gfx/leaders/PYGMY/pygmy_16.dds"
+            }
+            female = {
                 "gfx/leaders/PYGMY/pygmy_1.dds"
                 "gfx/leaders/PYGMY/pygmy_2.dds"
                 "gfx/leaders/PYGMY/pygmy_3.dds"
@@ -101,9 +212,45 @@ OOG = {
                 "gfx/leaders/PYGMY/pygmy_15.dds"
                 "gfx/leaders/PYGMY/pygmy_16.dds"
             }
+            female = {
+                "gfx/leaders/PYGMY/pygmy_1.dds"
+                "gfx/leaders/PYGMY/pygmy_2.dds"
+                "gfx/leaders/PYGMY/pygmy_3.dds"
+                "gfx/leaders/PYGMY/pygmy_4.dds"
+                "gfx/leaders/PYGMY/pygmy_5.dds"
+                "gfx/leaders/PYGMY/pygmy_6.dds"
+                "gfx/leaders/PYGMY/pygmy_7.dds"
+                "gfx/leaders/PYGMY/pygmy_8.dds"
+                "gfx/leaders/PYGMY/pygmy_9.dds"
+                "gfx/leaders/PYGMY/pygmy_10.dds"
+                "gfx/leaders/PYGMY/pygmy_11.dds"
+                "gfx/leaders/PYGMY/pygmy_12.dds"
+                "gfx/leaders/PYGMY/pygmy_13.dds"
+                "gfx/leaders/PYGMY/pygmy_14.dds"
+                "gfx/leaders/PYGMY/pygmy_15.dds"
+                "gfx/leaders/PYGMY/pygmy_16.dds"
+            }
 		}
         disorder = {
 			male = {
+                "gfx/leaders/PYGMY/pygmy_1.dds"
+                "gfx/leaders/PYGMY/pygmy_2.dds"
+                "gfx/leaders/PYGMY/pygmy_3.dds"
+                "gfx/leaders/PYGMY/pygmy_4.dds"
+                "gfx/leaders/PYGMY/pygmy_5.dds"
+                "gfx/leaders/PYGMY/pygmy_6.dds"
+                "gfx/leaders/PYGMY/pygmy_7.dds"
+                "gfx/leaders/PYGMY/pygmy_8.dds"
+                "gfx/leaders/PYGMY/pygmy_9.dds"
+                "gfx/leaders/PYGMY/pygmy_10.dds"
+                "gfx/leaders/PYGMY/pygmy_11.dds"
+                "gfx/leaders/PYGMY/pygmy_12.dds"
+                "gfx/leaders/PYGMY/pygmy_13.dds"
+                "gfx/leaders/PYGMY/pygmy_14.dds"
+                "gfx/leaders/PYGMY/pygmy_15.dds"
+                "gfx/leaders/PYGMY/pygmy_16.dds"
+            }
+            female = {
                 "gfx/leaders/PYGMY/pygmy_1.dds"
                 "gfx/leaders/PYGMY/pygmy_2.dds"
                 "gfx/leaders/PYGMY/pygmy_3.dds"
@@ -141,6 +288,24 @@ OOG = {
                 "gfx/leaders/PYGMY/pygmy_15.dds"
                 "gfx/leaders/PYGMY/pygmy_16.dds"
             }
+            female = {
+                "gfx/leaders/PYGMY/pygmy_1.dds"
+                "gfx/leaders/PYGMY/pygmy_2.dds"
+                "gfx/leaders/PYGMY/pygmy_3.dds"
+                "gfx/leaders/PYGMY/pygmy_4.dds"
+                "gfx/leaders/PYGMY/pygmy_5.dds"
+                "gfx/leaders/PYGMY/pygmy_6.dds"
+                "gfx/leaders/PYGMY/pygmy_7.dds"
+                "gfx/leaders/PYGMY/pygmy_8.dds"
+                "gfx/leaders/PYGMY/pygmy_9.dds"
+                "gfx/leaders/PYGMY/pygmy_10.dds"
+                "gfx/leaders/PYGMY/pygmy_11.dds"
+                "gfx/leaders/PYGMY/pygmy_12.dds"
+                "gfx/leaders/PYGMY/pygmy_13.dds"
+                "gfx/leaders/PYGMY/pygmy_14.dds"
+                "gfx/leaders/PYGMY/pygmy_15.dds"
+                "gfx/leaders/PYGMY/pygmy_16.dds"
+            }
 		}
         death = {
 			male = {
@@ -161,9 +326,45 @@ OOG = {
                 "gfx/leaders/PYGMY/pygmy_15.dds"
                 "gfx/leaders/PYGMY/pygmy_16.dds"
             }
+            female = {
+                "gfx/leaders/PYGMY/pygmy_1.dds"
+                "gfx/leaders/PYGMY/pygmy_2.dds"
+                "gfx/leaders/PYGMY/pygmy_3.dds"
+                "gfx/leaders/PYGMY/pygmy_4.dds"
+                "gfx/leaders/PYGMY/pygmy_5.dds"
+                "gfx/leaders/PYGMY/pygmy_6.dds"
+                "gfx/leaders/PYGMY/pygmy_7.dds"
+                "gfx/leaders/PYGMY/pygmy_8.dds"
+                "gfx/leaders/PYGMY/pygmy_9.dds"
+                "gfx/leaders/PYGMY/pygmy_10.dds"
+                "gfx/leaders/PYGMY/pygmy_11.dds"
+                "gfx/leaders/PYGMY/pygmy_12.dds"
+                "gfx/leaders/PYGMY/pygmy_13.dds"
+                "gfx/leaders/PYGMY/pygmy_14.dds"
+                "gfx/leaders/PYGMY/pygmy_15.dds"
+                "gfx/leaders/PYGMY/pygmy_16.dds"
+            }
 		}
         unaligned = {
 			male = {
+                "gfx/leaders/PYGMY/pygmy_1.dds"
+                "gfx/leaders/PYGMY/pygmy_2.dds"
+                "gfx/leaders/PYGMY/pygmy_3.dds"
+                "gfx/leaders/PYGMY/pygmy_4.dds"
+                "gfx/leaders/PYGMY/pygmy_5.dds"
+                "gfx/leaders/PYGMY/pygmy_6.dds"
+                "gfx/leaders/PYGMY/pygmy_7.dds"
+                "gfx/leaders/PYGMY/pygmy_8.dds"
+                "gfx/leaders/PYGMY/pygmy_9.dds"
+                "gfx/leaders/PYGMY/pygmy_10.dds"
+                "gfx/leaders/PYGMY/pygmy_11.dds"
+                "gfx/leaders/PYGMY/pygmy_12.dds"
+                "gfx/leaders/PYGMY/pygmy_13.dds"
+                "gfx/leaders/PYGMY/pygmy_14.dds"
+                "gfx/leaders/PYGMY/pygmy_15.dds"
+                "gfx/leaders/PYGMY/pygmy_16.dds"
+            }
+            female = {
                 "gfx/leaders/PYGMY/pygmy_1.dds"
                 "gfx/leaders/PYGMY/pygmy_2.dds"
                 "gfx/leaders/PYGMY/pygmy_3.dds"

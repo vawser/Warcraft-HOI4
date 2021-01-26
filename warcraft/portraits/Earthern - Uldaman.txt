@@ -1,12 +1,27 @@
 ULM = {
+    operative = {
+		male = {
+			"gfx/leaders/EARTHERN/earthern_tan.dds"
+		}
+        female = {
+			"gfx/leaders/EARTHERN/earthern_tan.dds"
+		}
+	}
+    
 	army = {
 		male = {
+			"gfx/leaders/EARTHERN/earthern_tan.dds"
+		}
+        female = {
 			"gfx/leaders/EARTHERN/earthern_tan.dds"
 		}
 	}
 
 	navy = {
 		male = {
+			"gfx/leaders/EARTHERN/earthern_tan.dds"
+		}
+        female = {
 			"gfx/leaders/EARTHERN/earthern_tan.dds"
 		}
 	}
@@ -16,9 +31,15 @@ ULM = {
 			male = {
                 "gfx/leaders/EARTHERN/earthern_tan.dds"
             }
+            female = {
+                "gfx/leaders/EARTHERN/earthern_tan.dds"
+            }
 		}
 		shadow = {
 			male = {
+                "gfx/leaders/EARTHERN/earthern_tan.dds"
+            }
+            female = {
                 "gfx/leaders/EARTHERN/earthern_tan.dds"
             }
 		}
@@ -26,9 +47,15 @@ ULM = {
 			male = {
                 "gfx/leaders/EARTHERN/earthern_tan.dds"
             }
+            female = {
+                "gfx/leaders/EARTHERN/earthern_tan.dds"
+            }
 		}
         disorder = {
 			male = {
+                "gfx/leaders/EARTHERN/earthern_tan.dds"
+            }
+            female = {
                 "gfx/leaders/EARTHERN/earthern_tan.dds"
             }
 		}
@@ -36,14 +63,23 @@ ULM = {
 			male = {
                 "gfx/leaders/EARTHERN/earthern_tan.dds"
             }
+            female = {
+                "gfx/leaders/EARTHERN/earthern_tan.dds"
+            }
 		}
         death = {
 			male = {
                 "gfx/leaders/EARTHERN/earthern_tan.dds"
             }
+            female = {
+                "gfx/leaders/EARTHERN/earthern_tan.dds"
+            }
 		}
         unaligned = {
 			male = {
+                "gfx/leaders/EARTHERN/earthern_tan.dds"
+            }
+            female = {
                 "gfx/leaders/EARTHERN/earthern_tan.dds"
             }
 		}

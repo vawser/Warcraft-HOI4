@@ -1,0 +1,460 @@
+spriteTypes = {
+    # Departments
+    spriteType = {
+		name = "GFX_agency_defense_department"
+		texturefile = "gfx/interface/operatives/departments/agency_defense_department.dds"
+	}
+
+	spriteType = {
+		name = "GFX_agency_economy_department"
+		texturefile = "gfx/interface/operatives/departments/agency_economy_department.dds"
+	}
+
+	spriteType = {
+		name = "GFX_agency_form_department"
+		texturefile = "gfx/interface/operatives/departments/agency_form_department.dds"
+	}
+
+	spriteType = {
+		name = "GFX_agency_naval_department"
+		texturefile = "gfx/interface/operatives/departments/agency_naval_department.dds"
+	}
+
+	spriteType = {
+		name = "GFX_agency_airforce_department"
+		texturefile = "gfx/interface/operatives/departments/agency_airforce_department.dds"
+	}
+    
+    # Upgrades
+    spriteType = {
+		name = "GFX_agency_anti_partisan"
+		texturefile = "gfx/interface/operatives/icons/agency_anti_partisan.dds"
+	}
+
+	spriteType = {
+		name = "GFX_agency_commando_training"
+		texturefile = "gfx/interface/operatives/icons/agency_commando_training.dds"
+	}
+
+	spriteType = {
+		name = "GFX_agency_cryptology_1"
+		texturefile = "gfx/interface/operatives/icons/agency_cryptology_1.dds"
+	}
+
+	spriteType = {
+		name = "GFX_agency_cryptology_2"
+		texturefile = "gfx/interface/operatives/icons/agency_cryptology_2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_agency_decryption_boost_1"
+		texturefile = "gfx/interface/operatives/icons/agency_decryption_boost_1.dds"
+	}
+
+	spriteType = {
+		name = "GFX_agency_decryption_boost_2"
+		texturefile = "gfx/interface/operatives/icons/agency_decryption_boost_2.dds"
+	}
+
+	spriteType = {
+		name = "GFX_agency_diplomatic_training"
+		texturefile = "gfx/interface/operatives/icons/agency_diplomatic_training.dds"
+	}
+
+	spriteType = {
+		name = "GFX_agency_interrogation_techniques"
+		texturefile = "gfx/interface/operatives/icons/agency_interrogation_techniques.dds"
+	}
+
+	spriteType = {
+		name = "GFX_agency_invisible_ink"
+		texturefile = "gfx/interface/operatives/icons/agency_invisible_ink.dds"
+	}
+
+	spriteType = {
+		name = "GFX_agency_localized_training_center"
+		texturefile = "gfx/interface/operatives/icons/agency_localized_training_center.dds"
+	}
+
+	spriteType = {
+		name = "GFX_agency_plastic_explosives"
+		texturefile = "gfx/interface/operatives/icons/agency_plastic_explosives.dds"
+	}
+
+	spriteType = {
+		name = "GFX_agency_portable_radios"
+		texturefile = "gfx/interface/operatives/icons/agency_portable_radios.dds"
+	}
+
+	spriteType = {
+		name = "GFX_agency_psychological_warfare"
+		texturefile = "gfx/interface/operatives/icons/agency_psychological_warfare.dds"
+	}
+
+	spriteType = {
+		name = "GFX_agency_steal_blueprints"
+		texturefile = "gfx/interface/operatives/icons/agency_steal_blueprints.dds"
+	}
+
+	spriteType = {
+		name = "GFX_agency_suicide_pills"
+		texturefile = "gfx/interface/operatives/icons/agency_suicide_pills.dds"
+	}
+    
+    # Icons
+    spriteType = {
+		name = "GFX_intelligence_death_knight_1"
+		texturefile = "gfx/interface/operatives/agencies/death_knight_1.dds"
+		noOfFrames = 2
+	}
+    spriteType = {
+		name = "GFX_intelligence_death_knight_2"
+		texturefile = "gfx/interface/operatives/agencies/death_knight_2.dds"
+		noOfFrames = 2
+	}
+    spriteType = {
+		name = "GFX_intelligence_death_knight_3"
+		texturefile = "gfx/interface/operatives/agencies/death_knight_3.dds"
+		noOfFrames = 2
+	}
+    spriteType = {
+		name = "GFX_intelligence_death_knight_4"
+		texturefile = "gfx/interface/operatives/agencies/death_knight_4.dds"
+		noOfFrames = 2
+	}
+    spriteType = {
+		name = "GFX_intelligence_demon_hunter_1"
+		texturefile = "gfx/interface/operatives/agencies/demon_hunter_1.dds"
+		noOfFrames = 2
+	}
+    spriteType = {
+		name = "GFX_intelligence_demon_hunter_2"
+		texturefile = "gfx/interface/operatives/agencies/demon_hunter_2.dds"
+		noOfFrames = 2
+	}
+    spriteType = {
+		name = "GFX_intelligence_druid_1"
+		texturefile = "gfx/interface/operatives/agencies/druid_1.dds"
+		noOfFrames = 2
+	}
+    spriteType = {
+		name = "GFX_intelligence_druid_2"
+		texturefile = "gfx/interface/operatives/agencies/druid_2.dds"
+		noOfFrames = 2
+	}
+    spriteType = {
+		name = "GFX_intelligence_druid_3"
+		texturefile = "gfx/interface/operatives/agencies/druid_3.dds"
+		noOfFrames = 2
+	}
+    spriteType = {
+		name = "GFX_intelligence_druid_4"
+		texturefile = "gfx/interface/operatives/agencies/druid_4.dds"
+		noOfFrames = 2
+	}
+    spriteType = {
+		name = "GFX_intelligence_druid_5"
+		texturefile = "gfx/interface/operatives/agencies/druid_5.dds"
+		noOfFrames = 2
+	}
+    spriteType = {
+		name = "GFX_intelligence_druid_6"
+		texturefile = "gfx/interface/operatives/agencies/druid_6.dds"
+		noOfFrames = 2
+	}
+    spriteType = {
+		name = "GFX_intelligence_druid_7"
+		texturefile = "gfx/interface/operatives/agencies/druid_7.dds"
+		noOfFrames = 2
+	}
+    spriteType = {
+		name = "GFX_intelligence_druid_8"
+		texturefile = "gfx/interface/operatives/agencies/druid_8.dds"
+		noOfFrames = 2
+	}
+    spriteType = {
+		name = "GFX_intelligence_druid_9"
+		texturefile = "gfx/interface/operatives/agencies/druid_9.dds"
+		noOfFrames = 2
+	}
+    spriteType = {
+		name = "GFX_intelligence_hunter_1"
+		texturefile = "gfx/interface/operatives/agencies/hunter_1.dds"
+		noOfFrames = 2
+	}
+    spriteType = {
+		name = "GFX_intelligence_hunter_2"
+		texturefile = "gfx/interface/operatives/agencies/hunter_2.dds"
+		noOfFrames = 2
+	}
+    spriteType = {
+		name = "GFX_intelligence_hunter_3"
+		texturefile = "gfx/interface/operatives/agencies/hunter_3.dds"
+		noOfFrames = 2
+	}
+    spriteType = {
+		name = "GFX_intelligence_mage_1"
+		texturefile = "gfx/interface/operatives/agencies/mage_1.dds"
+		noOfFrames = 2
+	}
+    spriteType = {
+		name = "GFX_intelligence_mage_2"
+		texturefile = "gfx/interface/operatives/agencies/mage_2.dds"
+		noOfFrames = 2
+	}
+    spriteType = {
+		name = "GFX_intelligence_mage_3"
+		texturefile = "gfx/interface/operatives/agencies/mage_3.dds"
+		noOfFrames = 2
+	}
+    spriteType = {
+		name = "GFX_intelligence_mage_4"
+		texturefile = "gfx/interface/operatives/agencies/mage_4.dds"
+		noOfFrames = 2
+	}
+    spriteType = {
+		name = "GFX_intelligence_misc_1"
+		texturefile = "gfx/interface/operatives/agencies/misc_1.dds"
+		noOfFrames = 2
+	}
+    spriteType = {
+		name = "GFX_intelligence_misc_2"
+		texturefile = "gfx/interface/operatives/agencies/misc_2.dds"
+		noOfFrames = 2
+	}
+    spriteType = {
+		name = "GFX_intelligence_misc_3"
+		texturefile = "gfx/interface/operatives/agencies/misc_3.dds"
+		noOfFrames = 2
+	}
+    spriteType = {
+		name = "GFX_intelligence_misc_4"
+		texturefile = "gfx/interface/operatives/agencies/misc_4.dds"
+		noOfFrames = 2
+	}
+    spriteType = {
+		name = "GFX_intelligence_misc_5"
+		texturefile = "gfx/interface/operatives/agencies/misc_5.dds"
+		noOfFrames = 2
+	}
+    spriteType = {
+		name = "GFX_intelligence_misc_6"
+		texturefile = "gfx/interface/operatives/agencies/misc_6.dds"
+		noOfFrames = 2
+	}
+    spriteType = {
+		name = "GFX_intelligence_misc_7"
+		texturefile = "gfx/interface/operatives/agencies/misc_7.dds"
+		noOfFrames = 2
+	}
+    spriteType = {
+		name = "GFX_intelligence_misc_8"
+		texturefile = "gfx/interface/operatives/agencies/misc_8.dds"
+		noOfFrames = 2
+	}
+    spriteType = {
+		name = "GFX_intelligence_misc_9"
+		texturefile = "gfx/interface/operatives/agencies/misc_9.dds"
+		noOfFrames = 2
+	}
+    spriteType = {
+		name = "GFX_intelligence_misc_10"
+		texturefile = "gfx/interface/operatives/agencies/misc_10.dds"
+		noOfFrames = 2
+	}
+    spriteType = {
+		name = "GFX_intelligence_misc_11"
+		texturefile = "gfx/interface/operatives/agencies/misc_11.dds"
+		noOfFrames = 2
+	}
+    spriteType = {
+		name = "GFX_intelligence_misc_12"
+		texturefile = "gfx/interface/operatives/agencies/misc_12.dds"
+		noOfFrames = 2
+	}
+    spriteType = {
+		name = "GFX_intelligence_misc_13"
+		texturefile = "gfx/interface/operatives/agencies/misc_13.dds"
+		noOfFrames = 2
+	}
+    spriteType = {
+		name = "GFX_intelligence_monk_1"
+		texturefile = "gfx/interface/operatives/agencies/monk_1.dds"
+		noOfFrames = 2
+	}
+    spriteType = {
+		name = "GFX_intelligence_monk_2"
+		texturefile = "gfx/interface/operatives/agencies/monk_2.dds"
+		noOfFrames = 2
+	}
+    spriteType = {
+		name = "GFX_intelligence_monk_3"
+		texturefile = "gfx/interface/operatives/agencies/monk_3.dds"
+		noOfFrames = 2
+	}
+    spriteType = {
+		name = "GFX_intelligence_monk_4"
+		texturefile = "gfx/interface/operatives/agencies/monk_4.dds"
+		noOfFrames = 2
+	}
+    spriteType = {
+		name = "GFX_intelligence_monk_5"
+		texturefile = "gfx/interface/operatives/agencies/monk_5.dds"
+		noOfFrames = 2
+	}
+    spriteType = {
+		name = "GFX_intelligence_monk_6"
+		texturefile = "gfx/interface/operatives/agencies/monk_6.dds"
+		noOfFrames = 2
+	}
+    spriteType = {
+		name = "GFX_intelligence_monk_7"
+		texturefile = "gfx/interface/operatives/agencies/monk_7.dds"
+		noOfFrames = 2
+	}
+    spriteType = {
+		name = "GFX_intelligence_monk_8"
+		texturefile = "gfx/interface/operatives/agencies/monk_8.dds"
+		noOfFrames = 2
+	}
+    spriteType = {
+		name = "GFX_intelligence_paladin_1"
+		texturefile = "gfx/interface/operatives/agencies/paladin_1.dds"
+		noOfFrames = 2
+	}
+    spriteType = {
+		name = "GFX_intelligence_paladin_2"
+		texturefile = "gfx/interface/operatives/agencies/paladin_2.dds"
+		noOfFrames = 2
+	}
+    spriteType = {
+		name = "GFX_intelligence_paladin_3"
+		texturefile = "gfx/interface/operatives/agencies/paladin_3.dds"
+		noOfFrames = 2
+	}
+    spriteType = {
+		name = "GFX_intelligence_paladin_4"
+		texturefile = "gfx/interface/operatives/agencies/paladin_4.dds"
+		noOfFrames = 2
+	}
+    spriteType = {
+		name = "GFX_intelligence_paladin_5"
+		texturefile = "gfx/interface/operatives/agencies/paladin_5.dds"
+		noOfFrames = 2
+	}
+    spriteType = {
+		name = "GFX_intelligence_paladin_6"
+		texturefile = "gfx/interface/operatives/agencies/paladin_6.dds"
+		noOfFrames = 2
+	}
+    spriteType = {
+		name = "GFX_intelligence_rogue_1"
+		texturefile = "gfx/interface/operatives/agencies/rogue_1.dds"
+		noOfFrames = 2
+	}
+    spriteType = {
+		name = "GFX_intelligence_rogue_2"
+		texturefile = "gfx/interface/operatives/agencies/rogue_2.dds"
+		noOfFrames = 2
+	}
+    spriteType = {
+		name = "GFX_intelligence_rogue_3"
+		texturefile = "gfx/interface/operatives/agencies/rogue_3.dds"
+		noOfFrames = 2
+	}
+    spriteType = {
+		name = "GFX_intelligence_rogue_4"
+		texturefile = "gfx/interface/operatives/agencies/rogue_4.dds"
+		noOfFrames = 2
+	}
+    spriteType = {
+		name = "GFX_intelligence_rogue_5"
+		texturefile = "gfx/interface/operatives/agencies/rogue_5.dds"
+		noOfFrames = 2
+	}
+    spriteType = {
+		name = "GFX_intelligence_rogue_6"
+		texturefile = "gfx/interface/operatives/agencies/rogue_6.dds"
+		noOfFrames = 2
+	}
+    spriteType = {
+		name = "GFX_intelligence_rogue_7"
+		texturefile = "gfx/interface/operatives/agencies/rogue_7.dds"
+		noOfFrames = 2
+	}
+    spriteType = {
+		name = "GFX_intelligence_rogue_8"
+		texturefile = "gfx/interface/operatives/agencies/rogue_8.dds"
+		noOfFrames = 2
+	}
+    spriteType = {
+		name = "GFX_intelligence_rogue_9"
+		texturefile = "gfx/interface/operatives/agencies/rogue_9.dds"
+		noOfFrames = 2
+	}
+    spriteType = {
+		name = "GFX_intelligence_rogue_10"
+		texturefile = "gfx/interface/operatives/agencies/rogue_10.dds"
+		noOfFrames = 2
+	}
+    spriteType = {
+		name = "GFX_intelligence_shaman_1"
+		texturefile = "gfx/interface/operatives/agencies/shaman_1.dds"
+		noOfFrames = 2
+	}
+    spriteType = {
+		name = "GFX_intelligence_shaman_2"
+		texturefile = "gfx/interface/operatives/agencies/shaman_2.dds"
+		noOfFrames = 2
+	}
+    spriteType = {
+		name = "GFX_intelligence_warlock_1"
+		texturefile = "gfx/interface/operatives/agencies/warlock_1.dds"
+		noOfFrames = 2
+	}
+    spriteType = {
+		name = "GFX_intelligence_warlock_2"
+		texturefile = "gfx/interface/operatives/agencies/warlock_2.dds"
+		noOfFrames = 2
+	}
+    spriteType = {
+		name = "GFX_intelligence_warlock_3"
+		texturefile = "gfx/interface/operatives/agencies/warlock_3.dds"
+		noOfFrames = 2
+	}
+    spriteType = {
+		name = "GFX_intelligence_warlock_4"
+		texturefile = "gfx/interface/operatives/agencies/warlock_4.dds"
+		noOfFrames = 2
+	}
+    spriteType = {
+		name = "GFX_intelligence_warrior_1"
+		texturefile = "gfx/interface/operatives/agencies/warrior_1.dds"
+		noOfFrames = 2
+	}
+    spriteType = {
+		name = "GFX_intelligence_warrior_2"
+		texturefile = "gfx/interface/operatives/agencies/warrior_2.dds"
+		noOfFrames = 2
+	}
+    spriteType = {
+		name = "GFX_intelligence_warrior_3"
+		texturefile = "gfx/interface/operatives/agencies/warrior_3.dds"
+		noOfFrames = 2
+	}
+    spriteType = {
+		name = "GFX_intelligence_warrior_4"
+		texturefile = "gfx/interface/operatives/agencies/warrior_4.dds"
+		noOfFrames = 2
+	}
+    spriteType = {
+		name = "GFX_intelligence_warrior_5"
+		texturefile = "gfx/interface/operatives/agencies/warrior_5.dds"
+		noOfFrames = 2
+	}
+    spriteType = {
+		name = "GFX_intelligence_warrior_6"
+		texturefile = "gfx/interface/operatives/agencies/warrior_6.dds"
+		noOfFrames = 2
+	}
+}

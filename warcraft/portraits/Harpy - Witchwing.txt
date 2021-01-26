@@ -1,4 +1,13 @@
 WIW = {
+    operative = {
+		male = {
+			"gfx/leaders/HARPY/harpy_black.dds"
+		}
+        female = {
+			"gfx/leaders/HARPY/harpy_black.dds"
+		}
+	}
+    
 	army = {
 		male = {
 			"gfx/leaders/HARPY/harpy_black.dds"

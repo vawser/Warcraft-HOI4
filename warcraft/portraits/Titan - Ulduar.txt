@@ -1,4 +1,13 @@
 ULD = {
+    operative = {
+		male = {
+			"gfx/leaders/TITAN/titan_gold_male.dds"
+		}
+        female = {
+			"gfx/leaders/TITAN/titan_gold_female.dds"
+		}
+	}
+    
 	army = {
 		male = {
 			"gfx/leaders/TITAN/titan_gold_male.dds"

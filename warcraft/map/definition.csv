@@ -7271,8 +7271,8 @@
 7270;12;100;4;land;false;marsh;3
 7271;10;100;4;land;false;marsh;3
 7272;9;100;4;land;false;marsh;3
-7273;255;200;4;land;false;plains;0
-7274;255;210;4;land;false;plains;0
+7273;255;200;4;land;false;plains;3
+7274;255;210;4;land;false;plains;3
 7275;200;0;120;land;false;jungle;4
 7276;200;10;120;land;false;jungle;4
 7277;200;20;120;land;true;desert;4

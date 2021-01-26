@@ -1,4 +1,31 @@
 AQJ = {
+    operative = {
+		male = {
+			"gfx/leaders/AQIR/aqir_beige.dds"
+            "gfx/leaders/AQIR/aqir_bronze.dds"
+            "gfx/leaders/AQIR/aqir_cyan.dds"
+            "gfx/leaders/AQIR/aqir_cyan_striped.dds"
+            "gfx/leaders/AQIR/aqir_gray_striped.dds"
+            "gfx/leaders/AQIR/aqir_green_striped.dds"
+            "gfx/leaders/AQIR/aqir_orange_striped.dds"
+            "gfx/leaders/AQIR/aqir_red.dds"
+            "gfx/leaders/AQIR/aqir_yellow.dds"
+            "gfx/leaders/AQIR/aqir_yellow_striped.dds"
+		}
+        female = {
+			"gfx/leaders/AQIR/aqir_beige.dds"
+            "gfx/leaders/AQIR/aqir_bronze.dds"
+            "gfx/leaders/AQIR/aqir_cyan.dds"
+            "gfx/leaders/AQIR/aqir_cyan_striped.dds"
+            "gfx/leaders/AQIR/aqir_gray_striped.dds"
+            "gfx/leaders/AQIR/aqir_green_striped.dds"
+            "gfx/leaders/AQIR/aqir_orange_striped.dds"
+            "gfx/leaders/AQIR/aqir_red.dds"
+            "gfx/leaders/AQIR/aqir_yellow.dds"
+            "gfx/leaders/AQIR/aqir_yellow_striped.dds"
+		}
+	}
+    
 	army = {
 		male = {
 			"gfx/leaders/AQIR/aqir_beige.dds"

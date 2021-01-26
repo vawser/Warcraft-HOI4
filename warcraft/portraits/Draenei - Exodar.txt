@@ -1,4 +1,41 @@
 EXO = {
+    operative = {
+		male = {
+			"gfx/leaders/DRAENEI/draenei_male_1.dds"
+			"gfx/leaders/DRAENEI/draenei_male_2.dds"
+            "gfx/leaders/DRAENEI/draenei_male_3.dds"
+            "gfx/leaders/DRAENEI/draenei_male_4.dds"
+            "gfx/leaders/DRAENEI/draenei_male_5.dds"
+            "gfx/leaders/DRAENEI/draenei_male_7.dds"
+            "gfx/leaders/DRAENEI/draenei_male_8.dds"
+            "gfx/leaders/DRAENEI/draenei_male_9.dds"
+            "gfx/leaders/DRAENEI/draenei_male_9.dds"
+            "gfx/leaders/DRAENEI/draenei_male_10.dds"
+            "gfx/leaders/DRAENEI/draenei_male_11.dds"
+            "gfx/leaders/DRAENEI/draenei_male_12.dds"
+            "gfx/leaders/DRAENEI/draenei_male_13.dds"
+            "gfx/leaders/DRAENEI/draenei_male_14.dds"
+            "gfx/leaders/DRAENEI/draenei_male_15.dds"
+		}
+        female = {
+			"gfx/leaders/DRAENEI/draenei_female_1.dds"
+			"gfx/leaders/DRAENEI/draenei_female_2.dds"
+            "gfx/leaders/DRAENEI/draenei_female_3.dds"
+            "gfx/leaders/DRAENEI/draenei_female_4.dds"
+            "gfx/leaders/DRAENEI/draenei_female_5.dds"
+            "gfx/leaders/DRAENEI/draenei_female_7.dds"
+            "gfx/leaders/DRAENEI/draenei_female_8.dds"
+            "gfx/leaders/DRAENEI/draenei_female_9.dds"
+            "gfx/leaders/DRAENEI/draenei_female_9.dds"
+            "gfx/leaders/DRAENEI/draenei_female_10.dds"
+            "gfx/leaders/DRAENEI/draenei_female_11.dds"
+            "gfx/leaders/DRAENEI/draenei_female_12.dds"
+            "gfx/leaders/DRAENEI/draenei_female_13.dds"
+            "gfx/leaders/DRAENEI/draenei_female_14.dds"
+            "gfx/leaders/DRAENEI/draenei_female_15.dds"
+		}
+	}
+    
 	army = {
 		male = {
 			"gfx/leaders/DRAENEI/draenei_male_1.dds"

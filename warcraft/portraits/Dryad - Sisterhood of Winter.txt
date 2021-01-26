@@ -1,4 +1,13 @@
 SOW = {
+    operative = {
+		male = {
+			"gfx/leaders/DRYAD/dryad_frost.dds"
+		}
+        female = {
+			"gfx/leaders/DRYAD/dryad_frost.dds"
+		}
+	}
+    
 	army = {
 		male = {
 			"gfx/leaders/DRYAD/dryad_frost.dds"

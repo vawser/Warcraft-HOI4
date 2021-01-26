@@ -1,12 +1,27 @@
 CHI = {
+    operative = {
+		male = {
+			"gfx/leaders/MURLOC/murloc_corrupt.dds"
+		}
+        female = {
+			"gfx/leaders/MURLOC/murloc_corrupt.dds"
+		}
+	}
+    
 	army = {
 		male = {
+			"gfx/leaders/MURLOC/murloc_corrupt.dds"
+		}
+        female = {
 			"gfx/leaders/MURLOC/murloc_corrupt.dds"
 		}
 	}
 
 	navy = {
 		male = {
+			"gfx/leaders/MURLOC/murloc_corrupt.dds"
+		}
+        female = {
 			"gfx/leaders/MURLOC/murloc_corrupt.dds"
 		}
 	}
@@ -16,9 +31,15 @@ CHI = {
 			male = {
                 "gfx/leaders/MURLOC/murloc_corrupt.dds"
             }
+            female = {
+                "gfx/leaders/MURLOC/murloc_corrupt.dds"
+            }
 		}
 		shadow = {
 			male = {
+                "gfx/leaders/MURLOC/murloc_corrupt.dds"
+            }
+            female = {
                 "gfx/leaders/MURLOC/murloc_corrupt.dds"
             }
 		}
@@ -26,9 +47,15 @@ CHI = {
 			male = {
                 "gfx/leaders/MURLOC/murloc_corrupt.dds"
             }
+            female = {
+                "gfx/leaders/MURLOC/murloc_corrupt.dds"
+            }
 		}
         disorder = {
 			male = {
+                "gfx/leaders/MURLOC/murloc_corrupt.dds"
+            }
+            female = {
                 "gfx/leaders/MURLOC/murloc_corrupt.dds"
             }
 		}
@@ -36,14 +63,23 @@ CHI = {
 			male = {
                 "gfx/leaders/MURLOC/murloc_corrupt.dds"
             }
+            female = {
+                "gfx/leaders/MURLOC/murloc_corrupt.dds"
+            }
 		}
         death = {
 			male = {
                 "gfx/leaders/MURLOC/murloc_corrupt.dds"
             }
+            female = {
+                "gfx/leaders/MURLOC/murloc_corrupt.dds"
+            }
 		}
         unaligned = {
 			male = {
+                "gfx/leaders/MURLOC/murloc_corrupt.dds"
+            }
+            female = {
                 "gfx/leaders/MURLOC/murloc_corrupt.dds"
             }
 		}

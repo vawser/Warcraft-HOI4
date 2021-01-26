@@ -10,7 +10,7 @@ buildings = {
 	infrastructure = {
         icon_frame = 4
         
-		base_cost = 2200
+		base_cost = 500
 		max_level = 10
 		value = 1
         
@@ -22,7 +22,7 @@ buildings = {
     air_base = {
         icon_frame = 13
         
-        base_cost = 2200
+        base_cost = 500
         max_level = 10
 		value = 1
         damage_factor = 0.5
@@ -35,7 +35,7 @@ buildings = {
     anti_air_building = {
         icon_frame = 8
         
-        base_cost = 2200
+        base_cost = 500
         max_level = 10
 		value = 1
         damage_factor = 0.1
@@ -51,7 +51,7 @@ buildings = {
     radar_station = {
         icon_frame = 10
         
-        base_cost = 2200
+        base_cost = 500
         max_level = 10
 		value = 4
         damage_factor = 0.5
@@ -68,8 +68,8 @@ buildings = {
 	arms_factory = {
         icon_frame = 6
         
-        base_cost = 2200
-		base_cost_conversion = 1100
+        base_cost = 1000
+		base_cost_conversion = 250
         max_level = 10
         value = 8
 
@@ -85,8 +85,8 @@ buildings = {
 	industrial_complex = {
         icon_frame = 2
 
-		base_cost = 2200
-		base_cost_conversion = 1100
+		base_cost = 1000
+		base_cost_conversion = 250
         max_level = 10
         value = 5
         
@@ -101,7 +101,7 @@ buildings = {
     dockyard = {
         icon_frame = 14
 
-		base_cost = 2200
+		base_cost = 1000
 		max_level = 10
 		value = 5
         
@@ -122,7 +122,7 @@ buildings = {
     temple = {
         icon_frame = 17
 
-		base_cost = 1500
+		base_cost = 2000
 		max_level = 10
         value = 1
         
@@ -136,7 +136,7 @@ buildings = {
     forum = {
         icon_frame = 18
 
-		base_cost = 1500
+		base_cost = 2000
 		max_level = 10
         value = 1
         
@@ -150,7 +150,7 @@ buildings = {
     tavern = {
         icon_frame = 19
 
-		base_cost = 1500
+		base_cost = 2000
 		max_level = 10
         value = 1
         
@@ -164,7 +164,7 @@ buildings = {
     arena = {
         icon_frame = 20
 
-		base_cost = 1500
+		base_cost = 2000
 		max_level = 10
         value = 1
         
@@ -178,7 +178,7 @@ buildings = {
     command_post = {
         icon_frame = 21
 
-		base_cost = 1500
+		base_cost = 2000
 		max_level = 10
         value = 1
         
@@ -192,7 +192,7 @@ buildings = {
     training_ground = {
         icon_frame = 22
 
-		base_cost = 1500
+		base_cost = 2000
 		max_level = 10
         value = 1
         
@@ -206,7 +206,7 @@ buildings = {
     airfield = {
         icon_frame = 23
 
-		base_cost = 1500
+		base_cost = 2000
 		max_level = 10
         value = 1
         
@@ -220,7 +220,7 @@ buildings = {
     harbour = {
         icon_frame = 24
 
-		base_cost = 1500
+		base_cost = 2000
 		max_level = 5
         value = 1
         
@@ -235,7 +235,7 @@ buildings = {
     manufactory = {
         icon_frame = 25
 
-		base_cost = 1500
+		base_cost = 2000
 		max_level = 10
         value = 1
         
@@ -252,7 +252,7 @@ buildings = {
     oil_pump = {
         icon_frame = 1
         
-		base_cost = 4500
+		base_cost = 3000
 		max_level = 3 
 		value = 5
         
@@ -271,7 +271,7 @@ buildings = {
     roost = {
         icon_frame = 16
 
-		base_cost = 4500
+		base_cost = 3000
 		max_level = 3 
         value = 5
         
@@ -289,7 +289,7 @@ buildings = {
     stable = {
         icon_frame = 5
 
-		base_cost = 4500
+		base_cost = 3000
 		max_level = 3 
         value = 5
 		
@@ -307,7 +307,7 @@ buildings = {
     lumbercamp = {
         icon_frame = 9
         
-		base_cost = 4500
+		base_cost = 3000
 		max_level = 3 
         value = 5
 		
@@ -325,7 +325,7 @@ buildings = {
     smeltery = {
         icon_frame = 7
         
-		base_cost = 4500
+		base_cost = 3000
 		max_level = 3 
         value = 5
 		
@@ -343,7 +343,7 @@ buildings = {
     farm = {
         icon_frame = 11
         
-		base_cost = 4500
+		base_cost = 3000
 		max_level = 3 
         value = 5
 		
@@ -364,7 +364,7 @@ buildings = {
 	naval_base = {
         icon_frame = 15
         
-        base_cost = 2200
+        base_cost = 250
         max_level = 10
 		value = 1
 		
@@ -380,7 +380,7 @@ buildings = {
 	bunker = {
         icon_frame = 12
 
-		base_cost = 1000
+		base_cost = 250
         max_level = 10
 		value = 1
         
@@ -396,7 +396,7 @@ buildings = {
 	coastal_bunker = {
         icon_frame = 3
         
-		base_cost = 1000
+		base_cost = 250
         max_level = 10
 		value = 1
         

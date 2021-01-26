@@ -1,4 +1,13 @@
 WFY = {
+    operative = {
+		male = {
+			"gfx/leaders/HARPY/harpy_white.dds"
+		}
+        female = {
+			"gfx/leaders/HARPY/harpy_white.dds"
+		}
+	}
+    
 	army = {
 		male = {
 			"gfx/leaders/HARPY/harpy_white.dds"

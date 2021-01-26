@@ -1,4 +1,13 @@
 SPN = {
+    operative = {
+		male = {
+			"gfx/leaders/PANDAREN/shado_pan_male_1.dds"
+		}
+        female = {
+			"gfx/leaders/PANDAREN/shado_pan_female_1.dds"
+		}
+	}
+    
 	army = {
 		male = {
 			"gfx/leaders/PANDAREN/shado_pan_male_1.dds"

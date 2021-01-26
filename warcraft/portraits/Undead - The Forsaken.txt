@@ -1,4 +1,31 @@
 FOR = {
+    operative = {
+		male = {
+			"gfx/leaders/UNDEAD/undead_male_1.dds"
+			"gfx/leaders/UNDEAD/undead_male_2.dds"
+            "gfx/leaders/UNDEAD/undead_male_3.dds"
+            "gfx/leaders/UNDEAD/undead_male_4.dds"
+            "gfx/leaders/UNDEAD/undead_male_5.dds"
+            "gfx/leaders/UNDEAD/undead_male_6.dds"
+            "gfx/leaders/UNDEAD/undead_male_7.dds"
+            "gfx/leaders/UNDEAD/undead_male_8.dds"
+            "gfx/leaders/UNDEAD/undead_male_9.dds"
+            "gfx/leaders/UNDEAD/undead_male_10.dds" 
+		}
+        female = {
+			"gfx/leaders/UNDEAD/undead_female_1.dds"
+			"gfx/leaders/UNDEAD/undead_female_2.dds"
+            "gfx/leaders/UNDEAD/undead_female_3.dds"
+            "gfx/leaders/UNDEAD/undead_female_4.dds"
+            "gfx/leaders/UNDEAD/undead_female_5.dds"
+            "gfx/leaders/UNDEAD/undead_female_6.dds"
+            "gfx/leaders/UNDEAD/undead_female_7.dds"
+            "gfx/leaders/UNDEAD/undead_female_8.dds"
+            "gfx/leaders/UNDEAD/undead_female_9.dds"
+            "gfx/leaders/UNDEAD/undead_female_10.dds"
+		}
+	}
+    
 	army = {
 		male = {
 			"gfx/leaders/UNDEAD/undead_male_1.dds"

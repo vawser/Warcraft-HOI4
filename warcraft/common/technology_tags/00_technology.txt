@@ -47,87 +47,180 @@ technology_categories = {
     submarine_tech
     destroyer_tech
     convoy_tech
-    naval_component_tech
-
-    # Side
-    leadership_tech
-    experience_tech
-    organisation_tech
-    naval_invasion_tech
     
     # Industry
+    economic_tech
     industry_tech
     construction_tech
+    extraction_tech
     production_tech
-    repair_tech
-    efficiency_tech
-    
-    # Buildings
-    resource_tech
-    fuel_pump_tech
-    roost_tech
-    stable_tech
-    lumberyard_tech
-    smeltery_tech
-    farm_tech
     
     # Doctrine
+    doctrine_tech
     land_doctrine_tech
     air_doctrine_tech
     naval_doctrine_tech
-    doctrine_tech
     
     # Statecraft
-    statecraft_tech
     political_tech
-    espionage_tech
-    religion_tech
-    invention_tech
+    statecraft_tech
     diplomacy_tech
 }
 
 technology_folders = {
-	army_folder = {
+    #------------------------
+    # Army
+    #------------------------
+	army_grunt_folder = {
         ledger = army
     }
-    support_folder = {
+    army_champion_folder = {
         ledger = army
     }
-    air_folder = {
-        ledger = air
+    army_spellcaster_folder = {
+        ledger = army
     }
-    navy_folder = {
+    army_archer_folder = {
+        ledger = army
+    }
+    army_war_engine_folder = {
+        ledger = army
+    }
+    army_support_folder = {
+        ledger = army
+    }
+    army_light_cavalry_folder = {
+        ledger = army
+    }
+    army_heavy_cavalry_folder = {
+        ledger = army
+    }
+    army_light_tank_folder = {
+        ledger = army
+    }
+    army_heavy_tank_folder = {
+        ledger = army
+    }
+    army_vanquisher_doctrine_folder = {
+        ledger = army
+        doctrine = yes
+    }
+    army_aegis_doctrine_folder = {
+        ledger = army
+        doctrine = yes
+    }
+    
+    #------------------------
+    # Navy
+    #------------------------
+    navy_battleship_folder = {
         available = {
 			not = { has_dlc = "Man the Guns" }
 		}
         ledger = navy
     }
-    navy_mtg_folder = {
+    navy_cruiser_folder = {
+        available = {
+			not = { has_dlc = "Man the Guns" }
+		}
+        ledger = navy
+    }
+    navy_destroyer_folder = {
+        available = {
+			not = { has_dlc = "Man the Guns" }
+		}
+        ledger = navy
+    }
+    navy_submarine_folder = {
+        available = {
+			not = { has_dlc = "Man the Guns" }
+		}
+        ledger = navy
+    }
+    navy_barrage_doctrine_folder = {
+        ledger = navy
+        doctrine = yes
+    }
+    navy_assault_doctrine_folder = {
+        ledger = navy
+        doctrine = yes
+    }
+    
+    # MTG
+    mtg_navy_battleship_folder = {
+        available = {
+            has_dlc = "Man the Guns"
+		}
+        ledger = navy
+    }
+    mtg_navy_cruiser_folder = {
         available = {
 			has_dlc = "Man the Guns"
 		}
         ledger = navy
     }
-    industry_folder = {
-        ledger = civilian
+    mtg_navy_destroyer_folder = {
+        available = {
+			has_dlc = "Man the Guns"
+		}
+        ledger = navy
     }
-    resources_folder = {
-        ledger = civilian
+    mtg_navy_submarine_folder = {
+        available = {
+			has_dlc = "Man the Guns"
+		}
+        ledger = navy
     }
-    statecraft_folder = {
-        ledger = civilian
+    
+    
+    #------------------------
+    # Air
+    #------------------------
+    air_fighter_folder = {
+        ledger = air
     }
-    land_doctrine_folder = {
-        ledger = army
-        doctrine = yes
+    air_cas_folder = {
+        ledger = air
     }
-    air_doctrine_folder = {
+    air_tactical_bomber_folder = {
+        ledger = air
+    }
+    air_strategic_bomber_folder = {
+        ledger = air
+    }
+    air_incursion_doctrine_folder = {
         ledger = air
         doctrine = yes
     }
-    naval_doctrine_folder = {
-        ledger = navy
+    air_firestorm_doctrine_folder = {
+        ledger = air
         doctrine = yes
+    }
+    
+    #------------------------
+    # Industry
+    #------------------------
+    industry_folder = {
+        ledger = civilian
+    }
+    production_folder = {
+        ledger = civilian
+    }
+    extraction_folder = {
+        ledger = civilian
+    }
+    construction_folder = {
+        ledger = civilian
+    }
+    
+    #------------------------
+    # Political
+    #------------------------
+    statecraft_folder = {
+        ledger = civilian
+    }
+    diplomacy_folder = {
+        ledger = civilian
     }
 }
 

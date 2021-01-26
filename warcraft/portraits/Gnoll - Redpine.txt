@@ -1,6 +1,24 @@
 REP = {
+    operative = {
+		male = {
+			"gfx/leaders/GNOLL/gnoll_redridge_1.dds"
+			"gfx/leaders/GNOLL/gnoll_redridge_2.dds"
+            "gfx/leaders/GNOLL/gnoll_redridge_3.dds"
+		}
+        female = {
+			"gfx/leaders/GNOLL/gnoll_redridge_1.dds"
+			"gfx/leaders/GNOLL/gnoll_redridge_2.dds"
+            "gfx/leaders/GNOLL/gnoll_redridge_3.dds"
+		}
+	}
+    
 	army = {
 		male = {
+			"gfx/leaders/GNOLL/gnoll_redridge_1.dds"
+			"gfx/leaders/GNOLL/gnoll_redridge_2.dds"
+            "gfx/leaders/GNOLL/gnoll_redridge_3.dds"
+		}
+        female = {
 			"gfx/leaders/GNOLL/gnoll_redridge_1.dds"
 			"gfx/leaders/GNOLL/gnoll_redridge_2.dds"
             "gfx/leaders/GNOLL/gnoll_redridge_3.dds"
@@ -9,6 +27,11 @@ REP = {
 
 	navy = {
 		male = {
+			"gfx/leaders/GNOLL/gnoll_redridge_1.dds"
+			"gfx/leaders/GNOLL/gnoll_redridge_2.dds"
+            "gfx/leaders/GNOLL/gnoll_redridge_3.dds"
+		}
+        female = {
 			"gfx/leaders/GNOLL/gnoll_redridge_1.dds"
 			"gfx/leaders/GNOLL/gnoll_redridge_2.dds"
             "gfx/leaders/GNOLL/gnoll_redridge_3.dds"
@@ -22,9 +45,19 @@ REP = {
                 "gfx/leaders/GNOLL/gnoll_redridge_2.dds"
                 "gfx/leaders/GNOLL/gnoll_redridge_3.dds"
             }
+            female = {
+                "gfx/leaders/GNOLL/gnoll_redridge_1.dds"
+                "gfx/leaders/GNOLL/gnoll_redridge_2.dds"
+                "gfx/leaders/GNOLL/gnoll_redridge_3.dds"
+            }
 		}
 		shadow = {
 			male = {
+                "gfx/leaders/GNOLL/gnoll_redridge_1.dds"
+                "gfx/leaders/GNOLL/gnoll_redridge_2.dds"
+                "gfx/leaders/GNOLL/gnoll_redridge_3.dds"
+            }
+            female = {
                 "gfx/leaders/GNOLL/gnoll_redridge_1.dds"
                 "gfx/leaders/GNOLL/gnoll_redridge_2.dds"
                 "gfx/leaders/GNOLL/gnoll_redridge_3.dds"
@@ -36,9 +69,19 @@ REP = {
                 "gfx/leaders/GNOLL/gnoll_redridge_2.dds"
                 "gfx/leaders/GNOLL/gnoll_redridge_3.dds"
             }
+            female = {
+                "gfx/leaders/GNOLL/gnoll_redridge_1.dds"
+                "gfx/leaders/GNOLL/gnoll_redridge_2.dds"
+                "gfx/leaders/GNOLL/gnoll_redridge_3.dds"
+            }
 		}
         disorder = {
 			male = {
+                "gfx/leaders/GNOLL/gnoll_redridge_1.dds"
+                "gfx/leaders/GNOLL/gnoll_redridge_2.dds"
+                "gfx/leaders/GNOLL/gnoll_redridge_3.dds"
+            }
+            female = {
                 "gfx/leaders/GNOLL/gnoll_redridge_1.dds"
                 "gfx/leaders/GNOLL/gnoll_redridge_2.dds"
                 "gfx/leaders/GNOLL/gnoll_redridge_3.dds"
@@ -50,9 +93,19 @@ REP = {
                 "gfx/leaders/GNOLL/gnoll_redridge_2.dds"
                 "gfx/leaders/GNOLL/gnoll_redridge_3.dds"
             }
+            female = {
+                "gfx/leaders/GNOLL/gnoll_redridge_1.dds"
+                "gfx/leaders/GNOLL/gnoll_redridge_2.dds"
+                "gfx/leaders/GNOLL/gnoll_redridge_3.dds"
+            }
 		}
         death = {
 			male = {
+                "gfx/leaders/GNOLL/gnoll_redridge_1.dds"
+                "gfx/leaders/GNOLL/gnoll_redridge_2.dds"
+                "gfx/leaders/GNOLL/gnoll_redridge_3.dds"
+            }
+            female = {
                 "gfx/leaders/GNOLL/gnoll_redridge_1.dds"
                 "gfx/leaders/GNOLL/gnoll_redridge_2.dds"
                 "gfx/leaders/GNOLL/gnoll_redridge_3.dds"
@@ -64,6 +117,8 @@ REP = {
                 "gfx/leaders/GNOLL/gnoll_redridge_2.dds"
                 "gfx/leaders/GNOLL/gnoll_redridge_3.dds"
             }
-		}
-	}
-}
+            female = {
+                "gfx/leaders/GNOLL/gnoll_redridge_1.dds"
+                "gfx/leaders/GNOLL/gnoll_redridge_2.dds"
+                "gfx/leaders/GNOLL/gnoll_redridge_3.dds"
+            }

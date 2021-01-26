@@ -1,6 +1,30 @@
 SMW = {
+    operative = {
+		male = {
+			"gfx/leaders/GOBLIN/goblin_male_1.dds"
+			"gfx/leaders/GOBLIN/goblin_male_2.dds"
+            "gfx/leaders/GOBLIN/goblin_male_3.dds"
+            "gfx/leaders/GOBLIN/goblin_male_4.dds"
+            "gfx/leaders/GOBLIN/goblin_male_5.dds"
+		}
+        female = {
+			"gfx/leaders/GOBLIN/goblin_male_1.dds"
+			"gfx/leaders/GOBLIN/goblin_male_2.dds"
+            "gfx/leaders/GOBLIN/goblin_male_3.dds"
+            "gfx/leaders/GOBLIN/goblin_male_4.dds"
+            "gfx/leaders/GOBLIN/goblin_male_5.dds"
+		}
+	}
+    
 	army = {
 		male = {
+			"gfx/leaders/GOBLIN/goblin_male_1.dds"
+			"gfx/leaders/GOBLIN/goblin_male_2.dds"
+            "gfx/leaders/GOBLIN/goblin_male_3.dds"
+            "gfx/leaders/GOBLIN/goblin_male_4.dds"
+            "gfx/leaders/GOBLIN/goblin_male_5.dds"
+		}
+        female = {
 			"gfx/leaders/GOBLIN/goblin_male_1.dds"
 			"gfx/leaders/GOBLIN/goblin_male_2.dds"
             "gfx/leaders/GOBLIN/goblin_male_3.dds"
@@ -17,11 +41,25 @@ SMW = {
             "gfx/leaders/GOBLIN/goblin_male_4.dds"
             "gfx/leaders/GOBLIN/goblin_male_5.dds"
 		}
+        female = {
+			"gfx/leaders/GOBLIN/goblin_male_1.dds"
+			"gfx/leaders/GOBLIN/goblin_male_2.dds"
+            "gfx/leaders/GOBLIN/goblin_male_3.dds"
+            "gfx/leaders/GOBLIN/goblin_male_4.dds"
+            "gfx/leaders/GOBLIN/goblin_male_5.dds"
+		}
 	}
 
 	political = {
 		holy = {
 			male = {
+                "gfx/leaders/GOBLIN/goblin_male_1.dds"
+                "gfx/leaders/GOBLIN/goblin_male_2.dds"
+                "gfx/leaders/GOBLIN/goblin_male_3.dds"
+                "gfx/leaders/GOBLIN/goblin_male_4.dds"
+                "gfx/leaders/GOBLIN/goblin_male_5.dds"
+            }
+            female = {
                 "gfx/leaders/GOBLIN/goblin_male_1.dds"
                 "gfx/leaders/GOBLIN/goblin_male_2.dds"
                 "gfx/leaders/GOBLIN/goblin_male_3.dds"
@@ -46,9 +84,23 @@ SMW = {
                 "gfx/leaders/GOBLIN/goblin_male_4.dds"
                 "gfx/leaders/GOBLIN/goblin_male_5.dds"
             }
+            female = {
+                "gfx/leaders/GOBLIN/goblin_male_1.dds"
+                "gfx/leaders/GOBLIN/goblin_male_2.dds"
+                "gfx/leaders/GOBLIN/goblin_male_3.dds"
+                "gfx/leaders/GOBLIN/goblin_male_4.dds"
+                "gfx/leaders/GOBLIN/goblin_male_5.dds"
+            }
 		}
         disorder = {
 			male = {
+                "gfx/leaders/GOBLIN/goblin_male_1.dds"
+                "gfx/leaders/GOBLIN/goblin_male_2.dds"
+                "gfx/leaders/GOBLIN/goblin_male_3.dds"
+                "gfx/leaders/GOBLIN/goblin_male_4.dds"
+                "gfx/leaders/GOBLIN/goblin_male_5.dds"
+            }
+            female = {
                 "gfx/leaders/GOBLIN/goblin_male_1.dds"
                 "gfx/leaders/GOBLIN/goblin_male_2.dds"
                 "gfx/leaders/GOBLIN/goblin_male_3.dds"
@@ -64,6 +116,13 @@ SMW = {
                 "gfx/leaders/GOBLIN/goblin_male_4.dds"
                 "gfx/leaders/GOBLIN/goblin_male_5.dds"
             }
+            female = {
+                "gfx/leaders/GOBLIN/goblin_male_1.dds"
+                "gfx/leaders/GOBLIN/goblin_male_2.dds"
+                "gfx/leaders/GOBLIN/goblin_male_3.dds"
+                "gfx/leaders/GOBLIN/goblin_male_4.dds"
+                "gfx/leaders/GOBLIN/goblin_male_5.dds"
+            }
 		}
         death = {
 			male = {
@@ -73,9 +132,23 @@ SMW = {
                 "gfx/leaders/GOBLIN/goblin_male_4.dds"
                 "gfx/leaders/GOBLIN/goblin_male_5.dds"
             }
+            female = {
+                "gfx/leaders/GOBLIN/goblin_male_1.dds"
+                "gfx/leaders/GOBLIN/goblin_male_2.dds"
+                "gfx/leaders/GOBLIN/goblin_male_3.dds"
+                "gfx/leaders/GOBLIN/goblin_male_4.dds"
+                "gfx/leaders/GOBLIN/goblin_male_5.dds"
+            }
 		}
         unaligned = {
 			male = {
+                "gfx/leaders/GOBLIN/goblin_male_1.dds"
+                "gfx/leaders/GOBLIN/goblin_male_2.dds"
+                "gfx/leaders/GOBLIN/goblin_male_3.dds"
+                "gfx/leaders/GOBLIN/goblin_male_4.dds"
+                "gfx/leaders/GOBLIN/goblin_male_5.dds"
+            }
+            female = {
                 "gfx/leaders/GOBLIN/goblin_male_1.dds"
                 "gfx/leaders/GOBLIN/goblin_male_2.dds"
                 "gfx/leaders/GOBLIN/goblin_male_3.dds"

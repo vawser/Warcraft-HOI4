@@ -51,2490 +51,446 @@ spriteTypes = {
     #-------------------------------------
     # Icons
     #-------------------------------------
-    
     SpriteType = {
-        name = "GFX_faith_cost_1_medium"
-        texturefile = "gfx/interface/ideas/technology/faith_cost.dds"
+        name = "GFX_grunt_tech_1_medium"
+        texturefile = "gfx/interface/ideas/technology/grunt_equipment.dds"
     }
     SpriteType = {
-        name = "GFX_faith_cost_2_medium"
-        texturefile = "gfx/interface/ideas/technology/faith_cost.dds"
+        name = "GFX_grunt_tech_3_medium"
+        texturefile = "gfx/interface/ideas/technology/grunt_equipment.dds"
     }
     SpriteType = {
-        name = "GFX_faith_cost_3_medium"
-        texturefile = "gfx/interface/ideas/technology/faith_cost.dds"
+        name = "GFX_grunt_tech_5_medium"
+        texturefile = "gfx/interface/ideas/technology/grunt_equipment.dds"
     }
     SpriteType = {
-        name = "GFX_faith_cost_4_medium"
-        texturefile = "gfx/interface/ideas/technology/faith_cost.dds"
+        name = "GFX_grunt_tech_7_medium"
+        texturefile = "gfx/interface/ideas/technology/grunt_equipment.dds"
     }
     SpriteType = {
-        name = "GFX_faith_cost_5_medium"
-        texturefile = "gfx/interface/ideas/technology/faith_cost.dds"
+        name = "GFX_grunt_tech_9_medium"
+        texturefile = "gfx/interface/ideas/technology/grunt_equipment.dds"
     }
-    
     SpriteType = {
-        name = "GFX_faith_potency_1_medium"
-        texturefile = "gfx/interface/ideas/technology/faith_potency.dds"
+        name = "GFX_champion_tech_1_medium"
+        texturefile = "gfx/interface/ideas/technology/champion_equipment.dds"
     }
     SpriteType = {
-        name = "GFX_faith_potency_2_medium"
-        texturefile = "gfx/interface/ideas/technology/faith_potency.dds"
+        name = "GFX_champion_tech_3_medium"
+        texturefile = "gfx/interface/ideas/technology/champion_equipment.dds"
     }
     SpriteType = {
-        name = "GFX_faith_potency_3_medium"
-        texturefile = "gfx/interface/ideas/technology/faith_potency.dds"
+        name = "GFX_champion_tech_5_medium"
+        texturefile = "gfx/interface/ideas/technology/champion_equipment.dds"
     }
     SpriteType = {
-        name = "GFX_faith_potency_4_medium"
-        texturefile = "gfx/interface/ideas/technology/faith_potency.dds"
+        name = "GFX_champion_tech_7_medium"
+        texturefile = "gfx/interface/ideas/technology/champion_equipment.dds"
     }
     SpriteType = {
-        name = "GFX_faith_potency_5_medium"
-        texturefile = "gfx/interface/ideas/technology/faith_potency.dds"
+        name = "GFX_champion_tech_9_medium"
+        texturefile = "gfx/interface/ideas/technology/champion_equipment.dds"
     }
-    
     SpriteType = {
-        name = "GFX_faith_growth_1_medium"
-        texturefile = "gfx/interface/ideas/technology/faith_gain.dds"
+        name = "GFX_archer_tech_1_medium"
+        texturefile = "gfx/interface/ideas/technology/archer_equipment.dds"
     }
     SpriteType = {
-        name = "GFX_faith_growth_2_medium"
-        texturefile = "gfx/interface/ideas/technology/faith_gain.dds"
+        name = "GFX_archer_tech_3_medium"
+        texturefile = "gfx/interface/ideas/technology/archer_equipment.dds"
     }
     SpriteType = {
-        name = "GFX_faith_growth_3_medium"
-        texturefile = "gfx/interface/ideas/technology/faith_gain.dds"
+        name = "GFX_archer_tech_5_medium"
+        texturefile = "gfx/interface/ideas/technology/archer_equipment.dds"
     }
     SpriteType = {
-        name = "GFX_faith_growth_4_medium"
-        texturefile = "gfx/interface/ideas/technology/faith_gain.dds"
+        name = "GFX_archer_tech_7_medium"
+        texturefile = "gfx/interface/ideas/technology/archer_equipment.dds"
     }
     SpriteType = {
-        name = "GFX_faith_growth_5_medium"
-        texturefile = "gfx/interface/ideas/technology/faith_gain.dds"
+        name = "GFX_archer_tech_9_medium"
+        texturefile = "gfx/interface/ideas/technology/archer_equipment.dds"
     }
-    
     SpriteType = {
-        name = "GFX_action_growth_1_medium"
-        texturefile = "gfx/interface/ideas/technology/spy_action_growth.dds"
+        name = "GFX_spellcaster_tech_1_medium"
+        texturefile = "gfx/interface/ideas/technology/spellcaster_equipment.dds"
     }
     SpriteType = {
-        name = "GFX_action_growth_2_medium"
-        texturefile = "gfx/interface/ideas/technology/spy_action_growth.dds"
+        name = "GFX_spellcaster_tech_3_medium"
+        texturefile = "gfx/interface/ideas/technology/spellcaster_equipment.dds"
     }
     SpriteType = {
-        name = "GFX_action_growth_3_medium"
-        texturefile = "gfx/interface/ideas/technology/spy_action_growth.dds"
+        name = "GFX_spellcaster_tech_5_medium"
+        texturefile = "gfx/interface/ideas/technology/spellcaster_equipment.dds"
     }
     SpriteType = {
-        name = "GFX_action_growth_4_medium"
-        texturefile = "gfx/interface/ideas/technology/spy_action_growth.dds"
+        name = "GFX_spellcaster_tech_7_medium"
+        texturefile = "gfx/interface/ideas/technology/spellcaster_equipment.dds"
     }
     SpriteType = {
-        name = "GFX_action_growth_5_medium"
-        texturefile = "gfx/interface/ideas/technology/spy_action_growth.dds"
+        name = "GFX_spellcaster_tech_9_medium"
+        texturefile = "gfx/interface/ideas/technology/spellcaster_equipment.dds"
     }
-    
     SpriteType = {
-        name = "GFX_network_growth_1_medium"
-        texturefile = "gfx/interface/ideas/technology/spy_network_growth.dds"
+        name = "GFX_light_cavalry_tech_1_medium"
+        texturefile = "gfx/interface/ideas/technology/light_cavalry_equipment.dds"
     }
     SpriteType = {
-        name = "GFX_network_growth_2_medium"
-        texturefile = "gfx/interface/ideas/technology/spy_network_growth.dds"
+        name = "GFX_light_cavalry_tech_3_medium"
+        texturefile = "gfx/interface/ideas/technology/light_cavalry_equipment.dds"
     }
     SpriteType = {
-        name = "GFX_network_growth_3_medium"
-        texturefile = "gfx/interface/ideas/technology/spy_network_growth.dds"
+        name = "GFX_light_cavalry_tech_5_medium"
+        texturefile = "gfx/interface/ideas/technology/light_cavalry_equipment.dds"
     }
     SpriteType = {
-        name = "GFX_network_growth_4_medium"
-        texturefile = "gfx/interface/ideas/technology/spy_network_growth.dds"
+        name = "GFX_light_cavalry_tech_7_medium"
+        texturefile = "gfx/interface/ideas/technology/light_cavalry_equipment.dds"
     }
     SpriteType = {
-        name = "GFX_network_growth_5_medium"
-        texturefile = "gfx/interface/ideas/technology/spy_network_growth.dds"
+        name = "GFX_light_cavalry_tech_9_medium"
+        texturefile = "gfx/interface/ideas/technology/light_cavalry_equipment.dds"
     }
-    
     SpriteType = {
-        name = "GFX_espionage_1_medium"
-        texturefile = "gfx/interface/ideas/technology/spy_action.dds"
+        name = "GFX_heavy_cavalry_tech_1_medium"
+        texturefile = "gfx/interface/ideas/technology/heavy_cavalry_equipment.dds"
     }
     SpriteType = {
-        name = "GFX_espionage_2_medium"
-        texturefile = "gfx/interface/ideas/technology/spy_action.dds"
+        name = "GFX_heavy_cavalry_tech_3_medium"
+        texturefile = "gfx/interface/ideas/technology/heavy_cavalry_equipment.dds"
     }
     SpriteType = {
-        name = "GFX_espionage_3_medium"
-        texturefile = "gfx/interface/ideas/technology/spy_action.dds"
+        name = "GFX_heavy_cavalry_tech_5_medium"
+        texturefile = "gfx/interface/ideas/technology/heavy_cavalry_equipment.dds"
     }
     SpriteType = {
-        name = "GFX_espionage_4_medium"
-        texturefile = "gfx/interface/ideas/technology/spy_action.dds"
+        name = "GFX_heavy_cavalry_tech_7_medium"
+        texturefile = "gfx/interface/ideas/technology/heavy_cavalry_equipment.dds"
     }
     SpriteType = {
-        name = "GFX_espionage_5_medium"
-        texturefile = "gfx/interface/ideas/technology/spy_action.dds"
+        name = "GFX_heavy_cavalry_tech_9_medium"
+        texturefile = "gfx/interface/ideas/technology/heavy_cavalry_equipment.dds"
     }
-    
     SpriteType = {
-        name = "GFX_opinion_gain_1_medium"
-        texturefile = "gfx/interface/ideas/technology/opinion_gain.dds"
+        name = "GFX_light_tank_tech_1_medium"
+        texturefile = "gfx/interface/ideas/technology/light_tank_equipment.dds"
     }
     SpriteType = {
-        name = "GFX_opinion_gain_2_medium"
-        texturefile = "gfx/interface/ideas/technology/opinion_gain.dds"
+        name = "GFX_light_tank_tech_3_medium"
+        texturefile = "gfx/interface/ideas/technology/light_tank_equipment.dds"
     }
     SpriteType = {
-        name = "GFX_opinion_gain_3_medium"
-        texturefile = "gfx/interface/ideas/technology/opinion_gain.dds"
+        name = "GFX_light_tank_tech_5_medium"
+        texturefile = "gfx/interface/ideas/technology/light_tank_equipment.dds"
     }
     SpriteType = {
-        name = "GFX_opinion_gain_4_medium"
-        texturefile = "gfx/interface/ideas/technology/opinion_gain.dds"
+        name = "GFX_light_tank_tech_7_medium"
+        texturefile = "gfx/interface/ideas/technology/light_tank_equipment.dds"
     }
     SpriteType = {
-        name = "GFX_opinion_gain_5_medium"
-        texturefile = "gfx/interface/ideas/technology/opinion_gain.dds"
+        name = "GFX_light_tank_tech_9_medium"
+        texturefile = "gfx/interface/ideas/technology/light_tank_equipment.dds"
     }
-    
     SpriteType = {
-        name = "GFX_drift_defence_1_medium"
-        texturefile = "gfx/interface/ideas/technology/drift_defence.dds"
+        name = "GFX_heavy_tank_tech_1_medium"
+        texturefile = "gfx/interface/ideas/technology/heavy_tank_equipment.dds"
     }
     SpriteType = {
-        name = "GFX_drift_defence_2_medium"
-        texturefile = "gfx/interface/ideas/technology/drift_defence.dds"
+        name = "GFX_heavy_tank_tech_3_medium"
+        texturefile = "gfx/interface/ideas/technology/heavy_tank_equipment.dds"
     }
     SpriteType = {
-        name = "GFX_drift_defence_3_medium"
-        texturefile = "gfx/interface/ideas/technology/drift_defence.dds"
+        name = "GFX_heavy_tank_tech_5_medium"
+        texturefile = "gfx/interface/ideas/technology/heavy_tank_equipment.dds"
     }
     SpriteType = {
-        name = "GFX_drift_defence_4_medium"
-        texturefile = "gfx/interface/ideas/technology/drift_defence.dds"
+        name = "GFX_heavy_tank_tech_7_medium"
+        texturefile = "gfx/interface/ideas/technology/heavy_tank_equipment.dds"
     }
     SpriteType = {
-        name = "GFX_drift_defence_5_medium"
-        texturefile = "gfx/interface/ideas/technology/drift_defence.dds"
+        name = "GFX_heavy_tank_tech_9_medium"
+        texturefile = "gfx/interface/ideas/technology/heavy_tank_equipment.dds"
     }
-    
     SpriteType = {
-        name = "GFX_command_power_1_medium"
-        texturefile = "gfx/interface/ideas/technology/command_power.dds"
+        name = "GFX_war_engine_tech_1_medium"
+        texturefile = "gfx/interface/ideas/technology/war_engine_equipment.dds"
     }
     SpriteType = {
-        name = "GFX_command_power_2_medium"
-        texturefile = "gfx/interface/ideas/technology/command_power.dds"
+        name = "GFX_war_engine_tech_3_medium"
+        texturefile = "gfx/interface/ideas/technology/war_engine_equipment.dds"
     }
     SpriteType = {
-        name = "GFX_command_power_3_medium"
-        texturefile = "gfx/interface/ideas/technology/command_power.dds"
+        name = "GFX_war_engine_tech_5_medium"
+        texturefile = "gfx/interface/ideas/technology/war_engine_equipment.dds"
     }
     SpriteType = {
-        name = "GFX_command_power_4_medium"
-        texturefile = "gfx/interface/ideas/technology/command_power.dds"
+        name = "GFX_war_engine_tech_7_medium"
+        texturefile = "gfx/interface/ideas/technology/war_engine_equipment.dds"
     }
     SpriteType = {
-        name = "GFX_command_power_5_medium"
-        texturefile = "gfx/interface/ideas/technology/command_power.dds"
+        name = "GFX_war_engine_tech_9_medium"
+        texturefile = "gfx/interface/ideas/technology/war_engine_equipment.dds"
     }
-    
-    SpriteType = {
-        name = "GFX_decryption_1_medium"
-        texturefile = "gfx/interface/ideas/technology/decryption.dds"
-    }
-    SpriteType = {
-        name = "GFX_decryption_2_medium"
-        texturefile = "gfx/interface/ideas/technology/decryption.dds"
-    }
-    SpriteType = {
-        name = "GFX_decryption_3_medium"
-        texturefile = "gfx/interface/ideas/technology/decryption.dds"
-    }
-    SpriteType = {
-        name = "GFX_decryption_4_medium"
-        texturefile = "gfx/interface/ideas/technology/decryption.dds"
-    }
-    SpriteType = {
-        name = "GFX_decryption_5_medium"
-        texturefile = "gfx/interface/ideas/technology/decryption.dds"
-    }
-    
-    SpriteType = {
-        name = "GFX_encryption_1_medium"
-        texturefile = "gfx/interface/ideas/technology/encryption.dds"
-    }
-    SpriteType = {
-        name = "GFX_encryption_2_medium"
-        texturefile = "gfx/interface/ideas/technology/encryption.dds"
-    }
-    SpriteType = {
-        name = "GFX_encryption_3_medium"
-        texturefile = "gfx/interface/ideas/technology/encryption.dds"
-    }
-    SpriteType = {
-        name = "GFX_encryption_4_medium"
-        texturefile = "gfx/interface/ideas/technology/encryption.dds"
-    }
-    SpriteType = {
-        name = "GFX_encryption_5_medium"
-        texturefile = "gfx/interface/ideas/technology/encryption.dds"
-    }
-    
-    SpriteType = {
-        name = "GFX_research_time_1_medium"
-        texturefile = "gfx/interface/ideas/technology/research_time.dds"
-    }
-    SpriteType = {
-        name = "GFX_research_time_2_medium"
-        texturefile = "gfx/interface/ideas/technology/research_time.dds"
-    }
-    SpriteType = {
-        name = "GFX_research_time_3_medium"
-        texturefile = "gfx/interface/ideas/technology/research_time.dds"
-    }
-    SpriteType = {
-        name = "GFX_research_time_4_medium"
-        texturefile = "gfx/interface/ideas/technology/research_time.dds"
-    }
-    SpriteType = {
-        name = "GFX_research_time_5_medium"
-        texturefile = "gfx/interface/ideas/technology/research_time.dds"
-    }
-    
-    SpriteType = {
-        name = "GFX_war_support_1_medium"
-        texturefile = "gfx/interface/ideas/technology/war_support.dds"
-    }
-    SpriteType = {
-        name = "GFX_war_support_2_medium"
-        texturefile = "gfx/interface/ideas/technology/war_support.dds"
-    }
-    SpriteType = {
-        name = "GFX_war_support_3_medium"
-        texturefile = "gfx/interface/ideas/technology/war_support.dds"
-    }
-    SpriteType = {
-        name = "GFX_war_support_4_medium"
-        texturefile = "gfx/interface/ideas/technology/war_support.dds"
-    }
-    SpriteType = {
-        name = "GFX_war_support_5_medium"
-        texturefile = "gfx/interface/ideas/technology/war_support.dds"
-    }
-    
-    SpriteType = {
-        name = "GFX_stability_1_medium"
-        texturefile = "gfx/interface/ideas/technology/stability.dds"
-    }
-    SpriteType = {
-        name = "GFX_stability_2_medium"
-        texturefile = "gfx/interface/ideas/technology/stability.dds"
-    }
-    SpriteType = {
-        name = "GFX_stability_3_medium"
-        texturefile = "gfx/interface/ideas/technology/stability.dds"
-    }
-    SpriteType = {
-        name = "GFX_stability_4_medium"
-        texturefile = "gfx/interface/ideas/technology/stability.dds"
-    }
-    SpriteType = {
-        name = "GFX_stability_5_medium"
-        texturefile = "gfx/interface/ideas/technology/stability.dds"
-    }
-    
-    SpriteType = {
-        name = "GFX_political_power_1_medium"
-        texturefile = "gfx/interface/ideas/technology/political_power.dds"
-    }
-    SpriteType = {
-        name = "GFX_political_power_2_medium"
-        texturefile = "gfx/interface/ideas/technology/political_power.dds"
-    }
-    SpriteType = {
-        name = "GFX_political_power_3_medium"
-        texturefile = "gfx/interface/ideas/technology/political_power.dds"
-    }
-    SpriteType = {
-        name = "GFX_political_power_4_medium"
-        texturefile = "gfx/interface/ideas/technology/political_power.dds"
-    }
-    SpriteType = {
-        name = "GFX_political_power_5_medium"
-        texturefile = "gfx/interface/ideas/technology/political_power.dds"
-    }
-    
-    SpriteType = {
-        name = "GFX_resource_extraction_1_medium"
-        texturefile = "gfx/interface/ideas/technology/extraction.dds"
-    }
-    SpriteType = {
-        name = "GFX_resource_extraction_2_medium"
-        texturefile = "gfx/interface/ideas/technology/extraction.dds"
-    }
-    SpriteType = {
-        name = "GFX_resource_extraction_3_medium"
-        texturefile = "gfx/interface/ideas/technology/extraction.dds"
-    }
-    SpriteType = {
-        name = "GFX_resource_extraction_4_medium"
-        texturefile = "gfx/interface/ideas/technology/extraction.dds"
-    }
-    SpriteType = {
-        name = "GFX_resource_extraction_5_medium"
-        texturefile = "gfx/interface/ideas/technology/extraction.dds"
-    }
-    
-    SpriteType = {
-        name = "GFX_resource_substitution_1_medium"
-        texturefile = "gfx/interface/ideas/technology/crate.dds"
-    }
-    SpriteType = {
-        name = "GFX_resource_substitution_2_medium"
-        texturefile = "gfx/interface/ideas/technology/crate.dds"
-    }
-    SpriteType = {
-        name = "GFX_resource_substitution_3_medium"
-        texturefile = "gfx/interface/ideas/technology/crate.dds"
-    }
-    SpriteType = {
-        name = "GFX_resource_substitution_4_medium"
-        texturefile = "gfx/interface/ideas/technology/crate.dds"
-    }
-    SpriteType = {
-        name = "GFX_resource_substitution_5_medium"
-        texturefile = "gfx/interface/ideas/technology/crate.dds"
-    }
-    
-    SpriteType = {
-        name = "GFX_factory_output_1_medium"
-        texturefile = "gfx/interface/ideas/technology/factory_capacity.dds"
-    }
-    SpriteType = {
-        name = "GFX_factory_output_2_medium"
-        texturefile = "gfx/interface/ideas/technology/factory_capacity.dds"
-    }
-    SpriteType = {
-        name = "GFX_factory_output_3_medium"
-        texturefile = "gfx/interface/ideas/technology/factory_capacity.dds"
-    }
-    SpriteType = {
-        name = "GFX_factory_output_4_medium"
-        texturefile = "gfx/interface/ideas/technology/factory_capacity.dds"
-    }
-    SpriteType = {
-        name = "GFX_factory_output_5_medium"
-        texturefile = "gfx/interface/ideas/technology/factory_capacity.dds"
-    }
-    
-    SpriteType = {
-        name = "GFX_naval_base_construction_1_medium"
-        texturefile = "gfx/interface/ideas/technology/destroyer_equipment.dds"
-    }
-    SpriteType = {
-        name = "GFX_naval_base_construction_2_medium"
-        texturefile = "gfx/interface/ideas/technology/destroyer_equipment.dds"
-    }
-    SpriteType = {
-        name = "GFX_naval_base_construction_3_medium"
-        texturefile = "gfx/interface/ideas/technology/destroyer_equipment.dds"
-    }
-    SpriteType = {
-        name = "GFX_naval_base_construction_4_medium"
-        texturefile = "gfx/interface/ideas/technology/destroyer_equipment.dds"
-    }
-    SpriteType = {
-        name = "GFX_naval_base_construction_5_medium"
-        texturefile = "gfx/interface/ideas/technology/destroyer_equipment.dds"
-    }
-    
-    SpriteType = {
-        name = "GFX_dockyard_construction_1_medium"
-        texturefile = "gfx/interface/ideas/technology/destroyer.dds"
-    }
-    SpriteType = {
-        name = "GFX_dockyard_construction_2_medium"
-        texturefile = "gfx/interface/ideas/technology/destroyer.dds"
-    }
-    SpriteType = {
-        name = "GFX_dockyard_construction_3_medium"
-        texturefile = "gfx/interface/ideas/technology/destroyer.dds"
-    }
-    SpriteType = {
-        name = "GFX_dockyard_construction_4_medium"
-        texturefile = "gfx/interface/ideas/technology/destroyer.dds"
-    }
-    SpriteType = {
-        name = "GFX_dockyard_construction_5_medium"
-        texturefile = "gfx/interface/ideas/technology/destroyer.dds"
-    }
-    
-    SpriteType = {
-        name = "GFX_dockyard_output_1_medium"
-        texturefile = "gfx/interface/ideas/technology/cruiser_equipment.dds"
-    }
-    SpriteType = {
-        name = "GFX_dockyard_output_2_medium"
-        texturefile = "gfx/interface/ideas/technology/cruiser_equipment.dds"
-    }
-    SpriteType = {
-        name = "GFX_dockyard_output_3_medium"
-        texturefile = "gfx/interface/ideas/technology/cruiser_equipment.dds"
-    }
-    SpriteType = {
-        name = "GFX_dockyard_output_4_medium"
-        texturefile = "gfx/interface/ideas/technology/cruiser_equipment.dds"
-    }
-    SpriteType = {
-        name = "GFX_dockyard_output_5_medium"
-        texturefile = "gfx/interface/ideas/technology/cruiser_equipment.dds"
-    }
-    
-    SpriteType = {
-        name = "GFX_industry_free_repair_1_medium"
-        texturefile = "gfx/interface/ideas/technology/construction.dds"
-    }
-    SpriteType = {
-        name = "GFX_industry_free_repair_2_medium"
-        texturefile = "gfx/interface/ideas/technology/construction.dds"
-    }
-    SpriteType = {
-        name = "GFX_industry_free_repair_3_medium"
-        texturefile = "gfx/interface/ideas/technology/construction.dds"
-    }
-    SpriteType = {
-        name = "GFX_industry_free_repair_4_medium"
-        texturefile = "gfx/interface/ideas/technology/construction.dds"
-    }
-    SpriteType = {
-        name = "GFX_industry_free_repair_5_medium"
-        texturefile = "gfx/interface/ideas/technology/construction.dds"
-    }
-    
-    SpriteType = {
-        name = "GFX_industry_repair_1_medium"
-        texturefile = "gfx/interface/ideas/technology/construction_2.dds"
-    }
-    SpriteType = {
-        name = "GFX_industry_repair_2_medium"
-        texturefile = "gfx/interface/ideas/technology/construction_2.dds"
-    }
-    SpriteType = {
-        name = "GFX_industry_repair_3_medium"
-        texturefile = "gfx/interface/ideas/technology/construction_2.dds"
-    }
-    SpriteType = {
-        name = "GFX_industry_repair_4_medium"
-        texturefile = "gfx/interface/ideas/technology/construction_2.dds"
-    }
-    SpriteType = {
-        name = "GFX_industry_repair_5_medium"
-        texturefile = "gfx/interface/ideas/technology/construction_2.dds"
-    }
-    
-    SpriteType = {
-        name = "GFX_infrastructure_construction_1_medium"
-        texturefile = "gfx/interface/ideas/technology/local_investment.dds"
-    }
-    SpriteType = {
-        name = "GFX_infrastructure_construction_2_medium"
-        texturefile = "gfx/interface/ideas/technology/local_investment.dds"
-    }
-    SpriteType = {
-        name = "GFX_infrastructure_construction_3_medium"
-        texturefile = "gfx/interface/ideas/technology/local_investment.dds"
-    }
-    SpriteType = {
-        name = "GFX_infrastructure_construction_4_medium"
-        texturefile = "gfx/interface/ideas/technology/local_investment.dds"
-    }
-    SpriteType = {
-        name = "GFX_infrastructure_construction_5_medium"
-        texturefile = "gfx/interface/ideas/technology/local_investment.dds"
-    }
-    
-    SpriteType = {
-        name = "GFX_starting_production_efficiency_1_medium"
-        texturefile = "gfx/interface/ideas/technology/tools.dds"
-    }
-    SpriteType = {
-        name = "GFX_starting_production_efficiency_2_medium"
-        texturefile = "gfx/interface/ideas/technology/tools.dds"
-    }
-    SpriteType = {
-        name = "GFX_starting_production_efficiency_3_medium"
-        texturefile = "gfx/interface/ideas/technology/tools.dds"
-    }
-    SpriteType = {
-        name = "GFX_starting_production_efficiency_4_medium"
-        texturefile = "gfx/interface/ideas/technology/tools.dds"
-    }
-    SpriteType = {
-        name = "GFX_starting_production_efficiency_5_medium"
-        texturefile = "gfx/interface/ideas/technology/tools.dds"
-    }
-    
-    SpriteType = {
-        name = "GFX_max_production_efficiency_1_medium"
-        texturefile = "gfx/interface/ideas/technology/self_sufficiency.dds"
-    }
-    SpriteType = {
-        name = "GFX_max_production_efficiency_2_medium"
-        texturefile = "gfx/interface/ideas/technology/self_sufficiency.dds"
-    }
-    SpriteType = {
-        name = "GFX_max_production_efficiency_3_medium"
-        texturefile = "gfx/interface/ideas/technology/self_sufficiency.dds"
-    }
-    SpriteType = {
-        name = "GFX_max_production_efficiency_4_medium"
-        texturefile = "gfx/interface/ideas/technology/self_sufficiency.dds"
-    }
-    SpriteType = {
-        name = "GFX_max_production_efficiency_5_medium"
-        texturefile = "gfx/interface/ideas/technology/self_sufficiency.dds"
-    }
-    
-    SpriteType = {
-        name = "GFX_civ_factory_construction_1_medium"
-        texturefile = "gfx/interface/ideas/technology/planning_speed.dds"
-    }
-    SpriteType = {
-        name = "GFX_civ_factory_construction_2_medium"
-        texturefile = "gfx/interface/ideas/technology/planning_speed.dds"
-    }
-    SpriteType = {
-        name = "GFX_civ_factory_construction_3_medium"
-        texturefile = "gfx/interface/ideas/technology/planning_speed.dds"
-    }
-    SpriteType = {
-        name = "GFX_civ_factory_construction_4_medium"
-        texturefile = "gfx/interface/ideas/technology/planning_speed.dds"
-    }
-    SpriteType = {
-        name = "GFX_civ_factory_construction_5_medium"
-        texturefile = "gfx/interface/ideas/technology/planning_speed.dds"
-    }
-    
-    SpriteType = {
-        name = "GFX_production_retention_1_medium"
-        texturefile = "gfx/interface/ideas/technology/storm_the_beaches.dds"
-    }
-    SpriteType = {
-        name = "GFX_production_retention_2_medium"
-        texturefile = "gfx/interface/ideas/technology/storm_the_beaches.dds"
-    }
-    SpriteType = {
-        name = "GFX_production_retention_3_medium"
-        texturefile = "gfx/interface/ideas/technology/storm_the_beaches.dds"
-    }
-    SpriteType = {
-        name = "GFX_production_retention_4_medium"
-        texturefile = "gfx/interface/ideas/technology/storm_the_beaches.dds"
-    }
-    SpriteType = {
-        name = "GFX_production_retention_5_medium"
-        texturefile = "gfx/interface/ideas/technology/storm_the_beaches.dds"
-    }
-    
-    SpriteType = {
-        name = "GFX_production_growth_1_medium"
-        texturefile = "gfx/interface/ideas/technology/jury_rigging.dds"
-    }
-    SpriteType = {
-        name = "GFX_production_growth_2_medium"
-        texturefile = "gfx/interface/ideas/technology/jury_rigging.dds"
-    }
-    SpriteType = {
-        name = "GFX_production_growth_3_medium"
-        texturefile = "gfx/interface/ideas/technology/jury_rigging.dds"
-    }
-    SpriteType = {
-        name = "GFX_production_growth_4_medium"
-        texturefile = "gfx/interface/ideas/technology/jury_rigging.dds"
-    }
-    SpriteType = {
-        name = "GFX_production_growth_5_medium"
-        texturefile = "gfx/interface/ideas/technology/jury_rigging.dds"
-    }
-    
-    SpriteType = {
-        name = "GFX_mil_factory_construction_1_medium"
-        texturefile = "gfx/interface/ideas/technology/air_convoy_equipment.dds"
-    }
-    SpriteType = {
-        name = "GFX_mil_factory_construction_2_medium"
-        texturefile = "gfx/interface/ideas/technology/air_convoy_equipment.dds"
-    }
-    SpriteType = {
-        name = "GFX_mil_factory_construction_3_medium"
-        texturefile = "gfx/interface/ideas/technology/air_convoy_equipment.dds"
-    }
-    SpriteType = {
-        name = "GFX_mil_factory_construction_4_medium"
-        texturefile = "gfx/interface/ideas/technology/air_convoy_equipment.dds"
-    }
-    SpriteType = {
-        name = "GFX_mil_factory_construction_5_medium"
-        texturefile = "gfx/interface/ideas/technology/air_convoy_equipment.dds"
-    }
-    
-    SpriteType = {
-        name = "GFX_oil_pump_construction_speed_1_medium"
-        texturefile = "gfx/interface/ideas/technology/construction_2.dds"
-    }
-    SpriteType = {
-        name = "GFX_oil_pump_construction_speed_2_medium"
-        texturefile = "gfx/interface/ideas/technology/construction_2.dds"
-    }
-    SpriteType = {
-        name = "GFX_oil_pump_construction_speed_3_medium"
-        texturefile = "gfx/interface/ideas/technology/construction_2.dds"
-    }
-    SpriteType = {
-        name = "GFX_oil_pump_construction_speed_4_medium"
-        texturefile = "gfx/interface/ideas/technology/construction_2.dds"
-    }
-    SpriteType = {
-        name = "GFX_oil_pump_construction_speed_5_medium"
-        texturefile = "gfx/interface/ideas/technology/construction_2.dds"
-    }
-    SpriteType = {
-        name = "GFX_oil_pump_extraction_1_medium"
-        texturefile = "gfx/interface/ideas/technology/extraction.dds"
-    }
-    SpriteType = {
-        name = "GFX_oil_pump_extraction_2_medium"
-        texturefile = "gfx/interface/ideas/technology/extraction.dds"
-    }
-    SpriteType = {
-        name = "GFX_oil_pump_extraction_3_medium"
-        texturefile = "gfx/interface/ideas/technology/extraction.dds"
-    }
-    SpriteType = {
-        name = "GFX_oil_pump_extraction_4_medium"
-        texturefile = "gfx/interface/ideas/technology/extraction.dds"
-    }
-    SpriteType = {
-        name = "GFX_oil_pump_extraction_5_medium"
-        texturefile = "gfx/interface/ideas/technology/extraction.dds"
-    }
-    
-    SpriteType = {
-        name = "GFX_smeltery_construction_speed_1_medium"
-        texturefile = "gfx/interface/ideas/technology/construction_2.dds"
-    }
-    SpriteType = {
-        name = "GFX_smeltery_construction_speed_2_medium"
-        texturefile = "gfx/interface/ideas/technology/construction_2.dds"
-    }
-    SpriteType = {
-        name = "GFX_smeltery_construction_speed_3_medium"
-        texturefile = "gfx/interface/ideas/technology/construction_2.dds"
-    }
-    SpriteType = {
-        name = "GFX_smeltery_construction_speed_4_medium"
-        texturefile = "gfx/interface/ideas/technology/construction_2.dds"
-    }
-    SpriteType = {
-        name = "GFX_smeltery_construction_speed_5_medium"
-        texturefile = "gfx/interface/ideas/technology/construction_2.dds"
-    }
-    SpriteType = {
-        name = "GFX_smeltery_extraction_1_medium"
-        texturefile = "gfx/interface/ideas/technology/extraction.dds"
-    }
-    SpriteType = {
-        name = "GFX_smeltery_extraction_2_medium"
-        texturefile = "gfx/interface/ideas/technology/extraction.dds"
-    }
-    SpriteType = {
-        name = "GFX_smeltery_extraction_3_medium"
-        texturefile = "gfx/interface/ideas/technology/extraction.dds"
-    }
-    SpriteType = {
-        name = "GFX_smeltery_extraction_4_medium"
-        texturefile = "gfx/interface/ideas/technology/extraction.dds"
-    }
-    SpriteType = {
-        name = "GFX_smeltery_extraction_5_medium"
-        texturefile = "gfx/interface/ideas/technology/extraction.dds"
-    }
-    
-    SpriteType = {
-        name = "GFX_stable_construction_speed_1_medium"
-        texturefile = "gfx/interface/ideas/technology/construction_2.dds"
-    }
-    SpriteType = {
-        name = "GFX_stable_construction_speed_2_medium"
-        texturefile = "gfx/interface/ideas/technology/construction_2.dds"
-    }
-    SpriteType = {
-        name = "GFX_stable_construction_speed_3_medium"
-        texturefile = "gfx/interface/ideas/technology/construction_2.dds"
-    }
-    SpriteType = {
-        name = "GFX_stable_construction_speed_4_medium"
-        texturefile = "gfx/interface/ideas/technology/construction_2.dds"
-    }
-    SpriteType = {
-        name = "GFX_stable_construction_speed_5_medium"
-        texturefile = "gfx/interface/ideas/technology/construction_2.dds"
-    }
-    SpriteType = {
-        name = "GFX_stable_extraction_1_medium"
-        texturefile = "gfx/interface/ideas/technology/extraction.dds"
-    }
-    SpriteType = {
-        name = "GFX_stable_extraction_2_medium"
-        texturefile = "gfx/interface/ideas/technology/extraction.dds"
-    }
-    SpriteType = {
-        name = "GFX_stable_extraction_3_medium"
-        texturefile = "gfx/interface/ideas/technology/extraction.dds"
-    }
-    SpriteType = {
-        name = "GFX_stable_extraction_4_medium"
-        texturefile = "gfx/interface/ideas/technology/extraction.dds"
-    }
-    SpriteType = {
-        name = "GFX_stable_extraction_5_medium"
-        texturefile = "gfx/interface/ideas/technology/extraction.dds"
-    }
-    
-    SpriteType = {
-        name = "GFX_roost_construction_speed_1_medium"
-        texturefile = "gfx/interface/ideas/technology/construction_2.dds"
-    }
-    SpriteType = {
-        name = "GFX_roost_construction_speed_2_medium"
-        texturefile = "gfx/interface/ideas/technology/construction_2.dds"
-    }
-    SpriteType = {
-        name = "GFX_roost_construction_speed_3_medium"
-        texturefile = "gfx/interface/ideas/technology/construction_2.dds"
-    }
-    SpriteType = {
-        name = "GFX_roost_construction_speed_4_medium"
-        texturefile = "gfx/interface/ideas/technology/construction_2.dds"
-    }
-    SpriteType = {
-        name = "GFX_roost_construction_speed_5_medium"
-        texturefile = "gfx/interface/ideas/technology/construction_2.dds"
-    }
-    SpriteType = {
-        name = "GFX_roost_extraction_1_medium"
-        texturefile = "gfx/interface/ideas/technology/extraction.dds"
-    }
-    SpriteType = {
-        name = "GFX_roost_extraction_2_medium"
-        texturefile = "gfx/interface/ideas/technology/extraction.dds"
-    }
-    SpriteType = {
-        name = "GFX_roost_extraction_3_medium"
-        texturefile = "gfx/interface/ideas/technology/extraction.dds"
-    }
-    SpriteType = {
-        name = "GFX_roost_extraction_4_medium"
-        texturefile = "gfx/interface/ideas/technology/extraction.dds"
-    }
-    SpriteType = {
-        name = "GFX_roost_extraction_5_medium"
-        texturefile = "gfx/interface/ideas/technology/extraction.dds"
-    }
-    
-    SpriteType = {
-        name = "GFX_lumbercamp_construction_speed_1_medium"
-        texturefile = "gfx/interface/ideas/technology/construction_2.dds"
-    }
-    SpriteType = {
-        name = "GFX_lumbercamp_construction_speed_2_medium"
-        texturefile = "gfx/interface/ideas/technology/construction_2.dds"
-    }
-    SpriteType = {
-        name = "GFX_lumbercamp_construction_speed_3_medium"
-        texturefile = "gfx/interface/ideas/technology/construction_2.dds"
-    }
-    SpriteType = {
-        name = "GFX_lumbercamp_construction_speed_4_medium"
-        texturefile = "gfx/interface/ideas/technology/construction_2.dds"
-    }
-    SpriteType = {
-        name = "GFX_lumbercamp_construction_speed_5_medium"
-        texturefile = "gfx/interface/ideas/technology/construction_2.dds"
-    }
-    SpriteType = {
-        name = "GFX_lumbercamp_extraction_1_medium"
-        texturefile = "gfx/interface/ideas/technology/extraction.dds"
-    }
-    SpriteType = {
-        name = "GFX_lumbercamp_extraction_2_medium"
-        texturefile = "gfx/interface/ideas/technology/extraction.dds"
-    }
-    SpriteType = {
-        name = "GFX_lumbercamp_extraction_3_medium"
-        texturefile = "gfx/interface/ideas/technology/extraction.dds"
-    }
-    SpriteType = {
-        name = "GFX_lumbercamp_extraction_4_medium"
-        texturefile = "gfx/interface/ideas/technology/extraction.dds"
-    }
-    SpriteType = {
-        name = "GFX_lumbercamp_extraction_5_medium"
-        texturefile = "gfx/interface/ideas/technology/extraction.dds"
-    }
-    
-    SpriteType = {
-        name = "GFX_farm_construction_speed_1_medium"
-        texturefile = "gfx/interface/ideas/technology/construction_2.dds"
-    }
-    SpriteType = {
-        name = "GFX_farm_construction_speed_2_medium"
-        texturefile = "gfx/interface/ideas/technology/construction_2.dds"
-    }
-    SpriteType = {
-        name = "GFX_farm_construction_speed_3_medium"
-        texturefile = "gfx/interface/ideas/technology/construction_2.dds"
-    }
-    SpriteType = {
-        name = "GFX_farm_construction_speed_4_medium"
-        texturefile = "gfx/interface/ideas/technology/construction_2.dds"
-    }
-    SpriteType = {
-        name = "GFX_farm_construction_speed_5_medium"
-        texturefile = "gfx/interface/ideas/technology/construction_2.dds"
-    }
-    SpriteType = {
-        name = "GFX_farm_extraction_1_medium"
-        texturefile = "gfx/interface/ideas/technology/extraction.dds"
-    }
-    SpriteType = {
-        name = "GFX_farm_extraction_2_medium"
-        texturefile = "gfx/interface/ideas/technology/extraction.dds"
-    }
-    SpriteType = {
-        name = "GFX_farm_extraction_3_medium"
-        texturefile = "gfx/interface/ideas/technology/extraction.dds"
-    }
-    SpriteType = {
-        name = "GFX_farm_extraction_4_medium"
-        texturefile = "gfx/interface/ideas/technology/extraction.dds"
-    }
-    SpriteType = {
-        name = "GFX_farm_extraction_5_medium"
-        texturefile = "gfx/interface/ideas/technology/extraction.dds"
-    }
-    
-    SpriteType = {
-        name = "GFX_mobilization_speed_1_medium"
-        texturefile = "gfx/interface/ideas/technology/mobilization_speed.dds"
-    }
-    SpriteType = {
-        name = "GFX_mobilization_speed_2_medium"
-        texturefile = "gfx/interface/ideas/technology/mobilization_speed.dds"
-    }
-    SpriteType = {
-        name = "GFX_mobilization_speed_3_medium"
-        texturefile = "gfx/interface/ideas/technology/mobilization_speed.dds"
-    }
-    SpriteType = {
-        name = "GFX_mobilization_speed_4_medium"
-        texturefile = "gfx/interface/ideas/technology/mobilization_speed.dds"
-    }
-    SpriteType = {
-        name = "GFX_mobilization_speed_5_medium"
-        texturefile = "gfx/interface/ideas/technology/mobilization_speed.dds"
-    }
-    
-    SpriteType = {
-        name = "GFX_equipment_capture_factor_1_medium"
-        texturefile = "gfx/interface/ideas/technology/equipment_capture_factor.dds"
-    }
-    SpriteType = {
-        name = "GFX_equipment_capture_factor_2_medium"
-        texturefile = "gfx/interface/ideas/technology/equipment_capture_factor.dds"
-    }
-    SpriteType = {
-        name = "GFX_equipment_capture_factor_3_medium"
-        texturefile = "gfx/interface/ideas/technology/equipment_capture_factor.dds"
-    }
-    SpriteType = {
-        name = "GFX_equipment_capture_factor_4_medium"
-        texturefile = "gfx/interface/ideas/technology/equipment_capture_factor.dds"
-    }
-    SpriteType = {
-        name = "GFX_equipment_capture_factor_5_medium"
-        texturefile = "gfx/interface/ideas/technology/equipment_capture_factor.dds"
-    }
-    
-    SpriteType = {
-        name = "GFX_conscription_factor_1_medium"
-        texturefile = "gfx/interface/ideas/technology/conscription_factor.dds"
-    }
-    SpriteType = {
-        name = "GFX_conscription_factor_2_medium"
-        texturefile = "gfx/interface/ideas/technology/conscription_factor.dds"
-    }
-    SpriteType = {
-        name = "GFX_conscription_factor_3_medium"
-        texturefile = "gfx/interface/ideas/technology/conscription_factor.dds"
-    }
-    SpriteType = {
-        name = "GFX_conscription_factor_4_medium"
-        texturefile = "gfx/interface/ideas/technology/conscription_factor.dds"
-    }
-    SpriteType = {
-        name = "GFX_conscription_factor_5_medium"
-        texturefile = "gfx/interface/ideas/technology/conscription_factor.dds"
-    }
-    
-    SpriteType = {
-        name = "GFX_monthly_population_1_medium"
-        texturefile = "gfx/interface/ideas/technology/monthly_population.dds"
-    }
-    SpriteType = {
-        name = "GFX_monthly_population_2_medium"
-        texturefile = "gfx/interface/ideas/technology/monthly_population.dds"
-    }
-    SpriteType = {
-        name = "GFX_monthly_population_3_medium"
-        texturefile = "gfx/interface/ideas/technology/monthly_population.dds"
-    }
-    SpriteType = {
-        name = "GFX_monthly_population_4_medium"
-        texturefile = "gfx/interface/ideas/technology/monthly_population.dds"
-    }
-    SpriteType = {
-        name = "GFX_monthly_population_5_medium"
-        texturefile = "gfx/interface/ideas/technology/monthly_population.dds"
-    }
-    
-    SpriteType = {
-        name = "GFX_air_experience_1_medium"
-        texturefile = "gfx/interface/ideas/technology/air_experience.dds"
-    }
-    SpriteType = {
-        name = "GFX_air_experience_2_medium"
-        texturefile = "gfx/interface/ideas/technology/air_experience.dds"
-    }
-    SpriteType = {
-        name = "GFX_air_experience_3_medium"
-        texturefile = "gfx/interface/ideas/technology/air_experience.dds"
-    }
-    SpriteType = {
-        name = "GFX_air_experience_4_medium"
-        texturefile = "gfx/interface/ideas/technology/air_experience.dds"
-    }
-    SpriteType = {
-        name = "GFX_air_experience_5_medium"
-        texturefile = "gfx/interface/ideas/technology/air_experience.dds"
-    }
-    
-    SpriteType = {
-        name = "GFX_ace_1_medium"
-        texturefile = "gfx/interface/ideas/technology/aerial_ace.dds"
-    }
-    SpriteType = {
-        name = "GFX_ace_2_medium"
-        texturefile = "gfx/interface/ideas/technology/aerial_ace.dds"
-    }
-    SpriteType = {
-        name = "GFX_ace_3_medium"
-        texturefile = "gfx/interface/ideas/technology/aerial_ace.dds"
-    }
-    SpriteType = {
-        name = "GFX_ace_4_medium"
-        texturefile = "gfx/interface/ideas/technology/aerial_ace.dds"
-    }
-    SpriteType = {
-        name = "GFX_ace_5_medium"
-        texturefile = "gfx/interface/ideas/technology/aerial_ace.dds"
-    }
-    
-    SpriteType = {
-        name = "GFX_navy_experience_1_medium"
-        texturefile = "gfx/interface/ideas/technology/navy_experience.dds"
-    }
-    SpriteType = {
-        name = "GFX_navy_experience_2_medium"
-        texturefile = "gfx/interface/ideas/technology/navy_experience.dds"
-    }
-    SpriteType = {
-        name = "GFX_navy_experience_3_medium"
-        texturefile = "gfx/interface/ideas/technology/navy_experience.dds"
-    }
-    SpriteType = {
-        name = "GFX_navy_experience_4_medium"
-        texturefile = "gfx/interface/ideas/technology/navy_experience.dds"
-    }
-    SpriteType = {
-        name = "GFX_navy_experience_5_medium"
-        texturefile = "gfx/interface/ideas/technology/navy_experience.dds"
-    }
-    
-    SpriteType = {
-        name = "GFX_naval_invasion_1_medium"
-        texturefile = "gfx/interface/ideas/technology/naval_invasion.dds"
-    }
-    SpriteType = {
-        name = "GFX_naval_invasion_2_medium"
-        texturefile = "gfx/interface/ideas/technology/naval_invasion.dds"
-    }
-    SpriteType = {
-        name = "GFX_naval_invasion_3_medium"
-        texturefile = "gfx/interface/ideas/technology/naval_invasion.dds"
-    }
-    SpriteType = {
-        name = "GFX_naval_invasion_4_medium"
-        texturefile = "gfx/interface/ideas/technology/naval_invasion.dds"
-    }
-    SpriteType = {
-        name = "GFX_naval_invasion_5_medium"
-        texturefile = "gfx/interface/ideas/technology/naval_invasion.dds"
-    }
-    
-    SpriteType = {
-        name = "GFX_naval_invasion_defence_1_medium"
-        texturefile = "gfx/interface/ideas/technology/naval_invasion_defence.dds"
-    }
-    SpriteType = {
-        name = "GFX_naval_invasion_defence_2_medium"
-        texturefile = "gfx/interface/ideas/technology/naval_invasion_defence.dds"
-    }
-    SpriteType = {
-        name = "GFX_naval_invasion_defence_3_medium"
-        texturefile = "gfx/interface/ideas/technology/naval_invasion_defence.dds"
-    }
-    SpriteType = {
-        name = "GFX_naval_invasion_defence_4_medium"
-        texturefile = "gfx/interface/ideas/technology/naval_invasion_defence.dds"
-    }
-    SpriteType = {
-        name = "GFX_naval_invasion_defence_5_medium"
-        texturefile = "gfx/interface/ideas/technology/naval_invasion_defence.dds"
-    }
-    
-    SpriteType = {
-        name = "GFX_naval_invasion_preparation_1_medium"
-        texturefile = "gfx/interface/ideas/technology/naval_invasion_preparation.dds"
-    }
-    SpriteType = {
-        name = "GFX_naval_invasion_preparation_2_medium"
-        texturefile = "gfx/interface/ideas/technology/naval_invasion_preparation.dds"
-    }
-    SpriteType = {
-        name = "GFX_naval_invasion_preparation_3_medium"
-        texturefile = "gfx/interface/ideas/technology/naval_invasion_preparation.dds"
-    }
-    SpriteType = {
-        name = "GFX_naval_invasion_preparation_4_medium"
-        texturefile = "gfx/interface/ideas/technology/naval_invasion_preparation.dds"
-    }
-    SpriteType = {
-        name = "GFX_naval_invasion_preparation_5_medium"
-        texturefile = "gfx/interface/ideas/technology/naval_invasion_preparation.dds"
-    }
-    
-    SpriteType = {
-        name = "GFX_mtg_navy_experience_1_medium"
-        texturefile = "gfx/interface/ideas/technology/navy_experience.dds"
-    }
-    SpriteType = {
-        name = "GFX_mtg_navy_experience_2_medium"
-        texturefile = "gfx/interface/ideas/technology/navy_experience.dds"
-    }
-    SpriteType = {
-        name = "GFX_mtg_navy_experience_3_medium"
-        texturefile = "gfx/interface/ideas/technology/navy_experience.dds"
-    }
-    SpriteType = {
-        name = "GFX_mtg_navy_experience_4_medium"
-        texturefile = "gfx/interface/ideas/technology/navy_experience.dds"
-    }
-    SpriteType = {
-        name = "GFX_mtg_navy_experience_5_medium"
-        texturefile = "gfx/interface/ideas/technology/navy_experience.dds"
-    }
-    
-    SpriteType = {
-        name = "GFX_mtg_naval_invasion_1_medium"
-        texturefile = "gfx/interface/ideas/technology/naval_invasion.dds"
-    }
-    SpriteType = {
-        name = "GFX_mtg_naval_invasion_2_medium"
-        texturefile = "gfx/interface/ideas/technology/naval_invasion.dds"
-    }
-    SpriteType = {
-        name = "GFX_mtg_naval_invasion_3_medium"
-        texturefile = "gfx/interface/ideas/technology/naval_invasion.dds"
-    }
-    SpriteType = {
-        name = "GFX_mtg_naval_invasion_4_medium"
-        texturefile = "gfx/interface/ideas/technology/naval_invasion.dds"
-    }
-    SpriteType = {
-        name = "GFX_mtg_naval_invasion_5_medium"
-        texturefile = "gfx/interface/ideas/technology/naval_invasion.dds"
-    }
-    
-    SpriteType = {
-        name = "GFX_mtg_naval_invasion_defence_1_medium"
-        texturefile = "gfx/interface/ideas/technology/naval_invasion_defence.dds"
-    }
-    SpriteType = {
-        name = "GFX_mtg_naval_invasion_defence_2_medium"
-        texturefile = "gfx/interface/ideas/technology/naval_invasion_defence.dds"
-    }
-    SpriteType = {
-        name = "GFX_mtg_naval_invasion_defence_3_medium"
-        texturefile = "gfx/interface/ideas/technology/naval_invasion_defence.dds"
-    }
-    SpriteType = {
-        name = "GFX_mtg_naval_invasion_defence_4_medium"
-        texturefile = "gfx/interface/ideas/technology/naval_invasion_defence.dds"
-    }
-    SpriteType = {
-        name = "GFX_mtg_naval_invasion_defence_5_medium"
-        texturefile = "gfx/interface/ideas/technology/naval_invasion_defence.dds"
-    }
-    
-    SpriteType = {
-        name = "GFX_mtg_naval_invasion_preparation_1_medium"
-        texturefile = "gfx/interface/ideas/technology/naval_invasion_preparation.dds"
-    }
-    SpriteType = {
-        name = "GFX_mtg_naval_invasion_preparation_2_medium"
-        texturefile = "gfx/interface/ideas/technology/naval_invasion_preparation.dds"
-    }
-    SpriteType = {
-        name = "GFX_mtg_naval_invasion_preparation_3_medium"
-        texturefile = "gfx/interface/ideas/technology/naval_invasion_preparation.dds"
-    }
-    SpriteType = {
-        name = "GFX_mtg_naval_invasion_preparation_4_medium"
-        texturefile = "gfx/interface/ideas/technology/naval_invasion_preparation.dds"
-    }
-    SpriteType = {
-        name = "GFX_mtg_naval_invasion_preparation_5_medium"
-        texturefile = "gfx/interface/ideas/technology/naval_invasion_preparation.dds"
-    }
-    
-    #------------------------------------------------
-    # Army
-    #------------------------------------------------
-    SpriteType = {
-        name = "GFX_army_experience_1_medium"
-        texturefile = "gfx/interface/ideas/technology/army_experience.dds"
-    }
-    SpriteType = {
-        name = "GFX_army_experience_2_medium"
-        texturefile = "gfx/interface/ideas/technology/army_experience.dds"
-    }
-    SpriteType = {
-        name = "GFX_army_experience_3_medium"
-        texturefile = "gfx/interface/ideas/technology/army_experience.dds"
-    }
-    SpriteType = {
-        name = "GFX_army_experience_4_medium"
-        texturefile = "gfx/interface/ideas/technology/army_experience.dds"
-    }
-    SpriteType = {
-        name = "GFX_army_experience_5_medium"
-        texturefile = "gfx/interface/ideas/technology/army_experience.dds"
-    }
-    
-    SpriteType = {
-        name = "GFX_army_start_level_1_medium"
-        texturefile = "gfx/interface/ideas/technology/army_start_level.dds"
-    }
-    SpriteType = {
-        name = "GFX_army_start_level_2_medium"
-        texturefile = "gfx/interface/ideas/technology/army_start_level.dds"
-    }
-    SpriteType = {
-        name = "GFX_army_start_level_3_medium"
-        texturefile = "gfx/interface/ideas/technology/army_start_level.dds"
-    }
-    SpriteType = {
-        name = "GFX_army_start_level_4_medium"
-        texturefile = "gfx/interface/ideas/technology/army_start_level.dds"
-    }
-    SpriteType = {
-        name = "GFX_army_start_level_5_medium"
-        texturefile = "gfx/interface/ideas/technology/army_start_level.dds"
-    }
-    
-    SpriteType = {
-        name = "GFX_army_attack_level_1_medium"
-        texturefile = "gfx/interface/ideas/technology/army_attack_level.dds"
-    }
-    SpriteType = {
-        name = "GFX_army_attack_level_2_medium"
-        texturefile = "gfx/interface/ideas/technology/army_attack_level.dds"
-    }
-    SpriteType = {
-        name = "GFX_army_attack_level_3_medium"
-        texturefile = "gfx/interface/ideas/technology/army_attack_level.dds"
-    }
-    SpriteType = {
-        name = "GFX_army_attack_level_4_medium"
-        texturefile = "gfx/interface/ideas/technology/army_attack_level.dds"
-    }
-    SpriteType = {
-        name = "GFX_army_attack_level_5_medium"
-        texturefile = "gfx/interface/ideas/technology/army_attack_level.dds"
-    }
-    
-    SpriteType = {
-        name = "GFX_army_defence_level_1_medium"
-        texturefile = "gfx/interface/ideas/technology/army_defence_level.dds"
-    }
-    SpriteType = {
-        name = "GFX_army_defence_level_2_medium"
-        texturefile = "gfx/interface/ideas/technology/army_defence_level.dds"
-    }
-    SpriteType = {
-        name = "GFX_army_defence_level_3_medium"
-        texturefile = "gfx/interface/ideas/technology/army_defence_level.dds"
-    }
-    SpriteType = {
-        name = "GFX_army_defence_level_4_medium"
-        texturefile = "gfx/interface/ideas/technology/army_defence_level.dds"
-    }
-    SpriteType = {
-        name = "GFX_army_defence_level_5_medium"
-        texturefile = "gfx/interface/ideas/technology/army_defence_level.dds"
-    }
-    
-    SpriteType = {
-        name = "GFX_army_logistics_level_1_medium"
-        texturefile = "gfx/interface/ideas/technology/army_logistics_level.dds"
-    }
-    SpriteType = {
-        name = "GFX_army_logistics_level_2_medium"
-        texturefile = "gfx/interface/ideas/technology/army_logistics_level.dds"
-    }
-    SpriteType = {
-        name = "GFX_army_logistics_level_3_medium"
-        texturefile = "gfx/interface/ideas/technology/army_logistics_level.dds"
-    }
-    SpriteType = {
-        name = "GFX_army_logistics_level_4_medium"
-        texturefile = "gfx/interface/ideas/technology/army_logistics_level.dds"
-    }
-    SpriteType = {
-        name = "GFX_army_logistics_level_5_medium"
-        texturefile = "gfx/interface/ideas/technology/army_logistics_level.dds"
-    }
-    
-    SpriteType = {
-        name = "GFX_army_planning_level_1_medium"
-        texturefile = "gfx/interface/ideas/technology/army_planning_level.dds"
-    }
-    SpriteType = {
-        name = "GFX_army_planning_level_2_medium"
-        texturefile = "gfx/interface/ideas/technology/army_planning_level.dds"
-    }
-    SpriteType = {
-        name = "GFX_army_planning_level_3_medium"
-        texturefile = "gfx/interface/ideas/technology/army_planning_level.dds"
-    }
-    SpriteType = {
-        name = "GFX_army_planning_level_4_medium"
-        texturefile = "gfx/interface/ideas/technology/army_planning_level.dds"
-    }
-    SpriteType = {
-        name = "GFX_army_planning_level_5_medium"
-        texturefile = "gfx/interface/ideas/technology/army_planning_level.dds"
-    }
-    
-    #------------------------------------------------
-    # Fighter
-    #------------------------------------------------
     SpriteType = {
         name = "GFX_fighter_tech_1_medium"
         texturefile = "gfx/interface/ideas/technology/fighter_equipment.dds"
     }
     SpriteType = {
-        name = "GFX_fighter_advancement_1_1_medium"
+        name = "GFX_fighter_tech_3_medium"
         texturefile = "gfx/interface/ideas/technology/fighter_equipment.dds"
     }
     SpriteType = {
-        name = "GFX_fighter_advancement_1_2_medium"
+        name = "GFX_fighter_tech_5_medium"
         texturefile = "gfx/interface/ideas/technology/fighter_equipment.dds"
     }
     SpriteType = {
-        name = "GFX_fighter_advancement_2_1_medium"
+        name = "GFX_fighter_tech_7_medium"
         texturefile = "gfx/interface/ideas/technology/fighter_equipment.dds"
     }
     SpriteType = {
-        name = "GFX_fighter_advancement_2_2_medium"
+        name = "GFX_fighter_tech_9_medium"
         texturefile = "gfx/interface/ideas/technology/fighter_equipment.dds"
     }
-    SpriteType = {
-        name = "GFX_fighter_advancement_3_medium"
-        texturefile = "gfx/interface/ideas/technology/fighter_equipment.dds"
-    }
-    SpriteType = {
-        name = "GFX_fighter_advancement_4_medium"
-        texturefile = "gfx/interface/ideas/technology/fighter_equipment.dds"
-    }
-    
-    #------------------------------------------------
-    # CAS
-    #------------------------------------------------
     SpriteType = {
         name = "GFX_cas_tech_1_medium"
         texturefile = "gfx/interface/ideas/technology/cas_equipment.dds"
     }
     SpriteType = {
-        name = "GFX_cas_advancement_1_1_medium"
+        name = "GFX_cas_tech_3_medium"
         texturefile = "gfx/interface/ideas/technology/cas_equipment.dds"
     }
     SpriteType = {
-        name = "GFX_cas_advancement_1_2_medium"
+        name = "GFX_cas_tech_5_medium"
         texturefile = "gfx/interface/ideas/technology/cas_equipment.dds"
     }
     SpriteType = {
-        name = "GFX_cas_advancement_2_1_medium"
+        name = "GFX_cas_tech_7_medium"
         texturefile = "gfx/interface/ideas/technology/cas_equipment.dds"
     }
     SpriteType = {
-        name = "GFX_cas_advancement_2_2_medium"
+        name = "GFX_cas_tech_9_medium"
         texturefile = "gfx/interface/ideas/technology/cas_equipment.dds"
     }
-    SpriteType = {
-        name = "GFX_cas_advancement_3_medium"
-        texturefile = "gfx/interface/ideas/technology/cas_equipment.dds"
-    }
-    SpriteType = {
-        name = "GFX_cas_advancement_4_medium"
-        texturefile = "gfx/interface/ideas/technology/cas_equipment.dds"
-    }
-    
-    #------------------------------------------------
-    # Tactical Bomber
-    #------------------------------------------------
     SpriteType = {
         name = "GFX_tactical_bomber_tech_1_medium"
         texturefile = "gfx/interface/ideas/technology/tactical_bomber_equipment.dds"
     }
     SpriteType = {
-        name = "GFX_tactical_bomber_advancement_1_1_medium"
+        name = "GFX_tactical_bomber_tech_3_medium"
         texturefile = "gfx/interface/ideas/technology/tactical_bomber_equipment.dds"
     }
     SpriteType = {
-        name = "GFX_tactical_bomber_advancement_1_2_medium"
+        name = "GFX_tactical_bomber_tech_5_medium"
         texturefile = "gfx/interface/ideas/technology/tactical_bomber_equipment.dds"
     }
     SpriteType = {
-        name = "GFX_tactical_bomber_advancement_2_1_medium"
+        name = "GFX_tactical_bomber_tech_7_medium"
         texturefile = "gfx/interface/ideas/technology/tactical_bomber_equipment.dds"
     }
     SpriteType = {
-        name = "GFX_tactical_bomber_advancement_2_2_medium"
+        name = "GFX_tactical_bomber_tech_9_medium"
         texturefile = "gfx/interface/ideas/technology/tactical_bomber_equipment.dds"
     }
-    SpriteType = {
-        name = "GFX_tactical_bomber_advancement_3_medium"
-        texturefile = "gfx/interface/ideas/technology/tactical_bomber_equipment.dds"
-    }
-    SpriteType = {
-        name = "GFX_tactical_bomber_advancement_4_medium"
-        texturefile = "gfx/interface/ideas/technology/tactical_bomber_equipment.dds"
-    }
-    #------------------------------------------------
-    # Strategic Bomber
-    #------------------------------------------------
     SpriteType = {
         name = "GFX_strategic_bomber_tech_1_medium"
         texturefile = "gfx/interface/ideas/technology/strategic_bomber_equipment.dds"
     }
     SpriteType = {
-        name = "GFX_strategic_bomber_advancement_1_1_medium"
+        name = "GFX_strategic_bomber_tech_3_medium"
         texturefile = "gfx/interface/ideas/technology/strategic_bomber_equipment.dds"
     }
     SpriteType = {
-        name = "GFX_strategic_bomber_advancement_1_2_medium"
+        name = "GFX_strategic_bomber_tech_5_medium"
         texturefile = "gfx/interface/ideas/technology/strategic_bomber_equipment.dds"
     }
     SpriteType = {
-        name = "GFX_strategic_bomber_advancement_2_1_medium"
+        name = "GFX_strategic_bomber_tech_7_medium"
         texturefile = "gfx/interface/ideas/technology/strategic_bomber_equipment.dds"
     }
     SpriteType = {
-        name = "GFX_strategic_bomber_advancement_2_2_medium"
+        name = "GFX_strategic_bomber_tech_9_medium"
         texturefile = "gfx/interface/ideas/technology/strategic_bomber_equipment.dds"
     }
     SpriteType = {
-        name = "GFX_strategic_bomber_advancement_3_medium"
-        texturefile = "gfx/interface/ideas/technology/strategic_bomber_equipment.dds"
+        name = "GFX_air_convoy_tech_1_medium"
+        texturefile = "gfx/interface/ideas/technology/air_convoy_equipment.dds"
     }
     SpriteType = {
-        name = "GFX_strategic_bomber_advancement_4_medium"
-        texturefile = "gfx/interface/ideas/technology/strategic_bomber_equipment.dds"
+        name = "GFX_air_convoy_tech_3_medium"
+        texturefile = "gfx/interface/ideas/technology/air_convoy_equipment.dds"
     }
-
-    #------------------------------------------------
-    # Battleship
-    #------------------------------------------------
+    SpriteType = {
+        name = "GFX_air_convoy_tech_5_medium"
+        texturefile = "gfx/interface/ideas/technology/air_convoy_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_air_convoy_tech_7_medium"
+        texturefile = "gfx/interface/ideas/technology/air_convoy_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_air_convoy_tech_9_medium"
+        texturefile = "gfx/interface/ideas/technology/air_convoy_equipment.dds"
+    }
     SpriteType = {
         name = "GFX_battleship_tech_1_medium"
         texturefile = "gfx/interface/ideas/technology/battleship_equipment.dds"
     }
     SpriteType = {
-        name = "GFX_battleship_advancement_1_1_medium"
+        name = "GFX_battleship_tech_3_medium"
         texturefile = "gfx/interface/ideas/technology/battleship_equipment.dds"
     }
     SpriteType = {
-        name = "GFX_battleship_advancement_1_2_medium"
+        name = "GFX_battleship_tech_5_medium"
         texturefile = "gfx/interface/ideas/technology/battleship_equipment.dds"
     }
     SpriteType = {
-        name = "GFX_battleship_advancement_2_1_medium"
+        name = "GFX_battleship_tech_7_medium"
         texturefile = "gfx/interface/ideas/technology/battleship_equipment.dds"
     }
     SpriteType = {
-        name = "GFX_battleship_advancement_2_2_medium"
+        name = "GFX_battleship_tech_9_medium"
         texturefile = "gfx/interface/ideas/technology/battleship_equipment.dds"
     }
-    SpriteType = {
-        name = "GFX_battleship_advancement_3_medium"
-        texturefile = "gfx/interface/ideas/technology/battleship_equipment.dds"
-    }
-    SpriteType = {
-        name = "GFX_battleship_advancement_4_medium"
-        texturefile = "gfx/interface/ideas/technology/battleship_equipment.dds"
-    }
-    
-    #------------------------------------------------
-    # Cruiser
-    #------------------------------------------------
-    SpriteType = {
-        name = "GFX_cruiser_tech_1_medium"
-        texturefile = "gfx/interface/ideas/technology/cruiser_equipment.dds"
-    }
-    SpriteType = {
-        name = "GFX_cruiser_advancement_1_1_medium"
-        texturefile = "gfx/interface/ideas/technology/cruiser_equipment.dds"
-    }
-    SpriteType = {
-        name = "GFX_cruiser_advancement_1_2_medium"
-        texturefile = "gfx/interface/ideas/technology/cruiser_equipment.dds"
-    }
-    SpriteType = {
-        name = "GFX_cruiser_advancement_2_1_medium"
-        texturefile = "gfx/interface/ideas/technology/cruiser_equipment.dds"
-    }
-    SpriteType = {
-        name = "GFX_cruiser_advancement_2_2_medium"
-        texturefile = "gfx/interface/ideas/technology/cruiser_equipment.dds"
-    }
-    SpriteType = {
-        name = "GFX_cruiser_advancement_3_medium"
-        texturefile = "gfx/interface/ideas/technology/cruiser_equipment.dds"
-    }
-    SpriteType = {
-        name = "GFX_cruiser_advancement_4_medium"
-        texturefile = "gfx/interface/ideas/technology/cruiser_equipment.dds"
-    }
-    
-    #------------------------------------------------
-    # Destroyer
-    #------------------------------------------------
     SpriteType = {
         name = "GFX_destroyer_tech_1_medium"
         texturefile = "gfx/interface/ideas/technology/destroyer_equipment.dds"
     }
     SpriteType = {
-        name = "GFX_destroyer_advancement_1_1_medium"
+        name = "GFX_destroyer_tech_3_medium"
         texturefile = "gfx/interface/ideas/technology/destroyer_equipment.dds"
     }
     SpriteType = {
-        name = "GFX_destroyer_advancement_1_2_medium"
+        name = "GFX_destroyer_tech_5_medium"
         texturefile = "gfx/interface/ideas/technology/destroyer_equipment.dds"
     }
     SpriteType = {
-        name = "GFX_destroyer_advancement_2_1_medium"
+        name = "GFX_destroyer_tech_7_medium"
         texturefile = "gfx/interface/ideas/technology/destroyer_equipment.dds"
     }
     SpriteType = {
-        name = "GFX_destroyer_advancement_2_2_medium"
+        name = "GFX_destroyer_tech_9_medium"
         texturefile = "gfx/interface/ideas/technology/destroyer_equipment.dds"
     }
     SpriteType = {
-        name = "GFX_destroyer_advancement_3_medium"
-        texturefile = "gfx/interface/ideas/technology/destroyer_equipment.dds"
+        name = "GFX_cruiser_tech_1_medium"
+        texturefile = "gfx/interface/ideas/technology/cruiser_equipment.dds"
     }
     SpriteType = {
-        name = "GFX_destroyer_advancement_4_medium"
-        texturefile = "gfx/interface/ideas/technology/destroyer_equipment.dds"
+        name = "GFX_cruiser_tech_3_medium"
+        texturefile = "gfx/interface/ideas/technology/cruiser_equipment.dds"
     }
-    #------------------------------------------------
-    # Submarine
-    #------------------------------------------------
+    SpriteType = {
+        name = "GFX_cruiser_tech_5_medium"
+        texturefile = "gfx/interface/ideas/technology/cruiser_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_cruiser_tech_7_medium"
+        texturefile = "gfx/interface/ideas/technology/cruiser_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_cruiser_tech_9_medium"
+        texturefile = "gfx/interface/ideas/technology/cruiser_equipment.dds"
+    }
     SpriteType = {
         name = "GFX_submarine_tech_1_medium"
         texturefile = "gfx/interface/ideas/technology/submarine_equipment.dds"
     }
     SpriteType = {
-        name = "GFX_submarine_advancement_1_1_medium"
+        name = "GFX_submarine_tech_3_medium"
         texturefile = "gfx/interface/ideas/technology/submarine_equipment.dds"
     }
     SpriteType = {
-        name = "GFX_submarine_advancement_1_2_medium"
+        name = "GFX_submarine_tech_5_medium"
         texturefile = "gfx/interface/ideas/technology/submarine_equipment.dds"
     }
     SpriteType = {
-        name = "GFX_submarine_advancement_2_1_medium"
+        name = "GFX_submarine_tech_7_medium"
         texturefile = "gfx/interface/ideas/technology/submarine_equipment.dds"
     }
     SpriteType = {
-        name = "GFX_submarine_advancement_2_2_medium"
+        name = "GFX_submarine_tech_9_medium"
         texturefile = "gfx/interface/ideas/technology/submarine_equipment.dds"
     }
-    SpriteType = {
-        name = "GFX_submarine_advancement_3_medium"
-        texturefile = "gfx/interface/ideas/technology/submarine_equipment.dds"
-    }
-    SpriteType = {
-        name = "GFX_submarine_advancement_4_medium"
-        texturefile = "gfx/interface/ideas/technology/submarine_equipment.dds"
-    }
-    
-        #------------------------------------------------
-    # Battleship
-    #------------------------------------------------
     SpriteType = {
         name = "GFX_mtg_battleship_tech_1_medium"
         texturefile = "gfx/interface/ideas/technology/battleship_equipment.dds"
     }
     SpriteType = {
-        name = "GFX_mtg_battleship_advancement_1_1_medium"
+        name = "GFX_mtg_battleship_tech_3_medium"
         texturefile = "gfx/interface/ideas/technology/battleship_equipment.dds"
     }
     SpriteType = {
-        name = "GFX_mtg_battleship_advancement_1_2_medium"
+        name = "GFX_mtg_battleship_tech_5_medium"
         texturefile = "gfx/interface/ideas/technology/battleship_equipment.dds"
     }
     SpriteType = {
-        name = "GFX_mtg_battleship_advancement_2_1_medium"
+        name = "GFX_mtg_battleship_tech_7_medium"
         texturefile = "gfx/interface/ideas/technology/battleship_equipment.dds"
     }
     SpriteType = {
-        name = "GFX_mtg_battleship_advancement_2_2_medium"
+        name = "GFX_mtg_battleship_tech_9_medium"
         texturefile = "gfx/interface/ideas/technology/battleship_equipment.dds"
     }
-    SpriteType = {
-        name = "GFX_mtg_battleship_advancement_3_medium"
-        texturefile = "gfx/interface/ideas/technology/battleship_equipment.dds"
-    }
-    SpriteType = {
-        name = "GFX_mtg_battleship_advancement_4_medium"
-        texturefile = "gfx/interface/ideas/technology/battleship_equipment.dds"
-    }
-    
-    #------------------------------------------------
-    # Cruiser
-    #------------------------------------------------
-    SpriteType = {
-        name = "GFX_mtg_cruiser_tech_1_medium"
-        texturefile = "gfx/interface/ideas/technology/cruiser_equipment.dds"
-    }
-    SpriteType = {
-        name = "GFX_mtg_cruiser_advancement_1_1_medium"
-        texturefile = "gfx/interface/ideas/technology/cruiser_equipment.dds"
-    }
-    SpriteType = {
-        name = "GFX_mtg_cruiser_advancement_1_2_medium"
-        texturefile = "gfx/interface/ideas/technology/cruiser_equipment.dds"
-    }
-    SpriteType = {
-        name = "GFX_mtg_cruiser_advancement_2_1_medium"
-        texturefile = "gfx/interface/ideas/technology/cruiser_equipment.dds"
-    }
-    SpriteType = {
-        name = "GFX_mtg_cruiser_advancement_2_2_medium"
-        texturefile = "gfx/interface/ideas/technology/cruiser_equipment.dds"
-    }
-    SpriteType = {
-        name = "GFX_mtg_cruiser_advancement_3_medium"
-        texturefile = "gfx/interface/ideas/technology/cruiser_equipment.dds"
-    }
-    SpriteType = {
-        name = "GFX_mtg_cruiser_advancement_4_medium"
-        texturefile = "gfx/interface/ideas/technology/cruiser_equipment.dds"
-    }
-    
-    #------------------------------------------------
-    # Destroyer
-    #------------------------------------------------
     SpriteType = {
         name = "GFX_mtg_destroyer_tech_1_medium"
         texturefile = "gfx/interface/ideas/technology/destroyer_equipment.dds"
     }
     SpriteType = {
-        name = "GFX_mtg_destroyer_advancement_1_1_medium"
+        name = "GFX_mtg_destroyer_tech_3_medium"
         texturefile = "gfx/interface/ideas/technology/destroyer_equipment.dds"
     }
     SpriteType = {
-        name = "GFX_mtg_destroyer_advancement_1_2_medium"
+        name = "GFX_mtg_destroyer_tech_5_medium"
         texturefile = "gfx/interface/ideas/technology/destroyer_equipment.dds"
     }
     SpriteType = {
-        name = "GFX_mtg_destroyer_advancement_2_1_medium"
+        name = "GFX_mtg_destroyer_tech_7_medium"
         texturefile = "gfx/interface/ideas/technology/destroyer_equipment.dds"
     }
     SpriteType = {
-        name = "GFX_mtg_destroyer_advancement_2_2_medium"
+        name = "GFX_mtg_destroyer_tech_9_medium"
         texturefile = "gfx/interface/ideas/technology/destroyer_equipment.dds"
     }
     SpriteType = {
-        name = "GFX_mtg_destroyer_advancement_3_medium"
-        texturefile = "gfx/interface/ideas/technology/destroyer_equipment.dds"
+        name = "GFX_mtg_cruiser_tech_1_medium"
+        texturefile = "gfx/interface/ideas/technology/cruiser_equipment.dds"
     }
     SpriteType = {
-        name = "GFX_mtg_destroyer_advancement_4_medium"
-        texturefile = "gfx/interface/ideas/technology/destroyer_equipment.dds"
+        name = "GFX_mtg_cruiser_tech_3_medium"
+        texturefile = "gfx/interface/ideas/technology/cruiser_equipment.dds"
     }
-    #------------------------------------------------
-    # Submarine
-    #------------------------------------------------
+    SpriteType = {
+        name = "GFX_mtg_cruiser_tech_5_medium"
+        texturefile = "gfx/interface/ideas/technology/cruiser_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_mtg_cruiser_tech_7_medium"
+        texturefile = "gfx/interface/ideas/technology/cruiser_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_mtg_cruiser_tech_9_medium"
+        texturefile = "gfx/interface/ideas/technology/cruiser_equipment.dds"
+    }
     SpriteType = {
         name = "GFX_mtg_submarine_tech_1_medium"
         texturefile = "gfx/interface/ideas/technology/submarine_equipment.dds"
     }
     SpriteType = {
-        name = "GFX_mtg_submarine_advancement_1_1_medium"
+        name = "GFX_mtg_submarine_tech_3_medium"
         texturefile = "gfx/interface/ideas/technology/submarine_equipment.dds"
     }
     SpriteType = {
-        name = "GFX_mtg_submarine_advancement_1_2_medium"
+        name = "GFX_mtg_submarine_tech_5_medium"
         texturefile = "gfx/interface/ideas/technology/submarine_equipment.dds"
     }
     SpriteType = {
-        name = "GFX_mtg_submarine_advancement_2_1_medium"
+        name = "GFX_mtg_submarine_tech_7_medium"
         texturefile = "gfx/interface/ideas/technology/submarine_equipment.dds"
     }
     SpriteType = {
-        name = "GFX_mtg_submarine_advancement_2_2_medium"
+        name = "GFX_mtg_submarine_tech_9_medium"
         texturefile = "gfx/interface/ideas/technology/submarine_equipment.dds"
     }
-    SpriteType = {
-        name = "GFX_mtg_submarine_advancement_3_medium"
-        texturefile = "gfx/interface/ideas/technology/submarine_equipment.dds"
-    }
-    SpriteType = {
-        name = "GFX_mtg_submarine_advancement_4_medium"
-        texturefile = "gfx/interface/ideas/technology/submarine_equipment.dds"
-    }
-    #------------------------------------------------
-    # Industry
-    #------------------------------------------------
-    SpriteType = {
-        name = "GFX_construction_1_medium"
-        texturefile = "gfx/interface/ideas/technology/construction_2.dds"
-    }
-    SpriteType = {
-        name = "GFX_extraction_1_medium"
-        texturefile = "gfx/interface/ideas/technology/extraction.dds"
-    }
     
-    SpriteType = {
-        name = "GFX_production_growth_1_medium"
-        texturefile = "gfx/interface/ideas/technology/tools.dds"
-    }
-    SpriteType = {
-        name = "GFX_production_growth_2_medium"
-        texturefile = "gfx/interface/ideas/technology/tools.dds"
-    }
-    SpriteType = {
-        name = "GFX_production_growth_3_medium"
-        texturefile = "gfx/interface/ideas/technology/tools.dds"
-    }
-   
-    SpriteType = {
-        name = "GFX_production_retention_1_medium"
-        texturefile = "gfx/interface/ideas/technology/manufactories.dds"
-    }
-    SpriteType = {
-        name = "GFX_production_retention_2_medium"
-        texturefile = "gfx/interface/ideas/technology/manufactories.dds"
-    }
-    SpriteType = {
-        name = "GFX_production_retention_3_medium"
-        texturefile = "gfx/interface/ideas/technology/manufactories.dds"
-    }
     
-    SpriteType = {
-        name = "GFX_production_max_1_1_medium"
-        texturefile = "gfx/interface/ideas/technology/institutional_knowledge.dds"
-    }
-    SpriteType = {
-        name = "GFX_production_max_1_2_medium"
-        texturefile = "gfx/interface/ideas/technology/institutional_knowledge.dds"
-    }
-    SpriteType = {
-        name = "GFX_production_max_2_1_medium"
-        texturefile = "gfx/interface/ideas/technology/institutional_knowledge.dds"
-    }
-    SpriteType = {
-        name = "GFX_production_max_2_2_medium"
-        texturefile = "gfx/interface/ideas/technology/institutional_knowledge.dds"
-    }
-    
-    SpriteType = {
-        name = "GFX_production_substitution_1_1_medium"
-        texturefile = "gfx/interface/ideas/technology/scrapheap.dds"
-    }
-    SpriteType = {
-        name = "GFX_production_substitution_2_1_medium"
-        texturefile = "gfx/interface/ideas/technology/scrapheap.dds"
-    }
-    
-    SpriteType = {
-        name = "GFX_production_start_1_1_medium"
-        texturefile = "gfx/interface/ideas/technology/infrastructure.dds"
-    }
-    SpriteType = {
-        name = "GFX_production_start_2_1_medium"
-        texturefile = "gfx/interface/ideas/technology/infrastructure.dds"
-    }
-    
-    SpriteType = {
-        name = "GFX_local_investment_medium"
-        texturefile = "gfx/interface/ideas/technology/local_investment.dds"
-    }
-    
-    SpriteType = {
-        name = "GFX_self_sufficiency_medium"
-        texturefile = "gfx/interface/ideas/technology/self_sufficiency.dds"
-    }
-    
-    SpriteType = {
-        name = "GFX_jury_rigging_medium"
-        texturefile = "gfx/interface/ideas/technology/jury_rigging.dds"
-    }
-    
-    SpriteType = {
-        name = "GFX_factory_output_1_medium"
-        texturefile = "gfx/interface/ideas/technology/factory_capacity.dds"
-    }
-    SpriteType = {
-        name = "GFX_factory_output_2_medium"
-        texturefile = "gfx/interface/ideas/technology/factory_capacity.dds"
-    }
-    SpriteType = {
-        name = "GFX_factory_output_3_medium"
-        texturefile = "gfx/interface/ideas/technology/factory_capacity.dds"
-    }
-    
-    SpriteType = {
-        name = "GFX_dockyard_output_1_medium"
-        texturefile = "gfx/interface/ideas/technology/dock_capacity.dds"
-    }
-    SpriteType = {
-        name = "GFX_dockyard_output_2_medium"
-        texturefile = "gfx/interface/ideas/technology/dock_capacity.dds"
-    }
-    SpriteType = {
-        name = "GFX_dockyard_output_3_medium"
-        texturefile = "gfx/interface/ideas/technology/dock_capacity.dds"
-    }
-    
-    SpriteType = {
-        name = "GFX_fuel_pump_1_medium"
-        texturefile = "gfx/interface/ideas/technology/fuel_pump.dds"
-    }
-    SpriteType = {
-        name = "GFX_fuel_pump_2_medium"
-        texturefile = "gfx/interface/ideas/technology/fuel_pump.dds"
-    }
-    SpriteType = {
-        name = "GFX_fuel_pump_3_medium"
-        texturefile = "gfx/interface/ideas/technology/fuel_pump.dds"
-    }
-
-    SpriteType = {
-        name = "GFX_roost_1_medium"
-        texturefile = "gfx/interface/ideas/technology/roost.dds"
-    }
-    SpriteType = {
-        name = "GFX_roost_2_medium"
-        texturefile = "gfx/interface/ideas/technology/roost.dds"
-    }
-    SpriteType = {
-        name = "GFX_roost_3_medium"
-        texturefile = "gfx/interface/ideas/technology/roost.dds"
-    }
-
-    SpriteType = {
-        name = "GFX_stable_1_medium"
-        texturefile = "gfx/interface/ideas/technology/stable.dds"
-    }
-    SpriteType = {
-        name = "GFX_stable_2_medium"
-        texturefile = "gfx/interface/ideas/technology/stable.dds"
-    }
-    SpriteType = {
-        name = "GFX_stable_3_medium"
-        texturefile = "gfx/interface/ideas/technology/stable.dds"
-    }
-
-    SpriteType = {
-        name = "GFX_lumbercamp_1_medium"
-        texturefile = "gfx/interface/ideas/technology/lumbercamp.dds"
-    }
-    SpriteType = {
-        name = "GFX_lumbercamp_2_medium"
-        texturefile = "gfx/interface/ideas/technology/lumbercamp.dds"
-    }
-    SpriteType = {
-        name = "GFX_lumbercamp_3_medium"
-        texturefile = "gfx/interface/ideas/technology/lumbercamp.dds"
-    }
-
-    SpriteType = {
-        name = "GFX_smeltery_1_medium"
-        texturefile = "gfx/interface/ideas/technology/smeltery.dds"
-    }
-    SpriteType = {
-        name = "GFX_smeltery_2_medium"
-        texturefile = "gfx/interface/ideas/technology/smeltery.dds"
-    }
-    SpriteType = {
-        name = "GFX_smeltery_3_medium"
-        texturefile = "gfx/interface/ideas/technology/smeltery.dds"
-    }
-
-    SpriteType = {
-        name = "GFX_farm_1_medium"
-        texturefile = "gfx/interface/ideas/technology/farm.dds"
-    }
-    SpriteType = {
-        name = "GFX_farm_2_medium"
-        texturefile = "gfx/interface/ideas/technology/farm.dds"
-    }
-    SpriteType = {
-        name = "GFX_farm_3_medium"
-        texturefile = "gfx/interface/ideas/technology/farm.dds"
-    }
-
-
-    #-----------------------------------------------------------------
-    # Support
-    #-----------------------------------------------------------------
-    
-    SpriteType = {
-        name = "GFX_war_engine_support_tech_1_medium"
-        texturefile = "gfx/interface/ideas/technology/war_engine_support.dds"
-    }
-    SpriteType = {
-        name = "GFX_war_engine_support_advancement_1_1_medium"
-        texturefile = "gfx/interface/ideas/technology/strength.dds"
-    }
-    SpriteType = {
-        name = "GFX_war_engine_support_advancement_1_2_medium"
-        texturefile = "gfx/interface/ideas/technology/strength.dds"
-    }
-    SpriteType = {
-        name = "GFX_war_engine_support_advancement_2_1_medium"
-        texturefile = "gfx/interface/ideas/technology/organisation.dds"
-    }
-    SpriteType = {
-        name = "GFX_war_engine_support_advancement_2_2_medium"
-        texturefile = "gfx/interface/ideas/technology/organisation.dds"
-    }
-    SpriteType = {
-        name = "GFX_war_engine_support_advancement_3_medium"
-        texturefile = "gfx/interface/ideas/technology/reliability.dds"
-    }
-    SpriteType = {
-        name = "GFX_war_engine_support_advancement_4_medium"
-        texturefile = "gfx/interface/ideas/technology/soft_attack.dds"
-    }
-    
-    SpriteType = {
-        name = "GFX_archer_support_tech_1_medium"
-        texturefile = "gfx/interface/ideas/technology/archer_support.dds"
-    }
-    SpriteType = {
-        name = "GFX_archer_support_advancement_1_1_medium"
-        texturefile = "gfx/interface/ideas/technology/strength.dds"
-    }
-    SpriteType = {
-        name = "GFX_archer_support_advancement_1_2_medium"
-        texturefile = "gfx/interface/ideas/technology/strength.dds"
-    }
-    SpriteType = {
-        name = "GFX_archer_support_advancement_2_1_medium"
-        texturefile = "gfx/interface/ideas/technology/organisation.dds"
-    }
-    SpriteType = {
-        name = "GFX_archer_support_advancement_2_2_medium"
-        texturefile = "gfx/interface/ideas/technology/organisation.dds"
-    }
-    SpriteType = {
-        name = "GFX_archer_support_advancement_3_medium"
-        texturefile = "gfx/interface/ideas/technology/reliability.dds"
-    }
-    SpriteType = {
-        name = "GFX_archer_support_advancement_4_medium"
-        texturefile = "gfx/interface/ideas/technology/defence.dds"
-    }
-    
-    SpriteType = {
-        name = "GFX_spellcaster_support_tech_1_medium"
-        texturefile = "gfx/interface/ideas/technology/spellcaster_support.dds"
-    }
-    SpriteType = {
-        name = "GFX_spellcaster_support_advancement_1_1_medium"
-        texturefile = "gfx/interface/ideas/technology/strength.dds"
-    }
-    SpriteType = {
-        name = "GFX_spellcaster_support_advancement_1_2_medium"
-        texturefile = "gfx/interface/ideas/technology/strength.dds"
-    }
-    SpriteType = {
-        name = "GFX_spellcaster_support_advancement_2_1_medium"
-        texturefile = "gfx/interface/ideas/technology/organisation.dds"
-    }
-    SpriteType = {
-        name = "GFX_spellcaster_support_advancement_2_2_medium"
-        texturefile = "gfx/interface/ideas/technology/organisation.dds"
-    }
-    SpriteType = {
-        name = "GFX_spellcaster_support_advancement_3_medium"
-        texturefile = "gfx/interface/ideas/technology/reliability.dds"
-    }
-    SpriteType = {
-        name = "GFX_spellcaster_support_advancement_4_medium"
-        texturefile = "gfx/interface/ideas/technology/air_attack.dds"
-    }
-
-    SpriteType = {
-        name = "GFX_logistics_support_tech_1_medium"
-        texturefile = "gfx/interface/ideas/technology/logistics_support.dds"
-    }
-    SpriteType = {
-        name = "GFX_logistics_support_advancement_1_1_medium"
-        texturefile = "gfx/interface/ideas/technology/strength.dds"
-    }
-    SpriteType = {
-        name = "GFX_logistics_support_advancement_1_2_medium"
-        texturefile = "gfx/interface/ideas/technology/strength.dds"
-    }
-    SpriteType = {
-        name = "GFX_logistics_support_advancement_2_1_medium"
-        texturefile = "gfx/interface/ideas/technology/organisation.dds"
-    }
-    SpriteType = {
-        name = "GFX_logistics_support_advancement_2_2_medium"
-        texturefile = "gfx/interface/ideas/technology/organisation.dds"
-    }
-    SpriteType = {
-        name = "GFX_logistics_support_advancement_3_medium"
-        texturefile = "gfx/interface/ideas/technology/reliability.dds"
-    }
-    SpriteType = {
-        name = "GFX_logistics_support_advancement_4_medium"
-        texturefile = "gfx/interface/ideas/technology/supply_consumption.dds"
-    }
-    
-    SpriteType = {
-        name = "GFX_guard_support_tech_1_medium"
-        texturefile = "gfx/interface/ideas/technology/guard_support.dds"
-    }
-    SpriteType = {
-        name = "GFX_guard_support_advancement_1_1_medium"
-        texturefile = "gfx/interface/ideas/technology/strength.dds"
-    }
-    SpriteType = {
-        name = "GFX_guard_support_advancement_1_2_medium"
-        texturefile = "gfx/interface/ideas/technology/strength.dds"
-    }
-    SpriteType = {
-        name = "GFX_guard_support_advancement_2_1_medium"
-        texturefile = "gfx/interface/ideas/technology/organisation.dds"
-    }
-    SpriteType = {
-        name = "GFX_guard_support_advancement_2_2_medium"
-        texturefile = "gfx/interface/ideas/technology/organisation.dds"
-    }
-    SpriteType = {
-        name = "GFX_guard_support_advancement_3_medium"
-        texturefile = "gfx/interface/ideas/technology/reliability.dds"
-    }
-    SpriteType = {
-        name = "GFX_guard_support_advancement_4_medium"
-        texturefile = "gfx/interface/ideas/technology/suppression.dds"
-    }
-
-    SpriteType = {
-        name = "GFX_engineer_support_tech_1_medium"
-        texturefile = "gfx/interface/ideas/technology/engineer_support.dds"
-    }
-    SpriteType = {
-        name = "GFX_engineer_support_advancement_1_1_medium"
-        texturefile = "gfx/interface/ideas/technology/strength.dds"
-    }
-    SpriteType = {
-        name = "GFX_engineer_support_advancement_1_2_medium"
-        texturefile = "gfx/interface/ideas/technology/strength.dds"
-    }
-    SpriteType = {
-        name = "GFX_engineer_support_advancement_2_1_medium"
-        texturefile = "gfx/interface/ideas/technology/organisation.dds"
-    }
-    SpriteType = {
-        name = "GFX_engineer_support_advancement_2_2_medium"
-        texturefile = "gfx/interface/ideas/technology/organisation.dds"
-    }
-    SpriteType = {
-        name = "GFX_engineer_support_advancement_3_medium"
-        texturefile = "gfx/interface/ideas/technology/reliability.dds"
-    }
-    SpriteType = {
-        name = "GFX_engineer_support_advancement_4_medium"
-        texturefile = "gfx/interface/ideas/technology/entrenchment.dds"
-    }
-    
-    SpriteType = {
-        name = "GFX_medic_support_tech_1_medium"
-        texturefile = "gfx/interface/ideas/technology/medic_support.dds"
-    }
-    SpriteType = {
-        name = "GFX_medic_support_advancement_1_1_medium"
-        texturefile = "gfx/interface/ideas/technology/strength.dds"
-    }
-    SpriteType = {
-        name = "GFX_medic_support_advancement_1_2_medium"
-        texturefile = "gfx/interface/ideas/technology/strength.dds"
-    }
-    SpriteType = {
-        name = "GFX_medic_support_advancement_2_1_medium"
-        texturefile = "gfx/interface/ideas/technology/organisation.dds"
-    }
-    SpriteType = {
-        name = "GFX_medic_support_advancement_2_2_medium"
-        texturefile = "gfx/interface/ideas/technology/organisation.dds"
-    }
-    SpriteType = {
-        name = "GFX_medic_support_advancement_3_medium"
-        texturefile = "gfx/interface/ideas/technology/reliability.dds"
-    }
-    SpriteType = {
-        name = "GFX_medic_support_advancement_4_medium"
-        texturefile = "gfx/interface/ideas/technology/medic_support.dds"
-    }
-
-    SpriteType = {
-        name = "GFX_scout_support_tech_1_medium"
-        texturefile = "gfx/interface/ideas/technology/scout_support.dds"
-    }
-    SpriteType = {
-        name = "GFX_scout_support_advancement_1_1_medium"
-        texturefile = "gfx/interface/ideas/technology/strength.dds"
-    }
-    SpriteType = {
-        name = "GFX_scout_support_advancement_1_2_medium"
-        texturefile = "gfx/interface/ideas/technology/strength.dds"
-    }
-    SpriteType = {
-        name = "GFX_scout_support_advancement_2_1_medium"
-        texturefile = "gfx/interface/ideas/technology/organisation.dds"
-    }
-    SpriteType = {
-        name = "GFX_scout_support_advancement_2_2_medium"
-        texturefile = "gfx/interface/ideas/technology/organisation.dds"
-    }
-    SpriteType = {
-        name = "GFX_scout_support_advancement_3_medium"
-        texturefile = "gfx/interface/ideas/technology/reliability.dds"
-    }
-    SpriteType = {
-        name = "GFX_scout_support_advancement_4_medium"
-        texturefile = "gfx/interface/ideas/technology/recon.dds"
-    }
-
-    SpriteType = {
-        name = "GFX_cavalry_support_tech_1_medium"
-        texturefile = "gfx/interface/ideas/technology/cavalry_support.dds"
-    }
-    SpriteType = {
-        name = "GFX_cavalry_support_advancement_1_1_medium"
-        texturefile = "gfx/interface/ideas/technology/strength.dds"
-    }
-    SpriteType = {
-        name = "GFX_cavalry_support_advancement_1_2_medium"
-        texturefile = "gfx/interface/ideas/technology/strength.dds"
-    }
-    SpriteType = {
-        name = "GFX_cavalry_support_advancement_2_1_medium"
-        texturefile = "gfx/interface/ideas/technology/organisation.dds"
-    }
-    SpriteType = {
-        name = "GFX_cavalry_support_advancement_2_2_medium"
-        texturefile = "gfx/interface/ideas/technology/organisation.dds"
-    }
-    SpriteType = {
-        name = "GFX_cavalry_support_advancement_3_medium"
-        texturefile = "gfx/interface/ideas/technology/reliability.dds"
-    }
-    SpriteType = {
-        name = "GFX_cavalry_support_advancement_4_medium"
-        texturefile = "gfx/interface/ideas/technology/breakthrough.dds"
-    }
-
-    #-----------------------------------------------------------------
-    # Army Doctrine
-    #-----------------------------------------------------------------
-    SpriteType = {
-        name = "GFX_conqueror_tech_1_medium"
-        texturefile = "gfx/interface/ideas/technology/conquerors.dds"
-    }
-    SpriteType = {
-        name = "GFX_conqueror_tech_2_medium"
-        texturefile = "gfx/interface/ideas/technology/movement.dds"
-    }
-    SpriteType = {
-        name = "GFX_conqueror_tech_3_medium"
-        texturefile = "gfx/interface/ideas/technology/stable.dds"
-    }
-    SpriteType = {
-        name = "GFX_conqueror_tech_4_medium"
-        texturefile = "gfx/interface/ideas/technology/strength.dds"
-    }
-    SpriteType = {
-        name = "GFX_conqueror_tech_5_medium"
-        texturefile = "gfx/interface/ideas/technology/breakthrough.dds"
-    }
-    SpriteType = {
-        name = "GFX_conqueror_tech_6_medium"
-        texturefile = "gfx/interface/ideas/technology/strength.dds"
-    }
-    SpriteType = {
-        name = "GFX_conqueror_tech_7_medium"
-        texturefile = "gfx/interface/ideas/technology/maximum_speed.dds"
-    }
-    SpriteType = {
-        name = "GFX_conqueror_tech_8_medium"
-        texturefile = "gfx/interface/ideas/technology/organisation.dds"
-    }
-    SpriteType = {
-        name = "GFX_conqueror_tech_9_medium"
-        texturefile = "gfx/interface/ideas/technology/morale.dds"
-    }
-    SpriteType = {
-        name = "GFX_conqueror_tech_10_medium"
-        texturefile = "gfx/interface/ideas/technology/soft_attack.dds"
-    }
-    SpriteType = {
-        name = "GFX_conqueror_tech_11_medium"
-        texturefile = "gfx/interface/ideas/technology/organisation.dds"
-    }
-    SpriteType = {
-        name = "GFX_conqueror_tech_12_medium"
-        texturefile = "gfx/interface/ideas/technology/morale.dds"
-    }
-    SpriteType = {
-        name = "GFX_conqueror_tech_13_medium"
-        texturefile = "gfx/interface/ideas/technology/division_org.dds"
-    }
-    SpriteType = {
-        name = "GFX_conqueror_tech_14_medium"
-        texturefile = "gfx/interface/ideas/technology/reinforce_rate.dds"
-    }
-    SpriteType = {
-        name = "GFX_conqueror_tech_15_medium"
-        texturefile = "gfx/interface/ideas/technology/division_morale.dds"
-    }
-    SpriteType = {
-        name = "GFX_conqueror_tech_16_medium"
-        texturefile = "gfx/interface/ideas/technology/division_exp_loss.dds"
-    }
-    SpriteType = {
-        name = "GFX_conqueror_tech_17_medium"
-        texturefile = "gfx/interface/ideas/technology/division_attrition.dds"
-    }
-    SpriteType = {
-        name = "GFX_conqueror_tech_18_medium"
-        texturefile = "gfx/interface/ideas/technology/out_of_supply.dds"
-    }
-    SpriteType = {
-        name = "GFX_conqueror_tech_19_medium"
-        texturefile = "gfx/interface/ideas/technology/conquerors.dds"
-    }
-    SpriteType = {
-        name = "GFX_conqueror_tech_20_medium"
-        texturefile = "gfx/interface/ideas/technology/org_loss_whilst_moving.dds"
-    }
-    SpriteType = {
-        name = "GFX_conqueror_tech_21_medium"
-        texturefile = "gfx/interface/ideas/technology/land_night_attack.dds"
-    }
-    
-    SpriteType = {
-        name = "GFX_guardian_tech_1_medium"
-        texturefile = "gfx/interface/ideas/technology/guardians.dds"
-    }
-    SpriteType = {
-        name = "GFX_guardian_tech_2_medium"
-        texturefile = "gfx/interface/ideas/technology/division_morale.dds"
-    }
-    SpriteType = {
-        name = "GFX_guardian_tech_3_medium"
-        texturefile = "gfx/interface/ideas/technology/defence.dds"
-    }
-    SpriteType = {
-        name = "GFX_guardian_tech_4_medium"
-        texturefile = "gfx/interface/ideas/technology/armor.dds"
-    }
-    SpriteType = {
-        name = "GFX_guardian_tech_5_medium"
-        texturefile = "gfx/interface/ideas/technology/defence.dds"
-    }
-    SpriteType = {
-        name = "GFX_guardian_tech_6_medium"
-        texturefile = "gfx/interface/ideas/technology/armor.dds"
-    }
-    SpriteType = {
-        name = "GFX_guardian_tech_7_medium"
-        texturefile = "gfx/interface/ideas/technology/soft_attack.dds"
-    }
-    SpriteType = {
-        name = "GFX_guardian_tech_8_medium"
-        texturefile = "gfx/interface/ideas/technology/organisation.dds"
-    }
-    SpriteType = {
-        name = "GFX_guardian_tech_9_medium"
-        texturefile = "gfx/interface/ideas/technology/hardness.dds"
-    }
-    SpriteType = {
-        name = "GFX_guardian_tech_10_medium"
-        texturefile = "gfx/interface/ideas/technology/entrenchment.dds"
-    }
-    SpriteType = {
-        name = "GFX_guardian_tech_11_medium"
-        texturefile = "gfx/interface/ideas/technology/organisation.dds"
-    }
-    SpriteType = {
-        name = "GFX_guardian_tech_12_medium"
-        texturefile = "gfx/interface/ideas/technology/hardness.dds"
-    }
-    SpriteType = {
-        name = "GFX_guardian_tech_13_medium"
-        texturefile = "gfx/interface/ideas/technology/division_exp_loss.dds"
-    }
-    SpriteType = {
-        name = "GFX_guardian_tech_14_medium"
-        texturefile = "gfx/interface/ideas/technology/max_planning.dds"
-    }
-    SpriteType = {
-        name = "GFX_guardian_tech_15_medium"
-        texturefile = "gfx/interface/ideas/technology/out_of_supply.dds"
-    }
-    SpriteType = {
-        name = "GFX_guardian_tech_16_medium"
-        texturefile = "gfx/interface/ideas/technology/division_attrition.dds"
-    }
-    SpriteType = {
-        name = "GFX_guardian_tech_17_medium"
-        texturefile = "gfx/interface/ideas/technology/entrenchment_speed.dds"
-    }
-    SpriteType = {
-        name = "GFX_guardian_tech_18_medium"
-        texturefile = "gfx/interface/ideas/technology/max_entrenchment.dds"
-    }
-    SpriteType = {
-        name = "GFX_guardian_tech_19_medium"
-        texturefile = "gfx/interface/ideas/technology/guardians.dds"
-    }
-    SpriteType = {
-        name = "GFX_guardian_tech_20_medium"
-        texturefile = "gfx/interface/ideas/technology/encirclement_penalty.dds"
-    }
-    SpriteType = {
-        name = "GFX_guardian_tech_21_medium"
-        texturefile = "gfx/interface/ideas/technology/planning_speed.dds"
-    }
-    
-    #-----------------------------------------------------------------
-    # Aviation Doctrine
-    #-----------------------------------------------------------------
-    SpriteType = {
-        name = "GFX_aviation_doctrine_tech_1_medium"
-        texturefile = "gfx/interface/ideas/technology/wind.dds"
-    }
-    SpriteType = {
-        name = "GFX_aviation_doctrine_tech_2_medium"
-        texturefile = "gfx/interface/ideas/technology/wind_2.dds"
-    }
-    SpriteType = {
-        name = "GFX_aviation_doctrine_tech_3_medium"
-        texturefile = "gfx/interface/ideas/technology/roost.dds"
-    }
-    SpriteType = {
-        name = "GFX_aviation_doctrine_tech_4_medium"
-        texturefile = "gfx/interface/ideas/technology/cas_equipment.dds"
-    }
-    SpriteType = {
-        name = "GFX_aviation_doctrine_tech_5_medium"
-        texturefile = "gfx/interface/ideas/technology/tactical_bomber_equipment.dds"
-    }
-    SpriteType = {
-        name = "GFX_aviation_doctrine_tech_6_medium"
-        texturefile = "gfx/interface/ideas/technology/strategic_bomber_equipment.dds"
-    }
-    SpriteType = {
-        name = "GFX_aviation_doctrine_tech_7_medium"
-        texturefile = "gfx/interface/ideas/technology/aerial_supremacy.dds"
-    }
-    SpriteType = {
-        name = "GFX_aviation_doctrine_tech_8_medium"
-        texturefile = "gfx/interface/ideas/technology/carpet_bombing.dds"
-    }
-    SpriteType = {
-        name = "GFX_aviation_doctrine_tech_9_medium"
-        texturefile = "gfx/interface/ideas/technology/small_payloads.dds"
-    }
-    SpriteType = {
-        name = "GFX_aviation_doctrine_tech_10_medium"
-        texturefile = "gfx/interface/ideas/technology/tactical_avoidance.dds"
-    }
-    SpriteType = {
-        name = "GFX_aviation_doctrine_tech_11_medium"
-        texturefile = "gfx/interface/ideas/technology/strategic_engagements.dds"
-    }
-    SpriteType = {
-        name = "GFX_aviation_doctrine_tech_12_medium"
-        texturefile = "gfx/interface/ideas/technology/optimised_payloads.dds"
-    }
-    SpriteType = {
-        name = "GFX_aviation_doctrine_tech_13_medium"
-        texturefile = "gfx/interface/ideas/technology/veteran_pilots.dds"
-    }
-    SpriteType = {
-        name = "GFX_aviation_doctrine_tech_14_medium"
-        texturefile = "gfx/interface/ideas/technology/goggles.dds"
-    }
-    SpriteType = {
-        name = "GFX_aviation_doctrine_tech_15_medium"
-        texturefile = "gfx/interface/ideas/technology/wind_3.dds"
-    }
-    SpriteType = {
-        name = "GFX_aviation_doctrine_tech_16_medium"
-        texturefile = "gfx/interface/ideas/technology/interceptors.dds"
-    }
-    SpriteType = {
-        name = "GFX_aviation_doctrine_tech_17_medium"
-        texturefile = "gfx/interface/ideas/technology/low_flyers.dds"
-    }
-    SpriteType = {
-        name = "GFX_aviation_doctrine_tech_18_medium"
-        texturefile = "gfx/interface/ideas/technology/timed_bombs.dds"
-    }
-    SpriteType = {
-        name = "GFX_aviation_doctrine_tech_19_medium"
-        texturefile = "gfx/interface/ideas/technology/masterful_pilots.dds"
-    }
-    SpriteType = {
-        name = "GFX_aviation_doctrine_tech_20_medium"
-        texturefile = "gfx/interface/ideas/technology/eagle_eyes.dds"
-    }
-    SpriteType = {
-        name = "GFX_aviation_doctrine_tech_21_medium"
-        texturefile = "gfx/interface/ideas/technology/through_the_needle.dds"
-    }
-    
-    #-----------------------------------------------------------------
-    # Naval Doctrine
-    #-----------------------------------------------------------------
-    SpriteType = {
-        name = "GFX_naval_doctrine_tech_1_medium"
-        texturefile = "gfx/interface/ideas/technology/atop_the_mast.dds"
-    }
-    SpriteType = {
-        name = "GFX_naval_doctrine_tech_2_medium"
-        texturefile = "gfx/interface/ideas/technology/united_we_stand.dds"
-    }
-    SpriteType = {
-        name = "GFX_naval_doctrine_tech_3_medium"
-        texturefile = "gfx/interface/ideas/technology/naval_shell.dds"
-    }
-    SpriteType = {
-        name = "GFX_naval_doctrine_tech_4_medium"
-        texturefile = "gfx/interface/ideas/technology/naval_bombardment.dds"
-    }
-    SpriteType = {
-        name = "GFX_naval_doctrine_tech_5_medium"
-        texturefile = "gfx/interface/ideas/technology/destroyer.dds"
-    }
-    SpriteType = {
-        name = "GFX_naval_doctrine_tech_6_medium"
-        texturefile = "gfx/interface/ideas/technology/sub_stealth.dds"
-    }
-    SpriteType = {
-        name = "GFX_naval_doctrine_tech_7_medium"
-        texturefile = "gfx/interface/ideas/technology/floating_ordnance.dds"
-    }
-    SpriteType = {
-        name = "GFX_naval_doctrine_tech_8_medium"
-        texturefile = "gfx/interface/ideas/technology/greased_cannons.dds"
-    }
-    SpriteType = {
-        name = "GFX_naval_doctrine_tech_9_medium"
-        texturefile = "gfx/interface/ideas/technology/naval_speed.dds"
-    }
-    SpriteType = {
-        name = "GFX_naval_doctrine_tech_10_medium"
-        texturefile = "gfx/interface/ideas/technology/homing_charges.dds"
-    }
-    SpriteType = {
-        name = "GFX_naval_doctrine_tech_11_medium"
-        texturefile = "gfx/interface/ideas/technology/homing_torpedos.dds"
-    }
-    SpriteType = {
-        name = "GFX_naval_doctrine_tech_12_medium"
-        texturefile = "gfx/interface/ideas/technology/eyes_of_the_horizon.dds"
-    }
-    SpriteType = {
-        name = "GFX_naval_doctrine_tech_13_medium"
-        texturefile = "gfx/interface/ideas/technology/tidal_fury.dds"
-    }
-    SpriteType = {
-        name = "GFX_naval_doctrine_tech_14_medium"
-        texturefile = "gfx/interface/ideas/technology/sea_shanties.dds"
-    }
-    SpriteType = {
-        name = "GFX_naval_doctrine_tech_15_medium"
-        texturefile = "gfx/interface/ideas/technology/thick_hull.dds"
-    }
-    SpriteType = {
-        name = "GFX_naval_doctrine_tech_16_medium"
-        texturefile = "gfx/interface/ideas/technology/accurate_sights.dds"
-    }
-    SpriteType = {
-        name = "GFX_naval_doctrine_tech_17_medium"
-        texturefile = "gfx/interface/ideas/technology/depth_charges.dds"
-    }
-    SpriteType = {
-        name = "GFX_naval_doctrine_tech_18_medium"
-        texturefile = "gfx/interface/ideas/technology/homing_charges.dds"
-    }
-    SpriteType = {
-        name = "GFX_naval_doctrine_tech_19_medium"
-        texturefile = "gfx/interface/ideas/technology/navy_experience.dds"
-    }
-    SpriteType = {
-        name = "GFX_naval_doctrine_tech_20_medium"
-        texturefile = "gfx/interface/ideas/technology/spy_action_growth.dds"
-    }
-    SpriteType = {
-        name = "GFX_naval_doctrine_tech_21_medium"
-        texturefile = "gfx/interface/ideas/technology/naval_invasion_defence.dds"
-    }
 }

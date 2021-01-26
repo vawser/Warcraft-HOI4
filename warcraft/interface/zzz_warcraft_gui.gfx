@@ -36,6 +36,30 @@ spriteTypes = {
 	}
     
     #----------------------------
+    # Topbar
+    #----------------------------
+    spriteType = {
+		name = "GFX_core_button"
+		texturefile = "gfx/interface/topbar/topbar_core_button.dds"
+        noOfFrames = 2
+	}
+    spriteType = {
+		name = "GFX_espionage_button"
+		texturefile = "gfx/interface/topbar/topbar_espionage_button.dds"
+        noOfFrames = 2
+	}
+    spriteType = {
+		name = "GFX_religion_button"
+		texturefile = "gfx/interface/topbar/topbar_religion_button.dds"
+        noOfFrames = 2
+	}
+    spriteType = {
+		name = "GFX_report_button"
+		texturefile = "gfx/interface/topbar/topbar_building_report_button.dds"
+        noOfFrames = 2
+	}
+    
+    #----------------------------
     # Buttons
     #----------------------------
     spriteType = {

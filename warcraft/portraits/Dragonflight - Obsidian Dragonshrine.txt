@@ -1,4 +1,13 @@
 ODS = {
+    operative = {
+		male = {
+			"gfx/leaders/DRAGONFLIGHT/black_dragon.dds"
+		}
+        female = {
+			"gfx/leaders/DRAGONFLIGHT/black_dragon.dds"
+		}
+	}
+    
 	army = {
 		male = {
 			"gfx/leaders/DRAGONFLIGHT/black_dragon.dds"

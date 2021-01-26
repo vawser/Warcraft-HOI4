@@ -1,6 +1,30 @@
 OON = {
+    operative = {
+		male = {
+			"gfx/leaders/HOZEN/hozen_1.dds"
+            "gfx/leaders/HOZEN/hozen_2.dds"
+            "gfx/leaders/HOZEN/hozen_3.dds"
+            "gfx/leaders/HOZEN/hozen_4.dds"
+            "gfx/leaders/HOZEN/hozen_5.dds"
+		}
+        female = {
+			"gfx/leaders/HOZEN/hozen_1.dds"
+            "gfx/leaders/HOZEN/hozen_2.dds"
+            "gfx/leaders/HOZEN/hozen_3.dds"
+            "gfx/leaders/HOZEN/hozen_4.dds"
+            "gfx/leaders/HOZEN/hozen_5.dds"
+		}
+	}
+    
 	army = {
 		male = {
+			"gfx/leaders/HOZEN/hozen_1.dds"
+            "gfx/leaders/HOZEN/hozen_2.dds"
+            "gfx/leaders/HOZEN/hozen_3.dds"
+            "gfx/leaders/HOZEN/hozen_4.dds"
+            "gfx/leaders/HOZEN/hozen_5.dds"
+		}
+        female = {
 			"gfx/leaders/HOZEN/hozen_1.dds"
             "gfx/leaders/HOZEN/hozen_2.dds"
             "gfx/leaders/HOZEN/hozen_3.dds"
@@ -11,6 +35,13 @@ OON = {
 
 	navy = {
 		male = {
+			"gfx/leaders/HOZEN/hozen_1.dds"
+            "gfx/leaders/HOZEN/hozen_2.dds"
+            "gfx/leaders/HOZEN/hozen_3.dds"
+            "gfx/leaders/HOZEN/hozen_4.dds"
+            "gfx/leaders/HOZEN/hozen_5.dds"
+		}
+        female = {
 			"gfx/leaders/HOZEN/hozen_1.dds"
             "gfx/leaders/HOZEN/hozen_2.dds"
             "gfx/leaders/HOZEN/hozen_3.dds"
@@ -28,9 +59,23 @@ OON = {
                 "gfx/leaders/HOZEN/hozen_4.dds"
                 "gfx/leaders/HOZEN/hozen_5.dds"
             }
+            female = {
+                "gfx/leaders/HOZEN/hozen_1.dds"
+                "gfx/leaders/HOZEN/hozen_2.dds"
+                "gfx/leaders/HOZEN/hozen_3.dds"
+                "gfx/leaders/HOZEN/hozen_4.dds"
+                "gfx/leaders/HOZEN/hozen_5.dds"
+            }
 		}
 		shadow = {
 			male = {
+                "gfx/leaders/HOZEN/hozen_1.dds"
+                "gfx/leaders/HOZEN/hozen_2.dds"
+                "gfx/leaders/HOZEN/hozen_3.dds"
+                "gfx/leaders/HOZEN/hozen_4.dds"
+                "gfx/leaders/HOZEN/hozen_5.dds"
+            }
+            female = {
                 "gfx/leaders/HOZEN/hozen_1.dds"
                 "gfx/leaders/HOZEN/hozen_2.dds"
                 "gfx/leaders/HOZEN/hozen_3.dds"
@@ -46,9 +91,23 @@ OON = {
                 "gfx/leaders/HOZEN/hozen_4.dds"
                 "gfx/leaders/HOZEN/hozen_5.dds"
             }
+            female = {
+                "gfx/leaders/HOZEN/hozen_1.dds"
+                "gfx/leaders/HOZEN/hozen_2.dds"
+                "gfx/leaders/HOZEN/hozen_3.dds"
+                "gfx/leaders/HOZEN/hozen_4.dds"
+                "gfx/leaders/HOZEN/hozen_5.dds"
+            }
 		}
         disorder = {
 			male = {
+                "gfx/leaders/HOZEN/hozen_1.dds"
+                "gfx/leaders/HOZEN/hozen_2.dds"
+                "gfx/leaders/HOZEN/hozen_3.dds"
+                "gfx/leaders/HOZEN/hozen_4.dds"
+                "gfx/leaders/HOZEN/hozen_5.dds"
+            }
+            female = {
                 "gfx/leaders/HOZEN/hozen_1.dds"
                 "gfx/leaders/HOZEN/hozen_2.dds"
                 "gfx/leaders/HOZEN/hozen_3.dds"
@@ -64,6 +123,13 @@ OON = {
                 "gfx/leaders/HOZEN/hozen_4.dds"
                 "gfx/leaders/HOZEN/hozen_5.dds"
             }
+            female = {
+                "gfx/leaders/HOZEN/hozen_1.dds"
+                "gfx/leaders/HOZEN/hozen_2.dds"
+                "gfx/leaders/HOZEN/hozen_3.dds"
+                "gfx/leaders/HOZEN/hozen_4.dds"
+                "gfx/leaders/HOZEN/hozen_5.dds"
+            }
 		}
         death = {
 			male = {
@@ -73,9 +139,23 @@ OON = {
                 "gfx/leaders/HOZEN/hozen_4.dds"
                 "gfx/leaders/HOZEN/hozen_5.dds"
             }
+            female = {
+                "gfx/leaders/HOZEN/hozen_1.dds"
+                "gfx/leaders/HOZEN/hozen_2.dds"
+                "gfx/leaders/HOZEN/hozen_3.dds"
+                "gfx/leaders/HOZEN/hozen_4.dds"
+                "gfx/leaders/HOZEN/hozen_5.dds"
+            }
 		}
         unaligned = {
 			male = {
+                "gfx/leaders/HOZEN/hozen_1.dds"
+                "gfx/leaders/HOZEN/hozen_2.dds"
+                "gfx/leaders/HOZEN/hozen_3.dds"
+                "gfx/leaders/HOZEN/hozen_4.dds"
+                "gfx/leaders/HOZEN/hozen_5.dds"
+            }
+            female = {
                 "gfx/leaders/HOZEN/hozen_1.dds"
                 "gfx/leaders/HOZEN/hozen_2.dds"
                 "gfx/leaders/HOZEN/hozen_3.dds"

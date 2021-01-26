@@ -1,4 +1,13 @@
 NEX = {
+    operative = {
+		male = {
+			"gfx/leaders/DRAGONFLIGHT/blue_dragon.dds"
+		}
+        female = {
+			"gfx/leaders/DRAGONFLIGHT/blue_dragon.dds"
+		}
+	}
+    
 	army = {
 		male = {
 			"gfx/leaders/DRAGONFLIGHT/blue_dragon.dds"

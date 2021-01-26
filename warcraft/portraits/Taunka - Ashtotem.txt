@@ -1,6 +1,24 @@
 ASH = {
+    operative = {
+		male = {
+			"gfx/leaders/TAUNKA/taunka_white.dds"
+			"gfx/leaders/TAUNKA/taunka_brown.dds"
+            "gfx/leaders/TAUNKA/taunka_black.dds"
+		}
+        female = {
+			"gfx/leaders/TAUNKA/taunka_white.dds"
+			"gfx/leaders/TAUNKA/taunka_brown.dds"
+            "gfx/leaders/TAUNKA/taunka_black.dds"
+		}
+	}
+    
 	army = {
 		male = {
+			"gfx/leaders/TAUNKA/taunka_white.dds"
+			"gfx/leaders/TAUNKA/taunka_brown.dds"
+            "gfx/leaders/TAUNKA/taunka_black.dds"
+		}
+        female = {
 			"gfx/leaders/TAUNKA/taunka_white.dds"
 			"gfx/leaders/TAUNKA/taunka_brown.dds"
             "gfx/leaders/TAUNKA/taunka_black.dds"
@@ -9,6 +27,11 @@ ASH = {
 
 	navy = {
 		male = {
+			"gfx/leaders/TAUNKA/taunka_white.dds"
+			"gfx/leaders/TAUNKA/taunka_brown.dds"
+            "gfx/leaders/TAUNKA/taunka_black.dds"
+		}
+        female = {
 			"gfx/leaders/TAUNKA/taunka_white.dds"
 			"gfx/leaders/TAUNKA/taunka_brown.dds"
             "gfx/leaders/TAUNKA/taunka_black.dds"
@@ -22,9 +45,19 @@ ASH = {
                 "gfx/leaders/TAUNKA/taunka_brown.dds"
                 "gfx/leaders/TAUNKA/taunka_black.dds"
             }
+            female = {
+                "gfx/leaders/TAUNKA/taunka_white.dds"
+                "gfx/leaders/TAUNKA/taunka_brown.dds"
+                "gfx/leaders/TAUNKA/taunka_black.dds"
+            }
 		}
 		shadow = {
 			male = {
+                "gfx/leaders/TAUNKA/taunka_white.dds"
+                "gfx/leaders/TAUNKA/taunka_brown.dds"
+                "gfx/leaders/TAUNKA/taunka_black.dds"
+            }
+            female = {
                 "gfx/leaders/TAUNKA/taunka_white.dds"
                 "gfx/leaders/TAUNKA/taunka_brown.dds"
                 "gfx/leaders/TAUNKA/taunka_black.dds"
@@ -36,9 +69,19 @@ ASH = {
                 "gfx/leaders/TAUNKA/taunka_brown.dds"
                 "gfx/leaders/TAUNKA/taunka_black.dds"
             }
+            female = {
+                "gfx/leaders/TAUNKA/taunka_white.dds"
+                "gfx/leaders/TAUNKA/taunka_brown.dds"
+                "gfx/leaders/TAUNKA/taunka_black.dds"
+            }
 		}
         disorder = {
 			male = {
+                "gfx/leaders/TAUNKA/taunka_white.dds"
+                "gfx/leaders/TAUNKA/taunka_brown.dds"
+                "gfx/leaders/TAUNKA/taunka_black.dds"
+            }
+            female = {
                 "gfx/leaders/TAUNKA/taunka_white.dds"
                 "gfx/leaders/TAUNKA/taunka_brown.dds"
                 "gfx/leaders/TAUNKA/taunka_black.dds"
@@ -50,6 +93,11 @@ ASH = {
                 "gfx/leaders/TAUNKA/taunka_brown.dds"
                 "gfx/leaders/TAUNKA/taunka_black.dds"
             }
+            female = {
+                "gfx/leaders/TAUNKA/taunka_white.dds"
+                "gfx/leaders/TAUNKA/taunka_brown.dds"
+                "gfx/leaders/TAUNKA/taunka_black.dds"
+            }
 		}
         death = {
 			male = {
@@ -57,9 +105,19 @@ ASH = {
                 "gfx/leaders/TAUNKA/taunka_brown.dds"
                 "gfx/leaders/TAUNKA/taunka_black.dds"
             }
+            female = {
+                "gfx/leaders/TAUNKA/taunka_white.dds"
+                "gfx/leaders/TAUNKA/taunka_brown.dds"
+                "gfx/leaders/TAUNKA/taunka_black.dds"
+            }
 		}
         unaligned = {
 			male = {
+                "gfx/leaders/TAUNKA/taunka_white.dds"
+                "gfx/leaders/TAUNKA/taunka_brown.dds"
+                "gfx/leaders/TAUNKA/taunka_black.dds"
+            }
+            female = {
                 "gfx/leaders/TAUNKA/taunka_white.dds"
                 "gfx/leaders/TAUNKA/taunka_brown.dds"
                 "gfx/leaders/TAUNKA/taunka_black.dds"

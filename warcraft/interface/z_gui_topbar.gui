@@ -1,48 +1,43 @@
 guiTypes = {
     containerWindowType = {
-		name = "toggle_button_container"
-		position = { x = 895 y = 8 }
- 
-        buttonType = {
-            name = "toggle_button"
-            spriteType = "GFX_small_chest"
-            position = { x = 0 y = 0}
-            shortcut = "shift+v"
-            pdx_tooltip = "TOGGLE_TOOLTIP"
-        }
-        
-        # For the shortcuts
-        buttonType = {
-            name ="religion_button"
-            spriteType = "GFX_blue_menu_button"
-            position = { x = 65 y = -9999 }
-            shortcut = "shift+r"
-        }
+        name = "warcraft_sidebar_container"
+        position = { x=600 y=37 }
+        size = { width = 300 height = 100 }
+        #Orientation = lower_RIGHT
         
         buttonType = {
             name = "state_button"
-            spriteType = "GFX_blue_menu_button"
-            position = { x = 65 y = -9999 }
+            quadTextureSprite = "GFX_core_button"
+            position = { x=0 y=0}
             shortcut = "shift+c"
-            text = "Coring"
-            font = "hoi_20b"
-            pdx_tooltip = "STATE_MENU_TOOLTIP"
+            pdx_tooltip = "CORING_BUTTON_TT"
         }
-        
         buttonType = {
             name = "espionage_button"
-            spriteType = "GFX_blue_menu_button"
-            position = { x = 65 y = -9999 }
-            text = "Espionage"
-            font = "hoi_20b"
-            pdx_tooltip = "ESPIONAGE_MENU_TOOLTIP"
+            quadTextureSprite = "GFX_espionage_button"
+            position = { x=60 y=0  }
+            pdx_tooltip = "ESPIONAGE_BUTTON_TT"
             shortcut = "shift+e"
+        }
+        buttonType = {
+            name = "religion_button"
+            quadTextureSprite = "GFX_religion_button"
+            position = { x=120 y=0  }
+            pdx_tooltip = "RELIGON_BUTTON_TT"
+            shortcut = "shift+r"
+        }
+        buttonType = {
+            name = "report_button"
+            quadTextureSprite = "GFX_report_button"
+            position = { x=180 y=0  }
+            pdx_tooltip = "BUILDING_REPORT_BUTTON_TT"
+            shortcut = "shift+v"
         }
     }
     
     containerWindowType = {
-		name = "topbar_container"
-		position = { x = 930 y = 4 }
+		name = "religion_topbar_container"
+		position = { x = 970 y = 4 }
         
         buttonType  ={
            name ="religion_button"
@@ -88,95 +83,6 @@ guiTypes = {
             format = center
             pdx_tooltip = "FAITH_POWER_TOOLTIP"
 		}
-    }
-    
-    containerWindowType = {
-		name = "sidebar_container"
-		position = { x = 920 y = 160 }
-        
-        size = { width = 360 height= 360 }
-		
-		fade_time = 300
-		fade_type = linear
-		moveable = yes
-		show_sound = menu_open_window
-		click_to_front = yes
-        
-        background = {
-			name = "Background"		
-			quadTextureSprite ="GFX_359x360_parchment_bg"
-		}
-        
-        buttonType = {
-            name ="building_report_toggle"
-            spriteType = "GFX_event_button_minimize"
-            position = { x = 110 y = 280 }
-            pdx_tooltip = "TOGGLE_BUILDING_VISIBILITY"
-        }
-        
-        buttonType = {
-            name ="religion_top_toggle"
-            spriteType = "GFX_event_button_minimize"
-            position = { x = 210 y = 280 }
-            pdx_tooltip = "TOGGLE_TOPBAR_VISIBILITY"
-        }
-        
-        buttonType = {
-            name ="religion_button"
-            spriteType = "GFX_blue_menu_button"
-            position = { x = 65 y = 30 }
-            shortcut = "shift+r"
-        }
-        
-        instantTextBoxType = {
-			name = "current_religion"
-			position = { x = 65 y = 45 }
-			font = "hoi_20b"
-			borderSize = {x = 0 y = 0}
-			text = "RELIGION_BUTTON"
-			maxWidth = 240
-			maxHeight = 20
-            format = center
-            pdx_tooltip = "RELIGION_DESCRIPTION"
-		}
-        
-        buttonType  ={
-            name ="faith_power_bg"
-            spriteType = "GFX_muted_menu_button"
-            position = { x= 65 y = 90 }
-        }
-
-        instantTextBoxType = {
-			name = "current_faith_power"
-			position = { x = 65 y = 105 }
-			font = "hoi_20b"
-			borderSize = {x = 0 y = 0}
-			text = "FAITH_POWER"
-			maxWidth = 240
-			maxHeight = 20
-            format = center
-            pdx_tooltip = "FAITH_POWER_TOOLTIP"
-		}
-        
-        buttonType = {
-            name = "state_button"
-            spriteType = "GFX_blue_menu_button"
-            position = { x = 65 y = 210 }
-            shortcut = "shift+c"
-            text = "State View"
-            font = "hoi_20b"
-            pdx_tooltip = "STATE_MENU_TOOLTIP"
-        }
-        
-        buttonType = {
-            name = "espionage_button"
-            spriteType = "GFX_blue_menu_button"
-            position = { x = 65 y = 150 }
-            text = "Espionage"
-            font = "hoi_20b"
-            pdx_tooltip = "ESPIONAGE_MENU_TOOLTIP"
-            shortcut = "shift+e"
-        }
     }
 }
 

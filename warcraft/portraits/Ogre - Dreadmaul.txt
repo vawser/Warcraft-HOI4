@@ -1,6 +1,51 @@
 DRD = {
+    operative = {
+		male = {
+			"gfx/leaders/OGRE/ogre_1.dds"
+            "gfx/leaders/OGRE/ogre_2.dds"
+            "gfx/leaders/OGRE/ogre_3.dds"
+            "gfx/leaders/OGRE/ogre_4.dds"
+            "gfx/leaders/OGRE/ogre_5.dds"
+            "gfx/leaders/OGRE/ogre_6.dds"
+            "gfx/leaders/OGRE/ogre_7.dds"
+            "gfx/leaders/OGRE/ogre_8.dds"
+            "gfx/leaders/OGRE/ogre_9.dds"
+            "gfx/leaders/OGRE/ogre_10.dds"
+            "gfx/leaders/OGRE/ogre_11.dds"
+            "gfx/leaders/OGRE/ogre_12.dds" 
+		}
+        female = {
+			"gfx/leaders/OGRE/ogre_1.dds"
+            "gfx/leaders/OGRE/ogre_2.dds"
+            "gfx/leaders/OGRE/ogre_3.dds"
+            "gfx/leaders/OGRE/ogre_4.dds"
+            "gfx/leaders/OGRE/ogre_5.dds"
+            "gfx/leaders/OGRE/ogre_6.dds"
+            "gfx/leaders/OGRE/ogre_7.dds"
+            "gfx/leaders/OGRE/ogre_8.dds"
+            "gfx/leaders/OGRE/ogre_9.dds"
+            "gfx/leaders/OGRE/ogre_10.dds"
+            "gfx/leaders/OGRE/ogre_11.dds"
+            "gfx/leaders/OGRE/ogre_12.dds" 
+		}
+	}
+    
 	army = {
 		male = {
+			"gfx/leaders/OGRE/ogre_1.dds"
+            "gfx/leaders/OGRE/ogre_2.dds"
+            "gfx/leaders/OGRE/ogre_3.dds"
+            "gfx/leaders/OGRE/ogre_4.dds"
+            "gfx/leaders/OGRE/ogre_5.dds"
+            "gfx/leaders/OGRE/ogre_6.dds"
+            "gfx/leaders/OGRE/ogre_7.dds"
+            "gfx/leaders/OGRE/ogre_8.dds"
+            "gfx/leaders/OGRE/ogre_9.dds"
+            "gfx/leaders/OGRE/ogre_10.dds"
+            "gfx/leaders/OGRE/ogre_11.dds"
+            "gfx/leaders/OGRE/ogre_12.dds" 
+		}
+        female = {
 			"gfx/leaders/OGRE/ogre_1.dds"
             "gfx/leaders/OGRE/ogre_2.dds"
             "gfx/leaders/OGRE/ogre_3.dds"
@@ -18,6 +63,20 @@ DRD = {
 
 	navy = {
 		male = {
+			"gfx/leaders/OGRE/ogre_1.dds"
+            "gfx/leaders/OGRE/ogre_2.dds"
+            "gfx/leaders/OGRE/ogre_3.dds"
+            "gfx/leaders/OGRE/ogre_4.dds"
+            "gfx/leaders/OGRE/ogre_5.dds"
+            "gfx/leaders/OGRE/ogre_6.dds"
+            "gfx/leaders/OGRE/ogre_7.dds"
+            "gfx/leaders/OGRE/ogre_8.dds"
+            "gfx/leaders/OGRE/ogre_9.dds"
+            "gfx/leaders/OGRE/ogre_10.dds"
+            "gfx/leaders/OGRE/ogre_11.dds"
+            "gfx/leaders/OGRE/ogre_12.dds" 
+		}
+        female = {
 			"gfx/leaders/OGRE/ogre_1.dds"
             "gfx/leaders/OGRE/ogre_2.dds"
             "gfx/leaders/OGRE/ogre_3.dds"
@@ -49,9 +108,37 @@ DRD = {
                 "gfx/leaders/OGRE/ogre_11.dds"
                 "gfx/leaders/OGRE/ogre_12.dds" 
             }
+            female = {
+                "gfx/leaders/OGRE/ogre_1.dds"
+                "gfx/leaders/OGRE/ogre_2.dds"
+                "gfx/leaders/OGRE/ogre_3.dds"
+                "gfx/leaders/OGRE/ogre_4.dds"
+                "gfx/leaders/OGRE/ogre_5.dds"
+                "gfx/leaders/OGRE/ogre_6.dds"
+                "gfx/leaders/OGRE/ogre_7.dds"
+                "gfx/leaders/OGRE/ogre_8.dds"
+                "gfx/leaders/OGRE/ogre_9.dds"
+                "gfx/leaders/OGRE/ogre_10.dds"
+                "gfx/leaders/OGRE/ogre_11.dds"
+                "gfx/leaders/OGRE/ogre_12.dds" 
+            }
 		}
 		shadow = {
 			male = {
+                "gfx/leaders/OGRE/ogre_1.dds"
+                "gfx/leaders/OGRE/ogre_2.dds"
+                "gfx/leaders/OGRE/ogre_3.dds"
+                "gfx/leaders/OGRE/ogre_4.dds"
+                "gfx/leaders/OGRE/ogre_5.dds"
+                "gfx/leaders/OGRE/ogre_6.dds"
+                "gfx/leaders/OGRE/ogre_7.dds"
+                "gfx/leaders/OGRE/ogre_8.dds"
+                "gfx/leaders/OGRE/ogre_9.dds"
+                "gfx/leaders/OGRE/ogre_10.dds"
+                "gfx/leaders/OGRE/ogre_11.dds"
+                "gfx/leaders/OGRE/ogre_12.dds" 
+            }
+            female = {
                 "gfx/leaders/OGRE/ogre_1.dds"
                 "gfx/leaders/OGRE/ogre_2.dds"
                 "gfx/leaders/OGRE/ogre_3.dds"
@@ -81,9 +168,37 @@ DRD = {
                 "gfx/leaders/OGRE/ogre_11.dds"
                 "gfx/leaders/OGRE/ogre_12.dds" 
             }
+            female = {
+                "gfx/leaders/OGRE/ogre_1.dds"
+                "gfx/leaders/OGRE/ogre_2.dds"
+                "gfx/leaders/OGRE/ogre_3.dds"
+                "gfx/leaders/OGRE/ogre_4.dds"
+                "gfx/leaders/OGRE/ogre_5.dds"
+                "gfx/leaders/OGRE/ogre_6.dds"
+                "gfx/leaders/OGRE/ogre_7.dds"
+                "gfx/leaders/OGRE/ogre_8.dds"
+                "gfx/leaders/OGRE/ogre_9.dds"
+                "gfx/leaders/OGRE/ogre_10.dds"
+                "gfx/leaders/OGRE/ogre_11.dds"
+                "gfx/leaders/OGRE/ogre_12.dds" 
+            }
 		}
         disorder = {
 			male = {
+                "gfx/leaders/OGRE/ogre_1.dds"
+                "gfx/leaders/OGRE/ogre_2.dds"
+                "gfx/leaders/OGRE/ogre_3.dds"
+                "gfx/leaders/OGRE/ogre_4.dds"
+                "gfx/leaders/OGRE/ogre_5.dds"
+                "gfx/leaders/OGRE/ogre_6.dds"
+                "gfx/leaders/OGRE/ogre_7.dds"
+                "gfx/leaders/OGRE/ogre_8.dds"
+                "gfx/leaders/OGRE/ogre_9.dds"
+                "gfx/leaders/OGRE/ogre_10.dds"
+                "gfx/leaders/OGRE/ogre_11.dds"
+                "gfx/leaders/OGRE/ogre_12.dds" 
+            }
+            female = {
                 "gfx/leaders/OGRE/ogre_1.dds"
                 "gfx/leaders/OGRE/ogre_2.dds"
                 "gfx/leaders/OGRE/ogre_3.dds"
@@ -113,6 +228,20 @@ DRD = {
                 "gfx/leaders/OGRE/ogre_11.dds"
                 "gfx/leaders/OGRE/ogre_12.dds" 
             }
+            female = {
+                "gfx/leaders/OGRE/ogre_1.dds"
+                "gfx/leaders/OGRE/ogre_2.dds"
+                "gfx/leaders/OGRE/ogre_3.dds"
+                "gfx/leaders/OGRE/ogre_4.dds"
+                "gfx/leaders/OGRE/ogre_5.dds"
+                "gfx/leaders/OGRE/ogre_6.dds"
+                "gfx/leaders/OGRE/ogre_7.dds"
+                "gfx/leaders/OGRE/ogre_8.dds"
+                "gfx/leaders/OGRE/ogre_9.dds"
+                "gfx/leaders/OGRE/ogre_10.dds"
+                "gfx/leaders/OGRE/ogre_11.dds"
+                "gfx/leaders/OGRE/ogre_12.dds" 
+            }
 		}
         death = {
 			male = {
@@ -129,9 +258,37 @@ DRD = {
                 "gfx/leaders/OGRE/ogre_11.dds"
                 "gfx/leaders/OGRE/ogre_12.dds" 
             }
+            female = {
+                "gfx/leaders/OGRE/ogre_1.dds"
+                "gfx/leaders/OGRE/ogre_2.dds"
+                "gfx/leaders/OGRE/ogre_3.dds"
+                "gfx/leaders/OGRE/ogre_4.dds"
+                "gfx/leaders/OGRE/ogre_5.dds"
+                "gfx/leaders/OGRE/ogre_6.dds"
+                "gfx/leaders/OGRE/ogre_7.dds"
+                "gfx/leaders/OGRE/ogre_8.dds"
+                "gfx/leaders/OGRE/ogre_9.dds"
+                "gfx/leaders/OGRE/ogre_10.dds"
+                "gfx/leaders/OGRE/ogre_11.dds"
+                "gfx/leaders/OGRE/ogre_12.dds" 
+            }
 		}
         unaligned = {
 			male = {
+                "gfx/leaders/OGRE/ogre_1.dds"
+                "gfx/leaders/OGRE/ogre_2.dds"
+                "gfx/leaders/OGRE/ogre_3.dds"
+                "gfx/leaders/OGRE/ogre_4.dds"
+                "gfx/leaders/OGRE/ogre_5.dds"
+                "gfx/leaders/OGRE/ogre_6.dds"
+                "gfx/leaders/OGRE/ogre_7.dds"
+                "gfx/leaders/OGRE/ogre_8.dds"
+                "gfx/leaders/OGRE/ogre_9.dds"
+                "gfx/leaders/OGRE/ogre_10.dds"
+                "gfx/leaders/OGRE/ogre_11.dds"
+                "gfx/leaders/OGRE/ogre_12.dds" 
+            }
+            female = {
                 "gfx/leaders/OGRE/ogre_1.dds"
                 "gfx/leaders/OGRE/ogre_2.dds"
                 "gfx/leaders/OGRE/ogre_3.dds"

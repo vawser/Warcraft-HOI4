@@ -1,12 +1,27 @@
 WRF = {
+    operative = {
+		male = {
+			"gfx/leaders/MURLOC/murloc_blue.dds"
+		}
+        female = {
+			"gfx/leaders/MURLOC/murloc_blue.dds"
+		}
+	}
+    
 	army = {
 		male = {
+			"gfx/leaders/MURLOC/murloc_blue.dds"
+		}
+        female = {
 			"gfx/leaders/MURLOC/murloc_blue.dds"
 		}
 	}
 
 	navy = {
 		male = {
+			"gfx/leaders/MURLOC/murloc_blue.dds"
+		}
+        female = {
 			"gfx/leaders/MURLOC/murloc_blue.dds"
 		}
 	}
@@ -16,9 +31,15 @@ WRF = {
 			male = {
                 "gfx/leaders/MURLOC/murloc_blue.dds"
             }
+            female = {
+                "gfx/leaders/MURLOC/murloc_blue.dds"
+            }
 		}
 		shadow = {
 			male = {
+                "gfx/leaders/MURLOC/murloc_blue.dds"
+            }
+            female = {
                 "gfx/leaders/MURLOC/murloc_blue.dds"
             }
 		}
@@ -26,9 +47,15 @@ WRF = {
 			male = {
                 "gfx/leaders/MURLOC/murloc_blue.dds"
             }
+            female = {
+                "gfx/leaders/MURLOC/murloc_blue.dds"
+            }
 		}
         disorder = {
 			male = {
+                "gfx/leaders/MURLOC/murloc_blue.dds"
+            }
+            female = {
                 "gfx/leaders/MURLOC/murloc_blue.dds"
             }
 		}
@@ -36,14 +63,23 @@ WRF = {
 			male = {
                 "gfx/leaders/MURLOC/murloc_blue.dds"
             }
+            female = {
+                "gfx/leaders/MURLOC/murloc_blue.dds"
+            }
 		}
         death = {
 			male = {
                 "gfx/leaders/MURLOC/murloc_blue.dds"
             }
+            female = {
+                "gfx/leaders/MURLOC/murloc_blue.dds"
+            }
 		}
         unaligned = {
 			male = {
+                "gfx/leaders/MURLOC/murloc_blue.dds"
+            }
+            female = {
                 "gfx/leaders/MURLOC/murloc_blue.dds"
             }
 		}

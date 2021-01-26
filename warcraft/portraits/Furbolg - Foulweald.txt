@@ -1,6 +1,36 @@
 FWD = {
+    operative = {
+		male = {
+			"gfx/leaders/FURBOLG/furbolg_black.dds"
+			"gfx/leaders/FURBOLG/furbolg_blue.dds"
+            "gfx/leaders/FURBOLG/furbolg_brown.dds"
+            "gfx/leaders/FURBOLG/furbolg_dirty_white.dds"
+            "gfx/leaders/FURBOLG/furbolg_gray.dds"
+            "gfx/leaders/FURBOLG/furbolg_light_brown.dds"
+            "gfx/leaders/FURBOLG/furbolg_white.dds"
+		}
+        female = {
+			"gfx/leaders/FURBOLG/furbolg_black.dds"
+			"gfx/leaders/FURBOLG/furbolg_blue.dds"
+            "gfx/leaders/FURBOLG/furbolg_brown.dds"
+            "gfx/leaders/FURBOLG/furbolg_dirty_white.dds"
+            "gfx/leaders/FURBOLG/furbolg_gray.dds"
+            "gfx/leaders/FURBOLG/furbolg_light_brown.dds"
+            "gfx/leaders/FURBOLG/furbolg_white.dds"
+		}
+	}
+    
 	army = {
 		male = {
+			"gfx/leaders/FURBOLG/furbolg_black.dds"
+			"gfx/leaders/FURBOLG/furbolg_blue.dds"
+            "gfx/leaders/FURBOLG/furbolg_brown.dds"
+            "gfx/leaders/FURBOLG/furbolg_dirty_white.dds"
+            "gfx/leaders/FURBOLG/furbolg_gray.dds"
+            "gfx/leaders/FURBOLG/furbolg_light_brown.dds"
+            "gfx/leaders/FURBOLG/furbolg_white.dds"
+		}
+        female = {
 			"gfx/leaders/FURBOLG/furbolg_black.dds"
 			"gfx/leaders/FURBOLG/furbolg_blue.dds"
             "gfx/leaders/FURBOLG/furbolg_brown.dds"
@@ -13,6 +43,15 @@ FWD = {
 
 	navy = {
 		male = {
+			"gfx/leaders/FURBOLG/furbolg_black.dds"
+			"gfx/leaders/FURBOLG/furbolg_blue.dds"
+            "gfx/leaders/FURBOLG/furbolg_brown.dds"
+            "gfx/leaders/FURBOLG/furbolg_dirty_white.dds"
+            "gfx/leaders/FURBOLG/furbolg_gray.dds"
+            "gfx/leaders/FURBOLG/furbolg_light_brown.dds"
+            "gfx/leaders/FURBOLG/furbolg_white.dds"
+		}
+        female = {
 			"gfx/leaders/FURBOLG/furbolg_black.dds"
 			"gfx/leaders/FURBOLG/furbolg_blue.dds"
             "gfx/leaders/FURBOLG/furbolg_brown.dds"
@@ -34,9 +73,27 @@ FWD = {
                 "gfx/leaders/FURBOLG/furbolg_light_brown.dds"
                 "gfx/leaders/FURBOLG/furbolg_white.dds"
             }
+            female = {
+                "gfx/leaders/FURBOLG/furbolg_black.dds"
+                "gfx/leaders/FURBOLG/furbolg_blue.dds"
+                "gfx/leaders/FURBOLG/furbolg_brown.dds"
+                "gfx/leaders/FURBOLG/furbolg_dirty_white.dds"
+                "gfx/leaders/FURBOLG/furbolg_gray.dds"
+                "gfx/leaders/FURBOLG/furbolg_light_brown.dds"
+                "gfx/leaders/FURBOLG/furbolg_white.dds"
+            }
 		}
 		shadow = {
 			male = {
+                "gfx/leaders/FURBOLG/furbolg_black.dds"
+                "gfx/leaders/FURBOLG/furbolg_blue.dds"
+                "gfx/leaders/FURBOLG/furbolg_brown.dds"
+                "gfx/leaders/FURBOLG/furbolg_dirty_white.dds"
+                "gfx/leaders/FURBOLG/furbolg_gray.dds"
+                "gfx/leaders/FURBOLG/furbolg_light_brown.dds"
+                "gfx/leaders/FURBOLG/furbolg_white.dds"
+            }
+            female = {
                 "gfx/leaders/FURBOLG/furbolg_black.dds"
                 "gfx/leaders/FURBOLG/furbolg_blue.dds"
                 "gfx/leaders/FURBOLG/furbolg_brown.dds"
@@ -56,9 +113,27 @@ FWD = {
                 "gfx/leaders/FURBOLG/furbolg_light_brown.dds"
                 "gfx/leaders/FURBOLG/furbolg_white.dds"
             }
+            female = {
+                "gfx/leaders/FURBOLG/furbolg_black.dds"
+                "gfx/leaders/FURBOLG/furbolg_blue.dds"
+                "gfx/leaders/FURBOLG/furbolg_brown.dds"
+                "gfx/leaders/FURBOLG/furbolg_dirty_white.dds"
+                "gfx/leaders/FURBOLG/furbolg_gray.dds"
+                "gfx/leaders/FURBOLG/furbolg_light_brown.dds"
+                "gfx/leaders/FURBOLG/furbolg_white.dds"
+            }
 		}
         disorder = {
 			male = {
+                "gfx/leaders/FURBOLG/furbolg_black.dds"
+                "gfx/leaders/FURBOLG/furbolg_blue.dds"
+                "gfx/leaders/FURBOLG/furbolg_brown.dds"
+                "gfx/leaders/FURBOLG/furbolg_dirty_white.dds"
+                "gfx/leaders/FURBOLG/furbolg_gray.dds"
+                "gfx/leaders/FURBOLG/furbolg_light_brown.dds"
+                "gfx/leaders/FURBOLG/furbolg_white.dds"
+            }
+            female = {
                 "gfx/leaders/FURBOLG/furbolg_black.dds"
                 "gfx/leaders/FURBOLG/furbolg_blue.dds"
                 "gfx/leaders/FURBOLG/furbolg_brown.dds"
@@ -78,9 +153,27 @@ FWD = {
                 "gfx/leaders/FURBOLG/furbolg_light_brown.dds"
                 "gfx/leaders/FURBOLG/furbolg_white.dds"
             }
+            female = {
+                "gfx/leaders/FURBOLG/furbolg_black.dds"
+                "gfx/leaders/FURBOLG/furbolg_blue.dds"
+                "gfx/leaders/FURBOLG/furbolg_brown.dds"
+                "gfx/leaders/FURBOLG/furbolg_dirty_white.dds"
+                "gfx/leaders/FURBOLG/furbolg_gray.dds"
+                "gfx/leaders/FURBOLG/furbolg_light_brown.dds"
+                "gfx/leaders/FURBOLG/furbolg_white.dds"
+            }
 		}
         death = {
 			male = {
+                "gfx/leaders/FURBOLG/furbolg_black.dds"
+                "gfx/leaders/FURBOLG/furbolg_blue.dds"
+                "gfx/leaders/FURBOLG/furbolg_brown.dds"
+                "gfx/leaders/FURBOLG/furbolg_dirty_white.dds"
+                "gfx/leaders/FURBOLG/furbolg_gray.dds"
+                "gfx/leaders/FURBOLG/furbolg_light_brown.dds"
+                "gfx/leaders/FURBOLG/furbolg_white.dds"
+            }
+            female = {
                 "gfx/leaders/FURBOLG/furbolg_black.dds"
                 "gfx/leaders/FURBOLG/furbolg_blue.dds"
                 "gfx/leaders/FURBOLG/furbolg_brown.dds"
@@ -100,6 +193,12 @@ FWD = {
                 "gfx/leaders/FURBOLG/furbolg_light_brown.dds"
                 "gfx/leaders/FURBOLG/furbolg_white.dds"
             }
-		}
-	}
-}
+            female = {
+                "gfx/leaders/FURBOLG/furbolg_black.dds"
+                "gfx/leaders/FURBOLG/furbolg_blue.dds"
+                "gfx/leaders/FURBOLG/furbolg_brown.dds"
+                "gfx/leaders/FURBOLG/furbolg_dirty_white.dds"
+                "gfx/leaders/FURBOLG/furbolg_gray.dds"
+                "gfx/leaders/FURBOLG/furbolg_light_brown.dds"
+                "gfx/leaders/FURBOLG/furbolg_white.dds"
+            }

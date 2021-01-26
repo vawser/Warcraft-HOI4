@@ -1,6 +1,24 @@
 MUD = {
+    operative = {
+		male = {
+			"gfx/leaders/GNOLL/gnoll_mosshide_1.dds"
+			"gfx/leaders/GNOLL/gnoll_mosshide_2.dds"
+            "gfx/leaders/GNOLL/gnoll_mosshide_3.dds"
+		}
+        female = {
+			"gfx/leaders/GNOLL/gnoll_mosshide_1.dds"
+			"gfx/leaders/GNOLL/gnoll_mosshide_2.dds"
+            "gfx/leaders/GNOLL/gnoll_mosshide_3.dds"
+		}
+	}
+    
 	army = {
 		male = {
+			"gfx/leaders/GNOLL/gnoll_mosshide_1.dds"
+			"gfx/leaders/GNOLL/gnoll_mosshide_2.dds"
+            "gfx/leaders/GNOLL/gnoll_mosshide_3.dds"
+		}
+        female = {
 			"gfx/leaders/GNOLL/gnoll_mosshide_1.dds"
 			"gfx/leaders/GNOLL/gnoll_mosshide_2.dds"
             "gfx/leaders/GNOLL/gnoll_mosshide_3.dds"
@@ -9,6 +27,11 @@ MUD = {
 
 	navy = {
 		male = {
+			"gfx/leaders/GNOLL/gnoll_mosshide_1.dds"
+			"gfx/leaders/GNOLL/gnoll_mosshide_2.dds"
+            "gfx/leaders/GNOLL/gnoll_mosshide_3.dds"
+		}
+        female = {
 			"gfx/leaders/GNOLL/gnoll_mosshide_1.dds"
 			"gfx/leaders/GNOLL/gnoll_mosshide_2.dds"
             "gfx/leaders/GNOLL/gnoll_mosshide_3.dds"
@@ -22,9 +45,19 @@ MUD = {
                 "gfx/leaders/GNOLL/gnoll_mosshide_2.dds"
                 "gfx/leaders/GNOLL/gnoll_mosshide_3.dds"
             }
+            female = {
+                "gfx/leaders/GNOLL/gnoll_mosshide_1.dds"
+                "gfx/leaders/GNOLL/gnoll_mosshide_2.dds"
+                "gfx/leaders/GNOLL/gnoll_mosshide_3.dds"
+            }
 		}
 		shadow = {
 			male = {
+                "gfx/leaders/GNOLL/gnoll_mosshide_1.dds"
+                "gfx/leaders/GNOLL/gnoll_mosshide_2.dds"
+                "gfx/leaders/GNOLL/gnoll_mosshide_3.dds"
+            }
+            female = {
                 "gfx/leaders/GNOLL/gnoll_mosshide_1.dds"
                 "gfx/leaders/GNOLL/gnoll_mosshide_2.dds"
                 "gfx/leaders/GNOLL/gnoll_mosshide_3.dds"
@@ -36,9 +69,19 @@ MUD = {
                 "gfx/leaders/GNOLL/gnoll_mosshide_2.dds"
                 "gfx/leaders/GNOLL/gnoll_mosshide_3.dds"
             }
+            female = {
+                "gfx/leaders/GNOLL/gnoll_mosshide_1.dds"
+                "gfx/leaders/GNOLL/gnoll_mosshide_2.dds"
+                "gfx/leaders/GNOLL/gnoll_mosshide_3.dds"
+            }
 		}
         disorder = {
 			male = {
+                "gfx/leaders/GNOLL/gnoll_mosshide_1.dds"
+                "gfx/leaders/GNOLL/gnoll_mosshide_2.dds"
+                "gfx/leaders/GNOLL/gnoll_mosshide_3.dds"
+            }
+            female = {
                 "gfx/leaders/GNOLL/gnoll_mosshide_1.dds"
                 "gfx/leaders/GNOLL/gnoll_mosshide_2.dds"
                 "gfx/leaders/GNOLL/gnoll_mosshide_3.dds"
@@ -50,6 +93,11 @@ MUD = {
                 "gfx/leaders/GNOLL/gnoll_mosshide_2.dds"
                 "gfx/leaders/GNOLL/gnoll_mosshide_3.dds"
             }
+            female = {
+                "gfx/leaders/GNOLL/gnoll_mosshide_1.dds"
+                "gfx/leaders/GNOLL/gnoll_mosshide_2.dds"
+                "gfx/leaders/GNOLL/gnoll_mosshide_3.dds"
+            }
 		}
         death = {
 			male = {
@@ -57,9 +105,19 @@ MUD = {
                 "gfx/leaders/GNOLL/gnoll_mosshide_2.dds"
                 "gfx/leaders/GNOLL/gnoll_mosshide_3.dds"
             }
+            female = {
+                "gfx/leaders/GNOLL/gnoll_mosshide_1.dds"
+                "gfx/leaders/GNOLL/gnoll_mosshide_2.dds"
+                "gfx/leaders/GNOLL/gnoll_mosshide_3.dds"
+            }
 		}
         unaligned = {
 			male = {
+                "gfx/leaders/GNOLL/gnoll_mosshide_1.dds"
+                "gfx/leaders/GNOLL/gnoll_mosshide_2.dds"
+                "gfx/leaders/GNOLL/gnoll_mosshide_3.dds"
+            }
+            female = {
                 "gfx/leaders/GNOLL/gnoll_mosshide_1.dds"
                 "gfx/leaders/GNOLL/gnoll_mosshide_2.dds"
                 "gfx/leaders/GNOLL/gnoll_mosshide_3.dds"

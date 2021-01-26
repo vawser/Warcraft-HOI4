@@ -1,21 +1,17 @@
 scripted_gui = {
     #---------------------------------------------
-    # Toggle Button
+    # Sidebar
     #---------------------------------------------
-    toggle_button = {
+    warcraft_sidebar = {
 		context_type = player_context
-		window_name = "toggle_button_container"
+		window_name = "warcraft_sidebar_container"
+        parent_window_token = "top_bar"
         
         visible = {
             is_ai = no
 		}
         
 		effects = {
-            religion_button_click = {
-                set_temp_variable = { show = 1 }
-                subtract_from_temp_variable = { show = show_religion_menu }
-                set_variable = { show_religion_menu = show }
-            }
             state_button_click = {
                 set_temp_variable = { show = 1 }
                 subtract_from_temp_variable = { show = show_state_menu }
@@ -26,23 +22,28 @@ scripted_gui = {
                 subtract_from_temp_variable = { show = show_espionage_menu }
                 set_variable = { show_espionage_menu = show }
             }
-            toggle_button_click = {
+            religion_button_click = {
                 set_temp_variable = { show = 1 }
-                subtract_from_temp_variable = { show = show_sidebar }
-                set_variable = { show_sidebar = show }
+                subtract_from_temp_variable = { show = show_religion_menu }
+                set_variable = { show_religion_menu = show }
+            }
+            report_button_click = {
+                set_temp_variable = { show = 1 }
+                subtract_from_temp_variable = { show = show_building_report }
+                set_variable = { show_building_report = show }
             }
 		}
-	}
+    }
     
     #---------------------------------------------
-    # Topbar
+    # Religion Topbar
     #---------------------------------------------
     topbar = {
 		context_type = player_context
-		window_name = "topbar_container"
+		window_name = "religion_topbar_container"
         
         visible = {
-            check_variable = { show_religion_top_menu = 1 }
+            always = yes
 		}
         
 		effects = {
@@ -63,46 +64,6 @@ scripted_gui = {
                 frame = root.country_religion
             }
         }
-	}
-    
-    #---------------------------------------------
-    # Sidebar
-    #---------------------------------------------
-	sidebar = {
-		context_type = player_context
-		window_name = "sidebar_container"
-        
-        visible = {
-            can_show_sidebar_menu = yes
-		}
-        
-		effects = {
-            religion_top_toggle_click = {
-                set_temp_variable = { show = 1 }
-                subtract_from_temp_variable = { show = show_religion_top_menu }
-                set_variable = { show_religion_top_menu = show }
-            }
-            building_report_toggle_click = {
-                set_temp_variable = { show = 1 }
-                subtract_from_temp_variable = { show = show_building_report }
-                set_variable = { show_building_report = show }
-            }
-            religion_button_click = {
-                set_temp_variable = { show = 1 }
-                subtract_from_temp_variable = { show = show_religion_menu }
-                set_variable = { show_religion_menu = show }
-            }
-            state_button_click = {
-                set_temp_variable = { show = 1 }
-                subtract_from_temp_variable = { show = show_state_menu }
-                set_variable = { show_state_menu = show }
-            }
-            espionage_button_click = {
-                set_temp_variable = { show = 1 }
-                subtract_from_temp_variable = { show = show_espionage_menu }
-                set_variable = { show_espionage_menu = show }
-            }
-		}
 	}
 }
   

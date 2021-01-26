@@ -31,6 +31,11 @@ ideas = {
 
 			picture = gnomish_engineering
             
+            research_bonus = {
+				light_tank_tech = 1.0
+                heavy_tank_tech = 1.0
+			}
+            
             modifier = {
                 research_speed_factor = 0.05
             }
@@ -48,6 +53,11 @@ ideas = {
 			removal_cost = -1
 
 			picture = goblin_engineering
+            
+            research_bonus = {
+				light_tank_tech = 1.0
+                heavy_tank_tech = 1.0
+			}
             
             modifier = {
                 research_speed_factor = 0.05

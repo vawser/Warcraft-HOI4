@@ -1,6 +1,39 @@
 MWK = {
+    operative = {
+		male = {
+			"gfx/leaders/GORLOC/gorloc_1.dds"
+            "gfx/leaders/GORLOC/gorloc_2.dds"
+            "gfx/leaders/GORLOC/gorloc_3.dds"
+            "gfx/leaders/GORLOC/gorloc_4.dds"
+            "gfx/leaders/GORLOC/gorloc_5.dds"
+            "gfx/leaders/GORLOC/gorloc_6.dds"
+            "gfx/leaders/GORLOC/gorloc_7.dds"
+            "gfx/leaders/GORLOC/gorloc_8.dds"      
+		}
+        female = {
+			"gfx/leaders/GORLOC/gorloc_1.dds"
+            "gfx/leaders/GORLOC/gorloc_2.dds"
+            "gfx/leaders/GORLOC/gorloc_3.dds"
+            "gfx/leaders/GORLOC/gorloc_4.dds"
+            "gfx/leaders/GORLOC/gorloc_5.dds"
+            "gfx/leaders/GORLOC/gorloc_6.dds"
+            "gfx/leaders/GORLOC/gorloc_7.dds"
+            "gfx/leaders/GORLOC/gorloc_8.dds"      
+		}
+	}
+    
 	army = {
 		male = {
+			"gfx/leaders/GORLOC/gorloc_1.dds"
+            "gfx/leaders/GORLOC/gorloc_2.dds"
+            "gfx/leaders/GORLOC/gorloc_3.dds"
+            "gfx/leaders/GORLOC/gorloc_4.dds"
+            "gfx/leaders/GORLOC/gorloc_5.dds"
+            "gfx/leaders/GORLOC/gorloc_6.dds"
+            "gfx/leaders/GORLOC/gorloc_7.dds"
+            "gfx/leaders/GORLOC/gorloc_8.dds"      
+		}
+        female = {
 			"gfx/leaders/GORLOC/gorloc_1.dds"
             "gfx/leaders/GORLOC/gorloc_2.dds"
             "gfx/leaders/GORLOC/gorloc_3.dds"
@@ -14,6 +47,16 @@ MWK = {
 
 	navy = {
 		male = {
+			"gfx/leaders/GORLOC/gorloc_1.dds"
+            "gfx/leaders/GORLOC/gorloc_2.dds"
+            "gfx/leaders/GORLOC/gorloc_3.dds"
+            "gfx/leaders/GORLOC/gorloc_4.dds"
+            "gfx/leaders/GORLOC/gorloc_5.dds"
+            "gfx/leaders/GORLOC/gorloc_6.dds"
+            "gfx/leaders/GORLOC/gorloc_7.dds"
+            "gfx/leaders/GORLOC/gorloc_8.dds"      
+		}
+        female = {
 			"gfx/leaders/GORLOC/gorloc_1.dds"
             "gfx/leaders/GORLOC/gorloc_2.dds"
             "gfx/leaders/GORLOC/gorloc_3.dds"
@@ -37,9 +80,29 @@ MWK = {
                 "gfx/leaders/GORLOC/gorloc_7.dds"
                 "gfx/leaders/GORLOC/gorloc_8.dds"      
             }
+            female = {
+                "gfx/leaders/GORLOC/gorloc_1.dds"
+                "gfx/leaders/GORLOC/gorloc_2.dds"
+                "gfx/leaders/GORLOC/gorloc_3.dds"
+                "gfx/leaders/GORLOC/gorloc_4.dds"
+                "gfx/leaders/GORLOC/gorloc_5.dds"
+                "gfx/leaders/GORLOC/gorloc_6.dds"
+                "gfx/leaders/GORLOC/gorloc_7.dds"
+                "gfx/leaders/GORLOC/gorloc_8.dds"      
+            }
 		}
 		shadow = {
 			male = {
+                "gfx/leaders/GORLOC/gorloc_1.dds"
+                "gfx/leaders/GORLOC/gorloc_2.dds"
+                "gfx/leaders/GORLOC/gorloc_3.dds"
+                "gfx/leaders/GORLOC/gorloc_4.dds"
+                "gfx/leaders/GORLOC/gorloc_5.dds"
+                "gfx/leaders/GORLOC/gorloc_6.dds"
+                "gfx/leaders/GORLOC/gorloc_7.dds"
+                "gfx/leaders/GORLOC/gorloc_8.dds"      
+            }
+            female = {
                 "gfx/leaders/GORLOC/gorloc_1.dds"
                 "gfx/leaders/GORLOC/gorloc_2.dds"
                 "gfx/leaders/GORLOC/gorloc_3.dds"
@@ -61,9 +124,29 @@ MWK = {
                 "gfx/leaders/GORLOC/gorloc_7.dds"
                 "gfx/leaders/GORLOC/gorloc_8.dds"      
             }
+            female = {
+                "gfx/leaders/GORLOC/gorloc_1.dds"
+                "gfx/leaders/GORLOC/gorloc_2.dds"
+                "gfx/leaders/GORLOC/gorloc_3.dds"
+                "gfx/leaders/GORLOC/gorloc_4.dds"
+                "gfx/leaders/GORLOC/gorloc_5.dds"
+                "gfx/leaders/GORLOC/gorloc_6.dds"
+                "gfx/leaders/GORLOC/gorloc_7.dds"
+                "gfx/leaders/GORLOC/gorloc_8.dds"      
+            }
 		}
         disorder = {
 			male = {
+                "gfx/leaders/GORLOC/gorloc_1.dds"
+                "gfx/leaders/GORLOC/gorloc_2.dds"
+                "gfx/leaders/GORLOC/gorloc_3.dds"
+                "gfx/leaders/GORLOC/gorloc_4.dds"
+                "gfx/leaders/GORLOC/gorloc_5.dds"
+                "gfx/leaders/GORLOC/gorloc_6.dds"
+                "gfx/leaders/GORLOC/gorloc_7.dds"
+                "gfx/leaders/GORLOC/gorloc_8.dds"      
+            }
+            female = {
                 "gfx/leaders/GORLOC/gorloc_1.dds"
                 "gfx/leaders/GORLOC/gorloc_2.dds"
                 "gfx/leaders/GORLOC/gorloc_3.dds"
@@ -85,6 +168,16 @@ MWK = {
                 "gfx/leaders/GORLOC/gorloc_7.dds"
                 "gfx/leaders/GORLOC/gorloc_8.dds"      
             }
+            female = {
+                "gfx/leaders/GORLOC/gorloc_1.dds"
+                "gfx/leaders/GORLOC/gorloc_2.dds"
+                "gfx/leaders/GORLOC/gorloc_3.dds"
+                "gfx/leaders/GORLOC/gorloc_4.dds"
+                "gfx/leaders/GORLOC/gorloc_5.dds"
+                "gfx/leaders/GORLOC/gorloc_6.dds"
+                "gfx/leaders/GORLOC/gorloc_7.dds"
+                "gfx/leaders/GORLOC/gorloc_8.dds"      
+            }
 		}
         death = {
 			male = {
@@ -97,9 +190,29 @@ MWK = {
                 "gfx/leaders/GORLOC/gorloc_7.dds"
                 "gfx/leaders/GORLOC/gorloc_8.dds"      
             }
+            female = {
+                "gfx/leaders/GORLOC/gorloc_1.dds"
+                "gfx/leaders/GORLOC/gorloc_2.dds"
+                "gfx/leaders/GORLOC/gorloc_3.dds"
+                "gfx/leaders/GORLOC/gorloc_4.dds"
+                "gfx/leaders/GORLOC/gorloc_5.dds"
+                "gfx/leaders/GORLOC/gorloc_6.dds"
+                "gfx/leaders/GORLOC/gorloc_7.dds"
+                "gfx/leaders/GORLOC/gorloc_8.dds"      
+            }
 		}
         unaligned = {
 			male = {
+                "gfx/leaders/GORLOC/gorloc_1.dds"
+                "gfx/leaders/GORLOC/gorloc_2.dds"
+                "gfx/leaders/GORLOC/gorloc_3.dds"
+                "gfx/leaders/GORLOC/gorloc_4.dds"
+                "gfx/leaders/GORLOC/gorloc_5.dds"
+                "gfx/leaders/GORLOC/gorloc_6.dds"
+                "gfx/leaders/GORLOC/gorloc_7.dds"
+                "gfx/leaders/GORLOC/gorloc_8.dds"      
+            }
+            female = {
                 "gfx/leaders/GORLOC/gorloc_1.dds"
                 "gfx/leaders/GORLOC/gorloc_2.dds"
                 "gfx/leaders/GORLOC/gorloc_3.dds"

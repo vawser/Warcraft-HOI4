@@ -1,4 +1,19 @@
 HWG = {
+    operative = {
+		male = {
+			"gfx/leaders/WOLVAR/wolvar_1.dds"
+			"gfx/leaders/WOLVAR/wolvar_2.dds"
+            "gfx/leaders/WOLVAR/wolvar_3.dds"
+            "gfx/leaders/WOLVAR/wolvar_4.dds"
+		}
+        female = {
+			"gfx/leaders/WOLVAR/wolvar_1.dds"
+			"gfx/leaders/WOLVAR/wolvar_2.dds"
+            "gfx/leaders/WOLVAR/wolvar_3.dds"
+            "gfx/leaders/WOLVAR/wolvar_4.dds"
+		}
+	}
+    
 	army = {
 		male = {
 			"gfx/leaders/WOLVAR/wolvar_1.dds"

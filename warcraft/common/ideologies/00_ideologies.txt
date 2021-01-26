@@ -40,8 +40,8 @@ ideologies = {
 		faction_impact_on_world_tension = 0.05
 		
 		modifiers = {
-            generate_wargoal_tension = 0.5
-            join_faction_tension = 0.2
+            generate_wargoal_tension = 0.0
+            join_faction_tension = 0.25
             lend_lease_tension = 0.0
             send_volunteers_tension = 0.0
             guarantee_tension = 0.1
@@ -86,7 +86,7 @@ ideologies = {
 		
 		modifiers = {
             generate_wargoal_tension = 0.0
-            join_faction_tension = 0.05
+            join_faction_tension = 0.25
             lend_lease_tension = 0.0
             send_volunteers_tension = 0.0
             guarantee_tension = 0.0
@@ -130,7 +130,7 @@ ideologies = {
 		faction_impact_on_world_tension = -0.1
 		
 		modifiers = {
-			generate_wargoal_tension = 0.2
+			generate_wargoal_tension = 0.0
             join_faction_tension = 0.25
             lend_lease_tension = 0.0
             send_volunteers_tension = 0.0
@@ -176,7 +176,7 @@ ideologies = {
 		
 		modifiers = {
 			generate_wargoal_tension = 0.0
-            join_faction_tension = 0.05
+            join_faction_tension = 0.25
             lend_lease_tension = 0.0
             send_volunteers_tension = 0.0
             guarantee_tension = 0.0
@@ -266,7 +266,7 @@ ideologies = {
 		
 		modifiers = {
             generate_wargoal_tension = 0.0
-            join_faction_tension = 0.0
+            join_faction_tension = 0.25
             lend_lease_tension = 0.0
             send_volunteers_tension = 0.0
             guarantee_tension = 0.0
@@ -310,8 +310,8 @@ ideologies = {
 		faction_impact_on_world_tension = 0.05
 		
 		modifiers = {
-            generate_wargoal_tension = 10.0
-            join_faction_tension = 30.0
+            generate_wargoal_tension = 0.0
+            join_faction_tension = 0.25
             lend_lease_tension = 0.0
             send_volunteers_tension = 0.0
             guarantee_tension = 0.0

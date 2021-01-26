@@ -7,7 +7,7 @@ ideas = {
                 always = yes
             }
             modifier = {
-                conscription = 0.1
+                conscription = 0.4
                 production_speed_buildings_factor = 0.25
             }
             
@@ -24,7 +24,7 @@ ideas = {
                 has_war_support > 0.25
             }
             modifier = {
-                conscription = 0.2
+                conscription = 0.5
             }
             
             cost = 100
@@ -46,7 +46,7 @@ ideas = {
                 has_war_support > 0.5
             }
             modifier = {
-                conscription = 0.3
+                conscription = 0.6
                 industrial_capacity_factory = -0.1
 				industrial_capacity_dockyard = -0.1
 				production_speed_buildings_factor = -0.1
@@ -72,7 +72,7 @@ ideas = {
                 has_war_support > 0.75
             }
             modifier = {
-                conscription = 0.4
+                conscription = 0.7
                 industrial_capacity_factory = -0.25
 				industrial_capacity_dockyard = -0.25
 				production_speed_buildings_factor = -0.25
@@ -98,7 +98,7 @@ ideas = {
                 has_war_support > 0.9
             }
             modifier = {
-                conscription = 0.5
+                conscription = 0.8
                 industrial_capacity_factory = -0.5
 				industrial_capacity_dockyard = -0.5
 				production_speed_buildings_factor = -0.5

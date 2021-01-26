@@ -460,7 +460,6 @@ guiTypes = {
 			fixedsize = yes
 		}	
 		
-		
 		containerWindowType = {
 			name = "time_control_window"
 			position = { x=-378 y=7 }
@@ -613,7 +612,7 @@ guiTypes = {
 			oversound = ui_menu_over
 			Orientation = "UPPER_RIGHT"
 		}
-		
+
 		containerWindowType = {
 			name = "country_menu_window"
 			position = { x=204 y=38 }

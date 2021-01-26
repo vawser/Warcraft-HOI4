@@ -1,4 +1,4 @@
-default_land_equipment_production = {
+default_land_production = {
     enable = {
         always = yes
     }
@@ -45,9 +45,9 @@ default_land_equipment_production = {
 	}
 }
 
-light_tank_equipment_production = {
+light_tank_production = {
     enable = {
-        has_tech = light_tank_equipment_1_tech
+        has_tech = light_tank_tech_1
     }
     ai_strategy = {
 		type = equipment_variant_production_factor
@@ -56,9 +56,9 @@ light_tank_equipment_production = {
 	}
 }
 
-heavy_tank_equipment_production = {
+heavy_tank_production = {
     enable = {
-        has_tech = heavy_tank_equipment_1_tech
+        has_tech = heavy_tank_tech_1
     }
     ai_strategy = {
 		type = equipment_variant_production_factor
@@ -209,7 +209,7 @@ stop_heavy_cavalry_production = {
 
 stop_light_tank_production = {
     enable = {
-        has_tech = light_tank_equipment_1_tech
+        has_tech = light_tank_tech_1
         stockpile_ratio = {
             archetype = light_tank_equipment
             ratio > 5.0
@@ -230,7 +230,7 @@ stop_light_tank_production = {
 
 stop_heavy_tank_production = {
     enable = {
-        has_tech = heavy_tank_equipment_1_tech
+        has_tech = heavy_tank_tech_1
         stockpile_ratio = {
             archetype = heavy_tank_equipment
             ratio > 5.0

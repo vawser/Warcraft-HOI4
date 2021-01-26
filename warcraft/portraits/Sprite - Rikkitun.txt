@@ -1,12 +1,27 @@
 RIK = {
+    operative = {
+		male = {
+			"gfx/leaders/SPRITE/sprite.dds"
+		}
+        female = {
+			"gfx/leaders/SPRITE/sprite.dds"
+		}
+	}
+    
 	army = {
 		male = {
+			"gfx/leaders/SPRITE/sprite.dds"
+		}
+        female = {
 			"gfx/leaders/SPRITE/sprite.dds"
 		}
 	}
 
 	navy = {
 		male = {
+			"gfx/leaders/SPRITE/sprite.dds"
+		}
+        female = {
 			"gfx/leaders/SPRITE/sprite.dds"
 		}
 	}
@@ -16,9 +31,15 @@ RIK = {
 			male = {
                 "gfx/leaders/SPRITE/sprite.dds"
             }
+            female = {
+                "gfx/leaders/SPRITE/sprite.dds"
+            }
 		}
 		shadow = {
 			male = {
+                "gfx/leaders/SPRITE/sprite.dds"
+            }
+            female = {
                 "gfx/leaders/SPRITE/sprite.dds"
             }
 		}
@@ -26,9 +47,15 @@ RIK = {
 			male = {
                 "gfx/leaders/SPRITE/sprite.dds"
             }
+            female = {
+                "gfx/leaders/SPRITE/sprite.dds"
+            }
 		}
         disorder = {
 			male = {
+                "gfx/leaders/SPRITE/sprite.dds"
+            }
+            female = {
                 "gfx/leaders/SPRITE/sprite.dds"
             }
 		}
@@ -36,14 +63,23 @@ RIK = {
 			male = {
                 "gfx/leaders/SPRITE/sprite.dds"
             }
+            female = {
+                "gfx/leaders/SPRITE/sprite.dds"
+            }
 		}
         death = {
 			male = {
                 "gfx/leaders/SPRITE/sprite.dds"
             }
+            female = {
+                "gfx/leaders/SPRITE/sprite.dds"
+            }
 		}
         unaligned = {
 			male = {
+                "gfx/leaders/SPRITE/sprite.dds"
+            }
+            female = {
                 "gfx/leaders/SPRITE/sprite.dds"
             }
 		}

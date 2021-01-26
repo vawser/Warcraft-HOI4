@@ -1,4 +1,13 @@
 BFY = {
+    operative = {
+		male = {
+			"gfx/leaders/HARPY/harpy_red.dds"
+		}
+        female = {
+			"gfx/leaders/HARPY/harpy_red.dds"
+		}
+	}
+    
 	army = {
 		male = {
 			"gfx/leaders/HARPY/harpy_red.dds"

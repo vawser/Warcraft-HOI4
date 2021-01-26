@@ -1,0 +1,363 @@
+technologies = {
+    #-----------------------------------------------------------------
+    # industry
+    #-----------------------------------------------------------------
+    construction_tech_1 = {
+        # Modifier
+        
+        research_cost = 3
+
+        path = {
+			leads_to_tech = construction_tech_2
+			research_cost_coeff = 1
+		}
+        
+        folder = {
+			name = construction_folder
+			position = { x = 1 y = 2 }
+		}
+        
+        categories = {
+            economic_tech
+		    construction_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+            		}
+    }
+    
+    construction_tech_2 = {
+        # Modifier
+        
+        research_cost = 6
+
+        path = {
+			leads_to_tech = construction_tech_3
+			research_cost_coeff = 1
+		}
+        
+        folder = {
+			name = construction_folder
+			position = { x = 2 y = 2 }
+		}
+        
+        categories = {
+            economic_tech
+		    construction_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+            		}
+    }
+    
+    construction_tech_3 = {
+        # Modifier
+        
+        research_cost = 6
+
+        path = {
+			leads_to_tech = construction_tech_4
+			research_cost_coeff = 1
+		}
+        path = {
+			leads_to_tech = construction_tech_3_side_1
+			research_cost_coeff = 1
+		}
+        path = {
+			leads_to_tech = construction_tech_3_side_2
+			research_cost_coeff = 1
+		}
+        
+        folder = {
+			name = construction_folder
+			position = { x = 3 y = 2 }
+		}
+        
+        
+        categories = {
+            economic_tech
+		    construction_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+            
+		}
+    }
+
+    construction_tech_3_side_1 = {
+        # Modifier
+        
+        research_cost = 6
+
+        folder = {
+			name = construction_folder
+			position = { x = 3 y = 1 }
+		}
+        
+        
+        categories = {
+            economic_tech
+		    construction_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+            
+		}
+    }
+    
+    construction_tech_3_side_2 = {
+        # Modifier
+        
+        research_cost = 6
+
+        folder = {
+			name = construction_folder
+			position = { x = 3 y = 3 }
+		}
+        
+        
+        categories = {
+            economic_tech
+		    construction_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+            
+		}
+    }
+    
+    construction_tech_4 = {
+        # Modifier
+        
+        research_cost = 6
+
+        path = {
+			leads_to_tech = construction_tech_5
+			research_cost_coeff = 1
+		}
+        
+        folder = {
+			name = construction_folder
+			position = { x = 4 y = 2 }
+		}
+        
+        categories = {
+            economic_tech
+		    construction_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+            		}
+    }
+    
+    construction_tech_5 = {
+        # Modifier
+        
+        research_cost = 9
+
+        path = {
+			leads_to_tech = construction_tech_6
+			research_cost_coeff = 1
+		}
+        
+        folder = {
+			name = construction_folder
+			position = { x = 5 y = 2 }
+		}
+        
+        
+        categories = {
+            economic_tech
+		    construction_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+                        
+		}
+    }
+    
+    construction_tech_6 = {
+        # Modifier
+        
+        research_cost = 6
+
+        path = {
+			leads_to_tech = construction_tech_7
+			research_cost_coeff = 1
+		}
+        
+        folder = {
+			name = construction_folder
+			position = { x = 6 y = 2 }
+		}
+        
+        categories = {
+            economic_tech
+		    construction_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+            		}
+    }
+    
+    construction_tech_7 = {
+        # Modifier
+        
+        research_cost = 12
+
+        path = {
+			leads_to_tech = construction_tech_8
+			research_cost_coeff = 1
+		}
+        path = {
+			leads_to_tech = construction_tech_7_side_1
+			research_cost_coeff = 1
+		}
+        path = {
+			leads_to_tech = construction_tech_7_side_2
+			research_cost_coeff = 1
+		}
+        
+        folder = {
+			name = construction_folder
+			position = { x = 7 y = 2 }
+		}
+        
+        
+        categories = {
+            economic_tech
+		    construction_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+                        
+		}
+    }
+    
+    construction_tech_7_side_1 = {
+        # Modifier
+        
+        research_cost = 6
+
+        folder = {
+			name = construction_folder
+			position = { x = 7 y = 1 }
+		}
+        
+        
+        categories = {
+            economic_tech
+		    construction_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+            
+		}
+    }
+    
+    construction_tech_7_side_2 = {
+        # Modifier
+        
+        research_cost = 6
+
+        folder = {
+			name = construction_folder
+			position = { x = 7 y = 3 }
+		}
+        
+        categories = {
+            economic_tech
+		    construction_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+            
+		}
+    }
+    
+    construction_tech_8 = {
+        # Modifier
+        
+        research_cost = 6
+
+        path = {
+			leads_to_tech = construction_tech_9
+			research_cost_coeff = 1
+		}
+        
+        folder = {
+			name = construction_folder
+			position = { x = 8 y = 2 }
+		}
+        
+        categories = {
+            economic_tech
+		    construction_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+            		}
+    }
+    
+    construction_tech_9 = {
+        # Modifier
+        
+        research_cost = 18
+        
+        path = {
+			leads_to_tech = construction_tech_capstone
+			research_cost_coeff = 1
+		}
+        
+        folder = {
+			name = construction_folder
+			position = { x = 9 y = 2 }
+		}
+        
+        
+        categories = {
+            economic_tech
+		    construction_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+                        
+		}
+    }
+    
+    construction_tech_capstone = {
+        # Modifier
+        
+        research_cost = 12
+
+        folder = {
+			name = construction_folder
+			position = { x = 10 y = 2 }
+		}
+        
+        
+        categories = {
+            economic_tech
+		    construction_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+            
+		}
+    }
+}
+

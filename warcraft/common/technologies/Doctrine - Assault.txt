@@ -1,0 +1,50 @@
+technologies = {
+    #---------------------------------------
+    # Assault
+    #---------------------------------------
+    assault_doctrine_tech_1 = {
+        xor = { barrage_doctrine_tech_1 }
+        
+        doctrine = yes
+        xp_research_type = navy
+		xp_research_cost = 100
+		xp_research_bonus = 1.00
+
+        research_cost = 12
+
+        folder = {
+			name = navy_assault_doctrine_folder
+			position = { x = 1 y = 2 }
+		}
+
+        categories = {
+			doctrine_tech
+			naval_doctrine_tech
+		}
+		
+		ai_will_do = {
+			factor = 200
+            
+            modifier = {
+                factor = 0
+                
+                OR = {
+                    has_tech = barrage_doctrine_tech_1
+                    is_researching_technology = barrage_doctrine_tech_1
+                }
+            }
+            
+            modifier = {
+                factor = 2
+                
+                ai_prioritise_navy = yes
+            }
+            
+            modifier = {
+                factor = 0
+                
+                ai_ignore_naval_doctrine = yes
+            }
+		}
+    }
+}

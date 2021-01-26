@@ -33,12 +33,3 @@ can_show_state_menu = {
     }
 }
 
-can_show_sidebar_menu = {
-    OR = {
-        check_variable = { show_sidebar = 1 }
-        AND = {
-            is_ai = yes
-            check_variable = { global.ai_hide_menus = 0 }
-        }
-    }
-}

@@ -1,4 +1,21 @@
 LSO = {
+    operative = {
+		male = {
+			"gfx/leaders/BROKEN/broken_male_1.dds"
+			"gfx/leaders/BROKEN/broken_male_2.dds"
+            "gfx/leaders/BROKEN/broken_male_3.dds"
+            "gfx/leaders/BROKEN/broken_male_4.dds"
+            "gfx/leaders/BROKEN/broken_male_5.dds"
+		}
+        female = {
+			"gfx/leaders/BROKEN/broken_male_1.dds"
+			"gfx/leaders/BROKEN/broken_male_2.dds"
+            "gfx/leaders/BROKEN/broken_male_3.dds"
+            "gfx/leaders/BROKEN/broken_male_4.dds"
+            "gfx/leaders/BROKEN/broken_male_5.dds"
+		}
+	}
+    
 	army = {
 		male = {
 			"gfx/leaders/BROKEN/broken_male_1.dds"

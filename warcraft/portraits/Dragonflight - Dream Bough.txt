@@ -1,4 +1,13 @@
 DRB = {
+    operative = {
+		male = {
+			"gfx/leaders/DRAGONFLIGHT/green_dragon.dds"
+		}
+        female = {
+			"gfx/leaders/DRAGONFLIGHT/green_dragon.dds"
+		}
+	}
+    
 	army = {
 		male = {
 			"gfx/leaders/DRAGONFLIGHT/green_dragon.dds"

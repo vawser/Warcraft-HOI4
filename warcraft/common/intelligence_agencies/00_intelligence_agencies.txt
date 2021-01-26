@@ -4,8 +4,8 @@
 
 intelligence_agency = {
 	
-	picture = GFX_intelligence_agency_logo_generic_1
-	names = { "Rooke" }
+	picture = GFX_intelligence_death_knight_1
+	names = { "Spy Agency" }
 	
 	available = { always = yes }
 	
@@ -13,8 +13,8 @@ intelligence_agency = {
 }
 intelligence_agency = {
 	
-	picture = GFX_intelligence_agency_logo_generic_2
-	names = { "Tower" }
+	picture = GFX_intelligence_death_knight_2
+	names = { "Spy Agency" }
 	
 	available = { always = yes }
 	
@@ -22,8 +22,8 @@ intelligence_agency = {
 }
 intelligence_agency = {
 	
-	picture = GFX_intelligence_agency_logo_generic_3
-	names = { "Snake" }
+	picture = GFX_intelligence_death_knight_3
+	names = { "Spy Agency" }
 	
 	available = { always = yes }
 	
@@ -31,8 +31,8 @@ intelligence_agency = {
 }
 intelligence_agency = {
 	
-	picture = GFX_intelligence_agency_logo_generic_4
-	names = { "Stag" }
+	picture = GFX_intelligence_death_knight_4
+	names = { "Spy Agency" }
 	
 	available = { always = yes }
 	
@@ -40,8 +40,8 @@ intelligence_agency = {
 }
 intelligence_agency = {
 	
-	picture = GFX_intelligence_agency_logo_generic_5
-	names = { "Golden Lion" }
+	picture = GFX_intelligence_demon_hunter_1
+	names = { "Spy Agency" }
 	
 	available = { always = yes }
 	
@@ -49,8 +49,8 @@ intelligence_agency = {
 }
 intelligence_agency = {
 	
-	picture = GFX_intelligence_agency_logo_generic_6
-	names = { "Arrow" }
+	picture = GFX_intelligence_demon_hunter_2
+	names = { "Spy Agency" }
 	
 	available = { always = yes }
 	
@@ -58,8 +58,8 @@ intelligence_agency = {
 }
 intelligence_agency = {
 	
-	picture = GFX_intelligence_agency_logo_generic_7
-	names = { "Lion Head" }
+	picture = GFX_intelligence_druid_1
+	names = { "Spy Agency" }
 	
 	available = { always = yes }
 	
@@ -67,8 +67,575 @@ intelligence_agency = {
 }
 intelligence_agency = {
 	
-	picture = GFX_intelligence_agency_logo_generic_8
-	names = { "Golden Eagle" }
+	picture = GFX_intelligence_druid_2
+	names = { "Spy Agency" }
+	
+	available = { always = yes }
+	
+	default = { always = yes } 
+}
+intelligence_agency = {
+	
+	picture = GFX_intelligence_druid_3
+	names = { "Spy Agency" }
+	
+	available = { always = yes }
+	
+	default = { always = yes } 
+}
+intelligence_agency = {
+	
+	picture = GFX_intelligence_druid_4
+	names = { "Spy Agency" }
+	
+	available = { always = yes }
+	
+	default = { always = yes } 
+}
+intelligence_agency = {
+	
+	picture = GFX_intelligence_druid_5
+	names = { "Spy Agency" }
+	
+	available = { always = yes }
+	
+	default = { always = yes } 
+}
+intelligence_agency = {
+	
+	picture = GFX_intelligence_druid_6
+	names = { "Spy Agency" }
+	
+	available = { always = yes }
+	
+	default = { always = yes } 
+}
+intelligence_agency = {
+	
+	picture = GFX_intelligence_druid_7
+	names = { "Spy Agency" }
+	
+	available = { always = yes }
+	
+	default = { always = yes } 
+}
+intelligence_agency = {
+	
+	picture = GFX_intelligence_druid_8
+	names = { "Spy Agency" }
+	
+	available = { always = yes }
+	
+	default = { always = yes } 
+}
+intelligence_agency = {
+	
+	picture = GFX_intelligence_druid_9
+	names = { "Spy Agency" }
+	
+	available = { always = yes }
+	
+	default = { always = yes } 
+}
+intelligence_agency = {
+	
+	picture = GFX_intelligence_hunter_1
+	names = { "Spy Agency" }
+	
+	available = { always = yes }
+	
+	default = { always = yes } 
+}
+intelligence_agency = {
+	
+	picture = GFX_intelligence_hunter_2
+	names = { "Spy Agency" }
+	
+	available = { always = yes }
+	
+	default = { always = yes } 
+}
+intelligence_agency = {
+	
+	picture = GFX_intelligence_hunter_3
+	names = { "Spy Agency" }
+	
+	available = { always = yes }
+	
+	default = { always = yes } 
+}
+intelligence_agency = {
+	
+	picture = GFX_intelligence_mage_1
+	names = { "Spy Agency" }
+	
+	available = { always = yes }
+	
+	default = { always = yes } 
+}
+intelligence_agency = {
+	
+	picture = GFX_intelligence_mage_2
+	names = { "Spy Agency" }
+	
+	available = { always = yes }
+	
+	default = { always = yes } 
+}
+intelligence_agency = {
+	
+	picture = GFX_intelligence_mage_3
+	names = { "Spy Agency" }
+	
+	available = { always = yes }
+	
+	default = { always = yes } 
+}
+intelligence_agency = {
+	
+	picture = GFX_intelligence_mage_4
+	names = { "Spy Agency" }
+	
+	available = { always = yes }
+	
+	default = { always = yes } 
+}
+intelligence_agency = {
+	
+	picture = GFX_intelligence_misc_1
+	names = { "Spy Agency" }
+	
+	available = { always = yes }
+	
+	default = { always = yes } 
+}
+intelligence_agency = {
+	
+	picture = GFX_intelligence_misc_2
+	names = { "Spy Agency" }
+	
+	available = { always = yes }
+	
+	default = { always = yes } 
+}
+intelligence_agency = {
+	
+	picture = GFX_intelligence_misc_3
+	names = { "Spy Agency" }
+	
+	available = { always = yes }
+	
+	default = { always = yes } 
+}
+intelligence_agency = {
+	
+	picture = GFX_intelligence_misc_4
+	names = { "Spy Agency" }
+	
+	available = { always = yes }
+	
+	default = { always = yes } 
+}
+intelligence_agency = {
+	
+	picture = GFX_intelligence_misc_5
+	names = { "Spy Agency" }
+	
+	available = { always = yes }
+	
+	default = { always = yes } 
+}
+intelligence_agency = {
+	
+	picture = GFX_intelligence_misc_6
+	names = { "Spy Agency" }
+	
+	available = { always = yes }
+	
+	default = { always = yes } 
+}
+intelligence_agency = {
+	
+	picture = GFX_intelligence_misc_7
+	names = { "Spy Agency" }
+	
+	available = { always = yes }
+	
+	default = { always = yes } 
+}
+intelligence_agency = {
+	
+	picture = GFX_intelligence_misc_8
+	names = { "Spy Agency" }
+	
+	available = { always = yes }
+	
+	default = { always = yes } 
+}
+intelligence_agency = {
+	
+	picture = GFX_intelligence_misc_9
+	names = { "Spy Agency" }
+	
+	available = { always = yes }
+	
+	default = { always = yes } 
+}
+intelligence_agency = {
+	
+	picture = GFX_intelligence_misc_10
+	names = { "Spy Agency" }
+	
+	available = { always = yes }
+	
+	default = { always = yes } 
+}
+intelligence_agency = {
+	
+	picture = GFX_intelligence_misc_11
+	names = { "Spy Agency" }
+	
+	available = { always = yes }
+	
+	default = { always = yes } 
+}
+intelligence_agency = {
+	
+	picture = GFX_intelligence_misc_12
+	names = { "Spy Agency" }
+	
+	available = { always = yes }
+	
+	default = { always = yes } 
+}
+intelligence_agency = {
+	
+	picture = GFX_intelligence_misc_13
+	names = { "Spy Agency" }
+	
+	available = { always = yes }
+	
+	default = { always = yes } 
+}
+intelligence_agency = {
+	
+	picture = GFX_intelligence_monk_1
+	names = { "Spy Agency" }
+	
+	available = { always = yes }
+	
+	default = { always = yes } 
+}
+intelligence_agency = {
+	
+	picture = GFX_intelligence_monk_2
+	names = { "Spy Agency" }
+	
+	available = { always = yes }
+	
+	default = { always = yes } 
+}
+intelligence_agency = {
+	
+	picture = GFX_intelligence_monk_3
+	names = { "Spy Agency" }
+	
+	available = { always = yes }
+	
+	default = { always = yes } 
+}
+intelligence_agency = {
+	
+	picture = GFX_intelligence_monk_4
+	names = { "Spy Agency" }
+	
+	available = { always = yes }
+	
+	default = { always = yes } 
+}
+intelligence_agency = {
+	
+	picture = GFX_intelligence_monk_5
+	names = { "Spy Agency" }
+	
+	available = { always = yes }
+	
+	default = { always = yes } 
+}
+intelligence_agency = {
+	
+	picture = GFX_intelligence_monk_6
+	names = { "Spy Agency" }
+	
+	available = { always = yes }
+	
+	default = { always = yes } 
+}
+intelligence_agency = {
+	
+	picture = GFX_intelligence_monk_7
+	names = { "Spy Agency" }
+	
+	available = { always = yes }
+	
+	default = { always = yes } 
+}
+intelligence_agency = {
+	
+	picture = GFX_intelligence_monk_8
+	names = { "Spy Agency" }
+	
+	available = { always = yes }
+	
+	default = { always = yes } 
+}
+intelligence_agency = {
+	
+	picture = GFX_intelligence_paladin_1
+	names = { "Spy Agency" }
+	
+	available = { always = yes }
+	
+	default = { always = yes } 
+}
+intelligence_agency = {
+	
+	picture = GFX_intelligence_paladin_2
+	names = { "Spy Agency" }
+	
+	available = { always = yes }
+	
+	default = { always = yes } 
+}
+intelligence_agency = {
+	
+	picture = GFX_intelligence_paladin_3
+	names = { "Spy Agency" }
+	
+	available = { always = yes }
+	
+	default = { always = yes } 
+}
+intelligence_agency = {
+	
+	picture = GFX_intelligence_paladin_4
+	names = { "Spy Agency" }
+	
+	available = { always = yes }
+	
+	default = { always = yes } 
+}
+intelligence_agency = {
+	
+	picture = GFX_intelligence_paladin_5
+	names = { "Spy Agency" }
+	
+	available = { always = yes }
+	
+	default = { always = yes } 
+}
+intelligence_agency = {
+	
+	picture = GFX_intelligence_paladin_6
+	names = { "Spy Agency" }
+	
+	available = { always = yes }
+	
+	default = { always = yes } 
+}
+intelligence_agency = {
+	
+	picture = GFX_intelligence_rogue_1
+	names = { "Spy Agency" }
+	
+	available = { always = yes }
+	
+	default = { always = yes } 
+}
+intelligence_agency = {
+	
+	picture = GFX_intelligence_rogue_2
+	names = { "Spy Agency" }
+	
+	available = { always = yes }
+	
+	default = { always = yes } 
+}
+intelligence_agency = {
+	
+	picture = GFX_intelligence_rogue_3
+	names = { "Spy Agency" }
+	
+	available = { always = yes }
+	
+	default = { always = yes } 
+}
+intelligence_agency = {
+	
+	picture = GFX_intelligence_rogue_4
+	names = { "Spy Agency" }
+	
+	available = { always = yes }
+	
+	default = { always = yes } 
+}
+intelligence_agency = {
+	
+	picture = GFX_intelligence_rogue_5
+	names = { "Spy Agency" }
+	
+	available = { always = yes }
+	
+	default = { always = yes } 
+}
+intelligence_agency = {
+	
+	picture = GFX_intelligence_rogue_6
+	names = { "Spy Agency" }
+	
+	available = { always = yes }
+	
+	default = { always = yes } 
+}
+intelligence_agency = {
+	
+	picture = GFX_intelligence_rogue_7
+	names = { "Spy Agency" }
+	
+	available = { always = yes }
+	
+	default = { always = yes } 
+}
+intelligence_agency = {
+	
+	picture = GFX_intelligence_rogue_8
+	names = { "Spy Agency" }
+	
+	available = { always = yes }
+	
+	default = { always = yes } 
+}
+intelligence_agency = {
+	
+	picture = GFX_intelligence_rogue_9
+	names = { "Spy Agency" }
+	
+	available = { always = yes }
+	
+	default = { always = yes } 
+}
+intelligence_agency = {
+	
+	picture = GFX_intelligence_rogue_10
+	names = { "Spy Agency" }
+	
+	available = { always = yes }
+	
+	default = { always = yes } 
+}
+intelligence_agency = {
+	
+	picture = GFX_intelligence_shaman_1
+	names = { "Spy Agency" }
+	
+	available = { always = yes }
+	
+	default = { always = yes } 
+}
+intelligence_agency = {
+	
+	picture = GFX_intelligence_shaman_2
+	names = { "Spy Agency" }
+	
+	available = { always = yes }
+	
+	default = { always = yes } 
+}
+intelligence_agency = {
+	
+	picture = GFX_intelligence_warlock_1
+	names = { "Spy Agency" }
+	
+	available = { always = yes }
+	
+	default = { always = yes } 
+}
+intelligence_agency = {
+	
+	picture = GFX_intelligence_warlock_2
+	names = { "Spy Agency" }
+	
+	available = { always = yes }
+	
+	default = { always = yes } 
+}
+intelligence_agency = {
+	
+	picture = GFX_intelligence_warlock_3
+	names = { "Spy Agency" }
+	
+	available = { always = yes }
+	
+	default = { always = yes } 
+}
+intelligence_agency = {
+	
+	picture = GFX_intelligence_warlock_4
+	names = { "Spy Agency" }
+	
+	available = { always = yes }
+	
+	default = { always = yes } 
+}
+intelligence_agency = {
+	
+	picture = GFX_intelligence_warrior_1
+	names = { "Spy Agency" }
+	
+	available = { always = yes }
+	
+	default = { always = yes } 
+}
+intelligence_agency = {
+	
+	picture = GFX_intelligence_warrior_2
+	names = { "Spy Agency" }
+	
+	available = { always = yes }
+	
+	default = { always = yes } 
+}
+intelligence_agency = {
+	
+	picture = GFX_intelligence_warrior_3
+	names = { "Spy Agency" }
+	
+	available = { always = yes }
+	
+	default = { always = yes } 
+}
+intelligence_agency = {
+	
+	picture = GFX_intelligence_warrior_4
+	names = { "Spy Agency" }
+	
+	available = { always = yes }
+	
+	default = { always = yes } 
+}
+intelligence_agency = {
+	
+	picture = GFX_intelligence_warrior_5
+	names = { "Spy Agency" }
+	
+	available = { always = yes }
+	
+	default = { always = yes } 
+}
+intelligence_agency = {
+	
+	picture = GFX_intelligence_warrior_6
+	names = { "Spy Agency" }
 	
 	available = { always = yes }
 	

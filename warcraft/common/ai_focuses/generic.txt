@@ -20,51 +20,14 @@ ai_focus_defense = {
 		air_doctrine = 10.0
 		land_doctrine = 10.0
         
-        infantry_tech = 10.0
-        grunt_tech = 10.0
-        champion_tech = 10.0
-        archer_tech = 10.0
-        spellcaster_tech = 10.0
-        war_engine_tech = 10.0
-        
-        cavalry_tech = 10.0
-        light_cavalry_tech = 10.0
-        heavy_cavalry_tech = 10.0
-        
+        infantry_tech = 30.0
+        cavalry_tech = 30.0
         tank_tech = 10.0
-        light_tank_tech = 10.0
-        heavy_tank_tech = 10.0
-        
         support_tech = 10.0
-        war_engine_support_tech = 10.0
-        archer_support_tech = 10.0
-        spellcaster_support_tech = 10.0
-        logistics_support_tech = 10.0
-        guard_support_tech = 10.0 
-        engineer_support_tech = 10.0
-        medic_support_tech = 10.0
-        scout_support_tech = 10.0
-        cavalry_support_tech = 10.0
-        
-        air_tech = 10.0
-        fighter_tech = 10.0
-        cas_tech = 10.0
-        tactical_bomber_tech = 10.0
-        strategic_bomber_tech = 10.0
-        air_convoy_tech = 10.0
-        
+        air_tech = 25.0
         navy_tech = 10.0
-        cruiser_tech = 10.0
-        battleship_tech = 10.0
-        submarine_tech = 10.0
-        destroyer_tech = 10.0
-        convoy_tech = 10.0
-        
-        industry_tech = 10.0
-        construction_tech = 10.0
-        production_tech = 10.0
-        repair_tech = 10.0
-        efficiency_tech = 10.0
+        political_tech = 10.0
+        economic_tech = 20.0
 	}
 }
 
@@ -89,51 +52,9 @@ ai_focus_aggressive = {
 		air_doctrine = 10.0
 		land_doctrine = 10.0
         
-        infantry_tech = 10.0
-        grunt_tech = 10.0
-        champion_tech = 10.0
-        archer_tech = 10.0
-        spellcaster_tech = 10.0
-        war_engine_tech = 10.0
-        
-        cavalry_tech = 10.0
-        light_cavalry_tech = 10.0
-        heavy_cavalry_tech = 10.0
-        
-        tank_tech = 10.0
-        light_tank_tech = 10.0
-        heavy_tank_tech = 10.0
-        
-        support_tech = 10.0
-        war_engine_support_tech = 10.0
-        archer_support_tech = 10.0
-        spellcaster_support_tech = 10.0
-        logistics_support_tech = 10.0
-        guard_support_tech = 10.0 
-        engineer_support_tech = 10.0
-        medic_support_tech = 10.0
-        scout_support_tech = 10.0
-        cavalry_support_tech = 10.0
-        
-        air_tech = 10.0
-        fighter_tech = 10.0
-        cas_tech = 10.0
-        tactical_bomber_tech = 10.0
-        strategic_bomber_tech = 10.0
-        air_convoy_tech = 10.0
-        
-        navy_tech = 10.0
-        cruiser_tech = 10.0
-        battleship_tech = 10.0
-        submarine_tech = 10.0
-        destroyer_tech = 10.0
-        convoy_tech = 10.0
-        
-        industry_tech = 10.0
-        construction_tech = 10.0
-        production_tech = 10.0
-        repair_tech = 10.0
-        efficiency_tech = 10.0
+        infantry_tech = 50.0
+        cavalry_tech = 50.0
+        tank_tech = 50.0
 	}
 }
 
@@ -158,51 +79,7 @@ ai_focus_war_production = {
 		air_doctrine = 10.0
 		land_doctrine = 10.0
         
-        infantry_tech = 10.0
-        grunt_tech = 10.0
-        champion_tech = 10.0
-        archer_tech = 10.0
-        spellcaster_tech = 10.0
-        war_engine_tech = 10.0
-        
-        cavalry_tech = 10.0
-        light_cavalry_tech = 10.0
-        heavy_cavalry_tech = 10.0
-        
-        tank_tech = 10.0
-        light_tank_tech = 10.0
-        heavy_tank_tech = 10.0
-        
-        support_tech = 10.0
-        war_engine_support_tech = 10.0
-        archer_support_tech = 10.0
-        spellcaster_support_tech = 10.0
-        logistics_support_tech = 10.0
-        guard_support_tech = 10.0 
-        engineer_support_tech = 10.0
-        medic_support_tech = 10.0
-        scout_support_tech = 10.0
-        cavalry_support_tech = 10.0
-        
-        air_tech = 10.0
-        fighter_tech = 10.0
-        cas_tech = 10.0
-        tactical_bomber_tech = 10.0
-        strategic_bomber_tech = 10.0
-        air_convoy_tech = 10.0
-        
-        navy_tech = 10.0
-        cruiser_tech = 10.0
-        battleship_tech = 10.0
-        submarine_tech = 10.0
-        destroyer_tech = 10.0
-        convoy_tech = 10.0
-        
-        industry_tech = 10.0
-        construction_tech = 10.0
-        production_tech = 10.0
-        repair_tech = 10.0
-        efficiency_tech = 10.0
+        economic_tech = 50.0
 	}
 }
 
@@ -227,26 +104,8 @@ ai_focus_peaceful = {
 		air_doctrine = 10.0
 		land_doctrine = 10.0
         
-        industry_tech = 10.0
-        construction_tech = 10.0
-        production_tech = 10.0
-        repair_tech = 10.0
-        efficiency_tech = 10.0
-        
-        resource_tech = 10.0
-        fuel_pump_tech = 10.0
-        roost_tech = 10.0
-        stable_tech = 10.0
-        lumberyard_tech = 10.0
-        smeltery_tech = 10.0
-        farm_tech = 10.0
-        
-        statecraft_tech = 10.0
-        political_tech = 10.0 
-        espionage_tech = 10.0
-        religion_tech = 10.0
-        invention_tech = 10.0
-        diplomacy_tech = 10.0
+        political_tech = 50.0
+        economic_tech = 30.0
 	}
 }
 
@@ -271,50 +130,11 @@ ai_focus_military_advancements = {
 		air_doctrine = 10.0
 		land_doctrine = 10.0
         
-        infantry_tech = 10.0
-        grunt_tech = 10.0
-        champion_tech = 10.0
-        archer_tech = 10.0
-        spellcaster_tech = 10.0
-        war_engine_tech = 10.0
-        
-        cavalry_tech = 10.0
-        light_cavalry_tech = 10.0
-        heavy_cavalry_tech = 10.0
-        
-        tank_tech = 10.0
-        light_tank_tech = 10.0
-        heavy_tank_tech = 10.0
-        
-        support_tech = 10.0
-        war_engine_support_tech = 10.0
-        archer_support_tech = 10.0
-        spellcaster_support_tech = 10.0
-        logistics_support_tech = 10.0
-        guard_support_tech = 10.0 
-        engineer_support_tech = 10.0
-        medic_support_tech = 10.0
-        scout_support_tech = 10.0
-        cavalry_support_tech = 10.0
-        
-        air_tech = 10.0
-        fighter_tech = 10.0
-        cas_tech = 10.0
-        tactical_bomber_tech = 10.0
-        strategic_bomber_tech = 10.0
-        air_convoy_tech = 10.0
-        
-        navy_tech = 10.0
-        cruiser_tech = 10.0
-        battleship_tech = 10.0
-        submarine_tech = 10.0
-        destroyer_tech = 10.0
-        convoy_tech = 10.0
-        
-        leadership_tech = 10.0
-        experience_tech = 10.0
-        organisation_tech = 10.0
-        naval_invasion_tech = 10.0
+        infantry_tech = 30.0
+        cavalry_tech = 30.0
+        tank_tech = 30.0
+        air_tech = 30.0
+        navy_tech = 30.0
 	}
 }
 
@@ -362,12 +182,7 @@ ai_focus_naval = {
 		air_doctrine = 1.0
 		land_doctrine = 1.0
         
-        navy_tech = 10.0
-        cruiser_tech = 10.0
-        battleship_tech = 10.0
-        submarine_tech = 10.0
-        destroyer_tech = 10.0
-        convoy_tech = 10.0
+        navy_tech = 50.0
 	}
 }
 
@@ -415,11 +230,6 @@ ai_focus_aviation = {
 		air_doctrine = 8.0
 		land_doctrine = 1.0
         
-        air_tech = 10.0
-        fighter_tech = 10.0
-        cas_tech = 10.0
-        tactical_bomber_tech = 10.0
-        strategic_bomber_tech = 10.0
-        air_convoy_tech = 10.0
+        air_tech = 50.0
 	}
 }

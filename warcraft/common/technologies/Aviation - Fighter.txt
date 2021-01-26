@@ -1,0 +1,589 @@
+technologies = {
+    #-----------------------------------------------------------------
+    # fighter
+    #-----------------------------------------------------------------
+    fighter_tech_1 = {
+        enable_equipments = {
+            fighter_equipment_1
+        }
+        
+        research_cost = 3
+
+        path = {
+			leads_to_tech = fighter_tech_2
+			research_cost_coeff = 1
+		}
+        
+        folder = {
+			name = air_fighter_folder
+			position = { x = 1 y = 2 }
+		}
+        
+        categories = {
+			air_tech
+		    fighter_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+            
+            modifier = {
+                factor = 2
+                
+                ai_prioritise_air = yes
+            }
+            
+            modifier = {
+                factor = 0
+                
+                ai_ignore_air = yes
+            }
+		}
+    }
+    
+    fighter_tech_2 = {
+        # Modifier
+        fighter = {
+            naval_strike_targetting = 1
+        }
+        
+        research_cost = 6
+
+        path = {
+			leads_to_tech = fighter_tech_3
+			research_cost_coeff = 1
+		}
+        
+        folder = {
+			name = air_fighter_folder
+			position = { x = 2 y = 2 }
+		}
+        
+        categories = {
+			air_tech
+		    fighter_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+            
+            modifier = {
+                factor = 2
+                
+                ai_prioritise_air = yes
+            }
+            
+            modifier = {
+                factor = 0
+                
+                ai_ignore_air = yes
+            }
+		}
+    }
+    
+    fighter_tech_3 = {
+        enable_equipments = {
+            fighter_equipment_2
+        }
+        
+        research_cost = 6
+
+        path = {
+			leads_to_tech = fighter_tech_4
+			research_cost_coeff = 1
+		}
+        path = {
+			leads_to_tech = fighter_tech_3_side_1
+			research_cost_coeff = 1
+		}
+        path = {
+			leads_to_tech = fighter_tech_3_side_2
+			research_cost_coeff = 1
+		}
+        
+        folder = {
+			name = air_fighter_folder
+			position = { x = 3 y = 2 }
+		}
+        
+        
+        categories = {
+			air_tech
+		    fighter_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+            
+            modifier = {
+                factor = 2
+                
+                ai_prioritise_air = yes
+            }
+            
+            modifier = {
+                factor = 0
+                
+                ai_ignore_air = yes
+            }
+
+            modifier = {
+                factor = 0.1
+                
+                NOT = { ai_has_role_template = fighter }
+            }
+		}
+    }
+
+    fighter_tech_3_side_1 = {
+        # Modifier
+        
+        research_cost = 6
+
+        folder = {
+			name = air_fighter_folder
+			position = { x = 3 y = 1 }
+		}
+        
+        
+        categories = {
+			air_tech
+		    fighter_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+            
+            modifier = {
+                factor = 2
+                
+                ai_prioritise_air = yes
+            }
+            
+            modifier = {
+                factor = 0
+                
+                ai_ignore_air = yes
+            }
+
+            modifier = {
+                factor = 0.1
+                
+                NOT = { ai_has_role_template = fighter }
+            }
+		}
+    }
+    
+    fighter_tech_3_side_2 = {
+        # Modifier
+        
+        research_cost = 6
+
+        folder = {
+			name = air_fighter_folder
+			position = { x = 3 y = 3 }
+		}
+        
+        
+        categories = {
+			air_tech
+		    fighter_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+            
+            modifier = {
+                factor = 2
+                
+                ai_prioritise_air = yes
+            }
+            
+            modifier = {
+                factor = 0
+                
+                ai_ignore_air = yes
+            }
+
+            modifier = {
+                factor = 0.1
+                
+                NOT = { ai_has_role_template = fighter }
+            }
+		}
+    }
+    
+    fighter_tech_4 = {
+        # Modifier
+        
+        research_cost = 6
+
+        path = {
+			leads_to_tech = fighter_tech_5
+			research_cost_coeff = 1
+		}
+        
+        folder = {
+			name = air_fighter_folder
+			position = { x = 4 y = 2 }
+		}
+        
+        categories = {
+			air_tech
+		    fighter_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+            
+            modifier = {
+                factor = 2
+                
+                ai_prioritise_air = yes
+            }
+            
+            modifier = {
+                factor = 0
+                
+                ai_ignore_air = yes
+            }
+		}
+    }
+    
+    fighter_tech_5 = {
+        enable_equipments = {
+            fighter_equipment_3
+        }
+        
+        research_cost = 9
+
+        path = {
+			leads_to_tech = fighter_tech_6
+			research_cost_coeff = 1
+		}
+        
+        folder = {
+			name = air_fighter_folder
+			position = { x = 5 y = 2 }
+		}
+        
+        
+        categories = {
+			air_tech
+		    fighter_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+            
+            modifier = {
+                factor = 2
+                
+                ai_prioritise_air = yes
+            }
+            
+            modifier = {
+                factor = 0
+                
+                ai_ignore_air = yes
+            }
+            
+            modifier = {
+                factor = 0.1
+                
+                NOT = { ai_has_role_template = fighter }
+            }
+		}
+    }
+    
+    fighter_tech_6 = {
+        # Modifier
+        
+        research_cost = 6
+
+        path = {
+			leads_to_tech = fighter_tech_7
+			research_cost_coeff = 1
+		}
+        
+        folder = {
+			name = air_fighter_folder
+			position = { x = 6 y = 2 }
+		}
+        
+        categories = {
+			air_tech
+		    fighter_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+            
+            modifier = {
+                factor = 2
+                
+                ai_prioritise_air = yes
+            }
+            
+            modifier = {
+                factor = 0
+                
+                ai_ignore_air = yes
+            }
+		}
+    }
+    
+    fighter_tech_7 = {
+        enable_equipments = {
+            fighter_equipment_4
+        }
+        
+        research_cost = 12
+
+        path = {
+			leads_to_tech = fighter_tech_8
+			research_cost_coeff = 1
+		}
+        path = {
+			leads_to_tech = fighter_tech_7_side_1
+			research_cost_coeff = 1
+		}
+        path = {
+			leads_to_tech = fighter_tech_7_side_2
+			research_cost_coeff = 1
+		}
+        
+        folder = {
+			name = air_fighter_folder
+			position = { x = 7 y = 2 }
+		}
+        
+        
+        categories = {
+			air_tech
+		    fighter_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+            
+            modifier = {
+                factor = 2
+                
+                ai_prioritise_air = yes
+            }
+            
+            modifier = {
+                factor = 0
+                
+                ai_ignore_air = yes
+            }
+            
+            modifier = {
+                factor = 0.1
+                
+                NOT = { ai_has_role_template = fighter }
+            }
+		}
+    }
+    
+    fighter_tech_7_side_1 = {
+        # Modifier
+        
+        research_cost = 6
+
+        folder = {
+			name = air_fighter_folder
+			position = { x = 7 y = 1 }
+		}
+        
+        
+        categories = {
+			air_tech
+		    fighter_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+            
+            modifier = {
+                factor = 2
+                
+                ai_prioritise_air = yes
+            }
+            
+            modifier = {
+                factor = 0
+                
+                ai_ignore_air = yes
+            }
+
+            modifier = {
+                factor = 0.1
+                
+                NOT = { ai_has_role_template = fighter }
+            }
+		}
+    }
+    
+    fighter_tech_7_side_2 = {
+        # Modifier
+        
+        research_cost = 6
+
+        folder = {
+			name = air_fighter_folder
+			position = { x = 7 y = 3 }
+		}
+        
+        categories = {
+			air_tech
+		    fighter_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+            
+            modifier = {
+                factor = 2
+                
+                ai_prioritise_air = yes
+            }
+            
+            modifier = {
+                factor = 0
+                
+                ai_ignore_air = yes
+            }
+
+            modifier = {
+                factor = 0.1
+                
+                NOT = { ai_has_role_template = fighter }
+            }
+		}
+    }
+    
+    fighter_tech_8 = {
+        # Modifier
+        
+        research_cost = 6
+
+        path = {
+			leads_to_tech = fighter_tech_9
+			research_cost_coeff = 1
+		}
+        
+        folder = {
+			name = air_fighter_folder
+			position = { x = 8 y = 2 }
+		}
+        
+        categories = {
+			air_tech
+		    fighter_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+            
+            modifier = {
+                factor = 2
+                
+                ai_prioritise_air = yes
+            }
+            
+            modifier = {
+                factor = 0
+                
+                ai_ignore_air = yes
+            }
+		}
+    }
+    
+    fighter_tech_9 = {
+        enable_equipments = {
+            fighter_equipment_5
+        }
+        
+        research_cost = 18
+        
+        path = {
+			leads_to_tech = fighter_tech_capstone
+			research_cost_coeff = 1
+		}
+        
+        folder = {
+			name = air_fighter_folder
+			position = { x = 9 y = 2 }
+		}
+        
+        
+        categories = {
+			air_tech
+		    fighter_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+            
+            modifier = {
+                factor = 2
+                
+                ai_prioritise_air = yes
+            }
+            
+            modifier = {
+                factor = 0
+                
+                ai_ignore_air = yes
+            }
+            
+            modifier = {
+                factor = 0.1
+                
+                NOT = { ai_has_role_template = fighter }
+            }
+		}
+    }
+    
+    fighter_tech_capstone = {
+        # Modifier
+        
+        research_cost = 12
+
+        folder = {
+			name = air_fighter_folder
+			position = { x = 10 y = 2 }
+		}
+        
+        
+        categories = {
+			air_tech
+		    fighter_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+            
+            modifier = {
+                factor = 2
+                
+                ai_prioritise_air = yes
+            }
+            
+            modifier = {
+                factor = 0
+                
+                ai_ignore_air = yes
+            }
+
+            modifier = {
+                factor = 0.1
+                
+                NOT = { ai_has_role_template = fighter }
+            }
+		}
+    }
+}
+

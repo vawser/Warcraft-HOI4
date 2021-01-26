@@ -1,4 +1,21 @@
 AZW = {
+    operative = {
+		male = {
+			"gfx/leaders/DRAGONFLIGHT/dragonflight_male_1.dds"
+			"gfx/leaders/DRAGONFLIGHT/dragonflight_male_2.dds"
+            "gfx/leaders/DRAGONFLIGHT/dragonflight_male_3.dds"
+            "gfx/leaders/DRAGONFLIGHT/dragonflight_male_4.dds"
+            "gfx/leaders/DRAGONFLIGHT/dragonflight_male_5.dds"
+		}
+        female = {
+			"gfx/leaders/DRAGONFLIGHT/dragonflight_female_1.dds"
+			"gfx/leaders/DRAGONFLIGHT/dragonflight_female_2.dds"
+            "gfx/leaders/DRAGONFLIGHT/dragonflight_female_3.dds"
+            "gfx/leaders/DRAGONFLIGHT/dragonflight_female_4.dds"
+            "gfx/leaders/DRAGONFLIGHT/dragonflight_female_5.dds"
+		}
+	}
+    
 	army = {
 		male = {
 			"gfx/leaders/DRAGONFLIGHT/dragonflight_male_1.dds"

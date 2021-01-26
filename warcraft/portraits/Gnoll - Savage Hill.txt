@@ -1,6 +1,24 @@
 SVH = {
+    operative = {
+		male = {
+			"gfx/leaders/GNOLL/gnoll_shadowhide_1.dds"
+			"gfx/leaders/GNOLL/gnoll_shadowhide_2.dds"
+            "gfx/leaders/GNOLL/gnoll_shadowhide_3.dds"
+		}
+        female = {
+			"gfx/leaders/GNOLL/gnoll_shadowhide_1.dds"
+			"gfx/leaders/GNOLL/gnoll_shadowhide_2.dds"
+            "gfx/leaders/GNOLL/gnoll_shadowhide_3.dds"
+		}
+	}
+    
 	army = {
 		male = {
+			"gfx/leaders/GNOLL/gnoll_shadowhide_1.dds"
+			"gfx/leaders/GNOLL/gnoll_shadowhide_2.dds"
+            "gfx/leaders/GNOLL/gnoll_shadowhide_3.dds"
+		}
+        female = {
 			"gfx/leaders/GNOLL/gnoll_shadowhide_1.dds"
 			"gfx/leaders/GNOLL/gnoll_shadowhide_2.dds"
             "gfx/leaders/GNOLL/gnoll_shadowhide_3.dds"
@@ -9,6 +27,11 @@ SVH = {
 
 	navy = {
 		male = {
+			"gfx/leaders/GNOLL/gnoll_shadowhide_1.dds"
+			"gfx/leaders/GNOLL/gnoll_shadowhide_2.dds"
+            "gfx/leaders/GNOLL/gnoll_shadowhide_3.dds"
+		}
+        female = {
 			"gfx/leaders/GNOLL/gnoll_shadowhide_1.dds"
 			"gfx/leaders/GNOLL/gnoll_shadowhide_2.dds"
             "gfx/leaders/GNOLL/gnoll_shadowhide_3.dds"
@@ -22,9 +45,19 @@ SVH = {
                 "gfx/leaders/GNOLL/gnoll_shadowhide_2.dds"
                 "gfx/leaders/GNOLL/gnoll_shadowhide_3.dds"
             }
+            female = {
+                "gfx/leaders/GNOLL/gnoll_shadowhide_1.dds"
+                "gfx/leaders/GNOLL/gnoll_shadowhide_2.dds"
+                "gfx/leaders/GNOLL/gnoll_shadowhide_3.dds"
+            }
 		}
 		shadow = {
 			male = {
+                "gfx/leaders/GNOLL/gnoll_shadowhide_1.dds"
+                "gfx/leaders/GNOLL/gnoll_shadowhide_2.dds"
+                "gfx/leaders/GNOLL/gnoll_shadowhide_3.dds"
+            }
+            female = {
                 "gfx/leaders/GNOLL/gnoll_shadowhide_1.dds"
                 "gfx/leaders/GNOLL/gnoll_shadowhide_2.dds"
                 "gfx/leaders/GNOLL/gnoll_shadowhide_3.dds"
@@ -36,9 +69,19 @@ SVH = {
                 "gfx/leaders/GNOLL/gnoll_shadowhide_2.dds"
                 "gfx/leaders/GNOLL/gnoll_shadowhide_3.dds"
             }
+            female = {
+                "gfx/leaders/GNOLL/gnoll_shadowhide_1.dds"
+                "gfx/leaders/GNOLL/gnoll_shadowhide_2.dds"
+                "gfx/leaders/GNOLL/gnoll_shadowhide_3.dds"
+            }
 		}
         disorder = {
 			male = {
+                "gfx/leaders/GNOLL/gnoll_shadowhide_1.dds"
+                "gfx/leaders/GNOLL/gnoll_shadowhide_2.dds"
+                "gfx/leaders/GNOLL/gnoll_shadowhide_3.dds"
+            }
+            female = {
                 "gfx/leaders/GNOLL/gnoll_shadowhide_1.dds"
                 "gfx/leaders/GNOLL/gnoll_shadowhide_2.dds"
                 "gfx/leaders/GNOLL/gnoll_shadowhide_3.dds"
@@ -50,6 +93,11 @@ SVH = {
                 "gfx/leaders/GNOLL/gnoll_shadowhide_2.dds"
                 "gfx/leaders/GNOLL/gnoll_shadowhide_3.dds"
             }
+            female = {
+                "gfx/leaders/GNOLL/gnoll_shadowhide_1.dds"
+                "gfx/leaders/GNOLL/gnoll_shadowhide_2.dds"
+                "gfx/leaders/GNOLL/gnoll_shadowhide_3.dds"
+            }
 		}
         death = {
 			male = {
@@ -57,9 +105,19 @@ SVH = {
                 "gfx/leaders/GNOLL/gnoll_shadowhide_2.dds"
                 "gfx/leaders/GNOLL/gnoll_shadowhide_3.dds"
             }
+            female = {
+                "gfx/leaders/GNOLL/gnoll_shadowhide_1.dds"
+                "gfx/leaders/GNOLL/gnoll_shadowhide_2.dds"
+                "gfx/leaders/GNOLL/gnoll_shadowhide_3.dds"
+            }
 		}
         unaligned = {
 			male = {
+                "gfx/leaders/GNOLL/gnoll_shadowhide_1.dds"
+                "gfx/leaders/GNOLL/gnoll_shadowhide_2.dds"
+                "gfx/leaders/GNOLL/gnoll_shadowhide_3.dds"
+            }
+            female = {
                 "gfx/leaders/GNOLL/gnoll_shadowhide_1.dds"
                 "gfx/leaders/GNOLL/gnoll_shadowhide_2.dds"
                 "gfx/leaders/GNOLL/gnoll_shadowhide_3.dds"

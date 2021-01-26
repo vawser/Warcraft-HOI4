@@ -34,7 +34,7 @@ ideas = {
             }
             
             research_bonus = {
-				resource_tech = 0.15
+                extraction_tech = 0.15
 			}
             
             traits = { research_trait_resource }

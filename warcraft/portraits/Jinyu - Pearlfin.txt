@@ -1,6 +1,33 @@
 PEA = {
+    operative = {
+		male = {
+			"gfx/leaders/JINYU/jinyu_1.dds"
+			"gfx/leaders/JINYU/jinyu_2.dds"
+            "gfx/leaders/JINYU/jinyu_3.dds"
+            "gfx/leaders/JINYU/jinyu_4.dds"
+            "gfx/leaders/JINYU/jinyu_5.dds"
+            "gfx/leaders/JINYU/jinyu_6.dds"
+		}
+        female = {
+			"gfx/leaders/JINYU/jinyu_1.dds"
+			"gfx/leaders/JINYU/jinyu_2.dds"
+            "gfx/leaders/JINYU/jinyu_3.dds"
+            "gfx/leaders/JINYU/jinyu_4.dds"
+            "gfx/leaders/JINYU/jinyu_5.dds"
+            "gfx/leaders/JINYU/jinyu_6.dds"
+		}
+	}
+    
 	army = {
 		male = {
+			"gfx/leaders/JINYU/jinyu_1.dds"
+			"gfx/leaders/JINYU/jinyu_2.dds"
+            "gfx/leaders/JINYU/jinyu_3.dds"
+            "gfx/leaders/JINYU/jinyu_4.dds"
+            "gfx/leaders/JINYU/jinyu_5.dds"
+            "gfx/leaders/JINYU/jinyu_6.dds"
+		}
+        female = {
 			"gfx/leaders/JINYU/jinyu_1.dds"
 			"gfx/leaders/JINYU/jinyu_2.dds"
             "gfx/leaders/JINYU/jinyu_3.dds"
@@ -12,6 +39,14 @@ PEA = {
 
 	navy = {
 		male = {
+			"gfx/leaders/JINYU/jinyu_1.dds"
+			"gfx/leaders/JINYU/jinyu_2.dds"
+            "gfx/leaders/JINYU/jinyu_3.dds"
+            "gfx/leaders/JINYU/jinyu_4.dds"
+            "gfx/leaders/JINYU/jinyu_5.dds"
+            "gfx/leaders/JINYU/jinyu_6.dds"
+		}
+        female = {
 			"gfx/leaders/JINYU/jinyu_1.dds"
 			"gfx/leaders/JINYU/jinyu_2.dds"
             "gfx/leaders/JINYU/jinyu_3.dds"
@@ -31,9 +66,25 @@ PEA = {
                 "gfx/leaders/JINYU/jinyu_5.dds"
                 "gfx/leaders/JINYU/jinyu_6.dds"
             }
+            female = {
+                "gfx/leaders/JINYU/jinyu_1.dds"
+                "gfx/leaders/JINYU/jinyu_2.dds"
+                "gfx/leaders/JINYU/jinyu_3.dds"
+                "gfx/leaders/JINYU/jinyu_4.dds"
+                "gfx/leaders/JINYU/jinyu_5.dds"
+                "gfx/leaders/JINYU/jinyu_6.dds"
+            }
 		}
 		shadow = {
 			male = {
+                "gfx/leaders/JINYU/jinyu_1.dds"
+                "gfx/leaders/JINYU/jinyu_2.dds"
+                "gfx/leaders/JINYU/jinyu_3.dds"
+                "gfx/leaders/JINYU/jinyu_4.dds"
+                "gfx/leaders/JINYU/jinyu_5.dds"
+                "gfx/leaders/JINYU/jinyu_6.dds"
+            }
+            female = {
                 "gfx/leaders/JINYU/jinyu_1.dds"
                 "gfx/leaders/JINYU/jinyu_2.dds"
                 "gfx/leaders/JINYU/jinyu_3.dds"
@@ -51,9 +102,25 @@ PEA = {
                 "gfx/leaders/JINYU/jinyu_5.dds"
                 "gfx/leaders/JINYU/jinyu_6.dds"
             }
+            female = {
+                "gfx/leaders/JINYU/jinyu_1.dds"
+                "gfx/leaders/JINYU/jinyu_2.dds"
+                "gfx/leaders/JINYU/jinyu_3.dds"
+                "gfx/leaders/JINYU/jinyu_4.dds"
+                "gfx/leaders/JINYU/jinyu_5.dds"
+                "gfx/leaders/JINYU/jinyu_6.dds"
+            }
 		}
         disorder = {
 			male = {
+                "gfx/leaders/JINYU/jinyu_1.dds"
+                "gfx/leaders/JINYU/jinyu_2.dds"
+                "gfx/leaders/JINYU/jinyu_3.dds"
+                "gfx/leaders/JINYU/jinyu_4.dds"
+                "gfx/leaders/JINYU/jinyu_5.dds"
+                "gfx/leaders/JINYU/jinyu_6.dds"
+            }
+            female = {
                 "gfx/leaders/JINYU/jinyu_1.dds"
                 "gfx/leaders/JINYU/jinyu_2.dds"
                 "gfx/leaders/JINYU/jinyu_3.dds"
@@ -71,6 +138,14 @@ PEA = {
                 "gfx/leaders/JINYU/jinyu_5.dds"
                 "gfx/leaders/JINYU/jinyu_6.dds"
             }
+            female = {
+                "gfx/leaders/JINYU/jinyu_1.dds"
+                "gfx/leaders/JINYU/jinyu_2.dds"
+                "gfx/leaders/JINYU/jinyu_3.dds"
+                "gfx/leaders/JINYU/jinyu_4.dds"
+                "gfx/leaders/JINYU/jinyu_5.dds"
+                "gfx/leaders/JINYU/jinyu_6.dds"
+            }
 		}
         death = {
 			male = {
@@ -81,9 +156,25 @@ PEA = {
                 "gfx/leaders/JINYU/jinyu_5.dds"
                 "gfx/leaders/JINYU/jinyu_6.dds"
             }
+            female = {
+                "gfx/leaders/JINYU/jinyu_1.dds"
+                "gfx/leaders/JINYU/jinyu_2.dds"
+                "gfx/leaders/JINYU/jinyu_3.dds"
+                "gfx/leaders/JINYU/jinyu_4.dds"
+                "gfx/leaders/JINYU/jinyu_5.dds"
+                "gfx/leaders/JINYU/jinyu_6.dds"
+            }
 		}
         unaligned = {
 			male = {
+                "gfx/leaders/JINYU/jinyu_1.dds"
+                "gfx/leaders/JINYU/jinyu_2.dds"
+                "gfx/leaders/JINYU/jinyu_3.dds"
+                "gfx/leaders/JINYU/jinyu_4.dds"
+                "gfx/leaders/JINYU/jinyu_5.dds"
+                "gfx/leaders/JINYU/jinyu_6.dds"
+            }
+            female = {
                 "gfx/leaders/JINYU/jinyu_1.dds"
                 "gfx/leaders/JINYU/jinyu_2.dds"
                 "gfx/leaders/JINYU/jinyu_3.dds"

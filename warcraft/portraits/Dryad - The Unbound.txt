@@ -1,4 +1,17 @@
-UNB = {
+UNB = { 
+    operative = {
+		male = {
+			"gfx/leaders/DRYAD/crystal_dryad_green.dds"
+            "gfx/leaders/DRYAD/crystal_dryad_purple.dds"
+            "gfx/leaders/DRYAD/crystal_dryad_white.dds"
+		}
+        female = {
+			"gfx/leaders/DRYAD/crystal_dryad_green.dds"
+            "gfx/leaders/DRYAD/crystal_dryad_purple.dds"
+            "gfx/leaders/DRYAD/crystal_dryad_white.dds"
+		}
+	}
+    
 	army = {
 		male = {
 			"gfx/leaders/DRYAD/crystal_dryad_green.dds"

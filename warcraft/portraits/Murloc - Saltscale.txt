@@ -1,12 +1,27 @@
 SAL = {
+    operative = {
+		male = {
+			"gfx/leaders/MURLOC/murloc_white.dds"
+		}
+        female = {
+			"gfx/leaders/MURLOC/murloc_white.dds"
+		}
+	}
+    
 	army = {
 		male = {
+			"gfx/leaders/MURLOC/murloc_white.dds"
+		}
+        female = {
 			"gfx/leaders/MURLOC/murloc_white.dds"
 		}
 	}
 
 	navy = {
 		male = {
+			"gfx/leaders/MURLOC/murloc_white.dds"
+		}
+        female = {
 			"gfx/leaders/MURLOC/murloc_white.dds"
 		}
 	}
@@ -16,9 +31,15 @@ SAL = {
 			male = {
                 "gfx/leaders/MURLOC/murloc_white.dds"
             }
+            female = {
+                "gfx/leaders/MURLOC/murloc_white.dds"
+            }
 		}
 		shadow = {
 			male = {
+                "gfx/leaders/MURLOC/murloc_white.dds"
+            }
+            female = {
                 "gfx/leaders/MURLOC/murloc_white.dds"
             }
 		}
@@ -26,9 +47,15 @@ SAL = {
 			male = {
                 "gfx/leaders/MURLOC/murloc_white.dds"
             }
+            female = {
+                "gfx/leaders/MURLOC/murloc_white.dds"
+            }
 		}
         disorder = {
 			male = {
+                "gfx/leaders/MURLOC/murloc_white.dds"
+            }
+            female = {
                 "gfx/leaders/MURLOC/murloc_white.dds"
             }
 		}
@@ -36,14 +63,23 @@ SAL = {
 			male = {
                 "gfx/leaders/MURLOC/murloc_white.dds"
             }
+            female = {
+                "gfx/leaders/MURLOC/murloc_white.dds"
+            }
 		}
         death = {
 			male = {
                 "gfx/leaders/MURLOC/murloc_white.dds"
             }
+            female = {
+                "gfx/leaders/MURLOC/murloc_white.dds"
+            }
 		}
         unaligned = {
 			male = {
+                "gfx/leaders/MURLOC/murloc_white.dds"
+            }
+            female = {
                 "gfx/leaders/MURLOC/murloc_white.dds"
             }
 		}
