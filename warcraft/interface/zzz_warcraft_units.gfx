@@ -130,6 +130,12 @@ spriteTypes = {
     }
     
     spriteType = { 
+        name = "GFX_unit_motorized_infantry_icon_medium" 			
+        textureFile = "gfx/interface/unit_icons/large/land/motorized_infantry.dds"
+        noOfFrames = 2 
+    }
+    
+    spriteType = { 
         name = "GFX_unit_champion_icon_medium" 			
         textureFile = "gfx/interface/unit_icons/large/land/champion.dds"
         noOfFrames = 2 
@@ -235,6 +241,12 @@ spriteTypes = {
     spriteType = { 
         name = "GFX_unit_grunt_icon_small" 			
         textureFile = "gfx/interface/unit_icons/small/land/grunt.dds"
+        noOfFrames = 2 
+    }
+    
+    spriteType = { 
+        name = "GFX_unit_motorized_infantry_icon_small" 			
+        textureFile = "gfx/interface/unit_icons/small/land/motorized_infantry.dds"
         noOfFrames = 2 
     }
     
@@ -351,6 +363,12 @@ spriteTypes = {
     spriteType = { 
         name = "GFX_unit_grunt_icon_medium_white"						
         textureFile = "gfx/interface/unit_icons/small/land/grunt.dds" 
+        noOfFrames = 2
+    }
+    
+    spriteType = { 
+        name = "GFX_unit_motorized_infantry_icon_medium_white"						
+        textureFile = "gfx/interface/unit_icons/small/land/motorized_infantry.dds" 
         noOfFrames = 2
     }
     
@@ -555,6 +573,11 @@ spriteTypes = {
     }
     
     spriteType = { 
+        name = "GFX_unit_carrier_icon_medium_white"					
+        texturefile = "gfx/interface/unit_icons/small/navy/carrier.dds" 
+    }
+    
+    spriteType = { 
         name = "GFX_unit_cruiser_icon_medium_white"					
         texturefile = "gfx/interface/unit_icons/small/navy/cruiser.dds" 
     }
@@ -597,6 +620,12 @@ spriteTypes = {
     }
     
     spriteType = { 
+        name = "GFX_unit_carrier_icon_medium"		
+        texturefile = "gfx/interface/unit_icons/large/navy/carrier.dds"		
+        noOfFrames = 2 
+    }
+    
+    spriteType = { 
         name = "GFX_unit_cruiser_icon_medium"		
         texturefile = "gfx/interface/unit_icons/large/navy/cruiser.dds"		
         noOfFrames = 2 
@@ -635,6 +664,12 @@ spriteTypes = {
     spriteType = { 
         name = "GFX_unit_destroyer_icon_small"		
         texturefile = "gfx/interface/unit_icons/small/navy/destroyer.dds"		
+        noOfFrames = 2 
+    }
+    
+    spriteType = { 
+        name = "GFX_unit_carrier_icon_small"		
+        texturefile = "gfx/interface/unit_icons/small/navy/carrier.dds"		
         noOfFrames = 2 
     }
 }

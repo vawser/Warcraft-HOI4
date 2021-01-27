@@ -6,6 +6,14 @@ government_actions = {
 	}
 }
 
+economic_actions = {
+	icon = yellow_quest_mark
+
+	visible = {
+        always = yes
+	}
+}
+
 seasonal_actions = {
 	icon = human_fist
 

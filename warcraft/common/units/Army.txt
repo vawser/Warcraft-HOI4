@@ -2,6 +2,7 @@
 # For land units: infantry,armored,other
 # For sea units: ship,transport,uboat
 sub_units = {
+    # Grunt: only decent at defense
 	grunt = {
 		sprite = infantry
 		map_icon_category = infantry
@@ -22,39 +23,24 @@ sub_units = {
 			category_army
 		}
         
-        marines = yes
-		
+        need = {
+			grunt_equipment = 10
+		}
+        
 		combat_width = 2
-        manpower = 30
-        training_time = 100
+        max_strength = 25
+		max_organisation = 60
+        default_morale = 0.3
+        
+        manpower = 10
+        training_time = 90
         
         suppression = 1
-        
-		need = {
-			grunt_equipment = 30
-		}
-		forest = {
-			attack = -0.05
-			movement = -0.1
-		}
-		hills = {
-			attack = -0.1
-			movement = -0.1
-		}
-		mountain = {
-			attack = -0.2
-			movement = -0.2
-		}
-		river = {
-			attack = -0.3
-			movement = -0.2
-		}
-		jungle = {
-			attack = -0.1
-			movement = -0.3
-		}
+        weight = 0.5
+		supply_consumption = 0.05
 	}
-
+    
+    # Champion: decent breakthrough and more survivable
     champion = {
 		sprite = infantry
 		map_icon_category = infantry
@@ -75,39 +61,24 @@ sub_units = {
 			category_army
 		}
         
-        marines = yes
-		
-		combat_width = 2   
-        manpower = 30
-        training_time = 300
-
-        suppression = 1
-        
 		need = {
-			champion_equipment = 30
+			champion_equipment = 10
 		}
-		forest = {
-			attack = -0.05
-			movement = -0.1
-		}
-		hills = {
-			attack = -0.1
-			movement = -0.15
-		}
-		mountain = {
-			attack = -0.25
-			movement = -0.3
-		}
-		river = {
-			attack = -0.5
-			movement = -0.3
-		}
-		jungle = {
-			attack = -0.3
-			movement = -0.5
-		}
+        
+        combat_width = 2
+        max_strength = 30
+		max_organisation = 70
+        default_morale = 0.4
+        
+        manpower = 10
+        training_time = 90
+        
+        suppression = 1
+        weight = 0.5
+		supply_consumption = 0.1
 	}
     
+    # Archer: good anti-air and defense
     archer = {
 		sprite = infantry
 		map_icon_category = infantry
@@ -128,39 +99,24 @@ sub_units = {
 			category_army
 		}
         
-        marines = yes
-		
-		combat_width = 2
-        manpower = 30
-        training_time = 150
-	
-        suppression = 1
-        
 		need = {
-			archer_equipment = 45
+			archer_equipment = 10
 		}
-		forest = {
-			attack = -0.25
-			movement = -0.1
-		}
-		hills = {
-			attack = -0.05
-			movement = -0.1
-		}
-		mountain = {
-			attack = -0.2
-			movement = -0.2
-		}
-		river = {
-			attack = -0.1
-			movement = -0.2
-		}
-		jungle = {
-			attack = -0.5
-			movement = -0.3
-		}
+        
+        combat_width = 2
+        max_strength = 25
+		max_organisation = 65
+        default_morale = 0.3
+        
+        manpower = 10
+        training_time = 90
+        
+        suppression = 1
+        weight = 0.5
+		supply_consumption = 0.06
 	}
     
+    # Spellcaster: good piercing and attack, but squishy
     spellcaster = {
 		sprite = infantry
 		map_icon_category = infantry
@@ -181,39 +137,24 @@ sub_units = {
 			category_army
 		}
 
-        marines = yes
+		need = {
+			spellcaster_equipment = 10
+		}
+		
+        combat_width = 2
+        max_strength = 15
+		max_organisation = 50
+        default_morale = 0.25
         
-		combat_width = 1 
-        manpower = 20
-        training_time = 450
+        manpower = 10
+        training_time = 90
         
         suppression = 1
-        
-		need = {
-			spellcaster_equipment = 30
-		}
-		forest = {
-			attack = 0.05
-			movement = -0.05
-		}
-		hills = {
-			attack = -0.1
-			movement = -0.1
-		}
-		mountain = {
-			attack = -0.2
-			movement = -0.15
-		}
-		river = {
-			attack = 0.1
-			movement = -0.25
-		}
-		jungle = {
-			attack = 0.1
-			movement = -0.15
-		}
+        weight = 0.5
+		supply_consumption = 0.1
 	}
     
+    # War Engine: excellent soft attack
     war_engine = {
 		sprite = artillery
 		map_icon_category = infantry
@@ -233,13 +174,20 @@ sub_units = {
 			category_artillery
 		}
 
+        need = {
+			war_engine_equipment = 10
+		}
+        
 		combat_width = 2
-        manpower = 30
+        max_strength = 25
+        max_organisation = 60
+        default_morale = 0.3
+        
+        manpower = 20
         training_time = 180
 
-        need = {
-			war_engine_equipment = 30
-		}
+        weight = 1
+        supply_consumption = 0.2
         
 		forest = {
 			attack = -0.2
@@ -276,6 +224,7 @@ sub_units = {
 
 	}
     
+    # Light Cavalry: fast and good breakthrough
     light_cavalry = {
 		sprite = cavalry
 		map_icon_category = other
@@ -294,19 +243,24 @@ sub_units = {
             category_cavalry
 		}
 
-		combat_width = 2  
-        manpower = 30
-        training_time = 180		
-
-		suppression = 2
-
-		need = {
-			light_cavalry_equipment = 30
+        need = {
+			light_cavalry_equipment = 10
 		}
+        
+		combat_width = 2
+		max_organisation = 70
+		max_strength = 25
+		default_morale = 0.3
+		maximum_speed = 0.6		
+		weight = 0.5
+		suppression = 2
+		supply_consumption = 0.12
+        
+        manpower = 15
+		training_time = 120
 
 		forest = {
 			attack = -0.05
-			movement = -0.1
 		}
 
 		hills = {
@@ -314,24 +268,24 @@ sub_units = {
 		}
 
 		mountain = {
-			attack = -0.2
-			movement = -0.2
+			attack = -0.1
+			movement = -0.05
 		}
 
 		jungle = {
-			attack = -0.3
-			movement = -0.2
-		}
-
-		urban = {
 			attack = -0.1
 		}
 
+		urban = {
+			attack = -0.05
+		}
+
 		amphibious = {
-			attack = -0.3
+			attack = -0.4
 		}
 	}
     
+    # Heavy Cavalry: fast and good breakthrough
     heavy_cavalry = {
 		sprite = cavalry
 		map_icon_category = other
@@ -350,37 +304,41 @@ sub_units = {
             category_cavalry
 		}
 
-		combat_width = 2
-        manpower = 35
-        training_time = 360
-
-		suppression = 2
-	
-		need = {
-			heavy_cavalry_equipment = 30
+        need = {
+			heavy_cavalry_equipment = 10
 		}
-
+        
+		combat_width = 2
+		max_organisation = 70
+		max_strength = 30
+		default_morale = 0.35
+		maximum_speed = 0.5
+		weight = 0.5
+		suppression = 2
+		supply_consumption = 0.14
+        
+        manpower = 20
+		training_time = 120
+        
 		forest = {
-			attack = -0.15
-			movement= -0.1
+			attack = -0.05
 		}
 
 		hills = {
-			attack = -0.1
+			attack = -0.05
 		}
 
 		mountain = {
-			attack = -0.4
-			movement = -0.25
+			attack = -0.1
+			movement = -0.05
 		}
 
 		jungle = {
-			attack = -0.4
-			movement = -0.3
+			attack = -0.1
 		}
 
 		urban = {
-			attack = -0.1
+			attack = -0.05
 		}
 
 		amphibious = {
@@ -388,6 +346,7 @@ sub_units = {
 		}
 	}
     
+    # Light Tank: excellent breakthrough and soft attack
     light_tank = {
 		sprite = light_armor
 		map_icon_category = armored
@@ -407,13 +366,21 @@ sub_units = {
 			category_army
 		}
 
-		combat_width = 2
-        manpower = 50
-        training_time = 360
-
         need = {
-			light_tank_equipment = 25
+			light_tank_equipment = 10
 		}
+        
+		combat_width = 2
+        
+		max_organisation = 10
+		default_morale = 0.3
+		suppression = 2.5	
+		max_strength = 2
+		weight = 1
+		supply_consumption = 0.2
+        
+        manpower = 50
+        training_time = 180
         
 		forest = {
 		    attack = -0.2
@@ -443,6 +410,7 @@ sub_units = {
 		}	
 	}
     
+    # Heavy Tank: excellent breakthrough and hard attack
     heavy_tank = {
 		sprite = heavy_armor
 		map_icon_category = armored
@@ -462,13 +430,20 @@ sub_units = {
 			category_army
 		}
 
-		combat_width = 2
-        manpower = 50
-        training_time = 360
-        
-		need = {
-			heavy_tank_equipment = 25
+        need = {
+			heavy_tank_equipment = 10
 		}
+        
+		
+		max_organisation = 10
+		max_strength = 2
+        suppression = 2.5	
+		default_morale = 0.3
+		weight = 1.25
+		supply_consumption = 0.22
+        
+		manpower = 50
+        training_time = 180
         
 		forest = {
 		    attack = -0.40
@@ -501,6 +476,218 @@ sub_units = {
 		}
 		fort = {
 			attack = 0.1
+		}
+	}
+    
+    # Marine: specialized for naval invasion
+    marine = {
+		sprite = infantry
+		map_icon_category = infantry
+		special_forces = yes
+		marines = yes
+		
+		priority = 601
+		ai_priority = 200
+		active = no
+
+		type = {
+			infantry
+		}
+		
+		group = infantry
+		
+		categories = {
+			category_front_line
+			category_infantry
+			category_army
+			category_special_forces
+		}
+		
+		combat_width = 2
+		max_strength = 20
+		max_organisation = 70
+		default_morale = 0.4
+        
+		manpower = 20
+		training_time = 120
+        
+		suppression = 1
+		weight = 0.5
+		supply_consumption = 0.06
+		breakthrough = 0.3
+	
+		need = {
+			champion_equipment = 15
+		}
+
+		marsh = {
+			attack = 0.3
+		}
+		river = {
+			attack = 0.3
+		}
+		amphibious = {
+			attack = 0.5
+		}
+	}
+    
+    # Mountaineers: specialized for mountain attacks
+    mountaineers = {
+		sprite = infantry
+		map_icon_category = infantry
+		special_forces = yes
+		mountaineers = yes
+
+		priority = 601
+		ai_priority = 200
+		active = no
+
+		type = {
+			infantry
+		}
+		
+		group = infantry
+		
+		categories = {
+			category_front_line
+			category_infantry
+			category_army
+			category_special_forces
+		}
+		
+		combat_width = 2
+		max_strength = 20
+		max_organisation = 70
+		default_morale = 0.4
+        
+		manpower = 20
+		training_time = 120
+        
+		suppression = 1
+		weight = 0.5
+		supply_consumption = 0.07
+		breakthrough = 0.3
+	
+		need = {
+			champion_equipment = 15
+		}
+
+		hills = {
+			attack = 0.2
+			defence = 0.05
+			movement = 0.1
+		}
+		mountain = {
+			attack = 0.35
+			defence = 0.1
+			movement = 0.2
+		}
+	}
+    
+    # Paratrooper: can be dropped in
+    paratrooper = {
+		sprite = infantry
+		map_icon_category = infantry
+		special_forces = yes
+
+		priority = 2
+		ai_priority = 2
+		active = no
+
+		type = {
+			infantry
+		}
+		
+		group = infantry
+		
+		categories = {
+			category_front_line
+			category_infantry
+			category_army
+			category_special_forces
+		}
+		
+		combat_width = 2
+		max_strength = 22
+		max_organisation = 70
+		default_morale = 0.4
+        
+		manpower = 20
+		training_time = 150
+        
+		suppression = 1
+		weight = 0.5
+		supply_consumption = 0.06
+
+		can_be_parachuted = yes
+	
+		need = {
+			champion_equipment = 15
+		}
+	}
+    
+    motorized_infantry = {
+		sprite = motorized
+		map_icon_category = infantry
+
+		priority = 599
+		ai_priority = 200
+		active = no
+
+		type = {
+			motorized
+		}
+		
+		group = mobile
+		
+		categories = {
+			category_front_line
+			category_infantry
+			category_army
+		}
+		
+		combat_width = 2
+		max_strength = 25
+		max_organisation = 60
+		default_morale = 0.30
+		suppression = 2.2
+		weight = 0.75
+		supply_consumption = 0.11
+
+		manpower = 1200
+		training_time = 90
+	
+		transport = motorized_infantry_equipment
+	
+		need = {
+			grunt_equipment = 10
+			motorized_infantry_equipment = 10
+		}
+
+		forest = {
+			attack = -0.1
+			movement = -0.5
+		}
+		mountain = {
+			attack = -0.05
+		}
+		jungle = {
+			attack = -0.2
+			movement = -0.5
+		}
+		marsh = {
+			attack = -0.1
+			movement = -0.3
+		}
+		urban = {
+			attack = -0.1
+		}
+		river = {
+			attack = -0.1
+			movement = -0.1
+		}
+		amphibious = {
+			attack = -0.2
 		}
 	}
     

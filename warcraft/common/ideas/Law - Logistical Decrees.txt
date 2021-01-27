@@ -1,5 +1,7 @@
 ideas = {
     logistical_decree = {
+        use_list_view = yes
+        
         # Bolster Supply Lines
         logistical_decree_bolster_supply_lines = {
             allowed = {

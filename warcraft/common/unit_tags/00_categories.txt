@@ -9,5 +9,6 @@ sub_unit_categories = {
     category_front_line         # INF - Artillery and Support
     category_air
     category_navy
+    category_special_forces
 }
 

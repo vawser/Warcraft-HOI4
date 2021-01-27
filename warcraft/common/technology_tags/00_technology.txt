@@ -9,7 +9,9 @@ technology_categories = {
     archer_tech
     spellcaster_tech
     war_engine_tech
-
+    motorized_infantry_tech
+    special_forces_tech
+    
     # Cavalry
     cavalry_tech
     light_cavalry_tech
@@ -46,6 +48,8 @@ technology_categories = {
     battleship_tech
     submarine_tech
     destroyer_tech
+    carrier_tech
+    naval_logistics_tech
     convoy_tech
     
     # Industry
@@ -101,6 +105,12 @@ technology_folders = {
     army_heavy_tank_folder = {
         ledger = army
     }
+    army_motorized_infantry_folder = {
+        ledger = army
+    }
+    army_special_forces_folder = {
+        ledger = army
+    }
     army_vanquisher_doctrine_folder = {
         ledger = army
         doctrine = yes
@@ -137,6 +147,15 @@ technology_folders = {
 		}
         ledger = navy
     }
+    navy_carrier_folder = {
+        available = {
+			not = { has_dlc = "Man the Guns" }
+		}
+        ledger = navy
+    }
+    navy_naval_logistics_folder = {
+        ledger = navy
+    }
     navy_barrage_doctrine_folder = {
         ledger = navy
         doctrine = yes
@@ -171,7 +190,12 @@ technology_folders = {
 		}
         ledger = navy
     }
-    
+    mtg_navy_carrier_folder = {
+        available = {
+			has_dlc = "Man the Guns"
+		}
+        ledger = navy
+    }
     
     #------------------------
     # Air

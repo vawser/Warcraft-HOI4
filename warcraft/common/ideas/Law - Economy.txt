@@ -1,7 +1,8 @@
 ideas = {
     economy_laws = { 
         law = yes
-
+        use_list_view = yes
+        
         economy_civilian = {
             available = { 
                 always = yes

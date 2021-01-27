@@ -27,8 +27,8 @@ equipments = {
         air_range = 1000
         
 		resources = {
-            flying_beast = 5
-			food = 5
+            flying_beast = 1
+			food = 1
 		}
 	}
 

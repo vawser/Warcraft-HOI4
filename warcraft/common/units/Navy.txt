@@ -3,12 +3,43 @@
 # cruiser
 # destroyer
 sub_units = {
+    carrier = {
+		sprite = carrier
+		map_icon_category = ship
+		priority = 10
+		active = yes
+		type = { 
+			carrier 
+		}
+		need = { hull_carrier_equipment = 1 }
+		
+		supply_consumption = 0.3
+		max_organisation = 40
+		
+		critical_parts = { 
+            destroyed_ammo_storage 
+            broken_propeller 
+            on_fire 
+        }
+		critical_part_damage_chance_mult = 1
+		
+		hit_profile_mult = 1.0
+	}
+    
     battleship = {
 		sprite = battleship
 		map_icon_category = ship
 		priority = 9
 		type = { capital_ship }
-		need = { hull_battleship_equipment = 1 }
+		need_equipment = { hull_battleship_equipment = 1 }
+		need_equipment_modules = {
+			any = {
+				ship_armor_bb_1 = 1
+				ship_armor_bb_2 = 1
+				ship_armor_bb_3 = 1
+				ship_armor_shbb = 1
+			}
+		}
 		
         max_organisation = 40
         supply_consumption = 0.2

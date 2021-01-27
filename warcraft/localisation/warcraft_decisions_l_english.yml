@@ -13,6 +13,7 @@
  war_actions: "War"
  character_actions: "Character"
  espionage_actions: "Espionage"
+ economic_actions: "Economic"
  
  # Religion
  the_holy_light_actions: "The Holy Light"
@@ -49,16 +50,18 @@
  religion_conversion_actions: "Religious Conversion"
  
  #-----------------------------------
- # Decisions
+ # Government
  #-----------------------------------
- # General - Nation
  support_peasantry: "Support the Peasantry"
  support_peasantry_desc: "Our peasantry are suffering, let us divert our resources towards securing their happiness and reducing their plight."
  promise_peace: "Promise Peace"
  promise_peace_desc: "Our people wish only for peace, let us promise them such."
  promise_war: "Promise War"
  promise_war_desc: "Our people wish only for war, let us promise them such."
-
+ 
+ promote_war_against_warmonger: "War Propaganda Against [From.GetName]"
+ promote_war_against_warmonger_desc: "The nation calls for every man, woman and child. A war like that of [From.GetName] could happen here as well."
+ 
  embrace_the_light: "Embrace the Light"
  embrace_the_light_desc: "The [Root.GetRacePluralLowercase] of [From.GetName] scream out in adoration of the Light. Let us adopt this belief in the Light within our ruling classes."
  embrace_the_shadow: "Embrace the Shadow"
@@ -72,15 +75,23 @@
  embrace_the_death: "Embrace Death"
  embrace_the_death_desc: "The [Root.GetRacePluralLowercase] of [From.GetName] scream out in adoration of death. Let us adopt this belief in Death within our ruling classes."
  
- # General - Discovery
- claim_wasteland: "Claim Wasteland"
- claim_wasteland_desc: "There are neighbouring wastelands owned by a conquered people. Let us claim these lands as our own."
- 
- # General - War
+ #-----------------------------------
+ # War
+ #-----------------------------------
  mount_last_stand: "Mount Last Stand"
  mount_last_stand_desc: "We must fight until the last man, lest we fall to these beasts!"
  
- # General - Seasonal
+ quick_factory_conversion_defensive: "Emergency Factory Conversion"
+ quick_factory_conversion_defensive_desc: "More equipment is desperately needed on the front. We urgently need to convert more factories to produce arms and vehicles to defend our country."
+ quick_factory_conversion_offensive:0 "Emergency Factory Conversion"
+ quick_factory_conversion_offensive_desc: "The our troops urgently need more equipment. More factories are needed to produce the equipment required to win the war."
+ 
+ divert_goods: "Divert Goods"
+ divert_goods_desc: "We need more resources for our war economy, diverting materials destined for consumer goods is just the way to obtain these."
+ 
+ #-----------------------------------
+ # Seasonal
+ #-----------------------------------
  attend_the_lunar_festival: "Attend the Lunar Festival"
  attend_the_lunar_festival_desc: "Every year, the druids of Moonglade hold a celebration of their city's great triumph over an ancient evil. During the Lunar Festival, citizens of Azeroth have the opportunity to honor their elders by celebrating their sage wisdom, sharing in magnificent feasts, and (of course) shooting fireworks!"
  
@@ -134,7 +145,9 @@
  BETWEEN_9_16_SEP: "Is between the §H9th§! and §H16th§! of §HSeptember§!."
  BETWEEN_21_28_NOV: "Is between the §H21st§! and §H28th§! of §HNovember§!."
  
+ #-----------------------------------
  # The Holy Light
+ #-----------------------------------
  seek_stability: "Seek Stability through Worship"
  seek_stability_desc: "Let us pray for the Light to grant us a stable and prosperous future."
  defend_the_light: "Defend the Light"
@@ -146,31 +159,39 @@
  build_a_temple_of_light: "Build a Temple of Light"
  build_a_temple_of_light_desc: "Our people desire a place of worship. Let us build them one and in turn benefit from their devotion."
  
+ #-----------------------------------
  # Arcane
+ #-----------------------------------
  bask_in_the_presence_of_the_sunwell: "Bask in the Presence of the Sunwell"
  bask_in_the_presence_of_the_sunwell_desc: "All elves are touched by the power of the Sunwell, and its mere presence unifies our people."
  embrace_the_power_of_the_sunwell: "Embrace the Power of the Sunwell"
  embrace_the_power_of_the_sunwell_desc: "The [Root.GetRacePluralLowercase] of [Root.GetNameDef] are suffering. Let us embrace the power of the Sunwell within our arcane magic and crush our enemies, lest they crush our people."
  
+ #-----------------------------------
  # Elune
+ #-----------------------------------
  convert_to_druidism: "Convert to Druidism"
  convert_to_druidism_desc: "Our religious institutions entwine elements of many fundamental forces, such as the Moon, Nature and the Elements themselves."
  
+ #-----------------------------------
  # Druidism
+ #-----------------------------------
  convert_to_elune: "Convert to Elune"
  convert_to_elune_desc: "Our religious institutions entwine elements of many fundamental forces, such as the Moon, Nature and the Elements themselves."
  convert_to_shamanism: "Convert to Shamanism"
  convert_to_shamanism_desc: "Our religious institutions entwine elements of many fundamental forces, such as the Moon, Nature and the Elements themselves."
  
+ #-----------------------------------
  # Shamanism
+ #-----------------------------------
  convert_to_druidism_shamanism: "Convert to Druidism"
  convert_to_druidism_shamanism_desc: "Our religious institutions entwine elements of many fundamental forces, such as the Moon, Nature and the Elements themselves."
  convert_to_elune_shamanism: "Convert to Elune"
  convert_to_elune_shamanism_desc: "Our religious institutions entwine elements of many fundamental forces, such as the Moon, Nature and the Elements themselves."
 
- # Fel
-
+ #-----------------------------------
  # Orcish Horde
+ #-----------------------------------
  attack_neighbors: "Attack [From.GetName]"
  attack_neighbors_desc: "We must push into the southern lands of Azeroth and claim them from the humans and other creatures!"
  
@@ -190,7 +211,9 @@
  form_burning_blade_coven: "Form Burning Blade Coven"
  form_burning_blade_coven_desc: "The Burning Blade clan are infamous for their demonic practices, and they revel in demonic lairs, so let us construct them one."
  
+ #-----------------------------------
  # Engineering
+ #-----------------------------------
  engineering_exchange_gnome: "Send Engineers to [From.GetName]"
  engineering_exchange_gnome_desc: "Let us send our engineers to [From.GetName], our gnomish friends. Hopefully this will reveal to us the intricacies of their gnomish constructs."
  
@@ -201,7 +224,9 @@
  ARMY_EXPERIENCE_100_blocked: "§R100§! £army_experience"
  ARMY_EXPERIENCE_100_tooltip: "It costs 100 £army_experience to select this."
  
+ #-----------------------------------
  # Religion
+ #-----------------------------------
  switch_to_the_holy_light: "Embrace the Light"
  switch_to_the_holy_light_desc: "Our people are fervent followers of the Light and many of our military command have followed suit. It would be best to officially embrace the Light and reap the rewards of our divinity."
  
@@ -280,3 +305,14 @@
  switch_to_runic: "Embrace Runic"
  switch_to_runic_desc: "Our people are fervent followers of Runic and many of our military command have followed suit. It would be best to officially embrace Runic and reap the rewards of our divinity."
 
+ #-----------------------------------
+ # Economic
+ #-----------------------------------
+ add_infrastructure_building_slot: "Infrastructure Integration"
+ add_infrastructure_building_slot_flag: "Has not already received an extra building slot from infrastructure."
+ 
+ add_war_building_slot: "Land Appropriation"
+ add_war_building_slot_flag: "Has not already received an extra building slot from land appropriation."
+ 
+ attract_labourers: "Attract Labourers"
+ attract_labourers_desc: "Our ability to construct new factories in hampered by a lack of skilled individuals. Let us attract suitable workers in exchange for additional wages."

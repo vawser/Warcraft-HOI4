@@ -1,5 +1,7 @@
 ideas = {
     aviation_decree = {
+        use_list_view = yes
+        
         # Weather Adaptation
         aviation_decree_weather_adaptation = {
             allowed = {

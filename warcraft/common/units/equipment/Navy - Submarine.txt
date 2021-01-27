@@ -65,9 +65,11 @@ equipments = {
 		max_strength = 10
         
 		fuel_consumption = 1
-		build_cost_ic = 220
+        manpower = 20
+		build_cost_ic = 200
         
 		resources = {
+            oil = 2
 			steel = 2
 		}
         
@@ -116,9 +118,10 @@ equipments = {
 		reliability = 0.70
 		max_strength = 20
 		
-		build_cost_ic = 250
+		fuel_consumption = 1.1
         
 		resources = {
+            oil = 3
 			steel = 3
 		}
         
@@ -165,9 +168,10 @@ equipments = {
 		naval_range = 5000
 		max_strength = 30
 
-		build_cost_ic = 320
+		fuel_consumption = 1.2
         
 		resources = {
+            oil = 4
 			steel = 4
 		}
         
@@ -204,19 +208,112 @@ equipments = {
 			rear_1_custom_slot = empty
 		}
           
-		resources = {
-			steel = 5
-		}
-        
         sub_visibility = 12
 		naval_speed = 16
 		reliability = 0.80
 		naval_range = 6000
 		max_strength = 35
 
-		build_cost_ic = 450
+		fuel_consumption = 1.3
+        
+		resources = {
+            oil = 5
+			steel = 5
+		}
         
         year = 598
+	}
+    hull_submarine_equipment_4 = {
+		archetype = hull_submarine_equipment
+        parent = hull_submarine_equipment_3
+		priority = 50
+
+        module_slots = {
+			fixed_ship_torpedo_slot = inherit 
+			fixed_ship_engine_slot = inherit
+			front_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_torpedo_sub
+					ship_mine_layer_sub
+				}
+			}
+			mid_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_radar
+					ship_sub_snorkel
+				}
+			}
+			rear_1_custom_slot = front_1_custom_slot
+		}
+
+		default_modules = {
+			front_1_custom_slot = empty
+			mid_1_custom_slot = empty
+			rear_1_custom_slot = empty
+		}
+          
+        sub_visibility = 10
+		naval_speed = 18
+		reliability = 0.80
+		naval_range = 6500
+		max_strength = 40
+
+		fuel_consumption = 1.5
+        
+		resources = {
+            oil = 6
+			steel = 6
+		}
+        
+        year = 600
+	}
+    hull_submarine_equipment_5 = {
+		archetype = hull_submarine_equipment
+        parent = hull_submarine_equipment_4
+		priority = 60
+
+        module_slots = {
+			fixed_ship_torpedo_slot = inherit 
+			fixed_ship_engine_slot = inherit
+			front_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_torpedo_sub
+					ship_mine_layer_sub
+				}
+			}
+			mid_1_custom_slot = {
+				required = no
+				allowed_module_categories = {
+					ship_radar
+					ship_sub_snorkel
+				}
+			}
+			rear_1_custom_slot = front_1_custom_slot
+		}
+
+		default_modules = {
+			front_1_custom_slot = empty
+			mid_1_custom_slot = empty
+			rear_1_custom_slot = empty
+		}
+          
+        sub_visibility = 8
+		naval_speed = 20
+		reliability = 0.80
+		naval_range = 7000
+		max_strength = 40
+
+		fuel_consumption = 1.75
+        
+		resources = {
+            oil = 7
+			steel = 7
+		}
+        
+        year = 610
 	}
     
     #-----------------------------
@@ -261,11 +358,10 @@ equipments = {
 		naval_range = 2500
 		max_strength = 10
 
-		fuel_consumption = 1
-		manpower = 200
-		build_cost_ic = 250
-        
+		fuel_consumption = 1.1
+
 		resources = {
+            oil = 3
 			steel = 3
 		}
         
@@ -302,9 +398,10 @@ equipments = {
 		naval_range = 4000
 		max_strength = 20
 
-		build_cost_ic = 250
+		fuel_consumption = 1.2
         
 		resources = {
+            oil = 4
 			steel = 4
 		}
         
@@ -337,9 +434,86 @@ equipments = {
 		naval_range = 5000
 		max_strength = 30
         
-		build_cost_ic = 350
+		fuel_consumption = 1.3
+        
+        resources = {
+            oil = 5
+			steel = 5
+		}
         
         year = 598
+	}
+    submarine_equipment_4 = {
+		archetype = hull_submarine_equipment
+        parent = submarine_equipment_3
+		priority = 50
+
+        module_slots = inherit
+		
+		default_modules = {
+			fixed_ship_torpedo_slot = ship_torpedo_sub_2
+			fixed_ship_engine_slot = sub_ship_engine_1
+			rear_1_custom_slot = ship_torpedo_sub_1
+		}
+        
+		lg_armor_piercing = 0
+		lg_attack = 0
+		torpedo_attack = 15
+		anti_air_attack = 0
+		armor_value = 0
+		surface_detection = 50
+		sub_detection = 0
+		surface_visibility = 1
+		sub_visibility = 12
+		naval_speed = 18
+		reliability = 0.75
+		naval_range = 5500
+		max_strength = 35
+        
+		fuel_consumption = 1.5
+        
+        resources = {
+            oil = 6
+			steel = 6
+		}
+        
+        year = 600
+	}
+    submarine_equipment_5 = {
+		archetype = hull_submarine_equipment
+        parent = submarine_equipment_4
+		priority = 60
+
+        module_slots = inherit
+		
+		default_modules = {
+			fixed_ship_torpedo_slot = ship_torpedo_sub_2
+			fixed_ship_engine_slot = sub_ship_engine_1
+			rear_1_custom_slot = ship_torpedo_sub_1
+		}
+        
+		lg_armor_piercing = 0
+		lg_attack = 0
+		torpedo_attack = 18
+		anti_air_attack = 0
+		armor_value = 0
+		surface_detection = 50
+		sub_detection = 0
+		surface_visibility = 1
+		sub_visibility = 10
+		naval_speed = 20
+		reliability = 0.75
+		naval_range = 6000
+		max_strength = 40
+        
+		fuel_consumption = 1.75
+        
+        resources = {
+            oil = 7
+			steel = 7
+		}
+        
+        year = 610
 	}
 }
 

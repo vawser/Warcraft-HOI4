@@ -9,9 +9,157 @@ technologies = {
         
         research_cost = 3
 
+        path = {
+			leads_to_tech = war_engine_support_tech_2
+			research_cost_coeff = 1
+		}
+        
         folder = {
 			name = army_support_folder
 			position = { x = 1 y = 0 }
+		}
+        
+        categories = {
+			support_tech
+            war_engine_support_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+            
+            modifier = {
+                factor = 0.01
+                
+                NOT = { has_template_containing_unit = war_engine_support }
+            }
+            modifier = {
+                factor = 0 
+                
+                ai_ignore_support = yes
+            }
+		}
+    }
+    war_engine_support_tech_2 = {
+        war_engine_support = {
+            soft_attack = 0.2
+        }
+        
+        research_cost = 12
+
+        path = {
+			leads_to_tech = war_engine_support_tech_3
+			research_cost_coeff = 1
+		}
+        
+        folder = {
+			name = army_support_folder
+			position = { x = 1 y = 1 }
+		}
+        
+        categories = {
+			support_tech
+            war_engine_support_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+            
+            modifier = {
+                factor = 0.01
+                
+                NOT = { has_template_containing_unit = war_engine_support }
+            }
+            modifier = {
+                factor = 0 
+                
+                ai_ignore_support = yes
+            }
+		}
+    }
+    war_engine_support_tech_3 = {
+        war_engine_support = {
+            soft_attack = 0.2
+        }
+        
+        research_cost = 12
+
+        path = {
+			leads_to_tech = war_engine_support_tech_4
+			research_cost_coeff = 1
+		}
+        
+        folder = {
+			name = army_support_folder
+			position = { x = 1 y = 2 }
+		}
+        
+        categories = {
+			support_tech
+            war_engine_support_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+            
+            modifier = {
+                factor = 0.01
+                
+                NOT = { has_template_containing_unit = war_engine_support }
+            }
+            modifier = {
+                factor = 0 
+                
+                ai_ignore_support = yes
+            }
+		}
+    }
+    war_engine_support_tech_4 = {
+        war_engine_support = {
+            soft_attack = 0.2
+        }
+        
+        research_cost = 12
+
+        path = {
+			leads_to_tech = war_engine_support_tech_5
+			research_cost_coeff = 1
+		}
+        
+        folder = {
+			name = army_support_folder
+			position = { x = 1 y = 3 }
+		}
+        
+        categories = {
+			support_tech
+            war_engine_support_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+            
+            modifier = {
+                factor = 0.01
+                
+                NOT = { has_template_containing_unit = war_engine_support }
+            }
+            modifier = {
+                factor = 0 
+                
+                ai_ignore_support = yes
+            }
+		}
+    }
+    war_engine_support_tech_5 = {
+        war_engine_support = {
+            soft_attack = 0.2
+        }
+        
+        research_cost = 12
+        
+        folder = {
+			name = army_support_folder
+			position = { x = 1 y = 4 }
 		}
         
         categories = {
@@ -45,9 +193,157 @@ technologies = {
         
         research_cost = 3
 
+        path = {
+			leads_to_tech = archer_support_tech_2
+			research_cost_coeff = 1
+		}
+        
         folder = {
 			name = army_support_folder
 			position = { x = 2 y = 0 }
+		}
+        
+        categories = {
+			support_tech
+            archer_support_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+            
+            modifier = {
+                factor = 0.01
+                
+                NOT = { has_template_containing_unit = archer_support }
+            }
+            modifier = {
+                factor = 0 
+                
+                ai_ignore_support = yes
+            }
+		}
+    }
+    archer_support_tech_2 = {
+        archer_support = {
+            defense = 0.2
+        }
+        
+        research_cost = 12
+
+        path = {
+			leads_to_tech = archer_support_tech_3
+			research_cost_coeff = 1
+		}
+        
+        folder = {
+			name = army_support_folder
+			position = { x = 2 y = 1 }
+		}
+        
+        categories = {
+			support_tech
+            archer_support_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+            
+            modifier = {
+                factor = 0.01
+                
+                NOT = { has_template_containing_unit = archer_support }
+            }
+            modifier = {
+                factor = 0 
+                
+                ai_ignore_support = yes
+            }
+		}
+    }
+    archer_support_tech_3 = {
+        archer_support = {
+            defense = 0.2
+        }
+        
+        research_cost = 12
+
+        path = {
+			leads_to_tech = archer_support_tech_4
+			research_cost_coeff = 1
+		}
+        
+        folder = {
+			name = army_support_folder
+			position = { x = 2 y = 2 }
+		}
+        
+        categories = {
+			support_tech
+            archer_support_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+            
+            modifier = {
+                factor = 0.01
+                
+                NOT = { has_template_containing_unit = archer_support }
+            }
+            modifier = {
+                factor = 0 
+                
+                ai_ignore_support = yes
+            }
+		}
+    }
+    archer_support_tech_4 = {
+        archer_support = {
+            defense = 0.2
+        }
+        
+        research_cost = 12
+
+        path = {
+			leads_to_tech = archer_support_tech_5
+			research_cost_coeff = 1
+		}
+        
+        folder = {
+			name = army_support_folder
+			position = { x = 2 y = 3 }
+		}
+        
+        categories = {
+			support_tech
+            archer_support_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+            
+            modifier = {
+                factor = 0.01
+                
+                NOT = { has_template_containing_unit = archer_support }
+            }
+            modifier = {
+                factor = 0 
+                
+                ai_ignore_support = yes
+            }
+		}
+    }
+    archer_support_tech_5 = {
+        archer_support = {
+            defense = 0.2
+        }
+        
+        research_cost = 12
+        
+        folder = {
+			name = army_support_folder
+			position = { x = 2 y = 4 }
 		}
         
         categories = {
@@ -81,9 +377,157 @@ technologies = {
         
         research_cost = 3
 
+        path = {
+			leads_to_tech = spellcaster_support_tech_2
+			research_cost_coeff = 1
+		}
+        
         folder = {
 			name = army_support_folder
 			position = { x = 3 y = 0 }
+		}
+        
+        categories = {
+			support_tech
+            spellcaster_support_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+            
+            modifier = {
+                factor = 0.01
+                
+                NOT = { has_template_containing_unit = spellcaster_support }
+            }
+            modifier = {
+                factor = 0 
+                
+                ai_ignore_support = yes
+            }
+		}
+    }
+    spellcaster_support_tech_2 = {
+        spellcaster_support = {
+            ap_attack = 0.2
+        }
+        
+        research_cost = 12
+
+        path = {
+			leads_to_tech = spellcaster_support_tech_3
+			research_cost_coeff = 1
+		}
+        
+        folder = {
+			name = army_support_folder
+			position = { x = 3 y = 1 }
+		}
+        
+        categories = {
+			support_tech
+            spellcaster_support_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+            
+            modifier = {
+                factor = 0.01
+                
+                NOT = { has_template_containing_unit = spellcaster_support }
+            }
+            modifier = {
+                factor = 0 
+                
+                ai_ignore_support = yes
+            }
+		}
+    }
+    spellcaster_support_tech_3 = {
+        spellcaster_support = {
+            ap_attack = 0.2
+        }
+        
+        research_cost = 12
+
+        path = {
+			leads_to_tech = spellcaster_support_tech_4
+			research_cost_coeff = 1
+		}
+        
+        folder = {
+			name = army_support_folder
+			position = { x = 3 y = 2 }
+		}
+        
+        categories = {
+			support_tech
+            spellcaster_support_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+            
+            modifier = {
+                factor = 0.01
+                
+                NOT = { has_template_containing_unit = spellcaster_support }
+            }
+            modifier = {
+                factor = 0 
+                
+                ai_ignore_support = yes
+            }
+		}
+    }
+    spellcaster_support_tech_4 = {
+        spellcaster_support = {
+            ap_attack = 0.2
+        }
+        
+        research_cost = 12
+
+        path = {
+			leads_to_tech = spellcaster_support_tech_5
+			research_cost_coeff = 1
+		}
+        
+        folder = {
+			name = army_support_folder
+			position = { x = 3 y = 3 }
+		}
+        
+        categories = {
+			support_tech
+            spellcaster_support_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+            
+            modifier = {
+                factor = 0.01
+                
+                NOT = { has_template_containing_unit = spellcaster_support }
+            }
+            modifier = {
+                factor = 0 
+                
+                ai_ignore_support = yes
+            }
+		}
+    }
+    spellcaster_support_tech_5 = {
+        spellcaster_support = {
+            ap_attack = 0.2
+        }
+        
+        research_cost = 12
+        
+        folder = {
+			name = army_support_folder
+			position = { x = 3 y = 4 }
 		}
         
         categories = {
@@ -117,9 +561,157 @@ technologies = {
         
         research_cost = 3
 
+        path = {
+			leads_to_tech = logistics_support_tech_2
+			research_cost_coeff = 1
+		}
+        
         folder = {
 			name = army_support_folder
 			position = { x = 4 y = 0 }
+		}
+        
+        categories = {
+			support_tech
+            logistics_support_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+            
+            modifier = {
+                factor = 0.01
+                
+                NOT = { has_template_containing_unit = logistics_support }
+            }
+            modifier = {
+                factor = 0 
+                
+                ai_ignore_support = yes
+            }
+		}
+    }
+    logistics_support_tech_2 = {
+        logistics_support = {
+            supply_consumption = -0.02
+        }
+        
+        research_cost = 12
+
+        path = {
+			leads_to_tech = logistics_support_tech_3
+			research_cost_coeff = 1
+		}
+        
+        folder = {
+			name = army_support_folder
+			position = { x = 4 y = 1 }
+		}
+        
+        categories = {
+			support_tech
+            logistics_support_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+            
+            modifier = {
+                factor = 0.01
+                
+                NOT = { has_template_containing_unit = logistics_support }
+            }
+            modifier = {
+                factor = 0 
+                
+                ai_ignore_support = yes
+            }
+		}
+    }
+    logistics_support_tech_3 = {
+        logistics_support = {
+            supply_consumption = -0.02
+        }
+        
+        research_cost = 12
+
+        path = {
+			leads_to_tech = logistics_support_tech_4
+			research_cost_coeff = 1
+		}
+        
+        folder = {
+			name = army_support_folder
+			position = { x = 4 y = 2 }
+		}
+        
+        categories = {
+			support_tech
+            logistics_support_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+            
+            modifier = {
+                factor = 0.01
+                
+                NOT = { has_template_containing_unit = logistics_support }
+            }
+            modifier = {
+                factor = 0 
+                
+                ai_ignore_support = yes
+            }
+		}
+    }
+    logistics_support_tech_4 = {
+        logistics_support = {
+            supply_consumption = -0.02
+        }
+        
+        research_cost = 12
+
+        path = {
+			leads_to_tech = logistics_support_tech_5
+			research_cost_coeff = 1
+		}
+        
+        folder = {
+			name = army_support_folder
+			position = { x = 4 y = 3 }
+		}
+        
+        categories = {
+			support_tech
+            logistics_support_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+            
+            modifier = {
+                factor = 0.01
+                
+                NOT = { has_template_containing_unit = logistics_support }
+            }
+            modifier = {
+                factor = 0 
+                
+                ai_ignore_support = yes
+            }
+		}
+    }
+    logistics_support_tech_5 = {
+        logistics_support = {
+            supply_consumption = -0.02
+        }
+        
+        research_cost = 12
+        
+        folder = {
+			name = army_support_folder
+			position = { x = 4 y = 4 }
 		}
         
         categories = {
@@ -153,9 +745,157 @@ technologies = {
         
         research_cost = 3
 
+        path = {
+			leads_to_tech = guard_support_tech_2
+			research_cost_coeff = 1
+		}
+        
         folder = {
 			name = army_support_folder
 			position = { x = 5 y = 0 }
+		}
+        
+        categories = {
+			support_tech
+            guard_support_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+            
+            modifier = {
+                factor = 0.01
+                
+                NOT = { has_template_containing_unit = guard_support }
+            }
+            modifier = {
+                factor = 0 
+                
+                ai_ignore_support = yes
+            }
+		}
+    }
+    guard_support_tech_2 = {
+        guard_support = {
+            suppression_factor = 0.2
+        }
+        
+        research_cost = 12
+
+        path = {
+			leads_to_tech = guard_support_tech_3
+			research_cost_coeff = 1
+		}
+        
+        folder = {
+			name = army_support_folder
+			position = { x = 5 y = 1 }
+		}
+        
+        categories = {
+			support_tech
+            guard_support_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+            
+            modifier = {
+                factor = 0.01
+                
+                NOT = { has_template_containing_unit = guard_support }
+            }
+            modifier = {
+                factor = 0 
+                
+                ai_ignore_support = yes
+            }
+		}
+    }
+    guard_support_tech_3 = {
+        guard_support = {
+            suppression_factor = 0.2
+        }
+        
+        research_cost = 12
+
+        path = {
+			leads_to_tech = guard_support_tech_4
+			research_cost_coeff = 1
+		}
+        
+        folder = {
+			name = army_support_folder
+			position = { x = 5 y = 2 }
+		}
+        
+        categories = {
+			support_tech
+            guard_support_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+            
+            modifier = {
+                factor = 0.01
+                
+                NOT = { has_template_containing_unit = guard_support }
+            }
+            modifier = {
+                factor = 0 
+                
+                ai_ignore_support = yes
+            }
+		}
+    }
+    guard_support_tech_4 = {
+        guard_support = {
+            suppression_factor = 0.2
+        }
+        
+        research_cost = 12
+
+        path = {
+			leads_to_tech = guard_support_tech_5
+			research_cost_coeff = 1
+		}
+        
+        folder = {
+			name = army_support_folder
+			position = { x = 5 y = 3 }
+		}
+        
+        categories = {
+			support_tech
+            guard_support_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+            
+            modifier = {
+                factor = 0.01
+                
+                NOT = { has_template_containing_unit = guard_support }
+            }
+            modifier = {
+                factor = 0 
+                
+                ai_ignore_support = yes
+            }
+		}
+    }
+    guard_support_tech_5 = {
+        guard_support = {
+            suppression_factor = 0.2
+        }
+        
+        research_cost = 12
+        
+        folder = {
+			name = army_support_folder
+			position = { x = 5 y = 4 }
 		}
         
         categories = {
@@ -189,11 +929,158 @@ technologies = {
         
         research_cost = 3
 
+        path = {
+			leads_to_tech = engineer_support_tech_2
+			research_cost_coeff = 1
+		}
+        
         folder = {
 			name = army_support_folder
 			position = { x = 6 y = 0 }
 		}
         
+        categories = {
+			support_tech
+            engineer_support_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+            
+            modifier = {
+                factor = 0.01
+                
+                NOT = { has_template_containing_unit = engineer_support }
+            }
+            modifier = {
+                factor = 0 
+                
+                ai_ignore_support = yes
+            }
+		}
+    }
+    engineer_support_tech_2 = {
+        engineer_support = {
+            entrenchment = 1
+        }
+        
+        research_cost = 12
+
+        path = {
+			leads_to_tech = engineer_support_tech_3
+			research_cost_coeff = 1
+		}
+        
+        folder = {
+			name = army_support_folder
+			position = { x = 6 y = 1 }
+		}
+        
+        categories = {
+			support_tech
+            engineer_support_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+            
+            modifier = {
+                factor = 0.01
+                
+                NOT = { has_template_containing_unit = engineer_support }
+            }
+            modifier = {
+                factor = 0 
+                
+                ai_ignore_support = yes
+            }
+		}
+    }
+    engineer_support_tech_3 = {
+        engineer_support = {
+            entrenchment = 1
+        }
+        
+        research_cost = 12
+
+        path = {
+			leads_to_tech = engineer_support_tech_4
+			research_cost_coeff = 1
+		}
+        
+        folder = {
+			name = army_support_folder
+			position = { x = 6 y = 2 }
+		}
+        
+        categories = {
+			support_tech
+            engineer_support_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+            
+            modifier = {
+                factor = 0.01
+                
+                NOT = { has_template_containing_unit = engineer_support }
+            }
+            modifier = {
+                factor = 0 
+                
+                ai_ignore_support = yes
+            }
+		}
+    }
+    engineer_support_tech_4 = {
+        engineer_support = {
+            entrenchment = 1
+        }
+        
+        research_cost = 12
+
+        path = {
+			leads_to_tech = engineer_support_tech_5
+			research_cost_coeff = 1
+		}
+        
+        folder = {
+			name = army_support_folder
+			position = { x = 6 y = 3 }
+		}
+        
+        categories = {
+			support_tech
+            engineer_support_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+            
+            modifier = {
+                factor = 0.01
+                
+                NOT = { has_template_containing_unit = engineer_support }
+            }
+            modifier = {
+                factor = 0 
+                
+                ai_ignore_support = yes
+            }
+		}
+    }
+    engineer_support_tech_5 = {
+        engineer_support = {
+            entrenchment = 1
+        }
+        
+        research_cost = 12
+        
+        folder = {
+			name = army_support_folder
+			position = { x = 6 y = 4 }
+		}
         
         categories = {
 			support_tech
@@ -226,9 +1113,161 @@ technologies = {
         
         research_cost = 3
 
+        path = {
+			leads_to_tech = medic_support_tech_2
+			research_cost_coeff = 1
+		}
+        
         folder = {
 			name = army_support_folder
 			position = { x = 7 y = 0 }
+		}
+        
+        categories = {
+			support_tech
+            medic_support_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+            
+            modifier = {
+                factor = 0.01
+                
+                NOT = { has_template_containing_unit = medic_support }
+            }
+            modifier = {
+                factor = 0 
+                
+                ai_ignore_support = yes
+            }
+		}
+    }
+    medic_support_tech_2 = {
+        medic_support = {
+            casualty_trickleback = 0.05
+            experience_loss_factor = -0.05
+        }
+        
+        research_cost = 12
+
+        path = {
+			leads_to_tech = medic_support_tech_3
+			research_cost_coeff = 1
+		}
+        
+        folder = {
+			name = army_support_folder
+			position = { x = 7 y = 1 }
+		}
+        
+        categories = {
+			support_tech
+            medic_support_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+            
+            modifier = {
+                factor = 0.01
+                
+                NOT = { has_template_containing_unit = medic_support }
+            }
+            modifier = {
+                factor = 0 
+                
+                ai_ignore_support = yes
+            }
+		}
+    }
+    medic_support_tech_3 = {
+        medic_support = {
+            casualty_trickleback = 0.05
+            experience_loss_factor = -0.05
+        }
+        
+        research_cost = 12
+
+        path = {
+			leads_to_tech = medic_support_tech_4
+			research_cost_coeff = 1
+		}
+        
+        folder = {
+			name = army_support_folder
+			position = { x = 7 y = 2 }
+		}
+        
+        categories = {
+			support_tech
+            medic_support_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+            
+            modifier = {
+                factor = 0.01
+                
+                NOT = { has_template_containing_unit = medic_support }
+            }
+            modifier = {
+                factor = 0 
+                
+                ai_ignore_support = yes
+            }
+		}
+    }
+    medic_support_tech_4 = {
+        medic_support = {
+            casualty_trickleback = 0.05
+            experience_loss_factor = -0.05
+        }
+        
+        research_cost = 12
+
+        path = {
+			leads_to_tech = medic_support_tech_5
+			research_cost_coeff = 1
+		}
+        
+        folder = {
+			name = army_support_folder
+			position = { x = 7 y = 3 }
+		}
+        
+        categories = {
+			support_tech
+            medic_support_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+            
+            modifier = {
+                factor = 0.01
+                
+                NOT = { has_template_containing_unit = medic_support }
+            }
+            modifier = {
+                factor = 0 
+                
+                ai_ignore_support = yes
+            }
+		}
+    }
+    medic_support_tech_5 = {
+        medic_support = {
+            casualty_trickleback = 0.05
+            experience_loss_factor = -0.05
+        }
+        
+        research_cost = 12
+        
+        folder = {
+			name = army_support_folder
+			position = { x = 7 y = 4 }
 		}
         
         categories = {
@@ -262,9 +1301,157 @@ technologies = {
         
         research_cost = 3
 
+        path = {
+			leads_to_tech = scout_support_tech_2
+			research_cost_coeff = 1
+		}
+        
         folder = {
 			name = army_support_folder
 			position = { x = 8 y = 0 }
+		}
+        
+        categories = {
+			support_tech
+            scout_support_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+            
+            modifier = {
+                factor = 0.01
+                
+                NOT = { has_template_containing_unit = scout_support }
+            }
+            modifier = {
+                factor = 0 
+                
+                ai_ignore_support = yes
+            }
+		}
+    }
+    scout_support_tech_2 = {
+        scout_support = {
+            recon = 1
+        }
+        
+        research_cost = 12
+
+        path = {
+			leads_to_tech = scout_support_tech_3
+			research_cost_coeff = 1
+		}
+        
+        folder = {
+			name = army_support_folder
+			position = { x = 8 y = 1 }
+		}
+        
+        categories = {
+			support_tech
+            scout_support_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+            
+            modifier = {
+                factor = 0.01
+                
+                NOT = { has_template_containing_unit = scout_support }
+            }
+            modifier = {
+                factor = 0 
+                
+                ai_ignore_support = yes
+            }
+		}
+    }
+    scout_support_tech_3 = {
+        scout_support = {
+            recon = 1
+        }
+        
+        research_cost = 12
+
+        path = {
+			leads_to_tech = scout_support_tech_4
+			research_cost_coeff = 1
+		}
+        
+        folder = {
+			name = army_support_folder
+			position = { x = 8 y = 2 }
+		}
+        
+        categories = {
+			support_tech
+            scout_support_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+            
+            modifier = {
+                factor = 0.01
+                
+                NOT = { has_template_containing_unit = scout_support }
+            }
+            modifier = {
+                factor = 0 
+                
+                ai_ignore_support = yes
+            }
+		}
+    }
+    scout_support_tech_4 = {
+        scout_support = {
+            recon = 1
+        }
+        
+        research_cost = 12
+
+        path = {
+			leads_to_tech = scout_support_tech_5
+			research_cost_coeff = 1
+		}
+        
+        folder = {
+			name = army_support_folder
+			position = { x = 8 y = 3 }
+		}
+        
+        categories = {
+			support_tech
+            scout_support_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+            
+            modifier = {
+                factor = 0.01
+                
+                NOT = { has_template_containing_unit = scout_support }
+            }
+            modifier = {
+                factor = 0 
+                
+                ai_ignore_support = yes
+            }
+		}
+    }
+    scout_support_tech_5 = {
+        scout_support = {
+            recon = 1
+        }
+        
+        research_cost = 12
+        
+        folder = {
+			name = army_support_folder
+			position = { x = 8 y = 4 }
 		}
         
         categories = {
@@ -298,9 +1485,157 @@ technologies = {
         
         research_cost = 3
 
+        path = {
+			leads_to_tech = cavalry_support_tech_2
+			research_cost_coeff = 1
+		}
+        
         folder = {
 			name = army_support_folder
 			position = { x = 9 y = 0 }
+		}
+        
+        categories = {
+			support_tech
+            cavalry_support_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+            
+            modifier = {
+                factor = 0.01
+                
+                NOT = { has_template_containing_unit = cavalry_support }
+            }
+            modifier = {
+                factor = 0 
+                
+                ai_ignore_support = yes
+            }
+		}
+    }
+    cavalry_support_tech_2 = {
+        cavalry_support = {
+            breakthrough = 0.2
+        }
+        
+        research_cost = 12
+
+        path = {
+			leads_to_tech = cavalry_support_tech_3
+			research_cost_coeff = 1
+		}
+        
+        folder = {
+			name = army_support_folder
+			position = { x = 9 y = 1 }
+		}
+        
+        categories = {
+			support_tech
+            cavalry_support_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+            
+            modifier = {
+                factor = 0.01
+                
+                NOT = { has_template_containing_unit = cavalry_support }
+            }
+            modifier = {
+                factor = 0 
+                
+                ai_ignore_support = yes
+            }
+		}
+    }
+    cavalry_support_tech_3 = {
+        cavalry_support = {
+            breakthrough = 0.2
+        }
+        
+        research_cost = 12
+
+        path = {
+			leads_to_tech = cavalry_support_tech_4
+			research_cost_coeff = 1
+		}
+        
+        folder = {
+			name = army_support_folder
+			position = { x = 9 y = 2 }
+		}
+        
+        categories = {
+			support_tech
+            cavalry_support_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+            
+            modifier = {
+                factor = 0.01
+                
+                NOT = { has_template_containing_unit = cavalry_support }
+            }
+            modifier = {
+                factor = 0 
+                
+                ai_ignore_support = yes
+            }
+		}
+    }
+    cavalry_support_tech_4 = {
+        cavalry_support = {
+            breakthrough = 0.2
+        }
+        
+        research_cost = 12
+
+        path = {
+			leads_to_tech = cavalry_support_tech_5
+			research_cost_coeff = 1
+		}
+        
+        folder = {
+			name = army_support_folder
+			position = { x = 9 y = 3 }
+		}
+        
+        categories = {
+			support_tech
+            cavalry_support_tech
+		}
+		
+		ai_will_do = {
+			factor = 100
+            
+            modifier = {
+                factor = 0.01
+                
+                NOT = { has_template_containing_unit = cavalry_support }
+            }
+            modifier = {
+                factor = 0 
+                
+                ai_ignore_support = yes
+            }
+		}
+    }
+    cavalry_support_tech_5 = {
+        cavalry_support = {
+            breakthrough = 0.2
+        }
+        
+        research_cost = 12
+        
+        folder = {
+			name = army_support_folder
+			position = { x = 9 y = 4 }
 		}
         
         categories = {

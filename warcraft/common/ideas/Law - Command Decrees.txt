@@ -1,5 +1,7 @@
 ideas = {
-    command_decree = {
+    command_decree = {  
+        use_list_view = yes
+        
         # Grant Free Hand
         command_decree_grant_free_hand = {
             allowed = {

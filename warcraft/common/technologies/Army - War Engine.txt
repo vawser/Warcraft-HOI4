@@ -45,6 +45,9 @@ technologies = {
     
     war_engine_tech_2 = {
         # Modifier
+        war_engine = {
+            build_cost_ic = -0.1
+        }
         
         research_cost = 6
 
@@ -134,6 +137,9 @@ technologies = {
 
     war_engine_tech_3_side_1 = {
         # Modifier
+        war_engine = {
+            soft_attack = 0.1
+        }
         
         research_cost = 6
 
@@ -172,6 +178,9 @@ technologies = {
     
     war_engine_tech_3_side_2 = {
         # Modifier
+        war_engine = {
+            combat_width = -0.5
+        }
         
         research_cost = 6
 
@@ -210,6 +219,9 @@ technologies = {
     
     war_engine_tech_4 = {
         # Modifier
+        war_engine = {
+            reliability = 0.1
+        }
         
         research_cost = 6
 
@@ -291,6 +303,9 @@ technologies = {
     
     war_engine_tech_6 = {
         # Modifier
+        war_engine = {
+            default_morale = 0.25
+        }
         
         research_cost = 6
 
@@ -380,6 +395,9 @@ technologies = {
     
     war_engine_tech_7_side_1 = {
         # Modifier
+        war_engine = {
+            soft_attack = 0.1
+        }
         
         research_cost = 6
 
@@ -418,6 +436,9 @@ technologies = {
     
     war_engine_tech_7_side_2 = {
         # Modifier
+        war_engine = {
+            combat_width = -0.5
+        }
         
         research_cost = 6
 
@@ -455,6 +476,9 @@ technologies = {
     
     war_engine_tech_8 = {
         # Modifier
+        war_engine = {
+            max_organisation = 10
+        }
         
         research_cost = 6
 
@@ -536,6 +560,7 @@ technologies = {
     
     war_engine_tech_capstone = {
         # Modifier
+        army_org_factor = 0.05
         
         research_cost = 12
 

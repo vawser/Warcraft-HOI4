@@ -1,5 +1,7 @@
 ideas = {
     political_decree = {
+        use_list_view = yes
+        
         # Political Efforts
         political_decree_political_efforts = {
             allowed = {

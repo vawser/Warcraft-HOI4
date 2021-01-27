@@ -24,6 +24,10 @@
  light_tank_tech_research: "Light Tank Research"
  heavy_tank_tech: "Heavy Tank"
  heavy_tank_tech_research: "Heavy Tank Research"
+ motorized_infantry_tech: "Motorized Infantry"
+ motorized_infantry_tech_research: "Motorized Infantry"
+ special_forces_tech: "Special Forces"
+ special_forces_tech_research: "Special Forces Research"
  
  support_tech: "Support"
  support_tech_research: "Support Research"
@@ -77,8 +81,10 @@
  air_doctrine_tech_research: "Aviation Doctrine Research"
  naval_doctrine_tech: "Naval Doctrine"
  naval_doctrine_tech_research: "Naval Doctrine Research"
- naval_component_tech: "Naval Component"
- naval_component_tech_research: "Naval Component Research"
+ carrier_tech: "Carrier"
+ carrier_tech_research: "Carrier Research"
+ naval_logistics_tech: "Naval Logistics"
+ naval_logistics_tech_research: "Naval Logistics Research"
  
  leadership_tech: "Leadership"
  leadership_tech_research: "Leadership Research"

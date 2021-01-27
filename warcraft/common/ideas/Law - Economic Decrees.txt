@@ -1,5 +1,7 @@
 ideas = {
     economic_decree = {
+        use_list_view = yes
+        
         # Bolster Construction
         economic_decree_bolster_construction = {
             allowed = {

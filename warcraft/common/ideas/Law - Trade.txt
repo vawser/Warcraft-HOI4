@@ -1,6 +1,7 @@
 ideas = {
     trade_laws = { 
         law = yes
+        use_list_view = yes
         
         #---------------------------
         # Free Trade

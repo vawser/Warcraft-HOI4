@@ -1,0 +1,207 @@
+technologies = {
+    #---------------------------------------
+    # Vanquisher
+    #---------------------------------------
+    # Mobile Warfare/Superior Firepower
+    vanquisher_doctrine_tech_1 = {
+        doctrine_name = "VANQUISHER_DOCTRINE"
+        
+        xor = { aegis_doctrine_tech_1 }
+        
+        doctrine = yes
+        xp_research_type = army
+		xp_research_cost = 100
+		xp_research_bonus = 1.00
+
+        training_time_army_factor = -0.25
+
+        research_cost = 12
+
+        path = {
+			leads_to_tech = vanquisher_doctrine_left_tech_1
+			research_cost_coeff = 1
+		}
+        path = {
+			leads_to_tech = vanquisher_doctrine_right_tech_1
+			research_cost_coeff = 1
+		}
+        
+        folder = {
+			name = army_vanquisher_doctrine_folder
+			position = { x = 1 y = 2 }
+		}
+
+        categories = {
+			doctrine_tech
+			land_doctrine_tech
+		}
+		
+		ai_will_do = {
+			factor = 200
+            
+            modifier = {
+                factor = 0
+                
+                OR = {
+                    has_tech = aegis_doctrine_tech_1
+                    is_researching_technology = aegis_doctrine_tech_1
+                }
+            }
+            
+            modifier = {
+                factor = 2
+                
+                ai_prioritise_army = yes
+            }
+            
+            modifier = {
+                factor = 0
+                
+                ai_ignore_land_doctrine = yes
+            }
+		}
+    }
+    
+    # Mobile Warfare
+    vanquisher_doctrine_left_tech_1 = {
+        doctrine = yes
+        xp_research_type = army
+		xp_research_cost = 100
+		xp_research_bonus = 1.00
+
+        research_cost = 12
+
+        xor = { vanquisher_doctrine_right_tech_1 }
+        
+        # Modifiers
+        category_tanks = {
+			breakthrough = 0.20
+		}
+		
+		planning_speed = 0.5
+		army_speed_factor = 0.10
+		enable_tactic = tactic_unexpected_thrust
+		org_loss_when_moving = -0.1
+        
+        ai_research_weights = {
+			armor = 4.0
+		}
+        
+        # Structure
+        path = {
+			leads_to_tech = vanquisher_doctrine_left_tech_2
+			research_cost_coeff = 1
+		}
+        
+        folder = {
+			name = army_vanquisher_doctrine_folder
+			position = { x = 2 y = 1 }
+		}
+
+        categories = {
+			doctrine_tech
+			land_doctrine_tech
+		}
+		
+		ai_will_do = {
+			factor = 200
+            
+            modifier = {
+                factor = 0
+                
+                ai_ignore_land_doctrine = yes
+            }
+		}
+    }
+    
+    # Superior Firepower
+    vanquisher_doctrine_right_tech_1 = {
+        doctrine = yes
+        xp_research_type = army
+		xp_research_cost = 100
+		xp_research_bonus = 1.00
+
+        research_cost = 12
+
+        xor = { vanquisher_doctrine_left_tech_1 }
+        
+        # Modifiers
+        
+        
+        # Structure
+        path = {
+			leads_to_tech = vanquisher_doctrine_right_tech_2
+			research_cost_coeff = 1
+		}
+        
+        folder = {
+			name = army_vanquisher_doctrine_folder
+			position = { x = 2 y = 3 }
+		}
+
+        categories = {
+			doctrine_tech
+			land_doctrine_tech
+		}
+		
+		ai_will_do = {
+			factor = 200
+            
+            modifier = {
+                factor = 0
+                
+                ai_ignore_land_doctrine = yes
+            }
+		}
+    }
+    
+    #---------------------------------------
+    # Aegis
+    #---------------------------------------
+    # Grand Battleplan/Mass Assault
+    aegis_doctrine_tech_1 = {
+        xor = { vanquisher_doctrine_tech_1 }
+        
+        doctrine = yes
+        xp_research_type = army
+		xp_research_cost = 100
+		xp_research_bonus = 1.00
+
+        research_cost = 12
+
+        folder = {
+			name = army_aegis_doctrine_folder
+			position = { x = 1 y = 2 }
+		}
+
+        categories = {
+			doctrine_tech
+			land_doctrine_tech
+		}
+		
+		ai_will_do = {
+			factor = 200
+            
+            modifier = {
+                factor = 0
+                
+                OR = {
+                    has_tech = vanquisher_doctrine_tech_1
+                    is_researching_technology = vanquisher_doctrine_tech_1
+                }
+            }
+            
+            modifier = {
+                factor = 2
+                
+                ai_prioritise_army = yes
+            }
+            
+            modifier = {
+                factor = 0
+                
+                ai_ignore_land_doctrine = yes
+            }
+		}
+    }
+}

@@ -1,5 +1,6 @@
 ideas = {
     research_decree = {
+        use_list_view = yes
         designer = yes
         
         # Industry Focus

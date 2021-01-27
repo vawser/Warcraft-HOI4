@@ -1,11 +1,65 @@
 combat_actions = {
+    quick_factory_conversion_defensive = {
+		icon = yellow_quest_mark
+
+		available = {
+			num_of_civilian_factories > 5
+		}
+
+		visible = {
+			has_defensive_war = yes
+			has_offensive_war = no			
+		}
+
+		fire_only_once = no
+
+		days_re_enable = 90
+
+		cost = 100
+
+		complete_effect = {
+			replace_civ_with_arms_factories = yes
+			add_war_support = -0.05
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+	quick_factory_conversion_offensive = {
+		icon = yellow_quest_mark
+
+		available = {
+			num_of_civilian_factories > 5
+		}
+
+		visible = {
+			has_offensive_war = yes
+		}
+
+		fire_only_once = no
+
+		days_re_enable = 90
+
+		cost = 100
+
+		complete_effect = {
+			replace_civ_with_arms_factories = yes
+			add_war_support = -0.05
+			add_stability = -0.03
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+    
 	mount_last_stand = {
 		icon = yellow_quest_mark
         
         days_remove = 30
 		days_re_enable = 365
-        
-		cost = 100
+
+		cost = 50
 
         available = {
 			surrender_progress > 0.5
@@ -21,14 +75,103 @@ combat_actions = {
 		}
 
 		ai_will_do = {
-			base = 0
+			factor = 1
             
-            modifier = {
-                add = 1
-                
-                surrender_progress > 0.6
-            }
+			modifier = {
+				surrender_progress > 0.6
+				factor = 10
+			}
 		}
 	}
+    
+    divert_goods = {
+    	icon = yellow_quest_mark
+
+    	allowed = {
+            always = yes
+        }
+
+        available = {
+            has_war = yes
+            has_war_support > 0.75
+        }
+        visible = {
+            has_war = yes
+        }
+
+        fire_only_once = no
+
+		days_remove = 180
+
+		cost = divert_goods_var?50
+
+		modifier = {
+			consumer_goods_factor = -0.05
+		}
+
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				has_political_power < 100
+				factor = 0
+			}
+		}
+
+		remove_effect = {
+
+		}
+
+		complete_effect = {
+			if = {
+				limit = {
+					check_variable = {
+						var = divert_goods_var
+						value = 50
+						compare = less_than
+					}
+				}
+				set_variable = {
+					var = divert_goods_var
+					value = 50
+				}
+			}
+			add_to_variable = {
+				var = divert_goods_var
+				value = 25
+			}
+			if = {
+				limit = {
+					check_variable = {
+						var = divert_goods_var
+						value = 100
+						compare = greater_than_or_equals
+					}
+					check_variable = {
+						var = divert_goods_war_support_var
+						value = -0.025
+						compare = greater_than
+					}
+				}
+				set_variable = {
+					var = divert_goods_war_support_var
+					value = -0.025
+				}
+			}
+			if = {
+				limit = {
+					check_variable = {
+						var = divert_goods_war_support_var
+						value = -0.025
+						compare = less_than_or_equals
+					}
+				}
+				add_to_variable = {
+					var = divert_goods_war_support_var
+					value = -0.025
+				}
+				add_war_support = divert_goods_war_support_var
+			}
+		}
+    }
 }
 

@@ -1,4 +1,7 @@
 ﻿l_english: 
+ VANQUISHER_DOCTRINE: "Vanquisher Doctrine"
+ AEGIS_DOCTRINE: "Aegis Doctrine"
+ 
  # Army
  army_experience_1: "Army Experience I"
  army_experience_1_desc: "Grants passive §LArmy Experience§!."

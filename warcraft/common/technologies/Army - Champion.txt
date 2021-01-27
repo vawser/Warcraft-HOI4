@@ -46,6 +46,9 @@ technologies = {
     
     champion_tech_2 = {
         # Modifier
+        champion = {
+            build_cost_ic = -0.1
+        }
         
         research_cost = 6
 
@@ -137,6 +140,9 @@ technologies = {
 
     champion_tech_3_side_1 = {
         # Modifier
+        champion = {
+            max_strength = 0.1
+        }
         
         research_cost = 6
 
@@ -176,6 +182,9 @@ technologies = {
     
     champion_tech_3_side_2 = {
         # Modifier
+        champion = {
+            default_morale = 0.1
+        }
         
         research_cost = 6
 
@@ -215,6 +224,9 @@ technologies = {
     
     champion_tech_4 = {
         # Modifier
+        champion = {
+            reliability = 0.1
+        }
         
         research_cost = 6
 
@@ -298,6 +310,9 @@ technologies = {
     
     champion_tech_6 = {
         # Modifier
+        champion = {
+            default_morale = 0.25
+        }
         
         research_cost = 6
 
@@ -389,6 +404,9 @@ technologies = {
     
     champion_tech_7_side_1 = {
         # Modifier
+        champion = {
+            max_strength = 0.1
+        }
         
         research_cost = 6
 
@@ -428,6 +446,9 @@ technologies = {
     
     champion_tech_7_side_2 = {
         # Modifier
+        champion = {
+            default_morale = 0.1
+        }
         
         research_cost = 6
 
@@ -466,6 +487,9 @@ technologies = {
     
     champion_tech_8 = {
         # Modifier
+        champion = {
+            max_organisation = 10
+        }
         
         research_cost = 6
 
@@ -549,6 +573,7 @@ technologies = {
     
     champion_tech_capstone = {
         # Modifier
+        army_attack_factor = 0.05
         
         research_cost = 12
 

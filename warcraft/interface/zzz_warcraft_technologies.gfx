@@ -48,8 +48,41 @@ spriteTypes = {
 		pause_on_loop = 0.0
 	}
     
+    spriteType = {
+		name = "GFX_tech_arrow_up"
+		textureFile = "gfx//interface//technologies//arrow_up.dds"
+	}
+    spriteType = {
+		name = "GFX_tech_arrow_left"
+		textureFile = "gfx//interface//technologies//arrow_left.dds"
+	}
+    spriteType = {
+		name = "GFX_tech_arrow_right"
+		textureFile = "gfx//interface//technologies//arrow_right.dds"
+	}
+    spriteType = {
+		name = "GFX_tech_arrow_down"
+		textureFile = "gfx//interface//technologies//arrow_down.dds"
+	}
+    spriteType = {
+		name = "GFX_tech_arrow_left_up"
+		textureFile = "gfx//interface//technologies//arrow_left_up.dds"
+	}
+    spriteType = {
+		name = "GFX_tech_arrow_left_down"
+		textureFile = "gfx//interface//technologies//arrow_left_down.dds"
+	}
+    spriteType = {
+		name = "GFX_tech_arrow_right_up"
+		textureFile = "gfx//interface//technologies//arrow_right_up.dds"
+	}
+    spriteType = {
+		name = "GFX_tech_arrow_right_down"
+		textureFile = "gfx//interface//technologies//arrow_right_down.dds"
+	}
+    
     #-------------------------------------
-    # Icons
+    # Grunt
     #-------------------------------------
     SpriteType = {
         name = "GFX_grunt_tech_1_medium"
@@ -71,6 +104,10 @@ spriteTypes = {
         name = "GFX_grunt_tech_9_medium"
         texturefile = "gfx/interface/ideas/technology/grunt_equipment.dds"
     }
+    
+    #--------------------------
+    # Champion
+    #--------------------------
     SpriteType = {
         name = "GFX_champion_tech_1_medium"
         texturefile = "gfx/interface/ideas/technology/champion_equipment.dds"
@@ -91,6 +128,10 @@ spriteTypes = {
         name = "GFX_champion_tech_9_medium"
         texturefile = "gfx/interface/ideas/technology/champion_equipment.dds"
     }
+    
+    #--------------------------
+    # Archer
+    #--------------------------
     SpriteType = {
         name = "GFX_archer_tech_1_medium"
         texturefile = "gfx/interface/ideas/technology/archer_equipment.dds"
@@ -111,6 +152,9 @@ spriteTypes = {
         name = "GFX_archer_tech_9_medium"
         texturefile = "gfx/interface/ideas/technology/archer_equipment.dds"
     }
+    
+    #--------------------------
+    # Spellcaster
     SpriteType = {
         name = "GFX_spellcaster_tech_1_medium"
         texturefile = "gfx/interface/ideas/technology/spellcaster_equipment.dds"
@@ -135,6 +179,10 @@ spriteTypes = {
         name = "GFX_light_cavalry_tech_1_medium"
         texturefile = "gfx/interface/ideas/technology/light_cavalry_equipment.dds"
     }
+    
+    #--------------------------
+    # Light Cavalry
+    #--------------------------
     SpriteType = {
         name = "GFX_light_cavalry_tech_3_medium"
         texturefile = "gfx/interface/ideas/technology/light_cavalry_equipment.dds"
@@ -151,6 +199,10 @@ spriteTypes = {
         name = "GFX_light_cavalry_tech_9_medium"
         texturefile = "gfx/interface/ideas/technology/light_cavalry_equipment.dds"
     }
+    
+    #--------------------------
+    # Heavy Cavalry
+    #--------------------------
     SpriteType = {
         name = "GFX_heavy_cavalry_tech_1_medium"
         texturefile = "gfx/interface/ideas/technology/heavy_cavalry_equipment.dds"
@@ -171,6 +223,10 @@ spriteTypes = {
         name = "GFX_heavy_cavalry_tech_9_medium"
         texturefile = "gfx/interface/ideas/technology/heavy_cavalry_equipment.dds"
     }
+    
+    #--------------------------
+    # Light Tank
+    #--------------------------
     SpriteType = {
         name = "GFX_light_tank_tech_1_medium"
         texturefile = "gfx/interface/ideas/technology/light_tank_equipment.dds"
@@ -191,6 +247,9 @@ spriteTypes = {
         name = "GFX_light_tank_tech_9_medium"
         texturefile = "gfx/interface/ideas/technology/light_tank_equipment.dds"
     }
+    
+    #--------------------------
+    # Heavy Tank
     SpriteType = {
         name = "GFX_heavy_tank_tech_1_medium"
         texturefile = "gfx/interface/ideas/technology/heavy_tank_equipment.dds"
@@ -211,6 +270,10 @@ spriteTypes = {
         name = "GFX_heavy_tank_tech_9_medium"
         texturefile = "gfx/interface/ideas/technology/heavy_tank_equipment.dds"
     }
+    
+    #--------------------------
+    # War Engine
+    #--------------------------
     SpriteType = {
         name = "GFX_war_engine_tech_1_medium"
         texturefile = "gfx/interface/ideas/technology/war_engine_equipment.dds"
@@ -231,106 +294,50 @@ spriteTypes = {
         name = "GFX_war_engine_tech_9_medium"
         texturefile = "gfx/interface/ideas/technology/war_engine_equipment.dds"
     }
+    
+    #--------------------------
+    # Support
+    #--------------------------
+    
+    #--------------------------
+    # Motorized
+    #--------------------------
     SpriteType = {
-        name = "GFX_fighter_tech_1_medium"
-        texturefile = "gfx/interface/ideas/technology/fighter_equipment.dds"
+        name = "GFX_motorized_infantry_tech_1_medium"
+        texturefile = "gfx/interface/ideas/technology/motorized_infantry_equipment.dds"
     }
     SpriteType = {
-        name = "GFX_fighter_tech_3_medium"
-        texturefile = "gfx/interface/ideas/technology/fighter_equipment.dds"
+        name = "GFX_motorized_infantry_tech_3_medium"
+        texturefile = "gfx/interface/ideas/technology/motorized_infantry_equipment.dds"
     }
     SpriteType = {
-        name = "GFX_fighter_tech_5_medium"
-        texturefile = "gfx/interface/ideas/technology/fighter_equipment.dds"
+        name = "GFX_motorized_infantry_tech_5_medium"
+        texturefile = "gfx/interface/ideas/technology/motorized_infantry_equipment.dds"
     }
     SpriteType = {
-        name = "GFX_fighter_tech_7_medium"
-        texturefile = "gfx/interface/ideas/technology/fighter_equipment.dds"
+        name = "GFX_motorized_infantry_tech_7_medium"
+        texturefile = "gfx/interface/ideas/technology/motorized_infantry_equipment.dds"
     }
     SpriteType = {
-        name = "GFX_fighter_tech_9_medium"
-        texturefile = "gfx/interface/ideas/technology/fighter_equipment.dds"
+        name = "GFX_motorized_infantry_tech_9_medium"
+        texturefile = "gfx/interface/ideas/technology/motorized_infantry_equipment.dds"
     }
-    SpriteType = {
-        name = "GFX_cas_tech_1_medium"
-        texturefile = "gfx/interface/ideas/technology/cas_equipment.dds"
-    }
-    SpriteType = {
-        name = "GFX_cas_tech_3_medium"
-        texturefile = "gfx/interface/ideas/technology/cas_equipment.dds"
-    }
-    SpriteType = {
-        name = "GFX_cas_tech_5_medium"
-        texturefile = "gfx/interface/ideas/technology/cas_equipment.dds"
-    }
-    SpriteType = {
-        name = "GFX_cas_tech_7_medium"
-        texturefile = "gfx/interface/ideas/technology/cas_equipment.dds"
-    }
-    SpriteType = {
-        name = "GFX_cas_tech_9_medium"
-        texturefile = "gfx/interface/ideas/technology/cas_equipment.dds"
-    }
-    SpriteType = {
-        name = "GFX_tactical_bomber_tech_1_medium"
-        texturefile = "gfx/interface/ideas/technology/tactical_bomber_equipment.dds"
-    }
-    SpriteType = {
-        name = "GFX_tactical_bomber_tech_3_medium"
-        texturefile = "gfx/interface/ideas/technology/tactical_bomber_equipment.dds"
-    }
-    SpriteType = {
-        name = "GFX_tactical_bomber_tech_5_medium"
-        texturefile = "gfx/interface/ideas/technology/tactical_bomber_equipment.dds"
-    }
-    SpriteType = {
-        name = "GFX_tactical_bomber_tech_7_medium"
-        texturefile = "gfx/interface/ideas/technology/tactical_bomber_equipment.dds"
-    }
-    SpriteType = {
-        name = "GFX_tactical_bomber_tech_9_medium"
-        texturefile = "gfx/interface/ideas/technology/tactical_bomber_equipment.dds"
-    }
-    SpriteType = {
-        name = "GFX_strategic_bomber_tech_1_medium"
-        texturefile = "gfx/interface/ideas/technology/strategic_bomber_equipment.dds"
-    }
-    SpriteType = {
-        name = "GFX_strategic_bomber_tech_3_medium"
-        texturefile = "gfx/interface/ideas/technology/strategic_bomber_equipment.dds"
-    }
-    SpriteType = {
-        name = "GFX_strategic_bomber_tech_5_medium"
-        texturefile = "gfx/interface/ideas/technology/strategic_bomber_equipment.dds"
-    }
-    SpriteType = {
-        name = "GFX_strategic_bomber_tech_7_medium"
-        texturefile = "gfx/interface/ideas/technology/strategic_bomber_equipment.dds"
-    }
-    SpriteType = {
-        name = "GFX_strategic_bomber_tech_9_medium"
-        texturefile = "gfx/interface/ideas/technology/strategic_bomber_equipment.dds"
-    }
-    SpriteType = {
-        name = "GFX_air_convoy_tech_1_medium"
-        texturefile = "gfx/interface/ideas/technology/air_convoy_equipment.dds"
-    }
-    SpriteType = {
-        name = "GFX_air_convoy_tech_3_medium"
-        texturefile = "gfx/interface/ideas/technology/air_convoy_equipment.dds"
-    }
-    SpriteType = {
-        name = "GFX_air_convoy_tech_5_medium"
-        texturefile = "gfx/interface/ideas/technology/air_convoy_equipment.dds"
-    }
-    SpriteType = {
-        name = "GFX_air_convoy_tech_7_medium"
-        texturefile = "gfx/interface/ideas/technology/air_convoy_equipment.dds"
-    }
-    SpriteType = {
-        name = "GFX_air_convoy_tech_9_medium"
-        texturefile = "gfx/interface/ideas/technology/air_convoy_equipment.dds"
-    }
+    
+    #--------------------------
+    # Special Forces
+    #--------------------------
+    
+    #--------------------------
+    # Vanquisher Doctrine
+    #--------------------------
+    
+    #--------------------------
+    # Aegis Doctrine
+    #--------------------------
+    
+    #--------------------------
+    # Battleship
+    #--------------------------
     SpriteType = {
         name = "GFX_battleship_tech_1_medium"
         texturefile = "gfx/interface/ideas/technology/battleship_equipment.dds"
@@ -351,22 +358,10 @@ spriteTypes = {
         name = "GFX_battleship_tech_9_medium"
         texturefile = "gfx/interface/ideas/technology/battleship_equipment.dds"
     }
-    SpriteType = {
-        name = "GFX_destroyer_tech_1_medium"
-        texturefile = "gfx/interface/ideas/technology/destroyer_equipment.dds"
-    }
-    SpriteType = {
-        name = "GFX_destroyer_tech_3_medium"
-        texturefile = "gfx/interface/ideas/technology/destroyer_equipment.dds"
-    }
-    SpriteType = {
-        name = "GFX_destroyer_tech_5_medium"
-        texturefile = "gfx/interface/ideas/technology/destroyer_equipment.dds"
-    }
-    SpriteType = {
-        name = "GFX_destroyer_tech_7_medium"
-        texturefile = "gfx/interface/ideas/technology/destroyer_equipment.dds"
-    }
+    
+    #--------------------------
+    # Cruiser
+    #--------------------------
     SpriteType = {
         name = "GFX_destroyer_tech_9_medium"
         texturefile = "gfx/interface/ideas/technology/destroyer_equipment.dds"
@@ -391,6 +386,30 @@ spriteTypes = {
         name = "GFX_cruiser_tech_9_medium"
         texturefile = "gfx/interface/ideas/technology/cruiser_equipment.dds"
     }
+    
+    #--------------------------
+    # Destroyer
+    #--------------------------
+    SpriteType = {
+        name = "GFX_destroyer_tech_1_medium"
+        texturefile = "gfx/interface/ideas/technology/destroyer_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_destroyer_tech_3_medium"
+        texturefile = "gfx/interface/ideas/technology/destroyer_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_destroyer_tech_5_medium"
+        texturefile = "gfx/interface/ideas/technology/destroyer_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_destroyer_tech_7_medium"
+        texturefile = "gfx/interface/ideas/technology/destroyer_equipment.dds"
+    }
+    
+    #--------------------------
+    # Submarine
+    #--------------------------
     SpriteType = {
         name = "GFX_submarine_tech_1_medium"
         texturefile = "gfx/interface/ideas/technology/submarine_equipment.dds"
@@ -411,6 +430,38 @@ spriteTypes = {
         name = "GFX_submarine_tech_9_medium"
         texturefile = "gfx/interface/ideas/technology/submarine_equipment.dds"
     }
+    
+    #--------------------------
+    # Carrier
+    #--------------------------
+    SpriteType = {
+        name = "GFX_carrier_tech_1_medium"
+        texturefile = "gfx/interface/ideas/technology/carrier_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_carrier_tech_3_medium"
+        texturefile = "gfx/interface/ideas/technology/carrier_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_carrier_tech_5_medium"
+        texturefile = "gfx/interface/ideas/technology/carrier_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_carrier_tech_7_medium"
+        texturefile = "gfx/interface/ideas/technology/carrier_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_carrier_tech_9_medium"
+        texturefile = "gfx/interface/ideas/technology/carrier_equipment.dds"
+    }
+    
+    #--------------------------
+    # Naval Logistics
+    #--------------------------
+    
+    #--------------------------
+    # Battleship (MTG)
+    #--------------------------
     SpriteType = {
         name = "GFX_mtg_battleship_tech_1_medium"
         texturefile = "gfx/interface/ideas/technology/battleship_equipment.dds"
@@ -431,26 +482,10 @@ spriteTypes = {
         name = "GFX_mtg_battleship_tech_9_medium"
         texturefile = "gfx/interface/ideas/technology/battleship_equipment.dds"
     }
-    SpriteType = {
-        name = "GFX_mtg_destroyer_tech_1_medium"
-        texturefile = "gfx/interface/ideas/technology/destroyer_equipment.dds"
-    }
-    SpriteType = {
-        name = "GFX_mtg_destroyer_tech_3_medium"
-        texturefile = "gfx/interface/ideas/technology/destroyer_equipment.dds"
-    }
-    SpriteType = {
-        name = "GFX_mtg_destroyer_tech_5_medium"
-        texturefile = "gfx/interface/ideas/technology/destroyer_equipment.dds"
-    }
-    SpriteType = {
-        name = "GFX_mtg_destroyer_tech_7_medium"
-        texturefile = "gfx/interface/ideas/technology/destroyer_equipment.dds"
-    }
-    SpriteType = {
-        name = "GFX_mtg_destroyer_tech_9_medium"
-        texturefile = "gfx/interface/ideas/technology/destroyer_equipment.dds"
-    }
+    
+    #--------------------------
+    # Cruiser (MTG)
+    #--------------------------
     SpriteType = {
         name = "GFX_mtg_cruiser_tech_1_medium"
         texturefile = "gfx/interface/ideas/technology/cruiser_equipment.dds"
@@ -471,6 +506,34 @@ spriteTypes = {
         name = "GFX_mtg_cruiser_tech_9_medium"
         texturefile = "gfx/interface/ideas/technology/cruiser_equipment.dds"
     }
+    
+    #--------------------------
+    # Destroyer (MTG)
+    #--------------------------
+    SpriteType = {
+        name = "GFX_mtg_destroyer_tech_1_medium"
+        texturefile = "gfx/interface/ideas/technology/destroyer_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_mtg_destroyer_tech_3_medium"
+        texturefile = "gfx/interface/ideas/technology/destroyer_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_mtg_destroyer_tech_5_medium"
+        texturefile = "gfx/interface/ideas/technology/destroyer_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_mtg_destroyer_tech_7_medium"
+        texturefile = "gfx/interface/ideas/technology/destroyer_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_mtg_destroyer_tech_9_medium"
+        texturefile = "gfx/interface/ideas/technology/destroyer_equipment.dds"
+    }
+    
+    #--------------------------
+    # Submarine (MTG)
+    #--------------------------
     SpriteType = {
         name = "GFX_mtg_submarine_tech_1_medium"
         texturefile = "gfx/interface/ideas/technology/submarine_equipment.dds"
@@ -492,5 +555,163 @@ spriteTypes = {
         texturefile = "gfx/interface/ideas/technology/submarine_equipment.dds"
     }
     
+    #--------------------------
+    # Carrier (MTG)
+    #--------------------------
+    SpriteType = {
+        name = "GFX_mtg_carrier_tech_1_medium"
+        texturefile = "gfx/interface/ideas/technology/carrier_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_mtg_carrier_tech_3_medium"
+        texturefile = "gfx/interface/ideas/technology/carrier_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_mtg_carrier_tech_5_medium"
+        texturefile = "gfx/interface/ideas/technology/carrier_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_mtg_carrier_tech_7_medium"
+        texturefile = "gfx/interface/ideas/technology/carrier_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_mtg_carrier_tech_9_medium"
+        texturefile = "gfx/interface/ideas/technology/carrier_equipment.dds"
+    }
     
+    #--------------------------
+    # Barrage Doctrine
+    #--------------------------
+    
+    #--------------------------
+    # Assault Doctrine
+    #--------------------------
+    
+    #--------------------------
+    # Fighter
+    #--------------------------
+    SpriteType = {
+        name = "GFX_fighter_tech_1_medium"
+        texturefile = "gfx/interface/ideas/technology/fighter_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_fighter_tech_3_medium"
+        texturefile = "gfx/interface/ideas/technology/fighter_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_fighter_tech_5_medium"
+        texturefile = "gfx/interface/ideas/technology/fighter_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_fighter_tech_7_medium"
+        texturefile = "gfx/interface/ideas/technology/fighter_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_fighter_tech_9_medium"
+        texturefile = "gfx/interface/ideas/technology/fighter_equipment.dds"
+    }
+    
+    #--------------------------
+    # CAS
+    #--------------------------
+    SpriteType = {
+        name = "GFX_cas_tech_1_medium"
+        texturefile = "gfx/interface/ideas/technology/cas_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_cas_tech_3_medium"
+        texturefile = "gfx/interface/ideas/technology/cas_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_cas_tech_5_medium"
+        texturefile = "gfx/interface/ideas/technology/cas_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_cas_tech_7_medium"
+        texturefile = "gfx/interface/ideas/technology/cas_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_cas_tech_9_medium"
+        texturefile = "gfx/interface/ideas/technology/cas_equipment.dds"
+    }
+    
+    #--------------------------
+    # Tactical Bomber
+    #--------------------------
+    SpriteType = {
+        name = "GFX_tactical_bomber_tech_1_medium"
+        texturefile = "gfx/interface/ideas/technology/tactical_bomber_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_tactical_bomber_tech_3_medium"
+        texturefile = "gfx/interface/ideas/technology/tactical_bomber_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_tactical_bomber_tech_5_medium"
+        texturefile = "gfx/interface/ideas/technology/tactical_bomber_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_tactical_bomber_tech_7_medium"
+        texturefile = "gfx/interface/ideas/technology/tactical_bomber_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_tactical_bomber_tech_9_medium"
+        texturefile = "gfx/interface/ideas/technology/tactical_bomber_equipment.dds"
+    }
+    
+    #--------------------------
+    # Strategic Bomber
+    #--------------------------
+    SpriteType = {
+        name = "GFX_strategic_bomber_tech_1_medium"
+        texturefile = "gfx/interface/ideas/technology/strategic_bomber_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_strategic_bomber_tech_3_medium"
+        texturefile = "gfx/interface/ideas/technology/strategic_bomber_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_strategic_bomber_tech_5_medium"
+        texturefile = "gfx/interface/ideas/technology/strategic_bomber_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_strategic_bomber_tech_7_medium"
+        texturefile = "gfx/interface/ideas/technology/strategic_bomber_equipment.dds"
+    }
+    SpriteType = {
+        name = "GFX_strategic_bomber_tech_9_medium"
+        texturefile = "gfx/interface/ideas/technology/strategic_bomber_equipment.dds"
+    }
+    
+    #--------------------------
+    # Incursion Doctrine
+    #--------------------------
+    
+    #--------------------------
+    # Firestorm Doctrine
+    #--------------------------
+    
+    #--------------------------
+    # Industry
+    #--------------------------
+    
+    #--------------------------
+    # Production
+    #--------------------------
+    
+    #--------------------------
+    # Extraction
+    #--------------------------
+    
+    #--------------------------
+    # Construction
+    #--------------------------
+    
+    #--------------------------
+    # Statecraft
+    #--------------------------
+    
+    #--------------------------
+    # Diplomacy
+    #--------------------------
 }

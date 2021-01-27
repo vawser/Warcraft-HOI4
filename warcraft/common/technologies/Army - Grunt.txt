@@ -46,7 +46,9 @@ technologies = {
     
     grunt_tech_2 = {
         # Modifier
-        
+        grunt = {
+            build_cost_ic = -0.1
+        }
         
         research_cost = 6
 
@@ -138,6 +140,9 @@ technologies = {
 
     grunt_tech_3_side_1 = {
         # Modifier
+        grunt = {
+            defense = 0.1 
+        }
         
         research_cost = 6
 
@@ -177,6 +182,9 @@ technologies = {
     
     grunt_tech_3_side_2 = {
         # Modifier
+        grunt = {
+            entrenchment = 1
+        }
         
         research_cost = 6
 
@@ -216,6 +224,9 @@ technologies = {
     
     grunt_tech_4 = {
         # Modifier
+        grunt = {
+            reliability = 0.1
+        }
         
         research_cost = 6
 
@@ -299,6 +310,9 @@ technologies = {
     
     grunt_tech_6 = {
         # Modifier
+        grunt = {
+            default_morale = 0.25
+        }
         
         research_cost = 6
 
@@ -390,6 +404,9 @@ technologies = {
     
     grunt_tech_7_side_1 = {
         # Modifier
+        grunt = {
+            defense = 0.1
+        }
         
         research_cost = 6
 
@@ -429,6 +446,9 @@ technologies = {
     
     grunt_tech_7_side_2 = {
         # Modifier
+        grunt = {
+            entrenchment = 1
+        }
         
         research_cost = 6
 
@@ -467,6 +487,9 @@ technologies = {
     
     grunt_tech_8 = {
         # Modifier
+        grunt = {
+            max_organisation = 10
+        }
         
         research_cost = 6
 
@@ -550,6 +573,7 @@ technologies = {
     
     grunt_tech_capstone = {
         # Modifier
+        dig_in_speed_factor = 0.1
         
         research_cost = 12
 

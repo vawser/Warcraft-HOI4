@@ -66,6 +66,9 @@ technologies = {
     
     heavy_tank_tech_2 = {
         # Modifier
+        heavy_tank = {
+            build_cost_ic = -0.1
+        }
         
         research_cost = 26
 
@@ -175,6 +178,9 @@ technologies = {
 
     heavy_tank_tech_3_side_1 = {
         # Modifier
+        heavy_tank = {
+            soft_attack = 0.1
+        }
         
         research_cost = 28
 
@@ -223,6 +229,9 @@ technologies = {
     
     heavy_tank_tech_3_side_2 = {
         # Modifier
+        heavy_tank = {
+            armor_value = 0.1
+        }
         
         research_cost = 28
 
@@ -271,6 +280,9 @@ technologies = {
     
     heavy_tank_tech_4 = {
         # Modifier
+        heavy_tank = {
+            reliability = 0.1
+        }
         
         research_cost = 30
 
@@ -372,6 +384,9 @@ technologies = {
     
     heavy_tank_tech_6 = {
         # Modifier
+        heavy_tank = {
+            default_morale = 0.25
+        }
         
         research_cost = 34
 
@@ -481,6 +496,9 @@ technologies = {
     
     heavy_tank_tech_7_side_1 = {
         # Modifier
+        heavy_tank = {
+            soft_attack = 0.1
+        }
         
         research_cost = 36
 
@@ -529,6 +547,9 @@ technologies = {
     
     heavy_tank_tech_7_side_2 = {
         # Modifier
+        heavy_tank = {
+            armor_value = 0.1
+        }
         
         research_cost = 36
 
@@ -576,6 +597,9 @@ technologies = {
     
     heavy_tank_tech_8 = {
         # Modifier
+        heavy_tank = {
+            max_organisation = 10
+        }
         
         research_cost = 38
 
@@ -677,6 +701,7 @@ technologies = {
     
     heavy_tank_tech_capstone = {
         # Modifier
+        breakthrough_factor = 0.05
         
         research_cost = 42
 

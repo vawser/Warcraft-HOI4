@@ -8,6 +8,14 @@
  spellcaster_desc: "Masters of the arcane and other such magics."
  archer: "Archer"
  archer_desc: "Masters of defence."
+ motorized_infantry: "Motorized"
+ motorized_infantry_desc: "Infantry riding vehicles such as mechanostriders."
+ marine: "Marine"
+ marine_desc: ""
+ mountaineers: "Mountaineer"
+ mountaineers_desc: ""
+ paratrooper: "Paratrooper"
+ paratrooper_desc: ""
 
  # ------ Artillery ------
  war_engine: "War Engine"
@@ -67,5 +75,7 @@
  cruiser_desc: "A cruiser."
  submarine: "Submarine"
  submarine_desc: ""
+ carrier: "Carrier"
+ carrier_desc: ""
  
  # ------ Racial ------

@@ -1,5 +1,7 @@
 ideas = {
     naval_decree = {
+        use_list_view = yes
+        
         # Capital Ship Focus
         naval_decree_capital_ship_focus = {
             allowed = {

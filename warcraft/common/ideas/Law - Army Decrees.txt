@@ -1,5 +1,7 @@
 ideas = {
     army_decree = {
+        use_list_view = yes
+        
         # Focus Offense
         army_decree_focus_offense = {
             allowed = {

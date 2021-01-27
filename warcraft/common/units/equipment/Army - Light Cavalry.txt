@@ -29,34 +29,30 @@ equipments = {
             wm_light_cavalry_build_cost_ic
 		}
         
-        max_strength = 25
-        max_organisation = 40
-        default_morale = 0.3
-        weight = 0.6
-        supply_consumption = 0.1
+        # Misc
+        reliability = 0.8
+		maximum_speed = 6
         
-		reliability = 0.7
-		maximum_speed = 10
-
-        soft_attack = 5
-		hard_attack = 2
+        # Defensive
+        defense = 6
+		breakthrough = 12
+        hardness = 0.2
+		armor_value = 2
         
-        defense = 2
-		breakthrough = 5
-        
+        # Offensive
+        soft_attack = 10
+		hard_attack = 1
         ap_attack = 2
 		air_attack = 0
-
-		hardness = 0.2
-		armor_value = 2
-
-		lend_lease_cost = 0.6
-		build_cost_ic = 7
+        
+        # Costs
+		lend_lease_cost = 1.0
+		build_cost_ic = 2.0
         
 		resources = {
-            food = 2
+            food = 1
             wood = 1
-            ground_beast = 2
+            ground_beast = 1
 		}
 	}
 
@@ -73,34 +69,30 @@ equipments = {
 		priority = 15
 		visual_level = 2
 		
-        max_strength = 27
-        max_organisation = 41
-        default_morale = 0.3
-        weight = 0.7
-        supply_consumption = 0.12
+        # Misc
+        reliability = 0.8
+		maximum_speed = 6
         
-		reliability = 0.75
-		maximum_speed = 12
-
-        soft_attack = 7
-		hard_attack = 4
-        
-        defense = 4
-		breakthrough = 8
-        
-        ap_attack = 4
-		air_attack = 0
-
-		hardness = 0.2
+        # Defensive
+        defense = 6
+		breakthrough = 16
+        hardness = 0.21
 		armor_value = 3
-
-		lend_lease_cost = 8
-        build_cost_ic = 10
+        
+        # Offensive
+        soft_attack = 14
+		hard_attack = 1
+        ap_attack = 2
+		air_attack = 0
+        
+        # Costs
+		lend_lease_cost = 1.0
+		build_cost_ic = 2.0
         
         resources = {
-            food = 3
-            wood = 2
-            ground_beast = 2
+            food = 1
+            wood = 1
+            ground_beast = 1
 		}
 	}
 	
@@ -110,34 +102,30 @@ equipments = {
 		priority = 20
 		visual_level = 3
 		
-        max_strength = 28
-        max_organisation = 43
-        default_morale = 0.3
-        weight = 0.8
-        supply_consumption = 0.14
+        # Misc
+        reliability = 0.8
+		maximum_speed = 6
         
-		reliability = 0.75
-		maximum_speed = 13
-
-        soft_attack = 11
-		hard_attack = 6
+        # Defensive
+        defense = 7
+		breakthrough = 20
+        hardness = 0.22
+		armor_value = 4
         
-        defense = 6
-		breakthrough = 13
-
-        ap_attack = 7
+        # Offensive
+        soft_attack = 18
+		hard_attack = 2
+        ap_attack = 3
 		air_attack = 0
-
-		hardness = 0.25
-		armor_value = 5
-
-		lend_lease_cost = 1
-        build_cost_ic = 13
+        
+        # Costs
+		lend_lease_cost = 1.0
+		build_cost_ic = 2.0
         
         resources = {
-            food = 3
-            steel = 2
-            ground_beast = 3
+            food = 1
+            steel = 1
+            ground_beast = 1
 		}
 	}
     
@@ -147,34 +135,30 @@ equipments = {
 		priority = 25
 		visual_level = 4
 		
-        max_strength = 29
-        max_organisation = 44
-        default_morale = 0.3
-        weight = 0.8
-        supply_consumption = 0.15
+        # Misc
+        reliability = 0.8
+		maximum_speed = 6
         
-		reliability = 0.8
-		maximum_speed = 14
-
-        soft_attack = 15
-		hard_attack = 8
-        
+        # Defensive
         defense = 8
-		breakthrough = 17
+		breakthrough = 25
+        hardness = 0.23
+		armor_value = 5
         
-        ap_attack = 8
+        # Offensive
+        soft_attack = 22
+		hard_attack = 2
+        ap_attack = 4
 		air_attack = 0
-
-		hardness = 0.3
-		armor_value = 6
-
-		lend_lease_cost = 0.8
-        build_cost_ic = 17
+        
+        # Costs
+		lend_lease_cost = 1.0
+		build_cost_ic = 2.0
         
         resources = {
-            food = 4
-            steel = 3
-            ground_beast = 3
+            food = 2
+            steel = 1
+            ground_beast = 1
 		}
 	}
     
@@ -184,34 +168,30 @@ equipments = {
 		priority = 30
 		visual_level = 5
 		
-        max_strength = 30
-        max_organisation = 45
-        default_morale = 0.3
-        weight = 1
-        supply_consumption = 0.18
+        # Misc
+        reliability = 0.8
+		maximum_speed = 6
         
-		reliability = 0.8
-		maximum_speed = 15
-
-        soft_attack = 17
-		hard_attack = 10
+        # Defensive
+        defense = 10
+		breakthrough = 30
+        hardness = 0.25
+		armor_value = 6
         
-        defense = 11
-		breakthrough = 22
-        
-        ap_attack = 12
+        # Offensive
+        soft_attack = 25
+		hard_attack = 2
+        ap_attack = 5
 		air_attack = 0
-
-		hardness = 0.3
-		armor_value = 8
-
-		lend_lease_cost = 1
-        build_cost_ic = 20
+        
+        # Costs
+		lend_lease_cost = 1.0
+		build_cost_ic = 2.0
         
         resources = {
-            food = 5
-            steel = 3
-            ground_beast = 4
+            food = 2
+            steel = 1
+            ground_beast = 1
 		}
 	}
 }
