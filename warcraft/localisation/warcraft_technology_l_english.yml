@@ -1,6 +1,10 @@
 ﻿l_english: 
  VANQUISHER_DOCTRINE: "Vanquisher Doctrine"
  AEGIS_DOCTRINE: "Aegis Doctrine"
+ INCURSION_DOCTRINE: "Incursion Doctrine"
+ FIRESTORM_DOCTRINE: "Firestorm Doctrine"
+ BARRAGE_DOCTRINE: "Barrage Doctrine"
+ ASSAULT_DOCTRINE: "Assault Doctrine"
  
  # Army
  army_experience_1: "Army Experience I"

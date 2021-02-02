@@ -287,3 +287,551 @@ instant_effect = {
 	}
     setup_small_nation_units = yes
 }
+
+units = {
+    fleet = {
+        name = "Pride of Suramar"
+        naval_base = 7055
+        task_force = {
+            name = "Suramar"
+            location = 7055
+            
+            # Battleship
+            ship = {
+                name = "The Arcship"
+                definition = battleship
+                # owner = NTB
+                # version_name = "Suramar Battleship Class"
+                pride_of_the_fleet = yes
+                equipment = {
+                    battleship_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Battleship"
+                definition = battleship
+                # owner = NTB
+                # version_name = "Suramar Battleship Class"
+                equipment = {
+                    battleship_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Battleship"
+                definition = battleship
+                # owner = NTB
+                # version_name = "Suramar Battleship Class"
+                equipment = {
+                    battleship_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            
+            # Cruiser
+            ship = {
+                name = "Cruiser"
+                definition = cruiser
+                # owner = NTB
+                # version_name = "Suramar Cruiser Class"
+                equipment = {
+                    cruiser_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Cruiser"
+                definition = cruiser
+                # owner = NTB
+                # version_name = "Suramar Cruiser Class"
+                equipment = {
+                    cruiser_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Cruiser"
+                definition = cruiser
+                # owner = NTB
+                # version_name = "Suramar Cruiser Class"
+                equipment = {
+                    cruiser_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Cruiser"
+                definition = cruiser
+                # owner = NTB
+                # version_name = "Suramar Cruiser Class"
+                equipment = {
+                    cruiser_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Cruiser"
+                definition = cruiser
+                # owner = NTB
+                # version_name = "Suramar Cruiser Class"
+                equipment = {
+                    cruiser_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            
+            # Destroyer
+            ship = {
+                name = "Destroyer"
+                definition = destroyer
+                # owner = NTB
+                # version_name = "Suramar Destroyer Class"
+                equipment = {
+                    destroyer_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Destroyer"
+                definition = destroyer
+                # owner = NTB
+                # version_name = "Suramar Destroyer Class"
+                equipment = {
+                    destroyer_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Destroyer"
+                definition = destroyer
+                # owner = NTB
+                # version_name = "Suramar Destroyer Class"
+                equipment = {
+                    destroyer_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Destroyer"
+                definition = destroyer
+                # owner = NTB
+                # version_name = "Suramar Destroyer Class"
+                equipment = {
+                    destroyer_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Destroyer"
+                definition = destroyer
+                # owner = NTB
+                # version_name = "Suramar Destroyer Class"
+                equipment = {
+                    destroyer_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Destroyer"
+                definition = destroyer
+                # owner = NTB
+                # version_name = "Suramar Destroyer Class"
+                equipment = {
+                    destroyer_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Destroyer"
+                definition = destroyer
+                # owner = NTB
+                # version_name = "Suramar Destroyer Class"
+                equipment = {
+                    destroyer_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Destroyer"
+                definition = destroyer
+                # owner = NTB
+                # version_name = "Suramar Destroyer Class"
+                equipment = {
+                    destroyer_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Destroyer"
+                definition = destroyer
+                # owner = NTB
+                # version_name = "Suramar Destroyer Class"
+                equipment = {
+                    destroyer_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Destroyer"
+                definition = destroyer
+                # owner = NTB
+                # version_name = "Suramar Destroyer Class"
+                equipment = {
+                    destroyer_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Destroyer"
+                definition = destroyer
+                # owner = NTB
+                # version_name = "Suramar Destroyer Class"
+                equipment = {
+                    destroyer_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Destroyer"
+                definition = destroyer
+                # owner = NTB
+                # version_name = "Suramar Destroyer Class"
+                equipment = {
+                    destroyer_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Destroyer"
+                definition = destroyer
+                # owner = NTB
+                # version_name = "Suramar Destroyer Class"
+                equipment = {
+                    destroyer_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Destroyer"
+                definition = destroyer
+                # owner = NTB
+                # version_name = "Suramar Destroyer Class"
+                equipment = {
+                    destroyer_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Destroyer"
+                definition = destroyer
+                # owner = NTB
+                # version_name = "Suramar Destroyer Class"
+                equipment = {
+                    destroyer_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Destroyer"
+                definition = destroyer
+                # owner = NTB
+                # version_name = "Suramar Destroyer Class"
+                equipment = {
+                    destroyer_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Destroyer"
+                definition = destroyer
+                # owner = NTB
+                # version_name = "Suramar Destroyer Class"
+                equipment = {
+                    destroyer_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Destroyer"
+                definition = destroyer
+                # owner = NTB
+                # version_name = "Suramar Destroyer Class"
+                equipment = {
+                    destroyer_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Destroyer"
+                definition = destroyer
+                # owner = NTB
+                # version_name = "Suramar Destroyer Class"
+                equipment = {
+                    destroyer_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Destroyer"
+                definition = destroyer
+                # owner = NTB
+                # version_name = "Suramar Destroyer Class"
+                equipment = {
+                    destroyer_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            
+            # Submarine
+            ship = {
+                name = "Submarine"
+                definition = submarine
+                # owner = NTB
+                # version_name = "Suramar Submarine Class"
+                equipment = {
+                    submarine_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Submarine"
+                definition = submarine
+                # owner = NTB
+                # version_name = "Suramar Submarine Class"
+                equipment = {
+                    submarine_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Submarine"
+                definition = submarine
+                # owner = NTB
+                # version_name = "Suramar Submarine Class"
+                equipment = {
+                    submarine_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Submarine"
+                definition = submarine
+                # owner = NTB
+                # version_name = "Suramar Submarine Class"
+                equipment = {
+                    submarine_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Submarine"
+                definition = submarine
+                # owner = NTB
+                # version_name = "Suramar Submarine Class"
+                equipment = {
+                    submarine_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Submarine"
+                definition = submarine
+                # owner = NTB
+                # version_name = "Suramar Submarine Class"
+                equipment = {
+                    submarine_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Submarine"
+                definition = submarine
+                # owner = NTB
+                # version_name = "Suramar Submarine Class"
+                equipment = {
+                    submarine_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Submarine"
+                definition = submarine
+                # owner = NTB
+                # version_name = "Suramar Submarine Class"
+                equipment = {
+                    submarine_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Submarine"
+                definition = submarine
+                # owner = NTB
+                # version_name = "Suramar Submarine Class"
+                equipment = {
+                    submarine_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Submarine"
+                definition = submarine
+                # owner = NTB
+                # version_name = "Suramar Submarine Class"
+                equipment = {
+                    submarine_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Submarine"
+                definition = submarine
+                # owner = NTB
+                # version_name = "Suramar Submarine Class"
+                equipment = {
+                    submarine_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Submarine"
+                definition = submarine
+                # owner = NTB
+                # version_name = "Suramar Submarine Class"
+                equipment = {
+                    submarine_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Submarine"
+                definition = submarine
+                # owner = NTB
+                # version_name = "Suramar Submarine Class"
+                equipment = {
+                    submarine_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Submarine"
+                definition = submarine
+                # owner = NTB
+                # version_name = "Suramar Submarine Class"
+                equipment = {
+                    submarine_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Submarine"
+                definition = submarine
+                # owner = NTB
+                # version_name = "Suramar Submarine Class"
+                equipment = {
+                    submarine_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Submarine"
+                definition = submarine
+                # owner = NTB
+                # version_name = "Suramar Submarine Class"
+                equipment = {
+                    submarine_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Submarine"
+                definition = submarine
+                # owner = NTB
+                # version_name = "Suramar Submarine Class"
+                equipment = {
+                    submarine_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Submarine"
+                definition = submarine
+                # owner = NTB
+                # version_name = "Suramar Submarine Class"
+                equipment = {
+                    submarine_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Submarine"
+                definition = submarine
+                # owner = NTB
+                # version_name = "Suramar Submarine Class"
+                equipment = {
+                    submarine_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Submarine"
+                definition = submarine
+                # owner = NTB
+                # version_name = "Suramar Submarine Class"
+                equipment = {
+                    submarine_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+        }
+    }
+}

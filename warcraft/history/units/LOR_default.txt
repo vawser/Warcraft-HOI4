@@ -626,3 +626,595 @@ instant_effect = {
     set_country_flag = given_large_oob
     setup_large_nation_units = yes
 }
+
+units = {
+    fleet = {
+        name = "Pride of Tirisfal"
+        naval_base = 1684
+        task_force = {
+            name = "Tirisfal"
+            location = 1684
+            
+            # Battleship
+            ship = {
+                name = "The Crownship"
+                definition = battleship
+                # owner = LOR
+                # version_name = "Lordaeron Battleship Class"
+                pride_of_the_fleet = yes
+                equipment = {
+                    battleship_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Battleship"
+                definition = battleship
+                # owner = LOR
+                # version_name = "Lordaeron Battleship Class"
+                equipment = {
+                    battleship_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Battleship"
+                definition = battleship
+                # owner = LOR
+                # version_name = "Lordaeron Battleship Class"
+                equipment = {
+                    battleship_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Battleship"
+                definition = battleship
+                # owner = LOR
+                # version_name = "Lordaeron Battleship Class"
+                equipment = {
+                    battleship_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Battleship"
+                definition = battleship
+                # owner = LOR
+                # version_name = "Lordaeron Battleship Class"
+                equipment = {
+                    battleship_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Battleship"
+                definition = battleship
+                # owner = LOR
+                # version_name = "Lordaeron Battleship Class"
+                equipment = {
+                    battleship_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Battleship"
+                definition = battleship
+                # owner = LOR
+                # version_name = "Lordaeron Battleship Class"
+                equipment = {
+                    battleship_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            
+            # Cruiser
+            ship = {
+                name = "Cruiser"
+                definition = cruiser
+                # owner = LOR
+                # version_name = "Lordaeron Cruiser Class"
+                equipment = {
+                    cruiser_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Cruiser"
+                definition = cruiser
+                # owner = LOR
+                # version_name = "Lordaeron Cruiser Class"
+                equipment = {
+                    cruiser_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Cruiser"
+                definition = cruiser
+                # owner = LOR
+                # version_name = "Lordaeron Cruiser Class"
+                equipment = {
+                    cruiser_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Cruiser"
+                definition = cruiser
+                # owner = LOR
+                # version_name = "Lordaeron Cruiser Class"
+                equipment = {
+                    cruiser_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Cruiser"
+                definition = cruiser
+                # owner = LOR
+                # version_name = "Lordaeron Cruiser Class"
+                equipment = {
+                    cruiser_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            
+            # Destroyer
+            ship = {
+                name = "Destroyer"
+                definition = destroyer
+                # owner = LOR
+                # version_name = "Lordaeron Destroyer Class"
+                equipment = {
+                    destroyer_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Destroyer"
+                definition = destroyer
+                # owner = LOR
+                # version_name = "Lordaeron Destroyer Class"
+                equipment = {
+                    destroyer_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Destroyer"
+                definition = destroyer
+                # owner = LOR
+                # version_name = "Lordaeron Destroyer Class"
+                equipment = {
+                    destroyer_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Destroyer"
+                definition = destroyer
+                # owner = LOR
+                # version_name = "Lordaeron Destroyer Class"
+                equipment = {
+                    destroyer_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Destroyer"
+                definition = destroyer
+                # owner = LOR
+                # version_name = "Lordaeron Destroyer Class"
+                equipment = {
+                    destroyer_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Destroyer"
+                definition = destroyer
+                # owner = LOR
+                # version_name = "Lordaeron Destroyer Class"
+                equipment = {
+                    destroyer_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Destroyer"
+                definition = destroyer
+                # owner = LOR
+                # version_name = "Lordaeron Destroyer Class"
+                equipment = {
+                    destroyer_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Destroyer"
+                definition = destroyer
+                # owner = LOR
+                # version_name = "Lordaeron Destroyer Class"
+                equipment = {
+                    destroyer_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Destroyer"
+                definition = destroyer
+                # owner = LOR
+                # version_name = "Lordaeron Destroyer Class"
+                equipment = {
+                    destroyer_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Destroyer"
+                definition = destroyer
+                # owner = LOR
+                # version_name = "Lordaeron Destroyer Class"
+                equipment = {
+                    destroyer_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Destroyer"
+                definition = destroyer
+                # owner = LOR
+                # version_name = "Lordaeron Destroyer Class"
+                equipment = {
+                    destroyer_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Destroyer"
+                definition = destroyer
+                # owner = LOR
+                # version_name = "Lordaeron Destroyer Class"
+                equipment = {
+                    destroyer_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Destroyer"
+                definition = destroyer
+                # owner = LOR
+                # version_name = "Lordaeron Destroyer Class"
+                equipment = {
+                    destroyer_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Destroyer"
+                definition = destroyer
+                # owner = LOR
+                # version_name = "Lordaeron Destroyer Class"
+                equipment = {
+                    destroyer_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Destroyer"
+                definition = destroyer
+                # owner = LOR
+                # version_name = "Lordaeron Destroyer Class"
+                equipment = {
+                    destroyer_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Destroyer"
+                definition = destroyer
+                # owner = LOR
+                # version_name = "Lordaeron Destroyer Class"
+                equipment = {
+                    destroyer_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Destroyer"
+                definition = destroyer
+                # owner = LOR
+                # version_name = "Lordaeron Destroyer Class"
+                equipment = {
+                    destroyer_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Destroyer"
+                definition = destroyer
+                # owner = LOR
+                # version_name = "Lordaeron Destroyer Class"
+                equipment = {
+                    destroyer_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Destroyer"
+                definition = destroyer
+                # owner = LOR
+                # version_name = "Lordaeron Destroyer Class"
+                equipment = {
+                    destroyer_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Destroyer"
+                definition = destroyer
+                # owner = LOR
+                # version_name = "Lordaeron Destroyer Class"
+                equipment = {
+                    destroyer_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            
+            # Submarine
+            ship = {
+                name = "Submarine"
+                definition = submarine
+                # owner = LOR
+                # version_name = "Lordaeron Submarine Class"
+                equipment = {
+                    submarine_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Submarine"
+                definition = submarine
+                # owner = LOR
+                # version_name = "Lordaeron Submarine Class"
+                equipment = {
+                    submarine_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Submarine"
+                definition = submarine
+                # owner = LOR
+                # version_name = "Lordaeron Submarine Class"
+                equipment = {
+                    submarine_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Submarine"
+                definition = submarine
+                # owner = LOR
+                # version_name = "Lordaeron Submarine Class"
+                equipment = {
+                    submarine_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Submarine"
+                definition = submarine
+                # owner = LOR
+                # version_name = "Lordaeron Submarine Class"
+                equipment = {
+                    submarine_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Submarine"
+                definition = submarine
+                # owner = LOR
+                # version_name = "Lordaeron Submarine Class"
+                equipment = {
+                    submarine_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Submarine"
+                definition = submarine
+                # owner = LOR
+                # version_name = "Lordaeron Submarine Class"
+                equipment = {
+                    submarine_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Submarine"
+                definition = submarine
+                # owner = LOR
+                # version_name = "Lordaeron Submarine Class"
+                equipment = {
+                    submarine_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Submarine"
+                definition = submarine
+                # owner = LOR
+                # version_name = "Lordaeron Submarine Class"
+                equipment = {
+                    submarine_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Submarine"
+                definition = submarine
+                # owner = LOR
+                # version_name = "Lordaeron Submarine Class"
+                equipment = {
+                    submarine_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Submarine"
+                definition = submarine
+                # owner = LOR
+                # version_name = "Lordaeron Submarine Class"
+                equipment = {
+                    submarine_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Submarine"
+                definition = submarine
+                # owner = LOR
+                # version_name = "Lordaeron Submarine Class"
+                equipment = {
+                    submarine_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Submarine"
+                definition = submarine
+                # owner = LOR
+                # version_name = "Lordaeron Submarine Class"
+                equipment = {
+                    submarine_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Submarine"
+                definition = submarine
+                # owner = LOR
+                # version_name = "Lordaeron Submarine Class"
+                equipment = {
+                    submarine_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Submarine"
+                definition = submarine
+                # owner = LOR
+                # version_name = "Lordaeron Submarine Class"
+                equipment = {
+                    submarine_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Submarine"
+                definition = submarine
+                # owner = LOR
+                # version_name = "Lordaeron Submarine Class"
+                equipment = {
+                    submarine_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Submarine"
+                definition = submarine
+                # owner = LOR
+                # version_name = "Lordaeron Submarine Class"
+                equipment = {
+                    submarine_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Submarine"
+                definition = submarine
+                # owner = LOR
+                # version_name = "Lordaeron Submarine Class"
+                equipment = {
+                    submarine_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Submarine"
+                definition = submarine
+                # owner = LOR
+                # version_name = "Lordaeron Submarine Class"
+                equipment = {
+                    submarine_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Submarine"
+                definition = submarine
+                # owner = LOR
+                # version_name = "Lordaeron Submarine Class"
+                equipment = {
+                    submarine_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+        }
+    }
+}

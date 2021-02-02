@@ -578,7 +578,7 @@ guiTypes = {
             
             gridboxtype = {
                 name = "grunt_tech_1_tree"
-                position = { x = 80 y = 0 }
+                position = { x = 115 y = 0 }
                 slotsize = { width = 120 height = 120 }
                 format = "LEFT"
             }
@@ -587,81 +587,81 @@ guiTypes = {
             iconType = {
                 name ="centre_arrow_1"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=155 }
+                position = { x=390 y=155 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_2"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=275 }
+                position = { x=390 y=275 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_3"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=395 }
+                position = { x=390 y=395 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_4"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=515 }
+                position = { x=390 y=515 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_5"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=635 }
+                position = { x=390 y=635 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_6"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=755 }
+                position = { x=390 y=755 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_7"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=875 }
+                position = { x=390 y=875 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_8"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=995 }
+                position = { x=390 y=995 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_9"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=1115 }
+                position = { x=390 y=1115 }
                 allwaystransparent = yes
             }
             
             iconType = {
                 name ="left_arrow_1"
                 spriteType = "GFX_tech_arrow_left"
-                position = { x=295 y=335 }
+                position = { x=330 y=335 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="left_arrow_2"
                 spriteType = "GFX_tech_arrow_left"
-                position = { x=295 y=815 }
+                position = { x=330 y=815 }
                 allwaystransparent = yes
             }
             
             iconType = {
                 name ="right_arrow_1"
                 spriteType = "GFX_tech_arrow_right"
-                position = { x=415 y=335 }
+                position = { x=450 y=335 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="right_arrow_2"
                 spriteType = "GFX_tech_arrow_right"
-                position = { x=415 y=815 }
+                position = { x=450 y=815 }
                 allwaystransparent = yes
             }
         }
@@ -713,7 +713,7 @@ guiTypes = {
             
             gridboxtype = {
                 name = "champion_tech_1_tree"
-                position = { x = 80 y = 0 }
+                position = { x = 115 y = 0 }
                 slotsize = { width = 120 height = 120 }
                 format = "LEFT"
             }
@@ -722,81 +722,81 @@ guiTypes = {
             iconType = {
                 name ="centre_arrow_1"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=155 }
+                position = { x=390 y=155 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_2"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=275 }
+                position = { x=390 y=275 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_3"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=395 }
+                position = { x=390 y=395 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_4"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=515 }
+                position = { x=390 y=515 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_5"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=635 }
+                position = { x=390 y=635 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_6"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=755 }
+                position = { x=390 y=755 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_7"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=875 }
+                position = { x=390 y=875 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_8"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=995 }
+                position = { x=390 y=995 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_9"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=1115 }
+                position = { x=390 y=1115 }
                 allwaystransparent = yes
             }
             
             iconType = {
                 name ="left_arrow_1"
                 spriteType = "GFX_tech_arrow_left"
-                position = { x=295 y=335 }
+                position = { x=330 y=335 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="left_arrow_2"
                 spriteType = "GFX_tech_arrow_left"
-                position = { x=295 y=815 }
+                position = { x=330 y=815 }
                 allwaystransparent = yes
             }
             
             iconType = {
                 name ="right_arrow_1"
                 spriteType = "GFX_tech_arrow_right"
-                position = { x=415 y=335 }
+                position = { x=450 y=335 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="right_arrow_2"
                 spriteType = "GFX_tech_arrow_right"
-                position = { x=415 y=815 }
+                position = { x=450 y=815 }
                 allwaystransparent = yes
             }
         }
@@ -849,7 +849,7 @@ guiTypes = {
             
             gridboxtype = {
                 name = "spellcaster_tech_1_tree"
-                position = { x = 80 y = 0 }
+                position = { x = 115 y = 0 }
                 slotsize = { width = 120 height = 120 }
                 format = "LEFT"
             }
@@ -858,81 +858,81 @@ guiTypes = {
             iconType = {
                 name ="centre_arrow_1"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=155 }
+                position = { x=390 y=155 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_2"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=275 }
+                position = { x=390 y=275 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_3"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=395 }
+                position = { x=390 y=395 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_4"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=515 }
+                position = { x=390 y=515 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_5"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=635 }
+                position = { x=390 y=635 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_6"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=755 }
+                position = { x=390 y=755 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_7"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=875 }
+                position = { x=390 y=875 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_8"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=995 }
+                position = { x=390 y=995 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_9"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=1115 }
+                position = { x=390 y=1115 }
                 allwaystransparent = yes
             }
             
             iconType = {
                 name ="left_arrow_1"
                 spriteType = "GFX_tech_arrow_left"
-                position = { x=295 y=335 }
+                position = { x=330 y=335 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="left_arrow_2"
                 spriteType = "GFX_tech_arrow_left"
-                position = { x=295 y=815 }
+                position = { x=330 y=815 }
                 allwaystransparent = yes
             }
             
             iconType = {
                 name ="right_arrow_1"
                 spriteType = "GFX_tech_arrow_right"
-                position = { x=415 y=335 }
+                position = { x=450 y=335 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="right_arrow_2"
                 spriteType = "GFX_tech_arrow_right"
-                position = { x=415 y=815 }
+                position = { x=450 y=815 }
                 allwaystransparent = yes
             }
         }
@@ -985,7 +985,7 @@ guiTypes = {
             
             gridboxtype = {
                 name = "archer_tech_1_tree"
-                position = { x = 80 y = 0 }
+                position = { x = 115 y = 0 }
                 slotsize = { width = 120 height = 120 }
                 format = "LEFT"
             }
@@ -994,81 +994,81 @@ guiTypes = {
             iconType = {
                 name ="centre_arrow_1"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=155 }
+                position = { x=390 y=155 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_2"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=275 }
+                position = { x=390 y=275 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_3"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=395 }
+                position = { x=390 y=395 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_4"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=515 }
+                position = { x=390 y=515 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_5"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=635 }
+                position = { x=390 y=635 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_6"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=755 }
+                position = { x=390 y=755 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_7"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=875 }
+                position = { x=390 y=875 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_8"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=995 }
+                position = { x=390 y=995 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_9"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=1115 }
+                position = { x=390 y=1115 }
                 allwaystransparent = yes
             }
             
             iconType = {
                 name ="left_arrow_1"
                 spriteType = "GFX_tech_arrow_left"
-                position = { x=295 y=335 }
+                position = { x=330 y=335 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="left_arrow_2"
                 spriteType = "GFX_tech_arrow_left"
-                position = { x=295 y=815 }
+                position = { x=330 y=815 }
                 allwaystransparent = yes
             }
             
             iconType = {
                 name ="right_arrow_1"
                 spriteType = "GFX_tech_arrow_right"
-                position = { x=415 y=335 }
+                position = { x=450 y=335 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="right_arrow_2"
                 spriteType = "GFX_tech_arrow_right"
-                position = { x=415 y=815 }
+                position = { x=450 y=815 }
                 allwaystransparent = yes
             }
         }
@@ -1121,7 +1121,7 @@ guiTypes = {
             
             gridboxtype = {
                 name = "war_engine_tech_1_tree"
-                position = { x = 80 y = 0 }
+                position = { x = 115 y = 0 }
                 slotsize = { width = 120 height = 120 }
                 format = "LEFT"
             }
@@ -1130,81 +1130,81 @@ guiTypes = {
             iconType = {
                 name ="centre_arrow_1"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=155 }
+                position = { x=390 y=155 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_2"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=275 }
+                position = { x=390 y=275 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_3"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=395 }
+                position = { x=390 y=395 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_4"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=515 }
+                position = { x=390 y=515 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_5"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=635 }
+                position = { x=390 y=635 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_6"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=755 }
+                position = { x=390 y=755 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_7"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=875 }
+                position = { x=390 y=875 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_8"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=995 }
+                position = { x=390 y=995 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_9"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=1115 }
+                position = { x=390 y=1115 }
                 allwaystransparent = yes
             }
             
             iconType = {
                 name ="left_arrow_1"
                 spriteType = "GFX_tech_arrow_left"
-                position = { x=295 y=335 }
+                position = { x=330 y=335 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="left_arrow_2"
                 spriteType = "GFX_tech_arrow_left"
-                position = { x=295 y=815 }
+                position = { x=330 y=815 }
                 allwaystransparent = yes
             }
             
             iconType = {
                 name ="right_arrow_1"
                 spriteType = "GFX_tech_arrow_right"
-                position = { x=415 y=335 }
+                position = { x=450 y=335 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="right_arrow_2"
                 spriteType = "GFX_tech_arrow_right"
-                position = { x=415 y=815 }
+                position = { x=450 y=815 }
                 allwaystransparent = yes
             }
         }
@@ -1257,63 +1257,63 @@ guiTypes = {
             
             gridboxtype = {
                 name = "war_engine_support_tech_1_tree"
-                position = { x = 80 y = 0 }
+                position = { x = 115 y = 0 }
                 slotsize = { width = 120 height = 120 }
                 format = "LEFT"
             }
             
             gridboxtype = {
                 name = "archer_support_tech_1_tree"
-                position = { x = 80 y = 0 }
+                position = { x = 115 y = 0 }
                 slotsize = { width = 120 height = 120 }
                 format = "LEFT"
             }
             
             gridboxtype = {
                 name = "spellcaster_support_tech_1_tree"
-                position = { x = 80 y = 0 }
+                position = { x = 115 y = 0 }
                 slotsize = { width = 120 height = 120 }
                 format = "LEFT"
             }
             
             gridboxtype = {
                 name = "logistics_support_tech_1_tree"
-                position = { x = 80 y = 0 }
+                position = { x = 115 y = 0 }
                 slotsize = { width = 120 height = 120 }
                 format = "LEFT"
             }
             
             gridboxtype = {
                 name = "guard_support_tech_1_tree"
-                position = { x = 80 y = 0 }
+                position = { x = 115 y = 0 }
                 slotsize = { width = 120 height = 120 }
                 format = "LEFT"
             }
             
             gridboxtype = {
                 name = "engineer_support_tech_1_tree"
-                position = { x = 80 y = 0 }
+                position = { x = 115 y = 0 }
                 slotsize = { width = 120 height = 120 }
                 format = "LEFT"
             }
             
             gridboxtype = {
                 name = "medic_support_tech_1_tree"
-                position = { x = 80 y = 0 }
+                position = { x = 115 y = 0 }
                 slotsize = { width = 120 height = 120 }
                 format = "LEFT"
             }
             
             gridboxtype = {
                 name = "scout_support_tech_1_tree"
-                position = { x = 80 y = 0 }
+                position = { x = 115 y = 0 }
                 slotsize = { width = 120 height = 120 }
                 format = "LEFT"
             }
             
             gridboxtype = {
                 name = "cavalry_support_tech_1_tree"
-                position = { x = 80 y = 0 }
+                position = { x = 115 y = 0 }
                 slotsize = { width = 120 height = 120 }
                 format = "LEFT"
             }
@@ -1321,225 +1321,225 @@ guiTypes = {
             iconType = {
                 name ="row_1_arrow_1"
                 spriteType = "GFX_tech_arrow_right"
-                position = { x=175 y=95 }
+                position = { x=210 y=95 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="row_1_arrow_2"
                 spriteType = "GFX_tech_arrow_right"
-                position = { x=295 y=95 }
+                position = { x=330 y=95 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="row_1_arrow_3"
                 spriteType = "GFX_tech_arrow_right"
-                position = { x=415 y=95 }
+                position = { x=450 y=95 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="row_1_arrow_4"
                 spriteType = "GFX_tech_arrow_right"
-                position = { x=535 y=95 }
+                position = { x=570 y=95 }
                 allwaystransparent = yes
             }
             
             iconType = {
                 name ="row_2_arrow_1"
                 spriteType = "GFX_tech_arrow_right"
-                position = { x=175 y=215 }
+                position = { x=210 y=215 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="row_2_arrow_2"
                 spriteType = "GFX_tech_arrow_right"
-                position = { x=295 y=215 }
+                position = { x=330 y=215 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="row_2_arrow_3"
                 spriteType = "GFX_tech_arrow_right"
-                position = { x=415 y=215 }
+                position = { x=450 y=215 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="row_2_arrow_4"
                 spriteType = "GFX_tech_arrow_right"
-                position = { x=535 y=215 }
+                position = { x=570 y=215 }
                 allwaystransparent = yes
             }
             
             iconType = {
                 name ="row_3_arrow_1"
                 spriteType = "GFX_tech_arrow_right"
-                position = { x=175 y=335 }
+                position = { x=210 y=335 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="row_3_arrow_2"
                 spriteType = "GFX_tech_arrow_right"
-                position = { x=295 y=335 }
+                position = { x=330 y=335 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="row_3_arrow_3"
                 spriteType = "GFX_tech_arrow_right"
-                position = { x=415 y=335 }
+                position = { x=450 y=335 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="row_3_arrow_4"
                 spriteType = "GFX_tech_arrow_right"
-                position = { x=535 y=335 }
+                position = { x=570 y=335 }
                 allwaystransparent = yes
             }
             
             iconType = {
                 name ="row_4_arrow_1"
                 spriteType = "GFX_tech_arrow_right"
-                position = { x=175 y=455 }
+                position = { x=210 y=455 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="row_4_arrow_2"
                 spriteType = "GFX_tech_arrow_right"
-                position = { x=295 y=455 }
+                position = { x=330 y=455 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="row_4_arrow_3"
                 spriteType = "GFX_tech_arrow_right"
-                position = { x=415 y=455 }
+                position = { x=450 y=455 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="row_4_arrow_4"
                 spriteType = "GFX_tech_arrow_right"
-                position = { x=535 y=455 }
+                position = { x=570 y=455 }
                 allwaystransparent = yes
             }
             
             iconType = {
                 name ="row_5_arrow_1"
                 spriteType = "GFX_tech_arrow_right"
-                position = { x=175 y=575 }
+                position = { x=210 y=575 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="row_5_arrow_2"
                 spriteType = "GFX_tech_arrow_right"
-                position = { x=295 y=575 }
+                position = { x=330 y=575 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="row_5_arrow_3"
                 spriteType = "GFX_tech_arrow_right"
-                position = { x=415 y=575 }
+                position = { x=450 y=575 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="row_5_arrow_4"
                 spriteType = "GFX_tech_arrow_right"
-                position = { x=535 y=575 }
+                position = { x=570 y=575 }
                 allwaystransparent = yes
             }
             
             iconType = {
                 name ="row_6_arrow_1"
                 spriteType = "GFX_tech_arrow_right"
-                position = { x=175 y=695 }
+                position = { x=210 y=695 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="row_6_arrow_2"
                 spriteType = "GFX_tech_arrow_right"
-                position = { x=295 y=695 }
+                position = { x=330 y=695 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="row_6_arrow_3"
                 spriteType = "GFX_tech_arrow_right"
-                position = { x=415 y=695 }
+                position = { x=450 y=695 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="row_6_arrow_4"
                 spriteType = "GFX_tech_arrow_right"
-                position = { x=535 y=695 }
+                position = { x=570 y=695 }
                 allwaystransparent = yes
             }
             
             iconType = {
                 name ="row_7_arrow_1"
                 spriteType = "GFX_tech_arrow_right"
-                position = { x=175 y=815 }
+                position = { x=210 y=815 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="row_7_arrow_2"
                 spriteType = "GFX_tech_arrow_right"
-                position = { x=295 y=815 }
+                position = { x=330 y=815 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="row_7_arrow_3"
                 spriteType = "GFX_tech_arrow_right"
-                position = { x=415 y=815 }
+                position = { x=450 y=815 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="row_7_arrow_4"
                 spriteType = "GFX_tech_arrow_right"
-                position = { x=535 y=815 }
+                position = { x=570 y=815 }
                 allwaystransparent = yes
             }
             
             iconType = {
                 name ="row_8_arrow_1"
                 spriteType = "GFX_tech_arrow_right"
-                position = { x=175 y=935 }
+                position = { x=210 y=935 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="row_8_arrow_2"
                 spriteType = "GFX_tech_arrow_right"
-                position = { x=295 y=935 }
+                position = { x=330 y=935 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="row_8_arrow_3"
                 spriteType = "GFX_tech_arrow_right"
-                position = { x=415 y=935 }
+                position = { x=450 y=935 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="row_8_arrow_4"
                 spriteType = "GFX_tech_arrow_right"
-                position = { x=535 y=935 }
+                position = { x=570 y=935 }
                 allwaystransparent = yes
             }
             
             iconType = {
                 name ="row_9_arrow_1"
                 spriteType = "GFX_tech_arrow_right"
-                position = { x=175 y=1055 }
+                position = { x=210 y=1055 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="row_9_arrow_2"
                 spriteType = "GFX_tech_arrow_right"
-                position = { x=295 y=1055 }
+                position = { x=330 y=1055 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="row_9_arrow_3"
                 spriteType = "GFX_tech_arrow_right"
-                position = { x=415 y=1055 }
+                position = { x=450 y=1055 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="row_9_arrow_4"
                 spriteType = "GFX_tech_arrow_right"
-                position = { x=535 y=1055 }
+                position = { x=570 y=1055 }
                 allwaystransparent = yes
             }
         }
@@ -1592,7 +1592,7 @@ guiTypes = {
             
             gridboxtype = {
                 name = "light_cavalry_tech_1_tree"
-                position = { x = 80 y = 0 }
+                position = { x = 115 y = 0 }
                 slotsize = { width = 120 height = 120 }
                 format = "LEFT"
             }
@@ -1601,81 +1601,81 @@ guiTypes = {
             iconType = {
                 name ="centre_arrow_1"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=155 }
+                position = { x=390 y=155 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_2"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=275 }
+                position = { x=390 y=275 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_3"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=395 }
+                position = { x=390 y=395 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_4"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=515 }
+                position = { x=390 y=515 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_5"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=635 }
+                position = { x=390 y=635 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_6"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=755 }
+                position = { x=390 y=755 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_7"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=875 }
+                position = { x=390 y=875 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_8"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=995 }
+                position = { x=390 y=995 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_9"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=1115 }
+                position = { x=390 y=1115 }
                 allwaystransparent = yes
             }
             
             iconType = {
                 name ="left_arrow_1"
                 spriteType = "GFX_tech_arrow_left"
-                position = { x=295 y=335 }
+                position = { x=330 y=335 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="left_arrow_2"
                 spriteType = "GFX_tech_arrow_left"
-                position = { x=295 y=815 }
+                position = { x=330 y=815 }
                 allwaystransparent = yes
             }
             
             iconType = {
                 name ="right_arrow_1"
                 spriteType = "GFX_tech_arrow_right"
-                position = { x=415 y=335 }
+                position = { x=450 y=335 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="right_arrow_2"
                 spriteType = "GFX_tech_arrow_right"
-                position = { x=415 y=815 }
+                position = { x=450 y=815 }
                 allwaystransparent = yes
             }
         }
@@ -1728,7 +1728,7 @@ guiTypes = {
             
             gridboxtype = {
                 name = "heavy_cavalry_tech_1_tree"
-                position = { x = 80 y = 0 }
+                position = { x = 115 y = 0 }
                 slotsize = { width = 120 height = 120 }
                 format = "LEFT"
             }
@@ -1737,81 +1737,81 @@ guiTypes = {
             iconType = {
                 name ="centre_arrow_1"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=155 }
+                position = { x=390 y=155 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_2"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=275 }
+                position = { x=390 y=275 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_3"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=395 }
+                position = { x=390 y=395 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_4"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=515 }
+                position = { x=390 y=515 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_5"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=635 }
+                position = { x=390 y=635 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_6"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=755 }
+                position = { x=390 y=755 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_7"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=875 }
+                position = { x=390 y=875 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_8"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=995 }
+                position = { x=390 y=995 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_9"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=1115 }
+                position = { x=390 y=1115 }
                 allwaystransparent = yes
             }
             
             iconType = {
                 name ="left_arrow_1"
                 spriteType = "GFX_tech_arrow_left"
-                position = { x=295 y=335 }
+                position = { x=330 y=335 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="left_arrow_2"
                 spriteType = "GFX_tech_arrow_left"
-                position = { x=295 y=815 }
+                position = { x=330 y=815 }
                 allwaystransparent = yes
             }
             
             iconType = {
                 name ="right_arrow_1"
                 spriteType = "GFX_tech_arrow_right"
-                position = { x=415 y=335 }
+                position = { x=450 y=335 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="right_arrow_2"
                 spriteType = "GFX_tech_arrow_right"
-                position = { x=415 y=815 }
+                position = { x=450 y=815 }
                 allwaystransparent = yes
             }
         }
@@ -1864,7 +1864,7 @@ guiTypes = {
             
             gridboxtype = {
                 name = "light_tank_tech_1_tree"
-                position = { x = 80 y = 0 }
+                position = { x = 115 y = 0 }
                 slotsize = { width = 120 height = 120 }
                 format = "LEFT"
             }
@@ -1873,81 +1873,81 @@ guiTypes = {
             iconType = {
                 name ="centre_arrow_1"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=155 }
+                position = { x=390 y=155 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_2"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=275 }
+                position = { x=390 y=275 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_3"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=395 }
+                position = { x=390 y=395 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_4"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=515 }
+                position = { x=390 y=515 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_5"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=635 }
+                position = { x=390 y=635 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_6"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=755 }
+                position = { x=390 y=755 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_7"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=875 }
+                position = { x=390 y=875 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_8"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=995 }
+                position = { x=390 y=995 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_9"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=1115 }
+                position = { x=390 y=1115 }
                 allwaystransparent = yes
             }
             
             iconType = {
                 name ="left_arrow_1"
                 spriteType = "GFX_tech_arrow_left"
-                position = { x=295 y=335 }
+                position = { x=330 y=335 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="left_arrow_2"
                 spriteType = "GFX_tech_arrow_left"
-                position = { x=295 y=815 }
+                position = { x=330 y=815 }
                 allwaystransparent = yes
             }
             
             iconType = {
                 name ="right_arrow_1"
                 spriteType = "GFX_tech_arrow_right"
-                position = { x=415 y=335 }
+                position = { x=450 y=335 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="right_arrow_2"
                 spriteType = "GFX_tech_arrow_right"
-                position = { x=415 y=815 }
+                position = { x=450 y=815 }
                 allwaystransparent = yes
             }
         }
@@ -2000,7 +2000,7 @@ guiTypes = {
             
             gridboxtype = {
                 name = "heavy_tank_tech_1_tree"
-                position = { x = 80 y = 0 }
+                position = { x = 115 y = 0 }
                 slotsize = { width = 120 height = 120 }
                 format = "LEFT"
             }
@@ -2009,81 +2009,81 @@ guiTypes = {
             iconType = {
                 name ="centre_arrow_1"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=155 }
+                position = { x=390 y=155 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_2"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=275 }
+                position = { x=390 y=275 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_3"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=395 }
+                position = { x=390 y=395 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_4"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=515 }
+                position = { x=390 y=515 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_5"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=635 }
+                position = { x=390 y=635 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_6"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=755 }
+                position = { x=390 y=755 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_7"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=875 }
+                position = { x=390 y=875 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_8"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=995 }
+                position = { x=390 y=995 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_9"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=1115 }
+                position = { x=390 y=1115 }
                 allwaystransparent = yes
             }
             
             iconType = {
                 name ="left_arrow_1"
                 spriteType = "GFX_tech_arrow_left"
-                position = { x=295 y=335 }
+                position = { x=330 y=335 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="left_arrow_2"
                 spriteType = "GFX_tech_arrow_left"
-                position = { x=295 y=815 }
+                position = { x=330 y=815 }
                 allwaystransparent = yes
             }
             
             iconType = {
                 name ="right_arrow_1"
                 spriteType = "GFX_tech_arrow_right"
-                position = { x=415 y=335 }
+                position = { x=450 y=335 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="right_arrow_2"
                 spriteType = "GFX_tech_arrow_right"
-                position = { x=415 y=815 }
+                position = { x=450 y=815 }
                 allwaystransparent = yes
             }
         }
@@ -2136,7 +2136,7 @@ guiTypes = {
             
             gridboxtype = {
                 name = "motorized_infantry_tech_1_tree"
-                position = { x = 80 y = 0 }
+                position = { x = 115 y = 0 }
                 slotsize = { width = 120 height = 120 }
                 format = "LEFT"
             }
@@ -2145,81 +2145,81 @@ guiTypes = {
             iconType = {
                 name ="centre_arrow_1"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=155 }
+                position = { x=390 y=155 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_2"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=275 }
+                position = { x=390 y=275 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_3"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=395 }
+                position = { x=390 y=395 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_4"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=515 }
+                position = { x=390 y=515 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_5"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=635 }
+                position = { x=390 y=635 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_6"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=755 }
+                position = { x=390 y=755 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_7"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=875 }
+                position = { x=390 y=875 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_8"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=995 }
+                position = { x=390 y=995 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_9"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=1115 }
+                position = { x=390 y=1115 }
                 allwaystransparent = yes
             }
             
             iconType = {
                 name ="left_arrow_1"
                 spriteType = "GFX_tech_arrow_left"
-                position = { x=295 y=335 }
+                position = { x=330 y=335 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="left_arrow_2"
                 spriteType = "GFX_tech_arrow_left"
-                position = { x=295 y=815 }
+                position = { x=330 y=815 }
                 allwaystransparent = yes
             }
             
             iconType = {
                 name ="right_arrow_1"
                 spriteType = "GFX_tech_arrow_right"
-                position = { x=415 y=335 }
+                position = { x=450 y=335 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="right_arrow_2"
                 spriteType = "GFX_tech_arrow_right"
-                position = { x=415 y=815 }
+                position = { x=450 y=815 }
                 allwaystransparent = yes
             }
         }
@@ -2272,19 +2272,19 @@ guiTypes = {
             
             gridboxtype = {
                 name = "marine_tech_1_tree"
-                position = { x = 80 y = 0 }
+                position = { x = 115 y = 0 }
                 slotsize = { width = 120 height = 120 }
                 format = "LEFT"
             }
             gridboxtype = {
                 name = "mountaineer_tech_1_tree"
-                position = { x = 80 y = 0 }
+                position = { x = 115 y = 0 }
                 slotsize = { width = 120 height = 120 }
                 format = "LEFT"
             }
             gridboxtype = {
                 name = "paratrooper_tech_1_tree"
-                position = { x = 80 y = 0 }
+                position = { x = 115 y = 0 }
                 slotsize = { width = 120 height = 120 }
                 format = "LEFT"
             }
@@ -2292,38 +2292,38 @@ guiTypes = {
             iconType = {
                 name ="centre_arrow_1"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=155 }
+                position = { x=390 y=155 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_2"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=275 }
+                position = { x=390 y=275 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_3"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=395 }
+                position = { x=390 y=395 }
                 allwaystransparent = yes
             }
             
             iconType = {
                 name ="left_arrow_1"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=235 y=155 }
+                position = { x=270 y=155 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="left_arrow_2"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=235 y=275 }
+                position = { x=270 y=275 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="left_arrow_3"
                 spriteType = "GFX_tech_arrow_right_down"
-                position = { x=295 y=395 }
+                position = { x=330 y=395 }
                 allwaystransparent = yes
                 scale = 1
             }
@@ -2331,19 +2331,19 @@ guiTypes = {
             iconType = {
                 name ="right_arrow_1"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=475 y=155 }
+                position = { x=510 y=155 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="right_arrow_2"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=475 y=275 }
+                position = { x=510 y=275 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="right_arrow_3"
                 spriteType = "GFX_tech_arrow_left_down"
-                position = { x=415 y=395 }
+                position = { x=450 y=395 }
                 allwaystransparent = yes
                 scale = 1
             }
@@ -2351,14 +2351,14 @@ guiTypes = {
             iconType = {
                 name ="final_arrow_1"
                 spriteType = "GFX_tech_arrow_left_down"
-                position = { x=295 y=515 }
+                position = { x=330 y=515 }
                 allwaystransparent = yes
                 scale = 1
             }
             iconType = {
                 name ="final_arrow_2"
                 spriteType = "GFX_tech_arrow_right_down"
-                position = { x=415 y=515 }
+                position = { x=450 y=515 }
                 allwaystransparent = yes
                 scale = 1
             }
@@ -2413,9 +2413,159 @@ guiTypes = {
             
             gridboxtype = {
                 name = "vanquisher_doctrine_tech_1_tree"
-                position = { x = 80 y = 0 }
+                position = { x = 115 y = 0 }
                 slotsize = { width = 120 height = 120 }
                 format = "LEFT"
+            }
+            
+            # Left
+            iconType = {
+                name ="branch_1_centre_arrow_1"
+                spriteType = "GFX_tech_arrow_left_down"
+                position = { x=330 y=155 }
+                allwaystransparent = yes
+            }
+            iconType = {
+                name ="branch_1_centre_arrow_2"
+                spriteType = "GFX_tech_arrow_down"
+                position = { x=270 y=275 }
+                allwaystransparent = yes
+            }
+            iconType = {
+                name ="branch_1_centre_arrow_3"
+                spriteType = "GFX_tech_arrow_down"
+                position = { x=270 y=395 }
+                allwaystransparent = yes
+            }
+            iconType = {
+                name ="branch_1_centre_arrow_4"
+                spriteType = "GFX_tech_arrow_down"
+                position = { x=270 y=515 }
+                allwaystransparent = yes
+            }
+            iconType = {
+                name ="branch_1_centre_arrow_5"
+                spriteType = "GFX_tech_arrow_down"
+                position = { x=270 y=635 }
+                allwaystransparent = yes
+            }
+            iconType = {
+                name ="branch_1_centre_arrow_6"
+                spriteType = "GFX_tech_arrow_down"
+                position = { x=270 y=755 }
+                allwaystransparent = yes
+            }
+            iconType = {
+                name ="branch_1_centre_arrow_7"
+                spriteType = "GFX_tech_arrow_down"
+                position = { x=270 y=875 }
+                allwaystransparent = yes
+            }
+            iconType = {
+                name ="branch_1_centre_arrow_8"
+                spriteType = "GFX_tech_arrow_down"
+                position = { x=270 y=995 }
+                allwaystransparent = yes
+            }
+            
+            iconType = {
+                name ="branch_1_left_arrow_1"
+                spriteType = "GFX_tech_arrow_left_down"
+                position = { x=210 y=635 }
+                allwaystransparent = yes
+            }
+            iconType = {
+                name ="branch_1_left_arrow_2"
+                spriteType = "GFX_tech_arrow_down"
+                position = { x=150 y=755 }
+                allwaystransparent = yes
+            }
+            iconType = {
+                name ="branch_1_left_arrow_3"
+                spriteType = "GFX_tech_arrow_down"
+                position = { x=150 y=875 }
+                allwaystransparent = yes
+            }
+            iconType = {
+                name ="branch_1_left_arrow_4"
+                spriteType = "GFX_tech_arrow_down"
+                position = { x=150 y=995 }
+                allwaystransparent = yes
+            }
+            
+            # Right
+            iconType = {
+                name ="branch_2_centre_arrow_1"
+                spriteType = "GFX_tech_arrow_right_down"
+                position = { x=450 y=155 }
+                allwaystransparent = yes
+            }
+            iconType = {
+                name ="branch_2_centre_arrow_2"
+                spriteType = "GFX_tech_arrow_down"
+                position = { x=510 y=275 }
+                allwaystransparent = yes
+            }
+            iconType = {
+                name ="branch_2_centre_arrow_3"
+                spriteType = "GFX_tech_arrow_down"
+                position = { x=510 y=395 }
+                allwaystransparent = yes
+            }
+            iconType = {
+                name ="branch_2_centre_arrow_4"
+                spriteType = "GFX_tech_arrow_down"
+                position = { x=510 y=515 }
+                allwaystransparent = yes
+            }
+            iconType = {
+                name ="branch_2_centre_arrow_5"
+                spriteType = "GFX_tech_arrow_down"
+                position = { x=510 y=635 }
+                allwaystransparent = yes
+            }
+            iconType = {
+                name ="branch_2_centre_arrow_6"
+                spriteType = "GFX_tech_arrow_down"
+                position = { x=510 y=755 }
+                allwaystransparent = yes
+            }
+            iconType = {
+                name ="branch_2_centre_arrow_7"
+                spriteType = "GFX_tech_arrow_down"
+                position = { x=510 y=875 }
+                allwaystransparent = yes
+            }
+            iconType = {
+                name ="branch_2_centre_arrow_8"
+                spriteType = "GFX_tech_arrow_down"
+                position = { x=510 y=995 }
+                allwaystransparent = yes
+            }
+            
+            iconType = {
+                name ="branch_2_left_arrow_1"
+                spriteType = "GFX_tech_arrow_right_down"
+                position = { x=570 y=635 }
+                allwaystransparent = yes
+            }
+            iconType = {
+                name ="branch_2_left_arrow_2"
+                spriteType = "GFX_tech_arrow_down"
+                position = { x=630 y=755 }
+                allwaystransparent = yes
+            }
+            iconType = {
+                name ="branch_2_left_arrow_3"
+                spriteType = "GFX_tech_arrow_down"
+                position = { x=630 y=875 }
+                allwaystransparent = yes
+            }
+            iconType = {
+                name ="branch_2_left_arrow_4"
+                spriteType = "GFX_tech_arrow_down"
+                position = { x=630 y=995 }
+                allwaystransparent = yes
             }
         }
         
@@ -2468,9 +2618,159 @@ guiTypes = {
             
             gridboxtype = {
                 name = "aegis_doctrine_tech_1_tree"
-                position = { x = 80 y = 0 }
+                position = { x = 115 y = 0 }
                 slotsize = { width = 120 height = 120 }
                 format = "LEFT"
+            }
+            
+            # Left
+            iconType = {
+                name ="branch_1_centre_arrow_1"
+                spriteType = "GFX_tech_arrow_left_down"
+                position = { x=330 y=155 }
+                allwaystransparent = yes
+            }
+            iconType = {
+                name ="branch_1_centre_arrow_2"
+                spriteType = "GFX_tech_arrow_down"
+                position = { x=270 y=275 }
+                allwaystransparent = yes
+            }
+            iconType = {
+                name ="branch_1_centre_arrow_3"
+                spriteType = "GFX_tech_arrow_down"
+                position = { x=270 y=395 }
+                allwaystransparent = yes
+            }
+            iconType = {
+                name ="branch_1_centre_arrow_4"
+                spriteType = "GFX_tech_arrow_down"
+                position = { x=270 y=515 }
+                allwaystransparent = yes
+            }
+            iconType = {
+                name ="branch_1_centre_arrow_5"
+                spriteType = "GFX_tech_arrow_down"
+                position = { x=270 y=635 }
+                allwaystransparent = yes
+            }
+            iconType = {
+                name ="branch_1_centre_arrow_6"
+                spriteType = "GFX_tech_arrow_down"
+                position = { x=270 y=755 }
+                allwaystransparent = yes
+            }
+            iconType = {
+                name ="branch_1_centre_arrow_7"
+                spriteType = "GFX_tech_arrow_down"
+                position = { x=270 y=875 }
+                allwaystransparent = yes
+            }
+            iconType = {
+                name ="branch_1_centre_arrow_8"
+                spriteType = "GFX_tech_arrow_down"
+                position = { x=270 y=995 }
+                allwaystransparent = yes
+            }
+            
+            iconType = {
+                name ="branch_1_left_arrow_1"
+                spriteType = "GFX_tech_arrow_left_down"
+                position = { x=210 y=635 }
+                allwaystransparent = yes
+            }
+            iconType = {
+                name ="branch_1_left_arrow_2"
+                spriteType = "GFX_tech_arrow_down"
+                position = { x=150 y=755 }
+                allwaystransparent = yes
+            }
+            iconType = {
+                name ="branch_1_left_arrow_3"
+                spriteType = "GFX_tech_arrow_down"
+                position = { x=150 y=875 }
+                allwaystransparent = yes
+            }
+            iconType = {
+                name ="branch_1_left_arrow_4"
+                spriteType = "GFX_tech_arrow_down"
+                position = { x=150 y=995 }
+                allwaystransparent = yes
+            }
+            
+            # Right
+            iconType = {
+                name ="branch_2_centre_arrow_1"
+                spriteType = "GFX_tech_arrow_right_down"
+                position = { x=450 y=155 }
+                allwaystransparent = yes
+            }
+            iconType = {
+                name ="branch_2_centre_arrow_2"
+                spriteType = "GFX_tech_arrow_down"
+                position = { x=510 y=275 }
+                allwaystransparent = yes
+            }
+            iconType = {
+                name ="branch_2_centre_arrow_3"
+                spriteType = "GFX_tech_arrow_down"
+                position = { x=510 y=395 }
+                allwaystransparent = yes
+            }
+            iconType = {
+                name ="branch_2_centre_arrow_4"
+                spriteType = "GFX_tech_arrow_down"
+                position = { x=510 y=515 }
+                allwaystransparent = yes
+            }
+            iconType = {
+                name ="branch_2_centre_arrow_5"
+                spriteType = "GFX_tech_arrow_down"
+                position = { x=510 y=635 }
+                allwaystransparent = yes
+            }
+            iconType = {
+                name ="branch_2_centre_arrow_6"
+                spriteType = "GFX_tech_arrow_down"
+                position = { x=510 y=755 }
+                allwaystransparent = yes
+            }
+            iconType = {
+                name ="branch_2_centre_arrow_7"
+                spriteType = "GFX_tech_arrow_down"
+                position = { x=510 y=875 }
+                allwaystransparent = yes
+            }
+            iconType = {
+                name ="branch_2_centre_arrow_8"
+                spriteType = "GFX_tech_arrow_down"
+                position = { x=510 y=995 }
+                allwaystransparent = yes
+            }
+            
+            iconType = {
+                name ="branch_2_left_arrow_1"
+                spriteType = "GFX_tech_arrow_right_down"
+                position = { x=570 y=635 }
+                allwaystransparent = yes
+            }
+            iconType = {
+                name ="branch_2_left_arrow_2"
+                spriteType = "GFX_tech_arrow_down"
+                position = { x=630 y=755 }
+                allwaystransparent = yes
+            }
+            iconType = {
+                name ="branch_2_left_arrow_3"
+                spriteType = "GFX_tech_arrow_down"
+                position = { x=630 y=875 }
+                allwaystransparent = yes
+            }
+            iconType = {
+                name ="branch_2_left_arrow_4"
+                spriteType = "GFX_tech_arrow_down"
+                position = { x=630 y=995 }
+                allwaystransparent = yes
             }
         }
         
@@ -2523,7 +2823,7 @@ guiTypes = {
             
             gridboxtype = {
                 name = "battleship_tech_1_tree"
-                position = { x = 80 y = 0 }
+                position = { x = 115 y = 0 }
                 slotsize = { width = 120 height = 120 }
                 format = "LEFT"
             }
@@ -2532,81 +2832,81 @@ guiTypes = {
             iconType = {
                 name ="centre_arrow_1"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=155 }
+                position = { x=390 y=155 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_2"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=275 }
+                position = { x=390 y=275 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_3"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=395 }
+                position = { x=390 y=395 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_4"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=515 }
+                position = { x=390 y=515 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_5"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=635 }
+                position = { x=390 y=635 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_6"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=755 }
+                position = { x=390 y=755 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_7"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=875 }
+                position = { x=390 y=875 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_8"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=995 }
+                position = { x=390 y=995 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_9"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=1115 }
+                position = { x=390 y=1115 }
                 allwaystransparent = yes
             }
             
             iconType = {
                 name ="left_arrow_1"
                 spriteType = "GFX_tech_arrow_left"
-                position = { x=295 y=335 }
+                position = { x=330 y=335 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="left_arrow_2"
                 spriteType = "GFX_tech_arrow_left"
-                position = { x=295 y=815 }
+                position = { x=330 y=815 }
                 allwaystransparent = yes
             }
             
             iconType = {
                 name ="right_arrow_1"
                 spriteType = "GFX_tech_arrow_right"
-                position = { x=415 y=335 }
+                position = { x=450 y=335 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="right_arrow_2"
                 spriteType = "GFX_tech_arrow_right"
-                position = { x=415 y=815 }
+                position = { x=450 y=815 }
                 allwaystransparent = yes
             }
         }
@@ -2660,7 +2960,7 @@ guiTypes = {
             
             gridboxtype = {
                 name = "mtg_battleship_tech_1_tree"
-                position = { x = 80 y = 0 }
+                position = { x = 115 y = 0 }
                 slotsize = { width = 120 height = 120 }
                 format = "LEFT"
             }
@@ -2669,81 +2969,81 @@ guiTypes = {
             iconType = {
                 name ="centre_arrow_1"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=155 }
+                position = { x=390 y=155 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_2"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=275 }
+                position = { x=390 y=275 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_3"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=395 }
+                position = { x=390 y=395 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_4"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=515 }
+                position = { x=390 y=515 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_5"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=635 }
+                position = { x=390 y=635 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_6"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=755 }
+                position = { x=390 y=755 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_7"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=875 }
+                position = { x=390 y=875 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_8"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=995 }
+                position = { x=390 y=995 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_9"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=1115 }
+                position = { x=390 y=1115 }
                 allwaystransparent = yes
             }
             
             iconType = {
                 name ="left_arrow_1"
                 spriteType = "GFX_tech_arrow_left"
-                position = { x=295 y=335 }
+                position = { x=330 y=335 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="left_arrow_2"
                 spriteType = "GFX_tech_arrow_left"
-                position = { x=295 y=815 }
+                position = { x=330 y=815 }
                 allwaystransparent = yes
             }
             
             iconType = {
                 name ="right_arrow_1"
                 spriteType = "GFX_tech_arrow_right"
-                position = { x=415 y=335 }
+                position = { x=450 y=335 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="right_arrow_2"
                 spriteType = "GFX_tech_arrow_right"
-                position = { x=415 y=815 }
+                position = { x=450 y=815 }
                 allwaystransparent = yes
             }
         }
@@ -2797,7 +3097,7 @@ guiTypes = {
             
             gridboxtype = {
                 name = "cruiser_tech_1_tree"
-                position = { x = 80 y = 0 }
+                position = { x = 115 y = 0 }
                 slotsize = { width = 120 height = 120 }
                 format = "LEFT"
             }
@@ -2806,81 +3106,81 @@ guiTypes = {
             iconType = {
                 name ="centre_arrow_1"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=155 }
+                position = { x=390 y=155 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_2"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=275 }
+                position = { x=390 y=275 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_3"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=395 }
+                position = { x=390 y=395 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_4"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=515 }
+                position = { x=390 y=515 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_5"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=635 }
+                position = { x=390 y=635 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_6"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=755 }
+                position = { x=390 y=755 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_7"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=875 }
+                position = { x=390 y=875 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_8"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=995 }
+                position = { x=390 y=995 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_9"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=1115 }
+                position = { x=390 y=1115 }
                 allwaystransparent = yes
             }
             
             iconType = {
                 name ="left_arrow_1"
                 spriteType = "GFX_tech_arrow_left"
-                position = { x=295 y=335 }
+                position = { x=330 y=335 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="left_arrow_2"
                 spriteType = "GFX_tech_arrow_left"
-                position = { x=295 y=815 }
+                position = { x=330 y=815 }
                 allwaystransparent = yes
             }
             
             iconType = {
                 name ="right_arrow_1"
                 spriteType = "GFX_tech_arrow_right"
-                position = { x=415 y=335 }
+                position = { x=450 y=335 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="right_arrow_2"
                 spriteType = "GFX_tech_arrow_right"
-                position = { x=415 y=815 }
+                position = { x=450 y=815 }
                 allwaystransparent = yes
             }
         }
@@ -2934,7 +3234,7 @@ guiTypes = {
             
             gridboxtype = {
                 name = "mtg_cruiser_tech_1_tree"
-                position = { x = 80 y = 0 }
+                position = { x = 115 y = 0 }
                 slotsize = { width = 120 height = 120 }
                 format = "LEFT"
             }
@@ -2943,81 +3243,81 @@ guiTypes = {
             iconType = {
                 name ="centre_arrow_1"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=155 }
+                position = { x=390 y=155 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_2"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=275 }
+                position = { x=390 y=275 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_3"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=395 }
+                position = { x=390 y=395 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_4"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=515 }
+                position = { x=390 y=515 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_5"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=635 }
+                position = { x=390 y=635 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_6"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=755 }
+                position = { x=390 y=755 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_7"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=875 }
+                position = { x=390 y=875 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_8"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=995 }
+                position = { x=390 y=995 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_9"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=1115 }
+                position = { x=390 y=1115 }
                 allwaystransparent = yes
             }
             
             iconType = {
                 name ="left_arrow_1"
                 spriteType = "GFX_tech_arrow_left"
-                position = { x=295 y=335 }
+                position = { x=330 y=335 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="left_arrow_2"
                 spriteType = "GFX_tech_arrow_left"
-                position = { x=295 y=815 }
+                position = { x=330 y=815 }
                 allwaystransparent = yes
             }
             
             iconType = {
                 name ="right_arrow_1"
                 spriteType = "GFX_tech_arrow_right"
-                position = { x=415 y=335 }
+                position = { x=450 y=335 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="right_arrow_2"
                 spriteType = "GFX_tech_arrow_right"
-                position = { x=415 y=815 }
+                position = { x=450 y=815 }
                 allwaystransparent = yes
             }
         }
@@ -3071,7 +3371,7 @@ guiTypes = {
             
             gridboxtype = {
                 name = "destroyer_tech_1_tree"
-                position = { x = 80 y = 0 }
+                position = { x = 115 y = 0 }
                 slotsize = { width = 120 height = 120 }
                 format = "LEFT"
             }
@@ -3080,81 +3380,81 @@ guiTypes = {
             iconType = {
                 name ="centre_arrow_1"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=155 }
+                position = { x=390 y=155 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_2"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=275 }
+                position = { x=390 y=275 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_3"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=395 }
+                position = { x=390 y=395 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_4"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=515 }
+                position = { x=390 y=515 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_5"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=635 }
+                position = { x=390 y=635 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_6"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=755 }
+                position = { x=390 y=755 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_7"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=875 }
+                position = { x=390 y=875 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_8"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=995 }
+                position = { x=390 y=995 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_9"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=1115 }
+                position = { x=390 y=1115 }
                 allwaystransparent = yes
             }
             
             iconType = {
                 name ="left_arrow_1"
                 spriteType = "GFX_tech_arrow_left"
-                position = { x=295 y=335 }
+                position = { x=330 y=335 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="left_arrow_2"
                 spriteType = "GFX_tech_arrow_left"
-                position = { x=295 y=815 }
+                position = { x=330 y=815 }
                 allwaystransparent = yes
             }
             
             iconType = {
                 name ="right_arrow_1"
                 spriteType = "GFX_tech_arrow_right"
-                position = { x=415 y=335 }
+                position = { x=450 y=335 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="right_arrow_2"
                 spriteType = "GFX_tech_arrow_right"
-                position = { x=415 y=815 }
+                position = { x=450 y=815 }
                 allwaystransparent = yes
             }
         }
@@ -3208,7 +3508,7 @@ guiTypes = {
             
             gridboxtype = {
                 name = "mtg_destroyer_tech_1_tree"
-                position = { x = 80 y = 0 }
+                position = { x = 115 y = 0 }
                 slotsize = { width = 120 height = 120 }
                 format = "LEFT"
             }
@@ -3217,81 +3517,81 @@ guiTypes = {
             iconType = {
                 name ="centre_arrow_1"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=155 }
+                position = { x=390 y=155 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_2"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=275 }
+                position = { x=390 y=275 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_3"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=395 }
+                position = { x=390 y=395 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_4"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=515 }
+                position = { x=390 y=515 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_5"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=635 }
+                position = { x=390 y=635 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_6"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=755 }
+                position = { x=390 y=755 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_7"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=875 }
+                position = { x=390 y=875 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_8"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=995 }
+                position = { x=390 y=995 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_9"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=1115 }
+                position = { x=390 y=1115 }
                 allwaystransparent = yes
             }
             
             iconType = {
                 name ="left_arrow_1"
                 spriteType = "GFX_tech_arrow_left"
-                position = { x=295 y=335 }
+                position = { x=330 y=335 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="left_arrow_2"
                 spriteType = "GFX_tech_arrow_left"
-                position = { x=295 y=815 }
+                position = { x=330 y=815 }
                 allwaystransparent = yes
             }
             
             iconType = {
                 name ="right_arrow_1"
                 spriteType = "GFX_tech_arrow_right"
-                position = { x=415 y=335 }
+                position = { x=450 y=335 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="right_arrow_2"
                 spriteType = "GFX_tech_arrow_right"
-                position = { x=415 y=815 }
+                position = { x=450 y=815 }
                 allwaystransparent = yes
             }
         }
@@ -3345,7 +3645,7 @@ guiTypes = {
             
             gridboxtype = {
                 name = "submarine_tech_1_tree"
-                position = { x = 80 y = 0 }
+                position = { x = 115 y = 0 }
                 slotsize = { width = 120 height = 120 }
                 format = "LEFT"
             }
@@ -3354,81 +3654,81 @@ guiTypes = {
             iconType = {
                 name ="centre_arrow_1"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=155 }
+                position = { x=390 y=155 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_2"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=275 }
+                position = { x=390 y=275 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_3"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=395 }
+                position = { x=390 y=395 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_4"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=515 }
+                position = { x=390 y=515 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_5"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=635 }
+                position = { x=390 y=635 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_6"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=755 }
+                position = { x=390 y=755 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_7"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=875 }
+                position = { x=390 y=875 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_8"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=995 }
+                position = { x=390 y=995 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_9"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=1115 }
+                position = { x=390 y=1115 }
                 allwaystransparent = yes
             }
             
             iconType = {
                 name ="left_arrow_1"
                 spriteType = "GFX_tech_arrow_left"
-                position = { x=295 y=335 }
+                position = { x=330 y=335 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="left_arrow_2"
                 spriteType = "GFX_tech_arrow_left"
-                position = { x=295 y=815 }
+                position = { x=330 y=815 }
                 allwaystransparent = yes
             }
             
             iconType = {
                 name ="right_arrow_1"
                 spriteType = "GFX_tech_arrow_right"
-                position = { x=415 y=335 }
+                position = { x=450 y=335 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="right_arrow_2"
                 spriteType = "GFX_tech_arrow_right"
-                position = { x=415 y=815 }
+                position = { x=450 y=815 }
                 allwaystransparent = yes
             }
         }
@@ -3482,7 +3782,7 @@ guiTypes = {
             
             gridboxtype = {
                 name = "mtg_submarine_tech_1_tree"
-                position = { x = 80 y = 0 }
+                position = { x = 115 y = 0 }
                 slotsize = { width = 120 height = 120 }
                 format = "LEFT"
             }
@@ -3491,81 +3791,81 @@ guiTypes = {
             iconType = {
                 name ="centre_arrow_1"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=155 }
+                position = { x=390 y=155 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_2"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=275 }
+                position = { x=390 y=275 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_3"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=395 }
+                position = { x=390 y=395 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_4"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=515 }
+                position = { x=390 y=515 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_5"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=635 }
+                position = { x=390 y=635 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_6"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=755 }
+                position = { x=390 y=755 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_7"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=875 }
+                position = { x=390 y=875 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_8"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=995 }
+                position = { x=390 y=995 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_9"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=1115 }
+                position = { x=390 y=1115 }
                 allwaystransparent = yes
             }
             
             iconType = {
                 name ="left_arrow_1"
                 spriteType = "GFX_tech_arrow_left"
-                position = { x=295 y=335 }
+                position = { x=330 y=335 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="left_arrow_2"
                 spriteType = "GFX_tech_arrow_left"
-                position = { x=295 y=815 }
+                position = { x=330 y=815 }
                 allwaystransparent = yes
             }
             
             iconType = {
                 name ="right_arrow_1"
                 spriteType = "GFX_tech_arrow_right"
-                position = { x=415 y=335 }
+                position = { x=450 y=335 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="right_arrow_2"
                 spriteType = "GFX_tech_arrow_right"
-                position = { x=415 y=815 }
+                position = { x=450 y=815 }
                 allwaystransparent = yes
             }
         }
@@ -3619,7 +3919,7 @@ guiTypes = {
             
             gridboxtype = {
                 name = "carrier_tech_1_tree"
-                position = { x = 80 y = 0 }
+                position = { x = 115 y = 0 }
                 slotsize = { width = 120 height = 120 }
                 format = "LEFT"
             }
@@ -3628,81 +3928,81 @@ guiTypes = {
             iconType = {
                 name ="centre_arrow_1"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=155 }
+                position = { x=390 y=155 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_2"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=275 }
+                position = { x=390 y=275 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_3"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=395 }
+                position = { x=390 y=395 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_4"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=515 }
+                position = { x=390 y=515 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_5"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=635 }
+                position = { x=390 y=635 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_6"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=755 }
+                position = { x=390 y=755 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_7"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=875 }
+                position = { x=390 y=875 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_8"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=995 }
+                position = { x=390 y=995 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_9"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=1115 }
+                position = { x=390 y=1115 }
                 allwaystransparent = yes
             }
             
             iconType = {
                 name ="left_arrow_1"
                 spriteType = "GFX_tech_arrow_left"
-                position = { x=295 y=335 }
+                position = { x=330 y=335 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="left_arrow_2"
                 spriteType = "GFX_tech_arrow_left"
-                position = { x=295 y=815 }
+                position = { x=330 y=815 }
                 allwaystransparent = yes
             }
             
             iconType = {
                 name ="right_arrow_1"
                 spriteType = "GFX_tech_arrow_right"
-                position = { x=415 y=335 }
+                position = { x=450 y=335 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="right_arrow_2"
                 spriteType = "GFX_tech_arrow_right"
-                position = { x=415 y=815 }
+                position = { x=450 y=815 }
                 allwaystransparent = yes
             }
         }
@@ -3756,7 +4056,7 @@ guiTypes = {
             
             gridboxtype = {
                 name = "mtg_carrier_tech_1_tree"
-                position = { x = 80 y = 0 }
+                position = { x = 115 y = 0 }
                 slotsize = { width = 120 height = 120 }
                 format = "LEFT"
             }
@@ -3765,81 +4065,81 @@ guiTypes = {
             iconType = {
                 name ="centre_arrow_1"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=155 }
+                position = { x=390 y=155 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_2"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=275 }
+                position = { x=390 y=275 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_3"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=395 }
+                position = { x=390 y=395 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_4"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=515 }
+                position = { x=390 y=515 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_5"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=635 }
+                position = { x=390 y=635 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_6"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=755 }
+                position = { x=390 y=755 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_7"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=875 }
+                position = { x=390 y=875 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_8"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=995 }
+                position = { x=390 y=995 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_9"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=1115 }
+                position = { x=390 y=1115 }
                 allwaystransparent = yes
             }
             
             iconType = {
                 name ="left_arrow_1"
                 spriteType = "GFX_tech_arrow_left"
-                position = { x=295 y=335 }
+                position = { x=330 y=335 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="left_arrow_2"
                 spriteType = "GFX_tech_arrow_left"
-                position = { x=295 y=815 }
+                position = { x=330 y=815 }
                 allwaystransparent = yes
             }
             
             iconType = {
                 name ="right_arrow_1"
                 spriteType = "GFX_tech_arrow_right"
-                position = { x=415 y=335 }
+                position = { x=450 y=335 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="right_arrow_2"
                 spriteType = "GFX_tech_arrow_right"
-                position = { x=415 y=815 }
+                position = { x=450 y=815 }
                 allwaystransparent = yes
             }
         }
@@ -3891,9 +4191,65 @@ guiTypes = {
                 }
             }
             
+            # Standard arrows
+            iconType = {
+                name ="centre_arrow_1"
+                spriteType = "GFX_tech_arrow_down"
+                position = { x=390 y=155 }
+                allwaystransparent = yes
+            }
+            iconType = {
+                name ="centre_arrow_2"
+                spriteType = "GFX_tech_arrow_down"
+                position = { x=390 y=275 }
+                allwaystransparent = yes
+            }
+            iconType = {
+                name ="centre_arrow_3"
+                spriteType = "GFX_tech_arrow_down"
+                position = { x=390 y=395 }
+                allwaystransparent = yes
+            }
+            iconType = {
+                name ="centre_arrow_4"
+                spriteType = "GFX_tech_arrow_down"
+                position = { x=390 y=515 }
+                allwaystransparent = yes
+            }
+            iconType = {
+                name ="centre_arrow_5"
+                spriteType = "GFX_tech_arrow_down"
+                position = { x=390 y=635 }
+                allwaystransparent = yes
+            }
+            iconType = {
+                name ="centre_arrow_6"
+                spriteType = "GFX_tech_arrow_down"
+                position = { x=390 y=755 }
+                allwaystransparent = yes
+            }
+            iconType = {
+                name ="centre_arrow_7"
+                spriteType = "GFX_tech_arrow_down"
+                position = { x=390 y=875 }
+                allwaystransparent = yes
+            }
+            iconType = {
+                name ="centre_arrow_8"
+                spriteType = "GFX_tech_arrow_down"
+                position = { x=390 y=995 }
+                allwaystransparent = yes
+            }
+            iconType = {
+                name ="centre_arrow_9"
+                spriteType = "GFX_tech_arrow_down"
+                position = { x=390 y=1115 }
+                allwaystransparent = yes
+            }
+
             gridboxtype = {
                 name = "naval_logistics_tech_1_tree"
-                position = { x = 80 y = 0 }
+                position = { x = 115 y = 0 }
                 slotsize = { width = 120 height = 120 }
                 format = "LEFT"
             }
@@ -3948,9 +4304,159 @@ guiTypes = {
             
             gridboxtype = {
                 name = "barrage_doctrine_tech_1_tree"
-                position = { x = 80 y = 0 }
+                position = { x = 115 y = 0 }
                 slotsize = { width = 120 height = 120 }
                 format = "LEFT"
+            }
+            
+            # Left
+            iconType = {
+                name ="branch_1_centre_arrow_1"
+                spriteType = "GFX_tech_arrow_left_down"
+                position = { x=330 y=155 }
+                allwaystransparent = yes
+            }
+            iconType = {
+                name ="branch_1_centre_arrow_2"
+                spriteType = "GFX_tech_arrow_down"
+                position = { x=270 y=275 }
+                allwaystransparent = yes
+            }
+            iconType = {
+                name ="branch_1_centre_arrow_3"
+                spriteType = "GFX_tech_arrow_down"
+                position = { x=270 y=395 }
+                allwaystransparent = yes
+            }
+            iconType = {
+                name ="branch_1_centre_arrow_4"
+                spriteType = "GFX_tech_arrow_down"
+                position = { x=270 y=515 }
+                allwaystransparent = yes
+            }
+            iconType = {
+                name ="branch_1_centre_arrow_5"
+                spriteType = "GFX_tech_arrow_down"
+                position = { x=270 y=635 }
+                allwaystransparent = yes
+            }
+            iconType = {
+                name ="branch_1_centre_arrow_6"
+                spriteType = "GFX_tech_arrow_down"
+                position = { x=270 y=755 }
+                allwaystransparent = yes
+            }
+            iconType = {
+                name ="branch_1_centre_arrow_7"
+                spriteType = "GFX_tech_arrow_down"
+                position = { x=270 y=875 }
+                allwaystransparent = yes
+            }
+            iconType = {
+                name ="branch_1_centre_arrow_8"
+                spriteType = "GFX_tech_arrow_down"
+                position = { x=270 y=995 }
+                allwaystransparent = yes
+            }
+            
+            iconType = {
+                name ="branch_1_left_arrow_1"
+                spriteType = "GFX_tech_arrow_left_down"
+                position = { x=210 y=635 }
+                allwaystransparent = yes
+            }
+            iconType = {
+                name ="branch_1_left_arrow_2"
+                spriteType = "GFX_tech_arrow_down"
+                position = { x=150 y=755 }
+                allwaystransparent = yes
+            }
+            iconType = {
+                name ="branch_1_left_arrow_3"
+                spriteType = "GFX_tech_arrow_down"
+                position = { x=150 y=875 }
+                allwaystransparent = yes
+            }
+            iconType = {
+                name ="branch_1_left_arrow_4"
+                spriteType = "GFX_tech_arrow_down"
+                position = { x=150 y=995 }
+                allwaystransparent = yes
+            }
+            
+            # Right
+            iconType = {
+                name ="branch_2_centre_arrow_1"
+                spriteType = "GFX_tech_arrow_right_down"
+                position = { x=450 y=155 }
+                allwaystransparent = yes
+            }
+            iconType = {
+                name ="branch_2_centre_arrow_2"
+                spriteType = "GFX_tech_arrow_down"
+                position = { x=510 y=275 }
+                allwaystransparent = yes
+            }
+            iconType = {
+                name ="branch_2_centre_arrow_3"
+                spriteType = "GFX_tech_arrow_down"
+                position = { x=510 y=395 }
+                allwaystransparent = yes
+            }
+            iconType = {
+                name ="branch_2_centre_arrow_4"
+                spriteType = "GFX_tech_arrow_down"
+                position = { x=510 y=515 }
+                allwaystransparent = yes
+            }
+            iconType = {
+                name ="branch_2_centre_arrow_5"
+                spriteType = "GFX_tech_arrow_down"
+                position = { x=510 y=635 }
+                allwaystransparent = yes
+            }
+            iconType = {
+                name ="branch_2_centre_arrow_6"
+                spriteType = "GFX_tech_arrow_down"
+                position = { x=510 y=755 }
+                allwaystransparent = yes
+            }
+            iconType = {
+                name ="branch_2_centre_arrow_7"
+                spriteType = "GFX_tech_arrow_down"
+                position = { x=510 y=875 }
+                allwaystransparent = yes
+            }
+            iconType = {
+                name ="branch_2_centre_arrow_8"
+                spriteType = "GFX_tech_arrow_down"
+                position = { x=510 y=995 }
+                allwaystransparent = yes
+            }
+            
+            iconType = {
+                name ="branch_2_left_arrow_1"
+                spriteType = "GFX_tech_arrow_right_down"
+                position = { x=570 y=635 }
+                allwaystransparent = yes
+            }
+            iconType = {
+                name ="branch_2_left_arrow_2"
+                spriteType = "GFX_tech_arrow_down"
+                position = { x=630 y=755 }
+                allwaystransparent = yes
+            }
+            iconType = {
+                name ="branch_2_left_arrow_3"
+                spriteType = "GFX_tech_arrow_down"
+                position = { x=630 y=875 }
+                allwaystransparent = yes
+            }
+            iconType = {
+                name ="branch_2_left_arrow_4"
+                spriteType = "GFX_tech_arrow_down"
+                position = { x=630 y=995 }
+                allwaystransparent = yes
             }
         }
         
@@ -4003,9 +4509,159 @@ guiTypes = {
             
             gridboxtype = {
                 name = "assault_doctrine_tech_1_tree"
-                position = { x = 80 y = 0 }
+                position = { x = 115 y = 0 }
                 slotsize = { width = 120 height = 120 }
                 format = "LEFT"
+            }
+            
+            # Left
+            iconType = {
+                name ="branch_1_centre_arrow_1"
+                spriteType = "GFX_tech_arrow_left_down"
+                position = { x=330 y=155 }
+                allwaystransparent = yes
+            }
+            iconType = {
+                name ="branch_1_centre_arrow_2"
+                spriteType = "GFX_tech_arrow_down"
+                position = { x=270 y=275 }
+                allwaystransparent = yes
+            }
+            iconType = {
+                name ="branch_1_centre_arrow_3"
+                spriteType = "GFX_tech_arrow_down"
+                position = { x=270 y=395 }
+                allwaystransparent = yes
+            }
+            iconType = {
+                name ="branch_1_centre_arrow_4"
+                spriteType = "GFX_tech_arrow_down"
+                position = { x=270 y=515 }
+                allwaystransparent = yes
+            }
+            iconType = {
+                name ="branch_1_centre_arrow_5"
+                spriteType = "GFX_tech_arrow_down"
+                position = { x=270 y=635 }
+                allwaystransparent = yes
+            }
+            iconType = {
+                name ="branch_1_centre_arrow_6"
+                spriteType = "GFX_tech_arrow_down"
+                position = { x=270 y=755 }
+                allwaystransparent = yes
+            }
+            iconType = {
+                name ="branch_1_centre_arrow_7"
+                spriteType = "GFX_tech_arrow_down"
+                position = { x=270 y=875 }
+                allwaystransparent = yes
+            }
+            iconType = {
+                name ="branch_1_centre_arrow_8"
+                spriteType = "GFX_tech_arrow_down"
+                position = { x=270 y=995 }
+                allwaystransparent = yes
+            }
+            
+            iconType = {
+                name ="branch_1_left_arrow_1"
+                spriteType = "GFX_tech_arrow_left_down"
+                position = { x=210 y=635 }
+                allwaystransparent = yes
+            }
+            iconType = {
+                name ="branch_1_left_arrow_2"
+                spriteType = "GFX_tech_arrow_down"
+                position = { x=150 y=755 }
+                allwaystransparent = yes
+            }
+            iconType = {
+                name ="branch_1_left_arrow_3"
+                spriteType = "GFX_tech_arrow_down"
+                position = { x=150 y=875 }
+                allwaystransparent = yes
+            }
+            iconType = {
+                name ="branch_1_left_arrow_4"
+                spriteType = "GFX_tech_arrow_down"
+                position = { x=150 y=995 }
+                allwaystransparent = yes
+            }
+            
+            # Right
+            iconType = {
+                name ="branch_2_centre_arrow_1"
+                spriteType = "GFX_tech_arrow_right_down"
+                position = { x=450 y=155 }
+                allwaystransparent = yes
+            }
+            iconType = {
+                name ="branch_2_centre_arrow_2"
+                spriteType = "GFX_tech_arrow_down"
+                position = { x=510 y=275 }
+                allwaystransparent = yes
+            }
+            iconType = {
+                name ="branch_2_centre_arrow_3"
+                spriteType = "GFX_tech_arrow_down"
+                position = { x=510 y=395 }
+                allwaystransparent = yes
+            }
+            iconType = {
+                name ="branch_2_centre_arrow_4"
+                spriteType = "GFX_tech_arrow_down"
+                position = { x=510 y=515 }
+                allwaystransparent = yes
+            }
+            iconType = {
+                name ="branch_2_centre_arrow_5"
+                spriteType = "GFX_tech_arrow_down"
+                position = { x=510 y=635 }
+                allwaystransparent = yes
+            }
+            iconType = {
+                name ="branch_2_centre_arrow_6"
+                spriteType = "GFX_tech_arrow_down"
+                position = { x=510 y=755 }
+                allwaystransparent = yes
+            }
+            iconType = {
+                name ="branch_2_centre_arrow_7"
+                spriteType = "GFX_tech_arrow_down"
+                position = { x=510 y=875 }
+                allwaystransparent = yes
+            }
+            iconType = {
+                name ="branch_2_centre_arrow_8"
+                spriteType = "GFX_tech_arrow_down"
+                position = { x=510 y=995 }
+                allwaystransparent = yes
+            }
+            
+            iconType = {
+                name ="branch_2_left_arrow_1"
+                spriteType = "GFX_tech_arrow_right_down"
+                position = { x=570 y=635 }
+                allwaystransparent = yes
+            }
+            iconType = {
+                name ="branch_2_left_arrow_2"
+                spriteType = "GFX_tech_arrow_down"
+                position = { x=630 y=755 }
+                allwaystransparent = yes
+            }
+            iconType = {
+                name ="branch_2_left_arrow_3"
+                spriteType = "GFX_tech_arrow_down"
+                position = { x=630 y=875 }
+                allwaystransparent = yes
+            }
+            iconType = {
+                name ="branch_2_left_arrow_4"
+                spriteType = "GFX_tech_arrow_down"
+                position = { x=630 y=995 }
+                allwaystransparent = yes
             }
         }
         
@@ -4058,7 +4714,7 @@ guiTypes = {
             
             gridboxtype = {
                 name = "fighter_tech_1_tree"
-                position = { x = 80 y = 0 }
+                position = { x = 115 y = 0 }
                 slotsize = { width = 120 height = 120 }
                 format = "LEFT"
             }
@@ -4067,81 +4723,81 @@ guiTypes = {
             iconType = {
                 name ="centre_arrow_1"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=155 }
+                position = { x=390 y=155 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_2"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=275 }
+                position = { x=390 y=275 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_3"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=395 }
+                position = { x=390 y=395 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_4"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=515 }
+                position = { x=390 y=515 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_5"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=635 }
+                position = { x=390 y=635 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_6"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=755 }
+                position = { x=390 y=755 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_7"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=875 }
+                position = { x=390 y=875 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_8"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=995 }
+                position = { x=390 y=995 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_9"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=1115 }
+                position = { x=390 y=1115 }
                 allwaystransparent = yes
             }
             
             iconType = {
                 name ="left_arrow_1"
                 spriteType = "GFX_tech_arrow_left"
-                position = { x=295 y=335 }
+                position = { x=330 y=335 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="left_arrow_2"
                 spriteType = "GFX_tech_arrow_left"
-                position = { x=295 y=815 }
+                position = { x=330 y=815 }
                 allwaystransparent = yes
             }
             
             iconType = {
                 name ="right_arrow_1"
                 spriteType = "GFX_tech_arrow_right"
-                position = { x=415 y=335 }
+                position = { x=450 y=335 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="right_arrow_2"
                 spriteType = "GFX_tech_arrow_right"
-                position = { x=415 y=815 }
+                position = { x=450 y=815 }
                 allwaystransparent = yes
             }
         }
@@ -4195,7 +4851,7 @@ guiTypes = {
             
             gridboxtype = {
                 name = "cas_tech_1_tree"
-                position = { x = 80 y = 0 }
+                position = { x = 115 y = 0 }
                 slotsize = { width = 120 height = 120 }
                 format = "LEFT"
             }
@@ -4204,81 +4860,81 @@ guiTypes = {
             iconType = {
                 name ="centre_arrow_1"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=155 }
+                position = { x=390 y=155 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_2"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=275 }
+                position = { x=390 y=275 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_3"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=395 }
+                position = { x=390 y=395 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_4"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=515 }
+                position = { x=390 y=515 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_5"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=635 }
+                position = { x=390 y=635 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_6"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=755 }
+                position = { x=390 y=755 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_7"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=875 }
+                position = { x=390 y=875 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_8"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=995 }
+                position = { x=390 y=995 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_9"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=1115 }
+                position = { x=390 y=1115 }
                 allwaystransparent = yes
             }
             
             iconType = {
                 name ="left_arrow_1"
                 spriteType = "GFX_tech_arrow_left"
-                position = { x=295 y=335 }
+                position = { x=330 y=335 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="left_arrow_2"
                 spriteType = "GFX_tech_arrow_left"
-                position = { x=295 y=815 }
+                position = { x=330 y=815 }
                 allwaystransparent = yes
             }
             
             iconType = {
                 name ="right_arrow_1"
                 spriteType = "GFX_tech_arrow_right"
-                position = { x=415 y=335 }
+                position = { x=450 y=335 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="right_arrow_2"
                 spriteType = "GFX_tech_arrow_right"
-                position = { x=415 y=815 }
+                position = { x=450 y=815 }
                 allwaystransparent = yes
             }
         }
@@ -4332,7 +4988,7 @@ guiTypes = {
             
             gridboxtype = {
                 name = "tactical_bomber_tech_1_tree"
-                position = { x = 80 y = 0 }
+                position = { x = 115 y = 0 }
                 slotsize = { width = 120 height = 120 }
                 format = "LEFT"
             }
@@ -4341,81 +4997,81 @@ guiTypes = {
             iconType = {
                 name ="centre_arrow_1"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=155 }
+                position = { x=390 y=155 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_2"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=275 }
+                position = { x=390 y=275 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_3"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=395 }
+                position = { x=390 y=395 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_4"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=515 }
+                position = { x=390 y=515 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_5"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=635 }
+                position = { x=390 y=635 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_6"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=755 }
+                position = { x=390 y=755 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_7"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=875 }
+                position = { x=390 y=875 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_8"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=995 }
+                position = { x=390 y=995 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_9"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=1115 }
+                position = { x=390 y=1115 }
                 allwaystransparent = yes
             }
             
             iconType = {
                 name ="left_arrow_1"
                 spriteType = "GFX_tech_arrow_left"
-                position = { x=295 y=335 }
+                position = { x=330 y=335 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="left_arrow_2"
                 spriteType = "GFX_tech_arrow_left"
-                position = { x=295 y=815 }
+                position = { x=330 y=815 }
                 allwaystransparent = yes
             }
             
             iconType = {
                 name ="right_arrow_1"
                 spriteType = "GFX_tech_arrow_right"
-                position = { x=415 y=335 }
+                position = { x=450 y=335 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="right_arrow_2"
                 spriteType = "GFX_tech_arrow_right"
-                position = { x=415 y=815 }
+                position = { x=450 y=815 }
                 allwaystransparent = yes
             }
         }
@@ -4469,7 +5125,7 @@ guiTypes = {
             
             gridboxtype = {
                 name = "strategic_bomber_tech_1_tree"
-                position = { x = 80 y = 0 }
+                position = { x = 115 y = 0 }
                 slotsize = { width = 120 height = 120 }
                 format = "LEFT"
             }
@@ -4478,81 +5134,81 @@ guiTypes = {
             iconType = {
                 name ="centre_arrow_1"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=155 }
+                position = { x=390 y=155 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_2"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=275 }
+                position = { x=390 y=275 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_3"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=395 }
+                position = { x=390 y=395 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_4"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=515 }
+                position = { x=390 y=515 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_5"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=635 }
+                position = { x=390 y=635 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_6"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=755 }
+                position = { x=390 y=755 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_7"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=875 }
+                position = { x=390 y=875 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_8"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=995 }
+                position = { x=390 y=995 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_9"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=1115 }
+                position = { x=390 y=1115 }
                 allwaystransparent = yes
             }
             
             iconType = {
                 name ="left_arrow_1"
                 spriteType = "GFX_tech_arrow_left"
-                position = { x=295 y=335 }
+                position = { x=330 y=335 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="left_arrow_2"
                 spriteType = "GFX_tech_arrow_left"
-                position = { x=295 y=815 }
+                position = { x=330 y=815 }
                 allwaystransparent = yes
             }
             
             iconType = {
                 name ="right_arrow_1"
                 spriteType = "GFX_tech_arrow_right"
-                position = { x=415 y=335 }
+                position = { x=450 y=335 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="right_arrow_2"
                 spriteType = "GFX_tech_arrow_right"
-                position = { x=415 y=815 }
+                position = { x=450 y=815 }
                 allwaystransparent = yes
             }
         }
@@ -4606,9 +5262,159 @@ guiTypes = {
             
             gridboxtype = {
                 name = "incursion_doctrine_tech_1_tree"
-                position = { x = 80 y = 0 }
+                position = { x = 115 y = 0 }
                 slotsize = { width = 120 height = 120 }
                 format = "LEFT"
+            }
+            
+            # Left
+            iconType = {
+                name ="branch_1_centre_arrow_1"
+                spriteType = "GFX_tech_arrow_left_down"
+                position = { x=330 y=155 }
+                allwaystransparent = yes
+            }
+            iconType = {
+                name ="branch_1_centre_arrow_2"
+                spriteType = "GFX_tech_arrow_down"
+                position = { x=270 y=275 }
+                allwaystransparent = yes
+            }
+            iconType = {
+                name ="branch_1_centre_arrow_3"
+                spriteType = "GFX_tech_arrow_down"
+                position = { x=270 y=395 }
+                allwaystransparent = yes
+            }
+            iconType = {
+                name ="branch_1_centre_arrow_4"
+                spriteType = "GFX_tech_arrow_down"
+                position = { x=270 y=515 }
+                allwaystransparent = yes
+            }
+            iconType = {
+                name ="branch_1_centre_arrow_5"
+                spriteType = "GFX_tech_arrow_down"
+                position = { x=270 y=635 }
+                allwaystransparent = yes
+            }
+            iconType = {
+                name ="branch_1_centre_arrow_6"
+                spriteType = "GFX_tech_arrow_down"
+                position = { x=270 y=755 }
+                allwaystransparent = yes
+            }
+            iconType = {
+                name ="branch_1_centre_arrow_7"
+                spriteType = "GFX_tech_arrow_down"
+                position = { x=270 y=875 }
+                allwaystransparent = yes
+            }
+            iconType = {
+                name ="branch_1_centre_arrow_8"
+                spriteType = "GFX_tech_arrow_down"
+                position = { x=270 y=995 }
+                allwaystransparent = yes
+            }
+            
+            iconType = {
+                name ="branch_1_left_arrow_1"
+                spriteType = "GFX_tech_arrow_left_down"
+                position = { x=210 y=635 }
+                allwaystransparent = yes
+            }
+            iconType = {
+                name ="branch_1_left_arrow_2"
+                spriteType = "GFX_tech_arrow_down"
+                position = { x=150 y=755 }
+                allwaystransparent = yes
+            }
+            iconType = {
+                name ="branch_1_left_arrow_3"
+                spriteType = "GFX_tech_arrow_down"
+                position = { x=150 y=875 }
+                allwaystransparent = yes
+            }
+            iconType = {
+                name ="branch_1_left_arrow_4"
+                spriteType = "GFX_tech_arrow_down"
+                position = { x=150 y=995 }
+                allwaystransparent = yes
+            }
+            
+            # Right
+            iconType = {
+                name ="branch_2_centre_arrow_1"
+                spriteType = "GFX_tech_arrow_right_down"
+                position = { x=450 y=155 }
+                allwaystransparent = yes
+            }
+            iconType = {
+                name ="branch_2_centre_arrow_2"
+                spriteType = "GFX_tech_arrow_down"
+                position = { x=510 y=275 }
+                allwaystransparent = yes
+            }
+            iconType = {
+                name ="branch_2_centre_arrow_3"
+                spriteType = "GFX_tech_arrow_down"
+                position = { x=510 y=395 }
+                allwaystransparent = yes
+            }
+            iconType = {
+                name ="branch_2_centre_arrow_4"
+                spriteType = "GFX_tech_arrow_down"
+                position = { x=510 y=515 }
+                allwaystransparent = yes
+            }
+            iconType = {
+                name ="branch_2_centre_arrow_5"
+                spriteType = "GFX_tech_arrow_down"
+                position = { x=510 y=635 }
+                allwaystransparent = yes
+            }
+            iconType = {
+                name ="branch_2_centre_arrow_6"
+                spriteType = "GFX_tech_arrow_down"
+                position = { x=510 y=755 }
+                allwaystransparent = yes
+            }
+            iconType = {
+                name ="branch_2_centre_arrow_7"
+                spriteType = "GFX_tech_arrow_down"
+                position = { x=510 y=875 }
+                allwaystransparent = yes
+            }
+            iconType = {
+                name ="branch_2_centre_arrow_8"
+                spriteType = "GFX_tech_arrow_down"
+                position = { x=510 y=995 }
+                allwaystransparent = yes
+            }
+            
+            iconType = {
+                name ="branch_2_left_arrow_1"
+                spriteType = "GFX_tech_arrow_right_down"
+                position = { x=570 y=635 }
+                allwaystransparent = yes
+            }
+            iconType = {
+                name ="branch_2_left_arrow_2"
+                spriteType = "GFX_tech_arrow_down"
+                position = { x=630 y=755 }
+                allwaystransparent = yes
+            }
+            iconType = {
+                name ="branch_2_left_arrow_3"
+                spriteType = "GFX_tech_arrow_down"
+                position = { x=630 y=875 }
+                allwaystransparent = yes
+            }
+            iconType = {
+                name ="branch_2_left_arrow_4"
+                spriteType = "GFX_tech_arrow_down"
+                position = { x=630 y=995 }
+                allwaystransparent = yes
             }
         }
         
@@ -4661,9 +5467,159 @@ guiTypes = {
             
             gridboxtype = {
                 name = "firestorm_doctrine_tech_1_tree"
-                position = { x = 80 y = 0 }
+                position = { x = 115 y = 0 }
                 slotsize = { width = 120 height = 120 }
                 format = "LEFT"
+            }
+            
+            # Left
+            iconType = {
+                name ="branch_1_centre_arrow_1"
+                spriteType = "GFX_tech_arrow_left_down"
+                position = { x=330 y=155 }
+                allwaystransparent = yes
+            }
+            iconType = {
+                name ="branch_1_centre_arrow_2"
+                spriteType = "GFX_tech_arrow_down"
+                position = { x=270 y=275 }
+                allwaystransparent = yes
+            }
+            iconType = {
+                name ="branch_1_centre_arrow_3"
+                spriteType = "GFX_tech_arrow_down"
+                position = { x=270 y=395 }
+                allwaystransparent = yes
+            }
+            iconType = {
+                name ="branch_1_centre_arrow_4"
+                spriteType = "GFX_tech_arrow_down"
+                position = { x=270 y=515 }
+                allwaystransparent = yes
+            }
+            iconType = {
+                name ="branch_1_centre_arrow_5"
+                spriteType = "GFX_tech_arrow_down"
+                position = { x=270 y=635 }
+                allwaystransparent = yes
+            }
+            iconType = {
+                name ="branch_1_centre_arrow_6"
+                spriteType = "GFX_tech_arrow_down"
+                position = { x=270 y=755 }
+                allwaystransparent = yes
+            }
+            iconType = {
+                name ="branch_1_centre_arrow_7"
+                spriteType = "GFX_tech_arrow_down"
+                position = { x=270 y=875 }
+                allwaystransparent = yes
+            }
+            iconType = {
+                name ="branch_1_centre_arrow_8"
+                spriteType = "GFX_tech_arrow_down"
+                position = { x=270 y=995 }
+                allwaystransparent = yes
+            }
+            
+            iconType = {
+                name ="branch_1_left_arrow_1"
+                spriteType = "GFX_tech_arrow_left_down"
+                position = { x=210 y=635 }
+                allwaystransparent = yes
+            }
+            iconType = {
+                name ="branch_1_left_arrow_2"
+                spriteType = "GFX_tech_arrow_down"
+                position = { x=150 y=755 }
+                allwaystransparent = yes
+            }
+            iconType = {
+                name ="branch_1_left_arrow_3"
+                spriteType = "GFX_tech_arrow_down"
+                position = { x=150 y=875 }
+                allwaystransparent = yes
+            }
+            iconType = {
+                name ="branch_1_left_arrow_4"
+                spriteType = "GFX_tech_arrow_down"
+                position = { x=150 y=995 }
+                allwaystransparent = yes
+            }
+            
+            # Right
+            iconType = {
+                name ="branch_2_centre_arrow_1"
+                spriteType = "GFX_tech_arrow_right_down"
+                position = { x=450 y=155 }
+                allwaystransparent = yes
+            }
+            iconType = {
+                name ="branch_2_centre_arrow_2"
+                spriteType = "GFX_tech_arrow_down"
+                position = { x=510 y=275 }
+                allwaystransparent = yes
+            }
+            iconType = {
+                name ="branch_2_centre_arrow_3"
+                spriteType = "GFX_tech_arrow_down"
+                position = { x=510 y=395 }
+                allwaystransparent = yes
+            }
+            iconType = {
+                name ="branch_2_centre_arrow_4"
+                spriteType = "GFX_tech_arrow_down"
+                position = { x=510 y=515 }
+                allwaystransparent = yes
+            }
+            iconType = {
+                name ="branch_2_centre_arrow_5"
+                spriteType = "GFX_tech_arrow_down"
+                position = { x=510 y=635 }
+                allwaystransparent = yes
+            }
+            iconType = {
+                name ="branch_2_centre_arrow_6"
+                spriteType = "GFX_tech_arrow_down"
+                position = { x=510 y=755 }
+                allwaystransparent = yes
+            }
+            iconType = {
+                name ="branch_2_centre_arrow_7"
+                spriteType = "GFX_tech_arrow_down"
+                position = { x=510 y=875 }
+                allwaystransparent = yes
+            }
+            iconType = {
+                name ="branch_2_centre_arrow_8"
+                spriteType = "GFX_tech_arrow_down"
+                position = { x=510 y=995 }
+                allwaystransparent = yes
+            }
+            
+            iconType = {
+                name ="branch_2_left_arrow_1"
+                spriteType = "GFX_tech_arrow_right_down"
+                position = { x=570 y=635 }
+                allwaystransparent = yes
+            }
+            iconType = {
+                name ="branch_2_left_arrow_2"
+                spriteType = "GFX_tech_arrow_down"
+                position = { x=630 y=755 }
+                allwaystransparent = yes
+            }
+            iconType = {
+                name ="branch_2_left_arrow_3"
+                spriteType = "GFX_tech_arrow_down"
+                position = { x=630 y=875 }
+                allwaystransparent = yes
+            }
+            iconType = {
+                name ="branch_2_left_arrow_4"
+                spriteType = "GFX_tech_arrow_down"
+                position = { x=630 y=995 }
+                allwaystransparent = yes
             }
         }
         
@@ -4716,7 +5672,7 @@ guiTypes = {
             
             gridboxtype = {
                 name = "industry_tech_1_tree"
-                position = { x = 80 y = 0 }
+                position = { x = 115 y = 0 }
                 slotsize = { width = 120 height = 120 }
                 format = "LEFT"
             }
@@ -4725,81 +5681,81 @@ guiTypes = {
             iconType = {
                 name ="centre_arrow_1"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=155 }
+                position = { x=390 y=155 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_2"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=275 }
+                position = { x=390 y=275 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_3"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=395 }
+                position = { x=390 y=395 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_4"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=515 }
+                position = { x=390 y=515 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_5"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=635 }
+                position = { x=390 y=635 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_6"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=755 }
+                position = { x=390 y=755 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_7"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=875 }
+                position = { x=390 y=875 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_8"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=995 }
+                position = { x=390 y=995 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_9"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=1115 }
+                position = { x=390 y=1115 }
                 allwaystransparent = yes
             }
             
             iconType = {
                 name ="left_arrow_1"
                 spriteType = "GFX_tech_arrow_left"
-                position = { x=295 y=335 }
+                position = { x=330 y=335 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="left_arrow_2"
                 spriteType = "GFX_tech_arrow_left"
-                position = { x=295 y=815 }
+                position = { x=330 y=815 }
                 allwaystransparent = yes
             }
             
             iconType = {
                 name ="right_arrow_1"
                 spriteType = "GFX_tech_arrow_right"
-                position = { x=415 y=335 }
+                position = { x=450 y=335 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="right_arrow_2"
                 spriteType = "GFX_tech_arrow_right"
-                position = { x=415 y=815 }
+                position = { x=450 y=815 }
                 allwaystransparent = yes
             }
         }
@@ -4853,7 +5809,7 @@ guiTypes = {
             
             gridboxtype = {
                 name = "production_tech_1_tree"
-                position = { x = 80 y = 0 }
+                position = { x = 115 y = 0 }
                 slotsize = { width = 120 height = 120 }
                 format = "LEFT"
             }
@@ -4862,81 +5818,81 @@ guiTypes = {
             iconType = {
                 name ="centre_arrow_1"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=155 }
+                position = { x=390 y=155 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_2"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=275 }
+                position = { x=390 y=275 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_3"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=395 }
+                position = { x=390 y=395 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_4"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=515 }
+                position = { x=390 y=515 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_5"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=635 }
+                position = { x=390 y=635 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_6"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=755 }
+                position = { x=390 y=755 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_7"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=875 }
+                position = { x=390 y=875 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_8"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=995 }
+                position = { x=390 y=995 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_9"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=1115 }
+                position = { x=390 y=1115 }
                 allwaystransparent = yes
             }
             
             iconType = {
                 name ="left_arrow_1"
                 spriteType = "GFX_tech_arrow_left"
-                position = { x=295 y=335 }
+                position = { x=330 y=335 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="left_arrow_2"
                 spriteType = "GFX_tech_arrow_left"
-                position = { x=295 y=815 }
+                position = { x=330 y=815 }
                 allwaystransparent = yes
             }
             
             iconType = {
                 name ="right_arrow_1"
                 spriteType = "GFX_tech_arrow_right"
-                position = { x=415 y=335 }
+                position = { x=450 y=335 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="right_arrow_2"
                 spriteType = "GFX_tech_arrow_right"
-                position = { x=415 y=815 }
+                position = { x=450 y=815 }
                 allwaystransparent = yes
             }
         }
@@ -4990,7 +5946,7 @@ guiTypes = {
             
             gridboxtype = {
                 name = "extraction_tech_1_tree"
-                position = { x = 80 y = 0 }
+                position = { x = 115 y = 0 }
                 slotsize = { width = 120 height = 120 }
                 format = "LEFT"
             }
@@ -4999,81 +5955,81 @@ guiTypes = {
             iconType = {
                 name ="centre_arrow_1"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=155 }
+                position = { x=390 y=155 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_2"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=275 }
+                position = { x=390 y=275 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_3"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=395 }
+                position = { x=390 y=395 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_4"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=515 }
+                position = { x=390 y=515 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_5"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=635 }
+                position = { x=390 y=635 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_6"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=755 }
+                position = { x=390 y=755 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_7"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=875 }
+                position = { x=390 y=875 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_8"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=995 }
+                position = { x=390 y=995 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_9"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=1115 }
+                position = { x=390 y=1115 }
                 allwaystransparent = yes
             }
             
             iconType = {
                 name ="left_arrow_1"
                 spriteType = "GFX_tech_arrow_left"
-                position = { x=295 y=335 }
+                position = { x=330 y=335 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="left_arrow_2"
                 spriteType = "GFX_tech_arrow_left"
-                position = { x=295 y=815 }
+                position = { x=330 y=815 }
                 allwaystransparent = yes
             }
             
             iconType = {
                 name ="right_arrow_1"
                 spriteType = "GFX_tech_arrow_right"
-                position = { x=415 y=335 }
+                position = { x=450 y=335 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="right_arrow_2"
                 spriteType = "GFX_tech_arrow_right"
-                position = { x=415 y=815 }
+                position = { x=450 y=815 }
                 allwaystransparent = yes
             }
         }
@@ -5127,7 +6083,7 @@ guiTypes = {
             
             gridboxtype = {
                 name = "construction_tech_1_tree"
-                position = { x = 80 y = 0 }
+                position = { x = 115 y = 0 }
                 slotsize = { width = 120 height = 120 }
                 format = "LEFT"
             }
@@ -5136,81 +6092,81 @@ guiTypes = {
             iconType = {
                 name ="centre_arrow_1"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=155 }
+                position = { x=390 y=155 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_2"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=275 }
+                position = { x=390 y=275 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_3"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=395 }
+                position = { x=390 y=395 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_4"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=515 }
+                position = { x=390 y=515 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_5"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=635 }
+                position = { x=390 y=635 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_6"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=755 }
+                position = { x=390 y=755 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_7"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=875 }
+                position = { x=390 y=875 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_8"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=995 }
+                position = { x=390 y=995 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_9"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=1115 }
+                position = { x=390 y=1115 }
                 allwaystransparent = yes
             }
             
             iconType = {
                 name ="left_arrow_1"
                 spriteType = "GFX_tech_arrow_left"
-                position = { x=295 y=335 }
+                position = { x=330 y=335 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="left_arrow_2"
                 spriteType = "GFX_tech_arrow_left"
-                position = { x=295 y=815 }
+                position = { x=330 y=815 }
                 allwaystransparent = yes
             }
             
             iconType = {
                 name ="right_arrow_1"
                 spriteType = "GFX_tech_arrow_right"
-                position = { x=415 y=335 }
+                position = { x=450 y=335 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="right_arrow_2"
                 spriteType = "GFX_tech_arrow_right"
-                position = { x=415 y=815 }
+                position = { x=450 y=815 }
                 allwaystransparent = yes
             }
         }
@@ -5264,7 +6220,7 @@ guiTypes = {
             
             gridboxtype = {
                 name = "statecraft_tech_1_tree"
-                position = { x = 80 y = 0 }
+                position = { x = 115 y = 0 }
                 slotsize = { width = 120 height = 120 }
                 format = "LEFT"
             }
@@ -5273,81 +6229,81 @@ guiTypes = {
             iconType = {
                 name ="centre_arrow_1"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=155 }
+                position = { x=390 y=155 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_2"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=275 }
+                position = { x=390 y=275 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_3"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=395 }
+                position = { x=390 y=395 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_4"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=515 }
+                position = { x=390 y=515 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_5"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=635 }
+                position = { x=390 y=635 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_6"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=755 }
+                position = { x=390 y=755 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_7"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=875 }
+                position = { x=390 y=875 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_8"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=995 }
+                position = { x=390 y=995 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_9"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=1115 }
+                position = { x=390 y=1115 }
                 allwaystransparent = yes
             }
             
             iconType = {
                 name ="left_arrow_1"
                 spriteType = "GFX_tech_arrow_left"
-                position = { x=295 y=335 }
+                position = { x=330 y=335 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="left_arrow_2"
                 spriteType = "GFX_tech_arrow_left"
-                position = { x=295 y=815 }
+                position = { x=330 y=815 }
                 allwaystransparent = yes
             }
             
             iconType = {
                 name ="right_arrow_1"
                 spriteType = "GFX_tech_arrow_right"
-                position = { x=415 y=335 }
+                position = { x=450 y=335 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="right_arrow_2"
                 spriteType = "GFX_tech_arrow_right"
-                position = { x=415 y=815 }
+                position = { x=450 y=815 }
                 allwaystransparent = yes
             }
         }
@@ -5401,7 +6357,7 @@ guiTypes = {
             
             gridboxtype = {
                 name = "diplomacy_tech_1_tree"
-                position = { x = 80 y = 0 }
+                position = { x = 115 y = 0 }
                 slotsize = { width = 120 height = 120 }
                 format = "LEFT"
             }
@@ -5410,81 +6366,81 @@ guiTypes = {
             iconType = {
                 name ="centre_arrow_1"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=155 }
+                position = { x=390 y=155 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_2"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=275 }
+                position = { x=390 y=275 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_3"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=395 }
+                position = { x=390 y=395 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_4"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=515 }
+                position = { x=390 y=515 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_5"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=635 }
+                position = { x=390 y=635 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_6"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=755 }
+                position = { x=390 y=755 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_7"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=875 }
+                position = { x=390 y=875 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_8"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=995 }
+                position = { x=390 y=995 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="centre_arrow_9"
                 spriteType = "GFX_tech_arrow_down"
-                position = { x=355 y=1115 }
+                position = { x=390 y=1115 }
                 allwaystransparent = yes
             }
             
             iconType = {
                 name ="left_arrow_1"
                 spriteType = "GFX_tech_arrow_left"
-                position = { x=295 y=335 }
+                position = { x=330 y=335 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="left_arrow_2"
                 spriteType = "GFX_tech_arrow_left"
-                position = { x=295 y=815 }
+                position = { x=330 y=815 }
                 allwaystransparent = yes
             }
             
             iconType = {
                 name ="right_arrow_1"
                 spriteType = "GFX_tech_arrow_right"
-                position = { x=415 y=335 }
+                position = { x=450 y=335 }
                 allwaystransparent = yes
             }
             iconType = {
                 name ="right_arrow_2"
                 spriteType = "GFX_tech_arrow_right"
-                position = { x=415 y=815 }
+                position = { x=450 y=815 }
                 allwaystransparent = yes
             }
         }

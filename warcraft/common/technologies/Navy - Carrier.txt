@@ -3,6 +3,7 @@ technologies = {
     # carrier
     #-----------------------------------------------------------------
     carrier_tech_1 = {
+		start_year = 592
         enable_equipments = {
             carrier_equipment_1
         }
@@ -42,7 +43,11 @@ technologies = {
     }
     
     carrier_tech_2 = {
+		start_year = 592
         # Modifier
+        carrier = {
+            carrier_size = 0.1
+        }
         
         research_cost = 6
 
@@ -79,6 +84,7 @@ technologies = {
     }
     
     carrier_tech_3 = {
+		start_year = 593
         enable_equipments = {
             carrier_equipment_2
         }
@@ -133,7 +139,11 @@ technologies = {
     }
 
     carrier_tech_3_side_1 = {
+		start_year = 593
         # Modifier
+        carrier = {
+            max_strength = 0.1
+        }
         
         research_cost = 6
 
@@ -172,7 +182,11 @@ technologies = {
     }
     
     carrier_tech_3_side_2 = {
+		start_year = 593
         # Modifier
+        carrer = {
+            carrier_size = 0.1
+        }
         
         research_cost = 6
 
@@ -211,7 +225,11 @@ technologies = {
     }
     
     carrier_tech_4 = {
+		start_year = 594
         # Modifier
+        carrier = {
+            naval_speed = 0.1
+        }
         
         research_cost = 6
 
@@ -248,6 +266,7 @@ technologies = {
     }
     
     carrier_tech_5 = {
+		start_year = 595
         enable_equipments = {
             carrier_equipment_3
         }
@@ -294,7 +313,11 @@ technologies = {
     }
     
     carrier_tech_6 = {
+		start_year = 596
         # Modifier
+        carrier = {
+            naval_range = 0.1
+        }
         
         research_cost = 6
 
@@ -331,6 +354,7 @@ technologies = {
     }
     
     carrier_tech_7 = {
+		start_year = 597
         enable_equipments = {
             carrier_equipment_4
         }
@@ -385,7 +409,11 @@ technologies = {
     }
     
     carrier_tech_7_side_1 = {
+		start_year = 597
         # Modifier
+        carrier = {
+            armor_value = 0.1
+        }
         
         research_cost = 6
 
@@ -424,7 +452,11 @@ technologies = {
     }
     
     carrier_tech_7_side_2 = {
+		start_year = 597
         # Modifier
+        carrier = {
+            carrier_size = 0.1
+        }
         
         research_cost = 6
 
@@ -462,7 +494,11 @@ technologies = {
     }
     
     carrier_tech_8 = {
+		start_year = 598
         # Modifier
+        carrier = {
+            build_cost_ic = -0.1 
+        }
         
         research_cost = 6
 
@@ -499,6 +535,7 @@ technologies = {
     }
     
     carrier_tech_9 = {
+		start_year = 599
         enable_equipments = {
             carrier_equipment_5
         }
@@ -545,7 +582,9 @@ technologies = {
     }
     
     carrier_tech_capstone = {
+		start_year = 600
         # Modifier
+        sortie_efficiency = 0.05
         
         research_cost = 12
 

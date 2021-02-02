@@ -26,11 +26,11 @@ ideologies = {
 		color = { 232 244 66 }
 		
 		rules = {
-			can_create_collaboration_government = no
-			can_declare_war_on_same_ideology = no
+			can_create_collaboration_government = yes
+			can_declare_war_on_same_ideology = yes
 			can_force_government = yes
-			can_send_volunteers = no
-			can_puppet = no
+			can_send_volunteers = yes
+			can_puppet = yes
 			can_lower_tension = yes
             can_only_justify_war_on_threat_country = no
 			can_guarantee_other_ideologies = yes
@@ -46,7 +46,7 @@ ideologies = {
             send_volunteers_tension = 0.0
             guarantee_tension = 0.1
             civil_war_involvement_tension = 0.0
-            justify_war_goal_time = 0.25
+            justify_war_goal_time = -0.75
 		}
         
 		ai_democratic = yes
@@ -71,10 +71,10 @@ ideologies = {
 		color = { 141 32 204 }
 		
 		rules = {
-			can_create_collaboration_government = no
+			can_create_collaboration_government = yes
 			can_declare_war_on_same_ideology = yes
-			can_force_government = no
-			can_send_volunteers = no
+			can_force_government = yes
+			can_send_volunteers = yes
 			can_puppet = yes
 			can_lower_tension = no
             can_only_justify_war_on_threat_country = no
@@ -91,7 +91,7 @@ ideologies = {
             send_volunteers_tension = 0.0
             guarantee_tension = 0.0
             civil_war_involvement_tension = 0.0
-            justify_war_goal_time = -0.5
+            justify_war_goal_time = -0.9
 		}
 		
 		ai_fascist = yes
@@ -116,13 +116,13 @@ ideologies = {
 		color = { 123 201 216 }
 		
 		rules = {
-			can_create_collaboration_government = no
-			can_declare_war_on_same_ideology = no
+			can_create_collaboration_government = yes
+			can_declare_war_on_same_ideology = yes
 			can_force_government = yes
-			can_send_volunteers = no
+			can_send_volunteers = yes
 			can_puppet = yes
 			can_lower_tension = yes
-            can_only_justify_war_on_threat_country = yes
+            can_only_justify_war_on_threat_country = no
 			can_guarantee_other_ideologies = yes
 		}
 		
@@ -136,7 +136,7 @@ ideologies = {
             send_volunteers_tension = 0.0
             guarantee_tension = 0.05
             civil_war_involvement_tension = 0.0
-            justify_war_goal_time = 0.0
+            justify_war_goal_time = -0.75
 		}
 		
 		ai_democratic = yes
@@ -161,11 +161,11 @@ ideologies = {
 		color = { 55 204 32 }
 		
 		rules = {
-			can_create_collaboration_government = no
+			can_create_collaboration_government = yes
 			can_declare_war_on_same_ideology = yes
 			can_force_government = yes
 			can_send_volunteers = yes
-			can_puppet = no
+			can_puppet = yes
 			can_lower_tension = no
             can_only_justify_war_on_threat_country = no
 			can_guarantee_other_ideologies = no
@@ -181,7 +181,7 @@ ideologies = {
             send_volunteers_tension = 0.0
             guarantee_tension = 0.0
             civil_war_involvement_tension = 0.0
-            justify_war_goal_time = -0.75
+            justify_war_goal_time = -0.9
 		}
 		
 		ai_fascist = yes
@@ -206,11 +206,11 @@ ideologies = {
 		color = { 128 209 121 }
 		
 		rules = {
-			can_create_collaboration_government = no
+			can_create_collaboration_government = yes
 			can_declare_war_on_same_ideology = yes
 			can_force_government = yes
 			can_send_volunteers = yes
-			can_puppet = no
+			can_puppet = yes
 			can_lower_tension = yes
             can_only_justify_war_on_threat_country = no
 			can_guarantee_other_ideologies = yes
@@ -226,7 +226,7 @@ ideologies = {
             send_volunteers_tension = 0.25
             guarantee_tension = 0.10
             civil_war_involvement_tension = 0.0
-            justify_war_goal_time = -0.25
+            justify_war_goal_time = -0.75
 		}
 		
 		ai_neutral = yes
@@ -251,11 +251,11 @@ ideologies = {
 		color = { 32 175 204 }
 		
 		rules = {
-			can_create_collaboration_government = no
+			can_create_collaboration_government = yes
 			can_declare_war_on_same_ideology = yes
-			can_force_government = no
-			can_send_volunteers = no
-			can_puppet = no
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
 			can_lower_tension = no
             can_only_justify_war_on_threat_country = no
 			can_guarantee_other_ideologies = no
@@ -271,7 +271,7 @@ ideologies = {
             send_volunteers_tension = 0.0
             guarantee_tension = 0.0
             civil_war_involvement_tension = 0.0
-            justify_war_goal_time = -0.95
+            justify_war_goal_time = -0.9
 		}
 		
 		ai_fascist = yes
@@ -296,14 +296,14 @@ ideologies = {
 		color = { 220 220 220 }
 		
 		rules = {
-			can_create_collaboration_government = no
+			can_create_collaboration_government = yes
 			can_declare_war_on_same_ideology = yes
-			can_force_government = no
-			can_send_volunteers = no
-			can_puppet = no
-			can_lower_tension = no
+			can_force_government = yes
+			can_send_volunteers = yes
+			can_puppet = yes
+			can_lower_tension = yes
             can_only_justify_war_on_threat_country = no
-			can_guarantee_other_ideologies = no
+			can_guarantee_other_ideologies = yes
 		}
 		
 		war_impact_on_world_tension = 0.1
@@ -316,7 +316,7 @@ ideologies = {
             send_volunteers_tension = 0.0
             guarantee_tension = 0.0
             civil_war_involvement_tension = 0.0
-            justify_war_goal_time = 0.0
+            justify_war_goal_time = -0.75
 		}
 		
 		can_collaborate = yes

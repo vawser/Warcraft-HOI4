@@ -3,6 +3,7 @@ technologies = {
     # light_cavalry
     #-----------------------------------------------------------------
     light_cavalry_tech_1 = {
+		start_year = 592
         enable_subunits = {
             light_cavalry
         }
@@ -45,6 +46,7 @@ technologies = {
     }
     
     light_cavalry_tech_2 = {
+		start_year = 592
         # Modifier
         light_cavalry = {
             build_cost_ic = -0.1
@@ -85,6 +87,7 @@ technologies = {
     }
     
     light_cavalry_tech_3 = {
+		start_year = 593
         enable_equipments = {
             light_cavalry_equipment_2
         }
@@ -139,6 +142,7 @@ technologies = {
     }
 
     light_cavalry_tech_3_side_1 = {
+		start_year = 593
         # Modifier
         light_cavalry = {
             maximum_speed = 0.1
@@ -181,6 +185,7 @@ technologies = {
     }
     
     light_cavalry_tech_3_side_2 = {
+		start_year = 593
         # Modifier
         light_cavalry = {
             breakthrough = 0.1
@@ -223,6 +228,7 @@ technologies = {
     }
     
     light_cavalry_tech_4 = {
+		start_year = 594
         # Modifier
         light_cavalry = {
             reliability = 0.1
@@ -263,6 +269,7 @@ technologies = {
     }
     
     light_cavalry_tech_5 = {
+		start_year = 595
         enable_equipments = {
             light_cavalry_equipment_3
         }
@@ -309,6 +316,7 @@ technologies = {
     }
     
     light_cavalry_tech_6 = {
+		start_year = 596
         # Modifier
         light_cavalry = {
             default_morale = 0.25
@@ -349,6 +357,7 @@ technologies = {
     }
     
     light_cavalry_tech_7 = {
+		start_year = 597
         enable_equipments = {
             light_cavalry_equipment_4
         }
@@ -403,6 +412,7 @@ technologies = {
     }
     
     light_cavalry_tech_7_side_1 = {
+		start_year = 597
         # Modifier
         light_cavalry = {
             maximum_speed = 0.1
@@ -445,6 +455,7 @@ technologies = {
     }
     
     light_cavalry_tech_7_side_2 = {
+		start_year = 597
         # Modifier
         light_cavalry = {
             breakthrough = 0.1
@@ -486,6 +497,7 @@ technologies = {
     }
     
     light_cavalry_tech_8 = {
+		start_year = 598
         # Modifier
         light_cavalry = {
             max_organisation = 10
@@ -526,6 +538,7 @@ technologies = {
     }
     
     light_cavalry_tech_9 = {
+		start_year = 599
         enable_equipments = {
             light_cavalry_equipment_5
         }
@@ -572,6 +585,7 @@ technologies = {
     }
     
     light_cavalry_tech_capstone = {
+		start_year = 600
         # Modifier
         army_morale_factor = 0.05
         

@@ -701,7 +701,7 @@ arcanum_action_4 = {
 arcanum_action_5 = {
     add_tech_bonus = {
         name = ARCANE_KNOWLEDGE
-        bonus = 0.5
+        bonus = 0.25
         uses = 1
         category = spellcaster_tech
     }
@@ -710,7 +710,7 @@ arcanum_action_5 = {
 # Delve into the Arcane
 arcanum_action_6 = {
     if = {
-        limit = { amount_research_slots < 20 }
+        limit = { amount_research_slots < 6 }
   
         add_research_slot = 1
     }
@@ -2838,7 +2838,7 @@ technomancy_action_2 = {
         25 = {
             add_tech_bonus = {
                 name = infantry_tech_bonus
-                bonus = 0.5
+                bonus = 0.25
                 uses = 1
                 category = infantry_tech
             }
@@ -2846,7 +2846,7 @@ technomancy_action_2 = {
         25 = {
             add_tech_bonus = {
                 name = cavalry_tech_bonus
-                bonus = 0.5
+                bonus = 0.25
                 uses = 1
                 category = cavalry_tech
             }
@@ -2854,7 +2854,7 @@ technomancy_action_2 = {
         25 = {
             add_tech_bonus = {
                 name = tank_tech_bonus
-                bonus = 0.5
+                bonus = 0.25
                 uses = 1
                 category = tank_tech
             }
@@ -2862,7 +2862,7 @@ technomancy_action_2 = {
         25 = {
             add_tech_bonus = {
                 name = support_tech_bonus
-                bonus = 0.5
+                bonus = 0.25
                 uses = 1
                 category = support_tech
             }
@@ -2942,7 +2942,7 @@ capitalism_action_2 = {
 capitalism_action_3 = {
     add_tech_bonus = {
         name = doctrine_tech_bonus
-        bonus = 0.5
+        bonus = 0.25
         uses = 1
         category = doctrine_tech
     }

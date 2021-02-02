@@ -287,3 +287,683 @@ instant_effect = {
 	}
     setup_small_nation_units = yes
 }
+
+units = {
+    fleet = {
+        name = "Pride of Kul Tiran"
+        naval_base = 7284
+        task_force = {
+            name = "Pride of Boralus"
+            location = 7284
+            
+            # Battleship
+            ship = {
+                name = "Pride of Boralus"
+                definition = battleship
+                # owner = KUL
+                # version_name = "Kul Tiran Battleship Class"
+                pride_of_the_fleet = yes
+                equipment = {
+                    battleship_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Battleship"
+                definition = battleship
+                # owner = KUL
+                # version_name = "Kul Tiran Battleship Class"
+                equipment = {
+                    battleship_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Battleship"
+                definition = battleship
+                # owner = KUL
+                # version_name = "Kul Tiran Battleship Class"
+                equipment = {
+                    battleship_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Battleship"
+                definition = battleship
+                # owner = KUL
+                # version_name = "Kul Tiran Battleship Class"
+                equipment = {
+                    battleship_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Battleship"
+                definition = battleship
+                # owner = KUL
+                # version_name = "Kul Tiran Battleship Class"
+                equipment = {
+                    battleship_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Battleship"
+                definition = battleship
+                # owner = KUL
+                # version_name = "Kul Tiran Battleship Class"
+                equipment = {
+                    battleship_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Battleship"
+                definition = battleship
+                # owner = KUL
+                # version_name = "Kul Tiran Battleship Class"
+                equipment = {
+                    battleship_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Battleship"
+                definition = battleship
+                # owner = KUL
+                # version_name = "Kul Tiran Battleship Class"
+                equipment = {
+                    battleship_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Battleship"
+                definition = battleship
+                # owner = KUL
+                # version_name = "Kul Tiran Battleship Class"
+                equipment = {
+                    battleship_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Battleship"
+                definition = battleship
+                # owner = KUL
+                # version_name = "Kul Tiran Battleship Class"
+                equipment = {
+                    battleship_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            
+            # Cruiser
+            ship = {
+                name = "Cruiser"
+                definition = cruiser
+                # owner = KUL
+                # version_name = "Kul Tiran Cruiser Class"
+                equipment = {
+                    cruiser_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Cruiser"
+                definition = cruiser
+                # owner = KUL
+                # version_name = "Kul Tiran Cruiser Class"
+                equipment = {
+                    cruiser_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Cruiser"
+                definition = cruiser
+                # owner = KUL
+                # version_name = "Kul Tiran Cruiser Class"
+                equipment = {
+                    cruiser_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Cruiser"
+                definition = cruiser
+                # owner = KUL
+                # version_name = "Kul Tiran Cruiser Class"
+                equipment = {
+                    cruiser_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Cruiser"
+                definition = cruiser
+                # owner = KUL
+                # version_name = "Kul Tiran Cruiser Class"
+                equipment = {
+                    cruiser_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Cruiser"
+                definition = cruiser
+                # owner = KUL
+                # version_name = "Kul Tiran Cruiser Class"
+                equipment = {
+                    cruiser_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Cruiser"
+                definition = cruiser
+                # owner = KUL
+                # version_name = "Kul Tiran Cruiser Class"
+                equipment = {
+                    cruiser_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Cruiser"
+                definition = cruiser
+                # owner = KUL
+                # version_name = "Kul Tiran Cruiser Class"
+                equipment = {
+                    cruiser_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Cruiser"
+                definition = cruiser
+                # owner = KUL
+                # version_name = "Kul Tiran Cruiser Class"
+                equipment = {
+                    cruiser_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Cruiser"
+                definition = cruiser
+                # owner = KUL
+                # version_name = "Kul Tiran Cruiser Class"
+                equipment = {
+                    cruiser_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            
+            # Destroyer
+            ship = {
+                name = "Destroyer"
+                definition = destroyer
+                # owner = KUL
+                # version_name = "Kul Tiran Destroyer Class"
+                equipment = {
+                    destroyer_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Destroyer"
+                definition = destroyer
+                # owner = KUL
+                # version_name = "Kul Tiran Destroyer Class"
+                equipment = {
+                    destroyer_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Destroyer"
+                definition = destroyer
+                # owner = KUL
+                # version_name = "Kul Tiran Destroyer Class"
+                equipment = {
+                    destroyer_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Destroyer"
+                definition = destroyer
+                # owner = KUL
+                # version_name = "Kul Tiran Destroyer Class"
+                equipment = {
+                    destroyer_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Destroyer"
+                definition = destroyer
+                # owner = KUL
+                # version_name = "Kul Tiran Destroyer Class"
+                equipment = {
+                    destroyer_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Destroyer"
+                definition = destroyer
+                # owner = KUL
+                # version_name = "Kul Tiran Destroyer Class"
+                equipment = {
+                    destroyer_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Destroyer"
+                definition = destroyer
+                # owner = KUL
+                # version_name = "Kul Tiran Destroyer Class"
+                equipment = {
+                    destroyer_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Destroyer"
+                definition = destroyer
+                # owner = KUL
+                # version_name = "Kul Tiran Destroyer Class"
+                equipment = {
+                    destroyer_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Destroyer"
+                definition = destroyer
+                # owner = KUL
+                # version_name = "Kul Tiran Destroyer Class"
+                equipment = {
+                    destroyer_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Destroyer"
+                definition = destroyer
+                # owner = KUL
+                # version_name = "Kul Tiran Destroyer Class"
+                equipment = {
+                    destroyer_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Destroyer"
+                definition = destroyer
+                # owner = KUL
+                # version_name = "Kul Tiran Destroyer Class"
+                equipment = {
+                    destroyer_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Destroyer"
+                definition = destroyer
+                # owner = KUL
+                # version_name = "Kul Tiran Destroyer Class"
+                equipment = {
+                    destroyer_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Destroyer"
+                definition = destroyer
+                # owner = KUL
+                # version_name = "Kul Tiran Destroyer Class"
+                equipment = {
+                    destroyer_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Destroyer"
+                definition = destroyer
+                # owner = KUL
+                # version_name = "Kul Tiran Destroyer Class"
+                equipment = {
+                    destroyer_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Destroyer"
+                definition = destroyer
+                # owner = KUL
+                # version_name = "Kul Tiran Destroyer Class"
+                equipment = {
+                    destroyer_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Destroyer"
+                definition = destroyer
+                # owner = KUL
+                # version_name = "Kul Tiran Destroyer Class"
+                equipment = {
+                    destroyer_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Destroyer"
+                definition = destroyer
+                # owner = KUL
+                # version_name = "Kul Tiran Destroyer Class"
+                equipment = {
+                    destroyer_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Destroyer"
+                definition = destroyer
+                # owner = KUL
+                # version_name = "Kul Tiran Destroyer Class"
+                equipment = {
+                    destroyer_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Destroyer"
+                definition = destroyer
+                # owner = KUL
+                # version_name = "Kul Tiran Destroyer Class"
+                equipment = {
+                    destroyer_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Destroyer"
+                definition = destroyer
+                # owner = KUL
+                # version_name = "Kul Tiran Destroyer Class"
+                equipment = {
+                    destroyer_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            
+            # Submarine
+            ship = {
+                name = "Submarine"
+                definition = submarine
+                # owner = KUL
+                # version_name = "Kul Tiran Submarine Class"
+                equipment = {
+                    submarine_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Submarine"
+                definition = submarine
+                # owner = KUL
+                # version_name = "Kul Tiran Submarine Class"
+                equipment = {
+                    submarine_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Submarine"
+                definition = submarine
+                # owner = KUL
+                # version_name = "Kul Tiran Submarine Class"
+                equipment = {
+                    submarine_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Submarine"
+                definition = submarine
+                # owner = KUL
+                # version_name = "Kul Tiran Submarine Class"
+                equipment = {
+                    submarine_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Submarine"
+                definition = submarine
+                # owner = KUL
+                # version_name = "Kul Tiran Submarine Class"
+                equipment = {
+                    submarine_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Submarine"
+                definition = submarine
+                # owner = KUL
+                # version_name = "Kul Tiran Submarine Class"
+                equipment = {
+                    submarine_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Submarine"
+                definition = submarine
+                # owner = KUL
+                # version_name = "Kul Tiran Submarine Class"
+                equipment = {
+                    submarine_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Submarine"
+                definition = submarine
+                # owner = KUL
+                # version_name = "Kul Tiran Submarine Class"
+                equipment = {
+                    submarine_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Submarine"
+                definition = submarine
+                # owner = KUL
+                # version_name = "Kul Tiran Submarine Class"
+                equipment = {
+                    submarine_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Submarine"
+                definition = submarine
+                # owner = KUL
+                # version_name = "Kul Tiran Submarine Class"
+                equipment = {
+                    submarine_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Submarine"
+                definition = submarine
+                # owner = KUL
+                # version_name = "Kul Tiran Submarine Class"
+                equipment = {
+                    submarine_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Submarine"
+                definition = submarine
+                # owner = KUL
+                # version_name = "Kul Tiran Submarine Class"
+                equipment = {
+                    submarine_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Submarine"
+                definition = submarine
+                # owner = KUL
+                # version_name = "Kul Tiran Submarine Class"
+                equipment = {
+                    submarine_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Submarine"
+                definition = submarine
+                # owner = KUL
+                # version_name = "Kul Tiran Submarine Class"
+                equipment = {
+                    submarine_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Submarine"
+                definition = submarine
+                # owner = KUL
+                # version_name = "Kul Tiran Submarine Class"
+                equipment = {
+                    submarine_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Submarine"
+                definition = submarine
+                # owner = KUL
+                # version_name = "Kul Tiran Submarine Class"
+                equipment = {
+                    submarine_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Submarine"
+                definition = submarine
+                # owner = KUL
+                # version_name = "Kul Tiran Submarine Class"
+                equipment = {
+                    submarine_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Submarine"
+                definition = submarine
+                # owner = KUL
+                # version_name = "Kul Tiran Submarine Class"
+                equipment = {
+                    submarine_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Submarine"
+                definition = submarine
+                # owner = KUL
+                # version_name = "Kul Tiran Submarine Class"
+                equipment = {
+                    submarine_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Submarine"
+                definition = submarine
+                # owner = KUL
+                # version_name = "Kul Tiran Submarine Class"
+                equipment = {
+                    submarine_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+        }
+    }
+}

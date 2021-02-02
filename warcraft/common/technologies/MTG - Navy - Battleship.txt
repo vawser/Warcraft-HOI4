@@ -3,6 +3,7 @@ technologies = {
     # battleship
     #-----------------------------------------------------------------
     mtg_battleship_tech_1 = {
+		start_year = 592
         enable_equipments = {
             battleship_equipment_1
         }
@@ -42,7 +43,11 @@ technologies = {
     }
     
     mtg_battleship_tech_2 = {
+		start_year = 592
         # Modifier
+        battleship = {
+            naval_speed = 0.1
+        }
         
         research_cost = 6
 
@@ -79,6 +84,7 @@ technologies = {
     }
     
     mtg_battleship_tech_3 = {
+		start_year = 593
         enable_equipments = {
             battleship_equipment_2
         }
@@ -133,7 +139,11 @@ technologies = {
     }
 
     mtg_battleship_tech_3_side_1 = {
+		start_year = 593
         # Modifier
+        battleship = {
+            naval_range = 0.1
+        }
         
         research_cost = 6
 
@@ -172,7 +182,11 @@ technologies = {
     }
     
     mtg_battleship_tech_3_side_2 = {
+		start_year = 593
         # Modifier
+        battleship = {
+            fuel_consumption = -0.1
+        }
         
         research_cost = 6
 
@@ -211,7 +225,12 @@ technologies = {
     }
     
     mtg_battleship_tech_4 = {
+		start_year = 594
         # Modifier
+        battleship = {
+            lg_armor_piercing = 0.1
+            lg_attack = 0.1
+        }
         
         research_cost = 6
 
@@ -248,6 +267,7 @@ technologies = {
     }
     
     mtg_battleship_tech_5 = {
+		start_year = 595
         enable_equipments = {
             battleship_equipment_3
         }
@@ -294,7 +314,12 @@ technologies = {
     }
     
     mtg_battleship_tech_6 = {
+		start_year = 596
         # Modifier
+        battleship = {
+            hg_armor_piercing = 0.1
+            hg_attack = 0.1
+        }
         
         research_cost = 6
 
@@ -331,6 +356,7 @@ technologies = {
     }
     
     mtg_battleship_tech_7 = {
+		start_year = 597
         enable_equipments = {
             battleship_equipment_4
         }
@@ -385,7 +411,11 @@ technologies = {
     }
     
     mtg_battleship_tech_7_side_1 = {
+		start_year = 597
         # Modifier
+        battleship = {
+            surface_visibility = -0.1
+        }
         
         research_cost = 6
 
@@ -424,7 +454,11 @@ technologies = {
     }
     
     mtg_battleship_tech_7_side_2 = {
+		start_year = 597
         # Modifier
+        battleship = {
+            armor_value = 0.1
+        }
         
         research_cost = 6
 
@@ -462,7 +496,11 @@ technologies = {
     }
     
     mtg_battleship_tech_8 = {
+		start_year = 598
         # Modifier
+        battleship = {
+            build_cost_ic = -0.1
+        }
         
         research_cost = 6
 
@@ -499,6 +537,7 @@ technologies = {
     }
     
     mtg_battleship_tech_9 = {
+		start_year = 599
         enable_equipments = {
             battleship_equipment_5
         }
@@ -545,7 +584,9 @@ technologies = {
     }
     
     mtg_battleship_tech_capstone = {
+		start_year = 600
         # Modifier
+        naval_morale_factor = 0.05
         
         research_cost = 12
 

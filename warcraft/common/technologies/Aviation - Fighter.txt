@@ -3,6 +3,7 @@ technologies = {
     # fighter
     #-----------------------------------------------------------------
     fighter_tech_1 = {
+		start_year = 592
         enable_equipments = {
             fighter_equipment_1
         }
@@ -42,6 +43,7 @@ technologies = {
     }
     
     fighter_tech_2 = {
+		start_year = 592
         # Modifier
         fighter = {
             naval_strike_targetting = 1
@@ -82,6 +84,7 @@ technologies = {
     }
     
     fighter_tech_3 = {
+		start_year = 593
         enable_equipments = {
             fighter_equipment_2
         }
@@ -136,6 +139,7 @@ technologies = {
     }
 
     fighter_tech_3_side_1 = {
+		start_year = 593
         # Modifier
         
         research_cost = 6
@@ -175,6 +179,7 @@ technologies = {
     }
     
     fighter_tech_3_side_2 = {
+		start_year = 593
         # Modifier
         
         research_cost = 6
@@ -214,6 +219,7 @@ technologies = {
     }
     
     fighter_tech_4 = {
+		start_year = 594
         # Modifier
         
         research_cost = 6
@@ -251,6 +257,7 @@ technologies = {
     }
     
     fighter_tech_5 = {
+		start_year = 595
         enable_equipments = {
             fighter_equipment_3
         }
@@ -297,6 +304,7 @@ technologies = {
     }
     
     fighter_tech_6 = {
+		start_year = 596
         # Modifier
         
         research_cost = 6
@@ -334,6 +342,7 @@ technologies = {
     }
     
     fighter_tech_7 = {
+		start_year = 597
         enable_equipments = {
             fighter_equipment_4
         }
@@ -388,6 +397,7 @@ technologies = {
     }
     
     fighter_tech_7_side_1 = {
+		start_year = 597
         # Modifier
         
         research_cost = 6
@@ -427,6 +437,7 @@ technologies = {
     }
     
     fighter_tech_7_side_2 = {
+		start_year = 597
         # Modifier
         
         research_cost = 6
@@ -465,6 +476,7 @@ technologies = {
     }
     
     fighter_tech_8 = {
+		start_year = 598
         # Modifier
         
         research_cost = 6
@@ -502,6 +514,7 @@ technologies = {
     }
     
     fighter_tech_9 = {
+		start_year = 599
         enable_equipments = {
             fighter_equipment_5
         }
@@ -548,6 +561,7 @@ technologies = {
     }
     
     fighter_tech_capstone = {
+		start_year = 600
         # Modifier
         
         research_cost = 12

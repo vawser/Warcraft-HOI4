@@ -27,7 +27,7 @@ add_scaled_war_support = {
         custom_effect_tooltip = WAR_SUPPORT_AT_MAX
     }
     else = {
-        set_temp_variable = { base = 0.1 }
+        set_temp_variable = { base = 0.01 }
         multiply_temp_variable = { base = faith_action_multiplier }
         add_war_support = var:base
     }
@@ -41,14 +41,14 @@ add_scaled_stability = {
         custom_effect_tooltip = STABILITY_AT_MAX
     }
     else = {
-        set_temp_variable = { base = 0.1 }
+        set_temp_variable = { base = 0.01 }
         multiply_temp_variable = { base = faith_action_multiplier }
         add_stability = var:base
     }
 }
 
 add_popularity_x_10 = {
-    set_temp_variable = { base = 0.1 }
+    set_temp_variable = { base = 0.05 }
     multiply_temp_variable = { base = faith_action_multiplier }
     
     if = {
@@ -117,7 +117,7 @@ add_popularity_x_10 = {
 }
 
 scaled_add_political_power = {
-    set_temp_variable = { base = 2 }
+    set_temp_variable = { base = 1 }
     multiply_temp_variable = { base = faith_action_multiplier }
     
     set_temp_variable = { count = num_core_states }
@@ -127,7 +127,7 @@ scaled_add_political_power = {
 }
 
 scaled_add_command_power = {
-    set_temp_variable = { base = 2 }
+    set_temp_variable = { base = 1 }
     multiply_temp_variable = { base = faith_action_multiplier }
     
     set_temp_variable = { count = num_core_states }
@@ -137,7 +137,7 @@ scaled_add_command_power = {
 }
 
 add_scaled_manpower = {
-    set_temp_variable = { base = 25 }
+    set_temp_variable = { base = 10 }
     multiply_temp_variable = { base = faith_action_multiplier }
     
     set_temp_variable = { count = num_divisions }
@@ -199,7 +199,7 @@ add_grunt_equipment = {
         limit = { check_variable = { faith_action_multiplier < 2 } }
         add_equipment_to_stockpile = {
             type = grunt_equipment
-            amount = 100
+            amount = 10
         }
     }
     else_if = {
@@ -209,7 +209,7 @@ add_grunt_equipment = {
         }
         add_equipment_to_stockpile = {
             type = grunt_equipment
-            amount = 200
+            amount = 20
         }
     }
     else_if = {
@@ -219,7 +219,7 @@ add_grunt_equipment = {
         }
         add_equipment_to_stockpile = {
             type = grunt_equipment
-            amount = 300
+            amount = 30
         }
     }
     else_if = {
@@ -229,7 +229,7 @@ add_grunt_equipment = {
         }
         add_equipment_to_stockpile = {
             type = grunt_equipment
-            amount = 400
+            amount = 40
         }
     }
     else_if = {
@@ -238,7 +238,7 @@ add_grunt_equipment = {
         }
         add_equipment_to_stockpile = {
             type = grunt_equipment
-            amount = 500
+            amount = 50
         }
     }
 }
@@ -248,7 +248,7 @@ add_champion_equipment = {
         limit = { check_variable = { faith_action_multiplier < 2 } }
         add_equipment_to_stockpile = {
             type = champion_equipment
-            amount = 100
+            amount = 10
         }
     }
     else_if = {
@@ -258,7 +258,7 @@ add_champion_equipment = {
         }
         add_equipment_to_stockpile = {
             type = champion_equipment
-            amount = 200
+            amount = 20
         }
     }
     else_if = {
@@ -268,7 +268,7 @@ add_champion_equipment = {
         }
         add_equipment_to_stockpile = {
             type = champion_equipment
-            amount = 300
+            amount = 30
         }
     }
     else_if = {
@@ -278,7 +278,7 @@ add_champion_equipment = {
         }
         add_equipment_to_stockpile = {
             type = champion_equipment
-            amount = 400
+            amount = 40
         }
     }
     else_if = {
@@ -287,7 +287,7 @@ add_champion_equipment = {
         }
         add_equipment_to_stockpile = {
             type = champion_equipment
-            amount = 500
+            amount = 50
         }
     }
 }
@@ -297,7 +297,7 @@ add_spellcaster_equipment = {
         limit = { check_variable = { faith_action_multiplier < 2 } }
         add_equipment_to_stockpile = {
             type = spellcaster_equipment
-            amount = 100
+            amount = 10
         }
     }
     else_if = {
@@ -307,7 +307,7 @@ add_spellcaster_equipment = {
         }
         add_equipment_to_stockpile = {
             type = spellcaster_equipment
-            amount = 200
+            amount = 20
         }
     }
     else_if = {
@@ -317,7 +317,7 @@ add_spellcaster_equipment = {
         }
         add_equipment_to_stockpile = {
             type = spellcaster_equipment
-            amount = 300
+            amount = 30
         }
     }
     else_if = {
@@ -327,7 +327,7 @@ add_spellcaster_equipment = {
         }
         add_equipment_to_stockpile = {
             type = spellcaster_equipment
-            amount = 400
+            amount = 40
         }
     }
     else_if = {
@@ -336,7 +336,7 @@ add_spellcaster_equipment = {
         }
         add_equipment_to_stockpile = {
             type = spellcaster_equipment
-            amount = 500
+            amount = 50
         }
     }
 }
@@ -346,7 +346,7 @@ add_archer_equipment = {
         limit = { check_variable = { faith_action_multiplier < 2 } }
         add_equipment_to_stockpile = {
             type = archer_equipment
-            amount = 100
+            amount = 10
         }
     }
     else_if = {
@@ -356,7 +356,7 @@ add_archer_equipment = {
         }
         add_equipment_to_stockpile = {
             type = archer_equipment
-            amount = 200
+            amount = 20
         }
     }
     else_if = {
@@ -366,7 +366,7 @@ add_archer_equipment = {
         }
         add_equipment_to_stockpile = {
             type = archer_equipment
-            amount = 300
+            amount = 30
         }
     }
     else_if = {
@@ -376,7 +376,7 @@ add_archer_equipment = {
         }
         add_equipment_to_stockpile = {
             type = archer_equipment
-            amount = 400
+            amount = 40
         }
     }
     else_if = {
@@ -385,7 +385,7 @@ add_archer_equipment = {
         }
         add_equipment_to_stockpile = {
             type = archer_equipment
-            amount = 500
+            amount = 50
         }
     }
 }
@@ -395,7 +395,7 @@ add_light_cavalry_equipment = {
         limit = { check_variable = { faith_action_multiplier < 2 } }
         add_equipment_to_stockpile = {
             type = light_cavalry_equipment
-            amount = 100
+            amount = 10
         }
     }
     else_if = {
@@ -405,7 +405,7 @@ add_light_cavalry_equipment = {
         }
         add_equipment_to_stockpile = {
             type = light_cavalry_equipment
-            amount = 200
+            amount = 20
         }
     }
     else_if = {
@@ -415,7 +415,7 @@ add_light_cavalry_equipment = {
         }
         add_equipment_to_stockpile = {
             type = light_cavalry_equipment
-            amount = 300
+            amount = 30
         }
     }
     else_if = {
@@ -425,7 +425,7 @@ add_light_cavalry_equipment = {
         }
         add_equipment_to_stockpile = {
             type = light_cavalry_equipment
-            amount = 400
+            amount = 40
         }
     }
     else_if = {
@@ -434,7 +434,7 @@ add_light_cavalry_equipment = {
         }
         add_equipment_to_stockpile = {
             type = light_cavalry_equipment
-            amount = 500
+            amount = 50
         }
     }
 }
@@ -444,7 +444,7 @@ add_heavy_cavalry_equipment = {
         limit = { check_variable = { faith_action_multiplier < 2 } }
         add_equipment_to_stockpile = {
             type = heavy_cavalry_equipment
-            amount = 100
+            amount = 10
         }
     }
     else_if = {
@@ -454,7 +454,7 @@ add_heavy_cavalry_equipment = {
         }
         add_equipment_to_stockpile = {
             type = heavy_cavalry_equipment
-            amount = 200
+            amount = 20
         }
     }
     else_if = {
@@ -464,7 +464,7 @@ add_heavy_cavalry_equipment = {
         }
         add_equipment_to_stockpile = {
             type = heavy_cavalry_equipment
-            amount = 300
+            amount = 30
         }
     }
     else_if = {
@@ -474,7 +474,7 @@ add_heavy_cavalry_equipment = {
         }
         add_equipment_to_stockpile = {
             type = heavy_cavalry_equipment
-            amount = 400
+            amount = 40
         }
     }
     else_if = {
@@ -483,7 +483,7 @@ add_heavy_cavalry_equipment = {
         }
         add_equipment_to_stockpile = {
             type = heavy_cavalry_equipment
-            amount = 500
+            amount = 50
         }
     }
 }
@@ -493,7 +493,7 @@ add_light_tank_equipment = {
         limit = { check_variable = { faith_action_multiplier < 2 } }
         add_equipment_to_stockpile = {
             type = light_tank_equipment
-            amount = 100
+            amount = 10
         }
     }
     else_if = {
@@ -503,7 +503,7 @@ add_light_tank_equipment = {
         }
         add_equipment_to_stockpile = {
             type = light_tank_equipment
-            amount = 200
+            amount = 20
         }
     }
     else_if = {
@@ -513,7 +513,7 @@ add_light_tank_equipment = {
         }
         add_equipment_to_stockpile = {
             type = light_tank_equipment
-            amount = 300
+            amount = 30
         }
     }
     else_if = {
@@ -523,7 +523,7 @@ add_light_tank_equipment = {
         }
         add_equipment_to_stockpile = {
             type = light_tank_equipment
-            amount = 400
+            amount = 40
         }
     }
     else_if = {
@@ -532,7 +532,7 @@ add_light_tank_equipment = {
         }
         add_equipment_to_stockpile = {
             type = light_tank_equipment
-            amount = 500
+            amount = 50
         }
     }
 }
@@ -542,7 +542,7 @@ add_heavy_tank_equipment = {
         limit = { check_variable = { faith_action_multiplier < 2 } }
         add_equipment_to_stockpile = {
             type = heavy_tank_equipment
-            amount = 100
+            amount = 10
         }
     }
     else_if = {
@@ -552,7 +552,7 @@ add_heavy_tank_equipment = {
         }
         add_equipment_to_stockpile = {
             type = heavy_tank_equipment
-            amount = 200
+            amount = 20
         }
     }
     else_if = {
@@ -562,7 +562,7 @@ add_heavy_tank_equipment = {
         }
         add_equipment_to_stockpile = {
             type = heavy_tank_equipment
-            amount = 300
+            amount = 30
         }
     }
     else_if = {
@@ -572,7 +572,7 @@ add_heavy_tank_equipment = {
         }
         add_equipment_to_stockpile = {
             type = heavy_tank_equipment
-            amount = 400
+            amount = 40
         }
     }
     else_if = {
@@ -581,7 +581,7 @@ add_heavy_tank_equipment = {
         }
         add_equipment_to_stockpile = {
             type = heavy_tank_equipment
-            amount = 500
+            amount = 50
         }
     }
 }
@@ -591,7 +591,7 @@ add_support_equipment = {
         limit = { check_variable = { faith_action_multiplier < 2 } }
         add_equipment_to_stockpile = {
             type = support_equipment
-            amount = 100
+            amount = 10
         }
     }
     else_if = {
@@ -601,7 +601,7 @@ add_support_equipment = {
         }
         add_equipment_to_stockpile = {
             type = support_equipment
-            amount = 200
+            amount = 20
         }
     }
     else_if = {
@@ -611,7 +611,7 @@ add_support_equipment = {
         }
         add_equipment_to_stockpile = {
             type = support_equipment
-            amount = 300
+            amount = 30
         }
     }
     else_if = {
@@ -621,7 +621,7 @@ add_support_equipment = {
         }
         add_equipment_to_stockpile = {
             type = support_equipment
-            amount = 400
+            amount = 40
         }
     }
     else_if = {
@@ -630,7 +630,7 @@ add_support_equipment = {
         }
         add_equipment_to_stockpile = {
             type = support_equipment
-            amount = 500
+            amount = 50
         }
     }
 }
@@ -639,7 +639,7 @@ add_support_equipment = {
 # PP from Ideology
 #---------------------------------
 add_pp_from_light = {
-    set_temp_variable = { base = 200 }
+    set_temp_variable = { base = 50 }
     multiply_temp_variable = { base = faith_action_multiplier }
     
     hidden_effect = {
@@ -651,7 +651,7 @@ add_pp_from_light = {
 }
 
 add_pp_from_shadow = {
-    set_temp_variable = { base = 200 }
+    set_temp_variable = { base = 50 }
     multiply_temp_variable = { base = faith_action_multiplier }
     
     hidden_effect = {
@@ -663,7 +663,7 @@ add_pp_from_shadow = {
 }
 
 add_pp_from_order = {
-    set_temp_variable = { base = 200 }
+    set_temp_variable = { base = 50 }
     multiply_temp_variable = { base = faith_action_multiplier }
     
     hidden_effect = {
@@ -675,7 +675,7 @@ add_pp_from_order = {
 }
 
 add_pp_from_disorder = {
-    set_temp_variable = { base = 200 }
+    set_temp_variable = { base = 50 }
     multiply_temp_variable = { base = faith_action_multiplier }
     
     hidden_effect = {
@@ -687,7 +687,7 @@ add_pp_from_disorder = {
 }
 
 add_pp_from_life = {
-    set_temp_variable = { base = 200 }
+    set_temp_variable = { base = 50 }
     multiply_temp_variable = { base = faith_action_multiplier }
     
     hidden_effect = {
@@ -699,7 +699,7 @@ add_pp_from_life = {
 }
 
 add_pp_from_death = {
-    set_temp_variable = { base = 200 }
+    set_temp_variable = { base = 50 }
     multiply_temp_variable = { base = faith_action_multiplier }
     
     hidden_effect = {
@@ -711,7 +711,7 @@ add_pp_from_death = {
 }
 
 add_pp_from_unaligned = {
-    set_temp_variable = { base = 200 }
+    set_temp_variable = { base = 50 }
     multiply_temp_variable = { base = faith_action_multiplier }
     
     hidden_effect = {

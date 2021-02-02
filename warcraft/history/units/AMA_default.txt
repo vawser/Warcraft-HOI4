@@ -626,3 +626,737 @@ instant_effect = {
     set_country_flag = given_large_oob
     setup_large_nation_units = yes
 }
+
+units = {
+    fleet = {
+        name = "Pride of Amani"
+        naval_base = 1739
+        task_force = {
+            name = "Amani Fleet"
+            location = 1739
+            
+            # Battleship
+
+            # Cruiser
+            ship = {
+                name = "Cruiser"
+                definition = cruiser
+                # owner = SRW
+                # version_name = "Stormwind Cruiser Class"
+                equipment = {
+                    cruiser_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Cruiser"
+                definition = cruiser
+                # owner = SRW
+                # version_name = "Stormwind Cruiser Class"
+                equipment = {
+                    cruiser_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Cruiser"
+                definition = cruiser
+                # owner = SRW
+                # version_name = "Stormwind Cruiser Class"
+                equipment = {
+                    cruiser_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Cruiser"
+                definition = cruiser
+                # owner = SRW
+                # version_name = "Stormwind Cruiser Class"
+                equipment = {
+                    cruiser_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Cruiser"
+                definition = cruiser
+                # owner = SRW
+                # version_name = "Stormwind Cruiser Class"
+                equipment = {
+                    cruiser_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            
+            # Destroyer
+            ship = {
+                name = "Destroyer"
+                definition = destroyer
+                # owner = SRW
+                # version_name = "Stormwind Destroyer Class"
+                equipment = {
+                    destroyer_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Destroyer"
+                definition = destroyer
+                # owner = SRW
+                # version_name = "Stormwind Destroyer Class"
+                equipment = {
+                    destroyer_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Destroyer"
+                definition = destroyer
+                # owner = SRW
+                # version_name = "Stormwind Destroyer Class"
+                equipment = {
+                    destroyer_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Destroyer"
+                definition = destroyer
+                # owner = SRW
+                # version_name = "Stormwind Destroyer Class"
+                equipment = {
+                    destroyer_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Destroyer"
+                definition = destroyer
+                # owner = SRW
+                # version_name = "Stormwind Destroyer Class"
+                equipment = {
+                    destroyer_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Destroyer"
+                definition = destroyer
+                # owner = SRW
+                # version_name = "Stormwind Destroyer Class"
+                equipment = {
+                    destroyer_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Destroyer"
+                definition = destroyer
+                # owner = SRW
+                # version_name = "Stormwind Destroyer Class"
+                equipment = {
+                    destroyer_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Destroyer"
+                definition = destroyer
+                # owner = SRW
+                # version_name = "Stormwind Destroyer Class"
+                equipment = {
+                    destroyer_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Destroyer"
+                definition = destroyer
+                # owner = SRW
+                # version_name = "Stormwind Destroyer Class"
+                equipment = {
+                    destroyer_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Destroyer"
+                definition = destroyer
+                # owner = SRW
+                # version_name = "Stormwind Destroyer Class"
+                equipment = {
+                    destroyer_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Destroyer"
+                definition = destroyer
+                # owner = SRW
+                # version_name = "Stormwind Destroyer Class"
+                equipment = {
+                    destroyer_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Destroyer"
+                definition = destroyer
+                # owner = SRW
+                # version_name = "Stormwind Destroyer Class"
+                equipment = {
+                    destroyer_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Destroyer"
+                definition = destroyer
+                # owner = SRW
+                # version_name = "Stormwind Destroyer Class"
+                equipment = {
+                    destroyer_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Destroyer"
+                definition = destroyer
+                # owner = SRW
+                # version_name = "Stormwind Destroyer Class"
+                equipment = {
+                    destroyer_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Destroyer"
+                definition = destroyer
+                # owner = SRW
+                # version_name = "Stormwind Destroyer Class"
+                equipment = {
+                    destroyer_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Destroyer"
+                definition = destroyer
+                # owner = SRW
+                # version_name = "Stormwind Destroyer Class"
+                equipment = {
+                    destroyer_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Destroyer"
+                definition = destroyer
+                # owner = SRW
+                # version_name = "Stormwind Destroyer Class"
+                equipment = {
+                    destroyer_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Destroyer"
+                definition = destroyer
+                # owner = SRW
+                # version_name = "Stormwind Destroyer Class"
+                equipment = {
+                    destroyer_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Destroyer"
+                definition = destroyer
+                # owner = SRW
+                # version_name = "Stormwind Destroyer Class"
+                equipment = {
+                    destroyer_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Destroyer"
+                definition = destroyer
+                # owner = SRW
+                # version_name = "Stormwind Destroyer Class"
+                equipment = {
+                    destroyer_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Destroyer"
+                definition = destroyer
+                # owner = SRW
+                # version_name = "Stormwind Destroyer Class"
+                equipment = {
+                    destroyer_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Destroyer"
+                definition = destroyer
+                # owner = SRW
+                # version_name = "Stormwind Destroyer Class"
+                equipment = {
+                    destroyer_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Destroyer"
+                definition = destroyer
+                # owner = SRW
+                # version_name = "Stormwind Destroyer Class"
+                equipment = {
+                    destroyer_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Destroyer"
+                definition = destroyer
+                # owner = SRW
+                # version_name = "Stormwind Destroyer Class"
+                equipment = {
+                    destroyer_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Destroyer"
+                definition = destroyer
+                # owner = SRW
+                # version_name = "Stormwind Destroyer Class"
+                equipment = {
+                    destroyer_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Destroyer"
+                definition = destroyer
+                # owner = SRW
+                # version_name = "Stormwind Destroyer Class"
+                equipment = {
+                    destroyer_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Destroyer"
+                definition = destroyer
+                # owner = SRW
+                # version_name = "Stormwind Destroyer Class"
+                equipment = {
+                    destroyer_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Destroyer"
+                definition = destroyer
+                # owner = SRW
+                # version_name = "Stormwind Destroyer Class"
+                equipment = {
+                    destroyer_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Destroyer"
+                definition = destroyer
+                # owner = SRW
+                # version_name = "Stormwind Destroyer Class"
+                equipment = {
+                    destroyer_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Destroyer"
+                definition = destroyer
+                # owner = SRW
+                # version_name = "Stormwind Destroyer Class"
+                equipment = {
+                    destroyer_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Destroyer"
+                definition = destroyer
+                # owner = SRW
+                # version_name = "Stormwind Destroyer Class"
+                equipment = {
+                    destroyer_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Destroyer"
+                definition = destroyer
+                # owner = SRW
+                # version_name = "Stormwind Destroyer Class"
+                equipment = {
+                    destroyer_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Destroyer"
+                definition = destroyer
+                # owner = SRW
+                # version_name = "Stormwind Destroyer Class"
+                equipment = {
+                    destroyer_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Destroyer"
+                definition = destroyer
+                # owner = SRW
+                # version_name = "Stormwind Destroyer Class"
+                equipment = {
+                    destroyer_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Destroyer"
+                definition = destroyer
+                # owner = SRW
+                # version_name = "Stormwind Destroyer Class"
+                equipment = {
+                    destroyer_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Destroyer"
+                definition = destroyer
+                # owner = SRW
+                # version_name = "Stormwind Destroyer Class"
+                equipment = {
+                    destroyer_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Destroyer"
+                definition = destroyer
+                # owner = SRW
+                # version_name = "Stormwind Destroyer Class"
+                equipment = {
+                    destroyer_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Destroyer"
+                definition = destroyer
+                # owner = SRW
+                # version_name = "Stormwind Destroyer Class"
+                equipment = {
+                    destroyer_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Destroyer"
+                definition = destroyer
+                # owner = SRW
+                # version_name = "Stormwind Destroyer Class"
+                equipment = {
+                    destroyer_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Destroyer"
+                definition = destroyer
+                # owner = SRW
+                # version_name = "Stormwind Destroyer Class"
+                equipment = {
+                    destroyer_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            
+            # Submarine
+            ship = {
+                name = "Submarine"
+                definition = submarine
+                # owner = SRW
+                # version_name = "Stormwind Submarine Class"
+                equipment = {
+                    submarine_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Submarine"
+                definition = submarine
+                # owner = SRW
+                # version_name = "Stormwind Submarine Class"
+                equipment = {
+                    submarine_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Submarine"
+                definition = submarine
+                # owner = SRW
+                # version_name = "Stormwind Submarine Class"
+                equipment = {
+                    submarine_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Submarine"
+                definition = submarine
+                # owner = SRW
+                # version_name = "Stormwind Submarine Class"
+                equipment = {
+                    submarine_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Submarine"
+                definition = submarine
+                # owner = SRW
+                # version_name = "Stormwind Submarine Class"
+                equipment = {
+                    submarine_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Submarine"
+                definition = submarine
+                # owner = SRW
+                # version_name = "Stormwind Submarine Class"
+                equipment = {
+                    submarine_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Submarine"
+                definition = submarine
+                # owner = SRW
+                # version_name = "Stormwind Submarine Class"
+                equipment = {
+                    submarine_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Submarine"
+                definition = submarine
+                # owner = SRW
+                # version_name = "Stormwind Submarine Class"
+                equipment = {
+                    submarine_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Submarine"
+                definition = submarine
+                # owner = SRW
+                # version_name = "Stormwind Submarine Class"
+                equipment = {
+                    submarine_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Submarine"
+                definition = submarine
+                # owner = SRW
+                # version_name = "Stormwind Submarine Class"
+                equipment = {
+                    submarine_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Submarine"
+                definition = submarine
+                # owner = SRW
+                # version_name = "Stormwind Submarine Class"
+                equipment = {
+                    submarine_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Submarine"
+                definition = submarine
+                # owner = SRW
+                # version_name = "Stormwind Submarine Class"
+                equipment = {
+                    submarine_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Submarine"
+                definition = submarine
+                # owner = SRW
+                # version_name = "Stormwind Submarine Class"
+                equipment = {
+                    submarine_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Submarine"
+                definition = submarine
+                # owner = SRW
+                # version_name = "Stormwind Submarine Class"
+                equipment = {
+                    submarine_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Submarine"
+                definition = submarine
+                # owner = SRW
+                # version_name = "Stormwind Submarine Class"
+                equipment = {
+                    submarine_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Submarine"
+                definition = submarine
+                # owner = SRW
+                # version_name = "Stormwind Submarine Class"
+                equipment = {
+                    submarine_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Submarine"
+                definition = submarine
+                # owner = SRW
+                # version_name = "Stormwind Submarine Class"
+                equipment = {
+                    submarine_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Submarine"
+                definition = submarine
+                # owner = SRW
+                # version_name = "Stormwind Submarine Class"
+                equipment = {
+                    submarine_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Submarine"
+                definition = submarine
+                # owner = SRW
+                # version_name = "Stormwind Submarine Class"
+                equipment = {
+                    submarine_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Submarine"
+                definition = submarine
+                # owner = SRW
+                # version_name = "Stormwind Submarine Class"
+                equipment = {
+                    submarine_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+        }
+    }
+}

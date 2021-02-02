@@ -8,7 +8,7 @@ scripted_gui = {
                 can_show_state_menu = yes
             }
             is_controlled_by = ROOT
-            NOT = { has_state_category = wasteland }
+            #NOT = { has_state_category = wasteland }
 		}
         
 		effects = {

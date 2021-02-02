@@ -287,3 +287,517 @@ instant_effect = {
 	}
     setup_small_nation_units = yes
 }
+
+units = {
+    fleet = {
+        name = "Pride of Stratholme"
+        naval_base = 1939
+        task_force = {
+            name = "Stratholme"
+            location = 1939
+            
+            # Battleship
+            
+            # Cruiser
+            ship = {
+                name = "Cruiser"
+                definition = cruiser
+                # owner = STR
+                # version_name = "Stratholme Cruiser Class"
+                equipment = {
+                    cruiser_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Cruiser"
+                definition = cruiser
+                # owner = STR
+                # version_name = "Stratholme Cruiser Class"
+                equipment = {
+                    cruiser_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Cruiser"
+                definition = cruiser
+                # owner = STR
+                # version_name = "Stratholme Cruiser Class"
+                equipment = {
+                    cruiser_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Cruiser"
+                definition = cruiser
+                # owner = STR
+                # version_name = "Stratholme Cruiser Class"
+                equipment = {
+                    cruiser_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Cruiser"
+                definition = cruiser
+                # owner = STR
+                # version_name = "Stratholme Cruiser Class"
+                equipment = {
+                    cruiser_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            
+            # Destroyer
+            ship = {
+                name = "Destroyer"
+                definition = destroyer
+                # owner = STR
+                # version_name = "Stratholme Destroyer Class"
+                equipment = {
+                    destroyer_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Destroyer"
+                definition = destroyer
+                # owner = STR
+                # version_name = "Stratholme Destroyer Class"
+                equipment = {
+                    destroyer_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Destroyer"
+                definition = destroyer
+                # owner = STR
+                # version_name = "Stratholme Destroyer Class"
+                equipment = {
+                    destroyer_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Destroyer"
+                definition = destroyer
+                # owner = STR
+                # version_name = "Stratholme Destroyer Class"
+                equipment = {
+                    destroyer_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Destroyer"
+                definition = destroyer
+                # owner = STR
+                # version_name = "Stratholme Destroyer Class"
+                equipment = {
+                    destroyer_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Destroyer"
+                definition = destroyer
+                # owner = STR
+                # version_name = "Stratholme Destroyer Class"
+                equipment = {
+                    destroyer_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Destroyer"
+                definition = destroyer
+                # owner = STR
+                # version_name = "Stratholme Destroyer Class"
+                equipment = {
+                    destroyer_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Destroyer"
+                definition = destroyer
+                # owner = STR
+                # version_name = "Stratholme Destroyer Class"
+                equipment = {
+                    destroyer_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Destroyer"
+                definition = destroyer
+                # owner = STR
+                # version_name = "Stratholme Destroyer Class"
+                equipment = {
+                    destroyer_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Destroyer"
+                definition = destroyer
+                # owner = STR
+                # version_name = "Stratholme Destroyer Class"
+                equipment = {
+                    destroyer_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Destroyer"
+                definition = destroyer
+                # owner = STR
+                # version_name = "Stratholme Destroyer Class"
+                equipment = {
+                    destroyer_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Destroyer"
+                definition = destroyer
+                # owner = STR
+                # version_name = "Stratholme Destroyer Class"
+                equipment = {
+                    destroyer_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Destroyer"
+                definition = destroyer
+                # owner = STR
+                # version_name = "Stratholme Destroyer Class"
+                equipment = {
+                    destroyer_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Destroyer"
+                definition = destroyer
+                # owner = STR
+                # version_name = "Stratholme Destroyer Class"
+                equipment = {
+                    destroyer_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Destroyer"
+                definition = destroyer
+                # owner = STR
+                # version_name = "Stratholme Destroyer Class"
+                equipment = {
+                    destroyer_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Destroyer"
+                definition = destroyer
+                # owner = STR
+                # version_name = "Stratholme Destroyer Class"
+                equipment = {
+                    destroyer_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Destroyer"
+                definition = destroyer
+                # owner = STR
+                # version_name = "Stratholme Destroyer Class"
+                equipment = {
+                    destroyer_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Destroyer"
+                definition = destroyer
+                # owner = STR
+                # version_name = "Stratholme Destroyer Class"
+                equipment = {
+                    destroyer_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Destroyer"
+                definition = destroyer
+                # owner = STR
+                # version_name = "Stratholme Destroyer Class"
+                equipment = {
+                    destroyer_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Destroyer"
+                definition = destroyer
+                # owner = STR
+                # version_name = "Stratholme Destroyer Class"
+                equipment = {
+                    destroyer_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            
+            # Submarine
+            ship = {
+                name = "Submarine"
+                definition = submarine
+                # owner = STR
+                # version_name = "Stratholme Submarine Class"
+                equipment = {
+                    submarine_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Submarine"
+                definition = submarine
+                # owner = STR
+                # version_name = "Stratholme Submarine Class"
+                equipment = {
+                    submarine_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Submarine"
+                definition = submarine
+                # owner = STR
+                # version_name = "Stratholme Submarine Class"
+                equipment = {
+                    submarine_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Submarine"
+                definition = submarine
+                # owner = STR
+                # version_name = "Stratholme Submarine Class"
+                equipment = {
+                    submarine_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Submarine"
+                definition = submarine
+                # owner = STR
+                # version_name = "Stratholme Submarine Class"
+                equipment = {
+                    submarine_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Submarine"
+                definition = submarine
+                # owner = STR
+                # version_name = "Stratholme Submarine Class"
+                equipment = {
+                    submarine_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Submarine"
+                definition = submarine
+                # owner = STR
+                # version_name = "Stratholme Submarine Class"
+                equipment = {
+                    submarine_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Submarine"
+                definition = submarine
+                # owner = STR
+                # version_name = "Stratholme Submarine Class"
+                equipment = {
+                    submarine_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Submarine"
+                definition = submarine
+                # owner = STR
+                # version_name = "Stratholme Submarine Class"
+                equipment = {
+                    submarine_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Submarine"
+                definition = submarine
+                # owner = STR
+                # version_name = "Stratholme Submarine Class"
+                equipment = {
+                    submarine_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Submarine"
+                definition = submarine
+                # owner = STR
+                # version_name = "Stratholme Submarine Class"
+                equipment = {
+                    submarine_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Submarine"
+                definition = submarine
+                # owner = STR
+                # version_name = "Stratholme Submarine Class"
+                equipment = {
+                    submarine_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Submarine"
+                definition = submarine
+                # owner = STR
+                # version_name = "Stratholme Submarine Class"
+                equipment = {
+                    submarine_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Submarine"
+                definition = submarine
+                # owner = STR
+                # version_name = "Stratholme Submarine Class"
+                equipment = {
+                    submarine_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Submarine"
+                definition = submarine
+                # owner = STR
+                # version_name = "Stratholme Submarine Class"
+                equipment = {
+                    submarine_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Submarine"
+                definition = submarine
+                # owner = STR
+                # version_name = "Stratholme Submarine Class"
+                equipment = {
+                    submarine_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Submarine"
+                definition = submarine
+                # owner = STR
+                # version_name = "Stratholme Submarine Class"
+                equipment = {
+                    submarine_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Submarine"
+                definition = submarine
+                # owner = STR
+                # version_name = "Stratholme Submarine Class"
+                equipment = {
+                    submarine_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Submarine"
+                definition = submarine
+                # owner = STR
+                # version_name = "Stratholme Submarine Class"
+                equipment = {
+                    submarine_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+            ship = {
+                name = "Submarine"
+                definition = submarine
+                # owner = STR
+                # version_name = "Stratholme Submarine Class"
+                equipment = {
+                    submarine_equipment_1 = {
+                        amount = 1
+                    }
+                }
+            }
+        }
+    }
+}

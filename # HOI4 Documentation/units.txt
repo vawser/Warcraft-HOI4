@@ -230,6 +230,26 @@ carrier_size = 0.05
 # Multiplicative
 # Naval Deck Size: number of flying units can be fit on board.
 
+lg_armor_piercing = 0
+#
+#
+
+lg_attack = 0
+#
+#
+
+hg_armor_piercing = 0
+#
+#
+
+hg_attack = 0
+#
+#
+
+fuel_consumption = 60
+#
+#
+
 #---------------------------------------------
 # Air-specific
 #---------------------------------------------

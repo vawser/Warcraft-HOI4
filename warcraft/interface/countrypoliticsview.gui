@@ -916,7 +916,7 @@ guiTypes = {
 		    name = "traits_container"
 		    position = { x = 84 y = 0 }	
 		    show_position = { x = 0 y = 0 }
-			size = { width=170 height=100%% }
+			size = { width=250 height=100%% }
 			
 			instantTextboxType = {
 				name = "name"
@@ -924,7 +924,7 @@ guiTypes = {
 				font = "hoi_18mbs"
 				fixedsize = yes			
 				text = ""
-				maxWidth = 160
+				maxWidth = 250
 				maxHeight = 100%%
 				format = left
 				vertical_alignment = center
@@ -937,7 +937,7 @@ guiTypes = {
 				font = "hoi_16mbs"
 				fixedsize = yes			
 				text = "name"
-				maxWidth = 160
+				maxWidth = 250
 				maxHeight = 100%%
 				format = left
 				alwaystransparent = yes			
@@ -946,7 +946,7 @@ guiTypes = {
 		
 		instantTextboxType = {
 			name = "cost"
-			position = { x = 200 y = 32 }
+			position = { x = 250 y = 32 }
 			font = "hoi_16mbs"
 			text = ""
 			maxWidth = 142
@@ -957,7 +957,7 @@ guiTypes = {
 
 		instantTextboxType = {
 			name = "stats"
-			position = { x = 300 y = 32 }
+			position = { x = 320 y = 32 }
 			font = "hoi_16mbs"
 			text = ""
 			maxWidth = 142

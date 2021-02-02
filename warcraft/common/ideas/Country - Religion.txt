@@ -17,7 +17,7 @@ ideas = {
 			picture = cast_out_the_darkness
 
 			modifier = {
-                justify_war_goal_time = -0.25
+                justify_war_goal_time = -0.1
 			}
 		}
         
@@ -38,7 +38,7 @@ ideas = {
 			picture = soothe_the_people
 
 			modifier = {
-                resistance_activity = -0.5
+                resistance_activity = -0.1
 			}
 		}
         
@@ -56,7 +56,7 @@ ideas = {
 			picture = moon_blessings
 
 			modifier = {
-                production_speed_buildings_factor = 0.25
+                production_speed_buildings_factor = 0.1
 			}
 		}
         
@@ -77,7 +77,7 @@ ideas = {
 			picture = gift_of_hakkar
 
 			modifier = {
-                army_speed_factor = 0.1
+                army_speed_factor = 0.05
 			}
 		}
         
@@ -95,7 +95,7 @@ ideas = {
 			picture = desecrated_remains
 
 			modifier = {
-                army_morale_factor = 0.1
+                army_morale_factor = 0.05
 			}
 		}
         
@@ -113,7 +113,7 @@ ideas = {
 			picture = imbued_blood_prophets
 
 			modifier = {
-                army_org_factor = 0.1
+                army_org_factor = 0.05
 			}
 		}
         
@@ -131,7 +131,7 @@ ideas = {
 			picture = avatar_of_hakkar
 
 			modifier = {
-                army_attack_factor = 0.1
+                army_attack_factor = 0.05
 			}
 		}
         
@@ -152,7 +152,7 @@ ideas = {
 			picture = tiki_lord
 
 			modifier = {
-                attrition = -0.25
+                attrition = -0.1
 			}
 		}
         
@@ -170,7 +170,7 @@ ideas = {
 			picture = enhanced_equipment
 
 			modifier = {
-                supply_consumption_factor = -0.25
+                supply_consumption_factor = -0.1
 			}
 		}
         
@@ -191,7 +191,7 @@ ideas = {
 			picture = void_lord
 
 			modifier = {
-                army_org_factor = 0.1
+                army_org_factor = 0.05
 			}
 		}
         
@@ -209,7 +209,7 @@ ideas = {
 			picture = voidform
 
 			modifier = {
-                terrain_penalty_reduction = 1
+                terrain_penalty_reduction = 0.05
 			}
 		}
         
@@ -230,7 +230,7 @@ ideas = {
 			picture = murloc_warcry
 
 			modifier = {
-                army_speed_factor = 0.1
+                army_speed_factor = 0.05
 			}
 		}
         
@@ -249,7 +249,7 @@ ideas = {
 
 			modifier = {
                 amphibious_invasion = 1.0
-                naval_invasion_capacity = 50
+                naval_invasion_capacity = 25
 			}
 		}
         
@@ -270,7 +270,7 @@ ideas = {
 			picture = arcane_surge
 
 			modifier = {
-                army_speed_factor = 0.1
+                army_speed_factor = 0.05
 			}
 		}
         
@@ -288,7 +288,7 @@ ideas = {
 			picture = arcane_empowerment
 
 			modifier = {
-                army_attack_factor = 0.1
+                army_attack_factor = 0.05
 			}
 		}
         
@@ -309,7 +309,7 @@ ideas = {
 			picture = wrath_of_nature
 
 			modifier = {
-                army_attack_factor = 0.1
+                army_attack_factor = 0.05
 			}
 		}
         
@@ -327,7 +327,7 @@ ideas = {
 			picture = druid_moon_blessing
 
 			modifier = {
-                army_org_factor = 0.1
+                army_org_factor = 0.05
 			}
 		}
         
@@ -348,7 +348,7 @@ ideas = {
 			picture = gift_of_cthun
 
 			modifier = {
-                attrition = -0.5
+                attrition = -0.1
 			}
 		}
         
@@ -366,7 +366,7 @@ ideas = {
 			picture = gift_of_cthun
 
 			modifier = {
-                combat_width_factor = -0.5
+                combat_width_factor = -0.1
 			}
 		}
         
@@ -384,7 +384,7 @@ ideas = {
 			picture = gift_of_cthun
 
 			modifier = {
-                org_loss_when_moving = -0.25
+                org_loss_when_moving = -0.05
 			}
 		}
         
@@ -402,7 +402,7 @@ ideas = {
 			picture = gift_of_cthun
 
 			modifier = {
-                out_of_supply_factor = -0.25
+                out_of_supply_factor = -0.1
 			}
 		}
         #-------------------------------------
@@ -422,7 +422,7 @@ ideas = {
 			picture = fel_conduits
 
 			modifier = {
-                army_org_factor = 0.1
+                army_org_factor = 0.05
 			}
 		}
         
@@ -443,7 +443,7 @@ ideas = {
 			picture = plague_of_undeath
 
 			modifier = {
-                conscription_factor = -0.5
+                conscription_factor = -0.25
                 death_drift = 0.25
 			}
 		}
@@ -483,7 +483,7 @@ ideas = {
 			picture = ancestral_wisdom
 
 			modifier = {
-                terrain_penalty_reduction = 0.5
+                terrain_penalty_reduction = 0.05
 			}
 		}
         
@@ -501,7 +501,7 @@ ideas = {
 			picture = spirit_of_the_wilds
 
 			modifier = {
-                army_attack_factor = 0.1
+                army_attack_factor = 0.05
 			}
 		}
         
@@ -539,7 +539,7 @@ ideas = {
 			picture = gift_of_niuzao
 
 			modifier = {
-                military_leader_cost_factor = -0.5
+                military_leader_cost_factor = -0.25
 			}
 		}
         gift_of_chiji = {
@@ -556,7 +556,7 @@ ideas = {
 			picture = gift_of_chiji
 
 			modifier = {
-                production_speed_buildings_factor = 0.25
+                production_speed_buildings_factor = 0.1
 			}
 		}
         gift_of_xuen = {
@@ -573,7 +573,7 @@ ideas = {
 			picture = gift_of_xuen
 
 			modifier = {
-                justify_war_goal_time = -0.25
+                justify_war_goal_time = -0.1
 			}
 		}
         
@@ -591,7 +591,7 @@ ideas = {
 			picture = wisdom_of_yulon
 
 			modifier = {
-                political_power_factor = 0.25
+                political_power_factor = 0.1
 			}
 		}
         wisdom_of_niuzao = {
@@ -608,7 +608,7 @@ ideas = {
 			picture = wisdom_of_niuzao
 
 			modifier = {
-                stability_weekly_factor = 0.25
+                stability_weekly_factor = 0.1
 			}
 		}
         wisdom_of_chiji = {
@@ -625,7 +625,7 @@ ideas = {
 			picture = wisdom_of_chiji
 
 			modifier = {
-                justify_war_goal_time = -0.25
+                justify_war_goal_time = -0.1
 			}
 		}
         wisdom_of_xuen = {
@@ -642,7 +642,7 @@ ideas = {
 			picture = wisdom_of_xuen
 
 			modifier = {
-                war_support_weekly_factor = 0.25
+                war_support_weekly_factor = 0.1
 			}
 		}
         
@@ -660,7 +660,7 @@ ideas = {
 			picture = fury_of_yulon
 
 			modifier = {
-                army_org_factor = 0.1
+                army_org_factor = 0.05
 			}
 		}
         fury_of_niuzao = {
@@ -677,7 +677,7 @@ ideas = {
 			picture = fury_of_niuzao
 
 			modifier = {
-                army_defence_factor = 0.1
+                army_defence_factor = 0.05
 			}
 		}
         fury_of_chiji = {
@@ -694,7 +694,7 @@ ideas = {
 			picture = fury_of_chiji
 
 			modifier = {
-                army_speed_factor = 0.1
+                army_speed_factor = 0.05
 			}
 		}
         fury_of_xuen = {
@@ -711,7 +711,7 @@ ideas = {
 			picture = fury_of_xuen
 
 			modifier = {
-                army_attack_factor = 0.1
+                army_attack_factor = 0.05
 			}
 		}
         
@@ -732,7 +732,7 @@ ideas = {
 			picture = titanic_knowledge
 
 			modifier = {
-                army_attack_factor = 0.1
+                army_attack_factor = 0.05
 			}
 		}
         
@@ -750,7 +750,7 @@ ideas = {
 			picture = titan_blessing
 
 			modifier = {
-                army_defence_factor = 0.1
+                army_defence_factor = 0.05
 			}
 		}
         
@@ -771,7 +771,7 @@ ideas = {
 			picture = bond_of_fire
 
 			modifier = {
-                army_org_factor = 0.1
+                army_org_factor = 0.05
 			}
 		}
         
@@ -789,7 +789,7 @@ ideas = {
 			picture = ragnaros_favour
 
 			modifier = {
-                mobilization_speed = 0.1
+                mobilization_speed = 0.05
 			}
 		}
         
@@ -807,7 +807,7 @@ ideas = {
 			picture = flame_weaponry
 
 			modifier = {
-                army_attack_factor = 0.1
+                army_attack_factor = 0.05
 			}
 		}
         
@@ -828,7 +828,7 @@ ideas = {
 			picture = bond_of_earth
 
 			modifier = {
-                army_org_factor = 0.1
+                army_org_factor = 0.05
 			}
 		}
         
@@ -846,7 +846,7 @@ ideas = {
 			picture = therazane_favour
 
 			modifier = {
-                mobilization_speed = 0.1
+                mobilization_speed = 0.05
 			}
 		}
         
@@ -864,7 +864,7 @@ ideas = {
 			picture = rock_weaponry
 
 			modifier = {
-                army_defence_factor = 0.1
+                army_defence_factor = 0.05
 			}
 		}
         
@@ -885,7 +885,7 @@ ideas = {
 			picture = bond_of_wind
 
 			modifier = {
-                army_org_factor = 0.1
+                army_org_factor = 0.05
 			}
 		}
         
@@ -903,7 +903,7 @@ ideas = {
 			picture = alakir_favour
 
 			modifier = {
-                mobilization_speed = 0.1
+                mobilization_speed = 0.05
 			}
 		}
         
@@ -921,7 +921,7 @@ ideas = {
 			picture = wind_weaponry
 
 			modifier = {
-                army_speed_factor = 0.1
+                army_speed_factor = 0.05
 			}
 		}
         
@@ -942,7 +942,7 @@ ideas = {
 			picture = bond_of_water
 
 			modifier = {
-                army_org_factor = 0.1
+                army_org_factor = 0.05
 			}
 		}
         
@@ -960,7 +960,7 @@ ideas = {
 			picture = neptulon_favour
 
 			modifier = {
-                mobilization_speed = 0.1
+                mobilization_speed = 0.05
 			}
 		}
         
@@ -978,7 +978,7 @@ ideas = {
 			picture = water_weaponry
 
 			modifier = {
-                army_morale_factor = 0.1
+                army_morale_factor = 0.05
 			}
 		}
         
@@ -999,7 +999,7 @@ ideas = {
 			picture = bond_of_the_elements
 
 			modifier = {
-                army_attack_factor = 0.1
+                army_attack_factor = 0.05
 			}
 		}
         
@@ -1017,7 +1017,7 @@ ideas = {
 			picture = primal_connection
 
 			modifier = {
-                army_morale_factor = 0.1
+                army_morale_factor = 0.05
 			}
 		}
         
@@ -1038,7 +1038,7 @@ ideas = {
 			picture = blessing_of_the_naaru
 
 			modifier = {
-                army_defence_factor = 0.1
+                army_defence_factor = 0.05
 			}
 		}
         
@@ -1056,7 +1056,7 @@ ideas = {
 			picture = wisdom_of_the_naaru
 
 			modifier = {
-                army_org_factor = 0.1
+                army_org_factor = 0.05
 			}
 		}
         
@@ -1077,7 +1077,7 @@ ideas = {
 			picture = blessing_of_alexstrasza
 
 			modifier = {
-                army_org_factor = 0.1
+                army_org_factor = 0.05
 			}
 		}
         
@@ -1095,7 +1095,7 @@ ideas = {
 			picture = blessing_of_ysera
 
 			modifier = {
-                army_org_factor = 0.1
+                army_org_factor = 0.05
 			}
 		}
         
@@ -1113,7 +1113,7 @@ ideas = {
 			picture = blessing_of_neltharion
 
 			modifier = {
-                army_org_factor = 0.1
+                army_org_factor = 0.05
 			}
 		}
         
@@ -1131,7 +1131,7 @@ ideas = {
 			picture = blessing_of_malygos
 
 			modifier = {
-                army_org_factor = 0.1
+                army_org_factor = 0.05
 			}
 		}
         
@@ -1149,7 +1149,7 @@ ideas = {
 			picture = power_of_alexstrasza
 
 			modifier = {
-                army_attack_factor = 0.1
+                army_attack_factor = 0.05
 			}
 		}
         
@@ -1167,7 +1167,7 @@ ideas = {
 			picture = power_of_ysera
 
 			modifier = {
-                army_attack_factor = 0.1
+                army_attack_factor = 0.05
 			}
 		}
         
@@ -1185,7 +1185,7 @@ ideas = {
 			picture = power_of_neltharion
 
 			modifier = {
-                army_attack_factor = 0.1
+                army_attack_factor = 0.05
 			}
 		}
         
@@ -1203,7 +1203,7 @@ ideas = {
 			picture = power_of_malygos
 
 			modifier = {
-                army_attack_factor = 0.1
+                army_attack_factor = 0.05
 			}
 		}
         
@@ -1224,7 +1224,7 @@ ideas = {
 			picture = innovation_wave
 
 			modifier = {
-                research_speed_factor = 0.1
+                research_speed_factor = 0.05
 			}
 		}
         
@@ -1242,7 +1242,7 @@ ideas = {
 			picture = engineer_insights
 
 			modifier = {
-                political_power_gain = 2
+                political_power_gain = 0.5
 			}
 		}
         
@@ -1263,7 +1263,7 @@ ideas = {
 			picture = power_of_money
 
 			modifier = {
-                training_time_army_factor = -0.2
+                training_time_army_factor = -0.1
 			}
 		}
         
@@ -1306,7 +1306,7 @@ ideas = {
 			picture = ceremonial_horn
 
 			modifier = {
-                mobilization_speed = 0.1
+                mobilization_speed = 0.05
 			}
 		}
     }

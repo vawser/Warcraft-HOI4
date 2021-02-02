@@ -3,6 +3,7 @@ technologies = {
     # heavy_tank
     #-----------------------------------------------------------------
     heavy_tank_tech_1 = {
+		start_year = 592
         enable_subunits = {
             heavy_tank
         }
@@ -65,6 +66,7 @@ technologies = {
     }
     
     heavy_tank_tech_2 = {
+		start_year = 592
         # Modifier
         heavy_tank = {
             build_cost_ic = -0.1
@@ -114,6 +116,7 @@ technologies = {
     }
     
     heavy_tank_tech_3 = {
+		start_year = 593
         enable_equipments = {
             heavy_tank_equipment_2
         }
@@ -177,6 +180,7 @@ technologies = {
     }
 
     heavy_tank_tech_3_side_1 = {
+		start_year = 593
         # Modifier
         heavy_tank = {
             soft_attack = 0.1
@@ -228,6 +232,7 @@ technologies = {
     }
     
     heavy_tank_tech_3_side_2 = {
+		start_year = 593
         # Modifier
         heavy_tank = {
             armor_value = 0.1
@@ -279,6 +284,7 @@ technologies = {
     }
     
     heavy_tank_tech_4 = {
+		start_year = 594
         # Modifier
         heavy_tank = {
             reliability = 0.1
@@ -328,6 +334,7 @@ technologies = {
     }
     
     heavy_tank_tech_5 = {
+		start_year = 595
         enable_equipments = {
             heavy_tank_equipment_3
         }
@@ -383,6 +390,7 @@ technologies = {
     }
     
     heavy_tank_tech_6 = {
+		start_year = 596
         # Modifier
         heavy_tank = {
             default_morale = 0.25
@@ -432,6 +440,7 @@ technologies = {
     }
     
     heavy_tank_tech_7 = {
+		start_year = 597
         enable_equipments = {
             heavy_tank_equipment_4
         }
@@ -495,6 +504,7 @@ technologies = {
     }
     
     heavy_tank_tech_7_side_1 = {
+		start_year = 597
         # Modifier
         heavy_tank = {
             soft_attack = 0.1
@@ -546,6 +556,7 @@ technologies = {
     }
     
     heavy_tank_tech_7_side_2 = {
+		start_year = 597
         # Modifier
         heavy_tank = {
             armor_value = 0.1
@@ -596,6 +607,7 @@ technologies = {
     }
     
     heavy_tank_tech_8 = {
+		start_year = 598
         # Modifier
         heavy_tank = {
             max_organisation = 10
@@ -645,6 +657,7 @@ technologies = {
     }
     
     heavy_tank_tech_9 = {
+		start_year = 599
         enable_equipments = {
             heavy_tank_equipment_5
         }
@@ -700,6 +713,7 @@ technologies = {
     }
     
     heavy_tank_tech_capstone = {
+		start_year = 600
         # Modifier
         breakthrough_factor = 0.05
         

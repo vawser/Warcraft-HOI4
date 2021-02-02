@@ -17,8 +17,8 @@
  wm_continuous_war_support: "War Support"
  wm_continuous_war_support_desc: "By focusing on war support, we can make our nation war-ready."
 
- wm_continuous_political_power: "Political Skill"
- wm_continuous_political_power_desc: "By focusing on our political skill, we can more readily command our armies."
+ wm_continuous_research_speed: "Research Speed"
+ wm_continuous_research_speed_desc: "By focusing on our research, we can more readily discover new advancements."
  
  wm_continuous_command_power: "Command Skill"
  wm_continuous_command_power_desc: "By focusing on our command skill, we can more readily command our armies."

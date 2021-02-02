@@ -3,6 +3,7 @@ technologies = {
     # war_engine
     #-----------------------------------------------------------------
     war_engine_tech_1 = {
+		start_year = 592
         enable_subunits = {
             war_engine
         }
@@ -44,6 +45,7 @@ technologies = {
     }
     
     war_engine_tech_2 = {
+		start_year = 592
         # Modifier
         war_engine = {
             build_cost_ic = -0.1
@@ -83,6 +85,7 @@ technologies = {
     }
     
     war_engine_tech_3 = {
+		start_year = 593
         enable_equipments = {
             war_engine_equipment_2
         }
@@ -136,6 +139,7 @@ technologies = {
     }
 
     war_engine_tech_3_side_1 = {
+		start_year = 593
         # Modifier
         war_engine = {
             soft_attack = 0.1
@@ -177,6 +181,7 @@ technologies = {
     }
     
     war_engine_tech_3_side_2 = {
+		start_year = 593
         # Modifier
         war_engine = {
             combat_width = -0.5
@@ -218,6 +223,7 @@ technologies = {
     }
     
     war_engine_tech_4 = {
+		start_year = 594
         # Modifier
         war_engine = {
             reliability = 0.1
@@ -257,6 +263,7 @@ technologies = {
     }
     
     war_engine_tech_5 = {
+		start_year = 595
         enable_equipments = {
             war_engine_equipment_3
         }
@@ -302,6 +309,7 @@ technologies = {
     }
     
     war_engine_tech_6 = {
+		start_year = 596
         # Modifier
         war_engine = {
             default_morale = 0.25
@@ -341,6 +349,7 @@ technologies = {
     }
     
     war_engine_tech_7 = {
+		start_year = 597
         enable_equipments = {
             war_engine_equipment_4
         }
@@ -394,6 +403,7 @@ technologies = {
     }
     
     war_engine_tech_7_side_1 = {
+		start_year = 597
         # Modifier
         war_engine = {
             soft_attack = 0.1
@@ -435,6 +445,7 @@ technologies = {
     }
     
     war_engine_tech_7_side_2 = {
+		start_year = 597
         # Modifier
         war_engine = {
             combat_width = -0.5
@@ -475,6 +486,7 @@ technologies = {
     }
     
     war_engine_tech_8 = {
+		start_year = 598
         # Modifier
         war_engine = {
             max_organisation = 10
@@ -514,6 +526,7 @@ technologies = {
     }
     
     war_engine_tech_9 = {
+		start_year = 599
         enable_equipments = {
             war_engine_equipment_5
         }
@@ -559,6 +572,7 @@ technologies = {
     }
     
     war_engine_tech_capstone = {
+		start_year = 600
         # Modifier
         army_org_factor = 0.05
         

@@ -3,6 +3,7 @@ technologies = {
     # Special Forces
     #---------------------------------------
     marine_tech_1 = {
+		start_year = 592
         enable_subunits = {
             marine
         }
@@ -32,6 +33,7 @@ technologies = {
 		}
     }
     marine_tech_2 = {
+		start_year = 593
         marine = {
             max_organisation = 10
         }
@@ -61,6 +63,7 @@ technologies = {
 		}
     }
     marine_tech_capstone = {
+		start_year = 594
         invasion_preparation = -0.1
         
         xp_research_type = army
@@ -89,6 +92,7 @@ technologies = {
     }
     
     mountaineer_tech_1 = {
+		start_year = 592
         enable_subunits = {
             mountaineers
         }
@@ -118,6 +122,7 @@ technologies = {
 		}
     }
     mountaineer_tech_2 = {
+		start_year = 593
         mountaineers = {
             max_organisation = 10
         }
@@ -147,6 +152,7 @@ technologies = {
 		}
     }
     mountaineer_tech_capstone = {
+		start_year = 594
         terrain_penalty_reduction = 0.1
         
         xp_research_type = army
@@ -175,6 +181,7 @@ technologies = {
     }
     
     paratrooper_tech_1 = {
+		start_year = 592
         enable_subunits = {
             paratrooper
         }
@@ -204,6 +211,7 @@ technologies = {
 		}
     }
     paratrooper_tech_2 = {
+		start_year = 593
         paratrooper = {
             max_organisation = 10
         }
@@ -233,6 +241,7 @@ technologies = {
 		}
     }
     paratrooper_tech_capstone = {
+		start_year = 594
         out_of_supply_factor = -0.1
         
         xp_research_type = army
@@ -261,6 +270,7 @@ technologies = {
     }
     
     attrition_tech_1 = {
+		start_year = 595
         attrition = -0.05
         
         xp_research_type = army
@@ -293,6 +303,7 @@ technologies = {
     }
     
     heat_attrition_tech_1 = {
+		start_year = 596
         heat_attrition_factor = -0.1
         acclimatization_hot_climate_gain_factor = 0.1
         
@@ -319,6 +330,7 @@ technologies = {
     }
     
     winter_attrition_tech_1 = {
+		start_year = 596
         winter_attrition_factor = -0.1
         acclimatization_cold_climate_gain_factor = 0.1
         

@@ -191,6 +191,13 @@ focus_tree = {
         
         ai_will_do = {
             factor = 5
+            
+            # Make this is last priority until the AI has built up a bit
+            modifier = {
+                factor = 0.01
+                
+                NOT = { has_completed_focus = TTH_azeroth_supply_lines }
+            }
         } 
 	}
     focus = {

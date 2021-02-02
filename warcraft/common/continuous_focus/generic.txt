@@ -11,27 +11,21 @@ continuous_focus_palette = {
 	position = { x = 10 y = 0 }
 
     #--------------------------------------------
-    # Political Power
+    # Research Speed
     #--------------------------------------------
     focus = {
-		id = wm_continuous_political_power
+		id = wm_continuous_research_speed
 		
 		icon = GFX_goal_political_power
 		
 		available = { }
 		
 		modifier = {
-			political_power_gain = 1
+			research_speed_factor = 0.1
 		}
 		
 		ai_will_do = {
 			factor = 1
-            
-            modifier = {
-                factor = 0
-                
-                has_political_power > 200
-            }
 		}
 
 		daily_cost = 0
@@ -494,7 +488,7 @@ continuous_focus_palette = {
 		}
 
 		modifier = {
-			subjects_autonomy_gain = -0.5
+			subjects_autonomy_gain = 0.5
 		}
 		
 		ai_will_do = {

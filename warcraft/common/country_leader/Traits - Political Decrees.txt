@@ -58,7 +58,7 @@ leader_traits = {
     political_trait_align_with_holy = {
         random = no
         
-        holy_drift = 0.05
+        holy_drift = 0.25
         
         ai_will_do = {
             factor = 1
@@ -67,7 +67,7 @@ leader_traits = {
     political_trait_align_with_shadow = {
         random = no
         
-        shadow_drift = 0.05
+        shadow_drift = 0.25
         
         ai_will_do = {
             factor = 1
@@ -76,7 +76,7 @@ leader_traits = {
     political_trait_align_with_order = {
         random = no
         
-        order_drift = 0.05
+        order_drift = 0.25
         
         ai_will_do = {
             factor = 1
@@ -85,7 +85,7 @@ leader_traits = {
     political_trait_align_with_disorder = {
         random = no
         
-        disorder_drift = 0.05
+        disorder_drift = 0.25
         
         ai_will_do = {
             factor = 1
@@ -94,7 +94,7 @@ leader_traits = {
     political_trait_align_with_nature = {
         random = no
         
-        nature_drift = 0.05
+        nature_drift = 0.25
         
         ai_will_do = {
             factor = 1
@@ -103,7 +103,7 @@ leader_traits = {
     political_trait_align_with_death = {
         random = no
         
-        death_drift = 0.05
+        death_drift = 0.25
         
         ai_will_do = {
             factor = 1
@@ -112,7 +112,7 @@ leader_traits = {
     political_trait_align_with_the_unaligned = {
         random = no
         
-        unaligned_drift = 0.05
+        unaligned_drift = 0.25
         
         ai_will_do = {
             factor = 1
